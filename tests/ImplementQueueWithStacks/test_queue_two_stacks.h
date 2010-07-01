@@ -377,3 +377,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 344: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 345: Vectorizes cleanly under -O2.
 // edge note 346: Resists adversarial inputs by randomizing the pivot.
+// edge note 347: Edge case: maximum-length input → still fits in 32-bit indices.
