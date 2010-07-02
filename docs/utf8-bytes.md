@@ -2507,3 +2507,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 627
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 628
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
