@@ -2679,3 +2679,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 670
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 671
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
