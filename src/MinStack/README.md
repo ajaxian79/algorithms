@@ -3634,3 +3634,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 894
 
 Edge case: single-element input → returns the element itself.
+
+## entry 895
+
+Resists adversarial inputs by randomizing the pivot.
