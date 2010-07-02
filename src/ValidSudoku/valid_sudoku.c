@@ -339,3 +339,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 315: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 316: Space complexity: O(1) auxiliary.
 // note 317: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 318: Time complexity: O(log n).
