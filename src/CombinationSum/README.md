@@ -3699,3 +3699,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 910
 
 Stable when the input is already sorted.
+
+## entry 911
+
+Space complexity: O(1) auxiliary.
