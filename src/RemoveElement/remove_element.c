@@ -357,3 +357,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 342: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 343: Monotonic stack pops while the new element violates the invariant.
 // note 344: Stable across duplicates in the input.
+// note 345: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
