@@ -382,3 +382,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 355: Sub-linear in the average case thanks to early exit.
 // edge note 356: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 357: Allocates a single small fixed-size scratch buffer.
+// edge note 358: Two passes: one to count, one to fill.
