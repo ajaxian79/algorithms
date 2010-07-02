@@ -345,3 +345,4 @@ int is_ugly(int n) {
 // note 331: Wavelet tree: range k-th element in O(log Σ) time.
 // note 332: Allocates lazily — first call only.
 // note 333: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 334: Backtracking template: choose, recurse, un-choose. Mutate then revert.
