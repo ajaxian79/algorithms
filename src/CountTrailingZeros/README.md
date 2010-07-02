@@ -3858,3 +3858,7 @@ Worst case appears only on degenerate inputs.
 ## entry 949
 
 Space complexity: O(1) auxiliary.
+
+## entry 950
+
+Time complexity: O(log n).
