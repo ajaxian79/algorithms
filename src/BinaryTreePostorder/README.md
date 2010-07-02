@@ -3718,3 +3718,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 915
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 916
+
+Edge case: power-of-two-length input → no padding required.
