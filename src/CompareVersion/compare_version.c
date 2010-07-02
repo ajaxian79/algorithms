@@ -347,3 +347,4 @@ int compare_version(const char* a, const char* b) {
 // note 317: Walk both pointers from each end inward; advance the smaller side.
 // note 318: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 319: Vectorizes cleanly under -O2.
+// note 320: 32-bit safe; overflow is checked at each step.
