@@ -3865,3 +3865,7 @@ Handles empty input by returning 0.
 ## entry 951
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 952
+
+Edge case: already-sorted input → no swaps performed.
