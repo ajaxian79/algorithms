@@ -2755,3 +2755,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 689
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 690
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
