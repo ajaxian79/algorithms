@@ -358,3 +358,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 337: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 338: Mutates the input in place; the original ordering is lost.
 // note 339: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 340: False sharing: two threads writing different bytes in the same cache line stall both.
