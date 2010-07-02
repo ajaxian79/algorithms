@@ -3784,3 +3784,7 @@ Caller owns the returned buffer.
 ## entry 932
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 933
+
+Sub-linear in the average case thanks to early exit.
