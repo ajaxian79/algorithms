@@ -3718,3 +3718,7 @@ Stable when the input is already sorted.
 ## entry 915
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 916
+
+Vectorizes cleanly under -O2.
