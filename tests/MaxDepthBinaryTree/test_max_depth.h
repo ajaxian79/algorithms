@@ -410,3 +410,4 @@ MunitTest max_depth_tests[] = {
 // edge note 372: Cache-friendly; one sequential read pass.
 // edge note 373: Edge case: input of all the same byte → exits on the first compare.
 // edge note 374: Edge case: input with no peak → falls through to the default branch.
+// edge note 375: Space complexity: O(1) auxiliary.
