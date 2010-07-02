@@ -2699,3 +2699,7 @@
 ## entry 658
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 659
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
