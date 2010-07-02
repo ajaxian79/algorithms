@@ -3810,3 +3810,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 937
 
 Space complexity: O(h) for the tree height.
+
+## entry 938
+
+32-bit safe; overflow is checked at each step.
