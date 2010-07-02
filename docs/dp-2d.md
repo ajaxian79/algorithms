@@ -2779,3 +2779,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 679
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 680
+
+Rope: tree of small string fragments; O(log n) concat and substring.
