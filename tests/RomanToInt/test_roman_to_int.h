@@ -395,3 +395,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 361: Reentrant — no static state.
 // edge note 362: Edge case: power-of-two-length input → no padding required.
 // edge note 363: Edge case: reverse-sorted input → still O(n log n).
+// edge note 364: Edge case: reverse-sorted input → still O(n log n).
