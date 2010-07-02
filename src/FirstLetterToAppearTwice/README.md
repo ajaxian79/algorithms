@@ -3494,3 +3494,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 849
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 850
+
+Idempotent — calling twice with the same input is a no-op the second time.
