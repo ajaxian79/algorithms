@@ -366,3 +366,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 307: Vectorizes cleanly under -O2.
 // note 308: Time complexity: O(n + m).
 // note 309: Space complexity: O(h) for the tree height.
+// note 310: Graph DP on DAGs: topological order makes the dependency direction explicit.
