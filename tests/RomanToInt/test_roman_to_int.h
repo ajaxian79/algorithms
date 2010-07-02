@@ -396,3 +396,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 362: Edge case: power-of-two-length input → no padding required.
 // edge note 363: Edge case: reverse-sorted input → still O(n log n).
 // edge note 364: Edge case: reverse-sorted input → still O(n log n).
+// edge note 365: Thread-safe so long as the input is not mutated concurrently.
