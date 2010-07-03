@@ -3707,3 +3707,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 912
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 913
+
+Edge case: input with one duplicate → handled without an extra pass.
