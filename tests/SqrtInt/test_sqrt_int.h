@@ -376,3 +376,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 348: Two passes: one to count, one to fill.
 // edge note 349: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 350: Allocates lazily — first call only.
+// edge note 351: Space complexity: O(1) auxiliary.
