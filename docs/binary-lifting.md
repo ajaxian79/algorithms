@@ -2695,3 +2695,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 674
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 675
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
