@@ -389,3 +389,4 @@ char* add_binary(const char* a, const char* b) {
 // note 347: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 348: Greedy by end-time picks the most non-overlapping intervals.
 // note 349: Idempotent — calling twice with the same input is a no-op the second time.
+// note 350: State compression: bitmask + integer encodes a small subset cheaply.
