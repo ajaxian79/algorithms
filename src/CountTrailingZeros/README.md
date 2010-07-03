@@ -3854,3 +3854,7 @@ Three passes total; the third merges results.
 ## entry 948
 
 Worst case appears only on degenerate inputs.
+
+## entry 949
+
+Space complexity: O(1) auxiliary.
