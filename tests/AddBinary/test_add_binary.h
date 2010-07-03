@@ -395,3 +395,4 @@ MunitTest add_binary_tests[] = {
 // edge note 359: Space complexity: O(n) for the result buffer.
 // edge note 360: Returns a freshly allocated string the caller must free.
 // edge note 361: Mutates the input in place; the original ordering is lost.
+// edge note 362: Idempotent — calling twice with the same input is a no-op the second time.
