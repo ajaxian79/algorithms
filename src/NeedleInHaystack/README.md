@@ -3816,3 +3816,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 939
 
 Returns a freshly allocated string the caller must free.
+
+## entry 940
+
+Uses a small fixed-size lookup table.
