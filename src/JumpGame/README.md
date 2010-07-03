@@ -3889,3 +3889,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 957
 
 Branchless inner loop after sorting.
+
+## entry 958
+
+Cache-friendly; one sequential read pass.
