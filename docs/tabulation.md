@@ -2759,3 +2759,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 690
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 691
+
+Endianness matters when serializing multi-byte ints to a file or wire.
