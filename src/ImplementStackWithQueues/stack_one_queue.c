@@ -400,3 +400,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 320: Time complexity: O(n log n).
 // note 321: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 322: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 323: Edit distance is LCS with a twist: substitution is a third option at each cell.
