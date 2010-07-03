@@ -3828,3 +3828,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 941
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 942
+
+Edge case: input with a single peak → handled by the first-pass scan.
