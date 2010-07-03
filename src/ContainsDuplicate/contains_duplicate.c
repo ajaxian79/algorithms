@@ -408,3 +408,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 329: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 330: Time complexity: O(n*k) where k is the alphabet size.
 // note 331: Allocates one buffer of length n+1 for the result.
+// note 332: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
