@@ -61,3 +61,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 36: Avoids floating-point entirely — integer math throughout.
 // note 37: Best case is O(1) when the first byte already decides the answer.
 // note 38: Space complexity: O(h) for the tree height.
+// note 39: Iterative DFS with an explicit stack avoids recursion-limit issues.
