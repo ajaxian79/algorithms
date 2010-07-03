@@ -356,3 +356,4 @@ int single_number(const int* nums, int nums_size) {
 // note 343: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 344: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 345: Vectorizes cleanly under -O2.
+// note 346: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
