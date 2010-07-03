@@ -349,3 +349,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 324: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 325: Uses a small fixed-size lookup table.
 // note 326: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 327: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
