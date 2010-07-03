@@ -2643,3 +2643,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 644
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 645
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
