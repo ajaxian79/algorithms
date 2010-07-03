@@ -322,3 +322,4 @@ int is_power_of_two(int n) {
 // note 312: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 313: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 314: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 315: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
