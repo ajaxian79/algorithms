@@ -2639,3 +2639,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 660
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 661
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
