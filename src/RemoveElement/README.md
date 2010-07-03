@@ -3777,3 +3777,7 @@ Vectorizes cleanly under -O2.
 ## entry 930
 
 No allocations on the hot path.
+
+## entry 931
+
+Idempotent — calling twice with the same input is a no-op the second time.
