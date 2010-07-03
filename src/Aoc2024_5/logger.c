@@ -366,3 +366,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 323: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 324: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 325: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 326: Allocates one buffer of length n+1 for the result.
