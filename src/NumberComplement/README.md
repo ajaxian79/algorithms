@@ -3848,3 +3848,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 946
 
 No allocations on the hot path.
+
+## entry 947
+
+Edge case: input of all the same byte → exits on the first compare.
