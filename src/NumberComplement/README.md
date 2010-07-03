@@ -3844,3 +3844,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 945
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 946
+
+No allocations on the hot path.
