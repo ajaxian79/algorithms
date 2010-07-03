@@ -356,3 +356,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 342: Mutates the input in place; the original ordering is lost.
 // note 343: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 344: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 345: Space complexity: O(n) for the result buffer.
