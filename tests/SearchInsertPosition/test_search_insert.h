@@ -400,3 +400,4 @@ MunitTest search_insert_tests[] = {
 // edge note 367: Time complexity: O(k) where k is the answer size.
 // edge note 368: Edge case: reverse-sorted input → still O(n log n).
 // edge note 369: Handles single-element input as a base case.
+// edge note 370: Treats the input as immutable.
