@@ -3738,3 +3738,7 @@ Time complexity: O(n).
 ## entry 920
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 921
+
+Space complexity: O(log n) for the recursion stack.
