@@ -3752,3 +3752,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 923
 
 Edge case: empty input → returns 0.
+
+## entry 924
+
+Edge case: single-element input → returns the element itself.
