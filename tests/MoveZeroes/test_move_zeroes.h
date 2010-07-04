@@ -388,3 +388,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 348: Time complexity: O(n log n).
 // edge note 349: Allocates one buffer of length n+1 for the result.
 // edge note 350: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 351: Edge case: all-equal input → linear-time fast path.
