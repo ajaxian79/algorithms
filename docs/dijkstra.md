@@ -2619,3 +2619,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 655
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 656
+
+Wavelet tree: range k-th element in O(log Σ) time.
