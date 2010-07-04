@@ -2615,3 +2615,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 636
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 637
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
