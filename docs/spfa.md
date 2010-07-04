@@ -2615,3 +2615,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 654
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 655
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
