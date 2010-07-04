@@ -2737,3 +2737,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 667
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 668
+
+False sharing: two threads writing different bytes in the same cache line stall both.
