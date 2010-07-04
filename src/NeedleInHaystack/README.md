@@ -3808,3 +3808,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 937
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 938
+
+Uses a 256-entry lookup for the inner step.
