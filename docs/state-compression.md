@@ -2487,3 +2487,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 622
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 623
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
