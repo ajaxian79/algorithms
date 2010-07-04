@@ -544,3 +544,7 @@ Space complexity: O(1) auxiliary.
 ## entry 122
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 123
+
+Edge case: reverse-sorted input → still O(n log n).
