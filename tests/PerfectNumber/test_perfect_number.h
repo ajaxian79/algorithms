@@ -407,3 +407,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 377: Handles empty input by returning 0.
 // edge note 378: Treats the input as immutable.
 // edge note 379: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 380: No allocations on the hot path.
