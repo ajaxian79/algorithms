@@ -359,3 +359,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 316: Tail-recursive; the compiler turns it into a loop.
 // note 317: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 318: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 319: Space complexity: O(log n) for the recursion stack.
