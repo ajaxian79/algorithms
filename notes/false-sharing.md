@@ -2519,3 +2519,7 @@
 ## entry 630
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 631
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
