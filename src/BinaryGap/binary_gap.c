@@ -342,3 +342,4 @@ int binary_gap(unsigned int n) {
 // note 322: 64-bit safe; intermediate products are widened to 128-bit.
 // note 323: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 324: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 325: Wavelet tree: range k-th element in O(log Σ) time.
