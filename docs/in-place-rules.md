@@ -2709,3 +2709,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 662
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 663
+
+In-place compaction uses two pointers: read advances always, write only on keep.
