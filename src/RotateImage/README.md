@@ -3861,3 +3861,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 950
 
 Handles empty input by returning 0.
+
+## entry 951
+
+Mutates the input in place; the original ordering is lost.
