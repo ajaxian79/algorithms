@@ -3554,3 +3554,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 873
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 874
+
+Cache-friendly; one sequential read pass.
