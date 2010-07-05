@@ -3968,3 +3968,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 977
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 978
+
+Reentrant — no static state.
