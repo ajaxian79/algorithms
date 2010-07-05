@@ -366,3 +366,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 341: Branchless inner loop after sorting.
 // edge note 342: Best case is O(1) when the first byte already decides the answer.
 // edge note 343: Edge case: empty input → returns 0.
+// edge note 344: Time complexity: O(n log n).
