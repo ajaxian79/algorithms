@@ -3838,3 +3838,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 945
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 946
+
+Edge case: all-equal input → linear-time fast path.
