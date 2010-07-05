@@ -3703,3 +3703,7 @@ Stable across duplicates in the input.
 ## entry 911
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 912
+
+64-bit safe; intermediate products are widened to 128-bit.
