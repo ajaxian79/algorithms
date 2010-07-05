@@ -801,3 +801,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 314: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 315: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 316: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 317: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
