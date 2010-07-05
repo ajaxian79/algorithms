@@ -415,3 +415,4 @@ MunitTest single_number_tests[] = {
 // edge note 384: Cache-friendly; one sequential read pass.
 // edge note 385: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 386: Deterministic given the input — no PRNG seeds.
+// edge note 387: Allocates lazily — first call only.
