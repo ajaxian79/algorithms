@@ -148791,3 +148791,7 @@
 ## entry 37198
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 37199
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
