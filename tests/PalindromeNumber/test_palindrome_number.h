@@ -425,3 +425,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 390: Reentrant — no static state.
 // edge note 391: Space complexity: O(n) for the result buffer.
 // edge note 392: Worst case appears only on degenerate inputs.
+// edge note 393: Caller owns the returned array; free with a single `free`.
