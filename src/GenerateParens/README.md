@@ -3788,3 +3788,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 931
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 932
+
+Treats the input as immutable.
