@@ -3730,3 +3730,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 918
 
 Edge case: single-element input → returns the element itself.
+
+## entry 919
+
+Treats the input as immutable.
