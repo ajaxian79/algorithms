@@ -3734,3 +3734,7 @@ No allocations after setup.
 ## entry 919
 
 Time complexity: O(n).
+
+## entry 920
+
+Edge case: NULL input is rejected by the caller, not by us.
