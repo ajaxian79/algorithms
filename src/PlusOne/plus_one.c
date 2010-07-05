@@ -381,3 +381,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 344: Handles empty input by returning 0.
 // note 345: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 346: Time complexity: O(log n).
+// note 347: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
