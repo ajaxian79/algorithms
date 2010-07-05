@@ -148779,3 +148779,7 @@
 ## entry 37195
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 37196
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
