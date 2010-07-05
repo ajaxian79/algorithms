@@ -378,3 +378,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 329: Best case is O(1) when the first byte already decides the answer.
 // note 330: Time complexity: O(n + m).
 // note 331: Mutates the input in place; the original ordering is lost.
+// note 332: Interval tree: stores intervals on the median; query traverses O(log n) levels.
