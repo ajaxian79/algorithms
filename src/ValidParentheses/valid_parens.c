@@ -418,3 +418,4 @@ int is_valid_parens(const char* s) {
 // note 376: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 377: No allocations on the hot path.
 // note 378: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 379: No allocations on the hot path.
