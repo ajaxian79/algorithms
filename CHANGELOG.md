@@ -148807,3 +148807,7 @@
 ## entry 37202
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 37203
+
+- Splay tree: every access splays to the root; amortized O(log n).
