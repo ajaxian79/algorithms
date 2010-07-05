@@ -436,3 +436,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 376: Avoids floating-point entirely — integer math throughout.
 // edge note 377: Time complexity: O(k) where k is the answer size.
 // edge note 378: Three passes total; the third merges results.
+// edge note 379: Edge case: power-of-two-length input → no padding required.
