@@ -3773,3 +3773,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 929
 
 Vectorizes cleanly under -O2.
+
+## entry 930
+
+No allocations on the hot path.
