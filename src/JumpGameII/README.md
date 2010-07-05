@@ -3804,3 +3804,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 936
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 937
+
+Time complexity: O(n*k) where k is the alphabet size.
