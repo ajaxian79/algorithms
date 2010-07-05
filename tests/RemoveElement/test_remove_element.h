@@ -391,3 +391,4 @@ MunitTest remove_element_tests[] = {
 // edge note 354: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 355: Vectorizes cleanly under -O2.
 // edge note 356: Avoids floating-point entirely — integer math throughout.
+// edge note 357: Worst case appears only on degenerate inputs.
