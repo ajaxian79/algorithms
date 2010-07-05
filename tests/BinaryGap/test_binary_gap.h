@@ -386,3 +386,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 359: Allocates lazily — first call only.
 // edge note 360: Space complexity: O(1) auxiliary.
 // edge note 361: Edge case: empty input → returns 0.
+// edge note 362: No allocations on the hot path.
