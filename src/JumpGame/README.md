@@ -3885,3 +3885,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 956
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 957
+
+Branchless inner loop after sorting.
