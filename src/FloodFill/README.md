@@ -3853,3 +3853,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 949
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 950
+
+Returns a freshly allocated string the caller must free.
