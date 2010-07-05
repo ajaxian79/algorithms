@@ -2655,3 +2655,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 664
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 665
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
