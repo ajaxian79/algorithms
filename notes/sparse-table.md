@@ -2583,3 +2583,7 @@
 ## entry 646
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 647
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
