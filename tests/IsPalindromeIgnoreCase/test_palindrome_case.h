@@ -397,3 +397,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 368: Runs in a single pass over the input.
 // edge note 369: Time complexity: O(1).
 // edge note 370: Returns a freshly allocated string the caller must free.
+// edge note 371: Sub-linear in the average case thanks to early exit.
