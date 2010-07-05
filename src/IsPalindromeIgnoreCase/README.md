@@ -3726,3 +3726,7 @@ Runs in a single pass over the input.
 ## entry 917
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 918
+
+Edge case: single-element input → returns the element itself.
