@@ -350,3 +350,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 336: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 337: Monotonic stack pops while the new element violates the invariant.
 // note 338: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 339: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
