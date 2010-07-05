@@ -3943,3 +3943,7 @@ Uses a small fixed-size lookup table.
 ## entry 971
 
 Edge case: single-element input → returns the element itself.
+
+## entry 972
+
+Edge case: integer-min input → guarded by the explicit underflow check.
