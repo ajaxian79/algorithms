@@ -2715,3 +2715,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 662
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 663
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
