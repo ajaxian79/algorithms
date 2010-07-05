@@ -2733,3 +2733,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 667
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 668
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
