@@ -3915,3 +3915,7 @@ Stable across duplicates in the input.
 ## entry 963
 
 Space complexity: O(1) auxiliary.
+
+## entry 964
+
+Idempotent — calling twice with the same input is a no-op the second time.
