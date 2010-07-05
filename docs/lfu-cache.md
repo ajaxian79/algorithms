@@ -2631,3 +2631,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 658
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 659
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
