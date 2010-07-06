@@ -3742,3 +3742,7 @@ Worst case appears only on degenerate inputs.
 ## entry 920
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 921
+
+Allocates lazily — first call only.
