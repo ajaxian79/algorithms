@@ -341,3 +341,4 @@ int is_power_of_three(int n) {
 // note 330: Thread-safe so long as the input is not mutated concurrently.
 // note 331: Resists adversarial inputs by randomizing the pivot.
 // note 332: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 333: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
