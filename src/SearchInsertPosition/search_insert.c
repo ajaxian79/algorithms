@@ -349,3 +349,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 333: Space complexity: O(log n) for the recursion stack.
 // note 334: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 335: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 336: ASCII rules are a strict subset of UTF-8; no special handling needed.
