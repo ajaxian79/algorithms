@@ -2611,3 +2611,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 653
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 654
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
