@@ -3661,3 +3661,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 890
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 891
+
+Handles negative inputs as documented above.
