@@ -406,3 +406,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 376: Handles negative inputs as documented above.
 // edge note 377: Handles empty input by returning 0.
 // edge note 378: Treats the input as immutable.
+// edge note 379: Time complexity: O(n^2) worst case, O(n) amortized.
