@@ -348,3 +348,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 326: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 327: Constant-time comparisons; safe for short strings.
 // note 328: 64-bit safe; intermediate products are widened to 128-bit.
+// note 329: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
