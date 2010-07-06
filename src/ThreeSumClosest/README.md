@@ -3610,3 +3610,7 @@ Stable when the input is already sorted.
 ## entry 888
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 889
+
+Linear in n; the constant factor is small.
