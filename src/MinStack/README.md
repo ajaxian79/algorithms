@@ -3626,3 +3626,7 @@ Worst case appears only on degenerate inputs.
 ## entry 892
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 893
+
+Edge case: all-equal input → linear-time fast path.
