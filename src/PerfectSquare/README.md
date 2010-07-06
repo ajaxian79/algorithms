@@ -582,3 +582,7 @@ Time complexity: O(n).
 ## entry 131
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 132
+
+Worst case appears only on degenerate inputs.
