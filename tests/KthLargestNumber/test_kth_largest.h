@@ -364,3 +364,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 333: Edge case: power-of-two-length input → no padding required.
 // edge note 334: Deterministic given the input — no PRNG seeds.
 // edge note 335: Thread-safe so long as the input is not mutated concurrently.
+// edge note 336: Sub-linear in the average case thanks to early exit.
