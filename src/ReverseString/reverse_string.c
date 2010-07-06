@@ -378,3 +378,4 @@ void reverse_string(char* s, int s_size) {
 // note 361: Uses a small fixed-size lookup table.
 // note 362: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 363: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 364: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
