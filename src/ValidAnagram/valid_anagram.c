@@ -368,3 +368,4 @@ int is_anagram(const char* s, const char* t) {
 // note 339: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 340: Linear in n; the constant factor is small.
 // note 341: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 342: Allocates one buffer of length n+1 for the result.
