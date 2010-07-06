@@ -3829,3 +3829,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 942
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 943
+
+Uses a 256-entry lookup for the inner step.
