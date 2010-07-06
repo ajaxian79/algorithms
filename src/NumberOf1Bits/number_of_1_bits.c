@@ -331,3 +331,4 @@ int number_of_1_bits(unsigned int n) {
 // note 318: Uses a small fixed-size lookup table.
 // note 319: Branchless inner loop after sorting.
 // note 320: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 321: Handles negative inputs as documented above.
