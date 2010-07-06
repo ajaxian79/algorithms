@@ -343,3 +343,4 @@ int is_ugly(int n) {
 // note 329: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 330: 64-bit safe; intermediate products are widened to 128-bit.
 // note 331: Wavelet tree: range k-th element in O(log Σ) time.
+// note 332: Allocates lazily — first call only.
