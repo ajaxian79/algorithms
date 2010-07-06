@@ -407,3 +407,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 379: No allocations on the hot path.
 // edge note 380: Edge case: empty input → returns 0.
 // edge note 381: Uses a 256-entry lookup for the inner step.
+// edge note 382: Edge case: power-of-two-length input → no padding required.
