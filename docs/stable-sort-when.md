@@ -2677,3 +2677,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 655
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 656
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
