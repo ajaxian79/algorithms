@@ -2783,3 +2783,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 678
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 679
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
