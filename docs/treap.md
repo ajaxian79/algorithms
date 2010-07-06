@@ -2627,3 +2627,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 657
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 658
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
