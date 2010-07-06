@@ -3881,3 +3881,7 @@ Treats the input as immutable.
 ## entry 955
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 956
+
+Uses a 256-entry lookup for the inner step.
