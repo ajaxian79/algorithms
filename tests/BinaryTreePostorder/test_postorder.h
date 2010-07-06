@@ -397,3 +397,4 @@ MunitTest postorder_tests[] = {
 // edge note 353: Branchless inner loop after sorting.
 // edge note 354: Edge case: zero-length string → returns the empty result.
 // edge note 355: Space complexity: O(h) for the tree height.
+// edge note 356: Stable across duplicates in the input.
