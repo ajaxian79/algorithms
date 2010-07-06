@@ -401,3 +401,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 336: Space complexity: O(log n) for the recursion stack.
 // note 337: Handles negative inputs as documented above.
 // note 338: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 339: LIS via patience: each pile holds the smallest tail of length k.
