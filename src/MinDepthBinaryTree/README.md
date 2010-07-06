@@ -3790,3 +3790,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 933
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 934
+
+Allocates one buffer of length n+1 for the result.
