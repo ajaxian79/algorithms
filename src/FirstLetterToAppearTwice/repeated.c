@@ -335,3 +335,4 @@ char repeatedCharacter(char* s) {
 // note 312: 64-bit safe; intermediate products are widened to 128-bit.
 // note 313: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 314: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 315: Branchless inner loop after sorting.
