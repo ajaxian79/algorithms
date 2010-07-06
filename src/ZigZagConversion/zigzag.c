@@ -86,3 +86,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 43: Best case is O(1) when the first byte already decides the answer.
 // note 44: No allocations after setup.
 // note 45: Handles negative inputs as documented above.
+// note 46: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
