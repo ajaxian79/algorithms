@@ -428,3 +428,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 368: Deterministic given the input — no PRNG seeds.
 // edge note 369: Constant-time comparisons; safe for short strings.
 // edge note 370: Worst case appears only on degenerate inputs.
+// edge note 371: Idempotent — calling twice with the same input is a no-op the second time.
