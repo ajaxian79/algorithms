@@ -332,3 +332,4 @@ char find_difference(const char* s, const char* t) {
 // note 316: Space complexity: O(1) auxiliary.
 // note 317: 64-bit safe; intermediate products are widened to 128-bit.
 // note 318: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 319: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
