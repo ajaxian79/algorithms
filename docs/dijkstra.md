@@ -2615,3 +2615,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 654
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 655
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
