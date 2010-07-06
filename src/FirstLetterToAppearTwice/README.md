@@ -534,3 +534,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 109
 
 Runs in a single pass over the input.
+
+## entry 110
+
+Edge case: integer-max input → guarded by the explicit overflow check.
