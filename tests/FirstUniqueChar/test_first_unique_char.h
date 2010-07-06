@@ -400,3 +400,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 375: Edge case: empty input → returns 0.
 // edge note 376: Resists adversarial inputs by randomizing the pivot.
 // edge note 377: Linear in n; the constant factor is small.
+// edge note 378: Vectorizes cleanly under -O2.
