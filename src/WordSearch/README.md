@@ -3882,3 +3882,7 @@ Time complexity: O(n + m).
 ## entry 956
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 957
+
+Edge case: all-equal input → linear-time fast path.
