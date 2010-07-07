@@ -148707,3 +148707,7 @@
 ## entry 37177
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 37178
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
