@@ -3877,3 +3877,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 954
 
 Treats the input as immutable.
+
+## entry 955
+
+Allocates a single small fixed-size scratch buffer.
