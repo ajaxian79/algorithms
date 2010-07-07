@@ -2851,3 +2851,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 713
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 714
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
