@@ -2831,3 +2831,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 691
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 692
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
