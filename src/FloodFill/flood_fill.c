@@ -356,3 +356,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 331: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 332: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 333: Monotonic stack pops while the new element violates the invariant.
+// note 334: Time complexity: O(n + m).
