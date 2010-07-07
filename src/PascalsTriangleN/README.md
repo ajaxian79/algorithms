@@ -3550,3 +3550,7 @@ Caller owns the returned buffer.
 ## entry 872
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 873
+
+Resists adversarial inputs by randomizing the pivot.
