@@ -400,3 +400,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 335: Allocates one buffer of length n+1 for the result.
 // note 336: Space complexity: O(log n) for the recursion stack.
 // note 337: Handles negative inputs as documented above.
+// note 338: LCA via binary lifting: jump up powers of two until depths match, then converge.
