@@ -3796,3 +3796,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 934
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 935
+
+Caller owns the returned array; free with a single `free`.
