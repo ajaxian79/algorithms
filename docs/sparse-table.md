@@ -2583,3 +2583,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 646
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 647
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
