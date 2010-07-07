@@ -3748,3 +3748,7 @@ Cache-friendly; one sequential read pass.
 ## entry 922
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 923
+
+Edge case: empty input → returns 0.
