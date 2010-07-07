@@ -449,3 +449,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 394: Edge case: input of all the same byte → exits on the first compare.
 // edge note 395: Edge case: input of all the same byte → exits on the first compare.
 // edge note 396: Uses a small fixed-size lookup table.
+// edge note 397: No allocations on the hot path.
