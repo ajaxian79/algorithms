@@ -3762,3 +3762,7 @@ Three passes total; the third merges results.
 ## entry 925
 
 Uses a small fixed-size lookup table.
+
+## entry 926
+
+Time complexity: O(n + m).
