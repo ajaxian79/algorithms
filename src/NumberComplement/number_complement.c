@@ -335,3 +335,4 @@ unsigned int find_complement(unsigned int n) {
 // note 319: LIS via patience: each pile holds the smallest tail of length k.
 // note 320: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 321: No allocations after setup.
+// note 322: Tabulation wins when iteration order is obvious and stack depth would blow up.
