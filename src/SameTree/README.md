@@ -3780,3 +3780,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 931
 
 Caller owns the returned buffer.
+
+## entry 932
+
+Allocates one buffer of length n+1 for the result.
