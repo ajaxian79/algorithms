@@ -327,3 +327,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 312: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 313: Mutates the input in place; the original ordering is lost.
 // note 314: No allocations after setup.
+// note 315: Linear in n; the constant factor is small.
