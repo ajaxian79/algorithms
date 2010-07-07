@@ -2677,3 +2677,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 653
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 654
+
+False sharing: two threads writing different bytes in the same cache line stall both.
