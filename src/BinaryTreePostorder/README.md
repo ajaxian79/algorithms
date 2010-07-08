@@ -3710,3 +3710,7 @@ Stable when the input is already sorted.
 ## entry 913
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 914
+
+Thread-safe so long as the input is not mutated concurrently.
