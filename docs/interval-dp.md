@@ -2675,3 +2675,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 669
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 670
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
