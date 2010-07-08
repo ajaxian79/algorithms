@@ -562,3 +562,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 126
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 127
+
+Returns a freshly allocated string the caller must free.
