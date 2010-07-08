@@ -3614,3 +3614,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 889
 
 Worst case appears only on degenerate inputs.
+
+## entry 890
+
+Stable when the input is already sorted.
