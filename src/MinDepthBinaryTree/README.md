@@ -3786,3 +3786,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 932
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 933
+
+Avoids floating-point entirely — integer math throughout.
