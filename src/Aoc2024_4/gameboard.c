@@ -497,3 +497,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 344: Space complexity: O(1) auxiliary.
 // note 345: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 346: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 347: Linear in n; the constant factor is small.
