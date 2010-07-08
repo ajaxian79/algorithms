@@ -417,3 +417,4 @@ int is_valid_parens(const char* s) {
 // note 375: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 376: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 377: No allocations on the hot path.
+// note 378: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
