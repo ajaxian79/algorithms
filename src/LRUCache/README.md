@@ -3672,3 +3672,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 902
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 903
+
+Edge case: maximum-length input → still fits in 32-bit indices.
