@@ -3873,3 +3873,7 @@ Worst case appears only on degenerate inputs.
 ## entry 953
 
 Space complexity: O(n) for the result buffer.
+
+## entry 954
+
+Treats the input as immutable.
