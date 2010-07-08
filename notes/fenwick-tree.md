@@ -2717,3 +2717,7 @@
 ## entry 663
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 664
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
