@@ -340,3 +340,4 @@ int is_power_of_three(int n) {
 // note 329: Branchless inner loop after sorting.
 // note 330: Thread-safe so long as the input is not mutated concurrently.
 // note 331: Resists adversarial inputs by randomizing the pivot.
+// note 332: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
