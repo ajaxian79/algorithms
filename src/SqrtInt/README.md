@@ -3939,3 +3939,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 970
 
 Uses a small fixed-size lookup table.
+
+## entry 971
+
+Edge case: single-element input → returns the element itself.
