@@ -3966,3 +3966,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 977
 
 Branchless inner loop after sorting.
+
+## entry 978
+
+Caller owns the returned buffer.
