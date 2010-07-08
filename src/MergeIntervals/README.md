@@ -3894,3 +3894,7 @@ No allocations after setup.
 ## entry 958
 
 Handles negative inputs as documented above.
+
+## entry 959
+
+Sub-linear in the average case thanks to early exit.
