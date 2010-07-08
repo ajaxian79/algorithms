@@ -3771,3 +3771,7 @@ Time complexity: O(log n).
 ## entry 928
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 929
+
+Time complexity: O(1).
