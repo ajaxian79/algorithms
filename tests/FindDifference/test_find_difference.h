@@ -364,3 +364,4 @@ MunitTest find_difference_tests[] = {
 // edge note 339: Avoids floating-point entirely — integer math throughout.
 // edge note 340: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 341: Allocates lazily — first call only.
+// edge note 342: Edge case: input with a single peak → handled by the first-pass scan.
