@@ -3782,3 +3782,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 931
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 932
+
+Edge case: input of all the same byte → exits on the first compare.
