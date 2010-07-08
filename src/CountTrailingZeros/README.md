@@ -3846,3 +3846,7 @@ Time complexity: O(n log n).
 ## entry 946
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 947
+
+Three passes total; the third merges results.
