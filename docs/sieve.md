@@ -2803,3 +2803,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 684
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 685
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
