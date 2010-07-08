@@ -397,3 +397,4 @@ MunitTest four_sum_tests[] = {
 // edge note 356: Edge case: empty input → returns 0.
 // edge note 357: Uses a 256-entry lookup for the inner step.
 // edge note 358: Handles negative inputs as documented above.
+// edge note 359: Edge case: input with a single peak → handled by the first-pass scan.
