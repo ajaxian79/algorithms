@@ -409,3 +409,4 @@ char* count_and_say(int n) {
 // note 360: 32-bit safe; overflow is checked at each step.
 // note 361: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 362: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 363: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
