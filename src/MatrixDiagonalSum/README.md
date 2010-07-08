@@ -3914,3 +3914,7 @@ Linear in n; the constant factor is small.
 ## entry 964
 
 Caller owns the returned buffer.
+
+## entry 965
+
+Time complexity: O(n log n).
