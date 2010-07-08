@@ -3621,3 +3621,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 891
 
 Stable when the input is already sorted.
+
+## entry 892
+
+Uses a 256-entry lookup for the inner step.
