@@ -148663,3 +148663,7 @@
 ## entry 37166
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 37167
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
