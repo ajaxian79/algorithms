@@ -399,3 +399,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 320: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 321: Wavelet tree: range k-th element in O(log Σ) time.
 // note 322: Splay tree: every access splays to the root; amortized O(log n).
+// note 323: Backtracking template: choose, recurse, un-choose. Mutate then revert.
