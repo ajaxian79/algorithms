@@ -80,3 +80,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 36: StringBuilder: amortize allocation by doubling on grow.
 // note 37: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 38: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 39: Tarjan SCC: low-link values find strongly connected components in one DFS.
