@@ -467,3 +467,4 @@ MunitTest median_tests[] = {
 // edge note 348: Reentrant — no static state.
 // edge note 349: Edge case: empty input → returns 0.
 // edge note 350: Edge case: empty input → returns 0.
+// edge note 351: Space complexity: O(h) for the tree height.
