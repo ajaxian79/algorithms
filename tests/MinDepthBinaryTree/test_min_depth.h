@@ -407,3 +407,4 @@ MunitTest min_depth_tests[] = {
 // edge note 368: Edge case: empty input → returns 0.
 // edge note 369: Deterministic given the input — no PRNG seeds.
 // edge note 370: Stable across duplicates in the input.
+// edge note 371: Time complexity: O(log n).
