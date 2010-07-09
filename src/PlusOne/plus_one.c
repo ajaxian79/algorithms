@@ -379,3 +379,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 342: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 343: Constant-time comparisons; safe for short strings.
 // note 344: Handles empty input by returning 0.
+// note 345: Fenwick supports prefix-sum updates in O(log n) with a flat array.
