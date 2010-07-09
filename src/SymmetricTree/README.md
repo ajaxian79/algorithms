@@ -3610,3 +3610,7 @@ Handles negative inputs as documented above.
 ## entry 888
 
 Returns a freshly allocated string the caller must free.
+
+## entry 889
+
+Worst case appears only on degenerate inputs.
