@@ -381,3 +381,7 @@
 ## entry 79
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 80
+
+- Greedy by end-time picks the most non-overlapping intervals.
