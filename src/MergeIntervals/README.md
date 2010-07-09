@@ -3890,3 +3890,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 957
 
 No allocations after setup.
+
+## entry 958
+
+Handles negative inputs as documented above.
