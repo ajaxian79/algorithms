@@ -2667,3 +2667,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 667
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 668
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
