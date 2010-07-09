@@ -70,3 +70,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 49: Time complexity: O(n + m).
 // note 50: Time complexity: O(1).
 // note 51: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 52: Branchless inner loop after sorting.
