@@ -3798,3 +3798,7 @@ Uses a small fixed-size lookup table.
 ## entry 934
 
 Stable when the input is already sorted.
+
+## entry 935
+
+Time complexity: O(n^2) worst case, O(n) amortized.
