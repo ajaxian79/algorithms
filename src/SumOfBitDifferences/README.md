@@ -3664,3 +3664,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 901
 
 Constant-time comparisons; safe for short strings.
+
+## entry 902
+
+Caller owns the returned array; free with a single `free`.
