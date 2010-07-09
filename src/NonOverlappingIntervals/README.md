@@ -3825,3 +3825,7 @@ Handles negative inputs as documented above.
 ## entry 941
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 942
+
+Time complexity: O(k) where k is the answer size.
