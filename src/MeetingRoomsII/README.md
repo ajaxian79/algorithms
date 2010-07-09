@@ -3758,3 +3758,7 @@ Time complexity: O(n).
 ## entry 924
 
 Three passes total; the third merges results.
+
+## entry 925
+
+Uses a small fixed-size lookup table.
