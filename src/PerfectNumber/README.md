@@ -3741,3 +3741,7 @@ Cache-friendly; one sequential read pass.
 ## entry 920
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 921
+
+Space complexity: O(n) for the result buffer.
