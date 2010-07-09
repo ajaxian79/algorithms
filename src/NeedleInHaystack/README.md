@@ -3804,3 +3804,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 936
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 937
+
+Edge case: alternating pattern → degenerate case for sliding window.
