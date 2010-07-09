@@ -359,3 +359,4 @@ int num_islands(char* grid, int m, int n) {
 // note 327: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 328: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 329: Uses a small fixed-size lookup table.
+// note 330: StringBuilder: amortize allocation by doubling on grow.
