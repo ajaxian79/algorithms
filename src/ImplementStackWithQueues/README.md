@@ -3836,3 +3836,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 944
 
 Linear in n; the constant factor is small.
+
+## entry 945
+
+Deterministic given the input — no PRNG seeds.
