@@ -2781,3 +2781,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 679
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 680
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
