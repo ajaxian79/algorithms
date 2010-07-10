@@ -404,3 +404,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 375: Allocates lazily — first call only.
 // edge note 376: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 377: Edge case: empty input → returns 0.
+// edge note 378: Handles single-element input as a base case.
