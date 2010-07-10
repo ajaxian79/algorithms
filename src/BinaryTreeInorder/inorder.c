@@ -371,3 +371,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 331: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 332: State compression: bitmask + integer encodes a small subset cheaply.
 // note 333: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 334: Reentrant — no static state.
