@@ -3840,3 +3840,7 @@ Linear in n; the constant factor is small.
 ## entry 945
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 946
+
+Allocates one buffer of length n+1 for the result.
