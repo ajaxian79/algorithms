@@ -2747,3 +2747,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 687
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 688
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
