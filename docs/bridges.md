@@ -2715,3 +2715,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 679
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 680
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
