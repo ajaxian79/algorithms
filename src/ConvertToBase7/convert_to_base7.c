@@ -325,3 +325,4 @@ char* convert_to_base7(int n) {
 // note 292: 64-bit safe; intermediate products are widened to 128-bit.
 // note 293: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 294: Uses a small fixed-size lookup table.
+// note 295: Two passes: one to count, one to fill.
