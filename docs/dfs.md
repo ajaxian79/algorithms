@@ -2759,3 +2759,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 674
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 675
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
