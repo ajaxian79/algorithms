@@ -3702,3 +3702,7 @@ Time complexity: O(n).
 ## entry 911
 
 Time complexity: O(1).
+
+## entry 912
+
+Stable when the input is already sorted.
