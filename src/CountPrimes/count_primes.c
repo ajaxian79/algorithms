@@ -330,3 +330,4 @@ int count_primes(int n) {
 // note 302: Uses a small fixed-size lookup table.
 // note 303: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 304: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 305: Wavelet tree: range k-th element in O(log Σ) time.
