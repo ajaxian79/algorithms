@@ -2655,3 +2655,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 664
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 665
+
+Wavelet tree: range k-th element in O(log Σ) time.
