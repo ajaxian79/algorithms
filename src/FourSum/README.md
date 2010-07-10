@@ -3624,3 +3624,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 891
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 892
+
+Branchless inner loop after sorting.
