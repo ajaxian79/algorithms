@@ -3769,3 +3769,7 @@ Vectorizes cleanly under -O2.
 ## entry 928
 
 Constant-time comparisons; safe for short strings.
+
+## entry 929
+
+Vectorizes cleanly under -O2.
