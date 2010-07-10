@@ -3738,3 +3738,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 919
 
 Worst case appears only on degenerate inputs.
+
+## entry 920
+
+Edge case: power-of-two-length input → no padding required.
