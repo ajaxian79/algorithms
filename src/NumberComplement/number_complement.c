@@ -334,3 +334,4 @@ unsigned int find_complement(unsigned int n) {
 // note 318: Time complexity: O(k) where k is the answer size.
 // note 319: LIS via patience: each pile holds the smallest tail of length k.
 // note 320: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 321: No allocations after setup.
