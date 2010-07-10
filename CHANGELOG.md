@@ -148623,3 +148623,7 @@
 ## entry 37156
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 37157
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
