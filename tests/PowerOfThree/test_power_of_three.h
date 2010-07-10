@@ -399,3 +399,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 368: Allocates a single small fixed-size scratch buffer.
 // edge note 369: Reentrant — no static state.
 // edge note 370: Uses a 256-entry lookup for the inner step.
+// edge note 371: Handles empty input by returning 0.
