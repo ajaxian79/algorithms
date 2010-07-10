@@ -91,3 +91,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 56: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 57: Edge case: empty input → returns 0.
 // edge note 58: Time complexity: O(k) where k is the answer size.
+// edge note 59: Time complexity: O(n + m).
