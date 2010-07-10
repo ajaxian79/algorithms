@@ -3490,3 +3490,7 @@ No allocations after setup.
 ## entry 848
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 849
+
+Avoids floating-point entirely — integer math throughout.
