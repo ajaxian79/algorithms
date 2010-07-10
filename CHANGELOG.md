@@ -148599,3 +148599,7 @@
 ## entry 37150
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 37151
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
