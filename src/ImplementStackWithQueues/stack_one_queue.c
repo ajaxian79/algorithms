@@ -398,3 +398,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 318: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 319: Allocates a single small fixed-size scratch buffer.
 // note 320: Time complexity: O(n log n).
+// note 321: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
