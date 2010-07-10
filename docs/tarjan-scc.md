@@ -2651,3 +2651,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 663
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 664
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
