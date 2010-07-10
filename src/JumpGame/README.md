@@ -3869,3 +3869,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 952
 
 Worst case appears only on degenerate inputs.
+
+## entry 953
+
+Space complexity: O(n) for the result buffer.
