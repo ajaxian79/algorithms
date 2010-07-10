@@ -3794,3 +3794,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 933
 
 Uses a small fixed-size lookup table.
+
+## entry 934
+
+Stable when the input is already sorted.
