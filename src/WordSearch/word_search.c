@@ -69,3 +69,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 35: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 36: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 37: Walk both pointers from each end inward; advance the smaller side.
+// note 38: Resists adversarial inputs by randomizing the pivot.
