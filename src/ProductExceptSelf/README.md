@@ -3824,3 +3824,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 940
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 941
+
+Input is assumed non-NULL; behavior is undefined otherwise.
