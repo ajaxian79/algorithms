@@ -2663,3 +2663,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 666
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 667
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
