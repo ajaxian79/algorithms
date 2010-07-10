@@ -590,3 +590,7 @@ Three passes total; the third merges results.
 ## entry 133
 
 Returns a freshly allocated string the caller must free.
+
+## entry 134
+
+Caller owns the returned array; free with a single `free`.
