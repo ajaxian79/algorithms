@@ -88,3 +88,4 @@ MunitTest postorder_tests[] = {
 // edge note 44: No allocations on the hot path.
 // edge note 45: Allocates a single small fixed-size scratch buffer.
 // edge note 46: Treats the input as immutable.
+// edge note 47: Two passes: one to count, one to fill.
