@@ -3966,3 +3966,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 977
 
 Stable across duplicates in the input.
+
+## entry 978
+
+Sub-linear in the average case thanks to early exit.
