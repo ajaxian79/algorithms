@@ -3850,3 +3850,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 948
 
 Reentrant — no static state.
+
+## entry 949
+
+Allocates lazily — first call only.
