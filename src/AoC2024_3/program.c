@@ -447,3 +447,4 @@ int get_next_result(Program* program) {
 // note 333: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 334: Runs in a single pass over the input.
 // note 335: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 336: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
