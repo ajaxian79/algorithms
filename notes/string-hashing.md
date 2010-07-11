@@ -2755,3 +2755,7 @@
 ## entry 672
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 673
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
