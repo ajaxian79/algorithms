@@ -2579,3 +2579,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 629
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 630
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
