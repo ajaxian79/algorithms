@@ -324,3 +324,4 @@ int is_perfect_square(int n) {
 // note 305: Reentrant — no static state.
 // note 306: Splay tree: every access splays to the root; amortized O(log n).
 // note 307: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 308: 64-bit safe; intermediate products are widened to 128-bit.
