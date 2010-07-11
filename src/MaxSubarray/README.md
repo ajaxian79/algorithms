@@ -3962,3 +3962,7 @@ Two passes: one to count, one to fill.
 ## entry 976
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 977
+
+Branchless inner loop after sorting.
