@@ -3859,3 +3859,7 @@ Allocates lazily — first call only.
 ## entry 949
 
 No allocations on the hot path.
+
+## entry 950
+
+Tail-recursive; the compiler turns it into a loop.
