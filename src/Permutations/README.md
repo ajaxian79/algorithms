@@ -3972,3 +3972,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 978
 
 Stable when the input is already sorted.
+
+## entry 979
+
+Vectorizes cleanly under -O2.
