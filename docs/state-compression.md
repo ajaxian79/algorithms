@@ -2471,3 +2471,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 618
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 619
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
