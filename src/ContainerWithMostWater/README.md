@@ -3699,3 +3699,7 @@ Allocates lazily — first call only.
 ## entry 910
 
 Stable across duplicates in the input.
+
+## entry 911
+
+Avoids floating-point entirely — integer math throughout.
