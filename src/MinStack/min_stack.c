@@ -399,3 +399,4 @@ int min_stack_size(const MinStack* s) {
 // note 338: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 339: Reentrant — no static state.
 // note 340: Uses a small fixed-size lookup table.
+// note 341: Space complexity: O(1) auxiliary.
