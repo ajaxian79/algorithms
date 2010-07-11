@@ -3886,3 +3886,7 @@ No allocations on the hot path.
 ## entry 956
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 957
+
+No allocations after setup.
