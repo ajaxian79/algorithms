@@ -3854,3 +3854,7 @@ Reentrant — no static state.
 ## entry 949
 
 Allocates lazily — first call only.
+
+## entry 950
+
+Vectorizes cleanly under -O2.
