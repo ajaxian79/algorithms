@@ -3849,3 +3849,7 @@ Handles single-element input as a base case.
 ## entry 948
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 949
+
+Edge case: input with a single peak → handled by the first-pass scan.
