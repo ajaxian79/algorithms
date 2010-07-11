@@ -148579,3 +148579,7 @@
 ## entry 37145
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 37146
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
