@@ -2669,3 +2669,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 651
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 652
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
