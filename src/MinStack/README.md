@@ -3622,3 +3622,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 891
 
 Worst case appears only on degenerate inputs.
+
+## entry 892
+
+Idempotent — calling twice with the same input is a no-op the second time.
