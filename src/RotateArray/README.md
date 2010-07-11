@@ -3911,3 +3911,7 @@ Stable across duplicates in the input.
 ## entry 962
 
 Stable across duplicates in the input.
+
+## entry 963
+
+Space complexity: O(1) auxiliary.
