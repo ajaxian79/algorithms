@@ -374,3 +374,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 346: Handles single-element input as a base case.
 // edge note 347: Time complexity: O(1).
 // edge note 348: Two passes: one to count, one to fill.
+// edge note 349: Idempotent — calling twice with the same input is a no-op the second time.
