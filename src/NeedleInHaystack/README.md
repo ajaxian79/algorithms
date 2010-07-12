@@ -3796,3 +3796,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 934
 
 Treats the input as immutable.
+
+## entry 935
+
+Edge case: NULL input is rejected by the caller, not by us.
