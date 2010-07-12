@@ -3857,3 +3857,7 @@ Allocates lazily — first call only.
 ## entry 949
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 950
+
+Handles empty input by returning 0.
