@@ -3874,3 +3874,7 @@ No allocations after setup.
 ## entry 953
 
 Time complexity: O(log n).
+
+## entry 954
+
+Vectorizes cleanly under -O2.
