@@ -3882,3 +3882,7 @@ Time complexity: O(n + m).
 ## entry 955
 
 No allocations on the hot path.
+
+## entry 956
+
+Space complexity: O(log n) for the recursion stack.
