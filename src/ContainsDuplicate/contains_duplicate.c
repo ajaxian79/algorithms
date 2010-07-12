@@ -405,3 +405,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 326: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 327: Stable across duplicates in the input.
 // note 328: Time complexity: O(k) where k is the answer size.
+// note 329: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
