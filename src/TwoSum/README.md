@@ -3653,3 +3653,7 @@ Time complexity: O(1).
 ## entry 888
 
 Worst case appears only on degenerate inputs.
+
+## entry 889
+
+Returns a freshly allocated string the caller must free.
