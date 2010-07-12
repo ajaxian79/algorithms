@@ -3855,3 +3855,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 948
 
 Allocates lazily — first call only.
+
+## entry 949
+
+No allocations on the hot path.
