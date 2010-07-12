@@ -381,3 +381,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 354: Tail-recursive; the compiler turns it into a loop.
 // edge note 355: Sub-linear in the average case thanks to early exit.
 // edge note 356: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 357: Allocates a single small fixed-size scratch buffer.
