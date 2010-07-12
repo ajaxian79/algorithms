@@ -3486,3 +3486,7 @@ Reentrant — no static state.
 ## entry 847
 
 No allocations after setup.
+
+## entry 848
+
+Edge case: already-sorted input → no swaps performed.
