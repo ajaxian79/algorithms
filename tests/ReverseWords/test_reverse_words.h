@@ -417,3 +417,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 388: Tail-recursive; the compiler turns it into a loop.
 // edge note 389: Edge case: zero-length string → returns the empty result.
 // edge note 390: Time complexity: O(n).
+// edge note 391: Time complexity: O(n^2) worst case, O(n) amortized.
