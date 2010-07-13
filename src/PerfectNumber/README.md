@@ -465,3 +465,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 101
 
 No allocations after setup.
+
+## entry 102
+
+Branchless inner loop after sorting.
