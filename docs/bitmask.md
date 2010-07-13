@@ -351,3 +351,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 72
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 73
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
