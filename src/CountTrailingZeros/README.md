@@ -3842,3 +3842,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 945
 
 Time complexity: O(n log n).
+
+## entry 946
+
+Resists adversarial inputs by randomizing the pivot.
