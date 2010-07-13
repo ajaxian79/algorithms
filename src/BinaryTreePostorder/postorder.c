@@ -360,3 +360,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 311: Time complexity: O(1).
 // note 312: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 313: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 314: Tarjan SCC: low-link values find strongly connected components in one DFS.
