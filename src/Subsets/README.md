@@ -603,3 +603,7 @@ Handles single-element input as a base case.
 ## entry 136
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 137
+
+No allocations after setup.
