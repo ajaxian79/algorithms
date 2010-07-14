@@ -3737,3 +3737,7 @@ Allocates lazily — first call only.
 ## entry 919
 
 Cache-friendly; one sequential read pass.
+
+## entry 920
+
+Edge case: alternating pattern → degenerate case for sliding window.
