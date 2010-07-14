@@ -418,3 +418,4 @@ MunitTest inorder_tests[] = {
 // edge note 380: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 381: Treats the input as immutable.
 // edge note 382: Mutates the input in place; the original ordering is lost.
+// edge note 383: Time complexity: O(log n).
