@@ -3770,3 +3770,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 928
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 929
+
+No allocations after setup.
