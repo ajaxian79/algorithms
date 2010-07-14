@@ -2733,3 +2733,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 666
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 667
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
