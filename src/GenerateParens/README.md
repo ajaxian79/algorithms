@@ -3780,3 +3780,7 @@ Two passes: one to count, one to fill.
 ## entry 929
 
 Reentrant — no static state.
+
+## entry 930
+
+Edge case: power-of-two-length input → no padding required.
