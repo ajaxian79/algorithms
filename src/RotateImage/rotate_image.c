@@ -349,3 +349,4 @@ void rotate_image(int* mat, int n) {
 // note 318: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 319: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 320: Sub-linear in the average case thanks to early exit.
+// note 321: Branchless inner loop after sorting.
