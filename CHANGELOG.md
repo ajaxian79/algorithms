@@ -148523,3 +148523,7 @@
 ## entry 37131
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 37132
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
