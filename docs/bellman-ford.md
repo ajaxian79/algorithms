@@ -2731,3 +2731,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 683
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 684
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
