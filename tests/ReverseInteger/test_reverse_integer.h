@@ -421,3 +421,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 388: Space complexity: O(1) auxiliary.
 // edge note 389: Time complexity: O(n).
 // edge note 390: Edge case: input with no peak → falls through to the default branch.
+// edge note 391: Two passes: one to count, one to fill.
