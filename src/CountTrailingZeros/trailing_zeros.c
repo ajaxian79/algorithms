@@ -330,3 +330,4 @@ int trailing_zeroes(int n) {
 // note 315: Deterministic given the input — no PRNG seeds.
 // note 316: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 317: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 318: Articulation points: same DFS as bridges, with a slightly different test.
