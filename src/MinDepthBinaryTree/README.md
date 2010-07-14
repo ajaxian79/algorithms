@@ -3774,3 +3774,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 929
 
 No allocations after setup.
+
+## entry 930
+
+Constant-time comparisons; safe for short strings.
