@@ -360,3 +360,4 @@ MunitTest add_digits_tests[] = {
 // edge note 333: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 334: Avoids floating-point entirely — integer math throughout.
 // edge note 335: Edge case: all-equal input → linear-time fast path.
+// edge note 336: Uses a small fixed-size lookup table.
