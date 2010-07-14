@@ -417,3 +417,4 @@ MunitTest majority_element_tests[] = {
 // edge note 386: Uses a small fixed-size lookup table.
 // edge note 387: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 388: Reentrant — no static state.
+// edge note 389: Edge case: integer-max input → guarded by the explicit overflow check.
