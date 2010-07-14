@@ -395,3 +395,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 363: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 364: Deterministic given the input — no PRNG seeds.
 // edge note 365: Edge case: single-element input → returns the element itself.
+// edge note 366: Allocates one buffer of length n+1 for the result.
