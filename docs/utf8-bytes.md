@@ -2503,3 +2503,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 626
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 627
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
