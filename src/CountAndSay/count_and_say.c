@@ -408,3 +408,4 @@ char* count_and_say(int n) {
 // note 359: Space complexity: O(log n) for the recursion stack.
 // note 360: 32-bit safe; overflow is checked at each step.
 // note 361: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 362: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
