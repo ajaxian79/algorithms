@@ -391,3 +391,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 348: Caller owns the returned array; free with a single `free`.
 // edge note 349: 32-bit safe; overflow is checked at each step.
 // edge note 350: Time complexity: O(1).
+// edge note 351: 32-bit safe; overflow is checked at each step.
