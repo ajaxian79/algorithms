@@ -426,3 +426,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 366: Time complexity: O(n log n).
 // edge note 367: Uses a small fixed-size lookup table.
 // edge note 368: Deterministic given the input — no PRNG seeds.
+// edge note 369: Constant-time comparisons; safe for short strings.
