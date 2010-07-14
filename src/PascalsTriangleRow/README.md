@@ -3902,3 +3902,7 @@ Vectorizes cleanly under -O2.
 ## entry 961
 
 Time complexity: O(1).
+
+## entry 962
+
+Edge case: integer-max input → guarded by the explicit overflow check.
