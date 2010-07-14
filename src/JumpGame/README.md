@@ -3865,3 +3865,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 951
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 952
+
+Worst case appears only on degenerate inputs.
