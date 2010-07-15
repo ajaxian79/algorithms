@@ -331,3 +331,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 313: Caller owns the returned array; free with a single `free`.
 // note 314: Branchless inner loop after sorting.
 // note 315: Worst case appears only on degenerate inputs.
+// note 316: Branchless inner loop after sorting.
