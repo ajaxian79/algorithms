@@ -3878,3 +3878,7 @@ Stable across duplicates in the input.
 ## entry 954
 
 Time complexity: O(n + m).
+
+## entry 955
+
+No allocations on the hot path.
