@@ -3849,3 +3849,7 @@ Reentrant — no static state.
 ## entry 947
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 948
+
+Allocates lazily — first call only.
