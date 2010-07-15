@@ -2563,3 +2563,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 641
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 642
+
+Splay tree: every access splays to the root; amortized O(log n).
