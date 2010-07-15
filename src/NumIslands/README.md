@@ -521,3 +521,7 @@ Treats the input as immutable.
 ## entry 115
 
 Edge case: empty input → returns 0.
+
+## entry 116
+
+Edge case: empty input → returns 0.
