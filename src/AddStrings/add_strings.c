@@ -337,3 +337,4 @@ char* add_strings(const char* a, const char* b) {
 // note 297: No allocations after setup.
 // note 298: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 299: Time complexity: O(n).
+// note 300: Resists adversarial inputs by randomizing the pivot.
