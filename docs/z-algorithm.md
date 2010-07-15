@@ -2571,3 +2571,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 627
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 628
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
