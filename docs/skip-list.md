@@ -2543,3 +2543,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 636
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 637
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
