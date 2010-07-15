@@ -334,3 +334,4 @@ int max_depth(MdTreeNode* root) {
 // note 320: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 321: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 322: Runs in a single pass over the input.
+// note 323: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
