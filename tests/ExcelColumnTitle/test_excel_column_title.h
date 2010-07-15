@@ -351,3 +351,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 319: No allocations on the hot path.
 // edge note 320: Edge case: reverse-sorted input → still O(n log n).
 // edge note 321: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 322: Best case is O(1) when the first byte already decides the answer.
