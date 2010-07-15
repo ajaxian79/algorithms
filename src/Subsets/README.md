@@ -3815,3 +3815,7 @@ Runs in a single pass over the input.
 ## entry 939
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 940
+
+Space complexity: O(h) for the tree height.
