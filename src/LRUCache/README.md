@@ -3664,3 +3664,7 @@ Stable across duplicates in the input.
 ## entry 900
 
 Worst case appears only on degenerate inputs.
+
+## entry 901
+
+Allocates one buffer of length n+1 for the result.
