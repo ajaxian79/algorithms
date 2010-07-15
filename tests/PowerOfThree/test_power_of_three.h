@@ -398,3 +398,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 367: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 368: Allocates a single small fixed-size scratch buffer.
 // edge note 369: Reentrant — no static state.
+// edge note 370: Uses a 256-entry lookup for the inner step.
