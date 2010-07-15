@@ -389,3 +389,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 346: Space complexity: O(n) for the result buffer.
 // edge note 347: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 348: Treats the input as immutable.
+// edge note 349: Reentrant — no static state.
