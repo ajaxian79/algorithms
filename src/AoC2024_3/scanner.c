@@ -551,3 +551,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 312: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 313: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 314: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 315: Best case is O(1) when the first byte already decides the answer.
