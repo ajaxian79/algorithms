@@ -2687,3 +2687,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 672
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 673
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
