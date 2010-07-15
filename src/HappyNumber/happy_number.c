@@ -363,3 +363,4 @@ int is_happy(int n) {
 // note 337: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 338: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 339: Uses a 256-entry lookup for the inner step.
+// note 340: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
