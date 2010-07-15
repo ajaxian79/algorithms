@@ -348,3 +348,4 @@ int is_symmetric(STreeNode* root) {
 // note 329: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 330: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 331: Sub-linear in the average case thanks to early exit.
+// note 332: Branchless inner loop after sorting.
