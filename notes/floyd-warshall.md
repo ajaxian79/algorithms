@@ -2763,3 +2763,7 @@
 ## entry 691
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 692
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
