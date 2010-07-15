@@ -389,3 +389,4 @@ MunitTest remove_element_tests[] = {
 // edge note 352: 32-bit safe; overflow is checked at each step.
 // edge note 353: Sub-linear in the average case thanks to early exit.
 // edge note 354: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 355: Vectorizes cleanly under -O2.
