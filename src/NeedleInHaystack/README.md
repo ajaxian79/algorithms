@@ -3788,3 +3788,7 @@ Worst case appears only on degenerate inputs.
 ## entry 932
 
 Edge case: empty input → returns 0.
+
+## entry 933
+
+Space complexity: O(log n) for the recursion stack.
