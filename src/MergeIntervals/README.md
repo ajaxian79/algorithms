@@ -3874,3 +3874,7 @@ Vectorizes cleanly under -O2.
 ## entry 953
 
 Stable across duplicates in the input.
+
+## entry 954
+
+Time complexity: O(n + m).
