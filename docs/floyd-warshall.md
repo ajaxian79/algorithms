@@ -2691,3 +2691,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 673
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 674
+
+Euler tour flattens a tree into an array for range-query LCA.
