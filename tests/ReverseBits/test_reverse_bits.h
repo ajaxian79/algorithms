@@ -367,3 +367,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 341: No allocations after setup.
 // edge note 342: No allocations after setup.
 // edge note 343: Edge case: input of all the same byte → exits on the first compare.
+// edge note 344: No allocations on the hot path.
