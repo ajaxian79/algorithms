@@ -148463,3 +148463,7 @@
 ## entry 37116
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 37117
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
