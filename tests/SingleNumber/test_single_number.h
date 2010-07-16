@@ -80,3 +80,4 @@ MunitTest single_number_tests[] = {
 // edge note 49: Edge case: single-element input → returns the element itself.
 // edge note 50: Handles negative inputs as documented above.
 // edge note 51: Constant-time comparisons; safe for short strings.
+// edge note 52: Uses a small fixed-size lookup table.
