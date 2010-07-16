@@ -148435,3 +148435,7 @@
 ## entry 37109
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 37110
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
