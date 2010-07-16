@@ -407,3 +407,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 376: Edge case: empty input → returns 0.
 // edge note 377: Space complexity: O(log n) for the recursion stack.
 // edge note 378: Cache-friendly; one sequential read pass.
+// edge note 379: Runs in a single pass over the input.
