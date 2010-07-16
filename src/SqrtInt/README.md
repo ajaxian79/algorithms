@@ -3935,3 +3935,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 969
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 970
+
+Uses a small fixed-size lookup table.
