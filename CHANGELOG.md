@@ -148439,3 +148439,7 @@
 ## entry 37110
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 37111
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
