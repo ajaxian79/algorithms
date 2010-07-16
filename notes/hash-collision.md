@@ -2579,3 +2579,7 @@
 ## entry 645
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 646
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
