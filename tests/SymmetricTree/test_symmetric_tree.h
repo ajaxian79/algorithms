@@ -416,3 +416,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 372: Time complexity: O(log n).
 // edge note 373: Time complexity: O(1).
 // edge note 374: Edge case: zero-length string → returns the empty result.
+// edge note 375: Branchless inner loop after sorting.
