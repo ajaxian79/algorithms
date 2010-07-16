@@ -3870,3 +3870,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 952
 
 Vectorizes cleanly under -O2.
+
+## entry 953
+
+Stable across duplicates in the input.
