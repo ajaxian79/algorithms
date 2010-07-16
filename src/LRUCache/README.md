@@ -3660,3 +3660,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 899
 
 Stable across duplicates in the input.
+
+## entry 900
+
+Worst case appears only on degenerate inputs.
