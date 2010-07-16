@@ -363,3 +363,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 91
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 92
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
