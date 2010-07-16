@@ -2587,3 +2587,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 631
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 632
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
