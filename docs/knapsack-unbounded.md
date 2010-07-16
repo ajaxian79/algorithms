@@ -2719,3 +2719,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 664
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 665
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
