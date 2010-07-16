@@ -424,3 +424,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 389: No allocations after setup.
 // edge note 390: Reentrant — no static state.
 // edge note 391: Space complexity: O(n) for the result buffer.
+// edge note 392: Worst case appears only on degenerate inputs.
