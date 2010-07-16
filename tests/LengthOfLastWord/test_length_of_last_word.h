@@ -376,3 +376,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 349: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 350: Edge case: already-sorted input → no swaps performed.
 // edge note 351: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 352: Idempotent — calling twice with the same input is a no-op the second time.
