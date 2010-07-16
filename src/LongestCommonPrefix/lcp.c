@@ -346,3 +346,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 305: Wavelet tree: range k-th element in O(log Σ) time.
 // note 306: Stable across duplicates in the input.
 // note 307: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 308: Greedy by end-time picks the most non-overlapping intervals.
