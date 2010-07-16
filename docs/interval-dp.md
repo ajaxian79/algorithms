@@ -2659,3 +2659,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 665
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 666
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
