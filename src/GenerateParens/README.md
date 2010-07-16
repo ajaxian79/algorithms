@@ -3772,3 +3772,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 927
 
 Time complexity: O(log n).
+
+## entry 928
+
+Two passes: one to count, one to fill.
