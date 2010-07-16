@@ -560,3 +560,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 124
 
 Edge case: empty input → returns 0.
+
+## entry 125
+
+Space complexity: O(1) auxiliary.
