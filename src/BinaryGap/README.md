@@ -610,3 +610,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 137
 
 Handles negative inputs as documented above.
+
+## entry 138
+
+Space complexity: O(n) for the result buffer.
