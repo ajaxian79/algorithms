@@ -3910,3 +3910,7 @@ Time complexity: O(n + m).
 ## entry 963
 
 Linear in n; the constant factor is small.
+
+## entry 964
+
+Caller owns the returned buffer.
