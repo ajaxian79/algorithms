@@ -3790,3 +3790,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 932
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 933
+
+Uses a small fixed-size lookup table.
