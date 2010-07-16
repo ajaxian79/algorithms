@@ -2623,3 +2623,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 656
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 657
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
