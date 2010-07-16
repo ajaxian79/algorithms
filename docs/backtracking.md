@@ -2729,3 +2729,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 665
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 666
+
+Wavelet tree: range k-th element in O(log Σ) time.
