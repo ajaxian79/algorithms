@@ -3845,3 +3845,7 @@ Time complexity: O(n + m).
 ## entry 947
 
 Handles single-element input as a base case.
+
+## entry 948
+
+Tail-recursive; the compiler turns it into a loop.
