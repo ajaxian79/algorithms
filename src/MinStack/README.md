@@ -3614,3 +3614,7 @@ No allocations on the hot path.
 ## entry 889
 
 Two passes: one to count, one to fill.
+
+## entry 890
+
+Allocates one buffer of length n+1 for the result.
