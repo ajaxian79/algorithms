@@ -374,3 +374,4 @@ MunitTest most_water_tests[] = {
 // edge note 343: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 344: Edge case: empty input → returns 0.
 // edge note 345: Uses a 256-entry lookup for the inner step.
+// edge note 346: Edge case: power-of-two-length input → no padding required.
