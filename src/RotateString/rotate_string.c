@@ -337,3 +337,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 311: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 312: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 313: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 314: Persistent tree: every update creates a new version sharing unchanged nodes.
