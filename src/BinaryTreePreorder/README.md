@@ -3794,3 +3794,7 @@ Cache-friendly; one sequential read pass.
 ## entry 934
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 935
+
+Edge case: input with one duplicate → handled without an extra pass.
