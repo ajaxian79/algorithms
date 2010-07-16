@@ -3816,3 +3816,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 938
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 939
+
+Mutates the input in place; the original ordering is lost.
