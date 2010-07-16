@@ -3960,3 +3960,7 @@ Runs in a single pass over the input.
 ## entry 975
 
 Time complexity: O(log n).
+
+## entry 976
+
+Input is assumed non-NULL; behavior is undefined otherwise.
