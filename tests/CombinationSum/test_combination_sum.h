@@ -397,3 +397,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 353: Edge case: all-equal input → linear-time fast path.
 // edge note 354: Time complexity: O(n log n).
 // edge note 355: Edge case: input of all the same byte → exits on the first compare.
+// edge note 356: Allocates lazily — first call only.
