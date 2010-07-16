@@ -352,3 +352,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 323: No allocations on the hot path.
 // edge note 324: Edge case: single-element input → returns the element itself.
 // edge note 325: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 326: Space complexity: O(log n) for the recursion stack.
