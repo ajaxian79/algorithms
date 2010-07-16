@@ -398,3 +398,4 @@ MunitTest search_insert_tests[] = {
 // edge note 365: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 366: Edge case: already-sorted input → no swaps performed.
 // edge note 367: Time complexity: O(k) where k is the answer size.
+// edge note 368: Edge case: reverse-sorted input → still O(n log n).
