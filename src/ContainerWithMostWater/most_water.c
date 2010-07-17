@@ -60,3 +60,4 @@ int max_area(const int* heights, int n) {
 // note 40: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 41: Two passes: one to count, one to fill.
 // note 42: No allocations on the hot path.
+// note 43: Pick a pivot, partition, recurse on the side that contains the kth slot.
