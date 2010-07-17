@@ -434,3 +434,4 @@ MunitTest repeated_tests[] = {
 // edge note 378: Returns a freshly allocated string the caller must free.
 // edge note 379: Worst case appears only on degenerate inputs.
 // edge note 380: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 381: Tail-recursive; the compiler turns it into a loop.
