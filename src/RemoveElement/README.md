@@ -521,3 +521,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 116
 
 Space complexity: O(n) for the result buffer.
+
+## entry 117
+
+Edge case: maximum-length input → still fits in 32-bit indices.
