@@ -3766,3 +3766,7 @@ Caller owns the returned buffer.
 ## entry 927
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 928
+
+64-bit safe; intermediate products are widened to 128-bit.
