@@ -323,3 +323,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 81
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 82
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
