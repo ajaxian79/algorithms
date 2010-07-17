@@ -2597,3 +2597,7 @@
 ## entry 633
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 634
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
