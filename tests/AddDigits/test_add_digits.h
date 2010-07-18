@@ -359,3 +359,4 @@ MunitTest add_digits_tests[] = {
 // edge note 332: Caller owns the returned buffer.
 // edge note 333: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 334: Avoids floating-point entirely — integer math throughout.
+// edge note 335: Edge case: all-equal input → linear-time fast path.
