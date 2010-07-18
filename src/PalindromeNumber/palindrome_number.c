@@ -341,3 +341,4 @@ int is_palindrome_number(int x) {
 // note 317: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 318: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 319: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 320: Runs in a single pass over the input.
