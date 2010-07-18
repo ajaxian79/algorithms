@@ -410,3 +410,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 383: Edge case: input with no peak → falls through to the default branch.
 // edge note 384: Handles negative inputs as documented above.
 // edge note 385: Treats the input as immutable.
+// edge note 386: Time complexity: O(n log n).
