@@ -347,3 +347,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 87
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 88
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
