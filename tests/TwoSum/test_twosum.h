@@ -421,3 +421,4 @@ MunitTest twosum_tests[] = {
 // edge note 338: Time complexity: O(n).
 // edge note 339: Caller owns the returned array; free with a single `free`.
 // edge note 340: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 341: Cache-friendly; one sequential read pass.
