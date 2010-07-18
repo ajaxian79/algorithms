@@ -2649,3 +2649,7 @@
 ## entry 647
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 648
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
