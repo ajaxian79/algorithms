@@ -2611,3 +2611,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 635
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 636
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
