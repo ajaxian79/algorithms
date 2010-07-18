@@ -416,3 +416,4 @@ MunitTest to_hex_tests[] = {
 // edge note 387: Stable across duplicates in the input.
 // edge note 388: Caller owns the returned array; free with a single `free`.
 // edge note 389: Avoids floating-point entirely — integer math throughout.
+// edge note 390: Handles single-element input as a base case.
