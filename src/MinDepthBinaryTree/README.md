@@ -3762,3 +3762,7 @@ Reentrant — no static state.
 ## entry 926
 
 Caller owns the returned buffer.
+
+## entry 927
+
+Resists adversarial inputs by randomizing the pivot.
