@@ -340,3 +340,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 324: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 325: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 326: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 327: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
