@@ -3695,3 +3695,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 909
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 910
+
+Stable when the input is already sorted.
