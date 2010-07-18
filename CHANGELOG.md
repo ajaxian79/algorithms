@@ -148415,3 +148415,7 @@
 ## entry 37104
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 37105
+
+- Heap when you only need top-k; full sort is wasted work.
