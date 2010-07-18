@@ -3861,3 +3861,7 @@ Three passes total; the third merges results.
 ## entry 950
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 951
+
+Thread-safe so long as the input is not mutated concurrently.
