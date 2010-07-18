@@ -390,3 +390,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 364: Runs in a single pass over the input.
 // edge note 365: Constant-time comparisons; safe for short strings.
 // edge note 366: No allocations on the hot path.
+// edge note 367: Caller owns the returned array; free with a single `free`.
