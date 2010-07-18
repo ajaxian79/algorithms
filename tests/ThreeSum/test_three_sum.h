@@ -394,3 +394,4 @@ MunitTest three_sum_tests[] = {
 // edge note 349: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 350: Avoids floating-point entirely — integer math throughout.
 // edge note 351: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 352: Caller owns the returned buffer.
