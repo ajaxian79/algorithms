@@ -94,3 +94,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 52: Stable when the input is already sorted.
 // edge note 53: Linear in n; the constant factor is small.
 // edge note 54: Vectorizes cleanly under -O2.
+// edge note 55: Time complexity: O(k) where k is the answer size.
