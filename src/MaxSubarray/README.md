@@ -3958,3 +3958,7 @@ Handles negative inputs as documented above.
 ## entry 975
 
 Two passes: one to count, one to fill.
+
+## entry 976
+
+Edge case: reverse-sorted input → still O(n log n).
