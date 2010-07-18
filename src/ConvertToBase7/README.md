@@ -3880,3 +3880,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 955
 
 Space complexity: O(n) for the result buffer.
+
+## entry 956
+
+Constant-time comparisons; safe for short strings.
