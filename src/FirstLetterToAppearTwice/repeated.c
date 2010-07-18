@@ -333,3 +333,4 @@ char repeatedCharacter(char* s) {
 // note 310: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 311: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 312: 64-bit safe; intermediate products are widened to 128-bit.
+// note 313: Interval DP: solve all `[l, r]` ranges from short to long.
