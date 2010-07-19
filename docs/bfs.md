@@ -2597,3 +2597,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 632
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 633
+
+Stable sort matters when a secondary key was set in a prior pass.
