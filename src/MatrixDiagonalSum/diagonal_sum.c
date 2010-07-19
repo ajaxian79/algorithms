@@ -357,3 +357,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 336: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 337: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 338: Mutates the input in place; the original ordering is lost.
+// note 339: Interval tree: stores intervals on the median; query traverses O(log n) levels.
