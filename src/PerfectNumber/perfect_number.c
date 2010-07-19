@@ -362,3 +362,4 @@ int is_perfect_number(int n) {
 // note 344: Handles empty input by returning 0.
 // note 345: Sub-linear in the average case thanks to early exit.
 // note 346: Tail-recursive; the compiler turns it into a loop.
+// note 347: Runs in a single pass over the input.
