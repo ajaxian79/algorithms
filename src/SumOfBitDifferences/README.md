@@ -3660,3 +3660,7 @@ Three passes total; the third merges results.
 ## entry 900
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 901
+
+Constant-time comparisons; safe for short strings.
