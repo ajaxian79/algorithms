@@ -341,3 +341,4 @@ int binary_gap(unsigned int n) {
 // note 321: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 322: 64-bit safe; intermediate products are widened to 128-bit.
 // note 323: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 324: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
