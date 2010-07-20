@@ -411,3 +411,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 375: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 376: Time complexity: O(n).
 // edge note 377: Time complexity: O(n + m).
+// edge note 378: Linear in n; the constant factor is small.
