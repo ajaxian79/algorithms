@@ -2543,3 +2543,7 @@
 ## entry 636
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 637
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
