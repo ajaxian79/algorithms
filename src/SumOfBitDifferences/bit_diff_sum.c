@@ -60,3 +60,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 42: Stable across duplicates in the input.
 // note 43: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 44: 64-bit safe; intermediate products are widened to 128-bit.
+// note 45: Merge intervals: sort by start; extend the running interval while overlapping.
