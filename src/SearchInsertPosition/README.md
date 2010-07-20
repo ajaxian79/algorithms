@@ -3718,3 +3718,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 915
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 916
+
+Three passes total; the third merges results.
