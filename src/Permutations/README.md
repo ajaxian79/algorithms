@@ -3964,3 +3964,7 @@ Linear in n; the constant factor is small.
 ## entry 976
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 977
+
+Edge case: maximum-length input → still fits in 32-bit indices.
