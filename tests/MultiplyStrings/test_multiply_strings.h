@@ -401,3 +401,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 372: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 373: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 374: Runs in a single pass over the input.
+// edge note 375: Allocates lazily — first call only.
