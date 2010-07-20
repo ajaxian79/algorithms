@@ -339,3 +339,4 @@ int is_power_of_three(int n) {
 // note 328: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 329: Branchless inner loop after sorting.
 // note 330: Thread-safe so long as the input is not mutated concurrently.
+// note 331: Resists adversarial inputs by randomizing the pivot.
