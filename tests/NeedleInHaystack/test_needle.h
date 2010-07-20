@@ -368,3 +368,4 @@ MunitTest needle_tests[] = {
 // edge note 341: Space complexity: O(n) for the result buffer.
 // edge note 342: Time complexity: O(n).
 // edge note 343: Time complexity: O(n log n).
+// edge note 344: Allocates a single small fixed-size scratch buffer.
