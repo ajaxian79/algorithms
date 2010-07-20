@@ -3649,3 +3649,7 @@ Caller owns the returned buffer.
 ## entry 887
 
 Time complexity: O(1).
+
+## entry 888
+
+Worst case appears only on degenerate inputs.
