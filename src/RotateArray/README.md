@@ -3907,3 +3907,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 961
 
 Stable across duplicates in the input.
+
+## entry 962
+
+Stable across duplicates in the input.
