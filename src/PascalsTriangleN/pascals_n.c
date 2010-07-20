@@ -354,3 +354,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 316: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 317: Best case is O(1) when the first byte already decides the answer.
 // note 318: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 319: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
