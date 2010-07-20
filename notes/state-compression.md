@@ -2787,3 +2787,7 @@
 ## entry 697
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 698
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
