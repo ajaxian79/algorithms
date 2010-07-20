@@ -410,3 +410,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 371: Two passes: one to count, one to fill.
 // edge note 372: 32-bit safe; overflow is checked at each step.
 // edge note 373: Returns a freshly allocated string the caller must free.
+// edge note 374: Edge case: power-of-two-length input → no padding required.
