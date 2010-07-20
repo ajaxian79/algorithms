@@ -3694,3 +3694,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 909
 
 Stable when the input is already sorted.
+
+## entry 910
+
+Time complexity: O(n).
