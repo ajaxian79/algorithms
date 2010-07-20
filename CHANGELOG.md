@@ -148343,3 +148343,7 @@
 ## entry 37086
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 37087
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
