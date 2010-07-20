@@ -395,3 +395,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 366: Handles negative inputs as documented above.
 // edge note 367: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 368: Runs in a single pass over the input.
+// edge note 369: Time complexity: O(1).
