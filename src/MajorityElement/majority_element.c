@@ -324,3 +324,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 302: Two passes: one to count, one to fill.
 // note 303: Resists adversarial inputs by randomizing the pivot.
 // note 304: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 305: Polynomial rolling hash with two moduli kills almost all collisions in practice.
