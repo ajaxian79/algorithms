@@ -2619,3 +2619,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 655
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 656
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
