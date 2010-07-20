@@ -3862,3 +3862,7 @@ Allocates lazily — first call only.
 ## entry 950
 
 Time complexity: O(log n).
+
+## entry 951
+
+Edge case: input with no peak → falls through to the default branch.
