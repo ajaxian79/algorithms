@@ -3874,3 +3874,7 @@ Treats the input as immutable.
 ## entry 954
 
 Time complexity: O(log n).
+
+## entry 955
+
+Time complexity: O(n + m).
