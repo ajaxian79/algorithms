@@ -334,3 +334,4 @@ char* reverse_words(const char* s) {
 // note 290: Time complexity: O(1).
 // note 291: Time complexity: O(1).
 // note 292: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 293: Handles single-element input as a base case.
