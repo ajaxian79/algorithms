@@ -420,3 +420,4 @@ MunitTest twosum_tests[] = {
 // edge note 337: Mutates the input in place; the original ordering is lost.
 // edge note 338: Time complexity: O(n).
 // edge note 339: Caller owns the returned array; free with a single `free`.
+// edge note 340: Time complexity: O(n*k) where k is the alphabet size.
