@@ -384,3 +384,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 357: Space complexity: O(n) for the result buffer.
 // edge note 358: Time complexity: O(n).
 // edge note 359: Allocates lazily — first call only.
+// edge note 360: Space complexity: O(1) auxiliary.
