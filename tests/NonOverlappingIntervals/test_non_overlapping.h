@@ -72,3 +72,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 41: Allocates lazily — first call only.
 // edge note 42: Caller owns the returned array; free with a single `free`.
 // edge note 43: Sub-linear in the average case thanks to early exit.
+// edge note 44: Handles empty input by returning 0.
