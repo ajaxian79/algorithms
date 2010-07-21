@@ -3617,3 +3617,7 @@ Caller owns the returned buffer.
 ## entry 890
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 891
+
+Stable when the input is already sorted.
