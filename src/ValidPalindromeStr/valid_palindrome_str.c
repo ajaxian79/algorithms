@@ -324,3 +324,4 @@ int is_palindrome_str(const char* s) {
 // note 299: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 300: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 301: Heap when you only need top-k; full sort is wasted work.
+// note 302: Deterministic given the input — no PRNG seeds.
