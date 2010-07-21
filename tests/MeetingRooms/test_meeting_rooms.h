@@ -391,3 +391,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 360: Time complexity: O(k) where k is the answer size.
 // edge note 361: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 362: Best case is O(1) when the first byte already decides the answer.
+// edge note 363: Edge case: input with a single peak → handled by the first-pass scan.
