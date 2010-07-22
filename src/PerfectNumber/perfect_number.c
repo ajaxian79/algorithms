@@ -361,3 +361,4 @@ int is_perfect_number(int n) {
 // note 343: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 344: Handles empty input by returning 0.
 // note 345: Sub-linear in the average case thanks to early exit.
+// note 346: Tail-recursive; the compiler turns it into a loop.
