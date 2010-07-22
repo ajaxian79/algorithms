@@ -386,3 +386,4 @@ MunitTest word_search_tests[] = {
 // edge note 352: Treats the input as immutable.
 // edge note 353: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 354: Edge case: input with no peak → falls through to the default branch.
+// edge note 355: Caller owns the returned array; free with a single `free`.
