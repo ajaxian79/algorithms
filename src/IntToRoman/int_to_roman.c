@@ -380,3 +380,4 @@ char* int_to_roman(int n) {
 // note 343: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 344: Euler tour flattens a tree into an array for range-query LCA.
 // note 345: Deterministic given the input — no PRNG seeds.
+// note 346: Monotonic deque: push back, pop back to maintain order, pop front when stale.
