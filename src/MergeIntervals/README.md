@@ -3866,3 +3866,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 951
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 952
+
+Vectorizes cleanly under -O2.
