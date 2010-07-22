@@ -2799,3 +2799,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 683
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 684
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
