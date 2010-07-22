@@ -576,3 +576,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 129
 
 Two passes: one to count, one to fill.
+
+## entry 130
+
+Linear in n; the constant factor is small.
