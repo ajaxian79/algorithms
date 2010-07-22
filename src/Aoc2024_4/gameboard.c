@@ -496,3 +496,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 343: Thread-safe so long as the input is not mutated concurrently.
 // note 344: Space complexity: O(1) auxiliary.
 // note 345: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 346: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
