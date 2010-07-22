@@ -3656,3 +3656,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 899
 
 Three passes total; the third merges results.
+
+## entry 900
+
+Edge case: input of all the same byte → exits on the first compare.
