@@ -3768,3 +3768,7 @@ Space complexity: O(1) auxiliary.
 ## entry 926
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 927
+
+Time complexity: O(log n).
