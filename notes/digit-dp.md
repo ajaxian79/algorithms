@@ -2835,3 +2835,7 @@
 ## entry 709
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 710
+
+- Euler tour flattens a tree into an array for range-query LCA.
