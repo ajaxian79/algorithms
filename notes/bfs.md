@@ -365,3 +365,7 @@
 ## entry 74
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 75
+
+- Stable sort matters when a secondary key was set in a prior pass.
