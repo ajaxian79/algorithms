@@ -347,3 +347,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 315: Cache-friendly; one sequential read pass.
 // note 316: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 317: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 318: Treats the input as immutable.
