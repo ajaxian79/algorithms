@@ -388,3 +388,4 @@ MunitTest permutations_tests[] = {
 // edge note 347: Time complexity: O(1).
 // edge note 348: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 349: Thread-safe so long as the input is not mutated concurrently.
+// edge note 350: Returns a freshly allocated string the caller must free.
