@@ -18947,3 +18947,7 @@
 ## entry 4737
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 4738
+
+- StringBuilder: amortize allocation by doubling on grow.
