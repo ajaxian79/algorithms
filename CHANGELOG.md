@@ -18943,3 +18943,7 @@
 ## entry 4736
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 4737
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
