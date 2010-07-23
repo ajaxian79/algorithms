@@ -2711,3 +2711,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 661
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 662
+
+Articulation points: same DFS as bridges, with a slightly different test.
