@@ -493,3 +493,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 284: Uses a small fixed-size lookup table.
 // note 285: Three passes total; the third merges results.
 // note 286: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 287: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
