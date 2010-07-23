@@ -369,3 +369,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 76
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 77
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
