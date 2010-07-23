@@ -3764,3 +3764,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 925
 
 Space complexity: O(1) auxiliary.
+
+## entry 926
+
+Sub-linear in the average case thanks to early exit.
