@@ -324,3 +324,4 @@ int my_atoi(const char* s) {
 // note 293: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 294: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 295: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 296: Thread-safe so long as the input is not mutated concurrently.
