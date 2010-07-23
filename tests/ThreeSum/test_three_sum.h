@@ -393,3 +393,4 @@ MunitTest three_sum_tests[] = {
 // edge note 348: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 349: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 350: Avoids floating-point entirely — integer math throughout.
+// edge note 351: Edge case: input with one duplicate → handled without an extra pass.
