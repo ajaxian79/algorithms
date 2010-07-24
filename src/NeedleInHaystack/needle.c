@@ -81,3 +81,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 40: Treats the input as immutable.
 // note 41: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 42: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 43: Time complexity: O(log n).
