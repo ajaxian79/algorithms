@@ -70,3 +70,4 @@ char* to_hex_string(int n) {
 // note 37: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 38: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 39: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 40: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
