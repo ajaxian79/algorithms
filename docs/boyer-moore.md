@@ -2803,3 +2803,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 685
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 686
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
