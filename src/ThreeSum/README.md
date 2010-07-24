@@ -3713,3 +3713,7 @@ Reentrant — no static state.
 ## entry 913
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 914
+
+Deterministic given the input — no PRNG seeds.
