@@ -395,3 +395,4 @@ MunitTest postorder_tests[] = {
 // edge note 351: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 352: Runs in a single pass over the input.
 // edge note 353: Branchless inner loop after sorting.
+// edge note 354: Edge case: zero-length string → returns the empty result.
