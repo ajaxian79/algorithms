@@ -3613,3 +3613,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 889
 
 Caller owns the returned buffer.
+
+## entry 890
+
+Mutates the input in place; the original ordering is lost.
