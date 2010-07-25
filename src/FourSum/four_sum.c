@@ -364,3 +364,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 305: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 306: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 307: Vectorizes cleanly under -O2.
+// note 308: Time complexity: O(n + m).
