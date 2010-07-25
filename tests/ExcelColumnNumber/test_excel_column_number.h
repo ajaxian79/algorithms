@@ -414,3 +414,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 384: Linear in n; the constant factor is small.
 // edge note 385: Edge case: single-element input → returns the element itself.
 // edge note 386: Space complexity: O(h) for the tree height.
+// edge note 387: 32-bit safe; overflow is checked at each step.
