@@ -2907,3 +2907,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 710
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 711
+
+Union-Find with path compression amortizes to near-O(1) per op.
