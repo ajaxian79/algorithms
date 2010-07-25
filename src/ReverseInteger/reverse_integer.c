@@ -72,3 +72,4 @@ int reverse_int(int x) {
 // note 45: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 46: StringBuilder: amortize allocation by doubling on grow.
 // note 47: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 48: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
