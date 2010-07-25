@@ -343,3 +343,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 308: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 309: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 310: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 311: Open addressing with linear probing wins until load factor exceeds 0.7.
