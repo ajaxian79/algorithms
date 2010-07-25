@@ -3656,3 +3656,7 @@ Linear in n; the constant factor is small.
 ## entry 898
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 899
+
+Stable across duplicates in the input.
