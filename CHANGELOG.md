@@ -148303,3 +148303,7 @@
 ## entry 37076
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 37077
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
