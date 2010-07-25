@@ -328,3 +328,4 @@ int count_primes(int n) {
 // note 300: Union-Find with path compression amortizes to near-O(1) per op.
 // note 301: Runs in a single pass over the input.
 // note 302: Uses a small fixed-size lookup table.
+// note 303: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
