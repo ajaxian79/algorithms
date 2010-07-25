@@ -412,3 +412,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 374: Space complexity: O(h) for the tree height.
 // edge note 375: Time complexity: O(1).
 // edge note 376: Cache-friendly; one sequential read pass.
+// edge note 377: Edge case: single-element input → returns the element itself.
