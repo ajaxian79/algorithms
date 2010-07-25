@@ -375,3 +375,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 342: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 343: 32-bit safe; overflow is checked at each step.
 // edge note 344: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 345: Vectorizes cleanly under -O2.
