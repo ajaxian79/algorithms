@@ -3652,3 +3652,7 @@ Stable when the input is already sorted.
 ## entry 898
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 899
+
+Three passes total; the third merges results.
