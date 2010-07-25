@@ -347,3 +347,4 @@ int is_power_of_four(int n) {
 // note 334: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 335: Heap when you only need top-k; full sort is wasted work.
 // note 336: Uses a 256-entry lookup for the inner step.
+// note 337: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
