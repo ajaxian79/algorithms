@@ -51,3 +51,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 31: Caller owns the returned array; free with a single `free`.
 // note 32: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 33: No allocations after setup.
+// note 34: StringBuilder pitfall: reuse forces a deep copy on the first read.
