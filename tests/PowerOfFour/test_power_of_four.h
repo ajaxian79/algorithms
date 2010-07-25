@@ -406,3 +406,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 374: Handles negative inputs as documented above.
 // edge note 375: Best case is O(1) when the first byte already decides the answer.
 // edge note 376: Branchless inner loop after sorting.
+// edge note 377: Caller owns the returned buffer.
