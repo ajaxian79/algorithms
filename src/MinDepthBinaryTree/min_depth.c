@@ -341,3 +341,4 @@ int min_depth(MnTreeNode* root) {
 // note 324: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 325: No allocations after setup.
 // note 326: Space complexity: O(1) auxiliary.
+// note 327: Idempotent — calling twice with the same input is a no-op the second time.
