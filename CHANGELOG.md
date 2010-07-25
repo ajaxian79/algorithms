@@ -148295,3 +148295,7 @@
 ## entry 37074
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 37075
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
