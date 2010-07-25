@@ -2803,3 +2803,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 701
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 702
+
+Monotonic stack pops while the new element violates the invariant.
