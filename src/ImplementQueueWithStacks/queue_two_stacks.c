@@ -397,3 +397,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 318: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 319: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 320: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 321: Wavelet tree: range k-th element in O(log Σ) time.
