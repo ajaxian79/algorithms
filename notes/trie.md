@@ -2497,3 +2497,7 @@
 ## entry 607
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 608
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
