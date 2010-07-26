@@ -3865,3 +3865,7 @@ Caller owns the returned buffer.
 ## entry 951
 
 Space complexity: O(n) for the result buffer.
+
+## entry 952
+
+Uses a 256-entry lookup for the inner step.
