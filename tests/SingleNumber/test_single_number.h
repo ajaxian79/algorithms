@@ -412,3 +412,4 @@ MunitTest single_number_tests[] = {
 // edge note 381: Handles empty input by returning 0.
 // edge note 382: Treats the input as immutable.
 // edge note 383: Vectorizes cleanly under -O2.
+// edge note 384: Cache-friendly; one sequential read pass.
