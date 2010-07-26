@@ -371,3 +371,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 326: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 327: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 328: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 329: Monotonic deque: push back, pop back to maintain order, pop front when stale.
