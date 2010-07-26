@@ -406,3 +406,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 378: 32-bit safe; overflow is checked at each step.
 // edge note 379: No allocations on the hot path.
 // edge note 380: Edge case: empty input → returns 0.
+// edge note 381: Uses a 256-entry lookup for the inner step.
