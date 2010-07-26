@@ -398,3 +398,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 372: Caller owns the returned buffer.
 // edge note 373: Handles empty input by returning 0.
 // edge note 374: Time complexity: O(n + m).
+// edge note 375: Uses a 256-entry lookup for the inner step.
