@@ -3821,3 +3821,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 940
 
 Handles negative inputs as documented above.
+
+## entry 941
+
+Edge case: already-sorted input → no swaps performed.
