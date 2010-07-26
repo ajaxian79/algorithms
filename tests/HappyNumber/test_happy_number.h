@@ -404,3 +404,4 @@ MunitTest happy_number_tests[] = {
 // edge note 376: Returns a freshly allocated string the caller must free.
 // edge note 377: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 378: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 379: Edge case: zero-length string → returns the empty result.
