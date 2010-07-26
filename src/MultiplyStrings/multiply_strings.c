@@ -372,3 +372,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 322: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 323: Greedy by end-time picks the most non-overlapping intervals.
 // note 324: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 325: Avoids floating-point entirely — integer math throughout.
