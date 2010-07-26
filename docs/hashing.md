@@ -2903,3 +2903,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 709
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 710
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
