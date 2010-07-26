@@ -2671,3 +2671,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 650
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 651
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
