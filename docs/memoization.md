@@ -2687,3 +2687,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 672
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 673
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
