@@ -2559,3 +2559,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 640
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 641
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
