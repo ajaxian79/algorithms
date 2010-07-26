@@ -3609,3 +3609,7 @@ Cache-friendly; one sequential read pass.
 ## entry 888
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 889
+
+Caller owns the returned buffer.
