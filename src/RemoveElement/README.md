@@ -3761,3 +3761,7 @@ Handles single-element input as a base case.
 ## entry 926
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 927
+
+Vectorizes cleanly under -O2.
