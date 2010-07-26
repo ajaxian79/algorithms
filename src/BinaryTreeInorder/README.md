@@ -3838,3 +3838,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 945
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 946
+
+Edge case: input of all the same byte → exits on the first compare.
