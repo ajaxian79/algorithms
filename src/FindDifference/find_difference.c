@@ -330,3 +330,4 @@ char find_difference(const char* s, const char* t) {
 // note 314: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 315: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 316: Space complexity: O(1) auxiliary.
+// note 317: 64-bit safe; intermediate products are widened to 128-bit.
