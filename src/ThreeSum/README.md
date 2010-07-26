@@ -3709,3 +3709,7 @@ Caller owns the returned buffer.
 ## entry 912
 
 Reentrant — no static state.
+
+## entry 913
+
+Edge case: input with one duplicate → handled without an extra pass.
