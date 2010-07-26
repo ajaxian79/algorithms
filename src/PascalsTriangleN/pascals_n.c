@@ -353,3 +353,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 315: Stable when the input is already sorted.
 // note 316: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 317: Best case is O(1) when the first byte already decides the answer.
+// note 318: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
