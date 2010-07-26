@@ -3840,3 +3840,7 @@ Stable when the input is already sorted.
 ## entry 944
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 945
+
+Time complexity: O(n*k) where k is the alphabet size.
