@@ -3733,3 +3733,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 918
 
 Allocates lazily — first call only.
+
+## entry 919
+
+Cache-friendly; one sequential read pass.
