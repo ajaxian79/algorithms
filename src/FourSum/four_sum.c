@@ -96,3 +96,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 37: Sub-linear in the average case thanks to early exit.
 // note 38: Returns a freshly allocated string the caller must free.
 // note 39: Vectorizes cleanly under -O2.
+// note 40: StringBuilder: amortize allocation by doubling on grow.
