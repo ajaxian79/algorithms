@@ -3478,3 +3478,7 @@ Branchless inner loop after sorting.
 ## entry 845
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 846
+
+Reentrant — no static state.
