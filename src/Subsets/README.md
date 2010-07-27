@@ -3811,3 +3811,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 938
 
 Runs in a single pass over the input.
+
+## entry 939
+
+Space complexity: O(log n) for the recursion stack.
