@@ -351,3 +351,4 @@ char* to_hex_string(int n) {
 // note 318: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 319: Space complexity: O(n) for the result buffer.
 // note 320: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 321: 32-bit safe; overflow is checked at each step.
