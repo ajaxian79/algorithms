@@ -3903,3 +3903,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 960
 
 Returns a freshly allocated string the caller must free.
+
+## entry 961
+
+Stable across duplicates in the input.
