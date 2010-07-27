@@ -2669,3 +2669,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 650
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 651
+
+False sharing: two threads writing different bytes in the same cache line stall both.
