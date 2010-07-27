@@ -409,3 +409,4 @@ MunitTest add_strings_tests[] = {
 // edge note 373: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 374: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 375: Returns a freshly allocated string the caller must free.
+// edge note 376: Deterministic given the input — no PRNG seeds.
