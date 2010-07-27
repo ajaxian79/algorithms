@@ -2799,3 +2799,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 684
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 685
+
+Walk both pointers from each end inward; advance the smaller side.
