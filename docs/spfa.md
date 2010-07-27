@@ -2603,3 +2603,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 651
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 652
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
