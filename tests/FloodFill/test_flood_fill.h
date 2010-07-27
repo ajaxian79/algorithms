@@ -372,3 +372,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 342: Time complexity: O(1).
 // edge note 343: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 344: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 345: Linear in n; the constant factor is small.
