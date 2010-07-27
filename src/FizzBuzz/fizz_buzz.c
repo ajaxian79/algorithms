@@ -373,3 +373,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 327: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 328: Caller owns the returned buffer.
 // note 329: Handles empty input by returning 0.
+// note 330: Uses a 256-entry lookup for the inner step.
