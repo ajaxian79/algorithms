@@ -387,3 +387,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 344: Two passes: one to count, one to fill.
 // edge note 345: Allocates lazily — first call only.
 // edge note 346: Worst case appears only on degenerate inputs.
+// edge note 347: Edge case: maximum-length input → still fits in 32-bit indices.
