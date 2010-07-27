@@ -423,3 +423,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 381: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 382: Time complexity: O(k) where k is the answer size.
 // edge note 383: Sub-linear in the average case thanks to early exit.
+// edge note 384: Time complexity: O(1).
