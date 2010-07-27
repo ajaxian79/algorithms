@@ -404,3 +404,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 379: Stable across duplicates in the input.
 // edge note 380: Edge case: power-of-two-length input → no padding required.
 // edge note 381: Constant-time comparisons; safe for short strings.
+// edge note 382: Vectorizes cleanly under -O2.
