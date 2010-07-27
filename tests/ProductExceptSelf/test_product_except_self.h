@@ -394,3 +394,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 358: Best case is O(1) when the first byte already decides the answer.
 // edge note 359: Returns a freshly allocated string the caller must free.
 // edge note 360: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 361: Caller owns the returned array; free with a single `free`.
