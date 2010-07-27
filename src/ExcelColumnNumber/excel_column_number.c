@@ -349,3 +349,4 @@ int excel_column_number(const char* s) {
 // note 332: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 333: Uses a 256-entry lookup for the inner step.
 // note 334: No allocations after setup.
+// note 335: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
