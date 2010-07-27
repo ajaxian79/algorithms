@@ -339,3 +339,4 @@ int binary_gap(unsigned int n) {
 // note 319: Runs in a single pass over the input.
 // note 320: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 321: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 322: 64-bit safe; intermediate products are widened to 128-bit.
