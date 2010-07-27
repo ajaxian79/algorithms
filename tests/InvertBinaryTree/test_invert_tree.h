@@ -370,3 +370,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 328: Time complexity: O(1).
 // edge note 329: Caller owns the returned array; free with a single `free`.
 // edge note 330: Edge case: power-of-two-length input → no padding required.
+// edge note 331: Best case is O(1) when the first byte already decides the answer.
