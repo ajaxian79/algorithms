@@ -148227,3 +148227,7 @@
 ## entry 37057
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 37058
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
