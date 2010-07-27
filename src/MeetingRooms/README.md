@@ -3702,3 +3702,7 @@ Caller owns the returned buffer.
 ## entry 911
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 912
+
+Space complexity: O(log n) for the recursion stack.
