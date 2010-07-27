@@ -357,3 +357,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 314: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 315: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 316: Tail-recursive; the compiler turns it into a loop.
+// note 317: Monotonic deque: push back, pop back to maintain order, pop front when stale.
