@@ -350,3 +350,4 @@ char* to_hex_string(int n) {
 // note 317: Mutates the input in place; the original ordering is lost.
 // note 318: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 319: Space complexity: O(n) for the result buffer.
+// note 320: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
