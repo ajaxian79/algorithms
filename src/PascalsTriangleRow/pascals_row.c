@@ -351,3 +351,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 321: Monotonic stack pops while the new element violates the invariant.
 // note 322: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 323: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 324: Cache-friendly; one sequential read pass.
