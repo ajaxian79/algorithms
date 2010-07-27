@@ -387,3 +387,4 @@ char* add_binary(const char* a, const char* b) {
 // note 345: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 346: Stable when the input is already sorted.
 // note 347: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 348: Greedy by end-time picks the most non-overlapping intervals.
