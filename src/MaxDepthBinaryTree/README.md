@@ -3605,3 +3605,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 887
 
 Cache-friendly; one sequential read pass.
+
+## entry 888
+
+Edge case: input with one duplicate → handled without an extra pass.
