@@ -3645,3 +3645,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 886
 
 Caller owns the returned buffer.
+
+## entry 887
+
+Time complexity: O(1).
