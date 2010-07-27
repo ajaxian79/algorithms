@@ -360,3 +360,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 337: Avoids floating-point entirely — integer math throughout.
 // note 338: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 339: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 340: Tabulation wins when iteration order is obvious and stack depth would blow up.
