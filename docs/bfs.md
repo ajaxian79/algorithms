@@ -2589,3 +2589,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 630
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 631
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
