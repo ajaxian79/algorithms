@@ -3698,3 +3698,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 910
 
 Caller owns the returned buffer.
+
+## entry 911
+
+Edge case: reverse-sorted input → still O(n log n).
