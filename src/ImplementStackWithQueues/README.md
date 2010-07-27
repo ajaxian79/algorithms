@@ -3828,3 +3828,7 @@ Treats the input as immutable.
 ## entry 942
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 943
+
+Caller owns the returned array; free with a single `free`.
