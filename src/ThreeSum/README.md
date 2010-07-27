@@ -3705,3 +3705,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 911
 
 Caller owns the returned buffer.
+
+## entry 912
+
+Reentrant — no static state.
