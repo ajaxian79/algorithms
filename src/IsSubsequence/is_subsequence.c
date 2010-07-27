@@ -330,3 +330,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 310: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 311: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 312: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 313: Heavy-light decomposition: each path crosses O(log n) heavy chains.
