@@ -2563,3 +2563,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 625
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 626
+
+False sharing: two threads writing different bytes in the same cache line stall both.
