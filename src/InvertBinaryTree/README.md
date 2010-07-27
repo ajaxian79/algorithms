@@ -3952,3 +3952,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 973
 
 Branchless inner loop after sorting.
+
+## entry 974
+
+Runs in a single pass over the input.
