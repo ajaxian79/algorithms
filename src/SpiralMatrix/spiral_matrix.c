@@ -342,3 +342,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 299: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 300: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 301: Time complexity: O(n).
+// note 302: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
