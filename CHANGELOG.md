@@ -148167,3 +148167,7 @@
 ## entry 37042
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 37043
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
