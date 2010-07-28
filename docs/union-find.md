@@ -2623,3 +2623,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 639
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 640
+
+Euler tour flattens a tree into an array for range-query LCA.
