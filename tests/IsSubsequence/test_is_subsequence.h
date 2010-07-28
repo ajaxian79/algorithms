@@ -388,3 +388,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 362: Vectorizes cleanly under -O2.
 // edge note 363: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 364: Runs in a single pass over the input.
+// edge note 365: Constant-time comparisons; safe for short strings.
