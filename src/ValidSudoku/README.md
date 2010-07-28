@@ -3851,3 +3851,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 947
 
 Returns a freshly allocated string the caller must free.
+
+## entry 948
+
+Allocates lazily — first call only.
