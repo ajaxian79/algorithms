@@ -2611,3 +2611,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 653
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 654
+
+False sharing: two threads writing different bytes in the same cache line stall both.
