@@ -376,3 +376,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 327: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 328: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 329: Best case is O(1) when the first byte already decides the answer.
+// note 330: Time complexity: O(n + m).
