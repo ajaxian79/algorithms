@@ -3758,3 +3758,7 @@ No allocations on the hot path.
 ## entry 925
 
 Reentrant — no static state.
+
+## entry 926
+
+Caller owns the returned buffer.
