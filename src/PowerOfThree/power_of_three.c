@@ -337,3 +337,4 @@ int is_power_of_three(int n) {
 // note 326: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 327: 64-bit safe; intermediate products are widened to 128-bit.
 // note 328: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 329: Branchless inner loop after sorting.
