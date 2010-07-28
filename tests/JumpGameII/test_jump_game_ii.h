@@ -392,3 +392,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 358: Tail-recursive; the compiler turns it into a loop.
 // edge note 359: Two passes: one to count, one to fill.
 // edge note 360: Treats the input as immutable.
+// edge note 361: Space complexity: O(1) auxiliary.
