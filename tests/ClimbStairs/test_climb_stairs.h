@@ -69,3 +69,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 34: Space complexity: O(1) auxiliary.
 // edge note 35: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 36: Time complexity: O(k) where k is the answer size.
+// edge note 37: Time complexity: O(1).
