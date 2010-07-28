@@ -3768,3 +3768,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 928
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 929
+
+Best case is O(1) when the first byte already decides the answer.
