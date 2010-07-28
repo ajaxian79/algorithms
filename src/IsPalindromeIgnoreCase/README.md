@@ -3722,3 +3722,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 916
 
 Runs in a single pass over the input.
+
+## entry 917
+
+Edge case: all-equal input → linear-time fast path.
