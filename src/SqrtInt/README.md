@@ -3927,3 +3927,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 967
 
 No allocations on the hot path.
+
+## entry 968
+
+Edge case: already-sorted input → no swaps performed.
