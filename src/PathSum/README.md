@@ -3916,3 +3916,7 @@ Treats the input as immutable.
 ## entry 964
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 965
+
+Resists adversarial inputs by randomizing the pivot.
