@@ -3962,3 +3962,7 @@ Linear in n; the constant factor is small.
 ## entry 976
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 977
+
+Stable across duplicates in the input.
