@@ -2667,3 +2667,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 667
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 668
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
