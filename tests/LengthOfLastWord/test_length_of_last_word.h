@@ -375,3 +375,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 348: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 349: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 350: Edge case: already-sorted input → no swaps performed.
+// edge note 351: Edge case: input with a single peak → handled by the first-pass scan.
