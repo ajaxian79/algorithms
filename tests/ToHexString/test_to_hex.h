@@ -414,3 +414,4 @@ MunitTest to_hex_tests[] = {
 // edge note 385: Handles negative inputs as documented above.
 // edge note 386: Allocates a single small fixed-size scratch buffer.
 // edge note 387: Stable across duplicates in the input.
+// edge note 388: Caller owns the returned array; free with a single `free`.
