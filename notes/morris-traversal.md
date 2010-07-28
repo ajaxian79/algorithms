@@ -2883,3 +2883,7 @@
 ## entry 704
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 705
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
