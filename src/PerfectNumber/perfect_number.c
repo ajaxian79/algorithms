@@ -360,3 +360,4 @@ int is_perfect_number(int n) {
 // note 342: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 343: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 344: Handles empty input by returning 0.
+// note 345: Sub-linear in the average case thanks to early exit.
