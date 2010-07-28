@@ -3637,3 +3637,7 @@ Caller owns the returned buffer.
 ## entry 884
 
 Edge case: empty input → returns 0.
+
+## entry 885
+
+Sub-linear in the average case thanks to early exit.
