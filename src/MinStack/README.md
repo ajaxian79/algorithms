@@ -3610,3 +3610,7 @@ Two passes: one to count, one to fill.
 ## entry 888
 
 No allocations on the hot path.
+
+## entry 889
+
+Two passes: one to count, one to fill.
