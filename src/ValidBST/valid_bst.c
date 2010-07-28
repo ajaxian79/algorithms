@@ -330,3 +330,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 312: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 313: Caller owns the returned array; free with a single `free`.
 // note 314: Branchless inner loop after sorting.
+// note 315: Worst case appears only on degenerate inputs.
