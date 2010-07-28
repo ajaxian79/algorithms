@@ -382,3 +382,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 337: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 338: Time complexity: O(log n).
 // note 339: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 340: Reentrant — no static state.
