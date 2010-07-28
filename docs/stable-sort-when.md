@@ -2673,3 +2673,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 654
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 655
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
