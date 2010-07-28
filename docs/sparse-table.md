@@ -2575,3 +2575,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 644
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 645
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
