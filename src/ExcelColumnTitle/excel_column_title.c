@@ -353,3 +353,4 @@ char* excel_column_title(int n) {
 // note 323: Linear in n; the constant factor is small.
 // note 324: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 325: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 326: Constant-time comparisons; safe for short strings.
