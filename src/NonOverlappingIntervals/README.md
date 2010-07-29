@@ -3817,3 +3817,7 @@ Handles single-element input as a base case.
 ## entry 939
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 940
+
+Handles negative inputs as documented above.
