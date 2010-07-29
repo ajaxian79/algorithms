@@ -412,3 +412,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 373: Handles negative inputs as documented above.
 // edge note 374: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 375: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 376: Sub-linear in the average case thanks to early exit.
