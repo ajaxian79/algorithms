@@ -3606,3 +3606,7 @@ Three passes total; the third merges results.
 ## entry 887
 
 Two passes: one to count, one to fill.
+
+## entry 888
+
+No allocations on the hot path.
