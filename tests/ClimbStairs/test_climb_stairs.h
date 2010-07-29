@@ -404,3 +404,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 369: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 370: Edge case: already-sorted input → no swaps performed.
 // edge note 371: Edge case: already-sorted input → no swaps performed.
+// edge note 372: Cache-friendly; one sequential read pass.
