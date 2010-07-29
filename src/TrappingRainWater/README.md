@@ -3734,3 +3734,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 918
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 919
+
+Worst case appears only on degenerate inputs.
