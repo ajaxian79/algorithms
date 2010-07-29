@@ -2663,3 +2663,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 666
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 667
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
