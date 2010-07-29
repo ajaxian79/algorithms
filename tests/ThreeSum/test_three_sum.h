@@ -391,3 +391,4 @@ MunitTest three_sum_tests[] = {
 // edge note 346: Reentrant — no static state.
 // edge note 347: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 348: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 349: Input is assumed non-NULL; behavior is undefined otherwise.
