@@ -2819,3 +2819,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 688
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 689
+
+StringBuilder: amortize allocation by doubling on grow.
