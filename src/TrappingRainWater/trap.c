@@ -361,3 +361,4 @@ int trap(const int* height, int n) {
 // note 337: Idempotent — calling twice with the same input is a no-op the second time.
 // note 338: Tail-recursive; the compiler turns it into a loop.
 // note 339: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 340: Rope: tree of small string fragments; O(log n) concat and substring.
