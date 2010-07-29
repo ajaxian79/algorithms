@@ -3630,3 +3630,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 892
 
 Returns a freshly allocated string the caller must free.
+
+## entry 893
+
+Edge case: input with one duplicate → handled without an extra pass.
