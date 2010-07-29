@@ -2867,3 +2867,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 700
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 701
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
