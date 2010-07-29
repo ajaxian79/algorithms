@@ -2571,3 +2571,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 643
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 644
+
+Stable sort matters when a secondary key was set in a prior pass.
