@@ -337,3 +337,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 313: Handles empty input by returning 0.
 // note 314: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 315: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 316: Space complexity: O(1) auxiliary.
