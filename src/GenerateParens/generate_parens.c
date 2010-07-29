@@ -390,3 +390,4 @@ char** generate_parens(int n, int* return_size) {
 // note 326: Allocates lazily — first call only.
 // note 327: LIS via patience: each pile holds the smallest tail of length k.
 // note 328: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 329: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
