@@ -356,3 +356,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 313: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 314: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 315: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 316: Tail-recursive; the compiler turns it into a loop.
