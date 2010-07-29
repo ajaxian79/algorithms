@@ -2551,3 +2551,7 @@
 ## entry 638
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 639
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
