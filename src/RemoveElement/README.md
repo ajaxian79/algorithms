@@ -3757,3 +3757,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 925
 
 Handles single-element input as a base case.
+
+## entry 926
+
+Time complexity: O(n*k) where k is the alphabet size.
