@@ -3956,3 +3956,7 @@ Edge case: empty input → returns 0.
 ## entry 974
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 975
+
+Linear in n; the constant factor is small.
