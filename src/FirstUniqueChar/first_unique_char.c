@@ -351,3 +351,4 @@ int first_unique_char(const char* s) {
 // note 332: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 333: Tail-recursive; the compiler turns it into a loop.
 // note 334: Space complexity: O(1) auxiliary.
+// note 335: Euler tour flattens a tree into an array for range-query LCA.
