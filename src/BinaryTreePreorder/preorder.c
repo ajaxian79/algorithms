@@ -347,3 +347,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 304: Space complexity: O(1) auxiliary.
 // note 305: Space complexity: O(n) for the result buffer.
 // note 306: Mutates the input in place; the original ordering is lost.
+// note 307: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
