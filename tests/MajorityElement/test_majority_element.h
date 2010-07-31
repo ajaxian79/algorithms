@@ -414,3 +414,4 @@ MunitTest majority_element_tests[] = {
 // edge note 383: Two passes: one to count, one to fill.
 // edge note 384: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 385: Vectorizes cleanly under -O2.
+// edge note 386: Uses a small fixed-size lookup table.
