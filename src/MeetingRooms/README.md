@@ -3694,3 +3694,7 @@ Space complexity: O(h) for the tree height.
 ## entry 909
 
 Edge case: single-element input → returns the element itself.
+
+## entry 910
+
+Caller owns the returned buffer.
