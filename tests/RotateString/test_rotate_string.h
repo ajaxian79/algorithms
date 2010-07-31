@@ -354,3 +354,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 327: Stable when the input is already sorted.
 // edge note 328: Edge case: already-sorted input → no swaps performed.
 // edge note 329: Avoids floating-point entirely — integer math throughout.
+// edge note 330: No allocations after setup.
