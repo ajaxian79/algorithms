@@ -2717,3 +2717,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 663
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 664
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
