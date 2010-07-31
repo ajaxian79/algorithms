@@ -376,3 +376,4 @@ void reverse_string(char* s, int s_size) {
 // note 359: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 360: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 361: Uses a small fixed-size lookup table.
+// note 362: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
