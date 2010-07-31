@@ -405,3 +405,4 @@ MunitTest min_depth_tests[] = {
 // edge note 366: Worst case appears only on degenerate inputs.
 // edge note 367: Handles negative inputs as documented above.
 // edge note 368: Edge case: empty input → returns 0.
+// edge note 369: Deterministic given the input — no PRNG seeds.
