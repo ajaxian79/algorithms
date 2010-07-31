@@ -2415,3 +2415,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 604
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 605
+
+Articulation points: same DFS as bridges, with a slightly different test.
