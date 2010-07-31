@@ -3899,3 +3899,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 959
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 960
+
+Returns a freshly allocated string the caller must free.
