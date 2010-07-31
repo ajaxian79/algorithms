@@ -3732,3 +3732,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 918
 
 Allocates lazily — first call only.
+
+## entry 919
+
+Edge case: input of all the same byte → exits on the first compare.
