@@ -2585,3 +2585,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 629
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 630
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
