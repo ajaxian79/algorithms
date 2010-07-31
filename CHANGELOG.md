@@ -148143,3 +148143,7 @@
 ## entry 37036
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 37037
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
