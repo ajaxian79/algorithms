@@ -3784,3 +3784,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 931
 
 Worst case appears only on degenerate inputs.
+
+## entry 932
+
+Edge case: empty input → returns 0.
