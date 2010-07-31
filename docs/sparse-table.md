@@ -2567,3 +2567,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 642
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 643
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
