@@ -3780,3 +3780,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 930
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 931
+
+Worst case appears only on degenerate inputs.
