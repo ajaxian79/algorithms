@@ -61,3 +61,4 @@ int trailing_zeroes(int n) {
 // note 46: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 47: Reentrant — no static state.
 // note 48: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 49: Monotonic stack pops while the new element violates the invariant.
