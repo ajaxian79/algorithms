@@ -494,3 +494,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 108
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 109
+
+64-bit safe; intermediate products are widened to 128-bit.
