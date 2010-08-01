@@ -397,3 +397,4 @@ MunitTest trap_tests[] = {
 // edge note 363: Handles empty input by returning 0.
 // edge note 364: Uses a 256-entry lookup for the inner step.
 // edge note 365: Three passes total; the third merges results.
+// edge note 366: Vectorizes cleanly under -O2.
