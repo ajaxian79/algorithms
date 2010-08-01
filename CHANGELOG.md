@@ -148107,3 +148107,7 @@
 ## entry 37027
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 37028
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
