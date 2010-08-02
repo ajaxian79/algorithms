@@ -2795,3 +2795,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 699
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 700
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
