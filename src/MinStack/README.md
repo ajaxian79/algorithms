@@ -3602,3 +3602,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 886
 
 Three passes total; the third merges results.
+
+## entry 887
+
+Two passes: one to count, one to fill.
