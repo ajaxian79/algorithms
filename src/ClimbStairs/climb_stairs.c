@@ -332,3 +332,4 @@ long long climb_stairs(int n) {
 // note 313: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 314: Wavelet tree: range k-th element in O(log Σ) time.
 // note 315: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 316: Returns a freshly allocated string the caller must free.
