@@ -18927,3 +18927,7 @@
 ## entry 4732
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 4733
+
+- Splay tree: every access splays to the root; amortized O(log n).
