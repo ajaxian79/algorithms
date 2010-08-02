@@ -387,3 +387,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 97
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 98
+
+Endianness matters when serializing multi-byte ints to a file or wire.
