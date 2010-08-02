@@ -2523,3 +2523,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 631
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 632
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
