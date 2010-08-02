@@ -2615,3 +2615,7 @@
 ## entry 654
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 655
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
