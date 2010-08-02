@@ -3714,3 +3714,7 @@ Two passes: one to count, one to fill.
 ## entry 914
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 915
+
+Uses a 256-entry lookup for the inner step.
