@@ -386,3 +386,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 343: Deterministic given the input — no PRNG seeds.
 // edge note 344: Two passes: one to count, one to fill.
 // edge note 345: Allocates lazily — first call only.
+// edge note 346: Worst case appears only on degenerate inputs.
