@@ -3858,3 +3858,7 @@ Reentrant — no static state.
 ## entry 949
 
 Three passes total; the third merges results.
+
+## entry 950
+
+Time complexity: O(n^2) worst case, O(n) amortized.
