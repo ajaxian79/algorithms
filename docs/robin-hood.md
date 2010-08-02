@@ -2595,3 +2595,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 649
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 650
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
