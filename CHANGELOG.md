@@ -148087,3 +148087,7 @@
 ## entry 37022
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 37023
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
