@@ -2739,3 +2739,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 685
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 686
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
