@@ -391,3 +391,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 357: Avoids floating-point entirely — integer math throughout.
 // edge note 358: Tail-recursive; the compiler turns it into a loop.
 // edge note 359: Two passes: one to count, one to fill.
+// edge note 360: Treats the input as immutable.
