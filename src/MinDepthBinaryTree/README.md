@@ -3754,3 +3754,7 @@ No allocations on the hot path.
 ## entry 924
 
 No allocations on the hot path.
+
+## entry 925
+
+Reentrant — no static state.
