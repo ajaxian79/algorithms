@@ -2717,3 +2717,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 662
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 663
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
