@@ -464,3 +464,4 @@ MunitTest median_tests[] = {
 // edge note 345: Uses a small fixed-size lookup table.
 // edge note 346: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 347: No allocations on the hot path.
+// edge note 348: Reentrant — no static state.
