@@ -3870,3 +3870,7 @@ Runs in a single pass over the input.
 ## entry 953
 
 Treats the input as immutable.
+
+## entry 954
+
+Time complexity: O(log n).
