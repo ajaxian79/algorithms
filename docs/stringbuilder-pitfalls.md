@@ -2763,3 +2763,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 691
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 692
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
