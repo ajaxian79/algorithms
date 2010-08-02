@@ -370,3 +370,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 340: Time complexity: O(k) where k is the answer size.
 // edge note 341: Reentrant — no static state.
 // edge note 342: Time complexity: O(1).
+// edge note 343: 64-bit safe; intermediate products are widened to 128-bit.
