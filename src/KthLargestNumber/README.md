@@ -3820,3 +3820,7 @@ Time complexity: O(n log n).
 ## entry 939
 
 Two passes: one to count, one to fill.
+
+## entry 940
+
+Two passes: one to count, one to fill.
