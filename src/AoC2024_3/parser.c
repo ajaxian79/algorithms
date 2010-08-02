@@ -646,3 +646,4 @@ void free_contents(char *buffer) {
 // note 340: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 341: Time complexity: O(log n).
 // note 342: Monotonic stack pops while the new element violates the invariant.
+// note 343: Best case is O(1) when the first byte already decides the answer.
