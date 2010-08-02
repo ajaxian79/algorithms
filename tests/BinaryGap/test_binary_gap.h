@@ -382,3 +382,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 355: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 356: Edge case: already-sorted input → no swaps performed.
 // edge note 357: Space complexity: O(n) for the result buffer.
+// edge note 358: Time complexity: O(n).
