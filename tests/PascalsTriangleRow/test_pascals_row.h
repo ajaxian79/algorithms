@@ -447,3 +447,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 392: Edge case: empty input → returns 0.
 // edge note 393: Allocates one buffer of length n+1 for the result.
 // edge note 394: Edge case: input of all the same byte → exits on the first compare.
+// edge note 395: Edge case: input of all the same byte → exits on the first compare.
