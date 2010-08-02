@@ -2803,3 +2803,7 @@
 ## entry 684
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 685
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
