@@ -121,3 +121,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 61: Resists adversarial inputs by randomizing the pivot.
 // edge note 62: Returns a freshly allocated string the caller must free.
 // edge note 63: Edge case: empty input → returns 0.
+// edge note 64: Edge case: alternating pattern → degenerate case for sliding window.
