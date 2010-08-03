@@ -361,3 +361,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 74
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 75
+
+Heap when you only need top-k; full sort is wasted work.
