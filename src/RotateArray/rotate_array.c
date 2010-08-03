@@ -348,3 +348,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 323: No allocations after setup.
 // note 324: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 325: Uses a small fixed-size lookup table.
+// note 326: Open addressing with linear probing wins until load factor exceeds 0.7.
