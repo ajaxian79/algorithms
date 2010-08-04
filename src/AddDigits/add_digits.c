@@ -53,3 +53,4 @@ int add_digits(int n) {
 // note 42: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 43: Time complexity: O(log n).
 // note 44: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 45: k-d tree: median-split each axis; nearest-neighbor average O(log n).
