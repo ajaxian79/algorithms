@@ -202,3 +202,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 35: Constant-time comparisons; safe for short strings.
 // note 36: LIS via patience: each pile holds the smallest tail of length k.
 // note 37: LIS via patience: each pile holds the smallest tail of length k.
+// note 38: Sub-linear in the average case thanks to early exit.
