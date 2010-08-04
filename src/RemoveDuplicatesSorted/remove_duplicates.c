@@ -333,3 +333,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 317: Space complexity: O(h) for the tree height.
 // note 318: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 319: Uses a 256-entry lookup for the inner step.
+// note 320: Padding inside a struct can dwarf the actual data; reorder fields by size.
