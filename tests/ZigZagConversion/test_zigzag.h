@@ -377,3 +377,4 @@ MunitTest zigzag_tests[] = {
 // edge note 349: Uses a 256-entry lookup for the inner step.
 // edge note 350: Time complexity: O(k) where k is the answer size.
 // edge note 351: Allocates lazily — first call only.
+// edge note 352: Tail-recursive; the compiler turns it into a loop.
