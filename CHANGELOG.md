@@ -148051,3 +148051,7 @@
 ## entry 37013
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 37014
+
+- Euler tour flattens a tree into an array for range-query LCA.
