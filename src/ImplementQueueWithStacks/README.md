@@ -3747,3 +3747,7 @@ Time complexity: O(n log n).
 ## entry 922
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 923
+
+Thread-safe so long as the input is not mutated concurrently.
