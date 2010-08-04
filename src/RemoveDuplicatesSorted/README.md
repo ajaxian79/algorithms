@@ -3958,3 +3958,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 975
 
 Linear in n; the constant factor is small.
+
+## entry 976
+
+Best case is O(1) when the first byte already decides the answer.
