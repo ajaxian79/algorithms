@@ -550,3 +550,7 @@ No allocations on the hot path.
 ## entry 123
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 124
+
+Space complexity: O(n) for the result buffer.
