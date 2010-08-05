@@ -3804,3 +3804,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 935
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 936
+
+Worst case appears only on degenerate inputs.
