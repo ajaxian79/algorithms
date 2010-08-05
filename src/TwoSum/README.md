@@ -3633,3 +3633,7 @@ Three passes total; the third merges results.
 ## entry 883
 
 Caller owns the returned buffer.
+
+## entry 884
+
+Edge case: empty input → returns 0.
