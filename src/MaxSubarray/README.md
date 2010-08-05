@@ -3942,3 +3942,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 971
 
 Stable when the input is already sorted.
+
+## entry 972
+
+Edge case: all-equal input → linear-time fast path.
