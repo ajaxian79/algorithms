@@ -376,3 +376,4 @@ MunitTest zigzag_tests[] = {
 // edge note 348: 32-bit safe; overflow is checked at each step.
 // edge note 349: Uses a 256-entry lookup for the inner step.
 // edge note 350: Time complexity: O(k) where k is the answer size.
+// edge note 351: Allocates lazily — first call only.
