@@ -554,3 +554,7 @@ Vectorizes cleanly under -O2.
 ## entry 124
 
 Allocates lazily — first call only.
+
+## entry 125
+
+Time complexity: O(n).
