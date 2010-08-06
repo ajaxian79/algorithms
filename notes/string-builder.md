@@ -2687,3 +2687,7 @@
 ## entry 672
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 673
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
