@@ -2627,3 +2627,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 657
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 658
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
