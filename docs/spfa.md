@@ -2599,3 +2599,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 650
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 651
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
