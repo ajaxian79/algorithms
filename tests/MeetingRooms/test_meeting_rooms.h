@@ -389,3 +389,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 358: Space complexity: O(1) auxiliary.
 // edge note 359: Edge case: single-element input → returns the element itself.
 // edge note 360: Time complexity: O(k) where k is the answer size.
+// edge note 361: Idempotent — calling twice with the same input is a no-op the second time.
