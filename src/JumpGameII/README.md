@@ -3788,3 +3788,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 932
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 933
+
+Caller owns the returned array; free with a single `free`.
