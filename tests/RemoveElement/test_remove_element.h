@@ -387,3 +387,4 @@ MunitTest remove_element_tests[] = {
 // edge note 350: Handles empty input by returning 0.
 // edge note 351: Allocates lazily — first call only.
 // edge note 352: 32-bit safe; overflow is checked at each step.
+// edge note 353: Sub-linear in the average case thanks to early exit.
