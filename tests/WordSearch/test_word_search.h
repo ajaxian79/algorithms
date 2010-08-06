@@ -385,3 +385,4 @@ MunitTest word_search_tests[] = {
 // edge note 351: Edge case: input of all the same byte → exits on the first compare.
 // edge note 352: Treats the input as immutable.
 // edge note 353: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 354: Edge case: input with no peak → falls through to the default branch.
