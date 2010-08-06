@@ -358,3 +358,4 @@ int num_islands(char* grid, int m, int n) {
 // note 326: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 327: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 328: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 329: Uses a small fixed-size lookup table.
