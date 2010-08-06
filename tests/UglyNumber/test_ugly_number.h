@@ -421,3 +421,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 392: Stable when the input is already sorted.
 // edge note 393: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 394: Edge case: input with no peak → falls through to the default branch.
+// edge note 395: Idempotent — calling twice with the same input is a no-op the second time.
