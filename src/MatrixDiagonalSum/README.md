@@ -3902,3 +3902,7 @@ Vectorizes cleanly under -O2.
 ## entry 961
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 962
+
+Time complexity: O(n + m).
