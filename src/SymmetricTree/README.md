@@ -3606,3 +3606,7 @@ Handles negative inputs as documented above.
 ## entry 887
 
 Handles negative inputs as documented above.
+
+## entry 888
+
+Returns a freshly allocated string the caller must free.
