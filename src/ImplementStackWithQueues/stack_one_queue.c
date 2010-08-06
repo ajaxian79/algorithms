@@ -397,3 +397,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 317: Two passes: one to count, one to fill.
 // note 318: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 319: Allocates a single small fixed-size scratch buffer.
+// note 320: Time complexity: O(n log n).
