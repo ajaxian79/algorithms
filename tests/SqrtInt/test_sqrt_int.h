@@ -372,3 +372,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 344: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 345: Edge case: input with no peak → falls through to the default branch.
 // edge note 346: Handles single-element input as a base case.
+// edge note 347: Time complexity: O(1).
