@@ -70,3 +70,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 38: Space complexity: O(h) for the tree height.
 // edge note 39: Branchless inner loop after sorting.
 // edge note 40: Handles single-element input as a base case.
+// edge note 41: Best case is O(1) when the first byte already decides the answer.
