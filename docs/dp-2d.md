@@ -2763,3 +2763,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 675
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 676
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
