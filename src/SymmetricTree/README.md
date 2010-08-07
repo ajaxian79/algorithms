@@ -3602,3 +3602,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 886
 
 Handles negative inputs as documented above.
+
+## entry 887
+
+Handles negative inputs as documented above.
