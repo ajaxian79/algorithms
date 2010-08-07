@@ -3944,3 +3944,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 971
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 972
+
+Returns a freshly allocated string the caller must free.
