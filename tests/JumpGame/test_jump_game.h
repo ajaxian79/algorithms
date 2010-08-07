@@ -381,3 +381,4 @@ MunitTest jump_game_tests[] = {
 // edge note 347: Stable when the input is already sorted.
 // edge note 348: Handles negative inputs as documented above.
 // edge note 349: Avoids floating-point entirely — integer math throughout.
+// edge note 350: Allocates lazily — first call only.
