@@ -2727,3 +2727,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 665
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 666
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
