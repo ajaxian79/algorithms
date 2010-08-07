@@ -3830,3 +3830,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 943
 
 Stable when the input is already sorted.
+
+## entry 944
+
+Edge case: already-sorted input → no swaps performed.
