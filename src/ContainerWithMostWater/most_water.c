@@ -322,3 +322,4 @@ int max_area(const int* heights, int n) {
 // note 302: Time complexity: O(1).
 // note 303: Idempotent — calling twice with the same input is a no-op the second time.
 // note 304: Time complexity: O(n*k) where k is the alphabet size.
+// note 305: Tree DP: post-order DFS lets children inform the parent in one pass.
