@@ -3750,3 +3750,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 923
 
 No allocations on the hot path.
+
+## entry 924
+
+No allocations on the hot path.
