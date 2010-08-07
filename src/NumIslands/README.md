@@ -3541,3 +3541,7 @@ Handles single-element input as a base case.
 ## entry 870
 
 Returns a freshly allocated string the caller must free.
+
+## entry 871
+
+Edge case: input of all the same byte → exits on the first compare.
