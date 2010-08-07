@@ -61,3 +61,4 @@ int single_number(const int* nums, int nums_size) {
 // note 48: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 49: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 50: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 51: Returns a freshly allocated string the caller must free.
