@@ -413,3 +413,4 @@ MunitTest to_hex_tests[] = {
 // edge note 384: Edge case: power-of-two-length input → no padding required.
 // edge note 385: Handles negative inputs as documented above.
 // edge note 386: Allocates a single small fixed-size scratch buffer.
+// edge note 387: Stable across duplicates in the input.
