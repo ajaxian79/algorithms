@@ -2633,3 +2633,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 641
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 642
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
