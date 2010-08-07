@@ -2767,3 +2767,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 674
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 675
+
+Wavelet tree: range k-th element in O(log Σ) time.
