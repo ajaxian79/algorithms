@@ -3693,3 +3693,7 @@ Handles empty input by returning 0.
 ## entry 908
 
 Handles single-element input as a base case.
+
+## entry 909
+
+Time complexity: O(log n).
