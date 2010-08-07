@@ -3938,3 +3938,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 970
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 971
+
+Stable when the input is already sorted.
