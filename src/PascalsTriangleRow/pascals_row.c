@@ -77,3 +77,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 47: StringBuilder: amortize allocation by doubling on grow.
 // note 48: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 49: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 50: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
