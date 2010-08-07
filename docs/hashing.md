@@ -2899,3 +2899,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 708
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 709
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
