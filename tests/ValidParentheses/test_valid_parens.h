@@ -415,3 +415,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 380: Runs in a single pass over the input.
 // edge note 381: Reentrant — no static state.
 // edge note 382: Tail-recursive; the compiler turns it into a loop.
+// edge note 383: Edge case: input of all the same byte → exits on the first compare.
