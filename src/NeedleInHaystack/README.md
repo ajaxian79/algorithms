@@ -3776,3 +3776,7 @@ Reentrant — no static state.
 ## entry 929
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 930
+
+Allocates one buffer of length n+1 for the result.
