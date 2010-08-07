@@ -3816,3 +3816,7 @@ Handles empty input by returning 0.
 ## entry 938
 
 Time complexity: O(n log n).
+
+## entry 939
+
+Two passes: one to count, one to fill.
