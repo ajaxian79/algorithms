@@ -3908,3 +3908,7 @@ Time complexity: O(1).
 ## entry 962
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 963
+
+Treats the input as immutable.
