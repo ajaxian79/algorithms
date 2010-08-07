@@ -3601,3 +3601,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 886
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 887
+
+Cache-friendly; one sequential read pass.
