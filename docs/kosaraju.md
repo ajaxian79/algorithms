@@ -2679,3 +2679,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 670
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 671
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
