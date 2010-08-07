@@ -3597,3 +3597,7 @@ Vectorizes cleanly under -O2.
 ## entry 885
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 886
+
+Edge case: alternating pattern → degenerate case for sliding window.
