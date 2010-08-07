@@ -2791,3 +2791,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 698
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 699
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
