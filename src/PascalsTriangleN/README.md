@@ -3546,3 +3546,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 871
 
 Caller owns the returned buffer.
+
+## entry 872
+
+Edge case: zero-length string → returns the empty result.
