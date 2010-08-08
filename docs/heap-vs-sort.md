@@ -383,3 +383,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 79
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 80
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
