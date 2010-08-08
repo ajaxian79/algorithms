@@ -540,3 +540,7 @@ Cache-friendly; one sequential read pass.
 ## entry 119
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 120
+
+Constant-time comparisons; safe for short strings.
