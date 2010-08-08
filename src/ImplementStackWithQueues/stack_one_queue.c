@@ -119,3 +119,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 39: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 40: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 41: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 42: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
