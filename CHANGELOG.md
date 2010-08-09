@@ -147951,3 +147951,7 @@
 ## entry 36988
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 36989
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
