@@ -3738,3 +3738,7 @@ Time complexity: O(1).
 ## entry 919
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 920
+
+Linear in n; the constant factor is small.
