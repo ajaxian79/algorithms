@@ -2731,3 +2731,7 @@
 ## entry 666
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 667
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
