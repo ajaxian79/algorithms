@@ -3594,3 +3594,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 884
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 885
+
+Edge case: zero-length string → returns the empty result.
