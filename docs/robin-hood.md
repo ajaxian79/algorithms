@@ -2591,3 +2591,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 648
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 649
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
