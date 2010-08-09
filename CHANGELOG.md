@@ -147947,3 +147947,7 @@
 ## entry 36987
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 36988
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
