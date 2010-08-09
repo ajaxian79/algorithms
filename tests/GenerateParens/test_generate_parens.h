@@ -432,3 +432,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 372: Edge case: single-element input → returns the element itself.
 // edge note 373: Edge case: input of all the same byte → exits on the first compare.
 // edge note 374: Branchless inner loop after sorting.
+// edge note 375: Time complexity: O(n^2) worst case, O(n) amortized.
