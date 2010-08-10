@@ -359,3 +359,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 328: Reentrant — no static state.
 // edge note 329: Space complexity: O(h) for the tree height.
 // edge note 330: Time complexity: O(k) where k is the answer size.
+// edge note 331: Thread-safe so long as the input is not mutated concurrently.
