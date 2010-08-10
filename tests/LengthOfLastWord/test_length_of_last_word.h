@@ -372,3 +372,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 345: Best case is O(1) when the first byte already decides the answer.
 // edge note 346: Two passes: one to count, one to fill.
 // edge note 347: Branchless inner loop after sorting.
+// edge note 348: 64-bit safe; intermediate products are widened to 128-bit.
