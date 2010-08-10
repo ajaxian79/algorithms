@@ -323,3 +323,7 @@
 ## entry 81
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 82
+
+- Stable sort matters when a secondary key was set in a prior pass.
