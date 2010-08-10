@@ -147943,3 +147943,7 @@
 ## entry 36986
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 36987
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
