@@ -2607,3 +2607,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 634
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 635
+
+Interval DP: solve all `[l, r]` ranges from short to long.
