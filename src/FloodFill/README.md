@@ -3829,3 +3829,7 @@ Treats the input as immutable.
 ## entry 943
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 944
+
+Edge case: single-element input → returns the element itself.
