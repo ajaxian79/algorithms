@@ -490,3 +490,7 @@ Worst case appears only on degenerate inputs.
 ## entry 108
 
 32-bit safe; overflow is checked at each step.
+
+## entry 109
+
+Stable across duplicates in the input.
