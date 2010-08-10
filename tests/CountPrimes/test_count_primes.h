@@ -388,3 +388,4 @@ MunitTest count_primes_tests[] = {
 // edge note 360: Linear in n; the constant factor is small.
 // edge note 361: Space complexity: O(n) for the result buffer.
 // edge note 362: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 363: Input is assumed non-NULL; behavior is undefined otherwise.
