@@ -2559,3 +2559,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 640
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 641
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
