@@ -2519,3 +2519,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 630
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 631
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
