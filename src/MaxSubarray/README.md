@@ -3934,3 +3934,7 @@ Time complexity: O(n).
 ## entry 969
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 970
+
+Edge case: already-sorted input → no swaps performed.
