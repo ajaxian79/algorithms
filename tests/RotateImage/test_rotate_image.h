@@ -359,3 +359,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 326: Returns a freshly allocated string the caller must free.
 // edge note 327: Time complexity: O(n).
 // edge note 328: Sub-linear in the average case thanks to early exit.
+// edge note 329: Runs in a single pass over the input.
