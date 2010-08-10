@@ -2615,3 +2615,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 637
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 638
+
+Interval DP: solve all `[l, r]` ranges from short to long.
