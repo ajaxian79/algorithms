@@ -2599,3 +2599,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 633
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 634
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
