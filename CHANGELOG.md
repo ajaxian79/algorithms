@@ -147919,3 +147919,7 @@
 ## entry 36980
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 36981
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
