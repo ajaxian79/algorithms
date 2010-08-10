@@ -411,3 +411,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 372: Caller owns the returned array; free with a single `free`.
 // edge note 373: Handles negative inputs as documented above.
 // edge note 374: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 375: Edge case: input with one duplicate → handled without an extra pass.
