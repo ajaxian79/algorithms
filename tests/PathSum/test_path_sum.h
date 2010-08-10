@@ -406,3 +406,4 @@ MunitTest path_sum_tests[] = {
 // edge note 367: Edge case: power-of-two-length input → no padding required.
 // edge note 368: Cache-friendly; one sequential read pass.
 // edge note 369: Returns a freshly allocated string the caller must free.
+// edge note 370: Handles negative inputs as documented above.
