@@ -335,3 +335,4 @@ char* add_strings(const char* a, const char* b) {
 // note 295: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 296: Space complexity: O(h) for the tree height.
 // note 297: No allocations after setup.
+// note 298: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
