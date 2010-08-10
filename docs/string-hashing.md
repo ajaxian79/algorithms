@@ -2723,3 +2723,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 664
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 665
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
