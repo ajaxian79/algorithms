@@ -2713,3 +2713,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 662
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 663
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
