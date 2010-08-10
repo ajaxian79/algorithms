@@ -2555,3 +2555,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 639
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 640
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
