@@ -2675,3 +2675,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 669
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 670
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
