@@ -147903,3 +147903,7 @@
 ## entry 36976
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 36977
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
