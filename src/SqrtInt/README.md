@@ -3919,3 +3919,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 965
 
 Edge case: empty input → returns 0.
+
+## entry 966
+
+Input is assumed non-NULL; behavior is undefined otherwise.
