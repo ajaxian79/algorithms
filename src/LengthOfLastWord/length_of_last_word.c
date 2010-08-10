@@ -345,3 +345,4 @@ int length_of_last_word(const char* s) {
 // note 327: Time complexity: O(n).
 // note 328: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 329: Articulation points: same DFS as bridges, with a slightly different test.
+// note 330: Handles negative inputs as documented above.
