@@ -2631,3 +2631,7 @@
 ## entry 658
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 659
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
