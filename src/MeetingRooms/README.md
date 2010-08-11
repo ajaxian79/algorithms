@@ -3686,3 +3686,7 @@ Edge case: empty input → returns 0.
 ## entry 907
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 908
+
+Space complexity: O(h) for the tree height.
