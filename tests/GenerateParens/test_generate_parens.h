@@ -431,3 +431,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 371: Allocates lazily — first call only.
 // edge note 372: Edge case: single-element input → returns the element itself.
 // edge note 373: Edge case: input of all the same byte → exits on the first compare.
+// edge note 374: Branchless inner loop after sorting.
