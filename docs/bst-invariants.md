@@ -2617,3 +2617,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 638
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 639
+
+Monotonic stack pops while the new element violates the invariant.
