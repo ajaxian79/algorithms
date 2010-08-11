@@ -338,3 +338,4 @@ int my_sqrt(int n) {
 // note 317: Vectorizes cleanly under -O2.
 // note 318: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 319: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 320: Best case is O(1) when the first byte already decides the answer.
