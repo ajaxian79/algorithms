@@ -2643,3 +2643,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 661
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 662
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
