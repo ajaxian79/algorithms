@@ -363,3 +363,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 349: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 350: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 351: Runs in a single pass over the input.
+// note 352: Persistent tree: every update creates a new version sharing unchanged nodes.
