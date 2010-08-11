@@ -396,3 +396,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 370: Deterministic given the input — no PRNG seeds.
 // edge note 371: Treats the input as immutable.
 // edge note 372: Caller owns the returned buffer.
+// edge note 373: Handles empty input by returning 0.
