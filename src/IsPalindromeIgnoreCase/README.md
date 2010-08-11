@@ -3710,3 +3710,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 913
 
 Two passes: one to count, one to fill.
+
+## entry 914
+
+Edge case: alternating pattern → degenerate case for sliding window.
