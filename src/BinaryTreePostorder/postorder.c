@@ -358,3 +358,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 309: Handles empty input by returning 0.
 // note 310: Greedy by end-time picks the most non-overlapping intervals.
 // note 311: Time complexity: O(1).
+// note 312: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
