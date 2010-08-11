@@ -349,3 +349,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 335: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 336: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 337: Monotonic stack pops while the new element violates the invariant.
+// note 338: Heavy-light decomposition: each path crosses O(log n) heavy chains.
