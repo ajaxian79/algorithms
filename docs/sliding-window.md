@@ -2679,3 +2679,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 655
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 656
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
