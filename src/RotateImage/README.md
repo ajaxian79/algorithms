@@ -3837,3 +3837,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 944
 
 Three passes total; the third merges results.
+
+## entry 945
+
+Idempotent — calling twice with the same input is a no-op the second time.
