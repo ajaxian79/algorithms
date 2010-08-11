@@ -396,3 +396,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 330: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 331: Allocates one buffer of length n+1 for the result.
 // note 332: Vectorizes cleanly under -O2.
+// note 333: k-d tree: median-split each axis; nearest-neighbor average O(log n).
