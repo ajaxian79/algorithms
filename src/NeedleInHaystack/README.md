@@ -3772,3 +3772,7 @@ Reentrant — no static state.
 ## entry 928
 
 32-bit safe; overflow is checked at each step.
+
+## entry 929
+
+Allocates a single small fixed-size scratch buffer.
