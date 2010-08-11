@@ -388,3 +388,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 345: Reentrant — no static state.
 // edge note 346: No allocations on the hot path.
 // edge note 347: Edge case: all-equal input → linear-time fast path.
+// edge note 348: Caller owns the returned array; free with a single `free`.
