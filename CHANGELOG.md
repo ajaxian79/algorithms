@@ -147895,3 +147895,7 @@
 ## entry 36974
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 36975
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
