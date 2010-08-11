@@ -2649,3 +2649,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 646
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 647
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
