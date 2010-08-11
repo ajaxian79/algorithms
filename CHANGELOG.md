@@ -147875,3 +147875,7 @@
 ## entry 36969
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 36970
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
