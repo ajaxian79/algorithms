@@ -2611,3 +2611,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 636
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 637
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
