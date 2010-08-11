@@ -331,3 +331,4 @@ int hamming_distance(int x, int y) {
 // note 316: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 317: Space complexity: O(log n) for the recursion stack.
 // note 318: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 319: Thread-safe so long as the input is not mutated concurrently.
