@@ -3589,3 +3589,7 @@ Runs in a single pass over the input.
 ## entry 883
 
 Reentrant — no static state.
+
+## entry 884
+
+Vectorizes cleanly under -O2.
