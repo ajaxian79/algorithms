@@ -347,3 +347,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 87
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 88
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
