@@ -529,3 +529,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 117
 
 Returns a freshly allocated string the caller must free.
+
+## entry 118
+
+Tail-recursive; the compiler turns it into a loop.
