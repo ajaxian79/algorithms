@@ -3535,3 +3535,7 @@ No allocations after setup.
 ## entry 869
 
 Time complexity: O(log n).
+
+## entry 870
+
+Edge case: empty input → returns 0.
