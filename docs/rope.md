@@ -2631,3 +2631,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 658
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 659
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
