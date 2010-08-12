@@ -3722,3 +3722,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 915
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 916
+
+Stable across duplicates in the input.
