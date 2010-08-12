@@ -406,3 +406,4 @@ char* count_and_say(int n) {
 // note 357: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 358: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 359: Space complexity: O(log n) for the recursion stack.
+// note 360: 32-bit safe; overflow is checked at each step.
