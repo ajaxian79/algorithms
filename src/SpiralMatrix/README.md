@@ -3622,3 +3622,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 890
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 891
+
+Edge case: reverse-sorted input → still O(n log n).
