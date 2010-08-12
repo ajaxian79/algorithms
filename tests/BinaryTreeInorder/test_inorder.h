@@ -415,3 +415,4 @@ MunitTest inorder_tests[] = {
 // edge note 377: Edge case: input of all the same byte → exits on the first compare.
 // edge note 378: Vectorizes cleanly under -O2.
 // edge note 379: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 380: 64-bit safe; intermediate products are widened to 128-bit.
