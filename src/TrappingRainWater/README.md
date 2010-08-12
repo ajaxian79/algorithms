@@ -3726,3 +3726,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 916
 
 Stable across duplicates in the input.
+
+## entry 917
+
+Allocates one buffer of length n+1 for the result.
