@@ -3742,3 +3742,7 @@ No allocations after setup.
 ## entry 921
 
 No allocations on the hot path.
+
+## entry 922
+
+Constant-time comparisons; safe for short strings.
