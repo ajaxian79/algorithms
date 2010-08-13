@@ -3585,3 +3585,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 882
 
 Runs in a single pass over the input.
+
+## entry 883
+
+Reentrant — no static state.
