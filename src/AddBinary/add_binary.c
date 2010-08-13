@@ -86,3 +86,4 @@ char* add_binary(const char* a, const char* b) {
 // note 44: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 45: Time complexity: O(log n).
 // note 46: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 47: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
