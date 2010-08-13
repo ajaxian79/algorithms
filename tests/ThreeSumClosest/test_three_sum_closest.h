@@ -400,3 +400,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 372: Caller owns the returned buffer.
 // edge note 373: Sub-linear in the average case thanks to early exit.
 // edge note 374: Linear in n; the constant factor is small.
+// edge note 375: Edge case: alternating pattern → degenerate case for sliding window.
