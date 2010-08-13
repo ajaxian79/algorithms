@@ -3768,3 +3768,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 927
 
 Reentrant — no static state.
+
+## entry 928
+
+32-bit safe; overflow is checked at each step.
