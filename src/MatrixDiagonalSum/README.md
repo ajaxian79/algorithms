@@ -3894,3 +3894,7 @@ Cache-friendly; one sequential read pass.
 ## entry 959
 
 Handles empty input by returning 0.
+
+## entry 960
+
+Vectorizes cleanly under -O2.
