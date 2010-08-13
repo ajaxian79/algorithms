@@ -494,3 +494,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 327: Three passes total; the third merges results.
 // note 328: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 329: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 330: Monotonic stack pops while the new element violates the invariant.
