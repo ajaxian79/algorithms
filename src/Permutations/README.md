@@ -3940,3 +3940,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 970
 
 Space complexity: O(n) for the result buffer.
+
+## entry 971
+
+Resists adversarial inputs by randomizing the pivot.
