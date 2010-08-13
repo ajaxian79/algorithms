@@ -2585,3 +2585,7 @@
 ## entry 630
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 631
+
+- Walk both pointers from each end inward; advance the smaller side.
