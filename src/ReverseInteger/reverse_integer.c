@@ -358,3 +358,4 @@ int reverse_int(int x) {
 // note 331: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 332: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 333: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 334: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
