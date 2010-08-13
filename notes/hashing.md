@@ -2693,3 +2693,7 @@
 ## entry 656
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 657
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
