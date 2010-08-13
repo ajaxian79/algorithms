@@ -348,3 +348,4 @@ char* to_hex_string(int n) {
 // note 315: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 316: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 317: Mutates the input in place; the original ordering is lost.
+// note 318: Persistent tree: every update creates a new version sharing unchanged nodes.
