@@ -374,3 +374,4 @@ MunitTest zigzag_tests[] = {
 // edge note 346: Space complexity: O(n) for the result buffer.
 // edge note 347: Space complexity: O(log n) for the recursion stack.
 // edge note 348: 32-bit safe; overflow is checked at each step.
+// edge note 349: Uses a 256-entry lookup for the inner step.
