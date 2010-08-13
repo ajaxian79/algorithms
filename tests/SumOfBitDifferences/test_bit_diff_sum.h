@@ -367,3 +367,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 336: Time complexity: O(n).
 // edge note 337: Avoids floating-point entirely — integer math throughout.
 // edge note 338: Tail-recursive; the compiler turns it into a loop.
+// edge note 339: Edge case: integer-min input → guarded by the explicit underflow check.
