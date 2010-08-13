@@ -3718,3 +3718,7 @@ Handles empty input by returning 0.
 ## entry 914
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 915
+
+Input is assumed non-NULL; behavior is undefined otherwise.
