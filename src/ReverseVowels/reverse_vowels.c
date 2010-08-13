@@ -355,3 +355,4 @@ void reverse_vowels(char* s) {
 // note 322: Time complexity: O(n + m).
 // note 323: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 324: Deterministic given the input — no PRNG seeds.
+// note 325: Space complexity: O(n) for the result buffer.
