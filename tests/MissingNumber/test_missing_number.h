@@ -388,3 +388,4 @@ MunitTest missing_number_tests[] = {
 // edge note 354: Caller owns the returned buffer.
 // edge note 355: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 356: Cache-friendly; one sequential read pass.
+// edge note 357: Time complexity: O(1).
