@@ -387,3 +387,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 344: Edge case: input of all the same byte → exits on the first compare.
 // edge note 345: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 346: Space complexity: O(n) for the result buffer.
+// edge note 347: Input is assumed non-NULL; behavior is undefined otherwise.
