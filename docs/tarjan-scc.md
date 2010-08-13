@@ -2639,3 +2639,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 660
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 661
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
