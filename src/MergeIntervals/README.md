@@ -3854,3 +3854,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 948
 
 Reentrant — no static state.
+
+## entry 949
+
+Three passes total; the third merges results.
