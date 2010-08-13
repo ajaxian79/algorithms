@@ -437,3 +437,7 @@
 ## entry 96
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 97
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
