@@ -396,3 +396,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 317: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 318: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 319: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 320: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
