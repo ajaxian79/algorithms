@@ -2741,3 +2741,7 @@
 ## entry 670
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 671
+
+- Articulation points: same DFS as bridges, with a slightly different test.
