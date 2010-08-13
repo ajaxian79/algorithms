@@ -2769,3 +2769,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 676
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 677
+
+Greedy by end-time picks the most non-overlapping intervals.
