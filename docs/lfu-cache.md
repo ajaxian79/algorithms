@@ -2623,3 +2623,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 656
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 657
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
