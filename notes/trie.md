@@ -2493,3 +2493,7 @@
 ## entry 606
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 607
+
+- Wavelet tree: range k-th element in O(log Σ) time.
