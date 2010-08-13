@@ -3813,3 +3813,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 938
 
 Handles single-element input as a base case.
+
+## entry 939
+
+Avoids floating-point entirely — integer math throughout.
