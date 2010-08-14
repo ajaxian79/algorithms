@@ -2727,3 +2727,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 682
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 683
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
