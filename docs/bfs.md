@@ -2573,3 +2573,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 626
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 627
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
