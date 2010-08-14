@@ -3828,3 +3828,7 @@ Runs in a single pass over the input.
 ## entry 941
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 942
+
+64-bit safe; intermediate products are widened to 128-bit.
