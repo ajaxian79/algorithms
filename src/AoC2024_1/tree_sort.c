@@ -536,3 +536,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 314: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 315: Uses a small fixed-size lookup table.
 // note 316: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 317: Time complexity: O(n + m).
