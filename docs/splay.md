@@ -2519,3 +2519,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 630
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 631
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
