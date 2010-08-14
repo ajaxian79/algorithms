@@ -3890,3 +3890,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 958
 
 Cache-friendly; one sequential read pass.
+
+## entry 959
+
+Handles empty input by returning 0.
