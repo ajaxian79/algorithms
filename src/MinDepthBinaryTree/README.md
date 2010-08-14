@@ -3738,3 +3738,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 920
 
 No allocations after setup.
+
+## entry 921
+
+No allocations on the hot path.
