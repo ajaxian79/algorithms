@@ -2827,3 +2827,7 @@
 ## entry 690
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 691
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
