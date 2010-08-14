@@ -18911,3 +18911,7 @@
 ## entry 4728
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 4729
+
+- StringBuilder: amortize allocation by doubling on grow.
