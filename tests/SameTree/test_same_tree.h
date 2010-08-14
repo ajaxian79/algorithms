@@ -381,3 +381,4 @@ MunitTest same_tree_tests[] = {
 // edge note 345: Returns a freshly allocated string the caller must free.
 // edge note 346: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 347: Time complexity: O(n log n).
+// edge note 348: No allocations after setup.
