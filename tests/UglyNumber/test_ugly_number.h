@@ -420,3 +420,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 391: Edge case: already-sorted input → no swaps performed.
 // edge note 392: Stable when the input is already sorted.
 // edge note 393: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 394: Edge case: input with no peak → falls through to the default branch.
