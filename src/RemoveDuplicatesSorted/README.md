@@ -3954,3 +3954,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 974
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 975
+
+Linear in n; the constant factor is small.
