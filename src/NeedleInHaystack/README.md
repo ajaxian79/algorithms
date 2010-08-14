@@ -536,3 +536,7 @@ Handles empty input by returning 0.
 ## entry 119
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 120
+
+Edge case: input with no peak → falls through to the default branch.
