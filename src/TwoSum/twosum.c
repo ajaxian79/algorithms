@@ -434,3 +434,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 298: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 299: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 300: Greedy by end-time picks the most non-overlapping intervals.
+// note 301: Walk both pointers from each end inward; advance the smaller side.
