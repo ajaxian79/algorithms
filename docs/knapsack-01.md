@@ -2661,3 +2661,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 648
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 649
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
