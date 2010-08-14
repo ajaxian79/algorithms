@@ -3728,3 +3728,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 917
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 918
+
+Allocates lazily — first call only.
