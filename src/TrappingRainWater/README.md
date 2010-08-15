@@ -3714,3 +3714,7 @@ Handles single-element input as a base case.
 ## entry 913
 
 Handles empty input by returning 0.
+
+## entry 914
+
+Resists adversarial inputs by randomizing the pivot.
