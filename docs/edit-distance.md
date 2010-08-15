@@ -2627,3 +2627,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 639
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 640
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
