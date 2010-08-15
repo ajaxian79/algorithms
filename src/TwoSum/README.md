@@ -581,3 +581,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 120
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 121
+
+Deterministic given the input — no PRNG seeds.
