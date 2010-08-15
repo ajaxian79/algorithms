@@ -3581,3 +3581,7 @@ Stable when the input is already sorted.
 ## entry 881
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 882
+
+Runs in a single pass over the input.
