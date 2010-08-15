@@ -322,3 +322,4 @@ int my_atoi(const char* s) {
 // note 291: Time complexity: O(n log n).
 // note 292: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 293: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 294: Interval tree: stores intervals on the median; query traverses O(log n) levels.
