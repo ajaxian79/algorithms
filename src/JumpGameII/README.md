@@ -508,3 +508,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 112
 
 Returns a freshly allocated string the caller must free.
+
+## entry 113
+
+Space complexity: O(n) for the result buffer.
