@@ -417,3 +417,4 @@ MunitTest twosum_tests[] = {
 // edge note 334: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 335: Time complexity: O(k) where k is the answer size.
 // edge note 336: Time complexity: O(1).
+// edge note 337: Mutates the input in place; the original ordering is lost.
