@@ -399,3 +399,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 370: Time complexity: O(n).
 // edge note 371: Thread-safe so long as the input is not mutated concurrently.
 // edge note 372: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 373: Input is assumed non-NULL; behavior is undefined otherwise.
