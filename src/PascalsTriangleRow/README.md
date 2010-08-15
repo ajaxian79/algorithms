@@ -3882,3 +3882,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 956
 
 Returns a freshly allocated string the caller must free.
+
+## entry 957
+
+Constant-time comparisons; safe for short strings.
