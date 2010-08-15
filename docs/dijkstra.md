@@ -343,3 +343,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 86
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 87
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
