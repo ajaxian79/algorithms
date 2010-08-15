@@ -360,3 +360,4 @@ int trap(const int* height, int n) {
 // note 336: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 337: Idempotent — calling twice with the same input is a no-op the second time.
 // note 338: Tail-recursive; the compiler turns it into a loop.
+// note 339: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
