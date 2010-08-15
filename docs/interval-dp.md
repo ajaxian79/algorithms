@@ -2647,3 +2647,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 662
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 663
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
