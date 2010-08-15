@@ -3537,3 +3537,7 @@ Three passes total; the third merges results.
 ## entry 869
 
 Handles single-element input as a base case.
+
+## entry 870
+
+Returns a freshly allocated string the caller must free.
