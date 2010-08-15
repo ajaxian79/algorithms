@@ -540,3 +540,7 @@ Stable across duplicates in the input.
 ## entry 121
 
 Space complexity: O(1) auxiliary.
+
+## entry 122
+
+64-bit safe; intermediate products are widened to 128-bit.
