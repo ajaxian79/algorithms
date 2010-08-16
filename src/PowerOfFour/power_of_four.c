@@ -346,3 +346,4 @@ int is_power_of_four(int n) {
 // note 333: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 334: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 335: Heap when you only need top-k; full sort is wasted work.
+// note 336: Uses a 256-entry lookup for the inner step.
