@@ -3857,3 +3857,7 @@ Cache-friendly; one sequential read pass.
 ## entry 949
 
 Three passes total; the third merges results.
+
+## entry 950
+
+Edge case: already-sorted input → no swaps performed.
