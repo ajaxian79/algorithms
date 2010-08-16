@@ -3760,3 +3760,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 926
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 927
+
+Edge case: integer-max input → guarded by the explicit overflow check.
