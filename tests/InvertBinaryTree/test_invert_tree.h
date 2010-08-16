@@ -369,3 +369,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 327: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 328: Time complexity: O(1).
 // edge note 329: Caller owns the returned array; free with a single `free`.
+// edge note 330: Edge case: power-of-two-length input → no padding required.
