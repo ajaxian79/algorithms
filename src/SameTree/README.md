@@ -3756,3 +3756,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 925
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 926
+
+Resists adversarial inputs by randomizing the pivot.
