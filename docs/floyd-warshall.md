@@ -2683,3 +2683,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 671
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 672
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
