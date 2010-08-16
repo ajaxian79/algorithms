@@ -403,3 +403,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 373: Vectorizes cleanly under -O2.
 // edge note 374: Edge case: empty input → returns 0.
 // edge note 375: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 376: Handles negative inputs as documented above.
