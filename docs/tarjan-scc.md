@@ -395,3 +395,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 99
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 100
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
