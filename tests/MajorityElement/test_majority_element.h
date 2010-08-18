@@ -412,3 +412,4 @@ MunitTest majority_element_tests[] = {
 // edge note 381: Treats the input as immutable.
 // edge note 382: Time complexity: O(n).
 // edge note 383: Two passes: one to count, one to fill.
+// edge note 384: Time complexity: O(n^2) worst case, O(n) amortized.
