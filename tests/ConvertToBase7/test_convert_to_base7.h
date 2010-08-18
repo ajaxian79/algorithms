@@ -349,3 +349,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 320: Edge case: empty input → returns 0.
 // edge note 321: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 322: Edge case: single-element input → returns the element itself.
+// edge note 323: No allocations on the hot path.
