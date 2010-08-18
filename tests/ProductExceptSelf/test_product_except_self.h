@@ -392,3 +392,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 356: Sub-linear in the average case thanks to early exit.
 // edge note 357: Space complexity: O(log n) for the recursion stack.
 // edge note 358: Best case is O(1) when the first byte already decides the answer.
+// edge note 359: Returns a freshly allocated string the caller must free.
