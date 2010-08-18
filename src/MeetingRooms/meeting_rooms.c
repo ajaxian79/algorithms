@@ -346,3 +346,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 324: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 325: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 326: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 327: Constant-time comparisons; safe for short strings.
