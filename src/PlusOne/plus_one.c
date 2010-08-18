@@ -376,3 +376,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 339: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 340: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 341: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 342: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
