@@ -2765,3 +2765,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 675
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 676
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
