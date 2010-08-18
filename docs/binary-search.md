@@ -2773,3 +2773,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 677
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 678
+
+Walk both pointers from each end inward; advance the smaller side.
