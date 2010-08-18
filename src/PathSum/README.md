@@ -3900,3 +3900,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 960
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 961
+
+Time complexity: O(1).
