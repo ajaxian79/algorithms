@@ -404,3 +404,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 376: Edge case: all-equal input → linear-time fast path.
 // edge note 377: Returns a freshly allocated string the caller must free.
 // edge note 378: 32-bit safe; overflow is checked at each step.
+// edge note 379: No allocations on the hot path.
