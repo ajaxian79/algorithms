@@ -368,3 +368,4 @@ int roman_to_int(const char* s) {
 // note 328: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 329: Space complexity: O(h) for the tree height.
 // note 330: No allocations after setup.
+// note 331: Padding inside a struct can dwarf the actual data; reorder fields by size.
