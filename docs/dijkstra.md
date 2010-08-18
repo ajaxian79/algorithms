@@ -2599,3 +2599,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 650
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 651
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
