@@ -3706,3 +3706,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 912
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 913
+
+Two passes: one to count, one to fill.
