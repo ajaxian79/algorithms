@@ -3812,3 +3812,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 937
 
 Handles empty input by returning 0.
+
+## entry 938
+
+Time complexity: O(n log n).
