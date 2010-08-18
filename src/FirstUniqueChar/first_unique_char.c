@@ -349,3 +349,4 @@ int first_unique_char(const char* s) {
 // note 330: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 331: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 332: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 333: Tail-recursive; the compiler turns it into a loop.
