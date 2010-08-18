@@ -421,3 +421,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 386: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 387: Space complexity: O(log n) for the recursion stack.
 // edge note 388: Space complexity: O(n) for the result buffer.
+// edge note 389: No allocations after setup.
