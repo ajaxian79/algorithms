@@ -362,3 +362,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 331: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 332: Caller owns the returned array; free with a single `free`.
 // edge note 333: Edge case: power-of-two-length input → no padding required.
+// edge note 334: Deterministic given the input — no PRNG seeds.
