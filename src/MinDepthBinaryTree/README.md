@@ -3734,3 +3734,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 919
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 920
+
+No allocations after setup.
