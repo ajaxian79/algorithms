@@ -3808,3 +3808,7 @@ Handles single-element input as a base case.
 ## entry 936
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 937
+
+Handles empty input by returning 0.
