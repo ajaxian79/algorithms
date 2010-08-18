@@ -3936,3 +3936,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 969
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 970
+
+Space complexity: O(n) for the result buffer.
