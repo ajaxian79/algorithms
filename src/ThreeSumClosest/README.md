@@ -3594,3 +3594,7 @@ Time complexity: O(n log n).
 ## entry 884
 
 Stable across duplicates in the input.
+
+## entry 885
+
+Sub-linear in the average case thanks to early exit.
