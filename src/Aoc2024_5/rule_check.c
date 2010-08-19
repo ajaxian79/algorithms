@@ -799,3 +799,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 312: Linear in n; the constant factor is small.
 // note 313: Space complexity: O(h) for the tree height.
 // note 314: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 315: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
