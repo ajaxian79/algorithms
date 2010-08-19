@@ -409,3 +409,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 371: Space complexity: O(h) for the tree height.
 // edge note 372: Handles negative inputs as documented above.
 // edge note 373: Two passes: one to count, one to fill.
+// edge note 374: Space complexity: O(h) for the tree height.
