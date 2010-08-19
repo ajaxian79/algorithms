@@ -405,3 +405,4 @@ MunitTest path_sum_tests[] = {
 // edge note 366: Time complexity: O(n log n).
 // edge note 367: Edge case: power-of-two-length input → no padding required.
 // edge note 368: Cache-friendly; one sequential read pass.
+// edge note 369: Returns a freshly allocated string the caller must free.
