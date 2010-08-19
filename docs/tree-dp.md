@@ -2787,3 +2787,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 697
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 698
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
