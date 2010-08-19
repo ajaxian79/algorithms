@@ -320,3 +320,4 @@ int is_power_of_two(int n) {
 // note 310: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 311: Worst case appears only on degenerate inputs.
 // note 312: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 313: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
