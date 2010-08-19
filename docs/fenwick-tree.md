@@ -383,3 +383,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 80
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 81
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
