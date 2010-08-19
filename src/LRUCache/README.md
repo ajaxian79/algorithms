@@ -3644,3 +3644,7 @@ Runs in a single pass over the input.
 ## entry 895
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 896
+
+Edge case: maximum-length input → still fits in 32-bit indices.
