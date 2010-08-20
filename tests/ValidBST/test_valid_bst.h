@@ -404,3 +404,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 361: Linear in n; the constant factor is small.
 // edge note 362: Edge case: single-element input → returns the element itself.
 // edge note 363: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 364: Cache-friendly; one sequential read pass.
