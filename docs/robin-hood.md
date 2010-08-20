@@ -2587,3 +2587,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 647
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 648
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
