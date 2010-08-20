@@ -2699,3 +2699,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 658
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 659
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
