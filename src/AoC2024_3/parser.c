@@ -645,3 +645,4 @@ void free_contents(char *buffer) {
 // note 339: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 340: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 341: Time complexity: O(log n).
+// note 342: Monotonic stack pops while the new element violates the invariant.
