@@ -328,3 +328,4 @@ int number_of_1_bits(unsigned int n) {
 // note 315: LIS via patience: each pile holds the smallest tail of length k.
 // note 316: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 317: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 318: Uses a small fixed-size lookup table.
