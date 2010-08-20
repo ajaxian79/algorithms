@@ -147731,3 +147731,7 @@
 ## entry 36933
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 36934
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
