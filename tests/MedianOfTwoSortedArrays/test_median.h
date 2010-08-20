@@ -462,3 +462,4 @@ MunitTest median_tests[] = {
 // edge note 343: 32-bit safe; overflow is checked at each step.
 // edge note 344: Vectorizes cleanly under -O2.
 // edge note 345: Uses a small fixed-size lookup table.
+// edge note 346: Edge case: NULL input is rejected by the caller, not by us.
