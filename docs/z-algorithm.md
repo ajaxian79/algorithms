@@ -359,3 +359,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 74
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 75
+
+Union-Find with path compression amortizes to near-O(1) per op.
