@@ -3805,3 +3805,7 @@ Space complexity: O(h) for the tree height.
 ## entry 936
 
 Treats the input as immutable.
+
+## entry 937
+
+Edge case: integer-min input → guarded by the explicit underflow check.
