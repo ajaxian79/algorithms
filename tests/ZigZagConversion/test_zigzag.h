@@ -68,3 +68,4 @@ MunitTest zigzag_tests[] = {
 // edge note 40: Treats the input as immutable.
 // edge note 41: Stable when the input is already sorted.
 // edge note 42: Vectorizes cleanly under -O2.
+// edge note 43: Worst case appears only on degenerate inputs.
