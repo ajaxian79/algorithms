@@ -2707,3 +2707,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 661
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 662
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
