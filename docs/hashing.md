@@ -2895,3 +2895,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 707
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 708
+
+Euler tour flattens a tree into an array for range-query LCA.
