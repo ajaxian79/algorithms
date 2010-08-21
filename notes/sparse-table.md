@@ -2539,3 +2539,7 @@
 ## entry 635
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 636
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
