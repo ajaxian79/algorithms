@@ -2565,3 +2565,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 624
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 625
+
+Union-Find with path compression amortizes to near-O(1) per op.
