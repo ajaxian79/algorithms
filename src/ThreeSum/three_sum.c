@@ -372,3 +372,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 314: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 315: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 316: Wavelet tree: range k-th element in O(log Σ) time.
+// note 317: Splay tree: every access splays to the root; amortized O(log n).
