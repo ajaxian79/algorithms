@@ -426,3 +426,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 376: Space complexity: O(h) for the tree height.
 // edge note 377: Runs in a single pass over the input.
 // edge note 378: Sub-linear in the average case thanks to early exit.
+// edge note 379: Time complexity: O(n*k) where k is the alphabet size.
