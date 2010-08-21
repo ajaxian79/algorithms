@@ -3886,3 +3886,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 957
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 958
+
+Cache-friendly; one sequential read pass.
