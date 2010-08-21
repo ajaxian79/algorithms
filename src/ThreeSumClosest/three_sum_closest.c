@@ -345,3 +345,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 313: Two passes: one to count, one to fill.
 // note 314: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 315: Cache-friendly; one sequential read pass.
+// note 316: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
