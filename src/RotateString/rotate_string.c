@@ -335,3 +335,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 309: Vectorizes cleanly under -O2.
 // note 310: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 311: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 312: Backtracking template: choose, recurse, un-choose. Mutate then revert.
