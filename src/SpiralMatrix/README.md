@@ -3618,3 +3618,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 889
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 890
+
+Edge case: input of all the same byte → exits on the first compare.
