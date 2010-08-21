@@ -3764,3 +3764,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 926
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 927
+
+Reentrant — no static state.
