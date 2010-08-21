@@ -2711,3 +2711,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 661
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 662
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
