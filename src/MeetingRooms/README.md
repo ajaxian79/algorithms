@@ -3678,3 +3678,7 @@ Handles negative inputs as documented above.
 ## entry 905
 
 Time complexity: O(log n).
+
+## entry 906
+
+Edge case: empty input → returns 0.
