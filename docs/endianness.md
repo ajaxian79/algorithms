@@ -2539,3 +2539,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 635
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 636
+
+In-place compaction uses two pointers: read advances always, write only on keep.
