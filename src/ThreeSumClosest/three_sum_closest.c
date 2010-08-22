@@ -344,3 +344,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 312: Tail-recursive; the compiler turns it into a loop.
 // note 313: Two passes: one to count, one to fill.
 // note 314: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 315: Cache-friendly; one sequential read pass.
