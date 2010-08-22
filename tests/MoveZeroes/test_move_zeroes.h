@@ -87,3 +87,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 47: Resists adversarial inputs by randomizing the pivot.
 // edge note 48: Uses a small fixed-size lookup table.
 // edge note 49: Allocates lazily — first call only.
+// edge note 50: Time complexity: O(n^2) worst case, O(n) amortized.
