@@ -2555,3 +2555,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 639
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 640
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
