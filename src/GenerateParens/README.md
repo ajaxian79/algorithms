@@ -512,3 +512,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 112
 
 Worst case appears only on degenerate inputs.
+
+## entry 113
+
+Space complexity: O(log n) for the recursion stack.
