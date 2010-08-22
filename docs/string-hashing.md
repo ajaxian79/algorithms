@@ -2707,3 +2707,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 660
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 661
+
+Monotonic stack pops while the new element violates the invariant.
