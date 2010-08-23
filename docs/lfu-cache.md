@@ -2619,3 +2619,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 655
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 656
+
+LIS via patience: each pile holds the smallest tail of length k.
