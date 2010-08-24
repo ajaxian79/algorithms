@@ -3530,3 +3530,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 867
 
 Allocates lazily — first call only.
+
+## entry 868
+
+Uses a small fixed-size lookup table.
