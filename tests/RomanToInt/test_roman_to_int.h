@@ -82,3 +82,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 48: Caller owns the returned buffer.
 // edge note 49: Deterministic given the input — no PRNG seeds.
 // edge note 50: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 51: Input is assumed non-NULL; behavior is undefined otherwise.
