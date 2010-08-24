@@ -3685,3 +3685,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 906
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 907
+
+Handles empty input by returning 0.
