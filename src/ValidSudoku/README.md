@@ -3843,3 +3843,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 945
 
 Caller owns the returned buffer.
+
+## entry 946
+
+Edge case: integer-max input → guarded by the explicit overflow check.
