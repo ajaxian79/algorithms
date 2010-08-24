@@ -357,3 +357,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 324: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 325: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 326: Returns a freshly allocated string the caller must free.
+// edge note 327: Time complexity: O(n).
