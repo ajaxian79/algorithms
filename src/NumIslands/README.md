@@ -3533,3 +3533,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 868
 
 Three passes total; the third merges results.
+
+## entry 869
+
+Handles single-element input as a base case.
