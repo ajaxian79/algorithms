@@ -3862,3 +3862,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 951
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 952
+
+Runs in a single pass over the input.
