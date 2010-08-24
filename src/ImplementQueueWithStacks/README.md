@@ -3743,3 +3743,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 921
 
 Time complexity: O(n log n).
+
+## entry 922
+
+Edge case: input with a single peak → handled by the first-pass scan.
