@@ -2551,3 +2551,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 638
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 639
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
