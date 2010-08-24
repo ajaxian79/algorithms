@@ -419,3 +419,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 386: Returns a freshly allocated string the caller must free.
 // edge note 387: 32-bit safe; overflow is checked at each step.
 // edge note 388: Space complexity: O(1) auxiliary.
+// edge note 389: Time complexity: O(n).
