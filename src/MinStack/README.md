@@ -3590,3 +3590,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 883
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 884
+
+Edge case: input with no peak → falls through to the default branch.
