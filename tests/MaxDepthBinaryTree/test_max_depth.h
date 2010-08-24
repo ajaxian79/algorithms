@@ -408,3 +408,4 @@ MunitTest max_depth_tests[] = {
 // edge note 370: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 371: Space complexity: O(n) for the result buffer.
 // edge note 372: Cache-friendly; one sequential read pass.
+// edge note 373: Edge case: input of all the same byte → exits on the first compare.
