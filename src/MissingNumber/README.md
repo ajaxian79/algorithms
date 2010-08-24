@@ -3762,3 +3762,7 @@ Time complexity: O(n).
 ## entry 925
 
 Handles negative inputs as documented above.
+
+## entry 926
+
+Caller owns the returned buffer.
