@@ -355,3 +355,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 340: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 341: Stable across duplicates in the input.
 // note 342: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 343: Monotonic stack pops while the new element violates the invariant.
