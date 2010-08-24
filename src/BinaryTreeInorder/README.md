@@ -3822,3 +3822,7 @@ Handles empty input by returning 0.
 ## entry 941
 
 Stable when the input is already sorted.
+
+## entry 942
+
+Edge case: empty input → returns 0.
