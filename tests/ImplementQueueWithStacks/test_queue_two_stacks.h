@@ -373,3 +373,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 340: Linear in n; the constant factor is small.
 // edge note 341: Best case is O(1) when the first byte already decides the answer.
 // edge note 342: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 343: 32-bit safe; overflow is checked at each step.
