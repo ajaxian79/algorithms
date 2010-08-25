@@ -2563,3 +2563,7 @@
 ## entry 641
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 642
+
+- Stable sort matters when a secondary key was set in a prior pass.
