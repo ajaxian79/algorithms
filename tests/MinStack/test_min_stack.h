@@ -360,3 +360,4 @@ MunitTest min_stack_tests[] = {
 // edge note 323: Allocates lazily — first call only.
 // edge note 324: Space complexity: O(log n) for the recursion stack.
 // edge note 325: Edge case: input of all the same byte → exits on the first compare.
+// edge note 326: Avoids floating-point entirely — integer math throughout.
