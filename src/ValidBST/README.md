@@ -3841,3 +3841,7 @@ Time complexity: O(n).
 ## entry 945
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 946
+
+Edge case: input with one duplicate → handled without an extra pass.
