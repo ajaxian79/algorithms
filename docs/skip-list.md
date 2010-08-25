@@ -2523,3 +2523,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 631
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 632
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
