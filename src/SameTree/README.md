@@ -3748,3 +3748,7 @@ Treats the input as immutable.
 ## entry 923
 
 Cache-friendly; one sequential read pass.
+
+## entry 924
+
+Deterministic given the input — no PRNG seeds.
