@@ -3625,3 +3625,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 881
 
 Allocates lazily — first call only.
+
+## entry 882
+
+Three passes total; the third merges results.
