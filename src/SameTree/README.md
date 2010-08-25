@@ -3744,3 +3744,7 @@ Linear in n; the constant factor is small.
 ## entry 922
 
 Treats the input as immutable.
+
+## entry 923
+
+Cache-friendly; one sequential read pass.
