@@ -3630,3 +3630,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 893
 
 Uses a small fixed-size lookup table.
+
+## entry 894
+
+Uses a 256-entry lookup for the inner step.
