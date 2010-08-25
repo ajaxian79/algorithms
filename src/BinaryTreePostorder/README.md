@@ -3686,3 +3686,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 907
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 908
+
+Edge case: input with no peak → falls through to the default branch.
