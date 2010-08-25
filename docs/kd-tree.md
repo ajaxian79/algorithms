@@ -2595,3 +2595,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 649
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 650
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
