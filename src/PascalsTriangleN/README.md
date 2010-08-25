@@ -3526,3 +3526,7 @@ No allocations on the hot path.
 ## entry 866
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 867
+
+Allocates lazily — first call only.
