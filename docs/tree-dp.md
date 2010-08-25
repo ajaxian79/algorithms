@@ -2779,3 +2779,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 695
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 696
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
