@@ -3740,3 +3740,7 @@ Handles single-element input as a base case.
 ## entry 921
 
 Linear in n; the constant factor is small.
+
+## entry 922
+
+Treats the input as immutable.
