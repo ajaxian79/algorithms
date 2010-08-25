@@ -350,3 +350,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 316: Space complexity: O(1) auxiliary.
 // edge note 317: Uses a small fixed-size lookup table.
 // edge note 318: Time complexity: O(n + m).
+// edge note 319: Reentrant — no static state.
