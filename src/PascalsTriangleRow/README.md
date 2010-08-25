@@ -3878,3 +3878,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 955
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 956
+
+Returns a freshly allocated string the caller must free.
