@@ -417,3 +417,4 @@ MunitTest num_islands_tests[] = {
 // edge note 377: Time complexity: O(log n).
 // edge note 378: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 379: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 380: Branchless inner loop after sorting.
