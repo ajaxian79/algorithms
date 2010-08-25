@@ -3818,3 +3818,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 940
 
 Handles empty input by returning 0.
+
+## entry 941
+
+Stable when the input is already sorted.
