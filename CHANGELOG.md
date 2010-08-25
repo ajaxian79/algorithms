@@ -147663,3 +147663,7 @@
 ## entry 36916
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 36917
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
