@@ -3850,3 +3850,7 @@ Treats the input as immutable.
 ## entry 947
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 948
+
+Reentrant — no static state.
