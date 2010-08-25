@@ -3853,3 +3853,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 948
 
 Cache-friendly; one sequential read pass.
+
+## entry 949
+
+Three passes total; the third merges results.
