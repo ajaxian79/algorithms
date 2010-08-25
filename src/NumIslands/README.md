@@ -3525,3 +3525,7 @@ Time complexity: O(log n).
 ## entry 866
 
 Edge case: single-element input → returns the element itself.
+
+## entry 867
+
+Edge case: input with a single peak → handled by the first-pass scan.
