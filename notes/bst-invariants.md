@@ -2729,3 +2729,7 @@
 ## entry 667
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 668
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
