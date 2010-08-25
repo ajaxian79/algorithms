@@ -346,3 +346,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 321: Thread-safe so long as the input is not mutated concurrently.
 // note 322: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 323: No allocations after setup.
+// note 324: Merge intervals: sort by start; extend the running interval while overlapping.
