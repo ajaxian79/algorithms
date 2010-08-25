@@ -2645,3 +2645,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 645
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 646
+
+Walk both pointers from each end inward; advance the smaller side.
