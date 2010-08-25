@@ -3724,3 +3724,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 916
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 917
+
+Edge case: integer-min input → guarded by the explicit underflow check.
