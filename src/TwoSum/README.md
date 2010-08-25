@@ -3621,3 +3621,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 880
 
 32-bit safe; overflow is checked at each step.
+
+## entry 881
+
+Allocates lazily — first call only.
