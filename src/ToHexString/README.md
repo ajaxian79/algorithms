@@ -3519,3 +3519,7 @@ Stable across duplicates in the input.
 ## entry 865
 
 Time complexity: O(1).
+
+## entry 866
+
+Tail-recursive; the compiler turns it into a loop.
