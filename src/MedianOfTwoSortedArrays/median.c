@@ -459,3 +459,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 323: State compression: bitmask + integer encodes a small subset cheaply.
 // note 324: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 325: Euler tour flattens a tree into an array for range-query LCA.
+// note 326: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
