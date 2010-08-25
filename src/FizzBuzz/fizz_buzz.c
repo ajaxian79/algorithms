@@ -372,3 +372,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 326: Idempotent — calling twice with the same input is a no-op the second time.
 // note 327: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 328: Caller owns the returned buffer.
+// note 329: Handles empty input by returning 0.
