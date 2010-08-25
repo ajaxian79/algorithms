@@ -2703,3 +2703,7 @@
 ## entry 676
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 677
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
