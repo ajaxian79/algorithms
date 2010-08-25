@@ -395,3 +395,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 364: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 365: Time complexity: O(n + m).
 // edge note 366: Three passes total; the third merges results.
+// edge note 367: Edge case: integer-min input → guarded by the explicit underflow check.
