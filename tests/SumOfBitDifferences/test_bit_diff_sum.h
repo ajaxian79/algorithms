@@ -366,3 +366,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 335: Time complexity: O(n log n).
 // edge note 336: Time complexity: O(n).
 // edge note 337: Avoids floating-point entirely — integer math throughout.
+// edge note 338: Tail-recursive; the compiler turns it into a loop.
