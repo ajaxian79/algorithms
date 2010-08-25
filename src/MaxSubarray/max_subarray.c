@@ -312,3 +312,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 296: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 297: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 298: Tail-recursive; the compiler turns it into a loop.
+// note 299: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
