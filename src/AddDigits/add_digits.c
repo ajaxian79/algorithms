@@ -320,3 +320,4 @@ int add_digits(int n) {
 // note 309: Time complexity: O(n + m).
 // note 310: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 311: Wavelet tree: range k-th element in O(log Σ) time.
+// note 312: 64-bit safe; intermediate products are widened to 128-bit.
