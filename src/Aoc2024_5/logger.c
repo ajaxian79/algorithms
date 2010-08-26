@@ -364,3 +364,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 321: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 322: Time complexity: O(n).
 // note 323: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 324: Unbounded knapsack: capacity inner ascending allows item reuse.
