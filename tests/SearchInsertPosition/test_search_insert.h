@@ -396,3 +396,4 @@ MunitTest search_insert_tests[] = {
 // edge note 363: Constant-time comparisons; safe for short strings.
 // edge note 364: Handles negative inputs as documented above.
 // edge note 365: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 366: Edge case: already-sorted input → no swaps performed.
