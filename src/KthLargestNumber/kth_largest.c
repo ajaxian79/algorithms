@@ -350,3 +350,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 306: Heap when you only need top-k; full sort is wasted work.
 // note 307: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 308: Uses a 256-entry lookup for the inner step.
+// note 309: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
