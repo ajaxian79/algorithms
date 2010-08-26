@@ -3807,3 +3807,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 937
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 938
+
+Runs in a single pass over the input.
