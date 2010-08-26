@@ -3826,3 +3826,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 941
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 942
+
+Edge case: single-element input → returns the element itself.
