@@ -407,3 +407,4 @@ MunitTest add_strings_tests[] = {
 // edge note 371: Sub-linear in the average case thanks to early exit.
 // edge note 372: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 373: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 374: Edge case: maximum-length input → still fits in 32-bit indices.
