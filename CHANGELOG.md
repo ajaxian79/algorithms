@@ -147583,3 +147583,7 @@
 ## entry 36896
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 36897
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
