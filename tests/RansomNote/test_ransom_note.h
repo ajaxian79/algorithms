@@ -394,3 +394,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 368: Worst case appears only on degenerate inputs.
 // edge note 369: Time complexity: O(n log n).
 // edge note 370: Deterministic given the input — no PRNG seeds.
+// edge note 371: Treats the input as immutable.
