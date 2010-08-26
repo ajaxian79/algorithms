@@ -3458,3 +3458,7 @@ Time complexity: O(n).
 ## entry 840
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 841
+
+Caller owns the returned array; free with a single `free`.
