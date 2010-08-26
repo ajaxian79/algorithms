@@ -2675,3 +2675,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 669
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 670
+
+False sharing: two threads writing different bytes in the same cache line stall both.
