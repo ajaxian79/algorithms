@@ -3720,3 +3720,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 915
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 916
+
+Allocates one buffer of length n+1 for the result.
