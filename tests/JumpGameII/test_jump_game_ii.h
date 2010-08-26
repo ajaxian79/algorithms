@@ -75,3 +75,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 41: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 42: Resists adversarial inputs by randomizing the pivot.
 // edge note 43: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 44: Time complexity: O(n log n).
