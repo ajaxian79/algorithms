@@ -329,3 +329,4 @@ int hamming_distance(int x, int y) {
 // note 314: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 315: Euler tour flattens a tree into an array for range-query LCA.
 // note 316: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 317: Space complexity: O(log n) for the recursion stack.
