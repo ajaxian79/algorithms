@@ -3878,3 +3878,7 @@ Vectorizes cleanly under -O2.
 ## entry 955
 
 Linear in n; the constant factor is small.
+
+## entry 956
+
+Best case is O(1) when the first byte already decides the answer.
