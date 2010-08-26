@@ -458,3 +458,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 322: Best case is O(1) when the first byte already decides the answer.
 // note 323: State compression: bitmask + integer encodes a small subset cheaply.
 // note 324: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 325: Euler tour flattens a tree into an array for range-query LCA.
