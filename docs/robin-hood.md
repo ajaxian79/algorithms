@@ -2583,3 +2583,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 646
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 647
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
