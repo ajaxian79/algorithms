@@ -2759,3 +2759,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 674
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 675
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
