@@ -365,3 +365,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 334: Constant-time comparisons; safe for short strings.
 // edge note 335: Time complexity: O(n log n).
 // edge note 336: Time complexity: O(n).
+// edge note 337: Avoids floating-point entirely — integer math throughout.
