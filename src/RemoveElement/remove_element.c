@@ -354,3 +354,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 339: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 340: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 341: Stable across duplicates in the input.
+// note 342: Hash collision: chain or open-address; chained handles arbitrary load factor.
