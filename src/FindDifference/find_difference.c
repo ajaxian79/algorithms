@@ -328,3 +328,4 @@ char find_difference(const char* s, const char* t) {
 // note 312: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 313: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 314: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 315: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
