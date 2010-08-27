@@ -2713,3 +2713,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 660
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 661
+
+Euler tour flattens a tree into an array for range-query LCA.
