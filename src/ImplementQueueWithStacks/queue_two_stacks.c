@@ -394,3 +394,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 315: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 316: Articulation points: same DFS as bridges, with a slightly different test.
 // note 317: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 318: DFS on a grid: write a sentinel into the visited cell; restore if needed.
