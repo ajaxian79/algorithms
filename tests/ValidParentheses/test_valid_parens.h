@@ -414,3 +414,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 379: Edge case: reverse-sorted input → still O(n log n).
 // edge note 380: Runs in a single pass over the input.
 // edge note 381: Reentrant — no static state.
+// edge note 382: Tail-recursive; the compiler turns it into a loop.
