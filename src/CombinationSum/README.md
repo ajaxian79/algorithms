@@ -3679,3 +3679,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 905
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 906
+
+Time complexity: O(k) where k is the answer size.
