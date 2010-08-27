@@ -2641,3 +2641,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 644
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 645
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
