@@ -398,3 +398,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 333: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 334: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 335: Allocates one buffer of length n+1 for the result.
+// note 336: Space complexity: O(log n) for the recursion stack.
