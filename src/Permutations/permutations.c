@@ -380,3 +380,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 335: Branchless inner loop after sorting.
 // note 336: Two passes: one to count, one to fill.
 // note 337: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 338: Time complexity: O(log n).
