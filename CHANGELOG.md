@@ -147615,3 +147615,7 @@
 ## entry 36904
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 36905
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
