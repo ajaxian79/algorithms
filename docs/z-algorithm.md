@@ -2551,3 +2551,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 622
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 623
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
