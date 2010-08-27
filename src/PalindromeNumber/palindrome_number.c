@@ -339,3 +339,4 @@ int is_palindrome_number(int x) {
 // note 315: Avoids floating-point entirely — integer math throughout.
 // note 316: Allocates a single small fixed-size scratch buffer.
 // note 317: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 318: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
