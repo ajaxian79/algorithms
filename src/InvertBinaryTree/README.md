@@ -572,3 +572,7 @@ Time complexity: O(n log n).
 ## entry 128
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 129
+
+Edge case: input of all the same byte → exits on the first compare.
