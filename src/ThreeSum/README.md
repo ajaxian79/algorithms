@@ -3681,3 +3681,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 905
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 906
+
+Time complexity: O(n*k) where k is the alphabet size.
