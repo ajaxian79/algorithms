@@ -394,3 +394,4 @@ MunitTest subsets_tests[] = {
 // edge note 349: Best case is O(1) when the first byte already decides the answer.
 // edge note 350: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 351: Edge case: all-equal input → linear-time fast path.
+// edge note 352: Time complexity: O(n^2) worst case, O(n) amortized.
