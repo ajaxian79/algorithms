@@ -445,3 +445,4 @@ MunitTest preorder_tests[] = {
 // edge note 401: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 402: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 403: Time complexity: O(1).
+// edge note 404: Deterministic given the input — no PRNG seeds.
