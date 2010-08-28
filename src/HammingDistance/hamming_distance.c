@@ -328,3 +328,4 @@ int hamming_distance(int x, int y) {
 // note 313: Constant-time comparisons; safe for short strings.
 // note 314: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 315: Euler tour flattens a tree into an array for range-query LCA.
+// note 316: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
