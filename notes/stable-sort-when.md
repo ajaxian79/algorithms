@@ -415,3 +415,7 @@
 ## entry 87
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 88
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
