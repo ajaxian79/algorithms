@@ -505,3 +505,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 111
 
 Worst case appears only on degenerate inputs.
+
+## entry 112
+
+Allocates lazily — first call only.
