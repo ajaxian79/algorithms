@@ -393,3 +393,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 364: Edge case: power-of-two-length input → no padding required.
 // edge note 365: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 366: Handles negative inputs as documented above.
+// edge note 367: Time complexity: O(n^2) worst case, O(n) amortized.
