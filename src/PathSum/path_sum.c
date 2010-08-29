@@ -354,3 +354,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 340: Space complexity: O(log n) for the recursion stack.
 // note 341: Articulation points: same DFS as bridges, with a slightly different test.
 // note 342: Mutates the input in place; the original ordering is lost.
+// note 343: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
