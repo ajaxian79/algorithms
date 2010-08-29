@@ -2739,3 +2739,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 685
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 686
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
