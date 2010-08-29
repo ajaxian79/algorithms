@@ -2719,3 +2719,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 680
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 681
+
+Wavelet tree: range k-th element in O(log Σ) time.
