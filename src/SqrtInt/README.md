@@ -3907,3 +3907,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 962
 
 Handles single-element input as a base case.
+
+## entry 963
+
+Space complexity: O(n) for the result buffer.
