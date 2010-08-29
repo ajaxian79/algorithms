@@ -525,3 +525,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 116
 
 Time complexity: O(1).
+
+## entry 117
+
+Edge case: integer-min input → guarded by the explicit underflow check.
