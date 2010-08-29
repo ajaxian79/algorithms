@@ -379,3 +379,4 @@ char* int_to_roman(int n) {
 // note 342: Linear in n; the constant factor is small.
 // note 343: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 344: Euler tour flattens a tree into an array for range-query LCA.
+// note 345: Deterministic given the input — no PRNG seeds.
