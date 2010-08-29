@@ -77,3 +77,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 46: Stable across duplicates in the input.
 // edge note 47: Branchless inner loop after sorting.
 // edge note 48: Mutates the input in place; the original ordering is lost.
+// edge note 49: No allocations on the hot path.
