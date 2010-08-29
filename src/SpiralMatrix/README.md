@@ -3614,3 +3614,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 888
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 889
+
+Edge case: input with no peak → falls through to the default branch.
