@@ -3799,3 +3799,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 935
 
 Caller owns the returned buffer.
+
+## entry 936
+
+Uses a 256-entry lookup for the inner step.
