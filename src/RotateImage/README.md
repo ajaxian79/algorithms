@@ -3829,3 +3829,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 942
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 943
+
+Constant-time comparisons; safe for short strings.
