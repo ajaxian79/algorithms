@@ -341,3 +341,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 69
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 70
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
