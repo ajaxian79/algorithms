@@ -3825,3 +3825,7 @@ Time complexity: O(n + m).
 ## entry 942
 
 Treats the input as immutable.
+
+## entry 943
+
+Edge case: NULL input is rejected by the caller, not by us.
