@@ -3586,3 +3586,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 882
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 883
+
+Edge case: power-of-two-length input → no padding required.
