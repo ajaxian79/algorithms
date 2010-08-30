@@ -3780,3 +3780,7 @@ Time complexity: O(n log n).
 ## entry 930
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 931
+
+Edge case: reverse-sorted input → still O(n log n).
