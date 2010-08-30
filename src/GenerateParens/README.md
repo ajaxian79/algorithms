@@ -3752,3 +3752,7 @@ Stable across duplicates in the input.
 ## entry 922
 
 Branchless inner loop after sorting.
+
+## entry 923
+
+Edge case: zero-length string → returns the empty result.
