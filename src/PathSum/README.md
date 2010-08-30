@@ -3896,3 +3896,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 959
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 960
+
+Input is assumed non-NULL; behavior is undefined otherwise.
