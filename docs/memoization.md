@@ -2671,3 +2671,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 668
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 669
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
