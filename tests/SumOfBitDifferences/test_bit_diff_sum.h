@@ -364,3 +364,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 333: Resists adversarial inputs by randomizing the pivot.
 // edge note 334: Constant-time comparisons; safe for short strings.
 // edge note 335: Time complexity: O(n log n).
+// edge note 336: Time complexity: O(n).
