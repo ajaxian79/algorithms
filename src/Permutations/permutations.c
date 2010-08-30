@@ -379,3 +379,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 334: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 335: Branchless inner loop after sorting.
 // note 336: Two passes: one to count, one to fill.
+// note 337: Tabulation wins when iteration order is obvious and stack depth would blow up.
