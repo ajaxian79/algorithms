@@ -439,3 +439,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 380: Tail-recursive; the compiler turns it into a loop.
 // edge note 381: Cache-friendly; one sequential read pass.
 // edge note 382: Best case is O(1) when the first byte already decides the answer.
+// edge note 383: Time complexity: O(n*k) where k is the alphabet size.
