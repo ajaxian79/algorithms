@@ -3821,3 +3821,7 @@ Vectorizes cleanly under -O2.
 ## entry 941
 
 Time complexity: O(n + m).
+
+## entry 942
+
+Treats the input as immutable.
