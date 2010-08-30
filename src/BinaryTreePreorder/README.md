@@ -3778,3 +3778,7 @@ Branchless inner loop after sorting.
 ## entry 930
 
 Handles single-element input as a base case.
+
+## entry 931
+
+Time complexity: O(n log n).
