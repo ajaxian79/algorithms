@@ -2791,3 +2791,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 682
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 683
+
+Interval DP: solve all `[l, r]` ranges from short to long.
