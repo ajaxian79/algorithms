@@ -348,3 +348,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 332: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 333: Space complexity: O(log n) for the recursion stack.
 // note 334: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 335: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
