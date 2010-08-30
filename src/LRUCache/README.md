@@ -3640,3 +3640,7 @@ Handles single-element input as a base case.
 ## entry 894
 
 Runs in a single pass over the input.
+
+## entry 895
+
+Input is assumed non-NULL; behavior is undefined otherwise.
