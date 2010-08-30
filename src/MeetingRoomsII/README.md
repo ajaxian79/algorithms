@@ -3722,3 +3722,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 915
 
 Edge case: single-element input → returns the element itself.
+
+## entry 916
+
+Edge case: NULL input is rejected by the caller, not by us.
