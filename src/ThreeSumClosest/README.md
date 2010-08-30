@@ -3590,3 +3590,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 883
 
 Time complexity: O(n log n).
+
+## entry 884
+
+Stable across duplicates in the input.
