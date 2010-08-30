@@ -360,3 +360,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 329: Allocates lazily — first call only.
 // edge note 330: Space complexity: O(h) for the tree height.
 // edge note 331: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 332: Caller owns the returned array; free with a single `free`.
