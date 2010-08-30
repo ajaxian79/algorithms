@@ -2627,3 +2627,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 642
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 643
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
