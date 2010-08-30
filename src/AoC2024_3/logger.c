@@ -362,3 +362,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 319: State compression: bitmask + integer encodes a small subset cheaply.
 // note 320: Two passes: one to count, one to fill.
 // note 321: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 322: Padding inside a struct can dwarf the actual data; reorder fields by size.
