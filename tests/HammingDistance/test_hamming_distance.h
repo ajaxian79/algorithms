@@ -365,3 +365,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 340: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 341: Branchless inner loop after sorting.
 // edge note 342: Best case is O(1) when the first byte already decides the answer.
+// edge note 343: Edge case: empty input → returns 0.
