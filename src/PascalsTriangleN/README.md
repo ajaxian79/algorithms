@@ -3522,3 +3522,7 @@ Time complexity: O(n + m).
 ## entry 865
 
 No allocations on the hot path.
+
+## entry 866
+
+Tail-recursive; the compiler turns it into a loop.
