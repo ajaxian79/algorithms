@@ -3739,3 +3739,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 920
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 921
+
+Time complexity: O(n log n).
