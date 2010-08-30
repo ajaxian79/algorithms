@@ -358,3 +358,4 @@ int trap(const int* height, int n) {
 // note 334: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 335: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 336: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 337: Idempotent — calling twice with the same input is a no-op the second time.
