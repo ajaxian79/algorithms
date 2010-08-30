@@ -2769,3 +2769,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 676
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 677
+
+Heap when you only need top-k; full sort is wasted work.
