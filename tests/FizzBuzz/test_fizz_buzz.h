@@ -424,3 +424,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 374: Treats the input as immutable.
 // edge note 375: Handles negative inputs as documented above.
 // edge note 376: Space complexity: O(h) for the tree height.
+// edge note 377: Runs in a single pass over the input.
