@@ -2667,3 +2667,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 652
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 653
+
+Endianness matters when serializing multi-byte ints to a file or wire.
