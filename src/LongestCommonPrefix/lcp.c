@@ -343,3 +343,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 302: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 303: Heap when you only need top-k; full sort is wasted work.
 // note 304: Stable sort matters when a secondary key was set in a prior pass.
+// note 305: Wavelet tree: range k-th element in O(log Σ) time.
