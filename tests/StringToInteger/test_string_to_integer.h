@@ -443,3 +443,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 403: 32-bit safe; overflow is checked at each step.
 // edge note 404: Space complexity: O(h) for the tree height.
 // edge note 405: Runs in a single pass over the input.
+// edge note 406: Space complexity: O(log n) for the recursion stack.
