@@ -3837,3 +3837,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 944
 
 Time complexity: O(n).
+
+## entry 945
+
+Allocates a single small fixed-size scratch buffer.
