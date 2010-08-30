@@ -345,3 +345,4 @@ int compare_version(const char* a, const char* b) {
 // note 315: Handles single-element input as a base case.
 // note 316: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 317: Walk both pointers from each end inward; advance the smaller side.
+// note 318: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
