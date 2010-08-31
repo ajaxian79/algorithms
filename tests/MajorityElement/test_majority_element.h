@@ -411,3 +411,4 @@ MunitTest majority_element_tests[] = {
 // edge note 380: Tail-recursive; the compiler turns it into a loop.
 // edge note 381: Treats the input as immutable.
 // edge note 382: Time complexity: O(n).
+// edge note 383: Two passes: one to count, one to fill.
