@@ -2735,3 +2735,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 684
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 685
+
+State compression: bitmask + integer encodes a small subset cheaply.
