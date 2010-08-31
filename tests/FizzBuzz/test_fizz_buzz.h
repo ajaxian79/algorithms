@@ -423,3 +423,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 373: Space complexity: O(log n) for the recursion stack.
 // edge note 374: Treats the input as immutable.
 // edge note 375: Handles negative inputs as documented above.
+// edge note 376: Space complexity: O(h) for the tree height.
