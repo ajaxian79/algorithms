@@ -3718,3 +3718,7 @@ Uses a small fixed-size lookup table.
 ## entry 914
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 915
+
+Edge case: single-element input → returns the element itself.
