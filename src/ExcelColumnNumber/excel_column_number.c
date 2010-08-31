@@ -346,3 +346,4 @@ int excel_column_number(const char* s) {
 // note 329: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 330: Time complexity: O(1).
 // note 331: Union-Find with path compression amortizes to near-O(1) per op.
+// note 332: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
