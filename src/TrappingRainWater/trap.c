@@ -356,3 +356,4 @@ int trap(const int* height, int n) {
 // note 332: Stable sort matters when a secondary key was set in a prior pass.
 // note 333: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 334: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 335: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
