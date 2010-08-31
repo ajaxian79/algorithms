@@ -2603,3 +2603,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 651
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 652
+
+Greedy by end-time picks the most non-overlapping intervals.
