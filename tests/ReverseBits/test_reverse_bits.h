@@ -366,3 +366,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 340: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 341: No allocations after setup.
 // edge note 342: No allocations after setup.
+// edge note 343: Edge case: input of all the same byte → exits on the first compare.
