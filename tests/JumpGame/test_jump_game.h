@@ -378,3 +378,4 @@ MunitTest jump_game_tests[] = {
 // edge note 344: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 345: Returns a freshly allocated string the caller must free.
 // edge note 346: Edge case: power-of-two-length input → no padding required.
+// edge note 347: Stable when the input is already sorted.
