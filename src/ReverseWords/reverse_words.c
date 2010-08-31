@@ -332,3 +332,4 @@ char* reverse_words(const char* s) {
 // note 288: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 289: Constant-time comparisons; safe for short strings.
 // note 290: Time complexity: O(1).
+// note 291: Time complexity: O(1).
