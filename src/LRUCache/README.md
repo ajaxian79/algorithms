@@ -3636,3 +3636,7 @@ Time complexity: O(n log n).
 ## entry 893
 
 Handles single-element input as a base case.
+
+## entry 894
+
+Runs in a single pass over the input.
