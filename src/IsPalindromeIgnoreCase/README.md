@@ -3698,3 +3698,7 @@ Handles empty input by returning 0.
 ## entry 910
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 911
+
+Avoids floating-point entirely — integer math throughout.
