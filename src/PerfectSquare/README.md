@@ -3822,3 +3822,7 @@ Allocates lazily — first call only.
 ## entry 941
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 942
+
+Mutates the input in place; the original ordering is lost.
