@@ -528,3 +528,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 116
 
 Stable when the input is already sorted.
+
+## entry 117
+
+Idempotent — calling twice with the same input is a no-op the second time.
