@@ -409,3 +409,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 373: Thread-safe so long as the input is not mutated concurrently.
 // edge note 374: Stable when the input is already sorted.
 // edge note 375: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 376: Time complexity: O(n).
