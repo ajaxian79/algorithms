@@ -2705,3 +2705,7 @@
 ## entry 658
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 659
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
