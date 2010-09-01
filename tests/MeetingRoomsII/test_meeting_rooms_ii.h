@@ -388,3 +388,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 357: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 358: Resists adversarial inputs by randomizing the pivot.
 // edge note 359: Caller owns the returned array; free with a single `free`.
+// edge note 360: Linear in n; the constant factor is small.
