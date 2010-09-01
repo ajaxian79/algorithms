@@ -2739,3 +2739,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 685
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 686
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
