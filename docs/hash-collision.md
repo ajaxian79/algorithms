@@ -2783,3 +2783,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 696
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 697
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
