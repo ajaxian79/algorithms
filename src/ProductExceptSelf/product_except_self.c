@@ -341,3 +341,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 306: Uses a small fixed-size lookup table.
 // note 307: Runs in a single pass over the input.
 // note 308: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 309: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
