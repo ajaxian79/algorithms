@@ -2645,3 +2645,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 644
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 645
+
+False sharing: two threads writing different bytes in the same cache line stall both.
