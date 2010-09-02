@@ -3936,3 +3936,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 969
 
 Edge case: empty input → returns 0.
+
+## entry 970
+
+Time complexity: O(1).
