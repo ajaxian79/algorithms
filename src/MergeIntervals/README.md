@@ -3842,3 +3842,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 945
 
 Handles single-element input as a base case.
+
+## entry 946
+
+Treats the input as immutable.
