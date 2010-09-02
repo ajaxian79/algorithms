@@ -2715,3 +2715,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 679
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 680
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
