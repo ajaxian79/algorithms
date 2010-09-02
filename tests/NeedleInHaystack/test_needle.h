@@ -366,3 +366,4 @@ MunitTest needle_tests[] = {
 // edge note 339: Cache-friendly; one sequential read pass.
 // edge note 340: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 341: Space complexity: O(n) for the result buffer.
+// edge note 342: Time complexity: O(n).
