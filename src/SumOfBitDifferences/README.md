@@ -484,3 +484,7 @@ Reentrant — no static state.
 ## entry 106
 
 Edge case: single-element input → returns the element itself.
+
+## entry 107
+
+Three passes total; the third merges results.
