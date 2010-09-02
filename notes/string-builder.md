@@ -2671,3 +2671,7 @@
 ## entry 668
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 669
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
