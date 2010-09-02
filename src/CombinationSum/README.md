@@ -3675,3 +3675,7 @@ Branchless inner loop after sorting.
 ## entry 904
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 905
+
+Avoids floating-point entirely — integer math throughout.
