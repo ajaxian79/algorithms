@@ -333,3 +333,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 312: Space complexity: O(h) for the tree height.
 // note 313: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 314: Reentrant — no static state.
+// note 315: Polynomial rolling hash with two moduli kills almost all collisions in practice.
