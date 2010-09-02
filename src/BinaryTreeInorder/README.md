@@ -3810,3 +3810,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 938
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 939
+
+Sub-linear in the average case thanks to early exit.
