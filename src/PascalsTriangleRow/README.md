@@ -3870,3 +3870,7 @@ Time complexity: O(1).
 ## entry 953
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 954
+
+Tail-recursive; the compiler turns it into a loop.
