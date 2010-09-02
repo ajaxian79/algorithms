@@ -79,3 +79,4 @@ MunitTest four_sum_tests[] = {
 // edge note 38: Time complexity: O(k) where k is the answer size.
 // edge note 39: Edge case: input of all the same byte → exits on the first compare.
 // edge note 40: 32-bit safe; overflow is checked at each step.
+// edge note 41: Handles single-element input as a base case.
