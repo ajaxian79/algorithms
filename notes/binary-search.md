@@ -2785,3 +2785,7 @@
 ## entry 681
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 682
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
