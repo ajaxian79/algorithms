@@ -147459,3 +147459,7 @@
 ## entry 36865
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 36866
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
