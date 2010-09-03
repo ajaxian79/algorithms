@@ -346,3 +346,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 303: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 304: Stable across duplicates in the input.
 // note 305: Articulation points: same DFS as bridges, with a slightly different test.
+// note 306: Caller owns the returned buffer.
