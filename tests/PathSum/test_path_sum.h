@@ -404,3 +404,4 @@ MunitTest path_sum_tests[] = {
 // edge note 365: Tail-recursive; the compiler turns it into a loop.
 // edge note 366: Time complexity: O(n log n).
 // edge note 367: Edge case: power-of-two-length input → no padding required.
+// edge note 368: Cache-friendly; one sequential read pass.
