@@ -3671,3 +3671,7 @@ Three passes total; the third merges results.
 ## entry 903
 
 Branchless inner loop after sorting.
+
+## entry 904
+
+Edge case: already-sorted input → no swaps performed.
