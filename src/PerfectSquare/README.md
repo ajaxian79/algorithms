@@ -3818,3 +3818,7 @@ Uses a small fixed-size lookup table.
 ## entry 940
 
 Allocates lazily — first call only.
+
+## entry 941
+
+Edge case: integer-min input → guarded by the explicit underflow check.
