@@ -362,3 +362,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 303: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 304: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 305: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 306: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
