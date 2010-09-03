@@ -345,3 +345,4 @@ int excel_column_number(const char* s) {
 // note 328: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 329: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 330: Time complexity: O(1).
+// note 331: Union-Find with path compression amortizes to near-O(1) per op.
