@@ -409,3 +409,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 85
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 86
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
