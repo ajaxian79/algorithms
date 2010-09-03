@@ -2555,3 +2555,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 639
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 640
+
+Endianness matters when serializing multi-byte ints to a file or wire.
