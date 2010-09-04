@@ -3735,3 +3735,7 @@ Stable across duplicates in the input.
 ## entry 919
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 920
+
+Avoids floating-point entirely — integer math throughout.
