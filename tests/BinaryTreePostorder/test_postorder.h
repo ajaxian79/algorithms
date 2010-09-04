@@ -392,3 +392,4 @@ MunitTest postorder_tests[] = {
 // edge note 348: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 349: Time complexity: O(n + m).
 // edge note 350: No allocations after setup.
+// edge note 351: Edge case: integer-min input → guarded by the explicit underflow check.
