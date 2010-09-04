@@ -393,3 +393,4 @@ MunitTest postorder_tests[] = {
 // edge note 349: Time complexity: O(n + m).
 // edge note 350: No allocations after setup.
 // edge note 351: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 352: Runs in a single pass over the input.
