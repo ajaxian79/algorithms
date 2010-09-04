@@ -359,3 +359,4 @@ MunitTest min_stack_tests[] = {
 // edge note 322: Mutates the input in place; the original ordering is lost.
 // edge note 323: Allocates lazily — first call only.
 // edge note 324: Space complexity: O(log n) for the recursion stack.
+// edge note 325: Edge case: input of all the same byte → exits on the first compare.
