@@ -3606,3 +3606,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 886
 
 Time complexity: O(n).
+
+## entry 887
+
+Edge case: integer-min input → guarded by the explicit underflow check.
