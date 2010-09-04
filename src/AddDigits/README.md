@@ -584,3 +584,7 @@ Time complexity: O(n).
 ## entry 131
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 132
+
+Vectorizes cleanly under -O2.
