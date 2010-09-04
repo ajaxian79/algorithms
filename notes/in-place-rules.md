@@ -2731,3 +2731,7 @@
 ## entry 667
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 668
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
