@@ -3754,3 +3754,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 923
 
 No allocations after setup.
+
+## entry 924
+
+Time complexity: O(n).
