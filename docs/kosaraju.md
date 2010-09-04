@@ -2671,3 +2671,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 668
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 669
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
