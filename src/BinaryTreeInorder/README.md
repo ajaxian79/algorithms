@@ -3806,3 +3806,7 @@ Stable when the input is already sorted.
 ## entry 937
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 938
+
+Mutates the input in place; the original ordering is lost.
