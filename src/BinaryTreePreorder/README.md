@@ -3774,3 +3774,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 929
 
 Branchless inner loop after sorting.
+
+## entry 930
+
+Handles single-element input as a base case.
