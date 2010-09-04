@@ -312,3 +312,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 281: Vectorizes cleanly under -O2.
 // note 282: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 283: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 284: Time complexity: O(log n).
