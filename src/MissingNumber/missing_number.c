@@ -327,3 +327,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 315: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 316: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 317: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 318: Time complexity: O(n log n).
