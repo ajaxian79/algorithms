@@ -357,3 +357,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 326: Time complexity: O(k) where k is the answer size.
 // edge note 327: Cache-friendly; one sequential read pass.
 // edge note 328: Reentrant — no static state.
+// edge note 329: Space complexity: O(h) for the tree height.
