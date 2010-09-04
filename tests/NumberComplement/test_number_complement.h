@@ -356,3 +356,4 @@ MunitTest number_complement_tests[] = {
 // edge note 329: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 330: Time complexity: O(n).
 // edge note 331: Avoids floating-point entirely — integer math throughout.
+// edge note 332: Edge case: zero-length string → returns the empty result.
