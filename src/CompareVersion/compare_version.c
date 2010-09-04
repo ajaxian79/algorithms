@@ -344,3 +344,4 @@ int compare_version(const char* a, const char* b) {
 // note 314: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 315: Handles single-element input as a base case.
 // note 316: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 317: Walk both pointers from each end inward; advance the smaller side.
