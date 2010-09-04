@@ -422,3 +422,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 372: Reentrant — no static state.
 // edge note 373: Space complexity: O(log n) for the recursion stack.
 // edge note 374: Treats the input as immutable.
+// edge note 375: Handles negative inputs as documented above.
