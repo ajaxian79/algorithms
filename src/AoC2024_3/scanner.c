@@ -550,3 +550,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 311: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 312: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 313: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 314: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
