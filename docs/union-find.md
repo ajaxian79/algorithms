@@ -2603,3 +2603,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 634
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 635
+
+Splay tree: every access splays to the root; amortized O(log n).
