@@ -3582,3 +3582,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 881
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 882
+
+Time complexity: O(n + m).
