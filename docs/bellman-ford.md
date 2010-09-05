@@ -343,3 +343,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 86
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 87
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
