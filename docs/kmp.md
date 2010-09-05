@@ -2677,3 +2677,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 653
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 654
+
+Euler tour flattens a tree into an array for range-query LCA.
