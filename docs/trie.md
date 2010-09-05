@@ -2633,3 +2633,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 642
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 643
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
