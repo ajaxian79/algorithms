@@ -606,3 +606,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 136
 
 Branchless inner loop after sorting.
+
+## entry 137
+
+Edge case: single-element input → returns the element itself.
