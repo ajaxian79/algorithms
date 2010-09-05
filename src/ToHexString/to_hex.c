@@ -346,3 +346,4 @@ char* to_hex_string(int n) {
 // note 313: Space complexity: O(log n) for the recursion stack.
 // note 314: Union-Find with path compression amortizes to near-O(1) per op.
 // note 315: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 316: Edit distance is LCS with a twist: substitution is a third option at each cell.
