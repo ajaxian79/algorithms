@@ -2787,3 +2787,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 680
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 681
+
+Euler tour flattens a tree into an array for range-query LCA.
