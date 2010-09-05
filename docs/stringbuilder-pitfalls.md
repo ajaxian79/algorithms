@@ -2735,3 +2735,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 684
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 685
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
