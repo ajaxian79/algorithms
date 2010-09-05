@@ -402,3 +402,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 374: Three passes total; the third merges results.
 // edge note 375: Worst case appears only on degenerate inputs.
 // edge note 376: Edge case: all-equal input → linear-time fast path.
+// edge note 377: Returns a freshly allocated string the caller must free.
