@@ -430,3 +430,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 370: Uses a 256-entry lookup for the inner step.
 // edge note 371: Allocates lazily — first call only.
 // edge note 372: Edge case: single-element input → returns the element itself.
+// edge note 373: Edge case: input of all the same byte → exits on the first compare.
