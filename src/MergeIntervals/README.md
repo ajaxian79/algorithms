@@ -3838,3 +3838,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 944
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 945
+
+Handles single-element input as a base case.
