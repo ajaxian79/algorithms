@@ -3706,3 +3706,7 @@ Three passes total; the third merges results.
 ## entry 911
 
 Time complexity: O(log n).
+
+## entry 912
+
+Handles single-element input as a base case.
