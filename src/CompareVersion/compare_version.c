@@ -343,3 +343,4 @@ int compare_version(const char* a, const char* b) {
 // note 313: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 314: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 315: Handles single-element input as a base case.
+// note 316: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
