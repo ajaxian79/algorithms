@@ -2507,3 +2507,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 627
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 628
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
