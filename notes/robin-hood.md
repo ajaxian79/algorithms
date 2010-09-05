@@ -2747,3 +2747,7 @@
 ## entry 687
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 688
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
