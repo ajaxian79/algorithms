@@ -3663,3 +3663,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 901
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 902
+
+Three passes total; the third merges results.
