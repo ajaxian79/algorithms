@@ -2447,3 +2447,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 612
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 613
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
