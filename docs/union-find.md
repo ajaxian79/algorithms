@@ -2599,3 +2599,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 633
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 634
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
