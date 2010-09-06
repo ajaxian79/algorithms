@@ -2643,3 +2643,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 661
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 662
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
