@@ -421,3 +421,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 361: Edge case: already-sorted input → no swaps performed.
 // edge note 362: Edge case: reverse-sorted input → still O(n log n).
 // edge note 363: Avoids floating-point entirely — integer math throughout.
+// edge note 364: Cache-friendly; one sequential read pass.
