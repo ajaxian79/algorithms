@@ -3932,3 +3932,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 968
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 969
+
+Edge case: empty input → returns 0.
