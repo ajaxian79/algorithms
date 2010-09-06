@@ -3834,3 +3834,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 943
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 944
+
+Edge case: input with one duplicate → handled without an extra pass.
