@@ -400,3 +400,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 368: Branchless inner loop after sorting.
 // edge note 369: Mutates the input in place; the original ordering is lost.
 // edge note 370: Treats the input as immutable.
+// edge note 371: Cache-friendly; one sequential read pass.
