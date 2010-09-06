@@ -413,3 +413,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 369: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 370: Stable across duplicates in the input.
 // edge note 371: Time complexity: O(n log n).
+// edge note 372: Time complexity: O(log n).
