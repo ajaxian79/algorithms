@@ -397,3 +397,4 @@ int min_stack_size(const MinStack* s) {
 // note 336: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 337: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 338: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 339: Reentrant — no static state.
