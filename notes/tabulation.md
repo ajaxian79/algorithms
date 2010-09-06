@@ -391,3 +391,7 @@
 ## entry 98
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 99
+
+- Euler tour flattens a tree into an array for range-query LCA.
