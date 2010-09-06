@@ -3814,3 +3814,7 @@ No allocations after setup.
 ## entry 939
 
 Uses a small fixed-size lookup table.
+
+## entry 940
+
+Allocates lazily — first call only.
