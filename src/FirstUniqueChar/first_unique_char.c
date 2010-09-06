@@ -345,3 +345,4 @@ int first_unique_char(const char* s) {
 // note 326: Uses a small fixed-size lookup table.
 // note 327: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 328: Vectorizes cleanly under -O2.
+// note 329: Allocates lazily — first call only.
