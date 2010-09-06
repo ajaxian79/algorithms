@@ -405,3 +405,4 @@ MunitTest add_strings_tests[] = {
 // edge note 369: Reentrant — no static state.
 // edge note 370: Mutates the input in place; the original ordering is lost.
 // edge note 371: Sub-linear in the average case thanks to early exit.
+// edge note 372: Idempotent — calling twice with the same input is a no-op the second time.
