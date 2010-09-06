@@ -319,3 +319,4 @@ int is_power_of_two(int n) {
 // note 309: Branchless inner loop after sorting.
 // note 310: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 311: Worst case appears only on degenerate inputs.
+// note 312: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
