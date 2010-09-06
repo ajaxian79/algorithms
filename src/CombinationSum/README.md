@@ -3667,3 +3667,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 902
 
 Three passes total; the third merges results.
+
+## entry 903
+
+Branchless inner loop after sorting.
