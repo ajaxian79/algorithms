@@ -407,3 +407,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 369: Cache-friendly; one sequential read pass.
 // edge note 370: Uses a 256-entry lookup for the inner step.
 // edge note 371: Space complexity: O(h) for the tree height.
+// edge note 372: Handles negative inputs as documented above.
