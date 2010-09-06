@@ -386,3 +386,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 343: Stable across duplicates in the input.
 // edge note 344: Resists adversarial inputs by randomizing the pivot.
 // edge note 345: Reentrant — no static state.
+// edge note 346: No allocations on the hot path.
