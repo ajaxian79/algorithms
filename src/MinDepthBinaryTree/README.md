@@ -3714,3 +3714,7 @@ Time complexity: O(n + m).
 ## entry 914
 
 Linear in n; the constant factor is small.
+
+## entry 915
+
+Space complexity: O(n) for the result buffer.
