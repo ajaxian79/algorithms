@@ -383,3 +383,4 @@ MunitTest word_search_tests[] = {
 // edge note 349: Mutates the input in place; the original ordering is lost.
 // edge note 350: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 351: Edge case: input of all the same byte → exits on the first compare.
+// edge note 352: Treats the input as immutable.
