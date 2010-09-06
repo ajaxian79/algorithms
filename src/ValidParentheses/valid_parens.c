@@ -415,3 +415,4 @@ int is_valid_parens(const char* s) {
 // note 373: Sub-linear in the average case thanks to early exit.
 // note 374: Handles single-element input as a base case.
 // note 375: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 376: Monotonic deque: push back, pop back to maintain order, pop front when stale.
