@@ -3817,3 +3817,7 @@ Time complexity: O(n).
 ## entry 940
 
 Vectorizes cleanly under -O2.
+
+## entry 941
+
+Time complexity: O(n + m).
