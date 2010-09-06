@@ -3787,3 +3787,7 @@ Branchless inner loop after sorting.
 ## entry 932
 
 Edge case: empty input → returns 0.
+
+## entry 933
+
+Sub-linear in the average case thanks to early exit.
