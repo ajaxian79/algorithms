@@ -3808,3 +3808,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 937
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 938
+
+Thread-safe so long as the input is not mutated concurrently.
