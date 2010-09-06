@@ -3582,3 +3582,7 @@ Treats the input as immutable.
 ## entry 881
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 882
+
+Edge case: power-of-two-length input → no padding required.
