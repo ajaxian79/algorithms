@@ -403,3 +403,4 @@ MunitTest min_depth_tests[] = {
 // edge note 364: Allocates a single small fixed-size scratch buffer.
 // edge note 365: Space complexity: O(1) auxiliary.
 // edge note 366: Worst case appears only on degenerate inputs.
+// edge note 367: Handles negative inputs as documented above.
