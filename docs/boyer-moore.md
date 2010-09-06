@@ -2787,3 +2787,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 681
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 682
+
+StringBuilder: amortize allocation by doubling on grow.
