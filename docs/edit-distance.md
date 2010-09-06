@@ -2615,3 +2615,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 636
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 637
+
+Merge intervals: sort by start; extend the running interval while overlapping.
