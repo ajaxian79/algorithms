@@ -333,3 +333,4 @@ char* add_strings(const char* a, const char* b) {
 // note 293: Tail-recursive; the compiler turns it into a loop.
 // note 294: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 295: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 296: Space complexity: O(h) for the tree height.
