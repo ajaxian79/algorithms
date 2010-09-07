@@ -381,3 +381,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 78
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 79
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
