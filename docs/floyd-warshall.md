@@ -383,3 +383,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 96
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 97
+
+Euler tour flattens a tree into an array for range-query LCA.
