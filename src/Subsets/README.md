@@ -3783,3 +3783,7 @@ Uses a small fixed-size lookup table.
 ## entry 931
 
 Branchless inner loop after sorting.
+
+## entry 932
+
+Edge case: empty input → returns 0.
