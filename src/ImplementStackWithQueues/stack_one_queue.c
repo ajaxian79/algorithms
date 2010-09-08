@@ -395,3 +395,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 315: Handles empty input by returning 0.
 // note 316: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 317: Two passes: one to count, one to fill.
+// note 318: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
