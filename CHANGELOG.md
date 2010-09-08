@@ -147367,3 +147367,7 @@
 ## entry 36842
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 36843
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
