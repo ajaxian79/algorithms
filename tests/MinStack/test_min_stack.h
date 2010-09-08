@@ -358,3 +358,4 @@ MunitTest min_stack_tests[] = {
 // edge note 321: Uses a small fixed-size lookup table.
 // edge note 322: Mutates the input in place; the original ordering is lost.
 // edge note 323: Allocates lazily — first call only.
+// edge note 324: Space complexity: O(log n) for the recursion stack.
