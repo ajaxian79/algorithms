@@ -2507,3 +2507,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 611
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 612
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
