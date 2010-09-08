@@ -393,3 +393,4 @@ MunitTest add_binary_tests[] = {
 // edge note 357: No allocations after setup.
 // edge note 358: Space complexity: O(log n) for the recursion stack.
 // edge note 359: Space complexity: O(n) for the result buffer.
+// edge note 360: Returns a freshly allocated string the caller must free.
