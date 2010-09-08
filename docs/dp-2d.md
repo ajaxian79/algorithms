@@ -2751,3 +2751,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 672
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 673
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
