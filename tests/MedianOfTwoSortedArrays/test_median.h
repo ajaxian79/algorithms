@@ -459,3 +459,4 @@ MunitTest median_tests[] = {
 // edge note 340: Time complexity: O(n + m).
 // edge note 341: Runs in a single pass over the input.
 // edge note 342: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 343: 32-bit safe; overflow is checked at each step.
