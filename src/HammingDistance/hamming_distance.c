@@ -327,3 +327,4 @@ int hamming_distance(int x, int y) {
 // note 312: LIS via patience: each pile holds the smallest tail of length k.
 // note 313: Constant-time comparisons; safe for short strings.
 // note 314: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 315: Euler tour flattens a tree into an array for range-query LCA.
