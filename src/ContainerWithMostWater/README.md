@@ -3675,3 +3675,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 904
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 905
+
+Uses a 256-entry lookup for the inner step.
