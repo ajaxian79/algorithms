@@ -374,3 +374,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 337: Treats the input as immutable.
 // note 338: Allocates a single small fixed-size scratch buffer.
 // note 339: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 340: Merge intervals: sort by start; extend the running interval while overlapping.
