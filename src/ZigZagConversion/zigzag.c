@@ -354,3 +354,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 311: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 312: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 313: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 314: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
