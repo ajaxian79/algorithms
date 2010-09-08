@@ -3810,3 +3810,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 938
 
 No allocations after setup.
+
+## entry 939
+
+Uses a small fixed-size lookup table.
