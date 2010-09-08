@@ -3779,3 +3779,7 @@ Worst case appears only on degenerate inputs.
 ## entry 930
 
 Uses a small fixed-size lookup table.
+
+## entry 931
+
+Branchless inner loop after sorting.
