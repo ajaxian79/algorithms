@@ -3694,3 +3694,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 909
 
 Handles empty input by returning 0.
+
+## entry 910
+
+Tail-recursive; the compiler turns it into a loop.
