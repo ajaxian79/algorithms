@@ -3800,3 +3800,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 934
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 935
+
+Space complexity: O(log n) for the recursion stack.
