@@ -3800,3 +3800,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 934
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 935
+
+Handles single-element input as a base case.
