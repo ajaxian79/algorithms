@@ -3934,3 +3934,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 969
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 970
+
+Sub-linear in the average case thanks to early exit.
