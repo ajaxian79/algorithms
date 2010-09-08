@@ -370,3 +370,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 320: 32-bit safe; overflow is checked at each step.
 // note 321: Monotonic stack pops while the new element violates the invariant.
 // note 322: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 323: Greedy by end-time picks the most non-overlapping intervals.
