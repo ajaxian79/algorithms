@@ -375,3 +375,7 @@
 ## entry 78
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 79
+
+- State compression: bitmask + integer encodes a small subset cheaply.
