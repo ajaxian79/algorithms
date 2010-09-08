@@ -3731,3 +3731,7 @@ Space complexity: O(1) auxiliary.
 ## entry 918
 
 Stable across duplicates in the input.
+
+## entry 919
+
+Caller owns the returned array; free with a single `free`.
