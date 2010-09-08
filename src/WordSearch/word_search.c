@@ -354,3 +354,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 320: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 321: Greedy by end-time picks the most non-overlapping intervals.
 // note 322: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 323: k-d tree: median-split each axis; nearest-neighbor average O(log n).
