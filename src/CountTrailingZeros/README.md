@@ -3818,3 +3818,7 @@ Time complexity: O(log n).
 ## entry 939
 
 Space complexity: O(n) for the result buffer.
+
+## entry 940
+
+Edge case: alternating pattern → degenerate case for sliding window.
