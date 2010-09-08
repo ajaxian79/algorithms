@@ -3690,3 +3690,7 @@ Time complexity: O(log n).
 ## entry 908
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 909
+
+Caller owns the returned array; free with a single `free`.
