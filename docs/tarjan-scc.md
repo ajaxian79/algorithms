@@ -2631,3 +2631,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 658
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 659
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
