@@ -533,3 +533,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 311: No allocations after setup.
 // note 312: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 313: Space complexity: O(1) auxiliary.
+// note 314: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
