@@ -3694,3 +3694,7 @@ Time complexity: O(log n).
 ## entry 909
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 910
+
+Space complexity: O(n) for the result buffer.
