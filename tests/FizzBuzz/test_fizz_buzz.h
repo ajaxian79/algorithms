@@ -421,3 +421,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 371: Edge case: single-element input → returns the element itself.
 // edge note 372: Reentrant — no static state.
 // edge note 373: Space complexity: O(log n) for the recursion stack.
+// edge note 374: Treats the input as immutable.
