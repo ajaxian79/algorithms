@@ -3903,3 +3903,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 961
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 962
+
+Handles single-element input as a base case.
