@@ -3714,3 +3714,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 913
 
 Uses a small fixed-size lookup table.
+
+## entry 914
+
+Edge case: input with one duplicate → handled without an extra pass.
