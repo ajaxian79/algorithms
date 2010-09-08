@@ -3450,3 +3450,7 @@ Caller owns the returned buffer.
 ## entry 838
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 839
+
+Time complexity: O(n).
