@@ -520,3 +520,7 @@ Time complexity: O(n + m).
 ## entry 114
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 115
+
+Edge case: input with a single peak → handled by the first-pass scan.
