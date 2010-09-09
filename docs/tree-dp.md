@@ -2775,3 +2775,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 694
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 695
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
