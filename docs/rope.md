@@ -2615,3 +2615,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 654
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 655
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
