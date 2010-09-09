@@ -3924,3 +3924,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 966
 
 Handles empty input by returning 0.
+
+## entry 967
+
+Edge case: alternating pattern → degenerate case for sliding window.
