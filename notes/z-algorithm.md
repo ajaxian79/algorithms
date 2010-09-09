@@ -2889,3 +2889,7 @@
 ## entry 709
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 710
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
