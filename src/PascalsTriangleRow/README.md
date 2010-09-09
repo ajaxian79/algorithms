@@ -3862,3 +3862,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 951
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 952
+
+Time complexity: O(1).
