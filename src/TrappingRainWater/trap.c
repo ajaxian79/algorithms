@@ -355,3 +355,4 @@ int trap(const int* height, int n) {
 // note 331: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 332: Stable sort matters when a secondary key was set in a prior pass.
 // note 333: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 334: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
