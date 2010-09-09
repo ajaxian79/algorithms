@@ -3845,3 +3845,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 946
 
 Handles negative inputs as documented above.
+
+## entry 947
+
+Edge case: input with no peak → falls through to the default branch.
