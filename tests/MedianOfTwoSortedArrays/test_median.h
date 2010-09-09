@@ -458,3 +458,4 @@ MunitTest median_tests[] = {
 // edge note 339: No allocations after setup.
 // edge note 340: Time complexity: O(n + m).
 // edge note 341: Runs in a single pass over the input.
+// edge note 342: Time complexity: O(n^2) worst case, O(n) amortized.
