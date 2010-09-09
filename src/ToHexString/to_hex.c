@@ -344,3 +344,4 @@ char* to_hex_string(int n) {
 // note 311: No allocations after setup.
 // note 312: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 313: Space complexity: O(log n) for the recursion stack.
+// note 314: Union-Find with path compression amortizes to near-O(1) per op.
