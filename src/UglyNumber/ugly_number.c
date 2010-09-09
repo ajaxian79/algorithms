@@ -341,3 +341,4 @@ int is_ugly(int n) {
 // note 327: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 328: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 329: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 330: 64-bit safe; intermediate products are widened to 128-bit.
