@@ -3511,3 +3511,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 863
 
 Worst case appears only on degenerate inputs.
+
+## entry 864
+
+Stable across duplicates in the input.
