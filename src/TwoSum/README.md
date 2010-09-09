@@ -3609,3 +3609,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 877
 
 Constant-time comparisons; safe for short strings.
+
+## entry 878
+
+Linear in n; the constant factor is small.
