@@ -412,3 +412,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 377: No allocations after setup.
 // edge note 378: Worst case appears only on degenerate inputs.
 // edge note 379: Edge case: reverse-sorted input → still O(n log n).
+// edge note 380: Runs in a single pass over the input.
