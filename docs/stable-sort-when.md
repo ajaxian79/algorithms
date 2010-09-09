@@ -441,3 +441,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 96
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 97
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
