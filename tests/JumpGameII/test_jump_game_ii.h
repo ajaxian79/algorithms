@@ -389,3 +389,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 355: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 356: Space complexity: O(1) auxiliary.
 // edge note 357: Avoids floating-point entirely — integer math throughout.
+// edge note 358: Tail-recursive; the compiler turns it into a loop.
