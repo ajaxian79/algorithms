@@ -3748,3 +3748,7 @@ Three passes total; the third merges results.
 ## entry 921
 
 Stable across duplicates in the input.
+
+## entry 922
+
+Branchless inner loop after sorting.
