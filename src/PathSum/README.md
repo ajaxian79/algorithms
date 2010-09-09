@@ -3888,3 +3888,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 957
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 958
+
+Deterministic given the input — no PRNG seeds.
