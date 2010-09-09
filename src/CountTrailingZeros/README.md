@@ -3814,3 +3814,7 @@ Cache-friendly; one sequential read pass.
 ## entry 938
 
 Time complexity: O(log n).
+
+## entry 939
+
+Space complexity: O(n) for the result buffer.
