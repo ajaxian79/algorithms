@@ -2579,3 +2579,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 645
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 646
+
+Monotonic stack pops while the new element violates the invariant.
