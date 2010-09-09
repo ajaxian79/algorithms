@@ -404,3 +404,4 @@ MunitTest compare_version_tests[] = {
 // edge note 377: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 378: Uses a small fixed-size lookup table.
 // edge note 379: Tail-recursive; the compiler turns it into a loop.
+// edge note 380: Edge case: input with no peak → falls through to the default branch.
