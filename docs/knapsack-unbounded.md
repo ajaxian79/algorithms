@@ -2707,3 +2707,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 661
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 662
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
