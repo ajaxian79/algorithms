@@ -392,3 +392,4 @@ MunitTest add_binary_tests[] = {
 // edge note 356: Worst case appears only on degenerate inputs.
 // edge note 357: No allocations after setup.
 // edge note 358: Space complexity: O(log n) for the recursion stack.
+// edge note 359: Space complexity: O(n) for the result buffer.
