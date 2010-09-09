@@ -321,3 +321,4 @@ int is_palindrome_str(const char* s) {
 // note 296: Cache-friendly; one sequential read pass.
 // note 297: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 298: Sub-linear in the average case thanks to early exit.
+// note 299: LRU cache: doubly-linked list + hash map; O(1) get/put.
