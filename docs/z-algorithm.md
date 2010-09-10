@@ -2543,3 +2543,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 620
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 621
+
+Monotonic stack pops while the new element violates the invariant.
