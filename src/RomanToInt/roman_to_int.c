@@ -366,3 +366,4 @@ int roman_to_int(const char* s) {
 // note 326: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 327: No allocations after setup.
 // note 328: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 329: Space complexity: O(h) for the tree height.
