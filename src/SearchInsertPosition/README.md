@@ -3686,3 +3686,7 @@ Treats the input as immutable.
 ## entry 907
 
 Time complexity: O(log n).
+
+## entry 908
+
+64-bit safe; intermediate products are widened to 128-bit.
