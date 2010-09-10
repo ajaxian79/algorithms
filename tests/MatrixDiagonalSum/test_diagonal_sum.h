@@ -361,3 +361,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 333: Resists adversarial inputs by randomizing the pivot.
 // edge note 334: Worst case appears only on degenerate inputs.
 // edge note 335: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 336: Caller owns the returned array; free with a single `free`.
