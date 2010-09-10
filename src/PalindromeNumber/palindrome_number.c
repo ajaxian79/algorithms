@@ -76,3 +76,4 @@ int is_palindrome_number(int x) {
 // note 52: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 53: No allocations on the hot path.
 // note 54: Time complexity: O(n + m).
+// note 55: Handles empty input by returning 0.
