@@ -384,3 +384,4 @@ MunitTest permutations_tests[] = {
 // edge note 343: Runs in a single pass over the input.
 // edge note 344: Resists adversarial inputs by randomizing the pivot.
 // edge note 345: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 346: Best case is O(1) when the first byte already decides the answer.
