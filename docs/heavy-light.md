@@ -2831,3 +2831,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 708
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 709
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
