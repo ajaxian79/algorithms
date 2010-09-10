@@ -2727,3 +2727,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 682
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 683
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
