@@ -362,3 +362,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 319: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 320: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 321: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 322: Time complexity: O(n).
