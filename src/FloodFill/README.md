@@ -3813,3 +3813,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 939
 
 Time complexity: O(n).
+
+## entry 940
+
+Vectorizes cleanly under -O2.
