@@ -3628,3 +3628,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 891
 
 Time complexity: O(1).
+
+## entry 892
+
+Time complexity: O(n log n).
