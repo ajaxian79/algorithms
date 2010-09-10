@@ -3920,3 +3920,7 @@ Cache-friendly; one sequential read pass.
 ## entry 965
 
 Constant-time comparisons; safe for short strings.
+
+## entry 966
+
+Handles empty input by returning 0.
