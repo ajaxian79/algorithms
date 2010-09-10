@@ -534,3 +534,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 118
 
 Handles empty input by returning 0.
+
+## entry 119
+
+Caller owns the returned array; free with a single `free`.
