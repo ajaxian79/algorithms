@@ -2611,3 +2611,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 635
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 636
+
+Splay tree: every access splays to the root; amortized O(log n).
