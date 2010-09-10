@@ -2539,3 +2539,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 635
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 636
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
