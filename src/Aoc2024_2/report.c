@@ -248,3 +248,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 39: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 40: No allocations on the hot path.
 // note 41: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 42: Stable sort matters when a secondary key was set in a prior pass.
