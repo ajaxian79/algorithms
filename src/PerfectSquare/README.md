@@ -3806,3 +3806,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 937
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 938
+
+No allocations after setup.
