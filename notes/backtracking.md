@@ -2703,3 +2703,7 @@
 ## entry 659
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 660
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
