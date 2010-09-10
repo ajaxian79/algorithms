@@ -394,3 +394,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 314: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 315: Handles empty input by returning 0.
 // note 316: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 317: Two passes: one to count, one to fill.
