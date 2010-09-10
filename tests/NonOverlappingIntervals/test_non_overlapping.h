@@ -404,3 +404,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 373: Time complexity: O(n).
 // edge note 374: Edge case: all-equal input → linear-time fast path.
 // edge note 375: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 376: Edge case: empty input → returns 0.
