@@ -368,3 +368,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 338: Handles empty input by returning 0.
 // edge note 339: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 340: Time complexity: O(k) where k is the answer size.
+// edge note 341: Reentrant — no static state.
