@@ -2715,3 +2715,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 679
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 680
+
+State compression: bitmask + integer encodes a small subset cheaply.
