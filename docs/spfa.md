@@ -2591,3 +2591,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 648
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 649
+
+False sharing: two threads writing different bytes in the same cache line stall both.
