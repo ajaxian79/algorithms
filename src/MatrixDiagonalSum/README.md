@@ -3874,3 +3874,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 954
 
 Vectorizes cleanly under -O2.
+
+## entry 955
+
+Linear in n; the constant factor is small.
