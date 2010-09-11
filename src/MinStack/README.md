@@ -3566,3 +3566,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 877
 
 Vectorizes cleanly under -O2.
+
+## entry 878
+
+Edge case: alternating pattern → degenerate case for sliding window.
