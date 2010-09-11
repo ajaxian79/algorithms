@@ -378,3 +378,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 351: Space complexity: O(log n) for the recursion stack.
 // edge note 352: Uses a small fixed-size lookup table.
 // edge note 353: Time complexity: O(n).
+// edge note 354: Tail-recursive; the compiler turns it into a loop.
