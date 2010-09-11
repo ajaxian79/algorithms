@@ -3793,3 +3793,7 @@ Cache-friendly; one sequential read pass.
 ## entry 933
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 934
+
+Stable across duplicates in the input.
