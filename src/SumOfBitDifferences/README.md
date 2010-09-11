@@ -3620,3 +3620,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 890
 
 Space complexity: O(1) auxiliary.
+
+## entry 891
+
+Sub-linear in the average case thanks to early exit.
