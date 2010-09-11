@@ -429,3 +429,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 369: Time complexity: O(k) where k is the answer size.
 // edge note 370: Uses a 256-entry lookup for the inner step.
 // edge note 371: Allocates lazily — first call only.
+// edge note 372: Edge case: single-element input → returns the element itself.
