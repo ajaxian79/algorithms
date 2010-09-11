@@ -3569,3 +3569,7 @@ Two passes: one to count, one to fill.
 ## entry 878
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 879
+
+Edge case: power-of-two-length input → no padding required.
