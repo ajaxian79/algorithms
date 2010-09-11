@@ -3830,3 +3830,7 @@ Time complexity: O(n + m).
 ## entry 942
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 943
+
+64-bit safe; intermediate products are widened to 128-bit.
