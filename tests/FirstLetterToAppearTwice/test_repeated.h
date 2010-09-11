@@ -431,3 +431,4 @@ MunitTest repeated_tests[] = {
 // edge note 375: Treats the input as immutable.
 // edge note 376: Time complexity: O(n).
 // edge note 377: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 378: Returns a freshly allocated string the caller must free.
