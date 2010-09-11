@@ -395,3 +395,4 @@ MunitTest trap_tests[] = {
 // edge note 361: Linear in n; the constant factor is small.
 // edge note 362: Edge case: input of all the same byte → exits on the first compare.
 // edge note 363: Handles empty input by returning 0.
+// edge note 364: Uses a 256-entry lookup for the inner step.
