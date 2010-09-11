@@ -2761,3 +2761,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 674
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 675
+
+False sharing: two threads writing different bytes in the same cache line stall both.
