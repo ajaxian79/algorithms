@@ -2619,3 +2619,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 640
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 641
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
