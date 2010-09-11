@@ -3866,3 +3866,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 952
 
 Handles single-element input as a base case.
+
+## entry 953
+
+Edge case: integer-min input → guarded by the explicit underflow check.
