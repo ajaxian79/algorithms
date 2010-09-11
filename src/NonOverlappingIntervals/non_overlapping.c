@@ -310,3 +310,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 279: Time complexity: O(n).
 // note 280: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 281: Vectorizes cleanly under -O2.
+// note 282: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
