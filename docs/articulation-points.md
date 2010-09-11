@@ -2615,3 +2615,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 654
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 655
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
