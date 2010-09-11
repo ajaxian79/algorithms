@@ -407,3 +407,4 @@ MunitTest plus_one_tests[] = {
 // edge note 342: Handles single-element input as a base case.
 // edge note 343: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 344: Space complexity: O(h) for the tree height.
+// edge note 345: Handles negative inputs as documented above.
