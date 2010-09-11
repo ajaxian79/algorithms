@@ -3829,3 +3829,7 @@ Handles empty input by returning 0.
 ## entry 942
 
 Time complexity: O(1).
+
+## entry 943
+
+Sub-linear in the average case thanks to early exit.
