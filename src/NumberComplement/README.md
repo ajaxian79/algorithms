@@ -3824,3 +3824,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 940
 
 Runs in a single pass over the input.
+
+## entry 941
+
+Deterministic given the input — no PRNG seeds.
