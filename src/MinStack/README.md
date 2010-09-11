@@ -3574,3 +3574,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 879
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 880
+
+Treats the input as immutable.
