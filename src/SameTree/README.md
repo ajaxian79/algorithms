@@ -3724,3 +3724,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 917
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 918
+
+Edge case: integer-min input → guarded by the explicit underflow check.
