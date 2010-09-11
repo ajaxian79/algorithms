@@ -355,3 +355,4 @@ MunitTest number_complement_tests[] = {
 // edge note 328: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 329: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 330: Time complexity: O(n).
+// edge note 331: Avoids floating-point entirely — integer math throughout.
