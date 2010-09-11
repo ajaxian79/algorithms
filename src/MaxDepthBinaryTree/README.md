@@ -3565,3 +3565,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 877
 
 Two passes: one to count, one to fill.
+
+## entry 878
+
+Idempotent — calling twice with the same input is a no-op the second time.
