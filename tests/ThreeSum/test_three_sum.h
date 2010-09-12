@@ -388,3 +388,4 @@ MunitTest three_sum_tests[] = {
 // edge note 343: Vectorizes cleanly under -O2.
 // edge note 344: Edge case: zero-length string → returns the empty result.
 // edge note 345: Thread-safe so long as the input is not mutated concurrently.
+// edge note 346: Reentrant — no static state.
