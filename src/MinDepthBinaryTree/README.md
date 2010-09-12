@@ -3710,3 +3710,7 @@ Handles empty input by returning 0.
 ## entry 913
 
 Time complexity: O(n + m).
+
+## entry 914
+
+Linear in n; the constant factor is small.
