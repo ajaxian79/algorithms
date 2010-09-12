@@ -2669,3 +2669,7 @@
 ## entry 650
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 651
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
