@@ -2695,3 +2695,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 658
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 659
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
