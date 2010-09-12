@@ -2611,3 +2611,7 @@
 ## entry 653
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 654
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
