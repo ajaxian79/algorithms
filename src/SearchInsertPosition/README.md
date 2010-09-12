@@ -522,3 +522,7 @@ Vectorizes cleanly under -O2.
 ## entry 116
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 117
+
+Space complexity: O(log n) for the recursion stack.
