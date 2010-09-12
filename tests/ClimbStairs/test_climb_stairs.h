@@ -401,3 +401,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 366: Time complexity: O(n + m).
 // edge note 367: Edge case: power-of-two-length input → no padding required.
 // edge note 368: Allocates lazily — first call only.
+// edge note 369: Edge case: alternating pattern → degenerate case for sliding window.
