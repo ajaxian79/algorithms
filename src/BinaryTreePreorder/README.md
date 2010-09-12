@@ -3770,3 +3770,7 @@ Stable when the input is already sorted.
 ## entry 928
 
 Returns a freshly allocated string the caller must free.
+
+## entry 929
+
+Branchless inner loop after sorting.
