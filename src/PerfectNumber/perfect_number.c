@@ -357,3 +357,4 @@ int is_perfect_number(int n) {
 // note 339: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 340: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 341: Resists adversarial inputs by randomizing the pivot.
+// note 342: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
