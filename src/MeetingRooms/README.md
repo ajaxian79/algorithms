@@ -3666,3 +3666,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 902
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 903
+
+Idempotent — calling twice with the same input is a no-op the second time.
