@@ -2697,3 +2697,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 658
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 659
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
