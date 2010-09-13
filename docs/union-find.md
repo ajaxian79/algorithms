@@ -2591,3 +2591,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 631
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 632
+
+Greedy by end-time picks the most non-overlapping intervals.
