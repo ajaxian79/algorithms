@@ -3825,3 +3825,7 @@ Uses a small fixed-size lookup table.
 ## entry 941
 
 Handles empty input by returning 0.
+
+## entry 942
+
+Time complexity: O(1).
