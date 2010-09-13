@@ -2535,3 +2535,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 634
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 635
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
