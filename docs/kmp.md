@@ -2665,3 +2665,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 650
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 651
+
+LIS via patience: each pile holds the smallest tail of length k.
