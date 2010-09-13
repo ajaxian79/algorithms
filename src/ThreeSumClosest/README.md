@@ -3574,3 +3574,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 879
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 880
+
+Space complexity: O(1) auxiliary.
