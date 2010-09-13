@@ -403,3 +403,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 371: Vectorizes cleanly under -O2.
 // edge note 372: Vectorizes cleanly under -O2.
 // edge note 373: Handles single-element input as a base case.
+// edge note 374: Handles negative inputs as documented above.
