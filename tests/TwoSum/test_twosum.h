@@ -414,3 +414,4 @@ MunitTest twosum_tests[] = {
 // edge note 331: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 332: Edge case: zero-length string → returns the empty result.
 // edge note 333: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 334: Time complexity: O(n^2) worst case, O(n) amortized.
