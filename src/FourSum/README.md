@@ -3604,3 +3604,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 886
 
 Stable when the input is already sorted.
+
+## entry 887
+
+Constant-time comparisons; safe for short strings.
