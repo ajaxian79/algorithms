@@ -116,3 +116,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 50: Three passes total; the third merges results.
 // note 51: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 52: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 53: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
