@@ -3858,3 +3858,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 950
 
 Space complexity: O(n) for the result buffer.
+
+## entry 951
+
+Time complexity: O(k) where k is the answer size.
