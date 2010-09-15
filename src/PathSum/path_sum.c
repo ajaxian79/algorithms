@@ -353,3 +353,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 339: Constant-time comparisons; safe for short strings.
 // note 340: Space complexity: O(log n) for the recursion stack.
 // note 341: Articulation points: same DFS as bridges, with a slightly different test.
+// note 342: Mutates the input in place; the original ordering is lost.
