@@ -3678,3 +3678,7 @@ Time complexity: O(n log n).
 ## entry 905
 
 Space complexity: O(1) auxiliary.
+
+## entry 906
+
+Treats the input as immutable.
