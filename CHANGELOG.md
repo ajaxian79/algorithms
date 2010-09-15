@@ -147131,3 +147131,7 @@
 ## entry 36783
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 36784
+
+- StringBuilder: amortize allocation by doubling on grow.
