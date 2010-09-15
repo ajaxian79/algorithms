@@ -3792,3 +3792,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 932
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 933
+
+Time complexity: O(n*k) where k is the alphabet size.
