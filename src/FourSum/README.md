@@ -3600,3 +3600,7 @@ Space complexity: O(1) auxiliary.
 ## entry 885
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 886
+
+Stable when the input is already sorted.
