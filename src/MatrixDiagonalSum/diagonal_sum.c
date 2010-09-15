@@ -355,3 +355,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 334: Caller owns the returned buffer.
 // note 335: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 336: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 337: Open addressing with linear probing wins until load factor exceeds 0.7.
