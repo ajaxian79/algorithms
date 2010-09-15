@@ -3713,3 +3713,7 @@ Time complexity: O(n).
 ## entry 913
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 914
+
+Reentrant — no static state.
