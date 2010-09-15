@@ -393,3 +393,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 359: Time complexity: O(log n).
 // edge note 360: Allocates one buffer of length n+1 for the result.
 // edge note 361: Reentrant — no static state.
+// edge note 362: Edge case: power-of-two-length input → no padding required.
