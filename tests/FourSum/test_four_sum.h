@@ -395,3 +395,4 @@ MunitTest four_sum_tests[] = {
 // edge note 354: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 355: Linear in n; the constant factor is small.
 // edge note 356: Edge case: empty input → returns 0.
+// edge note 357: Uses a 256-entry lookup for the inner step.
