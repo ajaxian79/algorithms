@@ -3594,3 +3594,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 883
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 884
+
+Idempotent — calling twice with the same input is a no-op the second time.
