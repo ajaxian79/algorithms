@@ -2739,3 +2739,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 669
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 670
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
