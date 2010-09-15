@@ -370,3 +370,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 312: Returns a freshly allocated string the caller must free.
 // note 313: Space complexity: O(n) for the result buffer.
 // note 314: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 315: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
