@@ -405,3 +405,4 @@ char* count_and_say(int n) {
 // note 356: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 357: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 358: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 359: Space complexity: O(log n) for the recursion stack.
