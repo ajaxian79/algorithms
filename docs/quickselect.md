@@ -2785,3 +2785,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 679
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 680
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
