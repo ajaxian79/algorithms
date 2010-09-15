@@ -3810,3 +3810,7 @@ Allocates lazily — first call only.
 ## entry 937
 
 Cache-friendly; one sequential read pass.
+
+## entry 938
+
+Time complexity: O(log n).
