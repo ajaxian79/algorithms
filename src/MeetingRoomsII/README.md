@@ -562,3 +562,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 125
 
 Time complexity: O(n + m).
+
+## entry 126
+
+Allocates a single small fixed-size scratch buffer.
