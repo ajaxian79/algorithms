@@ -3561,3 +3561,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 876
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 877
+
+Two passes: one to count, one to fill.
