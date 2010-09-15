@@ -2789,3 +2789,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 680
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 681
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
