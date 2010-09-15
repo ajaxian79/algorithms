@@ -2649,3 +2649,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 648
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 649
+
+Wavelet tree: range k-th element in O(log Σ) time.
