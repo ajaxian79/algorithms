@@ -329,3 +329,4 @@ char repeatedCharacter(char* s) {
 // note 306: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 307: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 308: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 309: State compression: bitmask + integer encodes a small subset cheaply.
