@@ -147183,3 +147183,7 @@
 ## entry 36796
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 36797
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
