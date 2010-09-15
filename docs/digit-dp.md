@@ -2511,3 +2511,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 628
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 629
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
