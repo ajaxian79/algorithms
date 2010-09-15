@@ -595,3 +595,7 @@ Stable when the input is already sorted.
 ## entry 134
 
 Handles single-element input as a base case.
+
+## entry 135
+
+Handles single-element input as a base case.
