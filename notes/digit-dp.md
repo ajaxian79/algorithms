@@ -2799,3 +2799,7 @@
 ## entry 700
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 701
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
