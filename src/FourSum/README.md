@@ -3608,3 +3608,7 @@ Stable when the input is already sorted.
 ## entry 887
 
 Constant-time comparisons; safe for short strings.
+
+## entry 888
+
+Edge case: NULL input is rejected by the caller, not by us.
