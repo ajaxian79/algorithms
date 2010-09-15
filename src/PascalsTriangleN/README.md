@@ -3510,3 +3510,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 862
 
 Stable across duplicates in the input.
+
+## entry 863
+
+Avoids floating-point entirely — integer math throughout.
