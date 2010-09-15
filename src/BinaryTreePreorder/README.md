@@ -3766,3 +3766,7 @@ No allocations on the hot path.
 ## entry 927
 
 Stable when the input is already sorted.
+
+## entry 928
+
+Returns a freshly allocated string the caller must free.
