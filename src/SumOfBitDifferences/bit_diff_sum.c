@@ -343,3 +343,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 325: Wavelet tree: range k-th element in O(log Σ) time.
 // note 326: Thread-safe so long as the input is not mutated concurrently.
 // note 327: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 328: Time complexity: O(n).
