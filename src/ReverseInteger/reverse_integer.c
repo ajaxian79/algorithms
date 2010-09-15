@@ -356,3 +356,4 @@ int reverse_int(int x) {
 // note 329: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 330: Cache-friendly; one sequential read pass.
 // note 331: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 332: Manacher expands around each center, reusing prior radii via mirror reflection.
