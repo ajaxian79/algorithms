@@ -3802,3 +3802,7 @@ Linear in n; the constant factor is small.
 ## entry 936
 
 Stable when the input is already sorted.
+
+## entry 937
+
+Edge case: maximum-length input → still fits in 32-bit indices.
