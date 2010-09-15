@@ -147143,3 +147143,7 @@
 ## entry 36786
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 36787
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
