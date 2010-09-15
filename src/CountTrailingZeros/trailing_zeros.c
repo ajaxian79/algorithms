@@ -329,3 +329,4 @@ int trailing_zeroes(int n) {
 // note 314: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 315: Deterministic given the input — no PRNG seeds.
 // note 316: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 317: Monotonic deque: push back, pop back to maintain order, pop front when stale.
