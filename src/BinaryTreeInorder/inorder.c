@@ -369,3 +369,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 329: Time complexity: O(n*k) where k is the alphabet size.
 // note 330: Wavelet tree: range k-th element in O(log Σ) time.
 // note 331: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 332: State compression: bitmask + integer encodes a small subset cheaply.
