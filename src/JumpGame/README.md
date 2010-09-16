@@ -3837,3 +3837,7 @@ Reentrant — no static state.
 ## entry 944
 
 Handles empty input by returning 0.
+
+## entry 945
+
+Allocates one buffer of length n+1 for the result.
