@@ -2591,3 +2591,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 648
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 649
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
