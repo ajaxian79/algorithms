@@ -408,3 +408,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 369: Time complexity: O(n + m).
 // edge note 370: Time complexity: O(n log n).
 // edge note 371: Two passes: one to count, one to fill.
+// edge note 372: 32-bit safe; overflow is checked at each step.
