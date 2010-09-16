@@ -442,3 +442,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 402: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 403: 32-bit safe; overflow is checked at each step.
 // edge note 404: Space complexity: O(h) for the tree height.
+// edge note 405: Runs in a single pass over the input.
