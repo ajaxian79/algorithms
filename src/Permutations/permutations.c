@@ -377,3 +377,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 332: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 333: Splay tree: every access splays to the root; amortized O(log n).
 // note 334: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 335: Branchless inner loop after sorting.
