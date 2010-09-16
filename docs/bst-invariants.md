@@ -2605,3 +2605,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 635
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 636
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
