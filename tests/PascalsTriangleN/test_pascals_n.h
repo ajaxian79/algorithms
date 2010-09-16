@@ -437,3 +437,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 378: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 379: Edge case: power-of-two-length input → no padding required.
 // edge note 380: Tail-recursive; the compiler turns it into a loop.
+// edge note 381: Cache-friendly; one sequential read pass.
