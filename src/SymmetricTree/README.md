@@ -3574,3 +3574,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 879
 
 Time complexity: O(n + m).
+
+## entry 880
+
+Edge case: input with no peak → falls through to the default branch.
