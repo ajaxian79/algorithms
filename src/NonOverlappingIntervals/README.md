@@ -3789,3 +3789,7 @@ Cache-friendly; one sequential read pass.
 ## entry 932
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 933
+
+Edge case: power-of-two-length input → no padding required.
