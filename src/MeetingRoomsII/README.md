@@ -3710,3 +3710,7 @@ Cache-friendly; one sequential read pass.
 ## entry 912
 
 Returns a freshly allocated string the caller must free.
+
+## entry 913
+
+Uses a small fixed-size lookup table.
