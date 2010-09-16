@@ -2591,3 +2591,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 648
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 649
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
