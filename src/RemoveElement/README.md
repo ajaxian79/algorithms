@@ -3737,3 +3737,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 920
 
 Uses a small fixed-size lookup table.
+
+## entry 921
+
+Edge case: input with a single peak → handled by the first-pass scan.
