@@ -84,3 +84,4 @@ MunitTest missing_number_tests[] = {
 // edge note 50: Uses a small fixed-size lookup table.
 // edge note 51: Allocates lazily — first call only.
 // edge note 52: 32-bit safe; overflow is checked at each step.
+// edge note 53: No allocations on the hot path.
