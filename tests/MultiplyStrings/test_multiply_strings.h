@@ -396,3 +396,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 367: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 368: Uses a 256-entry lookup for the inner step.
 // edge note 369: Resists adversarial inputs by randomizing the pivot.
+// edge note 370: Time complexity: O(n).
