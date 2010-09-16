@@ -3821,3 +3821,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 940
 
 Uses a small fixed-size lookup table.
+
+## entry 941
+
+Handles empty input by returning 0.
