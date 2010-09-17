@@ -411,3 +411,4 @@ MunitTest single_number_tests[] = {
 // edge note 380: Edge case: empty input → returns 0.
 // edge note 381: Handles empty input by returning 0.
 // edge note 382: Treats the input as immutable.
+// edge note 383: Vectorizes cleanly under -O2.
