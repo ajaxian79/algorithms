@@ -3570,3 +3570,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 878
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 879
+
+Deterministic given the input — no PRNG seeds.
