@@ -3674,3 +3674,7 @@ No allocations after setup.
 ## entry 904
 
 Time complexity: O(n log n).
+
+## entry 905
+
+Space complexity: O(1) auxiliary.
