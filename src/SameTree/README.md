@@ -3720,3 +3720,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 916
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 917
+
+Resists adversarial inputs by randomizing the pivot.
