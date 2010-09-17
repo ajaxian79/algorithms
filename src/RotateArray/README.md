@@ -3879,3 +3879,7 @@ Space complexity: O(h) for the tree height.
 ## entry 954
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 955
+
+64-bit safe; intermediate products are widened to 128-bit.
