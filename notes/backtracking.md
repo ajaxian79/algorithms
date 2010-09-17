@@ -2695,3 +2695,7 @@
 ## entry 657
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 658
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
