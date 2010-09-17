@@ -3590,3 +3590,7 @@ Allocates lazily — first call only.
 ## entry 882
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 883
+
+Resists adversarial inputs by randomizing the pivot.
