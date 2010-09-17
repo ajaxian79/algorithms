@@ -3801,3 +3801,7 @@ Handles empty input by returning 0.
 ## entry 936
 
 Time complexity: O(n).
+
+## entry 937
+
+Time complexity: O(log n).
