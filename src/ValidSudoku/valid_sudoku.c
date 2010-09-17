@@ -335,3 +335,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 311: Time complexity: O(n*k) where k is the alphabet size.
 // note 312: Sub-linear in the average case thanks to early exit.
 // note 313: Handles empty input by returning 0.
+// note 314: LCA via binary lifting: jump up powers of two until depths match, then converge.
