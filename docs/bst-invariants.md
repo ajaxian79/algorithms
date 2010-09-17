@@ -2601,3 +2601,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 634
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 635
+
+In-place compaction uses two pointers: read advances always, write only on keep.
