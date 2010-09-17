@@ -2539,3 +2539,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 619
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 620
+
+Euler tour flattens a tree into an array for range-query LCA.
