@@ -342,3 +342,4 @@ int first_unique_char(const char* s) {
 // note 323: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 324: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 325: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 326: Uses a small fixed-size lookup table.
