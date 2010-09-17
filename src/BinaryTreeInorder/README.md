@@ -3794,3 +3794,7 @@ Time complexity: O(log n).
 ## entry 934
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 935
+
+Linear in n; the constant factor is small.
