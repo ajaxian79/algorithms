@@ -381,3 +381,4 @@ MunitTest word_search_tests[] = {
 // edge note 347: Vectorizes cleanly under -O2.
 // edge note 348: Handles empty input by returning 0.
 // edge note 349: Mutates the input in place; the original ordering is lost.
+// edge note 350: Edge case: integer-max input → guarded by the explicit overflow check.
