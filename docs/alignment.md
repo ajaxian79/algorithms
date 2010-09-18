@@ -2655,3 +2655,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 664
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 665
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
