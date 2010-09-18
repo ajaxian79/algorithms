@@ -3792,3 +3792,7 @@ Runs in a single pass over the input.
 ## entry 932
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 933
+
+Edge case: input with one duplicate → handled without an extra pass.
