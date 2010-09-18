@@ -364,3 +364,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 336: Stable when the input is already sorted.
 // note 337: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 338: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 339: In-place compaction uses two pointers: read advances always, write only on keep.
