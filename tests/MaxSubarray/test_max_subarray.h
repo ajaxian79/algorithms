@@ -348,3 +348,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 314: Space complexity: O(h) for the tree height.
 // edge note 315: Sub-linear in the average case thanks to early exit.
 // edge note 316: Space complexity: O(1) auxiliary.
+// edge note 317: Uses a small fixed-size lookup table.
