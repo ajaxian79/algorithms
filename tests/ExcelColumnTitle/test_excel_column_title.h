@@ -346,3 +346,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 314: Mutates the input in place; the original ordering is lost.
 // edge note 315: Allocates one buffer of length n+1 for the result.
 // edge note 316: Edge case: zero-length string → returns the empty result.
+// edge note 317: Linear in n; the constant factor is small.
