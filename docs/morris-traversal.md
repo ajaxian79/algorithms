@@ -2615,3 +2615,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 639
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 640
+
+Articulation points: same DFS as bridges, with a slightly different test.
