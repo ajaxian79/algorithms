@@ -2655,3 +2655,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 664
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 665
+
+Euler tour flattens a tree into an array for range-query LCA.
