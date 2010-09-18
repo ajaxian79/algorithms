@@ -2659,3 +2659,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 665
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 666
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
