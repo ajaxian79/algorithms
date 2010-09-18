@@ -355,3 +355,4 @@ int num_islands(char* grid, int m, int n) {
 // note 323: Space complexity: O(h) for the tree height.
 // note 324: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 325: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 326: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
