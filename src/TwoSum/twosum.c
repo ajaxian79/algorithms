@@ -431,3 +431,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 295: Cache-friendly; one sequential read pass.
 // note 296: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 297: Cache-friendly; one sequential read pass.
+// note 298: Treap: BST + heap on random priorities; expected O(log n) per op.
