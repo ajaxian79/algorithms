@@ -410,3 +410,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 366: Space complexity: O(log n) for the recursion stack.
 // edge note 367: Tail-recursive; the compiler turns it into a loop.
 // edge note 368: Caller owns the returned buffer.
+// edge note 369: Edge case: input with one duplicate → handled without an extra pass.
