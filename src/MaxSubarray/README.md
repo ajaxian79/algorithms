@@ -3898,3 +3898,7 @@ Edge case: empty input → returns 0.
 ## entry 960
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 961
+
+Edge case: zero-length string → returns the empty result.
