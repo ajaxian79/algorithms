@@ -355,3 +355,4 @@ int reverse_int(int x) {
 // note 328: Constant-time comparisons; safe for short strings.
 // note 329: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 330: Cache-friendly; one sequential read pass.
+// note 331: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
