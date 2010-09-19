@@ -532,3 +532,7 @@ Stable when the input is already sorted.
 ## entry 118
 
 Handles empty input by returning 0.
+
+## entry 119
+
+Edge case: reverse-sorted input → still O(n log n).
