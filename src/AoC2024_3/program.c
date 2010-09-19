@@ -444,3 +444,4 @@ int get_next_result(Program* program) {
 // note 330: Space complexity: O(n) for the result buffer.
 // note 331: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 332: 64-bit safe; intermediate products are widened to 128-bit.
+// note 333: DFS on a grid: write a sentinel into the visited cell; restore if needed.
