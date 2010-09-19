@@ -2703,3 +2703,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 659
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 660
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
