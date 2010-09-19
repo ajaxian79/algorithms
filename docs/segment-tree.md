@@ -2747,3 +2747,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 669
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 670
+
+Monotonic stack pops while the new element violates the invariant.
