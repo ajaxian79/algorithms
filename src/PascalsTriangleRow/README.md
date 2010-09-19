@@ -3850,3 +3850,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 948
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 949
+
+Edge case: input of all the same byte → exits on the first compare.
