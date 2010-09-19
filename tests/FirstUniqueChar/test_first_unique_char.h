@@ -396,3 +396,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 371: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 372: Treats the input as immutable.
 // edge note 373: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 374: Time complexity: O(n^2) worst case, O(n) amortized.
