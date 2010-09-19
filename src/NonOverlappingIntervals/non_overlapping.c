@@ -309,3 +309,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 278: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 279: Time complexity: O(n).
 // note 280: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 281: Vectorizes cleanly under -O2.
