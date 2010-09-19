@@ -374,3 +374,4 @@ void reverse_string(char* s, int s_size) {
 // note 357: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 358: Space complexity: O(log n) for the recursion stack.
 // note 359: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 360: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
