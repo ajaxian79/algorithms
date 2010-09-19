@@ -147027,3 +147027,7 @@
 ## entry 36757
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 36758
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
