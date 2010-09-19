@@ -3762,3 +3762,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 926
 
 No allocations on the hot path.
+
+## entry 927
+
+Stable when the input is already sorted.
