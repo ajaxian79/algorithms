@@ -2699,3 +2699,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 675
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 676
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
