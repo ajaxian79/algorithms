@@ -339,3 +339,4 @@ int min_depth(MnTreeNode* root) {
 // note 322: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 323: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 324: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 325: No allocations after setup.
