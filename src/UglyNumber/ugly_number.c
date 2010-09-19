@@ -340,3 +340,4 @@ int is_ugly(int n) {
 // note 326: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 327: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 328: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 329: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
