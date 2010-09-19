@@ -392,3 +392,4 @@ MunitTest subsets_tests[] = {
 // edge note 347: Best case is O(1) when the first byte already decides the answer.
 // edge note 348: Reentrant — no static state.
 // edge note 349: Best case is O(1) when the first byte already decides the answer.
+// edge note 350: Edge case: input with a single peak → handled by the first-pass scan.
