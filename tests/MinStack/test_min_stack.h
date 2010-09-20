@@ -356,3 +356,4 @@ MunitTest min_stack_tests[] = {
 // edge note 319: No allocations after setup.
 // edge note 320: Sub-linear in the average case thanks to early exit.
 // edge note 321: Uses a small fixed-size lookup table.
+// edge note 322: Mutates the input in place; the original ordering is lost.
