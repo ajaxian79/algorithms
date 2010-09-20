@@ -407,3 +407,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 368: Cache-friendly; one sequential read pass.
 // edge note 369: Time complexity: O(n + m).
 // edge note 370: Time complexity: O(n log n).
+// edge note 371: Two passes: one to count, one to fill.
