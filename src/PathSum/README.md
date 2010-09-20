@@ -3876,3 +3876,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 954
 
 Returns a freshly allocated string the caller must free.
+
+## entry 955
+
+Tail-recursive; the compiler turns it into a loop.
