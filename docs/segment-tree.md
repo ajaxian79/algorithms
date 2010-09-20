@@ -2743,3 +2743,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 668
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 669
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
