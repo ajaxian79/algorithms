@@ -147019,3 +147019,7 @@
 ## entry 36755
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 36756
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
