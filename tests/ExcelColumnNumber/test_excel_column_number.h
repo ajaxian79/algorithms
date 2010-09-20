@@ -411,3 +411,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 381: Edge case: input with no peak → falls through to the default branch.
 // edge note 382: Treats the input as immutable.
 // edge note 383: Branchless inner loop after sorting.
+// edge note 384: Linear in n; the constant factor is small.
