@@ -147003,3 +147003,7 @@
 ## entry 36751
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 36752
+
+- Splay tree: every access splays to the root; amortized O(log n).
