@@ -3918,3 +3918,7 @@ Edge case: empty input → returns 0.
 ## entry 965
 
 Time complexity: O(n).
+
+## entry 966
+
+Best case is O(1) when the first byte already decides the answer.
