@@ -147015,3 +147015,7 @@
 ## entry 36754
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 36755
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
