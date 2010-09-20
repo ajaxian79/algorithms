@@ -379,3 +379,4 @@ MunitTest same_tree_tests[] = {
 // edge note 343: Allocates a single small fixed-size scratch buffer.
 // edge note 344: Handles negative inputs as documented above.
 // edge note 345: Returns a freshly allocated string the caller must free.
+// edge note 346: Edge case: input with a single peak → handled by the first-pass scan.
