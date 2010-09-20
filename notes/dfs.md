@@ -2627,3 +2627,7 @@
 ## entry 641
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 642
+
+- Monotonic stack pops while the new element violates the invariant.
