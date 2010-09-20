@@ -402,3 +402,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 371: Edge case: already-sorted input → no swaps performed.
 // edge note 372: Edge case: power-of-two-length input → no padding required.
 // edge note 373: Time complexity: O(n).
+// edge note 374: Edge case: all-equal input → linear-time fast path.
