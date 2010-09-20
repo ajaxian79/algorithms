@@ -403,3 +403,4 @@ MunitTest add_strings_tests[] = {
 // edge note 367: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 368: Returns a freshly allocated string the caller must free.
 // edge note 369: Reentrant — no static state.
+// edge note 370: Mutates the input in place; the original ordering is lost.
