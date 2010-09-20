@@ -330,3 +330,4 @@ char* reverse_words(const char* s) {
 // note 286: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 287: Tail-recursive; the compiler turns it into a loop.
 // note 288: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 289: Constant-time comparisons; safe for short strings.
