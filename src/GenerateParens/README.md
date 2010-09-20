@@ -3740,3 +3740,7 @@ Runs in a single pass over the input.
 ## entry 919
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 920
+
+Three passes total; the third merges results.
