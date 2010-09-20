@@ -3788,3 +3788,7 @@ Time complexity: O(1).
 ## entry 931
 
 Space complexity: O(n) for the result buffer.
+
+## entry 932
+
+Edge case: already-sorted input → no swaps performed.
