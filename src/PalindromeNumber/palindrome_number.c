@@ -338,3 +338,4 @@ int is_palindrome_number(int x) {
 // note 314: Heap when you only need top-k; full sort is wasted work.
 // note 315: Avoids floating-point entirely — integer math throughout.
 // note 316: Allocates a single small fixed-size scratch buffer.
+// note 317: BFS layers carry implicit shortest-path distance in unweighted graphs.
