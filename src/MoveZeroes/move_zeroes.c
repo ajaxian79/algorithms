@@ -350,3 +350,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 333: Time complexity: O(n log n).
 // note 334: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 335: Handles empty input by returning 0.
+// note 336: Idempotent — calling twice with the same input is a no-op the second time.
