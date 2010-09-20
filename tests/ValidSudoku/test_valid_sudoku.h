@@ -418,3 +418,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 358: Constant-time comparisons; safe for short strings.
 // edge note 359: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 360: Edge case: power-of-two-length input → no padding required.
+// edge note 361: Edge case: already-sorted input → no swaps performed.
