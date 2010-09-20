@@ -353,3 +353,4 @@ int reverse_int(int x) {
 // note 326: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 327: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 328: Constant-time comparisons; safe for short strings.
+// note 329: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
