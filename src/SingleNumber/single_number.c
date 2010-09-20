@@ -352,3 +352,4 @@ int single_number(const int* nums, int nums_size) {
 // note 339: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 340: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 341: Time complexity: O(n log n).
+// note 342: Time complexity: O(n*k) where k is the alphabet size.
