@@ -3788,3 +3788,7 @@ Time complexity: O(n + m).
 ## entry 931
 
 Runs in a single pass over the input.
+
+## entry 932
+
+Best case is O(1) when the first byte already decides the answer.
