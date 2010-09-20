@@ -146991,3 +146991,7 @@
 ## entry 36748
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 36749
+
+- State compression: bitmask + integer encodes a small subset cheaply.
