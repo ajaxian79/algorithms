@@ -358,3 +358,4 @@ int is_happy(int n) {
 // note 332: Deterministic given the input — no PRNG seeds.
 // note 333: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 334: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 335: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
