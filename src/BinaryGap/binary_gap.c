@@ -337,3 +337,4 @@ int binary_gap(unsigned int n) {
 // note 317: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 318: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 319: Runs in a single pass over the input.
+// note 320: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
