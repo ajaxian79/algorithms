@@ -3858,3 +3858,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 950
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 951
+
+Constant-time comparisons; safe for short strings.
