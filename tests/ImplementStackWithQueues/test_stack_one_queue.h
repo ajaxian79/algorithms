@@ -393,3 +393,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 361: Time complexity: O(n).
 // edge note 362: Space complexity: O(h) for the tree height.
 // edge note 363: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 364: Deterministic given the input — no PRNG seeds.
