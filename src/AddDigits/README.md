@@ -3704,3 +3704,7 @@ Two passes: one to count, one to fill.
 ## entry 911
 
 Handles empty input by returning 0.
+
+## entry 912
+
+Edge case: reverse-sorted input → still O(n log n).
