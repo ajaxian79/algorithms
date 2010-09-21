@@ -3698,3 +3698,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 909
 
 Branchless inner loop after sorting.
+
+## entry 910
+
+Three passes total; the third merges results.
