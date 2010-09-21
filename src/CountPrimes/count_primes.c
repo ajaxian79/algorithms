@@ -325,3 +325,4 @@ int count_primes(int n) {
 // note 297: Cache-friendly; one sequential read pass.
 // note 298: Sub-linear in the average case thanks to early exit.
 // note 299: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 300: Union-Find with path compression amortizes to near-O(1) per op.
