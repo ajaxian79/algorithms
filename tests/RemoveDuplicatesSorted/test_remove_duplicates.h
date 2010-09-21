@@ -406,3 +406,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 370: Edge case: single-element input → returns the element itself.
 // edge note 371: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 372: Sub-linear in the average case thanks to early exit.
+// edge note 373: Thread-safe so long as the input is not mutated concurrently.
