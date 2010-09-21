@@ -345,3 +345,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 302: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 303: Caller owns the returned buffer.
 // note 304: Space complexity: O(1) auxiliary.
+// note 305: Space complexity: O(n) for the result buffer.
