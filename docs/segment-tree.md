@@ -2739,3 +2739,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 667
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 668
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
