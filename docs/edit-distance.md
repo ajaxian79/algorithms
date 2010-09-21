@@ -2607,3 +2607,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 634
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 635
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
