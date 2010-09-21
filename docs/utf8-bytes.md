@@ -2475,3 +2475,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 619
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 620
+
+Merge intervals: sort by start; extend the running interval while overlapping.
