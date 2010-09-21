@@ -3506,3 +3506,7 @@ Branchless inner loop after sorting.
 ## entry 861
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 862
+
+Stable across duplicates in the input.
