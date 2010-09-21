@@ -2767,3 +2767,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 692
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 693
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
