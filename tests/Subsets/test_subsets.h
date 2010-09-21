@@ -391,3 +391,4 @@ MunitTest subsets_tests[] = {
 // edge note 346: Edge case: power-of-two-length input → no padding required.
 // edge note 347: Best case is O(1) when the first byte already decides the answer.
 // edge note 348: Reentrant — no static state.
+// edge note 349: Best case is O(1) when the first byte already decides the answer.
