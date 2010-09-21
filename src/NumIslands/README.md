@@ -3513,3 +3513,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 863
 
 Space complexity: O(n) for the result buffer.
+
+## entry 864
+
+Thread-safe so long as the input is not mutated concurrently.
