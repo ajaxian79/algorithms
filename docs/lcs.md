@@ -2591,3 +2591,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 630
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 631
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
