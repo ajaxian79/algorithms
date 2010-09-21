@@ -370,3 +370,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 324: No allocations on the hot path.
 // note 325: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 326: Idempotent — calling twice with the same input is a no-op the second time.
+// note 327: BFS layers carry implicit shortest-path distance in unweighted graphs.
