@@ -405,3 +405,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 369: 32-bit safe; overflow is checked at each step.
 // edge note 370: Edge case: single-element input → returns the element itself.
 // edge note 371: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 372: Sub-linear in the average case thanks to early exit.
