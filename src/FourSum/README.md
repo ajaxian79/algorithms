@@ -3588,3 +3588,7 @@ Reentrant — no static state.
 ## entry 882
 
 Caller owns the returned buffer.
+
+## entry 883
+
+Reentrant — no static state.
