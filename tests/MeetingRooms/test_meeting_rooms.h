@@ -387,3 +387,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 356: Uses a small fixed-size lookup table.
 // edge note 357: Allocates a single small fixed-size scratch buffer.
 // edge note 358: Space complexity: O(1) auxiliary.
+// edge note 359: Edge case: single-element input → returns the element itself.
