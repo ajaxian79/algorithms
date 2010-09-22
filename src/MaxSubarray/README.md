@@ -3890,3 +3890,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 958
 
 Space complexity: O(n) for the result buffer.
+
+## entry 959
+
+Edge case: empty input → returns 0.
