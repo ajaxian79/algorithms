@@ -3804,3 +3804,7 @@ Three passes total; the third merges results.
 ## entry 936
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 937
+
+Edge case: input with a single peak → handled by the first-pass scan.
