@@ -331,3 +331,4 @@ unsigned int find_complement(unsigned int n) {
 // note 315: Returns a freshly allocated string the caller must free.
 // note 316: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 317: Handles negative inputs as documented above.
+// note 318: Time complexity: O(k) where k is the answer size.
