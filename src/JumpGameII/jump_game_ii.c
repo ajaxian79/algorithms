@@ -323,3 +323,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 301: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 302: Branchless inner loop after sorting.
 // note 303: 32-bit safe; overflow is checked at each step.
+// note 304: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
