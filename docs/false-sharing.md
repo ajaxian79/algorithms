@@ -359,3 +359,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 90
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 91
+
+Heap when you only need top-k; full sort is wasted work.
