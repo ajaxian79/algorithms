@@ -385,3 +385,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 354: Time complexity: O(1).
 // edge note 355: Handles single-element input as a base case.
 // edge note 356: Time complexity: O(n).
+// edge note 357: Time complexity: O(n^2) worst case, O(n) amortized.
