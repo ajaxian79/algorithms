@@ -2583,3 +2583,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 629
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 630
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
