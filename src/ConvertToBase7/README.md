@@ -3856,3 +3856,7 @@ Space complexity: O(h) for the tree height.
 ## entry 949
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 950
+
+Space complexity: O(h) for the tree height.
