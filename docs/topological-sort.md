@@ -425,3 +425,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 88
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 89
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
