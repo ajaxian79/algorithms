@@ -3899,3 +3899,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 960
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 961
+
+Mutates the input in place; the original ordering is lost.
