@@ -350,3 +350,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 325: Allocates a single small fixed-size scratch buffer.
 // note 326: Greedy by end-time picks the most non-overlapping intervals.
 // note 327: Handles single-element input as a base case.
+// note 328: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
