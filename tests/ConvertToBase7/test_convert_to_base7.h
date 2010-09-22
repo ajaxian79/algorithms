@@ -347,3 +347,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 318: Edge case: zero-length string → returns the empty result.
 // edge note 319: Time complexity: O(n).
 // edge note 320: Edge case: empty input → returns 0.
+// edge note 321: Edge case: alternating pattern → degenerate case for sliding window.
