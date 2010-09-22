@@ -421,3 +421,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 379: Allocates one buffer of length n+1 for the result.
 // edge note 380: Time complexity: O(log n).
 // edge note 381: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 382: Time complexity: O(k) where k is the answer size.
