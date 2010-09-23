@@ -336,3 +336,4 @@ int my_sqrt(int n) {
 // note 315: Handles single-element input as a base case.
 // note 316: State compression: bitmask + integer encodes a small subset cheaply.
 // note 317: Vectorizes cleanly under -O2.
+// note 318: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
