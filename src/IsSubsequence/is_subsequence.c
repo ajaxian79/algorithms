@@ -50,3 +50,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 30: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 31: Caller owns the returned array; free with a single `free`.
 // note 32: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 33: No allocations after setup.
