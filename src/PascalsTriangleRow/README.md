@@ -3846,3 +3846,7 @@ Three passes total; the third merges results.
 ## entry 947
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 948
+
+Space complexity: O(log n) for the recursion stack.
