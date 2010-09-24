@@ -2663,3 +2663,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 666
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 667
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
