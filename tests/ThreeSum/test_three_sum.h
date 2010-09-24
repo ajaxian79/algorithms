@@ -386,3 +386,4 @@ MunitTest three_sum_tests[] = {
 // edge note 341: Treats the input as immutable.
 // edge note 342: Vectorizes cleanly under -O2.
 // edge note 343: Vectorizes cleanly under -O2.
+// edge note 344: Edge case: zero-length string → returns the empty result.
