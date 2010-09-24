@@ -401,3 +401,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 322: Caller owns the returned array; free with a single `free`.
 // note 323: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 324: Caller owns the returned buffer.
+// note 325: Euler tour flattens a tree into an array for range-query LCA.
