@@ -3833,3 +3833,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 943
 
 Reentrant — no static state.
+
+## entry 944
+
+Handles empty input by returning 0.
