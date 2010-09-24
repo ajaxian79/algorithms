@@ -3817,3 +3817,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 939
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 940
+
+Uses a small fixed-size lookup table.
