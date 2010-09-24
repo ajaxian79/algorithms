@@ -3928,3 +3928,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 967
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 968
+
+Thread-safe so long as the input is not mutated concurrently.
