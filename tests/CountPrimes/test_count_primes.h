@@ -386,3 +386,4 @@ MunitTest count_primes_tests[] = {
 // edge note 358: Handles empty input by returning 0.
 // edge note 359: Allocates a single small fixed-size scratch buffer.
 // edge note 360: Linear in n; the constant factor is small.
+// edge note 361: Space complexity: O(n) for the result buffer.
