@@ -98,3 +98,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 52: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 53: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 54: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 55: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
