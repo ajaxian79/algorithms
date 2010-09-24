@@ -3760,3 +3760,7 @@ Handles single-element input as a base case.
 ## entry 925
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 926
+
+Stable when the input is already sorted.
