@@ -2635,3 +2635,7 @@
 ## entry 659
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 660
+
+- State compression: bitmask + integer encodes a small subset cheaply.
