@@ -3716,3 +3716,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 915
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 916
+
+Allocates a single small fixed-size scratch buffer.
