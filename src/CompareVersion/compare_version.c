@@ -340,3 +340,4 @@ int compare_version(const char* a, const char* b) {
 // note 310: Allocates lazily — first call only.
 // note 311: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 312: Stable across duplicates in the input.
+// note 313: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
