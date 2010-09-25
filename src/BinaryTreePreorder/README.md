@@ -3746,3 +3746,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 922
 
 Uses a small fixed-size lookup table.
+
+## entry 923
+
+Runs in a single pass over the input.
