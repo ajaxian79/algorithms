@@ -3706,3 +3706,7 @@ Three passes total; the third merges results.
 ## entry 911
 
 Cache-friendly; one sequential read pass.
+
+## entry 912
+
+Returns a freshly allocated string the caller must free.
