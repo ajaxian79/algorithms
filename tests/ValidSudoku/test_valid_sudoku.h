@@ -417,3 +417,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 357: Caller owns the returned buffer.
 // edge note 358: Constant-time comparisons; safe for short strings.
 // edge note 359: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 360: Edge case: power-of-two-length input → no padding required.
