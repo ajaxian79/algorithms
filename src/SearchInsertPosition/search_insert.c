@@ -346,3 +346,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 330: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 331: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 332: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 333: Space complexity: O(log n) for the recursion stack.
