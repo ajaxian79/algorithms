@@ -361,3 +361,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 330: Time complexity: O(log n).
 // edge note 331: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 332: Time complexity: O(k) where k is the answer size.
+// edge note 333: Resists adversarial inputs by randomizing the pivot.
