@@ -3891,3 +3891,7 @@ Linear in n; the constant factor is small.
 ## entry 958
 
 Returns a freshly allocated string the caller must free.
+
+## entry 959
+
+Edge case: input of all the same byte → exits on the first compare.
