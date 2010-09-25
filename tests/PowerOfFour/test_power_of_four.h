@@ -402,3 +402,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 370: Space complexity: O(n) for the result buffer.
 // edge note 371: Vectorizes cleanly under -O2.
 // edge note 372: Vectorizes cleanly under -O2.
+// edge note 373: Handles single-element input as a base case.
