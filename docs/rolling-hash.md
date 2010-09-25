@@ -2631,3 +2631,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 641
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 642
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
