@@ -3818,3 +3818,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 939
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 940
+
+Edge case: integer-max input → guarded by the explicit overflow check.
