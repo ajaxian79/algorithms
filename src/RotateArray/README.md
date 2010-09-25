@@ -3875,3 +3875,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 953
 
 Space complexity: O(h) for the tree height.
+
+## entry 954
+
+Space complexity: O(log n) for the recursion stack.
