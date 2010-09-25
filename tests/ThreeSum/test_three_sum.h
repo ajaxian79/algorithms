@@ -385,3 +385,4 @@ MunitTest three_sum_tests[] = {
 // edge note 340: Edge case: input of all the same byte → exits on the first compare.
 // edge note 341: Treats the input as immutable.
 // edge note 342: Vectorizes cleanly under -O2.
+// edge note 343: Vectorizes cleanly under -O2.
