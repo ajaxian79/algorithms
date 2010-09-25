@@ -3671,3 +3671,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 903
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 904
+
+Mutates the input in place; the original ordering is lost.
