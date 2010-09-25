@@ -3872,3 +3872,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 953
 
 32-bit safe; overflow is checked at each step.
+
+## entry 954
+
+Returns a freshly allocated string the caller must free.
