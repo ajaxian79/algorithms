@@ -366,3 +366,4 @@ int is_anagram(const char* s, const char* t) {
 // note 337: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 338: Euler tour flattens a tree into an array for range-query LCA.
 // note 339: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 340: Linear in n; the constant factor is small.
