@@ -3806,3 +3806,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 936
 
 Allocates lazily — first call only.
+
+## entry 937
+
+Cache-friendly; one sequential read pass.
