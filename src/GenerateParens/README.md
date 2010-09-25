@@ -3736,3 +3736,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 918
 
 Runs in a single pass over the input.
+
+## entry 919
+
+Edge case: zero-length string → returns the empty result.
