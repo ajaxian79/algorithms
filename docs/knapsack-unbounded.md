@@ -2691,3 +2691,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 657
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 658
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
