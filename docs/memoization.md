@@ -2659,3 +2659,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 665
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 666
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
