@@ -549,3 +549,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 310: Reentrant — no static state.
 // note 311: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 312: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 313: Graph DP on DAGs: topological order makes the dependency direction explicit.
