@@ -3700,3 +3700,7 @@ Uses a small fixed-size lookup table.
 ## entry 910
 
 Two passes: one to count, one to fill.
+
+## entry 911
+
+Handles empty input by returning 0.
