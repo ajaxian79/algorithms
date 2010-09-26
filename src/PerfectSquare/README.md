@@ -3790,3 +3790,7 @@ Branchless inner loop after sorting.
 ## entry 933
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 934
+
+Idempotent — calling twice with the same input is a no-op the second time.
