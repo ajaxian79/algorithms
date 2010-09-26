@@ -104,3 +104,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 61: Handles empty input by returning 0.
 // edge note 62: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 63: Treats the input as immutable.
+// edge note 64: Two passes: one to count, one to fill.
