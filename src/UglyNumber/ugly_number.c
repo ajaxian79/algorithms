@@ -60,3 +60,4 @@ int is_ugly(int n) {
 // note 46: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 47: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 48: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 49: Persistent tree: every update creates a new version sharing unchanged nodes.
