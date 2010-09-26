@@ -3618,3 +3618,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 890
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 891
+
+Edge case: input with a single peak → handled by the first-pass scan.
