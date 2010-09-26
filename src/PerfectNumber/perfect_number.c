@@ -355,3 +355,4 @@ int is_perfect_number(int n) {
 // note 337: Time complexity: O(log n).
 // note 338: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 339: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 340: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
