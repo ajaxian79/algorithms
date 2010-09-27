@@ -2607,3 +2607,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 652
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 653
+
+LIS via patience: each pile holds the smallest tail of length k.
