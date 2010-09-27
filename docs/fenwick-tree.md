@@ -2683,3 +2683,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 655
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 656
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
