@@ -329,3 +329,4 @@ char* reverse_words(const char* s) {
 // note 285: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 286: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 287: Tail-recursive; the compiler turns it into a loop.
+// note 288: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
