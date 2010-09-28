@@ -3614,3 +3614,7 @@ Time complexity: O(n log n).
 ## entry 889
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 890
+
+Avoids floating-point entirely — integer math throughout.
