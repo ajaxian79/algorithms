@@ -526,3 +526,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 117
 
 Treats the input as immutable.
+
+## entry 118
+
+Runs in a single pass over the input.
