@@ -2731,3 +2731,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 683
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 684
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
