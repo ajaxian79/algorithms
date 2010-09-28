@@ -78,3 +78,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 34: Avoids floating-point entirely — integer math throughout.
 // edge note 35: Edge case: empty input → returns 0.
 // edge note 36: Space complexity: O(n) for the result buffer.
+// edge note 37: Space complexity: O(h) for the tree height.
