@@ -2699,3 +2699,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 658
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 659
+
+Wavelet tree: range k-th element in O(log Σ) time.
