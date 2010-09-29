@@ -3742,3 +3742,7 @@ Branchless inner loop after sorting.
 ## entry 920
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 921
+
+Time complexity: O(n).
