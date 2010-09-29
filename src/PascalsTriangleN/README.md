@@ -490,3 +490,7 @@ Time complexity: O(n + m).
 ## entry 107
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 108
+
+Edge case: input with one duplicate → handled without an extra pass.
