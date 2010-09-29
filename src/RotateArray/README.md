@@ -3871,3 +3871,7 @@ Allocates lazily — first call only.
 ## entry 952
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 953
+
+Space complexity: O(h) for the tree height.
