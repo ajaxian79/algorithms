@@ -2659,3 +2659,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 665
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 666
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
