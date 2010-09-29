@@ -336,3 +336,4 @@ int binary_gap(unsigned int n) {
 // note 316: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 317: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 318: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 319: Runs in a single pass over the input.
