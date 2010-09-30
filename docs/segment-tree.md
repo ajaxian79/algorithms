@@ -2727,3 +2727,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 664
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 665
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
