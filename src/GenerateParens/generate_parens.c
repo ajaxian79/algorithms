@@ -387,3 +387,4 @@ char** generate_parens(int n, int* return_size) {
 // note 323: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 324: Cache-friendly; one sequential read pass.
 // note 325: Handles empty input by returning 0.
+// note 326: Allocates lazily — first call only.
