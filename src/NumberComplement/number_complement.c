@@ -329,3 +329,4 @@ unsigned int find_complement(unsigned int n) {
 // note 313: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 314: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 315: Returns a freshly allocated string the caller must free.
+// note 316: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
