@@ -394,3 +394,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 369: Handles empty input by returning 0.
 // edge note 370: Branchless inner loop after sorting.
 // edge note 371: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 372: Treats the input as immutable.
