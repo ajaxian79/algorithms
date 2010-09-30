@@ -146791,3 +146791,7 @@
 ## entry 36698
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 36699
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
