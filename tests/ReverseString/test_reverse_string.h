@@ -87,3 +87,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 49: Allocates lazily — first call only.
 // edge note 50: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 51: Branchless inner loop after sorting.
+// edge note 52: Deterministic given the input — no PRNG seeds.
