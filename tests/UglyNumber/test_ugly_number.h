@@ -418,3 +418,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 389: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 390: Edge case: all-equal input → linear-time fast path.
 // edge note 391: Edge case: already-sorted input → no swaps performed.
+// edge note 392: Stable when the input is already sorted.
