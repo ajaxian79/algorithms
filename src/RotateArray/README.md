@@ -607,3 +607,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 136
 
 Space complexity: O(h) for the tree height.
+
+## entry 137
+
+32-bit safe; overflow is checked at each step.
