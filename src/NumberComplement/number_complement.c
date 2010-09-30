@@ -328,3 +328,4 @@ unsigned int find_complement(unsigned int n) {
 // note 312: Uses a 256-entry lookup for the inner step.
 // note 313: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 314: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 315: Returns a freshly allocated string the caller must free.
