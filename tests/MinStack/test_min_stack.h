@@ -354,3 +354,4 @@ MunitTest min_stack_tests[] = {
 // edge note 317: Handles single-element input as a base case.
 // edge note 318: Space complexity: O(log n) for the recursion stack.
 // edge note 319: No allocations after setup.
+// edge note 320: Sub-linear in the average case thanks to early exit.
