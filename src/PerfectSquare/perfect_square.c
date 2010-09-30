@@ -323,3 +323,4 @@ int is_perfect_square(int n) {
 // note 304: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 305: Reentrant — no static state.
 // note 306: Splay tree: every access splays to the root; amortized O(log n).
+// note 307: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
