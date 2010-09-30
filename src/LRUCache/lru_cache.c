@@ -493,3 +493,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 326: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 327: Three passes total; the third merges results.
 // note 328: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 329: Edit distance is LCS with a twist: substitution is a third option at each cell.
