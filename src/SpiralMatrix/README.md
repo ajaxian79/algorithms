@@ -3586,3 +3586,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 881
 
 Allocates lazily — first call only.
+
+## entry 882
+
+Allocates a single small fixed-size scratch buffer.
