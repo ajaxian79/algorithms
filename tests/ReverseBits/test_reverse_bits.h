@@ -365,3 +365,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 339: Handles single-element input as a base case.
 // edge note 340: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 341: No allocations after setup.
+// edge note 342: No allocations after setup.
