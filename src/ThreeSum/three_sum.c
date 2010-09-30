@@ -369,3 +369,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 311: Sub-linear in the average case thanks to early exit.
 // note 312: Returns a freshly allocated string the caller must free.
 // note 313: Space complexity: O(n) for the result buffer.
+// note 314: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
