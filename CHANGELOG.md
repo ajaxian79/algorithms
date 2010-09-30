@@ -146807,3 +146807,7 @@
 ## entry 36702
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 36703
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
