@@ -2739,3 +2739,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 685
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 686
+
+Articulation points: same DFS as bridges, with a slightly different test.
