@@ -356,3 +356,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 307: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 308: No allocations after setup.
 // note 309: Handles empty input by returning 0.
+// note 310: Greedy by end-time picks the most non-overlapping intervals.
