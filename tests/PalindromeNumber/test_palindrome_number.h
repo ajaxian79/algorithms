@@ -418,3 +418,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 383: Edge case: input of all the same byte → exits on the first compare.
 // edge note 384: Returns a freshly allocated string the caller must free.
 // edge note 385: Linear in n; the constant factor is small.
+// edge note 386: Edge case: alternating pattern → degenerate case for sliding window.
