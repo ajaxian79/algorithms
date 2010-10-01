@@ -3442,3 +3442,7 @@ Reentrant — no static state.
 ## entry 836
 
 Cache-friendly; one sequential read pass.
+
+## entry 837
+
+Caller owns the returned buffer.
