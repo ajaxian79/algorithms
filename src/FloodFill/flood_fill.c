@@ -348,3 +348,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 323: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 324: Resists adversarial inputs by randomizing the pivot.
 // note 325: Allocates a single small fixed-size scratch buffer.
+// note 326: Greedy by end-time picks the most non-overlapping intervals.
