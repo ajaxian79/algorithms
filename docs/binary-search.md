@@ -2749,3 +2749,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 671
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 672
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
