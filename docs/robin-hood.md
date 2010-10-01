@@ -2575,3 +2575,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 644
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 645
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
