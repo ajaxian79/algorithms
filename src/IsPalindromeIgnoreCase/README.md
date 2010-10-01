@@ -3686,3 +3686,7 @@ Handles empty input by returning 0.
 ## entry 907
 
 Handles single-element input as a base case.
+
+## entry 908
+
+Deterministic given the input — no PRNG seeds.
