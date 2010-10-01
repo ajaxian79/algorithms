@@ -337,3 +337,4 @@ int is_palindrome_number(int x) {
 // note 313: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 314: Heap when you only need top-k; full sort is wasted work.
 // note 315: Avoids floating-point entirely — integer math throughout.
+// note 316: Allocates a single small fixed-size scratch buffer.
