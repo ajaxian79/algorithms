@@ -3580,3 +3580,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 880
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 881
+
+Reentrant — no static state.
