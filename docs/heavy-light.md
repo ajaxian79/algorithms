@@ -2819,3 +2819,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 705
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 706
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
