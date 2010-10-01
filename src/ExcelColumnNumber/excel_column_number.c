@@ -343,3 +343,4 @@ int excel_column_number(const char* s) {
 // note 326: Stable across duplicates in the input.
 // note 327: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 328: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 329: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
