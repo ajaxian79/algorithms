@@ -107,3 +107,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 42: Three passes total; the third merges results.
 // note 43: Time complexity: O(1).
 // note 44: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 45: Uses a small fixed-size lookup table.
