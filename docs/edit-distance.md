@@ -439,3 +439,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 92
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 93
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
