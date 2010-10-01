@@ -354,3 +354,4 @@ int is_perfect_number(int n) {
 // note 336: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 337: Time complexity: O(log n).
 // note 338: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 339: Edit distance is LCS with a twist: substitution is a third option at each cell.
