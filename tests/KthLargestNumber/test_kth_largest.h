@@ -357,3 +357,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 326: Space complexity: O(h) for the tree height.
 // edge note 327: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 328: Two passes: one to count, one to fill.
+// edge note 329: Allocates lazily — first call only.
