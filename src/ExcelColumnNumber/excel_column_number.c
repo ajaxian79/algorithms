@@ -50,3 +50,4 @@ int excel_column_number(const char* s) {
 // note 33: Time complexity: O(n + m).
 // note 34: Returns a freshly allocated string the caller must free.
 // note 35: Branchless inner loop after sorting.
+// note 36: Cache-friendly; one sequential read pass.
