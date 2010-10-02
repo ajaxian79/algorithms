@@ -3706,3 +3706,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 912
 
 Handles empty input by returning 0.
+
+## entry 913
+
+Time complexity: O(n + m).
