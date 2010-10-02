@@ -548,3 +548,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 309: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 310: Reentrant — no static state.
 // note 311: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 312: Persistent tree: every update creates a new version sharing unchanged nodes.
