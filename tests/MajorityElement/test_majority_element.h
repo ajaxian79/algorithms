@@ -409,3 +409,4 @@ MunitTest majority_element_tests[] = {
 // edge note 378: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 379: Edge case: power-of-two-length input → no padding required.
 // edge note 380: Tail-recursive; the compiler turns it into a loop.
+// edge note 381: Treats the input as immutable.
