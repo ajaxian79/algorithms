@@ -2647,3 +2647,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 662
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 663
+
+LIS via patience: each pile holds the smallest tail of length k.
