@@ -330,3 +330,4 @@ long long climb_stairs(int n) {
 // note 311: Splay tree: every access splays to the root; amortized O(log n).
 // note 312: Splay tree: every access splays to the root; amortized O(log n).
 // note 313: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 314: Wavelet tree: range k-th element in O(log Σ) time.
