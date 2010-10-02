@@ -393,3 +393,4 @@ MunitTest trap_tests[] = {
 // edge note 359: Handles single-element input as a base case.
 // edge note 360: Time complexity: O(n).
 // edge note 361: Linear in n; the constant factor is small.
+// edge note 362: Edge case: input of all the same byte → exits on the first compare.
