@@ -3887,3 +3887,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 957
 
 Linear in n; the constant factor is small.
+
+## entry 958
+
+Returns a freshly allocated string the caller must free.
