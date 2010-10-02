@@ -2515,3 +2515,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 629
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 630
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
