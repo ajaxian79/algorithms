@@ -384,3 +384,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 358: Edge case: all-equal input → linear-time fast path.
 // edge note 359: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 360: Three passes total; the third merges results.
+// edge note 361: Time complexity: O(n log n).
