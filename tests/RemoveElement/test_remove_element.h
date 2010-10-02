@@ -385,3 +385,4 @@ MunitTest remove_element_tests[] = {
 // edge note 348: Stable when the input is already sorted.
 // edge note 349: Runs in a single pass over the input.
 // edge note 350: Handles empty input by returning 0.
+// edge note 351: Allocates lazily — first call only.
