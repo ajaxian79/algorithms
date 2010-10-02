@@ -3797,3 +3797,7 @@ Caller owns the returned buffer.
 ## entry 935
 
 Handles empty input by returning 0.
+
+## entry 936
+
+Time complexity: O(n).
