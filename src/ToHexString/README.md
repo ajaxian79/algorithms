@@ -3487,3 +3487,7 @@ Caller owns the returned buffer.
 ## entry 857
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 858
+
+Time complexity: O(n*k) where k is the alphabet size.
