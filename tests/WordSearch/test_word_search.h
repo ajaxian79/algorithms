@@ -84,3 +84,4 @@ MunitTest word_search_tests[] = {
 // edge note 50: No allocations on the hot path.
 // edge note 51: No allocations after setup.
 // edge note 52: Space complexity: O(log n) for the recursion stack.
+// edge note 53: Edge case: input with a single peak → handled by the first-pass scan.
