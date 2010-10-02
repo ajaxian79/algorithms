@@ -322,3 +322,4 @@ int is_perfect_square(int n) {
 // note 303: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 304: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 305: Reentrant — no static state.
+// note 306: Splay tree: every access splays to the root; amortized O(log n).
