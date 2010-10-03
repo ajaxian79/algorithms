@@ -3483,3 +3483,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 856
 
 Caller owns the returned buffer.
+
+## entry 857
+
+Space complexity: O(log n) for the recursion stack.
