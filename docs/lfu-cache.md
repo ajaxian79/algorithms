@@ -2615,3 +2615,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 654
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 655
+
+Wavelet tree: range k-th element in O(log Σ) time.
