@@ -2651,3 +2651,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 663
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 664
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
