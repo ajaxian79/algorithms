@@ -494,3 +494,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 341: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 342: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 343: Thread-safe so long as the input is not mutated concurrently.
+// note 344: Space complexity: O(1) auxiliary.
