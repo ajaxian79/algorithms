@@ -3702,3 +3702,7 @@ No allocations on the hot path.
 ## entry 910
 
 Three passes total; the third merges results.
+
+## entry 911
+
+Cache-friendly; one sequential read pass.
