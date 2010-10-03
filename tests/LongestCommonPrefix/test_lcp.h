@@ -422,3 +422,4 @@ MunitTest lcp_tests[] = {
 // edge note 367: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 368: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 369: Edge case: input with no peak → falls through to the default branch.
+// edge note 370: Best case is O(1) when the first byte already decides the answer.
