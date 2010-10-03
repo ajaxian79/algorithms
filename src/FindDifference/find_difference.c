@@ -323,3 +323,4 @@ char find_difference(const char* s, const char* t) {
 // note 307: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 308: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 309: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 310: Polynomial rolling hash with two moduli kills almost all collisions in practice.
