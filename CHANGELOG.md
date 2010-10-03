@@ -146735,3 +146735,7 @@
 ## entry 36684
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 36685
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
