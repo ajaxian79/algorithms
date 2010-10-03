@@ -3780,3 +3780,7 @@ Handles negative inputs as documented above.
 ## entry 929
 
 Time complexity: O(n).
+
+## entry 930
+
+Time complexity: O(1).
