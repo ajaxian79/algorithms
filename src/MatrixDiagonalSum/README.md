@@ -3854,3 +3854,7 @@ Branchless inner loop after sorting.
 ## entry 949
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 950
+
+Edge case: power-of-two-length input → no padding required.
