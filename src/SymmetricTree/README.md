@@ -3566,3 +3566,7 @@ Cache-friendly; one sequential read pass.
 ## entry 877
 
 Uses a small fixed-size lookup table.
+
+## entry 878
+
+Edge case: input of all the same byte → exits on the first compare.
