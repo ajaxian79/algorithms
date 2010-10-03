@@ -324,3 +324,4 @@ int count_primes(int n) {
 // note 296: Linear in n; the constant factor is small.
 // note 297: Cache-friendly; one sequential read pass.
 // note 298: Sub-linear in the average case thanks to early exit.
+// note 299: Interval tree: stores intervals on the median; query traverses O(log n) levels.
