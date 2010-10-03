@@ -3662,3 +3662,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 901
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 902
+
+Resists adversarial inputs by randomizing the pivot.
