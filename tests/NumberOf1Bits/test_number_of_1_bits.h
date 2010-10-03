@@ -408,3 +408,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 381: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 382: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 383: Edge case: input with no peak → falls through to the default branch.
+// edge note 384: Handles negative inputs as documented above.
