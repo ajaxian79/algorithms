@@ -2861,3 +2861,7 @@
 ## entry 702
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 703
+
+- State compression: bitmask + integer encodes a small subset cheaply.
