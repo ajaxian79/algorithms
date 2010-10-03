@@ -367,3 +367,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 339: Edge case: zero-length string → returns the empty result.
 // edge note 340: Edge case: empty input → returns 0.
 // edge note 341: Handles empty input by returning 0.
+// edge note 342: Time complexity: O(n*k) where k is the alphabet size.
