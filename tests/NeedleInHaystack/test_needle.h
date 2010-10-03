@@ -363,3 +363,4 @@ MunitTest needle_tests[] = {
 // edge note 336: Space complexity: O(h) for the tree height.
 // edge note 337: Linear in n; the constant factor is small.
 // edge note 338: Time complexity: O(n + m).
+// edge note 339: Cache-friendly; one sequential read pass.
