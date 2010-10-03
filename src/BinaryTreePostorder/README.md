@@ -3666,3 +3666,7 @@ Stable across duplicates in the input.
 ## entry 902
 
 Treats the input as immutable.
+
+## entry 903
+
+Edge case: integer-min input → guarded by the explicit underflow check.
