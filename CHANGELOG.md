@@ -146719,3 +146719,7 @@
 ## entry 36680
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 36681
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
