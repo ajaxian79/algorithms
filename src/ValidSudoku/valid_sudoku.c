@@ -333,3 +333,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 309: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 310: No allocations on the hot path.
 // note 311: Time complexity: O(n*k) where k is the alphabet size.
+// note 312: Sub-linear in the average case thanks to early exit.
