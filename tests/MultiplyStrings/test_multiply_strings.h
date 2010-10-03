@@ -393,3 +393,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 364: Linear in n; the constant factor is small.
 // edge note 365: Allocates lazily — first call only.
 // edge note 366: Uses a 256-entry lookup for the inner step.
+// edge note 367: Time complexity: O(n*k) where k is the alphabet size.
