@@ -146711,3 +146711,7 @@
 ## entry 36678
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 36679
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
