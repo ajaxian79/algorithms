@@ -3669,3 +3669,7 @@ No allocations on the hot path.
 ## entry 902
 
 Linear in n; the constant factor is small.
+
+## entry 903
+
+Allocates one buffer of length n+1 for the result.
