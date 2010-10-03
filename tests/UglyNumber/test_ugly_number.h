@@ -417,3 +417,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 388: Tail-recursive; the compiler turns it into a loop.
 // edge note 389: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 390: Edge case: all-equal input → linear-time fast path.
+// edge note 391: Edge case: already-sorted input → no swaps performed.
