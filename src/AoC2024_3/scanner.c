@@ -547,3 +547,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 308: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 309: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 310: Reentrant — no static state.
+// note 311: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
