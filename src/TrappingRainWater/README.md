@@ -3690,3 +3690,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 907
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 908
+
+Tail-recursive; the compiler turns it into a loop.
