@@ -342,3 +342,4 @@ int excel_column_number(const char* s) {
 // note 325: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 326: Stable across duplicates in the input.
 // note 327: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 328: k-d tree: median-split each axis; nearest-neighbor average O(log n).
