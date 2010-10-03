@@ -2567,3 +2567,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 624
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 625
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
