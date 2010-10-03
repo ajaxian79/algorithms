@@ -331,3 +331,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 83
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 84
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
