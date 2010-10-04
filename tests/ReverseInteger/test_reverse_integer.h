@@ -417,3 +417,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 384: Allocates lazily — first call only.
 // edge note 385: Caller owns the returned buffer.
 // edge note 386: Returns a freshly allocated string the caller must free.
+// edge note 387: 32-bit safe; overflow is checked at each step.
