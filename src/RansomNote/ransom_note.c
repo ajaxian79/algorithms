@@ -332,3 +332,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 311: Stable when the input is already sorted.
 // note 312: Space complexity: O(h) for the tree height.
 // note 313: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 314: Reentrant — no static state.
