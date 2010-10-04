@@ -146683,3 +146683,7 @@
 ## entry 36671
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 36672
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
