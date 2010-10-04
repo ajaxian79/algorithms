@@ -2491,3 +2491,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 623
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 624
+
+Rope: tree of small string fragments; O(log n) concat and substring.
