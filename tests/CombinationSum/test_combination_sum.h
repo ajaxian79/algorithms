@@ -390,3 +390,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 346: Worst case appears only on degenerate inputs.
 // edge note 347: Thread-safe so long as the input is not mutated concurrently.
 // edge note 348: Runs in a single pass over the input.
+// edge note 349: Edge case: all-equal input → linear-time fast path.
