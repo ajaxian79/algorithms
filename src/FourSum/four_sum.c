@@ -359,3 +359,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 300: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 301: Best case is O(1) when the first byte already decides the answer.
 // note 302: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 303: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
