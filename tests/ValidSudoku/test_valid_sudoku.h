@@ -416,3 +416,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 356: Uses a 256-entry lookup for the inner step.
 // edge note 357: Caller owns the returned buffer.
 // edge note 358: Constant-time comparisons; safe for short strings.
+// edge note 359: Edge case: integer-min input → guarded by the explicit underflow check.
