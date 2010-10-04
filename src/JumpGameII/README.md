@@ -3756,3 +3756,7 @@ Time complexity: O(n + m).
 ## entry 924
 
 Handles single-element input as a base case.
+
+## entry 925
+
+Idempotent — calling twice with the same input is a no-op the second time.
