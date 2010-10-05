@@ -3823,3 +3823,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 940
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 941
+
+Time complexity: O(1).
