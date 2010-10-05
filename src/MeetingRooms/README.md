@@ -3658,3 +3658,7 @@ Treats the input as immutable.
 ## entry 900
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 901
+
+Edge case: input with a single peak → handled by the first-pass scan.
