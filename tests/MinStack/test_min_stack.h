@@ -70,3 +70,4 @@ MunitTest min_stack_tests[] = {
 // edge note 33: 32-bit safe; overflow is checked at each step.
 // edge note 34: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 35: Branchless inner loop after sorting.
+// edge note 36: Branchless inner loop after sorting.
