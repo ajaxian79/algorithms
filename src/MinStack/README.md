@@ -3550,3 +3550,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 873
 
 Handles negative inputs as documented above.
+
+## entry 874
+
+Returns a freshly allocated string the caller must free.
