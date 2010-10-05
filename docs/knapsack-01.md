@@ -2617,3 +2617,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 637
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 638
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
