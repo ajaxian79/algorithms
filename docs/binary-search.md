@@ -2745,3 +2745,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 670
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 671
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
