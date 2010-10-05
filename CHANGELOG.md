@@ -146671,3 +146671,7 @@
 ## entry 36668
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 36669
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
