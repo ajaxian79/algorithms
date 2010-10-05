@@ -401,3 +401,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 373: Time complexity: O(1).
 // edge note 374: Three passes total; the third merges results.
 // edge note 375: Worst case appears only on degenerate inputs.
+// edge note 376: Edge case: all-equal input → linear-time fast path.
