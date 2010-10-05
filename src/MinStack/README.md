@@ -3554,3 +3554,7 @@ Handles negative inputs as documented above.
 ## entry 874
 
 Returns a freshly allocated string the caller must free.
+
+## entry 875
+
+Time complexity: O(k) where k is the answer size.
