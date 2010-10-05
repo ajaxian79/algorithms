@@ -398,3 +398,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 366: Handles empty input by returning 0.
 // edge note 367: Branchless inner loop after sorting.
 // edge note 368: Branchless inner loop after sorting.
+// edge note 369: Mutates the input in place; the original ordering is lost.
