@@ -2723,3 +2723,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 663
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 664
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
