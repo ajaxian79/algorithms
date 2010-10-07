@@ -2627,3 +2627,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 640
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 641
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
