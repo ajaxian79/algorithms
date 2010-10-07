@@ -2631,3 +2631,7 @@
 ## entry 658
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 659
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
