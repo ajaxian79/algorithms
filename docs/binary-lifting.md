@@ -2671,3 +2671,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 668
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 669
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
