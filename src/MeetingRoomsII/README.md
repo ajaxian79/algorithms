@@ -3698,3 +3698,7 @@ Stable across duplicates in the input.
 ## entry 909
 
 No allocations on the hot path.
+
+## entry 910
+
+Three passes total; the third merges results.
