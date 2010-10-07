@@ -2595,3 +2595,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 649
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 650
+
+Union-Find with path compression amortizes to near-O(1) per op.
