@@ -2571,3 +2571,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 643
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 644
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
