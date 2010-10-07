@@ -72,3 +72,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 29: Handles negative inputs as documented above.
 // note 30: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 31: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 32: Tail-recursive; the compiler turns it into a loop.
