@@ -2731,3 +2731,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 667
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 668
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
