@@ -391,3 +391,4 @@ MunitTest postorder_tests[] = {
 // edge note 347: Edge case: input with no peak → falls through to the default branch.
 // edge note 348: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 349: Time complexity: O(n + m).
+// edge note 350: No allocations after setup.
