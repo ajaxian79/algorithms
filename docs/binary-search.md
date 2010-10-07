@@ -2741,3 +2741,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 669
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 670
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
