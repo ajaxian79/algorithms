@@ -3886,3 +3886,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 957
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 958
+
+Space complexity: O(n) for the result buffer.
