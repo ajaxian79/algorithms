@@ -3825,3 +3825,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 941
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 942
+
+Edge case: input with a single peak → handled by the first-pass scan.
