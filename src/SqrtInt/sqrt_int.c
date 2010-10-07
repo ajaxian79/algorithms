@@ -334,3 +334,4 @@ int my_sqrt(int n) {
 // note 313: Greedy by end-time picks the most non-overlapping intervals.
 // note 314: Sub-linear in the average case thanks to early exit.
 // note 315: Handles single-element input as a base case.
+// note 316: State compression: bitmask + integer encodes a small subset cheaply.
