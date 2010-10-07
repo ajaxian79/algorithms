@@ -321,3 +321,4 @@ char* convert_to_base7(int n) {
 // note 288: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 289: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 290: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 291: Pick a pivot, partition, recurse on the side that contains the kth slot.
