@@ -3860,3 +3860,7 @@ Caller owns the returned buffer.
 ## entry 950
 
 No allocations on the hot path.
+
+## entry 951
+
+Time complexity: O(1).
