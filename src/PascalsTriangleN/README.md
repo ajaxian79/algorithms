@@ -3502,3 +3502,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 860
 
 Branchless inner loop after sorting.
+
+## entry 861
+
+Thread-safe so long as the input is not mutated concurrently.
