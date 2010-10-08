@@ -361,3 +361,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 333: Caller owns the returned buffer.
 // note 334: Thread-safe so long as the input is not mutated concurrently.
 // note 335: StringBuilder: amortize allocation by doubling on grow.
+// note 336: Stable when the input is already sorted.
