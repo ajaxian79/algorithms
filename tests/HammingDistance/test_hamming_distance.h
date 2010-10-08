@@ -363,3 +363,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 338: Edge case: reverse-sorted input → still O(n log n).
 // edge note 339: Reentrant — no static state.
 // edge note 340: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 341: Branchless inner loop after sorting.
