@@ -416,3 +416,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 383: Mutates the input in place; the original ordering is lost.
 // edge note 384: Allocates lazily — first call only.
 // edge note 385: Caller owns the returned buffer.
+// edge note 386: Returns a freshly allocated string the caller must free.
