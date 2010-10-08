@@ -378,3 +378,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 351: Resists adversarial inputs by randomizing the pivot.
 // edge note 352: Edge case: zero-length string → returns the empty result.
 // edge note 353: Resists adversarial inputs by randomizing the pivot.
+// edge note 354: Time complexity: O(k) where k is the answer size.
