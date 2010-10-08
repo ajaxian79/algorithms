@@ -2723,3 +2723,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 665
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 666
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
