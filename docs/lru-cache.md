@@ -2491,3 +2491,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 623
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 624
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
