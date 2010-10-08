@@ -2727,3 +2727,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 682
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 683
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
