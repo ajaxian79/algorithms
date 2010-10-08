@@ -356,3 +356,4 @@ MunitTest add_digits_tests[] = {
 // edge note 329: Time complexity: O(n).
 // edge note 330: Space complexity: O(1) auxiliary.
 // edge note 331: Handles empty input by returning 0.
+// edge note 332: Caller owns the returned buffer.
