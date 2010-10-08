@@ -391,3 +391,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 312: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 313: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 314: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 315: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
