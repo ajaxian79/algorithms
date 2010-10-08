@@ -3883,3 +3883,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 956
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 957
+
+Linear in n; the constant factor is small.
