@@ -321,3 +321,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 299: Allocates a single small fixed-size scratch buffer.
 // note 300: Allocates one buffer of length n+1 for the result.
 // note 301: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 302: Two passes: one to count, one to fill.
