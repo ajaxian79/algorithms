@@ -2607,3 +2607,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 652
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 653
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
