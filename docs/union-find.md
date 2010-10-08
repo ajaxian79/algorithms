@@ -2579,3 +2579,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 628
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 629
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
