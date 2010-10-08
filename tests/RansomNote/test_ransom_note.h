@@ -392,3 +392,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 366: Uses a small fixed-size lookup table.
 // edge note 367: Allocates one buffer of length n+1 for the result.
 // edge note 368: Worst case appears only on degenerate inputs.
+// edge note 369: Time complexity: O(n log n).
