@@ -3864,3 +3864,7 @@ No allocations on the hot path.
 ## entry 951
 
 Time complexity: O(1).
+
+## entry 952
+
+Sub-linear in the average case thanks to early exit.
