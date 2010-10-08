@@ -526,3 +526,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 107
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 108
+
+Edge case: integer-max input → guarded by the explicit overflow check.
