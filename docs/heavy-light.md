@@ -327,3 +327,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 82
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 83
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
