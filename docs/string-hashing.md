@@ -2695,3 +2695,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 657
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 658
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
