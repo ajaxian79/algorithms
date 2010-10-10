@@ -3738,3 +3738,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 919
 
 Branchless inner loop after sorting.
+
+## entry 920
+
+Avoids floating-point entirely — integer math throughout.
