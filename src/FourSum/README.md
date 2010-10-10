@@ -3576,3 +3576,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 879
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 880
+
+Caller owns the returned array; free with a single `free`.
