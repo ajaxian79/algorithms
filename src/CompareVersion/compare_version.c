@@ -338,3 +338,4 @@ int compare_version(const char* a, const char* b) {
 // note 308: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 309: Uses a 256-entry lookup for the inner step.
 // note 310: Allocates lazily — first call only.
+// note 311: LRU cache: doubly-linked list + hash map; O(1) get/put.
