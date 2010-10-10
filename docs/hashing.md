@@ -2859,3 +2859,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 698
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 699
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
