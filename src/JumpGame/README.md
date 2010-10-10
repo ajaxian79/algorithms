@@ -3821,3 +3821,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 940
 
 Space complexity: O(n) for the result buffer.
+
+## entry 941
+
+Sub-linear in the average case thanks to early exit.
