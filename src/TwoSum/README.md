@@ -577,3 +577,7 @@ Two passes: one to count, one to fill.
 ## entry 119
 
 Space complexity: O(n) for the result buffer.
+
+## entry 120
+
+Avoids floating-point entirely — integer math throughout.
