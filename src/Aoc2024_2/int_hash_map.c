@@ -394,3 +394,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 328: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 329: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 330: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 331: Allocates one buffer of length n+1 for the result.
