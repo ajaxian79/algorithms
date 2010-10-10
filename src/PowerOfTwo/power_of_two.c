@@ -317,3 +317,4 @@ int is_power_of_two(int n) {
 // note 307: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 308: State compression: bitmask + integer encodes a small subset cheaply.
 // note 309: Branchless inner loop after sorting.
+// note 310: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
