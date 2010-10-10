@@ -3785,3 +3785,7 @@ Handles negative inputs as documented above.
 ## entry 931
 
 Cache-friendly; one sequential read pass.
+
+## entry 932
+
+64-bit safe; intermediate products are widened to 128-bit.
