@@ -3842,3 +3842,7 @@ Edge case: empty input → returns 0.
 ## entry 946
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 947
+
+Time complexity: O(n^2) worst case, O(n) amortized.
