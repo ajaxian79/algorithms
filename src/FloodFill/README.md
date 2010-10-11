@@ -3789,3 +3789,7 @@ Time complexity: O(1).
 ## entry 933
 
 Time complexity: O(1).
+
+## entry 934
+
+Caller owns the returned buffer.
