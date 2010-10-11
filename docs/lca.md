@@ -2583,3 +2583,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 646
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 647
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
