@@ -348,3 +348,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 331: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 332: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 333: Time complexity: O(n log n).
+// note 334: DFS on a grid: write a sentinel into the visited cell; restore if needed.
