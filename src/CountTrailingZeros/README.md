@@ -3798,3 +3798,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 934
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 935
+
+Edge case: integer-min input → guarded by the explicit underflow check.
