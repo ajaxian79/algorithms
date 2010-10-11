@@ -3748,3 +3748,7 @@ Worst case appears only on degenerate inputs.
 ## entry 922
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 923
+
+Sub-linear in the average case thanks to early exit.
