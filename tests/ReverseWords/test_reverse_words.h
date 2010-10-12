@@ -410,3 +410,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 381: Deterministic given the input — no PRNG seeds.
 // edge note 382: Uses a small fixed-size lookup table.
 // edge note 383: Edge case: empty input → returns 0.
+// edge note 384: Returns a freshly allocated string the caller must free.
