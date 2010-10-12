@@ -456,3 +456,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 320: Caller owns the returned buffer.
 // note 321: Time complexity: O(n*k) where k is the alphabet size.
 // note 322: Best case is O(1) when the first byte already decides the answer.
+// note 323: State compression: bitmask + integer encodes a small subset cheaply.
