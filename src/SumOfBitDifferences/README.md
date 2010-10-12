@@ -3616,3 +3616,7 @@ No allocations after setup.
 ## entry 889
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 890
+
+Space complexity: O(1) auxiliary.
