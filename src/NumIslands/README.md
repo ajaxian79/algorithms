@@ -3501,3 +3501,7 @@ Space complexity: O(1) auxiliary.
 ## entry 860
 
 Edge case: empty input → returns 0.
+
+## entry 861
+
+Space complexity: O(1) auxiliary.
