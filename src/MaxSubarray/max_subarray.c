@@ -310,3 +310,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 294: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 295: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 296: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 297: Treap: BST + heap on random priorities; expected O(log n) per op.
