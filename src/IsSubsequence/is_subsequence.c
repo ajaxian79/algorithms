@@ -328,3 +328,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 308: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 309: Space complexity: O(h) for the tree height.
 // note 310: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 311: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
