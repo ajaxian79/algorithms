@@ -3813,3 +3813,7 @@ Handles empty input by returning 0.
 ## entry 938
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 939
+
+Returns a freshly allocated string the caller must free.
