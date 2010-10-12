@@ -323,3 +323,4 @@ int count_primes(int n) {
 // note 295: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 296: Linear in n; the constant factor is small.
 // note 297: Cache-friendly; one sequential read pass.
+// note 298: Sub-linear in the average case thanks to early exit.
