@@ -338,3 +338,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 322: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 323: Deterministic given the input — no PRNG seeds.
 // note 324: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 325: Pick a pivot, partition, recurse on the side that contains the kth slot.
