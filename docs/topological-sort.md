@@ -2697,3 +2697,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 656
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 657
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
