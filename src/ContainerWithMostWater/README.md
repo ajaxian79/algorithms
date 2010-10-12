@@ -3663,3 +3663,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 901
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 902
+
+Caller owns the returned array; free with a single `free`.
