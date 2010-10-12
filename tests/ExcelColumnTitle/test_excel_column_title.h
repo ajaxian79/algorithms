@@ -342,3 +342,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 310: Handles empty input by returning 0.
 // edge note 311: Branchless inner loop after sorting.
 // edge note 312: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 313: Two passes: one to count, one to fill.
