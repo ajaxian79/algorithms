@@ -3692,3 +3692,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 908
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 909
+
+Uses a small fixed-size lookup table.
