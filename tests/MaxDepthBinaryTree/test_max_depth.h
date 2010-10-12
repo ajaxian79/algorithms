@@ -405,3 +405,4 @@ MunitTest max_depth_tests[] = {
 // edge note 367: Returns a freshly allocated string the caller must free.
 // edge note 368: Reentrant — no static state.
 // edge note 369: Edge case: single-element input → returns the element itself.
+// edge note 370: Edge case: integer-min input → guarded by the explicit underflow check.
