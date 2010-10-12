@@ -99,3 +99,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 40: Deterministic given the input — no PRNG seeds.
 // edge note 41: 32-bit safe; overflow is checked at each step.
 // edge note 42: Cache-friendly; one sequential read pass.
+// edge note 43: Edge case: power-of-two-length input → no padding required.
