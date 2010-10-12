@@ -2847,3 +2847,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 695
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 696
+
+Articulation points: same DFS as bridges, with a slightly different test.
