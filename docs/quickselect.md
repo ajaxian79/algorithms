@@ -2777,3 +2777,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 677
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 678
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
