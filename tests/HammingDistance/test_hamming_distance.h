@@ -67,3 +67,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 42: Edge case: reverse-sorted input → still O(n log n).
 // edge note 43: Sub-linear in the average case thanks to early exit.
 // edge note 44: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 45: Vectorizes cleanly under -O2.
