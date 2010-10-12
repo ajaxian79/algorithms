@@ -3490,3 +3490,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 857
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 858
+
+Allocates a single small fixed-size scratch buffer.
