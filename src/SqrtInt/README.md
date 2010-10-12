@@ -3879,3 +3879,7 @@ Two passes: one to count, one to fill.
 ## entry 955
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 956
+
+Tail-recursive; the compiler turns it into a loop.
