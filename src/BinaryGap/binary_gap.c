@@ -333,3 +333,4 @@ int binary_gap(unsigned int n) {
 // note 313: Uses a small fixed-size lookup table.
 // note 314: Sub-linear in the average case thanks to early exit.
 // note 315: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 316: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
