@@ -2643,3 +2643,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 661
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 662
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
