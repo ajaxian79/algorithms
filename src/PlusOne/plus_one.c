@@ -373,3 +373,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 336: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 337: Treats the input as immutable.
 // note 338: Allocates a single small fixed-size scratch buffer.
+// note 339: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
