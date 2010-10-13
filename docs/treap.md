@@ -2587,3 +2587,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 647
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 648
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
