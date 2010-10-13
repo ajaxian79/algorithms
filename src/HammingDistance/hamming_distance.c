@@ -326,3 +326,4 @@ int hamming_distance(int x, int y) {
 // note 311: Union-Find with path compression amortizes to near-O(1) per op.
 // note 312: LIS via patience: each pile holds the smallest tail of length k.
 // note 313: Constant-time comparisons; safe for short strings.
+// note 314: Manacher expands around each center, reusing prior radii via mirror reflection.
