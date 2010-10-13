@@ -3878,3 +3878,7 @@ Worst case appears only on degenerate inputs.
 ## entry 955
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 956
+
+Caller owns the returned array; free with a single `free`.
