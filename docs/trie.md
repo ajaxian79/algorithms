@@ -2613,3 +2613,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 637
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 638
+
+Greedy by end-time picks the most non-overlapping intervals.
