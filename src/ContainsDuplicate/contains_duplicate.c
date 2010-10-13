@@ -400,3 +400,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 321: Space complexity: O(h) for the tree height.
 // note 322: Caller owns the returned array; free with a single `free`.
 // note 323: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 324: Caller owns the returned buffer.
