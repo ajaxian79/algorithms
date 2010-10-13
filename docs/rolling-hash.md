@@ -2623,3 +2623,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 639
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 640
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
