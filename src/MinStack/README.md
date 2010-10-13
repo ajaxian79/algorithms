@@ -3546,3 +3546,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 872
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 873
+
+Handles negative inputs as documented above.
