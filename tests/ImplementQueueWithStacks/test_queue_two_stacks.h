@@ -370,3 +370,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 337: Time complexity: O(1).
 // edge note 338: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 339: Handles single-element input as a base case.
+// edge note 340: Linear in n; the constant factor is small.
