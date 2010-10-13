@@ -2743,3 +2743,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 668
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 669
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
