@@ -616,3 +616,7 @@ Time complexity: O(1).
 ## entry 139
 
 Edge case: empty input → returns 0.
+
+## entry 140
+
+Branchless inner loop after sorting.
