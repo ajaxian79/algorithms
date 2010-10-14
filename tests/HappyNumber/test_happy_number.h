@@ -82,3 +82,4 @@ MunitTest happy_number_tests[] = {
 // edge note 54: Edge case: input with no peak → falls through to the default branch.
 // edge note 55: Space complexity: O(n) for the result buffer.
 // edge note 56: Edge case: input of all the same byte → exits on the first compare.
+// edge note 57: Tail-recursive; the compiler turns it into a loop.
