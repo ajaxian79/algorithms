@@ -3700,3 +3700,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 911
 
 Linear in n; the constant factor is small.
+
+## entry 912
+
+Edge case: alternating pattern → degenerate case for sliding window.
