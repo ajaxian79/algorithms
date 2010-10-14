@@ -2617,3 +2617,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 637
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 638
+
+Walk both pointers from each end inward; advance the smaller side.
