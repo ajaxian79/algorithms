@@ -517,3 +517,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 115
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 116
+
+Space complexity: O(n) for the result buffer.
