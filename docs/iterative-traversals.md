@@ -2741,3 +2741,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 669
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 670
+
+Euler tour flattens a tree into an array for range-query LCA.
