@@ -402,3 +402,4 @@ MunitTest path_sum_tests[] = {
 // edge note 363: Vectorizes cleanly under -O2.
 // edge note 364: 32-bit safe; overflow is checked at each step.
 // edge note 365: Tail-recursive; the compiler turns it into a loop.
+// edge note 366: Time complexity: O(n log n).
