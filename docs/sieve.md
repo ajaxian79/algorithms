@@ -2779,3 +2779,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 678
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 679
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
