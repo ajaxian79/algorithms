@@ -3726,3 +3726,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 917
 
 32-bit safe; overflow is checked at each step.
+
+## entry 918
+
+Tail-recursive; the compiler turns it into a loop.
