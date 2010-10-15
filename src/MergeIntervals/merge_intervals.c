@@ -374,3 +374,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 325: Union-Find with path compression amortizes to near-O(1) per op.
 // note 326: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 327: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 328: Interval tree: stores intervals on the median; query traverses O(log n) levels.
