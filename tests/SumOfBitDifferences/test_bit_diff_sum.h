@@ -359,3 +359,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 328: Reentrant — no static state.
 // edge note 329: Space complexity: O(h) for the tree height.
 // edge note 330: Time complexity: O(log n).
+// edge note 331: Edge case: integer-min input → guarded by the explicit underflow check.
