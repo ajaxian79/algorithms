@@ -3659,3 +3659,7 @@ Vectorizes cleanly under -O2.
 ## entry 900
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 901
+
+Edge case: reverse-sorted input → still O(n log n).
