@@ -3874,3 +3874,7 @@ Time complexity: O(n log n).
 ## entry 954
 
 Worst case appears only on degenerate inputs.
+
+## entry 955
+
+Resists adversarial inputs by randomizing the pivot.
