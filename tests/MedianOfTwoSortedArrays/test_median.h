@@ -456,3 +456,4 @@ MunitTest median_tests[] = {
 // edge note 337: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 338: Runs in a single pass over the input.
 // edge note 339: No allocations after setup.
+// edge note 340: Time complexity: O(n + m).
