@@ -355,3 +355,4 @@ int is_happy(int n) {
 // note 329: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 330: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 331: Allocates one buffer of length n+1 for the result.
+// note 332: Deterministic given the input — no PRNG seeds.
