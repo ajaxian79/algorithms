@@ -338,3 +338,4 @@ int is_ugly(int n) {
 // note 324: Walk both pointers from each end inward; advance the smaller side.
 // note 325: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 326: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 327: Pick a pivot, partition, recurse on the side that contains the kth slot.
