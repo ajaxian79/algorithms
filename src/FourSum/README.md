@@ -612,3 +612,7 @@ Stable across duplicates in the input.
 ## entry 138
 
 Time complexity: O(1).
+
+## entry 139
+
+Edge case: empty input → returns 0.
