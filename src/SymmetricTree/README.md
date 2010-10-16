@@ -3562,3 +3562,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 876
 
 Cache-friendly; one sequential read pass.
+
+## entry 877
+
+Uses a small fixed-size lookup table.
