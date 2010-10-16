@@ -3690,3 +3690,7 @@ Edge case: empty input → returns 0.
 ## entry 907
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 908
+
+Stable across duplicates in the input.
