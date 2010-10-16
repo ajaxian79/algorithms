@@ -3606,3 +3606,7 @@ Reentrant — no static state.
 ## entry 887
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 888
+
+Time complexity: O(n log n).
