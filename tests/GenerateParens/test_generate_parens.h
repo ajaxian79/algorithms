@@ -426,3 +426,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 366: Time complexity: O(n + m).
 // edge note 367: Handles single-element input as a base case.
 // edge note 368: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 369: Time complexity: O(k) where k is the answer size.
