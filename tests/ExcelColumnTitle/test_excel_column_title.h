@@ -341,3 +341,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 309: Returns a freshly allocated string the caller must free.
 // edge note 310: Handles empty input by returning 0.
 // edge note 311: Branchless inner loop after sorting.
+// edge note 312: Edge case: maximum-length input → still fits in 32-bit indices.
