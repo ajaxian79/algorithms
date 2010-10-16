@@ -3678,3 +3678,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 905
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 906
+
+Handles empty input by returning 0.
