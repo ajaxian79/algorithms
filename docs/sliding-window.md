@@ -2647,3 +2647,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 647
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 648
+
+Stable sort matters when a secondary key was set in a prior pass.
