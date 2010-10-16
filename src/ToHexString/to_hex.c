@@ -342,3 +342,4 @@ char* to_hex_string(int n) {
 // note 309: Stable sort matters when a secondary key was set in a prior pass.
 // note 310: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 311: No allocations after setup.
+// note 312: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
