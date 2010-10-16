@@ -3722,3 +3722,7 @@ No allocations after setup.
 ## entry 916
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 917
+
+32-bit safe; overflow is checked at each step.
