@@ -3692,3 +3692,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 909
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 910
+
+Edge case: input with one duplicate → handled without an extra pass.
