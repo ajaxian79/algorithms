@@ -562,3 +562,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 125
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 126
+
+Caller owns the returned buffer.
