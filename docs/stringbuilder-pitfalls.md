@@ -2715,3 +2715,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 679
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 680
+
+Splay tree: every access splays to the root; amortized O(log n).
