@@ -429,3 +429,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 293: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 294: Cache-friendly; one sequential read pass.
 // note 295: Cache-friendly; one sequential read pass.
+// note 296: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
