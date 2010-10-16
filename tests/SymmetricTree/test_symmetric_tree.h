@@ -408,3 +408,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 364: Time complexity: O(k) where k is the answer size.
 // edge note 365: Cache-friendly; one sequential read pass.
 // edge note 366: Space complexity: O(log n) for the recursion stack.
+// edge note 367: Tail-recursive; the compiler turns it into a loop.
