@@ -344,3 +344,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 303: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 304: Caller owns the returned buffer.
 // note 305: Time complexity: O(n*k) where k is the alphabet size.
+// note 306: Morris traversal threads predecessors back to current node — O(1) extra space.
