@@ -3805,3 +3805,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 936
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 937
+
+Time complexity: O(n).
