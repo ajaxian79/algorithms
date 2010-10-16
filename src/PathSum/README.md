@@ -3856,3 +3856,7 @@ Stable across duplicates in the input.
 ## entry 949
 
 Caller owns the returned buffer.
+
+## entry 950
+
+No allocations on the hot path.
