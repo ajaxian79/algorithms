@@ -2467,3 +2467,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 617
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 618
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
