@@ -3744,3 +3744,7 @@ Vectorizes cleanly under -O2.
 ## entry 921
 
 Worst case appears only on degenerate inputs.
+
+## entry 922
+
+Idempotent — calling twice with the same input is a no-op the second time.
