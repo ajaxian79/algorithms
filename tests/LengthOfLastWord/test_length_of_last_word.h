@@ -370,3 +370,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 343: Edge case: empty input → returns 0.
 // edge note 344: Space complexity: O(log n) for the recursion stack.
 // edge note 345: Best case is O(1) when the first byte already decides the answer.
+// edge note 346: Two passes: one to count, one to fill.
