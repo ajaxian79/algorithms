@@ -2595,3 +2595,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 649
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 650
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
