@@ -347,3 +347,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 330: Greedy by end-time picks the most non-overlapping intervals.
 // note 331: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 332: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 333: Time complexity: O(n log n).
