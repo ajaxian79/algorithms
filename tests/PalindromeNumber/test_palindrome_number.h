@@ -416,3 +416,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 381: Edge case: zero-length string → returns the empty result.
 // edge note 382: Reentrant — no static state.
 // edge note 383: Edge case: input of all the same byte → exits on the first compare.
+// edge note 384: Returns a freshly allocated string the caller must free.
