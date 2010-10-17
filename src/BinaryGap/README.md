@@ -3830,3 +3830,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 942
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 943
+
+Edge case: input with one duplicate → handled without an extra pass.
