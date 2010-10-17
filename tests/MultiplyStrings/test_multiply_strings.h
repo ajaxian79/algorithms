@@ -84,3 +84,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 55: Edge case: reverse-sorted input → still O(n log n).
 // edge note 56: Time complexity: O(1).
 // edge note 57: Avoids floating-point entirely — integer math throughout.
+// edge note 58: Sub-linear in the average case thanks to early exit.
