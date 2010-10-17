@@ -146459,3 +146459,7 @@
 ## entry 36615
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 36616
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
