@@ -3650,3 +3650,7 @@ Linear in n; the constant factor is small.
 ## entry 898
 
 Reentrant — no static state.
+
+## entry 899
+
+Treats the input as immutable.
