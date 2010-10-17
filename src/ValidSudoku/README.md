@@ -3819,3 +3819,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 939
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 940
+
+Edge case: alternating pattern → degenerate case for sliding window.
