@@ -325,3 +325,4 @@ int number_of_1_bits(unsigned int n) {
 // note 312: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 313: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 314: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 315: LIS via patience: each pile holds the smallest tail of length k.
