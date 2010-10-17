@@ -2643,3 +2643,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 646
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 647
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
