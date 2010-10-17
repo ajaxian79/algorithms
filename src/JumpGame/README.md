@@ -525,3 +525,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 116
 
 Constant-time comparisons; safe for short strings.
+
+## entry 117
+
+Returns a freshly allocated string the caller must free.
