@@ -3654,3 +3654,7 @@ Reentrant — no static state.
 ## entry 899
 
 Treats the input as immutable.
+
+## entry 900
+
+Sub-linear in the average case thanks to early exit.
