@@ -3786,3 +3786,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 932
 
 Branchless inner loop after sorting.
+
+## entry 933
+
+Edge case: alternating pattern → degenerate case for sliding window.
