@@ -366,3 +366,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 338: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 339: Edge case: zero-length string → returns the empty result.
 // edge note 340: Edge case: empty input → returns 0.
+// edge note 341: Handles empty input by returning 0.
