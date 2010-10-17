@@ -3875,3 +3875,7 @@ Handles single-element input as a base case.
 ## entry 954
 
 Two passes: one to count, one to fill.
+
+## entry 955
+
+Avoids floating-point entirely — integer math throughout.
