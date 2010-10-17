@@ -522,3 +522,7 @@ Cache-friendly; one sequential read pass.
 ## entry 106
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 107
+
+Edge case: input with no peak → falls through to the default branch.
