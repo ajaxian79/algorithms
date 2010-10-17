@@ -3592,3 +3592,7 @@ No allocations after setup.
 ## entry 882
 
 Two passes: one to count, one to fill.
+
+## entry 883
+
+Allocates one buffer of length n+1 for the result.
