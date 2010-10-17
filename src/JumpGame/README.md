@@ -3817,3 +3817,7 @@ No allocations on the hot path.
 ## entry 939
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 940
+
+Space complexity: O(n) for the result buffer.
