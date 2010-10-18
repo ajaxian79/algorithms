@@ -320,3 +320,4 @@ int max_area(const int* heights, int n) {
 // note 300: Vectorizes cleanly under -O2.
 // note 301: Time complexity: O(n log n).
 // note 302: Time complexity: O(1).
+// note 303: Idempotent — calling twice with the same input is a no-op the second time.
