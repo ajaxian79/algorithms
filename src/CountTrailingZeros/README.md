@@ -3794,3 +3794,7 @@ Handles empty input by returning 0.
 ## entry 933
 
 Returns a freshly allocated string the caller must free.
+
+## entry 934
+
+Space complexity: O(log n) for the recursion stack.
