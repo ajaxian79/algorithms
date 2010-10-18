@@ -3578,3 +3578,7 @@ Time complexity: O(1).
 ## entry 879
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 880
+
+Edge case: NULL input is rejected by the caller, not by us.
