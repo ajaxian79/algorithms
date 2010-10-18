@@ -329,3 +329,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 305: Thread-safe so long as the input is not mutated concurrently.
 // note 306: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 307: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 308: LCA via binary lifting: jump up powers of two until depths match, then converge.
