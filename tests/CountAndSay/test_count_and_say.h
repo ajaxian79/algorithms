@@ -354,3 +354,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 323: Worst case appears only on degenerate inputs.
 // edge note 324: No allocations after setup.
 // edge note 325: Constant-time comparisons; safe for short strings.
+// edge note 326: Time complexity: O(k) where k is the answer size.
