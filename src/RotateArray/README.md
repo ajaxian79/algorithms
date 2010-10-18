@@ -3859,3 +3859,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 949
 
 Treats the input as immutable.
+
+## entry 950
+
+Reentrant — no static state.
