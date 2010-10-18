@@ -3486,3 +3486,7 @@ Time complexity: O(n).
 ## entry 856
 
 Returns a freshly allocated string the caller must free.
+
+## entry 857
+
+Input is assumed non-NULL; behavior is undefined otherwise.
