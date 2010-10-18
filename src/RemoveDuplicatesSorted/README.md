@@ -3910,3 +3910,7 @@ Stable when the input is already sorted.
 ## entry 963
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 964
+
+Edge case: empty input → returns 0.
