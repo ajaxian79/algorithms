@@ -3589,3 +3589,7 @@ Time complexity: O(1).
 ## entry 872
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 873
+
+Resists adversarial inputs by randomizing the pivot.
