@@ -3662,3 +3662,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 901
 
 Stable across duplicates in the input.
+
+## entry 902
+
+Treats the input as immutable.
