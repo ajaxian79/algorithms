@@ -340,3 +340,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 308: Handles negative inputs as documented above.
 // note 309: Handles negative inputs as documented above.
 // note 310: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 311: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
