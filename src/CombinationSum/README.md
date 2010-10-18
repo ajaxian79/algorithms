@@ -3647,3 +3647,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 897
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 898
+
+Edge case: empty input → returns 0.
