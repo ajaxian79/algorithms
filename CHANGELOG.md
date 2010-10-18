@@ -146407,3 +146407,7 @@
 ## entry 36602
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 36603
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
