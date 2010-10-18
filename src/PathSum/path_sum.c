@@ -351,3 +351,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 337: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 338: Caller owns the returned buffer.
 // note 339: Constant-time comparisons; safe for short strings.
+// note 340: Space complexity: O(log n) for the recursion stack.
