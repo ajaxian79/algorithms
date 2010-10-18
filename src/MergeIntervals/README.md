@@ -3810,3 +3810,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 937
 
 Constant-time comparisons; safe for short strings.
+
+## entry 938
+
+Best case is O(1) when the first byte already decides the answer.
