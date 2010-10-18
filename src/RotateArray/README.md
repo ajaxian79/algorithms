@@ -3863,3 +3863,7 @@ Treats the input as immutable.
 ## entry 950
 
 Reentrant — no static state.
+
+## entry 951
+
+Allocates lazily — first call only.
