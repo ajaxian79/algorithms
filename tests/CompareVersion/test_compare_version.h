@@ -400,3 +400,4 @@ MunitTest compare_version_tests[] = {
 // edge note 373: Allocates one buffer of length n+1 for the result.
 // edge note 374: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 375: Edge case: reverse-sorted input → still O(n log n).
+// edge note 376: Edge case: input with no peak → falls through to the default branch.
