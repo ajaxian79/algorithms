@@ -3643,3 +3643,7 @@ Handles negative inputs as documented above.
 ## entry 896
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 897
+
+Edge case: input with one duplicate → handled without an extra pass.
