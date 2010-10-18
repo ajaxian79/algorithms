@@ -146399,3 +146399,7 @@
 ## entry 36600
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 36601
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
