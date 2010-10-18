@@ -3871,3 +3871,7 @@ Edge case: empty input → returns 0.
 ## entry 953
 
 Handles single-element input as a base case.
+
+## entry 954
+
+Two passes: one to count, one to fill.
