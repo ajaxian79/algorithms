@@ -518,3 +518,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 105
 
 Cache-friendly; one sequential read pass.
+
+## entry 106
+
+Sub-linear in the average case thanks to early exit.
