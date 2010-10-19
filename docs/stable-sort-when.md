@@ -2641,3 +2641,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 646
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 647
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
