@@ -379,3 +379,4 @@ MunitTest word_search_tests[] = {
 // edge note 345: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 346: Worst case appears only on degenerate inputs.
 // edge note 347: Vectorizes cleanly under -O2.
+// edge note 348: Handles empty input by returning 0.
