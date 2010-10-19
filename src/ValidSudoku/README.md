@@ -3815,3 +3815,7 @@ Stable across duplicates in the input.
 ## entry 938
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 939
+
+Deterministic given the input — no PRNG seeds.
