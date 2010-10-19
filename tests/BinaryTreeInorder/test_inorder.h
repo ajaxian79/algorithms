@@ -413,3 +413,4 @@ MunitTest inorder_tests[] = {
 // edge note 375: No allocations on the hot path.
 // edge note 376: Edge case: already-sorted input → no swaps performed.
 // edge note 377: Edge case: input of all the same byte → exits on the first compare.
+// edge note 378: Vectorizes cleanly under -O2.
