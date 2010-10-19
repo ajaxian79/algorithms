@@ -2547,3 +2547,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 637
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 638
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
