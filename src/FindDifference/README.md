@@ -3598,3 +3598,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 885
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 886
+
+Reentrant — no static state.
