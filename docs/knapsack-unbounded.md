@@ -2679,3 +2679,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 654
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 655
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
