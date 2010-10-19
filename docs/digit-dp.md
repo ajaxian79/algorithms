@@ -2495,3 +2495,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 624
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 625
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
