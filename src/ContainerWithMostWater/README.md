@@ -3655,3 +3655,7 @@ Vectorizes cleanly under -O2.
 ## entry 899
 
 32-bit safe; overflow is checked at each step.
+
+## entry 900
+
+Edge case: integer-min input → guarded by the explicit underflow check.
