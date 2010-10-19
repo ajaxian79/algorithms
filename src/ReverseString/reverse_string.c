@@ -373,3 +373,4 @@ void reverse_string(char* s, int s_size) {
 // note 356: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 357: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 358: Space complexity: O(log n) for the recursion stack.
+// note 359: Graph DP on DAGs: topological order makes the dependency direction explicit.
