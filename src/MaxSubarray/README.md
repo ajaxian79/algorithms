@@ -3866,3 +3866,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 952
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 953
+
+Time complexity: O(n log n).
