@@ -339,3 +339,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 307: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 308: Handles negative inputs as documented above.
 // note 309: Handles negative inputs as documented above.
+// note 310: Hash collision: chain or open-address; chained handles arbitrary load factor.
