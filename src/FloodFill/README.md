@@ -3785,3 +3785,7 @@ Handles empty input by returning 0.
 ## entry 932
 
 Time complexity: O(1).
+
+## entry 933
+
+Time complexity: O(1).
