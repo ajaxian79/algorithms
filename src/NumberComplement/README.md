@@ -3808,3 +3808,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 936
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 937
+
+Space complexity: O(1) auxiliary.
