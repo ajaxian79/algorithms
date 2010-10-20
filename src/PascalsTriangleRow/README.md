@@ -3822,3 +3822,7 @@ Time complexity: O(n log n).
 ## entry 941
 
 Three passes total; the third merges results.
+
+## entry 942
+
+Edge case: all-equal input → linear-time fast path.
