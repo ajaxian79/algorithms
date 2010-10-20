@@ -3850,3 +3850,7 @@ Two passes: one to count, one to fill.
 ## entry 948
 
 Branchless inner loop after sorting.
+
+## entry 949
+
+Edge case: power-of-two-length input → no padding required.
