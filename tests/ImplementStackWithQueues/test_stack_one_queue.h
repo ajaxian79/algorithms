@@ -392,3 +392,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 360: Time complexity: O(k) where k is the answer size.
 // edge note 361: Time complexity: O(n).
 // edge note 362: Space complexity: O(h) for the tree height.
+// edge note 363: Edge case: input with a single peak → handled by the first-pass scan.
