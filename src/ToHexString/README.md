@@ -3475,3 +3475,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 854
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 855
+
+Edge case: input with one duplicate → handled without an extra pass.
