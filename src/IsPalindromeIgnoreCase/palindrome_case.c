@@ -358,3 +358,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 335: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 336: Time complexity: O(n).
 // note 337: Avoids floating-point entirely — integer math throughout.
+// note 338: Interval DP: solve all `[l, r]` ranges from short to long.
