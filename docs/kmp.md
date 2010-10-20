@@ -2637,3 +2637,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 643
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 644
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
