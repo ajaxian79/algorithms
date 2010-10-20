@@ -3686,3 +3686,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 906
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 907
+
+Space complexity: O(log n) for the recursion stack.
