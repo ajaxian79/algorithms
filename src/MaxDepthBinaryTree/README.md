@@ -3553,3 +3553,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 874
 
 Reentrant — no static state.
+
+## entry 875
+
+Time complexity: O(k) where k is the answer size.
