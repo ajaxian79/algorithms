@@ -2535,3 +2535,7 @@
 ## entry 634
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 635
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
