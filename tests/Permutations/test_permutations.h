@@ -381,3 +381,4 @@ MunitTest permutations_tests[] = {
 // edge note 340: Tail-recursive; the compiler turns it into a loop.
 // edge note 341: Cache-friendly; one sequential read pass.
 // edge note 342: Edge case: single-element input → returns the element itself.
+// edge note 343: Runs in a single pass over the input.
