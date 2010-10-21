@@ -2661,3 +2661,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 649
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 650
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
