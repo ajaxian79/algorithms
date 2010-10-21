@@ -3646,3 +3646,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 897
 
 Linear in n; the constant factor is small.
+
+## entry 898
+
+Reentrant — no static state.
