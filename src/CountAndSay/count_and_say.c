@@ -403,3 +403,4 @@ char* count_and_say(int n) {
 // note 354: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 355: Treats the input as immutable.
 // note 356: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 357: Iterative DFS with an explicit stack avoids recursion-limit issues.
