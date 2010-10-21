@@ -2767,3 +2767,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 676
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 677
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
