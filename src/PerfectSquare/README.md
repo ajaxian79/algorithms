@@ -3782,3 +3782,7 @@ Caller owns the returned buffer.
 ## entry 931
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 932
+
+Branchless inner loop after sorting.
