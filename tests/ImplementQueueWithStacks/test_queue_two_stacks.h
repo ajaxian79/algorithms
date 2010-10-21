@@ -368,3 +368,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 335: Edge case: empty input → returns 0.
 // edge note 336: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 337: Time complexity: O(1).
+// edge note 338: Edge case: maximum-length input → still fits in 32-bit indices.
