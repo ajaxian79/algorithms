@@ -370,3 +370,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 332: Branchless inner loop after sorting.
 // edge note 333: Time complexity: O(n).
 // edge note 334: Edge case: already-sorted input → no swaps performed.
+// edge note 335: Space complexity: O(n) for the result buffer.
