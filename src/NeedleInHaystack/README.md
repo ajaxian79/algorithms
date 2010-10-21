@@ -3740,3 +3740,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 920
 
 Vectorizes cleanly under -O2.
+
+## entry 921
+
+Worst case appears only on degenerate inputs.
