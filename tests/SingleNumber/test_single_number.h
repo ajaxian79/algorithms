@@ -409,3 +409,4 @@ MunitTest single_number_tests[] = {
 // edge note 378: Resists adversarial inputs by randomizing the pivot.
 // edge note 379: Stable across duplicates in the input.
 // edge note 380: Edge case: empty input → returns 0.
+// edge note 381: Handles empty input by returning 0.
