@@ -3478,3 +3478,7 @@ Allocates lazily — first call only.
 ## entry 854
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 855
+
+Time complexity: O(n).
