@@ -442,3 +442,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 387: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 388: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 389: Time complexity: O(n).
+// edge note 390: 32-bit safe; overflow is checked at each step.
