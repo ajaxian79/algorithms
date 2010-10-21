@@ -3474,3 +3474,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 853
 
 Allocates lazily — first call only.
+
+## entry 854
+
+Edge case: integer-min input → guarded by the explicit underflow check.
