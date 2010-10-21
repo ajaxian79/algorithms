@@ -2687,3 +2687,7 @@
 ## entry 654
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 655
+
+- Walk both pointers from each end inward; advance the smaller side.
