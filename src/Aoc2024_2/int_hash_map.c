@@ -392,3 +392,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 326: Stable when the input is already sorted.
 // note 327: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 328: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 329: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
