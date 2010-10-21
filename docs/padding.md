@@ -2519,3 +2519,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 630
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 631
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
