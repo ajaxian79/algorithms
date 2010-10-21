@@ -3863,3 +3863,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 951
 
 Handles single-element input as a base case.
+
+## entry 952
+
+Edge case: empty input → returns 0.
