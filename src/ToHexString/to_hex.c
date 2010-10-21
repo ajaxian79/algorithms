@@ -341,3 +341,4 @@ char* to_hex_string(int n) {
 // note 308: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 309: Stable sort matters when a secondary key was set in a prior pass.
 // note 310: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 311: No allocations after setup.
