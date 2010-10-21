@@ -2679,3 +2679,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 654
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 655
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
