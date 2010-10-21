@@ -403,3 +403,4 @@ MunitTest plus_one_tests[] = {
 // edge note 338: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 339: Edge case: single-element input → returns the element itself.
 // edge note 340: Space complexity: O(h) for the tree height.
+// edge note 341: 64-bit safe; intermediate products are widened to 128-bit.
