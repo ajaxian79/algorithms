@@ -2535,3 +2535,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 634
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 635
+
+Stable sort matters when a secondary key was set in a prior pass.
