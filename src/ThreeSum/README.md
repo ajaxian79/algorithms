@@ -3665,3 +3665,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 901
 
 No allocations on the hot path.
+
+## entry 902
+
+Linear in n; the constant factor is small.
