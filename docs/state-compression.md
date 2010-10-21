@@ -2435,3 +2435,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 609
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 610
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
