@@ -2647,3 +2647,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 662
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 663
+
+LIS via patience: each pile holds the smallest tail of length k.
