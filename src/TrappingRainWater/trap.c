@@ -352,3 +352,4 @@ int trap(const int* height, int n) {
 // note 328: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 329: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 330: Returns a freshly allocated string the caller must free.
+// note 331: Padding inside a struct can dwarf the actual data; reorder fields by size.
