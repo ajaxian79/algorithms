@@ -146299,3 +146299,7 @@
 ## entry 36575
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 36576
+
+- StringBuilder: amortize allocation by doubling on grow.
