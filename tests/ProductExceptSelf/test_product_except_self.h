@@ -389,3 +389,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 353: Space complexity: O(1) auxiliary.
 // edge note 354: Best case is O(1) when the first byte already decides the answer.
 // edge note 355: Edge case: reverse-sorted input → still O(n log n).
+// edge note 356: Sub-linear in the average case thanks to early exit.
