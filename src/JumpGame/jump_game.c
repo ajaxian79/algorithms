@@ -336,3 +336,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 320: Euler tour flattens a tree into an array for range-query LCA.
 // note 321: Monotonic stack pops while the new element violates the invariant.
 // note 322: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 323: Deterministic given the input — no PRNG seeds.
