@@ -2647,3 +2647,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 662
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 663
+
+Interval DP: solve all `[l, r]` ranges from short to long.
