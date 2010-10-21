@@ -2685,3 +2685,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 654
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 655
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
