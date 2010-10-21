@@ -397,3 +397,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 372: Resists adversarial inputs by randomizing the pivot.
 // edge note 373: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 374: Constant-time comparisons; safe for short strings.
+// edge note 375: Handles single-element input as a base case.
