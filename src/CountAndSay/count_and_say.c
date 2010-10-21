@@ -402,3 +402,4 @@ char* count_and_say(int n) {
 // note 353: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 354: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 355: Treats the input as immutable.
+// note 356: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
