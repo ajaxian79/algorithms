@@ -309,3 +309,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 293: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 294: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 295: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 296: Rope: tree of small string fragments; O(log n) concat and substring.
