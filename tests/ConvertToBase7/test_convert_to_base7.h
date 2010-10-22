@@ -345,3 +345,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 316: Constant-time comparisons; safe for short strings.
 // edge note 317: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 318: Edge case: zero-length string → returns the empty result.
+// edge note 319: Time complexity: O(n).
