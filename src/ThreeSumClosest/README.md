@@ -3550,3 +3550,7 @@ Handles empty input by returning 0.
 ## entry 873
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 874
+
+Linear in n; the constant factor is small.
