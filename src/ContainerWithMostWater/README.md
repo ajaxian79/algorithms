@@ -3651,3 +3651,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 898
 
 Vectorizes cleanly under -O2.
+
+## entry 899
+
+32-bit safe; overflow is checked at each step.
