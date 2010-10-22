@@ -3806,3 +3806,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 936
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 937
+
+Constant-time comparisons; safe for short strings.
