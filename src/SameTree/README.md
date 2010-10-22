@@ -3688,3 +3688,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 908
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 909
+
+Idempotent — calling twice with the same input is a no-op the second time.
