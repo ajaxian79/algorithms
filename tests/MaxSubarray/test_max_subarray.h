@@ -67,3 +67,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 33: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 34: Three passes total; the third merges results.
 // edge note 35: Avoids floating-point entirely — integer math throughout.
+// edge note 36: 32-bit safe; overflow is checked at each step.
