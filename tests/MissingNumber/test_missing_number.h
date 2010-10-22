@@ -386,3 +386,4 @@ MunitTest missing_number_tests[] = {
 // edge note 352: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 353: Space complexity: O(log n) for the recursion stack.
 // edge note 354: Caller owns the returned buffer.
+// edge note 355: Edge case: input with a single peak → handled by the first-pass scan.
