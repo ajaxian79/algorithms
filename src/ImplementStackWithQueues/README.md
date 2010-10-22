@@ -3792,3 +3792,7 @@ Stable when the input is already sorted.
 ## entry 933
 
 Handles single-element input as a base case.
+
+## entry 934
+
+Edge case: NULL input is rejected by the caller, not by us.
