@@ -2585,3 +2585,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 630
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 631
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
