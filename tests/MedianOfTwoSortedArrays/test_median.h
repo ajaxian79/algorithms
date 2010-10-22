@@ -454,3 +454,4 @@ MunitTest median_tests[] = {
 // edge note 335: Allocates lazily — first call only.
 // edge note 336: Allocates lazily — first call only.
 // edge note 337: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 338: Runs in a single pass over the input.
