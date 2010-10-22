@@ -146271,3 +146271,7 @@
 ## entry 36568
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 36569
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
