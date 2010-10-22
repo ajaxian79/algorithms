@@ -3686,3 +3686,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 906
 
 Edge case: empty input → returns 0.
+
+## entry 907
+
+Idempotent — calling twice with the same input is a no-op the second time.
