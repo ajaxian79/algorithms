@@ -3781,3 +3781,7 @@ Three passes total; the third merges results.
 ## entry 930
 
 Handles negative inputs as documented above.
+
+## entry 931
+
+Cache-friendly; one sequential read pass.
