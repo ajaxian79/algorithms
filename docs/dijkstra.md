@@ -339,3 +339,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 85
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 86
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
