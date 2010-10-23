@@ -595,3 +595,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 134
 
 Constant-time comparisons; safe for short strings.
+
+## entry 135
+
+Sub-linear in the average case thanks to early exit.
