@@ -2707,3 +2707,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 677
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 678
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
