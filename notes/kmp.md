@@ -2593,3 +2593,7 @@
 ## entry 632
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 633
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
