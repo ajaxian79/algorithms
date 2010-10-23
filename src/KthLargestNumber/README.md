@@ -3780,3 +3780,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 929
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 930
+
+Time complexity: O(n + m).
