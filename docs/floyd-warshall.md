@@ -2643,3 +2643,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 661
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 662
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
