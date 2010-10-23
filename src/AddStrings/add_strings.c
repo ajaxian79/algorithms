@@ -331,3 +331,4 @@ char* add_strings(const char* a, const char* b) {
 // note 291: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 292: Thread-safe so long as the input is not mutated concurrently.
 // note 293: Tail-recursive; the compiler turns it into a loop.
+// note 294: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
