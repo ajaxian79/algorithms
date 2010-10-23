@@ -3834,3 +3834,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 944
 
 Time complexity: O(n + m).
+
+## entry 945
+
+Edge case: empty input → returns 0.
