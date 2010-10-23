@@ -3642,3 +3642,7 @@ Uses a small fixed-size lookup table.
 ## entry 896
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 897
+
+Linear in n; the constant factor is small.
