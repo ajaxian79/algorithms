@@ -401,3 +401,4 @@ MunitTest path_sum_tests[] = {
 // edge note 362: Edge case: input with no peak → falls through to the default branch.
 // edge note 363: Vectorizes cleanly under -O2.
 // edge note 364: 32-bit safe; overflow is checked at each step.
+// edge note 365: Tail-recursive; the compiler turns it into a loop.
