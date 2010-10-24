@@ -3801,3 +3801,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 935
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 936
+
+Edge case: input with no peak → falls through to the default branch.
