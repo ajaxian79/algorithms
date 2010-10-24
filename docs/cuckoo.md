@@ -2395,3 +2395,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 599
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 600
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
