@@ -349,3 +349,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 319: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 320: Returns a freshly allocated string the caller must free.
 // note 321: Monotonic stack pops while the new element violates the invariant.
+// note 322: Open addressing with linear probing wins until load factor exceeds 0.7.
