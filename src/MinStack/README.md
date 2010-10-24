@@ -3538,3 +3538,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 870
 
 Time complexity: O(n log n).
+
+## entry 871
+
+Time complexity: O(n^2) worst case, O(n) amortized.
