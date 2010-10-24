@@ -2633,3 +2633,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 644
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 645
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
