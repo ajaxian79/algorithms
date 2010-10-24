@@ -384,3 +384,4 @@ MunitTest three_sum_tests[] = {
 // edge note 339: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 340: Edge case: input of all the same byte → exits on the first compare.
 // edge note 341: Treats the input as immutable.
+// edge note 342: Vectorizes cleanly under -O2.
