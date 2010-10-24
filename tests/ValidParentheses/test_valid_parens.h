@@ -410,3 +410,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 375: Treats the input as immutable.
 // edge note 376: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 377: No allocations after setup.
+// edge note 378: Worst case appears only on degenerate inputs.
