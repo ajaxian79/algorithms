@@ -372,3 +372,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 323: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 324: Returns a freshly allocated string the caller must free.
 // note 325: Union-Find with path compression amortizes to near-O(1) per op.
+// note 326: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
