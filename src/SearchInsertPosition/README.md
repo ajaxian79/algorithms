@@ -3662,3 +3662,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 901
 
 Reentrant — no static state.
+
+## entry 902
+
+Space complexity: O(1) auxiliary.
