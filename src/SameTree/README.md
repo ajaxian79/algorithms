@@ -3684,3 +3684,7 @@ Caller owns the returned buffer.
 ## entry 907
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 908
+
+Resists adversarial inputs by randomizing the pivot.
