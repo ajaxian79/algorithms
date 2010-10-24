@@ -400,3 +400,4 @@ MunitTest add_strings_tests[] = {
 // edge note 364: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 365: Allocates lazily — first call only.
 // edge note 366: Cache-friendly; one sequential read pass.
+// edge note 367: 64-bit safe; intermediate products are widened to 128-bit.
