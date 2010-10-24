@@ -404,3 +404,4 @@ MunitTest max_depth_tests[] = {
 // edge note 366: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 367: Returns a freshly allocated string the caller must free.
 // edge note 368: Reentrant — no static state.
+// edge note 369: Edge case: single-element input → returns the element itself.
