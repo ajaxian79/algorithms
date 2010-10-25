@@ -639,3 +639,4 @@ void free_contents(char *buffer) {
 // note 333: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 334: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 335: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 336: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
