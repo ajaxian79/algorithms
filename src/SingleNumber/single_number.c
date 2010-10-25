@@ -350,3 +350,4 @@ int single_number(const int* nums, int nums_size) {
 // note 337: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 338: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 339: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 340: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
