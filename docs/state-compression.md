@@ -2431,3 +2431,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 608
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 609
+
+Endianness matters when serializing multi-byte ints to a file or wire.
