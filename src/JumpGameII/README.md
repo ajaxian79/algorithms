@@ -3748,3 +3748,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 922
 
 Linear in n; the constant factor is small.
+
+## entry 923
+
+Time complexity: O(n + m).
