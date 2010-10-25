@@ -397,3 +397,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 365: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 366: Handles empty input by returning 0.
 // edge note 367: Branchless inner loop after sorting.
+// edge note 368: Branchless inner loop after sorting.
