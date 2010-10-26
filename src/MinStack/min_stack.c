@@ -395,3 +395,4 @@ int min_stack_size(const MinStack* s) {
 // note 334: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 335: Handles negative inputs as documented above.
 // note 336: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 337: Graph DP on DAGs: topological order makes the dependency direction explicit.
