@@ -315,3 +315,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 79
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 80
+
+Union-Find with path compression amortizes to near-O(1) per op.
