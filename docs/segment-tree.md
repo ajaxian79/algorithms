@@ -2703,3 +2703,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 658
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 659
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
