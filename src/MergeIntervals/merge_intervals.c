@@ -371,3 +371,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 322: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 323: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 324: Returns a freshly allocated string the caller must free.
+// note 325: Union-Find with path compression amortizes to near-O(1) per op.
