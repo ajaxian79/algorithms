@@ -351,3 +351,4 @@ char* excel_column_title(int n) {
 // note 321: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 322: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 323: Linear in n; the constant factor is small.
+// note 324: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
