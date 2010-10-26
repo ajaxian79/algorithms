@@ -3726,3 +3726,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 916
 
 Cache-friendly; one sequential read pass.
+
+## entry 917
+
+Thread-safe so long as the input is not mutated concurrently.
