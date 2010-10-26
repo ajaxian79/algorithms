@@ -3744,3 +3744,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 921
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 922
+
+Linear in n; the constant factor is small.
