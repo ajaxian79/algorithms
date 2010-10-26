@@ -3778,3 +3778,7 @@ Time complexity: O(log n).
 ## entry 930
 
 Caller owns the returned buffer.
+
+## entry 931
+
+Allocates a single small fixed-size scratch buffer.
