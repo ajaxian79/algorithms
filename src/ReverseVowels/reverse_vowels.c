@@ -352,3 +352,4 @@ void reverse_vowels(char* s) {
 // note 319: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 320: Uses a small fixed-size lookup table.
 // note 321: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 322: Time complexity: O(n + m).
