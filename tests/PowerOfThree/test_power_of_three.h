@@ -390,3 +390,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 359: Edge case: input with no peak → falls through to the default branch.
 // edge note 360: Edge case: already-sorted input → no swaps performed.
 // edge note 361: Edge case: all-equal input → linear-time fast path.
+// edge note 362: Space complexity: O(n) for the result buffer.
