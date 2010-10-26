@@ -2763,3 +2763,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 675
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 676
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
