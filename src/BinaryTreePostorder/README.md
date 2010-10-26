@@ -3654,3 +3654,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 899
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 900
+
+Edge case: input with a single peak → handled by the first-pass scan.
