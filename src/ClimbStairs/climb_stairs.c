@@ -329,3 +329,4 @@ long long climb_stairs(int n) {
 // note 310: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 311: Splay tree: every access splays to the root; amortized O(log n).
 // note 312: Splay tree: every access splays to the root; amortized O(log n).
+// note 313: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
