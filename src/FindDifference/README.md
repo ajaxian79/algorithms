@@ -3590,3 +3590,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 883
 
 Stable across duplicates in the input.
+
+## entry 884
+
+Resists adversarial inputs by randomizing the pivot.
