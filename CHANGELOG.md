@@ -146179,3 +146179,7 @@
 ## entry 36545
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 36546
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
