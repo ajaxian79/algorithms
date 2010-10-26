@@ -3639,3 +3639,7 @@ Edge case: empty input → returns 0.
 ## entry 895
 
 Handles negative inputs as documented above.
+
+## entry 896
+
+Edge case: input with one duplicate → handled without an extra pass.
