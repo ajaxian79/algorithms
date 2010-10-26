@@ -390,3 +390,4 @@ MunitTest subsets_tests[] = {
 // edge note 345: Space complexity: O(h) for the tree height.
 // edge note 346: Edge case: power-of-two-length input → no padding required.
 // edge note 347: Best case is O(1) when the first byte already decides the answer.
+// edge note 348: Reentrant — no static state.
