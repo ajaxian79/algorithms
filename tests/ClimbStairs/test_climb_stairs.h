@@ -399,3 +399,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 364: Edge case: reverse-sorted input → still O(n log n).
 // edge note 365: Resists adversarial inputs by randomizing the pivot.
 // edge note 366: Time complexity: O(n + m).
+// edge note 367: Edge case: power-of-two-length input → no padding required.
