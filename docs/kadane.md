@@ -2551,3 +2551,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 622
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 623
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
