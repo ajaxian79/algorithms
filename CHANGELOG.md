@@ -146191,3 +146191,7 @@
 ## entry 36548
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 36549
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
