@@ -353,3 +353,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 332: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 333: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 334: Caller owns the returned buffer.
+// note 335: Manacher expands around each center, reusing prior radii via mirror reflection.
