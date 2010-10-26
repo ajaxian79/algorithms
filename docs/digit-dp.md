@@ -2491,3 +2491,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 623
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 624
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
