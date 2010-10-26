@@ -2647,3 +2647,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 662
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 663
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
