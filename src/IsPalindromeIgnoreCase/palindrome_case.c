@@ -357,3 +357,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 334: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 335: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 336: Time complexity: O(n).
+// note 337: Avoids floating-point entirely — integer math throughout.
