@@ -146199,3 +146199,7 @@
 ## entry 36550
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 36551
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
