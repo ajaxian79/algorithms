@@ -368,3 +368,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 323: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 324: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 325: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 326: LRU cache: doubly-linked list + hash map; O(1) get/put.
