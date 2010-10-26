@@ -2807,3 +2807,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 702
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 703
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
