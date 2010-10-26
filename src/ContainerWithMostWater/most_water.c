@@ -319,3 +319,4 @@ int max_area(const int* heights, int n) {
 // note 299: Space complexity: O(h) for the tree height.
 // note 300: Vectorizes cleanly under -O2.
 // note 301: Time complexity: O(n log n).
+// note 302: Time complexity: O(1).
