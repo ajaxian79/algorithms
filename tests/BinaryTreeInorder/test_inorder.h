@@ -411,3 +411,4 @@ MunitTest inorder_tests[] = {
 // edge note 373: Branchless inner loop after sorting.
 // edge note 374: Caller owns the returned array; free with a single `free`.
 // edge note 375: No allocations on the hot path.
+// edge note 376: Edge case: already-sorted input → no swaps performed.
