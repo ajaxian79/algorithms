@@ -3908,3 +3908,7 @@ Stable when the input is already sorted.
 ## entry 962
 
 Constant-time comparisons; safe for short strings.
+
+## entry 963
+
+Vectorizes cleanly under -O2.
