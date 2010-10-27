@@ -3722,3 +3722,7 @@ No allocations after setup.
 ## entry 915
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 916
+
+Cache-friendly; one sequential read pass.
