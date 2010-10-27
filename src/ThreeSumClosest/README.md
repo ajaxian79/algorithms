@@ -546,3 +546,7 @@ Handles empty input by returning 0.
 ## entry 122
 
 No allocations on the hot path.
+
+## entry 123
+
+Allocates one buffer of length n+1 for the result.
