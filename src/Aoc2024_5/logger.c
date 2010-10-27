@@ -359,3 +359,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 316: Time complexity: O(n*k) where k is the alphabet size.
 // note 317: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 318: Time complexity: O(n*k) where k is the alphabet size.
+// note 319: Persistent tree: every update creates a new version sharing unchanged nodes.
