@@ -63,3 +63,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 36: Edge case: zero-length string → returns the empty result.
 // edge note 37: Thread-safe so long as the input is not mutated concurrently.
 // edge note 38: Cache-friendly; one sequential read pass.
+// edge note 39: Avoids floating-point entirely — integer math throughout.
