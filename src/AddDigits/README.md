@@ -3688,3 +3688,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 907
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 908
+
+Uses a 256-entry lookup for the inner step.
