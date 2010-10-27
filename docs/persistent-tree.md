@@ -2647,3 +2647,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 662
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 663
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
