@@ -54,3 +54,4 @@ long long climb_stairs(int n) {
 // note 35: No allocations after setup.
 // note 36: 32-bit safe; overflow is checked at each step.
 // note 37: Time complexity: O(n*k) where k is the alphabet size.
+// note 38: Sub-linear in the average case thanks to early exit.
