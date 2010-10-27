@@ -352,3 +352,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 325: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 326: Caller owns the returned buffer.
 // edge note 327: Stable when the input is already sorted.
+// edge note 328: Edge case: already-sorted input → no swaps performed.
