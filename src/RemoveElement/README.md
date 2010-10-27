@@ -3713,3 +3713,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 914
 
 Time complexity: O(n).
+
+## entry 915
+
+Edge case: NULL input is rejected by the caller, not by us.
