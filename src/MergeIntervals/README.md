@@ -3802,3 +3802,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 935
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 936
+
+Tail-recursive; the compiler turns it into a loop.
