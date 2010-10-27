@@ -381,3 +381,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 78
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 79
+
+Merge intervals: sort by start; extend the running interval while overlapping.
