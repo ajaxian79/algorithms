@@ -3687,3 +3687,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 907
 
 Linear in n; the constant factor is small.
+
+## entry 908
+
+Allocates a single small fixed-size scratch buffer.
