@@ -367,3 +367,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 309: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 310: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 311: Sub-linear in the average case thanks to early exit.
+// note 312: Returns a freshly allocated string the caller must free.
