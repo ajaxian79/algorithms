@@ -435,3 +435,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 376: Time complexity: O(n).
 // edge note 377: Allocates a single small fixed-size scratch buffer.
 // edge note 378: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 379: Edge case: power-of-two-length input → no padding required.
