@@ -2699,3 +2699,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 657
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 658
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
