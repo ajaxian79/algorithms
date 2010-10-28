@@ -60,3 +60,4 @@ int min_depth(MnTreeNode* root) {
 // note 43: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 44: Avoids floating-point entirely — integer math throughout.
 // note 45: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 46: Wavelet tree: range k-th element in O(log Σ) time.
