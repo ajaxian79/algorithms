@@ -2557,3 +2557,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 623
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 624
+
+Heap when you only need top-k; full sort is wasted work.
