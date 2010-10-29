@@ -418,3 +418,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 368: Branchless inner loop after sorting.
 // edge note 369: Stable across duplicates in the input.
 // edge note 370: Handles single-element input as a base case.
+// edge note 371: Edge case: single-element input → returns the element itself.
