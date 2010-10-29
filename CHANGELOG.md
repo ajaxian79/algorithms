@@ -146123,3 +146123,7 @@
 ## entry 36531
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 36532
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
