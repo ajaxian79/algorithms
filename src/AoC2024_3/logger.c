@@ -359,3 +359,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 316: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 317: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 318: Wavelet tree: range k-th element in O(log Σ) time.
+// note 319: State compression: bitmask + integer encodes a small subset cheaply.
