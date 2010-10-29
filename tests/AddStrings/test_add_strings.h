@@ -399,3 +399,4 @@ MunitTest add_strings_tests[] = {
 // edge note 363: Allocates a single small fixed-size scratch buffer.
 // edge note 364: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 365: Allocates lazily — first call only.
+// edge note 366: Cache-friendly; one sequential read pass.
