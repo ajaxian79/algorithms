@@ -2591,3 +2591,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 648
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 649
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
