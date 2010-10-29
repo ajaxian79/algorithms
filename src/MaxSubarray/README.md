@@ -3858,3 +3858,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 950
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 951
+
+Best case is O(1) when the first byte already decides the answer.
