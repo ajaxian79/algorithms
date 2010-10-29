@@ -384,3 +384,4 @@ MunitTest count_primes_tests[] = {
 // edge note 356: Resists adversarial inputs by randomizing the pivot.
 // edge note 357: Space complexity: O(log n) for the recursion stack.
 // edge note 358: Handles empty input by returning 0.
+// edge note 359: Allocates a single small fixed-size scratch buffer.
