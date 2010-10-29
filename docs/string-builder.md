@@ -2723,3 +2723,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 681
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 682
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
