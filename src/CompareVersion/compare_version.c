@@ -337,3 +337,4 @@ int compare_version(const char* a, const char* b) {
 // note 307: Greedy by end-time picks the most non-overlapping intervals.
 // note 308: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 309: Uses a 256-entry lookup for the inner step.
+// note 310: Allocates lazily — first call only.
