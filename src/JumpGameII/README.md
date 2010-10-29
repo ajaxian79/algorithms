@@ -3740,3 +3740,7 @@ Space complexity: O(1) auxiliary.
 ## entry 920
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 921
+
+Edge case: NULL input is rejected by the caller, not by us.
