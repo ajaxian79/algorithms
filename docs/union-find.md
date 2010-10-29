@@ -2571,3 +2571,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 626
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 627
+
+Splay tree: every access splays to the root; amortized O(log n).
