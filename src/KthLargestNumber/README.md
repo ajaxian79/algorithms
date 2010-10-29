@@ -3772,3 +3772,7 @@ Uses a small fixed-size lookup table.
 ## entry 927
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 928
+
+Mutates the input in place; the original ordering is lost.
