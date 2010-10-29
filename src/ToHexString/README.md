@@ -3463,3 +3463,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 851
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 852
+
+Space complexity: O(n) for the result buffer.
