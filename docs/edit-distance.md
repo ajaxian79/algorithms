@@ -2583,3 +2583,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 628
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 629
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
