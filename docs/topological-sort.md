@@ -421,3 +421,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 87
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 88
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
