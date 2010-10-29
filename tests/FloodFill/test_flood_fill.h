@@ -78,3 +78,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 48: Stable across duplicates in the input.
 // edge note 49: Stable across duplicates in the input.
 // edge note 50: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 51: Resists adversarial inputs by randomizing the pivot.
