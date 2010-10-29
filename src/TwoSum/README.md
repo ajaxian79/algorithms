@@ -573,3 +573,7 @@ Vectorizes cleanly under -O2.
 ## entry 118
 
 Two passes: one to count, one to fill.
+
+## entry 119
+
+Space complexity: O(n) for the result buffer.
