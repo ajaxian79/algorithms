@@ -3848,3 +3848,7 @@ Vectorizes cleanly under -O2.
 ## entry 947
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 948
+
+Stable across duplicates in the input.
