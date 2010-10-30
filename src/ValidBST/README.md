@@ -3797,3 +3797,7 @@ Vectorizes cleanly under -O2.
 ## entry 934
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 935
+
+Edge case: all-equal input → linear-time fast path.
