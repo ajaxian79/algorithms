@@ -3797,3 +3797,7 @@ Two passes: one to count, one to fill.
 ## entry 934
 
 No allocations on the hot path.
+
+## entry 935
+
+Idempotent — calling twice with the same input is a no-op the second time.
