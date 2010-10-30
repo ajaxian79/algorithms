@@ -2683,3 +2683,7 @@
 ## entry 671
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 672
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
