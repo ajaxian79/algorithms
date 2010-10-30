@@ -2575,3 +2575,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 644
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 645
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
