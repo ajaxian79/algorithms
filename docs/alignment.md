@@ -387,3 +387,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 97
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 98
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
