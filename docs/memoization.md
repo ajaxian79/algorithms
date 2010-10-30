@@ -2643,3 +2643,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 661
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 662
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
