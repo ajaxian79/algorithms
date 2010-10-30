@@ -3846,3 +3846,7 @@ Caller owns the returned buffer.
 ## entry 947
 
 Two passes: one to count, one to fill.
+
+## entry 948
+
+Branchless inner loop after sorting.
