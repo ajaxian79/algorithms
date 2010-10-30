@@ -405,3 +405,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 378: Deterministic given the input — no PRNG seeds.
 // edge note 379: Time complexity: O(n + m).
 // edge note 380: Deterministic given the input — no PRNG seeds.
+// edge note 381: 64-bit safe; intermediate products are widened to 128-bit.
