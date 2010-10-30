@@ -2807,3 +2807,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 685
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 686
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
