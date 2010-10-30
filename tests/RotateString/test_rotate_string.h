@@ -351,3 +351,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 324: Handles single-element input as a base case.
 // edge note 325: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 326: Caller owns the returned buffer.
+// edge note 327: Stable when the input is already sorted.
