@@ -2551,3 +2551,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 620
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 621
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
