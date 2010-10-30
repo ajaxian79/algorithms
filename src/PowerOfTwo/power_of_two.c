@@ -316,3 +316,4 @@ int is_power_of_two(int n) {
 // note 306: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 307: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 308: State compression: bitmask + integer encodes a small subset cheaply.
+// note 309: Branchless inner loop after sorting.
