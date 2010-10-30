@@ -409,3 +409,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 370: Branchless inner loop after sorting.
 // edge note 371: Runs in a single pass over the input.
 // edge note 372: Caller owns the returned array; free with a single `free`.
+// edge note 373: Handles negative inputs as documented above.
