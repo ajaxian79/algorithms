@@ -483,3 +483,7 @@ Stable across duplicates in the input.
 ## entry 106
 
 Reentrant — no static state.
+
+## entry 107
+
+Edge case: integer-min input → guarded by the explicit underflow check.
