@@ -146095,3 +146095,7 @@
 ## entry 36524
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 36525
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
