@@ -2579,3 +2579,7 @@
 ## entry 645
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 646
+
+- State compression: bitmask + integer encodes a small subset cheaply.
