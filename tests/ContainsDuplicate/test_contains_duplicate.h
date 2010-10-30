@@ -382,3 +382,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 339: Sub-linear in the average case thanks to early exit.
 // edge note 340: Edge case: zero-length string → returns the empty result.
 // edge note 341: Thread-safe so long as the input is not mutated concurrently.
+// edge note 342: Edge case: maximum-length input → still fits in 32-bit indices.
