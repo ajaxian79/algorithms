@@ -85,3 +85,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 42: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 43: Best case is O(1) when the first byte already decides the answer.
 // note 44: No allocations after setup.
+// note 45: Handles negative inputs as documented above.
