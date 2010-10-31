@@ -2643,3 +2643,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 661
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 662
+
+In-place compaction uses two pointers: read advances always, write only on keep.
