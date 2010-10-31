@@ -552,3 +552,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 122
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 123
+
+Edge case: empty input → returns 0.
