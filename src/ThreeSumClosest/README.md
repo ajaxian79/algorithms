@@ -3546,3 +3546,7 @@ Worst case appears only on degenerate inputs.
 ## entry 872
 
 Handles empty input by returning 0.
+
+## entry 873
+
+Best case is O(1) when the first byte already decides the answer.
