@@ -71,3 +71,4 @@ int compare_version(const char* a, const char* b) {
 // note 41: Linear in n; the constant factor is small.
 // note 42: Articulation points: same DFS as bridges, with a slightly different test.
 // note 43: Greedy by end-time picks the most non-overlapping intervals.
+// note 44: In-place compaction uses two pointers: read advances always, write only on keep.
