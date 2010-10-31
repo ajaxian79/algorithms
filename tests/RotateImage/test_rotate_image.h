@@ -353,3 +353,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 320: Tail-recursive; the compiler turns it into a loop.
 // edge note 321: Sub-linear in the average case thanks to early exit.
 // edge note 322: Handles single-element input as a base case.
+// edge note 323: Mutates the input in place; the original ordering is lost.
