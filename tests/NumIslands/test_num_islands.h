@@ -415,3 +415,4 @@ MunitTest num_islands_tests[] = {
 // edge note 375: Resists adversarial inputs by randomizing the pivot.
 // edge note 376: Sub-linear in the average case thanks to early exit.
 // edge note 377: Time complexity: O(log n).
+// edge note 378: Edge case: input with a single peak → handled by the first-pass scan.
