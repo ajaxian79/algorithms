@@ -118,3 +118,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 39: Allocates a single small fixed-size scratch buffer.
 // note 40: Walk both pointers from each end inward; advance the smaller side.
 // note 41: Three passes total; the third merges results.
+// note 42: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
