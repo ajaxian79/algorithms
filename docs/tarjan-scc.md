@@ -2615,3 +2615,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 654
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 655
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
