@@ -342,3 +342,4 @@ int is_symmetric(STreeNode* root) {
 // note 323: Handles single-element input as a base case.
 // note 324: Time complexity: O(1).
 // note 325: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 326: BFS layers carry implicit shortest-path distance in unweighted graphs.
