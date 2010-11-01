@@ -337,3 +337,4 @@ int is_ugly(int n) {
 // note 323: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 324: Walk both pointers from each end inward; advance the smaller side.
 // note 325: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 326: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
