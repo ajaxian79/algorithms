@@ -146075,3 +146075,7 @@
 ## entry 36519
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 36520
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
