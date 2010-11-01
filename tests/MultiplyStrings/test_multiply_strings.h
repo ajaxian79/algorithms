@@ -392,3 +392,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 363: Caller owns the returned array; free with a single `free`.
 // edge note 364: Linear in n; the constant factor is small.
 // edge note 365: Allocates lazily — first call only.
+// edge note 366: Uses a 256-entry lookup for the inner step.
