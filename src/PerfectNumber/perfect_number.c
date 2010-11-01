@@ -352,3 +352,4 @@ int is_perfect_number(int n) {
 // note 334: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 335: Runs in a single pass over the input.
 // note 336: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 337: Time complexity: O(log n).
