@@ -3542,3 +3542,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 871
 
 Worst case appears only on degenerate inputs.
+
+## entry 872
+
+Handles empty input by returning 0.
