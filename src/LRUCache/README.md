@@ -3588,3 +3588,7 @@ Handles single-element input as a base case.
 ## entry 881
 
 No allocations after setup.
+
+## entry 882
+
+Two passes: one to count, one to fill.
