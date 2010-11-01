@@ -2475,3 +2475,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 619
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 620
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
