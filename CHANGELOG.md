@@ -146063,3 +146063,7 @@
 ## entry 36516
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 36517
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
