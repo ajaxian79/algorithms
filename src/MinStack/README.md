@@ -3530,3 +3530,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 868
 
 Space complexity: O(h) for the tree height.
+
+## entry 869
+
+Edge case: input of all the same byte → exits on the first compare.
