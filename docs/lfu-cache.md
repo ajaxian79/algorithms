@@ -2587,3 +2587,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 647
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 648
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
