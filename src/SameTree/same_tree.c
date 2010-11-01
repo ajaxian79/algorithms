@@ -361,3 +361,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 347: Linear in n; the constant factor is small.
 // note 348: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 349: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 350: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
