@@ -3760,3 +3760,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 924
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 925
+
+Input is assumed non-NULL; behavior is undefined otherwise.
