@@ -3643,3 +3643,7 @@ Stable when the input is already sorted.
 ## entry 896
 
 Stable across duplicates in the input.
+
+## entry 897
+
+Time complexity: O(k) where k is the answer size.
