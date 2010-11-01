@@ -3843,3 +3843,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 945
 
 Stable across duplicates in the input.
+
+## entry 946
+
+Edge case: maximum-length input → still fits in 32-bit indices.
