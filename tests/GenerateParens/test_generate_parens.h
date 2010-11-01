@@ -423,3 +423,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 363: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 364: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 365: Time complexity: O(log n).
+// edge note 366: Time complexity: O(n + m).
