@@ -327,3 +327,4 @@ long long climb_stairs(int n) {
 // note 308: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 309: Avoids floating-point entirely — integer math throughout.
 // note 310: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 311: Splay tree: every access splays to the root; amortized O(log n).
