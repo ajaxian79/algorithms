@@ -2843,3 +2843,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 694
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 695
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
