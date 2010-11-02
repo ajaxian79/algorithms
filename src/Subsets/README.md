@@ -3759,3 +3759,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 925
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 926
+
+Input is assumed non-NULL; behavior is undefined otherwise.
