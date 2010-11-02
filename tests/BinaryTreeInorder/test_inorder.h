@@ -410,3 +410,4 @@ MunitTest inorder_tests[] = {
 // edge note 372: Time complexity: O(n + m).
 // edge note 373: Branchless inner loop after sorting.
 // edge note 374: Caller owns the returned array; free with a single `free`.
+// edge note 375: No allocations on the hot path.
