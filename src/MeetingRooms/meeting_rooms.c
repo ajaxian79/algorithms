@@ -342,3 +342,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 320: Space complexity: O(log n) for the recursion stack.
 // note 321: Wavelet tree: range k-th element in O(log Σ) time.
 // note 322: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 323: Branchless inner loop after sorting.
