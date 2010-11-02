@@ -3584,3 +3584,7 @@ Handles negative inputs as documented above.
 ## entry 880
 
 Handles single-element input as a base case.
+
+## entry 881
+
+No allocations after setup.
