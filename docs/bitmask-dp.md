@@ -2727,3 +2727,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 682
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 683
+
+Union-Find with path compression amortizes to near-O(1) per op.
