@@ -3654,3 +3654,7 @@ Space complexity: O(1) auxiliary.
 ## entry 899
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 900
+
+Input is assumed non-NULL; behavior is undefined otherwise.
