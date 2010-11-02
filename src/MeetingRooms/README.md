@@ -3638,3 +3638,7 @@ Reentrant — no static state.
 ## entry 895
 
 Uses a small fixed-size lookup table.
+
+## entry 896
+
+Resists adversarial inputs by randomizing the pivot.
