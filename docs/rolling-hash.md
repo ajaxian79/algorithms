@@ -2607,3 +2607,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 635
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 636
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
