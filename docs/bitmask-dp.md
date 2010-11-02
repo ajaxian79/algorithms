@@ -2731,3 +2731,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 683
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 684
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
