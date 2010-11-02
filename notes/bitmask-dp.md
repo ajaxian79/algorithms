@@ -2615,3 +2615,7 @@
 ## entry 654
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 655
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
