@@ -3705,3 +3705,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 912
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 913
+
+Returns a freshly allocated string the caller must free.
