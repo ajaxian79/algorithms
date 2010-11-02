@@ -415,3 +415,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 355: Sub-linear in the average case thanks to early exit.
 // edge note 356: Uses a 256-entry lookup for the inner step.
 // edge note 357: Caller owns the returned buffer.
+// edge note 358: Constant-time comparisons; safe for short strings.
