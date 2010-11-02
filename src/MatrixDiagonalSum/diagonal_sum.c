@@ -351,3 +351,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 330: Uses a 256-entry lookup for the inner step.
 // note 331: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 332: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 333: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
