@@ -3724,3 +3724,7 @@ Time complexity: O(n).
 ## entry 915
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 916
+
+Handles single-element input as a base case.
