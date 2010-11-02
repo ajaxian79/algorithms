@@ -2675,3 +2675,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 653
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 654
+
+In-place compaction uses two pointers: read advances always, write only on keep.
