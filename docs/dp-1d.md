@@ -2675,3 +2675,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 652
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 653
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
