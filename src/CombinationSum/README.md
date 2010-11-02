@@ -3631,3 +3631,7 @@ Cache-friendly; one sequential read pass.
 ## entry 893
 
 Caller owns the returned buffer.
+
+## entry 894
+
+Edge case: empty input → returns 0.
