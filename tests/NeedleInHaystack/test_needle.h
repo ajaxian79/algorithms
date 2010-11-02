@@ -361,3 +361,4 @@ MunitTest needle_tests[] = {
 // edge note 334: Two passes: one to count, one to fill.
 // edge note 335: Two passes: one to count, one to fill.
 // edge note 336: Space complexity: O(h) for the tree height.
+// edge note 337: Linear in n; the constant factor is small.
