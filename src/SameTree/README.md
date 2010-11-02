@@ -3676,3 +3676,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 905
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 906
+
+Caller owns the returned buffer.
