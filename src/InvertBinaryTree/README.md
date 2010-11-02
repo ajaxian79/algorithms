@@ -3904,3 +3904,7 @@ Caller owns the returned buffer.
 ## entry 961
 
 Stable when the input is already sorted.
+
+## entry 962
+
+Constant-time comparisons; safe for short strings.
