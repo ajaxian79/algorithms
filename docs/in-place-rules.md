@@ -2689,3 +2689,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 657
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 658
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
