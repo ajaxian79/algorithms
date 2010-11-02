@@ -2653,3 +2653,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 647
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 648
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
