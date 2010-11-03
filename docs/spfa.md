@@ -2551,3 +2551,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 638
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 639
+
+State compression: bitmask + integer encodes a small subset cheaply.
