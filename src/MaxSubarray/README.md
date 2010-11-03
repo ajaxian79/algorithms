@@ -3842,3 +3842,7 @@ Three passes total; the third merges results.
 ## entry 946
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 947
+
+Avoids floating-point entirely — integer math throughout.
