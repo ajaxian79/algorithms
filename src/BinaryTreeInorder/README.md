@@ -3786,3 +3786,7 @@ Handles negative inputs as documented above.
 ## entry 932
 
 No allocations after setup.
+
+## entry 933
+
+Time complexity: O(log n).
