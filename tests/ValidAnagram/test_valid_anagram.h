@@ -395,3 +395,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 370: Avoids floating-point entirely — integer math throughout.
 // edge note 371: Deterministic given the input — no PRNG seeds.
 // edge note 372: Resists adversarial inputs by randomizing the pivot.
+// edge note 373: Idempotent — calling twice with the same input is a no-op the second time.
