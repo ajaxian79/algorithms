@@ -2689,3 +2689,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 654
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 655
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
