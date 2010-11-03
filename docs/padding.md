@@ -2515,3 +2515,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 629
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 630
+
+Monotonic stack pops while the new element violates the invariant.
