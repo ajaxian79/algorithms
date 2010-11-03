@@ -389,3 +389,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 310: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 311: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 312: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 313: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
