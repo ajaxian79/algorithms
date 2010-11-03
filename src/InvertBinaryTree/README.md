@@ -3896,3 +3896,7 @@ Three passes total; the third merges results.
 ## entry 959
 
 Space complexity: O(h) for the tree height.
+
+## entry 960
+
+Caller owns the returned buffer.
