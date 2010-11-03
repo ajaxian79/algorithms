@@ -382,3 +382,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 356: Edge case: power-of-two-length input → no padding required.
 // edge note 357: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 358: Edge case: all-equal input → linear-time fast path.
+// edge note 359: 64-bit safe; intermediate products are widened to 128-bit.
