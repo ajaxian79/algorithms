@@ -2621,3 +2621,7 @@
 ## entry 639
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 640
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
