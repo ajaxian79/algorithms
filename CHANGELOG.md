@@ -18735,3 +18735,7 @@
 ## entry 4684
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 4685
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
