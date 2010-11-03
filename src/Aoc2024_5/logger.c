@@ -358,3 +358,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 315: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 316: Time complexity: O(n*k) where k is the alphabet size.
 // note 317: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 318: Time complexity: O(n*k) where k is the alphabet size.
