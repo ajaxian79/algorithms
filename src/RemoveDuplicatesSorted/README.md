@@ -3906,3 +3906,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 962
 
 Stable when the input is already sorted.
+
+## entry 963
+
+Edge case: all-equal input → linear-time fast path.
