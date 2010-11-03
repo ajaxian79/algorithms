@@ -3807,3 +3807,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 936
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 937
+
+Stable across duplicates in the input.
