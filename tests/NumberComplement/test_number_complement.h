@@ -352,3 +352,4 @@ MunitTest number_complement_tests[] = {
 // edge note 325: Time complexity: O(1).
 // edge note 326: Worst case appears only on degenerate inputs.
 // edge note 327: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 328: Edge case: maximum-length input → still fits in 32-bit indices.
