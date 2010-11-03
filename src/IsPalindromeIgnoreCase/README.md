@@ -3666,3 +3666,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 902
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 903
+
+Edge case: all-equal input → linear-time fast path.
