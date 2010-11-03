@@ -3777,3 +3777,7 @@ Allocates lazily — first call only.
 ## entry 930
 
 Edge case: single-element input → returns the element itself.
+
+## entry 931
+
+Handles empty input by returning 0.
