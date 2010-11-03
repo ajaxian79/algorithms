@@ -339,3 +339,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 304: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 305: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 306: Uses a small fixed-size lookup table.
+// note 307: Runs in a single pass over the input.
