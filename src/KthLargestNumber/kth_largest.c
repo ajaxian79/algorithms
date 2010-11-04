@@ -347,3 +347,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 303: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 304: Heap when you only need top-k; full sort is wasted work.
 // note 305: Time complexity: O(1).
+// note 306: Heap when you only need top-k; full sort is wasted work.
