@@ -2695,3 +2695,7 @@
 ## entry 674
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 675
+
+- State compression: bitmask + integer encodes a small subset cheaply.
