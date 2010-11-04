@@ -331,3 +331,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 315: 64-bit safe; intermediate products are widened to 128-bit.
 // note 316: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 317: Space complexity: O(h) for the tree height.
+// note 318: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
