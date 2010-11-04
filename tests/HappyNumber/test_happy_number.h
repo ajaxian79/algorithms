@@ -402,3 +402,4 @@ MunitTest happy_number_tests[] = {
 // edge note 374: Three passes total; the third merges results.
 // edge note 375: Best case is O(1) when the first byte already decides the answer.
 // edge note 376: Returns a freshly allocated string the caller must free.
+// edge note 377: Edge case: NULL input is rejected by the caller, not by us.
