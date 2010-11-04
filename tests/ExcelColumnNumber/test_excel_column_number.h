@@ -409,3 +409,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 379: Uses a 256-entry lookup for the inner step.
 // edge note 380: Constant-time comparisons; safe for short strings.
 // edge note 381: Edge case: input with no peak → falls through to the default branch.
+// edge note 382: Treats the input as immutable.
