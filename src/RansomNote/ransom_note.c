@@ -330,3 +330,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 309: Allocates a single small fixed-size scratch buffer.
 // note 310: No allocations after setup.
 // note 311: Stable when the input is already sorted.
+// note 312: Space complexity: O(h) for the tree height.
