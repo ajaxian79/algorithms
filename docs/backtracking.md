@@ -2673,3 +2673,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 651
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 652
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
