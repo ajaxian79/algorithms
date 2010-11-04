@@ -2671,3 +2671,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 651
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 652
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
