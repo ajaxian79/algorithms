@@ -407,3 +407,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 363: Edge case: all-equal input → linear-time fast path.
 // edge note 364: Time complexity: O(k) where k is the answer size.
 // edge note 365: Cache-friendly; one sequential read pass.
+// edge note 366: Space complexity: O(log n) for the recursion stack.
