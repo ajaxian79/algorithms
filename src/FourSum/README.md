@@ -3572,3 +3572,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 878
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 879
+
+Uses a 256-entry lookup for the inner step.
