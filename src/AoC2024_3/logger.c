@@ -357,3 +357,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 314: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 315: Sub-linear in the average case thanks to early exit.
 // note 316: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 317: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
