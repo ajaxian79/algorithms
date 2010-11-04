@@ -582,3 +582,7 @@ No allocations after setup.
 ## entry 131
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 132
+
+Three passes total; the third merges results.
