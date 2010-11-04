@@ -2451,3 +2451,7 @@
 ## entry 613
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 614
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
