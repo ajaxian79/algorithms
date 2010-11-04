@@ -2591,3 +2591,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 648
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 649
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
