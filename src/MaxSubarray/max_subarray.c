@@ -307,3 +307,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 291: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 292: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 293: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 294: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
