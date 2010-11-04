@@ -387,3 +387,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 351: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 352: Constant-time comparisons; safe for short strings.
 // edge note 353: Space complexity: O(1) auxiliary.
+// edge note 354: Best case is O(1) when the first byte already decides the answer.
