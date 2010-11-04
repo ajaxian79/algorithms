@@ -3592,3 +3592,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 883
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 884
+
+Resists adversarial inputs by randomizing the pivot.
