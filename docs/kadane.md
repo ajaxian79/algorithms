@@ -2547,3 +2547,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 621
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 622
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
