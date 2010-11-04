@@ -394,3 +394,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 366: No allocations after setup.
 // edge note 367: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 368: Branchless inner loop after sorting.
+// edge note 369: Stable across duplicates in the input.
