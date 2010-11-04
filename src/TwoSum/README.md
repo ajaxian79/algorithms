@@ -3581,3 +3581,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 870
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 871
+
+Time complexity: O(1).
