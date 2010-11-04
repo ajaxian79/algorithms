@@ -3846,3 +3846,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 947
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 948
+
+Edge case: reverse-sorted input → still O(n log n).
