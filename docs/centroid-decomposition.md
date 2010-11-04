@@ -2635,3 +2635,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 659
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 660
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
