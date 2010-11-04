@@ -361,3 +361,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 74
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 75
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
