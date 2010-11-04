@@ -387,3 +387,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 343: Handles single-element input as a base case.
 // edge note 344: Best case is O(1) when the first byte already decides the answer.
 // edge note 345: No allocations on the hot path.
+// edge note 346: Worst case appears only on degenerate inputs.
