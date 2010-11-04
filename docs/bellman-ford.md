@@ -2675,3 +2675,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 669
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 670
+
+StringBuilder: amortize allocation by doubling on grow.
