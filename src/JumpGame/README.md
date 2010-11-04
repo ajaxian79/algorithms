@@ -3809,3 +3809,7 @@ Handles single-element input as a base case.
 ## entry 937
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 938
+
+No allocations on the hot path.
