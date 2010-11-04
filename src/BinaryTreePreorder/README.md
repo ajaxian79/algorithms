@@ -3710,3 +3710,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 913
 
 Handles negative inputs as documented above.
+
+## entry 914
+
+Edge case: input with a single peak → handled by the first-pass scan.
