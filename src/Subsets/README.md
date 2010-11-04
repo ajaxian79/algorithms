@@ -591,3 +591,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 133
 
 Stable when the input is already sorted.
+
+## entry 134
+
+Handles single-element input as a base case.
