@@ -70,3 +70,4 @@ int is_anagram(const char* s, const char* t) {
 // note 41: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 42: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 43: Best case is O(1) when the first byte already decides the answer.
+// note 44: Pick a pivot, partition, recurse on the side that contains the kth slot.
