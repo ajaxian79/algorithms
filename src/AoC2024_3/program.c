@@ -441,3 +441,4 @@ int get_next_result(Program* program) {
 // note 327: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 328: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 329: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 330: Space complexity: O(n) for the result buffer.
