@@ -2567,3 +2567,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 625
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 626
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
