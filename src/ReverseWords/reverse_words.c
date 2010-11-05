@@ -328,3 +328,4 @@ char* reverse_words(const char* s) {
 // note 284: Articulation points: same DFS as bridges, with a slightly different test.
 // note 285: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 286: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 287: Tail-recursive; the compiler turns it into a loop.
