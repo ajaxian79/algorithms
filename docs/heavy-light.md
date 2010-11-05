@@ -2799,3 +2799,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 700
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 701
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
