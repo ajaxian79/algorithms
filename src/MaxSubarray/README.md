@@ -3838,3 +3838,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 945
 
 Three passes total; the third merges results.
+
+## entry 946
+
+Edge case: integer-max input → guarded by the explicit overflow check.
