@@ -386,3 +386,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 350: Tail-recursive; the compiler turns it into a loop.
 // edge note 351: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 352: Constant-time comparisons; safe for short strings.
+// edge note 353: Space complexity: O(1) auxiliary.
