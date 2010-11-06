@@ -335,3 +335,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 84
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 85
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
