@@ -375,3 +375,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 94
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 95
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
