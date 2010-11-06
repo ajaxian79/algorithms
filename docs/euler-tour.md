@@ -2587,3 +2587,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 647
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 648
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
