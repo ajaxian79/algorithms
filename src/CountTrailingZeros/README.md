@@ -3782,3 +3782,7 @@ Reentrant — no static state.
 ## entry 930
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 931
+
+Space complexity: O(log n) for the recursion stack.
