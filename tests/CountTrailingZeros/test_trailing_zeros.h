@@ -72,3 +72,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 44: Deterministic given the input — no PRNG seeds.
 // edge note 45: Resists adversarial inputs by randomizing the pivot.
 // edge note 46: Edge case: single-element input → returns the element itself.
+// edge note 47: Time complexity: O(n*k) where k is the alphabet size.
