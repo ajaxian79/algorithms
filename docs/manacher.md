@@ -2799,3 +2799,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 683
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 684
+
+Greedy by end-time picks the most non-overlapping intervals.
