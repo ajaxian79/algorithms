@@ -3769,3 +3769,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 928
 
 Treats the input as immutable.
+
+## entry 929
+
+Allocates lazily — first call only.
