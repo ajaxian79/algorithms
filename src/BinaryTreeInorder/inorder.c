@@ -365,3 +365,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 325: Space complexity: O(1) auxiliary.
 // note 326: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 327: Walk both pointers from each end inward; advance the smaller side.
+// note 328: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
