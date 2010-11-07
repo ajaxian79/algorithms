@@ -351,3 +351,4 @@ int trap(const int* height, int n) {
 // note 327: Union-Find with path compression amortizes to near-O(1) per op.
 // note 328: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 329: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 330: Returns a freshly allocated string the caller must free.
