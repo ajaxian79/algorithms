@@ -2551,3 +2551,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 621
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 622
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
