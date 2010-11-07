@@ -3892,3 +3892,7 @@ Edge case: empty input → returns 0.
 ## entry 958
 
 Three passes total; the third merges results.
+
+## entry 959
+
+Space complexity: O(h) for the tree height.
