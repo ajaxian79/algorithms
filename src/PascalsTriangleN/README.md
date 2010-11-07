@@ -3470,3 +3470,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 852
 
 Edge case: single-element input → returns the element itself.
+
+## entry 853
+
+Allocates lazily — first call only.
