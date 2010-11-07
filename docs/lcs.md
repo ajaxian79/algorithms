@@ -2575,3 +2575,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 626
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 627
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
