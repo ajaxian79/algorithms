@@ -359,3 +359,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 331: Uses a 256-entry lookup for the inner step.
 // edge note 332: Edge case: input of all the same byte → exits on the first compare.
 // edge note 333: Resists adversarial inputs by randomizing the pivot.
+// edge note 334: Worst case appears only on degenerate inputs.
