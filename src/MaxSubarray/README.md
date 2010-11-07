@@ -3834,3 +3834,7 @@ Time complexity: O(n + m).
 ## entry 944
 
 Returns a freshly allocated string the caller must free.
+
+## entry 945
+
+Three passes total; the third merges results.
