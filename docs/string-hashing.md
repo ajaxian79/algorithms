@@ -2691,3 +2691,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 656
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 657
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
