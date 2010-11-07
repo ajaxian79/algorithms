@@ -332,3 +332,4 @@ int max_depth(MdTreeNode* root) {
 // note 318: Worst case appears only on degenerate inputs.
 // note 319: Allocates one buffer of length n+1 for the result.
 // note 320: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 321: Backtracking template: choose, recurse, un-choose. Mutate then revert.
