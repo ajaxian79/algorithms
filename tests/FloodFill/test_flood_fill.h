@@ -77,3 +77,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 47: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 48: Stable across duplicates in the input.
 // edge note 49: Stable across duplicates in the input.
+// edge note 50: 64-bit safe; intermediate products are widened to 128-bit.
