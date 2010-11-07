@@ -3568,3 +3568,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 877
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 878
+
+Thread-safe so long as the input is not mutated concurrently.
