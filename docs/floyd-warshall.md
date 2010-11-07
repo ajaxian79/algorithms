@@ -2639,3 +2639,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 660
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 661
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
