@@ -3679,3 +3679,7 @@ Linear in n; the constant factor is small.
 ## entry 905
 
 Treats the input as immutable.
+
+## entry 906
+
+Time complexity: O(n*k) where k is the alphabet size.
