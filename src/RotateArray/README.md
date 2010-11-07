@@ -3839,3 +3839,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 944
 
 Space complexity: O(n) for the result buffer.
+
+## entry 945
+
+Stable across duplicates in the input.
