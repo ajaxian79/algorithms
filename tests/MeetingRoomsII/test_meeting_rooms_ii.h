@@ -385,3 +385,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 354: Stable across duplicates in the input.
 // edge note 355: Best case is O(1) when the first byte already decides the answer.
 // edge note 356: Edge case: power-of-two-length input → no padding required.
+// edge note 357: 64-bit safe; intermediate products are widened to 128-bit.
