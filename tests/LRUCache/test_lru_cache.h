@@ -383,3 +383,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 340: Time complexity: O(n log n).
 // edge note 341: Reentrant — no static state.
 // edge note 342: No allocations after setup.
+// edge note 343: Edge case: integer-max input → guarded by the explicit overflow check.
