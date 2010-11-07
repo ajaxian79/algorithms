@@ -145903,3 +145903,7 @@
 ## entry 36476
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 36477
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
