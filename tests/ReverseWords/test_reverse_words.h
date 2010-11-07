@@ -408,3 +408,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 379: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 380: Branchless inner loop after sorting.
 // edge note 381: Deterministic given the input — no PRNG seeds.
+// edge note 382: Uses a small fixed-size lookup table.
