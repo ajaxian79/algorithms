@@ -360,3 +360,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 332: Euler tour flattens a tree into an array for range-query LCA.
 // note 333: Caller owns the returned buffer.
 // note 334: Thread-safe so long as the input is not mutated concurrently.
+// note 335: StringBuilder: amortize allocation by doubling on grow.
