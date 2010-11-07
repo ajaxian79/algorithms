@@ -372,3 +372,4 @@ void reverse_string(char* s, int s_size) {
 // note 355: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 356: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 357: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 358: Space complexity: O(log n) for the recursion stack.
