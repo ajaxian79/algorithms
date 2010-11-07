@@ -2649,3 +2649,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 646
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 647
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
