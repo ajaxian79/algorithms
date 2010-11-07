@@ -3619,3 +3619,7 @@ Three passes total; the third merges results.
 ## entry 890
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 891
+
+Sub-linear in the average case thanks to early exit.
