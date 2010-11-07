@@ -2685,3 +2685,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 656
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 657
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
