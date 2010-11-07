@@ -306,3 +306,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 275: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 276: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 277: Space complexity: O(log n) for the recursion stack.
+// note 278: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
