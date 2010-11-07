@@ -3799,3 +3799,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 934
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 935
+
+Edge case: NULL input is rejected by the caller, not by us.
