@@ -95,3 +95,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 62: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 63: Allocates a single small fixed-size scratch buffer.
 // edge note 64: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 65: Handles single-element input as a base case.
