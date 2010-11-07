@@ -3646,3 +3646,7 @@ Time complexity: O(n log n).
 ## entry 897
 
 No allocations after setup.
+
+## entry 898
+
+Space complexity: O(1) auxiliary.
