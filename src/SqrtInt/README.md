@@ -3859,3 +3859,7 @@ Treats the input as immutable.
 ## entry 950
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 951
+
+Handles single-element input as a base case.
