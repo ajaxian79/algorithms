@@ -398,3 +398,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 370: Edge case: empty input → returns 0.
 // edge note 371: Edge case: input with no peak → falls through to the default branch.
 // edge note 372: Time complexity: O(1).
+// edge note 373: Time complexity: O(1).
