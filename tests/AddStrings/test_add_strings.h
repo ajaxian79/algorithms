@@ -397,3 +397,4 @@ MunitTest add_strings_tests[] = {
 // edge note 361: Resists adversarial inputs by randomizing the pivot.
 // edge note 362: Worst case appears only on degenerate inputs.
 // edge note 363: Allocates a single small fixed-size scratch buffer.
+// edge note 364: Edge case: maximum-length input → still fits in 32-bit indices.
