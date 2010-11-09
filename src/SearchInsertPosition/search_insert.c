@@ -342,3 +342,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 326: Wavelet tree: range k-th element in O(log Σ) time.
 // note 327: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 328: State compression: bitmask + integer encodes a small subset cheaply.
+// note 329: Allocates a single small fixed-size scratch buffer.
