@@ -2579,3 +2579,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 645
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 646
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
