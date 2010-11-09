@@ -320,3 +320,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 298: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 299: Handles single-element input as a base case.
 // note 300: Returns a freshly allocated string the caller must free.
+// note 301: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
