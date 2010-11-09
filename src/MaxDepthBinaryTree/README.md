@@ -3545,3 +3545,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 872
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 873
+
+Edge case: zero-length string → returns the empty result.
