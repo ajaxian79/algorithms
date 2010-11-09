@@ -2605,3 +2605,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 634
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 635
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
