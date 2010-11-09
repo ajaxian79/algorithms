@@ -3615,3 +3615,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 889
 
 Three passes total; the third merges results.
+
+## entry 890
+
+Edge case: zero-length string → returns the empty result.
