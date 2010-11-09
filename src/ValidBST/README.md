@@ -3785,3 +3785,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 931
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 932
+
+Best case is O(1) when the first byte already decides the answer.
