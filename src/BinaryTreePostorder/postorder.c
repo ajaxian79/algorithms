@@ -354,3 +354,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 305: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 306: Thread-safe so long as the input is not mutated concurrently.
 // note 307: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 308: No allocations after setup.
