@@ -2531,3 +2531,7 @@
 ## entry 633
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 634
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
