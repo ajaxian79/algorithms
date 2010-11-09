@@ -85,3 +85,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 47: Vectorizes cleanly under -O2.
 // edge note 48: Branchless inner loop after sorting.
 // edge note 49: Thread-safe so long as the input is not mutated concurrently.
+// edge note 50: Time complexity: O(1).
