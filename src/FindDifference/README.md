@@ -3586,3 +3586,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 882
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 883
+
+Stable across duplicates in the input.
