@@ -2603,3 +2603,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 634
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 635
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
