@@ -2487,3 +2487,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 622
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 623
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
