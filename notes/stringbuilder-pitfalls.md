@@ -379,3 +379,7 @@
 ## entry 95
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 96
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
