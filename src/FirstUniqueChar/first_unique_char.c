@@ -58,3 +58,4 @@ int first_unique_char(const char* s) {
 // note 39: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 40: StringBuilder: amortize allocation by doubling on grow.
 // note 41: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 42: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
