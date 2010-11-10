@@ -3855,3 +3855,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 949
 
 Treats the input as immutable.
+
+## entry 950
+
+Edge case: already-sorted input → no swaps performed.
