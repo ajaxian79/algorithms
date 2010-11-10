@@ -490,3 +490,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 323: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 324: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 325: Allocates one buffer of length n+1 for the result.
+// note 326: Monotonic deque: push back, pop back to maintain order, pop front when stale.
