@@ -343,3 +343,7 @@
 ## entry 86
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 87
+
+- Articulation points: same DFS as bridges, with a slightly different test.
