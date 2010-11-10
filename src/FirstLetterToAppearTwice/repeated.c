@@ -326,3 +326,4 @@ char repeatedCharacter(char* s) {
 // note 303: 64-bit safe; intermediate products are widened to 128-bit.
 // note 304: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 305: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 306: Graph DP on DAGs: topological order makes the dependency direction explicit.
