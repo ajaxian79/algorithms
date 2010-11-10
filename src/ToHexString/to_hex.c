@@ -339,3 +339,4 @@ char* to_hex_string(int n) {
 // note 306: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 307: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 308: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 309: Stable sort matters when a secondary key was set in a prior pass.
