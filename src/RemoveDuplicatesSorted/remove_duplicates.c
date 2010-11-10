@@ -329,3 +329,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 313: Wavelet tree: range k-th element in O(log Σ) time.
 // note 314: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 315: 64-bit safe; intermediate products are widened to 128-bit.
+// note 316: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
