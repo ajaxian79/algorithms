@@ -3924,3 +3924,7 @@ Handles single-element input as a base case.
 ## entry 966
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 967
+
+Edge case: input with one duplicate → handled without an extra pass.
