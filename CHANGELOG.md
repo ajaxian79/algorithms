@@ -145799,3 +145799,7 @@
 ## entry 36450
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 36451
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
