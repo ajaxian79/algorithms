@@ -2643,3 +2643,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 661
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 662
+
+StringBuilder: amortize allocation by doubling on grow.
