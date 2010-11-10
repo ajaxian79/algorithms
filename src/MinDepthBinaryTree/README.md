@@ -3694,3 +3694,7 @@ Treats the input as immutable.
 ## entry 909
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 910
+
+Stable when the input is already sorted.
