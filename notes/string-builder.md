@@ -2647,3 +2647,7 @@
 ## entry 662
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 663
+
+- Euler tour flattens a tree into an array for range-query LCA.
