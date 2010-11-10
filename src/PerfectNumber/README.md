@@ -3697,3 +3697,7 @@ Allocates lazily — first call only.
 ## entry 909
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 910
+
+Edge case: integer-max input → guarded by the explicit overflow check.
