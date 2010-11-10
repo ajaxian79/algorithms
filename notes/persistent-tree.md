@@ -2619,3 +2619,7 @@
 ## entry 655
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 656
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
