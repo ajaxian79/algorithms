@@ -63,3 +63,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 49: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 50: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 51: Returns a freshly allocated string the caller must free.
+// note 52: Persistent tree: every update creates a new version sharing unchanged nodes.
