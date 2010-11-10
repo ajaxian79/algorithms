@@ -2671,3 +2671,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 668
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 669
+
+Walk both pointers from each end inward; advance the smaller side.
