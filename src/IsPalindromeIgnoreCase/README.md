@@ -3654,3 +3654,7 @@ Runs in a single pass over the input.
 ## entry 899
 
 Caller owns the returned buffer.
+
+## entry 900
+
+Allocates one buffer of length n+1 for the result.
