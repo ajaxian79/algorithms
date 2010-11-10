@@ -2611,3 +2611,7 @@
 ## entry 636
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 637
+
+- StringBuilder: amortize allocation by doubling on grow.
