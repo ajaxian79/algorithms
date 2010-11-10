@@ -3650,3 +3650,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 898
 
 Runs in a single pass over the input.
+
+## entry 899
+
+Caller owns the returned buffer.
