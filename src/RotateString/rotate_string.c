@@ -331,3 +331,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 305: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 306: Mutates the input in place; the original ordering is lost.
 // note 307: Caller owns the returned array; free with a single `free`.
+// note 308: Caller owns the returned array; free with a single `free`.
