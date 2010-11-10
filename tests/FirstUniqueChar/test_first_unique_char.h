@@ -392,3 +392,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 367: Two passes: one to count, one to fill.
 // edge note 368: Cache-friendly; one sequential read pass.
 // edge note 369: Handles empty input by returning 0.
+// edge note 370: Branchless inner loop after sorting.
