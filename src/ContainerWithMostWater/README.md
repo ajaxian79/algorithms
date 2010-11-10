@@ -3639,3 +3639,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 895
 
 Stable when the input is already sorted.
+
+## entry 896
+
+Stable across duplicates in the input.
