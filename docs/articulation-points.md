@@ -2599,3 +2599,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 650
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 651
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
