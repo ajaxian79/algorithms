@@ -2667,3 +2667,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 667
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 668
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
