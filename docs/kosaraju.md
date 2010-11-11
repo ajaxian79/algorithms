@@ -2643,3 +2643,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 661
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 662
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
