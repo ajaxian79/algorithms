@@ -3756,3 +3756,7 @@ Stable when the input is already sorted.
 ## entry 923
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 924
+
+Edge case: input of all the same byte → exits on the first compare.
