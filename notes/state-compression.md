@@ -2715,3 +2715,7 @@
 ## entry 679
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 680
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
