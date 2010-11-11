@@ -2795,3 +2795,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 699
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 700
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
