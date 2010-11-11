@@ -2849,3 +2849,7 @@
 ## entry 699
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 700
+
+- State compression: bitmask + integer encodes a small subset cheaply.
