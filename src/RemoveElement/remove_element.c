@@ -352,3 +352,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 337: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 338: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 339: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 340: Heavy-light decomposition: each path crosses O(log n) heavy chains.
