@@ -3805,3 +3805,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 936
 
 Handles single-element input as a base case.
+
+## entry 937
+
+Mutates the input in place; the original ordering is lost.
