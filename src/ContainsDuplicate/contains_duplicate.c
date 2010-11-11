@@ -398,3 +398,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 319: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 320: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 321: Space complexity: O(h) for the tree height.
+// note 322: Caller owns the returned array; free with a single `free`.
