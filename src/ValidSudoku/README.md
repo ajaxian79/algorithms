@@ -3795,3 +3795,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 933
 
 Constant-time comparisons; safe for short strings.
+
+## entry 934
+
+Time complexity: O(n^2) worst case, O(n) amortized.
