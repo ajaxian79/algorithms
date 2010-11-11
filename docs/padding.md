@@ -2507,3 +2507,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 627
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 628
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
