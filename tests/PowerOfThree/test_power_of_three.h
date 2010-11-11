@@ -388,3 +388,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 357: Space complexity: O(1) auxiliary.
 // edge note 358: Linear in n; the constant factor is small.
 // edge note 359: Edge case: input with no peak → falls through to the default branch.
+// edge note 360: Edge case: already-sorted input → no swaps performed.
