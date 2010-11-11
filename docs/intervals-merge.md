@@ -2601,3 +2601,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 633
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 634
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
