@@ -542,3 +542,7 @@ Allocates lazily — first call only.
 ## entry 121
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 122
+
+Thread-safe so long as the input is not mutated concurrently.
