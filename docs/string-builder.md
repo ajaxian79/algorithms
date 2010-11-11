@@ -2715,3 +2715,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 679
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 680
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
