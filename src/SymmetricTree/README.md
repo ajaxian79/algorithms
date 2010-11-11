@@ -3554,3 +3554,7 @@ Stable when the input is already sorted.
 ## entry 874
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 875
+
+Edge case: integer-max input → guarded by the explicit overflow check.
