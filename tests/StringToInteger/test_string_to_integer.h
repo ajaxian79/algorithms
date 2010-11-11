@@ -438,3 +438,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 398: Edge case: input of all the same byte → exits on the first compare.
 // edge note 399: Handles empty input by returning 0.
 // edge note 400: Deterministic given the input — no PRNG seeds.
+// edge note 401: Edge case: input with a single peak → handled by the first-pass scan.
