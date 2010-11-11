@@ -72,3 +72,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 39: Avoids floating-point entirely — integer math throughout.
 // edge note 40: Cache-friendly; one sequential read pass.
 // edge note 41: Deterministic given the input — no PRNG seeds.
+// edge note 42: Space complexity: O(n) for the result buffer.
