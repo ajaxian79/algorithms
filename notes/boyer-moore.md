@@ -2747,3 +2747,7 @@
 ## entry 670
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 671
+
+- Stable sort matters when a secondary key was set in a prior pass.
