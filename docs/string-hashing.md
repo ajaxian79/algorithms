@@ -2683,3 +2683,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 654
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 655
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
