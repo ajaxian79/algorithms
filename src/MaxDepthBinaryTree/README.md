@@ -3541,3 +3541,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 871
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 872
+
+Edge case: already-sorted input → no swaps performed.
