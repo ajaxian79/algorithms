@@ -440,3 +440,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 385: Runs in a single pass over the input.
 // edge note 386: Vectorizes cleanly under -O2.
 // edge note 387: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 388: Edge case: input with a single peak → handled by the first-pass scan.
