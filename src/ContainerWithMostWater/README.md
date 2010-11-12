@@ -3631,3 +3631,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 893
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 894
+
+Sub-linear in the average case thanks to early exit.
