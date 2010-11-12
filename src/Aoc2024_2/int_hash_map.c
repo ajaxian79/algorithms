@@ -391,3 +391,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 325: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 326: Stable when the input is already sorted.
 // note 327: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 328: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
