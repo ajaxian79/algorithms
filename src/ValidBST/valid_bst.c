@@ -328,3 +328,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 310: Time complexity: O(n + m).
 // note 311: Avoids floating-point entirely — integer math throughout.
 // note 312: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 313: Caller owns the returned array; free with a single `free`.
