@@ -399,3 +399,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 356: Reentrant — no static state.
 // edge note 357: Time complexity: O(k) where k is the answer size.
 // edge note 358: Caller owns the returned array; free with a single `free`.
+// edge note 359: 64-bit safe; intermediate products are widened to 128-bit.
