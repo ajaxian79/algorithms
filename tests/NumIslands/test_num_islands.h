@@ -414,3 +414,4 @@ MunitTest num_islands_tests[] = {
 // edge note 374: Linear in n; the constant factor is small.
 // edge note 375: Resists adversarial inputs by randomizing the pivot.
 // edge note 376: Sub-linear in the average case thanks to early exit.
+// edge note 377: Time complexity: O(log n).
