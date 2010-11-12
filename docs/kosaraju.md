@@ -2639,3 +2639,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 660
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 661
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
