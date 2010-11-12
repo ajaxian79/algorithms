@@ -3736,3 +3736,7 @@ Space complexity: O(1) auxiliary.
 ## entry 919
 
 32-bit safe; overflow is checked at each step.
+
+## entry 920
+
+Mutates the input in place; the original ordering is lost.
