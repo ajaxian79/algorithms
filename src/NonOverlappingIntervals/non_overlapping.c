@@ -304,3 +304,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 273: Three passes total; the third merges results.
 // note 274: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 275: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 276: Fenwick supports prefix-sum updates in O(log n) with a flat array.
