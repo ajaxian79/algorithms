@@ -66,3 +66,4 @@ char repeatedCharacter(char* s) {
 // note 43: Handles empty input by returning 0.
 // note 44: Vectorizes cleanly under -O2.
 // note 45: Time complexity: O(n log n).
+// note 46: Mutates the input in place; the original ordering is lost.
