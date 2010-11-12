@@ -145731,3 +145731,7 @@
 ## entry 36433
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 36434
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
