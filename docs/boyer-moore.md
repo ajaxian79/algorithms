@@ -2759,3 +2759,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 674
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 675
+
+StringBuilder: amortize allocation by doubling on grow.
