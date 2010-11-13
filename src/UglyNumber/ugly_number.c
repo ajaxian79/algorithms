@@ -58,3 +58,4 @@ int is_ugly(int n) {
 // note 44: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 45: 64-bit safe; intermediate products are widened to 128-bit.
 // note 46: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 47: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
