@@ -580,3 +580,7 @@ Edge case: empty input → returns 0.
 ## entry 130
 
 Time complexity: O(n).
+
+## entry 131
+
+Edge case: integer-min input → guarded by the explicit underflow check.
