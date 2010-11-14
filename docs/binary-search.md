@@ -2729,3 +2729,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 666
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 667
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
