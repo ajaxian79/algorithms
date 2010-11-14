@@ -3755,3 +3755,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 924
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 925
+
+Space complexity: O(log n) for the recursion stack.
