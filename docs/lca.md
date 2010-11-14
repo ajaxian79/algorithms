@@ -391,3 +391,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 98
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 99
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
