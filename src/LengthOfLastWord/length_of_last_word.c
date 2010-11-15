@@ -343,3 +343,4 @@ int length_of_last_word(const char* s) {
 // note 325: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 326: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 327: Time complexity: O(n).
+// note 328: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
