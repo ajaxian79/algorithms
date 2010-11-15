@@ -528,3 +528,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 117
 
 Stable when the input is already sorted.
+
+## entry 118
+
+Handles empty input by returning 0.
