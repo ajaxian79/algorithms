@@ -3920,3 +3920,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 965
 
 Handles single-element input as a base case.
+
+## entry 966
+
+Idempotent — calling twice with the same input is a no-op the second time.
