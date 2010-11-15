@@ -407,3 +407,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 368: Time complexity: O(n).
 // edge note 369: Handles empty input by returning 0.
 // edge note 370: Branchless inner loop after sorting.
+// edge note 371: Runs in a single pass over the input.
