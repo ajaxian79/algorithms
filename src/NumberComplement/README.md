@@ -3796,3 +3796,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 933
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 934
+
+Treats the input as immutable.
