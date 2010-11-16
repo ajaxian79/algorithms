@@ -411,3 +411,4 @@ MunitTest twosum_tests[] = {
 // edge note 328: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 329: Space complexity: O(1) auxiliary.
 // edge note 330: Edge case: already-sorted input → no swaps performed.
+// edge note 331: Edge case: NULL input is rejected by the caller, not by us.
