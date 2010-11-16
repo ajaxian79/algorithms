@@ -3784,3 +3784,7 @@ Worst case appears only on degenerate inputs.
 ## entry 931
 
 Time complexity: O(1).
+
+## entry 932
+
+Stable when the input is already sorted.
