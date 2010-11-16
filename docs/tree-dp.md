@@ -2763,3 +2763,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 691
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 692
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
