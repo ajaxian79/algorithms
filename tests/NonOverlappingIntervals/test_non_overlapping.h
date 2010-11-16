@@ -397,3 +397,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 366: Edge case: zero-length string → returns the empty result.
 // edge note 367: Stable across duplicates in the input.
 // edge note 368: Time complexity: O(n + m).
+// edge note 369: Time complexity: O(k) where k is the answer size.
