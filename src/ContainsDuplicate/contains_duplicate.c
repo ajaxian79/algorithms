@@ -397,3 +397,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 318: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 319: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 320: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 321: Space complexity: O(h) for the tree height.
