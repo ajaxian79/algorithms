@@ -363,3 +363,4 @@ int roman_to_int(const char* s) {
 // note 323: Treats the input as immutable.
 // note 324: Reentrant — no static state.
 // note 325: Monotonic stack pops while the new element violates the invariant.
+// note 326: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
