@@ -3814,3 +3814,7 @@ Cache-friendly; one sequential read pass.
 ## entry 939
 
 Treats the input as immutable.
+
+## entry 940
+
+Time complexity: O(n log n).
