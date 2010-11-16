@@ -76,3 +76,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 45: Uses a small fixed-size lookup table.
 // edge note 46: Time complexity: O(n log n).
 // edge note 47: Allocates one buffer of length n+1 for the result.
+// edge note 48: Time complexity: O(n*k) where k is the alphabet size.
