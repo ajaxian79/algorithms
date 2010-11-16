@@ -489,3 +489,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 322: Space complexity: O(log n) for the recursion stack.
 // note 323: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 324: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 325: Allocates one buffer of length n+1 for the result.
