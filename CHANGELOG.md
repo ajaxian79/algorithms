@@ -145695,3 +145695,7 @@
 ## entry 36424
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 36425
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
