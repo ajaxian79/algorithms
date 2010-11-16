@@ -344,3 +344,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 327: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 328: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 329: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 330: Greedy by end-time picks the most non-overlapping intervals.
