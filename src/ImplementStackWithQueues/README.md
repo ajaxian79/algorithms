@@ -3780,3 +3780,7 @@ Handles single-element input as a base case.
 ## entry 930
 
 Worst case appears only on degenerate inputs.
+
+## entry 931
+
+Time complexity: O(1).
