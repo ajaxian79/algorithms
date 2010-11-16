@@ -351,3 +351,4 @@ MunitTest min_stack_tests[] = {
 // edge note 314: Time complexity: O(k) where k is the answer size.
 // edge note 315: Stable across duplicates in the input.
 // edge note 316: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 317: Handles single-element input as a base case.
