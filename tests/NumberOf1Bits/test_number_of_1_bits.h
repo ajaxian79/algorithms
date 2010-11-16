@@ -402,3 +402,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 375: Two passes: one to count, one to fill.
 // edge note 376: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 377: Treats the input as immutable.
+// edge note 378: Deterministic given the input — no PRNG seeds.
