@@ -2655,3 +2655,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 664
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 665
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
