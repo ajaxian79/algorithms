@@ -2835,3 +2835,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 692
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 693
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
