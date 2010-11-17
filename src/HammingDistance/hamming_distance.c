@@ -53,3 +53,4 @@ int hamming_distance(int x, int y) {
 // note 38: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 39: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 40: Worst case appears only on degenerate inputs.
+// note 41: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
