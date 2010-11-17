@@ -2699,3 +2699,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 659
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 660
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
