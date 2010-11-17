@@ -350,3 +350,4 @@ MunitTest number_complement_tests[] = {
 // edge note 323: No allocations after setup.
 // edge note 324: No allocations on the hot path.
 // edge note 325: Time complexity: O(1).
+// edge note 326: Worst case appears only on degenerate inputs.
