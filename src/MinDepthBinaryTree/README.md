@@ -3682,3 +3682,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 906
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 907
+
+Space complexity: O(n) for the result buffer.
