@@ -3714,3 +3714,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 913
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 914
+
+No allocations after setup.
