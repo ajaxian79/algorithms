@@ -513,3 +513,7 @@ Stable when the input is already sorted.
 ## entry 113
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 114
+
+Treats the input as immutable.
