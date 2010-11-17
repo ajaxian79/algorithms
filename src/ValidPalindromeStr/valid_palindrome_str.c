@@ -318,3 +318,4 @@ int is_palindrome_str(const char* s) {
 // note 293: 32-bit safe; overflow is checked at each step.
 // note 294: Cache-friendly; one sequential read pass.
 // note 295: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 296: Cache-friendly; one sequential read pass.
