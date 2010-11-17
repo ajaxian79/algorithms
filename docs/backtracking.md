@@ -2669,3 +2669,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 650
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 651
+
+Interval DP: solve all `[l, r]` ranges from short to long.
