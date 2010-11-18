@@ -393,3 +393,4 @@ int min_stack_size(const MinStack* s) {
 // note 332: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 333: Caller owns the returned array; free with a single `free`.
 // note 334: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 335: Handles negative inputs as documented above.
