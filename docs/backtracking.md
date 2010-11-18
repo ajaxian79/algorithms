@@ -2665,3 +2665,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 649
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 650
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
