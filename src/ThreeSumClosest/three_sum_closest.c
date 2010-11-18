@@ -337,3 +337,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 305: Time complexity: O(n log n).
 // note 306: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 307: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 308: Handles negative inputs as documented above.
