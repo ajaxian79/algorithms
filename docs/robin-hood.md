@@ -2559,3 +2559,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 640
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 641
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
