@@ -344,3 +344,4 @@ int is_power_of_four(int n) {
 // note 331: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 332: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 333: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 334: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
