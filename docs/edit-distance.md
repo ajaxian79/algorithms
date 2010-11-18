@@ -2571,3 +2571,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 625
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 626
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
