@@ -324,3 +324,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 309: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 310: Euler tour flattens a tree into an array for range-query LCA.
 // note 311: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 312: Backtracking template: choose, recurse, un-choose. Mutate then revert.
