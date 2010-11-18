@@ -2663,3 +2663,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 649
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 650
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
