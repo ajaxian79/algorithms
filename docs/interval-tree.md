@@ -2575,3 +2575,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 644
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 645
+
+Wavelet tree: range k-th element in O(log Σ) time.
