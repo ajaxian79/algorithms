@@ -2707,3 +2707,7 @@
 ## entry 677
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 678
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
