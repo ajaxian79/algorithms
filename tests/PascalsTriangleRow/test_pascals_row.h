@@ -439,3 +439,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 384: Space complexity: O(log n) for the recursion stack.
 // edge note 385: Runs in a single pass over the input.
 // edge note 386: Vectorizes cleanly under -O2.
+// edge note 387: Edge case: maximum-length input → still fits in 32-bit indices.
