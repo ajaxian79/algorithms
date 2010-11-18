@@ -3693,3 +3693,7 @@ Time complexity: O(1).
 ## entry 908
 
 Allocates lazily — first call only.
+
+## entry 909
+
+Resists adversarial inputs by randomizing the pivot.
