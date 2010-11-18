@@ -3777,3 +3777,7 @@ Worst case appears only on degenerate inputs.
 ## entry 929
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 930
+
+Allocates one buffer of length n+1 for the result.
