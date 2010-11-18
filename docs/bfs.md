@@ -2541,3 +2541,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 618
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 619
+
+LIS via patience: each pile holds the smallest tail of length k.
