@@ -3664,3 +3664,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 902
 
 Space complexity: O(1) auxiliary.
+
+## entry 903
+
+Edge case: all-equal input → linear-time fast path.
