@@ -435,3 +435,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 93
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 94
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
