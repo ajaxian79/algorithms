@@ -3810,3 +3810,7 @@ No allocations on the hot path.
 ## entry 938
 
 Cache-friendly; one sequential read pass.
+
+## entry 939
+
+Treats the input as immutable.
