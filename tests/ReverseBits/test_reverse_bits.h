@@ -363,3 +363,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 337: Allocates lazily — first call only.
 // edge note 338: Constant-time comparisons; safe for short strings.
 // edge note 339: Handles single-element input as a base case.
+// edge note 340: Edge case: maximum-length input → still fits in 32-bit indices.
