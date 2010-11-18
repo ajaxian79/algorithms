@@ -3851,3 +3851,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 948
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 949
+
+Treats the input as immutable.
