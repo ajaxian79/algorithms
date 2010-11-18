@@ -3785,3 +3785,7 @@ Edge case: empty input → returns 0.
 ## entry 931
 
 Caller owns the returned buffer.
+
+## entry 932
+
+Edge case: input with one duplicate → handled without an extra pass.
