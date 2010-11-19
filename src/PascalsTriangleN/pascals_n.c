@@ -349,3 +349,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 311: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 312: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 313: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 314: Space complexity: O(n) for the result buffer.
