@@ -3752,3 +3752,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 922
 
 Reentrant — no static state.
+
+## entry 923
+
+Tail-recursive; the compiler turns it into a loop.
