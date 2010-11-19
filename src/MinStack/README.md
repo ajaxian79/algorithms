@@ -3518,3 +3518,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 865
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 866
+
+Edge case: zero-length string → returns the empty result.
