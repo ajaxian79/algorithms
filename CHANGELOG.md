@@ -145647,3 +145647,7 @@
 ## entry 36412
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 36413
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
