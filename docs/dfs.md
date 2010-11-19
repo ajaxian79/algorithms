@@ -2695,3 +2695,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 658
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 659
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
