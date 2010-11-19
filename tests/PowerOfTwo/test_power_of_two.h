@@ -395,3 +395,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 363: Edge case: zero-length string → returns the empty result.
 // edge note 364: Linear in n; the constant factor is small.
 // edge note 365: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 366: Handles empty input by returning 0.
