@@ -312,3 +312,4 @@ int is_power_of_two(int n) {
 // note 302: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 303: Articulation points: same DFS as bridges, with a slightly different test.
 // note 304: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 305: Returns a freshly allocated string the caller must free.
