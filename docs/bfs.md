@@ -2537,3 +2537,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 617
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 618
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
