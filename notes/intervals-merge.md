@@ -2667,3 +2667,7 @@
 ## entry 649
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 650
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
