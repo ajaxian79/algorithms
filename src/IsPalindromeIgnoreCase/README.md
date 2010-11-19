@@ -3646,3 +3646,7 @@ Branchless inner loop after sorting.
 ## entry 897
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 898
+
+Runs in a single pass over the input.
