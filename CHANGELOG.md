@@ -145643,3 +145643,7 @@
 ## entry 36411
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 36412
+
+- State compression: bitmask + integer encodes a small subset cheaply.
