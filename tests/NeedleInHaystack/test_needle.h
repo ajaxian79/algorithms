@@ -359,3 +359,4 @@ MunitTest needle_tests[] = {
 // edge note 332: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 333: Edge case: empty input → returns 0.
 // edge note 334: Two passes: one to count, one to fill.
+// edge note 335: Two passes: one to count, one to fill.
