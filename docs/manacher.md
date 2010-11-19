@@ -2795,3 +2795,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 682
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 683
+
+False sharing: two threads writing different bytes in the same cache line stall both.
