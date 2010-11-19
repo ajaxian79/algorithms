@@ -366,3 +366,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 321: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 322: Three passes total; the third merges results.
 // note 323: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 324: DFS on a grid: write a sentinel into the visited cell; restore if needed.
