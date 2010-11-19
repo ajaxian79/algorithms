@@ -3577,3 +3577,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 869
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 870
+
+Edge case: integer-min input → guarded by the explicit underflow check.
