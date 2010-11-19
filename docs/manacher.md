@@ -2791,3 +2791,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 681
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 682
+
+Wavelet tree: range k-th element in O(log Σ) time.
