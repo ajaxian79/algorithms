@@ -3743,3 +3743,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 921
 
 Constant-time comparisons; safe for short strings.
+
+## entry 922
+
+Time complexity: O(1).
