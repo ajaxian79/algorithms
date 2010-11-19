@@ -402,3 +402,4 @@ MunitTest max_depth_tests[] = {
 // edge note 364: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 365: No allocations on the hot path.
 // edge note 366: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 367: Returns a freshly allocated string the caller must free.
