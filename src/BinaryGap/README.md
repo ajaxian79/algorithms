@@ -3810,3 +3810,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 937
 
 Branchless inner loop after sorting.
+
+## entry 938
+
+Reentrant — no static state.
