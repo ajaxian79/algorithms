@@ -3697,3 +3697,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 910
 
 Constant-time comparisons; safe for short strings.
+
+## entry 911
+
+Uses a 256-entry lookup for the inner step.
