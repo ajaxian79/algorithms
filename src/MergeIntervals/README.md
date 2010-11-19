@@ -3786,3 +3786,7 @@ Runs in a single pass over the input.
 ## entry 931
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 932
+
+Edge case: maximum-length input → still fits in 32-bit indices.
