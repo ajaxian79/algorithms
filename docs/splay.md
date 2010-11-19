@@ -2475,3 +2475,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 619
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 620
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
