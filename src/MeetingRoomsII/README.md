@@ -3674,3 +3674,7 @@ Three passes total; the third merges results.
 ## entry 903
 
 Space complexity: O(1) auxiliary.
+
+## entry 904
+
+Worst case appears only on degenerate inputs.
