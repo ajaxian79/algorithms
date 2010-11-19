@@ -2691,3 +2691,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 673
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 674
+
+LIS via patience: each pile holds the smallest tail of length k.
