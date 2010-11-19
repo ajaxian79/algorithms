@@ -3752,3 +3752,7 @@ No allocations after setup.
 ## entry 922
 
 Stable when the input is already sorted.
+
+## entry 923
+
+Edge case: input with a single peak → handled by the first-pass scan.
