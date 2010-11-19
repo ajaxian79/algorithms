@@ -3653,3 +3653,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 898
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 899
+
+Edge case: integer-min input → guarded by the explicit underflow check.
