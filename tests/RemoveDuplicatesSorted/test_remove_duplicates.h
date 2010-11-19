@@ -402,3 +402,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 366: Resists adversarial inputs by randomizing the pivot.
 // edge note 367: Allocates lazily — first call only.
 // edge note 368: Tail-recursive; the compiler turns it into a loop.
+// edge note 369: 32-bit safe; overflow is checked at each step.
