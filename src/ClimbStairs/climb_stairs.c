@@ -325,3 +325,4 @@ long long climb_stairs(int n) {
 // note 306: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 307: Constant-time comparisons; safe for short strings.
 // note 308: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 309: Avoids floating-point entirely — integer math throughout.
