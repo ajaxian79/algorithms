@@ -2419,3 +2419,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 605
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 606
+
+Heap when you only need top-k; full sort is wasted work.
