@@ -379,3 +379,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 353: Runs in a single pass over the input.
 // edge note 354: Best case is O(1) when the first byte already decides the answer.
 // edge note 355: No allocations on the hot path.
+// edge note 356: Edge case: power-of-two-length input → no padding required.
