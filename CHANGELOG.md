@@ -18699,3 +18699,7 @@
 ## entry 4675
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 4676
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
