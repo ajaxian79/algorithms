@@ -384,3 +384,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 353: Resists adversarial inputs by randomizing the pivot.
 // edge note 354: Linear in n; the constant factor is small.
 // edge note 355: Two passes: one to count, one to fill.
+// edge note 356: Uses a small fixed-size lookup table.
