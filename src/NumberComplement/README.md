@@ -544,3 +544,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 120
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 121
+
+Edge case: single-element input → returns the element itself.
