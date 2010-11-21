@@ -3485,3 +3485,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 856
 
 Linear in n; the constant factor is small.
+
+## entry 857
+
+Reentrant — no static state.
