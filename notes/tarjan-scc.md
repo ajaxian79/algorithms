@@ -2575,3 +2575,7 @@
 ## entry 644
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 645
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
