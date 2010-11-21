@@ -3426,3 +3426,7 @@ Two passes: one to count, one to fill.
 ## entry 832
 
 Handles empty input by returning 0.
+
+## entry 833
+
+Cache-friendly; one sequential read pass.
