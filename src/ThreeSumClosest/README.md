@@ -3530,3 +3530,7 @@ Time complexity: O(n).
 ## entry 868
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 869
+
+Space complexity: O(n) for the result buffer.
