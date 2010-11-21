@@ -145603,3 +145603,7 @@
 ## entry 36401
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 36402
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
