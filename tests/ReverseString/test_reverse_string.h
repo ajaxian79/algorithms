@@ -403,3 +403,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 365: Three passes total; the third merges results.
 // edge note 366: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 367: Avoids floating-point entirely — integer math throughout.
+// edge note 368: Edge case: empty input → returns 0.
