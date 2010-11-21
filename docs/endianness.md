@@ -2479,3 +2479,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 620
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 621
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
