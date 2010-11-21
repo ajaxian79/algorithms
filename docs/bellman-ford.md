@@ -2655,3 +2655,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 664
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 665
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
