@@ -2519,3 +2519,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 614
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 615
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
