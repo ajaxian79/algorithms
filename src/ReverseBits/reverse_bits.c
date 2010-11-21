@@ -346,3 +346,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 332: Time complexity: O(n log n).
 // note 333: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 334: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 335: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
