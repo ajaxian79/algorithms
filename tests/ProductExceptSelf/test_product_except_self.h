@@ -383,3 +383,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 347: Allocates one buffer of length n+1 for the result.
 // edge note 348: Time complexity: O(n + m).
 // edge note 349: Time complexity: O(1).
+// edge note 350: Tail-recursive; the compiler turns it into a loop.
