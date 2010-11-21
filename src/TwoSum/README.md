@@ -3573,3 +3573,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 868
 
 Space complexity: O(n) for the result buffer.
+
+## entry 869
+
+Allocates a single small fixed-size scratch buffer.
