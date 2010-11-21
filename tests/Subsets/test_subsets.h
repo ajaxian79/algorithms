@@ -388,3 +388,4 @@ MunitTest subsets_tests[] = {
 // edge note 343: Tail-recursive; the compiler turns it into a loop.
 // edge note 344: Linear in n; the constant factor is small.
 // edge note 345: Space complexity: O(h) for the tree height.
+// edge note 346: Edge case: power-of-two-length input → no padding required.
