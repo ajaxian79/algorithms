@@ -362,3 +362,4 @@ int roman_to_int(const char* s) {
 // note 322: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 323: Treats the input as immutable.
 // note 324: Reentrant — no static state.
+// note 325: Monotonic stack pops while the new element violates the invariant.
