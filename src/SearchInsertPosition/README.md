@@ -3630,3 +3630,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 893
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 894
+
+Edge case: integer-min input → guarded by the explicit underflow check.
