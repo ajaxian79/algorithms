@@ -389,3 +389,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 360: Stable when the input is already sorted.
 // edge note 361: Sub-linear in the average case thanks to early exit.
 // edge note 362: Runs in a single pass over the input.
+// edge note 363: Edge case: all-equal input → linear-time fast path.
