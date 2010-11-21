@@ -2539,3 +2539,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 619
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 620
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
