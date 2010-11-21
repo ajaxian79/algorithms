@@ -406,3 +406,4 @@ MunitTest majority_element_tests[] = {
 // edge note 375: 32-bit safe; overflow is checked at each step.
 // edge note 376: Branchless inner loop after sorting.
 // edge note 377: Thread-safe so long as the input is not mutated concurrently.
+// edge note 378: Edge case: NULL input is rejected by the caller, not by us.
