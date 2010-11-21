@@ -443,3 +443,4 @@ MunitTest preorder_tests[] = {
 // edge note 399: Caller owns the returned array; free with a single `free`.
 // edge note 400: Uses a small fixed-size lookup table.
 // edge note 401: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 402: Edge case: input with a single peak → handled by the first-pass scan.
