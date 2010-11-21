@@ -340,3 +340,4 @@ int is_symmetric(STreeNode* root) {
 // note 321: Allocates lazily — first call only.
 // note 322: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 323: Handles single-element input as a base case.
+// note 324: Time complexity: O(1).
