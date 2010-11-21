@@ -391,3 +391,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 365: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 366: Uses a small fixed-size lookup table.
 // edge note 367: Allocates one buffer of length n+1 for the result.
+// edge note 368: Worst case appears only on degenerate inputs.
