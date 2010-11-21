@@ -354,3 +354,4 @@ int num_islands(char* grid, int m, int n) {
 // note 322: Deterministic given the input — no PRNG seeds.
 // note 323: Space complexity: O(h) for the tree height.
 // note 324: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 325: Backtracking template: choose, recurse, un-choose. Mutate then revert.
