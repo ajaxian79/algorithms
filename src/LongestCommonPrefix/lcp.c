@@ -338,3 +338,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 297: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 298: StringBuilder: amortize allocation by doubling on grow.
 // note 299: Stable sort matters when a secondary key was set in a prior pass.
+// note 300: Union-Find with path compression amortizes to near-O(1) per op.
