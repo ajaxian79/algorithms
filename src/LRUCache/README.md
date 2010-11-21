@@ -3580,3 +3580,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 879
 
 Handles negative inputs as documented above.
+
+## entry 880
+
+Handles single-element input as a base case.
