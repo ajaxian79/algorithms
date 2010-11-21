@@ -407,3 +407,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 377: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 378: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 379: Uses a 256-entry lookup for the inner step.
+// edge note 380: Constant-time comparisons; safe for short strings.
