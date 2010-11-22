@@ -360,3 +360,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 346: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 347: Linear in n; the constant factor is small.
 // note 348: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 349: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
