@@ -637,3 +637,4 @@ void free_contents(char *buffer) {
 // note 331: StringBuilder: amortize allocation by doubling on grow.
 // note 332: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 333: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 334: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
