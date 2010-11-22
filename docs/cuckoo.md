@@ -2383,3 +2383,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 596
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 597
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
