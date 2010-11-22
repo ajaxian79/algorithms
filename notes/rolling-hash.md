@@ -2787,3 +2787,7 @@
 ## entry 679
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 680
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
