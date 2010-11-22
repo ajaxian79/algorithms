@@ -350,3 +350,4 @@ char* excel_column_title(int n) {
 // note 320: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 321: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 322: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 323: Linear in n; the constant factor is small.
