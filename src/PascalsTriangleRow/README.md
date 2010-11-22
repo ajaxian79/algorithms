@@ -3802,3 +3802,7 @@ No allocations after setup.
 ## entry 936
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 937
+
+No allocations on the hot path.
