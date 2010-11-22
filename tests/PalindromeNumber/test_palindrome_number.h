@@ -413,3 +413,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 378: Space complexity: O(1) auxiliary.
 // edge note 379: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 380: Runs in a single pass over the input.
+// edge note 381: Edge case: zero-length string → returns the empty result.
