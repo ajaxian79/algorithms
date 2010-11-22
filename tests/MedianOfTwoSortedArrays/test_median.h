@@ -452,3 +452,4 @@ MunitTest median_tests[] = {
 // edge note 333: Edge case: all-equal input → linear-time fast path.
 // edge note 334: Allocates one buffer of length n+1 for the result.
 // edge note 335: Allocates lazily — first call only.
+// edge note 336: Allocates lazily — first call only.
