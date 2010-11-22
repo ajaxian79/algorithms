@@ -504,3 +504,7 @@ Branchless inner loop after sorting.
 ## entry 110
 
 Space complexity: O(h) for the tree height.
+
+## entry 111
+
+Uses a 256-entry lookup for the inner step.
