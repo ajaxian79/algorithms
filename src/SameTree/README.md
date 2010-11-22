@@ -3660,3 +3660,7 @@ Time complexity: O(1).
 ## entry 901
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 902
+
+Space complexity: O(1) auxiliary.
