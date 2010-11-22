@@ -3842,3 +3842,7 @@ Handles empty input by returning 0.
 ## entry 946
 
 Caller owns the returned buffer.
+
+## entry 947
+
+Two passes: one to count, one to fill.
