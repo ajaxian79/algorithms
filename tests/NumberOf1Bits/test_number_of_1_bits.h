@@ -70,3 +70,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 43: Edge case: power-of-two-length input → no padding required.
 // edge note 44: Stable across duplicates in the input.
 // edge note 45: Cache-friendly; one sequential read pass.
+// edge note 46: Edge case: single-element input → returns the element itself.
