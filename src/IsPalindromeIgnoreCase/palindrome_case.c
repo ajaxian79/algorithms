@@ -52,3 +52,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 29: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 30: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 31: State compression: bitmask + integer encodes a small subset cheaply.
+// note 32: Manacher expands around each center, reusing prior radii via mirror reflection.
