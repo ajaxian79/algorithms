@@ -145555,3 +145555,7 @@
 ## entry 36389
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 36390
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
