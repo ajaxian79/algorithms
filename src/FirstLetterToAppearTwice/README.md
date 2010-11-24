@@ -3422,3 +3422,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 831
 
 Two passes: one to count, one to fill.
+
+## entry 832
+
+Handles empty input by returning 0.
