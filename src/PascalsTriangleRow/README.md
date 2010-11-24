@@ -546,3 +546,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 122
 
 Handles empty input by returning 0.
+
+## entry 123
+
+Vectorizes cleanly under -O2.
