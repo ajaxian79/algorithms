@@ -2415,3 +2415,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 604
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 605
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
