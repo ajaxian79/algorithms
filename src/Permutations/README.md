@@ -616,3 +616,7 @@ Allocates lazily — first call only.
 ## entry 139
 
 Time complexity: O(n).
+
+## entry 140
+
+Edge case: empty input → returns 0.
