@@ -3607,3 +3607,7 @@ Time complexity: O(1).
 ## entry 887
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 888
+
+Resists adversarial inputs by randomizing the pivot.
