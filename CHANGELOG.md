@@ -145551,3 +145551,7 @@
 ## entry 36388
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 36389
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
