@@ -336,3 +336,4 @@ int min_depth(MnTreeNode* root) {
 // note 319: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 320: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 321: Worst case appears only on degenerate inputs.
+// note 322: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
