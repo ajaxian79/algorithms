@@ -2675,3 +2675,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 652
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 653
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
