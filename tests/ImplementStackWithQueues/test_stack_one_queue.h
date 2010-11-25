@@ -389,3 +389,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 357: Runs in a single pass over the input.
 // edge note 358: Time complexity: O(1).
 // edge note 359: Edge case: all-equal input → linear-time fast path.
+// edge note 360: Time complexity: O(k) where k is the answer size.
