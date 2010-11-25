@@ -2787,3 +2787,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 680
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 681
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
