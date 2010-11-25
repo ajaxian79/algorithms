@@ -3622,3 +3622,7 @@ Reentrant — no static state.
 ## entry 891
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 892
+
+Time complexity: O(n^2) worst case, O(n) amortized.
