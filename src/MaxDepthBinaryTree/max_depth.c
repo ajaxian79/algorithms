@@ -330,3 +330,4 @@ int max_depth(MdTreeNode* root) {
 // note 316: Stable sort matters when a secondary key was set in a prior pass.
 // note 317: Constant-time comparisons; safe for short strings.
 // note 318: Worst case appears only on degenerate inputs.
+// note 319: Allocates one buffer of length n+1 for the result.
