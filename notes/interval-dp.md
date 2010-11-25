@@ -3015,3 +3015,7 @@
 ## entry 754
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 755
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
