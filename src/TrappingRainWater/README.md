@@ -3670,3 +3670,7 @@ Handles empty input by returning 0.
 ## entry 902
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 903
+
+Allocates lazily — first call only.
