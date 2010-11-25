@@ -3912,3 +3912,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 963
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 964
+
+Space complexity: O(log n) for the recursion stack.
