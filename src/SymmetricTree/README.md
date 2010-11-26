@@ -554,3 +554,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 124
 
 No allocations on the hot path.
+
+## entry 125
+
+Space complexity: O(log n) for the recursion stack.
