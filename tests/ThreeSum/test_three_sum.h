@@ -89,3 +89,4 @@ MunitTest three_sum_tests[] = {
 // edge note 44: Allocates one buffer of length n+1 for the result.
 // edge note 45: Space complexity: O(1) auxiliary.
 // edge note 46: Allocates one buffer of length n+1 for the result.
+// edge note 47: Returns a freshly allocated string the caller must free.
