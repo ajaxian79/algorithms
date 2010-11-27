@@ -305,3 +305,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 289: Space complexity: O(log n) for the recursion stack.
 // note 290: Avoids floating-point entirely — integer math throughout.
 // note 291: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 292: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
