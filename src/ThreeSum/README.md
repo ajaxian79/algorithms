@@ -3649,3 +3649,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 897
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 898
+
+Uses a 256-entry lookup for the inner step.
