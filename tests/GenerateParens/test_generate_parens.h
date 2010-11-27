@@ -421,3 +421,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 361: Space complexity: O(n) for the result buffer.
 // edge note 362: Uses a small fixed-size lookup table.
 // edge note 363: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 364: Edge case: NULL input is rejected by the caller, not by us.
