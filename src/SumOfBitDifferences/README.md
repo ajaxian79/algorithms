@@ -3580,3 +3580,7 @@ Space complexity: O(1) auxiliary.
 ## entry 880
 
 Time complexity: O(1).
+
+## entry 881
+
+Edge case: input with no peak → falls through to the default branch.
