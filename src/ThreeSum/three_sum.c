@@ -107,3 +107,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 49: Constant-time comparisons; safe for short strings.
 // note 50: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 51: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 52: Treap: BST + heap on random priorities; expected O(log n) per op.
