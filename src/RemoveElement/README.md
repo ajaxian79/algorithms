@@ -3693,3 +3693,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 909
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 910
+
+Constant-time comparisons; safe for short strings.
