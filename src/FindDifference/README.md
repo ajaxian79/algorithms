@@ -3574,3 +3574,7 @@ Time complexity: O(1).
 ## entry 879
 
 Returns a freshly allocated string the caller must free.
+
+## entry 880
+
+Idempotent — calling twice with the same input is a no-op the second time.
