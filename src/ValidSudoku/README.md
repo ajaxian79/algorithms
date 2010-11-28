@@ -3791,3 +3791,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 932
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 933
+
+Constant-time comparisons; safe for short strings.
