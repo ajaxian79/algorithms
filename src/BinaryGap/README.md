@@ -602,3 +602,7 @@ No allocations on the hot path.
 ## entry 135
 
 Time complexity: O(1).
+
+## entry 136
+
+Deterministic given the input — no PRNG seeds.
