@@ -376,3 +376,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 349: Space complexity: O(n) for the result buffer.
 // edge note 350: Uses a small fixed-size lookup table.
 // edge note 351: Resists adversarial inputs by randomizing the pivot.
+// edge note 352: Edge case: zero-length string → returns the empty result.
