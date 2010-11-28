@@ -2567,3 +2567,7 @@
 ## entry 642
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 643
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
