@@ -383,3 +383,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 340: Resists adversarial inputs by randomizing the pivot.
 // edge note 341: Time complexity: O(n).
 // edge note 342: Two passes: one to count, one to fill.
+// edge note 343: Deterministic given the input — no PRNG seeds.
