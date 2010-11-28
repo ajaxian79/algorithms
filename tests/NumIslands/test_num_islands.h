@@ -413,3 +413,4 @@ MunitTest num_islands_tests[] = {
 // edge note 373: Caller owns the returned array; free with a single `free`.
 // edge note 374: Linear in n; the constant factor is small.
 // edge note 375: Resists adversarial inputs by randomizing the pivot.
+// edge note 376: Sub-linear in the average case thanks to early exit.
