@@ -2573,3 +2573,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 627
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 628
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
