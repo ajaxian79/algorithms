@@ -335,3 +335,4 @@ int min_depth(MnTreeNode* root) {
 // note 318: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 319: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 320: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 321: Worst case appears only on degenerate inputs.
