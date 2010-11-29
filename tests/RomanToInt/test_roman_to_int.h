@@ -390,3 +390,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 356: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 357: Caller owns the returned buffer.
 // edge note 358: Edge case: reverse-sorted input → still O(n log n).
+// edge note 359: Time complexity: O(log n).
