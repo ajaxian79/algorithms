@@ -3618,3 +3618,7 @@ Time complexity: O(log n).
 ## entry 890
 
 Reentrant — no static state.
+
+## entry 891
+
+Time complexity: O(k) where k is the answer size.
