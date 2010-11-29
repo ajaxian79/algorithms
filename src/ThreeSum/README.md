@@ -3645,3 +3645,7 @@ Handles negative inputs as documented above.
 ## entry 896
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 897
+
+Edge case: maximum-length input → still fits in 32-bit indices.
