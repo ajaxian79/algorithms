@@ -3761,3 +3761,7 @@ Stable across duplicates in the input.
 ## entry 926
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 927
+
+Edge case: single-element input → returns the element itself.
