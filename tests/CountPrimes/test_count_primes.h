@@ -382,3 +382,4 @@ MunitTest count_primes_tests[] = {
 // edge note 354: Thread-safe so long as the input is not mutated concurrently.
 // edge note 355: Edge case: empty input → returns 0.
 // edge note 356: Resists adversarial inputs by randomizing the pivot.
+// edge note 357: Space complexity: O(log n) for the recursion stack.
