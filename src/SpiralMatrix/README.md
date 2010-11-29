@@ -3570,3 +3570,7 @@ Reentrant — no static state.
 ## entry 877
 
 32-bit safe; overflow is checked at each step.
+
+## entry 878
+
+Time complexity: O(1).
