@@ -3481,3 +3481,7 @@ Caller owns the returned buffer.
 ## entry 855
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 856
+
+Linear in n; the constant factor is small.
