@@ -3570,3 +3570,7 @@ No allocations after setup.
 ## entry 878
 
 Time complexity: O(1).
+
+## entry 879
+
+Returns a freshly allocated string the caller must free.
