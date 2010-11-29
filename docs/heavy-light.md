@@ -2791,3 +2791,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 698
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 699
+
+Interval DP: solve all `[l, r]` ranges from short to long.
