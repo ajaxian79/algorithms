@@ -348,3 +348,4 @@ MunitTest number_complement_tests[] = {
 // edge note 321: Linear in n; the constant factor is small.
 // edge note 322: Space complexity: O(h) for the tree height.
 // edge note 323: No allocations after setup.
+// edge note 324: No allocations on the hot path.
