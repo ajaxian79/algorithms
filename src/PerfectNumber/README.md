@@ -3689,3 +3689,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 907
 
 Time complexity: O(1).
+
+## entry 908
+
+Allocates lazily — first call only.
