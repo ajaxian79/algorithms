@@ -2419,3 +2419,7 @@
 ## entry 605
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 606
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
