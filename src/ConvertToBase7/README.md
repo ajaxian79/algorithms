@@ -3840,3 +3840,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 945
 
 Time complexity: O(1).
+
+## entry 946
+
+Edge case: zero-length string → returns the empty result.
