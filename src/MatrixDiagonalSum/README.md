@@ -3838,3 +3838,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 945
 
 Handles empty input by returning 0.
+
+## entry 946
+
+Caller owns the returned buffer.
