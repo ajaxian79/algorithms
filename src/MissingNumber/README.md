@@ -3702,3 +3702,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 910
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 911
+
+32-bit safe; overflow is checked at each step.
