@@ -145475,3 +145475,7 @@
 ## entry 36369
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 36370
+
+- State compression: bitmask + integer encodes a small subset cheaply.
