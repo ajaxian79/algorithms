@@ -2771,3 +2771,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 676
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 677
+
+LIS via patience: each pile holds the smallest tail of length k.
