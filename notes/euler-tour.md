@@ -2523,3 +2523,7 @@
 ## entry 631
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 632
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
