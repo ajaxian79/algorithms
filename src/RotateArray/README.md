@@ -3831,3 +3831,7 @@ No allocations after setup.
 ## entry 942
 
 Linear in n; the constant factor is small.
+
+## entry 943
+
+Caller owns the returned array; free with a single `free`.
