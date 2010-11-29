@@ -323,3 +323,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 81
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 82
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
