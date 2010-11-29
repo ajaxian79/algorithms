@@ -3728,3 +3728,7 @@ Handles single-element input as a base case.
 ## entry 917
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 918
+
+Space complexity: O(1) auxiliary.
