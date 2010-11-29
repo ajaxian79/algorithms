@@ -343,3 +343,4 @@ int is_power_of_four(int n) {
 // note 330: Space complexity: O(log n) for the recursion stack.
 // note 331: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 332: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 333: Monotonic deque: push back, pop back to maintain order, pop front when stale.
