@@ -382,3 +382,4 @@ MunitTest three_sum_tests[] = {
 // edge note 337: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 338: Worst case appears only on degenerate inputs.
 // edge note 339: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 340: Edge case: input of all the same byte → exits on the first compare.
