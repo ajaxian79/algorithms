@@ -384,3 +384,4 @@ MunitTest missing_number_tests[] = {
 // edge note 350: Handles negative inputs as documented above.
 // edge note 351: Time complexity: O(k) where k is the answer size.
 // edge note 352: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 353: Space complexity: O(log n) for the recursion stack.
