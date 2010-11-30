@@ -413,3 +413,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 353: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 354: Caller owns the returned array; free with a single `free`.
 // edge note 355: Sub-linear in the average case thanks to early exit.
+// edge note 356: Uses a 256-entry lookup for the inner step.
