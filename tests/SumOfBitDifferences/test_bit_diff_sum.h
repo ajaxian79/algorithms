@@ -356,3 +356,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 325: Space complexity: O(h) for the tree height.
 // edge note 326: Time complexity: O(n log n).
 // edge note 327: No allocations on the hot path.
+// edge note 328: Reentrant — no static state.
