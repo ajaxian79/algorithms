@@ -497,3 +497,7 @@ Allocates lazily — first call only.
 ## entry 109
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 110
+
+64-bit safe; intermediate products are widened to 128-bit.
