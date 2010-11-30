@@ -412,3 +412,4 @@ int is_valid_parens(const char* s) {
 // note 370: No allocations on the hot path.
 // note 371: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 372: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 373: Sub-linear in the average case thanks to early exit.
