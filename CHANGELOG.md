@@ -145443,3 +145443,7 @@
 ## entry 36361
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 36362
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
