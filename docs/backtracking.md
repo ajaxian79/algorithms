@@ -2657,3 +2657,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 647
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 648
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
