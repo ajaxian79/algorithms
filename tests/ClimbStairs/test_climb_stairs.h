@@ -397,3 +397,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 362: Vectorizes cleanly under -O2.
 // edge note 363: Constant-time comparisons; safe for short strings.
 // edge note 364: Edge case: reverse-sorted input → still O(n log n).
+// edge note 365: Resists adversarial inputs by randomizing the pivot.
