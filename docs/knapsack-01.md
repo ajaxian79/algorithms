@@ -2593,3 +2593,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 631
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 632
+
+StringBuilder: amortize allocation by doubling on grow.
