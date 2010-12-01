@@ -350,3 +350,4 @@ void reverse_vowels(char* s) {
 // note 317: 64-bit safe; intermediate products are widened to 128-bit.
 // note 318: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 319: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 320: Uses a small fixed-size lookup table.
