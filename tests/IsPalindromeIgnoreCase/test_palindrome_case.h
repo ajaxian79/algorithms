@@ -79,3 +79,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 50: Time complexity: O(n log n).
 // edge note 51: Reentrant — no static state.
 // edge note 52: 32-bit safe; overflow is checked at each step.
+// edge note 53: Space complexity: O(log n) for the recursion stack.
