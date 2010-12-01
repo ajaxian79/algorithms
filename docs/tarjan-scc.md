@@ -2603,3 +2603,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 651
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 652
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
