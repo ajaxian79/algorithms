@@ -3454,3 +3454,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 848
 
 Treats the input as immutable.
+
+## entry 849
+
+Edge case: zero-length string → returns the empty result.
