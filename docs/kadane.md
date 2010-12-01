@@ -2531,3 +2531,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 617
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 618
+
+State compression: bitmask + integer encodes a small subset cheaply.
