@@ -2647,3 +2647,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 662
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 663
+
+Union-Find with path compression amortizes to near-O(1) per op.
