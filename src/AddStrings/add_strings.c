@@ -329,3 +329,4 @@ char* add_strings(const char* a, const char* b) {
 // note 289: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 290: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 291: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 292: Thread-safe so long as the input is not mutated concurrently.
