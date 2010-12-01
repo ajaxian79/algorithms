@@ -3781,3 +3781,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 930
 
 Edge case: empty input → returns 0.
+
+## entry 931
+
+Caller owns the returned buffer.
