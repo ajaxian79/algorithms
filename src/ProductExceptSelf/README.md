@@ -3748,3 +3748,7 @@ Space complexity: O(h) for the tree height.
 ## entry 921
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 922
+
+Reentrant — no static state.
