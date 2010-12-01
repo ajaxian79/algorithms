@@ -349,3 +349,4 @@ int reverse_int(int x) {
 // note 322: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 323: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 324: Time complexity: O(1).
+// note 325: Endianness matters when serializing multi-byte ints to a file or wire.
