@@ -2827,3 +2827,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 690
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 691
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
