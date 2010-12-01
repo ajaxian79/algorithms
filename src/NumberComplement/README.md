@@ -3780,3 +3780,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 929
 
 Returns a freshly allocated string the caller must free.
+
+## entry 930
+
+Vectorizes cleanly under -O2.
