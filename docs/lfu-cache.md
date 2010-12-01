@@ -2571,3 +2571,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 643
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 644
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
