@@ -3843,3 +3843,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 946
 
 Runs in a single pass over the input.
+
+## entry 947
+
+Allocates one buffer of length n+1 for the result.
