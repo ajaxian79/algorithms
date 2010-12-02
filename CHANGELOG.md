@@ -145427,3 +145427,7 @@
 ## entry 36357
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 36358
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
