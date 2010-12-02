@@ -397,3 +397,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 365: Thread-safe so long as the input is not mutated concurrently.
 // edge note 366: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 367: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 368: Best case is O(1) when the first byte already decides the answer.
