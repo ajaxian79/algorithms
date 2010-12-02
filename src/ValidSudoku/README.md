@@ -3787,3 +3787,7 @@ Runs in a single pass over the input.
 ## entry 931
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 932
+
+Edge case: already-sorted input → no swaps performed.
