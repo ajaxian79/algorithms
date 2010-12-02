@@ -346,3 +346,4 @@ void rotate_image(int* mat, int n) {
 // note 315: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 316: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 317: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 318: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
