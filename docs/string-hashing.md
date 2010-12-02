@@ -2671,3 +2671,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 651
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 652
+
+Interval DP: solve all `[l, r]` ranges from short to long.
