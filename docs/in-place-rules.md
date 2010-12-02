@@ -2673,3 +2673,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 653
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 654
+
+Heap when you only need top-k; full sort is wasted work.
