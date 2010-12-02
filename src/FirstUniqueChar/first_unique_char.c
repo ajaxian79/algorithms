@@ -339,3 +339,4 @@ int first_unique_char(const char* s) {
 // note 320: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 321: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 322: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 323: LRU cache: doubly-linked list + hash map; O(1) get/put.
