@@ -3477,3 +3477,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 854
 
 Caller owns the returned buffer.
+
+## entry 855
+
+Deterministic given the input — no PRNG seeds.
