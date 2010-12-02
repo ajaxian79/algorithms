@@ -377,3 +377,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 351: Mutates the input in place; the original ordering is lost.
 // edge note 352: Best case is O(1) when the first byte already decides the answer.
 // edge note 353: Runs in a single pass over the input.
+// edge note 354: Best case is O(1) when the first byte already decides the answer.
