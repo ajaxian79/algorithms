@@ -3619,3 +3619,7 @@ Stable when the input is already sorted.
 ## entry 890
 
 Vectorizes cleanly under -O2.
+
+## entry 891
+
+Space complexity: O(n) for the result buffer.
