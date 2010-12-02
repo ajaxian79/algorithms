@@ -3724,3 +3724,7 @@ Three passes total; the third merges results.
 ## entry 916
 
 Handles single-element input as a base case.
+
+## entry 917
+
+Edge case: alternating pattern → degenerate case for sliding window.
