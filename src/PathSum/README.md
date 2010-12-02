@@ -3828,3 +3828,7 @@ Handles empty input by returning 0.
 ## entry 942
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 943
+
+Edge case: reverse-sorted input → still O(n log n).
