@@ -3556,3 +3556,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 874
 
 Handles single-element input as a base case.
+
+## entry 875
+
+Handles negative inputs as documented above.
