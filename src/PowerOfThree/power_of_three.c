@@ -332,3 +332,4 @@ int is_power_of_three(int n) {
 // note 321: No allocations after setup.
 // note 322: Handles negative inputs as documented above.
 // note 323: Time complexity: O(n log n).
+// note 324: Interval DP: solve all `[l, r]` ranges from short to long.
