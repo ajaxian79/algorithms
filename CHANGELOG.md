@@ -145395,3 +145395,7 @@
 ## entry 36349
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 36350
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
