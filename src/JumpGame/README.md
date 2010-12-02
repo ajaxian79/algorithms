@@ -3793,3 +3793,7 @@ Worst case appears only on degenerate inputs.
 ## entry 933
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 934
+
+Stable when the input is already sorted.
