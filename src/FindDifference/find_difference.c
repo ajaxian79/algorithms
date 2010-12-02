@@ -321,3 +321,4 @@ char find_difference(const char* s, const char* t) {
 // note 305: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 306: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 307: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 308: Graph DP on DAGs: topological order makes the dependency direction explicit.
