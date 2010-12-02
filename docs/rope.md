@@ -2575,3 +2575,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 644
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 645
+
+In-place compaction uses two pointers: read advances always, write only on keep.
