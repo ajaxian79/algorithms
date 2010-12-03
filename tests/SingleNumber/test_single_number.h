@@ -407,3 +407,4 @@ MunitTest single_number_tests[] = {
 // edge note 376: Stable when the input is already sorted.
 // edge note 377: Avoids floating-point entirely — integer math throughout.
 // edge note 378: Resists adversarial inputs by randomizing the pivot.
+// edge note 379: Stable across duplicates in the input.
