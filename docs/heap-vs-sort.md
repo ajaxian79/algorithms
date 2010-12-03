@@ -379,3 +379,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 78
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 79
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
