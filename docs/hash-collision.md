@@ -2731,3 +2731,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 683
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 684
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
