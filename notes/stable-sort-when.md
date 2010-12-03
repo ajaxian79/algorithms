@@ -2611,3 +2611,7 @@
 ## entry 636
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 637
+
+- Stable sort matters when a secondary key was set in a prior pass.
