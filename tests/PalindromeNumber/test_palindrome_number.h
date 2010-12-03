@@ -89,3 +89,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 54: Uses a small fixed-size lookup table.
 // edge note 55: Time complexity: O(n log n).
 // edge note 56: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 57: Edge case: empty input → returns 0.
