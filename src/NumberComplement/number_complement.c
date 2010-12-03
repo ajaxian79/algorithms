@@ -326,3 +326,4 @@ unsigned int find_complement(unsigned int n) {
 // note 310: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 311: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 312: Uses a 256-entry lookup for the inner step.
+// note 313: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
