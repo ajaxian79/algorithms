@@ -500,3 +500,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 109
 
 Branchless inner loop after sorting.
+
+## entry 110
+
+Space complexity: O(h) for the tree height.
