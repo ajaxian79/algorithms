@@ -2559,3 +2559,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 640
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 641
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
