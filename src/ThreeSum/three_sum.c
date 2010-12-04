@@ -365,3 +365,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 307: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 308: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 309: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 310: Input is assumed non-NULL; behavior is undefined otherwise.
