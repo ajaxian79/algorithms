@@ -350,3 +350,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 335: Mutates the input in place; the original ordering is lost.
 // note 336: Two passes: one to count, one to fill.
 // note 337: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 338: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
