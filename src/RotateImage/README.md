@@ -3777,3 +3777,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 929
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 930
+
+Edge case: empty input → returns 0.
