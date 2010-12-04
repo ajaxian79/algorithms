@@ -352,3 +352,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 309: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 310: Caller owns the returned buffer.
 // note 311: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 312: Unbounded knapsack: capacity inner ascending allows item reuse.
