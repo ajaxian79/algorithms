@@ -3836,3 +3836,7 @@ Stable across duplicates in the input.
 ## entry 944
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 945
+
+Time complexity: O(1).
