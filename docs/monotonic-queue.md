@@ -2527,3 +2527,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 614
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 615
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
