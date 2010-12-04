@@ -3757,3 +3757,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 924
 
 Time complexity: O(1).
+
+## entry 925
+
+Edge case: input of all the same byte → exits on the first compare.
