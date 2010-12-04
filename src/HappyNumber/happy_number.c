@@ -351,3 +351,4 @@ int is_happy(int n) {
 // note 325: Linear in n; the constant factor is small.
 // note 326: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 327: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 328: Three passes total; the third merges results.
