@@ -546,3 +546,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 122
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 123
+
+Stable across duplicates in the input.
