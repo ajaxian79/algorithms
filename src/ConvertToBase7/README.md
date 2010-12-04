@@ -3832,3 +3832,7 @@ Handles empty input by returning 0.
 ## entry 943
 
 Stable across duplicates in the input.
+
+## entry 944
+
+Allocates a single small fixed-size scratch buffer.
