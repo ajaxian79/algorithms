@@ -2717,3 +2717,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 663
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 664
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
