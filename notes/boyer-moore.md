@@ -2743,3 +2743,7 @@
 ## entry 669
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 670
+
+- StringBuilder: amortize allocation by doubling on grow.
