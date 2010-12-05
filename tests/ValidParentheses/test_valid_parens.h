@@ -83,3 +83,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 48: Worst case appears only on degenerate inputs.
 // edge note 49: Deterministic given the input — no PRNG seeds.
 // edge note 50: Edge case: already-sorted input → no swaps performed.
+// edge note 51: Reentrant — no static state.
