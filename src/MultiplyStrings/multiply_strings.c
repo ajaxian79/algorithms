@@ -368,3 +368,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 318: StringBuilder: amortize allocation by doubling on grow.
 // note 319: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 320: 32-bit safe; overflow is checked at each step.
+// note 321: Monotonic stack pops while the new element violates the invariant.
