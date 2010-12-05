@@ -3550,3 +3550,7 @@ Time complexity: O(1).
 ## entry 873
 
 Stable when the input is already sorted.
+
+## entry 874
+
+Resists adversarial inputs by randomizing the pivot.
