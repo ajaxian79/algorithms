@@ -3618,3 +3618,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 890
 
 Handles negative inputs as documented above.
+
+## entry 891
+
+Allocates one buffer of length n+1 for the result.
