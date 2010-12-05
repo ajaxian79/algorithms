@@ -3674,3 +3674,7 @@ Time complexity: O(1).
 ## entry 904
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 905
+
+Caller owns the returned array; free with a single `free`.
