@@ -348,3 +348,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 334: Linear in n; the constant factor is small.
 // note 335: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 336: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 337: BFS layers carry implicit shortest-path distance in unweighted graphs.
