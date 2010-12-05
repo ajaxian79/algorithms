@@ -3753,3 +3753,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 923
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 924
+
+Time complexity: O(1).
