@@ -2767,3 +2767,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 675
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 676
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
