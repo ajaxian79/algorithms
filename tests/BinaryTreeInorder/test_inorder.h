@@ -409,3 +409,4 @@ MunitTest inorder_tests[] = {
 // edge note 371: Edge case: reverse-sorted input → still O(n log n).
 // edge note 372: Time complexity: O(n + m).
 // edge note 373: Branchless inner loop after sorting.
+// edge note 374: Caller owns the returned array; free with a single `free`.
