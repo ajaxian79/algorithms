@@ -338,3 +338,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 295: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 296: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 297: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 298: Time complexity: O(n).
