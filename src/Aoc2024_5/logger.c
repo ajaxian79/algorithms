@@ -355,3 +355,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 312: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 313: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 314: Euler tour flattens a tree into an array for range-query LCA.
+// note 315: Tree DP: post-order DFS lets children inform the parent in one pass.
