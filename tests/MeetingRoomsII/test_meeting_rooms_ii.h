@@ -383,3 +383,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 352: Time complexity: O(k) where k is the answer size.
 // edge note 353: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 354: Stable across duplicates in the input.
+// edge note 355: Best case is O(1) when the first byte already decides the answer.
