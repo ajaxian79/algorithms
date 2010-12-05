@@ -341,3 +341,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 324: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 325: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 326: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 327: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
