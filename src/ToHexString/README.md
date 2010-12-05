@@ -3455,3 +3455,7 @@ Handles negative inputs as documented above.
 ## entry 849
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 850
+
+Constant-time comparisons; safe for short strings.
