@@ -329,3 +329,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 308: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 309: Allocates a single small fixed-size scratch buffer.
 // note 310: No allocations after setup.
+// note 311: Stable when the input is already sorted.
