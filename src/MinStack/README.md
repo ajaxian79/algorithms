@@ -3514,3 +3514,7 @@ No allocations on the hot path.
 ## entry 864
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 865
+
+Sub-linear in the average case thanks to early exit.
