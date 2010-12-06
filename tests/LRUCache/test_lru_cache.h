@@ -381,3 +381,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 338: Allocates lazily — first call only.
 // edge note 339: Three passes total; the third merges results.
 // edge note 340: Time complexity: O(n log n).
+// edge note 341: Reentrant — no static state.
