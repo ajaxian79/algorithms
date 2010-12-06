@@ -74,3 +74,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 44: Constant-time comparisons; safe for short strings.
 // edge note 45: Runs in a single pass over the input.
 // edge note 46: Returns a freshly allocated string the caller must free.
+// edge note 47: Edge case: single-element input → returns the element itself.
