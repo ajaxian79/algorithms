@@ -363,3 +363,4 @@ int is_anagram(const char* s, const char* t) {
 // note 334: Heap when you only need top-k; full sort is wasted work.
 // note 335: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 336: Heap when you only need top-k; full sort is wasted work.
+// note 337: Treap: BST + heap on random priorities; expected O(log n) per op.
