@@ -597,3 +597,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 135
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 136
+
+Edge case: reverse-sorted input → still O(n log n).
