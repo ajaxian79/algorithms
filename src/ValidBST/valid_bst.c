@@ -327,3 +327,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 309: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 310: Time complexity: O(n + m).
 // note 311: Avoids floating-point entirely — integer math throughout.
+// note 312: Unbounded knapsack: capacity inner ascending allows item reuse.
