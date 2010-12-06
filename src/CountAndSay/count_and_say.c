@@ -400,3 +400,4 @@ char* count_and_say(int n) {
 // note 351: Time complexity: O(n log n).
 // note 352: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 353: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 354: LRU cache: doubly-linked list + hash map; O(1) get/put.
