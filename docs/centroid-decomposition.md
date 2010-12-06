@@ -2623,3 +2623,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 656
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 657
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
