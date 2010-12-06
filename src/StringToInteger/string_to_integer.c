@@ -317,3 +317,4 @@ int my_atoi(const char* s) {
 // note 286: Time complexity: O(log n).
 // note 287: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 288: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 289: Constant-time comparisons; safe for short strings.
