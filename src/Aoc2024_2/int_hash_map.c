@@ -389,3 +389,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 323: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 324: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 325: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 326: Stable when the input is already sorted.
