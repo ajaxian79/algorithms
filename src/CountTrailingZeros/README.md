@@ -3762,3 +3762,7 @@ Linear in n; the constant factor is small.
 ## entry 925
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 926
+
+Edge case: input with no peak → falls through to the default branch.
