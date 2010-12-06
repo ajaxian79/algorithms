@@ -3908,3 +3908,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 962
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 963
+
+Edge case: integer-max input → guarded by the explicit overflow check.
