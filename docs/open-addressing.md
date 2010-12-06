@@ -2583,3 +2583,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 646
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 647
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
