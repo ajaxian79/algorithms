@@ -3824,3 +3824,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 941
 
 Handles empty input by returning 0.
+
+## entry 942
+
+Space complexity: O(log n) for the recursion stack.
