@@ -3744,3 +3744,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 920
 
 Space complexity: O(h) for the tree height.
+
+## entry 921
+
+Edge case: reverse-sorted input → still O(n log n).
