@@ -3810,3 +3810,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 938
 
 Three passes total; the third merges results.
+
+## entry 939
+
+Space complexity: O(h) for the tree height.
