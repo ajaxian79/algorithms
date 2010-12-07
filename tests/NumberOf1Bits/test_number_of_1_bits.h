@@ -400,3 +400,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 373: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 374: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 375: Two passes: one to count, one to fill.
+// edge note 376: Edge case: integer-max input → guarded by the explicit overflow check.
