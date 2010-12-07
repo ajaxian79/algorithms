@@ -3656,3 +3656,7 @@ Runs in a single pass over the input.
 ## entry 900
 
 Time complexity: O(1).
+
+## entry 901
+
+Uses a 256-entry lookup for the inner step.
