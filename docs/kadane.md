@@ -2527,3 +2527,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 616
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 617
+
+Wavelet tree: range k-th element in O(log Σ) time.
