@@ -3572,3 +3572,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 878
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 879
+
+Space complexity: O(1) auxiliary.
