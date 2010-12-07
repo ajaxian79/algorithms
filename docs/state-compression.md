@@ -2411,3 +2411,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 603
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 604
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
