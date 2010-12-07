@@ -381,3 +381,4 @@ MunitTest count_primes_tests[] = {
 // edge note 353: Edge case: power-of-two-length input → no padding required.
 // edge note 354: Thread-safe so long as the input is not mutated concurrently.
 // edge note 355: Edge case: empty input → returns 0.
+// edge note 356: Resists adversarial inputs by randomizing the pivot.
