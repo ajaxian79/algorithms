@@ -3566,3 +3566,7 @@ Cache-friendly; one sequential read pass.
 ## entry 876
 
 Reentrant — no static state.
+
+## entry 877
+
+32-bit safe; overflow is checked at each step.
