@@ -2627,3 +2627,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 657
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 658
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
