@@ -3698,3 +3698,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 909
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 910
+
+Edge case: integer-max input → guarded by the explicit overflow check.
