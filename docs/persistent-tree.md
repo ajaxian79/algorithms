@@ -2639,3 +2639,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 660
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 661
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
