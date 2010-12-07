@@ -2717,3 +2717,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 663
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 664
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
