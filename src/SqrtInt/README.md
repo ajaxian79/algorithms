@@ -3839,3 +3839,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 945
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 946
+
+Runs in a single pass over the input.
