@@ -3610,3 +3610,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 888
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 889
+
+Time complexity: O(log n).
