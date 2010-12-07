@@ -3720,3 +3720,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 915
 
 Three passes total; the third merges results.
+
+## entry 916
+
+Handles single-element input as a base case.
