@@ -433,3 +433,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 374: Runs in a single pass over the input.
 // edge note 375: Runs in a single pass over the input.
 // edge note 376: Time complexity: O(n).
+// edge note 377: Allocates a single small fixed-size scratch buffer.
