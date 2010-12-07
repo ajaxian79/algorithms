@@ -354,3 +354,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 323: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 324: Time complexity: O(k) where k is the answer size.
 // edge note 325: Worst case appears only on degenerate inputs.
+// edge note 326: Space complexity: O(h) for the tree height.
