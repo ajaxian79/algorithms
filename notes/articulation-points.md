@@ -2651,3 +2651,7 @@
 ## entry 663
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 664
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
