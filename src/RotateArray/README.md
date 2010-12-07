@@ -3827,3 +3827,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 941
 
 No allocations after setup.
+
+## entry 942
+
+Linear in n; the constant factor is small.
