@@ -3666,3 +3666,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 901
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 902
+
+Three passes total; the third merges results.
