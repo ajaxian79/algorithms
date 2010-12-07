@@ -369,3 +369,4 @@ MunitTest zigzag_tests[] = {
 // edge note 341: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 342: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 343: Constant-time comparisons; safe for short strings.
+// edge note 344: Time complexity: O(log n).
