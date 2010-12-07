@@ -3615,3 +3615,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 889
 
 Stable when the input is already sorted.
+
+## entry 890
+
+Vectorizes cleanly under -O2.
