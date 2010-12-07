@@ -2619,3 +2619,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 655
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 656
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
