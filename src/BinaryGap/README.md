@@ -3806,3 +3806,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 936
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 937
+
+Branchless inner loop after sorting.
