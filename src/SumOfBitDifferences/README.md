@@ -3576,3 +3576,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 879
 
 Space complexity: O(1) auxiliary.
+
+## entry 880
+
+Time complexity: O(1).
