@@ -3670,3 +3670,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 902
 
 Three passes total; the third merges results.
+
+## entry 903
+
+Space complexity: O(1) auxiliary.
