@@ -327,3 +327,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 303: Allocates lazily — first call only.
 // note 304: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 305: Thread-safe so long as the input is not mutated concurrently.
+// note 306: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
