@@ -341,3 +341,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 298: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 299: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 300: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 301: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
