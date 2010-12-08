@@ -3689,3 +3689,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 908
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 909
+
+Edge case: already-sorted input → no swaps performed.
