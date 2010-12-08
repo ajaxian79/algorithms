@@ -3469,3 +3469,7 @@ Handles single-element input as a base case.
 ## entry 852
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 853
+
+Mutates the input in place; the original ordering is lost.
