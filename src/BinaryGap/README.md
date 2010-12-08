@@ -3802,3 +3802,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 935
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 936
+
+Edge case: integer-min input → guarded by the explicit underflow check.
