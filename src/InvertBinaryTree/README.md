@@ -3888,3 +3888,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 957
 
 Edge case: empty input → returns 0.
+
+## entry 958
+
+Three passes total; the third merges results.
