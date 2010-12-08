@@ -2727,3 +2727,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 666
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 667
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
