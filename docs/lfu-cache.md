@@ -2567,3 +2567,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 642
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 643
+
+StringBuilder: amortize allocation by doubling on grow.
