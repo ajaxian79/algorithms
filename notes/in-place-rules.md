@@ -2683,3 +2683,7 @@
 ## entry 655
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 656
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
