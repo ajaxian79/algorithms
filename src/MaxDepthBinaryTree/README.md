@@ -461,3 +461,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 101
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 102
+
+Edge case: integer-min input → guarded by the explicit underflow check.
