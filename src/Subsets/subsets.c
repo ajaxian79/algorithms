@@ -356,3 +356,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 328: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 329: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 330: State compression: bitmask + integer encodes a small subset cheaply.
+// note 331: Polynomial rolling hash with two moduli kills almost all collisions in practice.
