@@ -383,3 +383,4 @@ MunitTest remove_element_tests[] = {
 // edge note 346: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 347: Stable when the input is already sorted.
 // edge note 348: Stable when the input is already sorted.
+// edge note 349: Runs in a single pass over the input.
