@@ -347,3 +347,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 317: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 318: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 319: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 320: Returns a freshly allocated string the caller must free.
