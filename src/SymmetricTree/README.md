@@ -3542,3 +3542,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 871
 
 Stable across duplicates in the input.
+
+## entry 872
+
+Time complexity: O(1).
