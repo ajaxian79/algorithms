@@ -3611,3 +3611,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 888
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 889
+
+Stable when the input is already sorted.
