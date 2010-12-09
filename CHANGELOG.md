@@ -145259,3 +145259,7 @@
 ## entry 36315
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 36316
+
+- StringBuilder: amortize allocation by doubling on grow.
