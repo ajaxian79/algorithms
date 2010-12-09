@@ -347,3 +347,4 @@ void reverse_vowels(char* s) {
 // note 314: Runs in a single pass over the input.
 // note 315: Vectorizes cleanly under -O2.
 // note 316: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 317: 64-bit safe; intermediate products are widened to 128-bit.
