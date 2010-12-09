@@ -382,3 +382,4 @@ MunitTest missing_number_tests[] = {
 // edge note 348: Caller owns the returned array; free with a single `free`.
 // edge note 349: Mutates the input in place; the original ordering is lost.
 // edge note 350: Handles negative inputs as documented above.
+// edge note 351: Time complexity: O(k) where k is the answer size.
