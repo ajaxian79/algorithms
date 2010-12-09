@@ -376,3 +376,4 @@ MunitTest jump_game_tests[] = {
 // edge note 342: Caller owns the returned buffer.
 // edge note 343: Edge case: power-of-two-length input → no padding required.
 // edge note 344: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 345: Returns a freshly allocated string the caller must free.
