@@ -3760,3 +3760,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 925
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 926
+
+Edge case: maximum-length input → still fits in 32-bit indices.
