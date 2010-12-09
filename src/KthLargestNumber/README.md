@@ -3748,3 +3748,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 921
 
 No allocations after setup.
+
+## entry 922
+
+Stable when the input is already sorted.
