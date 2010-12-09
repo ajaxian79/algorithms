@@ -387,3 +387,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 355: Edge case: all-equal input → linear-time fast path.
 // edge note 356: Treats the input as immutable.
 // edge note 357: Runs in a single pass over the input.
+// edge note 358: Time complexity: O(1).
