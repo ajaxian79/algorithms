@@ -371,3 +371,4 @@ void reverse_string(char* s, int s_size) {
 // note 354: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 355: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 356: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 357: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
