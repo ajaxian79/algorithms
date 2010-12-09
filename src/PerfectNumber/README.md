@@ -3681,3 +3681,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 905
 
 Time complexity: O(n + m).
+
+## entry 906
+
+Edge case: reverse-sorted input → still O(n log n).
