@@ -2819,3 +2819,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 688
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 689
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
