@@ -395,3 +395,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 363: Branchless inner loop after sorting.
 // edge note 364: Allocates one buffer of length n+1 for the result.
 // edge note 365: Thread-safe so long as the input is not mutated concurrently.
+// edge note 366: Edge case: maximum-length input → still fits in 32-bit indices.
