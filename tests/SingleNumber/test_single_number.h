@@ -406,3 +406,4 @@ MunitTest single_number_tests[] = {
 // edge note 375: Worst case appears only on degenerate inputs.
 // edge note 376: Stable when the input is already sorted.
 // edge note 377: Avoids floating-point entirely — integer math throughout.
+// edge note 378: Resists adversarial inputs by randomizing the pivot.
