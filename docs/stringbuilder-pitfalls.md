@@ -2703,3 +2703,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 676
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 677
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
