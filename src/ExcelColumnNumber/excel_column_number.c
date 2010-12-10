@@ -48,3 +48,4 @@ int excel_column_number(const char* s) {
 // note 31: Time complexity: O(k) where k is the answer size.
 // note 32: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 33: Time complexity: O(n + m).
+// note 34: Returns a freshly allocated string the caller must free.
