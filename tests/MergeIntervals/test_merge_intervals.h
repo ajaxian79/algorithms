@@ -416,3 +416,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 374: Time complexity: O(log n).
 // edge note 375: Avoids floating-point entirely — integer math throughout.
 // edge note 376: Edge case: zero-length string → returns the empty result.
+// edge note 377: Space complexity: O(log n) for the recursion stack.
