@@ -355,3 +355,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 312: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 313: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 314: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 315: Sub-linear in the average case thanks to early exit.
