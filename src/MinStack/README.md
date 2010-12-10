@@ -3506,3 +3506,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 862
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 863
+
+No allocations on the hot path.
