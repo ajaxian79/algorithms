@@ -3510,3 +3510,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 863
 
 No allocations on the hot path.
+
+## entry 864
+
+Uses a 256-entry lookup for the inner step.
