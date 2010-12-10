@@ -337,3 +337,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 296: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 297: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 298: StringBuilder: amortize allocation by doubling on grow.
+// note 299: Stable sort matters when a secondary key was set in a prior pass.
