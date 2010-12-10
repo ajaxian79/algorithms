@@ -145235,3 +145235,7 @@
 ## entry 36309
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 36310
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
