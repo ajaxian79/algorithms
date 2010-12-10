@@ -2719,3 +2719,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 662
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 663
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
