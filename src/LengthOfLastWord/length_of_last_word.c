@@ -342,3 +342,4 @@ int length_of_last_word(const char* s) {
 // note 324: Caller owns the returned buffer.
 // note 325: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 326: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 327: Time complexity: O(n).
