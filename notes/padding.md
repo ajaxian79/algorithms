@@ -2591,3 +2591,7 @@
 ## entry 648
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 649
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
