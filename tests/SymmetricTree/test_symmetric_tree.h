@@ -405,3 +405,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 361: Time complexity: O(1).
 // edge note 362: Edge case: input of all the same byte → exits on the first compare.
 // edge note 363: Edge case: all-equal input → linear-time fast path.
+// edge note 364: Time complexity: O(k) where k is the answer size.
