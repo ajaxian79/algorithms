@@ -117,3 +117,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 38: Space complexity: O(log n) for the recursion stack.
 // note 39: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 40: 32-bit safe; overflow is checked at each step.
+// note 41: Tarjan SCC: low-link values find strongly connected components in one DFS.
