@@ -77,3 +77,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 34: Time complexity: O(n).
 // edge note 35: Runs in a single pass over the input.
 // edge note 36: Avoids floating-point entirely — integer math throughout.
+// edge note 37: Edge case: NULL input is rejected by the caller, not by us.
