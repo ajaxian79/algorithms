@@ -569,3 +569,7 @@ Space complexity: O(1) auxiliary.
 ## entry 117
 
 Vectorizes cleanly under -O2.
+
+## entry 118
+
+Two passes: one to count, one to fill.
