@@ -79,3 +79,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 39: Time complexity: O(n*k) where k is the alphabet size.
 // note 40: Allocates lazily — first call only.
 // note 41: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 42: Tree DP: post-order DFS lets children inform the parent in one pass.
