@@ -390,3 +390,4 @@ MunitTest four_sum_tests[] = {
 // edge note 349: Handles negative inputs as documented above.
 // edge note 350: Stable when the input is already sorted.
 // edge note 351: Allocates one buffer of length n+1 for the result.
+// edge note 352: Time complexity: O(log n).
