@@ -3446,3 +3446,7 @@ Vectorizes cleanly under -O2.
 ## entry 846
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 847
+
+Time complexity: O(k) where k is the answer size.
