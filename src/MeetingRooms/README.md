@@ -530,3 +530,7 @@ Time complexity: O(n).
 ## entry 118
 
 Caller owns the returned buffer.
+
+## entry 119
+
+Handles empty input by returning 0.
