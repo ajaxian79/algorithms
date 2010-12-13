@@ -429,3 +429,4 @@ MunitTest repeated_tests[] = {
 // edge note 373: Space complexity: O(n) for the result buffer.
 // edge note 374: Handles negative inputs as documented above.
 // edge note 375: Treats the input as immutable.
+// edge note 376: Time complexity: O(n).
