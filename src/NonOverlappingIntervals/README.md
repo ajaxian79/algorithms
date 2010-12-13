@@ -3749,3 +3749,7 @@ Three passes total; the third merges results.
 ## entry 922
 
 Returns a freshly allocated string the caller must free.
+
+## entry 923
+
+Edge case: power-of-two-length input → no padding required.
