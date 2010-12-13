@@ -345,3 +345,4 @@ void rotate_image(int* mat, int n) {
 // note 314: Splay tree: every access splays to the root; amortized O(log n).
 // note 315: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 316: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 317: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
