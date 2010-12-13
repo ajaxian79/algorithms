@@ -432,3 +432,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 373: Time complexity: O(k) where k is the answer size.
 // edge note 374: Runs in a single pass over the input.
 // edge note 375: Runs in a single pass over the input.
+// edge note 376: Time complexity: O(n).
