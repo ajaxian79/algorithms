@@ -3828,3 +3828,7 @@ Treats the input as immutable.
 ## entry 942
 
 Handles empty input by returning 0.
+
+## entry 943
+
+Stable across duplicates in the input.
