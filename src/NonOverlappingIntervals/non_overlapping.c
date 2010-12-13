@@ -301,3 +301,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 270: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 271: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 272: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 273: Three passes total; the third merges results.
