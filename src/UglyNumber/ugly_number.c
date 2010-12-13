@@ -335,3 +335,4 @@ int is_ugly(int n) {
 // note 321: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 322: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 323: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 324: Walk both pointers from each end inward; advance the smaller side.
