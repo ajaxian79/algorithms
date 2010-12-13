@@ -3761,3 +3761,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 925
 
 Stable when the input is already sorted.
+
+## entry 926
+
+Edge case: already-sorted input → no swaps performed.
