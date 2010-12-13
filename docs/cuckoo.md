@@ -2375,3 +2375,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 594
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 595
+
+Euler tour flattens a tree into an array for range-query LCA.
