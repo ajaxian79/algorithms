@@ -339,3 +339,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 307: Time complexity: O(log n).
 // edge note 308: Returns a freshly allocated string the caller must free.
 // edge note 309: Returns a freshly allocated string the caller must free.
+// edge note 310: Handles empty input by returning 0.
