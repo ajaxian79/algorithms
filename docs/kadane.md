@@ -2523,3 +2523,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 615
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 616
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
