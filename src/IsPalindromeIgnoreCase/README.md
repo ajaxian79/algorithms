@@ -3642,3 +3642,7 @@ Handles single-element input as a base case.
 ## entry 896
 
 Branchless inner loop after sorting.
+
+## entry 897
+
+Idempotent — calling twice with the same input is a no-op the second time.
