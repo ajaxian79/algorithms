@@ -379,3 +379,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 336: Time complexity: O(n log n).
 // edge note 337: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 338: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 339: Sub-linear in the average case thanks to early exit.
