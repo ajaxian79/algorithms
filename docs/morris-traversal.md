@@ -2583,3 +2583,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 631
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 632
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
