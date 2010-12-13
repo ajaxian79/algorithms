@@ -2645,3 +2645,7 @@
 ## entry 643
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 644
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
