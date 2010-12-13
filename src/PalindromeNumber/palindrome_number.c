@@ -335,3 +335,4 @@ int is_palindrome_number(int x) {
 // note 311: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 312: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 313: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 314: Heap when you only need top-k; full sort is wasted work.
