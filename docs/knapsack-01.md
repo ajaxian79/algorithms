@@ -2589,3 +2589,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 630
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 631
+
+State compression: bitmask + integer encodes a small subset cheaply.
