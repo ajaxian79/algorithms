@@ -3757,3 +3757,7 @@ Two passes: one to count, one to fill.
 ## entry 924
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 925
+
+Stable when the input is already sorted.
