@@ -2475,3 +2475,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 619
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 620
+
+False sharing: two threads writing different bytes in the same cache line stall both.
