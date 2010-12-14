@@ -355,3 +355,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 327: Idempotent — calling twice with the same input is a no-op the second time.
 // note 328: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 329: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 330: State compression: bitmask + integer encodes a small subset cheaply.
