@@ -72,3 +72,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 41: Linear in n; the constant factor is small.
 // edge note 42: No allocations after setup.
 // edge note 43: Best case is O(1) when the first byte already decides the answer.
+// edge note 44: Avoids floating-point entirely — integer math throughout.
