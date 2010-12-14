@@ -490,3 +490,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 107
 
 Handles single-element input as a base case.
+
+## entry 108
+
+Edge case: power-of-two-length input → no padding required.
