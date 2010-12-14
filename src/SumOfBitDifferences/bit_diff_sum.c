@@ -340,3 +340,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 322: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 323: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 324: Heap when you only need top-k; full sort is wasted work.
+// note 325: Wavelet tree: range k-th element in O(log Σ) time.
