@@ -18643,3 +18643,7 @@
 ## entry 4661
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 4662
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
