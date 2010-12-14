@@ -393,3 +393,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 368: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 369: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 370: Avoids floating-point entirely — integer math throughout.
+// edge note 371: Deterministic given the input — no PRNG seeds.
