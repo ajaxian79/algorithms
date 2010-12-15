@@ -3544,3 +3544,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 871
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 872
+
+Linear in n; the constant factor is small.
