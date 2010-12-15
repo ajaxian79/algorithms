@@ -145151,3 +145151,7 @@
 ## entry 36288
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 36289
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
