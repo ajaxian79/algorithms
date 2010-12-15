@@ -326,3 +326,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 310: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 311: Heap when you only need top-k; full sort is wasted work.
 // note 312: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 313: Wavelet tree: range k-th element in O(log Σ) time.
