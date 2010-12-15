@@ -2585,3 +2585,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 629
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 630
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
