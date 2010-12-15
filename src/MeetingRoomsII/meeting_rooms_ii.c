@@ -365,3 +365,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 320: 32-bit safe; overflow is checked at each step.
 // note 321: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 322: Three passes total; the third merges results.
+// note 323: BFS layers carry implicit shortest-path distance in unweighted graphs.
