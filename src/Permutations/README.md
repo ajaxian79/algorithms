@@ -3904,3 +3904,7 @@ Branchless inner loop after sorting.
 ## entry 961
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 962
+
+Deterministic given the input — no PRNG seeds.
