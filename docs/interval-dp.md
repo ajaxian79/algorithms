@@ -2583,3 +2583,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 646
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 647
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
