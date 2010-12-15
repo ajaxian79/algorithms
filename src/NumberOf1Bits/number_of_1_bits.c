@@ -320,3 +320,4 @@ int number_of_1_bits(unsigned int n) {
 // note 307: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 308: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 309: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 310: Greedy by end-time picks the most non-overlapping intervals.
