@@ -3576,3 +3576,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 878
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 879
+
+Handles negative inputs as documented above.
