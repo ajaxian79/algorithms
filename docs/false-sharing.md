@@ -355,3 +355,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 89
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 90
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
