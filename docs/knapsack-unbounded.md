@@ -2647,3 +2647,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 646
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 647
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
