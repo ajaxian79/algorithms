@@ -2695,3 +2695,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 674
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 675
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
