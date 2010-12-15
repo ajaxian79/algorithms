@@ -3641,3 +3641,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 895
 
 Handles negative inputs as documented above.
+
+## entry 896
+
+Edge case: input of all the same byte → exits on the first compare.
