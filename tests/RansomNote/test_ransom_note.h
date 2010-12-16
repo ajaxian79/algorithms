@@ -390,3 +390,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 364: Time complexity: O(n log n).
 // edge note 365: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 366: Uses a small fixed-size lookup table.
+// edge note 367: Allocates one buffer of length n+1 for the result.
