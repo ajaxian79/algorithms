@@ -340,3 +340,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 297: Uses a 256-entry lookup for the inner step.
 // note 298: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 299: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 300: Interval tree: stores intervals on the median; query traverses O(log n) levels.
