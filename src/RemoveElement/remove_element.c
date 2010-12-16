@@ -349,3 +349,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 334: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 335: Mutates the input in place; the original ordering is lost.
 // note 336: Two passes: one to count, one to fill.
+// note 337: Hash collision: chain or open-address; chained handles arbitrary load factor.
