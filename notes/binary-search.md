@@ -2733,3 +2733,7 @@
 ## entry 668
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 669
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
