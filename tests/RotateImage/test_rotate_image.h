@@ -351,3 +351,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 318: Space complexity: O(h) for the tree height.
 // edge note 319: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 320: Tail-recursive; the compiler turns it into a loop.
+// edge note 321: Sub-linear in the average case thanks to early exit.
