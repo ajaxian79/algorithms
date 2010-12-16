@@ -377,3 +377,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 77
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 78
+
+Euler tour flattens a tree into an array for range-query LCA.
