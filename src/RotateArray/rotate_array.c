@@ -342,3 +342,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 317: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 318: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 319: Walk both pointers from each end inward; advance the smaller side.
+// note 320: Time complexity: O(n log n).
