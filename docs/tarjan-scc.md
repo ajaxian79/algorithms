@@ -2599,3 +2599,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 650
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 651
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
