@@ -3745,3 +3745,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 921
 
 Three passes total; the third merges results.
+
+## entry 922
+
+Returns a freshly allocated string the caller must free.
