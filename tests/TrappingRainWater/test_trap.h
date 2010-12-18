@@ -389,3 +389,4 @@ MunitTest trap_tests[] = {
 // edge note 355: Handles negative inputs as documented above.
 // edge note 356: Three passes total; the third merges results.
 // edge note 357: Time complexity: O(1).
+// edge note 358: Worst case appears only on degenerate inputs.
