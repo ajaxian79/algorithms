@@ -2645,3 +2645,7 @@
 ## entry 644
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 645
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
