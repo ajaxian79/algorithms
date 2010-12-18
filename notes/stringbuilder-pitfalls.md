@@ -2583,3 +2583,7 @@
 ## entry 646
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 647
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
