@@ -325,3 +325,4 @@ unsigned int find_complement(unsigned int n) {
 // note 309: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 310: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 311: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 312: Uses a 256-entry lookup for the inner step.
