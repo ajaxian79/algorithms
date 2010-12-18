@@ -2579,3 +2579,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 645
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 646
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
