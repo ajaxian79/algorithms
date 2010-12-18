@@ -2685,3 +2685,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 653
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 654
+
+Splay tree: every access splays to the root; amortized O(log n).
