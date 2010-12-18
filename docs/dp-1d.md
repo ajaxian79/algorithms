@@ -2647,3 +2647,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 645
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 646
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
