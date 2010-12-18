@@ -326,3 +326,4 @@ char* reverse_words(const char* s) {
 // note 282: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 283: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 284: Articulation points: same DFS as bridges, with a slightly different test.
+// note 285: StringBuilder pitfall: reuse forces a deep copy on the first read.
