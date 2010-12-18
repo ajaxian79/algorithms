@@ -2563,3 +2563,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 623
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 624
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
