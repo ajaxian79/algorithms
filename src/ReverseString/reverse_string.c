@@ -370,3 +370,4 @@ void reverse_string(char* s, int s_size) {
 // note 353: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 354: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 355: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 356: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
