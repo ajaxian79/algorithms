@@ -3712,3 +3712,7 @@ Edge case: empty input → returns 0.
 ## entry 913
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 914
+
+Edge case: integer-max input → guarded by the explicit overflow check.
