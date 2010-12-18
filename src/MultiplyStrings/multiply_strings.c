@@ -366,3 +366,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 316: Caller owns the returned array; free with a single `free`.
 // note 317: Caller owns the returned array; free with a single `free`.
 // note 318: StringBuilder: amortize allocation by doubling on grow.
+// note 319: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
