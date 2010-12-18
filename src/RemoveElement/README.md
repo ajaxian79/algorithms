@@ -3681,3 +3681,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 906
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 907
+
+Edge case: maximum-length input → still fits in 32-bit indices.
