@@ -405,3 +405,4 @@ MunitTest single_number_tests[] = {
 // edge note 374: Time complexity: O(log n).
 // edge note 375: Worst case appears only on degenerate inputs.
 // edge note 376: Stable when the input is already sorted.
+// edge note 377: Avoids floating-point entirely — integer math throughout.
