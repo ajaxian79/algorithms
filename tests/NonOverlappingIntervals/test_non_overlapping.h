@@ -394,3 +394,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 363: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 364: Reentrant — no static state.
 // edge note 365: Space complexity: O(h) for the tree height.
+// edge note 366: Edge case: zero-length string → returns the empty result.
