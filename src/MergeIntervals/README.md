@@ -3770,3 +3770,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 927
 
 Branchless inner loop after sorting.
+
+## entry 928
+
+Returns a freshly allocated string the caller must free.
