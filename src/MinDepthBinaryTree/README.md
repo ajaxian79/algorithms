@@ -3670,3 +3670,7 @@ Worst case appears only on degenerate inputs.
 ## entry 903
 
 Time complexity: O(1).
+
+## entry 904
+
+Edge case: power-of-two-length input → no padding required.
