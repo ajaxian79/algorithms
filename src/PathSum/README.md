@@ -3820,3 +3820,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 940
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 941
+
+Handles empty input by returning 0.
