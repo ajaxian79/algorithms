@@ -3708,3 +3708,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 911
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 912
+
+No allocations on the hot path.
