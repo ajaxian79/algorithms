@@ -3510,3 +3510,7 @@ Allocates lazily — first call only.
 ## entry 863
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 864
+
+Edge case: integer-max input → guarded by the explicit overflow check.
