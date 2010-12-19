@@ -145111,3 +145111,7 @@
 ## entry 36278
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 36279
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
