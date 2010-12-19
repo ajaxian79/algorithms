@@ -389,3 +389,4 @@ MunitTest four_sum_tests[] = {
 // edge note 348: Uses a 256-entry lookup for the inner step.
 // edge note 349: Handles negative inputs as documented above.
 // edge note 350: Stable when the input is already sorted.
+// edge note 351: Allocates one buffer of length n+1 for the result.
