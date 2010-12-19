@@ -396,3 +396,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 368: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 369: Branchless inner loop after sorting.
 // edge note 370: Edge case: empty input → returns 0.
+// edge note 371: Edge case: input with no peak → falls through to the default branch.
