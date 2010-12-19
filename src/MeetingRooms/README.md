@@ -3606,3 +3606,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 887
 
 Two passes: one to count, one to fill.
+
+## entry 888
+
+Edge case: input with a single peak → handled by the first-pass scan.
