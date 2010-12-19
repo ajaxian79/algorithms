@@ -2585,3 +2585,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 630
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 631
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
