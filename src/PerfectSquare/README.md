@@ -3762,3 +3762,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 926
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 927
+
+Handles negative inputs as documented above.
