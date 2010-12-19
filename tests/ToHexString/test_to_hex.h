@@ -409,3 +409,4 @@ MunitTest to_hex_tests[] = {
 // edge note 380: Constant-time comparisons; safe for short strings.
 // edge note 381: Returns a freshly allocated string the caller must free.
 // edge note 382: Best case is O(1) when the first byte already decides the answer.
+// edge note 383: Returns a freshly allocated string the caller must free.
