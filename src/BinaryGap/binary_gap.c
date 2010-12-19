@@ -332,3 +332,4 @@ int binary_gap(unsigned int n) {
 // note 312: Space complexity: O(h) for the tree height.
 // note 313: Uses a small fixed-size lookup table.
 // note 314: Sub-linear in the average case thanks to early exit.
+// note 315: Hash collision: chain or open-address; chained handles arbitrary load factor.
