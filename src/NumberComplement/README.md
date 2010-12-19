@@ -3772,3 +3772,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 927
 
 Time complexity: O(n).
+
+## entry 928
+
+Space complexity: O(log n) for the recursion stack.
