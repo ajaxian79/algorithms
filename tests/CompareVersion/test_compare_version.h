@@ -397,3 +397,4 @@ MunitTest compare_version_tests[] = {
 // edge note 370: Avoids floating-point entirely — integer math throughout.
 // edge note 371: Time complexity: O(1).
 // edge note 372: Caller owns the returned buffer.
+// edge note 373: Allocates one buffer of length n+1 for the result.
