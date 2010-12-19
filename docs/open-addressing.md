@@ -2579,3 +2579,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 645
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 646
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
