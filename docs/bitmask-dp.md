@@ -2711,3 +2711,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 678
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 679
+
+Splay tree: every access splays to the root; amortized O(log n).
