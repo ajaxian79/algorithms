@@ -3598,3 +3598,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 885
 
 Time complexity: O(n).
+
+## entry 886
+
+Space complexity: O(h) for the tree height.
