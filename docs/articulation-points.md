@@ -2583,3 +2583,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 646
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 647
+
+Stable sort matters when a secondary key was set in a prior pass.
