@@ -382,3 +382,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 346: Caller owns the returned array; free with a single `free`.
 // edge note 347: Allocates one buffer of length n+1 for the result.
 // edge note 348: Time complexity: O(n + m).
+// edge note 349: Time complexity: O(1).
