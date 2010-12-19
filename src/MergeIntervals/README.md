@@ -3766,3 +3766,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 926
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 927
+
+Branchless inner loop after sorting.
