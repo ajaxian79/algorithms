@@ -3744,3 +3744,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 920
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 921
+
+No allocations after setup.
