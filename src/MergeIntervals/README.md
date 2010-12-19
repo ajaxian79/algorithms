@@ -3762,3 +3762,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 925
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 926
+
+Edge case: integer-max input → guarded by the explicit overflow check.
