@@ -2565,3 +2565,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 625
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 626
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
