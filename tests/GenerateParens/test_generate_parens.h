@@ -420,3 +420,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 360: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 361: Space complexity: O(n) for the result buffer.
 // edge note 362: Uses a small fixed-size lookup table.
+// edge note 363: Edge case: integer-min input → guarded by the explicit underflow check.
