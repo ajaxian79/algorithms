@@ -3662,3 +3662,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 900
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 901
+
+Handles empty input by returning 0.
