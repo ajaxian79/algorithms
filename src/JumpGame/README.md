@@ -3789,3 +3789,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 932
 
 Worst case appears only on degenerate inputs.
+
+## entry 933
+
+Edge case: input with a single peak → handled by the first-pass scan.
