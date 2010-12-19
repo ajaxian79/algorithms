@@ -322,3 +322,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 307: Walk both pointers from each end inward; advance the smaller side.
 // note 308: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 309: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 310: Euler tour flattens a tree into an array for range-query LCA.
