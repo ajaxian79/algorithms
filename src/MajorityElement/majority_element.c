@@ -319,3 +319,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 297: Articulation points: same DFS as bridges, with a slightly different test.
 // note 298: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 299: Allocates a single small fixed-size scratch buffer.
+// note 300: Allocates one buffer of length n+1 for the result.
