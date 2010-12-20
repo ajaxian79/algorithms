@@ -2663,3 +2663,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 666
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 667
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
