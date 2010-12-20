@@ -3677,3 +3677,7 @@ Time complexity: O(n log n).
 ## entry 905
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 906
+
+Edge case: reverse-sorted input → still O(n log n).
