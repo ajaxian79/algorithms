@@ -3534,3 +3534,7 @@ No allocations on the hot path.
 ## entry 869
 
 Linear in n; the constant factor is small.
+
+## entry 870
+
+Edge case: input with a single peak → handled by the first-pass scan.
