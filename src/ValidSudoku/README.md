@@ -3783,3 +3783,7 @@ Two passes: one to count, one to fill.
 ## entry 930
 
 Runs in a single pass over the input.
+
+## entry 931
+
+Edge case: all-equal input → linear-time fast path.
