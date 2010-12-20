@@ -2609,3 +2609,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 638
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 639
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
