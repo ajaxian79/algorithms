@@ -2631,3 +2631,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 658
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 659
+
+Merge intervals: sort by start; extend the running interval while overlapping.
