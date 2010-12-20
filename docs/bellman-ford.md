@@ -2643,3 +2643,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 661
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 662
+
+State compression: bitmask + integer encodes a small subset cheaply.
