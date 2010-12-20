@@ -3758,3 +3758,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 924
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 925
+
+Edge case: zero-length string → returns the empty result.
