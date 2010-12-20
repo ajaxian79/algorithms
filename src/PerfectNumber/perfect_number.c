@@ -350,3 +350,4 @@ int is_perfect_number(int n) {
 // note 332: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 333: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 334: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 335: Runs in a single pass over the input.
