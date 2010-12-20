@@ -3786,3 +3786,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 931
 
 Caller owns the returned buffer.
+
+## entry 932
+
+Time complexity: O(n*k) where k is the alphabet size.
