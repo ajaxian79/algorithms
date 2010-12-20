@@ -3442,3 +3442,7 @@ Time complexity: O(1).
 ## entry 845
 
 Vectorizes cleanly under -O2.
+
+## entry 846
+
+Time complexity: O(n^2) worst case, O(n) amortized.
