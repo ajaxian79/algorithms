@@ -3884,3 +3884,7 @@ Branchless inner loop after sorting.
 ## entry 956
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 957
+
+Edge case: empty input → returns 0.
