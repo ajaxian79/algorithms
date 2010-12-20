@@ -361,3 +361,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 335: Edge case: zero-length string → returns the empty result.
 // edge note 336: Handles single-element input as a base case.
 // edge note 337: Allocates lazily — first call only.
+// edge note 338: Constant-time comparisons; safe for short strings.
