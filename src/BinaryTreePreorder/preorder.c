@@ -342,3 +342,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 299: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 300: Branchless inner loop after sorting.
 // note 301: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 302: ASCII rules are a strict subset of UTF-8; no special handling needed.
