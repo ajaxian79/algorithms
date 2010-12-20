@@ -2561,3 +2561,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 624
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 625
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
