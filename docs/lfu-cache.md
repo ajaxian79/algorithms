@@ -2563,3 +2563,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 641
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 642
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
