@@ -2651,3 +2651,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 645
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 646
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
