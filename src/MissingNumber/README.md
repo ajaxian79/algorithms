@@ -3694,3 +3694,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 908
 
 Returns a freshly allocated string the caller must free.
+
+## entry 909
+
+Deterministic given the input — no PRNG seeds.
