@@ -3749,3 +3749,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 923
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 924
+
+Time complexity: O(n).
