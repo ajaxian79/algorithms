@@ -3602,3 +3602,7 @@ Vectorizes cleanly under -O2.
 ## entry 886
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 887
+
+Two passes: one to count, one to fill.
