@@ -320,3 +320,4 @@ int is_perfect_square(int n) {
 // note 301: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 302: Thread-safe so long as the input is not mutated concurrently.
 // note 303: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 304: Iterative DFS with an explicit stack avoids recursion-limit issues.
