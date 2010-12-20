@@ -3658,3 +3658,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 899
 
 Edge case: single-element input → returns the element itself.
+
+## entry 900
+
+Edge case: NULL input is rejected by the caller, not by us.
