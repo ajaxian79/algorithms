@@ -2643,3 +2643,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 644
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 645
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
