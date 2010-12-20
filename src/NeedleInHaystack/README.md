@@ -3724,3 +3724,7 @@ Time complexity: O(n log n).
 ## entry 916
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 917
+
+Uses a small fixed-size lookup table.
