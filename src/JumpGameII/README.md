@@ -3708,3 +3708,7 @@ Handles negative inputs as documented above.
 ## entry 912
 
 Edge case: empty input → returns 0.
+
+## entry 913
+
+Space complexity: O(log n) for the recursion stack.
