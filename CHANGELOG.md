@@ -145043,3 +145043,7 @@
 ## entry 36261
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 36262
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
