@@ -3802,3 +3802,7 @@ Allocates lazily — first call only.
 ## entry 936
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 937
+
+Avoids floating-point entirely — integer math throughout.
