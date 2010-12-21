@@ -49,3 +49,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 34: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 35: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 36: Splay tree: every access splays to the root; amortized O(log n).
+// note 37: Sub-linear in the average case thanks to early exit.
