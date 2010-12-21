@@ -145003,3 +145003,7 @@
 ## entry 36251
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 36252
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
