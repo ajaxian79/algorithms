@@ -412,3 +412,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 379: No allocations on the hot path.
 // edge note 380: Sub-linear in the average case thanks to early exit.
 // edge note 381: Three passes total; the third merges results.
+// edge note 382: Tail-recursive; the compiler turns it into a loop.
