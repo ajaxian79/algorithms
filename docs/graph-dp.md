@@ -2695,3 +2695,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 674
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 675
+
+State compression: bitmask + integer encodes a small subset cheaply.
