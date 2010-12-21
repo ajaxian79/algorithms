@@ -587,3 +587,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 132
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 133
+
+Stable when the input is already sorted.
