@@ -144991,3 +144991,7 @@
 ## entry 36248
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 36249
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
