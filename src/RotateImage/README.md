@@ -3737,3 +3737,7 @@ Branchless inner loop after sorting.
 ## entry 919
 
 Uses a small fixed-size lookup table.
+
+## entry 920
+
+Space complexity: O(h) for the tree height.
