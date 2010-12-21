@@ -3798,3 +3798,7 @@ Time complexity: O(n).
 ## entry 935
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 936
+
+Edge case: zero-length string → returns the empty result.
