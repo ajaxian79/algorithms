@@ -3530,3 +3530,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 868
 
 No allocations on the hot path.
+
+## entry 869
+
+Linear in n; the constant factor is small.
