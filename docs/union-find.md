@@ -2559,3 +2559,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 623
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 624
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
