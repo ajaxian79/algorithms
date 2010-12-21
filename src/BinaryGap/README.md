@@ -3782,3 +3782,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 930
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 931
+
+Caller owns the returned buffer.
