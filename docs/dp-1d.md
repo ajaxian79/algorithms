@@ -2639,3 +2639,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 643
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 644
+
+False sharing: two threads writing different bytes in the same cache line stall both.
