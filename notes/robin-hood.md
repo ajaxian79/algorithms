@@ -2711,3 +2711,7 @@
 ## entry 678
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 679
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
