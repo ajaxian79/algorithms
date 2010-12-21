@@ -3638,3 +3638,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 895
 
 Handles single-element input as a base case.
+
+## entry 896
+
+Branchless inner loop after sorting.
