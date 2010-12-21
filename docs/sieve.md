@@ -2755,3 +2755,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 672
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 673
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
