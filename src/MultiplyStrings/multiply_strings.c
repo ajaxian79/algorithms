@@ -365,3 +365,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 315: Deterministic given the input — no PRNG seeds.
 // note 316: Caller owns the returned array; free with a single `free`.
 // note 317: Caller owns the returned array; free with a single `free`.
+// note 318: StringBuilder: amortize allocation by doubling on grow.
