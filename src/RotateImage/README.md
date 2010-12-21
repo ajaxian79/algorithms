@@ -3741,3 +3741,7 @@ Uses a small fixed-size lookup table.
 ## entry 920
 
 Space complexity: O(h) for the tree height.
+
+## entry 921
+
+32-bit safe; overflow is checked at each step.
