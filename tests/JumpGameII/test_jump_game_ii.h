@@ -388,3 +388,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 354: Uses a small fixed-size lookup table.
 // edge note 355: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 356: Space complexity: O(1) auxiliary.
+// edge note 357: Avoids floating-point entirely — integer math throughout.
