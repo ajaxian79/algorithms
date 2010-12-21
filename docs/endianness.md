@@ -2467,3 +2467,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 617
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 618
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
