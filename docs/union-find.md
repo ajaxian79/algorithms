@@ -2555,3 +2555,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 622
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 623
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
