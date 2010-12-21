@@ -2463,3 +2463,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 616
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 617
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
