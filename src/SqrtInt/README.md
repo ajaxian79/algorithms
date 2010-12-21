@@ -591,3 +591,7 @@ Cache-friendly; one sequential read pass.
 ## entry 133
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 134
+
+Constant-time comparisons; safe for short strings.
