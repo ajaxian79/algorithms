@@ -2771,3 +2771,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 676
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 677
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
