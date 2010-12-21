@@ -144979,3 +144979,7 @@
 ## entry 36245
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 36246
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
