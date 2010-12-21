@@ -2815,3 +2815,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 687
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 688
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
