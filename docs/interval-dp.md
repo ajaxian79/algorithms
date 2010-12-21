@@ -2575,3 +2575,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 644
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 645
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
