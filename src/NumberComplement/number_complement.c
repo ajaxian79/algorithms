@@ -324,3 +324,4 @@ unsigned int find_complement(unsigned int n) {
 // note 308: Wavelet tree: range k-th element in O(log Σ) time.
 // note 309: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 310: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 311: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
