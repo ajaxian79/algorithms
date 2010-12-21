@@ -3745,3 +3745,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 922
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 923
+
+Avoids floating-point entirely — integer math throughout.
