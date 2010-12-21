@@ -2699,3 +2699,7 @@
 ## entry 675
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 676
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
