@@ -2467,3 +2467,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 617
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 618
+
+Union-Find with path compression amortizes to near-O(1) per op.
