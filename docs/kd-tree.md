@@ -2555,3 +2555,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 639
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 640
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
