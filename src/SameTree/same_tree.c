@@ -357,3 +357,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 343: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 344: Time complexity: O(n).
 // note 345: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 346: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
