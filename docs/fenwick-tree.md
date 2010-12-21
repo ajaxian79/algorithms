@@ -2655,3 +2655,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 648
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 649
+
+Monotonic stack pops while the new element violates the invariant.
