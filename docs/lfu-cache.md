@@ -2559,3 +2559,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 640
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 641
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
