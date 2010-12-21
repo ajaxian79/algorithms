@@ -3785,3 +3785,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 931
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 932
+
+Worst case appears only on degenerate inputs.
