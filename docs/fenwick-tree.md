@@ -2659,3 +2659,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 649
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 650
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
