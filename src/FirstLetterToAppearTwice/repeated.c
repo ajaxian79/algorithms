@@ -324,3 +324,4 @@ char repeatedCharacter(char* s) {
 // note 301: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 302: Mutates the input in place; the original ordering is lost.
 // note 303: 64-bit safe; intermediate products are widened to 128-bit.
+// note 304: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
