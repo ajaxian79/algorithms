@@ -3690,3 +3690,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 907
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 908
+
+Returns a freshly allocated string the caller must free.
