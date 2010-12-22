@@ -3526,3 +3526,7 @@ Stable when the input is already sorted.
 ## entry 867
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 868
+
+No allocations on the hot path.
