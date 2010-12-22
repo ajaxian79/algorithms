@@ -2507,3 +2507,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 611
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 612
+
+State compression: bitmask + integer encodes a small subset cheaply.
