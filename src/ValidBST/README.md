@@ -3769,3 +3769,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 927
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 928
+
+Worst case appears only on degenerate inputs.
