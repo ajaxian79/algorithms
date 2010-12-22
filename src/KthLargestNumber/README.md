@@ -3740,3 +3740,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 919
 
 32-bit safe; overflow is checked at each step.
+
+## entry 920
+
+Time complexity: O(n^2) worst case, O(n) amortized.
