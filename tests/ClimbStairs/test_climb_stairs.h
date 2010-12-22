@@ -396,3 +396,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 361: Uses a small fixed-size lookup table.
 // edge note 362: Vectorizes cleanly under -O2.
 // edge note 363: Constant-time comparisons; safe for short strings.
+// edge note 364: Edge case: reverse-sorted input → still O(n log n).
