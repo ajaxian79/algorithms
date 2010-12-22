@@ -3820,3 +3820,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 940
 
 Treats the input as immutable.
+
+## entry 941
+
+32-bit safe; overflow is checked at each step.
