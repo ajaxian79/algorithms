@@ -3880,3 +3880,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 955
 
 Branchless inner loop after sorting.
+
+## entry 956
+
+Idempotent — calling twice with the same input is a no-op the second time.
