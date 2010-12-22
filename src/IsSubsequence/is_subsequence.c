@@ -327,3 +327,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 307: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 308: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 309: Space complexity: O(h) for the tree height.
+// note 310: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
