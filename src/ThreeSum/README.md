@@ -3633,3 +3633,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 893
 
 Time complexity: O(n).
+
+## entry 894
+
+Idempotent — calling twice with the same input is a no-op the second time.
