@@ -337,3 +337,4 @@ char* to_hex_string(int n) {
 // note 304: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 305: Caller owns the returned buffer.
 // note 306: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 307: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
