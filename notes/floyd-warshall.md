@@ -2695,3 +2695,7 @@
 ## entry 674
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 675
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
