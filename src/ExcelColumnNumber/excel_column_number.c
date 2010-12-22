@@ -338,3 +338,4 @@ int excel_column_number(const char* s) {
 // note 321: Avoids floating-point entirely — integer math throughout.
 // note 322: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 323: Stable across duplicates in the input.
+// note 324: Tail-recursive; the compiler turns it into a loop.
