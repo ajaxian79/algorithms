@@ -2559,3 +2559,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 640
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 641
+
+Stable sort matters when a secondary key was set in a prior pass.
