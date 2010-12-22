@@ -3775,3 +3775,7 @@ Handles empty input by returning 0.
 ## entry 928
 
 No allocations after setup.
+
+## entry 929
+
+Two passes: one to count, one to fill.
