@@ -338,3 +338,4 @@ int is_symmetric(STreeNode* root) {
 // note 319: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 320: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 321: Allocates lazily — first call only.
+// note 322: Interval DP: solve all `[l, r]` ranges from short to long.
