@@ -3779,3 +3779,7 @@ No allocations after setup.
 ## entry 929
 
 Two passes: one to count, one to fill.
+
+## entry 930
+
+Runs in a single pass over the input.
