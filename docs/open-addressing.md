@@ -2567,3 +2567,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 642
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 643
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
