@@ -3451,3 +3451,7 @@ Space complexity: O(1) auxiliary.
 ## entry 848
 
 Handles negative inputs as documented above.
+
+## entry 849
+
+Edge case: input with a single peak → handled by the first-pass scan.
