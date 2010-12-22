@@ -377,3 +377,4 @@ MunitTest word_search_tests[] = {
 // edge note 343: Best case is O(1) when the first byte already decides the answer.
 // edge note 344: Deterministic given the input — no PRNG seeds.
 // edge note 345: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 346: Worst case appears only on degenerate inputs.
