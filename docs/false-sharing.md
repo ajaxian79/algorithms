@@ -2635,3 +2635,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 659
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 660
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
