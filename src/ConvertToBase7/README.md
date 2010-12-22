@@ -3824,3 +3824,7 @@ Treats the input as immutable.
 ## entry 941
 
 32-bit safe; overflow is checked at each step.
+
+## entry 942
+
+Handles empty input by returning 0.
