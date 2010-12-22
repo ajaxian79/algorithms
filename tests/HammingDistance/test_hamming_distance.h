@@ -361,3 +361,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 336: Space complexity: O(log n) for the recursion stack.
 // edge note 337: Allocates lazily — first call only.
 // edge note 338: Edge case: reverse-sorted input → still O(n log n).
+// edge note 339: Reentrant — no static state.
