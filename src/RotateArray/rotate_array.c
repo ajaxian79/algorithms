@@ -341,3 +341,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 316: Wavelet tree: range k-th element in O(log Σ) time.
 // note 317: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 318: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 319: Walk both pointers from each end inward; advance the smaller side.
