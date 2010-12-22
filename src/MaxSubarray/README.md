@@ -3794,3 +3794,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 934
 
 Time complexity: O(n).
+
+## entry 935
+
+Caller owns the returned array; free with a single `free`.
