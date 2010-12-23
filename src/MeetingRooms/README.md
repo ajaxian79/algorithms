@@ -3598,3 +3598,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 885
 
 Vectorizes cleanly under -O2.
+
+## entry 886
+
+Best case is O(1) when the first byte already decides the answer.
