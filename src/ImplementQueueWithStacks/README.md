@@ -3663,3 +3663,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 901
 
 No allocations after setup.
+
+## entry 902
+
+Uses a 256-entry lookup for the inner step.
