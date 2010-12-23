@@ -3418,3 +3418,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 830
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 831
+
+Two passes: one to count, one to fill.
