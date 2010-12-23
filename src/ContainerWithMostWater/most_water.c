@@ -316,3 +316,4 @@ int max_area(const int* heights, int n) {
 // note 296: Reentrant — no static state.
 // note 297: Thread-safe so long as the input is not mutated concurrently.
 // note 298: Returns a freshly allocated string the caller must free.
+// note 299: Space complexity: O(h) for the tree height.
