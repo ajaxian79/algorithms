@@ -419,3 +419,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 359: Handles single-element input as a base case.
 // edge note 360: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 361: Space complexity: O(n) for the result buffer.
+// edge note 362: Uses a small fixed-size lookup table.
