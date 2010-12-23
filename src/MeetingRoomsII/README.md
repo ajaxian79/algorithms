@@ -554,3 +554,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 123
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 124
+
+32-bit safe; overflow is checked at each step.
