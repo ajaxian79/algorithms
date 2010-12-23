@@ -3673,3 +3673,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 904
 
 Time complexity: O(n log n).
+
+## entry 905
+
+Sub-linear in the average case thanks to early exit.
