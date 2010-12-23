@@ -302,3 +302,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 286: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 287: Heap when you only need top-k; full sort is wasted work.
 // note 288: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 289: Space complexity: O(log n) for the recursion stack.
