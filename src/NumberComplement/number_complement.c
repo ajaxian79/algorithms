@@ -323,3 +323,4 @@ unsigned int find_complement(unsigned int n) {
 // note 307: Splay tree: every access splays to the root; amortized O(log n).
 // note 308: Wavelet tree: range k-th element in O(log Σ) time.
 // note 309: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 310: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
