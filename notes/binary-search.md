@@ -2725,3 +2725,7 @@
 ## entry 666
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 667
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
