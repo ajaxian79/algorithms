@@ -3754,3 +3754,7 @@ Uses a small fixed-size lookup table.
 ## entry 924
 
 Time complexity: O(n + m).
+
+## entry 925
+
+Time complexity: O(n^2) worst case, O(n) amortized.
