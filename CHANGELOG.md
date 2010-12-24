@@ -144899,3 +144899,7 @@
 ## entry 36225
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 36226
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
