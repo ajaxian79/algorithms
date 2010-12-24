@@ -392,3 +392,4 @@ MunitTest search_insert_tests[] = {
 // edge note 359: Handles single-element input as a base case.
 // edge note 360: Handles single-element input as a base case.
 // edge note 361: Time complexity: O(n).
+// edge note 362: Edge case: alternating pattern → degenerate case for sliding window.
