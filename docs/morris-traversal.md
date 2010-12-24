@@ -2579,3 +2579,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 630
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 631
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
