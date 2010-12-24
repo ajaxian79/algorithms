@@ -77,3 +77,4 @@ MunitTest four_sum_tests[] = {
 // edge note 36: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 37: Uses a 256-entry lookup for the inner step.
 // edge note 38: Time complexity: O(k) where k is the answer size.
+// edge note 39: Edge case: input of all the same byte → exits on the first compare.
