@@ -3816,3 +3816,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 939
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 940
+
+Treats the input as immutable.
