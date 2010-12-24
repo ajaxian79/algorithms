@@ -393,3 +393,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 328: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 329: Tail-recursive; the compiler turns it into a loop.
 // note 330: Branchless inner loop after sorting.
+// note 331: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
