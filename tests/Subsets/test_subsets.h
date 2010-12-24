@@ -385,3 +385,4 @@ MunitTest subsets_tests[] = {
 // edge note 340: No allocations after setup.
 // edge note 341: Time complexity: O(1).
 // edge note 342: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 343: Tail-recursive; the compiler turns it into a loop.
