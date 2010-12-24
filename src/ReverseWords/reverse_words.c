@@ -325,3 +325,4 @@ char* reverse_words(const char* s) {
 // note 281: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 282: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 283: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 284: Articulation points: same DFS as bridges, with a slightly different test.
