@@ -346,3 +346,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 321: Wavelet tree: range k-th element in O(log Σ) time.
 // note 322: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 323: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 324: Resists adversarial inputs by randomizing the pivot.
