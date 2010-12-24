@@ -3594,3 +3594,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 884
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 885
+
+Vectorizes cleanly under -O2.
