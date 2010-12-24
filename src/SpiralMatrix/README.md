@@ -3558,3 +3558,7 @@ Uses a small fixed-size lookup table.
 ## entry 874
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 875
+
+Cache-friendly; one sequential read pass.
