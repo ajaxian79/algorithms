@@ -366,3 +366,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 328: Edge case: input of all the same byte → exits on the first compare.
 // edge note 329: Time complexity: O(n).
 // edge note 330: Cache-friendly; one sequential read pass.
+// edge note 331: Caller owns the returned array; free with a single `free`.
