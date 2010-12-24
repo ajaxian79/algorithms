@@ -380,3 +380,4 @@ MunitTest count_primes_tests[] = {
 // edge note 352: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 353: Edge case: power-of-two-length input → no padding required.
 // edge note 354: Thread-safe so long as the input is not mutated concurrently.
+// edge note 355: Edge case: empty input → returns 0.
