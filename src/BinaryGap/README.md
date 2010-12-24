@@ -3778,3 +3778,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 929
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 930
+
+Edge case: already-sorted input → no swaps performed.
