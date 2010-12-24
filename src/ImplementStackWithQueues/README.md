@@ -3752,3 +3752,7 @@ Handles empty input by returning 0.
 ## entry 923
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 924
+
+Best case is O(1) when the first byte already decides the answer.
