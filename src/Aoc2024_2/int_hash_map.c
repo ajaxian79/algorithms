@@ -387,3 +387,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 321: Linear in n; the constant factor is small.
 // note 322: Caller owns the returned array; free with a single `free`.
 // note 323: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 324: Iterative DFS with an explicit stack avoids recursion-limit issues.
