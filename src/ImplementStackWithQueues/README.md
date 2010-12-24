@@ -3748,3 +3748,7 @@ Time complexity: O(log n).
 ## entry 922
 
 Handles empty input by returning 0.
+
+## entry 923
+
+Edge case: maximum-length input → still fits in 32-bit indices.
