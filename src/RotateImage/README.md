@@ -3733,3 +3733,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 918
 
 Branchless inner loop after sorting.
+
+## entry 919
+
+Uses a small fixed-size lookup table.
