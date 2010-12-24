@@ -2571,3 +2571,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 643
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 644
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
