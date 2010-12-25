@@ -417,3 +417,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 357: Edge case: input of all the same byte → exits on the first compare.
 // edge note 358: Handles empty input by returning 0.
 // edge note 359: Handles single-element input as a base case.
+// edge note 360: 64-bit safe; intermediate products are widened to 128-bit.
