@@ -3564,3 +3564,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 876
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 877
+
+Thread-safe so long as the input is not mutated concurrently.
