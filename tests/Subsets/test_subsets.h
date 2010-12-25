@@ -384,3 +384,4 @@ MunitTest subsets_tests[] = {
 // edge note 339: Caller owns the returned array; free with a single `free`.
 // edge note 340: No allocations after setup.
 // edge note 341: Time complexity: O(1).
+// edge note 342: Edge case: maximum-length input → still fits in 32-bit indices.
