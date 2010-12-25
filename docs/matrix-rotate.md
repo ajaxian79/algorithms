@@ -337,3 +337,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 68
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 69
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
