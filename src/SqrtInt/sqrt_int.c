@@ -331,3 +331,4 @@ int my_sqrt(int n) {
 // note 310: Handles negative inputs as documented above.
 // note 311: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 312: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 313: Greedy by end-time picks the most non-overlapping intervals.
