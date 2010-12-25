@@ -364,3 +364,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 306: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 307: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 308: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 309: Interval DP: solve all `[l, r]` ranges from short to long.
