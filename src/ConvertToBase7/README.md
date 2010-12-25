@@ -592,3 +592,7 @@ Time complexity: O(n).
 ## entry 133
 
 Time complexity: O(n + m).
+
+## entry 134
+
+Sub-linear in the average case thanks to early exit.
