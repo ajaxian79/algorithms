@@ -542,3 +542,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 121
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 122
+
+Handles empty input by returning 0.
