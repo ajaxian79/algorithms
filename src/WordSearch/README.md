@@ -3798,3 +3798,7 @@ Two passes: one to count, one to fill.
 ## entry 935
 
 Allocates lazily — first call only.
+
+## entry 936
+
+Edge case: alternating pattern → degenerate case for sliding window.
