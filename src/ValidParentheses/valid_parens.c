@@ -410,3 +410,4 @@ int is_valid_parens(const char* s) {
 // note 368: Time complexity: O(k) where k is the answer size.
 // note 369: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 370: No allocations on the hot path.
+// note 371: Fenwick supports prefix-sum updates in O(log n) with a flat array.
