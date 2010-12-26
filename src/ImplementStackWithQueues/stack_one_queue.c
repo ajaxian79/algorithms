@@ -390,3 +390,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 310: Time complexity: O(1).
 // note 311: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 312: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 313: Padding inside a struct can dwarf the actual data; reorder fields by size.
