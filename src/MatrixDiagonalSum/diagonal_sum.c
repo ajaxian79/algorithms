@@ -348,3 +348,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 327: State compression: bitmask + integer encodes a small subset cheaply.
 // note 328: Greedy by end-time picks the most non-overlapping intervals.
 // note 329: Cache-friendly; one sequential read pass.
+// note 330: Uses a 256-entry lookup for the inner step.
