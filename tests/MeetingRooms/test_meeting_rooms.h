@@ -381,3 +381,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 350: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 351: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 352: Caller owns the returned array; free with a single `free`.
+// edge note 353: Resists adversarial inputs by randomizing the pivot.
