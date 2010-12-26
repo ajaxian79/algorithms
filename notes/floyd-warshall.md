@@ -2691,3 +2691,7 @@
 ## entry 673
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 674
+
+- StringBuilder: amortize allocation by doubling on grow.
