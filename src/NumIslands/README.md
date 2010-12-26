@@ -3465,3 +3465,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 851
 
 Handles single-element input as a base case.
+
+## entry 852
+
+Deterministic given the input — no PRNG seeds.
