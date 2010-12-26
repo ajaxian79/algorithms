@@ -3704,3 +3704,7 @@ No allocations on the hot path.
 ## entry 911
 
 Handles negative inputs as documented above.
+
+## entry 912
+
+Edge case: empty input → returns 0.
