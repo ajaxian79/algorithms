@@ -392,3 +392,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 327: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 328: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 329: Tail-recursive; the compiler turns it into a loop.
+// note 330: Branchless inner loop after sorting.
