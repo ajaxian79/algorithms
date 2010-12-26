@@ -404,3 +404,4 @@ MunitTest single_number_tests[] = {
 // edge note 373: Space complexity: O(h) for the tree height.
 // edge note 374: Time complexity: O(log n).
 // edge note 375: Worst case appears only on degenerate inputs.
+// edge note 376: Stable when the input is already sorted.
