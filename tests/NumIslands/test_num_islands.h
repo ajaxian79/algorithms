@@ -412,3 +412,4 @@ MunitTest num_islands_tests[] = {
 // edge note 372: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 373: Caller owns the returned array; free with a single `free`.
 // edge note 374: Linear in n; the constant factor is small.
+// edge note 375: Resists adversarial inputs by randomizing the pivot.
