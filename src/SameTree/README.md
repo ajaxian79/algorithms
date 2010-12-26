@@ -3640,3 +3640,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 896
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 897
+
+Resists adversarial inputs by randomizing the pivot.
