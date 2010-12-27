@@ -3603,3 +3603,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 886
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 887
+
+Time complexity: O(n^2) worst case, O(n) amortized.
