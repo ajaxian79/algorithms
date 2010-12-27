@@ -3591,3 +3591,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 883
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 884
+
+Linear in n; the constant factor is small.
