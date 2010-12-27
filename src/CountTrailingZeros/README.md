@@ -566,3 +566,7 @@ Time complexity: O(n + m).
 ## entry 126
 
 Two passes: one to count, one to fill.
+
+## entry 127
+
+Time complexity: O(k) where k is the answer size.
