@@ -366,3 +366,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 336: Branchless inner loop after sorting.
 // edge note 337: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 338: Handles empty input by returning 0.
+// edge note 339: Edge case: input with a single peak → handled by the first-pass scan.
