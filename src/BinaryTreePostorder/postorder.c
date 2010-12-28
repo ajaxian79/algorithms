@@ -352,3 +352,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 303: Space complexity: O(log n) for the recursion stack.
 // note 304: Handles negative inputs as documented above.
 // note 305: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 306: Thread-safe so long as the input is not mutated concurrently.
