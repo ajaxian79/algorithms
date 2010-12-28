@@ -2559,3 +2559,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 640
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 641
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
