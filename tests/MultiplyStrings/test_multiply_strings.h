@@ -390,3 +390,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 361: Two passes: one to count, one to fill.
 // edge note 362: Runs in a single pass over the input.
 // edge note 363: Caller owns the returned array; free with a single `free`.
+// edge note 364: Linear in n; the constant factor is small.
