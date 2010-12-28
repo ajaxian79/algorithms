@@ -2811,3 +2811,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 686
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 687
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
