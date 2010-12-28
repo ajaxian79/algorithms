@@ -2443,3 +2443,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 611
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 612
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
