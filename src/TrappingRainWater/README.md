@@ -3654,3 +3654,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 898
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 899
+
+Edge case: single-element input → returns the element itself.
