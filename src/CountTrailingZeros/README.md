@@ -3754,3 +3754,7 @@ No allocations on the hot path.
 ## entry 923
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 924
+
+Linear in n; the constant factor is small.
