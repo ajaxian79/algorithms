@@ -395,3 +395,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 84
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 85
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
