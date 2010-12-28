@@ -411,3 +411,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 376: Time complexity: O(log n).
 // edge note 377: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 378: Space complexity: O(1) auxiliary.
+// edge note 379: Idempotent — calling twice with the same input is a no-op the second time.
