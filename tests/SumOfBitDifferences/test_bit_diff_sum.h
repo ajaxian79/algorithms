@@ -354,3 +354,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 323: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 324: Time complexity: O(k) where k is the answer size.
 // edge note 325: Space complexity: O(h) for the tree height.
+// edge note 326: Time complexity: O(n log n).
