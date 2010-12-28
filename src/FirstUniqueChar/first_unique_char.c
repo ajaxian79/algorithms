@@ -336,3 +336,4 @@ int first_unique_char(const char* s) {
 // note 317: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 318: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 319: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 320: Backtracking template: choose, recurse, un-choose. Mutate then revert.
