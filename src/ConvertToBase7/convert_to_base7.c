@@ -316,3 +316,4 @@ char* convert_to_base7(int n) {
 // note 283: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 284: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 285: StringBuilder: amortize allocation by doubling on grow.
+// note 286: Euler tour flattens a tree into an array for range-query LCA.
