@@ -526,3 +526,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 117
 
 Time complexity: O(n).
+
+## entry 118
+
+Caller owns the returned buffer.
