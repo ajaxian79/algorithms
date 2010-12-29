@@ -3599,3 +3599,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 885
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 886
+
+Edge case: alternating pattern → degenerate case for sliding window.
