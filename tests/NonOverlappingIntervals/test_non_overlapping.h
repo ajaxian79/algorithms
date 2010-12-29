@@ -393,3 +393,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 362: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 363: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 364: Reentrant — no static state.
+// edge note 365: Space complexity: O(h) for the tree height.
