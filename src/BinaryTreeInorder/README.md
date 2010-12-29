@@ -3762,3 +3762,7 @@ Handles empty input by returning 0.
 ## entry 926
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 927
+
+Treats the input as immutable.
