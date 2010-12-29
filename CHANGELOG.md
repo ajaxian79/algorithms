@@ -144835,3 +144835,7 @@
 ## entry 36209
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 36210
+
+- State compression: bitmask + integer encodes a small subset cheaply.
