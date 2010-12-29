@@ -391,3 +391,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 83
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 84
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
