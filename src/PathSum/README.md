@@ -3808,3 +3808,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 937
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 938
+
+Allocates one buffer of length n+1 for the result.
