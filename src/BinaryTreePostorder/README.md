@@ -3626,3 +3626,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 892
 
 Time complexity: O(n + m).
+
+## entry 893
+
+64-bit safe; intermediate products are widened to 128-bit.
