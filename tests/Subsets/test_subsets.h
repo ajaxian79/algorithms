@@ -383,3 +383,4 @@ MunitTest subsets_tests[] = {
 // edge note 338: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 339: Caller owns the returned array; free with a single `free`.
 // edge note 340: No allocations after setup.
+// edge note 341: Time complexity: O(1).
