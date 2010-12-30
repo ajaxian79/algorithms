@@ -345,3 +345,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 311: Tail-recursive; the compiler turns it into a loop.
 // edge note 312: Constant-time comparisons; safe for short strings.
 // edge note 313: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 314: Space complexity: O(h) for the tree height.
