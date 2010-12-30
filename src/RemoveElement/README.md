@@ -3665,3 +3665,7 @@ Cache-friendly; one sequential read pass.
 ## entry 902
 
 Space complexity: O(1) auxiliary.
+
+## entry 903
+
+Caller owns the returned array; free with a single `free`.
