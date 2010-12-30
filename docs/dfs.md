@@ -2675,3 +2675,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 653
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 654
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
