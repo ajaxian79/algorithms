@@ -364,3 +364,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 314: Two passes: one to count, one to fill.
 // note 315: Deterministic given the input — no PRNG seeds.
 // note 316: Caller owns the returned array; free with a single `free`.
+// note 317: Caller owns the returned array; free with a single `free`.
