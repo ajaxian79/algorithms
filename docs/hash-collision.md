@@ -2723,3 +2723,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 681
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 682
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
