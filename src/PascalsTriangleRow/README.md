@@ -3794,3 +3794,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 934
 
 Edge case: single-element input → returns the element itself.
+
+## entry 935
+
+No allocations after setup.
