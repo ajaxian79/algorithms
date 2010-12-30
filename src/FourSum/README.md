@@ -3532,3 +3532,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 868
 
 Worst case appears only on degenerate inputs.
+
+## entry 869
+
+Edge case: input with no peak → falls through to the default branch.
