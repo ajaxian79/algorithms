@@ -3732,3 +3732,7 @@ Handles negative inputs as documented above.
 ## entry 917
 
 No allocations on the hot path.
+
+## entry 918
+
+Tail-recursive; the compiler turns it into a loop.
