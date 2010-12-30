@@ -3890,3 +3890,7 @@ Two passes: one to count, one to fill.
 ## entry 958
 
 Branchless inner loop after sorting.
+
+## entry 959
+
+Time complexity: O(1).
