@@ -2611,3 +2611,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 653
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 654
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
