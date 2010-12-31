@@ -144787,3 +144787,7 @@
 ## entry 36197
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 36198
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
