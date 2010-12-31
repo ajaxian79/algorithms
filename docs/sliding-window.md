@@ -2619,3 +2619,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 640
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 641
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
