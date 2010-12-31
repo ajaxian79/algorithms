@@ -337,3 +337,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 302: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 303: State compression: bitmask + integer encodes a small subset cheaply.
 // note 304: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 305: Open addressing with linear probing wins until load factor exceeds 0.7.
