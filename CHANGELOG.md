@@ -18599,3 +18599,7 @@
 ## entry 4650
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 4651
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
