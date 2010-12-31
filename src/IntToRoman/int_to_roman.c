@@ -373,3 +373,4 @@ char* int_to_roman(int n) {
 // note 336: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 337: Greedy by end-time picks the most non-overlapping intervals.
 // note 338: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 339: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
