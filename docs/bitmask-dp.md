@@ -2703,3 +2703,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 676
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 677
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
