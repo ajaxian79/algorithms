@@ -3410,3 +3410,7 @@ Two passes: one to count, one to fill.
 ## entry 828
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 829
+
+Edge case: input with no peak → falls through to the default branch.
