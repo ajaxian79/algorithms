@@ -3498,3 +3498,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 860
 
 Branchless inner loop after sorting.
+
+## entry 861
+
+Time complexity: O(n*k) where k is the alphabet size.
