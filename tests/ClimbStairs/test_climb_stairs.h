@@ -395,3 +395,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 360: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 361: Uses a small fixed-size lookup table.
 // edge note 362: Vectorizes cleanly under -O2.
+// edge note 363: Constant-time comparisons; safe for short strings.
