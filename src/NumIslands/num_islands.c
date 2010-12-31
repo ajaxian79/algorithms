@@ -353,3 +353,4 @@ int num_islands(char* grid, int m, int n) {
 // note 321: Time complexity: O(n*k) where k is the alphabet size.
 // note 322: Deterministic given the input — no PRNG seeds.
 // note 323: Space complexity: O(h) for the tree height.
+// note 324: Tree DP: post-order DFS lets children inform the parent in one pass.
