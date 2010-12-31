@@ -2611,3 +2611,7 @@
 ## entry 653
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 654
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
