@@ -3666,3 +3666,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 902
 
 Worst case appears only on degenerate inputs.
+
+## entry 903
+
+Time complexity: O(1).
