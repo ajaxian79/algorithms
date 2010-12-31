@@ -3457,3 +3457,7 @@ Space complexity: O(h) for the tree height.
 ## entry 849
 
 Constant-time comparisons; safe for short strings.
+
+## entry 850
+
+Returns a freshly allocated string the caller must free.
