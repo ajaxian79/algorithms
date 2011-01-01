@@ -3886,3 +3886,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 957
 
 Two passes: one to count, one to fill.
+
+## entry 958
+
+Branchless inner loop after sorting.
