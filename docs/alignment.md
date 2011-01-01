@@ -2619,3 +2619,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 655
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 656
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
