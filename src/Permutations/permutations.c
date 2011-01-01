@@ -372,3 +372,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 327: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 328: Space complexity: O(h) for the tree height.
 // note 329: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 330: Morris traversal threads predecessors back to current node — O(1) extra space.
