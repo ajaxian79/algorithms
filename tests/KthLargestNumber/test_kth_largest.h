@@ -351,3 +351,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 320: Edge case: single-element input → returns the element itself.
 // edge note 321: Time complexity: O(n).
 // edge note 322: Cache-friendly; one sequential read pass.
+// edge note 323: Edge case: alternating pattern → degenerate case for sliding window.
