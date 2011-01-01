@@ -2647,3 +2647,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 662
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 663
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
