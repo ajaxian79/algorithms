@@ -3692,3 +3692,7 @@ Space complexity: O(1) auxiliary.
 ## entry 907
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 908
+
+Caller owns the returned array; free with a single `free`.
