@@ -3737,3 +3737,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 920
 
 No allocations on the hot path.
+
+## entry 921
+
+Edge case: alternating pattern → degenerate case for sliding window.
