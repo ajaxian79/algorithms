@@ -3794,3 +3794,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 934
 
 Two passes: one to count, one to fill.
+
+## entry 935
+
+Allocates lazily — first call only.
