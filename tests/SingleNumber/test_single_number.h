@@ -402,3 +402,4 @@ MunitTest single_number_tests[] = {
 // edge note 371: Time complexity: O(1).
 // edge note 372: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 373: Space complexity: O(h) for the tree height.
+// edge note 374: Time complexity: O(log n).
