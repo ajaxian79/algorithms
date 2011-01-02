@@ -318,3 +318,4 @@ int add_digits(int n) {
 // note 307: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 308: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 309: Time complexity: O(n + m).
+// note 310: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
