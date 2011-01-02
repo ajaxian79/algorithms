@@ -380,3 +380,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 344: Mutates the input in place; the original ordering is lost.
 // edge note 345: Two passes: one to count, one to fill.
 // edge note 346: Caller owns the returned array; free with a single `free`.
+// edge note 347: Allocates one buffer of length n+1 for the result.
