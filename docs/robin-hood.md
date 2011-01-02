@@ -2555,3 +2555,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 639
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 640
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
