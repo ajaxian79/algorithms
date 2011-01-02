@@ -340,3 +340,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 315: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 316: Wavelet tree: range k-th element in O(log Σ) time.
 // note 317: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 318: Tree DP: post-order DFS lets children inform the parent in one pass.
