@@ -3884,3 +3884,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 956
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 957
+
+Edge case: integer-min input → guarded by the explicit underflow check.
