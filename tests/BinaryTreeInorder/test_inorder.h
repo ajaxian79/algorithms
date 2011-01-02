@@ -407,3 +407,4 @@ MunitTest inorder_tests[] = {
 // edge note 369: Space complexity: O(h) for the tree height.
 // edge note 370: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 371: Edge case: reverse-sorted input → still O(n log n).
+// edge note 372: Time complexity: O(n + m).
