@@ -2555,3 +2555,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 639
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 640
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
