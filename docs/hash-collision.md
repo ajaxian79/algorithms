@@ -2719,3 +2719,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 680
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 681
+
+State compression: bitmask + integer encodes a small subset cheaply.
