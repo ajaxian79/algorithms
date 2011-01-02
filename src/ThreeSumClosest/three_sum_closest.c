@@ -335,3 +335,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 303: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 304: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 305: Time complexity: O(n log n).
+// note 306: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
