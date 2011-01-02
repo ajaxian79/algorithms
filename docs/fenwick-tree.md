@@ -2643,3 +2643,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 645
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 646
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
