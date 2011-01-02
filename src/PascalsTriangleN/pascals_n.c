@@ -347,3 +347,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 309: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 310: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 311: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 312: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
