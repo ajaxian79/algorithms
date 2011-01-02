@@ -2643,3 +2643,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 661
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 662
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
