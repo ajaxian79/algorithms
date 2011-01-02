@@ -3688,3 +3688,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 906
 
 Space complexity: O(1) auxiliary.
+
+## entry 907
+
+Edge case: all-equal input → linear-time fast path.
