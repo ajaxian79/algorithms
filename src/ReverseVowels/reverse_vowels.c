@@ -345,3 +345,4 @@ void reverse_vowels(char* s) {
 // note 312: Allocates one buffer of length n+1 for the result.
 // note 313: Handles empty input by returning 0.
 // note 314: Runs in a single pass over the input.
+// note 315: Vectorizes cleanly under -O2.
