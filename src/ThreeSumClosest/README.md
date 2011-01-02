@@ -3498,3 +3498,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 860
 
 Constant-time comparisons; safe for short strings.
+
+## entry 861
+
+Caller owns the returned array; free with a single `free`.
