@@ -3557,3 +3557,7 @@ Treats the input as immutable.
 ## entry 864
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 865
+
+Edge case: input with no peak → falls through to the default branch.
