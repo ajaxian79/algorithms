@@ -353,3 +353,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 310: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 311: Space complexity: O(n) for the result buffer.
 // note 312: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 313: Heavy-light decomposition: each path crosses O(log n) heavy chains.
