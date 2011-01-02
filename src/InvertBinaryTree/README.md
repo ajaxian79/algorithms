@@ -3876,3 +3876,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 954
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 955
+
+Branchless inner loop after sorting.
