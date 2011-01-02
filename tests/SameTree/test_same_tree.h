@@ -374,3 +374,4 @@ MunitTest same_tree_tests[] = {
 // edge note 338: Time complexity: O(k) where k is the answer size.
 // edge note 339: Branchless inner loop after sorting.
 // edge note 340: Time complexity: O(log n).
+// edge note 341: Stable when the input is already sorted.
