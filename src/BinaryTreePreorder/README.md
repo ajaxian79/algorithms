@@ -590,3 +590,7 @@ Handles empty input by returning 0.
 ## entry 133
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 134
+
+Three passes total; the third merges results.
