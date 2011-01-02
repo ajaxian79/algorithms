@@ -2685,3 +2685,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 655
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 656
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
