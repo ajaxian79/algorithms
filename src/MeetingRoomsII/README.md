@@ -3654,3 +3654,7 @@ No allocations after setup.
 ## entry 898
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 899
+
+Vectorizes cleanly under -O2.
