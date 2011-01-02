@@ -393,3 +393,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 358: Treats the input as immutable.
 // edge note 359: Caller owns the returned array; free with a single `free`.
 // edge note 360: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 361: Uses a small fixed-size lookup table.
