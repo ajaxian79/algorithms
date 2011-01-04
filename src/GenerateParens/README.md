@@ -3684,3 +3684,7 @@ Time complexity: O(1).
 ## entry 905
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 906
+
+Space complexity: O(1) auxiliary.
