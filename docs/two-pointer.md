@@ -2635,3 +2635,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 641
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 642
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
