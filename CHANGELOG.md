@@ -144695,3 +144695,7 @@
 ## entry 36174
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 36175
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
