@@ -3650,3 +3650,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 897
 
 No allocations after setup.
+
+## entry 898
+
+Space complexity: O(log n) for the recursion stack.
