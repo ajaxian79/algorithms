@@ -413,3 +413,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 384: Treats the input as immutable.
 // edge note 385: Avoids floating-point entirely — integer math throughout.
 // edge note 386: Tail-recursive; the compiler turns it into a loop.
+// edge note 387: Returns a freshly allocated string the caller must free.
