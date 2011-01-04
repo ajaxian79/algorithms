@@ -332,3 +332,4 @@ int is_palindrome_number(int x) {
 // note 308: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 309: Stable sort matters when a secondary key was set in a prior pass.
 // note 310: Linear in n; the constant factor is small.
+// note 311: Graph DP on DAGs: topological order makes the dependency direction explicit.
