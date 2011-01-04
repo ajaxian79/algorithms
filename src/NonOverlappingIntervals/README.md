@@ -3721,3 +3721,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 915
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 916
+
+Edge case: alternating pattern → degenerate case for sliding window.
