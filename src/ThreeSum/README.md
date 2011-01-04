@@ -3621,3 +3621,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 890
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 891
+
+Reentrant — no static state.
