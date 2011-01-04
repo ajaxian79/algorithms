@@ -2599,3 +2599,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 650
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 651
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
