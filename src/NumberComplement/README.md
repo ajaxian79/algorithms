@@ -3764,3 +3764,7 @@ Time complexity: O(log n).
 ## entry 925
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 926
+
+Mutates the input in place; the original ordering is lost.
