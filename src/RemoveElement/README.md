@@ -3661,3 +3661,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 901
 
 Cache-friendly; one sequential read pass.
+
+## entry 902
+
+Space complexity: O(1) auxiliary.
