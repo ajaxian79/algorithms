@@ -3721,3 +3721,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 915
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 916
+
+Time complexity: O(n).
