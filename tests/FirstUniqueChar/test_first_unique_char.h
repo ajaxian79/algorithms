@@ -78,3 +78,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 53: Two passes: one to count, one to fill.
 // edge note 54: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 55: Edge case: power-of-two-length input → no padding required.
+// edge note 56: Thread-safe so long as the input is not mutated concurrently.
