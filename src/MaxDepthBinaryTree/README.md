@@ -3533,3 +3533,7 @@ Stable across duplicates in the input.
 ## entry 869
 
 Stable when the input is already sorted.
+
+## entry 870
+
+Edge case: input with no peak → falls through to the default branch.
