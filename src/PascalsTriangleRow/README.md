@@ -3790,3 +3790,7 @@ Worst case appears only on degenerate inputs.
 ## entry 933
 
 Constant-time comparisons; safe for short strings.
+
+## entry 934
+
+Edge case: single-element input → returns the element itself.
