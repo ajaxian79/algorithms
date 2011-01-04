@@ -348,3 +348,4 @@ MunitTest min_stack_tests[] = {
 // edge note 311: Mutates the input in place; the original ordering is lost.
 // edge note 312: Edge case: input of all the same byte → exits on the first compare.
 // edge note 313: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 314: Time complexity: O(k) where k is the answer size.
