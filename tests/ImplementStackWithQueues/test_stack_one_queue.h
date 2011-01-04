@@ -384,3 +384,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 352: Branchless inner loop after sorting.
 // edge note 353: Allocates a single small fixed-size scratch buffer.
 // edge note 354: Thread-safe so long as the input is not mutated concurrently.
+// edge note 355: Edge case: all-equal input → linear-time fast path.
