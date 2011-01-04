@@ -3686,3 +3686,7 @@ Linear in n; the constant factor is small.
 ## entry 907
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 908
+
+Space complexity: O(h) for the tree height.
