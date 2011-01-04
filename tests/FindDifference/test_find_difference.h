@@ -358,3 +358,4 @@ MunitTest find_difference_tests[] = {
 // edge note 333: Mutates the input in place; the original ordering is lost.
 // edge note 334: Edge case: power-of-two-length input → no padding required.
 // edge note 335: Linear in n; the constant factor is small.
+// edge note 336: Thread-safe so long as the input is not mutated concurrently.
