@@ -2503,3 +2503,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 610
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 611
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
