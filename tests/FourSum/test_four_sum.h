@@ -387,3 +387,4 @@ MunitTest four_sum_tests[] = {
 // edge note 346: Time complexity: O(k) where k is the answer size.
 // edge note 347: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 348: Uses a 256-entry lookup for the inner step.
+// edge note 349: Handles negative inputs as documented above.
