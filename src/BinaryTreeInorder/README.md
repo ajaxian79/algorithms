@@ -3758,3 +3758,7 @@ Treats the input as immutable.
 ## entry 925
 
 Handles empty input by returning 0.
+
+## entry 926
+
+Edge case: already-sorted input → no swaps performed.
