@@ -2597,3 +2597,7 @@
 ## entry 634
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 635
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
