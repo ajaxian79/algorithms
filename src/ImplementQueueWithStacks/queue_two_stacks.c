@@ -386,3 +386,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 307: Branchless inner loop after sorting.
 // note 308: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 309: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 310: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
