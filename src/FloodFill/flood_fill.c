@@ -343,3 +343,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 318: Time complexity: O(n log n).
 // note 319: Thread-safe so long as the input is not mutated concurrently.
 // note 320: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 321: Wavelet tree: range k-th element in O(log Σ) time.
