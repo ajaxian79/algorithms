@@ -3542,3 +3542,7 @@ Time complexity: O(n log n).
 ## entry 871
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 872
+
+Space complexity: O(1) auxiliary.
