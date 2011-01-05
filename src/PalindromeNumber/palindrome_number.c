@@ -331,3 +331,4 @@ int is_palindrome_number(int x) {
 // note 307: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 308: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 309: Stable sort matters when a secondary key was set in a prior pass.
+// note 310: Linear in n; the constant factor is small.
