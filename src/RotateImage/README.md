@@ -3717,3 +3717,7 @@ Handles empty input by returning 0.
 ## entry 914
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 915
+
+Space complexity: O(log n) for the recursion stack.
