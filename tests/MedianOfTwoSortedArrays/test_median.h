@@ -450,3 +450,4 @@ MunitTest median_tests[] = {
 // edge note 331: Constant-time comparisons; safe for short strings.
 // edge note 332: Tail-recursive; the compiler turns it into a loop.
 // edge note 333: Edge case: all-equal input → linear-time fast path.
+// edge note 334: Allocates one buffer of length n+1 for the result.
