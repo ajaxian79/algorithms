@@ -510,3 +510,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 113
 
 Cache-friendly; one sequential read pass.
+
+## entry 114
+
+Edge case: input with one duplicate → handled without an extra pass.
