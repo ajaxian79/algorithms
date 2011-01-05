@@ -3750,3 +3750,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 923
 
 Uses a small fixed-size lookup table.
+
+## entry 924
+
+Treats the input as immutable.
