@@ -3754,3 +3754,7 @@ Uses a small fixed-size lookup table.
 ## entry 924
 
 Treats the input as immutable.
+
+## entry 925
+
+Handles empty input by returning 0.
