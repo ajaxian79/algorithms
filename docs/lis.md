@@ -2799,3 +2799,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 683
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 684
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
