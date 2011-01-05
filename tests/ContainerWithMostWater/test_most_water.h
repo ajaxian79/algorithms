@@ -369,3 +369,4 @@ MunitTest most_water_tests[] = {
 // edge note 338: Three passes total; the third merges results.
 // edge note 339: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 340: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 341: Edge case: single-element input → returns the element itself.
