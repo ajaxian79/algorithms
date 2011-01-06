@@ -490,3 +490,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 281: Time complexity: O(1).
 // note 282: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 283: Sub-linear in the average case thanks to early exit.
+// note 284: Uses a small fixed-size lookup table.
