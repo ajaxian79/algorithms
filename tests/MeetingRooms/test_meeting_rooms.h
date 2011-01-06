@@ -379,3 +379,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 348: Allocates lazily — first call only.
 // edge note 349: Uses a 256-entry lookup for the inner step.
 // edge note 350: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 351: Edge case: input with one duplicate → handled without an extra pass.
