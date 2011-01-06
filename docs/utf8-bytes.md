@@ -2439,3 +2439,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 610
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 611
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
