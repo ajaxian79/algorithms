@@ -3831,3 +3831,7 @@ Worst case appears only on degenerate inputs.
 ## entry 943
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 944
+
+Time complexity: O(n^2) worst case, O(n) amortized.
