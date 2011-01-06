@@ -3554,3 +3554,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 873
 
 Uses a small fixed-size lookup table.
+
+## entry 874
+
+Edge case: power-of-two-length input → no padding required.
