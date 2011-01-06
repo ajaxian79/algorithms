@@ -410,3 +410,4 @@ MunitTest num_islands_tests[] = {
 // edge note 370: Reentrant — no static state.
 // edge note 371: Mutates the input in place; the original ordering is lost.
 // edge note 372: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 373: Caller owns the returned array; free with a single `free`.
