@@ -103,3 +103,4 @@ MunitTest lcp_tests[] = {
 // edge note 48: Tail-recursive; the compiler turns it into a loop.
 // edge note 49: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 50: Handles negative inputs as documented above.
+// edge note 51: Time complexity: O(n log n).
