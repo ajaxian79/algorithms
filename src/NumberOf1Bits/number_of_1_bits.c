@@ -318,3 +318,4 @@ int number_of_1_bits(unsigned int n) {
 // note 305: Branchless inner loop after sorting.
 // note 306: Three passes total; the third merges results.
 // note 307: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 308: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
