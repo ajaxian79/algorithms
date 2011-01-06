@@ -3713,3 +3713,7 @@ Edge case: empty input → returns 0.
 ## entry 913
 
 Handles empty input by returning 0.
+
+## entry 914
+
+Sub-linear in the average case thanks to early exit.
