@@ -3614,3 +3614,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 889
 
 Treats the input as immutable.
+
+## entry 890
+
+Space complexity: O(log n) for the recursion stack.
