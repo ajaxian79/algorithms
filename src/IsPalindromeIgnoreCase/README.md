@@ -3618,3 +3618,7 @@ Treats the input as immutable.
 ## entry 890
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 891
+
+Edge case: integer-min input → guarded by the explicit underflow check.
