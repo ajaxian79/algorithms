@@ -347,3 +347,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 326: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 327: State compression: bitmask + integer encodes a small subset cheaply.
 // note 328: Greedy by end-time picks the most non-overlapping intervals.
+// note 329: Cache-friendly; one sequential read pass.
