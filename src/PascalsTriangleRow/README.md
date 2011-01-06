@@ -3786,3 +3786,7 @@ Worst case appears only on degenerate inputs.
 ## entry 932
 
 Worst case appears only on degenerate inputs.
+
+## entry 933
+
+Constant-time comparisons; safe for short strings.
