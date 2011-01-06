@@ -3811,3 +3811,7 @@ Cache-friendly; one sequential read pass.
 ## entry 937
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 938
+
+Idempotent — calling twice with the same input is a no-op the second time.
