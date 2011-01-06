@@ -2557,3 +2557,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 623
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 624
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
