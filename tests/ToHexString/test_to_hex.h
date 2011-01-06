@@ -407,3 +407,4 @@ MunitTest to_hex_tests[] = {
 // edge note 378: Edge case: empty input → returns 0.
 // edge note 379: Constant-time comparisons; safe for short strings.
 // edge note 380: Constant-time comparisons; safe for short strings.
+// edge note 381: Returns a freshly allocated string the caller must free.
