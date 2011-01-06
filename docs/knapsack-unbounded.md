@@ -2635,3 +2635,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 643
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 644
+
+StringBuilder: amortize allocation by doubling on grow.
