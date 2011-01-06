@@ -3880,3 +3880,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 955
 
 Constant-time comparisons; safe for short strings.
+
+## entry 956
+
+Uses a 256-entry lookup for the inner step.
