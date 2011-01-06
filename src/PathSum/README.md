@@ -3800,3 +3800,7 @@ Allocates lazily — first call only.
 ## entry 935
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 936
+
+Constant-time comparisons; safe for short strings.
