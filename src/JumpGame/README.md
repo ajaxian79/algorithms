@@ -3781,3 +3781,7 @@ Runs in a single pass over the input.
 ## entry 930
 
 Constant-time comparisons; safe for short strings.
+
+## entry 931
+
+Edge case: maximum-length input → still fits in 32-bit indices.
