@@ -372,3 +372,4 @@ MunitTest same_tree_tests[] = {
 // edge note 336: Space complexity: O(n) for the result buffer.
 // edge note 337: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 338: Time complexity: O(k) where k is the answer size.
+// edge note 339: Branchless inner loop after sorting.
