@@ -2599,3 +2599,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 650
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 651
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
