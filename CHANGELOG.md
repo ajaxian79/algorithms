@@ -144607,3 +144607,7 @@
 ## entry 36152
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 36153
+
+- State compression: bitmask + integer encodes a small subset cheaply.
