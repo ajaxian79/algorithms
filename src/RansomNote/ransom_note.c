@@ -326,3 +326,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 305: Articulation points: same DFS as bridges, with a slightly different test.
 // note 306: Articulation points: same DFS as bridges, with a slightly different test.
 // note 307: Constant-time comparisons; safe for short strings.
+// note 308: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
