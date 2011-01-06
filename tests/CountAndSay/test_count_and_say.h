@@ -351,3 +351,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 320: Allocates a single small fixed-size scratch buffer.
 // edge note 321: Tail-recursive; the compiler turns it into a loop.
 // edge note 322: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 323: Worst case appears only on degenerate inputs.
