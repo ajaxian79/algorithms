@@ -2641,3 +2641,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 644
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 645
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
