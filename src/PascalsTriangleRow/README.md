@@ -3782,3 +3782,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 931
 
 Worst case appears only on degenerate inputs.
+
+## entry 932
+
+Worst case appears only on degenerate inputs.
