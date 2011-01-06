@@ -2637,3 +2637,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 643
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 644
+
+Endianness matters when serializing multi-byte ints to a file or wire.
