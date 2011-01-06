@@ -3682,3 +3682,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 905
 
 Reentrant — no static state.
+
+## entry 906
+
+Thread-safe so long as the input is not mutated concurrently.
