@@ -3494,3 +3494,7 @@ Reentrant — no static state.
 ## entry 859
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 860
+
+Constant-time comparisons; safe for short strings.
