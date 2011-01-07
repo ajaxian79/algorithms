@@ -363,3 +363,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 335: Constant-time comparisons; safe for short strings.
 // edge note 336: Edge case: zero-length string → returns the empty result.
 // edge note 337: Edge case: already-sorted input → no swaps performed.
+// edge note 338: Edge case: integer-max input → guarded by the explicit overflow check.
