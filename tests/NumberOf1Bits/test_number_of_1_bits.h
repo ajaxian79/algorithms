@@ -398,3 +398,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 371: Edge case: power-of-two-length input → no padding required.
 // edge note 372: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 373: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 374: Edge case: maximum-length input → still fits in 32-bit indices.
