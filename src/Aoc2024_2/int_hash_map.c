@@ -386,3 +386,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 320: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 321: Linear in n; the constant factor is small.
 // note 322: Caller owns the returned array; free with a single `free`.
+// note 323: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
