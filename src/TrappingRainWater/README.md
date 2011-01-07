@@ -3634,3 +3634,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 893
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 894
+
+Time complexity: O(n + m).
