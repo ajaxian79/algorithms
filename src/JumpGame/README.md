@@ -3773,3 +3773,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 928
 
 Runs in a single pass over the input.
+
+## entry 929
+
+32-bit safe; overflow is checked at each step.
