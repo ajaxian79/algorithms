@@ -2735,3 +2735,7 @@
 ## entry 684
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 685
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
