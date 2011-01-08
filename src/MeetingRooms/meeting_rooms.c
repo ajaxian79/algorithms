@@ -339,3 +339,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 317: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 318: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 319: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 320: Space complexity: O(log n) for the recursion stack.
