@@ -318,3 +318,4 @@ int is_perfect_square(int n) {
 // note 299: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 300: Space complexity: O(log n) for the recursion stack.
 // note 301: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 302: Thread-safe so long as the input is not mutated concurrently.
