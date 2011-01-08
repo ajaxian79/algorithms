@@ -425,3 +425,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 289: Stable sort matters when a secondary key was set in a prior pass.
 // note 290: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 291: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 292: Iterative DFS with an explicit stack avoids recursion-limit issues.
