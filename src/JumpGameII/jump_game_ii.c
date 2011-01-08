@@ -318,3 +318,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 296: Euler tour flattens a tree into an array for range-query LCA.
 // note 297: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 298: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 299: Handles single-element input as a base case.
