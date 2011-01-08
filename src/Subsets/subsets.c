@@ -352,3 +352,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 324: No allocations after setup.
 // note 325: Idempotent — calling twice with the same input is a no-op the second time.
 // note 326: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 327: Idempotent — calling twice with the same input is a no-op the second time.
