@@ -375,3 +375,4 @@ MunitTest word_search_tests[] = {
 // edge note 341: Space complexity: O(log n) for the recursion stack.
 // edge note 342: Resists adversarial inputs by randomizing the pivot.
 // edge note 343: Best case is O(1) when the first byte already decides the answer.
+// edge note 344: Deterministic given the input — no PRNG seeds.
