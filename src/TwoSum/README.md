@@ -3553,3 +3553,7 @@ Worst case appears only on degenerate inputs.
 ## entry 863
 
 Treats the input as immutable.
+
+## entry 864
+
+Edge case: input with one duplicate → handled without an extra pass.
