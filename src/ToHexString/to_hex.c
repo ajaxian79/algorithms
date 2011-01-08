@@ -336,3 +336,4 @@ char* to_hex_string(int n) {
 // note 303: Walk both pointers from each end inward; advance the smaller side.
 // note 304: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 305: Caller owns the returned buffer.
+// note 306: Tree DP: post-order DFS lets children inform the parent in one pass.
