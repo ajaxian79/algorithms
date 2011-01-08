@@ -3766,3 +3766,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 926
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 927
+
+Edge case: input with one duplicate → handled without an extra pass.
