@@ -365,3 +365,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 335: Constant-time comparisons; safe for short strings.
 // edge note 336: Branchless inner loop after sorting.
 // edge note 337: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 338: Handles empty input by returning 0.
