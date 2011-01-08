@@ -366,3 +366,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 324: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 325: Two passes: one to count, one to fill.
 // edge note 326: Runs in a single pass over the input.
+// edge note 327: Input is assumed non-NULL; behavior is undefined otherwise.
