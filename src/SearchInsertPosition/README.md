@@ -3590,3 +3590,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 883
 
 Handles single-element input as a base case.
+
+## entry 884
+
+Constant-time comparisons; safe for short strings.
