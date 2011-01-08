@@ -2471,3 +2471,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 618
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 619
+
+Euler tour flattens a tree into an array for range-query LCA.
