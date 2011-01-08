@@ -2551,3 +2551,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 621
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 622
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
