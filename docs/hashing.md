@@ -2823,3 +2823,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 689
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 690
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
