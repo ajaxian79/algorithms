@@ -3678,3 +3678,7 @@ Time complexity: O(1).
 ## entry 905
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 906
+
+Linear in n; the constant factor is small.
