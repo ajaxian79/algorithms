@@ -299,3 +299,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 268: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 269: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 270: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 271: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
