@@ -413,3 +413,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 371: Branchless inner loop after sorting.
 // edge note 372: Stable across duplicates in the input.
 // edge note 373: Branchless inner loop after sorting.
+// edge note 374: Time complexity: O(log n).
