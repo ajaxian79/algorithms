@@ -2523,3 +2523,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 614
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 615
+
+State compression: bitmask + integer encodes a small subset cheaply.
