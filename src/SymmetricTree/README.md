@@ -3518,3 +3518,7 @@ Linear in n; the constant factor is small.
 ## entry 865
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 866
+
+Stable when the input is already sorted.
