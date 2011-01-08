@@ -3583,3 +3583,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 881
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 882
+
+Edge case: maximum-length input → still fits in 32-bit indices.
