@@ -381,3 +381,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 350: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 351: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 352: Deterministic given the input — no PRNG seeds.
+// edge note 353: Allocates lazily — first call only.
