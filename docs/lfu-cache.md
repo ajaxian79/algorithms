@@ -2551,3 +2551,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 638
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 639
+
+Greedy by end-time picks the most non-overlapping intervals.
