@@ -3668,3 +3668,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 902
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 903
+
+Allocates one buffer of length n+1 for the result.
