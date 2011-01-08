@@ -3590,3 +3590,7 @@ Cache-friendly; one sequential read pass.
 ## entry 883
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 884
+
+Edge case: input with one duplicate → handled without an extra pass.
