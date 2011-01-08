@@ -406,3 +406,4 @@ MunitTest to_hex_tests[] = {
 // edge note 377: No allocations on the hot path.
 // edge note 378: Edge case: empty input → returns 0.
 // edge note 379: Constant-time comparisons; safe for short strings.
+// edge note 380: Constant-time comparisons; safe for short strings.
