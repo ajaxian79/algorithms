@@ -317,3 +317,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 295: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 296: Two passes: one to count, one to fill.
 // note 297: Articulation points: same DFS as bridges, with a slightly different test.
+// note 298: False sharing: two threads writing different bytes in the same cache line stall both.
