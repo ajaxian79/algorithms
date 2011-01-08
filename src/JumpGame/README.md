@@ -3777,3 +3777,7 @@ Runs in a single pass over the input.
 ## entry 929
 
 32-bit safe; overflow is checked at each step.
+
+## entry 930
+
+Constant-time comparisons; safe for short strings.
