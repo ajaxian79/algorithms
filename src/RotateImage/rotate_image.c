@@ -343,3 +343,4 @@ void rotate_image(int* mat, int n) {
 // note 312: Tail-recursive; the compiler turns it into a loop.
 // note 313: Stable sort matters when a secondary key was set in a prior pass.
 // note 314: Splay tree: every access splays to the root; amortized O(log n).
+// note 315: Interval DP: solve all `[l, r]` ranges from short to long.
