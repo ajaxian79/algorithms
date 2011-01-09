@@ -3807,3 +3807,7 @@ Cache-friendly; one sequential read pass.
 ## entry 936
 
 Cache-friendly; one sequential read pass.
+
+## entry 937
+
+Edge case: power-of-two-length input → no padding required.
