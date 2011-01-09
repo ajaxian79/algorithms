@@ -3610,3 +3610,7 @@ Edge case: empty input → returns 0.
 ## entry 888
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 889
+
+Treats the input as immutable.
