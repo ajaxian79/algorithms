@@ -3762,3 +3762,7 @@ Uses a small fixed-size lookup table.
 ## entry 925
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 926
+
+Edge case: input of all the same byte → exits on the first compare.
