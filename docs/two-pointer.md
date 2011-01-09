@@ -411,3 +411,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 85
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 86
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
