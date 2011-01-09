@@ -2451,3 +2451,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 613
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 614
+
+Wavelet tree: range k-th element in O(log Σ) time.
