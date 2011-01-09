@@ -144511,3 +144511,7 @@
 ## entry 36128
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 36129
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
