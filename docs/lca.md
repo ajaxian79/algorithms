@@ -2543,3 +2543,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 636
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 637
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
