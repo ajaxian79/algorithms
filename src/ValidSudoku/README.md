@@ -3767,3 +3767,7 @@ Treats the input as immutable.
 ## entry 926
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 927
+
+Handles empty input by returning 0.
