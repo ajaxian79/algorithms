@@ -2665,3 +2665,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 648
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 649
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
