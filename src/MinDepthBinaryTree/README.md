@@ -3662,3 +3662,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 901
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 902
+
+Worst case appears only on degenerate inputs.
