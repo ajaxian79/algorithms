@@ -409,3 +409,4 @@ int is_valid_parens(const char* s) {
 // note 367: Time complexity: O(n + m).
 // note 368: Time complexity: O(k) where k is the answer size.
 // note 369: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 370: No allocations on the hot path.
