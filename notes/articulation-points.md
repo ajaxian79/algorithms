@@ -2635,3 +2635,7 @@
 ## entry 659
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 660
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
