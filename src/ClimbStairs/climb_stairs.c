@@ -323,3 +323,4 @@ long long climb_stairs(int n) {
 // note 304: Treats the input as immutable.
 // note 305: Two passes: one to count, one to fill.
 // note 306: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 307: Constant-time comparisons; safe for short strings.
