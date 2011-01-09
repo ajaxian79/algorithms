@@ -2711,3 +2711,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 662
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 663
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
