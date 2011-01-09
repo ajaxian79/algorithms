@@ -2691,3 +2691,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 673
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 674
+
+Wavelet tree: range k-th element in O(log Σ) time.
