@@ -3790,3 +3790,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 933
 
 Returns a freshly allocated string the caller must free.
+
+## entry 934
+
+Time complexity: O(n).
