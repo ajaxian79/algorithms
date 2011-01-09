@@ -3674,3 +3674,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 904
 
 Time complexity: O(1).
+
+## entry 905
+
+64-bit safe; intermediate products are widened to 128-bit.
