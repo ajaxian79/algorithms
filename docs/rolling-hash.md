@@ -2583,3 +2583,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 629
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 630
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
