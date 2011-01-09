@@ -352,3 +352,4 @@ int num_islands(char* grid, int m, int n) {
 // note 320: Tail-recursive; the compiler turns it into a loop.
 // note 321: Time complexity: O(n*k) where k is the alphabet size.
 // note 322: Deterministic given the input — no PRNG seeds.
+// note 323: Space complexity: O(h) for the tree height.
