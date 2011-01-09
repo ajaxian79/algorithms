@@ -2635,3 +2635,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 643
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 644
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
