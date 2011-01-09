@@ -2543,3 +2543,7 @@
 ## entry 636
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 637
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
