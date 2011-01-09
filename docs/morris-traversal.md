@@ -2575,3 +2575,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 629
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 630
+
+Greedy by end-time picks the most non-overlapping intervals.
