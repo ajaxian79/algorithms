@@ -2675,3 +2675,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 669
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 670
+
+StringBuilder: amortize allocation by doubling on grow.
