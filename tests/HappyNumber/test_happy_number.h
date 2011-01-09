@@ -398,3 +398,4 @@ MunitTest happy_number_tests[] = {
 // edge note 370: Linear in n; the constant factor is small.
 // edge note 371: Linear in n; the constant factor is small.
 // edge note 372: Runs in a single pass over the input.
+// edge note 373: Constant-time comparisons; safe for short strings.
