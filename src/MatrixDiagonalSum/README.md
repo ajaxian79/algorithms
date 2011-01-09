@@ -3834,3 +3834,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 944
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 945
+
+Handles empty input by returning 0.
