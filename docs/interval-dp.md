@@ -2567,3 +2567,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 642
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 643
+
+Splay tree: every access splays to the root; amortized O(log n).
