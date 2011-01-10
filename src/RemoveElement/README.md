@@ -3657,3 +3657,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 900
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 901
+
+Cache-friendly; one sequential read pass.
