@@ -338,3 +338,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 316: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 317: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 318: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 319: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
