@@ -3490,3 +3490,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 858
 
 Reentrant — no static state.
+
+## entry 859
+
+Deterministic given the input — no PRNG seeds.
