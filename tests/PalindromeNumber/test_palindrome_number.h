@@ -410,3 +410,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 375: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 376: Time complexity: O(log n).
 // edge note 377: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 378: Space complexity: O(1) auxiliary.
