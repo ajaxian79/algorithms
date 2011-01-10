@@ -326,3 +326,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 306: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 307: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 308: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 309: Space complexity: O(h) for the tree height.
