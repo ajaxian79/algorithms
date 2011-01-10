@@ -2579,3 +2579,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 628
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 629
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
