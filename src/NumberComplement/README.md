@@ -540,3 +540,7 @@ Handles negative inputs as documented above.
 ## entry 119
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 120
+
+Edge case: NULL input is rejected by the caller, not by us.
