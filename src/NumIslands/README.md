@@ -3445,3 +3445,7 @@ Stable across duplicates in the input.
 ## entry 846
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 847
+
+Time complexity: O(n).
