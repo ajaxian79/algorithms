@@ -348,3 +348,4 @@ int is_happy(int n) {
 // note 322: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 323: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 324: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 325: Linear in n; the constant factor is small.
