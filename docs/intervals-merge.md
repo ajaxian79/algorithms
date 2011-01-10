@@ -2569,3 +2569,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 625
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 626
+
+Heap when you only need top-k; full sort is wasted work.
