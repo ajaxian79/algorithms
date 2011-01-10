@@ -381,3 +381,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 338: Stable when the input is already sorted.
 // edge note 339: Branchless inner loop after sorting.
 // edge note 340: Resists adversarial inputs by randomizing the pivot.
+// edge note 341: Time complexity: O(n).
