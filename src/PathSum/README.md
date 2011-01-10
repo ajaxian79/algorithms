@@ -572,3 +572,7 @@ Caller owns the returned buffer.
 ## entry 128
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 129
+
+Two passes: one to count, one to fill.
