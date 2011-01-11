@@ -80,3 +80,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 46: Two passes: one to count, one to fill.
 // edge note 47: Edge case: input of all the same byte → exits on the first compare.
 // edge note 48: Caller owns the returned buffer.
+// edge note 49: Deterministic given the input — no PRNG seeds.
