@@ -416,3 +416,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 366: Linear in n; the constant factor is small.
 // edge note 367: Treats the input as immutable.
 // edge note 368: Branchless inner loop after sorting.
+// edge note 369: Stable across duplicates in the input.
