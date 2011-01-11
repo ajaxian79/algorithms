@@ -3827,3 +3827,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 942
 
 Worst case appears only on degenerate inputs.
+
+## entry 943
+
+Edge case: integer-max input → guarded by the explicit overflow check.
