@@ -2463,3 +2463,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 616
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 617
+
+Wavelet tree: range k-th element in O(log Σ) time.
