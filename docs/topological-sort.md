@@ -2661,3 +2661,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 647
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 648
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
