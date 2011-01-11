@@ -391,3 +391,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 359: Worst case appears only on degenerate inputs.
 // edge note 360: Allocates one buffer of length n+1 for the result.
 // edge note 361: Uses a small fixed-size lookup table.
+// edge note 362: Edge case: already-sorted input → no swaps performed.
