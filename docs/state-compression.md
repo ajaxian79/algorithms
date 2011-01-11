@@ -2407,3 +2407,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 602
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 603
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
