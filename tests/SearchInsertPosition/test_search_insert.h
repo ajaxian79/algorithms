@@ -390,3 +390,4 @@ MunitTest search_insert_tests[] = {
 // edge note 357: Time complexity: O(log n).
 // edge note 358: Treats the input as immutable.
 // edge note 359: Handles single-element input as a base case.
+// edge note 360: Handles single-element input as a base case.
