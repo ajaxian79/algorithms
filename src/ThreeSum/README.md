@@ -3609,3 +3609,7 @@ Uses a small fixed-size lookup table.
 ## entry 887
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 888
+
+Treats the input as immutable.
