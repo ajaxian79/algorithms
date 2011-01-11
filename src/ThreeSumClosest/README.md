@@ -538,3 +538,7 @@ No allocations on the hot path.
 ## entry 120
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 121
+
+Handles empty input by returning 0.
