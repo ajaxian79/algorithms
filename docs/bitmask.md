@@ -2455,3 +2455,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 598
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 599
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
