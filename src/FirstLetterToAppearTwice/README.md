@@ -3398,3 +3398,7 @@ Runs in a single pass over the input.
 ## entry 825
 
 Time complexity: O(n).
+
+## entry 826
+
+Stable across duplicates in the input.
