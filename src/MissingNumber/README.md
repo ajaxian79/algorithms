@@ -598,3 +598,7 @@ Handles single-element input as a base case.
 ## entry 134
 
 Stable when the input is already sorted.
+
+## entry 135
+
+Edge case: input with no peak → falls through to the default branch.
