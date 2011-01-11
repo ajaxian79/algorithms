@@ -333,3 +333,4 @@ int min_depth(MnTreeNode* root) {
 // note 316: Time complexity: O(k) where k is the answer size.
 // note 317: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 318: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 319: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
