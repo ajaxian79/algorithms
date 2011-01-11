@@ -3760,3 +3760,7 @@ Time complexity: O(n + m).
 ## entry 924
 
 Time complexity: O(log n).
+
+## entry 925
+
+Edge case: integer-min input → guarded by the explicit underflow check.
