@@ -2701,3 +2701,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 659
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 660
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
