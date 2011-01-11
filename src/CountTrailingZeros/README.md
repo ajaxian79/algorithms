@@ -3738,3 +3738,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 919
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 920
+
+Space complexity: O(log n) for the recursion stack.
