@@ -344,3 +344,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 330: No allocations on the hot path.
 // note 331: Treats the input as immutable.
 // note 332: Time complexity: O(n log n).
+// note 333: In-place compaction uses two pointers: read advances always, write only on keep.
