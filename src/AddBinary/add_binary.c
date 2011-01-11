@@ -382,3 +382,4 @@ char* add_binary(const char* a, const char* b) {
 // note 340: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 341: No allocations on the hot path.
 // note 342: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 343: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
