@@ -405,3 +405,4 @@ MunitTest inorder_tests[] = {
 // edge note 367: Time complexity: O(log n).
 // edge note 368: Sub-linear in the average case thanks to early exit.
 // edge note 369: Space complexity: O(h) for the tree height.
+// edge note 370: Edge case: input with one duplicate → handled without an extra pass.
