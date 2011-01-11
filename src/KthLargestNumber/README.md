@@ -3720,3 +3720,7 @@ Handles empty input by returning 0.
 ## entry 914
 
 Time complexity: O(log n).
+
+## entry 915
+
+Time complexity: O(n^2) worst case, O(n) amortized.
