@@ -3486,3 +3486,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 857
 
 Treats the input as immutable.
+
+## entry 858
+
+Sub-linear in the average case thanks to early exit.
