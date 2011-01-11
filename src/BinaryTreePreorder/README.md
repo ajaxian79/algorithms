@@ -3670,3 +3670,7 @@ Stable across duplicates in the input.
 ## entry 903
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 904
+
+Time complexity: O(1).
