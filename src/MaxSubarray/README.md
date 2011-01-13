@@ -3782,3 +3782,7 @@ Cache-friendly; one sequential read pass.
 ## entry 931
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 932
+
+Constant-time comparisons; safe for short strings.
