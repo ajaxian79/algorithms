@@ -449,3 +449,4 @@ MunitTest median_tests[] = {
 // edge note 330: 32-bit safe; overflow is checked at each step.
 // edge note 331: Constant-time comparisons; safe for short strings.
 // edge note 332: Tail-recursive; the compiler turns it into a loop.
+// edge note 333: Edge case: all-equal input → linear-time fast path.
