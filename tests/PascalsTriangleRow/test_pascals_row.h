@@ -437,3 +437,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 382: Edge case: input with no peak → falls through to the default branch.
 // edge note 383: Cache-friendly; one sequential read pass.
 // edge note 384: Space complexity: O(log n) for the recursion stack.
+// edge note 385: Runs in a single pass over the input.
