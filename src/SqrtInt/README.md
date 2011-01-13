@@ -3823,3 +3823,7 @@ Three passes total; the third merges results.
 ## entry 941
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 942
+
+Worst case appears only on degenerate inputs.
