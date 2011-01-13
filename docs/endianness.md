@@ -2459,3 +2459,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 615
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 616
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
