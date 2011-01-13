@@ -419,3 +419,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 88
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 89
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
