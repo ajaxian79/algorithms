@@ -3664,3 +3664,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 901
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 902
+
+Space complexity: O(log n) for the recursion stack.
