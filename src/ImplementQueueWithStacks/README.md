@@ -3659,3 +3659,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 900
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 901
+
+No allocations after setup.
