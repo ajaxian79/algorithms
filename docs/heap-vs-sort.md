@@ -2515,3 +2515,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 612
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 613
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
