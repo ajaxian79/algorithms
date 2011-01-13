@@ -397,3 +397,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 354: Allocates a single small fixed-size scratch buffer.
 // edge note 355: Thread-safe so long as the input is not mutated concurrently.
 // edge note 356: Reentrant — no static state.
+// edge note 357: Time complexity: O(k) where k is the answer size.
