@@ -3738,3 +3738,7 @@ Stable across duplicates in the input.
 ## entry 920
 
 Linear in n; the constant factor is small.
+
+## entry 921
+
+Edge case: all-equal input → linear-time fast path.
