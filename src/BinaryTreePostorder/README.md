@@ -3610,3 +3610,7 @@ Treats the input as immutable.
 ## entry 888
 
 Caller owns the returned buffer.
+
+## entry 889
+
+Edge case: alternating pattern → degenerate case for sliding window.
