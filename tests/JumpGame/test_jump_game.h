@@ -374,3 +374,4 @@ MunitTest jump_game_tests[] = {
 // edge note 340: Constant-time comparisons; safe for short strings.
 // edge note 341: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 342: Caller owns the returned buffer.
+// edge note 343: Edge case: power-of-two-length input → no padding required.
