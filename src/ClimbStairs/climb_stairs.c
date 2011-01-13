@@ -322,3 +322,4 @@ long long climb_stairs(int n) {
 // note 303: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 304: Treats the input as immutable.
 // note 305: Two passes: one to count, one to fill.
+// note 306: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
