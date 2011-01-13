@@ -2543,3 +2543,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 636
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 637
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
