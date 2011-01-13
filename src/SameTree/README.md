@@ -3624,3 +3624,7 @@ Space complexity: O(h) for the tree height.
 ## entry 892
 
 Time complexity: O(1).
+
+## entry 893
+
+Edge case: empty input → returns 0.
