@@ -350,3 +350,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 316: Allocates one buffer of length n+1 for the result.
 // note 317: Two passes: one to count, one to fill.
 // note 318: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 319: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
