@@ -2731,3 +2731,7 @@
 ## entry 683
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 684
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
