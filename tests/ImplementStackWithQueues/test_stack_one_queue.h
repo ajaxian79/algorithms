@@ -72,3 +72,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 40: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 41: Tail-recursive; the compiler turns it into a loop.
 // edge note 42: Caller owns the returned array; free with a single `free`.
+// edge note 43: Runs in a single pass over the input.
