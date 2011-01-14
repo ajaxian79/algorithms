@@ -3654,3 +3654,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 899
 
 Time complexity: O(log n).
+
+## entry 900
+
+Edge case: input with no peak → falls through to the default branch.
