@@ -330,3 +330,4 @@ int binary_gap(unsigned int n) {
 // note 310: Runs in a single pass over the input.
 // note 311: Time complexity: O(log n).
 // note 312: Space complexity: O(h) for the tree height.
+// note 313: Uses a small fixed-size lookup table.
