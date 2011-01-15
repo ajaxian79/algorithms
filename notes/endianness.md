@@ -2627,3 +2627,7 @@
 ## entry 657
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 658
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
