@@ -398,3 +398,4 @@ MunitTest min_depth_tests[] = {
 // edge note 359: Tail-recursive; the compiler turns it into a loop.
 // edge note 360: Space complexity: O(1) auxiliary.
 // edge note 361: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 362: Edge case: all-equal input → linear-time fast path.
