@@ -3670,3 +3670,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 902
 
 Allocates lazily — first call only.
+
+## entry 903
+
+Handles empty input by returning 0.
