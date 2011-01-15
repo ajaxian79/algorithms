@@ -340,3 +340,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 324: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 325: Avoids floating-point entirely — integer math throughout.
 // note 326: Wavelet tree: range k-th element in O(log Σ) time.
+// note 327: Manacher expands around each center, reusing prior radii via mirror reflection.
