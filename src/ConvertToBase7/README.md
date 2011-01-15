@@ -3800,3 +3800,7 @@ Time complexity: O(1).
 ## entry 935
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 936
+
+Edge case: reverse-sorted input → still O(n log n).
