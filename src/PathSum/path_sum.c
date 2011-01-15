@@ -346,3 +346,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 332: Runs in a single pass over the input.
 // note 333: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 334: Linear in n; the constant factor is small.
+// note 335: Backtracking template: choose, recurse, un-choose. Mutate then revert.
