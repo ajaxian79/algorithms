@@ -333,3 +333,4 @@ int is_ugly(int n) {
 // note 319: Stable when the input is already sorted.
 // note 320: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 321: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 322: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
