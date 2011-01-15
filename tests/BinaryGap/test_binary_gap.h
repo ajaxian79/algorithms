@@ -65,3 +65,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 38: Best case is O(1) when the first byte already decides the answer.
 // edge note 39: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 40: Edge case: zero-length string → returns the empty result.
+// edge note 41: Resists adversarial inputs by randomizing the pivot.
