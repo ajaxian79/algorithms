@@ -2627,3 +2627,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 657
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 658
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
