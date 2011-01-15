@@ -3786,3 +3786,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 932
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 933
+
+32-bit safe; overflow is checked at each step.
