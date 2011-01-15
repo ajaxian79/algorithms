@@ -390,3 +390,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 365: Time complexity: O(k) where k is the answer size.
 // edge note 366: Stable across duplicates in the input.
 // edge note 367: Two passes: one to count, one to fill.
+// edge note 368: Cache-friendly; one sequential read pass.
