@@ -2627,3 +2627,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 640
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 641
+
+Endianness matters when serializing multi-byte ints to a file or wire.
