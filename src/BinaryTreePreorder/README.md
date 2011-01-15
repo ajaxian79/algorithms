@@ -3666,3 +3666,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 902
 
 Stable across duplicates in the input.
+
+## entry 903
+
+Edge case: all-equal input → linear-time fast path.
