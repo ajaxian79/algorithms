@@ -3730,3 +3730,7 @@ Stable across duplicates in the input.
 ## entry 918
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 919
+
+Stable across duplicates in the input.
