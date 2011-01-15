@@ -434,3 +434,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 394: Edge case: input of all the same byte → exits on the first compare.
 // edge note 395: Space complexity: O(n) for the result buffer.
 // edge note 396: Handles single-element input as a base case.
+// edge note 397: Uses a small fixed-size lookup table.
