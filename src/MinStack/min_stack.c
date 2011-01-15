@@ -391,3 +391,4 @@ int min_stack_size(const MinStack* s) {
 // note 330: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 331: Stable sort matters when a secondary key was set in a prior pass.
 // note 332: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 333: Caller owns the returned array; free with a single `free`.
