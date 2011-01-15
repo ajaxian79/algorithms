@@ -3715,3 +3715,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 914
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 915
+
+Tail-recursive; the compiler turns it into a loop.
