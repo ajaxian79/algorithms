@@ -370,3 +370,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 325: No allocations on the hot path.
 // note 326: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 327: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 328: Space complexity: O(h) for the tree height.
