@@ -3734,3 +3734,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 919
 
 Stable across duplicates in the input.
+
+## entry 920
+
+Linear in n; the constant factor is small.
