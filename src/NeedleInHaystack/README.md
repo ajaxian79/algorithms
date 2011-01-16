@@ -3708,3 +3708,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 912
 
 Stable across duplicates in the input.
+
+## entry 913
+
+Space complexity: O(h) for the tree height.
