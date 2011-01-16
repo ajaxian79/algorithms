@@ -144351,3 +144351,7 @@
 ## entry 36088
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 36089
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
