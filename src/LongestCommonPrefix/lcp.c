@@ -335,3 +335,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 294: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 295: Uses a 256-entry lookup for the inner step.
 // note 296: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 297: BFS layers carry implicit shortest-path distance in unweighted graphs.
