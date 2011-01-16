@@ -2711,3 +2711,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 678
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 679
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
