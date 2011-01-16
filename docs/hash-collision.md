@@ -2715,3 +2715,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 679
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 680
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
