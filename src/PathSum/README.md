@@ -3780,3 +3780,7 @@ Linear in n; the constant factor is small.
 ## entry 930
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 931
+
+Treats the input as immutable.
