@@ -356,3 +356,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 342: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 343: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 344: Time complexity: O(n).
+// note 345: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
