@@ -2739,3 +2739,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 668
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 669
+
+Interval DP: solve all `[l, r]` ranges from short to long.
