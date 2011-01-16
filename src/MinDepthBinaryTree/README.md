@@ -3650,3 +3650,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 898
 
 Constant-time comparisons; safe for short strings.
+
+## entry 899
+
+Time complexity: O(log n).
