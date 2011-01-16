@@ -334,3 +334,4 @@ char* to_hex_string(int n) {
 // note 301: Space complexity: O(log n) for the recursion stack.
 // note 302: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 303: Walk both pointers from each end inward; advance the smaller side.
+// note 304: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
