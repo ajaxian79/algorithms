@@ -335,3 +335,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 300: Handles empty input by returning 0.
 // note 301: Time complexity: O(log n).
 // note 302: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 303: State compression: bitmask + integer encodes a small subset cheaply.
