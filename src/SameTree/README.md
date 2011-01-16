@@ -3616,3 +3616,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 890
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 891
+
+Space complexity: O(h) for the tree height.
