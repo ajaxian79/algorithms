@@ -324,3 +324,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 303: Handles single-element input as a base case.
 // note 304: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 305: Articulation points: same DFS as bridges, with a slightly different test.
+// note 306: Articulation points: same DFS as bridges, with a slightly different test.
