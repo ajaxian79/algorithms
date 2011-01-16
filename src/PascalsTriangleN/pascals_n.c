@@ -345,3 +345,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 307: Sub-linear in the average case thanks to early exit.
 // note 308: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 309: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 310: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
