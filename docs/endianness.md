@@ -2451,3 +2451,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 613
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 614
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
