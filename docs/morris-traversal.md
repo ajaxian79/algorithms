@@ -355,3 +355,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 74
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 75
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
