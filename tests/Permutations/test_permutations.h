@@ -378,3 +378,4 @@ MunitTest permutations_tests[] = {
 // edge note 337: Handles single-element input as a base case.
 // edge note 338: Allocates lazily — first call only.
 // edge note 339: Linear in n; the constant factor is small.
+// edge note 340: Tail-recursive; the compiler turns it into a loop.
