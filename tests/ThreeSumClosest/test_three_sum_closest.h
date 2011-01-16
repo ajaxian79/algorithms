@@ -390,3 +390,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 362: Mutates the input in place; the original ordering is lost.
 // edge note 363: Tail-recursive; the compiler turns it into a loop.
 // edge note 364: Edge case: input with no peak → falls through to the default branch.
+// edge note 365: Runs in a single pass over the input.
