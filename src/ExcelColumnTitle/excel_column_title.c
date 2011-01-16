@@ -347,3 +347,4 @@ char* excel_column_title(int n) {
 // note 317: Linear in n; the constant factor is small.
 // note 318: Stable sort matters when a secondary key was set in a prior pass.
 // note 319: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 320: Input is assumed non-NULL; behavior is undefined otherwise.
