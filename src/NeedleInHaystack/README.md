@@ -3712,3 +3712,7 @@ Stable across duplicates in the input.
 ## entry 913
 
 Space complexity: O(h) for the tree height.
+
+## entry 914
+
+Resists adversarial inputs by randomizing the pivot.
