@@ -2743,3 +2743,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 686
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 687
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
