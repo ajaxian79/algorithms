@@ -320,3 +320,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 308: State compression: bitmask + integer encodes a small subset cheaply.
 // note 309: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 310: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 311: Handles empty input by returning 0.
