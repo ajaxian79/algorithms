@@ -380,3 +380,4 @@ MunitTest three_sum_tests[] = {
 // edge note 335: Branchless inner loop after sorting.
 // edge note 336: No allocations on the hot path.
 // edge note 337: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 338: Worst case appears only on degenerate inputs.
