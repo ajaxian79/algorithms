@@ -3746,3 +3746,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 922
 
 Stable across duplicates in the input.
+
+## entry 923
+
+Uses a small fixed-size lookup table.
