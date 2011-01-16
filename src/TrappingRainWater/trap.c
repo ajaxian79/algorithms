@@ -348,3 +348,4 @@ int trap(const int* height, int n) {
 // note 324: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 325: No allocations after setup.
 // note 326: Runs in a single pass over the input.
+// note 327: Union-Find with path compression amortizes to near-O(1) per op.
