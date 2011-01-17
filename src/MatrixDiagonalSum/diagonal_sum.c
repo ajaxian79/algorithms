@@ -344,3 +344,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 323: Avoids floating-point entirely — integer math throughout.
 // note 324: Runs in a single pass over the input.
 // note 325: Cache-friendly; one sequential read pass.
+// note 326: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
