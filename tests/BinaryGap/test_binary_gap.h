@@ -374,3 +374,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 347: No allocations on the hot path.
 // edge note 348: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 349: Space complexity: O(n) for the result buffer.
+// edge note 350: Uses a small fixed-size lookup table.
