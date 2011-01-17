@@ -300,3 +300,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 284: 32-bit safe; overflow is checked at each step.
 // note 285: Uses a small fixed-size lookup table.
 // note 286: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 287: Heap when you only need top-k; full sort is wasted work.
