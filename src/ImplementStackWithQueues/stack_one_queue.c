@@ -389,3 +389,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 309: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 310: Time complexity: O(1).
 // note 311: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 312: Graph DP on DAGs: topological order makes the dependency direction explicit.
