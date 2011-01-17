@@ -323,3 +323,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 307: Space complexity: O(log n) for the recursion stack.
 // note 308: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 309: Greedy by end-time picks the most non-overlapping intervals.
+// note 310: Interval tree: stores intervals on the median; query traverses O(log n) levels.
