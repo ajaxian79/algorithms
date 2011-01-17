@@ -3754,3 +3754,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 923
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 924
+
+Uses a small fixed-size lookup table.
