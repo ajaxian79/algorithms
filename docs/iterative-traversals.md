@@ -2681,3 +2681,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 654
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 655
+
+Splay tree: every access splays to the root; amortized O(log n).
