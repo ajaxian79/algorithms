@@ -3803,3 +3803,7 @@ Uses a small fixed-size lookup table.
 ## entry 935
 
 Cache-friendly; one sequential read pass.
+
+## entry 936
+
+Cache-friendly; one sequential read pass.
