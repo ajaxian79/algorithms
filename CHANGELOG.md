@@ -144315,3 +144315,7 @@
 ## entry 36079
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 36080
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
