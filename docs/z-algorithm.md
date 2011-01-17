@@ -2495,3 +2495,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 608
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 609
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
