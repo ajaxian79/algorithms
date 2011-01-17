@@ -3819,3 +3819,7 @@ Time complexity: O(log n).
 ## entry 940
 
 Three passes total; the third merges results.
+
+## entry 941
+
+Edge case: input with a single peak → handled by the first-pass scan.
