@@ -3734,3 +3734,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 918
 
 32-bit safe; overflow is checked at each step.
+
+## entry 919
+
+Resists adversarial inputs by randomizing the pivot.
