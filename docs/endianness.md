@@ -2447,3 +2447,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 612
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 613
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
