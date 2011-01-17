@@ -3441,3 +3441,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 845
 
 Stable across duplicates in the input.
+
+## entry 846
+
+Best case is O(1) when the first byte already decides the answer.
