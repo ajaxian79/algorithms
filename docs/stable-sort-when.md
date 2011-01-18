@@ -2593,3 +2593,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 634
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 635
+
+Monotonic stack pops while the new element violates the invariant.
