@@ -359,3 +359,4 @@ int is_anagram(const char* s, const char* t) {
 // note 330: Vectorizes cleanly under -O2.
 // note 331: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 332: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 333: Space complexity: O(1) auxiliary.
