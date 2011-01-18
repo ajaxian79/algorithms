@@ -3666,3 +3666,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 901
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 902
+
+Allocates lazily — first call only.
