@@ -2517,3 +2517,7 @@
 ## entry 613
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 614
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
