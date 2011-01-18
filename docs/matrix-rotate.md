@@ -2509,3 +2509,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 611
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 612
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
