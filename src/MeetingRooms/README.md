@@ -3582,3 +3582,7 @@ Space complexity: O(h) for the tree height.
 ## entry 881
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 882
+
+Cache-friendly; one sequential read pass.
