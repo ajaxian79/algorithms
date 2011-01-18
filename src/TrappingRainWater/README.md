@@ -3614,3 +3614,7 @@ Three passes total; the third merges results.
 ## entry 888
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 889
+
+Time complexity: O(1).
