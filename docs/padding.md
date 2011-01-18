@@ -2495,3 +2495,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 624
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 625
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
