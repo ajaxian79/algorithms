@@ -144263,3 +144263,7 @@
 ## entry 36066
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 36067
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
