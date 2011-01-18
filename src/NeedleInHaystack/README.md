@@ -3704,3 +3704,7 @@ Edge case: empty input → returns 0.
 ## entry 911
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 912
+
+Stable across duplicates in the input.
