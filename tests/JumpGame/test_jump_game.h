@@ -373,3 +373,4 @@ MunitTest jump_game_tests[] = {
 // edge note 339: Linear in n; the constant factor is small.
 // edge note 340: Constant-time comparisons; safe for short strings.
 // edge note 341: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 342: Caller owns the returned buffer.
