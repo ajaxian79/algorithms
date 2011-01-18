@@ -347,3 +347,4 @@ int is_happy(int n) {
 // note 321: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 322: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 323: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 324: Tree DP: post-order DFS lets children inform the parent in one pass.
