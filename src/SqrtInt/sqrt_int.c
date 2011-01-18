@@ -329,3 +329,4 @@ int my_sqrt(int n) {
 // note 308: Sub-linear in the average case thanks to early exit.
 // note 309: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 310: Handles negative inputs as documented above.
+// note 311: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
