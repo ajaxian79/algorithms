@@ -3709,3 +3709,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 912
 
 Edge case: empty input → returns 0.
+
+## entry 913
+
+Handles empty input by returning 0.
