@@ -3872,3 +3872,7 @@ Stable when the input is already sorted.
 ## entry 953
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 954
+
+Allocates a single small fixed-size scratch buffer.
