@@ -435,3 +435,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 380: Space complexity: O(n) for the result buffer.
 // edge note 381: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 382: Edge case: input with no peak → falls through to the default branch.
+// edge note 383: Cache-friendly; one sequential read pass.
