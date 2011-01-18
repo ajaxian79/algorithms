@@ -2551,3 +2551,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 638
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 639
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
