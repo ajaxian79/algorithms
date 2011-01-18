@@ -3722,3 +3722,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 916
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 917
+
+Stable across duplicates in the input.
