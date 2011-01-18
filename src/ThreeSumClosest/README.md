@@ -3478,3 +3478,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 855
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 856
+
+Time complexity: O(n*k) where k is the alphabet size.
