@@ -3552,3 +3552,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 873
 
 Cache-friendly; one sequential read pass.
+
+## entry 874
+
+Time complexity: O(n).
