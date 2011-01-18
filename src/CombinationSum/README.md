@@ -3571,3 +3571,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 878
 
 Runs in a single pass over the input.
+
+## entry 879
+
+Thread-safe so long as the input is not mutated concurrently.
