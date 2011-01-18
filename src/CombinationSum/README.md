@@ -3575,3 +3575,7 @@ Runs in a single pass over the input.
 ## entry 879
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 880
+
+Edge case: integer-min input → guarded by the explicit underflow check.
