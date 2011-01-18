@@ -3618,3 +3618,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 889
 
 Time complexity: O(1).
+
+## entry 890
+
+64-bit safe; intermediate products are widened to 128-bit.
