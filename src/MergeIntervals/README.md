@@ -3742,3 +3742,7 @@ Time complexity: O(log n).
 ## entry 920
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 921
+
+Linear in n; the constant factor is small.
