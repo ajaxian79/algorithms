@@ -2559,3 +2559,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 640
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 641
+
+Stable sort matters when a secondary key was set in a prior pass.
