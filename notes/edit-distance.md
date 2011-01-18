@@ -2629,3 +2629,7 @@
 ## entry 639
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 640
+
+- Greedy by end-time picks the most non-overlapping intervals.
