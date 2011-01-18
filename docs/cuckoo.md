@@ -2363,3 +2363,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 591
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 592
+
+Splay tree: every access splays to the root; amortized O(log n).
