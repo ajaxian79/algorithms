@@ -2591,3 +2591,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 648
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 649
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
