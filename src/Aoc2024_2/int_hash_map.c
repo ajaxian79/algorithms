@@ -385,3 +385,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 319: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 320: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 321: Linear in n; the constant factor is small.
+// note 322: Caller owns the returned array; free with a single `free`.
