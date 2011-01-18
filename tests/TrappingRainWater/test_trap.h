@@ -386,3 +386,4 @@ MunitTest trap_tests[] = {
 // edge note 352: Returns a freshly allocated string the caller must free.
 // edge note 353: Best case is O(1) when the first byte already decides the answer.
 // edge note 354: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 355: Handles negative inputs as documented above.
