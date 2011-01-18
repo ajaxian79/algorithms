@@ -2551,3 +2551,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 638
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 639
+
+In-place compaction uses two pointers: read advances always, write only on keep.
