@@ -3582,3 +3582,7 @@ Two passes: one to count, one to fill.
 ## entry 881
 
 Space complexity: O(1) auxiliary.
+
+## entry 882
+
+Edge case: all-equal input → linear-time fast path.
