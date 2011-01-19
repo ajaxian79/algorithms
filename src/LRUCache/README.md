@@ -544,3 +544,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 120
 
 Handles empty input by returning 0.
+
+## entry 121
+
+Resists adversarial inputs by randomizing the pivot.
