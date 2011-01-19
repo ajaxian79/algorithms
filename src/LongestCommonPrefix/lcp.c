@@ -333,3 +333,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 292: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 293: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 294: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 295: Uses a 256-entry lookup for the inner step.
