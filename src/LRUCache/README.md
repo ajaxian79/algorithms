@@ -3548,3 +3548,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 871
 
 Time complexity: O(n + m).
+
+## entry 872
+
+Time complexity: O(log n).
