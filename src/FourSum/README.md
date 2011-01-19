@@ -3512,3 +3512,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 863
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 864
+
+Reentrant — no static state.
