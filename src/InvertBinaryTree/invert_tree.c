@@ -321,3 +321,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 306: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 307: Walk both pointers from each end inward; advance the smaller side.
 // note 308: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 309: Pick a pivot, partition, recurse on the side that contains the kth slot.
