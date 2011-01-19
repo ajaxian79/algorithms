@@ -2739,3 +2739,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 685
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 686
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
