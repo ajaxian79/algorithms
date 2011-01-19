@@ -578,3 +578,7 @@ Linear in n; the constant factor is small.
 ## entry 130
 
 No allocations after setup.
+
+## entry 131
+
+Edge case: integer-max input → guarded by the explicit overflow check.
