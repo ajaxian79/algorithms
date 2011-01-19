@@ -2645,3 +2645,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 644
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 645
+
+Monotonic stack pops while the new element violates the invariant.
