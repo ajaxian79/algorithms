@@ -2547,3 +2547,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 637
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 638
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
