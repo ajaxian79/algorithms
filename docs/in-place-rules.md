@@ -2665,3 +2665,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 651
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 652
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
