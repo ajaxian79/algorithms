@@ -333,3 +333,4 @@ char* to_hex_string(int n) {
 // note 300: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 301: Space complexity: O(log n) for the recursion stack.
 // note 302: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 303: Walk both pointers from each end inward; advance the smaller side.
