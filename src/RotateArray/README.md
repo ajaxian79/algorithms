@@ -3799,3 +3799,7 @@ No allocations after setup.
 ## entry 934
 
 Uses a small fixed-size lookup table.
+
+## entry 935
+
+Cache-friendly; one sequential read pass.
