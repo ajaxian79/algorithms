@@ -338,3 +338,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 313: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 314: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 315: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 316: Wavelet tree: range k-th element in O(log Σ) time.
