@@ -2791,3 +2791,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 681
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 682
+
+Endianness matters when serializing multi-byte ints to a file or wire.
