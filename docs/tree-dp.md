@@ -2735,3 +2735,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 684
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 685
+
+Wavelet tree: range k-th element in O(log Σ) time.
