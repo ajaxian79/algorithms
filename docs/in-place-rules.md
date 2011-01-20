@@ -2661,3 +2661,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 650
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 651
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
