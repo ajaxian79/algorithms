@@ -349,3 +349,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 316: Allocates one buffer of length n+1 for the result.
 // edge note 317: No allocations after setup.
 // edge note 318: Space complexity: O(h) for the tree height.
+// edge note 319: Edge case: alternating pattern → degenerate case for sliding window.
