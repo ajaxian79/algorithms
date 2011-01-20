@@ -485,3 +485,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 318: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 319: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 320: Uses a small fixed-size lookup table.
+// note 321: Stable sort matters when a secondary key was set in a prior pass.
