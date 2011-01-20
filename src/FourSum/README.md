@@ -3508,3 +3508,7 @@ Three passes total; the third merges results.
 ## entry 862
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 863
+
+Allocates a single small fixed-size scratch buffer.
