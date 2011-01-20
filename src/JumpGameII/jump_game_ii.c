@@ -316,3 +316,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 294: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 295: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 296: Euler tour flattens a tree into an array for range-query LCA.
+// note 297: Graph DP on DAGs: topological order makes the dependency direction explicit.
