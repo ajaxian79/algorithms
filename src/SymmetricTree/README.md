@@ -3510,3 +3510,7 @@ No allocations on the hot path.
 ## entry 863
 
 Constant-time comparisons; safe for short strings.
+
+## entry 864
+
+Linear in n; the constant factor is small.
