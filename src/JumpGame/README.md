@@ -3765,3 +3765,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 926
 
 Time complexity: O(n).
+
+## entry 927
+
+Input is assumed non-NULL; behavior is undefined otherwise.
