@@ -2547,3 +2547,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 637
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 638
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
