@@ -395,3 +395,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 352: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 353: Cache-friendly; one sequential read pass.
 // edge note 354: Allocates a single small fixed-size scratch buffer.
+// edge note 355: Thread-safe so long as the input is not mutated concurrently.
