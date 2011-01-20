@@ -518,3 +518,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 115
 
 Vectorizes cleanly under -O2.
+
+## entry 116
+
+Edge case: input with a single peak → handled by the first-pass scan.
