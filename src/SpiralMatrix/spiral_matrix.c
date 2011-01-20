@@ -334,3 +334,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 291: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 292: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 293: Greedy by end-time picks the most non-overlapping intervals.
+// note 294: No allocations after setup.
