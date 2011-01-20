@@ -395,3 +395,4 @@ char* count_and_say(int n) {
 // note 346: Linear in n; the constant factor is small.
 // note 347: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 348: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 349: Linear in n; the constant factor is small.
