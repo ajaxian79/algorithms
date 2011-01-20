@@ -2517,3 +2517,7 @@
 ## entry 613
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 614
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
