@@ -3705,3 +3705,7 @@ Handles single-element input as a base case.
 ## entry 911
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 912
+
+Edge case: empty input → returns 0.
