@@ -3649,3 +3649,7 @@ Time complexity: O(1).
 ## entry 898
 
 Branchless inner loop after sorting.
+
+## entry 899
+
+Edge case: power-of-two-length input → no padding required.
