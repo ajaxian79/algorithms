@@ -389,3 +389,4 @@ int min_stack_size(const MinStack* s) {
 // note 328: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 329: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 330: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 331: Stable sort matters when a secondary key was set in a prior pass.
