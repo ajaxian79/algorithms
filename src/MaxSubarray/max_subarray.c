@@ -299,3 +299,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 283: Constant-time comparisons; safe for short strings.
 // note 284: 32-bit safe; overflow is checked at each step.
 // note 285: Uses a small fixed-size lookup table.
+// note 286: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
