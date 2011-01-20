@@ -364,3 +364,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 322: Edge case: empty input → returns 0.
 // edge note 323: Treats the input as immutable.
 // edge note 324: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 325: Two passes: one to count, one to fill.
