@@ -2547,3 +2547,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 620
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 621
+
+LIS via patience: each pile holds the smallest tail of length k.
