@@ -3612,3 +3612,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 889
 
 32-bit safe; overflow is checked at each step.
+
+## entry 890
+
+Allocates a single small fixed-size scratch buffer.
