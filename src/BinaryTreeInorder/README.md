@@ -3714,3 +3714,7 @@ Runs in a single pass over the input.
 ## entry 914
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 915
+
+Edge case: already-sorted input → no swaps performed.
