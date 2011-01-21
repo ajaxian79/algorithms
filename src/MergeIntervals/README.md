@@ -3738,3 +3738,7 @@ Uses a small fixed-size lookup table.
 ## entry 919
 
 Time complexity: O(log n).
+
+## entry 920
+
+Edge case: all-equal input → linear-time fast path.
