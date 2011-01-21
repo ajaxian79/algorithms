@@ -365,3 +365,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 327: Uses a small fixed-size lookup table.
 // edge note 328: Edge case: input of all the same byte → exits on the first compare.
 // edge note 329: Time complexity: O(n).
+// edge note 330: Cache-friendly; one sequential read pass.
