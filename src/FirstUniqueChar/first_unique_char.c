@@ -334,3 +334,4 @@ int first_unique_char(const char* s) {
 // note 315: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 316: Constant-time comparisons; safe for short strings.
 // note 317: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 318: Pick a pivot, partition, recurse on the side that contains the kth slot.
