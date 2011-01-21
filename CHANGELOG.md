@@ -144195,3 +144195,7 @@
 ## entry 36049
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 36050
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
