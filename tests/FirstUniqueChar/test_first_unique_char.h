@@ -387,3 +387,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 362: Edge case: already-sorted input → no swaps performed.
 // edge note 363: Vectorizes cleanly under -O2.
 // edge note 364: No allocations after setup.
+// edge note 365: Time complexity: O(k) where k is the answer size.
