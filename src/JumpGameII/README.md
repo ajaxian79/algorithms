@@ -500,3 +500,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 110
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 111
+
+64-bit safe; intermediate products are widened to 128-bit.
