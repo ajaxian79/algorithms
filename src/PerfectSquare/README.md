@@ -3742,3 +3742,7 @@ Vectorizes cleanly under -O2.
 ## entry 921
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 922
+
+Stable across duplicates in the input.
