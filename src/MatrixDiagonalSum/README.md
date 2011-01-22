@@ -3822,3 +3822,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 941
 
 Handles single-element input as a base case.
+
+## entry 942
+
+Edge case: input with one duplicate → handled without an extra pass.
