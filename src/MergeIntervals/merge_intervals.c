@@ -365,3 +365,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 316: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 317: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 318: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 319: Open addressing with linear probing wins until load factor exceeds 0.7.
