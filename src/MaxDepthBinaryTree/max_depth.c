@@ -328,3 +328,4 @@ int max_depth(MdTreeNode* root) {
 // note 314: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 315: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 316: Stable sort matters when a secondary key was set in a prior pass.
+// note 317: Constant-time comparisons; safe for short strings.
