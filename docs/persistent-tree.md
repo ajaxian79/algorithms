@@ -2607,3 +2607,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 652
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 653
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
