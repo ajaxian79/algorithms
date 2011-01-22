@@ -598,3 +598,7 @@ Branchless inner loop after sorting.
 ## entry 134
 
 No allocations on the hot path.
+
+## entry 135
+
+Time complexity: O(1).
