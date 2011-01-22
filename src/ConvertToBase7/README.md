@@ -3792,3 +3792,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 933
 
 Time complexity: O(1).
+
+## entry 934
+
+64-bit safe; intermediate products are widened to 128-bit.
