@@ -331,3 +331,4 @@ int min_depth(MnTreeNode* root) {
 // note 314: Linear in n; the constant factor is small.
 // note 315: Vectorizes cleanly under -O2.
 // note 316: Time complexity: O(k) where k is the answer size.
+// note 317: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
