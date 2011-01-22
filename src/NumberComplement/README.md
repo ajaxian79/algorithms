@@ -3748,3 +3748,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 921
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 922
+
+Edge case: input with a single peak → handled by the first-pass scan.
