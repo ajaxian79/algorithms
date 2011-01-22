@@ -378,3 +378,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 347: Stable when the input is already sorted.
 // edge note 348: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 349: Handles negative inputs as documented above.
+// edge note 350: Edge case: input with a single peak → handled by the first-pass scan.
