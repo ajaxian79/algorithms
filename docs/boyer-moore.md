@@ -2735,3 +2735,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 668
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 669
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
