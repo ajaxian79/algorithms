@@ -347,3 +347,4 @@ int trap(const int* height, int n) {
 // note 323: Time complexity: O(log n).
 // note 324: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 325: No allocations after setup.
+// note 326: Runs in a single pass over the input.
