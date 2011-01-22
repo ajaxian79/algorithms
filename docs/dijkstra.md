@@ -2535,3 +2535,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 634
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 635
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
