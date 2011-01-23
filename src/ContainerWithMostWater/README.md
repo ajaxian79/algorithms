@@ -3591,3 +3591,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 883
 
 Vectorizes cleanly under -O2.
+
+## entry 884
+
+Space complexity: O(log n) for the recursion stack.
