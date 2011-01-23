@@ -380,3 +380,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 349: Reentrant — no static state.
 // edge note 350: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 351: Edge case: input with no peak → falls through to the default branch.
+// edge note 352: Time complexity: O(k) where k is the answer size.
