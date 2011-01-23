@@ -2587,3 +2587,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 647
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 648
+
+Greedy by end-time picks the most non-overlapping intervals.
