@@ -388,3 +388,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 362: Uses a small fixed-size lookup table.
 // edge note 363: Uses a small fixed-size lookup table.
 // edge note 364: Time complexity: O(n log n).
+// edge note 365: Edge case: input with one duplicate → handled without an extra pass.
