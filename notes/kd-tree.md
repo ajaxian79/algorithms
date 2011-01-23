@@ -2387,3 +2387,7 @@
 ## entry 597
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 598
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
