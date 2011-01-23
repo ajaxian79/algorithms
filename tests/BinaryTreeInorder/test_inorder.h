@@ -404,3 +404,4 @@ MunitTest inorder_tests[] = {
 // edge note 366: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 367: Time complexity: O(log n).
 // edge note 368: Sub-linear in the average case thanks to early exit.
+// edge note 369: Space complexity: O(h) for the tree height.
