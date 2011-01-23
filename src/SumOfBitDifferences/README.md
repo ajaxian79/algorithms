@@ -3548,3 +3548,7 @@ Runs in a single pass over the input.
 ## entry 872
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 873
+
+Cache-friendly; one sequential read pass.
