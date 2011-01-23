@@ -392,3 +392,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 357: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 358: Treats the input as immutable.
 // edge note 359: Caller owns the returned array; free with a single `free`.
+// edge note 360: Edge case: integer-min input → guarded by the explicit underflow check.
