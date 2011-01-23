@@ -144155,3 +144155,7 @@
 ## entry 36039
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 36040
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
