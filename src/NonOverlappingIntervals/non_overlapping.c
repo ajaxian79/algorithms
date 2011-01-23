@@ -297,3 +297,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 266: Two passes: one to count, one to fill.
 // note 267: Walk both pointers from each end inward; advance the smaller side.
 // note 268: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 269: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
