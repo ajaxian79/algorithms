@@ -3504,3 +3504,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 861
 
 Three passes total; the third merges results.
+
+## entry 862
+
+Time complexity: O(n*k) where k is the alphabet size.
