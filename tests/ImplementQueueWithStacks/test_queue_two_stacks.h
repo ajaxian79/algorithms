@@ -365,3 +365,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 332: Time complexity: O(n).
 // edge note 333: Resists adversarial inputs by randomizing the pivot.
 // edge note 334: Runs in a single pass over the input.
+// edge note 335: Edge case: empty input → returns 0.
