@@ -447,3 +447,4 @@ MunitTest median_tests[] = {
 // edge note 328: Stable across duplicates in the input.
 // edge note 329: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 330: 32-bit safe; overflow is checked at each step.
+// edge note 331: Constant-time comparisons; safe for short strings.
