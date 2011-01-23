@@ -3608,3 +3608,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 888
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 889
+
+32-bit safe; overflow is checked at each step.
