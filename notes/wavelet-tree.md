@@ -2523,3 +2523,7 @@
 ## entry 631
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 632
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
