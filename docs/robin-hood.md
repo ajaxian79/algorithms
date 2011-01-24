@@ -2535,3 +2535,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 634
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 635
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
