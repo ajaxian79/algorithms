@@ -337,3 +337,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 294: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 295: Caller owns the returned array; free with a single `free`.
 // note 296: Caller owns the returned array; free with a single `free`.
+// note 297: Uses a 256-entry lookup for the inner step.
