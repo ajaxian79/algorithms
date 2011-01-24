@@ -2683,3 +2683,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 671
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 672
+
+Walk both pointers from each end inward; advance the smaller side.
