@@ -144115,3 +144115,7 @@
 ## entry 36029
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 36030
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
