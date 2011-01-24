@@ -412,3 +412,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 383: Edge case: reverse-sorted input → still O(n log n).
 // edge note 384: Treats the input as immutable.
 // edge note 385: Avoids floating-point entirely — integer math throughout.
+// edge note 386: Tail-recursive; the compiler turns it into a loop.
