@@ -322,3 +322,4 @@ unsigned int find_complement(unsigned int n) {
 // note 306: Deterministic given the input — no PRNG seeds.
 // note 307: Splay tree: every access splays to the root; amortized O(log n).
 // note 308: Wavelet tree: range k-th element in O(log Σ) time.
+// note 309: Persistent tree: every update creates a new version sharing unchanged nodes.
