@@ -411,3 +411,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 382: Allocates lazily — first call only.
 // edge note 383: Edge case: reverse-sorted input → still O(n log n).
 // edge note 384: Treats the input as immutable.
+// edge note 385: Avoids floating-point entirely — integer math throughout.
