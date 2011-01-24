@@ -3529,3 +3529,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 868
 
 Stable across duplicates in the input.
+
+## entry 869
+
+Stable when the input is already sorted.
