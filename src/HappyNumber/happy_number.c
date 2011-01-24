@@ -346,3 +346,4 @@ int is_happy(int n) {
 // note 320: Resists adversarial inputs by randomizing the pivot.
 // note 321: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 322: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 323: LRU cache: doubly-linked list + hash map; O(1) get/put.
