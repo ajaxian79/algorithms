@@ -3462,3 +3462,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 851
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 852
+
+Deterministic given the input — no PRNG seeds.
