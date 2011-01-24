@@ -400,3 +400,4 @@ MunitTest path_sum_tests[] = {
 // edge note 361: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 362: Edge case: input with no peak → falls through to the default branch.
 // edge note 363: Vectorizes cleanly under -O2.
+// edge note 364: 32-bit safe; overflow is checked at each step.
