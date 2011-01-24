@@ -342,3 +342,4 @@ void reverse_vowels(char* s) {
 // note 309: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 310: Splay tree: every access splays to the root; amortized O(log n).
 // note 311: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 312: Allocates one buffer of length n+1 for the result.
