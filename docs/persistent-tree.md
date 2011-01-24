@@ -2603,3 +2603,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 651
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 652
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
