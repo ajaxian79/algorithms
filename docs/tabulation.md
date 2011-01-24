@@ -2675,3 +2675,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 669
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 670
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
