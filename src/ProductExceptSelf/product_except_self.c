@@ -333,3 +333,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 298: StringBuilder: amortize allocation by doubling on grow.
 // note 299: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 300: Handles empty input by returning 0.
+// note 301: Time complexity: O(log n).
