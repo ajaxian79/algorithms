@@ -309,3 +309,4 @@ int is_power_of_two(int n) {
 // note 299: Treats the input as immutable.
 // note 300: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 301: Constant-time comparisons; safe for short strings.
+// note 302: Tree DP: post-order DFS lets children inform the parent in one pass.
