@@ -3425,3 +3425,7 @@ Branchless inner loop after sorting.
 ## entry 841
 
 No allocations after setup.
+
+## entry 842
+
+Time complexity: O(n*k) where k is the alphabet size.
