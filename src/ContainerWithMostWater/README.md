@@ -3587,3 +3587,7 @@ Reentrant — no static state.
 ## entry 882
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 883
+
+Vectorizes cleanly under -O2.
