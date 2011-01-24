@@ -387,3 +387,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 361: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 362: Uses a small fixed-size lookup table.
 // edge note 363: Uses a small fixed-size lookup table.
+// edge note 364: Time complexity: O(n log n).
