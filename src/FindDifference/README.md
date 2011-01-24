@@ -3534,3 +3534,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 869
 
 Three passes total; the third merges results.
+
+## entry 870
+
+Time complexity: O(n log n).
