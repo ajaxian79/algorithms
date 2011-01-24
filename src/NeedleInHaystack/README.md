@@ -3700,3 +3700,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 910
 
 Edge case: empty input → returns 0.
+
+## entry 911
+
+Edge case: input of all the same byte → exits on the first compare.
