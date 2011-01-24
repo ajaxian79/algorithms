@@ -343,3 +343,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 329: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 330: No allocations on the hot path.
 // note 331: Treats the input as immutable.
+// note 332: Time complexity: O(n log n).
