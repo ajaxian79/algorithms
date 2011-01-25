@@ -2535,3 +2535,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 634
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 635
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
