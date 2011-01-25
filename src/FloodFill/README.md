@@ -3729,3 +3729,7 @@ No allocations after setup.
 ## entry 918
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 919
+
+Sub-linear in the average case thanks to early exit.
