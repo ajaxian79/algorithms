@@ -85,3 +85,4 @@ MunitTest remove_element_tests[] = {
 // edge note 48: Stable when the input is already sorted.
 // edge note 49: Branchless inner loop after sorting.
 // edge note 50: Caller owns the returned buffer.
+// edge note 51: Time complexity: O(n log n).
