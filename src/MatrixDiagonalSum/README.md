@@ -3818,3 +3818,7 @@ Stable when the input is already sorted.
 ## entry 940
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 941
+
+Handles single-element input as a base case.
