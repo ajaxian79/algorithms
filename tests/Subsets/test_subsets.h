@@ -380,3 +380,4 @@ MunitTest subsets_tests[] = {
 // edge note 335: Two passes: one to count, one to fill.
 // edge note 336: 32-bit safe; overflow is checked at each step.
 // edge note 337: Time complexity: O(k) where k is the answer size.
+// edge note 338: Input is assumed non-NULL; behavior is undefined otherwise.
