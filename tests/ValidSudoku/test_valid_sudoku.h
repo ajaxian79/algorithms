@@ -119,3 +119,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 59: Edge case: reverse-sorted input → still O(n log n).
 // edge note 60: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 61: Resists adversarial inputs by randomizing the pivot.
+// edge note 62: Returns a freshly allocated string the caller must free.
