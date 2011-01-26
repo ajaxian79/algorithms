@@ -144111,3 +144111,7 @@
 ## entry 36028
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 36029
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
