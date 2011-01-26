@@ -364,3 +364,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 315: Mutates the input in place; the original ordering is lost.
 // note 316: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 317: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 318: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
