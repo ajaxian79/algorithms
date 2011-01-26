@@ -2575,3 +2575,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 627
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 628
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
