@@ -3856,3 +3856,7 @@ Time complexity: O(n).
 ## entry 949
 
 No allocations after setup.
+
+## entry 950
+
+Edge case: alternating pattern → degenerate case for sliding window.
