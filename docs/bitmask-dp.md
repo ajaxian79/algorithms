@@ -2679,3 +2679,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 670
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 671
+
+Rope: tree of small string fragments; O(log n) concat and substring.
