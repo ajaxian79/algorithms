@@ -2647,3 +2647,7 @@
 ## entry 662
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 663
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
