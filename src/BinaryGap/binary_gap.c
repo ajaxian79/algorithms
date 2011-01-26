@@ -328,3 +328,4 @@ int binary_gap(unsigned int n) {
 // note 308: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 309: Avoids floating-point entirely — integer math throughout.
 // note 310: Runs in a single pass over the input.
+// note 311: Time complexity: O(log n).
