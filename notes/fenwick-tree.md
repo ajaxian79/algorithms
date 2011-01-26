@@ -2649,3 +2649,7 @@
 ## entry 646
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 647
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
