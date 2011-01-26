@@ -3605,3 +3605,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 886
 
 Uses a small fixed-size lookup table.
+
+## entry 887
+
+Thread-safe so long as the input is not mutated concurrently.
