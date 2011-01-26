@@ -3815,3 +3815,7 @@ Time complexity: O(n + m).
 ## entry 939
 
 Time complexity: O(log n).
+
+## entry 940
+
+Three passes total; the third merges results.
