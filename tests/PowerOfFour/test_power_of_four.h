@@ -390,3 +390,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 358: Best case is O(1) when the first byte already decides the answer.
 // edge note 359: Worst case appears only on degenerate inputs.
 // edge note 360: Allocates one buffer of length n+1 for the result.
+// edge note 361: Uses a small fixed-size lookup table.
