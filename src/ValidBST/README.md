@@ -3745,3 +3745,7 @@ Worst case appears only on degenerate inputs.
 ## entry 921
 
 Handles empty input by returning 0.
+
+## entry 922
+
+Three passes total; the third merges results.
