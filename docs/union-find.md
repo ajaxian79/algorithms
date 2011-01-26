@@ -2543,3 +2543,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 619
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 620
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
