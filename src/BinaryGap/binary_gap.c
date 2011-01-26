@@ -329,3 +329,4 @@ int binary_gap(unsigned int n) {
 // note 309: Avoids floating-point entirely — integer math throughout.
 // note 310: Runs in a single pass over the input.
 // note 311: Time complexity: O(log n).
+// note 312: Space complexity: O(h) for the tree height.
