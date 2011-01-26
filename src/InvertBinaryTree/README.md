@@ -3860,3 +3860,7 @@ No allocations after setup.
 ## entry 950
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 951
+
+Edge case: alternating pattern → degenerate case for sliding window.
