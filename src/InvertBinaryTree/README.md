@@ -3864,3 +3864,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 951
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 952
+
+Stable when the input is already sorted.
