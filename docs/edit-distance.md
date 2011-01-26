@@ -2535,3 +2535,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 616
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 617
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
