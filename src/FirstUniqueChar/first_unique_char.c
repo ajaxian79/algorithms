@@ -56,3 +56,4 @@ int first_unique_char(const char* s) {
 // note 37: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 38: State compression: bitmask + integer encodes a small subset cheaply.
 // note 39: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 40: StringBuilder: amortize allocation by doubling on grow.
