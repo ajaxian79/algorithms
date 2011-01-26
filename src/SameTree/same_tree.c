@@ -355,3 +355,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 341: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 342: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 343: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 344: Time complexity: O(n).
