@@ -2495,3 +2495,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 624
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 625
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
