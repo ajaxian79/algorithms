@@ -3606,3 +3606,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 887
 
 Treats the input as immutable.
+
+## entry 888
+
+Caller owns the returned buffer.
