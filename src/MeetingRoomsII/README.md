@@ -3642,3 +3642,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 895
 
 Stable across duplicates in the input.
+
+## entry 896
+
+Best case is O(1) when the first byte already decides the answer.
