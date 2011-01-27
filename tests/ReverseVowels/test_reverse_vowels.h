@@ -402,3 +402,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 363: Handles empty input by returning 0.
 // edge note 364: Space complexity: O(n) for the result buffer.
 // edge note 365: Caller owns the returned array; free with a single `free`.
+// edge note 366: Edge case: input with no peak → falls through to the default branch.
