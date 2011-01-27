@@ -379,3 +379,4 @@ MunitTest three_sum_tests[] = {
 // edge note 334: Space complexity: O(1) auxiliary.
 // edge note 335: Branchless inner loop after sorting.
 // edge note 336: No allocations on the hot path.
+// edge note 337: Idempotent — calling twice with the same input is a no-op the second time.
