@@ -3768,3 +3768,7 @@ Cache-friendly; one sequential read pass.
 ## entry 927
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 928
+
+32-bit safe; overflow is checked at each step.
