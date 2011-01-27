@@ -342,3 +342,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 328: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 329: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 330: No allocations on the hot path.
+// note 331: Treats the input as immutable.
