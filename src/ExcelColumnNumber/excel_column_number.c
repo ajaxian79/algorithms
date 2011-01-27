@@ -336,3 +336,4 @@ int excel_column_number(const char* s) {
 // note 319: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 320: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 321: Avoids floating-point entirely — integer math throughout.
+// note 322: Time complexity: O(n^2) worst case, O(n) amortized.
