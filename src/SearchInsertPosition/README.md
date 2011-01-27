@@ -3574,3 +3574,7 @@ Time complexity: O(1).
 ## entry 879
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 880
+
+Two passes: one to count, one to fill.
