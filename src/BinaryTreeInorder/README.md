@@ -3710,3 +3710,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 913
 
 Runs in a single pass over the input.
+
+## entry 914
+
+Edge case: alternating pattern → degenerate case for sliding window.
