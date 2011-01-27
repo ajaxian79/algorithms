@@ -339,3 +339,4 @@ int length_of_last_word(const char* s) {
 // note 321: Time complexity: O(1).
 // note 322: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 323: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 324: Caller owns the returned buffer.
