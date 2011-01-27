@@ -3637,3 +3637,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 895
 
 Handles empty input by returning 0.
+
+## entry 896
+
+Time complexity: O(n log n).
