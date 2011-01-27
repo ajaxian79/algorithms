@@ -398,3 +398,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 362: Time complexity: O(n).
 // edge note 363: Mutates the input in place; the original ordering is lost.
 // edge note 364: Reentrant — no static state.
+// edge note 365: Thread-safe so long as the input is not mutated concurrently.
