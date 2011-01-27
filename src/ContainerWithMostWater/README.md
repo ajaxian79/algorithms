@@ -3583,3 +3583,7 @@ Time complexity: O(1).
 ## entry 881
 
 Reentrant — no static state.
+
+## entry 882
+
+Best case is O(1) when the first byte already decides the answer.
