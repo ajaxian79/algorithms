@@ -2551,3 +2551,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 638
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 639
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
