@@ -364,3 +364,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 331: Cache-friendly; one sequential read pass.
 // edge note 332: Time complexity: O(n).
 // edge note 333: Resists adversarial inputs by randomizing the pivot.
+// edge note 334: Runs in a single pass over the input.
