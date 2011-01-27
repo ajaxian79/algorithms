@@ -393,3 +393,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 365: Tail-recursive; the compiler turns it into a loop.
 // edge note 366: Space complexity: O(log n) for the recursion stack.
 // edge note 367: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 368: Idempotent — calling twice with the same input is a no-op the second time.
