@@ -3780,3 +3780,7 @@ Runs in a single pass over the input.
 ## entry 930
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 931
+
+Edge case: all-equal input → linear-time fast path.
