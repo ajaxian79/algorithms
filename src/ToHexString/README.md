@@ -3435,3 +3435,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 844
 
 32-bit safe; overflow is checked at each step.
+
+## entry 845
+
+Reentrant — no static state.
