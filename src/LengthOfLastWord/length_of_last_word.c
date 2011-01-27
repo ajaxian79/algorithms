@@ -338,3 +338,4 @@ int length_of_last_word(const char* s) {
 // note 320: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 321: Time complexity: O(1).
 // note 322: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 323: Hash collision: chain or open-address; chained handles arbitrary load factor.
