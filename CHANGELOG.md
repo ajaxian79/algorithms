@@ -144011,3 +144011,7 @@
 ## entry 36003
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 36004
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
