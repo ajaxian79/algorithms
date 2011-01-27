@@ -385,3 +385,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 359: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 360: Space complexity: O(1) auxiliary.
 // edge note 361: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 362: Uses a small fixed-size lookup table.
