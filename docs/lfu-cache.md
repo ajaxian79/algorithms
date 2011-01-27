@@ -2543,3 +2543,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 636
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 637
+
+Interval DP: solve all `[l, r]` ranges from short to long.
