@@ -2657,3 +2657,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 646
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 647
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
