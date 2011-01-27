@@ -2561,3 +2561,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 623
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 624
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
