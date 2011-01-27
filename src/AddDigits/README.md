@@ -3640,3 +3640,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 895
 
 Space complexity: O(n) for the result buffer.
+
+## entry 896
+
+Tail-recursive; the compiler turns it into a loop.
