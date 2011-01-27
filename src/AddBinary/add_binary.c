@@ -379,3 +379,4 @@ char* add_binary(const char* a, const char* b) {
 // note 337: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 338: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 339: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 340: Morris traversal threads predecessors back to current node — O(1) extra space.
