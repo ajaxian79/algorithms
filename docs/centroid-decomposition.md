@@ -2583,3 +2583,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 646
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 647
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
