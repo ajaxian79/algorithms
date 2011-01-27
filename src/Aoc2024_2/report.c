@@ -488,3 +488,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 279: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 280: Articulation points: same DFS as bridges, with a slightly different test.
 // note 281: Time complexity: O(1).
+// note 282: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
