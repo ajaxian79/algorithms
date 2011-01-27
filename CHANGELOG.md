@@ -144059,3 +144059,7 @@
 ## entry 36015
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 36016
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
