@@ -372,3 +372,4 @@ char* int_to_roman(int n) {
 // note 335: Vectorizes cleanly under -O2.
 // note 336: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 337: Greedy by end-time picks the most non-overlapping intervals.
+// note 338: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
