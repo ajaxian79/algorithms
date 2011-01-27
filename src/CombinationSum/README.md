@@ -3563,3 +3563,7 @@ Time complexity: O(n log n).
 ## entry 876
 
 Uses a small fixed-size lookup table.
+
+## entry 877
+
+Idempotent — calling twice with the same input is a no-op the second time.
