@@ -402,3 +402,4 @@ MunitTest inorder_tests[] = {
 // edge note 364: Time complexity: O(log n).
 // edge note 365: Reentrant — no static state.
 // edge note 366: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 367: Time complexity: O(log n).
