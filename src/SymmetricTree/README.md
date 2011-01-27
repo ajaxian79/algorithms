@@ -3506,3 +3506,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 862
 
 No allocations on the hot path.
+
+## entry 863
+
+Constant-time comparisons; safe for short strings.
