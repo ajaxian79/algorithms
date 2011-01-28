@@ -445,3 +445,4 @@ MunitTest median_tests[] = {
 // edge note 326: Time complexity: O(n log n).
 // edge note 327: Space complexity: O(n) for the result buffer.
 // edge note 328: Stable across duplicates in the input.
+// edge note 329: Input is assumed non-NULL; behavior is undefined otherwise.
