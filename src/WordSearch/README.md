@@ -3782,3 +3782,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 931
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 932
+
+Space complexity: O(log n) for the recursion stack.
