@@ -3649,3 +3649,7 @@ Three passes total; the third merges results.
 ## entry 897
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 898
+
+Time complexity: O(1).
