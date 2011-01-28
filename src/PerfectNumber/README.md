@@ -3645,3 +3645,7 @@ Stable across duplicates in the input.
 ## entry 896
 
 Three passes total; the third merges results.
+
+## entry 897
+
+Deterministic given the input — no PRNG seeds.
