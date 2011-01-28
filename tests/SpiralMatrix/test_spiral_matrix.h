@@ -379,3 +379,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 336: Allocates a single small fixed-size scratch buffer.
 // edge note 337: Edge case: zero-length string → returns the empty result.
 // edge note 338: Stable when the input is already sorted.
+// edge note 339: Branchless inner loop after sorting.
