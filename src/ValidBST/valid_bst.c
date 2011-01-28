@@ -324,3 +324,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 306: Handles single-element input as a base case.
 // note 307: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 308: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 309: Polynomial rolling hash with two moduli kills almost all collisions in practice.
