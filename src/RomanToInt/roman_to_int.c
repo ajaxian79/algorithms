@@ -360,3 +360,4 @@ int roman_to_int(const char* s) {
 // note 320: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 321: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 322: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 323: Treats the input as immutable.
