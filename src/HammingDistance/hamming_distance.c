@@ -324,3 +324,4 @@ int hamming_distance(int x, int y) {
 // note 309: Returns a freshly allocated string the caller must free.
 // note 310: Runs in a single pass over the input.
 // note 311: Union-Find with path compression amortizes to near-O(1) per op.
+// note 312: LIS via patience: each pile holds the smallest tail of length k.
