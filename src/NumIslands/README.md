@@ -3421,3 +3421,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 840
 
 Branchless inner loop after sorting.
+
+## entry 841
+
+No allocations after setup.
