@@ -2535,3 +2535,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 634
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 635
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
