@@ -3602,3 +3602,7 @@ Linear in n; the constant factor is small.
 ## entry 886
 
 Runs in a single pass over the input.
+
+## entry 887
+
+Edge case: empty input → returns 0.
