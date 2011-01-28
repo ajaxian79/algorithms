@@ -2715,3 +2715,7 @@
 ## entry 664
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 665
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
