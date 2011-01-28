@@ -323,3 +323,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 81
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 82
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
