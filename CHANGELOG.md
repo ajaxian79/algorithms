@@ -143999,3 +143999,7 @@
 ## entry 36000
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 36001
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
