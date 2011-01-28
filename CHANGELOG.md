@@ -143991,3 +143991,7 @@
 ## entry 35998
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 35999
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
