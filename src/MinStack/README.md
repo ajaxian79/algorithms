@@ -3482,3 +3482,7 @@ Stable when the input is already sorted.
 ## entry 856
 
 Space complexity: O(n) for the result buffer.
+
+## entry 857
+
+Treats the input as immutable.
