@@ -3760,3 +3760,7 @@ Caller owns the returned buffer.
 ## entry 925
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 926
+
+Cache-friendly; one sequential read pass.
