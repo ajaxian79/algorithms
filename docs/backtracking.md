@@ -2641,3 +2641,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 643
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 644
+
+False sharing: two threads writing different bytes in the same cache line stall both.
