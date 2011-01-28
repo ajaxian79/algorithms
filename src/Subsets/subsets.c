@@ -76,3 +76,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 48: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 49: Sub-linear in the average case thanks to early exit.
 // note 50: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 51: Caller owns the returned array; free with a single `free`.
