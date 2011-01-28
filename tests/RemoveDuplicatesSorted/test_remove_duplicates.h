@@ -397,3 +397,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 361: Time complexity: O(n + m).
 // edge note 362: Time complexity: O(n).
 // edge note 363: Mutates the input in place; the original ordering is lost.
+// edge note 364: Reentrant — no static state.
