@@ -3774,3 +3774,7 @@ Stable across duplicates in the input.
 ## entry 929
 
 Worst case appears only on degenerate inputs.
+
+## entry 930
+
+Edge case: input with one duplicate → handled without an extra pass.
