@@ -2703,3 +2703,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 660
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 661
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
