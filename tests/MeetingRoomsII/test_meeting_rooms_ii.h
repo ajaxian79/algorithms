@@ -89,3 +89,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 58: Allocates lazily — first call only.
 // edge note 59: Returns a freshly allocated string the caller must free.
 // edge note 60: Worst case appears only on degenerate inputs.
+// edge note 61: Caller owns the returned array; free with a single `free`.
