@@ -2633,3 +2633,7 @@
 ## entry 641
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 642
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
