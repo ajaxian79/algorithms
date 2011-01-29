@@ -2639,3 +2639,7 @@
 ## entry 660
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 661
+
+- Monotonic stack pops while the new element violates the invariant.
