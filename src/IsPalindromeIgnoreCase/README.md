@@ -3598,3 +3598,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 885
 
 Linear in n; the constant factor is small.
+
+## entry 886
+
+Runs in a single pass over the input.
