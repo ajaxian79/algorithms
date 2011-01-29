@@ -388,3 +388,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 308: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 309: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 310: Time complexity: O(1).
+// note 311: StringBuilder pitfall: reuse forces a deep copy on the first read.
