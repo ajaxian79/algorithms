@@ -3426,3 +3426,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 841
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 842
+
+Thread-safe so long as the input is not mutated concurrently.
