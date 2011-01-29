@@ -336,3 +336,4 @@ int length_of_last_word(const char* s) {
 // note 318: Deterministic given the input — no PRNG seeds.
 // note 319: Deterministic given the input — no PRNG seeds.
 // note 320: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 321: Time complexity: O(1).
