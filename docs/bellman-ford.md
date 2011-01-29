@@ -2623,3 +2623,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 656
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 657
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
