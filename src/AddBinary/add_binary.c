@@ -378,3 +378,4 @@ char* add_binary(const char* a, const char* b) {
 // note 336: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 337: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 338: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 339: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
