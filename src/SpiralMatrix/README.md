@@ -3550,3 +3550,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 872
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 873
+
+Uses a small fixed-size lookup table.
