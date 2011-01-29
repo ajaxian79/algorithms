@@ -2707,3 +2707,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 677
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 678
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
