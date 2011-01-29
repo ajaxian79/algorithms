@@ -2487,3 +2487,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 606
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 607
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
