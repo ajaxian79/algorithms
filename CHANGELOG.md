@@ -143971,3 +143971,7 @@
 ## entry 35993
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 35994
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
