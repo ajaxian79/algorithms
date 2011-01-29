@@ -2491,3 +2491,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 623
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 624
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
