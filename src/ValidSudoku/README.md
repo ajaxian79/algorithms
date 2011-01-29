@@ -3763,3 +3763,7 @@ Treats the input as immutable.
 ## entry 925
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 926
+
+Time complexity: O(n*k) where k is the alphabet size.
