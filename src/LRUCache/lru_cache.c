@@ -483,3 +483,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 316: Thread-safe so long as the input is not mutated concurrently.
 // note 317: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 318: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 319: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
