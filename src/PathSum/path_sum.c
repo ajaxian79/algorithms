@@ -344,3 +344,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 330: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 331: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 332: Runs in a single pass over the input.
+// note 333: Padding inside a struct can dwarf the actual data; reorder fields by size.
