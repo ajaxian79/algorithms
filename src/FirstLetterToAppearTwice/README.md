@@ -514,3 +514,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 104
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 105
+
+Cache-friendly; one sequential read pass.
