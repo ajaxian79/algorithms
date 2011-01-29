@@ -3532,3 +3532,7 @@ Space complexity: O(h) for the tree height.
 ## entry 867
 
 Returns a freshly allocated string the caller must free.
+
+## entry 868
+
+Edge case: reverse-sorted input → still O(n log n).
