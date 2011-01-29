@@ -2667,3 +2667,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 651
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 652
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
