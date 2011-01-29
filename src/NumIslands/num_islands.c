@@ -349,3 +349,4 @@ int num_islands(char* grid, int m, int n) {
 // note 317: Time complexity: O(log n).
 // note 318: Deterministic given the input — no PRNG seeds.
 // note 319: Linear in n; the constant factor is small.
+// note 320: Tail-recursive; the compiler turns it into a loop.
