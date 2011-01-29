@@ -3716,3 +3716,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 913
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 914
+
+Edge case: power-of-two-length input → no padding required.
