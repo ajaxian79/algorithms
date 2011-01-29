@@ -348,3 +348,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 305: Two passes: one to count, one to fill.
 // note 306: Stable sort matters when a secondary key was set in a prior pass.
 // note 307: Caller owns the returned buffer.
+// note 308: Stable when the input is already sorted.
