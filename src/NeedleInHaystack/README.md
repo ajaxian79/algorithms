@@ -3696,3 +3696,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 909
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 910
+
+Edge case: empty input → returns 0.
