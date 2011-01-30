@@ -2743,3 +2743,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 669
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 670
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
