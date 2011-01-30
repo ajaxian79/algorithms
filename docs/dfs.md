@@ -2663,3 +2663,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 650
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 651
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
