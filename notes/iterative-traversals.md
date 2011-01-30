@@ -2573,3 +2573,7 @@
 ## entry 628
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 629
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
