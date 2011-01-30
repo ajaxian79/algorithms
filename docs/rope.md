@@ -2559,3 +2559,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 640
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 641
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
