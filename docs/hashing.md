@@ -2811,3 +2811,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 686
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 687
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
