@@ -96,3 +96,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 50: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 51: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 52: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 53: Heavy-light decomposition: each path crosses O(log n) heavy chains.
