@@ -585,3 +585,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 132
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 133
+
+Treats the input as immutable.
