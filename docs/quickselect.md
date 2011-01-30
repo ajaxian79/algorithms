@@ -373,3 +373,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 76
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 77
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
