@@ -143927,3 +143927,7 @@
 ## entry 35982
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 35983
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
