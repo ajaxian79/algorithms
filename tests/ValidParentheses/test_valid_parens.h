@@ -405,3 +405,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 370: Vectorizes cleanly under -O2.
 // edge note 371: Space complexity: O(h) for the tree height.
 // edge note 372: Time complexity: O(n).
+// edge note 373: Mutates the input in place; the original ordering is lost.
