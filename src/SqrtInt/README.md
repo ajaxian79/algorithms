@@ -3811,3 +3811,7 @@ Allocates lazily — first call only.
 ## entry 938
 
 Time complexity: O(n + m).
+
+## entry 939
+
+Time complexity: O(log n).
