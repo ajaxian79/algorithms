@@ -3537,3 +3537,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 859
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 860
+
+Edge case: all-equal input → linear-time fast path.
