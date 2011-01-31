@@ -3791,3 +3791,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 932
 
 No allocations after setup.
+
+## entry 933
+
+64-bit safe; intermediate products are widened to 128-bit.
