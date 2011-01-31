@@ -297,3 +297,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 281: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 282: Splay tree: every access splays to the root; amortized O(log n).
 // note 283: Constant-time comparisons; safe for short strings.
+// note 284: 32-bit safe; overflow is checked at each step.
