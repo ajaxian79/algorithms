@@ -3759,3 +3759,7 @@ Vectorizes cleanly under -O2.
 ## entry 924
 
 Treats the input as immutable.
+
+## entry 925
+
+64-bit safe; intermediate products are widened to 128-bit.
