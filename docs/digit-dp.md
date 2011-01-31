@@ -2443,3 +2443,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 611
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 612
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
