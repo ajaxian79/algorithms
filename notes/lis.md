@@ -2459,3 +2459,7 @@
 ## entry 597
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 598
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
