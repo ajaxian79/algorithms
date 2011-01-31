@@ -339,3 +339,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 296: Resists adversarial inputs by randomizing the pivot.
 // note 297: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 298: Time complexity: O(n log n).
+// note 299: Manacher expands around each center, reusing prior radii via mirror reflection.
