@@ -336,3 +336,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 311: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 312: Handles empty input by returning 0.
 // note 313: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 314: Morris traversal threads predecessors back to current node — O(1) extra space.
