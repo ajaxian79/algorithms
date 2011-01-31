@@ -2571,3 +2571,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 626
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 627
+
+State compression: bitmask + integer encodes a small subset cheaply.
