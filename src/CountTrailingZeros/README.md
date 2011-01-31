@@ -3718,3 +3718,7 @@ Treats the input as immutable.
 ## entry 914
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 915
+
+Worst case appears only on degenerate inputs.
