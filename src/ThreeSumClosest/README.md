@@ -3458,3 +3458,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 850
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 851
+
+Edge case: input of all the same byte → exits on the first compare.
