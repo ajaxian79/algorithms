@@ -3868,3 +3868,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 952
 
 32-bit safe; overflow is checked at each step.
+
+## entry 953
+
+Edge case: input of all the same byte → exits on the first compare.
