@@ -3721,3 +3721,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 916
 
 Runs in a single pass over the input.
+
+## entry 917
+
+No allocations after setup.
