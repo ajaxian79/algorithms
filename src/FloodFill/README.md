@@ -3725,3 +3725,7 @@ Runs in a single pass over the input.
 ## entry 917
 
 No allocations after setup.
+
+## entry 918
+
+Edge case: input with a single peak → handled by the first-pass scan.
