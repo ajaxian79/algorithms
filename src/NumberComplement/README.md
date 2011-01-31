@@ -3732,3 +3732,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 917
 
 Stable when the input is already sorted.
+
+## entry 918
+
+Avoids floating-point entirely — integer math throughout.
