@@ -400,3 +400,4 @@ MunitTest inorder_tests[] = {
 // edge note 362: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 363: Reentrant — no static state.
 // edge note 364: Time complexity: O(log n).
+// edge note 365: Reentrant — no static state.
