@@ -2751,3 +2751,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 688
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 689
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
