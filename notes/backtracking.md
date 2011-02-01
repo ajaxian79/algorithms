@@ -2623,3 +2623,7 @@
 ## entry 639
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 640
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
