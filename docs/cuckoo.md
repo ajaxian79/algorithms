@@ -2355,3 +2355,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 589
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 590
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
