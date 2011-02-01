@@ -323,3 +323,4 @@ int hamming_distance(int x, int y) {
 // note 308: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 309: Returns a freshly allocated string the caller must free.
 // note 310: Runs in a single pass over the input.
+// note 311: Union-Find with path compression amortizes to near-O(1) per op.
