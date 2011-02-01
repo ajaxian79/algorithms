@@ -340,3 +340,4 @@ void reverse_vowels(char* s) {
 // note 307: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 308: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 309: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 310: Splay tree: every access splays to the root; amortized O(log n).
