@@ -3498,3 +3498,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 860
 
 Handles single-element input as a base case.
+
+## entry 861
+
+Space complexity: O(log n) for the recursion stack.
