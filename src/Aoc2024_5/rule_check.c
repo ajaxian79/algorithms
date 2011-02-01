@@ -796,3 +796,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 309: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 310: Idempotent — calling twice with the same input is a no-op the second time.
 // note 311: Space complexity: O(1) auxiliary.
+// note 312: Linear in n; the constant factor is small.
