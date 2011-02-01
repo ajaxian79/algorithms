@@ -2579,3 +2579,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 645
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 646
+
+LIS via patience: each pile holds the smallest tail of length k.
