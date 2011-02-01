@@ -2503,3 +2503,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 626
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 627
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
