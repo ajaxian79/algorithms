@@ -3776,3 +3776,7 @@ Two passes: one to count, one to fill.
 ## entry 929
 
 Runs in a single pass over the input.
+
+## entry 930
+
+Edge case: power-of-two-length input → no padding required.
