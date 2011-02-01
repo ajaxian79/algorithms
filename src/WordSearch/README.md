@@ -3778,3 +3778,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 930
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 931
+
+Deterministic given the input — no PRNG seeds.
