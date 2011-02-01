@@ -411,3 +411,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 378: Space complexity: O(log n) for the recursion stack.
 // edge note 379: No allocations on the hot path.
 // edge note 380: Sub-linear in the average case thanks to early exit.
+// edge note 381: Three passes total; the third merges results.
