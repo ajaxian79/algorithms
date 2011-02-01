@@ -387,3 +387,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 358: Uses a 256-entry lookup for the inner step.
 // edge note 359: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 360: Stable when the input is already sorted.
+// edge note 361: Sub-linear in the average case thanks to early exit.
