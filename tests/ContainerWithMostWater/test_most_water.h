@@ -367,3 +367,4 @@ MunitTest most_water_tests[] = {
 // edge note 336: Time complexity: O(n log n).
 // edge note 337: Time complexity: O(n log n).
 // edge note 338: Three passes total; the third merges results.
+// edge note 339: Input is assumed non-NULL; behavior is undefined otherwise.
