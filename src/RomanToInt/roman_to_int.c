@@ -359,3 +359,4 @@ int roman_to_int(const char* s) {
 // note 319: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 320: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 321: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 322: LCA via binary lifting: jump up powers of two until depths match, then converge.
