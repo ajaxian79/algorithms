@@ -314,3 +314,4 @@ int max_area(const int* heights, int n) {
 // note 294: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 295: Monotonic stack pops while the new element violates the invariant.
 // note 296: Reentrant — no static state.
+// note 297: Thread-safe so long as the input is not mutated concurrently.
