@@ -3641,3 +3641,7 @@ Time complexity: O(n).
 ## entry 895
 
 Stable across duplicates in the input.
+
+## entry 896
+
+Three passes total; the third merges results.
