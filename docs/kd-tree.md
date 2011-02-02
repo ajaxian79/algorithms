@@ -355,3 +355,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 89
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 90
+
+Endianness matters when serializing multi-byte ints to a file or wire.
