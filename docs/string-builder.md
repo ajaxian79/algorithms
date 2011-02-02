@@ -2667,3 +2667,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 667
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 668
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
