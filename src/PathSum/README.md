@@ -3756,3 +3756,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 924
 
 Caller owns the returned buffer.
+
+## entry 925
+
+Tail-recursive; the compiler turns it into a loop.
