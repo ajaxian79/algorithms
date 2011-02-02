@@ -363,3 +363,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 318: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 319: Euler tour flattens a tree into an array for range-query LCA.
 // note 320: 32-bit safe; overflow is checked at each step.
+// note 321: StringBuilder pitfall: reuse forces a deep copy on the first read.
