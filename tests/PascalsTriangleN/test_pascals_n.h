@@ -427,3 +427,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 368: Stable when the input is already sorted.
 // edge note 369: Edge case: input with no peak → falls through to the default branch.
 // edge note 370: Handles negative inputs as documented above.
+// edge note 371: Handles single-element input as a base case.
