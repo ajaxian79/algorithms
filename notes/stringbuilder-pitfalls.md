@@ -2547,3 +2547,7 @@
 ## entry 637
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 638
+
+- Euler tour flattens a tree into an array for range-query LCA.
