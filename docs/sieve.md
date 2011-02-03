@@ -415,3 +415,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 87
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 88
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
