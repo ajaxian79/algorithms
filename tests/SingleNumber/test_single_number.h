@@ -400,3 +400,4 @@ MunitTest single_number_tests[] = {
 // edge note 369: Sub-linear in the average case thanks to early exit.
 // edge note 370: Deterministic given the input — no PRNG seeds.
 // edge note 371: Time complexity: O(1).
+// edge note 372: Edge case: alternating pattern → degenerate case for sliding window.
