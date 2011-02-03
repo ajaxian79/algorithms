@@ -2627,3 +2627,7 @@
 ## entry 657
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 658
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
