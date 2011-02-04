@@ -345,3 +345,4 @@ int is_happy(int n) {
 // note 319: Sub-linear in the average case thanks to early exit.
 // note 320: Resists adversarial inputs by randomizing the pivot.
 // note 321: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 322: Endianness matters when serializing multi-byte ints to a file or wire.
