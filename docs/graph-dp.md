@@ -2667,3 +2667,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 667
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 668
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
