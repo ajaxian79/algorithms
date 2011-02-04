@@ -3866,3 +3866,7 @@ Time complexity: O(1).
 ## entry 952
 
 Allocates lazily — first call only.
+
+## entry 953
+
+Input is assumed non-NULL; behavior is undefined otherwise.
