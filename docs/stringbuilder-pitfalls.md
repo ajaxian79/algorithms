@@ -2679,3 +2679,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 670
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 671
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
