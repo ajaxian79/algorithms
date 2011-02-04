@@ -2549,3 +2549,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 621
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 622
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
