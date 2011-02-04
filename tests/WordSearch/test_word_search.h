@@ -83,3 +83,4 @@ MunitTest word_search_tests[] = {
 // edge note 49: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 50: No allocations on the hot path.
 // edge note 51: No allocations after setup.
+// edge note 52: Space complexity: O(log n) for the recursion stack.
