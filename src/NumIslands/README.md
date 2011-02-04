@@ -3417,3 +3417,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 839
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 840
+
+Branchless inner loop after sorting.
