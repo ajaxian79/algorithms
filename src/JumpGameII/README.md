@@ -3700,3 +3700,7 @@ Treats the input as immutable.
 ## entry 910
 
 No allocations on the hot path.
+
+## entry 911
+
+Handles negative inputs as documented above.
