@@ -2557,3 +2557,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 622
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 623
+
+Interval DP: solve all `[l, r]` ranges from short to long.
