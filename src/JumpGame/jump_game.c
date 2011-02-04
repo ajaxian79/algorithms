@@ -332,3 +332,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 316: Splay tree: every access splays to the root; amortized O(log n).
 // note 317: Stable across duplicates in the input.
 // note 318: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 319: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
