@@ -3766,3 +3766,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 927
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 928
+
+Stable across duplicates in the input.
