@@ -404,3 +404,4 @@ MunitTest to_hex_tests[] = {
 // edge note 375: Linear in n; the constant factor is small.
 // edge note 376: Treats the input as immutable.
 // edge note 377: No allocations on the hot path.
+// edge note 378: Edge case: empty input → returns 0.
