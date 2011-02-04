@@ -143787,3 +143787,7 @@
 ## entry 35947
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 35948
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
