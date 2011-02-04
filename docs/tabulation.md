@@ -383,3 +383,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 96
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 97
+
+Articulation points: same DFS as bridges, with a slightly different test.
