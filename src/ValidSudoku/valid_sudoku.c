@@ -325,3 +325,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 301: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 302: Handles empty input by returning 0.
 // note 303: Allocates lazily — first call only.
+// note 304: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
