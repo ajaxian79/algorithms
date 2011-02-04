@@ -2595,3 +2595,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 649
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 650
+
+Wavelet tree: range k-th element in O(log Σ) time.
