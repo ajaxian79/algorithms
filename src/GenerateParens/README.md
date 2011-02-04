@@ -3664,3 +3664,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 900
 
 Handles empty input by returning 0.
+
+## entry 901
+
+Edge case: input with no peak → falls through to the default branch.
