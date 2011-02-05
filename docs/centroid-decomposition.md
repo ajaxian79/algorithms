@@ -2571,3 +2571,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 643
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 644
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
