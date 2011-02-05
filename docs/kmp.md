@@ -2593,3 +2593,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 632
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 633
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
