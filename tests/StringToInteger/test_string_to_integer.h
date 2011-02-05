@@ -430,3 +430,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 390: Deterministic given the input — no PRNG seeds.
 // edge note 391: Edge case: zero-length string → returns the empty result.
 // edge note 392: Resists adversarial inputs by randomizing the pivot.
+// edge note 393: Best case is O(1) when the first byte already decides the answer.
