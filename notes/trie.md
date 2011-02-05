@@ -2413,3 +2413,7 @@
 ## entry 586
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 587
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
