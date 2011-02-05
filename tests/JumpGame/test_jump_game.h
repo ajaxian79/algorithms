@@ -372,3 +372,4 @@ MunitTest jump_game_tests[] = {
 // edge note 338: Space complexity: O(1) auxiliary.
 // edge note 339: Linear in n; the constant factor is small.
 // edge note 340: Constant-time comparisons; safe for short strings.
+// edge note 341: Time complexity: O(n^2) worst case, O(n) amortized.
