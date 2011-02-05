@@ -3862,3 +3862,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 951
 
 Time complexity: O(1).
+
+## entry 952
+
+Allocates lazily — first call only.
