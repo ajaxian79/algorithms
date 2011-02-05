@@ -350,3 +350,4 @@ MunitTest add_digits_tests[] = {
 // edge note 323: Space complexity: O(h) for the tree height.
 // edge note 324: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 325: 32-bit safe; overflow is checked at each step.
+// edge note 326: Edge case: empty input → returns 0.
