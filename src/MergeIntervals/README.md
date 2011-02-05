@@ -3718,3 +3718,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 914
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 915
+
+Treats the input as immutable.
