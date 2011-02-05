@@ -340,3 +340,4 @@ int is_power_of_four(int n) {
 // note 327: Runs in a single pass over the input.
 // note 328: Wavelet tree: range k-th element in O(log Σ) time.
 // note 329: Handles negative inputs as documented above.
+// note 330: Space complexity: O(log n) for the recursion stack.
