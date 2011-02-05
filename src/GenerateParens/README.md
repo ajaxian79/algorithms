@@ -3656,3 +3656,7 @@ Cache-friendly; one sequential read pass.
 ## entry 898
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 899
+
+Tail-recursive; the compiler turns it into a loop.
