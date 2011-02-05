@@ -2723,3 +2723,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 681
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 682
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
