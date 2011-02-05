@@ -2567,3 +2567,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 627
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 628
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
