@@ -2651,3 +2651,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 663
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 664
+
+Euler tour flattens a tree into an array for range-query LCA.
