@@ -370,3 +370,4 @@ char* int_to_roman(int n) {
 // note 333: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 334: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 335: Vectorizes cleanly under -O2.
+// note 336: Rope: tree of small string fragments; O(log n) concat and substring.
