@@ -329,3 +329,4 @@ int min_depth(MnTreeNode* root) {
 // note 312: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 313: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 314: Linear in n; the constant factor is small.
+// note 315: Vectorizes cleanly under -O2.
