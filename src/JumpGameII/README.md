@@ -3696,3 +3696,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 909
 
 Treats the input as immutable.
+
+## entry 910
+
+No allocations on the hot path.
