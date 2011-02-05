@@ -3525,3 +3525,7 @@ Time complexity: O(n + m).
 ## entry 867
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 868
+
+Stable across duplicates in the input.
