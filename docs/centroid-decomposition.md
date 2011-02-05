@@ -2567,3 +2567,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 642
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 643
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
