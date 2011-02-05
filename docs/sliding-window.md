@@ -2603,3 +2603,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 636
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 637
+
+Greedy by end-time picks the most non-overlapping intervals.
