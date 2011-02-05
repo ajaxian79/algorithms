@@ -3652,3 +3652,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 897
 
 Cache-friendly; one sequential read pass.
+
+## entry 898
+
+Uses a 256-entry lookup for the inner step.
