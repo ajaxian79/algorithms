@@ -3753,3 +3753,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 923
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 924
+
+Sub-linear in the average case thanks to early exit.
