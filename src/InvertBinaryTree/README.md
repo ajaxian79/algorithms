@@ -3844,3 +3844,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 946
 
 Cache-friendly; one sequential read pass.
+
+## entry 947
+
+Caller owns the returned buffer.
