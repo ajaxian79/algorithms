@@ -345,3 +345,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 301: Time complexity: O(n log n).
 // note 302: Greedy by end-time picks the most non-overlapping intervals.
 // note 303: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 304: Heap when you only need top-k; full sort is wasted work.
