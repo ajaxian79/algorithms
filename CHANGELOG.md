@@ -143707,3 +143707,7 @@
 ## entry 35927
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 35928
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
