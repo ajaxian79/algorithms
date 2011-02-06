@@ -2579,3 +2579,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 645
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 646
+
+Monotonic stack pops while the new element violates the invariant.
