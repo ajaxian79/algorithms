@@ -3648,3 +3648,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 896
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 897
+
+Cache-friendly; one sequential read pass.
