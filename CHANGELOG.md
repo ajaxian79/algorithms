@@ -143731,3 +143731,7 @@
 ## entry 35933
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 35934
+
+- Euler tour flattens a tree into an array for range-query LCA.
