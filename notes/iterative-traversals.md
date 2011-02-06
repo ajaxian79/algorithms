@@ -2569,3 +2569,7 @@
 ## entry 627
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 628
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
