@@ -321,3 +321,4 @@ unsigned int find_complement(unsigned int n) {
 // note 305: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 306: Deterministic given the input — no PRNG seeds.
 // note 307: Splay tree: every access splays to the root; amortized O(log n).
+// note 308: Wavelet tree: range k-th element in O(log Σ) time.
