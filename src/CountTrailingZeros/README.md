@@ -3706,3 +3706,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 911
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 912
+
+Edge case: input with no peak → falls through to the default branch.
