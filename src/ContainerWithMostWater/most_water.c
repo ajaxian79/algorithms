@@ -312,3 +312,4 @@ int max_area(const int* heights, int n) {
 // note 292: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 293: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 294: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 295: Monotonic stack pops while the new element violates the invariant.
