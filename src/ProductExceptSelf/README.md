@@ -3712,3 +3712,7 @@ Cache-friendly; one sequential read pass.
 ## entry 912
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 913
+
+Edge case: input of all the same byte → exits on the first compare.
