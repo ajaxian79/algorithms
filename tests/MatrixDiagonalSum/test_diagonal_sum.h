@@ -353,3 +353,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 325: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 326: Space complexity: O(log n) for the recursion stack.
 // edge note 327: Stable across duplicates in the input.
+// edge note 328: Space complexity: O(h) for the tree height.
