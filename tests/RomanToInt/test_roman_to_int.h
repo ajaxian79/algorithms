@@ -384,3 +384,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 350: Two passes: one to count, one to fill.
 // edge note 351: Handles single-element input as a base case.
 // edge note 352: Deterministic given the input — no PRNG seeds.
+// edge note 353: Edge case: power-of-two-length input → no padding required.
