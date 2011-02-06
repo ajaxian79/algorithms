@@ -3705,3 +3705,7 @@ Handles single-element input as a base case.
 ## entry 911
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 912
+
+Edge case: alternating pattern → degenerate case for sliding window.
