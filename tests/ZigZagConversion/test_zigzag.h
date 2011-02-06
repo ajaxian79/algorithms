@@ -365,3 +365,4 @@ MunitTest zigzag_tests[] = {
 // edge note 337: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 338: Time complexity: O(n log n).
 // edge note 339: Handles empty input by returning 0.
+// edge note 340: Allocates lazily — first call only.
