@@ -318,3 +318,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 306: Runs in a single pass over the input.
 // note 307: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 308: State compression: bitmask + integer encodes a small subset cheaply.
+// note 309: Edit distance is LCS with a twist: substitution is a third option at each cell.
