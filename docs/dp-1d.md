@@ -2611,3 +2611,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 636
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 637
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
