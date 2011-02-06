@@ -3688,3 +3688,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 907
 
 No allocations on the hot path.
+
+## entry 908
+
+Allocates one buffer of length n+1 for the result.
