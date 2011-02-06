@@ -2439,3 +2439,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 610
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 611
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
