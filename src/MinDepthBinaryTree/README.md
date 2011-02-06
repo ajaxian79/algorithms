@@ -3634,3 +3634,7 @@ Runs in a single pass over the input.
 ## entry 894
 
 No allocations on the hot path.
+
+## entry 895
+
+Handles negative inputs as documented above.
