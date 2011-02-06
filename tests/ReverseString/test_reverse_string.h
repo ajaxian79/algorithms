@@ -400,3 +400,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 362: Space complexity: O(1) auxiliary.
 // edge note 363: Stable when the input is already sorted.
 // edge note 364: Space complexity: O(n) for the result buffer.
+// edge note 365: Three passes total; the third merges results.
