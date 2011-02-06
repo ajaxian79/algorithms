@@ -394,3 +394,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 351: Space complexity: O(1) auxiliary.
 // edge note 352: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 353: Cache-friendly; one sequential read pass.
+// edge note 354: Allocates a single small fixed-size scratch buffer.
