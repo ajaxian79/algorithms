@@ -321,3 +321,4 @@ int count_primes(int n) {
 // note 293: Space complexity: O(h) for the tree height.
 // note 294: Thread-safe so long as the input is not mutated concurrently.
 // note 295: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 296: Linear in n; the constant factor is small.
