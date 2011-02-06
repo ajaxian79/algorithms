@@ -3528,3 +3528,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 866
 
 Space complexity: O(h) for the tree height.
+
+## entry 867
+
+Returns a freshly allocated string the caller must free.
