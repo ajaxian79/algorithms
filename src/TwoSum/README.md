@@ -3525,3 +3525,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 856
 
 Handles negative inputs as documented above.
+
+## entry 857
+
+Space complexity: O(h) for the tree height.
