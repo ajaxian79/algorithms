@@ -143711,3 +143711,7 @@
 ## entry 35928
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 35929
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
