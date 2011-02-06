@@ -2487,3 +2487,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 622
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 623
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
