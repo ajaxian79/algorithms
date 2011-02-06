@@ -3707,3 +3707,7 @@ Handles empty input by returning 0.
 ## entry 912
 
 Space complexity: O(1) auxiliary.
+
+## entry 913
+
+Edge case: all-equal input → linear-time fast path.
