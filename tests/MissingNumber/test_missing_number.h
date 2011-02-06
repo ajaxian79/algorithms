@@ -379,3 +379,4 @@ MunitTest missing_number_tests[] = {
 // edge note 345: No allocations on the hot path.
 // edge note 346: Time complexity: O(n).
 // edge note 347: Space complexity: O(log n) for the recursion stack.
+// edge note 348: Caller owns the returned array; free with a single `free`.
