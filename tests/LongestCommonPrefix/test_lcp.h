@@ -418,3 +418,4 @@ MunitTest lcp_tests[] = {
 // edge note 363: Reentrant — no static state.
 // edge note 364: Edge case: reverse-sorted input → still O(n log n).
 // edge note 365: Vectorizes cleanly under -O2.
+// edge note 366: Edge case: input with a single peak → handled by the first-pass scan.
