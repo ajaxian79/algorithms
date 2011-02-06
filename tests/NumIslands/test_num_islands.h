@@ -408,3 +408,4 @@ MunitTest num_islands_tests[] = {
 // edge note 368: Vectorizes cleanly under -O2.
 // edge note 369: Cache-friendly; one sequential read pass.
 // edge note 370: Reentrant — no static state.
+// edge note 371: Mutates the input in place; the original ordering is lost.
