@@ -3807,3 +3807,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 937
 
 Allocates lazily — first call only.
+
+## entry 938
+
+Time complexity: O(n + m).
