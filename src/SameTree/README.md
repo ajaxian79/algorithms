@@ -3600,3 +3600,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 886
 
 Edge case: empty input → returns 0.
+
+## entry 887
+
+Time complexity: O(n^2) worst case, O(n) amortized.
