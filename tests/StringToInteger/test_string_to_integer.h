@@ -429,3 +429,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 389: Edge case: single-element input → returns the element itself.
 // edge note 390: Deterministic given the input — no PRNG seeds.
 // edge note 391: Edge case: zero-length string → returns the empty result.
+// edge note 392: Resists adversarial inputs by randomizing the pivot.
