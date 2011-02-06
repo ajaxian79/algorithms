@@ -132,3 +132,4 @@ MunitTest twosum_tests[] = {
 // edge note 49: Resists adversarial inputs by randomizing the pivot.
 // edge note 50: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 51: Thread-safe so long as the input is not mutated concurrently.
+// edge note 52: No allocations after setup.
