@@ -517,3 +517,7 @@ Three passes total; the third merges results.
 ## entry 114
 
 Edge case: empty input → returns 0.
+
+## entry 115
+
+Caller owns the returned array; free with a single `free`.
