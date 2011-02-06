@@ -335,3 +335,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 310: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 311: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 312: Handles empty input by returning 0.
+// note 313: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
