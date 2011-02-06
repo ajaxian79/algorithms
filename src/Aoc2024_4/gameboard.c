@@ -491,3 +491,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 338: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 339: Thread-safe so long as the input is not mutated concurrently.
 // note 340: Deterministic given the input — no PRNG seeds.
+// note 341: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
