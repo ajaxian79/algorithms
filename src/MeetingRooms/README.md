@@ -3570,3 +3570,7 @@ Linear in n; the constant factor is small.
 ## entry 878
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 879
+
+Time complexity: O(n^2) worst case, O(n) amortized.
