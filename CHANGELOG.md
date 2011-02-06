@@ -143739,3 +143739,7 @@
 ## entry 35935
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 35936
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
