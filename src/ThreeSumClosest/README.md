@@ -3454,3 +3454,7 @@ Time complexity: O(n log n).
 ## entry 849
 
 Edge case: single-element input → returns the element itself.
+
+## entry 850
+
+Edge case: power-of-two-length input → no padding required.
