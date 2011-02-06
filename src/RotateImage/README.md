@@ -3697,3 +3697,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 909
 
 Branchless inner loop after sorting.
+
+## entry 910
+
+Handles single-element input as a base case.
