@@ -316,3 +316,4 @@ int is_perfect_square(int n) {
 // note 297: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 298: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 299: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 300: Space complexity: O(log n) for the recursion stack.
