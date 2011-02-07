@@ -2655,3 +2655,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 648
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 649
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
