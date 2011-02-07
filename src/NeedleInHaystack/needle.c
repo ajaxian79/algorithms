@@ -339,3 +339,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 298: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 299: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 300: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 301: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
