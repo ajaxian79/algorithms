@@ -3592,3 +3592,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 884
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 885
+
+Edge case: input with one duplicate → handled without an extra pass.
