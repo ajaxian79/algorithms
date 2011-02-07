@@ -3858,3 +3858,7 @@ No allocations after setup.
 ## entry 950
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 951
+
+Time complexity: O(1).
