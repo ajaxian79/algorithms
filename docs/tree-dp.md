@@ -2719,3 +2719,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 680
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 681
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
