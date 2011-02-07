@@ -378,3 +378,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 342: Time complexity: O(log n).
 // edge note 343: Time complexity: O(n + m).
 // edge note 344: Mutates the input in place; the original ordering is lost.
+// edge note 345: Two passes: one to count, one to fill.
