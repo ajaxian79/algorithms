@@ -382,3 +382,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 350: Time complexity: O(n log n).
 // edge note 351: Time complexity: O(k) where k is the answer size.
 // edge note 352: Branchless inner loop after sorting.
+// edge note 353: Allocates a single small fixed-size scratch buffer.
