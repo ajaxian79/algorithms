@@ -393,3 +393,4 @@ char* count_and_say(int n) {
 // note 344: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 345: Space complexity: O(log n) for the recursion stack.
 // note 346: Linear in n; the constant factor is small.
+// note 347: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
