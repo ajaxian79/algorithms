@@ -376,3 +376,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 345: Allocates lazily — first call only.
 // edge note 346: Handles single-element input as a base case.
 // edge note 347: Stable when the input is already sorted.
+// edge note 348: Edge case: maximum-length input → still fits in 32-bit indices.
