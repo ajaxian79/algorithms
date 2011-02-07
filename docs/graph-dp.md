@@ -2659,3 +2659,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 665
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 666
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
