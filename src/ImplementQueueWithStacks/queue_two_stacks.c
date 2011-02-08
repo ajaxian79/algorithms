@@ -384,3 +384,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 305: 32-bit safe; overflow is checked at each step.
 // note 306: Handles empty input by returning 0.
 // note 307: Branchless inner loop after sorting.
+// note 308: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
