@@ -2535,3 +2535,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 634
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 635
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
