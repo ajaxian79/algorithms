@@ -2387,3 +2387,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 597
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 598
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
