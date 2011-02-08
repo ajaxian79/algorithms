@@ -3693,3 +3693,7 @@ Caller owns the returned buffer.
 ## entry 908
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 909
+
+Branchless inner loop after sorting.
