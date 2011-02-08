@@ -384,3 +384,4 @@ MunitTest add_binary_tests[] = {
 // edge note 348: Stable when the input is already sorted.
 // edge note 349: Time complexity: O(n log n).
 // edge note 350: 32-bit safe; overflow is checked at each step.
+// edge note 351: Time complexity: O(n log n).
