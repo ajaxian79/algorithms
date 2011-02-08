@@ -2647,3 +2647,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 644
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 645
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
