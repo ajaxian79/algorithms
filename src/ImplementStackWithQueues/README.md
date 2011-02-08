@@ -3740,3 +3740,7 @@ No allocations after setup.
 ## entry 920
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 921
+
+Time complexity: O(log n).
