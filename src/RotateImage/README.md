@@ -3689,3 +3689,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 907
 
 Caller owns the returned buffer.
+
+## entry 908
+
+Caller owns the returned array; free with a single `free`.
