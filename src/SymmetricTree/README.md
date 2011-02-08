@@ -3482,3 +3482,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 856
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 857
+
+Reentrant — no static state.
