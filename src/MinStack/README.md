@@ -3474,3 +3474,7 @@ Time complexity: O(n log n).
 ## entry 854
 
 Stable when the input is already sorted.
+
+## entry 855
+
+Stable when the input is already sorted.
