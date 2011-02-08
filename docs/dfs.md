@@ -2651,3 +2651,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 647
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 648
+
+StringBuilder: amortize allocation by doubling on grow.
