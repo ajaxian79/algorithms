@@ -18491,3 +18491,7 @@
 ## entry 4623
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 4624
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
