@@ -3516,3 +3516,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 863
 
 Time complexity: O(1).
+
+## entry 864
+
+Time complexity: O(n log n).
