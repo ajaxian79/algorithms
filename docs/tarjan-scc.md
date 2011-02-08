@@ -2567,3 +2567,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 642
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 643
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
