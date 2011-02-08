@@ -2563,3 +2563,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 626
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 627
+
+Walk both pointers from each end inward; advance the smaller side.
