@@ -315,3 +315,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 293: Allocates a single small fixed-size scratch buffer.
 // note 294: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 295: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 296: Two passes: one to count, one to fill.
