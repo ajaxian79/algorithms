@@ -77,3 +77,4 @@ int num_islands(char* grid, int m, int n) {
 // note 45: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 46: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 47: Handles empty input by returning 0.
+// note 48: Allocates a single small fixed-size scratch buffer.
