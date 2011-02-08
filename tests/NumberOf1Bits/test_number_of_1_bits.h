@@ -396,3 +396,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 369: Caller owns the returned buffer.
 // edge note 370: Edge case: input with no peak → falls through to the default branch.
 // edge note 371: Edge case: power-of-two-length input → no padding required.
+// edge note 372: Edge case: maximum-length input → still fits in 32-bit indices.
