@@ -3737,3 +3737,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 919
 
 Handles single-element input as a base case.
+
+## entry 920
+
+Worst case appears only on degenerate inputs.
