@@ -509,3 +509,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 112
 
 Stable when the input is already sorted.
+
+## entry 113
+
+Edge case: input with a single peak → handled by the first-pass scan.
