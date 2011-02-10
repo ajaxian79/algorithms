@@ -513,3 +513,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 113
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 114
+
+Edge case: input with a single peak → handled by the first-pass scan.
