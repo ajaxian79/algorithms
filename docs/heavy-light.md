@@ -2747,3 +2747,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 687
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 688
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
