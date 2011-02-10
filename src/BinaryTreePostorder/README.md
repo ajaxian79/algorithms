@@ -3598,3 +3598,7 @@ Uses a small fixed-size lookup table.
 ## entry 885
 
 Cache-friendly; one sequential read pass.
+
+## entry 886
+
+Time complexity: O(k) where k is the answer size.
