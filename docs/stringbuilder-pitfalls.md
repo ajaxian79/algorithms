@@ -2671,3 +2671,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 668
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 669
+
+Rope: tree of small string fragments; O(log n) concat and substring.
