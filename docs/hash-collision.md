@@ -2695,3 +2695,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 674
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 675
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
