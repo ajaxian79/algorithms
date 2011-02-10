@@ -353,3 +353,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 339: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 340: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 341: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 342: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
