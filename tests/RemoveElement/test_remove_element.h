@@ -381,3 +381,4 @@ MunitTest remove_element_tests[] = {
 // edge note 344: Time complexity: O(k) where k is the answer size.
 // edge note 345: Stable across duplicates in the input.
 // edge note 346: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 347: Stable when the input is already sorted.
