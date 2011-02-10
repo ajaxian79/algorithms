@@ -401,3 +401,4 @@ MunitTest plus_one_tests[] = {
 // edge note 336: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 337: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 338: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 339: Edge case: single-element input → returns the element itself.
