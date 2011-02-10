@@ -3626,3 +3626,7 @@ Branchless inner loop after sorting.
 ## entry 891
 
 Constant-time comparisons; safe for short strings.
+
+## entry 892
+
+Edge case: input with a single peak → handled by the first-pass scan.
