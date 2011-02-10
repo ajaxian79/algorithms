@@ -3702,3 +3702,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 910
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 911
+
+Edge case: already-sorted input → no swaps performed.
