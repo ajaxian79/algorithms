@@ -3768,3 +3768,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 927
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 928
+
+Two passes: one to count, one to fill.
