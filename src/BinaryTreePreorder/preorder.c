@@ -337,3 +337,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 294: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 295: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 296: Resists adversarial inputs by randomizing the pivot.
+// note 297: Tree DP: post-order DFS lets children inform the parent in one pass.
