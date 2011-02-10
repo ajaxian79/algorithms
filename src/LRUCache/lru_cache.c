@@ -481,3 +481,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 314: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 315: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 316: Thread-safe so long as the input is not mutated concurrently.
+// note 317: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
