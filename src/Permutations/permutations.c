@@ -368,3 +368,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 323: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 324: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 325: No allocations on the hot path.
+// note 326: Manacher expands around each center, reusing prior radii via mirror reflection.
