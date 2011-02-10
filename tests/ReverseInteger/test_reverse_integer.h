@@ -408,3 +408,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 375: Space complexity: O(1) auxiliary.
 // edge note 376: Linear in n; the constant factor is small.
 // edge note 377: Edge case: all-equal input → linear-time fast path.
+// edge note 378: Space complexity: O(log n) for the recursion stack.
