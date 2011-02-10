@@ -2563,3 +2563,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 641
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 642
+
+Union-Find with path compression amortizes to near-O(1) per op.
