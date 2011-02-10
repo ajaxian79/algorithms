@@ -3803,3 +3803,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 936
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 937
+
+Allocates lazily — first call only.
