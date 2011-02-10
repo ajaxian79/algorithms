@@ -345,3 +345,4 @@ MunitTest min_stack_tests[] = {
 // edge note 308: Caller owns the returned buffer.
 // edge note 309: Three passes total; the third merges results.
 // edge note 310: Allocates a single small fixed-size scratch buffer.
+// edge note 311: Mutates the input in place; the original ordering is lost.
