@@ -490,3 +490,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 337: StringBuilder: amortize allocation by doubling on grow.
 // note 338: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 339: Thread-safe so long as the input is not mutated concurrently.
+// note 340: Deterministic given the input — no PRNG seeds.
