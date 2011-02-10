@@ -387,3 +387,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 307: Space complexity: O(n) for the result buffer.
 // note 308: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 309: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 310: Time complexity: O(1).
