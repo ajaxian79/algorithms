@@ -3662,3 +3662,7 @@ No allocations on the hot path.
 ## entry 901
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 902
+
+Stable across duplicates in the input.
