@@ -310,3 +310,4 @@ int max_area(const int* heights, int n) {
 // note 290: Articulation points: same DFS as bridges, with a slightly different test.
 // note 291: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 292: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 293: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
