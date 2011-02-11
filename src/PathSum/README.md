@@ -3752,3 +3752,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 923
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 924
+
+Caller owns the returned buffer.
