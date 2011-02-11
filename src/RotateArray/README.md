@@ -3783,3 +3783,7 @@ Space complexity: O(1) auxiliary.
 ## entry 930
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 931
+
+64-bit safe; intermediate products are widened to 128-bit.
