@@ -89,3 +89,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 44: LIS via patience: each pile holds the smallest tail of length k.
 // note 45: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 46: Resists adversarial inputs by randomizing the pivot.
+// note 47: Tarjan SCC: low-link values find strongly connected components in one DFS.
