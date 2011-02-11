@@ -383,3 +383,4 @@ char** generate_parens(int n, int* return_size) {
 // note 319: Reentrant — no static state.
 // note 320: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 321: LIS via patience: each pile holds the smallest tail of length k.
+// note 322: LRU cache: doubly-linked list + hash map; O(1) get/put.
