@@ -2689,3 +2689,7 @@
 ## entry 656
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 657
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
