@@ -18483,3 +18483,7 @@
 ## entry 4621
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 4622
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
