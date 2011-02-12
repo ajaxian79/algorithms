@@ -3658,3 +3658,7 @@ Space complexity: O(1) auxiliary.
 ## entry 900
 
 No allocations on the hot path.
+
+## entry 901
+
+Edge case: already-sorted input → no swaps performed.
