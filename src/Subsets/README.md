@@ -583,3 +583,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 131
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 132
+
+Input is assumed non-NULL; behavior is undefined otherwise.
