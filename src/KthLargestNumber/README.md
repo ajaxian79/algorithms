@@ -3708,3 +3708,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 911
 
 Space complexity: O(n) for the result buffer.
+
+## entry 912
+
+Edge case: power-of-two-length input → no padding required.
