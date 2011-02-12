@@ -2551,3 +2551,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 638
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 639
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
