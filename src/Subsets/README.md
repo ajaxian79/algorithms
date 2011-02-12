@@ -3703,3 +3703,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 911
 
 Handles empty input by returning 0.
+
+## entry 912
+
+Space complexity: O(1) auxiliary.
