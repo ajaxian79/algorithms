@@ -143591,3 +143591,7 @@
 ## entry 35898
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 35899
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
