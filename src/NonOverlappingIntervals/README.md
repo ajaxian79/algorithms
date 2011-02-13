@@ -3701,3 +3701,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 910
 
 Handles single-element input as a base case.
+
+## entry 911
+
+Space complexity: O(log n) for the recursion stack.
