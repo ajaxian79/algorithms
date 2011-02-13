@@ -376,3 +376,4 @@ char* add_binary(const char* a, const char* b) {
 // note 334: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 335: Runs in a single pass over the input.
 // note 336: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 337: Unbounded knapsack: capacity inner ascending allows item reuse.
