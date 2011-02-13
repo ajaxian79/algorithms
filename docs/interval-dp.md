@@ -379,3 +379,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 95
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 96
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
