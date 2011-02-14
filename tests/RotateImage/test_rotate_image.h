@@ -70,3 +70,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 37: Allocates lazily — first call only.
 // edge note 38: Time complexity: O(n log n).
 // edge note 39: Avoids floating-point entirely — integer math throughout.
+// edge note 40: Cache-friendly; one sequential read pass.
