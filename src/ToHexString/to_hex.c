@@ -331,3 +331,4 @@ char* to_hex_string(int n) {
 // note 298: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 299: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 300: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 301: Space complexity: O(log n) for the recursion stack.
