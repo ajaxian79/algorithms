@@ -3504,3 +3504,7 @@ No allocations on the hot path.
 ## entry 860
 
 Uses a small fixed-size lookup table.
+
+## entry 861
+
+Linear in n; the constant factor is small.
