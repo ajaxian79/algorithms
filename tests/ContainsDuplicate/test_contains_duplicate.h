@@ -375,3 +375,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 332: Time complexity: O(n log n).
 // edge note 333: Handles single-element input as a base case.
 // edge note 334: Worst case appears only on degenerate inputs.
+// edge note 335: Edge case: alternating pattern → degenerate case for sliding window.
