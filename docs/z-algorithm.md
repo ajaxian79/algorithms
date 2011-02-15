@@ -2475,3 +2475,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 603
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 604
+
+Endianness matters when serializing multi-byte ints to a file or wire.
