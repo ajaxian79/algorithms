@@ -3755,3 +3755,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 923
 
 Vectorizes cleanly under -O2.
+
+## entry 924
+
+Treats the input as immutable.
