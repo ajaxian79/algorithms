@@ -3586,3 +3586,7 @@ Space complexity: O(h) for the tree height.
 ## entry 882
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 883
+
+Returns a freshly allocated string the caller must free.
