@@ -600,3 +600,7 @@ Cache-friendly; one sequential read pass.
 ## entry 135
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 136
+
+Linear in n; the constant factor is small.
