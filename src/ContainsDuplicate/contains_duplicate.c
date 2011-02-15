@@ -393,3 +393,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 314: Three passes total; the third merges results.
 // note 315: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 316: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 317: Linear in n; the constant factor is small.
