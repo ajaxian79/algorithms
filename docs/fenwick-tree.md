@@ -2631,3 +2631,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 642
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 643
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
