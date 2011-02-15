@@ -2599,3 +2599,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 650
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 651
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
