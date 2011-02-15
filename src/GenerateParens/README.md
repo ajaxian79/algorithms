@@ -3644,3 +3644,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 895
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 896
+
+Avoids floating-point entirely — integer math throughout.
