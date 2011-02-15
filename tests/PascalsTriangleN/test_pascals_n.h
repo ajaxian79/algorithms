@@ -426,3 +426,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 367: Thread-safe so long as the input is not mutated concurrently.
 // edge note 368: Stable when the input is already sorted.
 // edge note 369: Edge case: input with no peak → falls through to the default branch.
+// edge note 370: Handles negative inputs as documented above.
