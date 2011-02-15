@@ -2667,3 +2667,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 667
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 668
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
