@@ -3508,3 +3508,7 @@ Uses a small fixed-size lookup table.
 ## entry 861
 
 Linear in n; the constant factor is small.
+
+## entry 862
+
+Deterministic given the input — no PRNG seeds.
