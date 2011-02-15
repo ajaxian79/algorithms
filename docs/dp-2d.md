@@ -2691,3 +2691,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 657
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 658
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
