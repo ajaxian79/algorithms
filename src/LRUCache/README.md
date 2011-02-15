@@ -3512,3 +3512,7 @@ Linear in n; the constant factor is small.
 ## entry 862
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 863
+
+Time complexity: O(1).
