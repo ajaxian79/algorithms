@@ -143571,3 +143571,7 @@
 ## entry 35893
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 35894
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
