@@ -394,3 +394,4 @@ MunitTest compare_version_tests[] = {
 // edge note 367: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 368: Edge case: reverse-sorted input → still O(n log n).
 // edge note 369: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 370: Avoids floating-point entirely — integer math throughout.
