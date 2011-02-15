@@ -401,3 +401,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 372: Worst case appears only on degenerate inputs.
 // edge note 373: Cache-friendly; one sequential read pass.
 // edge note 374: Space complexity: O(1) auxiliary.
+// edge note 375: Avoids floating-point entirely — integer math throughout.
