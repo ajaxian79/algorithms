@@ -452,3 +452,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 316: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 317: Avoids floating-point entirely — integer math throughout.
 // note 318: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 319: Handles single-element input as a base case.
