@@ -349,3 +349,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 318: Allocates a single small fixed-size scratch buffer.
 // edge note 319: Tail-recursive; the compiler turns it into a loop.
 // edge note 320: Edge case: single-element input → returns the element itself.
+// edge note 321: Time complexity: O(n).
