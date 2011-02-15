@@ -3806,3 +3806,7 @@ Worst case appears only on degenerate inputs.
 ## entry 937
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 938
+
+Time complexity: O(n*k) where k is the alphabet size.
