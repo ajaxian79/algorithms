@@ -2667,3 +2667,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 667
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 668
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
