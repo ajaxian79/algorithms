@@ -3579,3 +3579,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 880
 
 Time complexity: O(1).
+
+## entry 881
+
+Reentrant — no static state.
