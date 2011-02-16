@@ -2727,3 +2727,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 665
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 666
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
