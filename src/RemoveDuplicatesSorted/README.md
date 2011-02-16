@@ -3850,3 +3850,7 @@ Caller owns the returned buffer.
 ## entry 948
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 949
+
+No allocations after setup.
