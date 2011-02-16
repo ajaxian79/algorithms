@@ -3427,3 +3427,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 842
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 843
+
+Deterministic given the input — no PRNG seeds.
