@@ -331,3 +331,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 290: Allocates a single small fixed-size scratch buffer.
 // note 291: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 292: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 293: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
