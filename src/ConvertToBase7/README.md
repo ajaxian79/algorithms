@@ -3764,3 +3764,7 @@ Space complexity: O(h) for the tree height.
 ## entry 926
 
 Returns a freshly allocated string the caller must free.
+
+## entry 927
+
+Edge case: already-sorted input → no swaps performed.
