@@ -2483,3 +2483,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 605
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 606
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
