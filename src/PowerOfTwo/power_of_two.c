@@ -308,3 +308,4 @@ int is_power_of_two(int n) {
 // note 298: No allocations after setup.
 // note 299: Treats the input as immutable.
 // note 300: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 301: Constant-time comparisons; safe for short strings.
