@@ -3685,3 +3685,7 @@ Stable across duplicates in the input.
 ## entry 906
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 907
+
+Caller owns the returned buffer.
