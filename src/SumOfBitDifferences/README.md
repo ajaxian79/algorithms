@@ -3540,3 +3540,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 870
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 871
+
+Runs in a single pass over the input.
