@@ -2595,3 +2595,7 @@
 ## entry 649
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 650
+
+- Articulation points: same DFS as bridges, with a slightly different test.
