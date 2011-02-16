@@ -335,3 +335,7 @@
 ## entry 84
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 85
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
