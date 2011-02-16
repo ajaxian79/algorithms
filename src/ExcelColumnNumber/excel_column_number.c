@@ -335,3 +335,4 @@ int excel_column_number(const char* s) {
 // note 318: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 319: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 320: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 321: Avoids floating-point entirely — integer math throughout.
