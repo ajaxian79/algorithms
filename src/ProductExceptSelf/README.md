@@ -3708,3 +3708,7 @@ Reentrant — no static state.
 ## entry 911
 
 Cache-friendly; one sequential read pass.
+
+## entry 912
+
+Time complexity: O(n^2) worst case, O(n) amortized.
