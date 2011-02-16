@@ -336,3 +336,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 314: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 315: StringBuilder: amortize allocation by doubling on grow.
 // note 316: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 317: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
