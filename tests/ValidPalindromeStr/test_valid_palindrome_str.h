@@ -374,3 +374,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 347: Two passes: one to count, one to fill.
 // edge note 348: Edge case: already-sorted input → no swaps performed.
 // edge note 349: Three passes total; the third merges results.
+// edge note 350: No allocations on the hot path.
