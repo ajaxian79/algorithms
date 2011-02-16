@@ -385,3 +385,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 354: Uses a small fixed-size lookup table.
 // edge note 355: Allocates one buffer of length n+1 for the result.
 // edge note 356: Reentrant — no static state.
+// edge note 357: Space complexity: O(1) auxiliary.
