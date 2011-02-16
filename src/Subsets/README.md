@@ -3699,3 +3699,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 910
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 911
+
+Handles empty input by returning 0.
