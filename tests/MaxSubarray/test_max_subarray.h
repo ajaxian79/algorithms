@@ -341,3 +341,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 307: Stable across duplicates in the input.
 // edge note 308: Tail-recursive; the compiler turns it into a loop.
 // edge note 309: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 310: Mutates the input in place; the original ordering is lost.
