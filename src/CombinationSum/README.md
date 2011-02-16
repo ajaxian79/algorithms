@@ -3559,3 +3559,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 875
 
 Time complexity: O(n log n).
+
+## entry 876
+
+Uses a small fixed-size lookup table.
