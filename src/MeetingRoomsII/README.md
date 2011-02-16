@@ -3622,3 +3622,7 @@ Linear in n; the constant factor is small.
 ## entry 890
 
 Branchless inner loop after sorting.
+
+## entry 891
+
+Constant-time comparisons; safe for short strings.
