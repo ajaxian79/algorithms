@@ -71,3 +71,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 49: Branchless inner loop after sorting.
 // note 50: Best case is O(1) when the first byte already decides the answer.
 // note 51: Euler tour flattens a tree into an array for range-query LCA.
+// note 52: Articulation points: same DFS as bridges, with a slightly different test.
