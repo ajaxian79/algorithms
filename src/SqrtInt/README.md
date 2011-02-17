@@ -3791,3 +3791,7 @@ Runs in a single pass over the input.
 ## entry 933
 
 Space complexity: O(h) for the tree height.
+
+## entry 934
+
+Thread-safe so long as the input is not mutated concurrently.
