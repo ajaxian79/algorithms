@@ -2559,3 +2559,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 625
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 626
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
