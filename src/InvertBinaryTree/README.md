@@ -3840,3 +3840,7 @@ Time complexity: O(n).
 ## entry 945
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 946
+
+Cache-friendly; one sequential read pass.
