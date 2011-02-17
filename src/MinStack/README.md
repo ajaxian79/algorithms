@@ -3462,3 +3462,7 @@ No allocations after setup.
 ## entry 851
 
 Three passes total; the third merges results.
+
+## entry 852
+
+Edge case: single-element input → returns the element itself.
