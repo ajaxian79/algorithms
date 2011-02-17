@@ -3575,3 +3575,7 @@ Space complexity: O(1) auxiliary.
 ## entry 879
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 880
+
+Time complexity: O(1).
