@@ -2719,3 +2719,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 664
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 665
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
