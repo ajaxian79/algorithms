@@ -3594,3 +3594,7 @@ Treats the input as immutable.
 ## entry 884
 
 Uses a small fixed-size lookup table.
+
+## entry 885
+
+Cache-friendly; one sequential read pass.
