@@ -330,3 +330,4 @@ int is_power_of_three(int n) {
 // note 319: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 320: 32-bit safe; overflow is checked at each step.
 // note 321: No allocations after setup.
+// note 322: Handles negative inputs as documented above.
