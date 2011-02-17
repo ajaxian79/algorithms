@@ -393,3 +393,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 350: Two passes: one to count, one to fill.
 // edge note 351: Space complexity: O(1) auxiliary.
 // edge note 352: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 353: Cache-friendly; one sequential read pass.
