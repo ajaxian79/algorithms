@@ -2631,3 +2631,7 @@
 ## entry 658
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 659
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
