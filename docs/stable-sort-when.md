@@ -2569,3 +2569,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 628
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 629
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
