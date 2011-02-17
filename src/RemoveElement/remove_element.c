@@ -346,3 +346,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 331: Tail-recursive; the compiler turns it into a loop.
 // note 332: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 333: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 334: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
