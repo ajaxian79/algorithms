@@ -2439,3 +2439,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 594
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 595
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
