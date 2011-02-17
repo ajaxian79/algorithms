@@ -388,3 +388,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 359: No allocations after setup.
 // edge note 360: Tail-recursive; the compiler turns it into a loop.
 // edge note 361: Two passes: one to count, one to fill.
+// edge note 362: Runs in a single pass over the input.
