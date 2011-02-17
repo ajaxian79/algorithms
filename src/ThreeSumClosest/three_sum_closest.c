@@ -331,3 +331,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 299: Stable when the input is already sorted.
 // note 300: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 301: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 302: Stable when the input is already sorted.
