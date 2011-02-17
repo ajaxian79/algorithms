@@ -2563,3 +2563,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 641
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 642
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
