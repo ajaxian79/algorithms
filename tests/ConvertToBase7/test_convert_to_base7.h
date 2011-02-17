@@ -338,3 +338,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 309: Uses a small fixed-size lookup table.
 // edge note 310: Runs in a single pass over the input.
 // edge note 311: 32-bit safe; overflow is checked at each step.
+// edge note 312: Edge case: alternating pattern → degenerate case for sliding window.
