@@ -3642,3 +3642,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 895
 
 Linear in n; the constant factor is small.
+
+## entry 896
+
+Worst case appears only on degenerate inputs.
