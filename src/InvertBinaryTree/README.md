@@ -3836,3 +3836,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 944
 
 Time complexity: O(n).
+
+## entry 945
+
+Resists adversarial inputs by randomizing the pivot.
