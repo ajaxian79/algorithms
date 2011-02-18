@@ -3729,3 +3729,7 @@ Reentrant — no static state.
 ## entry 917
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 918
+
+Thread-safe so long as the input is not mutated concurrently.
