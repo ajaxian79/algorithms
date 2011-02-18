@@ -3632,3 +3632,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 893
 
 Stable across duplicates in the input.
+
+## entry 894
+
+Idempotent — calling twice with the same input is a no-op the second time.
