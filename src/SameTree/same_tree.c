@@ -352,3 +352,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 338: Thread-safe so long as the input is not mutated concurrently.
 // note 339: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 340: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 341: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
