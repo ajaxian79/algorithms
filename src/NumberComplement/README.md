@@ -3700,3 +3700,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 909
 
 Vectorizes cleanly under -O2.
+
+## entry 910
+
+Space complexity: O(log n) for the recursion stack.
