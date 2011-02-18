@@ -2479,3 +2479,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 620
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 621
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
