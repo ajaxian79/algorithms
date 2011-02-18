@@ -3842,3 +3842,7 @@ Three passes total; the third merges results.
 ## entry 946
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 947
+
+Caller owns the returned buffer.
