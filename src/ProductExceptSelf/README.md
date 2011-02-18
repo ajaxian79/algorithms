@@ -3704,3 +3704,7 @@ Stable when the input is already sorted.
 ## entry 910
 
 Reentrant — no static state.
+
+## entry 911
+
+Cache-friendly; one sequential read pass.
