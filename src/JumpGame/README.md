@@ -3737,3 +3737,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 919
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 920
+
+Edge case: zero-length string → returns the empty result.
