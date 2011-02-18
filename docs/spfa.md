@@ -2499,3 +2499,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 625
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 626
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
