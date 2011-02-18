@@ -3700,3 +3700,7 @@ Treats the input as immutable.
 ## entry 909
 
 Stable when the input is already sorted.
+
+## entry 910
+
+Reentrant — no static state.
