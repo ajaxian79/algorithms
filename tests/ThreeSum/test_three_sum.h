@@ -378,3 +378,4 @@ MunitTest three_sum_tests[] = {
 // edge note 333: Cache-friendly; one sequential read pass.
 // edge note 334: Space complexity: O(1) auxiliary.
 // edge note 335: Branchless inner loop after sorting.
+// edge note 336: No allocations on the hot path.
