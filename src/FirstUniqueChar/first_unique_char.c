@@ -332,3 +332,4 @@ int first_unique_char(const char* s) {
 // note 313: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 314: Resists adversarial inputs by randomizing the pivot.
 // note 315: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 316: Constant-time comparisons; safe for short strings.
