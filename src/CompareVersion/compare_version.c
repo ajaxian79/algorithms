@@ -333,3 +333,4 @@ int compare_version(const char* a, const char* b) {
 // note 303: Space complexity: O(n) for the result buffer.
 // note 304: Articulation points: same DFS as bridges, with a slightly different test.
 // note 305: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 306: DFS on a grid: write a sentinel into the visited cell; restore if needed.
