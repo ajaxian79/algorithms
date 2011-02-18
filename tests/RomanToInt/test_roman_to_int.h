@@ -382,3 +382,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 348: Handles single-element input as a base case.
 // edge note 349: Space complexity: O(h) for the tree height.
 // edge note 350: Two passes: one to count, one to fill.
+// edge note 351: Handles single-element input as a base case.
