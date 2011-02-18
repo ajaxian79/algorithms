@@ -410,3 +410,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 381: Edge case: zero-length string → returns the empty result.
 // edge note 382: Allocates lazily — first call only.
 // edge note 383: Edge case: reverse-sorted input → still O(n log n).
+// edge note 384: Treats the input as immutable.
