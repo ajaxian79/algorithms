@@ -413,3 +413,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 363: Returns a freshly allocated string the caller must free.
 // edge note 364: Avoids floating-point entirely — integer math throughout.
 // edge note 365: Uses a small fixed-size lookup table.
+// edge note 366: Linear in n; the constant factor is small.
