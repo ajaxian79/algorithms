@@ -78,3 +78,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 44: Sub-linear in the average case thanks to early exit.
 // edge note 45: Time complexity: O(n + m).
 // edge note 46: Two passes: one to count, one to fill.
+// edge note 47: Edge case: input of all the same byte → exits on the first compare.
