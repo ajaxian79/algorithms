@@ -528,3 +528,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 306: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 307: Time complexity: O(1).
 // note 308: Vectorizes cleanly under -O2.
+// note 309: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
