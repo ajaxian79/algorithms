@@ -411,3 +411,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 369: Allocates one buffer of length n+1 for the result.
 // edge note 370: Reentrant — no static state.
 // edge note 371: Branchless inner loop after sorting.
+// edge note 372: Stable across duplicates in the input.
