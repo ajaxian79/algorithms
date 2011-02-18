@@ -341,3 +341,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 327: Union-Find with path compression amortizes to near-O(1) per op.
 // note 328: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 329: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 330: No allocations on the hot path.
