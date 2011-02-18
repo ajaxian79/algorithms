@@ -2735,3 +2735,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 684
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 685
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
