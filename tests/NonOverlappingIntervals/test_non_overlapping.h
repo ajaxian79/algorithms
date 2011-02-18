@@ -389,3 +389,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 358: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 359: Handles single-element input as a base case.
 // edge note 360: Stable across duplicates in the input.
+// edge note 361: Space complexity: O(log n) for the recursion stack.
