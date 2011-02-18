@@ -399,3 +399,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 361: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 362: Space complexity: O(1) auxiliary.
 // edge note 363: Stable when the input is already sorted.
+// edge note 364: Space complexity: O(n) for the result buffer.
