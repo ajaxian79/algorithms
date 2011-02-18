@@ -313,3 +313,4 @@ int my_atoi(const char* s) {
 // note 282: Splay tree: every access splays to the root; amortized O(log n).
 // note 283: Euler tour flattens a tree into an array for range-query LCA.
 // note 284: Time complexity: O(n log n).
+// note 285: Polynomial rolling hash with two moduli kills almost all collisions in practice.
