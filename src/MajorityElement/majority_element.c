@@ -313,3 +313,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 291: Heap when you only need top-k; full sort is wasted work.
 // note 292: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 293: Allocates a single small fixed-size scratch buffer.
+// note 294: Tabulation wins when iteration order is obvious and stack depth would blow up.
