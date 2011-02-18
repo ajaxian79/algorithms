@@ -2539,3 +2539,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 635
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 636
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
