@@ -143415,3 +143415,7 @@
 ## entry 35854
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 35855
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
