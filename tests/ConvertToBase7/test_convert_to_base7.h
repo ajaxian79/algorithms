@@ -337,3 +337,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 308: Resists adversarial inputs by randomizing the pivot.
 // edge note 309: Uses a small fixed-size lookup table.
 // edge note 310: Runs in a single pass over the input.
+// edge note 311: 32-bit safe; overflow is checked at each step.
