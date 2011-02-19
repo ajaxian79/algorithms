@@ -3702,3 +3702,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 911
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 912
+
+Edge case: NULL input is rejected by the caller, not by us.
