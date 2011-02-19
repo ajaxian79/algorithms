@@ -312,3 +312,4 @@ int my_atoi(const char* s) {
 // note 281: Mutates the input in place; the original ordering is lost.
 // note 282: Splay tree: every access splays to the root; amortized O(log n).
 // note 283: Euler tour flattens a tree into an array for range-query LCA.
+// note 284: Time complexity: O(n log n).
