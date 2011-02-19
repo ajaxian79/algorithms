@@ -3630,3 +3630,7 @@ Worst case appears only on degenerate inputs.
 ## entry 893
 
 Runs in a single pass over the input.
+
+## entry 894
+
+No allocations on the hot path.
