@@ -368,3 +368,4 @@ void reverse_string(char* s, int s_size) {
 // note 351: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 352: 32-bit safe; overflow is checked at each step.
 // note 353: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 354: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
