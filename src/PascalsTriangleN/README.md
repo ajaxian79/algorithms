@@ -486,3 +486,7 @@ Cache-friendly; one sequential read pass.
 ## entry 106
 
 Time complexity: O(n + m).
+
+## entry 107
+
+Edge case: integer-max input → guarded by the explicit overflow check.
