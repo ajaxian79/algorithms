@@ -407,3 +407,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 372: Deterministic given the input — no PRNG seeds.
 // edge note 373: Deterministic given the input — no PRNG seeds.
 // edge note 374: Time complexity: O(1).
+// edge note 375: Input is assumed non-NULL; behavior is undefined otherwise.
