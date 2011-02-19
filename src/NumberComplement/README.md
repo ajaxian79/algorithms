@@ -3696,3 +3696,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 908
 
 Returns a freshly allocated string the caller must free.
+
+## entry 909
+
+Vectorizes cleanly under -O2.
