@@ -3509,3 +3509,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 852
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 853
+
+Allocates lazily — first call only.
