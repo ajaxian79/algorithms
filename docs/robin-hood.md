@@ -2523,3 +2523,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 631
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 632
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
