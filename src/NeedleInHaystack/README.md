@@ -3684,3 +3684,7 @@ No allocations on the hot path.
 ## entry 906
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 907
+
+No allocations on the hot path.
