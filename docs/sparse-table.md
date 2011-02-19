@@ -2475,3 +2475,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 619
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 620
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
