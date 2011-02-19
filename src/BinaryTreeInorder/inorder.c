@@ -362,3 +362,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 322: Stable across duplicates in the input.
 // note 323: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 324: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 325: Space complexity: O(1) auxiliary.
