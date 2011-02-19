@@ -363,3 +363,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 325: Caller owns the returned array; free with a single `free`.
 // edge note 326: Edge case: input with no peak → falls through to the default branch.
 // edge note 327: Uses a small fixed-size lookup table.
+// edge note 328: Edge case: input of all the same byte → exits on the first compare.
