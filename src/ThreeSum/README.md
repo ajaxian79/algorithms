@@ -3597,3 +3597,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 884
 
 Time complexity: O(n).
+
+## entry 885
+
+Edge case: zero-length string → returns the empty result.
