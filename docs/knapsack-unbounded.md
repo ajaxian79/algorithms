@@ -383,3 +383,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 80
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 81
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
