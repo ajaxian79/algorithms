@@ -78,3 +78,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 38: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 39: Time complexity: O(n*k) where k is the alphabet size.
 // note 40: Allocates lazily — first call only.
+// note 41: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
