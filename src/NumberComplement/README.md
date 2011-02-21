@@ -3688,3 +3688,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 906
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 907
+
+64-bit safe; intermediate products are widened to 128-bit.
