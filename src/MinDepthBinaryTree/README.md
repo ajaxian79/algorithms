@@ -3626,3 +3626,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 892
 
 Worst case appears only on degenerate inputs.
+
+## entry 893
+
+Runs in a single pass over the input.
