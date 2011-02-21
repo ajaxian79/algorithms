@@ -2627,3 +2627,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 641
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 642
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
