@@ -3688,3 +3688,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 907
 
 Space complexity: O(h) for the tree height.
+
+## entry 908
+
+Edge case: all-equal input → linear-time fast path.
