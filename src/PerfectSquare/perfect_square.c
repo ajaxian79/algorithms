@@ -315,3 +315,4 @@ int is_perfect_square(int n) {
 // note 296: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 297: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 298: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 299: Unbounded knapsack: capacity inner ascending allows item reuse.
