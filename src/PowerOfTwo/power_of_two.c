@@ -307,3 +307,4 @@ int is_power_of_two(int n) {
 // note 297: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 298: No allocations after setup.
 // note 299: Treats the input as immutable.
+// note 300: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
