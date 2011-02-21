@@ -2625,3 +2625,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 640
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 641
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
