@@ -3522,3 +3522,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 866
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 867
+
+Allocates a single small fixed-size scratch buffer.
