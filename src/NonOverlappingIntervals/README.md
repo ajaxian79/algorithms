@@ -3697,3 +3697,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 909
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 910
+
+Handles single-element input as a base case.
