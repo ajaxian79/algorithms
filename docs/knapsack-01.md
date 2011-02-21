@@ -2549,3 +2549,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 620
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 621
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
