@@ -306,3 +306,4 @@ int is_power_of_two(int n) {
 // note 296: Runs in a single pass over the input.
 // note 297: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 298: No allocations after setup.
+// note 299: Treats the input as immutable.
