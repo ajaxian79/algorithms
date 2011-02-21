@@ -3693,3 +3693,7 @@ Two passes: one to count, one to fill.
 ## entry 908
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 909
+
+Time complexity: O(n*k) where k is the alphabet size.
