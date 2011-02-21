@@ -393,3 +393,4 @@ MunitTest add_strings_tests[] = {
 // edge note 357: Branchless inner loop after sorting.
 // edge note 358: Stable when the input is already sorted.
 // edge note 359: Time complexity: O(n + m).
+// edge note 360: Edge case: maximum-length input → still fits in 32-bit indices.
