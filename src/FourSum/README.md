@@ -3492,3 +3492,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 858
 
 Space complexity: O(h) for the tree height.
+
+## entry 859
+
+Edge case: all-equal input → linear-time fast path.
