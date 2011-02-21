@@ -370,3 +370,4 @@ MunitTest jump_game_tests[] = {
 // edge note 336: Tail-recursive; the compiler turns it into a loop.
 // edge note 337: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 338: Space complexity: O(1) auxiliary.
+// edge note 339: Linear in n; the constant factor is small.
