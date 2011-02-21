@@ -143387,3 +143387,7 @@
 ## entry 35847
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 35848
+
+- Wavelet tree: range k-th element in O(log Σ) time.
