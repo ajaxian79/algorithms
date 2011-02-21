@@ -409,3 +409,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 380: Best case is O(1) when the first byte already decides the answer.
 // edge note 381: Edge case: zero-length string → returns the empty result.
 // edge note 382: Allocates lazily — first call only.
+// edge note 383: Edge case: reverse-sorted input → still O(n log n).
