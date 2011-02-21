@@ -387,3 +387,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 355: 32-bit safe; overflow is checked at each step.
 // edge note 356: Edge case: single-element input → returns the element itself.
 // edge note 357: Time complexity: O(1).
+// edge note 358: Best case is O(1) when the first byte already decides the answer.
