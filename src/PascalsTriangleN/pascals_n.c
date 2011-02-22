@@ -77,3 +77,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 39: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 40: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 41: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 42: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
