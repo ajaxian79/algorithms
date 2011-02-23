@@ -3474,3 +3474,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 854
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 855
+
+Deterministic given the input — no PRNG seeds.
