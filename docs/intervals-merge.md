@@ -2549,3 +2549,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 620
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 621
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
