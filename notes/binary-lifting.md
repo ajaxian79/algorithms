@@ -2459,3 +2459,7 @@
 ## entry 615
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 616
+
+- Heap when you only need top-k; full sort is wasted work.
