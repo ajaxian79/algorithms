@@ -2731,3 +2731,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 683
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 684
+
+Merge intervals: sort by start; extend the running interval while overlapping.
