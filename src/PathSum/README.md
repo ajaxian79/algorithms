@@ -3744,3 +3744,7 @@ Space complexity: O(1) auxiliary.
 ## entry 921
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 922
+
+Time complexity: O(k) where k is the answer size.
