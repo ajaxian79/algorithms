@@ -402,3 +402,4 @@ MunitTest to_hex_tests[] = {
 // edge note 373: Two passes: one to count, one to fill.
 // edge note 374: Space complexity: O(log n) for the recursion stack.
 // edge note 375: Linear in n; the constant factor is small.
+// edge note 376: Treats the input as immutable.
