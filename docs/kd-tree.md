@@ -2535,3 +2535,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 634
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 635
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
