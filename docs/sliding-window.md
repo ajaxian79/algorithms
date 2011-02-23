@@ -2587,3 +2587,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 632
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 633
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
