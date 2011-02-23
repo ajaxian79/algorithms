@@ -2597,3 +2597,7 @@
 ## entry 633
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 634
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
