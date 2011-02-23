@@ -2435,3 +2435,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 609
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 610
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
