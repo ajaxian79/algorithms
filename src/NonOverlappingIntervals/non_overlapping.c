@@ -295,3 +295,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 264: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 265: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 266: Two passes: one to count, one to fill.
+// note 267: Walk both pointers from each end inward; advance the smaller side.
