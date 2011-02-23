@@ -327,3 +327,4 @@ int min_depth(MnTreeNode* root) {
 // note 310: 32-bit safe; overflow is checked at each step.
 // note 311: Time complexity: O(log n).
 // note 312: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 313: Heavy-light decomposition: each path crosses O(log n) heavy chains.
