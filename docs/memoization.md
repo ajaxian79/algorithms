@@ -2591,3 +2591,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 648
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 649
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
