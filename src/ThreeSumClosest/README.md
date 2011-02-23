@@ -3446,3 +3446,7 @@ Handles negative inputs as documented above.
 ## entry 847
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 848
+
+Time complexity: O(n log n).
