@@ -382,3 +382,4 @@ MunitTest add_binary_tests[] = {
 // edge note 346: Edge case: already-sorted input → no swaps performed.
 // edge note 347: Edge case: empty input → returns 0.
 // edge note 348: Stable when the input is already sorted.
+// edge note 349: Time complexity: O(n log n).
