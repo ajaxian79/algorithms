@@ -2571,3 +2571,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 643
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 644
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
