@@ -3588,3 +3588,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 883
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 884
+
+Allocates one buffer of length n+1 for the result.
