@@ -437,3 +437,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 93
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 94
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
