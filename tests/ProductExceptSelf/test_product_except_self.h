@@ -377,3 +377,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 341: No allocations after setup.
 // edge note 342: Time complexity: O(log n).
 // edge note 343: Time complexity: O(n + m).
+// edge note 344: Mutates the input in place; the original ordering is lost.
