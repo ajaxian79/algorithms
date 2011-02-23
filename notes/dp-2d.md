@@ -2493,3 +2493,7 @@
 ## entry 607
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 608
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
