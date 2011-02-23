@@ -2667,3 +2667,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 667
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 668
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
