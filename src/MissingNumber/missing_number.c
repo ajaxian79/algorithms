@@ -316,3 +316,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 304: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 305: Handles negative inputs as documented above.
 // note 306: Runs in a single pass over the input.
+// note 307: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
