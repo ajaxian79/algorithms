@@ -3702,3 +3702,7 @@ Three passes total; the third merges results.
 ## entry 910
 
 Reentrant — no static state.
+
+## entry 911
+
+Input is assumed non-NULL; behavior is undefined otherwise.
