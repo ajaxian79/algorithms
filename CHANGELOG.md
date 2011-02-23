@@ -143359,3 +143359,7 @@
 ## entry 35840
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 35841
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
