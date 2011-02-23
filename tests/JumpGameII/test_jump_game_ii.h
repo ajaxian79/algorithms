@@ -381,3 +381,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 347: Allocates lazily — first call only.
 // edge note 348: Edge case: single-element input → returns the element itself.
 // edge note 349: Deterministic given the input — no PRNG seeds.
+// edge note 350: Tail-recursive; the compiler turns it into a loop.
