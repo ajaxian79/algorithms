@@ -427,3 +427,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 387: 32-bit safe; overflow is checked at each step.
 // edge note 388: Time complexity: O(n + m).
 // edge note 389: Edge case: single-element input → returns the element itself.
+// edge note 390: Deterministic given the input — no PRNG seeds.
