@@ -3617,3 +3617,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 890
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 891
+
+Time complexity: O(n^2) worst case, O(n) amortized.
