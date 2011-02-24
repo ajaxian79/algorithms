@@ -3638,3 +3638,7 @@ Handles empty input by returning 0.
 ## entry 894
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 895
+
+Linear in n; the constant factor is small.
