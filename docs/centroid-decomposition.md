@@ -2559,3 +2559,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 640
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 641
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
