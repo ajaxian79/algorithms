@@ -2615,3 +2615,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 654
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 655
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
