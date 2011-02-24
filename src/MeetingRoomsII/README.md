@@ -3618,3 +3618,7 @@ Caller owns the returned buffer.
 ## entry 889
 
 Linear in n; the constant factor is small.
+
+## entry 890
+
+Branchless inner loop after sorting.
