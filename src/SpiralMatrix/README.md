@@ -3542,3 +3542,7 @@ Space complexity: O(h) for the tree height.
 ## entry 870
 
 Two passes: one to count, one to fill.
+
+## entry 871
+
+Time complexity: O(k) where k is the answer size.
