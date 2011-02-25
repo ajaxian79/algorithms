@@ -2513,3 +2513,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 611
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 612
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
