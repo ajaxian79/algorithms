@@ -3654,3 +3654,7 @@ Time complexity: O(1).
 ## entry 899
 
 Space complexity: O(1) auxiliary.
+
+## entry 900
+
+No allocations on the hot path.
