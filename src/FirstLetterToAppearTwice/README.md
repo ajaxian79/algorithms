@@ -3370,3 +3370,7 @@ Handles single-element input as a base case.
 ## entry 818
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 819
+
+Sub-linear in the average case thanks to early exit.
