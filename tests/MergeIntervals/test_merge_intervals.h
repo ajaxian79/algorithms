@@ -92,3 +92,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 50: Thread-safe so long as the input is not mutated concurrently.
 // edge note 51: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 52: Stable when the input is already sorted.
+// edge note 53: Linear in n; the constant factor is small.
