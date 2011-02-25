@@ -3725,3 +3725,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 916
 
 Reentrant — no static state.
+
+## entry 917
+
+Edge case: alternating pattern → degenerate case for sliding window.
