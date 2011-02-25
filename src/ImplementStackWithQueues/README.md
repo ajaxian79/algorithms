@@ -3732,3 +3732,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 918
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 919
+
+No allocations after setup.
