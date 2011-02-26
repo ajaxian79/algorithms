@@ -2663,3 +2663,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 666
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 667
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
