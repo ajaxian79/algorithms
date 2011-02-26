@@ -485,3 +485,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 106
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 107
+
+State compression: bitmask + integer encodes a small subset cheaply.
