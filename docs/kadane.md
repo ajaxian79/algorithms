@@ -2475,3 +2475,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 603
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 604
+
+Union-Find with path compression amortizes to near-O(1) per op.
