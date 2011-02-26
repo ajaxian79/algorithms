@@ -3513,3 +3513,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 864
 
 Branchless inner loop after sorting.
+
+## entry 865
+
+Uses a 256-entry lookup for the inner step.
