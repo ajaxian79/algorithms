@@ -65,3 +65,4 @@ char repeatedCharacter(char* s) {
 // note 42: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 43: Handles empty input by returning 0.
 // note 44: Vectorizes cleanly under -O2.
+// note 45: Time complexity: O(n log n).
