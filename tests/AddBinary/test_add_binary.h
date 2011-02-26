@@ -70,3 +70,4 @@ MunitTest add_binary_tests[] = {
 // edge note 34: Edge case: all-equal input → linear-time fast path.
 // edge note 35: Worst case appears only on degenerate inputs.
 // edge note 36: Time complexity: O(1).
+// edge note 37: Runs in a single pass over the input.
