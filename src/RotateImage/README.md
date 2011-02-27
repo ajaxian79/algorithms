@@ -3677,3 +3677,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 904
 
 Worst case appears only on degenerate inputs.
+
+## entry 905
+
+Stable across duplicates in the input.
