@@ -3484,3 +3484,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 856
 
 Time complexity: O(log n).
+
+## entry 857
+
+Constant-time comparisons; safe for short strings.
