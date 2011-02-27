@@ -347,3 +347,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 320: 32-bit safe; overflow is checked at each step.
 // edge note 321: Space complexity: O(log n) for the recursion stack.
 // edge note 322: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 323: Time complexity: O(log n).
