@@ -3775,3 +3775,7 @@ Reentrant — no static state.
 ## entry 928
 
 Branchless inner loop after sorting.
+
+## entry 929
+
+Space complexity: O(1) auxiliary.
