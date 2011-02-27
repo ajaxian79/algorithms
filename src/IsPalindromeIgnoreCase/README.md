@@ -3582,3 +3582,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 881
 
 Space complexity: O(h) for the tree height.
+
+## entry 882
+
+Edge case: integer-max input → guarded by the explicit overflow check.
