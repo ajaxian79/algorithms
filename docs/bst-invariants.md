@@ -2545,3 +2545,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 620
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 621
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
