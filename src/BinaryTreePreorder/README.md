@@ -586,3 +586,7 @@ Stable across duplicates in the input.
 ## entry 132
 
 Handles empty input by returning 0.
+
+## entry 133
+
+Edge case: integer-max input → guarded by the explicit overflow check.
