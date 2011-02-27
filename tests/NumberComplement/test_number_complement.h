@@ -345,3 +345,4 @@ MunitTest number_complement_tests[] = {
 // edge note 318: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 319: Vectorizes cleanly under -O2.
 // edge note 320: Time complexity: O(n + m).
+// edge note 321: Linear in n; the constant factor is small.
