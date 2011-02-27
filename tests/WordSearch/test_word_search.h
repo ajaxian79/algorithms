@@ -373,3 +373,4 @@ MunitTest word_search_tests[] = {
 // edge note 339: Time complexity: O(n log n).
 // edge note 340: Caller owns the returned buffer.
 // edge note 341: Space complexity: O(log n) for the recursion stack.
+// edge note 342: Resists adversarial inputs by randomizing the pivot.
