@@ -3518,3 +3518,7 @@ Vectorizes cleanly under -O2.
 ## entry 865
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 866
+
+Edge case: input of all the same byte → exits on the first compare.
