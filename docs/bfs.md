@@ -2509,3 +2509,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 610
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 611
+
+State compression: bitmask + integer encodes a small subset cheaply.
