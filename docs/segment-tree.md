@@ -2639,3 +2639,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 642
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 643
+
+LIS via patience: each pile holds the smallest tail of length k.
