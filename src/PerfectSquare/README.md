@@ -3726,3 +3726,7 @@ Stable across duplicates in the input.
 ## entry 917
 
 Linear in n; the constant factor is small.
+
+## entry 918
+
+Time complexity: O(k) where k is the answer size.
