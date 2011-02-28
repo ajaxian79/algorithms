@@ -391,3 +391,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 359: Edge case: input with no peak → falls through to the default branch.
 // edge note 360: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 361: Time complexity: O(n).
+// edge note 362: 32-bit safe; overflow is checked at each step.
