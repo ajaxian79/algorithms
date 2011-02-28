@@ -3618,3 +3618,7 @@ Space complexity: O(1) auxiliary.
 ## entry 890
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 891
+
+Allocates a single small fixed-size scratch buffer.
