@@ -3624,3 +3624,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 891
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 892
+
+Constant-time comparisons; safe for short strings.
