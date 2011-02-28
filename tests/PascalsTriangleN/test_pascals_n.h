@@ -424,3 +424,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 365: Handles negative inputs as documented above.
 // edge note 366: Avoids floating-point entirely — integer math throughout.
 // edge note 367: Thread-safe so long as the input is not mutated concurrently.
+// edge note 368: Stable when the input is already sorted.
