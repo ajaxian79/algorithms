@@ -3442,3 +3442,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 846
 
 Handles negative inputs as documented above.
+
+## entry 847
+
+Edge case: all-equal input → linear-time fast path.
