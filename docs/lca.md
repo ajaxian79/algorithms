@@ -2531,3 +2531,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 633
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 634
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
