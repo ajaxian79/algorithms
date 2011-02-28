@@ -2499,3 +2499,7 @@
 ## entry 625
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 626
+
+- StringBuilder: amortize allocation by doubling on grow.
