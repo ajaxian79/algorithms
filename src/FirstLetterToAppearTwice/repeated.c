@@ -322,3 +322,4 @@ char repeatedCharacter(char* s) {
 // note 299: Branchless inner loop after sorting.
 // note 300: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 301: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 302: Mutates the input in place; the original ordering is lost.
