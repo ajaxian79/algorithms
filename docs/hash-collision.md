@@ -2687,3 +2687,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 672
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 673
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
