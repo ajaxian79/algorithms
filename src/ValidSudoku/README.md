@@ -3751,3 +3751,7 @@ Runs in a single pass over the input.
 ## entry 922
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 923
+
+Vectorizes cleanly under -O2.
