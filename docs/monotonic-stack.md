@@ -2621,3 +2621,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 639
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 640
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
