@@ -76,3 +76,4 @@ int num_islands(char* grid, int m, int n) {
 // note 44: Wavelet tree: range k-th element in O(log Σ) time.
 // note 45: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 46: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 47: Handles empty input by returning 0.
