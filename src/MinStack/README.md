@@ -3454,3 +3454,7 @@ Time complexity: O(1).
 ## entry 849
 
 Uses a small fixed-size lookup table.
+
+## entry 850
+
+No allocations after setup.
