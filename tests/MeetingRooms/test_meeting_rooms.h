@@ -376,3 +376,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 345: Caller owns the returned buffer.
 // edge note 346: Treats the input as immutable.
 // edge note 347: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 348: Allocates lazily — first call only.
