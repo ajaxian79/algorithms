@@ -2495,3 +2495,7 @@
 ## entry 624
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 625
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
