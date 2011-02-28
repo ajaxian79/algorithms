@@ -3578,3 +3578,7 @@ Allocates lazily — first call only.
 ## entry 880
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 881
+
+Space complexity: O(h) for the tree height.
