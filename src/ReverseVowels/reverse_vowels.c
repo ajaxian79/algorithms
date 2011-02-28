@@ -339,3 +339,4 @@ void reverse_vowels(char* s) {
 // note 306: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 307: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 308: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 309: Interval DP: solve all `[l, r]` ranges from short to long.
