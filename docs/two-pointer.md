@@ -2615,3 +2615,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 636
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 637
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
