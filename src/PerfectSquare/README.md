@@ -3722,3 +3722,7 @@ Stable across duplicates in the input.
 ## entry 916
 
 Stable across duplicates in the input.
+
+## entry 917
+
+Linear in n; the constant factor is small.
