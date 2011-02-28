@@ -2581,3 +2581,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 629
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 630
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
