@@ -369,3 +369,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 332: Allocates a single small fixed-size scratch buffer.
 // note 333: Allocates a single small fixed-size scratch buffer.
 // note 334: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 335: Constant-time comparisons; safe for short strings.
