@@ -2559,3 +2559,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 640
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 641
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
