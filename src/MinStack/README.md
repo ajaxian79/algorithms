@@ -3458,3 +3458,7 @@ Uses a small fixed-size lookup table.
 ## entry 850
 
 No allocations after setup.
+
+## entry 851
+
+Three passes total; the third merges results.
