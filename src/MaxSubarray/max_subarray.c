@@ -41,3 +41,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 25: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 26: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 27: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 28: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
