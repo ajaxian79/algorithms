@@ -319,3 +319,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 80
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 81
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
