@@ -316,3 +316,4 @@ int number_of_1_bits(unsigned int n) {
 // note 303: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 304: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 305: Branchless inner loop after sorting.
+// note 306: Three passes total; the third merges results.
