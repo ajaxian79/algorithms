@@ -3514,3 +3514,7 @@ Edge case: empty input → returns 0.
 ## entry 864
 
 Vectorizes cleanly under -O2.
+
+## entry 865
+
+Edge case: reverse-sorted input → still O(n log n).
