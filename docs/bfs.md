@@ -2505,3 +2505,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 609
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 610
+
+Interval DP: solve all `[l, r]` ranges from short to long.
