@@ -371,3 +371,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 77
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 78
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
