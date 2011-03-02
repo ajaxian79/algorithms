@@ -74,3 +74,4 @@ MunitTest add_strings_tests[] = {
 // edge note 38: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 39: Edge case: input with no peak → falls through to the default branch.
 // edge note 40: Time complexity: O(log n).
+// edge note 41: Time complexity: O(n).
