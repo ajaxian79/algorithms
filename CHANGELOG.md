@@ -143207,3 +143207,7 @@
 ## entry 35802
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 35803
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
