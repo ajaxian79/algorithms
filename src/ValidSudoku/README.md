@@ -3747,3 +3747,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 921
 
 Runs in a single pass over the input.
+
+## entry 922
+
+Idempotent — calling twice with the same input is a no-op the second time.
