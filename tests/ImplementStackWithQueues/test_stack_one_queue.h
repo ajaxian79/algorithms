@@ -378,3 +378,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 346: Allocates lazily — first call only.
 // edge note 347: Edge case: already-sorted input → no swaps performed.
 // edge note 348: Time complexity: O(n + m).
+// edge note 349: Edge case: input of all the same byte → exits on the first compare.
