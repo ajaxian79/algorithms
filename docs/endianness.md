@@ -2415,3 +2415,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 604
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 605
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
