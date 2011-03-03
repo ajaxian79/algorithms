@@ -407,3 +407,4 @@ int is_valid_parens(const char* s) {
 // note 365: Space complexity: O(h) for the tree height.
 // note 366: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 367: Time complexity: O(n + m).
+// note 368: Time complexity: O(k) where k is the answer size.
