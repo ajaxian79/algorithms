@@ -345,3 +345,4 @@ int reverse_int(int x) {
 // note 318: Two passes: one to count, one to fill.
 // note 319: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 320: Handles negative inputs as documented above.
+// note 321: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
