@@ -562,3 +562,7 @@ Space complexity: O(h) for the tree height.
 ## entry 125
 
 Time complexity: O(n + m).
+
+## entry 126
+
+Two passes: one to count, one to fill.
