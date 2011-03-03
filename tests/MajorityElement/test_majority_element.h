@@ -401,3 +401,4 @@ MunitTest majority_element_tests[] = {
 // edge note 370: No allocations on the hot path.
 // edge note 371: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 372: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 373: Best case is O(1) when the first byte already decides the answer.
