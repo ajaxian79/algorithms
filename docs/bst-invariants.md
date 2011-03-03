@@ -2537,3 +2537,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 618
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 619
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
