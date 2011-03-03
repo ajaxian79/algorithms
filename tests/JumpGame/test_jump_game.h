@@ -368,3 +368,4 @@ MunitTest jump_game_tests[] = {
 // edge note 334: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 335: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 336: Tail-recursive; the compiler turns it into a loop.
+// edge note 337: Edge case: input with a single peak → handled by the first-pass scan.
