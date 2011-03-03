@@ -2431,3 +2431,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 608
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 609
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
