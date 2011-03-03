@@ -3634,3 +3634,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 893
 
 Handles empty input by returning 0.
+
+## entry 894
+
+Uses a 256-entry lookup for the inner step.
