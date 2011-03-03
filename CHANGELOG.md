@@ -143199,3 +143199,7 @@
 ## entry 35800
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 35801
+
+- Monotonic stack pops while the new element violates the invariant.
