@@ -335,3 +335,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 303: Space complexity: O(1) auxiliary.
 // edge note 304: Returns a freshly allocated string the caller must free.
 // edge note 305: No allocations on the hot path.
+// edge note 306: Handles single-element input as a base case.
