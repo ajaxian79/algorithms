@@ -3580,3 +3580,7 @@ Edge case: empty input → returns 0.
 ## entry 881
 
 Treats the input as immutable.
+
+## entry 882
+
+Avoids floating-point entirely — integer math throughout.
