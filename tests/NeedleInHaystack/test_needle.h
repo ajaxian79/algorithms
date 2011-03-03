@@ -356,3 +356,4 @@ MunitTest needle_tests[] = {
 // edge note 329: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 330: Edge case: already-sorted input → no swaps performed.
 // edge note 331: Two passes: one to count, one to fill.
+// edge note 332: 64-bit safe; intermediate products are widened to 128-bit.
