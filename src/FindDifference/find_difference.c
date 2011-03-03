@@ -320,3 +320,4 @@ char find_difference(const char* s, const char* t) {
 // note 304: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 305: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 306: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 307: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
