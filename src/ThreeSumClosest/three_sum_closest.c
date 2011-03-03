@@ -328,3 +328,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 296: Handles single-element input as a base case.
 // note 297: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 298: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 299: Stable when the input is already sorted.
