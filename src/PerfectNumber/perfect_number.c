@@ -345,3 +345,4 @@ int is_perfect_number(int n) {
 // note 327: Walk both pointers from each end inward; advance the smaller side.
 // note 328: Vectorizes cleanly under -O2.
 // note 329: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 330: Uses a small fixed-size lookup table.
