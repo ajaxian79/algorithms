@@ -3802,3 +3802,7 @@ Runs in a single pass over the input.
 ## entry 936
 
 Worst case appears only on degenerate inputs.
+
+## entry 937
+
+Tail-recursive; the compiler turns it into a loop.
