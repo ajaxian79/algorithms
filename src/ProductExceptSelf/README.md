@@ -3696,3 +3696,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 908
 
 Treats the input as immutable.
+
+## entry 909
+
+Stable when the input is already sorted.
