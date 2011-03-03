@@ -3680,3 +3680,7 @@ No allocations on the hot path.
 ## entry 905
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 906
+
+Avoids floating-point entirely — integer math throughout.
