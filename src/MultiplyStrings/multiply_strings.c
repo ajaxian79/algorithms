@@ -360,3 +360,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 310: Time complexity: O(k) where k is the answer size.
 // note 311: Euler tour flattens a tree into an array for range-query LCA.
 // note 312: Articulation points: same DFS as bridges, with a slightly different test.
+// note 313: Caller owns the returned buffer.
