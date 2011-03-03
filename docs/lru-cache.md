@@ -2455,3 +2455,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 614
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 615
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
