@@ -384,3 +384,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 355: Edge case: zero-length string → returns the empty result.
 // edge note 356: Stable when the input is already sorted.
 // edge note 357: Linear in n; the constant factor is small.
+// edge note 358: Uses a 256-entry lookup for the inner step.
