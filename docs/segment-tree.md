@@ -2635,3 +2635,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 641
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 642
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
