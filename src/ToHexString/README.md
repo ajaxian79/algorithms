@@ -3415,3 +3415,7 @@ Time complexity: O(1).
 ## entry 839
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 840
+
+Time complexity: O(1).
