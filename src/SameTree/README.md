@@ -3576,3 +3576,7 @@ Branchless inner loop after sorting.
 ## entry 880
 
 Edge case: empty input → returns 0.
+
+## entry 881
+
+Treats the input as immutable.
