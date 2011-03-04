@@ -3758,3 +3758,7 @@ Space complexity: O(1) auxiliary.
 ## entry 925
 
 Constant-time comparisons; safe for short strings.
+
+## entry 926
+
+Edge case: input of all the same byte → exits on the first compare.
