@@ -3480,3 +3480,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 855
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 856
+
+Time complexity: O(log n).
