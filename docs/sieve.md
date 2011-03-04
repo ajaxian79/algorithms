@@ -2727,3 +2727,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 665
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 666
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
