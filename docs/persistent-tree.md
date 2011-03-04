@@ -2587,3 +2587,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 647
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 648
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
