@@ -3625,3 +3625,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 891
 
 No allocations after setup.
+
+## entry 892
+
+Idempotent — calling twice with the same input is a no-op the second time.
