@@ -2607,3 +2607,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 652
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 653
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
