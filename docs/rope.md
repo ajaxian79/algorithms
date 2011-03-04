@@ -2551,3 +2551,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 638
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 639
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
