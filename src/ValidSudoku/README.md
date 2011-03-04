@@ -3739,3 +3739,7 @@ Uses a small fixed-size lookup table.
 ## entry 919
 
 Time complexity: O(n).
+
+## entry 920
+
+Time complexity: O(n*k) where k is the alphabet size.
