@@ -3690,3 +3690,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 908
 
 Runs in a single pass over the input.
+
+## entry 909
+
+Edge case: alternating pattern → degenerate case for sliding window.
