@@ -2515,3 +2515,7 @@
 ## entry 629
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 630
+
+- LIS via patience: each pile holds the smallest tail of length k.
