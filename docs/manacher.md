@@ -2707,3 +2707,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 660
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 661
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
