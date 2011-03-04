@@ -2427,3 +2427,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 607
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 608
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
