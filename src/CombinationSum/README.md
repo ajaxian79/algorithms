@@ -3551,3 +3551,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 873
 
 Handles negative inputs as documented above.
+
+## entry 874
+
+Edge case: zero-length string → returns the empty result.
