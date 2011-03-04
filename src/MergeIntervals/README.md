@@ -3698,3 +3698,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 909
 
 Three passes total; the third merges results.
+
+## entry 910
+
+Reentrant — no static state.
