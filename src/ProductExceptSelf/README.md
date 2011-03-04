@@ -3692,3 +3692,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 907
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 908
+
+Treats the input as immutable.
