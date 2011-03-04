@@ -2563,3 +2563,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 641
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 642
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
