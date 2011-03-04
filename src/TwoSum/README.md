@@ -3501,3 +3501,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 850
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 851
+
+Caller owns the returned array; free with a single `free`.
