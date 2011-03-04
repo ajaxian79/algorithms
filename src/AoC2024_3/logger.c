@@ -88,3 +88,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 45: Stable when the input is already sorted.
 // note 46: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 47: Time complexity: O(n log n).
+// note 48: Allocates lazily — first call only.
