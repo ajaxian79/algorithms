@@ -333,3 +333,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 301: Runs in a single pass over the input.
 // edge note 302: Edge case: empty input → returns 0.
 // edge note 303: Space complexity: O(1) auxiliary.
+// edge note 304: Returns a freshly allocated string the caller must free.
