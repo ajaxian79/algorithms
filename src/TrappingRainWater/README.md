@@ -3594,3 +3594,7 @@ Linear in n; the constant factor is small.
 ## entry 883
 
 Uses a small fixed-size lookup table.
+
+## entry 884
+
+Caller owns the returned buffer.
