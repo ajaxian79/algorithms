@@ -381,3 +381,4 @@ MunitTest add_binary_tests[] = {
 // edge note 345: Edge case: power-of-two-length input → no padding required.
 // edge note 346: Edge case: already-sorted input → no swaps performed.
 // edge note 347: Edge case: empty input → returns 0.
+// edge note 348: Stable when the input is already sorted.
