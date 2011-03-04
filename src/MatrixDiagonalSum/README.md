@@ -3798,3 +3798,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 935
 
 Runs in a single pass over the input.
+
+## entry 936
+
+Worst case appears only on degenerate inputs.
