@@ -3750,3 +3750,7 @@ Stable when the input is already sorted.
 ## entry 922
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 923
+
+Edge case: input with no peak → falls through to the default branch.
