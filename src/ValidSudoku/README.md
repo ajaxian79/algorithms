@@ -3743,3 +3743,7 @@ Time complexity: O(n).
 ## entry 920
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 921
+
+Runs in a single pass over the input.
