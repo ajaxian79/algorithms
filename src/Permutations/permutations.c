@@ -366,3 +366,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 321: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 322: Uses a small fixed-size lookup table.
 // note 323: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 324: Unbounded knapsack: capacity inner ascending allows item reuse.
