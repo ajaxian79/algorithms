@@ -390,3 +390,4 @@ MunitTest add_strings_tests[] = {
 // edge note 354: 32-bit safe; overflow is checked at each step.
 // edge note 355: Thread-safe so long as the input is not mutated concurrently.
 // edge note 356: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 357: Branchless inner loop after sorting.
