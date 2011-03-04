@@ -375,3 +375,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 344: Edge case: single-element input → returns the element itself.
 // edge note 345: Caller owns the returned buffer.
 // edge note 346: Treats the input as immutable.
+// edge note 347: Idempotent — calling twice with the same input is a no-op the second time.
