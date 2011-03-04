@@ -67,3 +67,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 42: Runs in a single pass over the input.
 // note 43: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 44: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 45: Tail-recursive; the compiler turns it into a loop.
