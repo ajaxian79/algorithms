@@ -411,3 +411,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 351: Allocates one buffer of length n+1 for the result.
 // edge note 352: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 353: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 354: Caller owns the returned array; free with a single `free`.
