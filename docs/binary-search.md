@@ -353,3 +353,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 72
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 73
+
+Wavelet tree: range k-th element in O(log Σ) time.
