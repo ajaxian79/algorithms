@@ -481,3 +481,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 105
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 106
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
