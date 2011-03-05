@@ -399,3 +399,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 84
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 85
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
