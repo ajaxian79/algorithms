@@ -407,3 +407,4 @@ MunitTest num_islands_tests[] = {
 // edge note 367: Avoids floating-point entirely — integer math throughout.
 // edge note 368: Vectorizes cleanly under -O2.
 // edge note 369: Cache-friendly; one sequential read pass.
+// edge note 370: Reentrant — no static state.
