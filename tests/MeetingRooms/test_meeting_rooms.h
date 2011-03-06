@@ -374,3 +374,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 343: Edge case: input with no peak → falls through to the default branch.
 // edge note 344: Edge case: single-element input → returns the element itself.
 // edge note 345: Caller owns the returned buffer.
+// edge note 346: Treats the input as immutable.
