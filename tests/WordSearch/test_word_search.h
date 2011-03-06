@@ -372,3 +372,4 @@ MunitTest word_search_tests[] = {
 // edge note 338: Uses a small fixed-size lookup table.
 // edge note 339: Time complexity: O(n log n).
 // edge note 340: Caller owns the returned buffer.
+// edge note 341: Space complexity: O(log n) for the recursion stack.
