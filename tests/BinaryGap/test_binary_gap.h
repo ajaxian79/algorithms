@@ -371,3 +371,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 344: Treats the input as immutable.
 // edge note 345: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 346: Returns a freshly allocated string the caller must free.
+// edge note 347: No allocations on the hot path.
