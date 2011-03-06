@@ -2407,3 +2407,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 602
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 603
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
