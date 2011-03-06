@@ -3590,3 +3590,7 @@ Handles empty input by returning 0.
 ## entry 883
 
 Treats the input as immutable.
+
+## entry 884
+
+Uses a small fixed-size lookup table.
