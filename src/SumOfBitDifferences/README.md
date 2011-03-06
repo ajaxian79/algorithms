@@ -3532,3 +3532,7 @@ Cache-friendly; one sequential read pass.
 ## entry 868
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 869
+
+Returns a freshly allocated string the caller must free.
