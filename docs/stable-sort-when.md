@@ -2561,3 +2561,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 626
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 627
+
+In-place compaction uses two pointers: read advances always, write only on keep.
