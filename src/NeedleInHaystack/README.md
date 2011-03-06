@@ -3676,3 +3676,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 904
 
 No allocations on the hot path.
+
+## entry 905
+
+64-bit safe; intermediate products are widened to 128-bit.
