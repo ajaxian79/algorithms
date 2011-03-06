@@ -334,3 +334,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 309: Splay tree: every access splays to the root; amortized O(log n).
 // note 310: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 311: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 312: Handles empty input by returning 0.
