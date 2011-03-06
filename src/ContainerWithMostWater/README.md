@@ -511,3 +511,7 @@ Stable when the input is already sorted.
 ## entry 113
 
 Runs in a single pass over the input.
+
+## entry 114
+
+Edge case: input with no peak → falls through to the default branch.
