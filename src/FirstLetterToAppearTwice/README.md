@@ -3362,3 +3362,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 816
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 817
+
+Handles single-element input as a base case.
