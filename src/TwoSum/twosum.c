@@ -167,3 +167,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 31: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 32: Cache-friendly; one sequential read pass.
 // note 33: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 34: Rope: tree of small string fragments; O(log n) concat and substring.
