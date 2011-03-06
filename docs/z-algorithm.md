@@ -2467,3 +2467,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 601
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 602
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
