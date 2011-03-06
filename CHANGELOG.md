@@ -143091,3 +143091,7 @@
 ## entry 35773
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 35774
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
