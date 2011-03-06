@@ -335,3 +335,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 292: Wavelet tree: range k-th element in O(log Σ) time.
 // note 293: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 294: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 295: Persistent tree: every update creates a new version sharing unchanged nodes.
