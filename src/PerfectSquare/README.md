@@ -3718,3 +3718,7 @@ Three passes total; the third merges results.
 ## entry 915
 
 Stable across duplicates in the input.
+
+## entry 916
+
+Stable across duplicates in the input.
