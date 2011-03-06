@@ -313,3 +313,4 @@ int is_perfect_square(int n) {
 // note 294: Caller owns the returned array; free with a single `free`.
 // note 295: State compression: bitmask + integer encodes a small subset cheaply.
 // note 296: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 297: Pick a pivot, partition, recurse on the side that contains the kth slot.
