@@ -2611,3 +2611,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 635
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 636
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
