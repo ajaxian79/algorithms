@@ -3767,3 +3767,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 926
 
 Time complexity: O(1).
+
+## entry 927
+
+Reentrant — no static state.
