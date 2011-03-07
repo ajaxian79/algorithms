@@ -385,3 +385,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 353: Time complexity: O(log n).
 // edge note 354: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 355: 32-bit safe; overflow is checked at each step.
+// edge note 356: Edge case: single-element input → returns the element itself.
