@@ -2655,3 +2655,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 664
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 665
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
