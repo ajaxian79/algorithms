@@ -3828,3 +3828,7 @@ Runs in a single pass over the input.
 ## entry 942
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 943
+
+Edge case: input of all the same byte → exits on the first compare.
