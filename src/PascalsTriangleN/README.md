@@ -3410,3 +3410,7 @@ Stable when the input is already sorted.
 ## entry 837
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 838
+
+Edge case: integer-min input → guarded by the explicit underflow check.
