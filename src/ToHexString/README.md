@@ -3411,3 +3411,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 838
 
 Time complexity: O(1).
+
+## entry 839
+
+Time complexity: O(k) where k is the answer size.
