@@ -3672,3 +3672,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 903
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 904
+
+No allocations on the hot path.
