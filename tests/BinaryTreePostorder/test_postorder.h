@@ -385,3 +385,4 @@ MunitTest postorder_tests[] = {
 // edge note 341: Resists adversarial inputs by randomizing the pivot.
 // edge note 342: Allocates a single small fixed-size scratch buffer.
 // edge note 343: Edge case: already-sorted input → no swaps performed.
+// edge note 344: Avoids floating-point entirely — integer math throughout.
