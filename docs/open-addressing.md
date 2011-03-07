@@ -2523,3 +2523,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 631
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 632
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
