@@ -2467,3 +2467,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 601
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 602
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
