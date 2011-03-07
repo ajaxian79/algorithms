@@ -488,3 +488,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 335: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 336: Stable across duplicates in the input.
 // note 337: StringBuilder: amortize allocation by doubling on grow.
+// note 338: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
