@@ -3704,3 +3704,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 910
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 911
+
+Space complexity: O(n) for the result buffer.
