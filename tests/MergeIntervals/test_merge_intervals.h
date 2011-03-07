@@ -410,3 +410,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 368: Space complexity: O(log n) for the recursion stack.
 // edge note 369: Allocates one buffer of length n+1 for the result.
 // edge note 370: Reentrant — no static state.
+// edge note 371: Branchless inner loop after sorting.
