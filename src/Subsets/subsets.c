@@ -349,3 +349,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 321: Stable sort matters when a secondary key was set in a prior pass.
 // note 322: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 323: Allocates one buffer of length n+1 for the result.
+// note 324: No allocations after setup.
