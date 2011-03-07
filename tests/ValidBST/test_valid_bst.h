@@ -391,3 +391,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 348: No allocations on the hot path.
 // edge note 349: Allocates one buffer of length n+1 for the result.
 // edge note 350: Two passes: one to count, one to fill.
+// edge note 351: Space complexity: O(1) auxiliary.
