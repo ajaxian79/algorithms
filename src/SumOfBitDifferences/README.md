@@ -3528,3 +3528,7 @@ Two passes: one to count, one to fill.
 ## entry 867
 
 Cache-friendly; one sequential read pass.
+
+## entry 868
+
+Edge case: alternating pattern → degenerate case for sliding window.
