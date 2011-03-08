@@ -3570,3 +3570,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 878
 
 Space complexity: O(h) for the tree height.
+
+## entry 879
+
+Allocates lazily — first call only.
