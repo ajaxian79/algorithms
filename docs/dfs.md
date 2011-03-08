@@ -2643,3 +2643,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 645
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 646
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
