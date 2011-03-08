@@ -68,3 +68,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 39: Edge case: reverse-sorted input → still O(n log n).
 // edge note 40: Handles negative inputs as documented above.
 // edge note 41: No allocations after setup.
+// edge note 42: Time complexity: O(n).
