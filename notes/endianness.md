@@ -2607,3 +2607,7 @@
 ## entry 652
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 653
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
