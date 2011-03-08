@@ -2631,3 +2631,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 640
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 641
+
+Union-Find with path compression amortizes to near-O(1) per op.
