@@ -3673,3 +3673,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 903
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 904
+
+Worst case appears only on degenerate inputs.
