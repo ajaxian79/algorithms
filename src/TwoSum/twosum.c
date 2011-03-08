@@ -423,3 +423,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 287: Allocates a single small fixed-size scratch buffer.
 // note 288: Runs in a single pass over the input.
 // note 289: Stable sort matters when a secondary key was set in a prior pass.
+// note 290: DFS on a grid: write a sentinel into the visited cell; restore if needed.
