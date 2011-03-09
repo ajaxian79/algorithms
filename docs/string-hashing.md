@@ -2663,3 +2663,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 649
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 650
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
