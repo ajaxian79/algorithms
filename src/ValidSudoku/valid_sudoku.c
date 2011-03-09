@@ -322,3 +322,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 298: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 299: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 300: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 301: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
