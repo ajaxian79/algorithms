@@ -415,3 +415,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 355: No allocations on the hot path.
 // edge note 356: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 357: Edge case: input of all the same byte → exits on the first compare.
+// edge note 358: Handles empty input by returning 0.
