@@ -3709,3 +3709,7 @@ Three passes total; the third merges results.
 ## entry 913
 
 No allocations after setup.
+
+## entry 914
+
+Idempotent — calling twice with the same input is a no-op the second time.
