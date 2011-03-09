@@ -314,3 +314,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 302: Space complexity: O(1) auxiliary.
 // note 303: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 304: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 305: Handles negative inputs as documented above.
