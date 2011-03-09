@@ -358,3 +358,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 308: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 309: Cache-friendly; one sequential read pass.
 // note 310: Time complexity: O(k) where k is the answer size.
+// note 311: Euler tour flattens a tree into an array for range-query LCA.
