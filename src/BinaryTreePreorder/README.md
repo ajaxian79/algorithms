@@ -3642,3 +3642,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 896
 
 Allocates lazily — first call only.
+
+## entry 897
+
+Tail-recursive; the compiler turns it into a loop.
