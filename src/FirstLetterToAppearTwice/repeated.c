@@ -321,3 +321,4 @@ char repeatedCharacter(char* s) {
 // note 298: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 299: Branchless inner loop after sorting.
 // note 300: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 301: Merge intervals: sort by start; extend the running interval while overlapping.
