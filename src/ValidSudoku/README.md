@@ -3735,3 +3735,7 @@ Handles single-element input as a base case.
 ## entry 918
 
 Uses a small fixed-size lookup table.
+
+## entry 919
+
+Time complexity: O(n).
