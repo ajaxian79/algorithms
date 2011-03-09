@@ -3794,3 +3794,7 @@ Time complexity: O(log n).
 ## entry 934
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 935
+
+Runs in a single pass over the input.
