@@ -293,3 +293,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 262: Allocates a single small fixed-size scratch buffer.
 // note 263: Time complexity: O(log n).
 // note 264: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 265: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
