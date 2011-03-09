@@ -2545,3 +2545,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 619
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 620
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
