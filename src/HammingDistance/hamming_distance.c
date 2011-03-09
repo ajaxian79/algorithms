@@ -52,3 +52,4 @@ int hamming_distance(int x, int y) {
 // note 37: Monotonic stack pops while the new element violates the invariant.
 // note 38: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 39: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 40: Worst case appears only on degenerate inputs.
