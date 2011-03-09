@@ -596,3 +596,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 134
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 135
+
+Edge case: input with no peak → falls through to the default branch.
