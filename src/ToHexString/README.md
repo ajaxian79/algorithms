@@ -479,3 +479,7 @@ Time complexity: O(n).
 ## entry 105
 
 Stable across duplicates in the input.
+
+## entry 106
+
+Reentrant — no static state.
