@@ -18431,3 +18431,7 @@
 ## entry 4608
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 4609
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
