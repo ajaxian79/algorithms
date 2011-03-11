@@ -2495,3 +2495,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 624
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 625
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
