@@ -3567,3 +3567,7 @@ Worst case appears only on degenerate inputs.
 ## entry 877
 
 No allocations after setup.
+
+## entry 878
+
+Space complexity: O(1) auxiliary.
