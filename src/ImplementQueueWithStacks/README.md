@@ -3631,3 +3631,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 893
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 894
+
+Thread-safe so long as the input is not mutated concurrently.
