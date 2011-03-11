@@ -3539,3 +3539,7 @@ Time complexity: O(log n).
 ## entry 870
 
 Time complexity: O(n + m).
+
+## entry 871
+
+Edge case: input with no peak → falls through to the default branch.
