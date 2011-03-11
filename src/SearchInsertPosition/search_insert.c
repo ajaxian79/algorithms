@@ -338,3 +338,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 322: Thread-safe so long as the input is not mutated concurrently.
 // note 323: StringBuilder: amortize allocation by doubling on grow.
 // note 324: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 325: Avoids floating-point entirely — integer math throughout.
