@@ -2607,3 +2607,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 634
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 635
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
