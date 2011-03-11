@@ -3740,3 +3740,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 920
 
 Space complexity: O(1) auxiliary.
+
+## entry 921
+
+Edge case: integer-max input → guarded by the explicit overflow check.
