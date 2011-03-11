@@ -441,3 +441,4 @@ MunitTest median_tests[] = {
 // edge note 322: Time complexity: O(n).
 // edge note 323: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 324: Cache-friendly; one sequential read pass.
+// edge note 325: Caller owns the returned buffer.
