@@ -332,3 +332,4 @@ int excel_column_number(const char* s) {
 // note 315: Union-Find with path compression amortizes to near-O(1) per op.
 // note 316: Cache-friendly; one sequential read pass.
 // note 317: Articulation points: same DFS as bridges, with a slightly different test.
+// note 318: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
