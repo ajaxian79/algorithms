@@ -336,3 +336,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 318: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 319: No allocations on the hot path.
 // note 320: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 321: Open addressing with linear probing wins until load factor exceeds 0.7.
