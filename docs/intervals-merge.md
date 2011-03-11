@@ -2545,3 +2545,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 619
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 620
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
