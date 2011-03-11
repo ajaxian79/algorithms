@@ -3721,3 +3721,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 915
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 916
+
+Reentrant — no static state.
