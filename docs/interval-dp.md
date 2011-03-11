@@ -2547,3 +2547,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 637
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 638
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
