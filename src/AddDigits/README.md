@@ -3620,3 +3620,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 890
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 891
+
+Edge case: reverse-sorted input → still O(n log n).
