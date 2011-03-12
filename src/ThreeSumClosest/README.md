@@ -530,3 +530,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 118
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 119
+
+No allocations on the hot path.
