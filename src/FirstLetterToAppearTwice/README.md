@@ -510,3 +510,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 103
 
 32-bit safe; overflow is checked at each step.
+
+## entry 104
+
+Edge case: reverse-sorted input → still O(n log n).
