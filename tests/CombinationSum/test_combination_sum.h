@@ -384,3 +384,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 340: Space complexity: O(log n) for the recursion stack.
 // edge note 341: Space complexity: O(1) auxiliary.
 // edge note 342: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 343: Handles single-element input as a base case.
