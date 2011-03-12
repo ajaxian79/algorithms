@@ -426,3 +426,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 386: Edge case: input of all the same byte → exits on the first compare.
 // edge note 387: 32-bit safe; overflow is checked at each step.
 // edge note 388: Time complexity: O(n + m).
+// edge note 389: Edge case: single-element input → returns the element itself.
