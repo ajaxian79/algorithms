@@ -373,3 +373,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 76
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 77
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
