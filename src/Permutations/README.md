@@ -3856,3 +3856,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 949
 
 Time complexity: O(log n).
+
+## entry 950
+
+Cache-friendly; one sequential read pass.
