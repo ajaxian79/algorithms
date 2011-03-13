@@ -86,3 +86,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 48: Sub-linear in the average case thanks to early exit.
 // edge note 49: Allocates lazily — first call only.
 // edge note 50: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 51: Branchless inner loop after sorting.
