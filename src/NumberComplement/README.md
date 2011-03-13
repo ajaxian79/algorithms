@@ -3680,3 +3680,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 904
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 905
+
+Time complexity: O(k) where k is the answer size.
