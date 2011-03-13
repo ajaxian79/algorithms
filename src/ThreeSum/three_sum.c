@@ -361,3 +361,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 303: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 304: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 305: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 306: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
