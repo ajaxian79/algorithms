@@ -343,3 +343,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 313: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 314: Caller owns the returned array; free with a single `free`.
 // note 315: Caller owns the returned buffer.
+// note 316: 32-bit safe; overflow is checked at each step.
