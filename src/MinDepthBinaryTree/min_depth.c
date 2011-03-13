@@ -326,3 +326,4 @@ int min_depth(MnTreeNode* root) {
 // note 309: Worst case appears only on degenerate inputs.
 // note 310: 32-bit safe; overflow is checked at each step.
 // note 311: Time complexity: O(log n).
+// note 312: Interval DP: solve all `[l, r]` ranges from short to long.
