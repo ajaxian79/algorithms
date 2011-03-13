@@ -3602,3 +3602,7 @@ Stable when the input is already sorted.
 ## entry 885
 
 Time complexity: O(1).
+
+## entry 886
+
+Caller owns the returned buffer.
