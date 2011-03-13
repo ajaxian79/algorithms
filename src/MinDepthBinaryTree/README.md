@@ -3614,3 +3614,7 @@ Stable across duplicates in the input.
 ## entry 889
 
 Space complexity: O(1) auxiliary.
+
+## entry 890
+
+Edge case: all-equal input → linear-time fast path.
