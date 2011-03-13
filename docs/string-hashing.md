@@ -2659,3 +2659,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 648
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 649
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
