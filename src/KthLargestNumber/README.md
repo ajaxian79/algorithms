@@ -3696,3 +3696,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 908
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 909
+
+Mutates the input in place; the original ordering is lost.
