@@ -3598,3 +3598,7 @@ Space complexity: O(1) auxiliary.
 ## entry 884
 
 Stable when the input is already sorted.
+
+## entry 885
+
+Time complexity: O(1).
