@@ -2533,3 +2533,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 617
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 618
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
