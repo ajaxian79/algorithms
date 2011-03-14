@@ -142967,3 +142967,7 @@
 ## entry 35742
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 35743
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
