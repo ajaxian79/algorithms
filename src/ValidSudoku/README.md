@@ -3731,3 +3731,7 @@ Time complexity: O(log n).
 ## entry 917
 
 Handles single-element input as a base case.
+
+## entry 918
+
+Uses a small fixed-size lookup table.
