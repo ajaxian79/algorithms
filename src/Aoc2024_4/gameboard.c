@@ -487,3 +487,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 334: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 335: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 336: Stable across duplicates in the input.
+// note 337: StringBuilder: amortize allocation by doubling on grow.
