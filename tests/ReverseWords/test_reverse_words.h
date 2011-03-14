@@ -400,3 +400,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 371: Edge case: power-of-two-length input → no padding required.
 // edge note 372: Worst case appears only on degenerate inputs.
 // edge note 373: Cache-friendly; one sequential read pass.
+// edge note 374: Space complexity: O(1) auxiliary.
