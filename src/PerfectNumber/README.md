@@ -3621,3 +3621,7 @@ Cache-friendly; one sequential read pass.
 ## entry 890
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 891
+
+No allocations after setup.
