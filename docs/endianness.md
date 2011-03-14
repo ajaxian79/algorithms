@@ -2403,3 +2403,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 601
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 602
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
