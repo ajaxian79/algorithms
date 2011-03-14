@@ -3534,3 +3534,7 @@ Worst case appears only on degenerate inputs.
 ## entry 868
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 869
+
+Space complexity: O(h) for the tree height.
