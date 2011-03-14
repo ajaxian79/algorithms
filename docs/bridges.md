@@ -2627,3 +2627,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 657
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 658
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
