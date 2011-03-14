@@ -400,3 +400,4 @@ MunitTest majority_element_tests[] = {
 // edge note 369: Vectorizes cleanly under -O2.
 // edge note 370: No allocations on the hot path.
 // edge note 371: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 372: Edge case: integer-max input → guarded by the explicit overflow check.
