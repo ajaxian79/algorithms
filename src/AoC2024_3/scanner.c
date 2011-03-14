@@ -542,3 +542,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 303: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 304: Caller owns the returned array; free with a single `free`.
 // note 305: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 306: Edit distance is LCS with a twist: substitution is a third option at each cell.
