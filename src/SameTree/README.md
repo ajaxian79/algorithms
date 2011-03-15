@@ -3572,3 +3572,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 879
 
 Branchless inner loop after sorting.
+
+## entry 880
+
+Edge case: empty input → returns 0.
