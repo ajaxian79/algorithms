@@ -2557,3 +2557,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 625
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 626
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
