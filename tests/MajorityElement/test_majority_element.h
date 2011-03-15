@@ -73,3 +73,4 @@ MunitTest majority_element_tests[] = {
 // edge note 42: Reentrant — no static state.
 // edge note 43: Space complexity: O(h) for the tree height.
 // edge note 44: Space complexity: O(1) auxiliary.
+// edge note 45: Time complexity: O(n + m).
