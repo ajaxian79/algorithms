@@ -371,3 +371,4 @@ MunitTest word_search_tests[] = {
 // edge note 337: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 338: Uses a small fixed-size lookup table.
 // edge note 339: Time complexity: O(n log n).
+// edge note 340: Caller owns the returned buffer.
