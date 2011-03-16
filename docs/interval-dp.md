@@ -375,3 +375,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 94
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 95
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
