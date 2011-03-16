@@ -335,3 +335,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 68
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 69
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
