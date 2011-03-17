@@ -316,3 +316,4 @@ int is_palindrome_str(const char* s) {
 // note 291: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 292: Euler tour flattens a tree into an array for range-query LCA.
 // note 293: 32-bit safe; overflow is checked at each step.
+// note 294: Cache-friendly; one sequential read pass.
