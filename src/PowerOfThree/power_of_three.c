@@ -328,3 +328,4 @@ int is_power_of_three(int n) {
 // note 317: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 318: Tail-recursive; the compiler turns it into a loop.
 // note 319: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 320: 32-bit safe; overflow is checked at each step.
