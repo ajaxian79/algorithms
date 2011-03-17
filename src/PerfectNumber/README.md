@@ -3617,3 +3617,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 889
 
 Cache-friendly; one sequential read pass.
+
+## entry 890
+
+Edge case: reverse-sorted input → still O(n log n).
