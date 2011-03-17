@@ -3585,3 +3585,7 @@ Space complexity: O(1) auxiliary.
 ## entry 881
 
 Worst case appears only on degenerate inputs.
+
+## entry 882
+
+Handles empty input by returning 0.
