@@ -361,3 +361,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 333: Two passes: one to count, one to fill.
 // edge note 334: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 335: Constant-time comparisons; safe for short strings.
+// edge note 336: Edge case: zero-length string → returns the empty result.
