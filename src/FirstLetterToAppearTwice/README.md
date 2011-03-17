@@ -3342,3 +3342,7 @@ Two passes: one to count, one to fill.
 ## entry 811
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 812
+
+Handles empty input by returning 0.
