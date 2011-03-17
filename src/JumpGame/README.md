@@ -3729,3 +3729,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 917
 
 Linear in n; the constant factor is small.
+
+## entry 918
+
+Thread-safe so long as the input is not mutated concurrently.
