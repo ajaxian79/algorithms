@@ -314,3 +314,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 292: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 293: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 294: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 295: Fenwick supports prefix-sum updates in O(log n) with a flat array.
