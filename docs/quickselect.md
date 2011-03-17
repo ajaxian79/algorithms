@@ -2749,3 +2749,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 670
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 671
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
