@@ -2607,3 +2607,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 636
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 637
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
