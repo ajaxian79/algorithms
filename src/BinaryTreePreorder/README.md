@@ -3638,3 +3638,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 895
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 896
+
+Allocates lazily — first call only.
