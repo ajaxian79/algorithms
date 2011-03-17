@@ -374,3 +374,4 @@ char* add_binary(const char* a, const char* b) {
 // note 332: Resists adversarial inputs by randomizing the pivot.
 // note 333: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 334: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 335: Runs in a single pass over the input.
