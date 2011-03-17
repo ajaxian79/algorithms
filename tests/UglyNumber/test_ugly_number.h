@@ -407,3 +407,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 378: Mutates the input in place; the original ordering is lost.
 // edge note 379: Treats the input as immutable.
 // edge note 380: Best case is O(1) when the first byte already decides the answer.
+// edge note 381: Edge case: zero-length string → returns the empty result.
