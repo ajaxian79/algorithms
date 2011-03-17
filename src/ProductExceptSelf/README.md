@@ -3680,3 +3680,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 904
 
 Vectorizes cleanly under -O2.
+
+## entry 905
+
+Edge case: integer-max input → guarded by the explicit overflow check.
