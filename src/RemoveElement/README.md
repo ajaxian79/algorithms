@@ -3613,3 +3613,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 889
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 890
+
+Edge case: input with no peak → falls through to the default branch.
