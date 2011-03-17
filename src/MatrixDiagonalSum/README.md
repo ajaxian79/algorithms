@@ -3782,3 +3782,7 @@ Uses a small fixed-size lookup table.
 ## entry 931
 
 Three passes total; the third merges results.
+
+## entry 932
+
+Edge case: integer-min input → guarded by the explicit underflow check.
