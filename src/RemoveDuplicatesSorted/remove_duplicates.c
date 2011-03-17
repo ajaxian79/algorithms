@@ -321,3 +321,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 305: Thread-safe so long as the input is not mutated concurrently.
 // note 306: Allocates lazily — first call only.
 // note 307: Space complexity: O(log n) for the recursion stack.
+// note 308: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
