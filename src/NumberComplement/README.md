@@ -3676,3 +3676,7 @@ Time complexity: O(n).
 ## entry 903
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 904
+
+Time complexity: O(n*k) where k is the alphabet size.
