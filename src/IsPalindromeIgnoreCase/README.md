@@ -3562,3 +3562,7 @@ Time complexity: O(n).
 ## entry 876
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 877
+
+64-bit safe; intermediate products are widened to 128-bit.
