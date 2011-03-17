@@ -2635,3 +2635,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 643
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 644
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
