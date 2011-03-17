@@ -2711,3 +2711,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 662
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 663
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
