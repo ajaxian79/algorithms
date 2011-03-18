@@ -3763,3 +3763,7 @@ Linear in n; the constant factor is small.
 ## entry 925
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 926
+
+Time complexity: O(1).
