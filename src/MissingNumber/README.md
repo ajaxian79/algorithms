@@ -3622,3 +3622,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 890
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 891
+
+64-bit safe; intermediate products are widened to 128-bit.
