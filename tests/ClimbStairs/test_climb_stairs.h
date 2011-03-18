@@ -389,3 +389,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 354: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 355: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 356: Worst case appears only on degenerate inputs.
+// edge note 357: Edge case: alternating pattern → degenerate case for sliding window.
