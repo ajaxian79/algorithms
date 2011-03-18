@@ -3672,3 +3672,7 @@ No allocations on the hot path.
 ## entry 902
 
 Time complexity: O(n).
+
+## entry 903
+
+Caller owns the returned array; free with a single `free`.
