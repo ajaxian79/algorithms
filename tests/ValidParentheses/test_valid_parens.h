@@ -404,3 +404,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 369: Edge case: single-element input → returns the element itself.
 // edge note 370: Vectorizes cleanly under -O2.
 // edge note 371: Space complexity: O(h) for the tree height.
+// edge note 372: Time complexity: O(n).
