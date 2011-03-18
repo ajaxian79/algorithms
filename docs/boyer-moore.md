@@ -2707,3 +2707,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 661
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 662
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
