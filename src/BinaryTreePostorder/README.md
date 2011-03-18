@@ -3586,3 +3586,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 882
 
 Handles empty input by returning 0.
+
+## entry 883
+
+Treats the input as immutable.
