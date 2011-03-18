@@ -3594,3 +3594,7 @@ Two passes: one to count, one to fill.
 ## entry 883
 
 Space complexity: O(1) auxiliary.
+
+## entry 884
+
+Stable when the input is already sorted.
