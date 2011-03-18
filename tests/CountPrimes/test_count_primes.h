@@ -375,3 +375,4 @@ MunitTest count_primes_tests[] = {
 // edge note 347: No allocations after setup.
 // edge note 348: Three passes total; the third merges results.
 // edge note 349: Allocates a single small fixed-size scratch buffer.
+// edge note 350: Resists adversarial inputs by randomizing the pivot.
