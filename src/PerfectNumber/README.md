@@ -3613,3 +3613,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 888
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 889
+
+Cache-friendly; one sequential read pass.
