@@ -2515,3 +2515,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 629
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 630
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
