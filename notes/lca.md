@@ -2603,3 +2603,7 @@
 ## entry 651
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 652
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
