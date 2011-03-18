@@ -3701,3 +3701,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 911
 
 Constant-time comparisons; safe for short strings.
+
+## entry 912
+
+Three passes total; the third merges results.
