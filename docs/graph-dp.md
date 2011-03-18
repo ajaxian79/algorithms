@@ -2651,3 +2651,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 663
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 664
+
+Rope: tree of small string fragments; O(log n) concat and substring.
