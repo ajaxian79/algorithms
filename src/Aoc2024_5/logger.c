@@ -353,3 +353,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 310: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 311: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 312: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 313: Interval DP: solve all `[l, r]` ranges from short to long.
