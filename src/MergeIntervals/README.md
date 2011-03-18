@@ -3690,3 +3690,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 907
 
 Handles negative inputs as documented above.
+
+## entry 908
+
+Space complexity: O(n) for the result buffer.
