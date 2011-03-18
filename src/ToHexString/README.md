@@ -3407,3 +3407,7 @@ Runs in a single pass over the input.
 ## entry 837
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 838
+
+Time complexity: O(1).
