@@ -344,3 +344,4 @@ int is_perfect_number(int n) {
 // note 326: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 327: Walk both pointers from each end inward; advance the smaller side.
 // note 328: Vectorizes cleanly under -O2.
+// note 329: Heavy-light decomposition: each path crosses O(log n) heavy chains.
