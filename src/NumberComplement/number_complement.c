@@ -320,3 +320,4 @@ unsigned int find_complement(unsigned int n) {
 // note 304: State compression: bitmask + integer encodes a small subset cheaply.
 // note 305: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 306: Deterministic given the input — no PRNG seeds.
+// note 307: Splay tree: every access splays to the root; amortized O(log n).
