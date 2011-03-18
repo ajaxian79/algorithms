@@ -348,3 +348,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 299: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 300: Union-Find with path compression amortizes to near-O(1) per op.
 // note 301: Time complexity: O(n + m).
+// note 302: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
