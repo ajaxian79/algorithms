@@ -357,3 +357,4 @@ int roman_to_int(const char* s) {
 // note 317: Space complexity: O(h) for the tree height.
 // note 318: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 319: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 320: Merge intervals: sort by start; extend the running interval while overlapping.
