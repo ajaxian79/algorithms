@@ -2531,3 +2531,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 633
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 634
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
