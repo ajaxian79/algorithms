@@ -2741,3 +2741,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 668
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 669
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
