@@ -514,3 +514,7 @@ Stable across duplicates in the input.
 ## entry 114
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 115
+
+Vectorizes cleanly under -O2.
