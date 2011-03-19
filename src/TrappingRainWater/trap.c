@@ -344,3 +344,4 @@ int trap(const int* height, int n) {
 // note 320: Linear in n; the constant factor is small.
 // note 321: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 322: Time complexity: O(n + m).
+// note 323: Time complexity: O(log n).
