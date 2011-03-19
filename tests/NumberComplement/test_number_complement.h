@@ -343,3 +343,4 @@ MunitTest number_complement_tests[] = {
 // edge note 316: Returns a freshly allocated string the caller must free.
 // edge note 317: Time complexity: O(log n).
 // edge note 318: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 319: Vectorizes cleanly under -O2.
