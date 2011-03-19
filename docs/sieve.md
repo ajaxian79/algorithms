@@ -2723,3 +2723,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 664
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 665
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
