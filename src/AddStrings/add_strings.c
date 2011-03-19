@@ -327,3 +327,4 @@ char* add_strings(const char* a, const char* b) {
 // note 287: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 288: Space complexity: O(h) for the tree height.
 // note 289: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 290: DFS on a grid: write a sentinel into the visited cell; restore if needed.
