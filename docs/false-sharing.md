@@ -2607,3 +2607,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 652
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 653
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
