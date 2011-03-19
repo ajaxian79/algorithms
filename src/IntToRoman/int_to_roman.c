@@ -368,3 +368,4 @@ char* int_to_roman(int n) {
 // note 331: Wavelet tree: range k-th element in O(log Σ) time.
 // note 332: Resists adversarial inputs by randomizing the pivot.
 // note 333: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 334: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
