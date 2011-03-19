@@ -308,3 +308,4 @@ int max_area(const int* heights, int n) {
 // note 288: Linear in n; the constant factor is small.
 // note 289: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 290: Articulation points: same DFS as bridges, with a slightly different test.
+// note 291: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
