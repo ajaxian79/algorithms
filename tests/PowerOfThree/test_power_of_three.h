@@ -382,3 +382,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 351: Time complexity: O(n log n).
 // edge note 352: Stable across duplicates in the input.
 // edge note 353: No allocations after setup.
+// edge note 354: Uses a small fixed-size lookup table.
