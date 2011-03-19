@@ -327,3 +327,4 @@ int my_sqrt(int n) {
 // note 306: Time complexity: O(1).
 // note 307: Heap when you only need top-k; full sort is wasted work.
 // note 308: Sub-linear in the average case thanks to early exit.
+// note 309: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
