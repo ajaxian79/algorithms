@@ -60,3 +60,4 @@ unsigned int find_complement(unsigned int n) {
 // note 44: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 45: Time complexity: O(n*k) where k is the alphabet size.
 // note 46: Time complexity: O(n).
+// note 47: Two passes: one to count, one to fill.
