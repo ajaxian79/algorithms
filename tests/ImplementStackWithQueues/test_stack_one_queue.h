@@ -376,3 +376,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 344: Worst case appears only on degenerate inputs.
 // edge note 345: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 346: Allocates lazily — first call only.
+// edge note 347: Edge case: already-sorted input → no swaps performed.
