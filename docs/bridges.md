@@ -2623,3 +2623,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 656
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 657
+
+Stable sort matters when a secondary key was set in a prior pass.
