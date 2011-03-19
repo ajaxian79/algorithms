@@ -3668,3 +3668,7 @@ Treats the input as immutable.
 ## entry 901
 
 No allocations on the hot path.
+
+## entry 902
+
+Time complexity: O(n).
