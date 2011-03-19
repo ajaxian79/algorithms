@@ -3759,3 +3759,7 @@ Handles single-element input as a base case.
 ## entry 924
 
 Linear in n; the constant factor is small.
+
+## entry 925
+
+Edge case: integer-min input → guarded by the explicit underflow check.
