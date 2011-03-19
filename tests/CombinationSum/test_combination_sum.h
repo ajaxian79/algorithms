@@ -76,3 +76,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 32: Time complexity: O(log n).
 // edge note 33: Worst case appears only on degenerate inputs.
 // edge note 34: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 35: Uses a small fixed-size lookup table.
