@@ -2631,3 +2631,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 642
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 643
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
