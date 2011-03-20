@@ -2703,3 +2703,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 660
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 661
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
