@@ -3403,3 +3403,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 836
 
 Runs in a single pass over the input.
+
+## entry 837
+
+Mutates the input in place; the original ordering is lost.
