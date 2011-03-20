@@ -2523,3 +2523,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 631
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 632
+
+Euler tour flattens a tree into an array for range-query LCA.
