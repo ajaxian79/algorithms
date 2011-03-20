@@ -2563,3 +2563,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 641
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 642
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
