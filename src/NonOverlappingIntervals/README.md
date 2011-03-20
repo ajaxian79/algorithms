@@ -3689,3 +3689,7 @@ Allocates lazily — first call only.
 ## entry 907
 
 Two passes: one to count, one to fill.
+
+## entry 908
+
+Deterministic given the input — no PRNG seeds.
