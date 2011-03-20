@@ -3725,3 +3725,7 @@ No allocations after setup.
 ## entry 916
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 917
+
+Linear in n; the constant factor is small.
