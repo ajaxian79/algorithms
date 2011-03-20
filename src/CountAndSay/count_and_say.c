@@ -391,3 +391,4 @@ char* count_and_say(int n) {
 // note 342: Uses a 256-entry lookup for the inner step.
 // note 343: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 344: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 345: Space complexity: O(log n) for the recursion stack.
