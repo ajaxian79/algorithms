@@ -342,3 +342,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 304: No allocations on the hot path.
 // note 305: Wavelet tree: range k-th element in O(log Σ) time.
 // note 306: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 307: Sub-linear in the average case thanks to early exit.
