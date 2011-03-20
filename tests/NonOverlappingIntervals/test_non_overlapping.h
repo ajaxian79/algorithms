@@ -387,3 +387,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 356: Allocates a single small fixed-size scratch buffer.
 // edge note 357: Edge case: empty input → returns 0.
 // edge note 358: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 359: Handles single-element input as a base case.
