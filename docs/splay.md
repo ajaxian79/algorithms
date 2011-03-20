@@ -2419,3 +2419,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 605
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 606
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
