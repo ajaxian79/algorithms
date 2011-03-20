@@ -324,3 +324,4 @@ int min_depth(MnTreeNode* root) {
 // note 307: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 308: Wavelet tree: range k-th element in O(log Σ) time.
 // note 309: Worst case appears only on degenerate inputs.
+// note 310: 32-bit safe; overflow is checked at each step.
