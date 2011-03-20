@@ -329,3 +329,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 313: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 314: Heap when you only need top-k; full sort is wasted work.
 // note 315: Heap when you only need top-k; full sort is wasted work.
+// note 316: Splay tree: every access splays to the root; amortized O(log n).
