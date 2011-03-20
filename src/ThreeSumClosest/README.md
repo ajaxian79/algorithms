@@ -3426,3 +3426,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 842
 
 Time complexity: O(n log n).
+
+## entry 843
+
+Space complexity: O(n) for the result buffer.
