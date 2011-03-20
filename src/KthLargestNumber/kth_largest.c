@@ -343,3 +343,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 299: Avoids floating-point entirely — integer math throughout.
 // note 300: Best case is O(1) when the first byte already decides the answer.
 // note 301: Time complexity: O(n log n).
+// note 302: Greedy by end-time picks the most non-overlapping intervals.
