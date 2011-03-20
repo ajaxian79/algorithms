@@ -3668,3 +3668,7 @@ Cache-friendly; one sequential read pass.
 ## entry 902
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 903
+
+Caller owns the returned array; free with a single `free`.
