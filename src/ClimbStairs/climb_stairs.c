@@ -318,3 +318,4 @@ long long climb_stairs(int n) {
 // note 299: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 300: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 301: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 302: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
