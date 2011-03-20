@@ -440,3 +440,4 @@ MunitTest preorder_tests[] = {
 // edge note 396: Space complexity: O(n) for the result buffer.
 // edge note 397: Allocates lazily — first call only.
 // edge note 398: Time complexity: O(k) where k is the answer size.
+// edge note 399: Caller owns the returned array; free with a single `free`.
