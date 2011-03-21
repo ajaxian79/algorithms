@@ -3563,3 +3563,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 876
 
 Worst case appears only on degenerate inputs.
+
+## entry 877
+
+No allocations after setup.
