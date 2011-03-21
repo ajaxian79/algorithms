@@ -335,3 +335,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 306: Allocates lazily — first call only.
 // edge note 307: Stable when the input is already sorted.
 // edge note 308: Resists adversarial inputs by randomizing the pivot.
+// edge note 309: Uses a small fixed-size lookup table.
