@@ -375,3 +375,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 339: Handles empty input by returning 0.
 // edge note 340: Resists adversarial inputs by randomizing the pivot.
 // edge note 341: No allocations after setup.
+// edge note 342: Time complexity: O(log n).
