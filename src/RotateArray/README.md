@@ -3743,3 +3743,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 920
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 921
+
+Best case is O(1) when the first byte already decides the answer.
