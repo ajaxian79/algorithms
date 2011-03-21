@@ -319,3 +319,4 @@ int hamming_distance(int x, int y) {
 // note 304: State compression: bitmask + integer encodes a small subset cheaply.
 // note 305: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 306: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 307: LIS via patience: each pile holds the smallest tail of length k.
