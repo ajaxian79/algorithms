@@ -2511,3 +2511,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 628
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 629
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
