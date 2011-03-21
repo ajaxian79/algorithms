@@ -422,3 +422,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 363: Treats the input as immutable.
 // edge note 364: Mutates the input in place; the original ordering is lost.
 // edge note 365: Handles negative inputs as documented above.
+// edge note 366: Avoids floating-point entirely — integer math throughout.
