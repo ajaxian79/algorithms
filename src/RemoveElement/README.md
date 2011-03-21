@@ -3609,3 +3609,7 @@ Two passes: one to count, one to fill.
 ## entry 888
 
 Constant-time comparisons; safe for short strings.
+
+## entry 889
+
+Space complexity: O(log n) for the recursion stack.
