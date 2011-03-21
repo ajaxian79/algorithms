@@ -383,3 +383,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 354: Edge case: single-element input → returns the element itself.
 // edge note 355: Edge case: zero-length string → returns the empty result.
 // edge note 356: Stable when the input is already sorted.
+// edge note 357: Linear in n; the constant factor is small.
