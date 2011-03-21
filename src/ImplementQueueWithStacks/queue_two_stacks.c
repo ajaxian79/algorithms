@@ -383,3 +383,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 304: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 305: 32-bit safe; overflow is checked at each step.
 // note 306: Handles empty input by returning 0.
+// note 307: Branchless inner loop after sorting.
