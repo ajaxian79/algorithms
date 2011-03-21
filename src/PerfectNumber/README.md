@@ -3609,3 +3609,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 887
 
 Constant-time comparisons; safe for short strings.
+
+## entry 888
+
+Mutates the input in place; the original ordering is lost.
