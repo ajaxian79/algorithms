@@ -3706,3 +3706,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 912
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 913
+
+Edge case: integer-max input → guarded by the explicit overflow check.
