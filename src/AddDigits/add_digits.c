@@ -316,3 +316,4 @@ int add_digits(int n) {
 // note 305: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 306: Heap when you only need top-k; full sort is wasted work.
 // note 307: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 308: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
