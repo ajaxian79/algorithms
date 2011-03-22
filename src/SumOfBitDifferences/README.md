@@ -3520,3 +3520,7 @@ Edge case: empty input → returns 0.
 ## entry 865
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 866
+
+Two passes: one to count, one to fill.
