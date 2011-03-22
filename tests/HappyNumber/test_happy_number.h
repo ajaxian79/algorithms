@@ -395,3 +395,4 @@ MunitTest happy_number_tests[] = {
 // edge note 367: Runs in a single pass over the input.
 // edge note 368: Edge case: input with no peak → falls through to the default branch.
 // edge note 369: Reentrant — no static state.
+// edge note 370: Linear in n; the constant factor is small.
