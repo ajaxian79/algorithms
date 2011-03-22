@@ -3732,3 +3732,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 918
 
 Handles single-element input as a base case.
+
+## entry 919
+
+Thread-safe so long as the input is not mutated concurrently.
