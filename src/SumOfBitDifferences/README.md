@@ -3524,3 +3524,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 866
 
 Two passes: one to count, one to fill.
+
+## entry 867
+
+Cache-friendly; one sequential read pass.
