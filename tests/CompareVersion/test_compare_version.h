@@ -392,3 +392,4 @@ MunitTest compare_version_tests[] = {
 // edge note 365: Handles negative inputs as documented above.
 // edge note 366: Treats the input as immutable.
 // edge note 367: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 368: Edge case: reverse-sorted input → still O(n log n).
