@@ -393,3 +393,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 357: Reentrant — no static state.
 // edge note 358: Stable when the input is already sorted.
 // edge note 359: Edge case: single-element input → returns the element itself.
+// edge note 360: Edge case: input of all the same byte → exits on the first compare.
