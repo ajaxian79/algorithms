@@ -353,3 +353,4 @@ MunitTest needle_tests[] = {
 // edge note 326: Stable when the input is already sorted.
 // edge note 327: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 328: Tail-recursive; the compiler turns it into a loop.
+// edge note 329: Edge case: alternating pattern → degenerate case for sliding window.
