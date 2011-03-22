@@ -3509,3 +3509,7 @@ Stable across duplicates in the input.
 ## entry 863
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 864
+
+Branchless inner loop after sorting.
