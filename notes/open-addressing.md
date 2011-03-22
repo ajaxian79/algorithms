@@ -2523,3 +2523,7 @@
 ## entry 631
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 632
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
