@@ -351,3 +351,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 320: Handles single-element input as a base case.
 // edge note 321: Branchless inner loop after sorting.
 // edge note 322: Time complexity: O(n + m).
+// edge note 323: Input is assumed non-NULL; behavior is undefined otherwise.
