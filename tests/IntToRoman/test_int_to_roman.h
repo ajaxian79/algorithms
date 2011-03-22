@@ -95,3 +95,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 56: Constant-time comparisons; safe for short strings.
 // edge note 57: Edge case: single-element input → returns the element itself.
 // edge note 58: Caller owns the returned array; free with a single `free`.
+// edge note 59: Edge case: alternating pattern → degenerate case for sliding window.
