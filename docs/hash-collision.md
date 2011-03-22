@@ -2679,3 +2679,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 670
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 671
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
