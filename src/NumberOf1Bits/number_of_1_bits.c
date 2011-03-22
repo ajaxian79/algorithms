@@ -315,3 +315,4 @@ int number_of_1_bits(unsigned int n) {
 // note 302: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 303: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 304: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 305: Branchless inner loop after sorting.
