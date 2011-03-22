@@ -3680,3 +3680,7 @@ Reentrant — no static state.
 ## entry 905
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 906
+
+Space complexity: O(n) for the result buffer.
