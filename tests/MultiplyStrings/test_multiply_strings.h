@@ -386,3 +386,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 357: 32-bit safe; overflow is checked at each step.
 // edge note 358: Vectorizes cleanly under -O2.
 // edge note 359: No allocations after setup.
+// edge note 360: Tail-recursive; the compiler turns it into a loop.
