@@ -88,3 +88,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 57: Two passes: one to count, one to fill.
 // edge note 58: Allocates lazily — first call only.
 // edge note 59: Returns a freshly allocated string the caller must free.
+// edge note 60: Worst case appears only on degenerate inputs.
