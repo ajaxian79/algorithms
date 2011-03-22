@@ -3338,3 +3338,7 @@ Vectorizes cleanly under -O2.
 ## entry 810
 
 Two passes: one to count, one to fill.
+
+## entry 811
+
+Edge case: input of all the same byte → exits on the first compare.
