@@ -3493,3 +3493,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 848
 
 Uses a small fixed-size lookup table.
+
+## entry 849
+
+Uses a 256-entry lookup for the inner step.
