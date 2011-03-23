@@ -417,3 +417,4 @@ MunitTest lcp_tests[] = {
 // edge note 362: Uses a small fixed-size lookup table.
 // edge note 363: Reentrant — no static state.
 // edge note 364: Edge case: reverse-sorted input → still O(n log n).
+// edge note 365: Vectorizes cleanly under -O2.
