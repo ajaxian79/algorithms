@@ -3697,3 +3697,7 @@ Time complexity: O(1).
 ## entry 910
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 911
+
+Constant-time comparisons; safe for short strings.
