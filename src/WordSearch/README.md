@@ -3770,3 +3770,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 928
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 929
+
+Edge case: input with a single peak → handled by the first-pass scan.
