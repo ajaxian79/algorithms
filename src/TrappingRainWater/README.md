@@ -3590,3 +3590,7 @@ Three passes total; the third merges results.
 ## entry 882
 
 Linear in n; the constant factor is small.
+
+## entry 883
+
+Uses a small fixed-size lookup table.
