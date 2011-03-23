@@ -2503,3 +2503,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 626
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 627
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
