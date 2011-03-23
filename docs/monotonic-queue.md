@@ -2475,3 +2475,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 601
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 602
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
