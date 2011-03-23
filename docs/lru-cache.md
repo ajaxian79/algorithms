@@ -2447,3 +2447,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 612
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 613
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
