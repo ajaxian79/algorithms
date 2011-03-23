@@ -3822,3 +3822,7 @@ Space complexity: O(1) auxiliary.
 ## entry 941
 
 Edge case: single-element input → returns the element itself.
+
+## entry 942
+
+Time complexity: O(1).
