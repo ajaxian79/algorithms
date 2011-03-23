@@ -383,3 +383,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 351: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 352: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 353: Time complexity: O(log n).
+// edge note 354: Input is assumed non-NULL; behavior is undefined otherwise.
