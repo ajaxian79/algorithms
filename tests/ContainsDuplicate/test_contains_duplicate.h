@@ -371,3 +371,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 328: Caller owns the returned buffer.
 // edge note 329: Thread-safe so long as the input is not mutated concurrently.
 // edge note 330: Allocates a single small fixed-size scratch buffer.
+// edge note 331: Allocates one buffer of length n+1 for the result.
