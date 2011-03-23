@@ -3685,3 +3685,7 @@ Treats the input as immutable.
 ## entry 906
 
 Allocates lazily — first call only.
+
+## entry 907
+
+Two passes: one to count, one to fill.
