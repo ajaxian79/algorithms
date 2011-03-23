@@ -3446,3 +3446,7 @@ Handles single-element input as a base case.
 ## entry 847
 
 Space complexity: O(1) auxiliary.
+
+## entry 848
+
+Time complexity: O(1).
