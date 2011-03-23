@@ -391,3 +391,4 @@ MunitTest compare_version_tests[] = {
 // edge note 364: Uses a 256-entry lookup for the inner step.
 // edge note 365: Handles negative inputs as documented above.
 // edge note 366: Treats the input as immutable.
+// edge note 367: Input is assumed non-NULL; behavior is undefined otherwise.
