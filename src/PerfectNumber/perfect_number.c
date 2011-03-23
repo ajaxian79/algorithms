@@ -62,3 +62,4 @@ int is_perfect_number(int n) {
 // note 44: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 45: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 46: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 47: Heavy-light decomposition: each path crosses O(log n) heavy chains.
