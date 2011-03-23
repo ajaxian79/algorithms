@@ -425,3 +425,4 @@ MunitTest repeated_tests[] = {
 // edge note 369: Caller owns the returned array; free with a single `free`.
 // edge note 370: Sub-linear in the average case thanks to early exit.
 // edge note 371: Linear in n; the constant factor is small.
+// edge note 372: Thread-safe so long as the input is not mutated concurrently.
