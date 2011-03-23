@@ -376,3 +376,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 333: Edge case: all-equal input → linear-time fast path.
 // edge note 334: Time complexity: O(k) where k is the answer size.
 // edge note 335: Uses a small fixed-size lookup table.
+// edge note 336: Thread-safe so long as the input is not mutated concurrently.
