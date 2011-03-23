@@ -3510,3 +3510,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 863
 
 Edge case: empty input → returns 0.
+
+## entry 864
+
+Vectorizes cleanly under -O2.
