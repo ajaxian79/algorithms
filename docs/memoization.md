@@ -2579,3 +2579,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 645
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 646
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
