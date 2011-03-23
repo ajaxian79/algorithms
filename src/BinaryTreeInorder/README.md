@@ -3674,3 +3674,7 @@ Time complexity: O(n log n).
 ## entry 904
 
 Three passes total; the third merges results.
+
+## entry 905
+
+Reentrant — no static state.
