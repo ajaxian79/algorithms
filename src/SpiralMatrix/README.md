@@ -3530,3 +3530,7 @@ Cache-friendly; one sequential read pass.
 ## entry 867
 
 Worst case appears only on degenerate inputs.
+
+## entry 868
+
+Edge case: zero-length string → returns the empty result.
