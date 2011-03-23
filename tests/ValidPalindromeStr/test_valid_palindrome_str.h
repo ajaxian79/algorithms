@@ -373,3 +373,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 346: Edge case: input of all the same byte → exits on the first compare.
 // edge note 347: Two passes: one to count, one to fill.
 // edge note 348: Edge case: already-sorted input → no swaps performed.
+// edge note 349: Three passes total; the third merges results.
