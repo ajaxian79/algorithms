@@ -2559,3 +2559,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 640
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 641
+
+Interval DP: solve all `[l, r]` ranges from short to long.
