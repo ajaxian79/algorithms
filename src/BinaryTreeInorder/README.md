@@ -3678,3 +3678,7 @@ Three passes total; the third merges results.
 ## entry 905
 
 Reentrant — no static state.
+
+## entry 906
+
+Mutates the input in place; the original ordering is lost.
