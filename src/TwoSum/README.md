@@ -3489,3 +3489,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 847
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 848
+
+Uses a small fixed-size lookup table.
