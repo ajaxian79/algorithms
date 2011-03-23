@@ -2687,3 +2687,7 @@
 ## entry 655
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 656
+
+- Heap when you only need top-k; full sort is wasted work.
