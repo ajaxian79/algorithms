@@ -3450,3 +3450,7 @@ Space complexity: O(1) auxiliary.
 ## entry 848
 
 Time complexity: O(1).
+
+## entry 849
+
+Uses a small fixed-size lookup table.
