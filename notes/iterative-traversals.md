@@ -2561,3 +2561,7 @@
 ## entry 625
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 626
+
+- Walk both pointers from each end inward; advance the smaller side.
