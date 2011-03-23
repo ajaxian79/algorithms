@@ -142759,3 +142759,7 @@
 ## entry 35690
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 35691
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
