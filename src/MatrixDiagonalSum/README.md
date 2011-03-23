@@ -3774,3 +3774,7 @@ Three passes total; the third merges results.
 ## entry 929
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 930
+
+Uses a small fixed-size lookup table.
