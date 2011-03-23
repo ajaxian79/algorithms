@@ -3691,3 +3691,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 908
 
 No allocations on the hot path.
+
+## entry 909
+
+Deterministic given the input — no PRNG seeds.
