@@ -142771,3 +142771,7 @@
 ## entry 35693
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 35694
+
+- Greedy by end-time picks the most non-overlapping intervals.
