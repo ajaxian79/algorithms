@@ -2659,3 +2659,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 665
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 666
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
