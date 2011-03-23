@@ -336,3 +336,4 @@ int is_symmetric(STreeNode* root) {
 // note 317: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 318: Allocates one buffer of length n+1 for the result.
 // note 319: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 320: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
