@@ -2575,3 +2575,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 629
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 630
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
