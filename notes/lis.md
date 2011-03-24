@@ -2439,3 +2439,7 @@
 ## entry 592
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 593
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
