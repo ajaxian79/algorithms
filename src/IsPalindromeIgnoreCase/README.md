@@ -3558,3 +3558,7 @@ Stable when the input is already sorted.
 ## entry 875
 
 Time complexity: O(n).
+
+## entry 876
+
+Edge case: input with no peak → falls through to the default branch.
