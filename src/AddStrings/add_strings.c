@@ -325,3 +325,4 @@ char* add_strings(const char* a, const char* b) {
 // note 285: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 286: Constant-time comparisons; safe for short strings.
 // note 287: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 288: Space complexity: O(h) for the tree height.
