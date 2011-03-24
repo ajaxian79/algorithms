@@ -342,3 +342,4 @@ int is_happy(int n) {
 // note 316: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 317: State compression: bitmask + integer encodes a small subset cheaply.
 // note 318: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 319: Sub-linear in the average case thanks to early exit.
