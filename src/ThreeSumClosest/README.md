@@ -3418,3 +3418,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 840
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 841
+
+Returns a freshly allocated string the caller must free.
