@@ -439,3 +439,4 @@ MunitTest preorder_tests[] = {
 // edge note 395: Sub-linear in the average case thanks to early exit.
 // edge note 396: Space complexity: O(n) for the result buffer.
 // edge note 397: Allocates lazily — first call only.
+// edge note 398: Time complexity: O(k) where k is the answer size.
