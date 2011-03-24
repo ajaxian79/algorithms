@@ -2539,3 +2539,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 635
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 636
+
+Merge intervals: sort by start; extend the running interval while overlapping.
