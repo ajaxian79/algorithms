@@ -3770,3 +3770,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 928
 
 Three passes total; the third merges results.
+
+## entry 929
+
+Edge case: maximum-length input → still fits in 32-bit indices.
