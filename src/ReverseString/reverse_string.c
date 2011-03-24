@@ -366,3 +366,4 @@ void reverse_string(char* s, int s_size) {
 // note 349: Uses a 256-entry lookup for the inner step.
 // note 350: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 351: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 352: 32-bit safe; overflow is checked at each step.
