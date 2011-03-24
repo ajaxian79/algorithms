@@ -374,3 +374,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 343: Edge case: already-sorted input → no swaps performed.
 // edge note 344: Time complexity: O(n log n).
 // edge note 345: Allocates lazily — first call only.
+// edge note 346: Handles single-element input as a base case.
