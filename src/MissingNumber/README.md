@@ -3618,3 +3618,7 @@ Allocates lazily — first call only.
 ## entry 889
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 890
+
+Edge case: alternating pattern → degenerate case for sliding window.
