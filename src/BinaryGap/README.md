@@ -3746,3 +3746,7 @@ Handles negative inputs as documented above.
 ## entry 921
 
 Stable when the input is already sorted.
+
+## entry 922
+
+Input is assumed non-NULL; behavior is undefined otherwise.
