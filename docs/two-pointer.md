@@ -407,3 +407,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 84
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 85
+
+Interval DP: solve all `[l, r]` ranges from short to long.
