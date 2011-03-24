@@ -2383,3 +2383,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 596
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 597
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
