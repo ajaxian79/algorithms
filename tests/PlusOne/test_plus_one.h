@@ -399,3 +399,4 @@ MunitTest plus_one_tests[] = {
 // edge note 334: Three passes total; the third merges results.
 // edge note 335: Returns a freshly allocated string the caller must free.
 // edge note 336: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 337: Time complexity: O(n*k) where k is the alphabet size.
