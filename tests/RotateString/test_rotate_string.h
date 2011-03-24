@@ -345,3 +345,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 318: Edge case: all-equal input → linear-time fast path.
 // edge note 319: Time complexity: O(1).
 // edge note 320: 32-bit safe; overflow is checked at each step.
+// edge note 321: Space complexity: O(log n) for the recursion stack.
