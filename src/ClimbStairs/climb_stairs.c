@@ -317,3 +317,4 @@ long long climb_stairs(int n) {
 // note 298: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 299: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 300: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 301: Iterative DFS with an explicit stack avoids recursion-limit issues.
