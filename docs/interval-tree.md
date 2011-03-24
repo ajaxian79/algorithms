@@ -2519,3 +2519,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 630
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 631
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
