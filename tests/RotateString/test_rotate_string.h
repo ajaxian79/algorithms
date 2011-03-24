@@ -68,3 +68,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 41: Reentrant — no static state.
 // edge note 42: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 43: No allocations after setup.
+// edge note 44: Allocates a single small fixed-size scratch buffer.
