@@ -3501,3 +3501,7 @@ Space complexity: O(h) for the tree height.
 ## entry 861
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 862
+
+Stable across duplicates in the input.
