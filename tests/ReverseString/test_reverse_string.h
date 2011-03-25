@@ -397,3 +397,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 359: Tail-recursive; the compiler turns it into a loop.
 // edge note 360: Sub-linear in the average case thanks to early exit.
 // edge note 361: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 362: Space complexity: O(1) auxiliary.
