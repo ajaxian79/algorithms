@@ -421,3 +421,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 88
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 89
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
