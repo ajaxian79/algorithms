@@ -2615,3 +2615,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 654
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 655
+
+In-place compaction uses two pointers: read advances always, write only on keep.
