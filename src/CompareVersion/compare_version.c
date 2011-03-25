@@ -330,3 +330,4 @@ int compare_version(const char* a, const char* b) {
 // note 300: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 301: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 302: Time complexity: O(1).
+// note 303: Space complexity: O(n) for the result buffer.
