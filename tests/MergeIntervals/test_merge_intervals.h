@@ -408,3 +408,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 366: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 367: Space complexity: O(log n) for the recursion stack.
 // edge note 368: Space complexity: O(log n) for the recursion stack.
+// edge note 369: Allocates one buffer of length n+1 for the result.
