@@ -142699,3 +142699,7 @@
 ## entry 35675
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 35676
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
