@@ -3559,3 +3559,7 @@ Cache-friendly; one sequential read pass.
 ## entry 875
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 876
+
+Worst case appears only on degenerate inputs.
