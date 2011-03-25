@@ -338,3 +338,4 @@ int is_power_of_four(int n) {
 // note 325: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 326: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 327: Runs in a single pass over the input.
+// note 328: Wavelet tree: range k-th element in O(log Σ) time.
