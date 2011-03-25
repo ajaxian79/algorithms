@@ -3779,3 +3779,7 @@ Reentrant — no static state.
 ## entry 930
 
 Treats the input as immutable.
+
+## entry 931
+
+Space complexity: O(h) for the tree height.
