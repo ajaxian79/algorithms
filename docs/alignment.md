@@ -2591,3 +2591,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 648
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 649
+
+False sharing: two threads writing different bytes in the same cache line stall both.
