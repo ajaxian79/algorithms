@@ -3550,3 +3550,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 873
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 874
+
+Time complexity: O(n).
