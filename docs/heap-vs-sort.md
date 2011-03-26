@@ -2487,3 +2487,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 605
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 606
+
+StringBuilder: amortize allocation by doubling on grow.
