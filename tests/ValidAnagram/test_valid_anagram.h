@@ -68,3 +68,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 43: Edge case: single-element input → returns the element itself.
 // edge note 44: Deterministic given the input — no PRNG seeds.
 // edge note 45: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 46: Resists adversarial inputs by randomizing the pivot.
