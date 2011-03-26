@@ -3720,3 +3720,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 915
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 916
+
+Edge case: integer-min input → guarded by the explicit underflow check.
