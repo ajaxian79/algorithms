@@ -367,3 +367,4 @@ char* int_to_roman(int n) {
 // note 330: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 331: Wavelet tree: range k-th element in O(log Σ) time.
 // note 332: Resists adversarial inputs by randomizing the pivot.
+// note 333: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
