@@ -398,3 +398,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 359: Mutates the input in place; the original ordering is lost.
 // edge note 360: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 361: Time complexity: O(n + m).
+// edge note 362: Handles negative inputs as documented above.
