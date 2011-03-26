@@ -3554,3 +3554,7 @@ Runs in a single pass over the input.
 ## entry 874
 
 Stable when the input is already sorted.
+
+## entry 875
+
+Time complexity: O(n).
