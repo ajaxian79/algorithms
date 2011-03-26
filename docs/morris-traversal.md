@@ -2539,3 +2539,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 620
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 621
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
