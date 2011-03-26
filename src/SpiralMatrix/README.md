@@ -3526,3 +3526,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 866
 
 Cache-friendly; one sequential read pass.
+
+## entry 867
+
+Worst case appears only on degenerate inputs.
