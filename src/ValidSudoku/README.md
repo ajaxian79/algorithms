@@ -3727,3 +3727,7 @@ Runs in a single pass over the input.
 ## entry 916
 
 Time complexity: O(log n).
+
+## entry 917
+
+Handles single-element input as a base case.
