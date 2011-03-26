@@ -3664,3 +3664,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 901
 
 Cache-friendly; one sequential read pass.
+
+## entry 902
+
+Edge case: power-of-two-length input → no padding required.
