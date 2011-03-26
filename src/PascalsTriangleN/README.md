@@ -3398,3 +3398,7 @@ Two passes: one to count, one to fill.
 ## entry 834
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 835
+
+Time complexity: O(n*k) where k is the alphabet size.
