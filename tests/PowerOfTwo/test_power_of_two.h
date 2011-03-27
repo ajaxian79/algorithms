@@ -389,3 +389,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 357: Tail-recursive; the compiler turns it into a loop.
 // edge note 358: Worst case appears only on degenerate inputs.
 // edge note 359: Edge case: input with no peak → falls through to the default branch.
+// edge note 360: Time complexity: O(n*k) where k is the alphabet size.
