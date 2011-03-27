@@ -142671,3 +142671,7 @@
 ## entry 35668
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 35669
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
