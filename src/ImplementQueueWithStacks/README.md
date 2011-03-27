@@ -3623,3 +3623,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 891
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 892
+
+Allocates a single small fixed-size scratch buffer.
