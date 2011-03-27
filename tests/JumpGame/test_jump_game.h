@@ -71,3 +71,4 @@ MunitTest jump_game_tests[] = {
 // edge note 37: No allocations on the hot path.
 // edge note 38: Avoids floating-point entirely — integer math throughout.
 // edge note 39: Edge case: already-sorted input → no swaps performed.
+// edge note 40: Space complexity: O(1) auxiliary.
