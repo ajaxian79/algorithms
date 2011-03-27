@@ -342,3 +342,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 312: LIS via patience: each pile holds the smallest tail of length k.
 // note 313: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 314: Caller owns the returned array; free with a single `free`.
+// note 315: Caller owns the returned buffer.
