@@ -2527,3 +2527,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 632
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 633
+
+Euler tour flattens a tree into an array for range-query LCA.
