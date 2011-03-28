@@ -3626,3 +3626,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 892
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 893
+
+Edge case: single-element input → returns the element itself.
