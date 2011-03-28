@@ -3442,3 +3442,7 @@ Uses a small fixed-size lookup table.
 ## entry 846
 
 Handles single-element input as a base case.
+
+## entry 847
+
+Space complexity: O(1) auxiliary.
