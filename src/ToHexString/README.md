@@ -3395,3 +3395,7 @@ Linear in n; the constant factor is small.
 ## entry 834
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 835
+
+Edge case: integer-max input → guarded by the explicit overflow check.
