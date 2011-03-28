@@ -2609,3 +2609,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 636
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 637
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
