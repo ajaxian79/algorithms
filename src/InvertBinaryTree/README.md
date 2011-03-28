@@ -3824,3 +3824,7 @@ Time complexity: O(n + m).
 ## entry 941
 
 Runs in a single pass over the input.
+
+## entry 942
+
+Time complexity: O(k) where k is the answer size.
