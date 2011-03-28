@@ -2683,3 +2683,7 @@
 ## entry 654
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 655
+
+- Euler tour flattens a tree into an array for range-query LCA.
