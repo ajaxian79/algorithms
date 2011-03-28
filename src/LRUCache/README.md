@@ -3484,3 +3484,7 @@ Stable across duplicates in the input.
 ## entry 855
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 856
+
+Resists adversarial inputs by randomizing the pivot.
