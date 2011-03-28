@@ -2655,3 +2655,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 664
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 665
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
