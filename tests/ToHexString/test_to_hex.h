@@ -400,3 +400,4 @@ MunitTest to_hex_tests[] = {
 // edge note 371: Time complexity: O(log n).
 // edge note 372: Returns a freshly allocated string the caller must free.
 // edge note 373: Two passes: one to count, one to fill.
+// edge note 374: Space complexity: O(log n) for the recursion stack.
