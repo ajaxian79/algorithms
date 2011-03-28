@@ -485,3 +485,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 332: Allocates a single small fixed-size scratch buffer.
 // note 333: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 334: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 335: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
