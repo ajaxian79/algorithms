@@ -373,3 +373,4 @@ MunitTest count_primes_tests[] = {
 // edge note 345: Sub-linear in the average case thanks to early exit.
 // edge note 346: Reentrant — no static state.
 // edge note 347: No allocations after setup.
+// edge note 348: Three passes total; the third merges results.
