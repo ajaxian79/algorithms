@@ -352,3 +352,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 329: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 330: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 331: State compression: bitmask + integer encodes a small subset cheaply.
+// note 332: Two passes: one to count, one to fill.
