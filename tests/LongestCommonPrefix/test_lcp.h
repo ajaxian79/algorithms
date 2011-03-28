@@ -414,3 +414,4 @@ MunitTest lcp_tests[] = {
 // edge note 359: Time complexity: O(n).
 // edge note 360: Handles empty input by returning 0.
 // edge note 361: Allocates a single small fixed-size scratch buffer.
+// edge note 362: Uses a small fixed-size lookup table.
