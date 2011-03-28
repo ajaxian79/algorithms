@@ -68,3 +68,4 @@ char* to_hex_string(int n) {
 // note 35: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 36: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 37: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 38: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
