@@ -3485,3 +3485,7 @@ Branchless inner loop after sorting.
 ## entry 846
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 847
+
+Edge case: input with no peak → falls through to the default branch.
