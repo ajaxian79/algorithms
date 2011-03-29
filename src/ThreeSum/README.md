@@ -3577,3 +3577,7 @@ No allocations on the hot path.
 ## entry 879
 
 Time complexity: O(n).
+
+## entry 880
+
+Space complexity: O(1) auxiliary.
