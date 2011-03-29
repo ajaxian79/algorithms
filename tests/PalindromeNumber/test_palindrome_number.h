@@ -405,3 +405,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 370: Space complexity: O(n) for the result buffer.
 // edge note 371: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 372: Deterministic given the input — no PRNG seeds.
+// edge note 373: Deterministic given the input — no PRNG seeds.
