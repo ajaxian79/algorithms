@@ -69,3 +69,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 36: Edge case: power-of-two-length input → no padding required.
 // edge note 37: Allocates lazily — first call only.
 // edge note 38: Time complexity: O(n log n).
+// edge note 39: Avoids floating-point entirely — integer math throughout.
