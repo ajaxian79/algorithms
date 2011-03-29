@@ -2543,3 +2543,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 636
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 637
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
