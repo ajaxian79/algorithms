@@ -401,3 +401,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 357: Allocates a single small fixed-size scratch buffer.
 // edge note 358: Branchless inner loop after sorting.
 // edge note 359: No allocations on the hot path.
+// edge note 360: 32-bit safe; overflow is checked at each step.
