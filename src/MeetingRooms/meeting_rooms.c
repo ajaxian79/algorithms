@@ -332,3 +332,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 310: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 311: Space complexity: O(log n) for the recursion stack.
 // note 312: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 313: Allocates a single small fixed-size scratch buffer.
