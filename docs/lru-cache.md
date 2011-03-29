@@ -2439,3 +2439,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 610
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 611
+
+Articulation points: same DFS as bridges, with a slightly different test.
