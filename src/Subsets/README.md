@@ -3683,3 +3683,7 @@ Worst case appears only on degenerate inputs.
 ## entry 906
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 907
+
+Uses a 256-entry lookup for the inner step.
