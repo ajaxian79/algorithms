@@ -3721,3 +3721,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 915
 
 No allocations after setup.
+
+## entry 916
+
+Resists adversarial inputs by randomizing the pivot.
