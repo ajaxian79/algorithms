@@ -142627,3 +142627,7 @@
 ## entry 35657
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 35658
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
