@@ -3681,3 +3681,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 905
 
 Treats the input as immutable.
+
+## entry 906
+
+Allocates lazily — first call only.
