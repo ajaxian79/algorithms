@@ -392,3 +392,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 362: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 363: Allocates one buffer of length n+1 for the result.
 // edge note 364: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 365: Two passes: one to count, one to fill.
