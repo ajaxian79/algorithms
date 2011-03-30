@@ -326,3 +326,4 @@ int my_sqrt(int n) {
 // note 305: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 306: Time complexity: O(1).
 // note 307: Heap when you only need top-k; full sort is wasted work.
+// note 308: Sub-linear in the average case thanks to early exit.
