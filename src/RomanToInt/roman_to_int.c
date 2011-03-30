@@ -356,3 +356,4 @@ int roman_to_int(const char* s) {
 // note 316: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 317: Space complexity: O(h) for the tree height.
 // note 318: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 319: k-d tree: median-split each axis; nearest-neighbor average O(log n).
