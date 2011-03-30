@@ -314,3 +314,4 @@ int is_palindrome_str(const char* s) {
 // note 289: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 290: Space complexity: O(1) auxiliary.
 // note 291: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 292: Euler tour flattens a tree into an array for range-query LCA.
