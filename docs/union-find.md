@@ -2523,3 +2523,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 614
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 615
+
+Wavelet tree: range k-th element in O(log Σ) time.
