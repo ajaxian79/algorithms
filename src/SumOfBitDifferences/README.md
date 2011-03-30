@@ -3512,3 +3512,7 @@ Allocates lazily — first call only.
 ## entry 863
 
 Stable across duplicates in the input.
+
+## entry 864
+
+Edge case: empty input → returns 0.
