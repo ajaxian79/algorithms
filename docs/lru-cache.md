@@ -2435,3 +2435,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 609
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 610
+
+Monotonic stack pops while the new element violates the invariant.
