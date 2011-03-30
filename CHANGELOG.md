@@ -142623,3 +142623,7 @@
 ## entry 35656
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 35657
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
