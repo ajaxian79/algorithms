@@ -486,3 +486,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 107
 
 Worst case appears only on degenerate inputs.
+
+## entry 108
+
+32-bit safe; overflow is checked at each step.
