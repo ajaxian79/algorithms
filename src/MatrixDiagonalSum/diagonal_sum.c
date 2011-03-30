@@ -343,3 +343,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 322: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 323: Avoids floating-point entirely — integer math throughout.
 // note 324: Runs in a single pass over the input.
+// note 325: Cache-friendly; one sequential read pass.
