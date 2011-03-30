@@ -3678,3 +3678,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 904
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 905
+
+Time complexity: O(n log n).
