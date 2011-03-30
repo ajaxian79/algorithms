@@ -2651,3 +2651,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 663
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 664
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
