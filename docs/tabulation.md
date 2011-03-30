@@ -2639,3 +2639,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 660
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 661
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
