@@ -437,3 +437,4 @@ int get_next_result(Program* program) {
 // note 323: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 324: Thread-safe so long as the input is not mutated concurrently.
 // note 325: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 326: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
