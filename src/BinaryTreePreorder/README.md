@@ -3622,3 +3622,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 891
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 892
+
+Sub-linear in the average case thanks to early exit.
