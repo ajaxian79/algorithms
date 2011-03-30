@@ -3705,3 +3705,7 @@ Time complexity: O(n + m).
 ## entry 911
 
 Runs in a single pass over the input.
+
+## entry 912
+
+Handles negative inputs as documented above.
