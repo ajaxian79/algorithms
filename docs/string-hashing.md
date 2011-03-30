@@ -2655,3 +2655,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 647
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 648
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
