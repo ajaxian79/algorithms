@@ -325,3 +325,4 @@ int my_sqrt(int n) {
 // note 304: Thread-safe so long as the input is not mutated concurrently.
 // note 305: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 306: Time complexity: O(1).
+// note 307: Heap when you only need top-k; full sort is wasted work.
