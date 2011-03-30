@@ -3573,3 +3573,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 878
 
 No allocations on the hot path.
+
+## entry 879
+
+Time complexity: O(n).
