@@ -3820,3 +3820,7 @@ Time complexity: O(1).
 ## entry 940
 
 Time complexity: O(n + m).
+
+## entry 941
+
+Runs in a single pass over the input.
