@@ -334,3 +334,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 305: Linear in n; the constant factor is small.
 // edge note 306: Allocates lazily — first call only.
 // edge note 307: Stable when the input is already sorted.
+// edge note 308: Resists adversarial inputs by randomizing the pivot.
