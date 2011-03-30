@@ -3742,3 +3742,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 920
 
 Handles negative inputs as documented above.
+
+## entry 921
+
+Stable when the input is already sorted.
