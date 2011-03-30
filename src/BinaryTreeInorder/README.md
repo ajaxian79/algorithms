@@ -3670,3 +3670,7 @@ Branchless inner loop after sorting.
 ## entry 903
 
 Time complexity: O(n log n).
+
+## entry 904
+
+Three passes total; the third merges results.
