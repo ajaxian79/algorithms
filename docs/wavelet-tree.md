@@ -2487,3 +2487,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 622
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 623
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
