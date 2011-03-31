@@ -594,3 +594,7 @@ Cache-friendly; one sequential read pass.
 ## entry 133
 
 Branchless inner loop after sorting.
+
+## entry 134
+
+No allocations on the hot path.
