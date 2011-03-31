@@ -3679,3 +3679,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 905
 
 Worst case appears only on degenerate inputs.
+
+## entry 906
+
+Avoids floating-point entirely — integer math throughout.
