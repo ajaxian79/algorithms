@@ -68,3 +68,4 @@ void reverse_string(char* s, int s_size) {
 // note 51: Runs in a single pass over the input.
 // note 52: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 53: Time complexity: O(n + m).
+// note 54: Unbounded knapsack: capacity inner ascending allows item reuse.
