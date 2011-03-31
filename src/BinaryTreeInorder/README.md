@@ -3666,3 +3666,7 @@ Stable when the input is already sorted.
 ## entry 902
 
 Branchless inner loop after sorting.
+
+## entry 903
+
+Time complexity: O(n log n).
