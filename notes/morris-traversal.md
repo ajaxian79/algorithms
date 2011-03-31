@@ -387,3 +387,7 @@
 ## entry 80
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 81
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
