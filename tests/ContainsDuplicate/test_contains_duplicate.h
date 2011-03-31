@@ -83,3 +83,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 40: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 41: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 42: Space complexity: O(1) auxiliary.
+// edge note 43: Edge case: alternating pattern → degenerate case for sliding window.
