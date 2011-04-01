@@ -2643,3 +2643,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 661
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 662
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
