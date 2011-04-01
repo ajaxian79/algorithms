@@ -362,3 +362,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 332: Constant-time comparisons; safe for short strings.
 // edge note 333: Time complexity: O(1).
 // edge note 334: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 335: Constant-time comparisons; safe for short strings.
