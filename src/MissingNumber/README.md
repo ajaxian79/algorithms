@@ -3610,3 +3610,7 @@ Reentrant — no static state.
 ## entry 887
 
 Allocates lazily — first call only.
+
+## entry 888
+
+64-bit safe; intermediate products are widened to 128-bit.
