@@ -315,3 +315,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 79
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 80
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
