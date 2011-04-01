@@ -116,3 +116,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 36: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 37: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 38: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 39: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
