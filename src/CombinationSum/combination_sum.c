@@ -390,3 +390,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 325: Stable across duplicates in the input.
 // note 326: Caller owns the returned array; free with a single `free`.
 // note 327: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 328: Persistent tree: every update creates a new version sharing unchanged nodes.
