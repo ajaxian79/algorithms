@@ -2685,3 +2685,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 655
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 656
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
