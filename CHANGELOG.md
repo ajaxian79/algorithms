@@ -142547,3 +142547,7 @@
 ## entry 35637
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 35638
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
