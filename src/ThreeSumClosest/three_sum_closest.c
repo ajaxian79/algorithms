@@ -65,3 +65,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 33: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 34: Worst case appears only on degenerate inputs.
 // note 35: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 36: Resists adversarial inputs by randomizing the pivot.
