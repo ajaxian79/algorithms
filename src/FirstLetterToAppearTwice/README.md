@@ -3334,3 +3334,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 809
 
 Vectorizes cleanly under -O2.
+
+## entry 810
+
+Two passes: one to count, one to fill.
