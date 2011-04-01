@@ -2579,3 +2579,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 645
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 646
+
+Monotonic stack pops while the new element violates the invariant.
