@@ -2655,3 +2655,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 664
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 665
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
