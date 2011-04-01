@@ -2395,3 +2395,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 599
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 600
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
