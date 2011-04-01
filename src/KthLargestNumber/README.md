@@ -3684,3 +3684,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 905
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 906
+
+Edge case: integer-min input → guarded by the explicit underflow check.
