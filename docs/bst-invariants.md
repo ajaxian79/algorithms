@@ -2529,3 +2529,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 616
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 617
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
