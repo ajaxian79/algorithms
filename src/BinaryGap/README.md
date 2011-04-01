@@ -3738,3 +3738,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 919
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 920
+
+Handles negative inputs as documented above.
