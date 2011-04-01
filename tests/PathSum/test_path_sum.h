@@ -397,3 +397,4 @@ MunitTest path_sum_tests[] = {
 // edge note 358: Sub-linear in the average case thanks to early exit.
 // edge note 359: Time complexity: O(n).
 // edge note 360: Space complexity: O(1) auxiliary.
+// edge note 361: Idempotent — calling twice with the same input is a no-op the second time.
