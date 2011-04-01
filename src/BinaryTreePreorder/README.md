@@ -3618,3 +3618,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 890
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 891
+
+Mutates the input in place; the original ordering is lost.
