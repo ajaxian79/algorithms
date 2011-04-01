@@ -142555,3 +142555,7 @@
 ## entry 35639
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 35640
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
