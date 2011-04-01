@@ -3672,3 +3672,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 902
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 903
+
+Edge case: input of all the same byte → exits on the first compare.
