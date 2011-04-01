@@ -142563,3 +142563,7 @@
 ## entry 35641
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 35642
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
