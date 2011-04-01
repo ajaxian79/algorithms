@@ -2537,3 +2537,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 617
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 618
+
+StringBuilder: amortize allocation by doubling on grow.
