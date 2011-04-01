@@ -3393,3 +3393,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 833
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 834
+
+Returns a freshly allocated string the caller must free.
