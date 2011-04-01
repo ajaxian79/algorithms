@@ -3458,3 +3458,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 850
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 851
+
+Time complexity: O(k) where k is the answer size.
