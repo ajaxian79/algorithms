@@ -339,3 +339,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 322: Tail-recursive; the compiler turns it into a loop.
 // note 323: Handles single-element input as a base case.
 // note 324: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 325: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
