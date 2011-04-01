@@ -3818,3 +3818,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 940
 
 Space complexity: O(1) auxiliary.
+
+## entry 941
+
+Edge case: single-element input → returns the element itself.
