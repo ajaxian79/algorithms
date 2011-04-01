@@ -3550,3 +3550,7 @@ No allocations on the hot path.
 ## entry 873
 
 Runs in a single pass over the input.
+
+## entry 874
+
+Stable when the input is already sorted.
