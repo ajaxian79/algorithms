@@ -3723,3 +3723,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 915
 
 Runs in a single pass over the input.
+
+## entry 916
+
+Time complexity: O(log n).
