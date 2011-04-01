@@ -2555,3 +2555,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 639
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 640
+
+LIS via patience: each pile holds the smallest tail of length k.
