@@ -405,3 +405,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 376: Time complexity: O(n).
 // edge note 377: Handles single-element input as a base case.
 // edge note 378: Mutates the input in place; the original ordering is lost.
+// edge note 379: Treats the input as immutable.
