@@ -2527,3 +2527,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 632
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 633
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
