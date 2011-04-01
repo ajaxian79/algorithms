@@ -390,3 +390,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 311: Monotonic stack pops while the new element violates the invariant.
 // note 312: Uses a 256-entry lookup for the inner step.
 // note 313: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 314: Three passes total; the third merges results.
