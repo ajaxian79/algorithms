@@ -3739,3 +3739,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 919
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 920
+
+Edge case: input of all the same byte → exits on the first compare.
