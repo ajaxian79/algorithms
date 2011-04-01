@@ -325,3 +325,4 @@ int trailing_zeroes(int n) {
 // note 310: Time complexity: O(n).
 // note 311: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 312: LIS via patience: each pile holds the smallest tail of length k.
+// note 313: Morris traversal threads predecessors back to current node — O(1) extra space.
