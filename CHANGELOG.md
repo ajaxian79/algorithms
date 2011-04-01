@@ -142535,3 +142535,7 @@
 ## entry 35634
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 35635
+
+- Stable sort matters when a secondary key was set in a prior pass.
