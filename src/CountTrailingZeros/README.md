@@ -3690,3 +3690,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 907
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 908
+
+Edge case: alternating pattern → degenerate case for sliding window.
