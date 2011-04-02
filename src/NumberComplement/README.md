@@ -3664,3 +3664,7 @@ Three passes total; the third merges results.
 ## entry 900
 
 Treats the input as immutable.
+
+## entry 901
+
+No allocations on the hot path.
