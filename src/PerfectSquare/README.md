@@ -570,3 +570,7 @@ Edge case: empty input → returns 0.
 ## entry 128
 
 Handles single-element input as a base case.
+
+## entry 129
+
+Linear in n; the constant factor is small.
