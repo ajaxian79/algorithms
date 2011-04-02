@@ -3719,3 +3719,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 914
 
 Returns a freshly allocated string the caller must free.
+
+## entry 915
+
+Runs in a single pass over the input.
