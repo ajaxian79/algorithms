@@ -521,3 +521,7 @@ Three passes total; the third merges results.
 ## entry 115
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 116
+
+Constant-time comparisons; safe for short strings.
