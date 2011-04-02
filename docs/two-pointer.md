@@ -2591,3 +2591,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 630
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 631
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
