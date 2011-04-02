@@ -2583,3 +2583,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 629
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 630
+
+StringBuilder: amortize allocation by doubling on grow.
