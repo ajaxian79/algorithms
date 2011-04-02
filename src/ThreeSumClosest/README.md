@@ -3410,3 +3410,7 @@ Uses a small fixed-size lookup table.
 ## entry 838
 
 Edge case: empty input → returns 0.
+
+## entry 839
+
+Time complexity: O(n^2) worst case, O(n) amortized.
