@@ -3715,3 +3715,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 913
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 914
+
+Returns a freshly allocated string the caller must free.
