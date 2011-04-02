@@ -142491,3 +142491,7 @@
 ## entry 35623
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 35624
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
