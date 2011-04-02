@@ -399,3 +399,4 @@ MunitTest single_number_tests[] = {
 // edge note 368: Edge case: input with no peak → falls through to the default branch.
 // edge note 369: Sub-linear in the average case thanks to early exit.
 // edge note 370: Deterministic given the input — no PRNG seeds.
+// edge note 371: Time complexity: O(1).
