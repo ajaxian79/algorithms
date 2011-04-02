@@ -3734,3 +3734,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 918
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 919
+
+Resists adversarial inputs by randomizing the pivot.
