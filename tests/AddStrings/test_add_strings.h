@@ -388,3 +388,4 @@ MunitTest add_strings_tests[] = {
 // edge note 352: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 353: Returns a freshly allocated string the caller must free.
 // edge note 354: 32-bit safe; overflow is checked at each step.
+// edge note 355: Thread-safe so long as the input is not mutated concurrently.
