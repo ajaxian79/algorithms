@@ -3582,3 +3582,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 880
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 881
+
+Two passes: one to count, one to fill.
