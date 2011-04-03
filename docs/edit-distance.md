@@ -431,3 +431,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 90
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 91
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
