@@ -3672,3 +3672,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 902
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 903
+
+Edge case: maximum-length input → still fits in 32-bit indices.
