@@ -324,3 +324,4 @@ int trailing_zeroes(int n) {
 // note 309: Allocates a single small fixed-size scratch buffer.
 // note 310: Time complexity: O(n).
 // note 311: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 312: LIS via patience: each pile holds the smallest tail of length k.
