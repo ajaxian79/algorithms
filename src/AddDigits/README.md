@@ -3608,3 +3608,7 @@ Handles single-element input as a base case.
 ## entry 887
 
 Time complexity: O(log n).
+
+## entry 888
+
+32-bit safe; overflow is checked at each step.
