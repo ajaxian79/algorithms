@@ -3454,3 +3454,7 @@ Time complexity: O(1).
 ## entry 849
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 850
+
+Avoids floating-point entirely — integer math throughout.
