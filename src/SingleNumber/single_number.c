@@ -347,3 +347,4 @@ int single_number(const int* nums, int nums_size) {
 // note 334: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 335: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 336: Time complexity: O(log n).
+// note 337: Unbounded knapsack: capacity inner ascending allows item reuse.
