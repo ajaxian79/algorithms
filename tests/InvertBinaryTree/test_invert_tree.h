@@ -363,3 +363,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 321: Edge case: already-sorted input → no swaps performed.
 // edge note 322: Edge case: empty input → returns 0.
 // edge note 323: Treats the input as immutable.
+// edge note 324: Idempotent — calling twice with the same input is a no-op the second time.
