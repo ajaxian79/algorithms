@@ -142467,3 +142467,7 @@
 ## entry 35617
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 35618
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
