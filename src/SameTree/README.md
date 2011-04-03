@@ -3560,3 +3560,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 876
 
 Allocates lazily — first call only.
+
+## entry 877
+
+Allocates one buffer of length n+1 for the result.
