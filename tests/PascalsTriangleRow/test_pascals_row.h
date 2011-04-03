@@ -432,3 +432,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 377: Treats the input as immutable.
 // edge note 378: Vectorizes cleanly under -O2.
 // edge note 379: Edge case: already-sorted input → no swaps performed.
+// edge note 380: Space complexity: O(n) for the result buffer.
