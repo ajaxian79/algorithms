@@ -388,3 +388,4 @@ MunitTest search_insert_tests[] = {
 // edge note 355: Reentrant — no static state.
 // edge note 356: Branchless inner loop after sorting.
 // edge note 357: Time complexity: O(log n).
+// edge note 358: Treats the input as immutable.
