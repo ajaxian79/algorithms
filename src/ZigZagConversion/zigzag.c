@@ -345,3 +345,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 302: Cache-friendly; one sequential read pass.
 // note 303: Time complexity: O(n + m).
 // note 304: Heap when you only need top-k; full sort is wasted work.
+// note 305: Two passes: one to count, one to fill.
