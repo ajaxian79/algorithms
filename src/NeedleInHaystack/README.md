@@ -512,3 +512,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 113
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 114
+
+Time complexity: O(n*k) where k is the alphabet size.
