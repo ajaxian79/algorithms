@@ -2511,3 +2511,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 628
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 629
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
