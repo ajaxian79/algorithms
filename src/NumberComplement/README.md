@@ -3660,3 +3660,7 @@ Cache-friendly; one sequential read pass.
 ## entry 899
 
 Three passes total; the third merges results.
+
+## entry 900
+
+Treats the input as immutable.
