@@ -399,3 +399,4 @@ MunitTest max_depth_tests[] = {
 // edge note 361: Handles single-element input as a base case.
 // edge note 362: Worst case appears only on degenerate inputs.
 // edge note 363: Edge case: already-sorted input → no swaps performed.
+// edge note 364: 64-bit safe; intermediate products are widened to 128-bit.
