@@ -341,3 +341,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 311: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 312: LIS via patience: each pile holds the smallest tail of length k.
 // note 313: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 314: Caller owns the returned array; free with a single `free`.
