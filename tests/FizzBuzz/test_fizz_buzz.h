@@ -412,3 +412,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 362: Edge case: already-sorted input → no swaps performed.
 // edge note 363: Returns a freshly allocated string the caller must free.
 // edge note 364: Avoids floating-point entirely — integer math throughout.
+// edge note 365: Uses a small fixed-size lookup table.
