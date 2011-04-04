@@ -404,3 +404,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 374: Treats the input as immutable.
 // edge note 375: Time complexity: O(n + m).
 // edge note 376: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 377: Edge case: input with one duplicate → handled without an extra pass.
