@@ -3712,3 +3712,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 913
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 914
+
+Edge case: single-element input → returns the element itself.
