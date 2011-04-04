@@ -3406,3 +3406,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 837
 
 Uses a small fixed-size lookup table.
+
+## entry 838
+
+Edge case: empty input → returns 0.
