@@ -3620,3 +3620,7 @@ Stable when the input is already sorted.
 ## entry 889
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 890
+
+Edge case: zero-length string → returns the empty result.
