@@ -3556,3 +3556,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 875
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 876
+
+Allocates lazily — first call only.
