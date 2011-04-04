@@ -3814,3 +3814,7 @@ Branchless inner loop after sorting.
 ## entry 939
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 940
+
+Space complexity: O(1) auxiliary.
