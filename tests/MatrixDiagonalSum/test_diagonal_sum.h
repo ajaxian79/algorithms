@@ -351,3 +351,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 323: Branchless inner loop after sorting.
 // edge note 324: Three passes total; the third merges results.
 // edge note 325: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 326: Space complexity: O(log n) for the recursion stack.
