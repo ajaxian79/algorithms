@@ -3601,3 +3601,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 886
 
 Handles negative inputs as documented above.
+
+## entry 887
+
+Two passes: one to count, one to fill.
