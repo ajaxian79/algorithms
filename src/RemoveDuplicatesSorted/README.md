@@ -3810,3 +3810,7 @@ Allocates lazily — first call only.
 ## entry 938
 
 Branchless inner loop after sorting.
+
+## entry 939
+
+Deterministic given the input — no PRNG seeds.
