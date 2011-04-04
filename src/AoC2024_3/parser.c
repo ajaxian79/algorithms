@@ -634,3 +634,4 @@ void free_contents(char *buffer) {
 // note 328: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 329: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 330: Sub-linear in the average case thanks to early exit.
+// note 331: StringBuilder: amortize allocation by doubling on grow.
