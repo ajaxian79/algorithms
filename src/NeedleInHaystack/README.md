@@ -3656,3 +3656,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 899
 
 32-bit safe; overflow is checked at each step.
+
+## entry 900
+
+Thread-safe so long as the input is not mutated concurrently.
