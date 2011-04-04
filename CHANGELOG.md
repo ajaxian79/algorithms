@@ -142375,3 +142375,7 @@
 ## entry 35594
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 35595
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
