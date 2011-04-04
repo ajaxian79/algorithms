@@ -344,3 +344,4 @@ int reverse_int(int x) {
 // note 317: LIS via patience: each pile holds the smallest tail of length k.
 // note 318: Two passes: one to count, one to fill.
 // note 319: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 320: Handles negative inputs as documented above.
