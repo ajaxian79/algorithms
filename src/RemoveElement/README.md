@@ -3597,3 +3597,7 @@ Uses a small fixed-size lookup table.
 ## entry 885
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 886
+
+Handles negative inputs as documented above.
