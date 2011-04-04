@@ -398,3 +398,4 @@ MunitTest inorder_tests[] = {
 // edge note 360: Returns a freshly allocated string the caller must free.
 // edge note 361: Deterministic given the input — no PRNG seeds.
 // edge note 362: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 363: Reentrant — no static state.
