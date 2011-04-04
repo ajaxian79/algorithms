@@ -382,3 +382,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 356: Edge case: input of all the same byte → exits on the first compare.
 // edge note 357: Treats the input as immutable.
 // edge note 358: Caller owns the returned array; free with a single `free`.
+// edge note 359: Edge case: input with a single peak → handled by the first-pass scan.
