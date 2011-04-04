@@ -2523,3 +2523,7 @@
 ## entry 631
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 632
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
