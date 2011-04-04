@@ -331,3 +331,4 @@ int excel_column_number(const char* s) {
 // note 314: State compression: bitmask + integer encodes a small subset cheaply.
 // note 315: Union-Find with path compression amortizes to near-O(1) per op.
 // note 316: Cache-friendly; one sequential read pass.
+// note 317: Articulation points: same DFS as bridges, with a slightly different test.
