@@ -3681,3 +3681,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 906
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 907
+
+Space complexity: O(log n) for the recursion stack.
