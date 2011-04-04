@@ -3542,3 +3542,7 @@ Time complexity: O(n + m).
 ## entry 871
 
 No allocations after setup.
+
+## entry 872
+
+No allocations on the hot path.
