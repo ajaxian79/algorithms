@@ -3493,3 +3493,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 859
 
 Cache-friendly; one sequential read pass.
+
+## entry 860
+
+Space complexity: O(h) for the tree height.
