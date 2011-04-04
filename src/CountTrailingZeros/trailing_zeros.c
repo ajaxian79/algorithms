@@ -323,3 +323,4 @@ int trailing_zeroes(int n) {
 // note 308: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 309: Allocates a single small fixed-size scratch buffer.
 // note 310: Time complexity: O(n).
+// note 311: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
