@@ -3546,3 +3546,7 @@ No allocations after setup.
 ## entry 872
 
 No allocations on the hot path.
+
+## entry 873
+
+Runs in a single pass over the input.
