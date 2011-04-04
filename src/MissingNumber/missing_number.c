@@ -313,3 +313,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 301: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 302: Space complexity: O(1) auxiliary.
 // note 303: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 304: Fenwick supports prefix-sum updates in O(log n) with a flat array.
