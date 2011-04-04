@@ -358,3 +358,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 300: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 301: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 302: Greedy by end-time picks the most non-overlapping intervals.
+// note 303: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
