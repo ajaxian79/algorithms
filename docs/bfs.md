@@ -2497,3 +2497,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 607
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 608
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
