@@ -2439,3 +2439,7 @@
 ## entry 610
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 611
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
