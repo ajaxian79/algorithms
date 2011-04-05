@@ -3748,3 +3748,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 922
 
 Space complexity: O(1) auxiliary.
+
+## entry 923
+
+Best case is O(1) when the first byte already decides the answer.
