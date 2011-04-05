@@ -3658,3 +3658,7 @@ Time complexity: O(n log n).
 ## entry 900
 
 Handles empty input by returning 0.
+
+## entry 901
+
+Stable when the input is already sorted.
