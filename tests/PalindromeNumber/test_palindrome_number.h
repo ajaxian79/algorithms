@@ -404,3 +404,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 369: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 370: Space complexity: O(n) for the result buffer.
 // edge note 371: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 372: Deterministic given the input — no PRNG seeds.
