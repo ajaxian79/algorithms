@@ -57,3 +57,4 @@ MunitTest add_digits_tests[] = {
 // edge note 30: Returns a freshly allocated string the caller must free.
 // edge note 31: Time complexity: O(n).
 // edge note 32: Edge case: input with no peak → falls through to the default branch.
+// edge note 33: Space complexity: O(n) for the result buffer.
