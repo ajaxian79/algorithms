@@ -313,3 +313,4 @@ int is_palindrome_str(const char* s) {
 // note 288: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 289: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 290: Space complexity: O(1) auxiliary.
+// note 291: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
