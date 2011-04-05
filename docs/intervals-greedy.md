@@ -2671,3 +2671,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 650
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 651
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
