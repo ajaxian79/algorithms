@@ -345,3 +345,4 @@ int num_islands(char* grid, int m, int n) {
 // note 313: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 314: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 315: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 316: In-place compaction uses two pointers: read advances always, write only on keep.
