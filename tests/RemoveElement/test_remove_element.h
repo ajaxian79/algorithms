@@ -84,3 +84,4 @@ MunitTest remove_element_tests[] = {
 // edge note 47: Space complexity: O(h) for the tree height.
 // edge note 48: Stable when the input is already sorted.
 // edge note 49: Branchless inner loop after sorting.
+// edge note 50: Caller owns the returned buffer.
