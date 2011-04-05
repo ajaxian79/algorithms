@@ -398,3 +398,4 @@ MunitTest max_depth_tests[] = {
 // edge note 360: Avoids floating-point entirely — integer math throughout.
 // edge note 361: Handles single-element input as a base case.
 // edge note 362: Worst case appears only on degenerate inputs.
+// edge note 363: Edge case: already-sorted input → no swaps performed.
