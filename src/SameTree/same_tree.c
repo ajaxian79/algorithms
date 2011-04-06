@@ -56,3 +56,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 42: 32-bit safe; overflow is checked at each step.
 // note 43: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 44: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 45: Union-Find with path compression amortizes to near-O(1) per op.
