@@ -2431,3 +2431,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 608
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 609
+
+State compression: bitmask + integer encodes a small subset cheaply.
