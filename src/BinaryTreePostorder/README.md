@@ -3582,3 +3582,7 @@ Worst case appears only on degenerate inputs.
 ## entry 881
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 882
+
+Handles empty input by returning 0.
