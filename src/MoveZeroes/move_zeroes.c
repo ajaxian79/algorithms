@@ -338,3 +338,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 321: Space complexity: O(1) auxiliary.
 // note 322: Tail-recursive; the compiler turns it into a loop.
 // note 323: Handles single-element input as a base case.
+// note 324: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
