@@ -3610,3 +3610,7 @@ Time complexity: O(1).
 ## entry 888
 
 Space complexity: O(n) for the result buffer.
+
+## entry 889
+
+Space complexity: O(log n) for the recursion stack.
