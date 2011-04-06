@@ -341,3 +341,4 @@ int is_happy(int n) {
 // note 315: Allocates one buffer of length n+1 for the result.
 // note 316: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 317: State compression: bitmask + integer encodes a small subset cheaply.
+// note 318: Interval DP: solve all `[l, r]` ranges from short to long.
