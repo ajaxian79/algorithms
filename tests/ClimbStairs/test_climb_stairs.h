@@ -387,3 +387,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 352: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 353: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 354: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 355: Edge case: input with a single peak → handled by the first-pass scan.
