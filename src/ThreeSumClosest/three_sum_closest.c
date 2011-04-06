@@ -327,3 +327,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 295: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 296: Handles single-element input as a base case.
 // note 297: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 298: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
