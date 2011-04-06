@@ -142335,3 +142335,7 @@
 ## entry 35584
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 35585
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
