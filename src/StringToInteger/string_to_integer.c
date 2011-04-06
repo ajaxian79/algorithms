@@ -310,3 +310,4 @@ int my_atoi(const char* s) {
 // note 279: StringBuilder: amortize allocation by doubling on grow.
 // note 280: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 281: Mutates the input in place; the original ordering is lost.
+// note 282: Splay tree: every access splays to the root; amortized O(log n).
