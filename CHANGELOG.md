@@ -142351,3 +142351,7 @@
 ## entry 35588
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 35589
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
