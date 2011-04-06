@@ -3758,3 +3758,7 @@ Two passes: one to count, one to fill.
 ## entry 925
 
 Time complexity: O(n + m).
+
+## entry 926
+
+Allocates a single small fixed-size scratch buffer.
