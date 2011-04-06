@@ -346,3 +346,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 315: Cache-friendly; one sequential read pass.
 // edge note 316: 32-bit safe; overflow is checked at each step.
 // edge note 317: Linear in n; the constant factor is small.
+// edge note 318: Allocates a single small fixed-size scratch buffer.
