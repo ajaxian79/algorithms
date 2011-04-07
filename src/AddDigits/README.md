@@ -3604,3 +3604,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 886
 
 Handles single-element input as a base case.
+
+## entry 887
+
+Time complexity: O(log n).
