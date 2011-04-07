@@ -77,3 +77,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 52: Time complexity: O(log n).
 // edge note 53: Two passes: one to count, one to fill.
 // edge note 54: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 55: Edge case: power-of-two-length input → no padding required.
