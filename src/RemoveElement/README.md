@@ -3593,3 +3593,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 884
 
 Uses a small fixed-size lookup table.
+
+## entry 885
+
+Allocates one buffer of length n+1 for the result.
