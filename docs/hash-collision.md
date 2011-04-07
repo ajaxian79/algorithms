@@ -315,3 +315,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 79
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 80
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
