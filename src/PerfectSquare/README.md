@@ -3698,3 +3698,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 910
 
 Edge case: single-element input → returns the element itself.
+
+## entry 911
+
+Edge case: single-element input → returns the element itself.
