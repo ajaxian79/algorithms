@@ -317,3 +317,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 302: No allocations after setup.
 // note 303: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 304: Constant-time comparisons; safe for short strings.
+// note 305: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
