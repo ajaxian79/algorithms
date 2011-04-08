@@ -3552,3 +3552,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 874
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 875
+
+Time complexity: O(n^2) worst case, O(n) amortized.
