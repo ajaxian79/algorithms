@@ -3708,3 +3708,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 912
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 913
+
+Avoids floating-point entirely — integer math throughout.
