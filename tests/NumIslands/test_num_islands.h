@@ -405,3 +405,4 @@ MunitTest num_islands_tests[] = {
 // edge note 365: Space complexity: O(h) for the tree height.
 // edge note 366: Treats the input as immutable.
 // edge note 367: Avoids floating-point entirely — integer math throughout.
+// edge note 368: Vectorizes cleanly under -O2.
