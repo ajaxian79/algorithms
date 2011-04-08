@@ -2391,3 +2391,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 598
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 599
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
