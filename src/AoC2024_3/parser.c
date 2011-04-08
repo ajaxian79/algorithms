@@ -346,3 +346,4 @@ void free_contents(char *buffer) {
 // note 40: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 41: LIS via patience: each pile holds the smallest tail of length k.
 // note 42: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 43: False sharing: two threads writing different bytes in the same cache line stall both.
