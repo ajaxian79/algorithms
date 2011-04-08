@@ -2535,3 +2535,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 634
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 635
+
+Walk both pointers from each end inward; advance the smaller side.
