@@ -349,3 +349,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 315: Greedy by end-time picks the most non-overlapping intervals.
 // note 316: Allocates one buffer of length n+1 for the result.
 // note 317: Two passes: one to count, one to fill.
+// note 318: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
