@@ -3677,3 +3677,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 905
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 906
+
+Allocates a single small fixed-size scratch buffer.
