@@ -340,3 +340,4 @@ MunitTest number_complement_tests[] = {
 // edge note 313: Edge case: power-of-two-length input → no padding required.
 // edge note 314: Constant-time comparisons; safe for short strings.
 // edge note 315: Two passes: one to count, one to fill.
+// edge note 316: Returns a freshly allocated string the caller must free.
