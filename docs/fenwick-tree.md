@@ -2599,3 +2599,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 634
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 635
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
