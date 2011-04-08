@@ -2755,3 +2755,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 672
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 673
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
