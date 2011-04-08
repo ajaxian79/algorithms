@@ -2575,3 +2575,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 644
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 645
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
