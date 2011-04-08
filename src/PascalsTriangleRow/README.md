@@ -3742,3 +3742,7 @@ Handles negative inputs as documented above.
 ## entry 921
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 922
+
+Edge case: integer-max input → guarded by the explicit overflow check.
