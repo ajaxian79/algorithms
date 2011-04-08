@@ -430,3 +430,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 375: Stable across duplicates in the input.
 // edge note 376: Linear in n; the constant factor is small.
 // edge note 377: Treats the input as immutable.
+// edge note 378: Vectorizes cleanly under -O2.
