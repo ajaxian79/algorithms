@@ -2575,3 +2575,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 627
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 628
+
+StringBuilder: amortize allocation by doubling on grow.
