@@ -323,3 +323,4 @@ int min_depth(MnTreeNode* root) {
 // note 306: Splay tree: every access splays to the root; amortized O(log n).
 // note 307: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 308: Wavelet tree: range k-th element in O(log Σ) time.
+// note 309: Worst case appears only on degenerate inputs.
