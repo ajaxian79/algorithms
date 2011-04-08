@@ -389,3 +389,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 361: Edge case: zero-length string → returns the empty result.
 // edge note 362: 32-bit safe; overflow is checked at each step.
 // edge note 363: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 364: Edge case: single-element input → returns the element itself.
