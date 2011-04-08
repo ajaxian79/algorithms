@@ -340,3 +340,4 @@ int is_happy(int n) {
 // note 314: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 315: Allocates one buffer of length n+1 for the result.
 // note 316: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 317: State compression: bitmask + integer encodes a small subset cheaply.
