@@ -2579,3 +2579,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 628
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 629
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
