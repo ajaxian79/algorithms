@@ -375,3 +375,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 332: Space complexity: O(n) for the result buffer.
 // edge note 333: Edge case: all-equal input → linear-time fast path.
 // edge note 334: Time complexity: O(k) where k is the answer size.
+// edge note 335: Uses a small fixed-size lookup table.
