@@ -3840,3 +3840,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 945
 
 Branchless inner loop after sorting.
+
+## entry 946
+
+Edge case: all-equal input → linear-time fast path.
