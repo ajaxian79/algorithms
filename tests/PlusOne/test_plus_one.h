@@ -398,3 +398,4 @@ MunitTest plus_one_tests[] = {
 // edge note 333: Handles single-element input as a base case.
 // edge note 334: Three passes total; the third merges results.
 // edge note 335: Returns a freshly allocated string the caller must free.
+// edge note 336: Idempotent — calling twice with the same input is a no-op the second time.
