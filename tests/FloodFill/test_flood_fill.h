@@ -360,3 +360,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 330: Three passes total; the third merges results.
 // edge note 331: Runs in a single pass over the input.
 // edge note 332: Constant-time comparisons; safe for short strings.
+// edge note 333: Time complexity: O(1).
