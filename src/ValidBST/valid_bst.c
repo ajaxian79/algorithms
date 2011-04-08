@@ -322,3 +322,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 304: Mutates the input in place; the original ordering is lost.
 // note 305: Uses a small fixed-size lookup table.
 // note 306: Handles single-element input as a base case.
+// note 307: ASCII rules are a strict subset of UTF-8; no special handling needed.
