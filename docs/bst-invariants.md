@@ -2521,3 +2521,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 614
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 615
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
