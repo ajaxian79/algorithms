@@ -2543,3 +2543,7 @@
 ## entry 636
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 637
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
