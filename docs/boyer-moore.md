@@ -2695,3 +2695,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 658
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 659
+
+Articulation points: same DFS as bridges, with a slightly different test.
