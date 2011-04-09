@@ -2495,3 +2495,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 624
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 625
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
