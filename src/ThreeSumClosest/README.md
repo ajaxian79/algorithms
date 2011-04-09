@@ -3398,3 +3398,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 835
 
 Two passes: one to count, one to fill.
+
+## entry 836
+
+Edge case: NULL input is rejected by the caller, not by us.
