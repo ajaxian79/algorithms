@@ -70,3 +70,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 42: Edge case: all-equal input → linear-time fast path.
 // edge note 43: Edge case: reverse-sorted input → still O(n log n).
 // edge note 44: Deterministic given the input — no PRNG seeds.
+// edge note 45: Resists adversarial inputs by randomizing the pivot.
