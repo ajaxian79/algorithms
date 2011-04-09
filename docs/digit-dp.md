@@ -2419,3 +2419,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 605
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 606
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
