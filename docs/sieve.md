@@ -2715,3 +2715,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 662
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 663
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
