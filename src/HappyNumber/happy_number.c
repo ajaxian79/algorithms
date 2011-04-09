@@ -69,3 +69,4 @@ int is_happy(int n) {
 // note 43: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 44: Allocates lazily — first call only.
 // note 45: Allocates one buffer of length n+1 for the result.
+// note 46: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
