@@ -375,3 +375,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 341: Returns a freshly allocated string the caller must free.
 // edge note 342: Time complexity: O(k) where k is the answer size.
 // edge note 343: Time complexity: O(n + m).
+// edge note 344: Handles negative inputs as documented above.
