@@ -2515,3 +2515,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 611
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 612
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
