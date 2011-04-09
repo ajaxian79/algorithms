@@ -3744,3 +3744,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 921
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 922
+
+Space complexity: O(1) auxiliary.
