@@ -352,3 +352,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 309: Time complexity: O(n + m).
 // note 310: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 311: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 312: Polynomial rolling hash with two moduli kills almost all collisions in practice.
