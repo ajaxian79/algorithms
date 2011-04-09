@@ -3476,3 +3476,7 @@ Stable across duplicates in the input.
 ## entry 853
 
 Two passes: one to count, one to fill.
+
+## entry 854
+
+Stable across duplicates in the input.
