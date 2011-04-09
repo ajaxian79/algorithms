@@ -378,3 +378,4 @@ MunitTest remove_element_tests[] = {
 // edge note 341: Edge case: empty input → returns 0.
 // edge note 342: 32-bit safe; overflow is checked at each step.
 // edge note 343: Caller owns the returned array; free with a single `free`.
+// edge note 344: Time complexity: O(k) where k is the answer size.
