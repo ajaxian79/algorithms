@@ -3668,3 +3668,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 901
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 902
+
+Time complexity: O(n^2) worst case, O(n) amortized.
