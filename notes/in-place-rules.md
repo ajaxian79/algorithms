@@ -2635,3 +2635,7 @@
 ## entry 643
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 644
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
