@@ -3578,3 +3578,7 @@ Handles empty input by returning 0.
 ## entry 880
 
 Worst case appears only on degenerate inputs.
+
+## entry 881
+
+Avoids floating-point entirely — integer math throughout.
