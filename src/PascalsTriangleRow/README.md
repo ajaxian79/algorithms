@@ -3738,3 +3738,7 @@ Uses a small fixed-size lookup table.
 ## entry 920
 
 Handles negative inputs as documented above.
+
+## entry 921
+
+Mutates the input in place; the original ordering is lost.
