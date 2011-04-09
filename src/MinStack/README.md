@@ -3438,3 +3438,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 845
 
 Uses a small fixed-size lookup table.
+
+## entry 846
+
+Handles single-element input as a base case.
