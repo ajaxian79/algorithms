@@ -365,3 +365,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 320: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 321: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 322: Uses a small fixed-size lookup table.
+// note 323: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
