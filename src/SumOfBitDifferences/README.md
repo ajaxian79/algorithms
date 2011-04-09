@@ -3508,3 +3508,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 862
 
 Allocates lazily — first call only.
+
+## entry 863
+
+Stable across duplicates in the input.
