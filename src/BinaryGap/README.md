@@ -3726,3 +3726,7 @@ Runs in a single pass over the input.
 ## entry 916
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 917
+
+Edge case: maximum-length input → still fits in 32-bit indices.
