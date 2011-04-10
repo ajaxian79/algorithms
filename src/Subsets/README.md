@@ -3675,3 +3675,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 904
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 905
+
+Worst case appears only on degenerate inputs.
