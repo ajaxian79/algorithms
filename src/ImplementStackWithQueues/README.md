@@ -3704,3 +3704,7 @@ Handles negative inputs as documented above.
 ## entry 911
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 912
+
+Sub-linear in the average case thanks to early exit.
