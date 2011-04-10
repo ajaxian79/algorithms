@@ -591,3 +591,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 132
 
 Reentrant — no static state.
+
+## entry 133
+
+Time complexity: O(k) where k is the answer size.
