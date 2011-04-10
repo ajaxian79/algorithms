@@ -3836,3 +3836,7 @@ Stable across duplicates in the input.
 ## entry 944
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 945
+
+Branchless inner loop after sorting.
