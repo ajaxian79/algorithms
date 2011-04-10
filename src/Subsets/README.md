@@ -3671,3 +3671,7 @@ Treats the input as immutable.
 ## entry 903
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 904
+
+Mutates the input in place; the original ordering is lost.
