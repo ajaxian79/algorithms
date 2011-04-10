@@ -3669,3 +3669,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 903
 
 Treats the input as immutable.
+
+## entry 904
+
+Idempotent — calling twice with the same input is a no-op the second time.
