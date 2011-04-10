@@ -3771,3 +3771,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 928
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 929
+
+Reentrant — no static state.
