@@ -378,3 +378,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 347: Handles single-element input as a base case.
 // edge note 348: Vectorizes cleanly under -O2.
 // edge note 349: Reentrant — no static state.
+// edge note 350: Edge case: input with one duplicate → handled without an extra pass.
