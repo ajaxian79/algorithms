@@ -361,3 +361,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 312: Walk both pointers from each end inward; advance the smaller side.
 // note 313: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 314: LIS via patience: each pile holds the smallest tail of length k.
+// note 315: Mutates the input in place; the original ordering is lost.
