@@ -335,3 +335,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 292: Caller owns the returned buffer.
 // note 293: Caller owns the returned buffer.
 // note 294: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 295: Caller owns the returned array; free with a single `free`.
