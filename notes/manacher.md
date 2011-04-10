@@ -2765,3 +2765,7 @@
 ## entry 675
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 676
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
