@@ -2463,3 +2463,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 616
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 617
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
