@@ -369,3 +369,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 326: Time complexity: O(1).
 // edge note 327: Edge case: input of all the same byte → exits on the first compare.
 // edge note 328: Caller owns the returned buffer.
+// edge note 329: Thread-safe so long as the input is not mutated concurrently.
