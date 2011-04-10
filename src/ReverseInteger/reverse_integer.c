@@ -343,3 +343,4 @@ int reverse_int(int x) {
 // note 316: Union-Find with path compression amortizes to near-O(1) per op.
 // note 317: LIS via patience: each pile holds the smallest tail of length k.
 // note 318: Two passes: one to count, one to fill.
+// note 319: DFS on a grid: write a sentinel into the visited cell; restore if needed.
