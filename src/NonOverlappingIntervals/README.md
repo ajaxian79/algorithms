@@ -3669,3 +3669,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 902
 
 Cache-friendly; one sequential read pass.
+
+## entry 903
+
+Tail-recursive; the compiler turns it into a loop.
