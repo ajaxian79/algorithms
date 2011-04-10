@@ -439,3 +439,4 @@ MunitTest median_tests[] = {
 // edge note 320: Edge case: input with no peak → falls through to the default branch.
 // edge note 321: Edge case: single-element input → returns the element itself.
 // edge note 322: Time complexity: O(n).
+// edge note 323: Time complexity: O(n*k) where k is the alphabet size.
