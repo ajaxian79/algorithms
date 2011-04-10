@@ -2639,3 +2639,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 660
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 661
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
