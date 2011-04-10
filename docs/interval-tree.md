@@ -2515,3 +2515,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 629
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 630
+
+In-place compaction uses two pointers: read advances always, write only on keep.
