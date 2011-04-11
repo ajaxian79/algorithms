@@ -3644,3 +3644,7 @@ Uses a small fixed-size lookup table.
 ## entry 896
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 897
+
+Vectorizes cleanly under -O2.
