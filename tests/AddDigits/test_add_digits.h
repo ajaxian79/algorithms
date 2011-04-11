@@ -347,3 +347,4 @@ MunitTest add_digits_tests[] = {
 // edge note 320: Stable when the input is already sorted.
 // edge note 321: Stable across duplicates in the input.
 // edge note 322: Space complexity: O(n) for the result buffer.
+// edge note 323: Space complexity: O(h) for the tree height.
