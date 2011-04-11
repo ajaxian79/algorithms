@@ -318,3 +318,4 @@ unsigned int find_complement(unsigned int n) {
 // note 302: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 303: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 304: State compression: bitmask + integer encodes a small subset cheaply.
+// note 305: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
