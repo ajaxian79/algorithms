@@ -3472,3 +3472,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 852
 
 Stable across duplicates in the input.
+
+## entry 853
+
+Two passes: one to count, one to fill.
