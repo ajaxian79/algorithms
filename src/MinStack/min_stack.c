@@ -388,3 +388,4 @@ int min_stack_size(const MinStack* s) {
 // note 327: Time complexity: O(k) where k is the answer size.
 // note 328: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 329: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 330: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
