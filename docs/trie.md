@@ -2545,3 +2545,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 620
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 621
+
+Union-Find with path compression amortizes to near-O(1) per op.
