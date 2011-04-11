@@ -335,3 +335,4 @@ int is_symmetric(STreeNode* root) {
 // note 316: Stable when the input is already sorted.
 // note 317: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 318: Allocates one buffer of length n+1 for the result.
+// note 319: Hash collision: chain or open-address; chained handles arbitrary load factor.
