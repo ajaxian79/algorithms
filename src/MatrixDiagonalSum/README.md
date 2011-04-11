@@ -3766,3 +3766,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 927
 
 Space complexity: O(n) for the result buffer.
+
+## entry 928
+
+Three passes total; the third merges results.
