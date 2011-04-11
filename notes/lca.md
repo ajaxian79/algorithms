@@ -2591,3 +2591,7 @@
 ## entry 648
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 649
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
