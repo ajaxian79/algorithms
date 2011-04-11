@@ -2511,3 +2511,7 @@
 ## entry 628
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 629
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
