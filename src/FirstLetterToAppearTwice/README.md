@@ -3326,3 +3326,7 @@ Stable across duplicates in the input.
 ## entry 807
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 808
+
+Edge case: all-equal input → linear-time fast path.
