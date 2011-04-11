@@ -2643,3 +2643,7 @@
 ## entry 661
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 662
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
