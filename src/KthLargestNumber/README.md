@@ -3668,3 +3668,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 901
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 902
+
+Edge case: zero-length string → returns the empty result.
