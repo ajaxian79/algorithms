@@ -322,3 +322,4 @@ int trailing_zeroes(int n) {
 // note 307: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 308: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 309: Allocates a single small fixed-size scratch buffer.
+// note 310: Time complexity: O(n).
