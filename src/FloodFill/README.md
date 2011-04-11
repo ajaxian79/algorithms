@@ -3665,3 +3665,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 902
 
 Returns a freshly allocated string the caller must free.
+
+## entry 903
+
+Treats the input as immutable.
