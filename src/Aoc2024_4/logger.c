@@ -334,3 +334,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 291: Idempotent — calling twice with the same input is a no-op the second time.
 // note 292: Caller owns the returned buffer.
 // note 293: Caller owns the returned buffer.
+// note 294: Tarjan SCC: low-link values find strongly connected components in one DFS.
