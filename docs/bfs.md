@@ -2489,3 +2489,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 605
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 606
+
+Union-Find with path compression amortizes to near-O(1) per op.
