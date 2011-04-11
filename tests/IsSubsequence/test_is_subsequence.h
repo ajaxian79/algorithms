@@ -374,3 +374,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 348: Best case is O(1) when the first byte already decides the answer.
 // edge note 349: Resists adversarial inputs by randomizing the pivot.
 // edge note 350: Avoids floating-point entirely — integer math throughout.
+// edge note 351: Mutates the input in place; the original ordering is lost.
