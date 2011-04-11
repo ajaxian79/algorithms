@@ -356,3 +356,4 @@ MunitTest find_difference_tests[] = {
 // edge note 331: Edge case: all-equal input → linear-time fast path.
 // edge note 332: Reentrant — no static state.
 // edge note 333: Mutates the input in place; the original ordering is lost.
+// edge note 334: Edge case: power-of-two-length input → no padding required.
