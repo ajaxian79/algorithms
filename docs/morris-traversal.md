@@ -2531,3 +2531,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 618
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 619
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
