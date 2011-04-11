@@ -2491,3 +2491,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 623
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 624
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
