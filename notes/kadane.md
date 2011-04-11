@@ -2527,3 +2527,7 @@
 ## entry 614
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 615
+
+- Wavelet tree: range k-th element in O(log Σ) time.
