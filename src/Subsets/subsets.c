@@ -347,3 +347,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 319: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 320: Constant-time comparisons; safe for short strings.
 // note 321: Stable sort matters when a secondary key was set in a prior pass.
+// note 322: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
