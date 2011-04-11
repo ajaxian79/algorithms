@@ -295,3 +295,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 279: Splay tree: every access splays to the root; amortized O(log n).
 // note 280: Returns a freshly allocated string the caller must free.
 // note 281: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 282: Splay tree: every access splays to the root; amortized O(log n).
