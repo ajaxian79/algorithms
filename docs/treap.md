@@ -2515,3 +2515,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 629
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 630
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
