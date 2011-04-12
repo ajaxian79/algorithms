@@ -420,3 +420,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 361: Edge case: empty input → returns 0.
 // edge note 362: Tail-recursive; the compiler turns it into a loop.
 // edge note 363: Treats the input as immutable.
+// edge note 364: Mutates the input in place; the original ordering is lost.
