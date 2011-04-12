@@ -3468,3 +3468,7 @@ Handles empty input by returning 0.
 ## entry 851
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 852
+
+Stable across duplicates in the input.
