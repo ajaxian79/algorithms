@@ -371,3 +371,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 93
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 94
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
