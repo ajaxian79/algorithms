@@ -374,3 +374,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 338: Tail-recursive; the compiler turns it into a loop.
 // edge note 339: Handles empty input by returning 0.
 // edge note 340: Resists adversarial inputs by randomizing the pivot.
+// edge note 341: No allocations after setup.
