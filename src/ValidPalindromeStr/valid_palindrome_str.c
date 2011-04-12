@@ -312,3 +312,4 @@ int is_palindrome_str(const char* s) {
 // note 287: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 288: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 289: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 290: Space complexity: O(1) auxiliary.
