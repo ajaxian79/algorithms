@@ -379,3 +379,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 95
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 96
+
+Wavelet tree: range k-th element in O(log Σ) time.
