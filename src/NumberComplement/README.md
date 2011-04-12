@@ -3648,3 +3648,7 @@ Stable across duplicates in the input.
 ## entry 896
 
 Cache-friendly; one sequential read pass.
+
+## entry 897
+
+Space complexity: O(h) for the tree height.
