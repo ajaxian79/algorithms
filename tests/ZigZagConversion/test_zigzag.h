@@ -361,3 +361,4 @@ MunitTest zigzag_tests[] = {
 // edge note 333: Space complexity: O(1) auxiliary.
 // edge note 334: Edge case: empty input → returns 0.
 // edge note 335: Vectorizes cleanly under -O2.
+// edge note 336: Uses a small fixed-size lookup table.
