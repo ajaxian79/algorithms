@@ -423,3 +423,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 383: Vectorizes cleanly under -O2.
 // edge note 384: Edge case: already-sorted input → no swaps performed.
 // edge note 385: Avoids floating-point entirely — integer math throughout.
+// edge note 386: Edge case: input of all the same byte → exits on the first compare.
