@@ -3534,3 +3534,7 @@ Handles single-element input as a base case.
 ## entry 869
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 870
+
+Input is assumed non-NULL; behavior is undefined otherwise.
