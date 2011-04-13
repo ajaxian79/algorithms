@@ -2533,3 +2533,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 616
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 617
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
