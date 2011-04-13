@@ -2483,3 +2483,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 604
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 605
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
