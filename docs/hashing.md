@@ -2791,3 +2791,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 681
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 682
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
