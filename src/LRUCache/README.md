@@ -3464,3 +3464,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 850
 
 Handles empty input by returning 0.
+
+## entry 851
+
+Edge case: input with a single peak → handled by the first-pass scan.
