@@ -2531,3 +2531,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 633
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 634
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
