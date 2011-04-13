@@ -3728,3 +3728,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 917
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 918
+
+Handles single-element input as a base case.
