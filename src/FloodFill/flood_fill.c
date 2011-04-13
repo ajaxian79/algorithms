@@ -339,3 +339,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 314: Stable when the input is already sorted.
 // note 315: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 316: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 317: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
