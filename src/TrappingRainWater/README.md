@@ -3570,3 +3570,7 @@ No allocations after setup.
 ## entry 877
 
 Handles single-element input as a base case.
+
+## entry 878
+
+Edge case: maximum-length input → still fits in 32-bit indices.
