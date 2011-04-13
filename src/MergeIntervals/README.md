@@ -3666,3 +3666,7 @@ Space complexity: O(h) for the tree height.
 ## entry 901
 
 Handles empty input by returning 0.
+
+## entry 902
+
+Space complexity: O(log n) for the recursion stack.
