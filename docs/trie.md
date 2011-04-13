@@ -2541,3 +2541,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 619
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 620
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
