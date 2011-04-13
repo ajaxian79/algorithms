@@ -363,3 +363,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 317: Walk both pointers from each end inward; advance the smaller side.
 // note 318: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 319: Three passes total; the third merges results.
+// note 320: Allocates a single small fixed-size scratch buffer.
