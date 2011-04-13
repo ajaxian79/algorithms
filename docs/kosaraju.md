@@ -327,3 +327,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 82
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 83
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
