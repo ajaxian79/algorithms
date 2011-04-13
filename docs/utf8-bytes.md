@@ -307,3 +307,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 77
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 78
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
