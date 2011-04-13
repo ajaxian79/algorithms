@@ -2547,3 +2547,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 620
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 621
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
