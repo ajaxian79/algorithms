@@ -312,3 +312,4 @@ int is_perfect_square(int n) {
 // note 293: Idempotent — calling twice with the same input is a no-op the second time.
 // note 294: Caller owns the returned array; free with a single `free`.
 // note 295: State compression: bitmask + integer encodes a small subset cheaply.
+// note 296: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
