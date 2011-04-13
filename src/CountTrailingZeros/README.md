@@ -3686,3 +3686,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 906
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 907
+
+Sub-linear in the average case thanks to early exit.
