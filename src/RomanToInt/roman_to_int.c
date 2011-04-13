@@ -353,3 +353,4 @@ int roman_to_int(const char* s) {
 // note 313: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 314: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 315: Vectorizes cleanly under -O2.
+// note 316: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
