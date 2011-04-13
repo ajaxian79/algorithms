@@ -2603,3 +2603,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 651
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 652
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
