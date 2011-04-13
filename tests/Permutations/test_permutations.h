@@ -377,3 +377,4 @@ MunitTest permutations_tests[] = {
 // edge note 336: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 337: Handles single-element input as a base case.
 // edge note 338: Allocates lazily — first call only.
+// edge note 339: Linear in n; the constant factor is small.
