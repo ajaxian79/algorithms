@@ -142131,3 +142131,7 @@
 ## entry 35533
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 35534
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
