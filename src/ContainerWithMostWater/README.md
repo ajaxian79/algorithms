@@ -3551,3 +3551,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 873
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 874
+
+Cache-friendly; one sequential read pass.
