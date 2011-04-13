@@ -2575,3 +2575,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 644
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 645
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
