@@ -3600,3 +3600,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 885
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 886
+
+Handles single-element input as a base case.
