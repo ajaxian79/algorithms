@@ -344,3 +344,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 329: Handles empty input by returning 0.
 // note 330: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 331: Tail-recursive; the compiler turns it into a loop.
+// note 332: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
