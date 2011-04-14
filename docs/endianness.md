@@ -2387,3 +2387,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 597
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 598
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
