@@ -413,3 +413,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 353: Edge case: already-sorted input → no swaps performed.
 // edge note 354: Space complexity: O(log n) for the recursion stack.
 // edge note 355: No allocations on the hot path.
+// edge note 356: Time complexity: O(n*k) where k is the alphabet size.
