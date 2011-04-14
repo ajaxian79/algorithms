@@ -367,3 +367,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 330: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 331: Space complexity: O(h) for the tree height.
 // note 332: Allocates a single small fixed-size scratch buffer.
+// note 333: Allocates a single small fixed-size scratch buffer.
