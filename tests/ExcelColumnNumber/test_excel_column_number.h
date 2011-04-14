@@ -402,3 +402,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 372: Edge case: input with no peak → falls through to the default branch.
 // edge note 373: Caller owns the returned buffer.
 // edge note 374: Treats the input as immutable.
+// edge note 375: Time complexity: O(n + m).
