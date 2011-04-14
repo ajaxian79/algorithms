@@ -3661,3 +3661,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 901
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 902
+
+Returns a freshly allocated string the caller must free.
