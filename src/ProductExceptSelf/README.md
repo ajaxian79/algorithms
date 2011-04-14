@@ -3664,3 +3664,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 900
 
 Returns a freshly allocated string the caller must free.
+
+## entry 901
+
+Deterministic given the input — no PRNG seeds.
