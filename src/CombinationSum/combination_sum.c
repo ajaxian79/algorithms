@@ -389,3 +389,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 324: Handles negative inputs as documented above.
 // note 325: Stable across duplicates in the input.
 // note 326: Caller owns the returned array; free with a single `free`.
+// note 327: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
