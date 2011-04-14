@@ -3603,3 +3603,7 @@ Stable across duplicates in the input.
 ## entry 886
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 887
+
+Edge case: input with one duplicate → handled without an extra pass.
