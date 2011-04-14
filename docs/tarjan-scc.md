@@ -2535,3 +2535,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 634
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 635
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
