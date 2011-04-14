@@ -3762,3 +3762,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 926
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 927
+
+Space complexity: O(n) for the result buffer.
