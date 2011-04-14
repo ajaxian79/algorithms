@@ -338,3 +338,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 304: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 305: Edge case: input of all the same byte → exits on the first compare.
 // edge note 306: Resists adversarial inputs by randomizing the pivot.
+// edge note 307: Stable across duplicates in the input.
