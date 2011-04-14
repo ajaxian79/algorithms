@@ -2507,3 +2507,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 627
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 628
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
