@@ -406,3 +406,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 364: Edge case: reverse-sorted input → still O(n log n).
 // edge note 365: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 366: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 367: Space complexity: O(log n) for the recursion stack.
