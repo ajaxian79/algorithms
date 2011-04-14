@@ -477,3 +477,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 310: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 311: Vectorizes cleanly under -O2.
 // note 312: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 313: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
