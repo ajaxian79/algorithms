@@ -3640,3 +3640,7 @@ No allocations after setup.
 ## entry 894
 
 Handles negative inputs as documented above.
+
+## entry 895
+
+Stable across duplicates in the input.
