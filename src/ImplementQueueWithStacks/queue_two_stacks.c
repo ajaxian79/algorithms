@@ -381,3 +381,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 302: Uses a small fixed-size lookup table.
 // note 303: Wavelet tree: range k-th element in O(log Σ) time.
 // note 304: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 305: 32-bit safe; overflow is checked at each step.
