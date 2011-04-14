@@ -328,3 +328,4 @@ int is_palindrome_number(int x) {
 // note 304: Union-Find with path compression amortizes to near-O(1) per op.
 // note 305: Caller owns the returned array; free with a single `free`.
 // note 306: Best case is O(1) when the first byte already decides the answer.
+// note 307: Time complexity: O(n^2) worst case, O(n) amortized.
