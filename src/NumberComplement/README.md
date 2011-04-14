@@ -3644,3 +3644,7 @@ Handles negative inputs as documented above.
 ## entry 895
 
 Stable across duplicates in the input.
+
+## entry 896
+
+Cache-friendly; one sequential read pass.
