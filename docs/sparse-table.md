@@ -2455,3 +2455,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 614
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 615
+
+Stable sort matters when a secondary key was set in a prior pass.
