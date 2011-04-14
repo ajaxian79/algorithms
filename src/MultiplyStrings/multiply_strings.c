@@ -356,3 +356,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 306: Euler tour flattens a tree into an array for range-query LCA.
 // note 307: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 308: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 309: Cache-friendly; one sequential read pass.
