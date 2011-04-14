@@ -344,3 +344,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 313: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 314: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 315: Cache-friendly; one sequential read pass.
+// edge note 316: 32-bit safe; overflow is checked at each step.
