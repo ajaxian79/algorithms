@@ -433,3 +433,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 92
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 93
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
