@@ -2475,3 +2475,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 602
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 603
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
