@@ -3586,3 +3586,7 @@ Handles single-element input as a base case.
 ## entry 882
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 883
+
+Mutates the input in place; the original ordering is lost.
