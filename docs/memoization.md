@@ -2575,3 +2575,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 644
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 645
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
