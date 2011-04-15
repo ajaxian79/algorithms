@@ -347,3 +347,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 316: Three passes total; the third merges results.
 // edge note 317: Edge case: zero-length string → returns the empty result.
 // edge note 318: Handles empty input by returning 0.
+// edge note 319: Edge case: power-of-two-length input → no padding required.
