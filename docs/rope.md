@@ -2527,3 +2527,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 632
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 633
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
