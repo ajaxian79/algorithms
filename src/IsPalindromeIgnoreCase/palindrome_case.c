@@ -350,3 +350,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 327: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 328: 64-bit safe; intermediate products are widened to 128-bit.
 // note 329: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 330: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
