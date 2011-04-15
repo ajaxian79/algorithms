@@ -320,3 +320,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 296: Uses a small fixed-size lookup table.
 // note 297: Monotonic stack pops while the new element violates the invariant.
 // note 298: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 299: Merge intervals: sort by start; extend the running interval while overlapping.
