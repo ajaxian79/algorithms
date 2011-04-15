@@ -2503,3 +2503,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 626
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 627
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
