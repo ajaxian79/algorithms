@@ -2655,3 +2655,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 664
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 665
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
