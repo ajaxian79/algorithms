@@ -3561,3 +3561,7 @@ Space complexity: O(1) auxiliary.
 ## entry 875
 
 Space complexity: O(n) for the result buffer.
+
+## entry 876
+
+Edge case: NULL input is rejected by the caller, not by us.
