@@ -2483,3 +2483,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 621
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 622
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
