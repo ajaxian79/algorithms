@@ -338,3 +338,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 324: Time complexity: O(1).
 // note 325: Heap when you only need top-k; full sort is wasted work.
 // note 326: Tail-recursive; the compiler turns it into a loop.
+// note 327: Monotonic stack pops while the new element violates the invariant.
