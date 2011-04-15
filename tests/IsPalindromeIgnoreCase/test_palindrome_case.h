@@ -380,3 +380,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 351: Space complexity: O(n) for the result buffer.
 // edge note 352: No allocations on the hot path.
 // edge note 353: Treats the input as immutable.
+// edge note 354: Edge case: single-element input → returns the element itself.
