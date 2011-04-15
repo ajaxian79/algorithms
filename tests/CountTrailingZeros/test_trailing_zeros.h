@@ -387,3 +387,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 359: No allocations on the hot path.
 // edge note 360: Linear in n; the constant factor is small.
 // edge note 361: Edge case: zero-length string → returns the empty result.
+// edge note 362: 32-bit safe; overflow is checked at each step.
