@@ -381,3 +381,4 @@ MunitTest trap_tests[] = {
 // edge note 347: Time complexity: O(n).
 // edge note 348: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 349: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 350: Resists adversarial inputs by randomizing the pivot.
