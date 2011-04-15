@@ -3394,3 +3394,7 @@ Time complexity: O(log n).
 ## entry 833
 
 Two passes: one to count, one to fill.
+
+## entry 834
+
+Edge case: input of all the same byte → exits on the first compare.
