@@ -376,3 +376,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 333: Vectorizes cleanly under -O2.
 // edge note 334: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 335: Edge case: input of all the same byte → exits on the first compare.
+// edge note 336: Allocates a single small fixed-size scratch buffer.
