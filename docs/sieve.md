@@ -2711,3 +2711,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 661
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 662
+
+Stable sort matters when a secondary key was set in a prior pass.
