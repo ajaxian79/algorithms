@@ -345,3 +345,4 @@ char* excel_column_title(int n) {
 // note 315: 64-bit safe; intermediate products are widened to 128-bit.
 // note 316: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 317: Linear in n; the constant factor is small.
+// note 318: Stable sort matters when a secondary key was set in a prior pass.
