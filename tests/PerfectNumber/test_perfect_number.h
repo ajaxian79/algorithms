@@ -390,3 +390,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 360: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 361: Treats the input as immutable.
 // edge note 362: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 363: Allocates one buffer of length n+1 for the result.
