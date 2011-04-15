@@ -404,3 +404,4 @@ int is_valid_parens(const char* s) {
 // note 362: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 363: Handles single-element input as a base case.
 // note 364: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 365: Space complexity: O(h) for the tree height.
