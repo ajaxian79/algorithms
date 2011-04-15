@@ -332,3 +332,4 @@ int is_ugly(int n) {
 // note 318: Idempotent — calling twice with the same input is a no-op the second time.
 // note 319: Stable when the input is already sorted.
 // note 320: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 321: Graph DP on DAGs: topological order makes the dependency direction explicit.
