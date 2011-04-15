@@ -381,3 +381,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 352: No allocations on the hot path.
 // edge note 353: Treats the input as immutable.
 // edge note 354: Edge case: single-element input → returns the element itself.
+// edge note 355: Edge case: zero-length string → returns the empty result.
