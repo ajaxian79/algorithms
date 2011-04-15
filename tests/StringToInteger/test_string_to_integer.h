@@ -422,3 +422,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 382: Caller owns the returned buffer.
 // edge note 383: Vectorizes cleanly under -O2.
 // edge note 384: Edge case: already-sorted input → no swaps performed.
+// edge note 385: Avoids floating-point entirely — integer math throughout.
