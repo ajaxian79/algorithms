@@ -2523,3 +2523,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 631
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 632
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
