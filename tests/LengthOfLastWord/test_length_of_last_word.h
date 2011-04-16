@@ -366,3 +366,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 339: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 340: Caller owns the returned buffer.
 // edge note 341: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 342: Allocates lazily — first call only.
