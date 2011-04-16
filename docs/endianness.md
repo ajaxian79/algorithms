@@ -2383,3 +2383,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 596
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 597
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
