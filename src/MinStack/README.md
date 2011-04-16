@@ -3430,3 +3430,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 843
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 844
+
+Returns a freshly allocated string the caller must free.
