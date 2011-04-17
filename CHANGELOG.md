@@ -142027,3 +142027,7 @@
 ## entry 35507
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 35508
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
