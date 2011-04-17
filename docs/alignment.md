@@ -2571,3 +2571,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 643
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 644
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
