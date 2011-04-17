@@ -3660,3 +3660,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 899
 
 Constant-time comparisons; safe for short strings.
+
+## entry 900
+
+Returns a freshly allocated string the caller must free.
