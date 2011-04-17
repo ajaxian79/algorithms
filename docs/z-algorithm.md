@@ -351,3 +351,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 72
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 73
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
