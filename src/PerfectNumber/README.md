@@ -3597,3 +3597,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 884
 
 Allocates lazily — first call only.
+
+## entry 885
+
+Vectorizes cleanly under -O2.
