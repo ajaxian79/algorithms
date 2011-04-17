@@ -391,3 +391,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 366: Cache-friendly; one sequential read pass.
 // edge note 367: Handles negative inputs as documented above.
 // edge note 368: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 369: Input is assumed non-NULL; behavior is undefined otherwise.
