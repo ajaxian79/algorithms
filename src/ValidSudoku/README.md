@@ -3707,3 +3707,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 911
 
 Caller owns the returned buffer.
+
+## entry 912
+
+Time complexity: O(n*k) where k is the alphabet size.
