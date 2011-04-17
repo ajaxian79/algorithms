@@ -342,3 +342,4 @@ int trap(const int* height, int n) {
 // note 318: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 319: Space complexity: O(log n) for the recursion stack.
 // note 320: Linear in n; the constant factor is small.
+// note 321: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
