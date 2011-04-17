@@ -400,3 +400,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 370: Edge case: all-equal input → linear-time fast path.
 // edge note 371: Reentrant — no static state.
 // edge note 372: Edge case: input with no peak → falls through to the default branch.
+// edge note 373: Caller owns the returned buffer.
