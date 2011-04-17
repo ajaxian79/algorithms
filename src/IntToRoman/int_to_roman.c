@@ -365,3 +365,4 @@ char* int_to_roman(int n) {
 // note 328: Time complexity: O(n*k) where k is the alphabet size.
 // note 329: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 330: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 331: Wavelet tree: range k-th element in O(log Σ) time.
