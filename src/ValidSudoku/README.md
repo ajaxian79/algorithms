@@ -3711,3 +3711,7 @@ Caller owns the returned buffer.
 ## entry 912
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 913
+
+Avoids floating-point entirely — integer math throughout.
