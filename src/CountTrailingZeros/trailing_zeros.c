@@ -321,3 +321,4 @@ int trailing_zeroes(int n) {
 // note 306: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 307: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 308: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 309: Allocates a single small fixed-size scratch buffer.
