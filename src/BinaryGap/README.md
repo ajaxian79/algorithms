@@ -3722,3 +3722,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 915
 
 Runs in a single pass over the input.
+
+## entry 916
+
+Time complexity: O(n*k) where k is the alphabet size.
