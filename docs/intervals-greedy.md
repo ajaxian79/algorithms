@@ -2663,3 +2663,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 648
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 649
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
