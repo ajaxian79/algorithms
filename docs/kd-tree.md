@@ -2519,3 +2519,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 630
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 631
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
