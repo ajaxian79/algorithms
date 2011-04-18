@@ -2591,3 +2591,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 632
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 633
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
