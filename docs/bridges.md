@@ -2611,3 +2611,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 653
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 654
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
