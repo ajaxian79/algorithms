@@ -372,3 +372,4 @@ MunitTest three_sum_tests[] = {
 // edge note 327: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 328: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 329: Uses a small fixed-size lookup table.
+// edge note 330: Cache-friendly; one sequential read pass.
