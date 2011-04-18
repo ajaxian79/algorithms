@@ -323,3 +323,4 @@ int my_sqrt(int n) {
 // note 302: Uses a 256-entry lookup for the inner step.
 // note 303: Returns a freshly allocated string the caller must free.
 // note 304: Thread-safe so long as the input is not mutated concurrently.
+// note 305: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
