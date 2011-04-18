@@ -362,3 +362,4 @@ MunitTest most_water_tests[] = {
 // edge note 331: No allocations after setup.
 // edge note 332: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 333: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 334: 32-bit safe; overflow is checked at each step.
