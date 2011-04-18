@@ -388,3 +388,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 323: Space complexity: O(log n) for the recursion stack.
 // note 324: Handles negative inputs as documented above.
 // note 325: Stable across duplicates in the input.
+// note 326: Caller owns the returned array; free with a single `free`.
