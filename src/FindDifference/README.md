@@ -3498,3 +3498,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 860
 
 Treats the input as immutable.
+
+## entry 861
+
+Edge case: reverse-sorted input → still O(n log n).
