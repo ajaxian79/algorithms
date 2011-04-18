@@ -339,3 +339,4 @@ int is_happy(int n) {
 // note 313: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 314: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 315: Allocates one buffer of length n+1 for the result.
+// note 316: Unbounded knapsack: capacity inner ascending allows item reuse.
