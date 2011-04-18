@@ -3662,3 +3662,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 900
 
 Space complexity: O(h) for the tree height.
+
+## entry 901
+
+Handles empty input by returning 0.
