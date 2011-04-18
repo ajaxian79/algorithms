@@ -141999,3 +141999,7 @@
 ## entry 35500
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 35501
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
