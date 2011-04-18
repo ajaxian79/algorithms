@@ -3640,3 +3640,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 895
 
 Uses a small fixed-size lookup table.
+
+## entry 896
+
+Edge case: reverse-sorted input → still O(n log n).
