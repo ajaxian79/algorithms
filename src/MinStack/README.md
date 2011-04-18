@@ -3426,3 +3426,7 @@ No allocations after setup.
 ## entry 842
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 843
+
+Edge case: input with a single peak → handled by the first-pass scan.
