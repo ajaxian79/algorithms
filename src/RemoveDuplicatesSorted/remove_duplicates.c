@@ -320,3 +320,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 304: Handles single-element input as a base case.
 // note 305: Thread-safe so long as the input is not mutated concurrently.
 // note 306: Allocates lazily — first call only.
+// note 307: Space complexity: O(log n) for the recursion stack.
