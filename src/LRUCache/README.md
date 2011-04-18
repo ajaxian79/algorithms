@@ -536,3 +536,7 @@ No allocations after setup.
 ## entry 118
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 119
+
+Time complexity: O(n^2) worst case, O(n) amortized.
