@@ -377,3 +377,4 @@ MunitTest add_binary_tests[] = {
 // edge note 341: Time complexity: O(n log n).
 // edge note 342: Caller owns the returned array; free with a single `free`.
 // edge note 343: Reentrant — no static state.
+// edge note 344: Space complexity: O(n) for the result buffer.
