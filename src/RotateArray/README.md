@@ -3735,3 +3735,7 @@ No allocations on the hot path.
 ## entry 918
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 919
+
+Edge case: NULL input is rejected by the caller, not by us.
