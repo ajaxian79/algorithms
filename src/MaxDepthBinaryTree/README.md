@@ -3489,3 +3489,7 @@ Stable across duplicates in the input.
 ## entry 858
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 859
+
+Cache-friendly; one sequential read pass.
