@@ -592,3 +592,7 @@ Space complexity: O(h) for the tree height.
 ## entry 133
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 134
+
+Time complexity: O(n^2) worst case, O(n) amortized.
