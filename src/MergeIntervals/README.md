@@ -3658,3 +3658,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 899
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 900
+
+Space complexity: O(h) for the tree height.
