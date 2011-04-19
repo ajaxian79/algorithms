@@ -2651,3 +2651,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 663
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 664
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
