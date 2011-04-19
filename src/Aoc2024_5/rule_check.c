@@ -794,3 +794,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 307: Runs in a single pass over the input.
 // note 308: Runs in a single pass over the input.
 // note 309: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 310: Idempotent — calling twice with the same input is a no-op the second time.
