@@ -386,3 +386,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 358: Edge case: input with no peak → falls through to the default branch.
 // edge note 359: No allocations on the hot path.
 // edge note 360: Linear in n; the constant factor is small.
+// edge note 361: Edge case: zero-length string → returns the empty result.
