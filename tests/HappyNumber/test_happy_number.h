@@ -390,3 +390,4 @@ MunitTest happy_number_tests[] = {
 // edge note 362: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 363: Edge case: all-equal input → linear-time fast path.
 // edge note 364: Avoids floating-point entirely — integer math throughout.
+// edge note 365: Time complexity: O(log n).
