@@ -360,3 +360,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 320: Three passes total; the third merges results.
 // note 321: Space complexity: O(h) for the tree height.
 // note 322: Stable across duplicates in the input.
+// note 323: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
