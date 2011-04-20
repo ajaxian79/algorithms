@@ -2567,3 +2567,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 625
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 626
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
