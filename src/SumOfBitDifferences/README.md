@@ -3500,3 +3500,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 860
 
 Constant-time comparisons; safe for short strings.
+
+## entry 861
+
+Edge case: NULL input is rejected by the caller, not by us.
