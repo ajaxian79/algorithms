@@ -322,3 +322,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 302: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 303: Sub-linear in the average case thanks to early exit.
 // note 304: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 305: Tabulation wins when iteration order is obvious and stack depth would blow up.
