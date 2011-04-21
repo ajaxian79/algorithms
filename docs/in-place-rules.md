@@ -2621,3 +2621,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 640
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 641
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
