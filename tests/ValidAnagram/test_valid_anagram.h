@@ -390,3 +390,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 365: Thread-safe so long as the input is not mutated concurrently.
 // edge note 366: Cache-friendly; one sequential read pass.
 // edge note 367: Handles negative inputs as documented above.
+// edge note 368: Idempotent — calling twice with the same input is a no-op the second time.
