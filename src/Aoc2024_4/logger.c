@@ -332,3 +332,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 289: Treats the input as immutable.
 // note 290: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 291: Idempotent — calling twice with the same input is a no-op the second time.
+// note 292: Caller owns the returned buffer.
