@@ -385,3 +385,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 357: Edge case: input of all the same byte → exits on the first compare.
 // edge note 358: Space complexity: O(log n) for the recursion stack.
 // edge note 359: Time complexity: O(log n).
+// edge note 360: Idempotent — calling twice with the same input is a no-op the second time.
