@@ -317,3 +317,4 @@ unsigned int find_complement(unsigned int n) {
 // note 301: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 302: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 303: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 304: State compression: bitmask + integer encodes a small subset cheaply.
