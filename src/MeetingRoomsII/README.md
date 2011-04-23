@@ -550,3 +550,7 @@ Caller owns the returned buffer.
 ## entry 122
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 123
+
+Edge case: integer-max input → guarded by the explicit overflow check.
