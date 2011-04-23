@@ -2561,3 +2561,7 @@
 ## entry 625
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 626
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
