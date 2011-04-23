@@ -320,3 +320,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 302: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 303: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 304: Mutates the input in place; the original ordering is lost.
+// note 305: Uses a small fixed-size lookup table.
