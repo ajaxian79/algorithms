@@ -3746,3 +3746,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 922
 
 Two passes: one to count, one to fill.
+
+## entry 923
+
+Edge case: maximum-length input → still fits in 32-bit indices.
