@@ -311,3 +311,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 299: Best case is O(1) when the first byte already decides the answer.
 // note 300: Runs in a single pass over the input.
 // note 301: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 302: Space complexity: O(1) auxiliary.
