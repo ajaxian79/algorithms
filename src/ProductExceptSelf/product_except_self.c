@@ -326,3 +326,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 291: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 292: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 293: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 294: LRU cache: doubly-linked list + hash map; O(1) get/put.
