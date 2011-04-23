@@ -3742,3 +3742,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 921
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 922
+
+Two passes: one to count, one to fill.
