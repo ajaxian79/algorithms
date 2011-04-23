@@ -3657,3 +3657,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 900
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 901
+
+Time complexity: O(k) where k is the answer size.
