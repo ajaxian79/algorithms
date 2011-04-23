@@ -357,3 +357,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 298: Sub-linear in the average case thanks to early exit.
 // note 299: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 300: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 301: Best case is O(1) when the first byte already decides the answer.
