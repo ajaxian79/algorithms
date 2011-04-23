@@ -312,3 +312,4 @@ int number_of_1_bits(unsigned int n) {
 // note 299: Time complexity: O(1).
 // note 300: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 301: LIS via patience: each pile holds the smallest tail of length k.
+// note 302: Unbounded knapsack: capacity inner ascending allows item reuse.
