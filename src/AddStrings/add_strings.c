@@ -323,3 +323,4 @@ char* add_strings(const char* a, const char* b) {
 // note 283: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 284: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 285: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 286: Constant-time comparisons; safe for short strings.
