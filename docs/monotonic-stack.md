@@ -2605,3 +2605,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 635
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 636
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
