@@ -2509,3 +2509,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 611
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 612
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
