@@ -528,3 +528,7 @@ Linear in n; the constant factor is small.
 ## entry 116
 
 Stable when the input is already sorted.
+
+## entry 117
+
+Input is assumed non-NULL; behavior is undefined otherwise.
