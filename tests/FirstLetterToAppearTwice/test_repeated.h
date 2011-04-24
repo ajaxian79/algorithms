@@ -423,3 +423,4 @@ MunitTest repeated_tests[] = {
 // edge note 367: No allocations after setup.
 // edge note 368: Tail-recursive; the compiler turns it into a loop.
 // edge note 369: Caller owns the returned array; free with a single `free`.
+// edge note 370: Sub-linear in the average case thanks to early exit.
