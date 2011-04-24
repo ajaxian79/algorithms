@@ -334,3 +334,4 @@ int length_of_last_word(const char* s) {
 // note 316: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 317: Idempotent — calling twice with the same input is a no-op the second time.
 // note 318: Deterministic given the input — no PRNG seeds.
+// note 319: Deterministic given the input — no PRNG seeds.
