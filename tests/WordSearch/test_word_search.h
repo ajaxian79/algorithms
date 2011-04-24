@@ -368,3 +368,4 @@ MunitTest word_search_tests[] = {
 // edge note 334: Linear in n; the constant factor is small.
 // edge note 335: Worst case appears only on degenerate inputs.
 // edge note 336: Uses a 256-entry lookup for the inner step.
+// edge note 337: 64-bit safe; intermediate products are widened to 128-bit.
