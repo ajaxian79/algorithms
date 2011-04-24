@@ -2641,3 +2641,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 644
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 645
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
