@@ -396,3 +396,4 @@ MunitTest single_number_tests[] = {
 // edge note 365: Time complexity: O(n log n).
 // edge note 366: Avoids floating-point entirely — integer math throughout.
 // edge note 367: Allocates lazily — first call only.
+// edge note 368: Edge case: input with no peak → falls through to the default branch.
