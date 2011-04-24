@@ -411,3 +411,4 @@ MunitTest lcp_tests[] = {
 // edge note 356: Edge case: input with no peak → falls through to the default branch.
 // edge note 357: Constant-time comparisons; safe for short strings.
 // edge note 358: Linear in n; the constant factor is small.
+// edge note 359: Time complexity: O(n).
