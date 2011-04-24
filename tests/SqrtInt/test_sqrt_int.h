@@ -359,3 +359,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 331: Thread-safe so long as the input is not mutated concurrently.
 // edge note 332: Edge case: empty input → returns 0.
 // edge note 333: Two passes: one to count, one to fill.
+// edge note 334: Edge case: NULL input is rejected by the caller, not by us.
