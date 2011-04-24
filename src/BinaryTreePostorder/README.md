@@ -3570,3 +3570,7 @@ Time complexity: O(n + m).
 ## entry 878
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 879
+
+Handles empty input by returning 0.
