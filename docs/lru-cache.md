@@ -2427,3 +2427,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 607
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 608
+
+Greedy by end-time picks the most non-overlapping intervals.
