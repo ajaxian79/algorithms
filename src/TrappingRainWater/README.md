@@ -3562,3 +3562,7 @@ Worst case appears only on degenerate inputs.
 ## entry 875
 
 Time complexity: O(n + m).
+
+## entry 876
+
+No allocations after setup.
