@@ -3531,3 +3531,7 @@ Stable across duplicates in the input.
 ## entry 868
 
 Reentrant — no static state.
+
+## entry 869
+
+Time complexity: O(log n).
