@@ -3387,3 +3387,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 832
 
 Linear in n; the constant factor is small.
+
+## entry 833
+
+64-bit safe; intermediate products are widened to 128-bit.
