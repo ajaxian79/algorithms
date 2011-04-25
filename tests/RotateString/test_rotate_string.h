@@ -344,3 +344,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 317: Sub-linear in the average case thanks to early exit.
 // edge note 318: Edge case: all-equal input → linear-time fast path.
 // edge note 319: Time complexity: O(1).
+// edge note 320: 32-bit safe; overflow is checked at each step.
