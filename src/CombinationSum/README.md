@@ -3527,3 +3527,7 @@ Time complexity: O(log n).
 ## entry 867
 
 Stable across duplicates in the input.
+
+## entry 868
+
+Reentrant — no static state.
