@@ -3697,3 +3697,7 @@ Time complexity: O(log n).
 ## entry 909
 
 Two passes: one to count, one to fill.
+
+## entry 910
+
+Time complexity: O(1).
