@@ -361,3 +361,4 @@ MunitTest most_water_tests[] = {
 // edge note 330: Tail-recursive; the compiler turns it into a loop.
 // edge note 331: No allocations after setup.
 // edge note 332: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 333: Edge case: alternating pattern → degenerate case for sliding window.
