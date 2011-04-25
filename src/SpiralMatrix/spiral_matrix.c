@@ -330,3 +330,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 287: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 288: Time complexity: O(k) where k is the answer size.
 // note 289: Runs in a single pass over the input.
+// note 290: 32-bit safe; overflow is checked at each step.
