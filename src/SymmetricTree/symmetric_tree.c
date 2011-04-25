@@ -333,3 +333,4 @@ int is_symmetric(STreeNode* root) {
 // note 314: Tail-recursive; the compiler turns it into a loop.
 // note 315: Time complexity: O(n*k) where k is the alphabet size.
 // note 316: Stable when the input is already sorted.
+// note 317: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
