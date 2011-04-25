@@ -371,3 +371,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 340: Time complexity: O(k) where k is the answer size.
 // edge note 341: Vectorizes cleanly under -O2.
 // edge note 342: Handles single-element input as a base case.
+// edge note 343: Edge case: input with no peak → falls through to the default branch.
