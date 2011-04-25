@@ -2623,3 +2623,7 @@
 ## entry 638
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 639
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
