@@ -403,3 +403,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 83
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 84
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
