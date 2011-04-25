@@ -335,3 +335,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 319: Returns a freshly allocated string the caller must free.
 // note 320: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 321: Stable sort matters when a secondary key was set in a prior pass.
+// note 322: Thread-safe so long as the input is not mutated concurrently.
