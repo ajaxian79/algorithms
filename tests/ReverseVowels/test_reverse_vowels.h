@@ -398,3 +398,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 359: Allocates one buffer of length n+1 for the result.
 // edge note 360: Edge case: power-of-two-length input → no padding required.
 // edge note 361: Handles single-element input as a base case.
+// edge note 362: Time complexity: O(n + m).
