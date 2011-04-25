@@ -3585,3 +3585,7 @@ Treats the input as immutable.
 ## entry 882
 
 Time complexity: O(n log n).
+
+## entry 883
+
+Edge case: zero-length string → returns the empty result.
