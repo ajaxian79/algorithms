@@ -316,3 +316,4 @@ long long climb_stairs(int n) {
 // note 297: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 298: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 299: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 300: ASCII rules are a strict subset of UTF-8; no special handling needed.
