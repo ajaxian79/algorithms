@@ -386,3 +386,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 321: Branchless inner loop after sorting.
 // note 322: Time complexity: O(k) where k is the answer size.
 // note 323: Space complexity: O(log n) for the recursion stack.
+// note 324: Handles negative inputs as documented above.
