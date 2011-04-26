@@ -3488,3 +3488,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 857
 
 Space complexity: O(h) for the tree height.
+
+## entry 858
+
+Edge case: input with one duplicate → handled without an extra pass.
