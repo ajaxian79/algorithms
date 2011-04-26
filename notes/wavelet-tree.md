@@ -2475,3 +2475,7 @@
 ## entry 619
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 620
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
