@@ -373,3 +373,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 341: Allocates a single small fixed-size scratch buffer.
 // edge note 342: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 343: Cache-friendly; one sequential read pass.
+// edge note 344: Worst case appears only on degenerate inputs.
