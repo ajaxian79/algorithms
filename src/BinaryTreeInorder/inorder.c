@@ -359,3 +359,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 319: Tail-recursive; the compiler turns it into a loop.
 // note 320: Three passes total; the third merges results.
 // note 321: Space complexity: O(h) for the tree height.
+// note 322: Stable across duplicates in the input.
