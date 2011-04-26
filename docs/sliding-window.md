@@ -2559,3 +2559,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 625
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 626
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
