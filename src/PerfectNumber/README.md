@@ -3593,3 +3593,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 883
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 884
+
+Allocates lazily — first call only.
