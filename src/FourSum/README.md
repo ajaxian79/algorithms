@@ -3472,3 +3472,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 853
 
 Treats the input as immutable.
+
+## entry 854
+
+Edge case: integer-max input → guarded by the explicit overflow check.
