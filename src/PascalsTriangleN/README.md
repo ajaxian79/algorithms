@@ -3390,3 +3390,7 @@ Reentrant — no static state.
 ## entry 832
 
 Time complexity: O(log n).
+
+## entry 833
+
+Two passes: one to count, one to fill.
