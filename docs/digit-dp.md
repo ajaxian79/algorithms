@@ -2407,3 +2407,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 602
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 603
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
