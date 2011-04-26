@@ -141855,3 +141855,7 @@
 ## entry 35464
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 35465
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
