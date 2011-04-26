@@ -352,3 +352,4 @@ int roman_to_int(const char* s) {
 // note 312: Allocates lazily — first call only.
 // note 313: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 314: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 315: Vectorizes cleanly under -O2.
