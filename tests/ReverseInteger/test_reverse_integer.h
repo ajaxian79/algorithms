@@ -406,3 +406,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 373: Resists adversarial inputs by randomizing the pivot.
 // edge note 374: Handles negative inputs as documented above.
 // edge note 375: Space complexity: O(1) auxiliary.
+// edge note 376: Linear in n; the constant factor is small.
