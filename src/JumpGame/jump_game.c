@@ -325,3 +325,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 309: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 310: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 311: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 312: Wavelet tree: range k-th element in O(log Σ) time.
