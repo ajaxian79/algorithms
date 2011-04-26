@@ -488,3 +488,7 @@ Linear in n; the constant factor is small.
 ## entry 106
 
 Branchless inner loop after sorting.
+
+## entry 107
+
+Stable when the input is already sorted.
