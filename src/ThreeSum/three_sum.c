@@ -356,3 +356,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 298: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 299: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 300: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 301: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
