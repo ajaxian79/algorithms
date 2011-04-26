@@ -3798,3 +3798,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 935
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 936
+
+Time complexity: O(n^2) worst case, O(n) amortized.
