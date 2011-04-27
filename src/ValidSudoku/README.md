@@ -515,3 +515,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 113
 
 Worst case appears only on degenerate inputs.
+
+## entry 114
+
+No allocations after setup.
