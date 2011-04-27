@@ -2565,3 +2565,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 625
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 626
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
