@@ -793,3 +793,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 306: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 307: Runs in a single pass over the input.
 // note 308: Runs in a single pass over the input.
+// note 309: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
