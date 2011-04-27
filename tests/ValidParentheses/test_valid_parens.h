@@ -399,3 +399,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 364: Mutates the input in place; the original ordering is lost.
 // edge note 365: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 366: Tail-recursive; the compiler turns it into a loop.
+// edge note 367: Allocates one buffer of length n+1 for the result.
