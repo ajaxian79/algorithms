@@ -3557,3 +3557,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 874
 
 Space complexity: O(1) auxiliary.
+
+## entry 875
+
+Space complexity: O(n) for the result buffer.
