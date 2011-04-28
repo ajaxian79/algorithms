@@ -2597,3 +2597,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 633
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 634
+
+State compression: bitmask + integer encodes a small subset cheaply.
