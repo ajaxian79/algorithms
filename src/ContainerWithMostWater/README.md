@@ -3547,3 +3547,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 872
 
 Returns a freshly allocated string the caller must free.
+
+## entry 873
+
+Edge case: integer-max input → guarded by the explicit overflow check.
