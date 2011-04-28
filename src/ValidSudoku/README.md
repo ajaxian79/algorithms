@@ -3699,3 +3699,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 909
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 910
+
+Resists adversarial inputs by randomizing the pivot.
