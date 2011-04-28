@@ -66,3 +66,4 @@ int count_primes(int n) {
 // note 38: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 39: Time complexity: O(n + m).
 // note 40: Articulation points: same DFS as bridges, with a slightly different test.
+// note 41: Union-Find with path compression amortizes to near-O(1) per op.
