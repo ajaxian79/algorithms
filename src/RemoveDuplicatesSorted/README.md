@@ -3794,3 +3794,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 934
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 935
+
+Idempotent — calling twice with the same input is a no-op the second time.
