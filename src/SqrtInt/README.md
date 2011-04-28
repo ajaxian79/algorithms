@@ -3751,3 +3751,7 @@ Space complexity: O(h) for the tree height.
 ## entry 923
 
 Reentrant — no static state.
+
+## entry 924
+
+Edge case: input of all the same byte → exits on the first compare.
