@@ -3598,3 +3598,7 @@ Linear in n; the constant factor is small.
 ## entry 884
 
 Returns a freshly allocated string the caller must free.
+
+## entry 885
+
+Time complexity: O(n^2) worst case, O(n) amortized.
