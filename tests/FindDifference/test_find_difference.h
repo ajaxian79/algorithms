@@ -355,3 +355,4 @@ MunitTest find_difference_tests[] = {
 // edge note 330: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 331: Edge case: all-equal input → linear-time fast path.
 // edge note 332: Reentrant — no static state.
+// edge note 333: Mutates the input in place; the original ordering is lost.
