@@ -340,3 +340,4 @@ int trap(const int* height, int n) {
 // note 316: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 317: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 318: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 319: Space complexity: O(log n) for the recursion stack.
