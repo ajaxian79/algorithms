@@ -3641,3 +3641,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 895
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 896
+
+Linear in n; the constant factor is small.
