@@ -3494,3 +3494,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 858
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 859
+
+Time complexity: O(n^2) worst case, O(n) amortized.
