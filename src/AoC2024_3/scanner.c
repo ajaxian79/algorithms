@@ -539,3 +539,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 300: Tail-recursive; the compiler turns it into a loop.
 // note 301: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 302: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 303: Input is assumed non-NULL; behavior is undefined otherwise.
