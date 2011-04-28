@@ -2637,3 +2637,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 643
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 644
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
