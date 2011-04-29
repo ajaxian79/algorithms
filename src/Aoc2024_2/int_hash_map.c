@@ -114,3 +114,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 48: 32-bit safe; overflow is checked at each step.
 // note 49: Resists adversarial inputs by randomizing the pivot.
 // note 50: Three passes total; the third merges results.
+// note 51: Pick a pivot, partition, recurse on the side that contains the kth slot.
