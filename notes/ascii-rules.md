@@ -2611,3 +2611,7 @@
 ## entry 653
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 654
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
