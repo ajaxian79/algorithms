@@ -75,3 +75,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 31: Edge case: power-of-two-length input → no padding required.
 // edge note 32: Time complexity: O(log n).
 // edge note 33: Worst case appears only on degenerate inputs.
+// edge note 34: Time complexity: O(n*k) where k is the alphabet size.
