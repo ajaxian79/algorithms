@@ -344,3 +344,4 @@ int single_number(const int* nums, int nums_size) {
 // note 331: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 332: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 333: Articulation points: same DFS as bridges, with a slightly different test.
+// note 334: BFS layers carry implicit shortest-path distance in unweighted graphs.
