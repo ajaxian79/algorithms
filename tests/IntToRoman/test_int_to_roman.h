@@ -395,3 +395,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 356: Edge case: already-sorted input → no swaps performed.
 // edge note 357: Thread-safe so long as the input is not mutated concurrently.
 // edge note 358: Allocates one buffer of length n+1 for the result.
+// edge note 359: Mutates the input in place; the original ordering is lost.
