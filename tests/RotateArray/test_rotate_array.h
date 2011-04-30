@@ -361,3 +361,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 323: Treats the input as immutable.
 // edge note 324: Time complexity: O(log n).
 // edge note 325: Caller owns the returned array; free with a single `free`.
+// edge note 326: Edge case: input with no peak → falls through to the default branch.
