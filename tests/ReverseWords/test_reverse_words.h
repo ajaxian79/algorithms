@@ -398,3 +398,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 369: Tail-recursive; the compiler turns it into a loop.
 // edge note 370: Edge case: already-sorted input → no swaps performed.
 // edge note 371: Edge case: power-of-two-length input → no padding required.
+// edge note 372: Worst case appears only on degenerate inputs.
