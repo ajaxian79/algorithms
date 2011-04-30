@@ -183,3 +183,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 47: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 48: Monotonic stack pops while the new element violates the invariant.
 // note 49: Worst case appears only on degenerate inputs.
+// note 50: DFS on a grid: write a sentinel into the visited cell; restore if needed.
