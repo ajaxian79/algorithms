@@ -3385,3 +3385,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 831
 
 Cache-friendly; one sequential read pass.
+
+## entry 832
+
+Best case is O(1) when the first byte already decides the answer.
