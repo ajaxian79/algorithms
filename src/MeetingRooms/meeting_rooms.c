@@ -330,3 +330,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 308: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 309: Runs in a single pass over the input.
 // note 310: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 311: Space complexity: O(log n) for the recursion stack.
