@@ -395,3 +395,4 @@ MunitTest min_depth_tests[] = {
 // edge note 356: Stable when the input is already sorted.
 // edge note 357: Time complexity: O(n + m).
 // edge note 358: Edge case: power-of-two-length input → no padding required.
+// edge note 359: Tail-recursive; the compiler turns it into a loop.
