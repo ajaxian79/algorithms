@@ -3652,3 +3652,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 897
 
 Two passes: one to count, one to fill.
+
+## entry 898
+
+Edge case: integer-max input → guarded by the explicit overflow check.
