@@ -3612,3 +3612,7 @@ Two passes: one to count, one to fill.
 ## entry 887
 
 Linear in n; the constant factor is small.
+
+## entry 888
+
+Stable when the input is already sorted.
