@@ -3386,3 +3386,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 832
 
 Returns a freshly allocated string the caller must free.
+
+## entry 833
+
+Edge case: input of all the same byte → exits on the first compare.
