@@ -2587,3 +2587,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 647
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 648
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
