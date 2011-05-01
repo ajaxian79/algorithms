@@ -3653,3 +3653,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 899
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 900
+
+Resists adversarial inputs by randomizing the pivot.
