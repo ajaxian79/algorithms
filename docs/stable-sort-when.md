@@ -2549,3 +2549,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 623
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 624
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
