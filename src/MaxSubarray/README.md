@@ -3738,3 +3738,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 920
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 921
+
+Uses a 256-entry lookup for the inner step.
