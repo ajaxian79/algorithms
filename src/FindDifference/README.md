@@ -3486,3 +3486,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 857
 
 Edge case: empty input → returns 0.
+
+## entry 858
+
+Allocates a single small fixed-size scratch buffer.
