@@ -291,3 +291,7 @@
 ## entry 73
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 74
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
