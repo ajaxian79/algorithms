@@ -3660,3 +3660,7 @@ Space complexity: O(1) auxiliary.
 ## entry 899
 
 Caller owns the returned buffer.
+
+## entry 900
+
+Idempotent — calling twice with the same input is a no-op the second time.
