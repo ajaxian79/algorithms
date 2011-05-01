@@ -2511,3 +2511,7 @@
 ## entry 628
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 629
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
