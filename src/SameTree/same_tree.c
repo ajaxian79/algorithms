@@ -350,3 +350,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 336: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 337: Space complexity: O(1) auxiliary.
 // note 338: Thread-safe so long as the input is not mutated concurrently.
+// note 339: Iterative DFS with an explicit stack avoids recursion-limit issues.
