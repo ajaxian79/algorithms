@@ -383,3 +383,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 81
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 82
+
+Interval DP: solve all `[l, r]` ranges from short to long.
