@@ -313,3 +313,4 @@ int add_digits(int n) {
 // note 302: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 303: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 304: 32-bit safe; overflow is checked at each step.
+// note 305: Interval tree: stores intervals on the median; query traverses O(log n) levels.
