@@ -3654,3 +3654,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 898
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 899
+
+Edge case: input with one duplicate → handled without an extra pass.
