@@ -2615,3 +2615,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 636
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 637
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
