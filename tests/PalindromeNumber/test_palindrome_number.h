@@ -401,3 +401,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 366: 32-bit safe; overflow is checked at each step.
 // edge note 367: Uses a small fixed-size lookup table.
 // edge note 368: Mutates the input in place; the original ordering is lost.
+// edge note 369: Edge case: NULL input is rejected by the caller, not by us.
