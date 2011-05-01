@@ -482,3 +482,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 329: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 330: Allocates one buffer of length n+1 for the result.
 // note 331: Articulation points: same DFS as bridges, with a slightly different test.
+// note 332: Allocates a single small fixed-size scratch buffer.
