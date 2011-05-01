@@ -2507,3 +2507,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 627
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 628
+
+False sharing: two threads writing different bytes in the same cache line stall both.
