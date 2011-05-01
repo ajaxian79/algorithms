@@ -3724,3 +3724,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 916
 
 Returns a freshly allocated string the caller must free.
+
+## entry 917
+
+Time complexity: O(n*k) where k is the alphabet size.
