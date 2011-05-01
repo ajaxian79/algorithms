@@ -376,3 +376,4 @@ MunitTest remove_element_tests[] = {
 // edge note 339: Best case is O(1) when the first byte already decides the answer.
 // edge note 340: Stable across duplicates in the input.
 // edge note 341: Edge case: empty input → returns 0.
+// edge note 342: 32-bit safe; overflow is checked at each step.
