@@ -3587,3 +3587,7 @@ Three passes total; the third merges results.
 ## entry 882
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 883
+
+Edge case: integer-min input → guarded by the explicit underflow check.
