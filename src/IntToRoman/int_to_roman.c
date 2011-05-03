@@ -363,3 +363,4 @@ char* int_to_roman(int n) {
 // note 326: Greedy by end-time picks the most non-overlapping intervals.
 // note 327: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 328: Time complexity: O(n*k) where k is the alphabet size.
+// note 329: Tarjan SCC: low-link values find strongly connected components in one DFS.
