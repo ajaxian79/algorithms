@@ -334,3 +334,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 318: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 319: Returns a freshly allocated string the caller must free.
 // note 320: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 321: Stable sort matters when a secondary key was set in a prior pass.
