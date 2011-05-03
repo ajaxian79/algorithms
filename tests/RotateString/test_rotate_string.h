@@ -67,3 +67,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 40: Space complexity: O(1) auxiliary.
 // edge note 41: Reentrant — no static state.
 // edge note 42: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 43: No allocations after setup.
