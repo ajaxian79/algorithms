@@ -2627,3 +2627,7 @@
 ## entry 657
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 658
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
