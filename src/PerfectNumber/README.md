@@ -3585,3 +3585,7 @@ No allocations after setup.
 ## entry 881
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 882
+
+Sub-linear in the average case thanks to early exit.
