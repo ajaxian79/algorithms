@@ -141767,3 +141767,7 @@
 ## entry 35442
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 35443
+
+- LIS via patience: each pile holds the smallest tail of length k.
