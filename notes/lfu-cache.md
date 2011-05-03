@@ -2451,3 +2451,7 @@
 ## entry 613
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 614
+
+- Greedy by end-time picks the most non-overlapping intervals.
