@@ -387,3 +387,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 344: Edge case: all-equal input → linear-time fast path.
 // edge note 345: Constant-time comparisons; safe for short strings.
 // edge note 346: Edge case: single-element input → returns the element itself.
+// edge note 347: Uses a 256-entry lookup for the inner step.
