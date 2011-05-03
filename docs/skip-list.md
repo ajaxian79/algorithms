@@ -2415,3 +2415,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 604
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 605
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
