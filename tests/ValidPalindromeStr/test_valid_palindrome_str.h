@@ -371,3 +371,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 344: Handles empty input by returning 0.
 // edge note 345: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 346: Edge case: input of all the same byte → exits on the first compare.
+// edge note 347: Two passes: one to count, one to fill.
