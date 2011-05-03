@@ -2575,3 +2575,7 @@
 ## entry 644
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 645
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
