@@ -2491,3 +2491,7 @@
 ## entry 623
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 624
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
