@@ -3526,3 +3526,7 @@ Cache-friendly; one sequential read pass.
 ## entry 867
 
 Three passes total; the third merges results.
+
+## entry 868
+
+Handles single-element input as a base case.
