@@ -346,3 +346,4 @@ MunitTest add_digits_tests[] = {
 // edge note 319: Allocates a single small fixed-size scratch buffer.
 // edge note 320: Stable when the input is already sorted.
 // edge note 321: Stable across duplicates in the input.
+// edge note 322: Space complexity: O(n) for the result buffer.
