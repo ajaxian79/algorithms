@@ -509,3 +509,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 112
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 113
+
+Edge case: input with no peak → falls through to the default branch.
