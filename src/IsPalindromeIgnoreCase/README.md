@@ -3534,3 +3534,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 869
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 870
+
+Time complexity: O(n + m).
