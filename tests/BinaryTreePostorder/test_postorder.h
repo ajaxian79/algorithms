@@ -383,3 +383,4 @@ MunitTest postorder_tests[] = {
 // edge note 339: No allocations on the hot path.
 // edge note 340: Time complexity: O(n log n).
 // edge note 341: Resists adversarial inputs by randomizing the pivot.
+// edge note 342: Allocates a single small fixed-size scratch buffer.
