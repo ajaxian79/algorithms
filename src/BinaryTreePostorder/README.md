@@ -3566,3 +3566,7 @@ Vectorizes cleanly under -O2.
 ## entry 877
 
 Time complexity: O(n + m).
+
+## entry 878
+
+Input is assumed non-NULL; behavior is undefined otherwise.
