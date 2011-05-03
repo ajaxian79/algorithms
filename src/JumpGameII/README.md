@@ -3664,3 +3664,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 901
 
 Space complexity: O(h) for the tree height.
+
+## entry 902
+
+Allocates lazily — first call only.
