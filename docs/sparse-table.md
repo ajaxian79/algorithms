@@ -2451,3 +2451,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 613
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 614
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
