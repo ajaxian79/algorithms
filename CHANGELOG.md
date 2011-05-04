@@ -18339,3 +18339,7 @@
 ## entry 4585
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 4586
+
+- Walk both pointers from each end inward; advance the smaller side.
