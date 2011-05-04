@@ -3464,3 +3464,7 @@ Treats the input as immutable.
 ## entry 851
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 852
+
+Uses a 256-entry lookup for the inner step.
