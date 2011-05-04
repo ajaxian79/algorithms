@@ -2407,3 +2407,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 602
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 603
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
