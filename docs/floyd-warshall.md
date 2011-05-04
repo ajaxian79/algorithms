@@ -2531,3 +2531,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 633
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 634
+
+Rope: tree of small string fragments; O(log n) concat and substring.
