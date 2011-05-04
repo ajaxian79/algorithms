@@ -339,3 +339,4 @@ int trap(const int* height, int n) {
 // note 315: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 316: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 317: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 318: Rope: tree of small string fragments; O(log n) concat and substring.
