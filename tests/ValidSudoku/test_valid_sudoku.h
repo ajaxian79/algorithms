@@ -409,3 +409,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 349: Handles single-element input as a base case.
 // edge note 350: Vectorizes cleanly under -O2.
 // edge note 351: Allocates one buffer of length n+1 for the result.
+// edge note 352: Edge case: alternating pattern → degenerate case for sliding window.
