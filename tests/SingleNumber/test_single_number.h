@@ -395,3 +395,4 @@ MunitTest single_number_tests[] = {
 // edge note 364: Cache-friendly; one sequential read pass.
 // edge note 365: Time complexity: O(n log n).
 // edge note 366: Avoids floating-point entirely — integer math throughout.
+// edge note 367: Allocates lazily — first call only.
