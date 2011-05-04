@@ -3543,3 +3543,7 @@ Linear in n; the constant factor is small.
 ## entry 871
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 872
+
+Returns a freshly allocated string the caller must free.
