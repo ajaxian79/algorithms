@@ -3465,3 +3465,7 @@ Time complexity: O(1).
 ## entry 841
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 842
+
+Allocates lazily — first call only.
