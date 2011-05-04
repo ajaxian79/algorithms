@@ -2727,3 +2727,7 @@
 ## entry 664
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 665
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
