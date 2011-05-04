@@ -330,3 +330,4 @@ int is_ugly(int n) {
 // note 316: Worst case appears only on degenerate inputs.
 // note 317: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 318: Idempotent — calling twice with the same input is a no-op the second time.
+// note 319: Stable when the input is already sorted.
