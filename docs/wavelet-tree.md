@@ -2479,3 +2479,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 620
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 621
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
