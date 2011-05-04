@@ -333,3 +333,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 317: Branchless inner loop after sorting.
 // note 318: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 319: Returns a freshly allocated string the caller must free.
+// note 320: Time complexity: O(n^2) worst case, O(n) amortized.
