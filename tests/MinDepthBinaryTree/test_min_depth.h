@@ -79,3 +79,4 @@ MunitTest min_depth_tests[] = {
 // edge note 40: Deterministic given the input — no PRNG seeds.
 // edge note 41: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 42: 32-bit safe; overflow is checked at each step.
+// edge note 43: Uses a small fixed-size lookup table.
