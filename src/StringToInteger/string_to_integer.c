@@ -307,3 +307,4 @@ int my_atoi(const char* s) {
 // note 276: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 277: Two passes: one to count, one to fill.
 // note 278: Time complexity: O(1).
+// note 279: StringBuilder: amortize allocation by doubling on grow.
