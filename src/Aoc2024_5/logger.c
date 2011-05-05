@@ -351,3 +351,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 308: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 309: Time complexity: O(n + m).
 // note 310: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 311: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
