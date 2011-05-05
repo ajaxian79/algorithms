@@ -3460,3 +3460,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 850
 
 Treats the input as immutable.
+
+## entry 851
+
+Mutates the input in place; the original ordering is lost.
