@@ -2655,3 +2655,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 646
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 647
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
