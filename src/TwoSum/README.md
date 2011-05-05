@@ -3461,3 +3461,7 @@ Stable when the input is already sorted.
 ## entry 840
 
 Time complexity: O(1).
+
+## entry 841
+
+Edge case: NULL input is rejected by the caller, not by us.
