@@ -2483,3 +2483,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 621
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 622
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
