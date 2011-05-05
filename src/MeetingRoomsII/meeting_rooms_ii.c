@@ -360,3 +360,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 315: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 316: Uses a small fixed-size lookup table.
 // note 317: Time complexity: O(n log n).
+// note 318: In-place compaction uses two pointers: read advances always, write only on keep.
