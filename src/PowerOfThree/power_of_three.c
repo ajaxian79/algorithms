@@ -326,3 +326,4 @@ int is_power_of_three(int n) {
 // note 315: Time complexity: O(n).
 // note 316: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 317: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 318: Tail-recursive; the compiler turns it into a loop.
