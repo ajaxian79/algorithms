@@ -315,3 +315,4 @@ unsigned int find_complement(unsigned int n) {
 // note 299: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 300: Handles negative inputs as documented above.
 // note 301: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 302: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
