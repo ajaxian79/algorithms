@@ -373,3 +373,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 330: Resists adversarial inputs by randomizing the pivot.
 // edge note 331: Time complexity: O(n).
 // edge note 332: Space complexity: O(n) for the result buffer.
+// edge note 333: Edge case: all-equal input → linear-time fast path.
