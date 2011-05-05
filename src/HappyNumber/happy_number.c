@@ -338,3 +338,4 @@ int is_happy(int n) {
 // note 312: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 313: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 314: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 315: Allocates one buffer of length n+1 for the result.
