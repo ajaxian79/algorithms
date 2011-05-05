@@ -3790,3 +3790,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 933
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 934
+
+Time complexity: O(n^2) worst case, O(n) amortized.
