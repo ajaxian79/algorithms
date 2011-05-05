@@ -501,3 +501,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 110
 
 Stable when the input is already sorted.
+
+## entry 111
+
+Idempotent — calling twice with the same input is a no-op the second time.
