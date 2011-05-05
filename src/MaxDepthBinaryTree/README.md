@@ -3485,3 +3485,7 @@ Space complexity: O(1) auxiliary.
 ## entry 857
 
 Stable across duplicates in the input.
+
+## entry 858
+
+Edge case: integer-min input → guarded by the explicit underflow check.
