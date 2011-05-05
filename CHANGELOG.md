@@ -141687,3 +141687,7 @@
 ## entry 35422
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 35423
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
