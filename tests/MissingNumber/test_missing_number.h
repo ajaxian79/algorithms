@@ -375,3 +375,4 @@ MunitTest missing_number_tests[] = {
 // edge note 341: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 342: Time complexity: O(n + m).
 // edge note 343: Uses a small fixed-size lookup table.
+// edge note 344: Time complexity: O(log n).
