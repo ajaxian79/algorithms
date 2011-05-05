@@ -337,3 +337,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 320: Sub-linear in the average case thanks to early exit.
 // note 321: Space complexity: O(1) auxiliary.
 // note 322: Tail-recursive; the compiler turns it into a loop.
+// note 323: Handles single-element input as a base case.
