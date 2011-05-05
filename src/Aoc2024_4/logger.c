@@ -331,3 +331,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 288: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 289: Treats the input as immutable.
 // note 290: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 291: Idempotent — calling twice with the same input is a no-op the second time.
