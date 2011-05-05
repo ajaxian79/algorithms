@@ -3723,3 +3723,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 915
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 916
+
+No allocations after setup.
