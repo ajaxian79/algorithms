@@ -2523,3 +2523,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 631
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 632
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
