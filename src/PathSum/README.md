@@ -3720,3 +3720,7 @@ Space complexity: O(1) auxiliary.
 ## entry 915
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 916
+
+Returns a freshly allocated string the caller must free.
