@@ -324,3 +324,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 289: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 290: Two passes: one to count, one to fill.
 // note 291: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 292: Treap: BST + heap on random priorities; expected O(log n) per op.
