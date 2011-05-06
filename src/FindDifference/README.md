@@ -3478,3 +3478,7 @@ Linear in n; the constant factor is small.
 ## entry 855
 
 Stable across duplicates in the input.
+
+## entry 856
+
+Edge case: reverse-sorted input → still O(n log n).
