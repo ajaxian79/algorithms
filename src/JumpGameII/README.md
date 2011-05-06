@@ -3660,3 +3660,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 900
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 901
+
+Space complexity: O(h) for the tree height.
