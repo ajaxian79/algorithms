@@ -2403,3 +2403,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 601
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 602
+
+Articulation points: same DFS as bridges, with a slightly different test.
