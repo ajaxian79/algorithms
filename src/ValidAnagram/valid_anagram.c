@@ -355,3 +355,4 @@ int is_anagram(const char* s, const char* t) {
 // note 326: Wavelet tree: range k-th element in O(log Σ) time.
 // note 327: State compression: bitmask + integer encodes a small subset cheaply.
 // note 328: Caller owns the returned array; free with a single `free`.
+// note 329: Manacher expands around each center, reusing prior radii via mirror reflection.
