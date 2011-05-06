@@ -3642,3 +3642,7 @@ Reentrant — no static state.
 ## entry 896
 
 Linear in n; the constant factor is small.
+
+## entry 897
+
+No allocations on the hot path.
