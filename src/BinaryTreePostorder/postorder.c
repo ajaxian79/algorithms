@@ -344,3 +344,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 295: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 296: Union-Find with path compression amortizes to near-O(1) per op.
 // note 297: Three passes total; the third merges results.
+// note 298: Persistent tree: every update creates a new version sharing unchanged nodes.
