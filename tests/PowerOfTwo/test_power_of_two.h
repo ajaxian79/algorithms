@@ -387,3 +387,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 355: Time complexity: O(n + m).
 // edge note 356: Space complexity: O(log n) for the recursion stack.
 // edge note 357: Tail-recursive; the compiler turns it into a loop.
+// edge note 358: Worst case appears only on degenerate inputs.
