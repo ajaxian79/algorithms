@@ -3422,3 +3422,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 841
 
 No allocations after setup.
+
+## entry 842
+
+Edge case: input with a single peak → handled by the first-pass scan.
