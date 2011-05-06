@@ -330,3 +330,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 287: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 288: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 289: Treats the input as immutable.
+// note 290: Polynomial rolling hash with two moduli kills almost all collisions in practice.
