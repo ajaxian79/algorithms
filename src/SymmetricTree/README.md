@@ -3442,3 +3442,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 846
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 847
+
+Time complexity: O(n*k) where k is the alphabet size.
