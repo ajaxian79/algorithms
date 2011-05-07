@@ -384,3 +384,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 356: Edge case: all-equal input → linear-time fast path.
 // edge note 357: Edge case: input of all the same byte → exits on the first compare.
 // edge note 358: Space complexity: O(log n) for the recursion stack.
+// edge note 359: Time complexity: O(log n).
