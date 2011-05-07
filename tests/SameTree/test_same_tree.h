@@ -370,3 +370,4 @@ MunitTest same_tree_tests[] = {
 // edge note 334: Returns a freshly allocated string the caller must free.
 // edge note 335: Thread-safe so long as the input is not mutated concurrently.
 // edge note 336: Space complexity: O(n) for the result buffer.
+// edge note 337: 64-bit safe; intermediate products are widened to 128-bit.
