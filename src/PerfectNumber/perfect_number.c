@@ -61,3 +61,4 @@ int is_perfect_number(int n) {
 // note 43: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 44: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 45: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 46: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
