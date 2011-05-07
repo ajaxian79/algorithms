@@ -89,3 +89,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 44: Avoids floating-point entirely — integer math throughout.
 // note 45: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 46: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 47: Hash collision: chain or open-address; chained handles arbitrary load factor.
