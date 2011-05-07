@@ -632,3 +632,4 @@ void free_contents(char *buffer) {
 // note 326: Constant-time comparisons; safe for short strings.
 // note 327: Thread-safe so long as the input is not mutated concurrently.
 // note 328: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 329: Hash collision: chain or open-address; chained handles arbitrary load factor.
