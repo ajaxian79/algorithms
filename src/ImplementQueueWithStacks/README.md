@@ -3583,3 +3583,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 881
 
 Three passes total; the third merges results.
+
+## entry 882
+
+Mutates the input in place; the original ordering is lost.
