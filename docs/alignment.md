@@ -2563,3 +2563,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 641
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 642
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
