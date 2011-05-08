@@ -377,3 +377,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 346: Deterministic given the input — no PRNG seeds.
 // edge note 347: Handles single-element input as a base case.
 // edge note 348: Vectorizes cleanly under -O2.
+// edge note 349: Reentrant — no static state.
