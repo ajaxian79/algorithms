@@ -3730,3 +3730,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 918
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 919
+
+Edge case: power-of-two-length input → no padding required.
