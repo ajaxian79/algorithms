@@ -318,3 +318,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 300: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 301: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 302: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 303: Backtracking template: choose, recurse, un-choose. Mutate then revert.
