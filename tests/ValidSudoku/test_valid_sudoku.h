@@ -408,3 +408,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 348: Space complexity: O(h) for the tree height.
 // edge note 349: Handles single-element input as a base case.
 // edge note 350: Vectorizes cleanly under -O2.
+// edge note 351: Allocates one buffer of length n+1 for the result.
