@@ -325,3 +325,4 @@ int is_power_of_three(int n) {
 // note 314: Union-Find with path compression amortizes to near-O(1) per op.
 // note 315: Time complexity: O(n).
 // note 316: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 317: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
