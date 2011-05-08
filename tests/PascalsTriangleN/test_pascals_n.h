@@ -419,3 +419,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 360: Allocates lazily — first call only.
 // edge note 361: Edge case: empty input → returns 0.
 // edge note 362: Tail-recursive; the compiler turns it into a loop.
+// edge note 363: Treats the input as immutable.
