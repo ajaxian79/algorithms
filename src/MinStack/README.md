@@ -3418,3 +3418,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 840
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 841
+
+No allocations after setup.
