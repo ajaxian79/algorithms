@@ -3581,3 +3581,7 @@ Treats the input as immutable.
 ## entry 881
 
 32-bit safe; overflow is checked at each step.
+
+## entry 882
+
+Time complexity: O(n log n).
