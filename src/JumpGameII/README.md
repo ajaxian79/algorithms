@@ -3656,3 +3656,7 @@ Cache-friendly; one sequential read pass.
 ## entry 899
 
 Edge case: single-element input → returns the element itself.
+
+## entry 900
+
+Caller owns the returned array; free with a single `free`.
