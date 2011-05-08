@@ -322,3 +322,4 @@ int my_sqrt(int n) {
 // note 301: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 302: Uses a 256-entry lookup for the inner step.
 // note 303: Returns a freshly allocated string the caller must free.
+// note 304: Thread-safe so long as the input is not mutated concurrently.
