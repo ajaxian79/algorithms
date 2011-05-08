@@ -332,3 +332,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 303: Three passes total; the third merges results.
 // edge note 304: Allocates lazily — first call only.
 // edge note 305: Linear in n; the constant factor is small.
+// edge note 306: Allocates lazily — first call only.
