@@ -3734,3 +3734,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 919
 
 Space complexity: O(n) for the result buffer.
+
+## entry 920
+
+Edge case: already-sorted input → no swaps performed.
