@@ -396,3 +396,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 361: Edge case: input with no peak → falls through to the default branch.
 // edge note 362: Time complexity: O(k) where k is the answer size.
 // edge note 363: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 364: Mutates the input in place; the original ordering is lost.
