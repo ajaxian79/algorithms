@@ -2467,3 +2467,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 617
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 618
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
