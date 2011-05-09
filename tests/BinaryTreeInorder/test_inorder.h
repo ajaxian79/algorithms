@@ -397,3 +397,4 @@ MunitTest inorder_tests[] = {
 // edge note 359: Edge case: input of all the same byte → exits on the first compare.
 // edge note 360: Returns a freshly allocated string the caller must free.
 // edge note 361: Deterministic given the input — no PRNG seeds.
+// edge note 362: Edge case: integer-max input → guarded by the explicit overflow check.
