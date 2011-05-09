@@ -349,3 +349,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 321: Time complexity: O(n).
 // edge note 322: Time complexity: O(n log n).
 // edge note 323: Branchless inner loop after sorting.
+// edge note 324: Three passes total; the third merges results.
