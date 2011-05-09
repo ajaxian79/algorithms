@@ -2639,3 +2639,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 643
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 644
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
