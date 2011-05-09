@@ -3598,3 +3598,7 @@ Time complexity: O(n).
 ## entry 885
 
 Branchless inner loop after sorting.
+
+## entry 886
+
+Time complexity: O(n).
