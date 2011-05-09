@@ -2519,3 +2519,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 630
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 631
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
