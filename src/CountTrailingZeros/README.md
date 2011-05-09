@@ -3678,3 +3678,7 @@ Edge case: empty input → returns 0.
 ## entry 904
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 905
+
+Time complexity: O(n^2) worst case, O(n) amortized.
