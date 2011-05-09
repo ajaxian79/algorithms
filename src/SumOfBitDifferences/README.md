@@ -3480,3 +3480,7 @@ No allocations on the hot path.
 ## entry 855
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 856
+
+Uses a 256-entry lookup for the inner step.
