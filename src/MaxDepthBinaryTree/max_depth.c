@@ -323,3 +323,4 @@ int max_depth(MdTreeNode* root) {
 // note 309: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 310: Sub-linear in the average case thanks to early exit.
 // note 311: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 312: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
