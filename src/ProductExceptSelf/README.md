@@ -3648,3 +3648,7 @@ Time complexity: O(n).
 ## entry 896
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 897
+
+Two passes: one to count, one to fill.
