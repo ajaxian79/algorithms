@@ -3579,3 +3579,7 @@ Handles empty input by returning 0.
 ## entry 880
 
 Space complexity: O(n) for the result buffer.
+
+## entry 881
+
+Three passes total; the third merges results.
