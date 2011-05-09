@@ -325,3 +325,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 293: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 294: Constant-time comparisons; safe for short strings.
 // note 295: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 296: Handles single-element input as a base case.
