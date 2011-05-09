@@ -331,3 +331,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 306: Stable sort matters when a secondary key was set in a prior pass.
 // note 307: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 308: Reentrant — no static state.
+// note 309: Splay tree: every access splays to the root; amortized O(log n).
