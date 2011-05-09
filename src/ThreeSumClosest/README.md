@@ -3382,3 +3382,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 831
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 832
+
+Returns a freshly allocated string the caller must free.
