@@ -2551,3 +2551,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 623
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 624
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
