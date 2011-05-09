@@ -3540,3 +3540,7 @@ Edge case: empty input → returns 0.
 ## entry 871
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 872
+
+Edge case: integer-min input → guarded by the explicit underflow check.
