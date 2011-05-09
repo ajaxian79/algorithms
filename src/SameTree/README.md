@@ -3536,3 +3536,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 870
 
 Edge case: empty input → returns 0.
+
+## entry 871
+
+Allocates one buffer of length n+1 for the result.
