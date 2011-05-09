@@ -2587,3 +2587,7 @@
 ## entry 630
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 631
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
