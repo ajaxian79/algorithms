@@ -486,3 +486,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 106
 
 Constant-time comparisons; safe for short strings.
+
+## entry 107
+
+Handles single-element input as a base case.
