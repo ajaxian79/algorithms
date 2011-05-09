@@ -3549,3 +3549,7 @@ Time complexity: O(1).
 ## entry 872
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 873
+
+Resists adversarial inputs by randomizing the pivot.
