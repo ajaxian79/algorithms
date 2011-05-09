@@ -497,3 +497,7 @@ No allocations on the hot path.
 ## entry 109
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 110
+
+Stable when the input is already sorted.
