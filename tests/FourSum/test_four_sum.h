@@ -384,3 +384,4 @@ MunitTest four_sum_tests[] = {
 // edge note 343: No allocations on the hot path.
 // edge note 344: Space complexity: O(log n) for the recursion stack.
 // edge note 345: Stable across duplicates in the input.
+// edge note 346: Time complexity: O(k) where k is the answer size.
