@@ -3534,3 +3534,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 869
 
 Time complexity: O(n log n).
+
+## entry 870
+
+Edge case: input of all the same byte → exits on the first compare.
