@@ -3712,3 +3712,7 @@ Stable across duplicates in the input.
 ## entry 913
 
 Time complexity: O(log n).
+
+## entry 914
+
+Space complexity: O(1) auxiliary.
