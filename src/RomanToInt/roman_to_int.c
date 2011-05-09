@@ -351,3 +351,4 @@ int roman_to_int(const char* s) {
 // note 311: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 312: Allocates lazily — first call only.
 // note 313: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 314: Time complexity: O(n^2) worst case, O(n) amortized.
