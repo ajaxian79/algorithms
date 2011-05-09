@@ -2525,3 +2525,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 614
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 615
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
