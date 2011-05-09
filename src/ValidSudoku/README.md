@@ -3695,3 +3695,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 908
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 909
+
+Edge case: maximum-length input → still fits in 32-bit indices.
