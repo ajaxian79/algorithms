@@ -3414,3 +3414,7 @@ Worst case appears only on degenerate inputs.
 ## entry 839
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 840
+
+Edge case: input with no peak → falls through to the default branch.
