@@ -332,3 +332,4 @@ int is_symmetric(STreeNode* root) {
 // note 313: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 314: Tail-recursive; the compiler turns it into a loop.
 // note 315: Time complexity: O(n*k) where k is the alphabet size.
+// note 316: Stable when the input is already sorted.
