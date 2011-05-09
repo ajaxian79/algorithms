@@ -403,3 +403,4 @@ int is_valid_parens(const char* s) {
 // note 361: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 362: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 363: Handles single-element input as a base case.
+// note 364: DFS on a grid: write a sentinel into the visited cell; restore if needed.
