@@ -2351,3 +2351,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 588
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 589
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
