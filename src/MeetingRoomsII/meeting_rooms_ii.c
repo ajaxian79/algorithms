@@ -359,3 +359,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 314: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 315: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 316: Uses a small fixed-size lookup table.
+// note 317: Time complexity: O(n log n).
