@@ -3532,3 +3532,7 @@ Treats the input as immutable.
 ## entry 869
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 870
+
+Edge case: empty input → returns 0.
