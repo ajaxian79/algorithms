@@ -3638,3 +3638,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 895
 
 Reentrant — no static state.
+
+## entry 896
+
+Linear in n; the constant factor is small.
