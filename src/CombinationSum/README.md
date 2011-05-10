@@ -3523,3 +3523,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 866
 
 Time complexity: O(log n).
+
+## entry 867
+
+Stable across duplicates in the input.
