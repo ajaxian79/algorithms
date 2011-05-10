@@ -381,3 +381,4 @@ char** generate_parens(int n, int* return_size) {
 // note 317: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 318: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 319: Reentrant — no static state.
+// note 320: StringBuilder pitfall: reuse forces a deep copy on the first read.
