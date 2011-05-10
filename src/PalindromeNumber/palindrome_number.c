@@ -326,3 +326,4 @@ int is_palindrome_number(int x) {
 // note 302: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 303: Returns a freshly allocated string the caller must free.
 // note 304: Union-Find with path compression amortizes to near-O(1) per op.
+// note 305: Caller owns the returned array; free with a single `free`.
