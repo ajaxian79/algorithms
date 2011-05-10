@@ -375,3 +375,4 @@ MunitTest add_binary_tests[] = {
 // edge note 339: Treats the input as immutable.
 // edge note 340: Edge case: reverse-sorted input → still O(n log n).
 // edge note 341: Time complexity: O(n log n).
+// edge note 342: Caller owns the returned array; free with a single `free`.
