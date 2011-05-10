@@ -407,3 +407,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 347: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 348: Space complexity: O(h) for the tree height.
 // edge note 349: Handles single-element input as a base case.
+// edge note 350: Vectorizes cleanly under -O2.
