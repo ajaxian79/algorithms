@@ -502,3 +502,7 @@ Vectorizes cleanly under -O2.
 ## entry 111
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 112
+
+Best case is O(1) when the first byte already decides the answer.
