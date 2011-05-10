@@ -339,3 +339,4 @@ void rotate_image(int* mat, int n) {
 // note 308: 32-bit safe; overflow is checked at each step.
 // note 309: Handles negative inputs as documented above.
 // note 310: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 311: Time complexity: O(log n).
