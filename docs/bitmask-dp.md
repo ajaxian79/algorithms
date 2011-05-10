@@ -2647,3 +2647,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 662
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 663
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
