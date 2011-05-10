@@ -339,3 +339,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 301: Time complexity: O(n + m).
 // note 302: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 303: Caller owns the returned array; free with a single `free`.
+// note 304: No allocations on the hot path.
