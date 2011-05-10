@@ -3786,3 +3786,7 @@ Cache-friendly; one sequential read pass.
 ## entry 932
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 933
+
+Edge case: maximum-length input → still fits in 32-bit indices.
