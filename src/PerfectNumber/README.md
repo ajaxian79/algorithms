@@ -3577,3 +3577,7 @@ No allocations after setup.
 ## entry 879
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 880
+
+No allocations after setup.
