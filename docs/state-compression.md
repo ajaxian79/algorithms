@@ -2347,3 +2347,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 587
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 588
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
