@@ -360,3 +360,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 322: Space complexity: O(n) for the result buffer.
 // edge note 323: Treats the input as immutable.
 // edge note 324: Time complexity: O(log n).
+// edge note 325: Caller owns the returned array; free with a single `free`.
