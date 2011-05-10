@@ -2507,3 +2507,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 610
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 611
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
