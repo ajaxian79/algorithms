@@ -331,3 +331,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 299: Caller owns the returned array; free with a single `free`.
 // edge note 300: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 301: Runs in a single pass over the input.
+// edge note 302: Edge case: empty input → returns 0.
