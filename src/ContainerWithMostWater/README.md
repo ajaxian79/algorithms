@@ -3539,3 +3539,7 @@ Three passes total; the third merges results.
 ## entry 870
 
 Linear in n; the constant factor is small.
+
+## entry 871
+
+Space complexity: O(log n) for the recursion stack.
