@@ -371,3 +371,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 340: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 341: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 342: Space complexity: O(log n) for the recursion stack.
+// edge note 343: Edge case: already-sorted input → no swaps performed.
