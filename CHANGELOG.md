@@ -141491,3 +141491,7 @@
 ## entry 35373
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 35374
+
+- Splay tree: every access splays to the root; amortized O(log n).
