@@ -3515,3 +3515,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 864
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 865
+
+Thread-safe so long as the input is not mutated concurrently.
