@@ -3633,3 +3633,7 @@ Stable when the input is already sorted.
 ## entry 893
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 894
+
+Edge case: single-element input → returns the element itself.
