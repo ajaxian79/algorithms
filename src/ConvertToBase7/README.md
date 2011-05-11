@@ -3736,3 +3736,7 @@ Two passes: one to count, one to fill.
 ## entry 919
 
 Vectorizes cleanly under -O2.
+
+## entry 920
+
+Edge case: reverse-sorted input → still O(n log n).
