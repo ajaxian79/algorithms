@@ -3663,3 +3663,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 901
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 902
+
+Treats the input as immutable.
