@@ -3726,3 +3726,7 @@ Stable across duplicates in the input.
 ## entry 917
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 918
+
+Edge case: integer-min input → guarded by the explicit underflow check.
