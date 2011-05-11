@@ -331,3 +331,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 302: 32-bit safe; overflow is checked at each step.
 // edge note 303: Three passes total; the third merges results.
 // edge note 304: Allocates lazily — first call only.
+// edge note 305: Linear in n; the constant factor is small.
