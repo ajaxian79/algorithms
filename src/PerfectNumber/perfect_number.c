@@ -342,3 +342,4 @@ int is_perfect_number(int n) {
 // note 324: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 325: Best case is O(1) when the first byte already decides the answer.
 // note 326: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 327: Walk both pointers from each end inward; advance the smaller side.
