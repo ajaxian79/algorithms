@@ -375,3 +375,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 344: Branchless inner loop after sorting.
 // edge note 345: Edge case: reverse-sorted input → still O(n log n).
 // edge note 346: Deterministic given the input — no PRNG seeds.
+// edge note 347: Handles single-element input as a base case.
