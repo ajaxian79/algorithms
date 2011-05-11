@@ -450,3 +450,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 314: Treats the input as immutable.
 // note 315: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 316: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 317: Avoids floating-point entirely — integer math throughout.
