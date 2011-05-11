@@ -3674,3 +3674,7 @@ Vectorizes cleanly under -O2.
 ## entry 903
 
 Edge case: empty input → returns 0.
+
+## entry 904
+
+Avoids floating-point entirely — integer math throughout.
