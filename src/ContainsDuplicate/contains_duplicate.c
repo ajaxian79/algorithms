@@ -388,3 +388,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 309: Branchless inner loop after sorting.
 // note 310: Space complexity: O(1) auxiliary.
 // note 311: Monotonic stack pops while the new element violates the invariant.
+// note 312: Uses a 256-entry lookup for the inner step.
