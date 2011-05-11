@@ -379,3 +379,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 95
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 96
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
