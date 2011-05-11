@@ -2607,3 +2607,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 652
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 653
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
