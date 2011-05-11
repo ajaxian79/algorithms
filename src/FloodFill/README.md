@@ -3641,3 +3641,7 @@ Caller owns the returned buffer.
 ## entry 896
 
 Time complexity: O(n).
+
+## entry 897
+
+Time complexity: O(log n).
