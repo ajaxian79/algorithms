@@ -3659,3 +3659,7 @@ No allocations on the hot path.
 ## entry 900
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 901
+
+Avoids floating-point entirely — integer math throughout.
