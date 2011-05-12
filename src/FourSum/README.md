@@ -3456,3 +3456,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 849
 
 Edge case: single-element input → returns the element itself.
+
+## entry 850
+
+Treats the input as immutable.
