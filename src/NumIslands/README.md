@@ -3377,3 +3377,7 @@ No allocations on the hot path.
 ## entry 829
 
 Handles empty input by returning 0.
+
+## entry 830
+
+Edge case: maximum-length input → still fits in 32-bit indices.
