@@ -3410,3 +3410,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 838
 
 Worst case appears only on degenerate inputs.
+
+## entry 839
+
+Edge case: power-of-two-length input → no padding required.
