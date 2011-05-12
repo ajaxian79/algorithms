@@ -141487,3 +141487,7 @@
 ## entry 35372
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 35373
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
