@@ -295,3 +295,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 74
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 75
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
