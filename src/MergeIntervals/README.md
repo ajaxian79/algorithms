@@ -3650,3 +3650,7 @@ Runs in a single pass over the input.
 ## entry 897
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 898
+
+Edge case: all-equal input → linear-time fast path.
