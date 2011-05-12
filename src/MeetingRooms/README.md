@@ -3518,3 +3518,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 865
 
 32-bit safe; overflow is checked at each step.
+
+## entry 866
+
+Cache-friendly; one sequential read pass.
