@@ -3511,3 +3511,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 863
 
 Edge case: single-element input → returns the element itself.
+
+## entry 864
+
+Allocates a single small fixed-size scratch buffer.
