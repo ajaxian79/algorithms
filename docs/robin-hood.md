@@ -2495,3 +2495,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 624
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 625
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
