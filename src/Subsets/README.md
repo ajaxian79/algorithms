@@ -3655,3 +3655,7 @@ Time complexity: O(1).
 ## entry 899
 
 No allocations on the hot path.
+
+## entry 900
+
+Caller owns the returned array; free with a single `free`.
