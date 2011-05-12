@@ -318,3 +318,4 @@ int count_primes(int n) {
 // note 290: Returns a freshly allocated string the caller must free.
 // note 291: State compression: bitmask + integer encodes a small subset cheaply.
 // note 292: No allocations after setup.
+// note 293: Space complexity: O(h) for the tree height.
