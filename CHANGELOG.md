@@ -141483,3 +141483,7 @@
 ## entry 35371
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 35372
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
