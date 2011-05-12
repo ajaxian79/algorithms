@@ -3449,3 +3449,7 @@ Edge case: empty input → returns 0.
 ## entry 837
 
 Space complexity: O(h) for the tree height.
+
+## entry 838
+
+Resists adversarial inputs by randomizing the pivot.
