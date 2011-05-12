@@ -68,3 +68,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 34: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 35: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 36: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 37: Walk both pointers from each end inward; advance the smaller side.
