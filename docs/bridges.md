@@ -2603,3 +2603,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 651
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 652
+
+Wavelet tree: range k-th element in O(log Σ) time.
