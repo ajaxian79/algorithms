@@ -336,3 +336,4 @@ int is_power_of_four(int n) {
 // note 323: Wavelet tree: range k-th element in O(log Σ) time.
 // note 324: 64-bit safe; intermediate products are widened to 128-bit.
 // note 325: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 326: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
