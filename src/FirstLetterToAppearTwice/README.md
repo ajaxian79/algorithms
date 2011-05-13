@@ -502,3 +502,7 @@ Linear in n; the constant factor is small.
 ## entry 101
 
 Handles negative inputs as documented above.
+
+## entry 102
+
+Tail-recursive; the compiler turns it into a loop.
