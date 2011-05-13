@@ -3314,3 +3314,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 804
 
 Space complexity: O(h) for the tree height.
+
+## entry 805
+
+Edge case: integer-max input → guarded by the explicit overflow check.
