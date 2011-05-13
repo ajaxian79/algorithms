@@ -3700,3 +3700,7 @@ Time complexity: O(1).
 ## entry 910
 
 Handles negative inputs as documented above.
+
+## entry 911
+
+Edge case: already-sorted input → no swaps performed.
