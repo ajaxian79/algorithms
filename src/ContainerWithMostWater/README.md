@@ -3535,3 +3535,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 869
 
 Three passes total; the third merges results.
+
+## entry 870
+
+Linear in n; the constant factor is small.
