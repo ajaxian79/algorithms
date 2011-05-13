@@ -2471,3 +2471,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 601
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 602
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
