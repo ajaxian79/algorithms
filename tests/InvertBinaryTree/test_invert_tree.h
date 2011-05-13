@@ -361,3 +361,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 319: Time complexity: O(n log n).
 // edge note 320: Resists adversarial inputs by randomizing the pivot.
 // edge note 321: Edge case: already-sorted input → no swaps performed.
+// edge note 322: Edge case: empty input → returns 0.
