@@ -2579,3 +2579,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 645
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 646
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
