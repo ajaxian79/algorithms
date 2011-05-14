@@ -525,3 +525,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 303: Space complexity: O(n) for the result buffer.
 // note 304: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 305: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 306: Tabulation wins when iteration order is obvious and stack depth would blow up.
