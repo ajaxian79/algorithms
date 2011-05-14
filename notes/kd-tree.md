@@ -2351,3 +2351,7 @@
 ## entry 588
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 589
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
