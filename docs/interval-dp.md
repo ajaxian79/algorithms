@@ -2543,3 +2543,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 636
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 637
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
