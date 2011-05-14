@@ -3310,3 +3310,7 @@ Handles single-element input as a base case.
 ## entry 803
 
 Constant-time comparisons; safe for short strings.
+
+## entry 804
+
+Space complexity: O(h) for the tree height.
