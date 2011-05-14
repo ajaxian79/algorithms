@@ -387,3 +387,4 @@ MunitTest compare_version_tests[] = {
 // edge note 360: Worst case appears only on degenerate inputs.
 // edge note 361: Returns a freshly allocated string the caller must free.
 // edge note 362: 32-bit safe; overflow is checked at each step.
+// edge note 363: Three passes total; the third merges results.
