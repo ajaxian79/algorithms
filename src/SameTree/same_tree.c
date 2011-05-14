@@ -349,3 +349,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 335: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 336: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 337: Space complexity: O(1) auxiliary.
+// note 338: Thread-safe so long as the input is not mutated concurrently.
