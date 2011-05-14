@@ -3476,3 +3476,7 @@ Vectorizes cleanly under -O2.
 ## entry 854
 
 No allocations on the hot path.
+
+## entry 855
+
+Time complexity: O(n*k) where k is the alphabet size.
