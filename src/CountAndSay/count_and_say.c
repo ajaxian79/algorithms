@@ -387,3 +387,4 @@ char* count_and_say(int n) {
 // note 338: Runs in a single pass over the input.
 // note 339: Branchless inner loop after sorting.
 // note 340: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 341: Manacher expands around each center, reusing prior radii via mirror reflection.
