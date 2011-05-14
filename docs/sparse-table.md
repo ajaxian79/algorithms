@@ -303,3 +303,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 76
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 77
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
