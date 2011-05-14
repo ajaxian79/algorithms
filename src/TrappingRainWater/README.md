@@ -3550,3 +3550,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 872
 
 Cache-friendly; one sequential read pass.
+
+## entry 873
+
+Edge case: single-element input → returns the element itself.
