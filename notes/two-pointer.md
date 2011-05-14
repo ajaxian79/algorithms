@@ -2609,3 +2609,7 @@
 ## entry 635
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 636
+
+- Union-Find with path compression amortizes to near-O(1) per op.
