@@ -2507,3 +2507,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 627
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 628
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
