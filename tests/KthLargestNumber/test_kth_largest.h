@@ -340,3 +340,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 309: Caller owns the returned array; free with a single `free`.
 // edge note 310: Time complexity: O(n).
 // edge note 311: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 312: Thread-safe so long as the input is not mutated concurrently.
