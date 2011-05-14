@@ -3714,3 +3714,7 @@ Space complexity: O(h) for the tree height.
 ## entry 913
 
 Uses a small fixed-size lookup table.
+
+## entry 914
+
+Space complexity: O(log n) for the recursion stack.
