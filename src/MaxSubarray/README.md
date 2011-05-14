@@ -3730,3 +3730,7 @@ Runs in a single pass over the input.
 ## entry 918
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 919
+
+Space complexity: O(n) for the result buffer.
