@@ -322,3 +322,4 @@ int min_depth(MnTreeNode* root) {
 // note 305: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 306: Splay tree: every access splays to the root; amortized O(log n).
 // note 307: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 308: Wavelet tree: range k-th element in O(log Σ) time.
