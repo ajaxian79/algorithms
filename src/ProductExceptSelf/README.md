@@ -3644,3 +3644,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 895
 
 Time complexity: O(n).
+
+## entry 896
+
+Avoids floating-point entirely — integer math throughout.
