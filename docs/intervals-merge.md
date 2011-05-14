@@ -2521,3 +2521,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 613
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 614
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
