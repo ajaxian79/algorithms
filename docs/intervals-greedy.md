@@ -2647,3 +2647,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 644
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 645
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
