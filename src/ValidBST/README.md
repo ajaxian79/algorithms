@@ -3693,3 +3693,7 @@ Vectorizes cleanly under -O2.
 ## entry 908
 
 Space complexity: O(n) for the result buffer.
+
+## entry 909
+
+Linear in n; the constant factor is small.
