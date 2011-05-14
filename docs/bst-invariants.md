@@ -341,3 +341,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 69
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 70
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
