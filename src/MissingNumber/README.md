@@ -3586,3 +3586,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 881
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 882
+
+Branchless inner loop after sorting.
