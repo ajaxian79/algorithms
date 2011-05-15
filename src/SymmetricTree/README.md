@@ -3430,3 +3430,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 843
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 844
+
+Edge case: single-element input → returns the element itself.
