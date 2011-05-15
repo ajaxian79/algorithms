@@ -2691,3 +2691,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 657
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 658
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
