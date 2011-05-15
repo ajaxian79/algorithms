@@ -3406,3 +3406,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 837
 
 Constant-time comparisons; safe for short strings.
+
+## entry 838
+
+Worst case appears only on degenerate inputs.
