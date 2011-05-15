@@ -3490,3 +3490,7 @@ Stable across duplicates in the input.
 ## entry 857
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 858
+
+Edge case: already-sorted input → no swaps performed.
