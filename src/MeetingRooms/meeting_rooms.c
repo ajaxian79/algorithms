@@ -329,3 +329,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 307: Idempotent — calling twice with the same input is a no-op the second time.
 // note 308: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 309: Runs in a single pass over the input.
+// note 310: LRU cache: doubly-linked list + hash map; O(1) get/put.
