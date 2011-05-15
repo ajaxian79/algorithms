@@ -3646,3 +3646,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 896
 
 Runs in a single pass over the input.
+
+## entry 897
+
+Avoids floating-point entirely — integer math throughout.
