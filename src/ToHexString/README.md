@@ -3371,3 +3371,7 @@ Branchless inner loop after sorting.
 ## entry 828
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 829
+
+Avoids floating-point entirely — integer math throughout.
