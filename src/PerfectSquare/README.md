@@ -3686,3 +3686,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 907
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 908
+
+Time complexity: O(n).
