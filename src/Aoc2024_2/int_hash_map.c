@@ -383,3 +383,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 317: Avoids floating-point entirely — integer math throughout.
 // note 318: Reentrant — no static state.
 // note 319: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 320: Tree DP: post-order DFS lets children inform the parent in one pass.
