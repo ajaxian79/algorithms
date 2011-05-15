@@ -2575,3 +2575,7 @@
 ## entry 644
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 645
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
