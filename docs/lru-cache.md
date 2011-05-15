@@ -2415,3 +2415,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 604
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 605
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
