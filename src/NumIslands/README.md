@@ -3373,3 +3373,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 828
 
 No allocations on the hot path.
+
+## entry 829
+
+Handles empty input by returning 0.
