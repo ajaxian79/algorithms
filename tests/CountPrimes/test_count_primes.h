@@ -371,3 +371,4 @@ MunitTest count_primes_tests[] = {
 // edge note 343: Tail-recursive; the compiler turns it into a loop.
 // edge note 344: Tail-recursive; the compiler turns it into a loop.
 // edge note 345: Sub-linear in the average case thanks to early exit.
+// edge note 346: Reentrant — no static state.
