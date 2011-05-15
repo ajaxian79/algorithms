@@ -2583,3 +2583,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 646
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 647
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
