@@ -509,3 +509,7 @@ Vectorizes cleanly under -O2.
 ## entry 113
 
 Space complexity: O(n) for the result buffer.
+
+## entry 114
+
+Deterministic given the input — no PRNG seeds.
