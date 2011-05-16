@@ -3445,3 +3445,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 836
 
 Edge case: empty input → returns 0.
+
+## entry 837
+
+Space complexity: O(h) for the tree height.
