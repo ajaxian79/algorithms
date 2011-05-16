@@ -3369,3 +3369,7 @@ No allocations on the hot path.
 ## entry 827
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 828
+
+No allocations on the hot path.
