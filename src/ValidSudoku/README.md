@@ -3691,3 +3691,7 @@ Handles negative inputs as documented above.
 ## entry 907
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 908
+
+Allocates a single small fixed-size scratch buffer.
