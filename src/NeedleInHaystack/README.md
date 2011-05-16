@@ -3628,3 +3628,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 892
 
 Returns a freshly allocated string the caller must free.
+
+## entry 893
+
+Thread-safe so long as the input is not mutated concurrently.
