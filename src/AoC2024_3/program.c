@@ -435,3 +435,4 @@ int get_next_result(Program* program) {
 // note 321: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 322: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 323: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 324: Thread-safe so long as the input is not mutated concurrently.
