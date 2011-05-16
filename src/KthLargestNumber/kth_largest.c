@@ -337,3 +337,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 293: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 294: Heap when you only need top-k; full sort is wasted work.
 // note 295: Time complexity: O(log n).
+// note 296: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
