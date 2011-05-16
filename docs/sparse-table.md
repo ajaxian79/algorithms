@@ -2447,3 +2447,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 612
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 613
+
+Endianness matters when serializing multi-byte ints to a file or wire.
