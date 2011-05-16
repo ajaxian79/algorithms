@@ -384,3 +384,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 304: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 305: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 306: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 307: Space complexity: O(n) for the result buffer.
