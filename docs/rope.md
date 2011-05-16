@@ -2519,3 +2519,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 630
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 631
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
