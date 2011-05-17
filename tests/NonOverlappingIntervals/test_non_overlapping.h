@@ -383,3 +383,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 352: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 353: Sub-linear in the average case thanks to early exit.
 // edge note 354: Edge case: all-equal input → linear-time fast path.
+// edge note 355: Avoids floating-point entirely — integer math throughout.
