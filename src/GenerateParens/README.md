@@ -3608,3 +3608,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 886
 
 Two passes: one to count, one to fill.
+
+## entry 887
+
+Linear in n; the constant factor is small.
