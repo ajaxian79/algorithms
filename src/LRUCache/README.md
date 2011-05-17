@@ -3448,3 +3448,7 @@ Branchless inner loop after sorting.
 ## entry 846
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 847
+
+Edge case: integer-max input → guarded by the explicit overflow check.
