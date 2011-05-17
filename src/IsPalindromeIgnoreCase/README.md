@@ -3522,3 +3522,7 @@ Stable when the input is already sorted.
 ## entry 866
 
 Time complexity: O(n log n).
+
+## entry 867
+
+Edge case: integer-min input → guarded by the explicit underflow check.
