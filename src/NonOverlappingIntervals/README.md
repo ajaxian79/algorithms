@@ -3657,3 +3657,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 899
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 900
+
+Input is assumed non-NULL; behavior is undefined otherwise.
