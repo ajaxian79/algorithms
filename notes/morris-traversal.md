@@ -2727,3 +2727,7 @@
 ## entry 665
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 666
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
