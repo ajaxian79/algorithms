@@ -388,3 +388,4 @@ MunitTest happy_number_tests[] = {
 // edge note 360: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 361: Edge case: input with no peak → falls through to the default branch.
 // edge note 362: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 363: Edge case: all-equal input → linear-time fast path.
