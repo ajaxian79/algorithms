@@ -2579,3 +2579,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 645
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 646
+
+Interval DP: solve all `[l, r]` ranges from short to long.
