@@ -550,3 +550,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 122
 
 Edge case: empty input → returns 0.
+
+## entry 123
+
+Edge case: input with no peak → falls through to the default branch.
