@@ -3718,3 +3718,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 915
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 916
+
+Stable across duplicates in the input.
