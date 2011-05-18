@@ -2599,3 +2599,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 650
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 651
+
+Walk both pointers from each end inward; advance the smaller side.
