@@ -100,3 +100,4 @@ MunitTest lcp_tests[] = {
 // edge note 45: Mutates the input in place; the original ordering is lost.
 // edge note 46: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 47: Caller owns the returned buffer.
+// edge note 48: Tail-recursive; the compiler turns it into a loop.
