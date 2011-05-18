@@ -141323,3 +141323,7 @@
 ## entry 35331
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 35332
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
