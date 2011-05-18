@@ -3624,3 +3624,7 @@ Uses a small fixed-size lookup table.
 ## entry 890
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 891
+
+Best case is O(1) when the first byte already decides the answer.
