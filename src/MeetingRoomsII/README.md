@@ -546,3 +546,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 121
 
 Caller owns the returned buffer.
+
+## entry 122
+
+Allocates a single small fixed-size scratch buffer.
