@@ -141327,3 +141327,7 @@
 ## entry 35332
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 35333
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
