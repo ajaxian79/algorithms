@@ -2543,3 +2543,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 621
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 622
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
