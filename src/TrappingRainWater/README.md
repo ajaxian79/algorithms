@@ -3546,3 +3546,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 871
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 872
+
+Cache-friendly; one sequential read pass.
