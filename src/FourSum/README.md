@@ -3444,3 +3444,7 @@ Space complexity: O(h) for the tree height.
 ## entry 846
 
 Constant-time comparisons; safe for short strings.
+
+## entry 847
+
+Treats the input as immutable.
