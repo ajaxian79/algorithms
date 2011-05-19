@@ -3586,3 +3586,7 @@ Runs in a single pass over the input.
 ## entry 882
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 883
+
+Edge case: power-of-two-length input → no padding required.
