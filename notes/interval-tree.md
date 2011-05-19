@@ -2539,3 +2539,7 @@
 ## entry 635
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 636
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
