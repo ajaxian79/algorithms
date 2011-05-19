@@ -2525,3 +2525,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 615
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 616
+
+Splay tree: every access splays to the root; amortized O(log n).
