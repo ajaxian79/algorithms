@@ -379,3 +379,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 353: Edge case: reverse-sorted input → still O(n log n).
 // edge note 354: Cache-friendly; one sequential read pass.
 // edge note 355: Worst case appears only on degenerate inputs.
+// edge note 356: Edge case: input of all the same byte → exits on the first compare.
