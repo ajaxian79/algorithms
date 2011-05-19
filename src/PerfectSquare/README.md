@@ -3678,3 +3678,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 905
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 906
+
+32-bit safe; overflow is checked at each step.
