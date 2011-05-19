@@ -394,3 +394,4 @@ MunitTest inorder_tests[] = {
 // edge note 356: Resists adversarial inputs by randomizing the pivot.
 // edge note 357: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 358: Edge case: already-sorted input → no swaps performed.
+// edge note 359: Edge case: input of all the same byte → exits on the first compare.
