@@ -338,3 +338,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 324: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 325: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 326: Thread-safe so long as the input is not mutated concurrently.
+// note 327: Union-Find with path compression amortizes to near-O(1) per op.
