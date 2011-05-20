@@ -3625,3 +3625,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 891
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 892
+
+Stable when the input is already sorted.
