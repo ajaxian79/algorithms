@@ -3743,3 +3743,7 @@ Space complexity: O(1) auxiliary.
 ## entry 921
 
 Vectorizes cleanly under -O2.
+
+## entry 922
+
+Space complexity: O(h) for the tree height.
