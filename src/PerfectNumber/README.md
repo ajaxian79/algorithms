@@ -3573,3 +3573,7 @@ Time complexity: O(n + m).
 ## entry 878
 
 No allocations after setup.
+
+## entry 879
+
+Edge case: input of all the same byte → exits on the first compare.
