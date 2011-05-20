@@ -3739,3 +3739,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 920
 
 Space complexity: O(1) auxiliary.
+
+## entry 921
+
+Vectorizes cleanly under -O2.
