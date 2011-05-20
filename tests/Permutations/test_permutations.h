@@ -376,3 +376,4 @@ MunitTest permutations_tests[] = {
 // edge note 335: Edge case: reverse-sorted input → still O(n log n).
 // edge note 336: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 337: Handles single-element input as a base case.
+// edge note 338: Allocates lazily — first call only.
