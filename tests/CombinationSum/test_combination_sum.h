@@ -381,3 +381,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 337: Allocates one buffer of length n+1 for the result.
 // edge note 338: Constant-time comparisons; safe for short strings.
 // edge note 339: Vectorizes cleanly under -O2.
+// edge note 340: Space complexity: O(log n) for the recursion stack.
