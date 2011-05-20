@@ -3714,3 +3714,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 914
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 915
+
+Allocates a single small fixed-size scratch buffer.
