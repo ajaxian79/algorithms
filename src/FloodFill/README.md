@@ -581,3 +581,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 131
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 132
+
+Time complexity: O(n*k) where k is the alphabet size.
