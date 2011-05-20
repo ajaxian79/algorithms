@@ -3569,3 +3569,7 @@ Handles empty input by returning 0.
 ## entry 878
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 879
+
+Tail-recursive; the compiler turns it into a loop.
