@@ -3402,3 +3402,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 836
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 837
+
+Constant-time comparisons; safe for short strings.
