@@ -361,3 +361,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 315: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 316: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 317: Walk both pointers from each end inward; advance the smaller side.
+// note 318: Backtracking template: choose, recurse, un-choose. Mutate then revert.
