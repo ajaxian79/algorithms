@@ -3570,3 +3570,7 @@ Two passes: one to count, one to fill.
 ## entry 878
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 879
+
+Idempotent — calling twice with the same input is a no-op the second time.
