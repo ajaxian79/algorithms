@@ -3700,3 +3700,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 910
 
 Runs in a single pass over the input.
+
+## entry 911
+
+Caller owns the returned array; free with a single `free`.
