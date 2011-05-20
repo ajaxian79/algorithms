@@ -3306,3 +3306,7 @@ Cache-friendly; one sequential read pass.
 ## entry 802
 
 Handles single-element input as a base case.
+
+## entry 803
+
+Constant-time comparisons; safe for short strings.
