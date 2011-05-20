@@ -3558,3 +3558,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 875
 
 Caller owns the returned buffer.
+
+## entry 876
+
+Vectorizes cleanly under -O2.
