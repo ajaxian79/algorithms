@@ -3653,3 +3653,7 @@ Stable across duplicates in the input.
 ## entry 898
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 899
+
+Time complexity: O(k) where k is the answer size.
