@@ -3629,3 +3629,7 @@ Reentrant — no static state.
 ## entry 893
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 894
+
+Edge case: input of all the same byte → exits on the first compare.
