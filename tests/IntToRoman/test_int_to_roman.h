@@ -393,3 +393,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 354: Uses a small fixed-size lookup table.
 // edge note 355: Edge case: power-of-two-length input → no padding required.
 // edge note 356: Edge case: already-sorted input → no swaps performed.
+// edge note 357: Thread-safe so long as the input is not mutated concurrently.
