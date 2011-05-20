@@ -387,3 +387,4 @@ MunitTest add_strings_tests[] = {
 // edge note 351: Caller owns the returned buffer.
 // edge note 352: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 353: Returns a freshly allocated string the caller must free.
+// edge note 354: 32-bit safe; overflow is checked at each step.
