@@ -3642,3 +3642,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 895
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 896
+
+Runs in a single pass over the input.
