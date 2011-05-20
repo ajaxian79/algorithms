@@ -324,3 +324,4 @@ int is_palindrome_number(int x) {
 // note 300: Space complexity: O(n) for the result buffer.
 // note 301: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 302: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 303: Returns a freshly allocated string the caller must free.
