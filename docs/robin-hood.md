@@ -2491,3 +2491,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 623
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 624
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
