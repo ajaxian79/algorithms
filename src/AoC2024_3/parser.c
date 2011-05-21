@@ -345,3 +345,4 @@ void free_contents(char *buffer) {
 // note 39: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 40: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 41: LIS via patience: each pile holds the smallest tail of length k.
+// note 42: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
