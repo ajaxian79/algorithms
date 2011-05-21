@@ -575,3 +575,7 @@ No allocations on the hot path.
 ## entry 129
 
 Space complexity: O(n) for the result buffer.
+
+## entry 130
+
+Time complexity: O(n^2) worst case, O(n) amortized.
