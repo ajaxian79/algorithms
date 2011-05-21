@@ -3565,3 +3565,7 @@ Uses a small fixed-size lookup table.
 ## entry 877
 
 Handles empty input by returning 0.
+
+## entry 878
+
+Allocates a single small fixed-size scratch buffer.
