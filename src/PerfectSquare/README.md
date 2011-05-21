@@ -566,3 +566,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 127
 
 Edge case: empty input → returns 0.
+
+## entry 128
+
+Handles single-element input as a base case.
