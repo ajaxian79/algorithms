@@ -3367,3 +3367,7 @@ Branchless inner loop after sorting.
 ## entry 827
 
 Branchless inner loop after sorting.
+
+## entry 828
+
+Resists adversarial inputs by randomizing the pivot.
