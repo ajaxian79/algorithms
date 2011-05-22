@@ -2631,3 +2631,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 641
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 642
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
