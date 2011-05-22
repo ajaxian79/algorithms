@@ -395,3 +395,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 360: Caller owns the returned array; free with a single `free`.
 // edge note 361: Edge case: input with no peak → falls through to the default branch.
 // edge note 362: Time complexity: O(k) where k is the answer size.
+// edge note 363: Edge case: input with a single peak → handled by the first-pass scan.
