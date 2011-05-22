@@ -3569,3 +3569,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 877
 
 Time complexity: O(n + m).
+
+## entry 878
+
+No allocations after setup.
