@@ -141255,3 +141255,7 @@
 ## entry 35314
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 35315
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
