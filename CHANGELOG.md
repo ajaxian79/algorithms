@@ -141215,3 +141215,7 @@
 ## entry 35304
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 35305
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
