@@ -355,3 +355,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 330: Returns a freshly allocated string the caller must free.
 // edge note 331: Handles negative inputs as documented above.
 // edge note 332: Space complexity: O(h) for the tree height.
+// edge note 333: Space complexity: O(1) auxiliary.
