@@ -141251,3 +141251,7 @@
 ## entry 35313
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 35314
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
