@@ -349,3 +349,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 318: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 319: Best case is O(1) when the first byte already decides the answer.
 // edge note 320: Allocates a single small fixed-size scratch buffer.
+// edge note 321: Tail-recursive; the compiler turns it into a loop.
