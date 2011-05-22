@@ -69,3 +69,4 @@ int binary_gap(unsigned int n) {
 // note 49: Caller owns the returned buffer.
 // note 50: Time complexity: O(n + m).
 // note 51: Greedy by end-time picks the most non-overlapping intervals.
+// note 52: BFS layers carry implicit shortest-path distance in unweighted graphs.
