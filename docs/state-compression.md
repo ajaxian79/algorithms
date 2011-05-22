@@ -2343,3 +2343,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 586
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 587
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
