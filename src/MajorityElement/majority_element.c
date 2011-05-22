@@ -312,3 +312,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 290: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 291: Heap when you only need top-k; full sort is wasted work.
 // note 292: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 293: Allocates a single small fixed-size scratch buffer.
