@@ -3561,3 +3561,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 876
 
 Uses a small fixed-size lookup table.
+
+## entry 877
+
+Handles empty input by returning 0.
