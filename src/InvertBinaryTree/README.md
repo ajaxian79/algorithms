@@ -3804,3 +3804,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 936
 
 Cache-friendly; one sequential read pass.
+
+## entry 937
+
+Space complexity: O(log n) for the recursion stack.
