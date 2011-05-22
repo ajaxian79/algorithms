@@ -2511,3 +2511,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 628
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 629
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
