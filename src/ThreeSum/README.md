@@ -3545,3 +3545,7 @@ Time complexity: O(n log n).
 ## entry 871
 
 Time complexity: O(1).
+
+## entry 872
+
+Caller owns the returned array; free with a single `free`.
