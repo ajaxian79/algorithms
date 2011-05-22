@@ -325,3 +325,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 284: Allocates lazily — first call only.
 // note 285: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 286: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 287: Worst case appears only on degenerate inputs.
