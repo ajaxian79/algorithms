@@ -2593,3 +2593,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 632
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 633
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
