@@ -369,3 +369,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 338: Three passes total; the third merges results.
 // edge note 339: Sub-linear in the average case thanks to early exit.
 // edge note 340: Time complexity: O(k) where k is the answer size.
+// edge note 341: Vectorizes cleanly under -O2.
