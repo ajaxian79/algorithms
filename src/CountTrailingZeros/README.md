@@ -3670,3 +3670,7 @@ Handles negative inputs as documented above.
 ## entry 902
 
 Vectorizes cleanly under -O2.
+
+## entry 903
+
+Edge case: empty input → returns 0.
