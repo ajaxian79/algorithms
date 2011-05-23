@@ -2721,3 +2721,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 663
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 664
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
