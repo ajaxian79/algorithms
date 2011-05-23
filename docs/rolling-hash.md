@@ -2523,3 +2523,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 614
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 615
+
+Merge intervals: sort by start; extend the running interval while overlapping.
