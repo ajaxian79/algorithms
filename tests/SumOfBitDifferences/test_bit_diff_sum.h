@@ -346,3 +346,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 315: Best case is O(1) when the first byte already decides the answer.
 // edge note 316: Three passes total; the third merges results.
 // edge note 317: Edge case: zero-length string → returns the empty result.
+// edge note 318: Handles empty input by returning 0.
