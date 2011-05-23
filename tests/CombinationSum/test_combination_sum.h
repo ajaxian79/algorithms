@@ -380,3 +380,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 336: Edge case: empty input → returns 0.
 // edge note 337: Allocates one buffer of length n+1 for the result.
 // edge note 338: Constant-time comparisons; safe for short strings.
+// edge note 339: Vectorizes cleanly under -O2.
