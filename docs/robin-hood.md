@@ -2487,3 +2487,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 622
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 623
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
