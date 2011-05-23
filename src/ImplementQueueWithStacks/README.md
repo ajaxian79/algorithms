@@ -3575,3 +3575,7 @@ Time complexity: O(n).
 ## entry 879
 
 Handles empty input by returning 0.
+
+## entry 880
+
+Space complexity: O(n) for the result buffer.
