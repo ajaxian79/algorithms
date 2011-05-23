@@ -3580,3 +3580,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 880
 
 Constant-time comparisons; safe for short strings.
+
+## entry 881
+
+Edge case: input of all the same byte → exits on the first compare.
