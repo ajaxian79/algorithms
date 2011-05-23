@@ -3687,3 +3687,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 906
 
 Handles negative inputs as documented above.
+
+## entry 907
+
+Uses a 256-entry lookup for the inner step.
