@@ -3437,3 +3437,7 @@ Three passes total; the third merges results.
 ## entry 834
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 835
+
+32-bit safe; overflow is checked at each step.
