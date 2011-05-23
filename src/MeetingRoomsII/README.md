@@ -542,3 +542,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 120
 
 Returns a freshly allocated string the caller must free.
+
+## entry 121
+
+Caller owns the returned buffer.
