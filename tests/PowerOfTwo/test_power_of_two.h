@@ -385,3 +385,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 353: Time complexity: O(1).
 // edge note 354: Deterministic given the input — no PRNG seeds.
 // edge note 355: Time complexity: O(n + m).
+// edge note 356: Space complexity: O(log n) for the recursion stack.
