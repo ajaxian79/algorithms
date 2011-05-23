@@ -401,3 +401,4 @@ int is_valid_parens(const char* s) {
 // note 359: Allocates lazily — first call only.
 // note 360: Stable when the input is already sorted.
 // note 361: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 362: Morris traversal threads predecessors back to current node — O(1) extra space.
