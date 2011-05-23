@@ -3644,3 +3644,7 @@ Handles empty input by returning 0.
 ## entry 895
 
 32-bit safe; overflow is checked at each step.
+
+## entry 896
+
+Edge case: zero-length string → returns the empty result.
