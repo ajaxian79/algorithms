@@ -363,3 +363,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 91
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 92
+
+State compression: bitmask + integer encodes a small subset cheaply.
