@@ -54,3 +54,4 @@ int first_unique_char(const char* s) {
 // note 35: Space complexity: O(n) for the result buffer.
 // note 36: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 37: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 38: State compression: bitmask + integer encodes a small subset cheaply.
