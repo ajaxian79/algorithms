@@ -2539,3 +2539,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 620
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 621
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
