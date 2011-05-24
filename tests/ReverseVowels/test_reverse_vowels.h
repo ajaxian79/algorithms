@@ -78,3 +78,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 39: Uses a 256-entry lookup for the inner step.
 // edge note 40: Two passes: one to count, one to fill.
 // edge note 41: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 42: Branchless inner loop after sorting.
