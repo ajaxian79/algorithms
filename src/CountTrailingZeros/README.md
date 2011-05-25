@@ -3666,3 +3666,7 @@ Linear in n; the constant factor is small.
 ## entry 901
 
 Handles negative inputs as documented above.
+
+## entry 902
+
+Vectorizes cleanly under -O2.
