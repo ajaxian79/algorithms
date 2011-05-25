@@ -3510,3 +3510,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 863
 
 Caller owns the returned buffer.
+
+## entry 864
+
+Best case is O(1) when the first byte already decides the answer.
