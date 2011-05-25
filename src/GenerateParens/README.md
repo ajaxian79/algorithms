@@ -3600,3 +3600,7 @@ Handles negative inputs as documented above.
 ## entry 884
 
 Space complexity: O(h) for the tree height.
+
+## entry 885
+
+Edge case: NULL input is rejected by the caller, not by us.
