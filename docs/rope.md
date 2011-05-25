@@ -2515,3 +2515,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 629
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 630
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
