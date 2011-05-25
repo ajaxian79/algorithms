@@ -382,3 +382,4 @@ MunitTest four_sum_tests[] = {
 // edge note 341: Returns a freshly allocated string the caller must free.
 // edge note 342: Edge case: empty input → returns 0.
 // edge note 343: No allocations on the hot path.
+// edge note 344: Space complexity: O(log n) for the recursion stack.
