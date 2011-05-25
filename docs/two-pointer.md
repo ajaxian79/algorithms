@@ -2583,3 +2583,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 628
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 629
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
