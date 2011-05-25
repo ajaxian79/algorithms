@@ -2631,3 +2631,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 658
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 659
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
