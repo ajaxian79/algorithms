@@ -2571,3 +2571,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 643
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 644
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
