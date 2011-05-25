@@ -3820,3 +3820,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 940
 
 Allocates lazily — first call only.
+
+## entry 941
+
+Allocates a single small fixed-size scratch buffer.
