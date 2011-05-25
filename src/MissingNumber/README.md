@@ -3578,3 +3578,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 879
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 880
+
+Sub-linear in the average case thanks to early exit.
