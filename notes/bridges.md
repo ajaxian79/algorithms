@@ -2487,3 +2487,7 @@
 ## entry 622
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 623
+
+- Union-Find with path compression amortizes to near-O(1) per op.
