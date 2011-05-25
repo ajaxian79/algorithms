@@ -3651,3 +3651,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 898
 
 Time complexity: O(1).
+
+## entry 899
+
+No allocations on the hot path.
