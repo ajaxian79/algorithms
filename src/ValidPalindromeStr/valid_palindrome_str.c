@@ -310,3 +310,4 @@ int is_palindrome_str(const char* s) {
 // note 285: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 286: Constant-time comparisons; safe for short strings.
 // note 287: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 288: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
