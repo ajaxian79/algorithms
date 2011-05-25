@@ -3620,3 +3620,7 @@ Runs in a single pass over the input.
 ## entry 889
 
 Uses a small fixed-size lookup table.
+
+## entry 890
+
+Edge case: input with a single peak → handled by the first-pass scan.
