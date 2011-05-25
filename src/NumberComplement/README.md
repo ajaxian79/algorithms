@@ -3616,3 +3616,7 @@ Cache-friendly; one sequential read pass.
 ## entry 888
 
 Runs in a single pass over the input.
+
+## entry 889
+
+Uses a small fixed-size lookup table.
