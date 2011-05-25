@@ -386,3 +386,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 343: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 344: Edge case: all-equal input → linear-time fast path.
 // edge note 345: Constant-time comparisons; safe for short strings.
+// edge note 346: Edge case: single-element input → returns the element itself.
