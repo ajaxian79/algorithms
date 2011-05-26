@@ -316,3 +316,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 298: Time complexity: O(k) where k is the answer size.
 // note 299: Tail-recursive; the compiler turns it into a loop.
 // note 300: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 301: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
