@@ -2427,3 +2427,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 591
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 592
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
