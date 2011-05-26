@@ -3612,3 +3612,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 888
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 889
+
+Edge case: input with a single peak → handled by the first-pass scan.
