@@ -334,3 +334,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 300: Space complexity: O(n) for the result buffer.
 // edge note 301: No allocations after setup.
 // edge note 302: Mutates the input in place; the original ordering is lost.
+// edge note 303: Handles single-element input as a base case.
