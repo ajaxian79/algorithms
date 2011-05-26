@@ -336,3 +336,4 @@ int is_happy(int n) {
 // note 310: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 311: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 312: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 313: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
