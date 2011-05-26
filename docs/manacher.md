@@ -2691,3 +2691,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 656
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 657
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
