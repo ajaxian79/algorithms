@@ -3370,3 +3370,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 828
 
 Edge case: empty input → returns 0.
+
+## entry 829
+
+Edge case: maximum-length input → still fits in 32-bit indices.
