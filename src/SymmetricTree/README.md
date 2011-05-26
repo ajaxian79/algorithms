@@ -3426,3 +3426,7 @@ Edge case: empty input → returns 0.
 ## entry 842
 
 Returns a freshly allocated string the caller must free.
+
+## entry 843
+
+Caller owns the returned array; free with a single `free`.
