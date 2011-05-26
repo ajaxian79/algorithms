@@ -3566,3 +3566,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 877
 
 Allocates lazily — first call only.
+
+## entry 878
+
+Edge case: input with a single peak → handled by the first-pass scan.
