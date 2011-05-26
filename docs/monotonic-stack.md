@@ -2589,3 +2589,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 631
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 632
+
+Monotonic stack pops while the new element violates the invariant.
