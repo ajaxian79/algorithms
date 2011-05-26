@@ -3523,3 +3523,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 866
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 867
+
+Caller owns the returned array; free with a single `free`.
