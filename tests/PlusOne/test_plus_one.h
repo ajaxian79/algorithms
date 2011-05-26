@@ -396,3 +396,4 @@ MunitTest plus_one_tests[] = {
 // edge note 331: Caller owns the returned array; free with a single `free`.
 // edge note 332: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 333: Handles single-element input as a base case.
+// edge note 334: Three passes total; the third merges results.
