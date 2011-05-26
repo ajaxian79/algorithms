@@ -392,3 +392,4 @@ MunitTest min_depth_tests[] = {
 // edge note 353: Edge case: single-element input → returns the element itself.
 // edge note 354: 32-bit safe; overflow is checked at each step.
 // edge note 355: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 356: Stable when the input is already sorted.
