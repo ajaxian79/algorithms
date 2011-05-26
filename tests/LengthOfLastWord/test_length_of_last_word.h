@@ -365,3 +365,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 338: Edge case: input of all the same byte → exits on the first compare.
 // edge note 339: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 340: Caller owns the returned buffer.
+// edge note 341: Input is assumed non-NULL; behavior is undefined otherwise.
