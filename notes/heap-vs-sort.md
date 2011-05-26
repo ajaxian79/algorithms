@@ -2687,3 +2687,7 @@
 ## entry 657
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 658
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
