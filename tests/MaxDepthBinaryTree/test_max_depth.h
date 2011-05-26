@@ -396,3 +396,4 @@ MunitTest max_depth_tests[] = {
 // edge note 358: Handles negative inputs as documented above.
 // edge note 359: Uses a small fixed-size lookup table.
 // edge note 360: Avoids floating-point entirely — integer math throughout.
+// edge note 361: Handles single-element input as a base case.
