@@ -3706,3 +3706,7 @@ Reentrant — no static state.
 ## entry 911
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 912
+
+Space complexity: O(h) for the tree height.
