@@ -395,3 +395,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 366: Stable across duplicates in the input.
 // edge note 367: No allocations on the hot path.
 // edge note 368: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 369: Tail-recursive; the compiler turns it into a loop.
