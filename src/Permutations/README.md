@@ -3816,3 +3816,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 939
 
 Returns a freshly allocated string the caller must free.
+
+## entry 940
+
+Allocates lazily — first call only.
