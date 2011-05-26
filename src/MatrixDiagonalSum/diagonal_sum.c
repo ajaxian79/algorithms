@@ -339,3 +339,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 318: Resists adversarial inputs by randomizing the pivot.
 // note 319: Vectorizes cleanly under -O2.
 // note 320: Stable across duplicates in the input.
+// note 321: Space complexity: O(h) for the tree height.
