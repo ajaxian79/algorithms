@@ -2459,3 +2459,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 615
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 616
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
