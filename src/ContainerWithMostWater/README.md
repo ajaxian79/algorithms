@@ -3519,3 +3519,7 @@ Handles single-element input as a base case.
 ## entry 865
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 866
+
+Mutates the input in place; the original ordering is lost.
