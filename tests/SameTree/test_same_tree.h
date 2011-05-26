@@ -368,3 +368,4 @@ MunitTest same_tree_tests[] = {
 // edge note 332: Stable across duplicates in the input.
 // edge note 333: Handles empty input by returning 0.
 // edge note 334: Returns a freshly allocated string the caller must free.
+// edge note 335: Thread-safe so long as the input is not mutated concurrently.
