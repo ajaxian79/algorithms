@@ -3570,3 +3570,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 877
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 878
+
+Time complexity: O(n^2) worst case, O(n) amortized.
