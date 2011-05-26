@@ -2727,3 +2727,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 665
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 666
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
