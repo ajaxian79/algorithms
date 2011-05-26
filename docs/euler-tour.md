@@ -2515,3 +2515,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 629
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 630
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
