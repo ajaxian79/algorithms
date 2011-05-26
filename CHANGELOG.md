@@ -141151,3 +141151,7 @@
 ## entry 35288
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 35289
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
