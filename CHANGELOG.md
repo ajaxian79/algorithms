@@ -141159,3 +141159,7 @@
 ## entry 35290
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 35291
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
