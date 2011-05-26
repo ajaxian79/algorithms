@@ -3361,3 +3361,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 825
 
 Time complexity: O(n + m).
+
+## entry 826
+
+No allocations on the hot path.
