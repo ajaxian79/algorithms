@@ -2585,3 +2585,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 630
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 631
+
+Heap when you only need top-k; full sort is wasted work.
