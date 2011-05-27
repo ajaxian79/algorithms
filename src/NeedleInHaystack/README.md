@@ -3608,3 +3608,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 887
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 888
+
+Input is assumed non-NULL; behavior is undefined otherwise.
