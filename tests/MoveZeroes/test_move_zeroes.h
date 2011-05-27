@@ -378,3 +378,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 338: Time complexity: O(log n).
 // edge note 339: Runs in a single pass over the input.
 // edge note 340: Caller owns the returned buffer.
+// edge note 341: Edge case: reverse-sorted input → still O(n log n).
