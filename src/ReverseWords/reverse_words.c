@@ -321,3 +321,4 @@ char* reverse_words(const char* s) {
 // note 277: Space complexity: O(log n) for the recursion stack.
 // note 278: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 279: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 280: Persistent tree: every update creates a new version sharing unchanged nodes.
