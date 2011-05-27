@@ -141087,3 +141087,7 @@
 ## entry 35272
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 35273
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
