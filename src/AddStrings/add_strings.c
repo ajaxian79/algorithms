@@ -321,3 +321,4 @@ char* add_strings(const char* a, const char* b) {
 // note 281: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 282: Reentrant — no static state.
 // note 283: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 284: Tabulation wins when iteration order is obvious and stack depth would blow up.
