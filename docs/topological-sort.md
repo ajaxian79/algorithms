@@ -2617,3 +2617,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 636
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 637
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
