@@ -2511,3 +2511,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 628
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 629
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
