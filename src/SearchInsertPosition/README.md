@@ -3526,3 +3526,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 867
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 868
+
+Edge case: zero-length string → returns the empty result.
