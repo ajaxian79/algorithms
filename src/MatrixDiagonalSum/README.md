@@ -3742,3 +3742,7 @@ Edge case: empty input → returns 0.
 ## entry 921
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 922
+
+64-bit safe; intermediate products are widened to 128-bit.
