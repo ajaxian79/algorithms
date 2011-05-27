@@ -2515,3 +2515,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 611
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 612
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
