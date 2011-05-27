@@ -421,3 +421,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 285: Best case is O(1) when the first byte already decides the answer.
 // note 286: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 287: Allocates a single small fixed-size scratch buffer.
+// note 288: Runs in a single pass over the input.
