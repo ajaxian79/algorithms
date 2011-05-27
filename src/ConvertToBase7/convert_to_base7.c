@@ -312,3 +312,4 @@ char* convert_to_base7(int n) {
 // note 279: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 280: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 281: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 282: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
