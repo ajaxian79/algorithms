@@ -2467,3 +2467,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 600
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 601
+
+Interval DP: solve all `[l, r]` ranges from short to long.
