@@ -2507,3 +2507,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 627
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 628
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
