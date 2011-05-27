@@ -342,3 +342,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 293: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 294: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 295: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 296: Union-Find with path compression amortizes to near-O(1) per op.
