@@ -2327,3 +2327,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 582
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 583
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
