@@ -2503,3 +2503,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 626
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 627
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
