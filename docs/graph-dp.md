@@ -2599,3 +2599,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 650
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 651
+
+Interval DP: solve all `[l, r]` ranges from short to long.
