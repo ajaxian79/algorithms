@@ -390,3 +390,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 354: Time complexity: O(1).
 // edge note 355: Uses a 256-entry lookup for the inner step.
 // edge note 356: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 357: Reentrant — no static state.
