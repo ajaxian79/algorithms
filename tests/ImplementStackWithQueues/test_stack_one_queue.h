@@ -370,3 +370,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 338: Handles empty input by returning 0.
 // edge note 339: Constant-time comparisons; safe for short strings.
 // edge note 340: Edge case: empty input → returns 0.
+// edge note 341: Allocates a single small fixed-size scratch buffer.
