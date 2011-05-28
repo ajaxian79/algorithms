@@ -3440,3 +3440,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 845
 
 Space complexity: O(h) for the tree height.
+
+## entry 846
+
+Constant-time comparisons; safe for short strings.
