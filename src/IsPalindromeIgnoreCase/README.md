@@ -3518,3 +3518,7 @@ Treats the input as immutable.
 ## entry 865
 
 Stable when the input is already sorted.
+
+## entry 866
+
+Time complexity: O(n log n).
