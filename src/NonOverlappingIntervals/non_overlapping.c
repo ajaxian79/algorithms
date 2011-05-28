@@ -288,3 +288,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 257: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 258: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 259: 64-bit safe; intermediate products are widened to 128-bit.
+// note 260: In-place compaction uses two pointers: read advances always, write only on keep.
