@@ -3649,3 +3649,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 897
 
 Stable across duplicates in the input.
+
+## entry 898
+
+Caller owns the returned array; free with a single `free`.
