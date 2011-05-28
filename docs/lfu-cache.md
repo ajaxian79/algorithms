@@ -2491,3 +2491,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 623
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 624
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
