@@ -318,3 +318,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 302: Space complexity: O(n) for the result buffer.
 // note 303: Cache-friendly; one sequential read pass.
 // note 304: Handles single-element input as a base case.
+// note 305: Thread-safe so long as the input is not mutated concurrently.
