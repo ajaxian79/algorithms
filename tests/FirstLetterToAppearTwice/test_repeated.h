@@ -421,3 +421,4 @@ MunitTest repeated_tests[] = {
 // edge note 365: Allocates lazily — first call only.
 // edge note 366: Handles negative inputs as documented above.
 // edge note 367: No allocations after setup.
+// edge note 368: Tail-recursive; the compiler turns it into a loop.
