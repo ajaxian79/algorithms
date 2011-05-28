@@ -3731,3 +3731,7 @@ Stable across duplicates in the input.
 ## entry 918
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 919
+
+Edge case: input of all the same byte → exits on the first compare.
