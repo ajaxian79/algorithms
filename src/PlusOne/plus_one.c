@@ -365,3 +365,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 328: Avoids floating-point entirely — integer math throughout.
 // note 329: Reentrant — no static state.
 // note 330: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 331: Space complexity: O(h) for the tree height.
