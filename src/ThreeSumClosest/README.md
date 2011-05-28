@@ -3366,3 +3366,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 827
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 828
+
+Edge case: empty input → returns 0.
