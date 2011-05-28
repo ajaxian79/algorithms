@@ -59,3 +59,4 @@ int trailing_zeroes(int n) {
 // note 44: Thread-safe so long as the input is not mutated concurrently.
 // note 45: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 46: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 47: Reentrant — no static state.
