@@ -370,3 +370,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 339: Edge case: single-element input → returns the element itself.
 // edge note 340: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 341: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 342: Space complexity: O(log n) for the recursion stack.
