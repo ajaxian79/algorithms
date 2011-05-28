@@ -3692,3 +3692,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 908
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 909
+
+Edge case: input with no peak → falls through to the default branch.
