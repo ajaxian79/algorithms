@@ -310,3 +310,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 298: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 299: Best case is O(1) when the first byte already decides the answer.
 // note 300: Runs in a single pass over the input.
+// note 301: Interval tree: stores intervals on the median; query traverses O(log n) levels.
