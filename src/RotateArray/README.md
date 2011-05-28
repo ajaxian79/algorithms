@@ -3711,3 +3711,7 @@ Stable when the input is already sorted.
 ## entry 912
 
 Time complexity: O(n log n).
+
+## entry 913
+
+Space complexity: O(1) auxiliary.
