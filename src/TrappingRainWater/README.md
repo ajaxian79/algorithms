@@ -3538,3 +3538,7 @@ Handles negative inputs as documented above.
 ## entry 869
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 870
+
+Edge case: NULL input is rejected by the caller, not by us.
