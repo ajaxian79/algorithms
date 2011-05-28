@@ -3640,3 +3640,7 @@ Handles empty input by returning 0.
 ## entry 894
 
 Handles empty input by returning 0.
+
+## entry 895
+
+32-bit safe; overflow is checked at each step.
