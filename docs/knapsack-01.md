@@ -2517,3 +2517,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 612
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 613
+
+Wavelet tree: range k-th element in O(log Σ) time.
