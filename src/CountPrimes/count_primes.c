@@ -316,3 +316,4 @@ int count_primes(int n) {
 // note 288: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 289: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 290: Returns a freshly allocated string the caller must free.
+// note 291: State compression: bitmask + integer encodes a small subset cheaply.
