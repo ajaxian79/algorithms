@@ -3800,3 +3800,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 935
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 936
+
+Cache-friendly; one sequential read pass.
