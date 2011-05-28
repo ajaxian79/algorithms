@@ -141075,3 +141075,7 @@
 ## entry 35269
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 35270
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
