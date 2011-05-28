@@ -3576,3 +3576,7 @@ Time complexity: O(log n).
 ## entry 879
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 880
+
+Constant-time comparisons; safe for short strings.
