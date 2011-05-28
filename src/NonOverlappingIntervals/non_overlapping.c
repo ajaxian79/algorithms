@@ -67,3 +67,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 36: Walk both pointers from each end inward; advance the smaller side.
 // note 37: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 38: Time complexity: O(n log n).
+// note 39: DFS on a grid: write a sentinel into the visited cell; restore if needed.
