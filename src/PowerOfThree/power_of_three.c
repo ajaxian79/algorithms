@@ -322,3 +322,4 @@ int is_power_of_three(int n) {
 // note 311: Resists adversarial inputs by randomizing the pivot.
 // note 312: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 313: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 314: Union-Find with path compression amortizes to near-O(1) per op.
