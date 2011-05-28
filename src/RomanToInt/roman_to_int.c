@@ -350,3 +350,4 @@ int roman_to_int(const char* s) {
 // note 310: Treats the input as immutable.
 // note 311: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 312: Allocates lazily — first call only.
+// note 313: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
