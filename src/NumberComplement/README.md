@@ -3612,3 +3612,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 887
 
 Cache-friendly; one sequential read pass.
+
+## entry 888
+
+Runs in a single pass over the input.
