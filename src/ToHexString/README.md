@@ -3359,3 +3359,7 @@ Vectorizes cleanly under -O2.
 ## entry 825
 
 Branchless inner loop after sorting.
+
+## entry 826
+
+Branchless inner loop after sorting.
