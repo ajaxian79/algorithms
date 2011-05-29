@@ -355,3 +355,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 89
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 90
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
