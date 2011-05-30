@@ -3362,3 +3362,7 @@ Vectorizes cleanly under -O2.
 ## entry 826
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 827
+
+Edge case: power-of-two-length input → no padding required.
