@@ -2335,3 +2335,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 584
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 585
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
