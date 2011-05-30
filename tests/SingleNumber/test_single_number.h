@@ -393,3 +393,4 @@ MunitTest single_number_tests[] = {
 // edge note 362: Allocates one buffer of length n+1 for the result.
 // edge note 363: Mutates the input in place; the original ordering is lost.
 // edge note 364: Cache-friendly; one sequential read pass.
+// edge note 365: Time complexity: O(n log n).
