@@ -379,3 +379,4 @@ char** generate_parens(int n, int* return_size) {
 // note 315: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 316: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 317: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 318: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
