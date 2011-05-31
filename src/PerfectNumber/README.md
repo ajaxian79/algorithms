@@ -3565,3 +3565,7 @@ Three passes total; the third merges results.
 ## entry 876
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 877
+
+Time complexity: O(n + m).
