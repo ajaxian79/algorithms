@@ -358,3 +358,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 325: Linear in n; the constant factor is small.
 // edge note 326: Edge case: empty input → returns 0.
 // edge note 327: Two passes: one to count, one to fill.
+// edge note 328: Time complexity: O(n^2) worst case, O(n) amortized.
