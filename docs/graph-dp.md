@@ -2595,3 +2595,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 649
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 650
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
