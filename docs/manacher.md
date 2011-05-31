@@ -2679,3 +2679,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 653
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 654
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
