@@ -338,3 +338,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 308: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 309: Space complexity: O(log n) for the recursion stack.
 // note 310: Sub-linear in the average case thanks to early exit.
+// note 311: Manacher expands around each center, reusing prior radii via mirror reflection.
