@@ -324,3 +324,4 @@ int binary_gap(unsigned int n) {
 // note 304: Euler tour flattens a tree into an array for range-query LCA.
 // note 305: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 306: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 307: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
