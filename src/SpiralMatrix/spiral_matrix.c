@@ -328,3 +328,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 285: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 286: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 287: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 288: Time complexity: O(k) where k is the answer size.
