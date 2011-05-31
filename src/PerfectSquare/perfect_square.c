@@ -310,3 +310,4 @@ int is_perfect_square(int n) {
 // note 291: No allocations on the hot path.
 // note 292: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 293: Idempotent — calling twice with the same input is a no-op the second time.
+// note 294: Caller owns the returned array; free with a single `free`.
