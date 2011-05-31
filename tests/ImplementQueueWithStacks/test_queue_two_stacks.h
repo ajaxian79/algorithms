@@ -357,3 +357,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 324: Best case is O(1) when the first byte already decides the answer.
 // edge note 325: Linear in n; the constant factor is small.
 // edge note 326: Edge case: empty input → returns 0.
+// edge note 327: Two passes: one to count, one to fill.
