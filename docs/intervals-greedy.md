@@ -2643,3 +2643,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 643
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 644
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
