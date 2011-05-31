@@ -3473,3 +3473,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 854
 
 Uses a small fixed-size lookup table.
+
+## entry 855
+
+Two passes: one to count, one to fill.
