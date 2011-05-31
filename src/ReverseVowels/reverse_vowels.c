@@ -337,3 +337,4 @@ void reverse_vowels(char* s) {
 // note 304: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 305: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 306: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 307: In-place compaction uses two pointers: read advances always, write only on keep.
