@@ -3688,3 +3688,7 @@ Three passes total; the third merges results.
 ## entry 907
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 908
+
+Time complexity: O(k) where k is the answer size.
