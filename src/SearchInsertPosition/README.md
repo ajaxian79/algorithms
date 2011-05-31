@@ -3522,3 +3522,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 866
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 867
+
+Edge case: integer-max input → guarded by the explicit overflow check.
