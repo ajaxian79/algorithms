@@ -2587,3 +2587,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 647
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 648
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
