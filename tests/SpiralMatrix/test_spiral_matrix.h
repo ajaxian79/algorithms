@@ -373,3 +373,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 330: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 331: Time complexity: O(1).
 // edge note 332: Edge case: empty input → returns 0.
+// edge note 333: Vectorizes cleanly under -O2.
