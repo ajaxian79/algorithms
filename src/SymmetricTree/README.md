@@ -3422,3 +3422,7 @@ Time complexity: O(n + m).
 ## entry 841
 
 Edge case: empty input → returns 0.
+
+## entry 842
+
+Returns a freshly allocated string the caller must free.
