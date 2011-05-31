@@ -3571,3 +3571,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 878
 
 Time complexity: O(n).
+
+## entry 879
+
+Handles empty input by returning 0.
