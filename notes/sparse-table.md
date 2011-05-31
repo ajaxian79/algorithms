@@ -2407,3 +2407,7 @@
 ## entry 602
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 603
+
+- Heap when you only need top-k; full sort is wasted work.
