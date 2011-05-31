@@ -3398,3 +3398,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 835
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 836
+
+Time complexity: O(n*k) where k is the alphabet size.
