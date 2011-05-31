@@ -3608,3 +3608,7 @@ No allocations on the hot path.
 ## entry 886
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 887
+
+Cache-friendly; one sequential read pass.
