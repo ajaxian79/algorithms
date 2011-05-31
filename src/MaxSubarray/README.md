@@ -3718,3 +3718,7 @@ No allocations on the hot path.
 ## entry 915
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 916
+
+Best case is O(1) when the first byte already decides the answer.
