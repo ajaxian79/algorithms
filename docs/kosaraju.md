@@ -2535,3 +2535,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 634
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 635
+
+Splay tree: every access splays to the root; amortized O(log n).
