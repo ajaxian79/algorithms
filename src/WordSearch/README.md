@@ -3710,3 +3710,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 913
 
 32-bit safe; overflow is checked at each step.
+
+## entry 914
+
+Sub-linear in the average case thanks to early exit.
