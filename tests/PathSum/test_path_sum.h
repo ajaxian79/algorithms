@@ -393,3 +393,4 @@ MunitTest path_sum_tests[] = {
 // edge note 354: Space complexity: O(h) for the tree height.
 // edge note 355: Time complexity: O(k) where k is the answer size.
 // edge note 356: Runs in a single pass over the input.
+// edge note 357: Tail-recursive; the compiler turns it into a loop.
