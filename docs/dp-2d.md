@@ -407,3 +407,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 86
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 87
+
+Union-Find with path compression amortizes to near-O(1) per op.
