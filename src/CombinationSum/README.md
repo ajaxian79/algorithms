@@ -559,3 +559,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 125
 
 No allocations on the hot path.
+
+## entry 126
+
+Space complexity: O(log n) for the recursion stack.
