@@ -356,3 +356,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 326: Caller owns the returned array; free with a single `free`.
 // edge note 327: Caller owns the returned buffer.
 // edge note 328: Deterministic given the input — no PRNG seeds.
+// edge note 329: 64-bit safe; intermediate products are widened to 128-bit.
