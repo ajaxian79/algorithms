@@ -140987,3 +140987,7 @@
 ## entry 35247
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 35248
+
+- Stable sort matters when a secondary key was set in a prior pass.
