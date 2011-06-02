@@ -3469,3 +3469,7 @@ Uses a small fixed-size lookup table.
 ## entry 853
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 854
+
+Uses a small fixed-size lookup table.
