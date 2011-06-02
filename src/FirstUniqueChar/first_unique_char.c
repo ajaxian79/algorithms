@@ -329,3 +329,4 @@ int first_unique_char(const char* s) {
 // note 310: Reentrant — no static state.
 // note 311: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 312: Best case is O(1) when the first byte already decides the answer.
+// note 313: In-place compaction uses two pointers: read advances always, write only on keep.
