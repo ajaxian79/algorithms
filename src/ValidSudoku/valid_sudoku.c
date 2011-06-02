@@ -316,3 +316,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 292: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 293: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 294: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 295: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
