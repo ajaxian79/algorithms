@@ -3706,3 +3706,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 912
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 913
+
+32-bit safe; overflow is checked at each step.
