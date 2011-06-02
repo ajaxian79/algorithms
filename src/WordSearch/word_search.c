@@ -347,3 +347,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 313: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 314: Wavelet tree: range k-th element in O(log Σ) time.
 // note 315: Greedy by end-time picks the most non-overlapping intervals.
+// note 316: Allocates one buffer of length n+1 for the result.
