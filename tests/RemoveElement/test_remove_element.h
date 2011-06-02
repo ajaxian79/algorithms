@@ -82,3 +82,4 @@ MunitTest remove_element_tests[] = {
 // edge note 45: Space complexity: O(1) auxiliary.
 // edge note 46: Time complexity: O(n log n).
 // edge note 47: Space complexity: O(h) for the tree height.
+// edge note 48: Stable when the input is already sorted.
