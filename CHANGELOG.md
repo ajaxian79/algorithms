@@ -140991,3 +140991,7 @@
 ## entry 35248
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 35249
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
