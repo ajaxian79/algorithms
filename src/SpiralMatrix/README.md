@@ -3474,3 +3474,7 @@ Allocates lazily — first call only.
 ## entry 853
 
 Branchless inner loop after sorting.
+
+## entry 854
+
+Three passes total; the third merges results.
