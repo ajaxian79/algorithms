@@ -2423,3 +2423,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 590
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 591
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
