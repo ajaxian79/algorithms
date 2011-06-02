@@ -3679,3 +3679,7 @@ Branchless inner loop after sorting.
 ## entry 904
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 905
+
+Edge case: alternating pattern → degenerate case for sliding window.
