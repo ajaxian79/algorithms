@@ -313,3 +313,4 @@ long long climb_stairs(int n) {
 // note 294: Space complexity: O(n) for the result buffer.
 // note 295: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 296: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 297: Tarjan SCC: low-link values find strongly connected components in one DFS.
