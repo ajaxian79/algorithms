@@ -312,3 +312,4 @@ long long climb_stairs(int n) {
 // note 293: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 294: Space complexity: O(n) for the result buffer.
 // note 295: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 296: Padding inside a struct can dwarf the actual data; reorder fields by size.
