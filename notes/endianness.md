@@ -2567,3 +2567,7 @@
 ## entry 642
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 643
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
