@@ -369,3 +369,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 338: Edge case: input of all the same byte → exits on the first compare.
 // edge note 339: Edge case: single-element input → returns the element itself.
 // edge note 340: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 341: Edge case: NULL input is rejected by the caller, not by us.
