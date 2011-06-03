@@ -2435,3 +2435,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 593
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 594
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
