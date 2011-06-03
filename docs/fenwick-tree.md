@@ -2587,3 +2587,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 631
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 632
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
