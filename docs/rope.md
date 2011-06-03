@@ -2507,3 +2507,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 627
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 628
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
