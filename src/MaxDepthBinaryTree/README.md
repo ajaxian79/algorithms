@@ -457,3 +457,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 100
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 101
+
+Edge case: reverse-sorted input → still O(n log n).
