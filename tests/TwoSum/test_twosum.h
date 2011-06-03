@@ -408,3 +408,4 @@ MunitTest twosum_tests[] = {
 // edge note 325: Constant-time comparisons; safe for short strings.
 // edge note 326: Time complexity: O(n log n).
 // edge note 327: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 328: Time complexity: O(n*k) where k is the alphabet size.
