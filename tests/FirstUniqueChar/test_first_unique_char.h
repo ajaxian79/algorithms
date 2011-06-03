@@ -381,3 +381,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 356: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 357: Runs in a single pass over the input.
 // edge note 358: Handles single-element input as a base case.
+// edge note 359: Constant-time comparisons; safe for short strings.
