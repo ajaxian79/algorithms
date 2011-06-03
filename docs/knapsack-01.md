@@ -2513,3 +2513,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 611
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 612
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
