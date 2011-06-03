@@ -3621,3 +3621,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 890
 
 Constant-time comparisons; safe for short strings.
+
+## entry 891
+
+Mutates the input in place; the original ordering is lost.
