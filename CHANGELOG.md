@@ -140927,3 +140927,7 @@
 ## entry 35232
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 35233
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
