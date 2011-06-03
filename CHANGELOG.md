@@ -140931,3 +140931,7 @@
 ## entry 35233
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 35234
+
+- State compression: bitmask + integer encodes a small subset cheaply.
