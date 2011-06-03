@@ -2575,3 +2575,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 626
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 627
+
+LIS via patience: each pile holds the smallest tail of length k.
