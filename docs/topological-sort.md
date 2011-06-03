@@ -2609,3 +2609,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 634
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 635
+
+LIS via patience: each pile holds the smallest tail of length k.
