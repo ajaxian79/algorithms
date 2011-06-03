@@ -2605,3 +2605,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 636
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 637
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
