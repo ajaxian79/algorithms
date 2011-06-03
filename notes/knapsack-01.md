@@ -2631,3 +2631,7 @@
 ## entry 642
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 643
+
+- Walk both pointers from each end inward; advance the smaller side.
