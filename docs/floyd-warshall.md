@@ -2523,3 +2523,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 631
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 632
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
