@@ -329,3 +329,4 @@ int excel_column_number(const char* s) {
 // note 312: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 313: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 314: State compression: bitmask + integer encodes a small subset cheaply.
+// note 315: Union-Find with path compression amortizes to near-O(1) per op.
