@@ -2495,3 +2495,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 624
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 625
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
