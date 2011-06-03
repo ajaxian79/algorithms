@@ -334,3 +334,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 291: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 292: Wavelet tree: range k-th element in O(log Σ) time.
 // note 293: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 294: Rope: tree of small string fragments; O(log n) concat and substring.
