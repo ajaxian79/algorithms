@@ -2463,3 +2463,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 599
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 600
+
+In-place compaction uses two pointers: read advances always, write only on keep.
