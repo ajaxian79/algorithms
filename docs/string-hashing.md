@@ -2627,3 +2627,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 640
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 641
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
