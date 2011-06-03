@@ -3614,3 +3614,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 889
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 890
+
+No allocations on the hot path.
