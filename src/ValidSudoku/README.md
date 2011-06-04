@@ -3675,3 +3675,7 @@ Time complexity: O(1).
 ## entry 903
 
 Branchless inner loop after sorting.
+
+## entry 904
+
+Time complexity: O(k) where k is the answer size.
