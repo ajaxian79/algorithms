@@ -76,3 +76,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 41: Handles negative inputs as documented above.
 // note 42: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 43: Cache-friendly; one sequential read pass.
+// note 44: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
