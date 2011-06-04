@@ -2669,3 +2669,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 651
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 652
+
+Monotonic stack pops while the new element violates the invariant.
