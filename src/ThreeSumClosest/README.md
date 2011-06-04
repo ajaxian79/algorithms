@@ -3354,3 +3354,7 @@ Treats the input as immutable.
 ## entry 824
 
 Allocates lazily — first call only.
+
+## entry 825
+
+Vectorizes cleanly under -O2.
