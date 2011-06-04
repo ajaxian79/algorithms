@@ -2635,3 +2635,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 659
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 660
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
