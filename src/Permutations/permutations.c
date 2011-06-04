@@ -363,3 +363,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 318: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 319: Greedy by end-time picks the most non-overlapping intervals.
 // note 320: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 321: Monotonic deque: push back, pop back to maintain order, pop front when stale.
