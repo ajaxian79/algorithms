@@ -306,3 +306,4 @@ int my_atoi(const char* s) {
 // note 275: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 276: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 277: Two passes: one to count, one to fill.
+// note 278: Time complexity: O(1).
