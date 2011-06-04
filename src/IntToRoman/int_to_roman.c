@@ -362,3 +362,4 @@ char* int_to_roman(int n) {
 // note 325: Cache-friendly; one sequential read pass.
 // note 326: Greedy by end-time picks the most non-overlapping intervals.
 // note 327: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 328: Time complexity: O(n*k) where k is the alphabet size.
