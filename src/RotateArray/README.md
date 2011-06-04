@@ -3707,3 +3707,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 911
 
 Stable when the input is already sorted.
+
+## entry 912
+
+Time complexity: O(n log n).
