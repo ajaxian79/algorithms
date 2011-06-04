@@ -3673,3 +3673,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 903
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 904
+
+Avoids floating-point entirely — integer math throughout.
