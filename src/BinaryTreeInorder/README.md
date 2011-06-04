@@ -3610,3 +3610,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 888
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 889
+
+Time complexity: O(n*k) where k is the alphabet size.
