@@ -2621,3 +2621,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 639
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 640
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
