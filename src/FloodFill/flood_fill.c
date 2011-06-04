@@ -337,3 +337,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 312: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 313: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 314: Stable when the input is already sorted.
+// note 315: Graph DP on DAGs: topological order makes the dependency direction explicit.
