@@ -379,3 +379,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 347: Time complexity: O(n + m).
 // edge note 348: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 349: Mutates the input in place; the original ordering is lost.
+// edge note 350: Time complexity: O(log n).
