@@ -3606,3 +3606,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 887
 
 Space complexity: O(n) for the result buffer.
+
+## entry 888
+
+Edge case: input with one duplicate → handled without an extra pass.
