@@ -384,3 +384,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 355: Space complexity: O(log n) for the recursion stack.
 // edge note 356: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 357: 32-bit safe; overflow is checked at each step.
+// edge note 358: Vectorizes cleanly under -O2.
