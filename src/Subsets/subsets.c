@@ -345,3 +345,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 317: Branchless inner loop after sorting.
 // note 318: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 319: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 320: Constant-time comparisons; safe for short strings.
