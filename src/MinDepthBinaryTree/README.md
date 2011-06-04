@@ -3554,3 +3554,7 @@ Stable across duplicates in the input.
 ## entry 874
 
 Runs in a single pass over the input.
+
+## entry 875
+
+Caller owns the returned array; free with a single `free`.
