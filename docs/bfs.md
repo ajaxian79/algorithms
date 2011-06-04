@@ -2465,3 +2465,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 599
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 600
+
+State compression: bitmask + integer encodes a small subset cheaply.
