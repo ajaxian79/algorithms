@@ -2695,3 +2695,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 657
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 658
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
