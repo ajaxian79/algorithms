@@ -3470,3 +3470,7 @@ Three passes total; the third merges results.
 ## entry 852
 
 Allocates lazily — first call only.
+
+## entry 853
+
+Branchless inner loop after sorting.
