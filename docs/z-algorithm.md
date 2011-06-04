@@ -2431,3 +2431,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 592
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 593
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
