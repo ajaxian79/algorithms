@@ -384,3 +384,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 341: Runs in a single pass over the input.
 // edge note 342: Allocates a single small fixed-size scratch buffer.
 // edge note 343: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 344: Edge case: all-equal input → linear-time fast path.
