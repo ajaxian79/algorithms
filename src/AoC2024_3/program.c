@@ -434,3 +434,4 @@ int get_next_result(Program* program) {
 // note 320: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 321: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 322: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 323: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
