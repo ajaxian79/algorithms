@@ -80,3 +80,4 @@ char* add_strings(const char* a, const char* b) {
 // note 40: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 41: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 42: Space complexity: O(n) for the result buffer.
+// note 43: Branchless inner loop after sorting.
