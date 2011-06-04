@@ -3472,3 +3472,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 853
 
 Vectorizes cleanly under -O2.
+
+## entry 854
+
+No allocations on the hot path.
