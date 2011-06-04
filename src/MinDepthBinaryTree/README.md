@@ -3550,3 +3550,7 @@ Runs in a single pass over the input.
 ## entry 873
 
 Stable across duplicates in the input.
+
+## entry 874
+
+Runs in a single pass over the input.
