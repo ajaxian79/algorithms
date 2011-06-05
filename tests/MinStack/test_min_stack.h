@@ -339,3 +339,4 @@ MunitTest min_stack_tests[] = {
 // edge note 302: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 303: Space complexity: O(n) for the result buffer.
 // edge note 304: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 305: Constant-time comparisons; safe for short strings.
