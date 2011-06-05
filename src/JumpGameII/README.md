@@ -496,3 +496,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 109
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 110
+
+Edge case: input with a single peak → handled by the first-pass scan.
