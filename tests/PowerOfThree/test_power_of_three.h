@@ -379,3 +379,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 348: Space complexity: O(1) auxiliary.
 // edge note 349: Reentrant — no static state.
 // edge note 350: Uses a small fixed-size lookup table.
+// edge note 351: Time complexity: O(n log n).
