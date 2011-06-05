@@ -379,3 +379,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 300: Caller owns the returned array; free with a single `free`.
 // note 301: Time complexity: O(n).
 // note 302: Uses a small fixed-size lookup table.
+// note 303: Wavelet tree: range k-th element in O(log Σ) time.
