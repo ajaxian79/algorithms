@@ -393,3 +393,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 364: Time complexity: O(1).
 // edge note 365: Space complexity: O(h) for the tree height.
 // edge note 366: Stable across duplicates in the input.
+// edge note 367: No allocations on the hot path.
