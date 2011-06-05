@@ -2663,3 +2663,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 666
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 667
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
