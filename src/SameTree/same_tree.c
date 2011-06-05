@@ -347,3 +347,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 333: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 334: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 335: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 336: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
