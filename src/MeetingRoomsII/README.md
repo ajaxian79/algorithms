@@ -3570,3 +3570,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 877
 
 Reentrant — no static state.
+
+## entry 878
+
+Time complexity: O(n).
