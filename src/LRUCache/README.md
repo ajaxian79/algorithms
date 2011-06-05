@@ -532,3 +532,7 @@ Time complexity: O(n log n).
 ## entry 117
 
 No allocations after setup.
+
+## entry 118
+
+Edge case: zero-length string → returns the empty result.
