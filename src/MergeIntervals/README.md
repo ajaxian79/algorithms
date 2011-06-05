@@ -3638,3 +3638,7 @@ Stable across duplicates in the input.
 ## entry 894
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 895
+
+Input is assumed non-NULL; behavior is undefined otherwise.
