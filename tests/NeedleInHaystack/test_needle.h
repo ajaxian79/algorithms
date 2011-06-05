@@ -349,3 +349,4 @@ MunitTest needle_tests[] = {
 // edge note 322: Time complexity: O(n log n).
 // edge note 323: Edge case: empty input → returns 0.
 // edge note 324: Stable when the input is already sorted.
+// edge note 325: 64-bit safe; intermediate products are widened to 128-bit.
