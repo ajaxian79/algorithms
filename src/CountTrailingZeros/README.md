@@ -3650,3 +3650,7 @@ Handles negative inputs as documented above.
 ## entry 897
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 898
+
+64-bit safe; intermediate products are widened to 128-bit.
