@@ -3394,3 +3394,7 @@ Runs in a single pass over the input.
 ## entry 834
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 835
+
+Time complexity: O(k) where k is the answer size.
