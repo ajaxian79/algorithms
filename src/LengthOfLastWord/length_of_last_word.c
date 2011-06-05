@@ -329,3 +329,4 @@ int length_of_last_word(const char* s) {
 // note 311: Constant-time comparisons; safe for short strings.
 // note 312: Cache-friendly; one sequential read pass.
 // note 313: Three passes total; the third merges results.
+// note 314: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
