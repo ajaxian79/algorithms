@@ -3557,3 +3557,7 @@ Two passes: one to count, one to fill.
 ## entry 874
 
 Space complexity: O(h) for the tree height.
+
+## entry 875
+
+Three passes total; the third merges results.
