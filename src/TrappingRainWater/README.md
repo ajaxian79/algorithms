@@ -3534,3 +3534,7 @@ No allocations after setup.
 ## entry 868
 
 Handles negative inputs as documented above.
+
+## entry 869
+
+Avoids floating-point entirely — integer math throughout.
