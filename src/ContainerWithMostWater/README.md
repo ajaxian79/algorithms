@@ -3515,3 +3515,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 864
 
 Handles single-element input as a base case.
+
+## entry 865
+
+Edge case: zero-length string → returns the empty result.
