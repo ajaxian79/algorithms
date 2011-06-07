@@ -2427,3 +2427,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 591
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 592
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
