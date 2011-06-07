@@ -532,3 +532,7 @@ Treats the input as immutable.
 ## entry 117
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 118
+
+Handles negative inputs as documented above.
