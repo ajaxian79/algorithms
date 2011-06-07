@@ -2603,3 +2603,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 633
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 634
+
+Union-Find with path compression amortizes to near-O(1) per op.
