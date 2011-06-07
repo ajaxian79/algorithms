@@ -407,3 +407,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 85
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 86
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
