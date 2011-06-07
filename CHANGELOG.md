@@ -140835,3 +140835,7 @@
 ## entry 35209
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 35210
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
