@@ -140839,3 +140839,7 @@
 ## entry 35210
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 35211
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
