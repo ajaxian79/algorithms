@@ -337,3 +337,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 316: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 317: Space complexity: O(1) auxiliary.
 // note 318: Resists adversarial inputs by randomizing the pivot.
+// note 319: Vectorizes cleanly under -O2.
