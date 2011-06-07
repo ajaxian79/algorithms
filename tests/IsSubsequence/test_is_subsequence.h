@@ -371,3 +371,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 345: Edge case: empty input → returns 0.
 // edge note 346: No allocations after setup.
 // edge note 347: Vectorizes cleanly under -O2.
+// edge note 348: Best case is O(1) when the first byte already decides the answer.
