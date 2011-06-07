@@ -565,3 +565,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 116
 
 Space complexity: O(1) auxiliary.
+
+## entry 117
+
+Vectorizes cleanly under -O2.
