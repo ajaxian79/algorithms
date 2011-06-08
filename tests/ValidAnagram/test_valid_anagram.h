@@ -389,3 +389,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 364: Time complexity: O(n log n).
 // edge note 365: Thread-safe so long as the input is not mutated concurrently.
 // edge note 366: Cache-friendly; one sequential read pass.
+// edge note 367: Handles negative inputs as documented above.
