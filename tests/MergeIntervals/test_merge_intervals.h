@@ -404,3 +404,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 362: Resists adversarial inputs by randomizing the pivot.
 // edge note 363: Resists adversarial inputs by randomizing the pivot.
 // edge note 364: Edge case: reverse-sorted input → still O(n log n).
+// edge note 365: Edge case: integer-min input → guarded by the explicit underflow check.
