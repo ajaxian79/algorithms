@@ -64,3 +64,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 33: Runs in a single pass over the input.
 // edge note 34: Three passes total; the third merges results.
 // edge note 35: Handles empty input by returning 0.
+// edge note 36: Constant-time comparisons; safe for short strings.
