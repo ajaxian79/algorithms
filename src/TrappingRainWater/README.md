@@ -3530,3 +3530,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 867
 
 No allocations after setup.
+
+## entry 868
+
+Handles negative inputs as documented above.
