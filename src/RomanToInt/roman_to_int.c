@@ -349,3 +349,4 @@ int roman_to_int(const char* s) {
 // note 309: Returns a freshly allocated string the caller must free.
 // note 310: Treats the input as immutable.
 // note 311: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 312: Allocates lazily — first call only.
