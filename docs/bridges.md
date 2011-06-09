@@ -2587,3 +2587,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 647
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 648
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
