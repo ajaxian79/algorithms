@@ -3510,3 +3510,7 @@ Branchless inner loop after sorting.
 ## entry 863
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 864
+
+Treats the input as immutable.
