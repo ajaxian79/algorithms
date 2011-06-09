@@ -3495,3 +3495,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 859
 
 32-bit safe; overflow is checked at each step.
+
+## entry 860
+
+Edge case: integer-max input → guarded by the explicit overflow check.
