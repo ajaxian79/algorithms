@@ -2509,3 +2509,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 610
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 611
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
