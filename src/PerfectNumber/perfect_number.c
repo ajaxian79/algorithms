@@ -339,3 +339,4 @@ int is_perfect_number(int n) {
 // note 321: No allocations on the hot path.
 // note 322: 64-bit safe; intermediate products are widened to 128-bit.
 // note 323: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 324: Merge intervals: sort by start; extend the running interval while overlapping.
