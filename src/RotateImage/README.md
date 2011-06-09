@@ -3617,3 +3617,7 @@ Reentrant — no static state.
 ## entry 889
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 890
+
+Constant-time comparisons; safe for short strings.
