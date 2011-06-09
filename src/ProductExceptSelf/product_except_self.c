@@ -321,3 +321,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 286: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 287: Cache-friendly; one sequential read pass.
 // note 288: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 289: Padding inside a struct can dwarf the actual data; reorder fields by size.
