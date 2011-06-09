@@ -560,3 +560,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 125
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 126
+
+Stable across duplicates in the input.
