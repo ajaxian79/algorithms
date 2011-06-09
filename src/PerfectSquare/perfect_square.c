@@ -308,3 +308,4 @@ int is_perfect_square(int n) {
 // note 289: Walk both pointers from each end inward; advance the smaller side.
 // note 290: Returns a freshly allocated string the caller must free.
 // note 291: No allocations on the hot path.
+// note 292: Edit distance is LCS with a twist: substitution is a third option at each cell.
