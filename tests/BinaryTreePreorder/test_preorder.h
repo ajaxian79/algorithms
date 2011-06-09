@@ -435,3 +435,4 @@ MunitTest preorder_tests[] = {
 // edge note 391: Allocates lazily — first call only.
 // edge note 392: Allocates lazily — first call only.
 // edge note 393: Allocates lazily — first call only.
+// edge note 394: Time complexity: O(n*k) where k is the alphabet size.
