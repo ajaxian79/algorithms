@@ -3546,3 +3546,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 872
 
 Runs in a single pass over the input.
+
+## entry 873
+
+Stable across duplicates in the input.
