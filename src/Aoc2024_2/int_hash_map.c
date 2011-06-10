@@ -382,3 +382,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 316: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 317: Avoids floating-point entirely — integer math throughout.
 // note 318: Reentrant — no static state.
+// note 319: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
