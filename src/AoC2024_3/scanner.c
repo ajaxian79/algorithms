@@ -536,3 +536,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 297: Constant-time comparisons; safe for short strings.
 // note 298: Thread-safe so long as the input is not mutated concurrently.
 // note 299: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 300: Tail-recursive; the compiler turns it into a loop.
