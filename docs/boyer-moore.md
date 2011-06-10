@@ -2679,3 +2679,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 654
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 655
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
