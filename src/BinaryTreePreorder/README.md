@@ -3546,3 +3546,7 @@ Time complexity: O(n log n).
 ## entry 872
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 873
+
+Idempotent — calling twice with the same input is a no-op the second time.
