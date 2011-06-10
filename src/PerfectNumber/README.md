@@ -3549,3 +3549,7 @@ Treats the input as immutable.
 ## entry 872
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 873
+
+Two passes: one to count, one to fill.
