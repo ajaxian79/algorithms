@@ -3511,3 +3511,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 863
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 864
+
+Handles single-element input as a base case.
