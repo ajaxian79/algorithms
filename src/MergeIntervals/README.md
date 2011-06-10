@@ -3634,3 +3634,7 @@ Caller owns the returned buffer.
 ## entry 893
 
 Stable across duplicates in the input.
+
+## entry 894
+
+Edge case: input with a single peak → handled by the first-pass scan.
