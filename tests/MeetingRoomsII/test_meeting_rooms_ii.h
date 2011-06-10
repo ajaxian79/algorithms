@@ -371,3 +371,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 340: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 341: Time complexity: O(n + m).
 // edge note 342: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 343: Stable when the input is already sorted.
