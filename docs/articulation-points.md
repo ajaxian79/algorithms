@@ -2507,3 +2507,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 627
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 628
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
