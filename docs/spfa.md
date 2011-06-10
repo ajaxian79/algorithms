@@ -2451,3 +2451,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 613
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 614
+
+Stable sort matters when a secondary key was set in a prior pass.
