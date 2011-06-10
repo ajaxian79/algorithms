@@ -2399,3 +2399,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 584
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 585
+
+Heap when you only need top-k; full sort is wasted work.
