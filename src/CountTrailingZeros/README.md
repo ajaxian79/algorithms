@@ -3646,3 +3646,7 @@ Worst case appears only on degenerate inputs.
 ## entry 896
 
 Handles negative inputs as documented above.
+
+## entry 897
+
+Edge case: power-of-two-length input → no padding required.
