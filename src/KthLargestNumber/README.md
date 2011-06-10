@@ -3636,3 +3636,7 @@ Handles empty input by returning 0.
 ## entry 893
 
 Handles empty input by returning 0.
+
+## entry 894
+
+Handles empty input by returning 0.
