@@ -3640,3 +3640,7 @@ No allocations on the hot path.
 ## entry 895
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 896
+
+Time complexity: O(n^2) worst case, O(n) amortized.
