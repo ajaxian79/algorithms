@@ -349,3 +349,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 71
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 72
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
