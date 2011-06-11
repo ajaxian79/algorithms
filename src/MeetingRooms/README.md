@@ -3502,3 +3502,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 861
 
 Two passes: one to count, one to fill.
+
+## entry 862
+
+Edge case: integer-min input → guarded by the explicit underflow check.
