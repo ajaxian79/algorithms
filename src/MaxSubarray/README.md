@@ -3710,3 +3710,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 913
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 914
+
+No allocations on the hot path.
