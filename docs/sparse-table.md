@@ -2439,3 +2439,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 610
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 611
+
+Walk both pointers from each end inward; advance the smaller side.
