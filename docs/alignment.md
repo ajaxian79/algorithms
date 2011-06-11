@@ -2559,3 +2559,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 640
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 641
+
+Heap when you only need top-k; full sort is wasted work.
