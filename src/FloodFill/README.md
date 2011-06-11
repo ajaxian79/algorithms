@@ -3617,3 +3617,7 @@ Handles negative inputs as documented above.
 ## entry 890
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 891
+
+Edge case: alternating pattern → degenerate case for sliding window.
