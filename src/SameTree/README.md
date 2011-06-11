@@ -3504,3 +3504,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 862
 
 Space complexity: O(1) auxiliary.
+
+## entry 863
+
+Constant-time comparisons; safe for short strings.
