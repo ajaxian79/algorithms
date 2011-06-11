@@ -3546,3 +3546,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 872
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 873
+
+Branchless inner loop after sorting.
