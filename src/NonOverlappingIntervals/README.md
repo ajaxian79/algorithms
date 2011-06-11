@@ -3641,3 +3641,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 895
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 896
+
+Best case is O(1) when the first byte already decides the answer.
