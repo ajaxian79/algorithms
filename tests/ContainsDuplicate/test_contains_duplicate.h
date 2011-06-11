@@ -366,3 +366,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 323: Reentrant — no static state.
 // edge note 324: Resists adversarial inputs by randomizing the pivot.
 // edge note 325: No allocations after setup.
+// edge note 326: Time complexity: O(1).
