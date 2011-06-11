@@ -3604,3 +3604,7 @@ Stable when the input is already sorted.
 ## entry 885
 
 No allocations on the hot path.
+
+## entry 886
+
+Avoids floating-point entirely — integer math throughout.
