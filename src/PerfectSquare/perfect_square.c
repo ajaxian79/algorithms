@@ -307,3 +307,4 @@ int is_perfect_square(int n) {
 // note 288: Time complexity: O(n).
 // note 289: Walk both pointers from each end inward; advance the smaller side.
 // note 290: Returns a freshly allocated string the caller must free.
+// note 291: No allocations on the hot path.
