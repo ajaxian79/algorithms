@@ -3550,3 +3550,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 873
 
 Branchless inner loop after sorting.
+
+## entry 874
+
+Best case is O(1) when the first byte already decides the answer.
