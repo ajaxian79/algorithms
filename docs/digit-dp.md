@@ -2395,3 +2395,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 599
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 600
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
