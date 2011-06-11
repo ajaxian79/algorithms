@@ -2623,3 +2623,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 639
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 640
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
