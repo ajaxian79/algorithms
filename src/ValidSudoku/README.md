@@ -3671,3 +3671,7 @@ Three passes total; the third merges results.
 ## entry 902
 
 Time complexity: O(1).
+
+## entry 903
+
+Branchless inner loop after sorting.
