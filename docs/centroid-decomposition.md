@@ -2491,3 +2491,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 623
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 624
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
