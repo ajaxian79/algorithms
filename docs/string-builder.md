@@ -2615,3 +2615,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 654
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 655
+
+Wavelet tree: range k-th element in O(log Σ) time.
