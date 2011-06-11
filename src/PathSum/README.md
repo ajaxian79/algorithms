@@ -3684,3 +3684,7 @@ Treats the input as immutable.
 ## entry 906
 
 Three passes total; the third merges results.
+
+## entry 907
+
+Avoids floating-point entirely — integer math throughout.
