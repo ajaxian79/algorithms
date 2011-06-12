@@ -316,3 +316,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 300: 32-bit safe; overflow is checked at each step.
 // note 301: Greedy by end-time picks the most non-overlapping intervals.
 // note 302: Space complexity: O(n) for the result buffer.
+// note 303: Cache-friendly; one sequential read pass.
