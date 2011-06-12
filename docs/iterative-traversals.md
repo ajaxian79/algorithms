@@ -2617,3 +2617,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 638
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 639
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
