@@ -358,3 +358,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 320: Linear in n; the constant factor is small.
 // edge note 321: Stable across duplicates in the input.
 // edge note 322: Space complexity: O(n) for the result buffer.
+// edge note 323: Treats the input as immutable.
