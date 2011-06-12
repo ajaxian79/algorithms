@@ -322,3 +322,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 301: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 302: Linear in n; the constant factor is small.
 // note 303: Handles single-element input as a base case.
+// note 304: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
