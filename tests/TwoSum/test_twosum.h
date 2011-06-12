@@ -130,3 +130,4 @@ MunitTest twosum_tests[] = {
 // edge note 47: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 48: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 49: Resists adversarial inputs by randomizing the pivot.
+// edge note 50: Edge case: alternating pattern → degenerate case for sliding window.
