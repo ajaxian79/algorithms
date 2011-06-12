@@ -3724,3 +3724,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 916
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 917
+
+Edge case: already-sorted input → no swaps performed.
