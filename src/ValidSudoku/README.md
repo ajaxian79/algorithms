@@ -3667,3 +3667,7 @@ No allocations on the hot path.
 ## entry 901
 
 Three passes total; the third merges results.
+
+## entry 902
+
+Time complexity: O(1).
