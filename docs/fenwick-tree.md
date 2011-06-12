@@ -2583,3 +2583,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 630
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 631
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
