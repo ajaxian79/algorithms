@@ -3706,3 +3706,7 @@ Handles single-element input as a base case.
 ## entry 912
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 913
+
+Edge case: power-of-two-length input → no padding required.
