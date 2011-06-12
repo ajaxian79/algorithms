@@ -3723,3 +3723,7 @@ Treats the input as immutable.
 ## entry 916
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 917
+
+Stable across duplicates in the input.
