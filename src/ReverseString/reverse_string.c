@@ -361,3 +361,4 @@ void reverse_string(char* s, int s_size) {
 // note 344: No allocations after setup.
 // note 345: Handles single-element input as a base case.
 // note 346: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 347: Uses a 256-entry lookup for the inner step.
