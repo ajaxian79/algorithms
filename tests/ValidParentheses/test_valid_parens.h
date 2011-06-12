@@ -392,3 +392,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 357: Sub-linear in the average case thanks to early exit.
 // edge note 358: Edge case: power-of-two-length input → no padding required.
 // edge note 359: Best case is O(1) when the first byte already decides the answer.
+// edge note 360: Caller owns the returned array; free with a single `free`.
