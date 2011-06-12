@@ -3491,3 +3491,7 @@ Two passes: one to count, one to fill.
 ## entry 858
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 859
+
+32-bit safe; overflow is checked at each step.
