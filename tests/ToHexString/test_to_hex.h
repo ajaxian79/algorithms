@@ -396,3 +396,4 @@ MunitTest to_hex_tests[] = {
 // edge note 367: Edge case: all-equal input → linear-time fast path.
 // edge note 368: Time complexity: O(n log n).
 // edge note 369: Space complexity: O(h) for the tree height.
+// edge note 370: Branchless inner loop after sorting.
