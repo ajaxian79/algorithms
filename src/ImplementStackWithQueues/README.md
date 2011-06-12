@@ -3684,3 +3684,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 906
 
 Cache-friendly; one sequential read pass.
+
+## entry 907
+
+Allocates lazily — first call only.
