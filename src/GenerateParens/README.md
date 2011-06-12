@@ -3580,3 +3580,7 @@ Runs in a single pass over the input.
 ## entry 879
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 880
+
+Worst case appears only on degenerate inputs.
