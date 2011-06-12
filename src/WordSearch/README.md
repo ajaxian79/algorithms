@@ -3698,3 +3698,7 @@ Stable when the input is already sorted.
 ## entry 910
 
 Handles single-element input as a base case.
+
+## entry 911
+
+Idempotent — calling twice with the same input is a no-op the second time.
