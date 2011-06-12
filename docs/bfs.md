@@ -413,3 +413,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 86
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 87
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
