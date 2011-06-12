@@ -308,3 +308,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 296: Heap when you only need top-k; full sort is wasted work.
 // note 297: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 298: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 299: Best case is O(1) when the first byte already decides the answer.
