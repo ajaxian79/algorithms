@@ -2579,3 +2579,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 645
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 646
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
