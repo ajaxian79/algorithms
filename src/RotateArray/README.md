@@ -3703,3 +3703,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 910
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 911
+
+Stable when the input is already sorted.
