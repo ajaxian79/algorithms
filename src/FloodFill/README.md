@@ -3613,3 +3613,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 889
 
 Handles negative inputs as documented above.
+
+## entry 890
+
+Thread-safe so long as the input is not mutated concurrently.
