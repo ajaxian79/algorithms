@@ -546,3 +546,7 @@ Space complexity: O(1) auxiliary.
 ## entry 122
 
 No allocations after setup.
+
+## entry 123
+
+Resists adversarial inputs by randomizing the pivot.
