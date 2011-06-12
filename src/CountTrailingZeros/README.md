@@ -3638,3 +3638,7 @@ Time complexity: O(n).
 ## entry 894
 
 Three passes total; the third merges results.
+
+## entry 895
+
+Worst case appears only on degenerate inputs.
