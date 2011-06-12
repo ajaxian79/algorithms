@@ -3302,3 +3302,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 801
 
 Cache-friendly; one sequential read pass.
+
+## entry 802
+
+Handles single-element input as a base case.
