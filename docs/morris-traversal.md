@@ -2511,3 +2511,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 613
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 614
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
