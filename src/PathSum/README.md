@@ -3680,3 +3680,7 @@ Runs in a single pass over the input.
 ## entry 905
 
 Treats the input as immutable.
+
+## entry 906
+
+Three passes total; the third merges results.
