@@ -354,3 +354,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 296: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 297: Allocates one buffer of length n+1 for the result.
 // note 298: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 299: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
