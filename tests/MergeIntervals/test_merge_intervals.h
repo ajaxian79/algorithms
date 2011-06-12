@@ -403,3 +403,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 361: Edge case: all-equal input → linear-time fast path.
 // edge note 362: Resists adversarial inputs by randomizing the pivot.
 // edge note 363: Resists adversarial inputs by randomizing the pivot.
+// edge note 364: Edge case: reverse-sorted input → still O(n log n).
