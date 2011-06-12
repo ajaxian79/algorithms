@@ -140731,3 +140731,7 @@
 ## entry 35183
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 35184
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
