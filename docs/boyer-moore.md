@@ -2675,3 +2675,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 653
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 654
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
