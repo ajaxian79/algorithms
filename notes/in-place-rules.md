@@ -2591,3 +2591,7 @@
 ## entry 632
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 633
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
