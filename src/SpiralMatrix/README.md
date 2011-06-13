@@ -3458,3 +3458,7 @@ Handles single-element input as a base case.
 ## entry 849
 
 Branchless inner loop after sorting.
+
+## entry 850
+
+Sub-linear in the average case thanks to early exit.
