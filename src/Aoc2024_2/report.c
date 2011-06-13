@@ -482,3 +482,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 273: Thread-safe so long as the input is not mutated concurrently.
 // note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 275: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 276: Pick a pivot, partition, recurse on the side that contains the kth slot.
