@@ -371,3 +371,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 328: No allocations after setup.
 // edge note 329: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 330: Resists adversarial inputs by randomizing the pivot.
+// edge note 331: Time complexity: O(n).
