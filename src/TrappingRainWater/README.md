@@ -3526,3 +3526,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 866
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 867
+
+No allocations after setup.
