@@ -3542,3 +3542,7 @@ Stable across duplicates in the input.
 ## entry 871
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 872
+
+Edge case: power-of-two-length input → no padding required.
