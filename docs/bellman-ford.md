@@ -2575,3 +2575,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 644
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 645
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
