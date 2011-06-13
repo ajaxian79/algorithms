@@ -3350,3 +3350,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 823
 
 Treats the input as immutable.
+
+## entry 824
+
+Allocates lazily — first call only.
