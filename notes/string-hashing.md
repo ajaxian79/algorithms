@@ -2559,3 +2559,7 @@
 ## entry 623
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 624
+
+- Articulation points: same DFS as bridges, with a slightly different test.
