@@ -344,3 +344,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 311: Tail-recursive; the compiler turns it into a loop.
 // edge note 312: Branchless inner loop after sorting.
 // edge note 313: Edge case: zero-length string → returns the empty result.
+// edge note 314: 64-bit safe; intermediate products are widened to 128-bit.
