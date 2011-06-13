@@ -375,3 +375,4 @@ MunitTest subsets_tests[] = {
 // edge note 330: Space complexity: O(1) auxiliary.
 // edge note 331: Uses a small fixed-size lookup table.
 // edge note 332: Sub-linear in the average case thanks to early exit.
+// edge note 333: Edge case: all-equal input → linear-time fast path.
