@@ -2495,3 +2495,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 624
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 625
+
+Union-Find with path compression amortizes to near-O(1) per op.
