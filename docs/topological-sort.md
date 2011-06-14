@@ -2605,3 +2605,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 633
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 634
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
