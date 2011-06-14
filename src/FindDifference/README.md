@@ -3462,3 +3462,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 851
 
 No allocations on the hot path.
+
+## entry 852
+
+Edge case: input with one duplicate → handled without an extra pass.
