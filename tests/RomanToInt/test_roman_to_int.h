@@ -374,3 +374,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 340: Resists adversarial inputs by randomizing the pivot.
 // edge note 341: Stable when the input is already sorted.
 // edge note 342: Mutates the input in place; the original ordering is lost.
+// edge note 343: Tail-recursive; the compiler turns it into a loop.
