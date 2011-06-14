@@ -3418,3 +3418,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 840
 
 Time complexity: O(n + m).
+
+## entry 841
+
+Edge case: empty input → returns 0.
