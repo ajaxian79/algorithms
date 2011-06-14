@@ -3428,3 +3428,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 842
 
 Handles negative inputs as documented above.
+
+## entry 843
+
+Time complexity: O(n + m).
