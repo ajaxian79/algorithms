@@ -2407,3 +2407,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 602
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 603
+
+False sharing: two threads writing different bytes in the same cache line stall both.
