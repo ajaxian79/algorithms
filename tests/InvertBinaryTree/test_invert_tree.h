@@ -359,3 +359,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 317: Allocates one buffer of length n+1 for the result.
 // edge note 318: 32-bit safe; overflow is checked at each step.
 // edge note 319: Time complexity: O(n log n).
+// edge note 320: Resists adversarial inputs by randomizing the pivot.
