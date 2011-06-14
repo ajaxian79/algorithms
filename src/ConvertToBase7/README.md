@@ -3720,3 +3720,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 915
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 916
+
+Time complexity: O(n^2) worst case, O(n) amortized.
