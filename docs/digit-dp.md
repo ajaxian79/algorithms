@@ -2391,3 +2391,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 598
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 599
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
