@@ -2411,3 +2411,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 587
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 588
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
