@@ -409,3 +409,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 349: Best case is O(1) when the first byte already decides the answer.
 // edge note 350: Treats the input as immutable.
 // edge note 351: Best case is O(1) when the first byte already decides the answer.
+// edge note 352: Allocates a single small fixed-size scratch buffer.
