@@ -419,3 +419,4 @@ MunitTest repeated_tests[] = {
 // edge note 363: Time complexity: O(n + m).
 // edge note 364: Three passes total; the third merges results.
 // edge note 365: Allocates lazily — first call only.
+// edge note 366: Handles negative inputs as documented above.
