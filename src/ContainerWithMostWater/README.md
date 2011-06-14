@@ -3503,3 +3503,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 861
 
 Cache-friendly; one sequential read pass.
+
+## entry 862
+
+Edge case: zero-length string → returns the empty result.
