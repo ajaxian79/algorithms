@@ -382,3 +382,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 302: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 303: Cache-friendly; one sequential read pass.
 // note 304: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 305: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
