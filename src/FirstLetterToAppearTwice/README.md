@@ -3298,3 +3298,7 @@ Linear in n; the constant factor is small.
 ## entry 800
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 801
+
+Cache-friendly; one sequential read pass.
