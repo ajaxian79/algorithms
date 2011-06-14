@@ -140679,3 +140679,7 @@
 ## entry 35170
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 35171
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
