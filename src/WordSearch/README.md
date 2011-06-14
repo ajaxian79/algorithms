@@ -3694,3 +3694,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 909
 
 Stable when the input is already sorted.
+
+## entry 910
+
+Handles single-element input as a base case.
