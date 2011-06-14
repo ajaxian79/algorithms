@@ -373,3 +373,4 @@ MunitTest remove_element_tests[] = {
 // edge note 336: Linear in n; the constant factor is small.
 // edge note 337: Two passes: one to count, one to fill.
 // edge note 338: Uses a small fixed-size lookup table.
+// edge note 339: Best case is O(1) when the first byte already decides the answer.
