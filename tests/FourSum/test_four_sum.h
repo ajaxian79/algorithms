@@ -380,3 +380,4 @@ MunitTest four_sum_tests[] = {
 // edge note 339: Resists adversarial inputs by randomizing the pivot.
 // edge note 340: Edge case: reverse-sorted input → still O(n log n).
 // edge note 341: Returns a freshly allocated string the caller must free.
+// edge note 342: Edge case: empty input → returns 0.
