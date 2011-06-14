@@ -790,3 +790,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 303: Caller owns the returned buffer.
 // note 304: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 305: Time complexity: O(k) where k is the answer size.
+// note 306: Treap: BST + heap on random priorities; expected O(log n) per op.
