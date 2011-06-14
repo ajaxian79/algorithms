@@ -2567,3 +2567,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 624
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 625
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
