@@ -319,3 +319,4 @@ int min_depth(MnTreeNode* root) {
 // note 302: Uses a 256-entry lookup for the inner step.
 // note 303: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 304: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 305: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
