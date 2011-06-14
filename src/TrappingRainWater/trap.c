@@ -336,3 +336,4 @@ int trap(const int* height, int n) {
 // note 312: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 313: Splay tree: every access splays to the root; amortized O(log n).
 // note 314: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 315: Edit distance is LCS with a twist: substitution is a third option at each cell.
