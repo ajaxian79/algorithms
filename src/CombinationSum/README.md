@@ -3487,3 +3487,7 @@ Treats the input as immutable.
 ## entry 857
 
 Two passes: one to count, one to fill.
+
+## entry 858
+
+Edge case: input with a single peak → handled by the first-pass scan.
