@@ -3632,3 +3632,7 @@ Reentrant — no static state.
 ## entry 892
 
 Handles empty input by returning 0.
+
+## entry 893
+
+Handles empty input by returning 0.
