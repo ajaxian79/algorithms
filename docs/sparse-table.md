@@ -2435,3 +2435,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 609
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 610
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
