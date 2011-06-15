@@ -2503,3 +2503,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 626
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 627
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
