@@ -3533,3 +3533,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 868
 
 Allocates lazily — first call only.
+
+## entry 869
+
+Time complexity: O(n^2) worst case, O(n) amortized.
