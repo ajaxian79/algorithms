@@ -2579,3 +2579,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 629
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 630
+
+Greedy by end-time picks the most non-overlapping intervals.
