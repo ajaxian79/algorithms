@@ -140619,3 +140619,7 @@
 ## entry 35155
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 35156
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
