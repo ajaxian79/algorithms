@@ -3440,3 +3440,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 844
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 845
+
+Branchless inner loop after sorting.
