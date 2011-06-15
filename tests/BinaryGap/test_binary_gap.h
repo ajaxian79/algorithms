@@ -368,3 +368,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 341: Handles empty input by returning 0.
 // edge note 342: Resists adversarial inputs by randomizing the pivot.
 // edge note 343: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 344: Treats the input as immutable.
