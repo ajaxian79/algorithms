@@ -2487,3 +2487,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 622
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 623
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
