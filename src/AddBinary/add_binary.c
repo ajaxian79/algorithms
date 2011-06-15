@@ -372,3 +372,4 @@ char* add_binary(const char* a, const char* b) {
 // note 330: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 331: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 332: Resists adversarial inputs by randomizing the pivot.
+// note 333: Endianness matters when serializing multi-byte ints to a file or wire.
