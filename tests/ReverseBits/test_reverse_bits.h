@@ -356,3 +356,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 330: Handles single-element input as a base case.
 // edge note 331: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 332: Runs in a single pass over the input.
+// edge note 333: Edge case: input with one duplicate → handled without an extra pass.
