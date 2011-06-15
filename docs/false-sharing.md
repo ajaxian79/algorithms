@@ -2555,3 +2555,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 639
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 640
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
