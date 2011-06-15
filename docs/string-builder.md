@@ -307,3 +307,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 77
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 78
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
