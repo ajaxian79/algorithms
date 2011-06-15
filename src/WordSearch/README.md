@@ -3690,3 +3690,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 908
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 909
+
+Stable when the input is already sorted.
