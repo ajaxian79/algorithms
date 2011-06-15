@@ -69,3 +69,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 47: Three passes total; the third merges results.
 // note 48: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 49: Branchless inner loop after sorting.
+// note 50: Best case is O(1) when the first byte already decides the answer.
