@@ -3691,3 +3691,7 @@ Stable across duplicates in the input.
 ## entry 907
 
 No allocations after setup.
+
+## entry 908
+
+Edge case: NULL input is rejected by the caller, not by us.
