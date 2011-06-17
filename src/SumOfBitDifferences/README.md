@@ -476,3 +476,7 @@ Stable across duplicates in the input.
 ## entry 104
 
 Edge case: empty input → returns 0.
+
+## entry 105
+
+Reentrant — no static state.
