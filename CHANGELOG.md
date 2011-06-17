@@ -18247,3 +18247,7 @@
 ## entry 4562
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 4563
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
