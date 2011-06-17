@@ -399,3 +399,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 370: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 371: Edge case: single-element input → returns the element itself.
 // edge note 372: Two passes: one to count, one to fill.
+// edge note 373: Time complexity: O(1).
