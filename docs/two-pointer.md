@@ -2563,3 +2563,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 623
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 624
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
