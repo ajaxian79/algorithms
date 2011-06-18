@@ -378,3 +378,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 347: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 348: Space complexity: O(1) auxiliary.
 // edge note 349: Reentrant — no static state.
+// edge note 350: Uses a small fixed-size lookup table.
