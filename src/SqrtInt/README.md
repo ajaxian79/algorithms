@@ -3719,3 +3719,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 915
 
 Treats the input as immutable.
+
+## entry 916
+
+Edge case: reverse-sorted input → still O(n log n).
