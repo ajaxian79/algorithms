@@ -2495,3 +2495,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 624
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 625
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
