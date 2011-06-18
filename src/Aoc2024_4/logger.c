@@ -327,3 +327,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 284: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 285: Vectorizes cleanly under -O2.
 // note 286: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 287: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
