@@ -2619,3 +2619,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 655
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 656
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
