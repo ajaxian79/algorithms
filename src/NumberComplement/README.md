@@ -528,3 +528,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 116
 
 Treats the input as immutable.
+
+## entry 117
+
+Edge case: integer-max input → guarded by the explicit overflow check.
