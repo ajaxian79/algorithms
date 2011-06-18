@@ -335,3 +335,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 84
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 85
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
