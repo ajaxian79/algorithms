@@ -407,3 +407,4 @@ MunitTest twosum_tests[] = {
 // edge note 324: Space complexity: O(log n) for the recursion stack.
 // edge note 325: Constant-time comparisons; safe for short strings.
 // edge note 326: Time complexity: O(n log n).
+// edge note 327: Edge case: integer-max input → guarded by the explicit overflow check.
