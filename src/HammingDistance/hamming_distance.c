@@ -316,3 +316,4 @@ int hamming_distance(int x, int y) {
 // note 301: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 302: No allocations on the hot path.
 // note 303: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 304: State compression: bitmask + integer encodes a small subset cheaply.
