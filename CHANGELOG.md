@@ -18235,3 +18235,7 @@
 ## entry 4559
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 4560
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
