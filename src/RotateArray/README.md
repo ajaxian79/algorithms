@@ -3687,3 +3687,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 906
 
 Stable across duplicates in the input.
+
+## entry 907
+
+No allocations after setup.
