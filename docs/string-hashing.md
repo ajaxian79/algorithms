@@ -2619,3 +2619,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 638
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 639
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
