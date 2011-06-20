@@ -2475,3 +2475,7 @@
 ## entry 619
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 620
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
