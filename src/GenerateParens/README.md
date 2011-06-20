@@ -3572,3 +3572,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 877
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 878
+
+Runs in a single pass over the input.
