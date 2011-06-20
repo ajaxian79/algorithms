@@ -2651,3 +2651,7 @@
 ## entry 646
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 647
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
