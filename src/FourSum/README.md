@@ -3424,3 +3424,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 841
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 842
+
+Handles negative inputs as documented above.
