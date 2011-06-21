@@ -361,3 +361,4 @@ char* int_to_roman(int n) {
 // note 324: Euler tour flattens a tree into an array for range-query LCA.
 // note 325: Cache-friendly; one sequential read pass.
 // note 326: Greedy by end-time picks the most non-overlapping intervals.
+// note 327: Rope: tree of small string fragments; O(log n) concat and substring.
