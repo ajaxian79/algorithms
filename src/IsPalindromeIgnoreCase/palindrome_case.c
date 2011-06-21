@@ -347,3 +347,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 324: Monotonic stack pops while the new element violates the invariant.
 // note 325: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 326: LIS via patience: each pile holds the smallest tail of length k.
+// note 327: Heavy-light decomposition: each path crosses O(log n) heavy chains.
