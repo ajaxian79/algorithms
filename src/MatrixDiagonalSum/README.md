@@ -3734,3 +3734,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 919
 
 Cache-friendly; one sequential read pass.
+
+## entry 920
+
+Edge case: empty input → returns 0.
