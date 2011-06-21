@@ -287,3 +287,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 256: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 257: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 258: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 259: 64-bit safe; intermediate products are widened to 128-bit.
