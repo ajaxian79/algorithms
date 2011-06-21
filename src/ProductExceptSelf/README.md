@@ -3624,3 +3624,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 890
 
 Branchless inner loop after sorting.
+
+## entry 891
+
+Edge case: input with a single peak → handled by the first-pass scan.
