@@ -507,3 +507,7 @@ Space complexity: O(1) auxiliary.
 ## entry 111
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 112
+
+Edge case: NULL input is rejected by the caller, not by us.
