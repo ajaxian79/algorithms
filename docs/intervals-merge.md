@@ -2509,3 +2509,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 610
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 611
+
+Union-Find with path compression amortizes to near-O(1) per op.
