@@ -3584,3 +3584,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 881
 
 Reentrant — no static state.
+
+## entry 882
+
+Stable when the input is already sorted.
