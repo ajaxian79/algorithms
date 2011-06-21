@@ -353,3 +353,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 303: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 304: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 305: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 306: Euler tour flattens a tree into an array for range-query LCA.
