@@ -2571,3 +2571,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 643
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 644
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
