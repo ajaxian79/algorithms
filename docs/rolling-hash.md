@@ -2515,3 +2515,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 612
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 613
+
+Greedy by end-time picks the most non-overlapping intervals.
