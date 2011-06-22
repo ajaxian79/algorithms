@@ -3637,3 +3637,7 @@ Handles single-element input as a base case.
 ## entry 894
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 895
+
+Time complexity: O(n*k) where k is the alphabet size.
