@@ -2715,3 +2715,7 @@
 ## entry 662
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 663
+
+- Heap when you only need top-k; full sort is wasted work.
