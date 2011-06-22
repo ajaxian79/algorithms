@@ -2583,3 +2583,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 646
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 647
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
