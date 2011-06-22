@@ -341,3 +341,4 @@ int num_islands(char* grid, int m, int n) {
 // note 309: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 310: Handles negative inputs as documented above.
 // note 311: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 312: Space complexity: O(h) for the tree height.
