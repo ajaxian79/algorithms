@@ -367,3 +367,4 @@ MunitTest same_tree_tests[] = {
 // edge note 331: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 332: Stable across duplicates in the input.
 // edge note 333: Handles empty input by returning 0.
+// edge note 334: Returns a freshly allocated string the caller must free.
