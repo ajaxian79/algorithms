@@ -368,3 +368,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 337: Edge case: power-of-two-length input → no padding required.
 // edge note 338: Edge case: input of all the same byte → exits on the first compare.
 // edge note 339: Edge case: single-element input → returns the element itself.
+// edge note 340: Edge case: input with a single peak → handled by the first-pass scan.
