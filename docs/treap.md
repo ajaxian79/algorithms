@@ -2495,3 +2495,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 624
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 625
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
