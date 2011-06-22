@@ -3374,3 +3374,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 828
 
 Treats the input as immutable.
+
+## entry 829
+
+Edge case: alternating pattern → degenerate case for sliding window.
