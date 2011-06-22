@@ -3594,3 +3594,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 884
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 885
+
+Edge case: input with no peak → falls through to the default branch.
