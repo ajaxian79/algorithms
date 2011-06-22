@@ -380,3 +380,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 349: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 350: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 351: Runs in a single pass over the input.
+// edge note 352: Edge case: maximum-length input → still fits in 32-bit indices.
