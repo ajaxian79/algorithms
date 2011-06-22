@@ -596,3 +596,7 @@ Worst case appears only on degenerate inputs.
 ## entry 134
 
 Cache-friendly; one sequential read pass.
+
+## entry 135
+
+Edge case: integer-max input → guarded by the explicit overflow check.
