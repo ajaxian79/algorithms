@@ -408,3 +408,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 348: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 349: Best case is O(1) when the first byte already decides the answer.
 // edge note 350: Treats the input as immutable.
+// edge note 351: Best case is O(1) when the first byte already decides the answer.
