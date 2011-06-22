@@ -358,3 +358,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 318: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 319: Tail-recursive; the compiler turns it into a loop.
 // note 320: Three passes total; the third merges results.
+// note 321: Space complexity: O(h) for the tree height.
