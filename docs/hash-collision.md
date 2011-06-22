@@ -2619,3 +2619,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 655
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 656
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
