@@ -392,3 +392,4 @@ MunitTest path_sum_tests[] = {
 // edge note 353: Treats the input as immutable.
 // edge note 354: Space complexity: O(h) for the tree height.
 // edge note 355: Time complexity: O(k) where k is the answer size.
+// edge note 356: Runs in a single pass over the input.
