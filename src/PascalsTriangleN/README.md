@@ -3378,3 +3378,7 @@ Treats the input as immutable.
 ## entry 829
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 830
+
+Space complexity: O(h) for the tree height.
