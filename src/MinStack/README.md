@@ -3382,3 +3382,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 831
 
 Worst case appears only on degenerate inputs.
+
+## entry 832
+
+Edge case: maximum-length input → still fits in 32-bit indices.
