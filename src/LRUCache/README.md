@@ -3432,3 +3432,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 842
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 843
+
+Sub-linear in the average case thanks to early exit.
