@@ -388,3 +388,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 352: Uses a small fixed-size lookup table.
 // edge note 353: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 354: Time complexity: O(1).
+// edge note 355: Uses a 256-entry lookup for the inner step.
