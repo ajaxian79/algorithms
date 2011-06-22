@@ -3386,3 +3386,7 @@ Worst case appears only on degenerate inputs.
 ## entry 832
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 833
+
+Runs in a single pass over the input.
