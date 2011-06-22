@@ -2511,3 +2511,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 611
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 612
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
