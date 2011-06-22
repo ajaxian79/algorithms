@@ -3580,3 +3580,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 880
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 881
+
+Reentrant — no static state.
