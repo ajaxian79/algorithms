@@ -3562,3 +3562,7 @@ Time complexity: O(n).
 ## entry 875
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 876
+
+Space complexity: O(n) for the result buffer.
