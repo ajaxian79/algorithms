@@ -3499,3 +3499,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 860
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 861
+
+Cache-friendly; one sequential read pass.
