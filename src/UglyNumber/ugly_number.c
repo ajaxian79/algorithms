@@ -329,3 +329,4 @@ int is_ugly(int n) {
 // note 315: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 316: Worst case appears only on degenerate inputs.
 // note 317: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 318: Idempotent — calling twice with the same input is a no-op the second time.
