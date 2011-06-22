@@ -390,3 +390,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 361: Allocates a single small fixed-size scratch buffer.
 // edge note 362: Returns a freshly allocated string the caller must free.
 // edge note 363: Allocates one buffer of length n+1 for the result.
+// edge note 364: Time complexity: O(1).
