@@ -3812,3 +3812,7 @@ Handles single-element input as a base case.
 ## entry 938
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 939
+
+Returns a freshly allocated string the caller must free.
