@@ -140523,3 +140523,7 @@
 ## entry 35131
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 35132
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
