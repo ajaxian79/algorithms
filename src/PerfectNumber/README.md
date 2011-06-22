@@ -3537,3 +3537,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 869
 
 Handles negative inputs as documented above.
+
+## entry 870
+
+Time complexity: O(n*k) where k is the alphabet size.
