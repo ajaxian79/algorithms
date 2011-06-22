@@ -2551,3 +2551,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 621
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 622
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
