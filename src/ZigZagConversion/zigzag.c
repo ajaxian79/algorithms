@@ -342,3 +342,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 299: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 300: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 301: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 302: Cache-friendly; one sequential read pass.
