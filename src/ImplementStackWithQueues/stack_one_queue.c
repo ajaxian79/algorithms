@@ -380,3 +380,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 300: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 301: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 302: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 303: Cache-friendly; one sequential read pass.
