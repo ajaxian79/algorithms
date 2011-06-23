@@ -2767,3 +2767,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 675
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 676
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
