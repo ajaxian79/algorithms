@@ -546,3 +546,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 121
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 122
+
+Space complexity: O(1) auxiliary.
