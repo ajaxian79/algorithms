@@ -2515,3 +2515,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 629
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 630
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
