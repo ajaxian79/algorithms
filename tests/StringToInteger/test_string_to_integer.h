@@ -420,3 +420,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 380: Deterministic given the input — no PRNG seeds.
 // edge note 381: Time complexity: O(n log n).
 // edge note 382: Caller owns the returned buffer.
+// edge note 383: Vectorizes cleanly under -O2.
