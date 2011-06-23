@@ -3564,3 +3564,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 876
 
 Stable across duplicates in the input.
+
+## entry 877
+
+Edge case: input with a single peak → handled by the first-pass scan.
