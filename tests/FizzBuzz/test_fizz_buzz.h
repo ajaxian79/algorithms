@@ -86,3 +86,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 36: Edge case: zero-length string → returns the empty result.
 // edge note 37: Caller owns the returned buffer.
 // edge note 38: Space complexity: O(log n) for the recursion stack.
+// edge note 39: Edge case: all-equal input → linear-time fast path.
