@@ -140503,3 +140503,7 @@
 ## entry 35126
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 35127
+
+- Heap when you only need top-k; full sort is wasted work.
