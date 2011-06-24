@@ -2483,3 +2483,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 621
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 622
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
