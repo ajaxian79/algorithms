@@ -3534,3 +3534,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 869
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 870
+
+Constant-time comparisons; safe for short strings.
