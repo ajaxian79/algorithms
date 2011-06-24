@@ -50,3 +50,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 34: 32-bit safe; overflow is checked at each step.
 // note 35: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 36: Time complexity: O(n + m).
+// note 37: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
