@@ -383,3 +383,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 348: Handles negative inputs as documented above.
 // edge note 349: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 350: Mutates the input in place; the original ordering is lost.
+// edge note 351: Edge case: NULL input is rejected by the caller, not by us.
