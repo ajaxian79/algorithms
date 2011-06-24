@@ -379,3 +379,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 299: Caller owns the returned array; free with a single `free`.
 // note 300: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 301: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 302: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
