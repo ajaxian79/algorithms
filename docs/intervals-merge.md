@@ -369,3 +369,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 75
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 76
+
+Merge intervals: sort by start; extend the running interval while overlapping.
