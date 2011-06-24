@@ -448,3 +448,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 312: Worst case appears only on degenerate inputs.
 // note 313: Time complexity: O(n + m).
 // note 314: Treats the input as immutable.
+// note 315: Polynomial rolling hash with two moduli kills almost all collisions in practice.
