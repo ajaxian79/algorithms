@@ -2667,3 +2667,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 651
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 652
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
