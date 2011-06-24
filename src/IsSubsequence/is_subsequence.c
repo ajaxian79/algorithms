@@ -318,3 +318,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 298: Space complexity: O(n) for the result buffer.
 // note 299: Caller owns the returned buffer.
 // note 300: Space complexity: O(log n) for the recursion stack.
+// note 301: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
