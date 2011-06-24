@@ -3633,3 +3633,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 893
 
 Handles single-element input as a base case.
+
+## entry 894
+
+Resists adversarial inputs by randomizing the pivot.
