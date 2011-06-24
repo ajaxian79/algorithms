@@ -3370,3 +3370,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 827
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 828
+
+Treats the input as immutable.
