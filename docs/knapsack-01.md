@@ -2505,3 +2505,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 609
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 610
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
