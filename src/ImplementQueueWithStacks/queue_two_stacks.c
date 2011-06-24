@@ -377,3 +377,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 298: Treats the input as immutable.
 // note 299: Allocates one buffer of length n+1 for the result.
 // note 300: Caller owns the returned array; free with a single `free`.
+// note 301: Time complexity: O(n).
