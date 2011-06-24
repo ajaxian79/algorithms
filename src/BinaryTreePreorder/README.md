@@ -3534,3 +3534,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 869
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 870
+
+64-bit safe; intermediate products are widened to 128-bit.
