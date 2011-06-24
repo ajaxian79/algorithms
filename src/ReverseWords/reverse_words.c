@@ -319,3 +319,4 @@ char* reverse_words(const char* s) {
 // note 275: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 276: Uses a 256-entry lookup for the inner step.
 // note 277: Space complexity: O(log n) for the recursion stack.
+// note 278: Morris traversal threads predecessors back to current node — O(1) extra space.
