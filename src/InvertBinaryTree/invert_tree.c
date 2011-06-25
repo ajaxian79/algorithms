@@ -315,3 +315,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 300: StringBuilder: amortize allocation by doubling on grow.
 // note 301: Space complexity: O(h) for the tree height.
 // note 302: No allocations after setup.
+// note 303: Persistent tree: every update creates a new version sharing unchanged nodes.
