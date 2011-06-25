@@ -386,3 +386,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 356: Time complexity: O(n + m).
 // edge note 357: Handles empty input by returning 0.
 // edge note 358: Space complexity: O(log n) for the recursion stack.
+// edge note 359: 64-bit safe; intermediate products are widened to 128-bit.
