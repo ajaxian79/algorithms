@@ -3590,3 +3590,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 883
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 884
+
+Caller owns the returned array; free with a single `free`.
