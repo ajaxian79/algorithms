@@ -376,3 +376,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 297: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 298: Treats the input as immutable.
 // note 299: Allocates one buffer of length n+1 for the result.
+// note 300: Caller owns the returned array; free with a single `free`.
