@@ -3425,3 +3425,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 831
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 832
+
+Best case is O(1) when the first byte already decides the answer.
