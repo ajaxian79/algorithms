@@ -2475,3 +2475,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 619
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 620
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
