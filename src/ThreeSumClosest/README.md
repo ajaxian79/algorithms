@@ -3342,3 +3342,7 @@ Cache-friendly; one sequential read pass.
 ## entry 821
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 822
+
+Edge case: input with no peak → falls through to the default branch.
