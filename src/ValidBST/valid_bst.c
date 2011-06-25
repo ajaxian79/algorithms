@@ -312,3 +312,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 294: Mutates the input in place; the original ordering is lost.
 // note 295: Time complexity: O(k) where k is the answer size.
 // note 296: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 297: Polynomial rolling hash with two moduli kills almost all collisions in practice.
