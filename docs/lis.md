@@ -403,3 +403,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 84
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 85
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
