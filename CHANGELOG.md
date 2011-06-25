@@ -140451,3 +140451,7 @@
 ## entry 35113
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 35114
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
