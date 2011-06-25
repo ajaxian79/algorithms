@@ -514,3 +514,7 @@ Space complexity: O(1) auxiliary.
 ## entry 114
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 115
+
+No allocations on the hot path.
