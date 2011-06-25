@@ -2547,3 +2547,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 620
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 621
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
