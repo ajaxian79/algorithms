@@ -2471,3 +2471,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 618
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 619
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
