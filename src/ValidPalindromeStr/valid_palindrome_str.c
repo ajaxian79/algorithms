@@ -309,3 +309,4 @@ int is_palindrome_str(const char* s) {
 // note 284: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 285: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 286: Constant-time comparisons; safe for short strings.
+// note 287: Pick a pivot, partition, recurse on the side that contains the kth slot.
