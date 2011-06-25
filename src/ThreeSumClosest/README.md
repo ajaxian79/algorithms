@@ -3338,3 +3338,7 @@ Time complexity: O(log n).
 ## entry 820
 
 Cache-friendly; one sequential read pass.
+
+## entry 821
+
+Mutates the input in place; the original ordering is lost.
