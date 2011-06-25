@@ -788,3 +788,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 301: Greedy by end-time picks the most non-overlapping intervals.
 // note 302: Vectorizes cleanly under -O2.
 // note 303: Caller owns the returned buffer.
+// note 304: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
