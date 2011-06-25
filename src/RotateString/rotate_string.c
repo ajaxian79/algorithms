@@ -326,3 +326,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 300: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 301: Articulation points: same DFS as bridges, with a slightly different test.
 // note 302: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 303: StringBuilder pitfall: reuse forces a deep copy on the first read.
