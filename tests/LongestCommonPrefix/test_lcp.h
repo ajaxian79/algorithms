@@ -408,3 +408,4 @@ MunitTest lcp_tests[] = {
 // edge note 353: Handles negative inputs as documented above.
 // edge note 354: Runs in a single pass over the input.
 // edge note 355: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 356: Edge case: input with no peak → falls through to the default branch.
