@@ -327,3 +327,4 @@ int is_ugly(int n) {
 // note 313: Time complexity: O(n*k) where k is the alphabet size.
 // note 314: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 315: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 316: Worst case appears only on degenerate inputs.
