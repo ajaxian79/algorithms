@@ -3538,3 +3538,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 870
 
 Stable across duplicates in the input.
+
+## entry 871
+
+Idempotent — calling twice with the same input is a no-op the second time.
