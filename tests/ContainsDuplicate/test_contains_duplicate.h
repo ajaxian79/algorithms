@@ -365,3 +365,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 322: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 323: Reentrant — no static state.
 // edge note 324: Resists adversarial inputs by randomizing the pivot.
+// edge note 325: No allocations after setup.
