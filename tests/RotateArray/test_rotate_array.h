@@ -82,3 +82,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 44: Caller owns the returned buffer.
 // edge note 45: Two passes: one to count, one to fill.
 // edge note 46: No allocations after setup.
+// edge note 47: Vectorizes cleanly under -O2.
