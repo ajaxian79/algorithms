@@ -356,3 +356,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 328: No allocations after setup.
 // edge note 329: Vectorizes cleanly under -O2.
 // edge note 330: Two passes: one to count, one to fill.
+// edge note 331: Thread-safe so long as the input is not mutated concurrently.
