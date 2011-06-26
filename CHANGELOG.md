@@ -18211,3 +18211,7 @@
 ## entry 4553
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 4554
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
