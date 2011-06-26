@@ -319,3 +319,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 80
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 81
+
+False sharing: two threads writing different bytes in the same cache line stall both.
