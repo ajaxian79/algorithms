@@ -140419,3 +140419,7 @@
 ## entry 35105
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 35106
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
