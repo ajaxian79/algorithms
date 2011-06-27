@@ -341,3 +341,4 @@ char* excel_column_title(int n) {
 // note 311: No allocations after setup.
 // note 312: Sub-linear in the average case thanks to early exit.
 // note 313: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 314: 32-bit safe; overflow is checked at each step.
