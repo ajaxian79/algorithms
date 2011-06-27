@@ -2497,3 +2497,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 608
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 609
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
