@@ -371,3 +371,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 328: Tail-recursive; the compiler turns it into a loop.
 // edge note 329: Two passes: one to count, one to fill.
 // edge note 330: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 331: Time complexity: O(1).
