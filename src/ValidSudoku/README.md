@@ -3659,3 +3659,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 899
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 900
+
+No allocations on the hot path.
