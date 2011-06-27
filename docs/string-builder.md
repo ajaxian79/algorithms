@@ -2611,3 +2611,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 653
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 654
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
