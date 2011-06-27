@@ -402,3 +402,4 @@ MunitTest num_islands_tests[] = {
 // edge note 362: Allocates one buffer of length n+1 for the result.
 // edge note 363: Space complexity: O(n) for the result buffer.
 // edge note 364: Mutates the input in place; the original ordering is lost.
+// edge note 365: Space complexity: O(h) for the tree height.
