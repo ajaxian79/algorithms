@@ -140403,3 +140403,7 @@
 ## entry 35101
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 35102
+
+- Walk both pointers from each end inward; advance the smaller side.
