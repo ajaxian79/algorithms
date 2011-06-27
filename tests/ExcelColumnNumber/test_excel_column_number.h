@@ -398,3 +398,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 368: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 369: Sub-linear in the average case thanks to early exit.
 // edge note 370: Edge case: all-equal input → linear-time fast path.
+// edge note 371: Reentrant — no static state.
