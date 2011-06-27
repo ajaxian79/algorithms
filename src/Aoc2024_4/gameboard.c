@@ -480,3 +480,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 327: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 328: Caller owns the returned array; free with a single `free`.
 // note 329: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 330: Allocates one buffer of length n+1 for the result.
