@@ -2387,3 +2387,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 597
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 598
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
