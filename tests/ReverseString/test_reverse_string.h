@@ -392,3 +392,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 354: Handles single-element input as a base case.
 // edge note 355: Time complexity: O(n).
 // edge note 356: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 357: Edge case: input with a single peak → handled by the first-pass scan.
