@@ -355,3 +355,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 296: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 297: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 298: Sub-linear in the average case thanks to early exit.
+// note 299: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
