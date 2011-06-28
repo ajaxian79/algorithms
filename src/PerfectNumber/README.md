@@ -3533,3 +3533,7 @@ Time complexity: O(n).
 ## entry 868
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 869
+
+Handles negative inputs as documented above.
