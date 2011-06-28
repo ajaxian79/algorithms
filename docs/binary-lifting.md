@@ -2575,3 +2575,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 644
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 645
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
