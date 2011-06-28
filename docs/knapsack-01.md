@@ -2501,3 +2501,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 608
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 609
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
