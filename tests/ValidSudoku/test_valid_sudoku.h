@@ -405,3 +405,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 345: Time complexity: O(1).
 // edge note 346: Space complexity: O(h) for the tree height.
 // edge note 347: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 348: Space complexity: O(h) for the tree height.
