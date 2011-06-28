@@ -327,3 +327,4 @@ int first_unique_char(const char* s) {
 // note 308: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 309: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 310: Reentrant — no static state.
+// note 311: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
