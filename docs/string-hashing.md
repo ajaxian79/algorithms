@@ -2615,3 +2615,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 637
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 638
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
