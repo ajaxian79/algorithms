@@ -338,3 +338,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 307: Deterministic given the input — no PRNG seeds.
 // edge note 308: Linear in n; the constant factor is small.
 // edge note 309: Caller owns the returned array; free with a single `free`.
+// edge note 310: Time complexity: O(n).
