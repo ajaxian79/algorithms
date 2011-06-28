@@ -475,3 +475,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 308: Allocates a single small fixed-size scratch buffer.
 // note 309: Time complexity: O(1).
 // note 310: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 311: Vectorizes cleanly under -O2.
