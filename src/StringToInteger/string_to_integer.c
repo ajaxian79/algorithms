@@ -304,3 +304,4 @@ int my_atoi(const char* s) {
 // note 273: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 274: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 275: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 276: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
