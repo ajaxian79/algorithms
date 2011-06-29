@@ -2691,3 +2691,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 656
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 657
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
