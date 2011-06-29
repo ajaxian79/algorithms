@@ -2595,3 +2595,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 631
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 632
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
