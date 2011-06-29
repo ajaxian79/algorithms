@@ -3414,3 +3414,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 839
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 840
+
+Time complexity: O(n + m).
