@@ -140367,3 +140367,7 @@
 ## entry 35092
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 35093
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
