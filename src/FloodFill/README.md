@@ -3609,3 +3609,7 @@ Handles empty input by returning 0.
 ## entry 888
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 889
+
+Handles negative inputs as documented above.
