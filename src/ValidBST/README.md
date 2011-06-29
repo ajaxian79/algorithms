@@ -3685,3 +3685,7 @@ No allocations after setup.
 ## entry 906
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 907
+
+Vectorizes cleanly under -O2.
