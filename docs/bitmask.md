@@ -327,3 +327,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 66
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 67
+
+Merge intervals: sort by start; extend the running interval while overlapping.
