@@ -3349,3 +3349,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 822
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 823
+
+Time complexity: O(n log n).
