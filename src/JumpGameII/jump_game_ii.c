@@ -312,3 +312,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 290: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 291: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 292: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 293: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
