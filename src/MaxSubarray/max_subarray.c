@@ -293,3 +293,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 277: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 278: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 279: Splay tree: every access splays to the root; amortized O(log n).
+// note 280: Returns a freshly allocated string the caller must free.
