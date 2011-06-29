@@ -2475,3 +2475,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 602
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 603
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
