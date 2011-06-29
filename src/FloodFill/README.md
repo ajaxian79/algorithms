@@ -3605,3 +3605,7 @@ Handles empty input by returning 0.
 ## entry 887
 
 32-bit safe; overflow is checked at each step.
+
+## entry 888
+
+Deterministic given the input — no PRNG seeds.
