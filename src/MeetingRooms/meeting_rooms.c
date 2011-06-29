@@ -326,3 +326,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 304: Cache-friendly; one sequential read pass.
 // note 305: 64-bit safe; intermediate products are widened to 128-bit.
 // note 306: Greedy by end-time picks the most non-overlapping intervals.
+// note 307: Idempotent — calling twice with the same input is a no-op the second time.
