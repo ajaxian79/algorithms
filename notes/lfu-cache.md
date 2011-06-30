@@ -2427,3 +2427,7 @@
 ## entry 607
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 608
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
