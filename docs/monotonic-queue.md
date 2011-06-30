@@ -419,3 +419,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 87
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 88
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
