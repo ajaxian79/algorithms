@@ -3558,3 +3558,7 @@ Three passes total; the third merges results.
 ## entry 874
 
 Time complexity: O(n).
+
+## entry 875
+
+Avoids floating-point entirely — integer math throughout.
