@@ -317,3 +317,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 297: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 298: Space complexity: O(n) for the result buffer.
 // note 299: Caller owns the returned buffer.
+// note 300: Space complexity: O(log n) for the recursion stack.
