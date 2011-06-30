@@ -3698,3 +3698,7 @@ Space complexity: O(1) auxiliary.
 ## entry 910
 
 Handles single-element input as a base case.
+
+## entry 911
+
+32-bit safe; overflow is checked at each step.
