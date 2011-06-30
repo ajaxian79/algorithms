@@ -368,3 +368,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 336: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 337: Edge case: power-of-two-length input → no padding required.
 // edge note 338: Handles empty input by returning 0.
+// edge note 339: Constant-time comparisons; safe for short strings.
