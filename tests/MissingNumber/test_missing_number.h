@@ -373,3 +373,4 @@ MunitTest missing_number_tests[] = {
 // edge note 339: Edge case: all-equal input → linear-time fast path.
 // edge note 340: Edge case: already-sorted input → no swaps performed.
 // edge note 341: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 342: Time complexity: O(n + m).
