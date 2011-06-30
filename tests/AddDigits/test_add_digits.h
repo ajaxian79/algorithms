@@ -344,3 +344,4 @@ MunitTest add_digits_tests[] = {
 // edge note 317: Tail-recursive; the compiler turns it into a loop.
 // edge note 318: Uses a small fixed-size lookup table.
 // edge note 319: Allocates a single small fixed-size scratch buffer.
+// edge note 320: Stable when the input is already sorted.
