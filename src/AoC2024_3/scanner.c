@@ -534,3 +534,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 295: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 296: Space complexity: O(1) auxiliary.
 // note 297: Constant-time comparisons; safe for short strings.
+// note 298: Thread-safe so long as the input is not mutated concurrently.
