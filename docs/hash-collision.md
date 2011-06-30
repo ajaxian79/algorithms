@@ -2615,3 +2615,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 654
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 655
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
