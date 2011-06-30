@@ -3334,3 +3334,7 @@ Worst case appears only on degenerate inputs.
 ## entry 819
 
 Time complexity: O(log n).
+
+## entry 820
+
+Cache-friendly; one sequential read pass.
