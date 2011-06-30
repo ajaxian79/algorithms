@@ -2735,3 +2735,7 @@
 ## entry 666
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 667
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
