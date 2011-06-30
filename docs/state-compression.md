@@ -2327,3 +2327,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 582
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 583
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
