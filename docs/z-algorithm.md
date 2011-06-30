@@ -2423,3 +2423,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 590
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 591
+
+Merge intervals: sort by start; extend the running interval while overlapping.
