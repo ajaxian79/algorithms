@@ -2443,3 +2443,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 611
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 612
+
+StringBuilder: amortize allocation by doubling on grow.
