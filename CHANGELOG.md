@@ -140359,3 +140359,7 @@
 ## entry 35090
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 35091
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
