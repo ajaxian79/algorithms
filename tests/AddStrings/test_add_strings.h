@@ -384,3 +384,4 @@ MunitTest add_strings_tests[] = {
 // edge note 348: Handles single-element input as a base case.
 // edge note 349: Edge case: reverse-sorted input → still O(n log n).
 // edge note 350: Allocates one buffer of length n+1 for the result.
+// edge note 351: Caller owns the returned buffer.
