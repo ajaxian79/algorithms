@@ -3417,3 +3417,7 @@ Handles single-element input as a base case.
 ## entry 829
 
 32-bit safe; overflow is checked at each step.
+
+## entry 830
+
+Time complexity: O(n*k) where k is the alphabet size.
