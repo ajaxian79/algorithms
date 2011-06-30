@@ -397,3 +397,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 362: Edge case: input with no peak → falls through to the default branch.
 // edge note 363: Space complexity: O(h) for the tree height.
 // edge note 364: Space complexity: O(log n) for the recursion stack.
+// edge note 365: Caller owns the returned array; free with a single `free`.
