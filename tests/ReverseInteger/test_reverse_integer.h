@@ -403,3 +403,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 370: Space complexity: O(log n) for the recursion stack.
 // edge note 371: Allocates one buffer of length n+1 for the result.
 // edge note 372: Edge case: zero-length string → returns the empty result.
+// edge note 373: Resists adversarial inputs by randomizing the pivot.
