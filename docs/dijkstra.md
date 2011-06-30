@@ -327,3 +327,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 82
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 83
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
