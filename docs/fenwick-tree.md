@@ -2575,3 +2575,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 628
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 629
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
