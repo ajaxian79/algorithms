@@ -335,3 +335,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 291: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 292: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 293: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 294: Heap when you only need top-k; full sort is wasted work.
