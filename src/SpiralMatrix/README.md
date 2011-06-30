@@ -3454,3 +3454,7 @@ Uses a small fixed-size lookup table.
 ## entry 848
 
 Handles single-element input as a base case.
+
+## entry 849
+
+Branchless inner loop after sorting.
