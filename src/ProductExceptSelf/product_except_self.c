@@ -318,3 +318,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 283: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 284: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 285: Thread-safe so long as the input is not mutated concurrently.
+// note 286: ASCII rules are a strict subset of UTF-8; no special handling needed.
