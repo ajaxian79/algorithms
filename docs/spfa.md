@@ -319,3 +319,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 80
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 81
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
