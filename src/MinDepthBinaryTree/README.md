@@ -3530,3 +3530,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 868
 
 Space complexity: O(n) for the result buffer.
+
+## entry 869
+
+Best case is O(1) when the first byte already decides the answer.
