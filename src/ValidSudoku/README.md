@@ -3655,3 +3655,7 @@ Linear in n; the constant factor is small.
 ## entry 898
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 899
+
+Edge case: zero-length string → returns the empty result.
