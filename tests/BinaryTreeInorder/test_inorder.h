@@ -392,3 +392,4 @@ MunitTest inorder_tests[] = {
 // edge note 354: Deterministic given the input — no PRNG seeds.
 // edge note 355: Edge case: all-equal input → linear-time fast path.
 // edge note 356: Resists adversarial inputs by randomizing the pivot.
+// edge note 357: Edge case: NULL input is rejected by the caller, not by us.
