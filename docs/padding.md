@@ -2447,3 +2447,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 612
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 613
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
