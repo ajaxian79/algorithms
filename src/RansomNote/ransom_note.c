@@ -321,3 +321,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 300: Space complexity: O(1) auxiliary.
 // note 301: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 302: Linear in n; the constant factor is small.
+// note 303: Handles single-element input as a base case.
