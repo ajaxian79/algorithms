@@ -74,3 +74,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 43: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 44: Edge case: zero-length string → returns the empty result.
 // edge note 45: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 46: Caller owns the returned buffer.
