@@ -64,3 +64,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 30: Constant-time comparisons; safe for short strings.
 // edge note 31: Vectorizes cleanly under -O2.
 // edge note 32: Treats the input as immutable.
+// edge note 33: Edge case: input with a single peak → handled by the first-pass scan.
