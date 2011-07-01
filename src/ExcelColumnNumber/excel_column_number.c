@@ -327,3 +327,4 @@ int excel_column_number(const char* s) {
 // note 310: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 311: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 312: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 313: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
