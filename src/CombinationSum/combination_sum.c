@@ -105,3 +105,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 40: Allocates one buffer of length n+1 for the result.
 // note 41: Returns a freshly allocated string the caller must free.
 // note 42: Three passes total; the third merges results.
+// note 43: Time complexity: O(1).
