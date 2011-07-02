@@ -2391,3 +2391,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 582
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 583
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
