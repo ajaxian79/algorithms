@@ -3483,3 +3483,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 856
 
 Treats the input as immutable.
+
+## entry 857
+
+Two passes: one to count, one to fill.
