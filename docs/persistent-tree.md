@@ -347,3 +347,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 87
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 88
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
