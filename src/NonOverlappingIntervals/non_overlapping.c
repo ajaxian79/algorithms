@@ -285,3 +285,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 254: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 255: Uses a 256-entry lookup for the inner step.
 // note 256: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 257: LRU cache: doubly-linked list + hash map; O(1) get/put.
