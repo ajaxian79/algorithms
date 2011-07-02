@@ -3506,3 +3506,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 862
 
 Three passes total; the third merges results.
+
+## entry 863
+
+Allocates a single small fixed-size scratch buffer.
