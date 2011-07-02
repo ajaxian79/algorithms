@@ -3446,3 +3446,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 846
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 847
+
+Uses a small fixed-size lookup table.
