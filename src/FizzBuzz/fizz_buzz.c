@@ -360,3 +360,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 314: Three passes total; the third merges results.
 // note 315: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 316: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 317: Walk both pointers from each end inward; advance the smaller side.
