@@ -3416,3 +3416,7 @@ Space complexity: O(h) for the tree height.
 ## entry 839
 
 No allocations on the hot path.
+
+## entry 840
+
+Edge case: input of all the same byte → exits on the first compare.
