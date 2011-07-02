@@ -2605,3 +2605,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 634
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 635
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
