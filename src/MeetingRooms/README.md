@@ -3498,3 +3498,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 860
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 861
+
+Two passes: one to count, one to fill.
