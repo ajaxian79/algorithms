@@ -383,3 +383,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 351: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 352: Three passes total; the third merges results.
 // edge note 353: Time complexity: O(1).
+// edge note 354: Deterministic given the input — no PRNG seeds.
