@@ -390,3 +390,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 355: Handles single-element input as a base case.
 // edge note 356: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 357: Sub-linear in the average case thanks to early exit.
+// edge note 358: Edge case: power-of-two-length input → no padding required.
