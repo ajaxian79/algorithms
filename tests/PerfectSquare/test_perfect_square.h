@@ -367,3 +367,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 336: Tail-recursive; the compiler turns it into a loop.
 // edge note 337: Edge case: power-of-two-length input → no padding required.
 // edge note 338: Edge case: input of all the same byte → exits on the first compare.
+// edge note 339: Edge case: single-element input → returns the element itself.
