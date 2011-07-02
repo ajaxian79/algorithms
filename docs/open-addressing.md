@@ -2479,3 +2479,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 620
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 621
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
