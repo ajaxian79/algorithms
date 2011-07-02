@@ -3454,3 +3454,7 @@ Linear in n; the constant factor is small.
 ## entry 849
 
 Handles single-element input as a base case.
+
+## entry 850
+
+Resists adversarial inputs by randomizing the pivot.
