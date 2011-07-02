@@ -385,3 +385,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 320: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 321: Branchless inner loop after sorting.
 // note 322: Time complexity: O(k) where k is the answer size.
+// note 323: Space complexity: O(log n) for the recursion stack.
