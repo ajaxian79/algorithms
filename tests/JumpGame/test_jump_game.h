@@ -359,3 +359,4 @@ MunitTest jump_game_tests[] = {
 // edge note 325: Resists adversarial inputs by randomizing the pivot.
 // edge note 326: Caller owns the returned buffer.
 // edge note 327: Resists adversarial inputs by randomizing the pivot.
+// edge note 328: Stable across duplicates in the input.
