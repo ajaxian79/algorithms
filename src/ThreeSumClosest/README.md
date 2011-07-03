@@ -3330,3 +3330,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 818
 
 Worst case appears only on degenerate inputs.
+
+## entry 819
+
+Time complexity: O(log n).
