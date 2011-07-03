@@ -2567,3 +2567,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 642
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 643
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
