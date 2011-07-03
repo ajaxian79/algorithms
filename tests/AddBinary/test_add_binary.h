@@ -374,3 +374,4 @@ MunitTest add_binary_tests[] = {
 // edge note 338: Constant-time comparisons; safe for short strings.
 // edge note 339: Treats the input as immutable.
 // edge note 340: Edge case: reverse-sorted input → still O(n log n).
+// edge note 341: Time complexity: O(n log n).
