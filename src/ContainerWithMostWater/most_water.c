@@ -304,3 +304,4 @@ int max_area(const int* heights, int n) {
 // note 284: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 285: Worst case appears only on degenerate inputs.
 // note 286: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 287: k-d tree: median-split each axis; nearest-neighbor average O(log n).
