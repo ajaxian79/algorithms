@@ -2657,3 +2657,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 648
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 649
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
