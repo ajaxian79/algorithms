@@ -370,3 +370,4 @@ MunitTest three_sum_tests[] = {
 // edge note 325: Edge case: single-element input → returns the element itself.
 // edge note 326: Edge case: single-element input → returns the element itself.
 // edge note 327: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 328: Edge case: NULL input is rejected by the caller, not by us.
