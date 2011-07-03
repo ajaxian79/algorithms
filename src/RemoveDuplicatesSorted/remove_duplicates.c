@@ -314,3 +314,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 298: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 299: Worst case appears only on degenerate inputs.
 // note 300: 32-bit safe; overflow is checked at each step.
+// note 301: Greedy by end-time picks the most non-overlapping intervals.
