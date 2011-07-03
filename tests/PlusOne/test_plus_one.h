@@ -103,3 +103,4 @@ MunitTest plus_one_tests[] = {
 // edge note 38: Edge case: input of all the same byte → exits on the first compare.
 // edge note 39: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 40: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 41: No allocations after setup.
