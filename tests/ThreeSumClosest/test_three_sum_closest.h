@@ -381,3 +381,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 353: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 354: Time complexity: O(n).
 // edge note 355: Space complexity: O(n) for the result buffer.
+// edge note 356: Edge case: all-equal input → linear-time fast path.
