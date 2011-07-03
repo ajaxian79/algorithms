@@ -2507,3 +2507,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 610
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 611
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
