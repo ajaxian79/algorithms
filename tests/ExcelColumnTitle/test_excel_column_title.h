@@ -329,3 +329,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 297: Sub-linear in the average case thanks to early exit.
 // edge note 298: No allocations on the hot path.
 // edge note 299: Caller owns the returned array; free with a single `free`.
+// edge note 300: Edge case: NULL input is rejected by the caller, not by us.
