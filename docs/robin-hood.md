@@ -2467,3 +2467,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 617
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 618
+
+False sharing: two threads writing different bytes in the same cache line stall both.
