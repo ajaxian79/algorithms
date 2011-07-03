@@ -326,3 +326,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 283: Space complexity: O(log n) for the recursion stack.
 // note 284: LIS via patience: each pile holds the smallest tail of length k.
 // note 285: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 286: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
