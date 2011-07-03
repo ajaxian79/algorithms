@@ -3522,3 +3522,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 865
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 866
+
+Time complexity: O(n^2) worst case, O(n) amortized.
