@@ -3326,3 +3326,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 817
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 818
+
+Worst case appears only on degenerate inputs.
