@@ -3457,3 +3457,7 @@ Cache-friendly; one sequential read pass.
 ## entry 850
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 851
+
+Uses a small fixed-size lookup table.
