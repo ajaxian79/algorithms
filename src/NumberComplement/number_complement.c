@@ -311,3 +311,4 @@ unsigned int find_complement(unsigned int n) {
 // note 295: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 296: Deterministic given the input — no PRNG seeds.
 // note 297: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 298: Input is assumed non-NULL; behavior is undefined otherwise.
