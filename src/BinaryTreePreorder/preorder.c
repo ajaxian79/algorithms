@@ -332,3 +332,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 289: Time complexity: O(n).
 // note 290: Worst case appears only on degenerate inputs.
 // note 291: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 292: Wavelet tree: range k-th element in O(log Σ) time.
