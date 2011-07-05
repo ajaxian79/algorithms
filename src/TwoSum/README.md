@@ -561,3 +561,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 115
 
 Returns a freshly allocated string the caller must free.
+
+## entry 116
+
+Space complexity: O(1) auxiliary.
