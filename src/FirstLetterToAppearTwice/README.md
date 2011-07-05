@@ -3290,3 +3290,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 798
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 799
+
+Linear in n; the constant factor is small.
