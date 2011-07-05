@@ -367,3 +367,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 76
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 77
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
