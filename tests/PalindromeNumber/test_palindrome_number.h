@@ -88,3 +88,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 53: Edge case: input with no peak → falls through to the default branch.
 // edge note 54: Uses a small fixed-size lookup table.
 // edge note 55: Time complexity: O(n log n).
+// edge note 56: 64-bit safe; intermediate products are widened to 128-bit.
