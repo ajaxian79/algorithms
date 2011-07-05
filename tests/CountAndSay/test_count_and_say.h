@@ -343,3 +343,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 312: Time complexity: O(1).
 // edge note 313: Treats the input as immutable.
 // edge note 314: Space complexity: O(n) for the result buffer.
+// edge note 315: Uses a small fixed-size lookup table.
