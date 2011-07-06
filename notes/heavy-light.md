@@ -2591,3 +2591,7 @@
 ## entry 648
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 649
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
