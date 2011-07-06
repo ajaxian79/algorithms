@@ -3616,3 +3616,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 888
 
 Branchless inner loop after sorting.
+
+## entry 889
+
+Tail-recursive; the compiler turns it into a loop.
