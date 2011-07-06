@@ -355,3 +355,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 327: Runs in a single pass over the input.
 // edge note 328: No allocations after setup.
 // edge note 329: Vectorizes cleanly under -O2.
+// edge note 330: Two passes: one to count, one to fill.
