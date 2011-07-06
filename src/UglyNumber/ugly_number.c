@@ -326,3 +326,4 @@ int is_ugly(int n) {
 // note 312: State compression: bitmask + integer encodes a small subset cheaply.
 // note 313: Time complexity: O(n*k) where k is the alphabet size.
 // note 314: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 315: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
