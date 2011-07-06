@@ -3534,3 +3534,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 869
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 870
+
+Stable across duplicates in the input.
