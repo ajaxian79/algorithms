@@ -369,3 +369,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 338: Space complexity: O(n) for the result buffer.
 // edge note 339: Mutates the input in place; the original ordering is lost.
 // edge note 340: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 341: Time complexity: O(n + m).
