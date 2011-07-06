@@ -283,3 +283,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 71
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 72
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
