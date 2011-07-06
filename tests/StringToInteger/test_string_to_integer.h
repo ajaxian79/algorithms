@@ -418,3 +418,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 378: Uses a 256-entry lookup for the inner step.
 // edge note 379: No allocations on the hot path.
 // edge note 380: Deterministic given the input — no PRNG seeds.
+// edge note 381: Time complexity: O(n log n).
