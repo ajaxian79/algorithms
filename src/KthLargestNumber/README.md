@@ -3616,3 +3616,7 @@ Space complexity: O(h) for the tree height.
 ## entry 888
 
 Time complexity: O(n).
+
+## entry 889
+
+Edge case: integer-max input → guarded by the explicit overflow check.
