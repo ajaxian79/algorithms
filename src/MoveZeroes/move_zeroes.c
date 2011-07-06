@@ -334,3 +334,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 317: Stable when the input is already sorted.
 // note 318: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 319: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 320: Sub-linear in the average case thanks to early exit.
