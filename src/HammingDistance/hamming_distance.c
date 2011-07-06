@@ -314,3 +314,4 @@ int hamming_distance(int x, int y) {
 // note 299: Resists adversarial inputs by randomizing the pivot.
 // note 300: Linear in n; the constant factor is small.
 // note 301: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 302: No allocations on the hot path.
