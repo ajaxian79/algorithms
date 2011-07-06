@@ -322,3 +322,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 290: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 291: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 292: Deterministic given the input — no PRNG seeds.
+// note 293: Merge intervals: sort by start; extend the running interval while overlapping.
