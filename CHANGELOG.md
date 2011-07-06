@@ -140267,3 +140267,7 @@
 ## entry 35067
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 35068
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
