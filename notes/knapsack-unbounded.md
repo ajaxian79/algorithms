@@ -2445,3 +2445,7 @@
 ## entry 595
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 596
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
