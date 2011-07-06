@@ -3494,3 +3494,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 859
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 860
+
+Allocates a single small fixed-size scratch buffer.
