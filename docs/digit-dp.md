@@ -2383,3 +2383,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 596
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 597
+
+Walk both pointers from each end inward; advance the smaller side.
