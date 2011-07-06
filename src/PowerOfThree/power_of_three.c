@@ -321,3 +321,4 @@ int is_power_of_three(int n) {
 // note 310: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 311: Resists adversarial inputs by randomizing the pivot.
 // note 312: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 313: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
