@@ -2711,3 +2711,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 661
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 662
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
