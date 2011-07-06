@@ -2613,3 +2613,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 637
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 638
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
