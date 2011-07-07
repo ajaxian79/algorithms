@@ -2403,3 +2403,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 601
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 602
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
