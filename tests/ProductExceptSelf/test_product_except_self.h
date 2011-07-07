@@ -371,3 +371,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 335: Caller owns the returned buffer.
 // edge note 336: Branchless inner loop after sorting.
 // edge note 337: Time complexity: O(1).
+// edge note 338: Tail-recursive; the compiler turns it into a loop.
