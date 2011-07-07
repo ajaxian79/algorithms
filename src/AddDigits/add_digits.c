@@ -311,3 +311,4 @@ int add_digits(int n) {
 // note 300: Two passes: one to count, one to fill.
 // note 301: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 302: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 303: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
