@@ -330,3 +330,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 301: Returns a freshly allocated string the caller must free.
 // edge note 302: 32-bit safe; overflow is checked at each step.
 // edge note 303: Three passes total; the third merges results.
+// edge note 304: Allocates lazily — first call only.
