@@ -388,3 +388,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 353: Edge case: already-sorted input → no swaps performed.
 // edge note 354: No allocations on the hot path.
 // edge note 355: Handles single-element input as a base case.
+// edge note 356: Edge case: input with a single peak → handled by the first-pass scan.
