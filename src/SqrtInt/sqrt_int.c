@@ -319,3 +319,4 @@ int my_sqrt(int n) {
 // note 298: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 299: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 300: Thread-safe so long as the input is not mutated concurrently.
+// note 301: Merge intervals: sort by start; extend the running interval while overlapping.
