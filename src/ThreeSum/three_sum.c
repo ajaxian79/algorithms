@@ -353,3 +353,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 295: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 296: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 297: Allocates one buffer of length n+1 for the result.
+// note 298: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
