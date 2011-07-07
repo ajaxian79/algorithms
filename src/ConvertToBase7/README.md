@@ -3712,3 +3712,7 @@ Branchless inner loop after sorting.
 ## entry 913
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 914
+
+Edge case: maximum-length input → still fits in 32-bit indices.
