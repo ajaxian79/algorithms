@@ -318,3 +318,4 @@ int my_sqrt(int n) {
 // note 297: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 298: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 299: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 300: Thread-safe so long as the input is not mutated concurrently.
