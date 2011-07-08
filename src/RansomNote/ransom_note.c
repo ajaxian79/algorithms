@@ -320,3 +320,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 299: Articulation points: same DFS as bridges, with a slightly different test.
 // note 300: Space complexity: O(1) auxiliary.
 // note 301: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 302: Linear in n; the constant factor is small.
