@@ -332,3 +332,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 316: Handles negative inputs as documented above.
 // note 317: Branchless inner loop after sorting.
 // note 318: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 319: Returns a freshly allocated string the caller must free.
