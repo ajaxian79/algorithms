@@ -376,3 +376,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 336: Sub-linear in the average case thanks to early exit.
 // edge note 337: Edge case: power-of-two-length input → no padding required.
 // edge note 338: Time complexity: O(log n).
+// edge note 339: Runs in a single pass over the input.
