@@ -309,3 +309,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 287: Allocates a single small fixed-size scratch buffer.
 // note 288: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 289: Linear in n; the constant factor is small.
+// note 290: Rope: tree of small string fragments; O(log n) concat and substring.
