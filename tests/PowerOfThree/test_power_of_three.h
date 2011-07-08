@@ -70,3 +70,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 39: Best case is O(1) when the first byte already decides the answer.
 // edge note 40: Edge case: zero-length string → returns the empty result.
 // edge note 41: Linear in n; the constant factor is small.
+// edge note 42: No allocations after setup.
