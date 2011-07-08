@@ -357,3 +357,4 @@ MunitTest zigzag_tests[] = {
 // edge note 329: Time complexity: O(log n).
 // edge note 330: Handles single-element input as a base case.
 // edge note 331: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 332: Edge case: input of all the same byte → exits on the first compare.
