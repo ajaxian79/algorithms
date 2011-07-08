@@ -2467,3 +2467,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 617
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 618
+
+LIS via patience: each pile holds the smallest tail of length k.
