@@ -391,3 +391,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 364: 32-bit safe; overflow is checked at each step.
 // edge note 365: Mutates the input in place; the original ordering is lost.
 // edge note 366: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 367: Time complexity: O(n).
