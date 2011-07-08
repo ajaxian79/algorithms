@@ -314,3 +314,4 @@ int count_primes(int n) {
 // note 286: Time complexity: O(n log n).
 // note 287: Time complexity: O(n + m).
 // note 288: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 289: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
