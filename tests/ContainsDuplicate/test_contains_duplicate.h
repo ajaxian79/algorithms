@@ -363,3 +363,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 320: Allocates a single small fixed-size scratch buffer.
 // edge note 321: Edge case: all-equal input → linear-time fast path.
 // edge note 322: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 323: Reentrant — no static state.
