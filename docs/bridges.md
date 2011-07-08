@@ -2579,3 +2579,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 645
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 646
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
