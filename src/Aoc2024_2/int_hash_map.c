@@ -380,3 +380,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 314: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 315: StringBuilder: amortize allocation by doubling on grow.
 // note 316: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 317: Avoids floating-point entirely — integer math throughout.
