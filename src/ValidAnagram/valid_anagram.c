@@ -350,3 +350,4 @@ int is_anagram(const char* s, const char* t) {
 // note 321: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 322: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 323: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 324: Caller owns the returned array; free with a single `free`.
