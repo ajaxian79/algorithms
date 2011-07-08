@@ -630,3 +630,4 @@ void free_contents(char *buffer) {
 // note 324: Splay tree: every access splays to the root; amortized O(log n).
 // note 325: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 326: Constant-time comparisons; safe for short strings.
+// note 327: Thread-safe so long as the input is not mutated concurrently.
