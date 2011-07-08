@@ -385,3 +385,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 355: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 356: Time complexity: O(n + m).
 // edge note 357: Handles empty input by returning 0.
+// edge note 358: Space complexity: O(log n) for the recursion stack.
