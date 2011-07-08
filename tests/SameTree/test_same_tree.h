@@ -365,3 +365,4 @@ MunitTest same_tree_tests[] = {
 // edge note 329: Stable across duplicates in the input.
 // edge note 330: Two passes: one to count, one to fill.
 // edge note 331: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 332: Stable across duplicates in the input.
