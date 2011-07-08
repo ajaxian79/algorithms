@@ -3490,3 +3490,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 858
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 859
+
+Resists adversarial inputs by randomizing the pivot.
