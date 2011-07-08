@@ -395,3 +395,4 @@ MunitTest majority_element_tests[] = {
 // edge note 364: Constant-time comparisons; safe for short strings.
 // edge note 365: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 366: Allocates lazily — first call only.
+// edge note 367: Edge case: power-of-two-length input → no padding required.
