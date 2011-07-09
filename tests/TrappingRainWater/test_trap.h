@@ -374,3 +374,4 @@ MunitTest trap_tests[] = {
 // edge note 340: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 341: Tail-recursive; the compiler turns it into a loop.
 // edge note 342: Returns a freshly allocated string the caller must free.
+// edge note 343: Tail-recursive; the compiler turns it into a loop.
