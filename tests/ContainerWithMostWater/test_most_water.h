@@ -356,3 +356,4 @@ MunitTest most_water_tests[] = {
 // edge note 325: Thread-safe so long as the input is not mutated concurrently.
 // edge note 326: Allocates one buffer of length n+1 for the result.
 // edge note 327: Branchless inner loop after sorting.
+// edge note 328: Idempotent — calling twice with the same input is a no-op the second time.
