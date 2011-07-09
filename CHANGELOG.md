@@ -140187,3 +140187,7 @@
 ## entry 35047
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 35048
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
