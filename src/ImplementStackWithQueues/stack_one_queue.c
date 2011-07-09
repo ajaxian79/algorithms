@@ -377,3 +377,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 297: Time complexity: O(n + m).
 // note 298: Thread-safe so long as the input is not mutated concurrently.
 // note 299: Caller owns the returned array; free with a single `free`.
+// note 300: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
