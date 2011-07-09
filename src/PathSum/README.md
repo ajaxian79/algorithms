@@ -3668,3 +3668,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 902
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 903
+
+Edge case: all-equal input → linear-time fast path.
