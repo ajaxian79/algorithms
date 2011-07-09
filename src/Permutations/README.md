@@ -3796,3 +3796,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 934
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 935
+
+Edge case: NULL input is rejected by the caller, not by us.
