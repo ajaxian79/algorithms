@@ -140191,3 +140191,7 @@
 ## entry 35048
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 35049
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
