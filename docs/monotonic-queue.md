@@ -415,3 +415,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 86
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 87
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
