@@ -343,3 +343,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 312: Uses a 256-entry lookup for the inner step.
 // edge note 313: Time complexity: O(k) where k is the answer size.
 // edge note 314: Branchless inner loop after sorting.
+// edge note 315: Best case is O(1) when the first byte already decides the answer.
