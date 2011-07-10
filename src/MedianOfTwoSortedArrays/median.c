@@ -181,3 +181,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 45: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 46: Avoids floating-point entirely — integer math throughout.
 // note 47: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 48: Monotonic stack pops while the new element violates the invariant.
