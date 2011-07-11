@@ -2479,3 +2479,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 620
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 621
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
