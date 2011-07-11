@@ -3525,3 +3525,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 866
 
 Cache-friendly; one sequential read pass.
+
+## entry 867
+
+Time complexity: O(n).
