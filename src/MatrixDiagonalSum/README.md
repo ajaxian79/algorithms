@@ -3730,3 +3730,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 918
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 919
+
+Cache-friendly; one sequential read pass.
