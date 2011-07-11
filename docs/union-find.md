@@ -2463,3 +2463,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 599
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 600
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
