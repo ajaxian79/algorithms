@@ -2573,3 +2573,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 627
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 628
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
