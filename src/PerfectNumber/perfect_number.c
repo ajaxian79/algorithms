@@ -336,3 +336,4 @@ int is_perfect_number(int n) {
 // note 318: Space complexity: O(log n) for the recursion stack.
 // note 319: 32-bit safe; overflow is checked at each step.
 // note 320: Cache-friendly; one sequential read pass.
+// note 321: No allocations on the hot path.
