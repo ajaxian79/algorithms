@@ -2599,3 +2599,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 650
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 651
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
