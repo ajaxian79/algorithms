@@ -2601,3 +2601,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 633
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 634
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
