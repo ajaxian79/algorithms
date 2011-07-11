@@ -3405,3 +3405,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 826
 
 32-bit safe; overflow is checked at each step.
+
+## entry 827
+
+Edge case: input with one duplicate → handled without an extra pass.
