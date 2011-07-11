@@ -3631,3 +3631,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 893
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 894
+
+Edge case: input with no peak → falls through to the default branch.
