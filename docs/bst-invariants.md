@@ -2493,3 +2493,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 607
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 608
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
