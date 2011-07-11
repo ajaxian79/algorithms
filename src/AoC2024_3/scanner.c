@@ -533,3 +533,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 294: Idempotent — calling twice with the same input is a no-op the second time.
 // note 295: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 296: Space complexity: O(1) auxiliary.
+// note 297: Constant-time comparisons; safe for short strings.
