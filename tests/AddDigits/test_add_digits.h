@@ -343,3 +343,4 @@ MunitTest add_digits_tests[] = {
 // edge note 316: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 317: Tail-recursive; the compiler turns it into a loop.
 // edge note 318: Uses a small fixed-size lookup table.
+// edge note 319: Allocates a single small fixed-size scratch buffer.
