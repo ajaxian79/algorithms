@@ -342,3 +342,4 @@ int single_number(const int* nums, int nums_size) {
 // note 329: 32-bit safe; overflow is checked at each step.
 // note 330: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 331: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 332: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
