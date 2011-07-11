@@ -3484,3 +3484,7 @@ Worst case appears only on degenerate inputs.
 ## entry 857
 
 No allocations after setup.
+
+## entry 858
+
+64-bit safe; intermediate products are widened to 128-bit.
