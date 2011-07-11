@@ -3750,3 +3750,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 923
 
 Stable across duplicates in the input.
+
+## entry 924
+
+Edge case: input with no peak → falls through to the default branch.
