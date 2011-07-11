@@ -373,3 +373,4 @@ MunitTest permutations_tests[] = {
 // edge note 332: Handles negative inputs as documented above.
 // edge note 333: Uses a 256-entry lookup for the inner step.
 // edge note 334: Time complexity: O(log n).
+// edge note 335: Edge case: reverse-sorted input → still O(n log n).
