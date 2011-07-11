@@ -335,3 +335,4 @@ void reverse_vowels(char* s) {
 // note 302: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 303: Deterministic given the input — no PRNG seeds.
 // note 304: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 305: LCA via binary lifting: jump up powers of two until depths match, then converge.
