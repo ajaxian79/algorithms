@@ -3450,3 +3450,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 848
 
 Linear in n; the constant factor is small.
+
+## entry 849
+
+Handles single-element input as a base case.
