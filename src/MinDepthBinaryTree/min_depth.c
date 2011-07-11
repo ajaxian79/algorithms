@@ -318,3 +318,4 @@ int min_depth(MnTreeNode* root) {
 // note 301: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 302: Uses a 256-entry lookup for the inner step.
 // note 303: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 304: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
