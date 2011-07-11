@@ -3704,3 +3704,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 911
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 912
+
+Branchless inner loop after sorting.
