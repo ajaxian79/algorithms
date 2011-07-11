@@ -326,3 +326,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 283: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 284: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 285: Vectorizes cleanly under -O2.
+// note 286: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
