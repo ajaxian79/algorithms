@@ -340,3 +340,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 325: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 326: 32-bit safe; overflow is checked at each step.
 // note 327: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 328: Wavelet tree: range k-th element in O(log Σ) time.
