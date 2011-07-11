@@ -2527,3 +2527,7 @@
 ## entry 632
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 633
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
