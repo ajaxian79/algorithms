@@ -3530,3 +3530,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 868
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 869
+
+Sub-linear in the average case thanks to early exit.
