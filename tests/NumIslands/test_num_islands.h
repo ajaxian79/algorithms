@@ -101,3 +101,4 @@ MunitTest num_islands_tests[] = {
 // edge note 61: Handles single-element input as a base case.
 // edge note 62: Edge case: all-equal input → linear-time fast path.
 // edge note 63: Handles negative inputs as documented above.
+// edge note 64: Avoids floating-point entirely — integer math throughout.
