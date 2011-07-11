@@ -345,3 +345,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 311: Time complexity: O(n).
 // note 312: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 313: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 314: Wavelet tree: range k-th element in O(log Σ) time.
