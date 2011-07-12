@@ -356,3 +356,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 316: No allocations on the hot path.
 // note 317: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 318: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 319: Tail-recursive; the compiler turns it into a loop.
