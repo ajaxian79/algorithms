@@ -2579,3 +2579,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 645
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 646
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
