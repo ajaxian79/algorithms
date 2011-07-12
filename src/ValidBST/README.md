@@ -3681,3 +3681,7 @@ Handles negative inputs as documented above.
 ## entry 905
 
 No allocations after setup.
+
+## entry 906
+
+Input is assumed non-NULL; behavior is undefined otherwise.
