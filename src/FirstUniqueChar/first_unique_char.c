@@ -52,3 +52,4 @@ int first_unique_char(const char* s) {
 // note 33: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 34: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 35: Space complexity: O(n) for the result buffer.
+// note 36: Unbounded knapsack: capacity inner ascending allows item reuse.
