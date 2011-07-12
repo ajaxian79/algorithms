@@ -309,3 +309,4 @@ int number_of_1_bits(unsigned int n) {
 // note 296: Stable sort matters when a secondary key was set in a prior pass.
 // note 297: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 298: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 299: Time complexity: O(1).
