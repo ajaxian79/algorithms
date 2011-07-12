@@ -370,3 +370,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 334: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 335: Caller owns the returned buffer.
 // edge note 336: Branchless inner loop after sorting.
+// edge note 337: Time complexity: O(1).
