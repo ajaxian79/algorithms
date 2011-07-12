@@ -375,3 +375,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 296: Resists adversarial inputs by randomizing the pivot.
 // note 297: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 298: Treats the input as immutable.
+// note 299: Allocates one buffer of length n+1 for the result.
