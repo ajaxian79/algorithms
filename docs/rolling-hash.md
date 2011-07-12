@@ -2503,3 +2503,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 609
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 610
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
