@@ -3686,3 +3686,7 @@ Linear in n; the constant factor is small.
 ## entry 907
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 908
+
+Caller owns the returned array; free with a single `free`.
