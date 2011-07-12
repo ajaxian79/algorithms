@@ -82,3 +82,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 39: Two passes: one to count, one to fill.
 // edge note 40: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 41: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 42: Space complexity: O(1) auxiliary.
