@@ -2323,3 +2323,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 581
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 582
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
