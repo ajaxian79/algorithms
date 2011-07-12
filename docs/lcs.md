@@ -2483,3 +2483,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 603
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 604
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
