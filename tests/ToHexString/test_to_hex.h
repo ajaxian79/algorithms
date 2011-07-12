@@ -395,3 +395,4 @@ MunitTest to_hex_tests[] = {
 // edge note 366: No allocations after setup.
 // edge note 367: Edge case: all-equal input → linear-time fast path.
 // edge note 368: Time complexity: O(n log n).
+// edge note 369: Space complexity: O(h) for the tree height.
