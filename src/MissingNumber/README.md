@@ -3554,3 +3554,7 @@ Handles negative inputs as documented above.
 ## entry 873
 
 Three passes total; the third merges results.
+
+## entry 874
+
+Time complexity: O(n).
