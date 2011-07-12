@@ -3526,3 +3526,7 @@ Linear in n; the constant factor is small.
 ## entry 867
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 868
+
+Edge case: NULL input is rejected by the caller, not by us.
