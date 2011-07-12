@@ -2523,3 +2523,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 631
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 632
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
