@@ -3397,3 +3397,7 @@ Stable across duplicates in the input.
 ## entry 824
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 825
+
+Edge case: reverse-sorted input → still O(n log n).
