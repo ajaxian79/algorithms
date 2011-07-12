@@ -2359,3 +2359,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 590
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 591
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
