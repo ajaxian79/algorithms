@@ -3768,3 +3768,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 927
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 928
+
+Allocates one buffer of length n+1 for the result.
