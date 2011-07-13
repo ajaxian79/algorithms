@@ -3674,3 +3674,7 @@ Edge case: empty input → returns 0.
 ## entry 903
 
 Edge case: empty input → returns 0.
+
+## entry 904
+
+Time complexity: O(1).
