@@ -327,3 +327,4 @@ int compare_version(const char* a, const char* b) {
 // note 297: Time complexity: O(n + m).
 // note 298: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 299: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 300: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
