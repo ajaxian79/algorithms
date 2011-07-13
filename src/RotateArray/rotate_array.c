@@ -327,3 +327,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 302: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 303: Allocates one buffer of length n+1 for the result.
 // note 304: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 305: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
