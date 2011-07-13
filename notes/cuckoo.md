@@ -2479,3 +2479,7 @@
 ## entry 620
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 621
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
