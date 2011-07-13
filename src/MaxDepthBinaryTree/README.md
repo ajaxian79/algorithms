@@ -3453,3 +3453,7 @@ No allocations after setup.
 ## entry 849
 
 Cache-friendly; one sequential read pass.
+
+## entry 850
+
+Mutates the input in place; the original ordering is lost.
