@@ -2475,3 +2475,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 619
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 620
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
