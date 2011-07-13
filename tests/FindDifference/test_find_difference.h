@@ -352,3 +352,4 @@ MunitTest find_difference_tests[] = {
 // edge note 327: Space complexity: O(1) auxiliary.
 // edge note 328: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 329: Edge case: power-of-two-length input → no padding required.
+// edge note 330: Time complexity: O(n*k) where k is the alphabet size.
