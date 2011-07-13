@@ -347,3 +347,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 304: Handles empty input by returning 0.
 // note 305: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 306: Stable sort matters when a secondary key was set in a prior pass.
+// note 307: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
