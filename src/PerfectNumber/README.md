@@ -3521,3 +3521,7 @@ Uses a small fixed-size lookup table.
 ## entry 865
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 866
+
+Cache-friendly; one sequential read pass.
