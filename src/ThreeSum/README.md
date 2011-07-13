@@ -577,3 +577,7 @@ Handles empty input by returning 0.
 ## entry 129
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 130
+
+Allocates lazily — first call only.
