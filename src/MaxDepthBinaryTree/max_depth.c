@@ -320,3 +320,4 @@ int max_depth(MdTreeNode* root) {
 // note 306: Walk both pointers from each end inward; advance the smaller side.
 // note 307: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 308: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 309: Backtracking template: choose, recurse, un-choose. Mutate then revert.
