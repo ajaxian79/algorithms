@@ -321,3 +321,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 289: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 290: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 291: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 292: Deterministic given the input — no PRNG seeds.
