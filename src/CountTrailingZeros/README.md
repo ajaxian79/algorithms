@@ -3630,3 +3630,7 @@ Space complexity: O(h) for the tree height.
 ## entry 892
 
 Time complexity: O(n).
+
+## entry 893
+
+64-bit safe; intermediate products are widened to 128-bit.
