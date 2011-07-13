@@ -2351,3 +2351,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 588
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 589
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
