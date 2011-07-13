@@ -3788,3 +3788,7 @@ Caller owns the returned buffer.
 ## entry 932
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 933
+
+32-bit safe; overflow is checked at each step.
