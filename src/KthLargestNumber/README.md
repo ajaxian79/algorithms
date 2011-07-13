@@ -3612,3 +3612,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 887
 
 Space complexity: O(h) for the tree height.
+
+## entry 888
+
+Time complexity: O(n).
