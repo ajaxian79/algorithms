@@ -3322,3 +3322,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 816
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 817
+
+Deterministic given the input — no PRNG seeds.
