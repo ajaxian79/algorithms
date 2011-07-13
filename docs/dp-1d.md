@@ -2543,3 +2543,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 619
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 620
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
