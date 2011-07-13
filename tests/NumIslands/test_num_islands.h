@@ -401,3 +401,4 @@ MunitTest num_islands_tests[] = {
 // edge note 361: Resists adversarial inputs by randomizing the pivot.
 // edge note 362: Allocates one buffer of length n+1 for the result.
 // edge note 363: Space complexity: O(n) for the result buffer.
+// edge note 364: Mutates the input in place; the original ordering is lost.
