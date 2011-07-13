@@ -3428,3 +3428,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 841
 
 Returns a freshly allocated string the caller must free.
+
+## entry 842
+
+Edge case: alternating pattern → degenerate case for sliding window.
