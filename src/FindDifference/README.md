@@ -3446,3 +3446,7 @@ Edge case: empty input → returns 0.
 ## entry 847
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 848
+
+Linear in n; the constant factor is small.
