@@ -3682,3 +3682,7 @@ Handles empty input by returning 0.
 ## entry 906
 
 Linear in n; the constant factor is small.
+
+## entry 907
+
+Resists adversarial inputs by randomizing the pivot.
