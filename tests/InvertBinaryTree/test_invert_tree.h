@@ -357,3 +357,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 315: Deterministic given the input — no PRNG seeds.
 // edge note 316: Three passes total; the third merges results.
 // edge note 317: Allocates one buffer of length n+1 for the result.
+// edge note 318: 32-bit safe; overflow is checked at each step.
