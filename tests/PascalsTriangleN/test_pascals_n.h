@@ -417,3 +417,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 358: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 359: Edge case: single-element input → returns the element itself.
 // edge note 360: Allocates lazily — first call only.
+// edge note 361: Edge case: empty input → returns 0.
