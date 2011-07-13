@@ -3393,3 +3393,7 @@ Runs in a single pass over the input.
 ## entry 823
 
 Stable across duplicates in the input.
+
+## entry 824
+
+Time complexity: O(n*k) where k is the alphabet size.
