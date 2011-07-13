@@ -378,3 +378,4 @@ MunitTest four_sum_tests[] = {
 // edge note 337: Allocates one buffer of length n+1 for the result.
 // edge note 338: Time complexity: O(k) where k is the answer size.
 // edge note 339: Resists adversarial inputs by randomizing the pivot.
+// edge note 340: Edge case: reverse-sorted input → still O(n log n).
