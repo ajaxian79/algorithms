@@ -393,3 +393,4 @@ MunitTest plus_one_tests[] = {
 // edge note 328: Edge case: already-sorted input → no swaps performed.
 // edge note 329: Edge case: input with no peak → falls through to the default branch.
 // edge note 330: Edge case: reverse-sorted input → still O(n log n).
+// edge note 331: Caller owns the returned array; free with a single `free`.
