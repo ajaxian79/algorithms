@@ -3480,3 +3480,7 @@ Vectorizes cleanly under -O2.
 ## entry 856
 
 Worst case appears only on degenerate inputs.
+
+## entry 857
+
+No allocations after setup.
