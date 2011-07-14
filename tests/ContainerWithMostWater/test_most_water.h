@@ -354,3 +354,4 @@ MunitTest most_water_tests[] = {
 // edge note 323: Handles empty input by returning 0.
 // edge note 324: Time complexity: O(n log n).
 // edge note 325: Thread-safe so long as the input is not mutated concurrently.
+// edge note 326: Allocates one buffer of length n+1 for the result.
