@@ -2601,3 +2601,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 635
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 636
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
