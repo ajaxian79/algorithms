@@ -399,3 +399,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 82
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 83
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
