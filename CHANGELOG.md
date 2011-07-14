@@ -140079,3 +140079,7 @@
 ## entry 35020
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 35021
+
+- Stable sort matters when a secondary key was set in a prior pass.
