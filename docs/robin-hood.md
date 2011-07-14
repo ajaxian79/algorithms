@@ -2463,3 +2463,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 616
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 617
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
