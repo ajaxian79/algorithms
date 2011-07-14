@@ -2653,3 +2653,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 647
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 648
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
