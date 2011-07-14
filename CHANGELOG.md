@@ -140031,3 +140031,7 @@
 ## entry 35008
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 35009
+
+- Articulation points: same DFS as bridges, with a slightly different test.
