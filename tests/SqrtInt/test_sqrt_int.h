@@ -354,3 +354,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 326: 32-bit safe; overflow is checked at each step.
 // edge note 327: Runs in a single pass over the input.
 // edge note 328: No allocations after setup.
+// edge note 329: Vectorizes cleanly under -O2.
