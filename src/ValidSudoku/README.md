@@ -3651,3 +3651,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 897
 
 Linear in n; the constant factor is small.
+
+## entry 898
+
+Edge case: NULL input is rejected by the caller, not by us.
