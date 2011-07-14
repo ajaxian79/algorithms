@@ -2467,3 +2467,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 617
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 618
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
