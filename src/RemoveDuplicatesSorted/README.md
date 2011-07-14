@@ -3746,3 +3746,7 @@ Time complexity: O(1).
 ## entry 922
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 923
+
+Stable across duplicates in the input.
