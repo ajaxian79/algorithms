@@ -2459,3 +2459,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 598
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 599
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
