@@ -324,3 +324,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 298: Time complexity: O(k) where k is the answer size.
 // note 299: Caller owns the returned buffer.
 // note 300: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 301: Articulation points: same DFS as bridges, with a slightly different test.
