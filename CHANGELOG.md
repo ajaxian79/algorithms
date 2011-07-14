@@ -140091,3 +140091,7 @@
 ## entry 35023
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 35024
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
