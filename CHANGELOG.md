@@ -140067,3 +140067,7 @@
 ## entry 35017
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 35018
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
