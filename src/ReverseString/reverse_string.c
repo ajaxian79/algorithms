@@ -359,3 +359,4 @@ void reverse_string(char* s, int s_size) {
 // note 342: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 343: Linear in n; the constant factor is small.
 // note 344: No allocations after setup.
+// note 345: Handles single-element input as a base case.
