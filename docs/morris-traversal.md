@@ -2491,3 +2491,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 608
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 609
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
