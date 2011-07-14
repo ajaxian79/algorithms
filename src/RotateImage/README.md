@@ -3613,3 +3613,7 @@ Handles empty input by returning 0.
 ## entry 888
 
 Reentrant — no static state.
+
+## entry 889
+
+Edge case: reverse-sorted input → still O(n log n).
