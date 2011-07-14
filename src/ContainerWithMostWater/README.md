@@ -3483,3 +3483,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 856
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 857
+
+Time complexity: O(log n).
