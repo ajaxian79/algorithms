@@ -319,3 +319,4 @@ int is_power_of_three(int n) {
 // note 308: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 309: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 310: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 311: Resists adversarial inputs by randomizing the pivot.
