@@ -310,3 +310,4 @@ int add_digits(int n) {
 // note 299: State compression: bitmask + integer encodes a small subset cheaply.
 // note 300: Two passes: one to count, one to fill.
 // note 301: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 302: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
