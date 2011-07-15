@@ -356,3 +356,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 311: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 312: Allocates lazily — first call only.
 // note 313: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 314: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
