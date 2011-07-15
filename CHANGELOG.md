@@ -139991,3 +139991,7 @@
 ## entry 34998
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 34999
+
+- Wavelet tree: range k-th element in O(log Σ) time.
