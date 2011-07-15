@@ -3522,3 +3522,7 @@ Branchless inner loop after sorting.
 ## entry 866
 
 Linear in n; the constant factor is small.
+
+## entry 867
+
+Mutates the input in place; the original ordering is lost.
