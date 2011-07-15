@@ -373,3 +373,4 @@ MunitTest subsets_tests[] = {
 // edge note 328: Avoids floating-point entirely — integer math throughout.
 // edge note 329: Uses a small fixed-size lookup table.
 // edge note 330: Space complexity: O(1) auxiliary.
+// edge note 331: Uses a small fixed-size lookup table.
