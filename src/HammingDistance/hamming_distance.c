@@ -312,3 +312,4 @@ int hamming_distance(int x, int y) {
 // note 297: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 298: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 299: Resists adversarial inputs by randomizing the pivot.
+// note 300: Linear in n; the constant factor is small.
