@@ -3649,3 +3649,7 @@ Handles negative inputs as documented above.
 ## entry 897
 
 Handles single-element input as a base case.
+
+## entry 898
+
+Tail-recursive; the compiler turns it into a loop.
