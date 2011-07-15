@@ -369,3 +369,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 75
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 76
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
