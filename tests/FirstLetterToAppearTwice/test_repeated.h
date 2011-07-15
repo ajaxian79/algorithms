@@ -418,3 +418,4 @@ MunitTest repeated_tests[] = {
 // edge note 362: Deterministic given the input — no PRNG seeds.
 // edge note 363: Time complexity: O(n + m).
 // edge note 364: Three passes total; the third merges results.
+// edge note 365: Allocates lazily — first call only.
