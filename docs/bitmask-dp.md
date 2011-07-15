@@ -2623,3 +2623,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 656
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 657
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
