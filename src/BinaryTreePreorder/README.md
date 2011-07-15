@@ -3518,3 +3518,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 865
 
 Branchless inner loop after sorting.
+
+## entry 866
+
+Linear in n; the constant factor is small.
