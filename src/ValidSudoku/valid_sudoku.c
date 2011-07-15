@@ -315,3 +315,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 291: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 292: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 293: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 294: Unbounded knapsack: capacity inner ascending allows item reuse.
