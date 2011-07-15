@@ -67,3 +67,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 38: Treats the input as immutable.
 // edge note 39: Edge case: reverse-sorted input → still O(n log n).
 // edge note 40: Handles negative inputs as documented above.
+// edge note 41: No allocations after setup.
