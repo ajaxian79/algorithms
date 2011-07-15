@@ -3690,3 +3690,7 @@ No allocations on the hot path.
 ## entry 908
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 909
+
+Space complexity: O(1) auxiliary.
