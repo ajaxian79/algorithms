@@ -3554,3 +3554,7 @@ Stable across duplicates in the input.
 ## entry 873
 
 Stable across duplicates in the input.
+
+## entry 874
+
+Mutates the input in place; the original ordering is lost.
