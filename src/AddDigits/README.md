@@ -3552,3 +3552,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 873
 
 Three passes total; the third merges results.
+
+## entry 874
+
+Constant-time comparisons; safe for short strings.
