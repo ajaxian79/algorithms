@@ -326,3 +326,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 301: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 302: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 303: Allocates one buffer of length n+1 for the result.
+// note 304: Heavy-light decomposition: each path crosses O(log n) heavy chains.
