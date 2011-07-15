@@ -3522,3 +3522,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 866
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 867
+
+Edge case: zero-length string → returns the empty result.
