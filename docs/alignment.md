@@ -2551,3 +2551,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 638
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 639
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
