@@ -2355,3 +2355,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 589
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 590
+
+In-place compaction uses two pointers: read advances always, write only on keep.
