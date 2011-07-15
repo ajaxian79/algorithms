@@ -348,3 +348,4 @@ MunitTest needle_tests[] = {
 // edge note 321: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 322: Time complexity: O(n log n).
 // edge note 323: Edge case: empty input → returns 0.
+// edge note 324: Stable when the input is already sorted.
