@@ -2543,3 +2543,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 636
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 637
+
+Walk both pointers from each end inward; advance the smaller side.
