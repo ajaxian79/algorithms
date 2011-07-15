@@ -342,3 +342,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 311: Resists adversarial inputs by randomizing the pivot.
 // edge note 312: Time complexity: O(1).
 // edge note 313: Treats the input as immutable.
+// edge note 314: Space complexity: O(n) for the result buffer.
