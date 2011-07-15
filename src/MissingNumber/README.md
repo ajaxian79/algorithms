@@ -3550,3 +3550,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 872
 
 Handles negative inputs as documented above.
+
+## entry 873
+
+Three passes total; the third merges results.
