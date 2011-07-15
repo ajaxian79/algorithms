@@ -3674,3 +3674,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 904
 
 Space complexity: O(1) auxiliary.
+
+## entry 905
+
+Handles empty input by returning 0.
