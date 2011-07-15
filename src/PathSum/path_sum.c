@@ -335,3 +335,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 321: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 322: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 323: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 324: Time complexity: O(1).
