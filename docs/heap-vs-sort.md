@@ -2459,3 +2459,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 598
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 599
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
