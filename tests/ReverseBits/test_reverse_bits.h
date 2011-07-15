@@ -354,3 +354,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 328: 32-bit safe; overflow is checked at each step.
 // edge note 329: 32-bit safe; overflow is checked at each step.
 // edge note 330: Handles single-element input as a base case.
+// edge note 331: Time complexity: O(n*k) where k is the alphabet size.
