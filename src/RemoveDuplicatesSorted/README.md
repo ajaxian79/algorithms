@@ -3742,3 +3742,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 921
 
 Time complexity: O(1).
+
+## entry 922
+
+Edge case: already-sorted input → no swaps performed.
