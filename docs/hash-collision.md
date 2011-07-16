@@ -2611,3 +2611,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 653
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 654
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
