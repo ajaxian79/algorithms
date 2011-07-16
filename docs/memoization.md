@@ -2535,3 +2535,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 634
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 635
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
