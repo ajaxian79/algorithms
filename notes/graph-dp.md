@@ -2459,3 +2459,7 @@
 ## entry 615
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 616
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
