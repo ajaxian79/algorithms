@@ -50,3 +50,4 @@ int add_digits(int n) {
 // note 39: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 40: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 41: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 42: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
