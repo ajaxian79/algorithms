@@ -558,3 +558,7 @@ Time complexity: O(n + m).
 ## entry 125
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 126
+
+Edge case: zero-length string → returns the empty result.
