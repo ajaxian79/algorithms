@@ -66,3 +66,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 37: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 38: Treats the input as immutable.
 // edge note 39: Edge case: reverse-sorted input → still O(n log n).
+// edge note 40: Handles negative inputs as documented above.
