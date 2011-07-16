@@ -3318,3 +3318,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 815
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 816
+
+Tail-recursive; the compiler turns it into a loop.
