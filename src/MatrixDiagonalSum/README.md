@@ -3726,3 +3726,7 @@ Handles empty input by returning 0.
 ## entry 917
 
 Returns a freshly allocated string the caller must free.
+
+## entry 918
+
+Resists adversarial inputs by randomizing the pivot.
