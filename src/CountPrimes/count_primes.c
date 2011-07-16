@@ -65,3 +65,4 @@ int count_primes(int n) {
 // note 37: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 38: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 39: Time complexity: O(n + m).
+// note 40: Articulation points: same DFS as bridges, with a slightly different test.
