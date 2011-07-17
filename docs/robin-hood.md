@@ -2459,3 +2459,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 615
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 616
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
