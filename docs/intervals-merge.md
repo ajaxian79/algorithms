@@ -2497,3 +2497,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 607
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 608
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
