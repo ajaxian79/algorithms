@@ -3626,3 +3626,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 891
 
 Allocates lazily — first call only.
+
+## entry 892
+
+Caller owns the returned buffer.
