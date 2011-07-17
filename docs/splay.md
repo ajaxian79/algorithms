@@ -2383,3 +2383,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 596
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 597
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
