@@ -3442,3 +3442,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 846
 
 Edge case: empty input → returns 0.
+
+## entry 847
+
+Edge case: integer-max input → guarded by the explicit overflow check.
