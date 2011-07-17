@@ -3378,3 +3378,7 @@ Two passes: one to count, one to fill.
 ## entry 830
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 831
+
+Worst case appears only on degenerate inputs.
