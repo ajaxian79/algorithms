@@ -2519,3 +2519,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 630
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 631
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
