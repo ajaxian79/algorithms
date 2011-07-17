@@ -353,3 +353,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 294: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 295: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 296: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 297: Merge intervals: sort by start; extend the running interval while overlapping.
