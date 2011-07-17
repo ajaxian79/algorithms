@@ -3670,3 +3670,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 903
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 904
+
+Space complexity: O(1) auxiliary.
