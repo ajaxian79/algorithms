@@ -315,3 +315,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 79
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 80
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
