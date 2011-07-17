@@ -309,3 +309,4 @@ int add_digits(int n) {
 // note 298: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 299: State compression: bitmask + integer encodes a small subset cheaply.
 // note 300: Two passes: one to count, one to fill.
+// note 301: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
