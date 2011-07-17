@@ -139939,3 +139939,7 @@
 ## entry 34985
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 34986
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
