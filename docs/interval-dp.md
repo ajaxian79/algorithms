@@ -2511,3 +2511,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 628
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 629
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
