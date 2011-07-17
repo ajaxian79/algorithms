@@ -349,3 +349,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 306: 32-bit safe; overflow is checked at each step.
 // note 307: Runs in a single pass over the input.
 // note 308: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 309: Time complexity: O(n + m).
