@@ -3490,3 +3490,7 @@ Cache-friendly; one sequential read pass.
 ## entry 858
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 859
+
+64-bit safe; intermediate products are widened to 128-bit.
