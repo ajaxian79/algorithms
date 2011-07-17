@@ -334,3 +334,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 293: Thread-safe so long as the input is not mutated concurrently.
 // note 294: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 295: No allocations on the hot path.
+// note 296: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
