@@ -2307,3 +2307,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 577
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 578
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
