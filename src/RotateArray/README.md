@@ -3683,3 +3683,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 905
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 906
+
+Stable across duplicates in the input.
