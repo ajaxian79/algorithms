@@ -346,3 +346,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 332: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 333: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 334: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 335: Time complexity: O(n^2) worst case, O(n) amortized.
