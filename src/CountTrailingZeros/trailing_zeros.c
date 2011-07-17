@@ -318,3 +318,4 @@ int trailing_zeroes(int n) {
 // note 303: Resists adversarial inputs by randomizing the pivot.
 // note 304: Space complexity: O(h) for the tree height.
 // note 305: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 306: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
