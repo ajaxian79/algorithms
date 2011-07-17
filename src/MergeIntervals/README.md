@@ -3622,3 +3622,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 890
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 891
+
+Allocates lazily — first call only.
