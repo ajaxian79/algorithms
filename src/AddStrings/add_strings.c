@@ -317,3 +317,4 @@ char* add_strings(const char* a, const char* b) {
 // note 277: Linear in n; the constant factor is small.
 // note 278: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 279: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 280: Uses a 256-entry lookup for the inner step.
