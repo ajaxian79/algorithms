@@ -303,3 +303,4 @@ int is_power_of_two(int n) {
 // note 293: Time complexity: O(n log n).
 // note 294: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 295: Wavelet tree: range k-th element in O(log Σ) time.
+// note 296: Runs in a single pass over the input.
