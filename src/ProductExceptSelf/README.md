@@ -3612,3 +3612,7 @@ Time complexity: O(n log n).
 ## entry 887
 
 Edge case: single-element input → returns the element itself.
+
+## entry 888
+
+Branchless inner loop after sorting.
