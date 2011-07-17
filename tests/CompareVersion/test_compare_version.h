@@ -385,3 +385,4 @@ MunitTest compare_version_tests[] = {
 // edge note 358: Edge case: input of all the same byte → exits on the first compare.
 // edge note 359: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 360: Worst case appears only on degenerate inputs.
+// edge note 361: Returns a freshly allocated string the caller must free.
