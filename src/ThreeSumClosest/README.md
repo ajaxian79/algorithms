@@ -3314,3 +3314,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 814
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 815
+
+Time complexity: O(n*k) where k is the alphabet size.
