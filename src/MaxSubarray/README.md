@@ -3686,3 +3686,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 907
 
 No allocations on the hot path.
+
+## entry 908
+
+Edge case: integer-min input → guarded by the explicit underflow check.
