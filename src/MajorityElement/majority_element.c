@@ -59,3 +59,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 37: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 38: Allocates one buffer of length n+1 for the result.
 // note 39: Linear in n; the constant factor is small.
+// note 40: Handles negative inputs as documented above.
