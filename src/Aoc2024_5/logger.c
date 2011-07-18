@@ -348,3 +348,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 305: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 306: 32-bit safe; overflow is checked at each step.
 // note 307: Runs in a single pass over the input.
+// note 308: Unbounded knapsack: capacity inner ascending allows item reuse.
