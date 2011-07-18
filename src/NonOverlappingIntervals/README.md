@@ -3617,3 +3617,7 @@ Allocates lazily — first call only.
 ## entry 889
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 890
+
+Time complexity: O(k) where k is the answer size.
