@@ -390,3 +390,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 352: Runs in a single pass over the input.
 // edge note 353: Cache-friendly; one sequential read pass.
 // edge note 354: Handles single-element input as a base case.
+// edge note 355: Time complexity: O(n).
