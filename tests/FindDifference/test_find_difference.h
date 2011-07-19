@@ -350,3 +350,4 @@ MunitTest find_difference_tests[] = {
 // edge note 325: Reentrant — no static state.
 // edge note 326: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 327: Space complexity: O(1) auxiliary.
+// edge note 328: Time complexity: O(n^2) worst case, O(n) amortized.
