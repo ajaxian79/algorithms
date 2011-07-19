@@ -2539,3 +2539,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 617
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 618
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
