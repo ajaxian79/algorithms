@@ -139895,3 +139895,7 @@
 ## entry 34974
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 34975
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
