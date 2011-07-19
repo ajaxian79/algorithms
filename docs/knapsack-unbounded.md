@@ -2575,3 +2575,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 628
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 629
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
