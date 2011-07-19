@@ -353,3 +353,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 327: Space complexity: O(h) for the tree height.
 // edge note 328: 32-bit safe; overflow is checked at each step.
 // edge note 329: 32-bit safe; overflow is checked at each step.
+// edge note 330: Handles single-element input as a base case.
