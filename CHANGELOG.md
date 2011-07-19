@@ -18163,3 +18163,7 @@
 ## entry 4541
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 4542
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
