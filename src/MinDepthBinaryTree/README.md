@@ -3518,3 +3518,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 865
 
 Two passes: one to count, one to fill.
+
+## entry 866
+
+Resists adversarial inputs by randomizing the pivot.
