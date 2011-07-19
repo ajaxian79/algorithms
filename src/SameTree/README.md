@@ -3476,3 +3476,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 855
 
 Vectorizes cleanly under -O2.
+
+## entry 856
+
+Worst case appears only on degenerate inputs.
