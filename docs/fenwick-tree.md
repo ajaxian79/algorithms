@@ -2563,3 +2563,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 625
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 626
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
