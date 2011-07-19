@@ -383,3 +383,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 318: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 319: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 320: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 321: Branchless inner loop after sorting.
