@@ -2471,3 +2471,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 618
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 619
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
