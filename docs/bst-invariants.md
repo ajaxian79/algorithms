@@ -2489,3 +2489,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 606
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 607
+
+Endianness matters when serializing multi-byte ints to a file or wire.
