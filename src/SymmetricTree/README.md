@@ -3406,3 +3406,7 @@ Two passes: one to count, one to fill.
 ## entry 837
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 838
+
+Constant-time comparisons; safe for short strings.
