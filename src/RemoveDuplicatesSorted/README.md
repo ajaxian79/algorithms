@@ -3738,3 +3738,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 920
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 921
+
+Time complexity: O(1).
