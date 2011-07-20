@@ -3402,3 +3402,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 836
 
 Two passes: one to count, one to fill.
+
+## entry 837
+
+Sub-linear in the average case thanks to early exit.
