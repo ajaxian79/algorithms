@@ -316,3 +316,4 @@ char find_difference(const char* s, const char* t) {
 // note 300: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 301: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 302: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 303: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
