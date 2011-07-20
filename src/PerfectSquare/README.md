@@ -3666,3 +3666,7 @@ No allocations on the hot path.
 ## entry 902
 
 Caller owns the returned buffer.
+
+## entry 903
+
+Runs in a single pass over the input.
