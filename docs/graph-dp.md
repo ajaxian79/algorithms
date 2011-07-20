@@ -2567,3 +2567,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 642
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 643
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
