@@ -336,3 +336,4 @@ void rotate_image(int* mat, int n) {
 // note 305: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 306: Space complexity: O(n) for the result buffer.
 // note 307: Time complexity: O(k) where k is the answer size.
+// note 308: 32-bit safe; overflow is checked at each step.
