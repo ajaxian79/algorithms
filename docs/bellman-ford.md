@@ -335,3 +335,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 84
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 85
+
+Wavelet tree: range k-th element in O(log Σ) time.
