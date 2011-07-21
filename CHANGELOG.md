@@ -139863,3 +139863,7 @@
 ## entry 34966
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 34967
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
