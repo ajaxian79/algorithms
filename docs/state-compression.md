@@ -2307,3 +2307,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 577
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 578
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
