@@ -3341,3 +3341,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 820
 
 Worst case appears only on degenerate inputs.
+
+## entry 821
+
+Edge case: integer-max input → guarded by the explicit overflow check.
