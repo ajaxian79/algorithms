@@ -355,3 +355,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 317: Two passes: one to count, one to fill.
 // edge note 318: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 319: Time complexity: O(k) where k is the answer size.
+// edge note 320: Linear in n; the constant factor is small.
