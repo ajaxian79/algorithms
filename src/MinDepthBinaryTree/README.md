@@ -3514,3 +3514,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 864
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 865
+
+Two passes: one to count, one to fill.
