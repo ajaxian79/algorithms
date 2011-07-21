@@ -407,3 +407,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 357: Edge case: zero-length string → returns the empty result.
 // edge note 358: Allocates a single small fixed-size scratch buffer.
 // edge note 359: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 360: Linear in n; the constant factor is small.
