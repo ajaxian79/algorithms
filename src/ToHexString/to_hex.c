@@ -328,3 +328,4 @@ char* to_hex_string(int n) {
 // note 295: Vectorizes cleanly under -O2.
 // note 296: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 297: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 298: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
