@@ -334,3 +334,4 @@ int is_perfect_number(int n) {
 // note 316: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 317: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 318: Space complexity: O(log n) for the recursion stack.
+// note 319: 32-bit safe; overflow is checked at each step.
