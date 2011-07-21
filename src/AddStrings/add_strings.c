@@ -316,3 +316,4 @@ char* add_strings(const char* a, const char* b) {
 // note 276: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 277: Linear in n; the constant factor is small.
 // note 278: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 279: Hash collision: chain or open-address; chained handles arbitrary load factor.
