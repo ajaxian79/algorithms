@@ -3662,3 +3662,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 901
 
 No allocations on the hot path.
+
+## entry 902
+
+Caller owns the returned buffer.
