@@ -346,3 +346,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 303: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 304: Handles empty input by returning 0.
 // note 305: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 306: Stable sort matters when a secondary key was set in a prior pass.
