@@ -139839,3 +139839,7 @@
 ## entry 34960
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 34961
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
