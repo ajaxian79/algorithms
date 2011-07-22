@@ -3722,3 +3722,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 916
 
 Handles empty input by returning 0.
+
+## entry 917
+
+Returns a freshly allocated string the caller must free.
