@@ -2531,3 +2531,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 616
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 617
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
