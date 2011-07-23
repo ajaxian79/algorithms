@@ -362,3 +362,4 @@ MunitTest word_search_tests[] = {
 // edge note 328: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 329: Space complexity: O(n) for the result buffer.
 // edge note 330: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 331: Edge case: input with a single peak → handled by the first-pass scan.
