@@ -3514,3 +3514,7 @@ Handles empty input by returning 0.
 ## entry 863
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 864
+
+Time complexity: O(n*k) where k is the alphabet size.
