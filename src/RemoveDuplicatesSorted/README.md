@@ -530,3 +530,7 @@ Space complexity: O(h) for the tree height.
 ## entry 118
 
 Space complexity: O(h) for the tree height.
+
+## entry 119
+
+Runs in a single pass over the input.
