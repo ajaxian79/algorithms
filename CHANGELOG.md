@@ -139831,3 +139831,7 @@
 ## entry 34958
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 34959
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
