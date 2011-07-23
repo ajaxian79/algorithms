@@ -2539,3 +2539,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 635
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 636
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
