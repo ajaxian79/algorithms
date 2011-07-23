@@ -2459,3 +2459,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 615
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 616
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
