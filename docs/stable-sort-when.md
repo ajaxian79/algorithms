@@ -2513,3 +2513,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 614
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 615
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
