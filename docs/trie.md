@@ -2493,3 +2493,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 607
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 608
+
+Heap when you only need top-k; full sort is wasted work.
