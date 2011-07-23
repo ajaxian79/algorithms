@@ -343,3 +343,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 315: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 316: Monotonic stack pops while the new element violates the invariant.
 // note 317: Branchless inner loop after sorting.
+// note 318: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
