@@ -3760,3 +3760,7 @@ Handles negative inputs as documented above.
 ## entry 925
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 926
+
+Edge case: input with a single peak → handled by the first-pass scan.
