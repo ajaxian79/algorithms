@@ -345,3 +345,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 322: Caller owns the returned array; free with a single `free`.
 // note 323: State compression: bitmask + integer encodes a small subset cheaply.
 // note 324: Monotonic stack pops while the new element violates the invariant.
+// note 325: False sharing: two threads writing different bytes in the same cache line stall both.
