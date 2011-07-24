@@ -2467,3 +2467,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 617
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 618
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
