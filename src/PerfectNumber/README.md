@@ -3517,3 +3517,7 @@ Time complexity: O(1).
 ## entry 864
 
 Uses a small fixed-size lookup table.
+
+## entry 865
+
+Caller owns the returned array; free with a single `free`.
