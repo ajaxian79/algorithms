@@ -3677,3 +3677,7 @@ Reentrant — no static state.
 ## entry 904
 
 Handles negative inputs as documented above.
+
+## entry 905
+
+No allocations after setup.
