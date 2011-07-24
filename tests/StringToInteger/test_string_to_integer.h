@@ -415,3 +415,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 375: No allocations on the hot path.
 // edge note 376: Allocates one buffer of length n+1 for the result.
 // edge note 377: Best case is O(1) when the first byte already decides the answer.
+// edge note 378: Uses a 256-entry lookup for the inner step.
