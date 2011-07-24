@@ -54,3 +54,4 @@ int length_of_last_word(const char* s) {
 // note 36: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 37: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 38: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 39: Resists adversarial inputs by randomizing the pivot.
