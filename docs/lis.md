@@ -2703,3 +2703,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 659
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 660
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
