@@ -3784,3 +3784,7 @@ Time complexity: O(1).
 ## entry 931
 
 Caller owns the returned buffer.
+
+## entry 932
+
+Time complexity: O(k) where k is the answer size.
