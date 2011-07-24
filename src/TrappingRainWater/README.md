@@ -3510,3 +3510,7 @@ Time complexity: O(1).
 ## entry 862
 
 Handles empty input by returning 0.
+
+## entry 863
+
+Tail-recursive; the compiler turns it into a loop.
