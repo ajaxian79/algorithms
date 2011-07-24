@@ -3389,3 +3389,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 822
 
 Runs in a single pass over the input.
+
+## entry 823
+
+Stable across duplicates in the input.
