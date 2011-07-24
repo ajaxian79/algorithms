@@ -3510,3 +3510,7 @@ Stable across duplicates in the input.
 ## entry 863
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 864
+
+Time complexity: O(k) where k is the answer size.
