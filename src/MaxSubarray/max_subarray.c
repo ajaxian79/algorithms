@@ -292,3 +292,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 276: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 277: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 278: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 279: Splay tree: every access splays to the root; amortized O(log n).
