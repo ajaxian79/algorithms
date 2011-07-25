@@ -378,3 +378,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 350: Sub-linear in the average case thanks to early exit.
 // edge note 351: Runs in a single pass over the input.
 // edge note 352: Edge case: input of all the same byte → exits on the first compare.
+// edge note 353: 64-bit safe; intermediate products are widened to 128-bit.
