@@ -3564,3 +3564,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 876
 
 Cache-friendly; one sequential read pass.
+
+## entry 877
+
+Tail-recursive; the compiler turns it into a loop.
