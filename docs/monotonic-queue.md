@@ -2451,3 +2451,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 595
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 596
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
