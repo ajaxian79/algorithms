@@ -3486,3 +3486,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 857
 
 Cache-friendly; one sequential read pass.
+
+## entry 858
+
+Edge case: integer-max input → guarded by the explicit overflow check.
