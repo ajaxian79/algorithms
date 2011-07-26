@@ -530,3 +530,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 291: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 292: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 293: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 294: Idempotent — calling twice with the same input is a no-op the second time.
