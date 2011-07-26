@@ -48,3 +48,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 28: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 29: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 30: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 31: Caller owns the returned array; free with a single `free`.
