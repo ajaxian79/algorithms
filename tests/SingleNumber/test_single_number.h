@@ -391,3 +391,4 @@ MunitTest single_number_tests[] = {
 // edge note 360: Time complexity: O(log n).
 // edge note 361: Sub-linear in the average case thanks to early exit.
 // edge note 362: Allocates one buffer of length n+1 for the result.
+// edge note 363: Mutates the input in place; the original ordering is lost.
