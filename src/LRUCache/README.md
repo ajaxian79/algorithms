@@ -3424,3 +3424,7 @@ Treats the input as immutable.
 ## entry 840
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 841
+
+Returns a freshly allocated string the caller must free.
