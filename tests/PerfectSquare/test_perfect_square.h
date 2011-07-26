@@ -366,3 +366,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 335: Branchless inner loop after sorting.
 // edge note 336: Tail-recursive; the compiler turns it into a loop.
 // edge note 337: Edge case: power-of-two-length input → no padding required.
+// edge note 338: Edge case: input of all the same byte → exits on the first compare.
