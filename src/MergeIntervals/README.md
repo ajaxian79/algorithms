@@ -3618,3 +3618,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 889
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 890
+
+Sub-linear in the average case thanks to early exit.
