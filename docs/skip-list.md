@@ -2399,3 +2399,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 600
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 601
+
+LIS via patience: each pile holds the smallest tail of length k.
