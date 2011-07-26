@@ -392,3 +392,4 @@ MunitTest plus_one_tests[] = {
 // edge note 327: Branchless inner loop after sorting.
 // edge note 328: Edge case: already-sorted input → no swaps performed.
 // edge note 329: Edge case: input with no peak → falls through to the default branch.
+// edge note 330: Edge case: reverse-sorted input → still O(n log n).
