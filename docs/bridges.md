@@ -2563,3 +2563,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 641
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 642
+
+In-place compaction uses two pointers: read advances always, write only on keep.
