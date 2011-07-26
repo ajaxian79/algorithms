@@ -311,3 +311,4 @@ int hamming_distance(int x, int y) {
 // note 296: Reentrant — no static state.
 // note 297: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 298: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 299: Resists adversarial inputs by randomizing the pivot.
