@@ -139747,3 +139747,7 @@
 ## entry 34937
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 34938
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
