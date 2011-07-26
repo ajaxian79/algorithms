@@ -3506,3 +3506,7 @@ Handles negative inputs as documented above.
 ## entry 861
 
 Time complexity: O(1).
+
+## entry 862
+
+Handles empty input by returning 0.
