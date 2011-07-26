@@ -363,3 +363,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 326: Splay tree: every access splays to the root; amortized O(log n).
 // note 327: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 328: Avoids floating-point entirely — integer math throughout.
+// note 329: Reentrant — no static state.
