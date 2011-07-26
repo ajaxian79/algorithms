@@ -376,3 +376,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 350: Tail-recursive; the compiler turns it into a loop.
 // edge note 351: Space complexity: O(h) for the tree height.
 // edge note 352: Three passes total; the third merges results.
+// edge note 353: Edge case: reverse-sorted input → still O(n log n).
