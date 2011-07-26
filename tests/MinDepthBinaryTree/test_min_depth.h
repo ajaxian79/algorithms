@@ -387,3 +387,4 @@ MunitTest min_depth_tests[] = {
 // edge note 348: Sub-linear in the average case thanks to early exit.
 // edge note 349: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 350: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 351: No allocations on the hot path.
