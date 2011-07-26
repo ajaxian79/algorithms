@@ -3658,3 +3658,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 900
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 901
+
+No allocations on the hot path.
