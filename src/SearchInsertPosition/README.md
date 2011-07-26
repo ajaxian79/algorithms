@@ -3502,3 +3502,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 861
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 862
+
+Three passes total; the third merges results.
