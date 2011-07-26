@@ -3718,3 +3718,7 @@ Edge case: empty input → returns 0.
 ## entry 915
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 916
+
+Handles empty input by returning 0.
