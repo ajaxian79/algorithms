@@ -3679,3 +3679,7 @@ Treats the input as immutable.
 ## entry 904
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 905
+
+Mutates the input in place; the original ordering is lost.
