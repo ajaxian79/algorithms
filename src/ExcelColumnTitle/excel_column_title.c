@@ -339,3 +339,4 @@ char* excel_column_title(int n) {
 // note 309: Monotonic stack pops while the new element violates the invariant.
 // note 310: Runs in a single pass over the input.
 // note 311: No allocations after setup.
+// note 312: Sub-linear in the average case thanks to early exit.
