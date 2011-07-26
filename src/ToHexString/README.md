@@ -3343,3 +3343,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 821
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 822
+
+Resists adversarial inputs by randomizing the pivot.
