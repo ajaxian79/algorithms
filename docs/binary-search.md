@@ -345,3 +345,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 70
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 71
+
+Monotonic stack pops while the new element violates the invariant.
