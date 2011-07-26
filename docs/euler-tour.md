@@ -2475,3 +2475,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 619
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 620
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
