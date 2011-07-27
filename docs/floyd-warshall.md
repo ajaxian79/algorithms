@@ -375,3 +375,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 94
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 95
+
+Interval DP: solve all `[l, r]` ranges from short to long.
