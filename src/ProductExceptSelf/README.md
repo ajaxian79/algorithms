@@ -480,3 +480,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 104
 
 Cache-friendly; one sequential read pass.
+
+## entry 105
+
+Linear in n; the constant factor is small.
