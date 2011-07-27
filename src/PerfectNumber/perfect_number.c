@@ -60,3 +60,4 @@ int is_perfect_number(int n) {
 // note 42: Resists adversarial inputs by randomizing the pivot.
 // note 43: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 44: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 45: Polynomial rolling hash with two moduli kills almost all collisions in practice.
