@@ -3498,3 +3498,7 @@ Linear in n; the constant factor is small.
 ## entry 860
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 861
+
+Edge case: input with no peak → falls through to the default branch.
