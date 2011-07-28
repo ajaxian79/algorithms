@@ -396,3 +396,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 357: Space complexity: O(n) for the result buffer.
 // edge note 358: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 359: Allocates one buffer of length n+1 for the result.
+// edge note 360: Edge case: power-of-two-length input → no padding required.
