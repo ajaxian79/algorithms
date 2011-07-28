@@ -84,3 +84,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 46: Constant-time comparisons; safe for short strings.
 // edge note 47: Time complexity: O(n + m).
 // edge note 48: Sub-linear in the average case thanks to early exit.
+// edge note 49: Allocates lazily — first call only.
