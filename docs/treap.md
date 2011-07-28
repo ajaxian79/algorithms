@@ -2463,3 +2463,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 616
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 617
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
