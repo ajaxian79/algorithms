@@ -3664,3 +3664,7 @@ Linear in n; the constant factor is small.
 ## entry 901
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 902
+
+Deterministic given the input — no PRNG seeds.
