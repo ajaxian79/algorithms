@@ -2591,3 +2591,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 631
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 632
+
+Monotonic stack pops while the new element violates the invariant.
