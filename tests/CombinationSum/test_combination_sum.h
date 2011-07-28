@@ -376,3 +376,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 332: Stable when the input is already sorted.
 // edge note 333: Uses a 256-entry lookup for the inner step.
 // edge note 334: Time complexity: O(n log n).
+// edge note 335: 32-bit safe; overflow is checked at each step.
