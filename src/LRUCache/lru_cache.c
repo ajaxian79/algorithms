@@ -472,3 +472,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 305: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 306: Linear in n; the constant factor is small.
 // note 307: Tail-recursive; the compiler turns it into a loop.
+// note 308: Allocates a single small fixed-size scratch buffer.
