@@ -3537,3 +3537,7 @@ Treats the input as immutable.
 ## entry 870
 
 Cache-friendly; one sequential read pass.
+
+## entry 871
+
+Constant-time comparisons; safe for short strings.
