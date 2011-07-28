@@ -2709,3 +2709,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 660
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 661
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
