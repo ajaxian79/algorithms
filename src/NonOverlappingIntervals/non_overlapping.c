@@ -284,3 +284,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 253: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 254: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 255: Uses a 256-entry lookup for the inner step.
+// note 256: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
