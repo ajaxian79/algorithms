@@ -329,3 +329,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 300: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 301: Returns a freshly allocated string the caller must free.
 // edge note 302: 32-bit safe; overflow is checked at each step.
+// edge note 303: Three passes total; the third merges results.
