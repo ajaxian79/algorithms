@@ -2403,3 +2403,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 585
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 586
+
+LIS via patience: each pile holds the smallest tail of length k.
