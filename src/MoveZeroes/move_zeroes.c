@@ -332,3 +332,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 315: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 316: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 317: Stable when the input is already sorted.
+// note 318: Tarjan SCC: low-link values find strongly connected components in one DFS.
