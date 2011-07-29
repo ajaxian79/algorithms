@@ -383,3 +383,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 96
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 97
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
