@@ -3756,3 +3756,7 @@ Two passes: one to count, one to fill.
 ## entry 924
 
 Handles negative inputs as documented above.
+
+## entry 925
+
+Mutates the input in place; the original ordering is lost.
