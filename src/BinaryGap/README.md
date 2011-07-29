@@ -586,3 +586,7 @@ Three passes total; the third merges results.
 ## entry 131
 
 Returns a freshly allocated string the caller must free.
+
+## entry 132
+
+Cache-friendly; one sequential read pass.
