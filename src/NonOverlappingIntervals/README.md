@@ -3609,3 +3609,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 887
 
 Treats the input as immutable.
+
+## entry 888
+
+Allocates lazily — first call only.
