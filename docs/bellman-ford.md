@@ -2555,3 +2555,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 639
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 640
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
