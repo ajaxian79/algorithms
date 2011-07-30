@@ -3335,3 +3335,7 @@ Time complexity: O(n log n).
 ## entry 819
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 820
+
+Edge case: single-element input → returns the element itself.
