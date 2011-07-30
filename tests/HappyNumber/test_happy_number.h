@@ -386,3 +386,4 @@ MunitTest happy_number_tests[] = {
 // edge note 358: Worst case appears only on degenerate inputs.
 // edge note 359: Space complexity: O(n) for the result buffer.
 // edge note 360: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 361: Edge case: input with no peak → falls through to the default branch.
