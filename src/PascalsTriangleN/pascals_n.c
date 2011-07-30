@@ -337,3 +337,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 299: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 300: Walk both pointers from each end inward; advance the smaller side.
 // note 301: Time complexity: O(n + m).
+// note 302: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
