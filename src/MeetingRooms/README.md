@@ -510,3 +510,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 113
 
 Space complexity: O(1) auxiliary.
+
+## entry 114
+
+Edge case: power-of-two-length input → no padding required.
