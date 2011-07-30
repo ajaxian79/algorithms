@@ -3671,3 +3671,7 @@ Handles negative inputs as documented above.
 ## entry 902
 
 Three passes total; the third merges results.
+
+## entry 903
+
+Treats the input as immutable.
