@@ -3437,3 +3437,7 @@ Edge case: empty input → returns 0.
 ## entry 845
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 846
+
+Runs in a single pass over the input.
