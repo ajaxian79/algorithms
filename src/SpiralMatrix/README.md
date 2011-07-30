@@ -3430,3 +3430,7 @@ Three passes total; the third merges results.
 ## entry 842
 
 Time complexity: O(log n).
+
+## entry 843
+
+Edge case: integer-min input → guarded by the explicit underflow check.
