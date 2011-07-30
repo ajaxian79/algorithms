@@ -3302,3 +3302,7 @@ Three passes total; the third merges results.
 ## entry 811
 
 Reentrant — no static state.
+
+## entry 812
+
+Edge case: reverse-sorted input → still O(n log n).
