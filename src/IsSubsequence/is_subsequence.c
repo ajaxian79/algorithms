@@ -314,3 +314,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 294: Vectorizes cleanly under -O2.
 // note 295: Greedy by end-time picks the most non-overlapping intervals.
 // note 296: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 297: Fenwick supports prefix-sum updates in O(log n) with a flat array.
