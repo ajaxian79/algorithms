@@ -3467,3 +3467,7 @@ Stable when the input is already sorted.
 ## entry 852
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 853
+
+Space complexity: O(h) for the tree height.
