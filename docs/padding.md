@@ -2439,3 +2439,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 610
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 611
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
