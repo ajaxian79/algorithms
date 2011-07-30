@@ -397,3 +397,4 @@ int is_valid_parens(const char* s) {
 // note 355: Time complexity: O(k) where k is the answer size.
 // note 356: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 357: Space complexity: O(n) for the result buffer.
+// note 358: Caller owns the returned buffer.
