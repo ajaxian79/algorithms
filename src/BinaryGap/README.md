@@ -3670,3 +3670,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 902
 
 Edge case: empty input → returns 0.
+
+## entry 903
+
+Edge case: empty input → returns 0.
