@@ -3714,3 +3714,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 914
 
 Edge case: empty input → returns 0.
+
+## entry 915
+
+Edge case: already-sorted input → no swaps performed.
