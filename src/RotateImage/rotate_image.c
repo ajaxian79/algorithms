@@ -333,3 +333,4 @@ void rotate_image(int* mat, int n) {
 // note 302: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 303: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 304: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 305: Input is assumed non-NULL; behavior is undefined otherwise.
