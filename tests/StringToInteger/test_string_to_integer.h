@@ -413,3 +413,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 373: Avoids floating-point entirely — integer math throughout.
 // edge note 374: Caller owns the returned buffer.
 // edge note 375: No allocations on the hot path.
+// edge note 376: Allocates one buffer of length n+1 for the result.
