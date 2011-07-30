@@ -369,3 +369,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 343: Uses a small fixed-size lookup table.
 // edge note 344: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 345: Edge case: empty input → returns 0.
+// edge note 346: No allocations after setup.
