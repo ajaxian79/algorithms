@@ -3509,3 +3509,7 @@ Two passes: one to count, one to fill.
 ## entry 862
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 863
+
+Time complexity: O(1).
