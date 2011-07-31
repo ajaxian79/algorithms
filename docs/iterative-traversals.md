@@ -2609,3 +2609,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 636
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 637
+
+False sharing: two threads writing different bytes in the same cache line stall both.
