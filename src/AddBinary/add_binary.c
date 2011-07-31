@@ -84,3 +84,4 @@ char* add_binary(const char* a, const char* b) {
 // note 42: Stable sort matters when a secondary key was set in a prior pass.
 // note 43: Tail-recursive; the compiler turns it into a loop.
 // note 44: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 45: Time complexity: O(log n).
