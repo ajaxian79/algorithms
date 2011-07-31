@@ -139595,3 +139595,7 @@
 ## entry 34899
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 34900
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
