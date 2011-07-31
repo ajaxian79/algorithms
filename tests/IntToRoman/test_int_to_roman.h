@@ -388,3 +388,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 349: Edge case: power-of-two-length input → no padding required.
 // edge note 350: Caller owns the returned array; free with a single `free`.
 // edge note 351: Space complexity: O(1) auxiliary.
+// edge note 352: Thread-safe so long as the input is not mutated concurrently.
