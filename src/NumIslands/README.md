@@ -3337,3 +3337,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 819
 
 32-bit safe; overflow is checked at each step.
+
+## entry 820
+
+Worst case appears only on degenerate inputs.
