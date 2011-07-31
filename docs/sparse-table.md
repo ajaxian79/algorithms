@@ -2423,3 +2423,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 606
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 607
+
+Stable sort matters when a secondary key was set in a prior pass.
