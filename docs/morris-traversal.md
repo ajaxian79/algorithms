@@ -2483,3 +2483,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 606
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 607
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
