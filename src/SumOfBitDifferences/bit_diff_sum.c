@@ -331,3 +331,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 313: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 314: Space complexity: O(1) auxiliary.
 // note 315: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 316: Allocates one buffer of length n+1 for the result.
