@@ -2599,3 +2599,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 650
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 651
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
