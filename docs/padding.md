@@ -2435,3 +2435,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 609
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 610
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
