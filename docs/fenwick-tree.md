@@ -2559,3 +2559,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 624
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 625
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
