@@ -139607,3 +139607,7 @@
 ## entry 34902
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 34903
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
