@@ -2555,3 +2555,7 @@
 ## entry 639
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 640
+
+- Wavelet tree: range k-th element in O(log Σ) time.
