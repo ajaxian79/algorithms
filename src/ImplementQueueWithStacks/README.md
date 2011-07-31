@@ -3539,3 +3539,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 870
 
 Runs in a single pass over the input.
+
+## entry 871
+
+Input is assumed non-NULL; behavior is undefined otherwise.
