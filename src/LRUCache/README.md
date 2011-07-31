@@ -3420,3 +3420,7 @@ Stable across duplicates in the input.
 ## entry 839
 
 Treats the input as immutable.
+
+## entry 840
+
+Allocates one buffer of length n+1 for the result.
