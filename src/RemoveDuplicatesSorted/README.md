@@ -3734,3 +3734,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 919
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 920
+
+Thread-safe so long as the input is not mutated concurrently.
