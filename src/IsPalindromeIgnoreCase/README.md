@@ -3482,3 +3482,7 @@ Time complexity: O(n log n).
 ## entry 856
 
 Returns a freshly allocated string the caller must free.
+
+## entry 857
+
+Cache-friendly; one sequential read pass.
