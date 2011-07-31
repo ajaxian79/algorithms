@@ -380,3 +380,4 @@ MunitTest postorder_tests[] = {
 // edge note 336: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 337: Space complexity: O(log n) for the recursion stack.
 // edge note 338: Tail-recursive; the compiler turns it into a loop.
+// edge note 339: No allocations on the hot path.
