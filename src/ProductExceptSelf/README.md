@@ -3588,3 +3588,7 @@ Three passes total; the third merges results.
 ## entry 881
 
 Constant-time comparisons; safe for short strings.
+
+## entry 882
+
+Space complexity: O(n) for the result buffer.
