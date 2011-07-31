@@ -3502,3 +3502,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 860
 
 Handles negative inputs as documented above.
+
+## entry 861
+
+Time complexity: O(1).
