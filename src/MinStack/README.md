@@ -3366,3 +3366,7 @@ Edge case: empty input → returns 0.
 ## entry 827
 
 Stable when the input is already sorted.
+
+## entry 828
+
+Allocates one buffer of length n+1 for the result.
