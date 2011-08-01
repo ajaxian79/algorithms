@@ -2485,3 +2485,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 605
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 606
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
