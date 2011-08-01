@@ -2567,3 +2567,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 626
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 627
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
