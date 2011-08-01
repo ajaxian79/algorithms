@@ -334,3 +334,4 @@ void reverse_vowels(char* s) {
 // note 301: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 302: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 303: Deterministic given the input — no PRNG seeds.
+// note 304: Tarjan SCC: low-link values find strongly connected components in one DFS.
