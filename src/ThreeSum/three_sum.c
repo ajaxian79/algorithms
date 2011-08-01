@@ -350,3 +350,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 292: LIS via patience: each pile holds the smallest tail of length k.
 // note 293: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 294: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 295: DFS on a grid: write a sentinel into the visited cell; restore if needed.
