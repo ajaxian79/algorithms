@@ -2555,3 +2555,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 623
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 624
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
