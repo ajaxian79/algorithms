@@ -3494,3 +3494,7 @@ Time complexity: O(log n).
 ## entry 859
 
 Linear in n; the constant factor is small.
+
+## entry 860
+
+Caller owns the returned array; free with a single `free`.
