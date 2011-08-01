@@ -3662,3 +3662,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 901
 
 Treats the input as immutable.
+
+## entry 902
+
+Constant-time comparisons; safe for short strings.
