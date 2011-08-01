@@ -3673,3 +3673,7 @@ Treats the input as immutable.
 ## entry 903
 
 Reentrant — no static state.
+
+## entry 904
+
+Handles negative inputs as documented above.
