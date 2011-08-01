@@ -313,3 +313,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 293: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 294: Vectorizes cleanly under -O2.
 // note 295: Greedy by end-time picks the most non-overlapping intervals.
+// note 296: Backtracking template: choose, recurse, un-choose. Mutate then revert.
