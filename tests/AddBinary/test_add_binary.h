@@ -373,3 +373,4 @@ MunitTest add_binary_tests[] = {
 // edge note 337: Stable across duplicates in the input.
 // edge note 338: Constant-time comparisons; safe for short strings.
 // edge note 339: Treats the input as immutable.
+// edge note 340: Edge case: reverse-sorted input → still O(n log n).
