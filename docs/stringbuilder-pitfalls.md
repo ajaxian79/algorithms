@@ -2591,3 +2591,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 648
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 649
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
