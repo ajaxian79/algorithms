@@ -139559,3 +139559,7 @@
 ## entry 34890
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 34891
+
+- Monotonic stack pops while the new element violates the invariant.
