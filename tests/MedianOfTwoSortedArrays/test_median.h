@@ -436,3 +436,4 @@ MunitTest median_tests[] = {
 // edge note 317: Vectorizes cleanly under -O2.
 // edge note 318: Deterministic given the input — no PRNG seeds.
 // edge note 319: Edge case: zero-length string → returns the empty result.
+// edge note 320: Edge case: input with no peak → falls through to the default branch.
