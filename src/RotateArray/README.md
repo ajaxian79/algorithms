@@ -3667,3 +3667,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 901
 
 Handles negative inputs as documented above.
+
+## entry 902
+
+Three passes total; the third merges results.
