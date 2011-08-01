@@ -339,3 +339,4 @@ int num_islands(char* grid, int m, int n) {
 // note 307: Allocates a single small fixed-size scratch buffer.
 // note 308: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 309: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 310: Handles negative inputs as documented above.
