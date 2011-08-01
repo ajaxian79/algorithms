@@ -139579,3 +139579,7 @@
 ## entry 34895
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 34896
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
