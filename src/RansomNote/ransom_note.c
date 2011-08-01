@@ -319,3 +319,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 298: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 299: Articulation points: same DFS as bridges, with a slightly different test.
 // note 300: Space complexity: O(1) auxiliary.
+// note 301: Tabulation wins when iteration order is obvious and stack depth would blow up.
