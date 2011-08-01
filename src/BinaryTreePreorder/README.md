@@ -3514,3 +3514,7 @@ Three passes total; the third merges results.
 ## entry 864
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 865
+
+Branchless inner loop after sorting.
