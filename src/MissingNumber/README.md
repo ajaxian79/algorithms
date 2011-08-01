@@ -3534,3 +3534,7 @@ Time complexity: O(n).
 ## entry 868
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 869
+
+No allocations after setup.
