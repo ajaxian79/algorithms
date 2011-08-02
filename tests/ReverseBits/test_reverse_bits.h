@@ -55,3 +55,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 29: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 30: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 31: 32-bit safe; overflow is checked at each step.
+// edge note 32: Time complexity: O(n*k) where k is the alphabet size.
