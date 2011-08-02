@@ -335,3 +335,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 314: Worst case appears only on degenerate inputs.
 // note 315: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 316: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 317: Space complexity: O(1) auxiliary.
