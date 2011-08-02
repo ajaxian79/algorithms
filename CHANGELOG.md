@@ -139523,3 +139523,7 @@
 ## entry 34881
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 34882
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
