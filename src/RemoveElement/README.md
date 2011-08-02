@@ -3533,3 +3533,7 @@ Time complexity: O(n log n).
 ## entry 869
 
 Treats the input as immutable.
+
+## entry 870
+
+Cache-friendly; one sequential read pass.
