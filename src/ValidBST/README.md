@@ -3669,3 +3669,7 @@ Treats the input as immutable.
 ## entry 902
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 903
+
+Reentrant — no static state.
