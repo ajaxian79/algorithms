@@ -360,3 +360,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 315: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 316: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 317: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 318: Pick a pivot, partition, recurse on the side that contains the kth slot.
