@@ -394,3 +394,4 @@ MunitTest max_depth_tests[] = {
 // edge note 356: Cache-friendly; one sequential read pass.
 // edge note 357: Constant-time comparisons; safe for short strings.
 // edge note 358: Handles negative inputs as documented above.
+// edge note 359: Uses a small fixed-size lookup table.
