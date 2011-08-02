@@ -310,3 +310,4 @@ long long climb_stairs(int n) {
 // note 291: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 292: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 293: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 294: Space complexity: O(n) for the result buffer.
