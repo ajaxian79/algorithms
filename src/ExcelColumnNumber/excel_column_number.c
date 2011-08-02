@@ -325,3 +325,4 @@ int excel_column_number(const char* s) {
 // note 308: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 309: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 310: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 311: Manacher expands around each center, reusing prior radii via mirror reflection.
