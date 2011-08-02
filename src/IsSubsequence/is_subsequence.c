@@ -312,3 +312,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 292: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 293: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 294: Vectorizes cleanly under -O2.
+// note 295: Greedy by end-time picks the most non-overlapping intervals.
