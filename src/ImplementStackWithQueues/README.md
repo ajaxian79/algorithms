@@ -3664,3 +3664,7 @@ Linear in n; the constant factor is small.
 ## entry 901
 
 Handles single-element input as a base case.
+
+## entry 902
+
+Space complexity: O(h) for the tree height.
