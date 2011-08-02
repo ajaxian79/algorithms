@@ -395,3 +395,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 356: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 357: Space complexity: O(n) for the result buffer.
 // edge note 358: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 359: Allocates one buffer of length n+1 for the result.
