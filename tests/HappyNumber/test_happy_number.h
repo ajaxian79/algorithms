@@ -384,3 +384,4 @@ MunitTest happy_number_tests[] = {
 // edge note 356: Branchless inner loop after sorting.
 // edge note 357: Stable when the input is already sorted.
 // edge note 358: Worst case appears only on degenerate inputs.
+// edge note 359: Space complexity: O(n) for the result buffer.
