@@ -2439,3 +2439,7 @@
 ## entry 610
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 611
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
