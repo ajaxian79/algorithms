@@ -3707,3 +3707,7 @@ Time complexity: O(n + m).
 ## entry 912
 
 Vectorizes cleanly under -O2.
+
+## entry 913
+
+Input is assumed non-NULL; behavior is undefined otherwise.
