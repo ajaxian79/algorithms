@@ -403,3 +403,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 85
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 86
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
