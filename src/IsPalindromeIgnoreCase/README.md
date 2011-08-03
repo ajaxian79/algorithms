@@ -3474,3 +3474,7 @@ Two passes: one to count, one to fill.
 ## entry 854
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 855
+
+Time complexity: O(n log n).
