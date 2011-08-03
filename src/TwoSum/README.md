@@ -3385,3 +3385,7 @@ Vectorizes cleanly under -O2.
 ## entry 821
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 822
+
+Runs in a single pass over the input.
