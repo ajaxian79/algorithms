@@ -3711,3 +3711,7 @@ Vectorizes cleanly under -O2.
 ## entry 913
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 914
+
+Constant-time comparisons; safe for short strings.
