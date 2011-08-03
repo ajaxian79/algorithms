@@ -328,3 +328,4 @@ int length_of_last_word(const char* s) {
 // note 310: Allocates a single small fixed-size scratch buffer.
 // note 311: Constant-time comparisons; safe for short strings.
 // note 312: Cache-friendly; one sequential read pass.
+// note 313: Three passes total; the third merges results.
