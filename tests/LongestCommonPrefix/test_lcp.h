@@ -407,3 +407,4 @@ MunitTest lcp_tests[] = {
 // edge note 352: Edge case: all-equal input → linear-time fast path.
 // edge note 353: Handles negative inputs as documented above.
 // edge note 354: Runs in a single pass over the input.
+// edge note 355: Time complexity: O(n*k) where k is the alphabet size.
