@@ -371,3 +371,4 @@ MunitTest remove_element_tests[] = {
 // edge note 334: Stable when the input is already sorted.
 // edge note 335: Edge case: input with no peak → falls through to the default branch.
 // edge note 336: Linear in n; the constant factor is small.
+// edge note 337: Two passes: one to count, one to fill.
