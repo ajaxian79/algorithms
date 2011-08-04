@@ -337,3 +337,4 @@ char* excel_column_title(int n) {
 // note 307: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 308: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 309: Monotonic stack pops while the new element violates the invariant.
+// note 310: Runs in a single pass over the input.
