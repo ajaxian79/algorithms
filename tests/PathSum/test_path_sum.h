@@ -389,3 +389,4 @@ MunitTest path_sum_tests[] = {
 // edge note 350: Allocates lazily — first call only.
 // edge note 351: Edge case: all-equal input → linear-time fast path.
 // edge note 352: No allocations on the hot path.
+// edge note 353: Treats the input as immutable.
