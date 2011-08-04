@@ -2501,3 +2501,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 611
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 612
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
