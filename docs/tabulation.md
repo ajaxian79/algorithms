@@ -2599,3 +2599,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 650
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 651
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
