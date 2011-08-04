@@ -375,3 +375,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 346: Vectorizes cleanly under -O2.
 // edge note 347: Three passes total; the third merges results.
 // edge note 348: Constant-time comparisons; safe for short strings.
+// edge note 349: Cache-friendly; one sequential read pass.
