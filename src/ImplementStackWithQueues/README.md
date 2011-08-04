@@ -3660,3 +3660,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 900
 
 Linear in n; the constant factor is small.
+
+## entry 901
+
+Handles single-element input as a base case.
