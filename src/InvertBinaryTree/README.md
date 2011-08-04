@@ -3752,3 +3752,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 923
 
 Two passes: one to count, one to fill.
+
+## entry 924
+
+Handles negative inputs as documented above.
