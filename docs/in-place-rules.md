@@ -2593,3 +2593,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 633
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 634
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
