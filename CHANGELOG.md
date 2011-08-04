@@ -139463,3 +139463,7 @@
 ## entry 34866
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 34867
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
