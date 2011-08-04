@@ -2487,3 +2487,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 622
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 623
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
