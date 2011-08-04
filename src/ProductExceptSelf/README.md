@@ -3584,3 +3584,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 880
 
 Three passes total; the third merges results.
+
+## entry 881
+
+Constant-time comparisons; safe for short strings.
