@@ -3658,3 +3658,7 @@ Handles empty input by returning 0.
 ## entry 900
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 901
+
+Treats the input as immutable.
