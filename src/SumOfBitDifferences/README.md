@@ -3428,3 +3428,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 842
 
 Allocates lazily — first call only.
+
+## entry 843
+
+Edge case: empty input → returns 0.
