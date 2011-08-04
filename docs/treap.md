@@ -2459,3 +2459,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 615
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 616
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
