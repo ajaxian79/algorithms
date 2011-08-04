@@ -377,3 +377,4 @@ char** generate_parens(int n, int* return_size) {
 // note 313: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 314: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 315: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 316: In-place compaction uses two pointers: read advances always, write only on keep.
