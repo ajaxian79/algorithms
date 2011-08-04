@@ -353,3 +353,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 315: Handles negative inputs as documented above.
 // edge note 316: Two passes: one to count, one to fill.
 // edge note 317: Two passes: one to count, one to fill.
+// edge note 318: Edge case: alternating pattern → degenerate case for sliding window.
