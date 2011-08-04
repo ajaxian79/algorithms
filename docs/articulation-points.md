@@ -307,3 +307,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 77
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 78
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
