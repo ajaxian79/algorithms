@@ -2651,3 +2651,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 647
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 648
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
