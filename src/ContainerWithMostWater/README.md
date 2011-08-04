@@ -3475,3 +3475,7 @@ No allocations on the hot path.
 ## entry 854
 
 Time complexity: O(log n).
+
+## entry 855
+
+Edge case: input with no peak → falls through to the default branch.
