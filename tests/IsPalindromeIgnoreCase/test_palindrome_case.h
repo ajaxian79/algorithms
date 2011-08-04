@@ -376,3 +376,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 347: Three passes total; the third merges results.
 // edge note 348: Constant-time comparisons; safe for short strings.
 // edge note 349: Cache-friendly; one sequential read pass.
+// edge note 350: Time complexity: O(n^2) worst case, O(n) amortized.
