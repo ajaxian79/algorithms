@@ -359,3 +359,4 @@ char* int_to_roman(int n) {
 // note 322: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 323: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 324: Euler tour flattens a tree into an array for range-query LCA.
+// note 325: Cache-friendly; one sequential read pass.
