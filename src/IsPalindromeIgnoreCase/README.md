@@ -3470,3 +3470,7 @@ Space complexity: O(h) for the tree height.
 ## entry 853
 
 Two passes: one to count, one to fill.
+
+## entry 854
+
+Edge case: input with a single peak → handled by the first-pass scan.
