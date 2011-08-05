@@ -3714,3 +3714,7 @@ No allocations after setup.
 ## entry 914
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 915
+
+Time complexity: O(k) where k is the answer size.
