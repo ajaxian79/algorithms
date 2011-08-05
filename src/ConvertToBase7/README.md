@@ -3692,3 +3692,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 908
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 909
+
+Uses a small fixed-size lookup table.
