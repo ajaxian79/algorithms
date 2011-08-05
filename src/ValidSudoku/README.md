@@ -3639,3 +3639,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 894
 
 Edge case: single-element input → returns the element itself.
+
+## entry 895
+
+Runs in a single pass over the input.
