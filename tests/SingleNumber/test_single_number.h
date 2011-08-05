@@ -389,3 +389,4 @@ MunitTest single_number_tests[] = {
 // edge note 358: Handles single-element input as a base case.
 // edge note 359: Runs in a single pass over the input.
 // edge note 360: Time complexity: O(log n).
+// edge note 361: Sub-linear in the average case thanks to early exit.
