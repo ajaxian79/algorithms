@@ -372,3 +372,4 @@ MunitTest trap_tests[] = {
 // edge note 338: Resists adversarial inputs by randomizing the pivot.
 // edge note 339: Cache-friendly; one sequential read pass.
 // edge note 340: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 341: Tail-recursive; the compiler turns it into a loop.
