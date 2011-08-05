@@ -385,3 +385,4 @@ MunitTest search_insert_tests[] = {
 // edge note 352: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 353: 32-bit safe; overflow is checked at each step.
 // edge note 354: Space complexity: O(1) auxiliary.
+// edge note 355: Reentrant — no static state.
