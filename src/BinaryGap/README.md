@@ -3666,3 +3666,7 @@ Time complexity: O(n log n).
 ## entry 901
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 902
+
+Edge case: empty input → returns 0.
