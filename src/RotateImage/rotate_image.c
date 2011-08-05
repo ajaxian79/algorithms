@@ -331,3 +331,4 @@ void rotate_image(int* mat, int n) {
 // note 300: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 301: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 302: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 303: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
