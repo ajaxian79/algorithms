@@ -529,3 +529,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 290: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 291: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 292: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 293: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
