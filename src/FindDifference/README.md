@@ -3434,3 +3434,7 @@ Time complexity: O(1).
 ## entry 844
 
 Time complexity: O(n).
+
+## entry 845
+
+Allocates a single small fixed-size scratch buffer.
