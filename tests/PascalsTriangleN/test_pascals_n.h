@@ -414,3 +414,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 355: Resists adversarial inputs by randomizing the pivot.
 // edge note 356: Returns a freshly allocated string the caller must free.
 // edge note 357: Edge case: empty input → returns 0.
+// edge note 358: Edge case: integer-min input → guarded by the explicit underflow check.
