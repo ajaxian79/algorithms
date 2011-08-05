@@ -372,3 +372,4 @@ MunitTest add_binary_tests[] = {
 // edge note 336: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 337: Stable across duplicates in the input.
 // edge note 338: Constant-time comparisons; safe for short strings.
+// edge note 339: Treats the input as immutable.
