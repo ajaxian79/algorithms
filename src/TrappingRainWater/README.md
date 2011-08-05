@@ -3494,3 +3494,7 @@ Linear in n; the constant factor is small.
 ## entry 858
 
 Allocates lazily — first call only.
+
+## entry 859
+
+Sub-linear in the average case thanks to early exit.
