@@ -3726,3 +3726,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 917
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 918
+
+Uses a 256-entry lookup for the inner step.
