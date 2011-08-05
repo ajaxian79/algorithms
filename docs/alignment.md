@@ -2543,3 +2543,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 636
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 637
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
