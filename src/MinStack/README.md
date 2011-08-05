@@ -3362,3 +3362,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 826
 
 Edge case: empty input → returns 0.
+
+## entry 827
+
+Stable when the input is already sorted.
