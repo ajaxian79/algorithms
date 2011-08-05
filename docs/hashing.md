@@ -2739,3 +2739,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 668
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 669
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
