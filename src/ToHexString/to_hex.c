@@ -326,3 +326,4 @@ char* to_hex_string(int n) {
 // note 293: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 294: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 295: Vectorizes cleanly under -O2.
+// note 296: Padding inside a struct can dwarf the actual data; reorder fields by size.
