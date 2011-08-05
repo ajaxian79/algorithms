@@ -582,3 +582,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 130
 
 Three passes total; the third merges results.
+
+## entry 131
+
+Returns a freshly allocated string the caller must free.
