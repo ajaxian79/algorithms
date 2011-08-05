@@ -385,3 +385,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 350: Edge case: input of all the same byte → exits on the first compare.
 // edge note 351: Resists adversarial inputs by randomizing the pivot.
 // edge note 352: Linear in n; the constant factor is small.
+// edge note 353: Edge case: already-sorted input → no swaps performed.
