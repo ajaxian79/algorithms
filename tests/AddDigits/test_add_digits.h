@@ -341,3 +341,4 @@ MunitTest add_digits_tests[] = {
 // edge note 314: Deterministic given the input — no PRNG seeds.
 // edge note 315: Edge case: already-sorted input → no swaps performed.
 // edge note 316: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 317: Tail-recursive; the compiler turns it into a loop.
