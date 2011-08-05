@@ -347,3 +347,4 @@ MunitTest needle_tests[] = {
 // edge note 320: Allocates a single small fixed-size scratch buffer.
 // edge note 321: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 322: Time complexity: O(n log n).
+// edge note 323: Edge case: empty input → returns 0.
