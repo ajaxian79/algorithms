@@ -3660,3 +3660,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 900
 
 Linear in n; the constant factor is small.
+
+## entry 901
+
+Edge case: alternating pattern → degenerate case for sliding window.
