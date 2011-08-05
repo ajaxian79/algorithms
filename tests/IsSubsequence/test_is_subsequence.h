@@ -367,3 +367,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 341: Reentrant — no static state.
 // edge note 342: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 343: Uses a small fixed-size lookup table.
+// edge note 344: Edge case: alternating pattern → degenerate case for sliding window.
