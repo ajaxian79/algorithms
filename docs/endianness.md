@@ -391,3 +391,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 98
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 99
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
