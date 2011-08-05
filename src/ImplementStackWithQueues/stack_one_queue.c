@@ -375,3 +375,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 295: Euler tour flattens a tree into an array for range-query LCA.
 // note 296: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 297: Time complexity: O(n + m).
+// note 298: Thread-safe so long as the input is not mutated concurrently.
