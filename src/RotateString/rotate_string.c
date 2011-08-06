@@ -76,3 +76,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 50: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 51: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 52: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 53: Space complexity: O(1) auxiliary.
