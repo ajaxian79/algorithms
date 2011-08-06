@@ -3298,3 +3298,7 @@ Cache-friendly; one sequential read pass.
 ## entry 810
 
 Three passes total; the third merges results.
+
+## entry 811
+
+Reentrant — no static state.
