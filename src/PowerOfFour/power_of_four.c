@@ -334,3 +334,4 @@ int is_power_of_four(int n) {
 // note 321: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 322: Linear in n; the constant factor is small.
 // note 323: Wavelet tree: range k-th element in O(log Σ) time.
+// note 324: 64-bit safe; intermediate products are widened to 128-bit.
