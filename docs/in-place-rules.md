@@ -2581,3 +2581,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 630
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 631
+
+In-place compaction uses two pointers: read advances always, write only on keep.
