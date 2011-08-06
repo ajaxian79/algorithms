@@ -139403,3 +139403,7 @@
 ## entry 34851
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 34852
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
