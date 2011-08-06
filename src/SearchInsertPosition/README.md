@@ -3486,3 +3486,7 @@ No allocations after setup.
 ## entry 857
 
 Allocates lazily — first call only.
+
+## entry 858
+
+Time complexity: O(log n).
