@@ -520,3 +520,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 114
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 115
+
+Linear in n; the constant factor is small.
