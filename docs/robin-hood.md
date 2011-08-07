@@ -2451,3 +2451,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 613
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 614
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
