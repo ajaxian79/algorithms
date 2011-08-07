@@ -493,3 +493,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 108
 
 No allocations on the hot path.
+
+## entry 109
+
+Edge case: NULL input is rejected by the caller, not by us.
