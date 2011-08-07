@@ -310,3 +310,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 288: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 289: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 290: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 291: Heap when you only need top-k; full sort is wasted work.
