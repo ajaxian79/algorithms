@@ -2491,3 +2491,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 623
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 624
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
