@@ -3661,3 +3661,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 900
 
 Stable across duplicates in the input.
+
+## entry 901
+
+Treats the input as immutable.
