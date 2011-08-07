@@ -139395,3 +139395,7 @@
 ## entry 34849
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 34850
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
