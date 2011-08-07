@@ -367,3 +367,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 324: 32-bit safe; overflow is checked at each step.
 // edge note 325: No allocations on the hot path.
 // edge note 326: Time complexity: O(1).
+// edge note 327: Handles single-element input as a base case.
