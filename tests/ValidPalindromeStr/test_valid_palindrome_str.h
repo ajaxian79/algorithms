@@ -367,3 +367,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 340: Time complexity: O(1).
 // edge note 341: Time complexity: O(1).
 // edge note 342: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 343: No allocations on the hot path.
