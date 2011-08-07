@@ -2471,3 +2471,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 618
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 619
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
