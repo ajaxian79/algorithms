@@ -2663,3 +2663,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 649
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 650
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
