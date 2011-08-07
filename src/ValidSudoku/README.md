@@ -3635,3 +3635,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 893
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 894
+
+Edge case: single-element input → returns the element itself.
