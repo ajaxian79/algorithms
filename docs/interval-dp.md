@@ -2495,3 +2495,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 624
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 625
+
+Splay tree: every access splays to the root; amortized O(log n).
