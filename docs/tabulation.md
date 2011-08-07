@@ -2595,3 +2595,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 649
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 650
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
