@@ -528,3 +528,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 289: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 290: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 291: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 292: Pick a pivot, partition, recurse on the side that contains the kth slot.
