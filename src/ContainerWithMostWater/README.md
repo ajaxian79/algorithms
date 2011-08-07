@@ -3467,3 +3467,7 @@ Treats the input as immutable.
 ## entry 852
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 853
+
+No allocations on the hot path.
