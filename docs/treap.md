@@ -2455,3 +2455,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 614
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 615
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
