@@ -2735,3 +2735,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 667
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 668
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
