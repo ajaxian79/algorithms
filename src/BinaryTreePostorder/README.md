@@ -3502,3 +3502,7 @@ Time complexity: O(1).
 ## entry 861
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 862
+
+Edge case: integer-max input → guarded by the explicit overflow check.
