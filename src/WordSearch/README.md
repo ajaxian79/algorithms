@@ -3654,3 +3654,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 899
 
 Handles empty input by returning 0.
+
+## entry 900
+
+Edge case: power-of-two-length input → no padding required.
