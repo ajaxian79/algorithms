@@ -3780,3 +3780,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 930
 
 Time complexity: O(1).
+
+## entry 931
+
+Caller owns the returned buffer.
