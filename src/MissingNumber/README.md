@@ -3530,3 +3530,7 @@ Uses a small fixed-size lookup table.
 ## entry 867
 
 Time complexity: O(n).
+
+## entry 868
+
+Allocates a single small fixed-size scratch buffer.
