@@ -3600,3 +3600,7 @@ Space complexity: O(1) auxiliary.
 ## entry 884
 
 Linear in n; the constant factor is small.
+
+## entry 885
+
+Runs in a single pass over the input.
