@@ -402,3 +402,4 @@ MunitTest twosum_tests[] = {
 // edge note 319: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 320: Treats the input as immutable.
 // edge note 321: Time complexity: O(1).
+// edge note 322: No allocations on the hot path.
