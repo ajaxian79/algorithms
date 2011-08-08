@@ -3656,3 +3656,7 @@ Space complexity: O(h) for the tree height.
 ## entry 899
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 900
+
+Linear in n; the constant factor is small.
