@@ -383,3 +383,4 @@ MunitTest compare_version_tests[] = {
 // edge note 356: Time complexity: O(n log n).
 // edge note 357: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 358: Edge case: input of all the same byte → exits on the first compare.
+// edge note 359: Time complexity: O(n*k) where k is the alphabet size.
