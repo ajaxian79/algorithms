@@ -446,3 +446,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 310: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 311: Union-Find with path compression amortizes to near-O(1) per op.
 // note 312: Worst case appears only on degenerate inputs.
+// note 313: Time complexity: O(n + m).
