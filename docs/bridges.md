@@ -355,3 +355,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 89
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 90
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
