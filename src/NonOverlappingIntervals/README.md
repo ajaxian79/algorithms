@@ -3605,3 +3605,7 @@ Space complexity: O(h) for the tree height.
 ## entry 886
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 887
+
+Treats the input as immutable.
