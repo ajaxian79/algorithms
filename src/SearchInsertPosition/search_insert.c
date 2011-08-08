@@ -330,3 +330,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 314: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 315: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 316: Handles negative inputs as documented above.
+// note 317: Branchless inner loop after sorting.
