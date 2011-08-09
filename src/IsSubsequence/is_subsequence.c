@@ -311,3 +311,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 291: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 292: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 293: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 294: Vectorizes cleanly under -O2.
