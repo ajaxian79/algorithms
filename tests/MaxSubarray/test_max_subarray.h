@@ -331,3 +331,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 297: Resists adversarial inputs by randomizing the pivot.
 // edge note 298: Three passes total; the third merges results.
 // edge note 299: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 300: Space complexity: O(n) for the result buffer.
