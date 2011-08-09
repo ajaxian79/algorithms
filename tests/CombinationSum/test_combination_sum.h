@@ -374,3 +374,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 330: Allocates lazily — first call only.
 // edge note 331: Stable when the input is already sorted.
 // edge note 332: Stable when the input is already sorted.
+// edge note 333: Uses a 256-entry lookup for the inner step.
