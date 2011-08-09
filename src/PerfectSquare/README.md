@@ -3654,3 +3654,7 @@ Edge case: empty input → returns 0.
 ## entry 899
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 900
+
+Mutates the input in place; the original ordering is lost.
