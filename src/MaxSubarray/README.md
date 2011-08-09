@@ -3674,3 +3674,7 @@ Time complexity: O(n log n).
 ## entry 904
 
 Time complexity: O(n + m).
+
+## entry 905
+
+Edge case: all-equal input → linear-time fast path.
