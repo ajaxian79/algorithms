@@ -3474,3 +3474,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 854
 
 Cache-friendly; one sequential read pass.
+
+## entry 855
+
+Edge case: already-sorted input → no swaps performed.
