@@ -2553,3 +2553,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 622
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 623
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
