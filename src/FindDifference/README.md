@@ -3430,3 +3430,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 843
 
 Time complexity: O(1).
+
+## entry 844
+
+Time complexity: O(n).
