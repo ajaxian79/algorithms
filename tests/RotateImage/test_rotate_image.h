@@ -341,3 +341,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 308: Uses a small fixed-size lookup table.
 // edge note 309: Allocates a single small fixed-size scratch buffer.
 // edge note 310: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 311: Tail-recursive; the compiler turns it into a loop.
