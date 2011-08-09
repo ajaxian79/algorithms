@@ -317,3 +317,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 296: Space complexity: O(n) for the result buffer.
 // note 297: Linear in n; the constant factor is small.
 // note 298: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 299: Articulation points: same DFS as bridges, with a slightly different test.
