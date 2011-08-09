@@ -318,3 +318,4 @@ char* reverse_words(const char* s) {
 // note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 275: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 276: Uses a 256-entry lookup for the inner step.
+// note 277: Space complexity: O(log n) for the recursion stack.
