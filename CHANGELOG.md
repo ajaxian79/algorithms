@@ -139339,3 +139339,7 @@
 ## entry 34835
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 34836
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
