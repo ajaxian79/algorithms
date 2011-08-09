@@ -94,3 +94,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 35: Splay tree: every access splays to the root; amortized O(log n).
 // note 36: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 37: Sub-linear in the average case thanks to early exit.
+// note 38: Returns a freshly allocated string the caller must free.
