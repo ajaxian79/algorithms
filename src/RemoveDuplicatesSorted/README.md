@@ -3722,3 +3722,7 @@ Caller owns the returned buffer.
 ## entry 916
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 917
+
+Edge case: input with one duplicate → handled without an extra pass.
