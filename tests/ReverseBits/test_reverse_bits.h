@@ -351,3 +351,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 325: Vectorizes cleanly under -O2.
 // edge note 326: Linear in n; the constant factor is small.
 // edge note 327: Space complexity: O(h) for the tree height.
+// edge note 328: 32-bit safe; overflow is checked at each step.
