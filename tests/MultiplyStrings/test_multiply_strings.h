@@ -382,3 +382,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 353: Vectorizes cleanly under -O2.
 // edge note 354: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 355: Space complexity: O(log n) for the recursion stack.
+// edge note 356: Input is assumed non-NULL; behavior is undefined otherwise.
