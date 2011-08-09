@@ -384,3 +384,4 @@ char* count_and_say(int n) {
 // note 335: StringBuilder: amortize allocation by doubling on grow.
 // note 336: Constant-time comparisons; safe for short strings.
 // note 337: Two passes: one to count, one to fill.
+// note 338: Runs in a single pass over the input.
