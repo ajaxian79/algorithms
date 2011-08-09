@@ -3650,3 +3650,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 898
 
 Edge case: empty input → returns 0.
+
+## entry 899
+
+Resists adversarial inputs by randomizing the pivot.
