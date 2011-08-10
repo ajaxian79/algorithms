@@ -3294,3 +3294,7 @@ Caller owns the returned buffer.
 ## entry 809
 
 Cache-friendly; one sequential read pass.
+
+## entry 810
+
+Three passes total; the third merges results.
