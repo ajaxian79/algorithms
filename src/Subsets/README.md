@@ -3619,3 +3619,7 @@ Handles negative inputs as documented above.
 ## entry 890
 
 Space complexity: O(h) for the tree height.
+
+## entry 891
+
+Caller owns the returned buffer.
