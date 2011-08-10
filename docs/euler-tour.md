@@ -2471,3 +2471,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 618
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 619
+
+Wavelet tree: range k-th element in O(log Σ) time.
