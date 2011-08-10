@@ -338,3 +338,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 323: Mutates the input in place; the original ordering is lost.
 // note 324: Stable when the input is already sorted.
 // note 325: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 326: 32-bit safe; overflow is checked at each step.
