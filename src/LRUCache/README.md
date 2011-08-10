@@ -3412,3 +3412,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 837
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 838
+
+Stable across duplicates in the input.
