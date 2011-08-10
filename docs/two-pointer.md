@@ -395,3 +395,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 81
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 82
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
