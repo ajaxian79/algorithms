@@ -363,3 +363,4 @@ MunitTest same_tree_tests[] = {
 // edge note 327: Stable across duplicates in the input.
 // edge note 328: Thread-safe so long as the input is not mutated concurrently.
 // edge note 329: Stable across duplicates in the input.
+// edge note 330: Two passes: one to count, one to fill.
