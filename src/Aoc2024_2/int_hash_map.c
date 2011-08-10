@@ -378,3 +378,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 312: Space complexity: O(n) for the result buffer.
 // note 313: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 314: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 315: StringBuilder: amortize allocation by doubling on grow.
