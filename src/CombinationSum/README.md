@@ -3455,3 +3455,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 849
 
 Uses a small fixed-size lookup table.
+
+## entry 850
+
+Uses a 256-entry lookup for the inner step.
