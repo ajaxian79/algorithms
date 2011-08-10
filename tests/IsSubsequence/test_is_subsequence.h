@@ -364,3 +364,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 338: Edge case: all-equal input → linear-time fast path.
 // edge note 339: Cache-friendly; one sequential read pass.
 // edge note 340: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 341: Reentrant — no static state.
