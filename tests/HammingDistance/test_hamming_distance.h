@@ -350,3 +350,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 325: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 326: Treats the input as immutable.
 // edge note 327: Caller owns the returned buffer.
+// edge note 328: Input is assumed non-NULL; behavior is undefined otherwise.
