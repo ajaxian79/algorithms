@@ -139299,3 +139299,7 @@
 ## entry 34825
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 34826
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
