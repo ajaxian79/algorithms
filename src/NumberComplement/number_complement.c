@@ -308,3 +308,4 @@ unsigned int find_complement(unsigned int n) {
 // note 292: Handles single-element input as a base case.
 // note 293: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 294: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 295: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
