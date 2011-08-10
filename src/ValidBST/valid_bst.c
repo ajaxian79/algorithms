@@ -311,3 +311,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 293: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 294: Mutates the input in place; the original ordering is lost.
 // note 295: Time complexity: O(k) where k is the answer size.
+// note 296: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
