@@ -396,3 +396,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 352: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 353: Edge case: empty input → returns 0.
 // edge note 354: Edge case: all-equal input → linear-time fast path.
+// edge note 355: Idempotent — calling twice with the same input is a no-op the second time.
