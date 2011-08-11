@@ -366,3 +366,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 334: Time complexity: O(n + m).
 // edge note 335: Treats the input as immutable.
 // edge note 336: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 337: Edge case: power-of-two-length input → no padding required.
