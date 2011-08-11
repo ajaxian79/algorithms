@@ -3526,3 +3526,7 @@ Time complexity: O(n log n).
 ## entry 866
 
 Uses a small fixed-size lookup table.
+
+## entry 867
+
+Time complexity: O(n).
