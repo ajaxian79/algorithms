@@ -3466,3 +3466,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 852
 
 Space complexity: O(h) for the tree height.
+
+## entry 853
+
+Two passes: one to count, one to fill.
