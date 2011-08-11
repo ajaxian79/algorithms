@@ -3463,3 +3463,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 851
 
 Treats the input as immutable.
+
+## entry 852
+
+Avoids floating-point entirely — integer math throughout.
