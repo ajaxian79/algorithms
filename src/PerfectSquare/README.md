@@ -3646,3 +3646,7 @@ Branchless inner loop after sorting.
 ## entry 897
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 898
+
+Edge case: empty input → returns 0.
