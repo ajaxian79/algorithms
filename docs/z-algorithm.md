@@ -2407,3 +2407,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 586
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 587
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
