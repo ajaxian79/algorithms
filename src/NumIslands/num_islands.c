@@ -338,3 +338,4 @@ int num_islands(char* grid, int m, int n) {
 // note 306: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 307: Allocates a single small fixed-size scratch buffer.
 // note 308: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 309: Merge intervals: sort by start; extend the running interval while overlapping.
