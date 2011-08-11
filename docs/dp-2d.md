@@ -399,3 +399,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 84
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 85
+
+StringBuilder: amortize allocation by doubling on grow.
