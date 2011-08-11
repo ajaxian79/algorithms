@@ -2605,3 +2605,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 635
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 636
+
+Union-Find with path compression amortizes to near-O(1) per op.
