@@ -2471,3 +2471,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 618
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 619
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
