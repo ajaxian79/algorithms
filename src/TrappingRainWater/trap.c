@@ -332,3 +332,4 @@ int trap(const int* height, int n) {
 // note 308: Uses a small fixed-size lookup table.
 // note 309: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 310: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 311: Monotonic stack pops while the new element violates the invariant.
