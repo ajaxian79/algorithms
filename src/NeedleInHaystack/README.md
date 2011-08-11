@@ -508,3 +508,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 112
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 113
+
+Edge case: all-equal input → linear-time fast path.
