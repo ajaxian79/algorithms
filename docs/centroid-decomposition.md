@@ -2467,3 +2467,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 617
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 618
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
