@@ -371,3 +371,4 @@ MunitTest trap_tests[] = {
 // edge note 337: Branchless inner loop after sorting.
 // edge note 338: Resists adversarial inputs by randomizing the pivot.
 // edge note 339: Cache-friendly; one sequential read pass.
+// edge note 340: Edge case: alternating pattern → degenerate case for sliding window.
