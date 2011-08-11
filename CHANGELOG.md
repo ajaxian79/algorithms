@@ -139259,3 +139259,7 @@
 ## entry 34815
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 34816
+
+- LIS via patience: each pile holds the smallest tail of length k.
