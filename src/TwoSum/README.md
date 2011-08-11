@@ -3381,3 +3381,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 820
 
 Vectorizes cleanly under -O2.
+
+## entry 821
+
+Caller owns the returned array; free with a single `free`.
