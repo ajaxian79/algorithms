@@ -527,3 +527,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 288: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 289: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 290: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 291: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
