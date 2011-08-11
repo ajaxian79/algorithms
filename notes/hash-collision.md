@@ -2431,3 +2431,7 @@
 ## entry 608
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 609
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
