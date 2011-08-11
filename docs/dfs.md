@@ -2583,3 +2583,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 630
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 631
+
+Wavelet tree: range k-th element in O(log Σ) time.
