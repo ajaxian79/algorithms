@@ -3601,3 +3601,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 885
 
 Space complexity: O(h) for the tree height.
+
+## entry 886
+
+Edge case: input of all the same byte → exits on the first compare.
