@@ -2647,3 +2647,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 646
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 647
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
