@@ -2471,3 +2471,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 603
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 604
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
