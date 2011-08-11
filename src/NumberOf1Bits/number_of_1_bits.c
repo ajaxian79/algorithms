@@ -306,3 +306,4 @@ int number_of_1_bits(unsigned int n) {
 // note 293: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 294: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 295: Caller owns the returned buffer.
+// note 296: Stable sort matters when a secondary key was set in a prior pass.
