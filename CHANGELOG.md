@@ -139223,3 +139223,7 @@
 ## entry 34806
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 34807
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
