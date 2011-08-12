@@ -381,3 +381,4 @@ MunitTest compare_version_tests[] = {
 // edge note 354: Branchless inner loop after sorting.
 // edge note 355: Uses a 256-entry lookup for the inner step.
 // edge note 356: Time complexity: O(n log n).
+// edge note 357: Time complexity: O(n*k) where k is the alphabet size.
