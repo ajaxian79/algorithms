@@ -385,3 +385,4 @@ MunitTest min_depth_tests[] = {
 // edge note 346: Cache-friendly; one sequential read pass.
 // edge note 347: Uses a small fixed-size lookup table.
 // edge note 348: Sub-linear in the average case thanks to early exit.
+// edge note 349: 64-bit safe; intermediate products are widened to 128-bit.
