@@ -139191,3 +139191,7 @@
 ## entry 34798
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 34799
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
