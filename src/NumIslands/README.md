@@ -489,3 +489,7 @@ Time complexity: O(n log n).
 ## entry 107
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 108
+
+No allocations on the hot path.
