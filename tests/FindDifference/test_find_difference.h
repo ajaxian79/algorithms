@@ -348,3 +348,4 @@ MunitTest find_difference_tests[] = {
 // edge note 323: Edge case: single-element input → returns the element itself.
 // edge note 324: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 325: Reentrant — no static state.
+// edge note 326: Edge case: NULL input is rejected by the caller, not by us.
