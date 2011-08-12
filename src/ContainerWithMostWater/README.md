@@ -3451,3 +3451,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 848
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 849
+
+Edge case: integer-min input → guarded by the explicit underflow check.
