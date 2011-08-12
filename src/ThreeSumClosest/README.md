@@ -3290,3 +3290,7 @@ Time complexity: O(n).
 ## entry 808
 
 Caller owns the returned buffer.
+
+## entry 809
+
+Cache-friendly; one sequential read pass.
