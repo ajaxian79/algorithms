@@ -3684,3 +3684,7 @@ Linear in n; the constant factor is small.
 ## entry 906
 
 Time complexity: O(1).
+
+## entry 907
+
+Edge case: integer-max input → guarded by the explicit overflow check.
