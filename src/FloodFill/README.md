@@ -3585,3 +3585,7 @@ Time complexity: O(1).
 ## entry 882
 
 Returns a freshly allocated string the caller must free.
+
+## entry 883
+
+Edge case: integer-min input → guarded by the explicit underflow check.
