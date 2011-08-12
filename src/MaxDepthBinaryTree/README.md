@@ -453,3 +453,7 @@ Handles single-element input as a base case.
 ## entry 99
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 100
+
+Sub-linear in the average case thanks to early exit.
