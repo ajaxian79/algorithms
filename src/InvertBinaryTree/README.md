@@ -3744,3 +3744,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 921
 
 Space complexity: O(h) for the tree height.
+
+## entry 922
+
+Space complexity: O(n) for the result buffer.
