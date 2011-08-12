@@ -316,3 +316,4 @@ char* reverse_words(const char* s) {
 // note 272: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 273: Mutates the input in place; the original ordering is lost.
 // note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 275: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
