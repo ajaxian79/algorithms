@@ -367,3 +367,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 336: Handles empty input by returning 0.
 // edge note 337: Time complexity: O(n log n).
 // edge note 338: Space complexity: O(n) for the result buffer.
+// edge note 339: Mutates the input in place; the original ordering is lost.
