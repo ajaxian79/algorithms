@@ -347,3 +347,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 319: Edge case: input of all the same byte → exits on the first compare.
 // edge note 320: Runs in a single pass over the input.
 // edge note 321: Time complexity: O(n).
+// edge note 322: Time complexity: O(n log n).
