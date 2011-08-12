@@ -3662,3 +3662,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 900
 
 Time complexity: O(n log n).
+
+## entry 901
+
+Edge case: all-equal input → linear-time fast path.
