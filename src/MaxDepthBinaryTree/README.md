@@ -3421,3 +3421,7 @@ Two passes: one to count, one to fill.
 ## entry 841
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 842
+
+Idempotent — calling twice with the same input is a no-op the second time.
