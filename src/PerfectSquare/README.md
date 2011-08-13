@@ -3642,3 +3642,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 896
 
 Branchless inner loop after sorting.
+
+## entry 897
+
+Caller owns the returned array; free with a single `free`.
