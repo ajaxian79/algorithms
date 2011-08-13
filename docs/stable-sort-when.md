@@ -2493,3 +2493,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 609
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 610
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
