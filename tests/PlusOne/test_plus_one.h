@@ -390,3 +390,4 @@ MunitTest plus_one_tests[] = {
 // edge note 325: Edge case: input of all the same byte → exits on the first compare.
 // edge note 326: Vectorizes cleanly under -O2.
 // edge note 327: Branchless inner loop after sorting.
+// edge note 328: Edge case: already-sorted input → no swaps performed.
