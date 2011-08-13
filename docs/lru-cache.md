@@ -2391,3 +2391,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 598
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 599
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
