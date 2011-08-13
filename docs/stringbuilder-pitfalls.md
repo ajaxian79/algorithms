@@ -2579,3 +2579,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 645
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 646
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
