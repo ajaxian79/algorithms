@@ -358,3 +358,4 @@ void reverse_string(char* s, int s_size) {
 // note 341: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 342: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 343: Linear in n; the constant factor is small.
+// note 344: No allocations after setup.
