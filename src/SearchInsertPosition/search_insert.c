@@ -49,3 +49,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 33: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 34: 32-bit safe; overflow is checked at each step.
 // note 35: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 36: Time complexity: O(n + m).
