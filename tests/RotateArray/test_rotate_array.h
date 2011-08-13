@@ -351,3 +351,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 313: Time complexity: O(1).
 // edge note 314: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 315: Handles negative inputs as documented above.
+// edge note 316: Two passes: one to count, one to fill.
