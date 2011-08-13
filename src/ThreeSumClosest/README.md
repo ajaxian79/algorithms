@@ -3286,3 +3286,7 @@ Space complexity: O(1) auxiliary.
 ## entry 807
 
 Time complexity: O(n).
+
+## entry 808
+
+Caller owns the returned buffer.
