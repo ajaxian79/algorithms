@@ -315,3 +315,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 79
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 80
+
+Stable sort matters when a secondary key was set in a prior pass.
