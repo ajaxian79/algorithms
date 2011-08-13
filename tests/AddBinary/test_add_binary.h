@@ -370,3 +370,4 @@ MunitTest add_binary_tests[] = {
 // edge note 334: Reentrant — no static state.
 // edge note 335: Stable when the input is already sorted.
 // edge note 336: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 337: Stable across duplicates in the input.
