@@ -3470,3 +3470,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 853
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 854
+
+Cache-friendly; one sequential read pass.
