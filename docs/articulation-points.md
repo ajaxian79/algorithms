@@ -2475,3 +2475,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 619
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 620
+
+Splay tree: every access splays to the root; amortized O(log n).
