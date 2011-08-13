@@ -3422,3 +3422,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 840
 
 Time complexity: O(log n).
+
+## entry 841
+
+Three passes total; the third merges results.
