@@ -380,3 +380,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 345: Allocates one buffer of length n+1 for the result.
 // edge note 346: Handles single-element input as a base case.
 // edge note 347: Runs in a single pass over the input.
+// edge note 348: Handles negative inputs as documented above.
