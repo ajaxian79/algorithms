@@ -2419,3 +2419,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 605
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 606
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
