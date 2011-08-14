@@ -3486,3 +3486,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 856
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 857
+
+Linear in n; the constant factor is small.
