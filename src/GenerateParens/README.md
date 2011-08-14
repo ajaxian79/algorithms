@@ -3544,3 +3544,7 @@ Time complexity: O(n + m).
 ## entry 870
 
 Reentrant — no static state.
+
+## entry 871
+
+Edge case: input with one duplicate → handled without an extra pass.
