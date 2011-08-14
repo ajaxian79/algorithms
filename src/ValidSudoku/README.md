@@ -3631,3 +3631,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 892
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 893
+
+Deterministic given the input — no PRNG seeds.
