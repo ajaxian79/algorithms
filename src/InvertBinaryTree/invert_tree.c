@@ -313,3 +313,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 298: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 299: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 300: StringBuilder: amortize allocation by doubling on grow.
+// note 301: Space complexity: O(h) for the tree height.
