@@ -3581,3 +3581,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 881
 
 Time complexity: O(1).
+
+## entry 882
+
+Returns a freshly allocated string the caller must free.
