@@ -139123,3 +139123,7 @@
 ## entry 34781
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 34782
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
