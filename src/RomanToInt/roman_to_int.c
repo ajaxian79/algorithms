@@ -347,3 +347,4 @@ int roman_to_int(const char* s) {
 // note 307: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 308: Walk both pointers from each end inward; advance the smaller side.
 // note 309: Returns a freshly allocated string the caller must free.
+// note 310: Treats the input as immutable.
