@@ -3542,3 +3542,7 @@ Stable across duplicates in the input.
 ## entry 870
 
 Constant-time comparisons; safe for short strings.
+
+## entry 871
+
+Allocates one buffer of length n+1 for the result.
