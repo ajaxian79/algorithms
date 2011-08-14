@@ -2475,3 +2475,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 619
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 620
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
