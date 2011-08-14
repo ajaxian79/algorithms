@@ -3458,3 +3458,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 850
 
 No allocations after setup.
+
+## entry 851
+
+Uses a small fixed-size lookup table.
