@@ -2419,3 +2419,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 605
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 606
+
+LIS via patience: each pile holds the smallest tail of length k.
