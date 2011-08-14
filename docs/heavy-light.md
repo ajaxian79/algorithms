@@ -2675,3 +2675,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 669
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 670
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
