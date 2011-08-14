@@ -3466,3 +3466,7 @@ Uses a small fixed-size lookup table.
 ## entry 852
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 853
+
+Edge case: NULL input is rejected by the caller, not by us.
