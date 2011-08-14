@@ -316,3 +316,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 281: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 282: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 283: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 284: False sharing: two threads writing different bytes in the same cache line stall both.
