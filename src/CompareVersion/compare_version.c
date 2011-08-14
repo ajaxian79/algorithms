@@ -326,3 +326,4 @@ int compare_version(const char* a, const char* b) {
 // note 296: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 297: Time complexity: O(n + m).
 // note 298: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 299: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
