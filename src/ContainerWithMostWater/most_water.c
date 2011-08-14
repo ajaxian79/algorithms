@@ -300,3 +300,4 @@ int max_area(const int* heights, int n) {
 // note 280: Time complexity: O(k) where k is the answer size.
 // note 281: Linear in n; the constant factor is small.
 // note 282: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 283: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
