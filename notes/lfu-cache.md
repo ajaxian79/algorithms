@@ -2403,3 +2403,7 @@
 ## entry 601
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 602
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
