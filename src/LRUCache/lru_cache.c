@@ -470,3 +470,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 303: Allocates a single small fixed-size scratch buffer.
 // note 304: Uses a 256-entry lookup for the inner step.
 // note 305: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 306: Linear in n; the constant factor is small.
