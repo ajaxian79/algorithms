@@ -379,3 +379,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 344: Space complexity: O(1) auxiliary.
 // edge note 345: Allocates one buffer of length n+1 for the result.
 // edge note 346: Handles single-element input as a base case.
+// edge note 347: Runs in a single pass over the input.
