@@ -315,3 +315,4 @@ char* reverse_words(const char* s) {
 // note 271: Greedy by end-time picks the most non-overlapping intervals.
 // note 272: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 273: Mutates the input in place; the original ordering is lost.
+// note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
