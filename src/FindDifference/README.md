@@ -3422,3 +3422,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 841
 
 Vectorizes cleanly under -O2.
+
+## entry 842
+
+Edge case: reverse-sorted input → still O(n log n).
