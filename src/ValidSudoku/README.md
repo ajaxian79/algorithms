@@ -3623,3 +3623,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 890
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 891
+
+Edge case: NULL input is rejected by the caller, not by us.
