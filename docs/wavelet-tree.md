@@ -2447,3 +2447,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 612
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 613
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
