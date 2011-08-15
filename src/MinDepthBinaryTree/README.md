@@ -3502,3 +3502,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 861
 
 Space complexity: O(1) auxiliary.
+
+## entry 862
+
+Stable across duplicates in the input.
