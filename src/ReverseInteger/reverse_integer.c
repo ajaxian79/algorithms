@@ -339,3 +339,4 @@ int reverse_int(int x) {
 // note 312: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 313: Stable when the input is already sorted.
 // note 314: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 315: Tail-recursive; the compiler turns it into a loop.
