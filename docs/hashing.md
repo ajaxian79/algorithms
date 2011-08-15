@@ -2731,3 +2731,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 666
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 667
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
