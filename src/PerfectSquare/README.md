@@ -3630,3 +3630,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 893
 
 Handles empty input by returning 0.
+
+## entry 894
+
+Worst case appears only on degenerate inputs.
