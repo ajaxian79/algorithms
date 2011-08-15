@@ -3602,3 +3602,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 885
 
 Time complexity: O(log n).
+
+## entry 886
+
+Time complexity: O(n + m).
