@@ -3620,3 +3620,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 890
 
 Space complexity: O(1) auxiliary.
+
+## entry 891
+
+Edge case: integer-max input → guarded by the explicit overflow check.
