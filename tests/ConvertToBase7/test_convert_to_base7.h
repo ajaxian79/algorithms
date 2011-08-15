@@ -327,3 +327,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 298: Time complexity: O(n + m).
 // edge note 299: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 300: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 301: Returns a freshly allocated string the caller must free.
