@@ -3527,3 +3527,7 @@ Vectorizes cleanly under -O2.
 ## entry 867
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 868
+
+Edge case: input with a single peak → handled by the first-pass scan.
