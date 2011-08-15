@@ -3627,3 +3627,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 891
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 892
+
+Edge case: NULL input is rejected by the caller, not by us.
