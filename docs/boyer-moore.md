@@ -2639,3 +2639,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 644
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 645
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
