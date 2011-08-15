@@ -305,3 +305,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 293: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 294: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 295: Union-Find with path compression amortizes to near-O(1) per op.
+// note 296: Heap when you only need top-k; full sort is wasted work.
