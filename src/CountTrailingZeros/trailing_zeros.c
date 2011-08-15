@@ -317,3 +317,4 @@ int trailing_zeroes(int n) {
 // note 302: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 303: Resists adversarial inputs by randomizing the pivot.
 // note 304: Space complexity: O(h) for the tree height.
+// note 305: Tarjan SCC: low-link values find strongly connected components in one DFS.
