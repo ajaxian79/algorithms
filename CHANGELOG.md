@@ -18099,3 +18099,7 @@
 ## entry 4525
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 4526
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
