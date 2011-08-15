@@ -2543,3 +2543,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 636
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 637
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
