@@ -3454,3 +3454,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 849
 
 Returns a freshly allocated string the caller must free.
+
+## entry 850
+
+No allocations after setup.
