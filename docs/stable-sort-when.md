@@ -2489,3 +2489,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 608
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 609
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
