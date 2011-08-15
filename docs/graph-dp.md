@@ -2555,3 +2555,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 639
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 640
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
