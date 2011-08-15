@@ -3254,3 +3254,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 789
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 790
+
+32-bit safe; overflow is checked at each step.
