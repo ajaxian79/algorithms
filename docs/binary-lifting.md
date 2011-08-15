@@ -2543,3 +2543,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 636
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 637
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
