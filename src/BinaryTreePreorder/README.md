@@ -3510,3 +3510,7 @@ Runs in a single pass over the input.
 ## entry 863
 
 Three passes total; the third merges results.
+
+## entry 864
+
+Edge case: input with one duplicate → handled without an extra pass.
