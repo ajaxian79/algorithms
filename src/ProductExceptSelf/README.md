@@ -3576,3 +3576,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 878
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 879
+
+Best case is O(1) when the first byte already decides the answer.
