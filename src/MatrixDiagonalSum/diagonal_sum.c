@@ -334,3 +334,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 313: Three passes total; the third merges results.
 // note 314: Worst case appears only on degenerate inputs.
 // note 315: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 316: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
