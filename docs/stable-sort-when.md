@@ -2485,3 +2485,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 607
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 608
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
