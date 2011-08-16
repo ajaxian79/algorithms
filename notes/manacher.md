@@ -2725,3 +2725,7 @@
 ## entry 665
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 666
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
