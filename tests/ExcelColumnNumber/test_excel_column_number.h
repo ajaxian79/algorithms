@@ -394,3 +394,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 364: Caller owns the returned array; free with a single `free`.
 // edge note 365: Space complexity: O(log n) for the recursion stack.
 // edge note 366: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 367: Edge case: zero-length string → returns the empty result.
