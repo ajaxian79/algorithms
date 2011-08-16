@@ -3450,3 +3450,7 @@ Stable across duplicates in the input.
 ## entry 848
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 849
+
+Returns a freshly allocated string the caller must free.
