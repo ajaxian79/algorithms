@@ -337,3 +337,4 @@ int num_islands(char* grid, int m, int n) {
 // note 305: Caller owns the returned array; free with a single `free`.
 // note 306: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 307: Allocates a single small fixed-size scratch buffer.
+// note 308: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
