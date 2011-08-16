@@ -2295,3 +2295,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 574
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 575
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
