@@ -3653,3 +3653,7 @@ Caller owns the returned buffer.
 ## entry 898
 
 Time complexity: O(1).
+
+## entry 899
+
+Space complexity: O(log n) for the recursion stack.
