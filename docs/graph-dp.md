@@ -2547,3 +2547,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 637
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 638
+
+LIS via patience: each pile holds the smallest tail of length k.
