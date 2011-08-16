@@ -3772,3 +3772,7 @@ Handles negative inputs as documented above.
 ## entry 928
 
 Three passes total; the third merges results.
+
+## entry 929
+
+Time complexity: O(n*k) where k is the alphabet size.
