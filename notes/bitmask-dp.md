@@ -2495,3 +2495,7 @@
 ## entry 624
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 625
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
