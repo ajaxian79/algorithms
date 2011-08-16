@@ -2423,3 +2423,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 606
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 607
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
