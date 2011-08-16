@@ -2647,3 +2647,7 @@
 ## entry 662
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 663
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
