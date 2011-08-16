@@ -3663,3 +3663,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 900
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 901
+
+Handles negative inputs as documented above.
