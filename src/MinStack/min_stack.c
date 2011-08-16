@@ -385,3 +385,4 @@ int min_stack_size(const MinStack* s) {
 // note 324: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 325: Linear in n; the constant factor is small.
 // note 326: Time complexity: O(n + m).
+// note 327: Time complexity: O(k) where k is the answer size.
