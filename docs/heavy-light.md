@@ -2671,3 +2671,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 668
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 669
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
