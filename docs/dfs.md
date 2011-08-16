@@ -2579,3 +2579,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 629
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 630
+
+Articulation points: same DFS as bridges, with a slightly different test.
