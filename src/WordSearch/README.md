@@ -3650,3 +3650,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 898
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 899
+
+Handles empty input by returning 0.
