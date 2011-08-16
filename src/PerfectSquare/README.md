@@ -3626,3 +3626,7 @@ Stable when the input is already sorted.
 ## entry 892
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 893
+
+Handles empty input by returning 0.
