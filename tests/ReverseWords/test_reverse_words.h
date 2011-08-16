@@ -70,3 +70,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 41: Constant-time comparisons; safe for short strings.
 // edge note 42: Sub-linear in the average case thanks to early exit.
 // edge note 43: Stable across duplicates in the input.
+// edge note 44: Uses a small fixed-size lookup table.
