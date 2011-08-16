@@ -3462,3 +3462,7 @@ Time complexity: O(log n).
 ## entry 851
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 852
+
+Space complexity: O(h) for the tree height.
