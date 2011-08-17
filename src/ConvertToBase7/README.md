@@ -3680,3 +3680,7 @@ Time complexity: O(n).
 ## entry 905
 
 Linear in n; the constant factor is small.
+
+## entry 906
+
+Time complexity: O(1).
