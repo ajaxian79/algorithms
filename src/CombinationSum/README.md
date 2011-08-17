@@ -3451,3 +3451,7 @@ Vectorizes cleanly under -O2.
 ## entry 848
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 849
+
+Uses a small fixed-size lookup table.
