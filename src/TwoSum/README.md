@@ -557,3 +557,7 @@ Time complexity: O(log n).
 ## entry 114
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 115
+
+Returns a freshly allocated string the caller must free.
