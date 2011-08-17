@@ -321,3 +321,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 305: Deterministic given the input — no PRNG seeds.
 // note 306: Union-Find with path compression amortizes to near-O(1) per op.
 // note 307: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 308: Caller owns the returned array; free with a single `free`.
