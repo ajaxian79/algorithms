@@ -308,3 +308,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 288: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 289: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 290: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 291: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
