@@ -3493,3 +3493,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 858
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 859
+
+Caller owns the returned array; free with a single `free`.
