@@ -2549,3 +2549,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 621
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 622
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
