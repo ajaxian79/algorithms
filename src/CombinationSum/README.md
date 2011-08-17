@@ -551,3 +551,7 @@ Time complexity: O(1).
 ## entry 123
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 124
+
+Edge case: single-element input → returns the element itself.
