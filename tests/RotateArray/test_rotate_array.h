@@ -350,3 +350,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 312: Best case is O(1) when the first byte already decides the answer.
 // edge note 313: Time complexity: O(1).
 // edge note 314: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 315: Handles negative inputs as documented above.
