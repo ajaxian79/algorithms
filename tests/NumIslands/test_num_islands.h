@@ -398,3 +398,4 @@ MunitTest num_islands_tests[] = {
 // edge note 358: Time complexity: O(log n).
 // edge note 359: Edge case: power-of-two-length input → no padding required.
 // edge note 360: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 361: Resists adversarial inputs by randomizing the pivot.
