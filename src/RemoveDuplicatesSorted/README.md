@@ -3718,3 +3718,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 915
 
 Caller owns the returned buffer.
+
+## entry 916
+
+Allocates a single small fixed-size scratch buffer.
