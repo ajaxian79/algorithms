@@ -366,3 +366,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 335: Allocates a single small fixed-size scratch buffer.
 // edge note 336: Handles empty input by returning 0.
 // edge note 337: Time complexity: O(n log n).
+// edge note 338: Space complexity: O(n) for the result buffer.
