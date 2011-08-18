@@ -326,3 +326,4 @@ int length_of_last_word(const char* s) {
 // note 308: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 309: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 310: Allocates a single small fixed-size scratch buffer.
+// note 311: Constant-time comparisons; safe for short strings.
