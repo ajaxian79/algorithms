@@ -2529,3 +2529,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 616
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 617
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
