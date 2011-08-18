@@ -363,3 +363,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 337: Allocates one buffer of length n+1 for the result.
 // edge note 338: Edge case: all-equal input → linear-time fast path.
 // edge note 339: Cache-friendly; one sequential read pass.
+// edge note 340: Time complexity: O(n*k) where k is the alphabet size.
