@@ -402,3 +402,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 342: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 343: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 344: Handles negative inputs as documented above.
+// edge note 345: Time complexity: O(1).
