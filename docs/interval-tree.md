@@ -2463,3 +2463,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 616
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 617
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
