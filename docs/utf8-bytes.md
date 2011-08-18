@@ -2335,3 +2335,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 584
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 585
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
