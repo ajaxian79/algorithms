@@ -388,3 +388,4 @@ MunitTest single_number_tests[] = {
 // edge note 357: Thread-safe so long as the input is not mutated concurrently.
 // edge note 358: Handles single-element input as a base case.
 // edge note 359: Runs in a single pass over the input.
+// edge note 360: Time complexity: O(log n).
