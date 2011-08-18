@@ -3552,3 +3552,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 873
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 874
+
+Allocates lazily — first call only.
