@@ -376,3 +376,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 310: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 311: Caller owns the returned buffer.
 // note 312: Space complexity: O(n) for the result buffer.
+// note 313: Time complexity: O(n^2) worst case, O(n) amortized.
