@@ -3282,3 +3282,7 @@ Worst case appears only on degenerate inputs.
 ## entry 806
 
 Space complexity: O(1) auxiliary.
+
+## entry 807
+
+Time complexity: O(n).
