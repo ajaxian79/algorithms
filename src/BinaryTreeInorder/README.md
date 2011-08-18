@@ -3574,3 +3574,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 879
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 880
+
+Edge case: zero-length string → returns the empty result.
