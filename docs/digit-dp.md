@@ -2375,3 +2375,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 594
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 595
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
