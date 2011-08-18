@@ -3536,3 +3536,7 @@ Worst case appears only on degenerate inputs.
 ## entry 868
 
 Space complexity: O(n) for the result buffer.
+
+## entry 869
+
+Time complexity: O(n + m).
