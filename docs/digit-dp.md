@@ -2371,3 +2371,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 593
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 594
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
