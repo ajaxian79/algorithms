@@ -2527,3 +2527,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 632
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 633
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
