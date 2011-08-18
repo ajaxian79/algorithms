@@ -69,3 +69,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 37: Returns a freshly allocated string the caller must free.
 // edge note 38: Linear in n; the constant factor is small.
 // edge note 39: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 40: Edge case: NULL input is rejected by the caller, not by us.
