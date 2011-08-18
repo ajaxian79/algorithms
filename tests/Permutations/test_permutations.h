@@ -371,3 +371,4 @@ MunitTest permutations_tests[] = {
 // edge note 330: Space complexity: O(log n) for the recursion stack.
 // edge note 331: Stable across duplicates in the input.
 // edge note 332: Handles negative inputs as documented above.
+// edge note 333: Uses a 256-entry lookup for the inner step.
