@@ -306,3 +306,4 @@ int is_palindrome_str(const char* s) {
 // note 281: Handles single-element input as a base case.
 // note 282: Branchless inner loop after sorting.
 // note 283: Stable when the input is already sorted.
+// note 284: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
