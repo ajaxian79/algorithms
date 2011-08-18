@@ -3478,3 +3478,7 @@ Time complexity: O(n + m).
 ## entry 855
 
 Cache-friendly; one sequential read pass.
+
+## entry 856
+
+No allocations after setup.
