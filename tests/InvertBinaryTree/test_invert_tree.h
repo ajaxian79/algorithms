@@ -355,3 +355,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 313: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 314: Runs in a single pass over the input.
 // edge note 315: Deterministic given the input — no PRNG seeds.
+// edge note 316: Three passes total; the third merges results.
