@@ -2651,3 +2651,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 646
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 647
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
