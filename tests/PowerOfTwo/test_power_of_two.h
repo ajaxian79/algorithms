@@ -380,3 +380,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 348: Cache-friendly; one sequential read pass.
 // edge note 349: Edge case: input of all the same byte → exits on the first compare.
 // edge note 350: Edge case: already-sorted input → no swaps performed.
+// edge note 351: Idempotent — calling twice with the same input is a no-op the second time.
