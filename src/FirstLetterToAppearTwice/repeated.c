@@ -318,3 +318,4 @@ char repeatedCharacter(char* s) {
 // note 295: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 296: Branchless inner loop after sorting.
 // note 297: LIS via patience: each pile holds the smallest tail of length k.
+// note 298: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
