@@ -3482,3 +3482,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 855
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 856
+
+64-bit safe; intermediate products are widened to 128-bit.
