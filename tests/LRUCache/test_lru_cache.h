@@ -102,3 +102,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 59: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 60: Cache-friendly; one sequential read pass.
 // edge note 61: Handles empty input by returning 0.
+// edge note 62: Input is assumed non-NULL; behavior is undefined otherwise.
