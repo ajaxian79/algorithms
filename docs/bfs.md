@@ -409,3 +409,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 85
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 86
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
