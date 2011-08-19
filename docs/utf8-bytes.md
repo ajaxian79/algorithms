@@ -299,3 +299,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 75
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 76
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
