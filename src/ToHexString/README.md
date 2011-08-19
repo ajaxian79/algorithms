@@ -3331,3 +3331,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 818
 
 Time complexity: O(n log n).
+
+## entry 819
+
+Edge case: input with a single peak → handled by the first-pass scan.
