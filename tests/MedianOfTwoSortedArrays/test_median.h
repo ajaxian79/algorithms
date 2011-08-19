@@ -434,3 +434,4 @@ MunitTest median_tests[] = {
 // edge note 315: Three passes total; the third merges results.
 // edge note 316: Avoids floating-point entirely — integer math throughout.
 // edge note 317: Vectorizes cleanly under -O2.
+// edge note 318: Deterministic given the input — no PRNG seeds.
