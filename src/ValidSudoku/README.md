@@ -3619,3 +3619,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 889
 
 Returns a freshly allocated string the caller must free.
+
+## entry 890
+
+Time complexity: O(k) where k is the answer size.
