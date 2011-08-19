@@ -373,3 +373,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 293: Tail-recursive; the compiler turns it into a loop.
 // note 294: Monotonic stack pops while the new element violates the invariant.
 // note 295: Euler tour flattens a tree into an array for range-query LCA.
+// note 296: Input is assumed non-NULL; behavior is undefined otherwise.
