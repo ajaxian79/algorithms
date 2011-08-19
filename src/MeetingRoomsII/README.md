@@ -534,3 +534,7 @@ No allocations after setup.
 ## entry 118
 
 Constant-time comparisons; safe for short strings.
+
+## entry 119
+
+Sub-linear in the average case thanks to early exit.
