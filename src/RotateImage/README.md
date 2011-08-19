@@ -3593,3 +3593,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 883
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 884
+
+Three passes total; the third merges results.
