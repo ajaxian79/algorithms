@@ -2647,3 +2647,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 645
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 646
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
