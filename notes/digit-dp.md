@@ -351,3 +351,7 @@
 ## entry 88
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 89
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
