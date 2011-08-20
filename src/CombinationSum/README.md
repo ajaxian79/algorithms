@@ -3447,3 +3447,7 @@ Vectorizes cleanly under -O2.
 ## entry 847
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 848
+
+Allocates one buffer of length n+1 for the result.
