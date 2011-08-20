@@ -343,3 +343,7 @@
 ## entry 86
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 87
+
+- Heap when you only need top-k; full sort is wasted work.
