@@ -347,3 +347,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 87
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 88
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
