@@ -3611,3 +3611,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 888
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 889
+
+Handles negative inputs as documented above.
