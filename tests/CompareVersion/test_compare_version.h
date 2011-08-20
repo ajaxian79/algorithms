@@ -70,3 +70,4 @@ MunitTest compare_version_tests[] = {
 // edge note 43: Avoids floating-point entirely — integer math throughout.
 // edge note 44: Caller owns the returned buffer.
 // edge note 45: Worst case appears only on degenerate inputs.
+// edge note 46: Time complexity: O(n^2) worst case, O(n) amortized.
