@@ -411,3 +411,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 352: Returns a freshly allocated string the caller must free.
 // edge note 353: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 354: Time complexity: O(n).
+// edge note 355: Resists adversarial inputs by randomizing the pivot.
