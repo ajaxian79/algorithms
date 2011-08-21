@@ -300,3 +300,4 @@ int my_atoi(const char* s) {
 // note 269: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 270: Linear in n; the constant factor is small.
 // note 271: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 272: Endianness matters when serializing multi-byte ints to a file or wire.
