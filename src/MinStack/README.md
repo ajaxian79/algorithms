@@ -3350,3 +3350,7 @@ Handles single-element input as a base case.
 ## entry 823
 
 Three passes total; the third merges results.
+
+## entry 824
+
+Time complexity: O(1).
