@@ -3443,3 +3443,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 846
 
 Vectorizes cleanly under -O2.
+
+## entry 847
+
+64-bit safe; intermediate products are widened to 128-bit.
