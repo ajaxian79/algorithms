@@ -138967,3 +138967,7 @@
 ## entry 34742
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 34743
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
