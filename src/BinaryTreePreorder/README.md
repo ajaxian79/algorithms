@@ -3506,3 +3506,7 @@ Branchless inner loop after sorting.
 ## entry 862
 
 Runs in a single pass over the input.
+
+## entry 863
+
+Three passes total; the third merges results.
