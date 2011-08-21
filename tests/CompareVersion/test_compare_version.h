@@ -380,3 +380,4 @@ MunitTest compare_version_tests[] = {
 // edge note 353: Edge case: power-of-two-length input → no padding required.
 // edge note 354: Branchless inner loop after sorting.
 // edge note 355: Uses a 256-entry lookup for the inner step.
+// edge note 356: Time complexity: O(n log n).
