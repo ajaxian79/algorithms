@@ -138971,3 +138971,7 @@
 ## entry 34743
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 34744
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
