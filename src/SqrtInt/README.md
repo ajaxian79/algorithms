@@ -3683,3 +3683,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 906
 
 Reentrant — no static state.
+
+## entry 907
+
+Edge case: already-sorted input → no swaps performed.
