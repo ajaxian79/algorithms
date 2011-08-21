@@ -3622,3 +3622,7 @@ No allocations on the hot path.
 ## entry 891
 
 Stable when the input is already sorted.
+
+## entry 892
+
+Tail-recursive; the compiler turns it into a loop.
