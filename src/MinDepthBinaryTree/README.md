@@ -3498,3 +3498,7 @@ Time complexity: O(n).
 ## entry 860
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 861
+
+Space complexity: O(1) auxiliary.
