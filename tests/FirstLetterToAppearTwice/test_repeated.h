@@ -413,3 +413,4 @@ MunitTest repeated_tests[] = {
 // edge note 357: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 358: Allocates lazily — first call only.
 // edge note 359: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 360: Space complexity: O(1) auxiliary.
