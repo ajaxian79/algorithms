@@ -522,3 +522,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 115
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 116
+
+Idempotent — calling twice with the same input is a no-op the second time.
