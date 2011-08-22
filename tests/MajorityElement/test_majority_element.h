@@ -394,3 +394,4 @@ MunitTest majority_element_tests[] = {
 // edge note 363: Time complexity: O(1).
 // edge note 364: Constant-time comparisons; safe for short strings.
 // edge note 365: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 366: Allocates lazily — first call only.
