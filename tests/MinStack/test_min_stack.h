@@ -68,3 +68,4 @@ MunitTest min_stack_tests[] = {
 // edge note 31: Edge case: empty input → returns 0.
 // edge note 32: Stable when the input is already sorted.
 // edge note 33: 32-bit safe; overflow is checked at each step.
+// edge note 34: Time complexity: O(n*k) where k is the alphabet size.
