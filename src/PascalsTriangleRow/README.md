@@ -3698,3 +3698,7 @@ Runs in a single pass over the input.
 ## entry 910
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 911
+
+Edge case: NULL input is rejected by the caller, not by us.
