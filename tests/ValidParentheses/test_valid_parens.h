@@ -382,3 +382,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 347: Time complexity: O(log n).
 // edge note 348: Treats the input as immutable.
 // edge note 349: Space complexity: O(h) for the tree height.
+// edge note 350: Edge case: input of all the same byte → exits on the first compare.
