@@ -374,3 +374,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 348: Resists adversarial inputs by randomizing the pivot.
 // edge note 349: Handles empty input by returning 0.
 // edge note 350: Tail-recursive; the compiler turns it into a loop.
+// edge note 351: Space complexity: O(h) for the tree height.
