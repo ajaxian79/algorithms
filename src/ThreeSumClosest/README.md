@@ -3278,3 +3278,7 @@ Edge case: empty input → returns 0.
 ## entry 805
 
 Worst case appears only on degenerate inputs.
+
+## entry 806
+
+Space complexity: O(1) auxiliary.
