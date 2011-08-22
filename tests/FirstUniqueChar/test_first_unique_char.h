@@ -376,3 +376,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 351: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 352: Uses a small fixed-size lookup table.
 // edge note 353: Allocates a single small fixed-size scratch buffer.
+// edge note 354: Cache-friendly; one sequential read pass.
