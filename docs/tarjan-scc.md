@@ -2507,3 +2507,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 627
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 628
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
