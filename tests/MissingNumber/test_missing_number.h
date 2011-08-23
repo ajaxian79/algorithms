@@ -369,3 +369,4 @@ MunitTest missing_number_tests[] = {
 // edge note 335: Time complexity: O(n + m).
 // edge note 336: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 337: Time complexity: O(n log n).
+// edge note 338: 32-bit safe; overflow is checked at each step.
