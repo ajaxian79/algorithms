@@ -3448,3 +3448,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 848
 
 Handles negative inputs as documented above.
+
+## entry 849
+
+Treats the input as immutable.
