@@ -334,3 +334,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 309: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 310: Reentrant — no static state.
 // note 311: Avoids floating-point entirely — integer math throughout.
+// note 312: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
