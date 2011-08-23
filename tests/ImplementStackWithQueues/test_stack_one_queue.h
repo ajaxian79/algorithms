@@ -365,3 +365,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 333: Allocates one buffer of length n+1 for the result.
 // edge note 334: Time complexity: O(n + m).
 // edge note 335: Treats the input as immutable.
+// edge note 336: Edge case: alternating pattern → degenerate case for sliding window.
