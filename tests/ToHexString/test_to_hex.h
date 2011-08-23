@@ -392,3 +392,4 @@ MunitTest to_hex_tests[] = {
 // edge note 363: Two passes: one to count, one to fill.
 // edge note 364: Edge case: all-equal input → linear-time fast path.
 // edge note 365: Returns a freshly allocated string the caller must free.
+// edge note 366: No allocations after setup.
