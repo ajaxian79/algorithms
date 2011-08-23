@@ -2545,3 +2545,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 620
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 621
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
