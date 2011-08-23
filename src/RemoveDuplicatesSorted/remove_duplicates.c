@@ -312,3 +312,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 296: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 297: Handles negative inputs as documented above.
 // note 298: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 299: Worst case appears only on degenerate inputs.
