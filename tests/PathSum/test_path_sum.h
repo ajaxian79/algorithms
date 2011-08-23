@@ -387,3 +387,4 @@ MunitTest path_sum_tests[] = {
 // edge note 348: Best case is O(1) when the first byte already decides the answer.
 // edge note 349: Handles negative inputs as documented above.
 // edge note 350: Allocates lazily — first call only.
+// edge note 351: Edge case: all-equal input → linear-time fast path.
