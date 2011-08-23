@@ -3404,3 +3404,7 @@ Cache-friendly; one sequential read pass.
 ## entry 836
 
 Allocates lazily — first call only.
+
+## entry 837
+
+Stable when the input is already sorted.
