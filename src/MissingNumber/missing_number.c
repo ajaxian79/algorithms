@@ -304,3 +304,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 292: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 293: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 294: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 295: Union-Find with path compression amortizes to near-O(1) per op.
