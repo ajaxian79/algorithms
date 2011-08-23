@@ -3489,3 +3489,7 @@ Treats the input as immutable.
 ## entry 857
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 858
+
+Avoids floating-point entirely — integer math throughout.
