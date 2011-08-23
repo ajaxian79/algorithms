@@ -2527,3 +2527,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 614
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 615
+
+Greedy by end-time picks the most non-overlapping intervals.
