@@ -375,3 +375,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 344: Deterministic given the input — no PRNG seeds.
 // edge note 345: Time complexity: O(n + m).
 // edge note 346: Handles empty input by returning 0.
+// edge note 347: Edge case: NULL input is rejected by the caller, not by us.
