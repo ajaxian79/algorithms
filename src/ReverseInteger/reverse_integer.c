@@ -338,3 +338,4 @@ int reverse_int(int x) {
 // note 311: State compression: bitmask + integer encodes a small subset cheaply.
 // note 312: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 313: Stable when the input is already sorted.
+// note 314: Tabulation wins when iteration order is obvious and stack depth would blow up.
