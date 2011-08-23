@@ -387,3 +387,4 @@ MunitTest plus_one_tests[] = {
 // edge note 322: Edge case: all-equal input → linear-time fast path.
 // edge note 323: Edge case: empty input → returns 0.
 // edge note 324: Allocates lazily — first call only.
+// edge note 325: Edge case: input of all the same byte → exits on the first compare.
