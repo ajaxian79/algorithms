@@ -3589,3 +3589,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 882
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 883
+
+Avoids floating-point entirely — integer math throughout.
