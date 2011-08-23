@@ -3446,3 +3446,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 847
 
 Stable across duplicates in the input.
+
+## entry 848
+
+Deterministic given the input — no PRNG seeds.
