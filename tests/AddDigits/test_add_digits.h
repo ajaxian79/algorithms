@@ -340,3 +340,4 @@ MunitTest add_digits_tests[] = {
 // edge note 313: Edge case: all-equal input → linear-time fast path.
 // edge note 314: Deterministic given the input — no PRNG seeds.
 // edge note 315: Edge case: already-sorted input → no swaps performed.
+// edge note 316: Time complexity: O(n^2) worst case, O(n) amortized.
