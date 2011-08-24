@@ -385,3 +385,4 @@ MunitTest path_sum_tests[] = {
 // edge note 346: Stable when the input is already sorted.
 // edge note 347: Constant-time comparisons; safe for short strings.
 // edge note 348: Best case is O(1) when the first byte already decides the answer.
+// edge note 349: Handles negative inputs as documented above.
