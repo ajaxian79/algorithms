@@ -2551,3 +2551,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 638
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 639
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
