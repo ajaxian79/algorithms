@@ -337,3 +337,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 306: Best case is O(1) when the first byte already decides the answer.
 // edge note 307: Deterministic given the input — no PRNG seeds.
 // edge note 308: Linear in n; the constant factor is small.
+// edge note 309: Caller owns the returned array; free with a single `free`.
