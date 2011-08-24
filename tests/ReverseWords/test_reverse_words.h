@@ -388,3 +388,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 359: Space complexity: O(n) for the result buffer.
 // edge note 360: Edge case: input with no peak → falls through to the default branch.
 // edge note 361: Allocates a single small fixed-size scratch buffer.
+// edge note 362: Returns a freshly allocated string the caller must free.
