@@ -323,3 +323,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 280: Time complexity: O(n + m).
 // note 281: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 282: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 283: DFS on a grid: write a sentinel into the visited cell; restore if needed.
