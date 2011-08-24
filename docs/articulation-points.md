@@ -2471,3 +2471,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 618
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 619
+
+Euler tour flattens a tree into an array for range-query LCA.
