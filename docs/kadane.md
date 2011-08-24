@@ -2395,3 +2395,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 583
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 584
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
