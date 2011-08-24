@@ -3532,3 +3532,7 @@ Time complexity: O(log n).
 ## entry 867
 
 Worst case appears only on degenerate inputs.
+
+## entry 868
+
+Space complexity: O(n) for the result buffer.
