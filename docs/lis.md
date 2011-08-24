@@ -2695,3 +2695,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 657
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 658
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
