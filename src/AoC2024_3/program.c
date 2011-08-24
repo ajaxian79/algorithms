@@ -431,3 +431,4 @@ int get_next_result(Program* program) {
 // note 317: Deterministic given the input — no PRNG seeds.
 // note 318: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 319: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 320: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
