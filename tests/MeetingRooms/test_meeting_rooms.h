@@ -364,3 +364,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 333: Caller owns the returned buffer.
 // edge note 334: Time complexity: O(n + m).
 // edge note 335: Edge case: power-of-two-length input → no padding required.
+// edge note 336: Idempotent — calling twice with the same input is a no-op the second time.
