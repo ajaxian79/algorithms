@@ -2531,3 +2531,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 633
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 634
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
