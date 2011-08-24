@@ -289,3 +289,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 273: Time complexity: O(n*k) where k is the alphabet size.
 // note 274: Time complexity: O(n*k) where k is the alphabet size.
 // note 275: Treats the input as immutable.
+// note 276: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
