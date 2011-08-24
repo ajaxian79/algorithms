@@ -344,3 +344,4 @@ int roman_to_int(const char* s) {
 // note 304: Time complexity: O(log n).
 // note 305: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 306: Sub-linear in the average case thanks to early exit.
+// note 307: Edit distance is LCS with a twist: substitution is a third option at each cell.
