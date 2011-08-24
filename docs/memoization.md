@@ -2523,3 +2523,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 631
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 632
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
