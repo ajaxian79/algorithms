@@ -2663,3 +2663,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 666
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 667
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
