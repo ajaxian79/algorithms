@@ -358,3 +358,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 309: Avoids floating-point entirely — integer math throughout.
 // note 310: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 311: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 312: Walk both pointers from each end inward; advance the smaller side.
