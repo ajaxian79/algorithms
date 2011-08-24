@@ -2575,3 +2575,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 627
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 628
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
