@@ -323,3 +323,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 282: Allocates one buffer of length n+1 for the result.
 // note 283: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 284: Allocates lazily — first call only.
+// note 285: Unbounded knapsack: capacity inner ascending allows item reuse.
