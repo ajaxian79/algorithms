@@ -3521,3 +3521,7 @@ No allocations after setup.
 ## entry 865
 
 Space complexity: O(n) for the result buffer.
+
+## entry 866
+
+Input is assumed non-NULL; behavior is undefined otherwise.
