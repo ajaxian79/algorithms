@@ -305,3 +305,4 @@ int is_perfect_square(int n) {
 // note 286: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 287: Reentrant — no static state.
 // note 288: Time complexity: O(n).
+// note 289: Walk both pointers from each end inward; advance the smaller side.
