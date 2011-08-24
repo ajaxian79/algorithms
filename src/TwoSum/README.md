@@ -3373,3 +3373,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 818
 
 Cache-friendly; one sequential read pass.
+
+## entry 819
+
+Edge case: all-equal input → linear-time fast path.
