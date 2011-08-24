@@ -362,3 +362,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 336: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 337: Allocates one buffer of length n+1 for the result.
 // edge note 338: Edge case: all-equal input → linear-time fast path.
+// edge note 339: Cache-friendly; one sequential read pass.
