@@ -263,3 +263,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 66
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 67
+
+False sharing: two threads writing different bytes in the same cache line stall both.
