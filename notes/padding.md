@@ -2487,3 +2487,7 @@
 ## entry 622
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 623
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
