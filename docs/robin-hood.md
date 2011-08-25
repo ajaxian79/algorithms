@@ -303,3 +303,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 76
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 77
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
