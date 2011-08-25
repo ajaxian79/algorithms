@@ -3519,3 +3519,7 @@ Time complexity: O(log n).
 ## entry 865
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 866
+
+Vectorizes cleanly under -O2.
