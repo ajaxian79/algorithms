@@ -570,3 +570,7 @@ Handles empty input by returning 0.
 ## entry 128
 
 Edge case: empty input → returns 0.
+
+## entry 129
+
+Linear in n; the constant factor is small.
