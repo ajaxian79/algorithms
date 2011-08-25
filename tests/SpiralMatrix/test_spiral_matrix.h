@@ -369,3 +369,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 326: Constant-time comparisons; safe for short strings.
 // edge note 327: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 328: Tail-recursive; the compiler turns it into a loop.
+// edge note 329: Two passes: one to count, one to fill.
