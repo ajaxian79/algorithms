@@ -2527,3 +2527,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 632
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 633
+
+Endianness matters when serializing multi-byte ints to a file or wire.
