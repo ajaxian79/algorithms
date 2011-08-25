@@ -345,3 +345,4 @@ MunitTest needle_tests[] = {
 // edge note 318: Stable when the input is already sorted.
 // edge note 319: No allocations after setup.
 // edge note 320: Allocates a single small fixed-size scratch buffer.
+// edge note 321: Edge case: input with one duplicate → handled without an extra pass.
