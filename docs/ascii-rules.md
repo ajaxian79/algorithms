@@ -355,3 +355,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 89
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 90
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
