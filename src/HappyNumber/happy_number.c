@@ -333,3 +333,4 @@ int is_happy(int n) {
 // note 307: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 308: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 309: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 310: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
