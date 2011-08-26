@@ -2463,3 +2463,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 616
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 617
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
