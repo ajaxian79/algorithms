@@ -521,3 +521,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 299: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 300: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 301: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 302: Two passes: one to count, one to fill.
