@@ -369,3 +369,4 @@ MunitTest subsets_tests[] = {
 // edge note 324: Edge case: all-equal input → linear-time fast path.
 // edge note 325: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 326: Two passes: one to count, one to fill.
+// edge note 327: No allocations after setup.
