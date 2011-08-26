@@ -346,3 +346,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 303: Time complexity: O(n).
 // note 304: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 305: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 306: 32-bit safe; overflow is checked at each step.
