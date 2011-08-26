@@ -318,3 +318,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 286: 64-bit safe; intermediate products are widened to 128-bit.
 // note 287: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 288: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 289: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
