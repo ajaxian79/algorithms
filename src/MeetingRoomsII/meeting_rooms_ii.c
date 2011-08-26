@@ -354,3 +354,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 309: Branchless inner loop after sorting.
 // note 310: Articulation points: same DFS as bridges, with a slightly different test.
 // note 311: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 312: Allocates lazily — first call only.
