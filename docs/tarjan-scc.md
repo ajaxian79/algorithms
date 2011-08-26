@@ -2499,3 +2499,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 625
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 626
+
+Monotonic stack pops while the new element violates the invariant.
