@@ -375,3 +375,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 347: Caller owns the returned buffer.
 // edge note 348: Two passes: one to count, one to fill.
 // edge note 349: Deterministic given the input — no PRNG seeds.
+// edge note 350: Sub-linear in the average case thanks to early exit.
