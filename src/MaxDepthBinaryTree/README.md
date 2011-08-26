@@ -3413,3 +3413,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 839
 
 Vectorizes cleanly under -O2.
+
+## entry 840
+
+Two passes: one to count, one to fill.
