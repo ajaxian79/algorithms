@@ -2375,3 +2375,7 @@
 ## entry 576
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 577
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
