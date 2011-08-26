@@ -370,3 +370,4 @@ MunitTest subsets_tests[] = {
 // edge note 325: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 326: Two passes: one to count, one to fill.
 // edge note 327: No allocations after setup.
+// edge note 328: Avoids floating-point entirely — integer math throughout.
