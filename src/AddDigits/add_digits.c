@@ -308,3 +308,4 @@ int add_digits(int n) {
 // note 297: Time complexity: O(log n).
 // note 298: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 299: State compression: bitmask + integer encodes a small subset cheaply.
+// note 300: Two passes: one to count, one to fill.
