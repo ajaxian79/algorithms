@@ -299,3 +299,4 @@ int my_atoi(const char* s) {
 // note 268: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 269: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 270: Linear in n; the constant factor is small.
+// note 271: Merge intervals: sort by start; extend the running interval while overlapping.
