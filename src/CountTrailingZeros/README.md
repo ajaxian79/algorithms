@@ -3590,3 +3590,7 @@ Runs in a single pass over the input.
 ## entry 882
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 883
+
+Idempotent — calling twice with the same input is a no-op the second time.
