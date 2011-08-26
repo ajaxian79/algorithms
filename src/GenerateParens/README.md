@@ -3528,3 +3528,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 866
 
 Time complexity: O(log n).
+
+## entry 867
+
+Worst case appears only on degenerate inputs.
