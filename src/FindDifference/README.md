@@ -3414,3 +3414,7 @@ Handles empty input by returning 0.
 ## entry 839
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 840
+
+Thread-safe so long as the input is not mutated concurrently.
