@@ -2591,3 +2591,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 648
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 649
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
