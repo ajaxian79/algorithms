@@ -307,3 +307,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 285: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 286: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 287: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 288: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
