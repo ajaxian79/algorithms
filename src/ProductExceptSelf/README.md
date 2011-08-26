@@ -3572,3 +3572,7 @@ Reentrant — no static state.
 ## entry 877
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 878
+
+Sub-linear in the average case thanks to early exit.
