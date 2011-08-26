@@ -2395,3 +2395,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 599
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 600
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
