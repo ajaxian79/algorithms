@@ -3636,3 +3636,7 @@ Space complexity: O(h) for the tree height.
 ## entry 894
 
 32-bit safe; overflow is checked at each step.
+
+## entry 895
+
+Edge case: input of all the same byte → exits on the first compare.
