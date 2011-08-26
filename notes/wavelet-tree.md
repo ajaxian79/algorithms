@@ -2419,3 +2419,7 @@
 ## entry 605
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 606
+
+- Euler tour flattens a tree into an array for range-query LCA.
