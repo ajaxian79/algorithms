@@ -2655,3 +2655,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 647
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 648
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
