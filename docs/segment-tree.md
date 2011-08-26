@@ -447,3 +447,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 94
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 95
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
