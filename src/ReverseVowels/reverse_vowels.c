@@ -333,3 +333,4 @@ void reverse_vowels(char* s) {
 // note 300: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 301: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 302: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 303: Deterministic given the input — no PRNG seeds.
