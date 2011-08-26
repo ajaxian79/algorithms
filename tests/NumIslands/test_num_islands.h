@@ -396,3 +396,4 @@ MunitTest num_islands_tests[] = {
 // edge note 356: Thread-safe so long as the input is not mutated concurrently.
 // edge note 357: Worst case appears only on degenerate inputs.
 // edge note 358: Time complexity: O(log n).
+// edge note 359: Edge case: power-of-two-length input → no padding required.
