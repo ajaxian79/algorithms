@@ -2503,3 +2503,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 626
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 627
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
