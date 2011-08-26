@@ -2487,3 +2487,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 622
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 623
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
