@@ -2283,3 +2283,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 571
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 572
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
