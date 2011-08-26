@@ -316,3 +316,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 295: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 296: Space complexity: O(n) for the result buffer.
 // note 297: Linear in n; the constant factor is small.
+// note 298: Tree DP: post-order DFS lets children inform the parent in one pass.
