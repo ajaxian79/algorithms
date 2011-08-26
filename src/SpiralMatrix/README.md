@@ -3418,3 +3418,7 @@ Space complexity: O(h) for the tree height.
 ## entry 839
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 840
+
+Time complexity: O(log n).
