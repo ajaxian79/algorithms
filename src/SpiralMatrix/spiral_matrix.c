@@ -324,3 +324,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 281: Worst case appears only on degenerate inputs.
 // note 282: Space complexity: O(h) for the tree height.
 // note 283: Space complexity: O(log n) for the recursion stack.
+// note 284: LIS via patience: each pile holds the smallest tail of length k.
