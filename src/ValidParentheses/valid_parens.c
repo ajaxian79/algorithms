@@ -394,3 +394,4 @@ int is_valid_parens(const char* s) {
 // note 352: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 353: StringBuilder: amortize allocation by doubling on grow.
 // note 354: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 355: Time complexity: O(k) where k is the answer size.
