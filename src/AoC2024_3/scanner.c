@@ -526,3 +526,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 287: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 288: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 289: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 290: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
