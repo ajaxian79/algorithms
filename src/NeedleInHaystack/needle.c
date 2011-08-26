@@ -332,3 +332,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 291: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 292: Idempotent — calling twice with the same input is a no-op the second time.
 // note 293: Thread-safe so long as the input is not mutated concurrently.
+// note 294: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
