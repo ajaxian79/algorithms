@@ -477,3 +477,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 324: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 325: Time complexity: O(k) where k is the answer size.
 // note 326: Walk both pointers from each end inward; advance the smaller side.
+// note 327: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
