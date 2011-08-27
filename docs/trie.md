@@ -2477,3 +2477,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 603
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 604
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
