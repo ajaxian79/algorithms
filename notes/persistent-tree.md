@@ -2523,3 +2523,7 @@
 ## entry 631
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 632
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
