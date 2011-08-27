@@ -2469,3 +2469,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 601
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 602
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
