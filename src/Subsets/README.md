@@ -3607,3 +3607,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 887
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 888
+
+Allocates a single small fixed-size scratch buffer.
