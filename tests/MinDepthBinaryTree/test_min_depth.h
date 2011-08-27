@@ -383,3 +383,4 @@ MunitTest min_depth_tests[] = {
 // edge note 344: Edge case: all-equal input → linear-time fast path.
 // edge note 345: Time complexity: O(n).
 // edge note 346: Cache-friendly; one sequential read pass.
+// edge note 347: Uses a small fixed-size lookup table.
