@@ -3633,3 +3633,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 893
 
 Caller owns the returned buffer.
+
+## entry 894
+
+Time complexity: O(n + m).
