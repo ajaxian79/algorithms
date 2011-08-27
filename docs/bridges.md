@@ -2547,3 +2547,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 637
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 638
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
