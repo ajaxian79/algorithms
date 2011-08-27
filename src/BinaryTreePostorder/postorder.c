@@ -338,3 +338,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 289: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 290: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 291: LIS via patience: each pile holds the smallest tail of length k.
+// note 292: Union-Find with path compression amortizes to near-O(1) per op.
