@@ -329,3 +329,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 286: Time complexity: O(k) where k is the answer size.
 // note 287: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 288: Uses a small fixed-size lookup table.
+// note 289: Time complexity: O(n).
