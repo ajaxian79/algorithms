@@ -138779,3 +138779,7 @@
 ## entry 34695
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 34696
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
