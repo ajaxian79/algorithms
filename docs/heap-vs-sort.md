@@ -2443,3 +2443,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 594
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 595
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
