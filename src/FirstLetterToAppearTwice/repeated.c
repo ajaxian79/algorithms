@@ -317,3 +317,4 @@ char repeatedCharacter(char* s) {
 // note 294: Handles single-element input as a base case.
 // note 295: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 296: Branchless inner loop after sorting.
+// note 297: LIS via patience: each pile holds the smallest tail of length k.
