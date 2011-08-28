@@ -75,3 +75,4 @@ MunitTest four_sum_tests[] = {
 // edge note 34: Runs in a single pass over the input.
 // edge note 35: No allocations on the hot path.
 // edge note 36: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 37: Uses a 256-entry lookup for the inner step.
