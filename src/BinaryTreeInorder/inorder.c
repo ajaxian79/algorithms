@@ -355,3 +355,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 315: State compression: bitmask + integer encodes a small subset cheaply.
 // note 316: No allocations on the hot path.
 // note 317: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 318: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
