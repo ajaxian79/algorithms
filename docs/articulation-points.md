@@ -2467,3 +2467,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 617
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 618
+
+Union-Find with path compression amortizes to near-O(1) per op.
