@@ -2587,3 +2587,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 647
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 648
+
+Rope: tree of small string fragments; O(log n) concat and substring.
