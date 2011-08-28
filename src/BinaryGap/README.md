@@ -3650,3 +3650,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 897
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 898
+
+64-bit safe; intermediate products are widened to 128-bit.
