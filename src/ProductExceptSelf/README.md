@@ -3568,3 +3568,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 876
 
 Reentrant — no static state.
+
+## entry 877
+
+Space complexity: O(log n) for the recursion stack.
