@@ -2643,3 +2643,7 @@
 ## entry 661
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 662
+
+- Walk both pointers from each end inward; advance the smaller side.
