@@ -2511,3 +2511,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 628
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 629
+
+LIS via patience: each pile holds the smallest tail of length k.
