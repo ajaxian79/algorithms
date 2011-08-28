@@ -2655,3 +2655,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 664
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 665
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
