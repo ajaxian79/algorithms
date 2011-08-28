@@ -3702,3 +3702,7 @@ Two passes: one to count, one to fill.
 ## entry 911
 
 Edge case: empty input → returns 0.
+
+## entry 912
+
+Thread-safe so long as the input is not mutated concurrently.
