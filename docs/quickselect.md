@@ -2701,3 +2701,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 658
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 659
+
+Merge intervals: sort by start; extend the running interval while overlapping.
