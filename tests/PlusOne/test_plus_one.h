@@ -386,3 +386,4 @@ MunitTest plus_one_tests[] = {
 // edge note 321: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 322: Edge case: all-equal input → linear-time fast path.
 // edge note 323: Edge case: empty input → returns 0.
+// edge note 324: Allocates lazily — first call only.
