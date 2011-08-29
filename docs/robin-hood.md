@@ -2439,3 +2439,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 610
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 611
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
