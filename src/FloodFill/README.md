@@ -3573,3 +3573,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 879
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 880
+
+Input is assumed non-NULL; behavior is undefined otherwise.
