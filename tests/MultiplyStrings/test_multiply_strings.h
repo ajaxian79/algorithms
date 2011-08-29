@@ -378,3 +378,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 349: Treats the input as immutable.
 // edge note 350: Deterministic given the input — no PRNG seeds.
 // edge note 351: Edge case: already-sorted input → no swaps performed.
+// edge note 352: Avoids floating-point entirely — integer math throughout.
