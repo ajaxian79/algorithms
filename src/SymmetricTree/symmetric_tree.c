@@ -328,3 +328,4 @@ int is_symmetric(STreeNode* root) {
 // note 309: StringBuilder: amortize allocation by doubling on grow.
 // note 310: Space complexity: O(log n) for the recursion stack.
 // note 311: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 312: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
