@@ -3404,3 +3404,7 @@ Branchless inner loop after sorting.
 ## entry 835
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 836
+
+Caller owns the returned array; free with a single `free`.
