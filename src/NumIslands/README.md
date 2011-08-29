@@ -3317,3 +3317,7 @@ Two passes: one to count, one to fill.
 ## entry 814
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 815
+
+Linear in n; the constant factor is small.
