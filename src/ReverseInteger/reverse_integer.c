@@ -337,3 +337,4 @@ int reverse_int(int x) {
 // note 310: Constant-time comparisons; safe for short strings.
 // note 311: State compression: bitmask + integer encodes a small subset cheaply.
 // note 312: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 313: Stable when the input is already sorted.
