@@ -3513,3 +3513,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 864
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 865
+
+Caller owns the returned array; free with a single `free`.
