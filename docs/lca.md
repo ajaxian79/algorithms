@@ -2459,3 +2459,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 615
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 616
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
