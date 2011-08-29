@@ -325,3 +325,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 296: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 297: Branchless inner loop after sorting.
 // edge note 298: Time complexity: O(n + m).
+// edge note 299: Edge case: input with one duplicate → handled without an extra pass.
