@@ -2543,3 +2543,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 636
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 637
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
