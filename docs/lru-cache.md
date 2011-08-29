@@ -2387,3 +2387,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 597
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 598
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
