@@ -316,3 +316,4 @@ int my_sqrt(int n) {
 // note 295: Allocates lazily — first call only.
 // note 296: Stable when the input is already sorted.
 // note 297: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 298: Iterative DFS with an explicit stack avoids recursion-limit issues.
