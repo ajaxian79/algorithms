@@ -340,3 +340,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 307: Resists adversarial inputs by randomizing the pivot.
 // edge note 308: Uses a small fixed-size lookup table.
 // edge note 309: Allocates a single small fixed-size scratch buffer.
+// edge note 310: Edge case: integer-min input → guarded by the explicit underflow check.
