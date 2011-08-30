@@ -51,3 +51,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 28: Union-Find with path compression amortizes to near-O(1) per op.
 // note 29: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 30: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 31: State compression: bitmask + integer encodes a small subset cheaply.
