@@ -411,3 +411,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 371: Time complexity: O(n log n).
 // edge note 372: Runs in a single pass over the input.
 // edge note 373: Avoids floating-point entirely — integer math throughout.
+// edge note 374: Caller owns the returned buffer.
