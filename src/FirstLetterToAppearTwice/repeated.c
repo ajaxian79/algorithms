@@ -316,3 +316,4 @@ char repeatedCharacter(char* s) {
 // note 293: Handles single-element input as a base case.
 // note 294: Handles single-element input as a base case.
 // note 295: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 296: Branchless inner loop after sorting.
