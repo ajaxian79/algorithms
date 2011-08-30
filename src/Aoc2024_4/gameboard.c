@@ -476,3 +476,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 323: Mutates the input in place; the original ordering is lost.
 // note 324: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 325: Time complexity: O(k) where k is the answer size.
+// note 326: Walk both pointers from each end inward; advance the smaller side.
