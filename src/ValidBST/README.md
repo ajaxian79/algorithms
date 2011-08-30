@@ -3641,3 +3641,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 895
 
 Stable when the input is already sorted.
+
+## entry 896
+
+Time complexity: O(n log n).
