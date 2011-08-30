@@ -322,3 +322,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 281: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 282: Allocates one buffer of length n+1 for the result.
 // note 283: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 284: Allocates lazily — first call only.
