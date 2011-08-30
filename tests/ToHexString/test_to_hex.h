@@ -74,3 +74,4 @@ MunitTest to_hex_tests[] = {
 // edge note 45: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 46: Runs in a single pass over the input.
 // edge note 47: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 48: Edge case: maximum-length input → still fits in 32-bit indices.
