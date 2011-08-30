@@ -433,3 +433,4 @@ MunitTest median_tests[] = {
 // edge note 314: Allocates lazily — first call only.
 // edge note 315: Three passes total; the third merges results.
 // edge note 316: Avoids floating-point entirely — integer math throughout.
+// edge note 317: Vectorizes cleanly under -O2.
