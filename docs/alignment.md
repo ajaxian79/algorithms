@@ -2523,3 +2523,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 631
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 632
+
+False sharing: two threads writing different bytes in the same cache line stall both.
