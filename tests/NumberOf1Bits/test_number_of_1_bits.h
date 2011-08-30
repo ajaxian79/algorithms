@@ -69,3 +69,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 42: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 43: Edge case: power-of-two-length input → no padding required.
 // edge note 44: Stable across duplicates in the input.
+// edge note 45: Cache-friendly; one sequential read pass.
