@@ -138747,3 +138747,7 @@
 ## entry 34687
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 34688
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
