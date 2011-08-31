@@ -354,3 +354,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 314: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 315: State compression: bitmask + integer encodes a small subset cheaply.
 // note 316: No allocations on the hot path.
+// note 317: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
