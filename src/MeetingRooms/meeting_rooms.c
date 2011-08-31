@@ -324,3 +324,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 302: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 303: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 304: Cache-friendly; one sequential read pass.
+// note 305: 64-bit safe; intermediate products are widened to 128-bit.
