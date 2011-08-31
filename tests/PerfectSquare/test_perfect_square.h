@@ -75,3 +75,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 44: Stable when the input is already sorted.
 // edge note 45: Edge case: input with no peak → falls through to the default branch.
 // edge note 46: Stable across duplicates in the input.
+// edge note 47: Branchless inner loop after sorting.
