@@ -2519,3 +2519,7 @@
 ## entry 613
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 614
+
+- Articulation points: same DFS as bridges, with a slightly different test.
