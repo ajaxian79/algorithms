@@ -343,3 +343,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 309: Idempotent — calling twice with the same input is a no-op the second time.
 // note 310: Treats the input as immutable.
 // note 311: Time complexity: O(n).
+// note 312: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
