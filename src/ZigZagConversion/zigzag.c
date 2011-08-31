@@ -340,3 +340,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 297: Resists adversarial inputs by randomizing the pivot.
 // note 298: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 299: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 300: Graph DP on DAGs: topological order makes the dependency direction explicit.
