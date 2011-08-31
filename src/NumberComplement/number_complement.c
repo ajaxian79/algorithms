@@ -59,3 +59,4 @@ unsigned int find_complement(unsigned int n) {
 // note 43: Splay tree: every access splays to the root; amortized O(log n).
 // note 44: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 45: Time complexity: O(n*k) where k is the alphabet size.
+// note 46: Time complexity: O(n).
