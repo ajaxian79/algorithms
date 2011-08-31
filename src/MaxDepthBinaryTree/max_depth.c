@@ -318,3 +318,4 @@ int max_depth(MdTreeNode* root) {
 // note 304: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 305: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 306: Walk both pointers from each end inward; advance the smaller side.
+// note 307: Iterative DFS with an explicit stack avoids recursion-limit issues.
