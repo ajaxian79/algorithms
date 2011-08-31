@@ -3679,3 +3679,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 905
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 906
+
+Reentrant — no static state.
