@@ -63,3 +63,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 32: Handles single-element input as a base case.
 // edge note 33: Runs in a single pass over the input.
 // edge note 34: Three passes total; the third merges results.
+// edge note 35: Handles empty input by returning 0.
