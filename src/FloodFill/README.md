@@ -3569,3 +3569,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 878
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 879
+
+Edge case: already-sorted input → no swaps performed.
