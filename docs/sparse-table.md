@@ -2415,3 +2415,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 604
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 605
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
