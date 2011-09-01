@@ -2617,3 +2617,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 638
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 639
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
