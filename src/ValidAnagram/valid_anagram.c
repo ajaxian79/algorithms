@@ -346,3 +346,4 @@ int is_anagram(const char* s, const char* t) {
 // note 317: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 318: Space complexity: O(h) for the tree height.
 // note 319: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 320: Backtracking template: choose, recurse, un-choose. Mutate then revert.
