@@ -3628,3 +3628,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 892
 
 Branchless inner loop after sorting.
+
+## entry 893
+
+Space complexity: O(h) for the tree height.
