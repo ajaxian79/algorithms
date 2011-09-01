@@ -582,3 +582,7 @@ No allocations after setup.
 ## entry 131
 
 Stable across duplicates in the input.
+
+## entry 132
+
+Handles empty input by returning 0.
