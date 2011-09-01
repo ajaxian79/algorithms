@@ -3515,3 +3515,7 @@ Space complexity: O(1) auxiliary.
 ## entry 864
 
 Time complexity: O(log n).
+
+## entry 865
+
+64-bit safe; intermediate products are widened to 128-bit.
