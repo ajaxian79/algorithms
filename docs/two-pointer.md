@@ -2519,3 +2519,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 612
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 613
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
