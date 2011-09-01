@@ -2489,3 +2489,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 605
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 606
+
+False sharing: two threads writing different bytes in the same cache line stall both.
