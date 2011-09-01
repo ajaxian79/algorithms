@@ -345,3 +345,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 302: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 303: Time complexity: O(n).
 // note 304: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 305: Padding inside a struct can dwarf the actual data; reorder fields by size.
