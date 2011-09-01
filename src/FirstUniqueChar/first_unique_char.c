@@ -326,3 +326,4 @@ int first_unique_char(const char* s) {
 // note 307: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 308: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 309: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 310: Reentrant — no static state.
