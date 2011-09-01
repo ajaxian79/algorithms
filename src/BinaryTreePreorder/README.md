@@ -3502,3 +3502,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 861
 
 Branchless inner loop after sorting.
+
+## entry 862
+
+Runs in a single pass over the input.
