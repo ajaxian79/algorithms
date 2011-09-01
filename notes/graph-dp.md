@@ -2439,3 +2439,7 @@
 ## entry 610
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 611
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
