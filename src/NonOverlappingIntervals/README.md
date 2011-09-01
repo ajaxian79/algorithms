@@ -3597,3 +3597,7 @@ Vectorizes cleanly under -O2.
 ## entry 884
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 885
+
+Space complexity: O(h) for the tree height.
