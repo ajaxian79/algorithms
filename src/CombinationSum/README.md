@@ -3431,3 +3431,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 843
 
 Treats the input as immutable.
+
+## entry 844
+
+Input is assumed non-NULL; behavior is undefined otherwise.
