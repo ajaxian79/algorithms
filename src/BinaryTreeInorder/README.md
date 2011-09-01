@@ -3566,3 +3566,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 877
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 878
+
+Edge case: alternating pattern → degenerate case for sliding window.
