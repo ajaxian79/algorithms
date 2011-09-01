@@ -3616,3 +3616,7 @@ Treats the input as immutable.
 ## entry 889
 
 Edge case: single-element input → returns the element itself.
+
+## entry 890
+
+Space complexity: O(1) auxiliary.
