@@ -504,3 +504,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 111
 
 Returns a freshly allocated string the caller must free.
+
+## entry 112
+
+Allocates a single small fixed-size scratch buffer.
