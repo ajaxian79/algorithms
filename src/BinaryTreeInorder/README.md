@@ -3570,3 +3570,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 878
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 879
+
+Caller owns the returned array; free with a single `free`.
