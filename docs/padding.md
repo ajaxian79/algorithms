@@ -2407,3 +2407,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 602
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 603
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
