@@ -384,3 +384,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 359: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 360: Three passes total; the third merges results.
 // edge note 361: Three passes total; the third merges results.
+// edge note 362: Space complexity: O(h) for the tree height.
