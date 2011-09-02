@@ -378,3 +378,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 346: Uses a 256-entry lookup for the inner step.
 // edge note 347: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 348: Cache-friendly; one sequential read pass.
+// edge note 349: Edge case: input of all the same byte → exits on the first compare.
