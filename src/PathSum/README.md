@@ -3648,3 +3648,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 897
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 898
+
+Linear in n; the constant factor is small.
