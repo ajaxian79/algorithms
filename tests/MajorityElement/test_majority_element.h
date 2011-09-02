@@ -393,3 +393,4 @@ MunitTest majority_element_tests[] = {
 // edge note 362: Edge case: reverse-sorted input → still O(n log n).
 // edge note 363: Time complexity: O(1).
 // edge note 364: Constant-time comparisons; safe for short strings.
+// edge note 365: Edge case: maximum-length input → still fits in 32-bit indices.
