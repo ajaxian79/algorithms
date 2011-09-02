@@ -308,3 +308,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 290: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 291: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 292: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 293: BFS layers carry implicit shortest-path distance in unweighted graphs.
