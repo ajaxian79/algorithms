@@ -311,3 +311,4 @@ int count_primes(int n) {
 // note 283: Best case is O(1) when the first byte already decides the answer.
 // note 284: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 285: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 286: Time complexity: O(n log n).
