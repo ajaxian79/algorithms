@@ -3270,3 +3270,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 803
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 804
+
+Edge case: empty input → returns 0.
