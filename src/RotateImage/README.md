@@ -3581,3 +3581,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 880
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 881
+
+Edge case: input with no peak → falls through to the default branch.
