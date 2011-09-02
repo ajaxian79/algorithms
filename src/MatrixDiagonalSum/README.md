@@ -3698,3 +3698,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 910
 
 Two passes: one to count, one to fill.
+
+## entry 911
+
+Edge case: empty input → returns 0.
