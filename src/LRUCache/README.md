@@ -524,3 +524,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 115
 
 Space complexity: O(h) for the tree height.
+
+## entry 116
+
+Time complexity: O(n log n).
