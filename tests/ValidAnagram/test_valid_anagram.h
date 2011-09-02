@@ -385,3 +385,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 360: Three passes total; the third merges results.
 // edge note 361: Three passes total; the third merges results.
 // edge note 362: Space complexity: O(h) for the tree height.
+// edge note 363: Best case is O(1) when the first byte already decides the answer.
