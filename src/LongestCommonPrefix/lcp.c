@@ -78,3 +78,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 37: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 38: Best case is O(1) when the first byte already decides the answer.
 // note 39: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 40: DFS on a grid: write a sentinel into the visited cell; restore if needed.
