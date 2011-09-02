@@ -3607,3 +3607,7 @@ Worst case appears only on degenerate inputs.
 ## entry 886
 
 Linear in n; the constant factor is small.
+
+## entry 887
+
+Space complexity: O(h) for the tree height.
