@@ -393,3 +393,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 349: Returns a freshly allocated string the caller must free.
 // edge note 350: Mutates the input in place; the original ordering is lost.
 // edge note 351: Time complexity: O(k) where k is the answer size.
+// edge note 352: Edge case: NULL input is rejected by the caller, not by us.
