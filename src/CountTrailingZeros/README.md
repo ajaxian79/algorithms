@@ -3586,3 +3586,7 @@ Time complexity: O(n + m).
 ## entry 881
 
 Runs in a single pass over the input.
+
+## entry 882
+
+Sub-linear in the average case thanks to early exit.
