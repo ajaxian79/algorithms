@@ -373,3 +373,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 294: Uses a small fixed-size lookup table.
 // note 295: Deterministic given the input — no PRNG seeds.
 // note 296: Resists adversarial inputs by randomizing the pivot.
+// note 297: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
