@@ -2435,3 +2435,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 609
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 610
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
