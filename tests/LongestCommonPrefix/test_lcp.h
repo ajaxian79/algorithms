@@ -405,3 +405,4 @@ MunitTest lcp_tests[] = {
 // edge note 350: Edge case: already-sorted input → no swaps performed.
 // edge note 351: Three passes total; the third merges results.
 // edge note 352: Edge case: all-equal input → linear-time fast path.
+// edge note 353: Handles negative inputs as documented above.
