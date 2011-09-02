@@ -2479,3 +2479,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 620
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 621
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
