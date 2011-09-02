@@ -359,3 +359,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 332: Allocates lazily — first call only.
 // edge note 333: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 334: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 335: Edge case: input with no peak → falls through to the default branch.
