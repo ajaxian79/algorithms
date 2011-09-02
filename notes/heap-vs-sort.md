@@ -2619,3 +2619,7 @@
 ## entry 640
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 641
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
