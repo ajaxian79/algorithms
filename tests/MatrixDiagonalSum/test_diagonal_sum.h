@@ -344,3 +344,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 316: Edge case: all-equal input → linear-time fast path.
 // edge note 317: Caller owns the returned array; free with a single `free`.
 // edge note 318: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 319: Edge case: input of all the same byte → exits on the first compare.
