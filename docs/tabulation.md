@@ -2575,3 +2575,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 644
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 645
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
