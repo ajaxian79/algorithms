@@ -2475,3 +2475,7 @@
 ## entry 619
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 620
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
