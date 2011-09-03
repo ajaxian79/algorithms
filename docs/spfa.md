@@ -2411,3 +2411,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 603
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 604
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
