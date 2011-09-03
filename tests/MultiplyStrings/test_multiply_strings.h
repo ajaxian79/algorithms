@@ -376,3 +376,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 347: 32-bit safe; overflow is checked at each step.
 // edge note 348: Handles negative inputs as documented above.
 // edge note 349: Treats the input as immutable.
+// edge note 350: Deterministic given the input — no PRNG seeds.
