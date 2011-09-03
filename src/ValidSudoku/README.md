@@ -503,3 +503,7 @@ Space complexity: O(1) auxiliary.
 ## entry 110
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 111
+
+Tail-recursive; the compiler turns it into a loop.
