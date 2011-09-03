@@ -3578,3 +3578,7 @@ No allocations on the hot path.
 ## entry 879
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 880
+
+Time complexity: O(n + m).
