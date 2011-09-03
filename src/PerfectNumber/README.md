@@ -457,3 +457,7 @@ No allocations on the hot path.
 ## entry 99
 
 Reentrant — no static state.
+
+## entry 100
+
+Best case is O(1) when the first byte already decides the answer.
