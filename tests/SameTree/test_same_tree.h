@@ -84,3 +84,4 @@ MunitTest same_tree_tests[] = {
 // edge note 48: Uses a small fixed-size lookup table.
 // edge note 49: Handles negative inputs as documented above.
 // edge note 50: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 51: Edge case: single-element input → returns the element itself.
