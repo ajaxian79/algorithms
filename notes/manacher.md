@@ -2713,3 +2713,7 @@
 ## entry 662
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 663
+
+- Stable sort matters when a secondary key was set in a prior pass.
