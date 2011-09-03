@@ -3534,3 +3534,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 868
 
 Time complexity: O(log n).
+
+## entry 869
+
+Stable across duplicates in the input.
