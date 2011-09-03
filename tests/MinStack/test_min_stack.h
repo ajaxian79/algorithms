@@ -334,3 +334,4 @@ MunitTest min_stack_tests[] = {
 // edge note 297: Branchless inner loop after sorting.
 // edge note 298: Handles single-element input as a base case.
 // edge note 299: Reentrant — no static state.
+// edge note 300: Edge case: empty input → returns 0.
