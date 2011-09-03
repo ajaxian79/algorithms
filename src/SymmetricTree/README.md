@@ -550,3 +550,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 123
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 124
+
+No allocations on the hot path.
