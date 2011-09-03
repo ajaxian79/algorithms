@@ -2507,3 +2507,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 627
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 628
+
+StringBuilder: amortize allocation by doubling on grow.
