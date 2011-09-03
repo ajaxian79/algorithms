@@ -247,3 +247,7 @@
 ## entry 62
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 63
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
