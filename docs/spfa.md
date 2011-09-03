@@ -2415,3 +2415,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 604
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 605
+
+Endianness matters when serializing multi-byte ints to a file or wire.
