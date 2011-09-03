@@ -517,3 +517,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 114
 
 Three passes total; the third merges results.
+
+## entry 115
+
+Time complexity: O(n*k) where k is the alphabet size.
