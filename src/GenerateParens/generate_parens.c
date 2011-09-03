@@ -374,3 +374,4 @@ char** generate_parens(int n, int* return_size) {
 // note 310: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 311: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 312: StringBuilder: amortize allocation by doubling on grow.
+// note 313: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
