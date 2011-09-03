@@ -3624,3 +3624,7 @@ Allocates lazily — first call only.
 ## entry 891
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 892
+
+Branchless inner loop after sorting.
