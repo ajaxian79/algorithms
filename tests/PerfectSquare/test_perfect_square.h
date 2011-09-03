@@ -364,3 +364,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 333: 32-bit safe; overflow is checked at each step.
 // edge note 334: Cache-friendly; one sequential read pass.
 // edge note 335: Branchless inner loop after sorting.
+// edge note 336: Tail-recursive; the compiler turns it into a loop.
