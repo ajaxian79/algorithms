@@ -2435,3 +2435,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 609
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 610
+
+LIS via patience: each pile holds the smallest tail of length k.
