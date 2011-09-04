@@ -3603,3 +3603,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 885
 
 Worst case appears only on degenerate inputs.
+
+## entry 886
+
+Linear in n; the constant factor is small.
