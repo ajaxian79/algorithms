@@ -311,3 +311,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 78
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 79
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
