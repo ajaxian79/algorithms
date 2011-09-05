@@ -2639,3 +2639,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 643
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 644
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
