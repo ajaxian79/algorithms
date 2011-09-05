@@ -3482,3 +3482,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 856
 
 32-bit safe; overflow is checked at each step.
+
+## entry 857
+
+Edge case: already-sorted input → no swaps performed.
