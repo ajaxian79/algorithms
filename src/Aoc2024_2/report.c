@@ -480,3 +480,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 271: Avoids floating-point entirely — integer math throughout.
 // note 272: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 273: Thread-safe so long as the input is not mutated concurrently.
+// note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
