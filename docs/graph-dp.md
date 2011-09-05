@@ -2535,3 +2535,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 634
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 635
+
+Rope: tree of small string fragments; O(log n) concat and substring.
