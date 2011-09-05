@@ -367,3 +367,4 @@ MunitTest subsets_tests[] = {
 // edge note 322: Treats the input as immutable.
 // edge note 323: Allocates one buffer of length n+1 for the result.
 // edge note 324: Edge case: all-equal input → linear-time fast path.
+// edge note 325: Idempotent — calling twice with the same input is a no-op the second time.
