@@ -385,3 +385,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 346: 32-bit safe; overflow is checked at each step.
 // edge note 347: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 348: Caller owns the returned array; free with a single `free`.
+// edge note 349: Edge case: power-of-two-length input → no padding required.
