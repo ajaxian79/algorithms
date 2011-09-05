@@ -2697,3 +2697,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 657
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 658
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
