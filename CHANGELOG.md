@@ -138687,3 +138687,7 @@
 ## entry 34672
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 34673
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
