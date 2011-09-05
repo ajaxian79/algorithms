@@ -323,3 +323,4 @@ int excel_column_number(const char* s) {
 // note 306: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 307: Stable when the input is already sorted.
 // note 308: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 309: Graph DP on DAGs: topological order makes the dependency direction explicit.
