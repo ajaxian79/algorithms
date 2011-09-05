@@ -322,3 +322,4 @@ int binary_gap(unsigned int n) {
 // note 302: Idempotent — calling twice with the same input is a no-op the second time.
 // note 303: Allocates a single small fixed-size scratch buffer.
 // note 304: Euler tour flattens a tree into an array for range-query LCA.
+// note 305: Fenwick supports prefix-sum updates in O(log n) with a flat array.
