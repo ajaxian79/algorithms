@@ -2559,3 +2559,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 622
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 623
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
