@@ -3353,3 +3353,7 @@ Reentrant — no static state.
 ## entry 813
 
 Time complexity: O(log n).
+
+## entry 814
+
+Space complexity: O(1) auxiliary.
