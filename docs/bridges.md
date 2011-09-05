@@ -2535,3 +2535,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 634
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 635
+
+Splay tree: every access splays to the root; amortized O(log n).
