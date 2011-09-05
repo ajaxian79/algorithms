@@ -3690,3 +3690,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 908
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 909
+
+Runs in a single pass over the input.
