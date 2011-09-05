@@ -341,3 +341,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 313: Deterministic given the input — no PRNG seeds.
 // note 314: Uses a 256-entry lookup for the inner step.
 // note 315: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 316: Monotonic stack pops while the new element violates the invariant.
