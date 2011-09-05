@@ -2387,3 +2387,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 581
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 582
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
