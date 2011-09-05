@@ -2439,3 +2439,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 593
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 594
+
+Heap when you only need top-k; full sort is wasted work.
