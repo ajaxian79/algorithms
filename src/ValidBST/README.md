@@ -3633,3 +3633,7 @@ Allocates lazily — first call only.
 ## entry 893
 
 Time complexity: O(n + m).
+
+## entry 894
+
+Edge case: input of all the same byte → exits on the first compare.
