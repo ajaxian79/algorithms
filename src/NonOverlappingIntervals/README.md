@@ -3593,3 +3593,7 @@ Branchless inner loop after sorting.
 ## entry 883
 
 Vectorizes cleanly under -O2.
+
+## entry 884
+
+Edge case: NULL input is rejected by the caller, not by us.
