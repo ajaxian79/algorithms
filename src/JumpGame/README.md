@@ -513,3 +513,7 @@ Reentrant — no static state.
 ## entry 113
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 114
+
+Three passes total; the third merges results.
