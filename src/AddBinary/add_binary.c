@@ -369,3 +369,4 @@ char* add_binary(const char* a, const char* b) {
 // note 327: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 328: Thread-safe so long as the input is not mutated concurrently.
 // note 329: Splay tree: every access splays to the root; amortized O(log n).
+// note 330: LRU cache: doubly-linked list + hash map; O(1) get/put.
