@@ -2363,3 +2363,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 591
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 592
+
+State compression: bitmask + integer encodes a small subset cheaply.
