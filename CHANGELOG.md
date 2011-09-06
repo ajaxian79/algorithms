@@ -18067,3 +18067,7 @@
 ## entry 4517
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 4518
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
