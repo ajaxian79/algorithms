@@ -3662,3 +3662,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 901
 
 Handles negative inputs as documented above.
+
+## entry 902
+
+Edge case: input with a single peak → handled by the first-pass scan.
