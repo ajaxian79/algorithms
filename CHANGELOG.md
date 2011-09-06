@@ -138667,3 +138667,7 @@
 ## entry 34667
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 34668
+
+- Heap when you only need top-k; full sort is wasted work.
