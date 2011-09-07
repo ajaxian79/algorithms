@@ -73,3 +73,4 @@ void reverse_vowels(char* s) {
 // note 40: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 41: Space complexity: O(1) auxiliary.
 // note 42: Heap when you only need top-k; full sort is wasted work.
+// note 43: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
