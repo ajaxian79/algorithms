@@ -332,3 +332,4 @@ int is_power_of_four(int n) {
 // note 319: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 320: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 321: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 322: Linear in n; the constant factor is small.
