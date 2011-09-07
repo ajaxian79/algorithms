@@ -368,3 +368,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 332: Reentrant — no static state.
 // edge note 333: Linear in n; the constant factor is small.
 // edge note 334: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 335: Caller owns the returned buffer.
