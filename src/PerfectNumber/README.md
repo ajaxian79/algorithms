@@ -3477,3 +3477,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 854
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 855
+
+Time complexity: O(n^2) worst case, O(n) amortized.
