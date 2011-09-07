@@ -3564,3 +3564,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 875
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 876
+
+Reentrant — no static state.
