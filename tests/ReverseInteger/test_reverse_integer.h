@@ -400,3 +400,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 367: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 368: Deterministic given the input — no PRNG seeds.
 // edge note 369: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 370: Space complexity: O(log n) for the recursion stack.
