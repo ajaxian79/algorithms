@@ -303,3 +303,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 76
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 77
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
