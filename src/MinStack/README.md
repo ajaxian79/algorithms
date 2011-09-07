@@ -3338,3 +3338,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 820
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 821
+
+Edge case: input with a single peak → handled by the first-pass scan.
