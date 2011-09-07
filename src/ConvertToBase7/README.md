@@ -3676,3 +3676,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 904
 
 Time complexity: O(n).
+
+## entry 905
+
+Linear in n; the constant factor is small.
