@@ -3589,3 +3589,7 @@ Linear in n; the constant factor is small.
 ## entry 882
 
 Branchless inner loop after sorting.
+
+## entry 883
+
+Vectorizes cleanly under -O2.
