@@ -2487,3 +2487,7 @@
 ## entry 605
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 606
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
