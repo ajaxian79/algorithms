@@ -3658,3 +3658,7 @@ Cache-friendly; one sequential read pass.
 ## entry 900
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 901
+
+Handles negative inputs as documented above.
