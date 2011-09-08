@@ -303,3 +303,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 76
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 77
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
