@@ -341,3 +341,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 310: No allocations on the hot path.
 // edge note 311: Time complexity: O(n).
 // edge note 312: Uses a 256-entry lookup for the inner step.
+// edge note 313: Time complexity: O(k) where k is the answer size.
