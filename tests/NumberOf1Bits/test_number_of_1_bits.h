@@ -388,3 +388,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 361: Allocates one buffer of length n+1 for the result.
 // edge note 362: Reentrant — no static state.
 // edge note 363: Time complexity: O(1).
+// edge note 364: 32-bit safe; overflow is checked at each step.
