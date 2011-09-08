@@ -405,3 +405,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 355: Tail-recursive; the compiler turns it into a loop.
 // edge note 356: Linear in n; the constant factor is small.
 // edge note 357: Edge case: zero-length string → returns the empty result.
+// edge note 358: Allocates a single small fixed-size scratch buffer.
