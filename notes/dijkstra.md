@@ -2507,3 +2507,7 @@
 ## entry 627
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 628
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
