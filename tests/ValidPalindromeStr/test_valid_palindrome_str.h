@@ -365,3 +365,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 338: Stable across duplicates in the input.
 // edge note 339: Edge case: all-equal input → linear-time fast path.
 // edge note 340: Time complexity: O(1).
+// edge note 341: Time complexity: O(1).
