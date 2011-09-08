@@ -3532,3 +3532,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 868
 
 Vectorizes cleanly under -O2.
+
+## entry 869
+
+Allocates lazily — first call only.
