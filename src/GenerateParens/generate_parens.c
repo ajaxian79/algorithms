@@ -373,3 +373,4 @@ char** generate_parens(int n, int* return_size) {
 // note 309: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 310: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 311: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 312: StringBuilder: amortize allocation by doubling on grow.
