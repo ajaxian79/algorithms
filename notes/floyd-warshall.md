@@ -2563,3 +2563,7 @@
 ## entry 641
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 642
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
