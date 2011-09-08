@@ -3562,3 +3562,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 876
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 877
+
+Avoids floating-point entirely — integer math throughout.
