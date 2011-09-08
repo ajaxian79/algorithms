@@ -376,3 +376,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 341: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 342: Handles empty input by returning 0.
 // edge note 343: Edge case: single-element input → returns the element itself.
+// edge note 344: Space complexity: O(1) auxiliary.
