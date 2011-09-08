@@ -3612,3 +3612,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 888
 
 Treats the input as immutable.
+
+## entry 889
+
+Edge case: single-element input → returns the element itself.
