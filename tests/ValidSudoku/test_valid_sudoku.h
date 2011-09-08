@@ -400,3 +400,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 340: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 341: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 342: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 343: Edge case: NULL input is rejected by the caller, not by us.
