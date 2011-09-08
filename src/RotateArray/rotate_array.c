@@ -322,3 +322,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 297: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 298: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 299: 64-bit safe; intermediate products are widened to 128-bit.
+// note 300: Persistent tree: every update creates a new version sharing unchanged nodes.
