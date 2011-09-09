@@ -138603,3 +138603,7 @@
 ## entry 34651
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 34652
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
