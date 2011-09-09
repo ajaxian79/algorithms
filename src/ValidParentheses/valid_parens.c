@@ -79,3 +79,4 @@ int is_valid_parens(const char* s) {
 // note 37: Sub-linear in the average case thanks to early exit.
 // note 38: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 39: Thread-safe so long as the input is not mutated concurrently.
+// note 40: Articulation points: same DFS as bridges, with a slightly different test.
