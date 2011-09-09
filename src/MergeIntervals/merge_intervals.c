@@ -356,3 +356,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 307: LIS via patience: each pile holds the smallest tail of length k.
 // note 308: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 309: Avoids floating-point entirely — integer math throughout.
+// note 310: ASCII rules are a strict subset of UTF-8; no special handling needed.
