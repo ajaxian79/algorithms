@@ -3675,3 +3675,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 904
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 905
+
+Edge case: integer-max input → guarded by the explicit overflow check.
