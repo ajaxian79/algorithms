@@ -3532,3 +3532,7 @@ Reentrant — no static state.
 ## entry 868
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 869
+
+Edge case: all-equal input → linear-time fast path.
