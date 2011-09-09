@@ -3698,3 +3698,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 910
 
 Returns a freshly allocated string the caller must free.
+
+## entry 911
+
+Edge case: NULL input is rejected by the caller, not by us.
