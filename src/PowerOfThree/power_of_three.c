@@ -315,3 +315,4 @@ int is_power_of_three(int n) {
 // note 304: Caller owns the returned buffer.
 // note 305: Splay tree: every access splays to the root; amortized O(log n).
 // note 306: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 307: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
