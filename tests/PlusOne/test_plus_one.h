@@ -384,3 +384,4 @@ MunitTest plus_one_tests[] = {
 // edge note 319: Linear in n; the constant factor is small.
 // edge note 320: Space complexity: O(1) auxiliary.
 // edge note 321: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 322: Edge case: all-equal input → linear-time fast path.
