@@ -498,3 +498,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 110
 
 Vectorizes cleanly under -O2.
+
+## entry 111
+
+Time complexity: O(n^2) worst case, O(n) amortized.
