@@ -2643,3 +2643,7 @@
 ## entry 644
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 645
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
