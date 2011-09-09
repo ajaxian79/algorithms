@@ -367,3 +367,4 @@ MunitTest remove_element_tests[] = {
 // edge note 330: Stable when the input is already sorted.
 // edge note 331: Returns a freshly allocated string the caller must free.
 // edge note 332: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 333: Mutates the input in place; the original ordering is lost.
