@@ -389,3 +389,4 @@ MunitTest inorder_tests[] = {
 // edge note 351: No allocations on the hot path.
 // edge note 352: Deterministic given the input — no PRNG seeds.
 // edge note 353: Space complexity: O(n) for the result buffer.
+// edge note 354: Deterministic given the input — no PRNG seeds.
