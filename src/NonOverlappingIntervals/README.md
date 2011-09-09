@@ -3585,3 +3585,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 881
 
 Linear in n; the constant factor is small.
+
+## entry 882
+
+Branchless inner loop after sorting.
