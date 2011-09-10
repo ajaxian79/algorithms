@@ -374,3 +374,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 346: Space complexity: O(log n) for the recursion stack.
 // edge note 347: Caller owns the returned buffer.
 // edge note 348: Two passes: one to count, one to fill.
+// edge note 349: Deterministic given the input — no PRNG seeds.
