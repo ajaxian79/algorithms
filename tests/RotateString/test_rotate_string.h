@@ -339,3 +339,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 312: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 313: Deterministic given the input — no PRNG seeds.
 // edge note 314: Edge case: empty input → returns 0.
+// edge note 315: Handles single-element input as a base case.
