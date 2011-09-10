@@ -2571,3 +2571,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 627
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 628
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
