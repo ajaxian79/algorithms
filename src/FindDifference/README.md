@@ -3410,3 +3410,7 @@ Allocates lazily — first call only.
 ## entry 838
 
 Handles empty input by returning 0.
+
+## entry 839
+
+Edge case: already-sorted input → no swaps performed.
