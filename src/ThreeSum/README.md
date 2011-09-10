@@ -3517,3 +3517,7 @@ Stable when the input is already sorted.
 ## entry 864
 
 No allocations after setup.
+
+## entry 865
+
+Space complexity: O(n) for the result buffer.
