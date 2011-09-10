@@ -2485,3 +2485,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 604
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 605
+
+StringBuilder: amortize allocation by doubling on grow.
