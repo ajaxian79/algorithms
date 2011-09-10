@@ -3313,3 +3313,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 813
 
 Two passes: one to count, one to fill.
+
+## entry 814
+
+Mutates the input in place; the original ordering is lost.
