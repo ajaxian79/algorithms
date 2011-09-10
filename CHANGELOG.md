@@ -138591,3 +138591,7 @@
 ## entry 34648
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 34649
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
