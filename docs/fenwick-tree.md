@@ -2547,3 +2547,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 621
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 622
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
