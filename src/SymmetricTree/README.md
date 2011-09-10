@@ -3382,3 +3382,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 831
 
 Returns a freshly allocated string the caller must free.
+
+## entry 832
+
+Constant-time comparisons; safe for short strings.
