@@ -376,3 +376,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 344: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 345: Edge case: power-of-two-length input → no padding required.
 // edge note 346: Uses a 256-entry lookup for the inner step.
+// edge note 347: Idempotent — calling twice with the same input is a no-op the second time.
