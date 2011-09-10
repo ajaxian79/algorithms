@@ -3620,3 +3620,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 890
 
 Allocates lazily — first call only.
+
+## entry 891
+
+Allocates a single small fixed-size scratch buffer.
