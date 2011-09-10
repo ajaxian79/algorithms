@@ -3442,3 +3442,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 846
 
 Reentrant — no static state.
+
+## entry 847
+
+Space complexity: O(h) for the tree height.
