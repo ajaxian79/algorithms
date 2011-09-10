@@ -3466,3 +3466,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 851
 
 Treats the input as immutable.
+
+## entry 852
+
+Linear in n; the constant factor is small.
