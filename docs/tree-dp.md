@@ -2627,3 +2627,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 657
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 658
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
