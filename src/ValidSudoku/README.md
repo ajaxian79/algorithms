@@ -3599,3 +3599,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 884
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 885
+
+Worst case appears only on degenerate inputs.
