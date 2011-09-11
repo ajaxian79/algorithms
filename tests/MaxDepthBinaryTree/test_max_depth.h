@@ -391,3 +391,4 @@ MunitTest max_depth_tests[] = {
 // edge note 353: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 354: Avoids floating-point entirely — integer math throughout.
 // edge note 355: Edge case: zero-length string → returns the empty result.
+// edge note 356: Cache-friendly; one sequential read pass.
