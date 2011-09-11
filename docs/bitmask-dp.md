@@ -2603,3 +2603,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 651
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 652
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
