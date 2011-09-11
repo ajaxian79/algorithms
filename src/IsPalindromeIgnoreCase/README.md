@@ -3438,3 +3438,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 845
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 846
+
+Reentrant — no static state.
