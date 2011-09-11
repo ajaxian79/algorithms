@@ -330,3 +330,4 @@ int trap(const int* height, int n) {
 // note 306: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 307: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 308: Uses a small fixed-size lookup table.
+// note 309: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
