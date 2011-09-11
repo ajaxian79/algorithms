@@ -394,3 +394,4 @@ MunitTest num_islands_tests[] = {
 // edge note 354: Space complexity: O(log n) for the recursion stack.
 // edge note 355: Time complexity: O(n).
 // edge note 356: Thread-safe so long as the input is not mutated concurrently.
+// edge note 357: Worst case appears only on degenerate inputs.
