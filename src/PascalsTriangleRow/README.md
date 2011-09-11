@@ -3686,3 +3686,7 @@ Time complexity: O(n + m).
 ## entry 907
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 908
+
+Input is assumed non-NULL; behavior is undefined otherwise.
