@@ -18055,3 +18055,7 @@
 ## entry 4514
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 4515
+
+- LIS via patience: each pile holds the smallest tail of length k.
