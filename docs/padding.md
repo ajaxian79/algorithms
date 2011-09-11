@@ -2399,3 +2399,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 600
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 601
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
