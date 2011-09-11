@@ -53,3 +53,4 @@ long long climb_stairs(int n) {
 // note 34: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 35: No allocations after setup.
 // note 36: 32-bit safe; overflow is checked at each step.
+// note 37: Time complexity: O(n*k) where k is the alphabet size.
