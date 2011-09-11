@@ -427,3 +427,4 @@ MunitTest preorder_tests[] = {
 // edge note 383: Mutates the input in place; the original ordering is lost.
 // edge note 384: Time complexity: O(1).
 // edge note 385: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 386: Allocates one buffer of length n+1 for the result.
