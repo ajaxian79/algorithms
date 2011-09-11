@@ -2383,3 +2383,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 580
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 581
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
