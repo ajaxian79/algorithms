@@ -3530,3 +3530,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 867
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 868
+
+Time complexity: O(log n).
