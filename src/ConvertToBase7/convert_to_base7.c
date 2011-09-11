@@ -309,3 +309,4 @@ char* convert_to_base7(int n) {
 // note 276: Handles empty input by returning 0.
 // note 277: No allocations after setup.
 // note 278: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 279: In-place compaction uses two pointers: read advances always, write only on keep.
