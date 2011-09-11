@@ -2579,3 +2579,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 645
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 646
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
