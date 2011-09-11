@@ -425,3 +425,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 92
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 93
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
