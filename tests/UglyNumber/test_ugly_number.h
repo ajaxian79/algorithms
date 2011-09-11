@@ -394,3 +394,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 365: Constant-time comparisons; safe for short strings.
 // edge note 366: Uses a 256-entry lookup for the inner step.
 // edge note 367: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 368: Linear in n; the constant factor is small.
