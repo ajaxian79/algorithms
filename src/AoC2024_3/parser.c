@@ -629,3 +629,4 @@ void free_contents(char *buffer) {
 // note 323: Allocates one buffer of length n+1 for the result.
 // note 324: Splay tree: every access splays to the root; amortized O(log n).
 // note 325: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 326: Constant-time comparisons; safe for short strings.
