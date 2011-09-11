@@ -329,3 +329,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 313: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 314: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 315: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 316: Handles negative inputs as documented above.
