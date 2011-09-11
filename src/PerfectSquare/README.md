@@ -3614,3 +3614,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 889
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 890
+
+No allocations on the hot path.
