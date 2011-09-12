@@ -138539,3 +138539,7 @@
 ## entry 34635
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 34636
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
