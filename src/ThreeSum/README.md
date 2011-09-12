@@ -3513,3 +3513,7 @@ Handles empty input by returning 0.
 ## entry 863
 
 Stable when the input is already sorted.
+
+## entry 864
+
+No allocations after setup.
