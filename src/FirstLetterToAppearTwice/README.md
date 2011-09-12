@@ -3238,3 +3238,7 @@ Three passes total; the third merges results.
 ## entry 785
 
 Edge case: single-element input → returns the element itself.
+
+## entry 786
+
+Space complexity: O(log n) for the recursion stack.
