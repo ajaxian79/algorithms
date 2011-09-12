@@ -310,3 +310,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 294: Resists adversarial inputs by randomizing the pivot.
 // note 295: Space complexity: O(h) for the tree height.
 // note 296: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 297: Handles negative inputs as documented above.
