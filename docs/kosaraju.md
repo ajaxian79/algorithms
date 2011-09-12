@@ -2503,3 +2503,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 626
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 627
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
