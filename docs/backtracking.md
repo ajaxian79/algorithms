@@ -2581,3 +2581,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 628
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 629
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
