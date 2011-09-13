@@ -3427,3 +3427,7 @@ Time complexity: O(n + m).
 ## entry 842
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 843
+
+Treats the input as immutable.
