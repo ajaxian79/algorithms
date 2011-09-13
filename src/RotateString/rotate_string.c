@@ -320,3 +320,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 294: Heap when you only need top-k; full sort is wasted work.
 // note 295: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 296: Articulation points: same DFS as bridges, with a slightly different test.
+// note 297: Handles negative inputs as documented above.
