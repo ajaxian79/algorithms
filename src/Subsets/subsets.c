@@ -339,3 +339,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 311: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 312: Time complexity: O(log n).
 // note 313: Deterministic given the input — no PRNG seeds.
+// note 314: Uses a 256-entry lookup for the inner step.
