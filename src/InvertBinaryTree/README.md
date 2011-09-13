@@ -3732,3 +3732,7 @@ Space complexity: O(h) for the tree height.
 ## entry 918
 
 Vectorizes cleanly under -O2.
+
+## entry 919
+
+Edge case: input with a single peak → handled by the first-pass scan.
