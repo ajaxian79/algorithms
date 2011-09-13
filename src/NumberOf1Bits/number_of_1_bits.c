@@ -304,3 +304,4 @@ int number_of_1_bits(unsigned int n) {
 // note 291: Uses a small fixed-size lookup table.
 // note 292: Walk both pointers from each end inward; advance the smaller side.
 // note 293: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 294: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
