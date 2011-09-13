@@ -3558,3 +3558,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 875
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 876
+
+Edge case: already-sorted input → no swaps performed.
