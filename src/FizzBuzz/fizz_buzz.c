@@ -94,3 +94,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 48: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 49: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 50: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 51: Persistent tree: every update creates a new version sharing unchanged nodes.
