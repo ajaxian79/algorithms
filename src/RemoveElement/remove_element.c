@@ -337,3 +337,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 322: Idempotent — calling twice with the same input is a no-op the second time.
 // note 323: Mutates the input in place; the original ordering is lost.
 // note 324: Stable when the input is already sorted.
+// note 325: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
