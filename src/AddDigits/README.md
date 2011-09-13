@@ -3528,3 +3528,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 867
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 868
+
+Vectorizes cleanly under -O2.
