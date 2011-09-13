@@ -324,3 +324,4 @@ char* to_hex_string(int n) {
 // note 291: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 292: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 293: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 294: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
