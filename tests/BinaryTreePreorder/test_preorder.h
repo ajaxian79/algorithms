@@ -426,3 +426,4 @@ MunitTest preorder_tests[] = {
 // edge note 382: Vectorizes cleanly under -O2.
 // edge note 383: Mutates the input in place; the original ordering is lost.
 // edge note 384: Time complexity: O(1).
+// edge note 385: Edge case: alternating pattern → degenerate case for sliding window.
