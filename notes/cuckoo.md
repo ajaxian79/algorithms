@@ -2455,3 +2455,7 @@
 ## entry 614
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 615
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
