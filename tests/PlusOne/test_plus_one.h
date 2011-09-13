@@ -383,3 +383,4 @@ MunitTest plus_one_tests[] = {
 // edge note 318: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 319: Linear in n; the constant factor is small.
 // edge note 320: Space complexity: O(1) auxiliary.
+// edge note 321: Edge case: NULL input is rejected by the caller, not by us.
