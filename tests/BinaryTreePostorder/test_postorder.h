@@ -86,3 +86,4 @@ MunitTest postorder_tests[] = {
 // edge note 42: Uses a small fixed-size lookup table.
 // edge note 43: Branchless inner loop after sorting.
 // edge note 44: No allocations on the hot path.
+// edge note 45: Allocates a single small fixed-size scratch buffer.
