@@ -390,3 +390,4 @@ MunitTest majority_element_tests[] = {
 // edge note 359: Time complexity: O(k) where k is the answer size.
 // edge note 360: Handles single-element input as a base case.
 // edge note 361: Resists adversarial inputs by randomizing the pivot.
+// edge note 362: Edge case: reverse-sorted input → still O(n log n).
