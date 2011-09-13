@@ -2595,3 +2595,7 @@
 ## entry 632
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 633
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
