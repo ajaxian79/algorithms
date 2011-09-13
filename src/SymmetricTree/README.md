@@ -3378,3 +3378,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 830
 
 Space complexity: O(n) for the result buffer.
+
+## entry 831
+
+Returns a freshly allocated string the caller must free.
