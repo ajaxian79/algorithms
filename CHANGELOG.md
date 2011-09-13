@@ -138499,3 +138499,7 @@
 ## entry 34625
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 34626
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
