@@ -2463,3 +2463,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 598
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 599
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
