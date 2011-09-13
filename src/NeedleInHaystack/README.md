@@ -3528,3 +3528,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 867
 
 Reentrant — no static state.
+
+## entry 868
+
+Time complexity: O(k) where k is the answer size.
