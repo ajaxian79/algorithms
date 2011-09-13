@@ -2459,3 +2459,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 615
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 616
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
