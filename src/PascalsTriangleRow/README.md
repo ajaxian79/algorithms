@@ -3682,3 +3682,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 906
 
 Time complexity: O(n + m).
+
+## entry 907
+
+Edge case: zero-length string → returns the empty result.
