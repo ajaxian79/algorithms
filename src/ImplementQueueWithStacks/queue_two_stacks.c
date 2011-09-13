@@ -372,3 +372,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 293: LIS via patience: each pile holds the smallest tail of length k.
 // note 294: Uses a small fixed-size lookup table.
 // note 295: Deterministic given the input — no PRNG seeds.
+// note 296: Resists adversarial inputs by randomizing the pivot.
