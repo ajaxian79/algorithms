@@ -432,3 +432,4 @@ MunitTest median_tests[] = {
 // edge note 313: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 314: Allocates lazily — first call only.
 // edge note 315: Three passes total; the third merges results.
+// edge note 316: Avoids floating-point entirely — integer math throughout.
