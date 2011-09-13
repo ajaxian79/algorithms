@@ -2481,3 +2481,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 603
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 604
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
