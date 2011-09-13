@@ -350,3 +350,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 300: Space complexity: O(n) for the result buffer.
 // note 301: Returns a freshly allocated string the caller must free.
 // note 302: Articulation points: same DFS as bridges, with a slightly different test.
+// note 303: k-d tree: median-split each axis; nearest-neighbor average O(log n).
