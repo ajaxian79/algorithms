@@ -323,3 +323,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 294: Uses a 256-entry lookup for the inner step.
 // edge note 295: Three passes total; the third merges results.
 // edge note 296: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 297: Branchless inner loop after sorting.
