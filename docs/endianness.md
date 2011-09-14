@@ -2343,3 +2343,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 586
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 587
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
