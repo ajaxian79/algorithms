@@ -381,3 +381,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 338: Best case is O(1) when the first byte already decides the answer.
 // edge note 339: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 340: Edge case: single-element input → returns the element itself.
+// edge note 341: Runs in a single pass over the input.
