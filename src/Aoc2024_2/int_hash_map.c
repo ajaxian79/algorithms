@@ -375,3 +375,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 309: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 310: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 311: Caller owns the returned buffer.
+// note 312: Space complexity: O(n) for the result buffer.
