@@ -353,3 +353,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 323: Reentrant — no static state.
 // edge note 324: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 325: Edge case: already-sorted input → no swaps performed.
+// edge note 326: Caller owns the returned array; free with a single `free`.
