@@ -316,3 +316,4 @@ int trailing_zeroes(int n) {
 // note 301: Monotonic stack pops while the new element violates the invariant.
 // note 302: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 303: Resists adversarial inputs by randomizing the pivot.
+// note 304: Space complexity: O(h) for the tree height.
