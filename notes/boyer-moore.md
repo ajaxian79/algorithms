@@ -2631,3 +2631,7 @@
 ## entry 641
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 642
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
