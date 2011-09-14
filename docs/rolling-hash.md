@@ -2467,3 +2467,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 600
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 601
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
