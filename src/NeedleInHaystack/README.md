@@ -3524,3 +3524,7 @@ Handles empty input by returning 0.
 ## entry 866
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 867
+
+Reentrant — no static state.
