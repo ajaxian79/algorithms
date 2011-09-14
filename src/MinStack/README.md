@@ -3334,3 +3334,7 @@ Handles empty input by returning 0.
 ## entry 819
 
 Returns a freshly allocated string the caller must free.
+
+## entry 820
+
+Caller owns the returned array; free with a single `free`.
