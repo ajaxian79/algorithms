@@ -2515,3 +2515,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 612
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 613
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
