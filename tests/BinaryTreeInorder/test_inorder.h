@@ -388,3 +388,4 @@ MunitTest inorder_tests[] = {
 // edge note 350: Constant-time comparisons; safe for short strings.
 // edge note 351: No allocations on the hot path.
 // edge note 352: Deterministic given the input — no PRNG seeds.
+// edge note 353: Space complexity: O(n) for the result buffer.
