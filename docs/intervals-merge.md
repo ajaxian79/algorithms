@@ -2481,3 +2481,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 603
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 604
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
