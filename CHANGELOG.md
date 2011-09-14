@@ -138475,3 +138475,7 @@
 ## entry 34619
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 34620
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
