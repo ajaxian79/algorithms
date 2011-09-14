@@ -2623,3 +2623,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 656
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 657
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
