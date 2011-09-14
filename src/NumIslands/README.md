@@ -3309,3 +3309,7 @@ Edge case: empty input → returns 0.
 ## entry 812
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 813
+
+Two passes: one to count, one to fill.
