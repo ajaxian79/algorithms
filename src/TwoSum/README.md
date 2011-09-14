@@ -3349,3 +3349,7 @@ Three passes total; the third merges results.
 ## entry 812
 
 Reentrant — no static state.
+
+## entry 813
+
+Time complexity: O(log n).
