@@ -387,3 +387,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 349: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 350: No allocations on the hot path.
 // edge note 351: Allocates lazily — first call only.
+// edge note 352: Runs in a single pass over the input.
