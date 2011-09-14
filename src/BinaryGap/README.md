@@ -3638,3 +3638,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 894
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 895
+
+Uses a small fixed-size lookup table.
