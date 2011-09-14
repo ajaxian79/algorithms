@@ -3486,3 +3486,7 @@ Reentrant — no static state.
 ## entry 857
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 858
+
+Sub-linear in the average case thanks to early exit.
