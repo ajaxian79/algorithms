@@ -2427,3 +2427,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 607
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 608
+
+Interval DP: solve all `[l, r]` ranges from short to long.
