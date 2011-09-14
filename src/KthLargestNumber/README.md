@@ -3596,3 +3596,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 883
 
 Space complexity: O(1) auxiliary.
+
+## entry 884
+
+Linear in n; the constant factor is small.
