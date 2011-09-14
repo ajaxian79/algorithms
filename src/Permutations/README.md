@@ -3756,3 +3756,7 @@ Uses a small fixed-size lookup table.
 ## entry 924
 
 Treats the input as immutable.
+
+## entry 925
+
+Edge case: NULL input is rejected by the caller, not by us.
