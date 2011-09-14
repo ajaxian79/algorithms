@@ -2693,3 +2693,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 656
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 657
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
