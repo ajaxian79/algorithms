@@ -2447,3 +2447,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 612
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 613
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
