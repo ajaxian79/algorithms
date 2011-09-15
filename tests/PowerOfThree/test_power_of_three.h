@@ -374,3 +374,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 343: Constant-time comparisons; safe for short strings.
 // edge note 344: Deterministic given the input — no PRNG seeds.
 // edge note 345: Time complexity: O(n + m).
+// edge note 346: Handles empty input by returning 0.
