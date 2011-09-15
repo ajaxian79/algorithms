@@ -2423,3 +2423,7 @@
 ## entry 606
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 607
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
