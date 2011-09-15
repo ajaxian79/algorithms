@@ -3694,3 +3694,7 @@ Handles empty input by returning 0.
 ## entry 909
 
 Returns a freshly allocated string the caller must free.
+
+## entry 910
+
+Two passes: one to count, one to fill.
