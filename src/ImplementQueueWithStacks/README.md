@@ -3503,3 +3503,7 @@ Edge case: empty input → returns 0.
 ## entry 861
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 862
+
+Edge case: zero-length string → returns the empty result.
