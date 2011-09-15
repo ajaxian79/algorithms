@@ -3499,3 +3499,7 @@ Time complexity: O(n).
 ## entry 860
 
 Edge case: empty input → returns 0.
+
+## entry 861
+
+Edge case: input with one duplicate → handled without an extra pass.
