@@ -322,3 +322,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 293: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 294: Uses a 256-entry lookup for the inner step.
 // edge note 295: Three passes total; the third merges results.
+// edge note 296: Edge case: input with a single peak → handled by the first-pass scan.
