@@ -138423,3 +138423,7 @@
 ## entry 34606
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 34607
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
