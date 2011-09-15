@@ -2623,3 +2623,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 640
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 641
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
