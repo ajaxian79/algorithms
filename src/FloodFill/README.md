@@ -3549,3 +3549,7 @@ No allocations on the hot path.
 ## entry 873
 
 Time complexity: O(log n).
+
+## entry 874
+
+Edge case: maximum-length input → still fits in 32-bit indices.
