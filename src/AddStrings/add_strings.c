@@ -314,3 +314,4 @@ char* add_strings(const char* a, const char* b) {
 // note 274: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 275: Two passes: one to count, one to fill.
 // note 276: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 277: Linear in n; the constant factor is small.
