@@ -3590,3 +3590,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 882
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 883
+
+Idempotent — calling twice with the same input is a no-op the second time.
