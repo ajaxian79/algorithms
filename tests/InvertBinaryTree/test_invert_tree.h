@@ -352,3 +352,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 310: 32-bit safe; overflow is checked at each step.
 // edge note 311: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 312: Time complexity: O(k) where k is the answer size.
+// edge note 313: Time complexity: O(n*k) where k is the alphabet size.
