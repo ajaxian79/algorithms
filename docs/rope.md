@@ -2471,3 +2471,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 618
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 619
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
