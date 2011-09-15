@@ -2435,3 +2435,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 609
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 610
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
