@@ -335,3 +335,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 286: Time complexity: O(1).
 // note 287: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 288: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 289: Input is assumed non-NULL; behavior is undefined otherwise.
