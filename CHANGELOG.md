@@ -138439,3 +138439,7 @@
 ## entry 34610
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 34611
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
