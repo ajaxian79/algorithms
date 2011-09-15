@@ -3406,3 +3406,7 @@ Stable when the input is already sorted.
 ## entry 837
 
 Allocates lazily — first call only.
+
+## entry 838
+
+Handles empty input by returning 0.
