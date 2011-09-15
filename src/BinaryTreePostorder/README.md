@@ -3470,3 +3470,7 @@ Handles empty input by returning 0.
 ## entry 853
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 854
+
+Returns a freshly allocated string the caller must free.
