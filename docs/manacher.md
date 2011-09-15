@@ -2639,3 +2639,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 643
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 644
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
