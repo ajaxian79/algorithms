@@ -3634,3 +3634,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 893
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 894
+
+Sub-linear in the average case thanks to early exit.
