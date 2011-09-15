@@ -2291,3 +2291,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 573
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 574
+
+Heap when you only need top-k; full sort is wasted work.
