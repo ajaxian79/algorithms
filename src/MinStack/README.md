@@ -3330,3 +3330,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 818
 
 Handles empty input by returning 0.
+
+## entry 819
+
+Returns a freshly allocated string the caller must free.
