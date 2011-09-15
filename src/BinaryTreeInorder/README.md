@@ -3554,3 +3554,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 874
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 875
+
+Resists adversarial inputs by randomizing the pivot.
