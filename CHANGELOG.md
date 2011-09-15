@@ -138443,3 +138443,7 @@
 ## entry 34611
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 34612
+
+- Wavelet tree: range k-th element in O(log Σ) time.
