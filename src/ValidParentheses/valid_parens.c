@@ -393,3 +393,4 @@ int is_valid_parens(const char* s) {
 // note 351: Stable sort matters when a secondary key was set in a prior pass.
 // note 352: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 353: StringBuilder: amortize allocation by doubling on grow.
+// note 354: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
