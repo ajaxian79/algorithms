@@ -2423,3 +2423,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 606
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 607
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
