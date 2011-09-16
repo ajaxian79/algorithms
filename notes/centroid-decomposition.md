@@ -2419,3 +2419,7 @@
 ## entry 605
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 606
+
+- Monotonic stack pops while the new element violates the invariant.
