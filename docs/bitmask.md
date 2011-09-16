@@ -323,3 +323,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 65
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 66
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
