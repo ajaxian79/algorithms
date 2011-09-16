@@ -322,3 +322,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 300: Euler tour flattens a tree into an array for range-query LCA.
 // note 301: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 302: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 303: Unbounded knapsack: capacity inner ascending allows item reuse.
