@@ -2431,3 +2431,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 608
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 609
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
