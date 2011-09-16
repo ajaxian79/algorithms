@@ -321,3 +321,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 299: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 300: Euler tour flattens a tree into an array for range-query LCA.
 // note 301: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 302: k-d tree: median-split each axis; nearest-neighbor average O(log n).
