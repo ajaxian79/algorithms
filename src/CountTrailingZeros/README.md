@@ -3574,3 +3574,7 @@ Caller owns the returned buffer.
 ## entry 878
 
 No allocations on the hot path.
+
+## entry 879
+
+Edge case: zero-length string → returns the empty result.
