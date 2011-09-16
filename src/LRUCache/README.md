@@ -3400,3 +3400,7 @@ Branchless inner loop after sorting.
 ## entry 834
 
 Branchless inner loop after sorting.
+
+## entry 835
+
+Edge case: power-of-two-length input → no padding required.
