@@ -2619,3 +2619,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 655
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 656
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
