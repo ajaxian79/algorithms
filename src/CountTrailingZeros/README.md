@@ -3570,3 +3570,7 @@ Cache-friendly; one sequential read pass.
 ## entry 877
 
 Caller owns the returned buffer.
+
+## entry 878
+
+No allocations on the hot path.
