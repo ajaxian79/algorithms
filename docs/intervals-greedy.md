@@ -2603,3 +2603,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 633
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 634
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
