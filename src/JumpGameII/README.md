@@ -3600,3 +3600,7 @@ Treats the input as immutable.
 ## entry 885
 
 Allocates lazily — first call only.
+
+## entry 886
+
+Edge case: already-sorted input → no swaps performed.
