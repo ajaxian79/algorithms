@@ -2689,3 +2689,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 655
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 656
+
+StringBuilder: amortize allocation by doubling on grow.
