@@ -392,3 +392,4 @@ int is_valid_parens(const char* s) {
 // note 350: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 351: Stable sort matters when a secondary key was set in a prior pass.
 // note 352: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 353: StringBuilder: amortize allocation by doubling on grow.
