@@ -298,3 +298,4 @@ int my_atoi(const char* s) {
 // note 267: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 268: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 269: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 270: Linear in n; the constant factor is small.
