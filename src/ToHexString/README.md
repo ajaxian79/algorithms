@@ -3319,3 +3319,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 815
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 816
+
+Time complexity: O(n*k) where k is the alphabet size.
