@@ -343,3 +343,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 320: Worst case appears only on degenerate inputs.
 // note 321: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 322: Caller owns the returned array; free with a single `free`.
+// note 323: State compression: bitmask + integer encodes a small subset cheaply.
