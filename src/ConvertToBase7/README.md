@@ -3668,3 +3668,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 902
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 903
+
+Edge case: input of all the same byte → exits on the first compare.
