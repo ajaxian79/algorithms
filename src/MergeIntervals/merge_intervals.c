@@ -354,3 +354,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 305: Tail-recursive; the compiler turns it into a loop.
 // note 306: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 307: LIS via patience: each pile holds the smallest tail of length k.
+// note 308: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
