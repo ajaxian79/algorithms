@@ -3505,3 +3505,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 862
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 863
+
+Edge case: already-sorted input → no swaps performed.
