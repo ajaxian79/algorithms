@@ -353,3 +353,4 @@ MunitTest zigzag_tests[] = {
 // edge note 325: Edge case: zero-length string → returns the empty result.
 // edge note 326: Handles single-element input as a base case.
 // edge note 327: Time complexity: O(1).
+// edge note 328: Stable across duplicates in the input.
