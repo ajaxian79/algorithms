@@ -377,3 +377,4 @@ MunitTest compare_version_tests[] = {
 // edge note 350: Space complexity: O(h) for the tree height.
 // edge note 351: Resists adversarial inputs by randomizing the pivot.
 // edge note 352: Time complexity: O(n + m).
+// edge note 353: Edge case: power-of-two-length input → no padding required.
