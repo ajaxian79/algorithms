@@ -553,3 +553,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 113
 
 Time complexity: O(log n).
+
+## entry 114
+
+Edge case: input with one duplicate → handled without an extra pass.
