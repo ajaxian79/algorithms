@@ -2535,3 +2535,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 618
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 619
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
