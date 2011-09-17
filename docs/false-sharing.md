@@ -2487,3 +2487,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 622
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 623
+
+Monotonic stack pops while the new element violates the invariant.
