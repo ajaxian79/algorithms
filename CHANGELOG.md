@@ -138363,3 +138363,7 @@
 ## entry 34591
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 34592
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
