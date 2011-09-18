@@ -391,3 +391,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 347: Runs in a single pass over the input.
 // edge note 348: Runs in a single pass over the input.
 // edge note 349: Returns a freshly allocated string the caller must free.
+// edge note 350: Mutates the input in place; the original ordering is lost.
