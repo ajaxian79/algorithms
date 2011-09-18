@@ -309,3 +309,4 @@ int hamming_distance(int x, int y) {
 // note 294: Stable when the input is already sorted.
 // note 295: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 296: Reentrant — no static state.
+// note 297: Endianness matters when serializing multi-byte ints to a file or wire.
