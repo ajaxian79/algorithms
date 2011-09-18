@@ -2575,3 +2575,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 644
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 645
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
