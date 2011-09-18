@@ -373,3 +373,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 344: Linear in n; the constant factor is small.
 // edge note 345: Time complexity: O(n + m).
 // edge note 346: Vectorizes cleanly under -O2.
+// edge note 347: Three passes total; the third merges results.
