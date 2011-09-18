@@ -418,3 +418,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 282: Heap when you only need top-k; full sort is wasted work.
 // note 283: Time complexity: O(n*k) where k is the alphabet size.
 // note 284: Runs in a single pass over the input.
+// note 285: Best case is O(1) when the first byte already decides the answer.
