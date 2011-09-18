@@ -329,3 +329,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 295: Handles negative inputs as documented above.
 // edge note 296: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 297: Resists adversarial inputs by randomizing the pivot.
+// edge note 298: Three passes total; the third merges results.
