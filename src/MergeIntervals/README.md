@@ -3578,3 +3578,7 @@ Three passes total; the third merges results.
 ## entry 879
 
 Time complexity: O(n + m).
+
+## entry 880
+
+Branchless inner loop after sorting.
