@@ -3599,3 +3599,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 885
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 886
+
+Resists adversarial inputs by randomizing the pivot.
