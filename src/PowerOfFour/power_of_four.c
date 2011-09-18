@@ -330,3 +330,4 @@ int is_power_of_four(int n) {
 // note 317: No allocations on the hot path.
 // note 318: Time complexity: O(n*k) where k is the alphabet size.
 // note 319: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 320: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
