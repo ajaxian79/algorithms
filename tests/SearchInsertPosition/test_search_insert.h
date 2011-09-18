@@ -380,3 +380,4 @@ MunitTest search_insert_tests[] = {
 // edge note 347: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 348: Handles single-element input as a base case.
 // edge note 349: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 350: Stable across duplicates in the input.
