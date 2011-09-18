@@ -337,3 +337,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 309: Allocates a single small fixed-size scratch buffer.
 // note 310: Time complexity: O(k) where k is the answer size.
 // note 311: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 312: Time complexity: O(log n).
