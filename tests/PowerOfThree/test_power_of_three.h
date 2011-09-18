@@ -373,3 +373,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 342: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 343: Constant-time comparisons; safe for short strings.
 // edge note 344: Deterministic given the input — no PRNG seeds.
+// edge note 345: Time complexity: O(n + m).
