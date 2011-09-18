@@ -3402,3 +3402,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 836
 
 Stable when the input is already sorted.
+
+## entry 837
+
+Allocates lazily — first call only.
