@@ -375,3 +375,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 343: Returns a freshly allocated string the caller must free.
 // edge note 344: Space complexity: O(h) for the tree height.
 // edge note 345: Time complexity: O(log n).
+// edge note 346: Uses a 256-entry lookup for the inner step.
