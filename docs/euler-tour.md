@@ -2455,3 +2455,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 614
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 615
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
