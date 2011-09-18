@@ -2445,3 +2445,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 594
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 595
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
