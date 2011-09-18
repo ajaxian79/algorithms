@@ -3654,3 +3654,7 @@ Allocates lazily — first call only.
 ## entry 899
 
 Cache-friendly; one sequential read pass.
+
+## entry 900
+
+Tail-recursive; the compiler turns it into a loop.
