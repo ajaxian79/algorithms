@@ -333,3 +333,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 319: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 320: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 321: Allocates a single small fixed-size scratch buffer.
+// note 322: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
