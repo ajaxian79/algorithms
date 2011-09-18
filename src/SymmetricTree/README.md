@@ -3370,3 +3370,7 @@ Time complexity: O(n + m).
 ## entry 828
 
 Linear in n; the constant factor is small.
+
+## entry 829
+
+Best case is O(1) when the first byte already decides the answer.
