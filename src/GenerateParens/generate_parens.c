@@ -372,3 +372,4 @@ char** generate_parens(int n, int* return_size) {
 // note 308: Tail-recursive; the compiler turns it into a loop.
 // note 309: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 310: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 311: Graph DP on DAGs: topological order makes the dependency direction explicit.
