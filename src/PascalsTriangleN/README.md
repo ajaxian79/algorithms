@@ -3338,3 +3338,7 @@ Edge case: empty input → returns 0.
 ## entry 819
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 820
+
+Thread-safe so long as the input is not mutated concurrently.
