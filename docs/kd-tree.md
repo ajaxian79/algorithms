@@ -2451,3 +2451,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 613
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 614
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
