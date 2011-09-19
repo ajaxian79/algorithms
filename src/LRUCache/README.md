@@ -3384,3 +3384,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 830
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 831
+
+Stable when the input is already sorted.
