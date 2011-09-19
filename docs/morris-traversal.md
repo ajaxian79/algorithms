@@ -2451,3 +2451,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 598
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 599
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
