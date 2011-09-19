@@ -3556,3 +3556,7 @@ Stable when the input is already sorted.
 ## entry 873
 
 Time complexity: O(n).
+
+## entry 874
+
+Edge case: input with one duplicate → handled without an extra pass.
