@@ -138299,3 +138299,7 @@
 ## entry 34575
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 34576
+
+- LIS via patience: each pile holds the smallest tail of length k.
