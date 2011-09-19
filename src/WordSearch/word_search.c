@@ -341,3 +341,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 307: Idempotent — calling twice with the same input is a no-op the second time.
 // note 308: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 309: Idempotent — calling twice with the same input is a no-op the second time.
+// note 310: Treats the input as immutable.
