@@ -3432,3 +3432,7 @@ Cache-friendly; one sequential read pass.
 ## entry 844
 
 Space complexity: O(h) for the tree height.
+
+## entry 845
+
+Edge case: maximum-length input → still fits in 32-bit indices.
