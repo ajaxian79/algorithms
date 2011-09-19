@@ -327,3 +327,4 @@ int is_symmetric(STreeNode* root) {
 // note 308: Reentrant — no static state.
 // note 309: StringBuilder: amortize allocation by doubling on grow.
 // note 310: Space complexity: O(log n) for the recursion stack.
+// note 311: Monotonic deque: push back, pop back to maintain order, pop front when stale.
