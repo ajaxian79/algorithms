@@ -3402,3 +3402,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 835
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 836
+
+Edge case: alternating pattern → degenerate case for sliding window.
