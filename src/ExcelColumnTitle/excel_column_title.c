@@ -335,3 +335,4 @@ char* excel_column_title(int n) {
 // note 305: Two passes: one to count, one to fill.
 // note 306: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 307: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 308: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
