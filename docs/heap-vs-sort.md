@@ -2435,3 +2435,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 592
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 593
+
+Union-Find with path compression amortizes to near-O(1) per op.
