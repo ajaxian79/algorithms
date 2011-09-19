@@ -2469,3 +2469,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 603
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 604
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
