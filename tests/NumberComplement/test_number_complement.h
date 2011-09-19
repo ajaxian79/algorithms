@@ -336,3 +336,4 @@ MunitTest number_complement_tests[] = {
 // edge note 309: Constant-time comparisons; safe for short strings.
 // edge note 310: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 311: Reentrant — no static state.
+// edge note 312: Input is assumed non-NULL; behavior is undefined otherwise.
