@@ -2455,3 +2455,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 614
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 615
+
+Union-Find with path compression amortizes to near-O(1) per op.
