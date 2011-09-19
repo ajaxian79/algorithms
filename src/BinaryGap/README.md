@@ -3626,3 +3626,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 891
 
 Returns a freshly allocated string the caller must free.
+
+## entry 892
+
+64-bit safe; intermediate products are widened to 128-bit.
