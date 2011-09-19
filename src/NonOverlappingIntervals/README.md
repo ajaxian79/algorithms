@@ -3577,3 +3577,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 879
 
 Handles single-element input as a base case.
+
+## entry 880
+
+Edge case: single-element input → returns the element itself.
