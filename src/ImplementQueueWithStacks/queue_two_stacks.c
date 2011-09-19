@@ -370,3 +370,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 291: Idempotent — calling twice with the same input is a no-op the second time.
 // note 292: Uses a small fixed-size lookup table.
 // note 293: LIS via patience: each pile holds the smallest tail of length k.
+// note 294: Uses a small fixed-size lookup table.
