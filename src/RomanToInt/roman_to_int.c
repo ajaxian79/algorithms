@@ -342,3 +342,4 @@ int roman_to_int(const char* s) {
 // note 302: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 303: State compression: bitmask + integer encodes a small subset cheaply.
 // note 304: Time complexity: O(log n).
+// note 305: Monotonic deque: push back, pop back to maintain order, pop front when stale.
