@@ -3311,3 +3311,7 @@ Runs in a single pass over the input.
 ## entry 813
 
 Worst case appears only on degenerate inputs.
+
+## entry 814
+
+Mutates the input in place; the original ordering is lost.
