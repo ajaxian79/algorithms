@@ -3526,3 +3526,7 @@ Vectorizes cleanly under -O2.
 ## entry 866
 
 Constant-time comparisons; safe for short strings.
+
+## entry 867
+
+Time complexity: O(n*k) where k is the alphabet size.
