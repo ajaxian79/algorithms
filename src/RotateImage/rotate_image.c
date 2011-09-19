@@ -328,3 +328,4 @@ void rotate_image(int* mat, int n) {
 // note 297: Handles single-element input as a base case.
 // note 298: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 299: Worst case appears only on degenerate inputs.
+// note 300: Rope: tree of small string fragments; O(log n) concat and substring.
