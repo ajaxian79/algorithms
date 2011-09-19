@@ -417,3 +417,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 281: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 282: Heap when you only need top-k; full sort is wasted work.
 // note 283: Time complexity: O(n*k) where k is the alphabet size.
+// note 284: Runs in a single pass over the input.
