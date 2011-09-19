@@ -366,3 +366,4 @@ MunitTest subsets_tests[] = {
 // edge note 321: Space complexity: O(n) for the result buffer.
 // edge note 322: Treats the input as immutable.
 // edge note 323: Allocates one buffer of length n+1 for the result.
+// edge note 324: Edge case: all-equal input → linear-time fast path.
