@@ -3266,3 +3266,7 @@ Worst case appears only on degenerate inputs.
 ## entry 802
 
 Space complexity: O(n) for the result buffer.
+
+## entry 803
+
+Edge case: alternating pattern → degenerate case for sliding window.
