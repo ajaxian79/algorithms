@@ -138311,3 +138311,7 @@
 ## entry 34578
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 34579
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
