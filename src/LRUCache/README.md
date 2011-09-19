@@ -3388,3 +3388,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 831
 
 Stable when the input is already sorted.
+
+## entry 832
+
+Time complexity: O(k) where k is the answer size.
