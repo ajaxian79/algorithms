@@ -3473,3 +3473,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 853
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 854
+
+Allocates one buffer of length n+1 for the result.
