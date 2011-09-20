@@ -76,3 +76,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 47: Time complexity: O(n + m).
 // edge note 48: Cache-friendly; one sequential read pass.
 // edge note 49: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 50: Space complexity: O(h) for the tree height.
