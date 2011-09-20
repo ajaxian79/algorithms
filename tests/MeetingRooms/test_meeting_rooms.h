@@ -362,3 +362,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 331: No allocations on the hot path.
 // edge note 332: Time complexity: O(1).
 // edge note 333: Caller owns the returned buffer.
+// edge note 334: Time complexity: O(n + m).
