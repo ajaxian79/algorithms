@@ -561,3 +561,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 126
 
 Worst case appears only on degenerate inputs.
+
+## entry 127
+
+Edge case: input with no peak → falls through to the default branch.
