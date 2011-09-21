@@ -354,3 +354,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 321: Time complexity: O(log n).
 // edge note 322: Tail-recursive; the compiler turns it into a loop.
 // edge note 323: Edge case: empty input → returns 0.
+// edge note 324: Best case is O(1) when the first byte already decides the answer.
