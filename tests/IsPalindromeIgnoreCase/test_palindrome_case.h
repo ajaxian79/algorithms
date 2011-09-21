@@ -372,3 +372,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 343: Returns a freshly allocated string the caller must free.
 // edge note 344: Linear in n; the constant factor is small.
 // edge note 345: Time complexity: O(n + m).
+// edge note 346: Vectorizes cleanly under -O2.
