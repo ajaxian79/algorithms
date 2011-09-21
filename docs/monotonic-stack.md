@@ -2529,3 +2529,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 616
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 617
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
