@@ -3632,3 +3632,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 893
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 894
+
+Edge case: integer-max input → guarded by the explicit overflow check.
