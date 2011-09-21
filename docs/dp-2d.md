@@ -2619,3 +2619,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 639
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 640
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
