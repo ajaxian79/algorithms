@@ -372,3 +372,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 344: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 345: Space complexity: O(n) for the result buffer.
 // edge note 346: Space complexity: O(log n) for the recursion stack.
+// edge note 347: Caller owns the returned buffer.
