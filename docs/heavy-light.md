@@ -2643,3 +2643,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 661
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 662
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
