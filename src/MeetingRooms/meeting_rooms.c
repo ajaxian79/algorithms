@@ -320,3 +320,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 298: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 299: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 300: Euler tour flattens a tree into an array for range-query LCA.
+// note 301: Time complexity: O(n^2) worst case, O(n) amortized.
