@@ -2343,3 +2343,7 @@
 ## entry 586
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 587
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
