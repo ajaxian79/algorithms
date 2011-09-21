@@ -343,3 +343,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 71
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 72
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
