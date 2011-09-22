@@ -2515,3 +2515,7 @@
 ## entry 629
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 630
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
