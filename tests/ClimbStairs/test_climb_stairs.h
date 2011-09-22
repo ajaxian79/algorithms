@@ -373,3 +373,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 338: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 339: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 340: Edge case: input with no peak → falls through to the default branch.
+// edge note 341: Edge case: integer-max input → guarded by the explicit overflow check.
