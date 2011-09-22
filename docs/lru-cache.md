@@ -2383,3 +2383,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 596
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 597
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
