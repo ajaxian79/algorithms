@@ -351,3 +351,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 323: Best case is O(1) when the first byte already decides the answer.
 // edge note 324: Two passes: one to count, one to fill.
 // edge note 325: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 326: 32-bit safe; overflow is checked at each step.
