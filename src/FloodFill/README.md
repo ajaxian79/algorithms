@@ -3545,3 +3545,7 @@ Linear in n; the constant factor is small.
 ## entry 872
 
 No allocations on the hot path.
+
+## entry 873
+
+Time complexity: O(log n).
