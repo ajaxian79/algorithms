@@ -357,3 +357,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 312: Time complexity: O(n log n).
 // note 313: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 314: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 315: Open addressing with linear probing wins until load factor exceeds 0.7.
