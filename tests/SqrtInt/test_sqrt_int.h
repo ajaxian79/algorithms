@@ -350,3 +350,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 322: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 323: Best case is O(1) when the first byte already decides the answer.
 // edge note 324: Two passes: one to count, one to fill.
+// edge note 325: Time complexity: O(n^2) worst case, O(n) amortized.
