@@ -2477,3 +2477,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 602
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 603
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
