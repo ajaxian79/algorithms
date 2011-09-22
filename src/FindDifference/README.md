@@ -3394,3 +3394,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 834
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 835
+
+Edge case: already-sorted input → no swaps performed.
