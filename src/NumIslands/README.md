@@ -3301,3 +3301,7 @@ Cache-friendly; one sequential read pass.
 ## entry 810
 
 Reentrant — no static state.
+
+## entry 811
+
+Edge case: empty input → returns 0.
