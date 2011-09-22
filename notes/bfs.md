@@ -2457,3 +2457,7 @@
 ## entry 597
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 598
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
