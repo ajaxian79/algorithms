@@ -383,3 +383,4 @@ MunitTest happy_number_tests[] = {
 // edge note 355: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 356: Branchless inner loop after sorting.
 // edge note 357: Stable when the input is already sorted.
+// edge note 358: Worst case appears only on degenerate inputs.
