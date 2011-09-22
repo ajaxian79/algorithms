@@ -3462,3 +3462,7 @@ Handles negative inputs as documented above.
 ## entry 850
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 851
+
+Treats the input as immutable.
