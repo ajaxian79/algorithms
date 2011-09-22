@@ -335,3 +335,4 @@ MunitTest number_complement_tests[] = {
 // edge note 308: Caller owns the returned buffer.
 // edge note 309: Constant-time comparisons; safe for short strings.
 // edge note 310: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 311: Reentrant — no static state.
