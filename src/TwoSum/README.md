@@ -3345,3 +3345,7 @@ Uses a small fixed-size lookup table.
 ## entry 811
 
 Three passes total; the third merges results.
+
+## entry 812
+
+Reentrant — no static state.
