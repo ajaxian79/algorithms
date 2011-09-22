@@ -3617,3 +3617,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 889
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 890
+
+Edge case: input of all the same byte → exits on the first compare.
