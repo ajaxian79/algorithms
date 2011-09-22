@@ -3573,3 +3573,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 878
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 879
+
+Handles single-element input as a base case.
