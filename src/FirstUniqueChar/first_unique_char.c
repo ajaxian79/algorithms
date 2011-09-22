@@ -324,3 +324,4 @@ int first_unique_char(const char* s) {
 // note 305: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 306: Stable sort matters when a secondary key was set in a prior pass.
 // note 307: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 308: Time complexity: O(n^2) worst case, O(n) amortized.
