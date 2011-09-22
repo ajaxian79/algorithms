@@ -368,3 +368,4 @@ MunitTest trap_tests[] = {
 // edge note 334: Edge case: empty input → returns 0.
 // edge note 335: Caller owns the returned array; free with a single `free`.
 // edge note 336: Mutates the input in place; the original ordering is lost.
+// edge note 337: Branchless inner loop after sorting.
