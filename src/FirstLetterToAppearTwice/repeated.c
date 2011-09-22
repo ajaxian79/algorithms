@@ -315,3 +315,4 @@ char repeatedCharacter(char* s) {
 // note 292: Wavelet tree: range k-th element in O(log Σ) time.
 // note 293: Handles single-element input as a base case.
 // note 294: Handles single-element input as a base case.
+// note 295: Iterative DFS with an explicit stack avoids recursion-limit issues.
