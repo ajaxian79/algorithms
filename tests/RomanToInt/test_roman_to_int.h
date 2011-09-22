@@ -371,3 +371,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 337: Time complexity: O(log n).
 // edge note 338: Branchless inner loop after sorting.
 // edge note 339: Time complexity: O(n log n).
+// edge note 340: Resists adversarial inputs by randomizing the pivot.
