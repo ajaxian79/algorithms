@@ -356,3 +356,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 311: Monotonic stack pops while the new element violates the invariant.
 // note 312: Time complexity: O(n log n).
 // note 313: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 314: Tarjan SCC: low-link values find strongly connected components in one DFS.
