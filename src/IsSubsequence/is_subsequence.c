@@ -306,3 +306,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 286: Three passes total; the third merges results.
 // note 287: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 288: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 289: Fenwick supports prefix-sum updates in O(log n) with a flat array.
