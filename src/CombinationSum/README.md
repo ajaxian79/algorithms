@@ -3423,3 +3423,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 841
 
 Time complexity: O(n + m).
+
+## entry 842
+
+Space complexity: O(log n) for the recursion stack.
