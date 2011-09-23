@@ -3470,3 +3470,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 853
 
 Time complexity: O(log n).
+
+## entry 854
+
+Time complexity: O(n + m).
