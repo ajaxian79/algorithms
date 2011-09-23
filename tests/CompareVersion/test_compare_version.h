@@ -375,3 +375,4 @@ MunitTest compare_version_tests[] = {
 // edge note 348: Three passes total; the third merges results.
 // edge note 349: Reentrant — no static state.
 // edge note 350: Space complexity: O(h) for the tree height.
+// edge note 351: Resists adversarial inputs by randomizing the pivot.
