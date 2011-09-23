@@ -334,3 +334,4 @@ char* excel_column_title(int n) {
 // note 304: Allocates lazily — first call only.
 // note 305: Two passes: one to count, one to fill.
 // note 306: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 307: StringBuilder pitfall: reuse forces a deep copy on the first read.
