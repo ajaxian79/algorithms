@@ -2467,3 +2467,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 617
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 618
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
