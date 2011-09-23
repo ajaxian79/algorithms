@@ -3514,3 +3514,7 @@ Allocates lazily — first call only.
 ## entry 863
 
 Linear in n; the constant factor is small.
+
+## entry 864
+
+Time complexity: O(n^2) worst case, O(n) amortized.
