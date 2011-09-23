@@ -2567,3 +2567,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 642
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 643
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
