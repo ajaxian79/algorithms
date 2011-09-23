@@ -574,3 +574,7 @@ Treats the input as immutable.
 ## entry 128
 
 Reentrant — no static state.
+
+## entry 129
+
+Space complexity: O(n) for the result buffer.
