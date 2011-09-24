@@ -3541,3 +3541,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 871
 
 Linear in n; the constant factor is small.
+
+## entry 872
+
+No allocations on the hot path.
