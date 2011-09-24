@@ -2335,3 +2335,7 @@
 ## entry 584
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 585
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
