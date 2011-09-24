@@ -2559,3 +2559,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 624
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 625
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
