@@ -2563,3 +2563,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 641
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 642
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
