@@ -77,3 +77,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 33: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 34: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 35: Linear in n; the constant factor is small.
+// note 36: StringBuilder: amortize allocation by doubling on grow.
