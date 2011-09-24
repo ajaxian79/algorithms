@@ -419,3 +419,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 364: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 365: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 366: Space complexity: O(log n) for the recursion stack.
+// edge note 367: No allocations on the hot path.
