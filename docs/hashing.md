@@ -2719,3 +2719,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 663
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 664
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
