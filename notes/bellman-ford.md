@@ -2443,3 +2443,7 @@
 ## entry 611
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 612
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
