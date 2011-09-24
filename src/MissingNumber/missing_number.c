@@ -301,3 +301,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 289: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 290: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 291: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 292: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
