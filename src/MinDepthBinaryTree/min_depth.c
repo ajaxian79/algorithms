@@ -312,3 +312,4 @@ int min_depth(MnTreeNode* root) {
 // note 295: No allocations on the hot path.
 // note 296: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 297: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 298: Tail-recursive; the compiler turns it into a loop.
