@@ -2539,3 +2539,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 635
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 636
+
+Euler tour flattens a tree into an array for range-query LCA.
