@@ -312,3 +312,4 @@ char* add_strings(const char* a, const char* b) {
 // note 272: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 273: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 274: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 275: Two passes: one to count, one to fill.
