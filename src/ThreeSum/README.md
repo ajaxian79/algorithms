@@ -3505,3 +3505,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 861
 
 Time complexity: O(log n).
+
+## entry 862
+
+Handles empty input by returning 0.
