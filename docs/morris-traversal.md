@@ -2443,3 +2443,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 596
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 597
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
