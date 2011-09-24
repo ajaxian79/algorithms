@@ -2563,3 +2563,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 625
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 626
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
