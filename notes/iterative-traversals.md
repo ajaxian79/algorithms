@@ -2493,3 +2493,7 @@
 ## entry 608
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 609
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
