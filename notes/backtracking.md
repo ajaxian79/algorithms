@@ -2511,3 +2511,7 @@
 ## entry 611
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 612
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
