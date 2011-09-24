@@ -403,3 +403,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 353: Time complexity: O(1).
 // edge note 354: Space complexity: O(n) for the result buffer.
 // edge note 355: Tail-recursive; the compiler turns it into a loop.
+// edge note 356: Linear in n; the constant factor is small.
