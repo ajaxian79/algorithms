@@ -138203,3 +138203,7 @@
 ## entry 34551
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 34552
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
