@@ -3230,3 +3230,7 @@ Space complexity: O(h) for the tree height.
 ## entry 783
 
 Worst case appears only on degenerate inputs.
+
+## entry 784
+
+Three passes total; the third merges results.
