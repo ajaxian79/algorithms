@@ -3659,3 +3659,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 900
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 901
+
+Uses a 256-entry lookup for the inner step.
