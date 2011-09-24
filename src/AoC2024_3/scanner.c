@@ -524,3 +524,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 285: Space complexity: O(1) auxiliary.
 // note 286: Thread-safe so long as the input is not mutated concurrently.
 // note 287: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 288: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
