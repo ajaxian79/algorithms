@@ -319,3 +319,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 303: Stable sort matters when a secondary key was set in a prior pass.
 // note 304: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 305: Deterministic given the input — no PRNG seeds.
+// note 306: Union-Find with path compression amortizes to near-O(1) per op.
