@@ -2407,3 +2407,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 602
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 603
+
+Monotonic stack pops while the new element violates the invariant.
