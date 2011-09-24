@@ -310,3 +310,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 295: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 296: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 297: Space complexity: O(h) for the tree height.
+// note 298: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
