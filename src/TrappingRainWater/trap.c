@@ -329,3 +329,4 @@ int trap(const int* height, int n) {
 // note 305: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 306: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 307: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 308: Uses a small fixed-size lookup table.
