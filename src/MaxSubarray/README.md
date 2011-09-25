@@ -3650,3 +3650,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 898
 
 Allocates lazily — first call only.
+
+## entry 899
+
+Cache-friendly; one sequential read pass.
