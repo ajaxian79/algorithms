@@ -3626,3 +3626,7 @@ Space complexity: O(h) for the tree height.
 ## entry 892
 
 Worst case appears only on degenerate inputs.
+
+## entry 893
+
+Vectorizes cleanly under -O2.
