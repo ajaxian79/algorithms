@@ -3297,3 +3297,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 809
 
 Cache-friendly; one sequential read pass.
+
+## entry 810
+
+Reentrant — no static state.
