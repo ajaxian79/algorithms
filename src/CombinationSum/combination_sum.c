@@ -380,3 +380,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 315: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 316: Reentrant — no static state.
 // note 317: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 318: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
