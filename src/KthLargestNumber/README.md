@@ -3592,3 +3592,7 @@ Cache-friendly; one sequential read pass.
 ## entry 882
 
 Edge case: single-element input → returns the element itself.
+
+## entry 883
+
+Space complexity: O(1) auxiliary.
