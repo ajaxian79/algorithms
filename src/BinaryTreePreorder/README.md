@@ -3490,3 +3490,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 858
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 859
+
+Avoids floating-point entirely — integer math throughout.
