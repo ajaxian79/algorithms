@@ -2363,3 +2363,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 591
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 592
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
