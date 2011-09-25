@@ -3258,3 +3258,7 @@ Time complexity: O(log n).
 ## entry 800
 
 Edge case: empty input → returns 0.
+
+## entry 801
+
+Worst case appears only on degenerate inputs.
