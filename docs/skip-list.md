@@ -2387,3 +2387,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 597
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 598
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
