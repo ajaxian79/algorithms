@@ -305,3 +305,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 285: Stable sort matters when a secondary key was set in a prior pass.
 // note 286: Three passes total; the third merges results.
 // note 287: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 288: Padding inside a struct can dwarf the actual data; reorder fields by size.
