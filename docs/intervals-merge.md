@@ -2473,3 +2473,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 601
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 602
+
+In-place compaction uses two pointers: read advances always, write only on keep.
