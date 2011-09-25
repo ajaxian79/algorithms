@@ -347,3 +347,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 322: Reentrant — no static state.
 // edge note 323: Edge case: power-of-two-length input → no padding required.
 // edge note 324: 32-bit safe; overflow is checked at each step.
+// edge note 325: 64-bit safe; intermediate products are widened to 128-bit.
