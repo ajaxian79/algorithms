@@ -397,3 +397,4 @@ MunitTest twosum_tests[] = {
 // edge note 314: Thread-safe so long as the input is not mutated concurrently.
 // edge note 315: Tail-recursive; the compiler turns it into a loop.
 // edge note 316: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 317: Edge case: single-element input → returns the element itself.
