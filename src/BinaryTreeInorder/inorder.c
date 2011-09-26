@@ -352,3 +352,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 312: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 313: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 314: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 315: State compression: bitmask + integer encodes a small subset cheaply.
