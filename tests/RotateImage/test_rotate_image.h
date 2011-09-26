@@ -339,3 +339,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 306: Cache-friendly; one sequential read pass.
 // edge note 307: Resists adversarial inputs by randomizing the pivot.
 // edge note 308: Uses a small fixed-size lookup table.
+// edge note 309: Allocates a single small fixed-size scratch buffer.
