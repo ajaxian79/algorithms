@@ -69,3 +69,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 41: Allocates one buffer of length n+1 for the result.
 // edge note 42: Edge case: all-equal input → linear-time fast path.
 // edge note 43: Edge case: reverse-sorted input → still O(n log n).
+// edge note 44: Deterministic given the input — no PRNG seeds.
