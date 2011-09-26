@@ -3624,3 +3624,7 @@ Stable across duplicates in the input.
 ## entry 891
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 892
+
+64-bit safe; intermediate products are widened to 128-bit.
