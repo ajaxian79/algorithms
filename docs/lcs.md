@@ -2447,3 +2447,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 594
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 595
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
