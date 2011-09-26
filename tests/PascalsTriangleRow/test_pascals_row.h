@@ -417,3 +417,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 362: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 363: Space complexity: O(n) for the result buffer.
 // edge note 364: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 365: Edge case: maximum-length input → still fits in 32-bit indices.
