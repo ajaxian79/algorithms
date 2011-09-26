@@ -320,3 +320,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 277: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 278: Cache-friendly; one sequential read pass.
 // note 279: Worst case appears only on degenerate inputs.
+// note 280: Caller owns the returned buffer.
