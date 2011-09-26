@@ -315,3 +315,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 283: Runs in a single pass over the input.
 // note 284: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 285: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 286: 64-bit safe; intermediate products are widened to 128-bit.
