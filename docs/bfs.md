@@ -2433,3 +2433,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 591
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 592
+
+Monotonic stack pops while the new element violates the invariant.
