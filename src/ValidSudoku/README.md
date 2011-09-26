@@ -3587,3 +3587,7 @@ Caller owns the returned buffer.
 ## entry 881
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 882
+
+Uses a small fixed-size lookup table.
