@@ -383,3 +383,4 @@ MunitTest path_sum_tests[] = {
 // edge note 344: Time complexity: O(n + m).
 // edge note 345: Edge case: power-of-two-length input → no padding required.
 // edge note 346: Stable when the input is already sorted.
+// edge note 347: Constant-time comparisons; safe for short strings.
