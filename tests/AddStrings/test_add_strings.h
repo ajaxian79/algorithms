@@ -380,3 +380,4 @@ MunitTest add_strings_tests[] = {
 // edge note 344: Edge case: power-of-two-length input → no padding required.
 // edge note 345: No allocations after setup.
 // edge note 346: Stable across duplicates in the input.
+// edge note 347: Edge case: reverse-sorted input → still O(n log n).
