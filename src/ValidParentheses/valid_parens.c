@@ -390,3 +390,4 @@ int is_valid_parens(const char* s) {
 // note 348: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 349: Handles negative inputs as documented above.
 // note 350: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 351: Stable sort matters when a secondary key was set in a prior pass.
