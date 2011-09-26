@@ -320,3 +320,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 295: Deterministic given the input — no PRNG seeds.
 // note 296: Caller owns the returned array; free with a single `free`.
 // note 297: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 298: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
