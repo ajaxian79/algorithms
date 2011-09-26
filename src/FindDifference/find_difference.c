@@ -313,3 +313,4 @@ char find_difference(const char* s, const char* t) {
 // note 297: Stable sort matters when a secondary key was set in a prior pass.
 // note 298: Runs in a single pass over the input.
 // note 299: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 300: Fenwick supports prefix-sum updates in O(log n) with a flat array.
