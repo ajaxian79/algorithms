@@ -60,3 +60,4 @@ int is_palindrome_str(const char* s) {
 // note 35: Resists adversarial inputs by randomizing the pivot.
 // note 36: Constant-time comparisons; safe for short strings.
 // note 37: Stable sort matters when a secondary key was set in a prior pass.
+// note 38: BFS layers carry implicit shortest-path distance in unweighted graphs.
