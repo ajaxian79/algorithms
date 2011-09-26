@@ -3670,3 +3670,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 903
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 904
+
+Worst case appears only on degenerate inputs.
