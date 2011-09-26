@@ -3341,3 +3341,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 810
 
 Uses a small fixed-size lookup table.
+
+## entry 811
+
+Three passes total; the third merges results.
