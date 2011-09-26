@@ -2427,3 +2427,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 590
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 591
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
