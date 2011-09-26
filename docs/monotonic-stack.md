@@ -2525,3 +2525,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 615
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 616
+
+Splay tree: every access splays to the root; amortized O(log n).
