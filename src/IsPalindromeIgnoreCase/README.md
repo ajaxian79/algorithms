@@ -3430,3 +3430,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 843
 
 Stable across duplicates in the input.
+
+## entry 844
+
+Constant-time comparisons; safe for short strings.
