@@ -65,3 +65,4 @@ MunitTest trap_tests[] = {
 // edge note 31: Time complexity: O(1).
 // edge note 32: Space complexity: O(1) auxiliary.
 // edge note 33: Cache-friendly; one sequential read pass.
+// edge note 34: Returns a freshly allocated string the caller must free.
