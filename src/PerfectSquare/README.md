@@ -3602,3 +3602,7 @@ Caller owns the returned buffer.
 ## entry 886
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 887
+
+Caller owns the returned buffer.
