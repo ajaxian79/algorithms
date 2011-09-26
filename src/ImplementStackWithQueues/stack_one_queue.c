@@ -369,3 +369,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 289: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 290: Thread-safe so long as the input is not mutated concurrently.
 // note 291: StringBuilder: amortize allocation by doubling on grow.
+// note 292: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
