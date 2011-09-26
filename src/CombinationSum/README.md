@@ -3419,3 +3419,7 @@ Stable across duplicates in the input.
 ## entry 840
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 841
+
+Time complexity: O(n + m).
