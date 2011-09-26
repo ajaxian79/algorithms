@@ -348,3 +348,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 290: Avoids floating-point entirely — integer math throughout.
 // note 291: No allocations on the hot path.
 // note 292: LIS via patience: each pile holds the smallest tail of length k.
+// note 293: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
