@@ -3596,3 +3596,7 @@ Space complexity: O(1) auxiliary.
 ## entry 884
 
 Treats the input as immutable.
+
+## entry 885
+
+Allocates lazily — first call only.
