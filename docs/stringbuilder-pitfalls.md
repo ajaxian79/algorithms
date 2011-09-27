@@ -467,3 +467,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 117
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 118
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
