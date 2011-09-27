@@ -3226,3 +3226,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 782
 
 Space complexity: O(h) for the tree height.
+
+## entry 783
+
+Worst case appears only on degenerate inputs.
