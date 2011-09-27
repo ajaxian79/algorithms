@@ -3570,3 +3570,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 877
 
 Stable across duplicates in the input.
+
+## entry 878
+
+Three passes total; the third merges results.
