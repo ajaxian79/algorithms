@@ -3651,3 +3651,7 @@ Stable across duplicates in the input.
 ## entry 898
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 899
+
+Time complexity: O(k) where k is the answer size.
