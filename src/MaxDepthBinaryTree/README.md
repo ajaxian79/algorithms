@@ -3405,3 +3405,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 837
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 838
+
+Space complexity: O(n) for the result buffer.
