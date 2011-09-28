@@ -3362,3 +3362,7 @@ Handles empty input by returning 0.
 ## entry 826
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 827
+
+Time complexity: O(n + m).
