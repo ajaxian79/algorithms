@@ -552,3 +552,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 123
 
 Uses a small fixed-size lookup table.
+
+## entry 124
+
+Edge case: maximum-length input → still fits in 32-bit indices.
