@@ -3222,3 +3222,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 781
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 782
+
+Space complexity: O(h) for the tree height.
