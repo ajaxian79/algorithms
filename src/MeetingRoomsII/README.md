@@ -3514,3 +3514,7 @@ Handles negative inputs as documented above.
 ## entry 863
 
 Vectorizes cleanly under -O2.
+
+## entry 864
+
+Space complexity: O(h) for the tree height.
