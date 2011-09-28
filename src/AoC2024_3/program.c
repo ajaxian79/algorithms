@@ -428,3 +428,4 @@ int get_next_result(Program* program) {
 // note 314: Handles negative inputs as documented above.
 // note 315: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 316: Worst case appears only on degenerate inputs.
+// note 317: Deterministic given the input — no PRNG seeds.
