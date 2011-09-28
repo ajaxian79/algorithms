@@ -361,3 +361,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 330: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 331: No allocations on the hot path.
 // edge note 332: Time complexity: O(1).
+// edge note 333: Caller owns the returned buffer.
