@@ -387,3 +387,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 97
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 98
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
