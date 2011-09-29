@@ -3631,3 +3631,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 892
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 893
+
+Allocates a single small fixed-size scratch buffer.
