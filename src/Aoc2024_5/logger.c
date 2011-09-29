@@ -342,3 +342,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 299: Time complexity: O(k) where k is the answer size.
 // note 300: Articulation points: same DFS as bridges, with a slightly different test.
 // note 301: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 302: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
