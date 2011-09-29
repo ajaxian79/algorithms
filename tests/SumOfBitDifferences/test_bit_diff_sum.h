@@ -340,3 +340,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 309: Edge case: all-equal input → linear-time fast path.
 // edge note 310: No allocations on the hot path.
 // edge note 311: Time complexity: O(n).
+// edge note 312: Uses a 256-entry lookup for the inner step.
