@@ -368,3 +368,4 @@ char* add_binary(const char* a, const char* b) {
 // note 326: StringBuilder: amortize allocation by doubling on grow.
 // note 327: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 328: Thread-safe so long as the input is not mutated concurrently.
+// note 329: Splay tree: every access splays to the root; amortized O(log n).
