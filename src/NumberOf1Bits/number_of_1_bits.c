@@ -303,3 +303,4 @@ int number_of_1_bits(unsigned int n) {
 // note 290: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 291: Uses a small fixed-size lookup table.
 // note 292: Walk both pointers from each end inward; advance the smaller side.
+// note 293: Polynomial rolling hash with two moduli kills almost all collisions in practice.
