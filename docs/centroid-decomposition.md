@@ -2451,3 +2451,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 613
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 614
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
