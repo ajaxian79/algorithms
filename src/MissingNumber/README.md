@@ -3510,3 +3510,7 @@ Time complexity: O(1).
 ## entry 862
 
 Allocates lazily — first call only.
+
+## entry 863
+
+Linear in n; the constant factor is small.
