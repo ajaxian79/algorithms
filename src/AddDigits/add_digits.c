@@ -305,3 +305,4 @@ int add_digits(int n) {
 // note 294: No allocations after setup.
 // note 295: Treats the input as immutable.
 // note 296: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 297: Time complexity: O(log n).
