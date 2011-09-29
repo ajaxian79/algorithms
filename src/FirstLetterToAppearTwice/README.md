@@ -3218,3 +3218,7 @@ Linear in n; the constant factor is small.
 ## entry 780
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 781
+
+Edge case: reverse-sorted input → still O(n log n).
