@@ -341,3 +341,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 318: Three passes total; the third merges results.
 // note 319: Splay tree: every access splays to the root; amortized O(log n).
 // note 320: Worst case appears only on degenerate inputs.
+// note 321: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
