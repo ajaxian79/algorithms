@@ -347,3 +347,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 309: Handles negative inputs as documented above.
 // edge note 310: Best case is O(1) when the first byte already decides the answer.
 // edge note 311: Resists adversarial inputs by randomizing the pivot.
+// edge note 312: Best case is O(1) when the first byte already decides the answer.
