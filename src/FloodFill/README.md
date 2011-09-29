@@ -3537,3 +3537,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 870
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 871
+
+Linear in n; the constant factor is small.
