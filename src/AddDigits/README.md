@@ -3512,3 +3512,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 863
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 864
+
+Time complexity: O(n log n).
