@@ -499,3 +499,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 109
 
 Space complexity: O(1) auxiliary.
+
+## entry 110
+
+64-bit safe; intermediate products are widened to 128-bit.
