@@ -3533,3 +3533,7 @@ Worst case appears only on degenerate inputs.
 ## entry 869
 
 Edge case: single-element input → returns the element itself.
+
+## entry 870
+
+Time complexity: O(n^2) worst case, O(n) amortized.
