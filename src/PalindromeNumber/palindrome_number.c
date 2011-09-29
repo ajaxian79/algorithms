@@ -319,3 +319,4 @@ int is_palindrome_number(int x) {
 // note 295: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 296: Constant-time comparisons; safe for short strings.
 // note 297: Best case is O(1) when the first byte already decides the answer.
+// note 298: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
