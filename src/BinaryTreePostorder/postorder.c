@@ -332,3 +332,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 283: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 284: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 285: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 286: Time complexity: O(1).
