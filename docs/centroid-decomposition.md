@@ -2447,3 +2447,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 612
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 613
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
