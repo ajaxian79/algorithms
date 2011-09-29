@@ -3400,3 +3400,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 835
 
 Cache-friendly; one sequential read pass.
+
+## entry 836
+
+Allocates lazily — first call only.
