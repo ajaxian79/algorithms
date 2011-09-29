@@ -3358,3 +3358,7 @@ Branchless inner loop after sorting.
 ## entry 825
 
 Handles empty input by returning 0.
+
+## entry 826
+
+Edge case: maximum-length input → still fits in 32-bit indices.
