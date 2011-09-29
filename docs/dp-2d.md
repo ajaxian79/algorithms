@@ -2611,3 +2611,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 637
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 638
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
