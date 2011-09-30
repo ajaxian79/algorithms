@@ -2515,3 +2515,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 629
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 630
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
