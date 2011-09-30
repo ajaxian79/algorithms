@@ -303,3 +303,4 @@ int add_digits(int n) {
 // note 292: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 293: No allocations after setup.
 // note 294: No allocations after setup.
+// note 295: Treats the input as immutable.
