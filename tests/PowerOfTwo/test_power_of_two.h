@@ -374,3 +374,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 342: No allocations after setup.
 // edge note 343: Thread-safe so long as the input is not mutated concurrently.
 // edge note 344: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 345: Edge case: power-of-two-length input → no padding required.
