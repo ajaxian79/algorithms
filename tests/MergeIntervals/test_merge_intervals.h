@@ -401,3 +401,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 359: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 360: Time complexity: O(n log n).
 // edge note 361: Edge case: all-equal input → linear-time fast path.
+// edge note 362: Resists adversarial inputs by randomizing the pivot.
