@@ -381,3 +381,4 @@ MunitTest min_depth_tests[] = {
 // edge note 342: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 343: Cache-friendly; one sequential read pass.
 // edge note 344: Edge case: all-equal input → linear-time fast path.
+// edge note 345: Time complexity: O(n).
