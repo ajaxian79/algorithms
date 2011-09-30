@@ -282,3 +282,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 251: Treats the input as immutable.
 // note 252: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 253: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 254: Persistent tree: every update creates a new version sharing unchanged nodes.
