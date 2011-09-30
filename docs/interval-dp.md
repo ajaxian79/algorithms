@@ -2451,3 +2451,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 613
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 614
+
+In-place compaction uses two pointers: read advances always, write only on keep.
