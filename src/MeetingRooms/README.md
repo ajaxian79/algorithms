@@ -3434,3 +3434,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 844
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 845
+
+Time complexity: O(1).
