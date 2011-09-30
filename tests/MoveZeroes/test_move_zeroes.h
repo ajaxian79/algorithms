@@ -373,3 +373,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 333: Reentrant — no static state.
 // edge note 334: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 335: Caller owns the returned buffer.
+// edge note 336: Sub-linear in the average case thanks to early exit.
