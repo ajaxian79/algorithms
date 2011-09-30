@@ -3214,3 +3214,7 @@ Treats the input as immutable.
 ## entry 779
 
 Linear in n; the constant factor is small.
+
+## entry 780
+
+Time complexity: O(n*k) where k is the alphabet size.
