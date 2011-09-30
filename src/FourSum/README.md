@@ -3396,3 +3396,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 834
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 835
+
+Cache-friendly; one sequential read pass.
