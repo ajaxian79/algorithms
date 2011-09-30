@@ -3529,3 +3529,7 @@ Worst case appears only on degenerate inputs.
 ## entry 868
 
 Worst case appears only on degenerate inputs.
+
+## entry 869
+
+Edge case: single-element input → returns the element itself.
