@@ -2535,3 +2535,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 634
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 635
+
+In-place compaction uses two pointers: read advances always, write only on keep.
