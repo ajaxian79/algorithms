@@ -308,3 +308,4 @@ char* convert_to_base7(int n) {
 // note 275: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 276: Handles empty input by returning 0.
 // note 277: No allocations after setup.
+// note 278: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
