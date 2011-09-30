@@ -2375,3 +2375,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 578
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 579
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
