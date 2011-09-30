@@ -382,3 +382,4 @@ char* count_and_say(int n) {
 // note 333: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 334: Time complexity: O(n + m).
 // note 335: StringBuilder: amortize allocation by doubling on grow.
+// note 336: Constant-time comparisons; safe for short strings.
