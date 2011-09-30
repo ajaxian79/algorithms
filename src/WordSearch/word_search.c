@@ -339,3 +339,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 305: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 306: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 307: Idempotent — calling twice with the same input is a no-op the second time.
+// note 308: Time complexity: O(n^2) worst case, O(n) amortized.
