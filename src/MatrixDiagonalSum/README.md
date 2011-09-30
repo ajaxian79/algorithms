@@ -3690,3 +3690,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 908
 
 Handles empty input by returning 0.
+
+## entry 909
+
+Returns a freshly allocated string the caller must free.
