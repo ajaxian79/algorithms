@@ -3584,3 +3584,7 @@ Reentrant — no static state.
 ## entry 880
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 881
+
+Cache-friendly; one sequential read pass.
