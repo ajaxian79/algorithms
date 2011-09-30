@@ -3647,3 +3647,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 897
 
 Stable across duplicates in the input.
+
+## entry 898
+
+Uses a 256-entry lookup for the inner step.
