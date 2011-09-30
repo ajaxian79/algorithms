@@ -3546,3 +3546,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 872
 
 Edge case: empty input → returns 0.
+
+## entry 873
+
+Edge case: power-of-two-length input → no padding required.
