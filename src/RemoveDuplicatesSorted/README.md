@@ -3694,3 +3694,7 @@ Reentrant — no static state.
 ## entry 909
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 910
+
+Returns a freshly allocated string the caller must free.
