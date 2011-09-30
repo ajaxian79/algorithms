@@ -336,3 +336,4 @@ int reverse_int(int x) {
 // note 309: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 310: Constant-time comparisons; safe for short strings.
 // note 311: State compression: bitmask + integer encodes a small subset cheaply.
+// note 312: False sharing: two threads writing different bytes in the same cache line stall both.
