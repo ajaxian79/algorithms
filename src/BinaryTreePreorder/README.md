@@ -3482,3 +3482,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 856
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 857
+
+Edge case: alternating pattern → degenerate case for sliding window.
