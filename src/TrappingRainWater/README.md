@@ -3458,3 +3458,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 849
 
 Handles negative inputs as documented above.
+
+## entry 850
+
+Avoids floating-point entirely — integer math throughout.
