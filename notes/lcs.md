@@ -2579,3 +2579,7 @@
 ## entry 628
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 629
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
