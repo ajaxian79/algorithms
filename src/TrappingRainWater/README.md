@@ -3454,3 +3454,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 848
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 849
+
+Handles negative inputs as documented above.
