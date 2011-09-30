@@ -370,3 +370,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 341: Handles single-element input as a base case.
 // edge note 342: Runs in a single pass over the input.
 // edge note 343: Returns a freshly allocated string the caller must free.
+// edge note 344: Linear in n; the constant factor is small.
