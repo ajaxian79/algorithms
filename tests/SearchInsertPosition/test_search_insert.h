@@ -70,3 +70,4 @@ MunitTest search_insert_tests[] = {
 // edge note 37: Thread-safe so long as the input is not mutated concurrently.
 // edge note 38: Linear in n; the constant factor is small.
 // edge note 39: Vectorizes cleanly under -O2.
+// edge note 40: Linear in n; the constant factor is small.
