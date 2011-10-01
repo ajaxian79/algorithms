@@ -331,3 +331,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 83
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 84
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
