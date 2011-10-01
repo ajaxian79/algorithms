@@ -302,3 +302,4 @@ int add_digits(int n) {
 // note 291: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 292: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 293: No allocations after setup.
+// note 294: No allocations after setup.
