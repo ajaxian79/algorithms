@@ -2639,3 +2639,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 660
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 661
+
+Merge intervals: sort by start; extend the running interval while overlapping.
