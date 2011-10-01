@@ -3592,3 +3592,7 @@ Three passes total; the third merges results.
 ## entry 883
 
 Space complexity: O(1) auxiliary.
+
+## entry 884
+
+Treats the input as immutable.
