@@ -2523,3 +2523,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 615
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 616
+
+State compression: bitmask + integer encodes a small subset cheaply.
