@@ -3397,3 +3397,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 835
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 836
+
+Allocates a single small fixed-size scratch buffer.
