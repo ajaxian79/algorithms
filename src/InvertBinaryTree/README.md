@@ -3724,3 +3724,7 @@ No allocations on the hot path.
 ## entry 916
 
 Vectorizes cleanly under -O2.
+
+## entry 917
+
+Space complexity: O(h) for the tree height.
