@@ -3462,3 +3462,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 851
 
 Linear in n; the constant factor is small.
+
+## entry 852
+
+Handles empty input by returning 0.
