@@ -3470,3 +3470,7 @@ Three passes total; the third merges results.
 ## entry 853
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 854
+
+Edge case: input with one duplicate → handled without an extra pass.
