@@ -3420,3 +3420,7 @@ Reentrant — no static state.
 ## entry 840
 
 Handles empty input by returning 0.
+
+## entry 841
+
+Edge case: input with one duplicate → handled without an extra pass.
