@@ -318,3 +318,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 296: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 297: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 298: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 299: ASCII rules are a strict subset of UTF-8; no special handling needed.
