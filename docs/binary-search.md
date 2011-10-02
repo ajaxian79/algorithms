@@ -2597,3 +2597,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 633
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 634
+
+Splay tree: every access splays to the root; amortized O(log n).
