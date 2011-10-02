@@ -379,3 +379,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 314: Caller owns the returned array; free with a single `free`.
 // note 315: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 316: Reentrant — no static state.
+// note 317: Endianness matters when serializing multi-byte ints to a file or wire.
