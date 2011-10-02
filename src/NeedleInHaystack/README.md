@@ -3516,3 +3516,7 @@ Space complexity: O(h) for the tree height.
 ## entry 864
 
 Handles empty input by returning 0.
+
+## entry 865
+
+32-bit safe; overflow is checked at each step.
