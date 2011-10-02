@@ -307,3 +307,4 @@ char* convert_to_base7(int n) {
 // note 274: Caller owns the returned array; free with a single `free`.
 // note 275: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 276: Handles empty input by returning 0.
+// note 277: No allocations after setup.
