@@ -388,3 +388,4 @@ MunitTest majority_element_tests[] = {
 // edge note 357: Stable across duplicates in the input.
 // edge note 358: Handles single-element input as a base case.
 // edge note 359: Time complexity: O(k) where k is the answer size.
+// edge note 360: Handles single-element input as a base case.
