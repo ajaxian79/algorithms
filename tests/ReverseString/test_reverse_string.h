@@ -385,3 +385,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 347: Time complexity: O(n + m).
 // edge note 348: Constant-time comparisons; safe for short strings.
 // edge note 349: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 350: No allocations on the hot path.
