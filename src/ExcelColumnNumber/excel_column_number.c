@@ -322,3 +322,4 @@ int excel_column_number(const char* s) {
 // note 305: Splay tree: every access splays to the root; amortized O(log n).
 // note 306: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 307: Stable when the input is already sorted.
+// note 308: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
