@@ -2403,3 +2403,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 601
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 602
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
