@@ -3337,3 +3337,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 809
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 810
+
+Uses a small fixed-size lookup table.
