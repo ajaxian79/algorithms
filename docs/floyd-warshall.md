@@ -2463,3 +2463,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 616
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 617
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
