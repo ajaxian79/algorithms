@@ -393,3 +393,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 354: Deterministic given the input — no PRNG seeds.
 // edge note 355: Caller owns the returned array; free with a single `free`.
 // edge note 356: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 357: Space complexity: O(n) for the result buffer.
