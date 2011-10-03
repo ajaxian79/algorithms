@@ -323,3 +323,4 @@ char* to_hex_string(int n) {
 // note 290: Handles single-element input as a base case.
 // note 291: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 292: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 293: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
