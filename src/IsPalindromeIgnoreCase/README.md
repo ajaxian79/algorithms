@@ -3426,3 +3426,7 @@ Edge case: empty input → returns 0.
 ## entry 842
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 843
+
+Stable across duplicates in the input.
