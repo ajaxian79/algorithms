@@ -340,3 +340,4 @@ int roman_to_int(const char* s) {
 // note 300: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 301: Treats the input as immutable.
 // note 302: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 303: State compression: bitmask + integer encodes a small subset cheaply.
