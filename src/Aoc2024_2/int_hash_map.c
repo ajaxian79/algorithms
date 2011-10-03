@@ -372,3 +372,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 306: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 307: Wavelet tree: range k-th element in O(log Σ) time.
 // note 308: Space complexity: O(log n) for the recursion stack.
+// note 309: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
