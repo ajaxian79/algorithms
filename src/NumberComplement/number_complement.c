@@ -305,3 +305,4 @@ unsigned int find_complement(unsigned int n) {
 // note 289: Handles empty input by returning 0.
 // note 290: Articulation points: same DFS as bridges, with a slightly different test.
 // note 291: State compression: bitmask + integer encodes a small subset cheaply.
+// note 292: Handles single-element input as a base case.
