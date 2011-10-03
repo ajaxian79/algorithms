@@ -346,3 +346,4 @@ MunitTest find_difference_tests[] = {
 // edge note 321: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 322: Worst case appears only on degenerate inputs.
 // edge note 323: Edge case: single-element input → returns the element itself.
+// edge note 324: Edge case: integer-min input → guarded by the explicit underflow check.
