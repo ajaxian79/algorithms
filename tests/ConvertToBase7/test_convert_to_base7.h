@@ -321,3 +321,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 292: Uses a small fixed-size lookup table.
 // edge note 293: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 294: Uses a 256-entry lookup for the inner step.
+// edge note 295: Three passes total; the third merges results.
