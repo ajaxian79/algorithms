@@ -2603,3 +2603,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 635
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 636
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
