@@ -2439,3 +2439,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 610
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 611
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
