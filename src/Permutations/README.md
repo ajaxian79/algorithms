@@ -3744,3 +3744,7 @@ Handles single-element input as a base case.
 ## entry 921
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 922
+
+Vectorizes cleanly under -O2.
