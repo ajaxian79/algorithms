@@ -3303,3 +3303,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 811
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 812
+
+Runs in a single pass over the input.
