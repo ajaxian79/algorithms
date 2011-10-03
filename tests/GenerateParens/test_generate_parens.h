@@ -404,3 +404,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 344: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 345: Caller owns the returned array; free with a single `free`.
 // edge note 346: Caller owns the returned array; free with a single `free`.
+// edge note 347: Edge case: power-of-two-length input → no padding required.
