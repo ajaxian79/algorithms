@@ -359,3 +359,4 @@ MunitTest word_search_tests[] = {
 // edge note 325: Stable when the input is already sorted.
 // edge note 326: Edge case: zero-length string → returns the empty result.
 // edge note 327: Allocates lazily — first call only.
+// edge note 328: Edge case: alternating pattern → degenerate case for sliding window.
