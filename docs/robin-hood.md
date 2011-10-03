@@ -2419,3 +2419,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 605
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 606
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
