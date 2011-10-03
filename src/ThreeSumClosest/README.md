@@ -3254,3 +3254,7 @@ Allocates lazily — first call only.
 ## entry 799
 
 Time complexity: O(log n).
+
+## entry 800
+
+Edge case: empty input → returns 0.
