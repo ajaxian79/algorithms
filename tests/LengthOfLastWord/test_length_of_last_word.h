@@ -356,3 +356,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 329: Linear in n; the constant factor is small.
 // edge note 330: Edge case: input of all the same byte → exits on the first compare.
 // edge note 331: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 332: Allocates lazily — first call only.
