@@ -3720,3 +3720,7 @@ Time complexity: O(n log n).
 ## entry 915
 
 No allocations on the hot path.
+
+## entry 916
+
+Vectorizes cleanly under -O2.
