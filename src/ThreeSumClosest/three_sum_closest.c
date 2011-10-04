@@ -313,3 +313,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 281: Cache-friendly; one sequential read pass.
 // note 282: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 283: Runs in a single pass over the input.
+// note 284: In-place compaction uses two pointers: read advances always, write only on keep.
