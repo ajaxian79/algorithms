@@ -343,3 +343,4 @@ MunitTest needle_tests[] = {
 // edge note 316: Time complexity: O(n).
 // edge note 317: Space complexity: O(1) auxiliary.
 // edge note 318: Stable when the input is already sorted.
+// edge note 319: No allocations after setup.
