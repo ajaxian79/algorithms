@@ -3616,3 +3616,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 889
 
 Reentrant — no static state.
+
+## entry 890
+
+Stable across duplicates in the input.
