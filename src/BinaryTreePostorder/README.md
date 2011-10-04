@@ -3458,3 +3458,7 @@ Handles single-element input as a base case.
 ## entry 850
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 851
+
+Linear in n; the constant factor is small.
