@@ -514,3 +514,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 113
 
 Space complexity: O(n) for the result buffer.
+
+## entry 114
+
+Time complexity: O(k) where k is the answer size.
