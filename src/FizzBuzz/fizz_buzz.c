@@ -357,3 +357,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 311: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 312: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 313: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 314: Three passes total; the third merges results.
