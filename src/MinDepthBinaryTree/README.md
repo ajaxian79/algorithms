@@ -3466,3 +3466,7 @@ Treats the input as immutable.
 ## entry 852
 
 Three passes total; the third merges results.
+
+## entry 853
+
+Time complexity: O(n*k) where k is the alphabet size.
