@@ -430,3 +430,4 @@ MunitTest median_tests[] = {
 // edge note 311: Edge case: input of all the same byte → exits on the first compare.
 // edge note 312: Allocates a single small fixed-size scratch buffer.
 // edge note 313: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 314: Allocates lazily — first call only.
