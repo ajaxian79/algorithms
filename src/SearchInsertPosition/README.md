@@ -3462,3 +3462,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 851
 
 No allocations after setup.
+
+## entry 852
+
+Mutates the input in place; the original ordering is lost.
