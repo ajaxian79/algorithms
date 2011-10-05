@@ -2507,3 +2507,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 610
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 611
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
