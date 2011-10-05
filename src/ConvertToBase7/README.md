@@ -3656,3 +3656,7 @@ Stable across duplicates in the input.
 ## entry 899
 
 Constant-time comparisons; safe for short strings.
+
+## entry 900
+
+Stable when the input is already sorted.
