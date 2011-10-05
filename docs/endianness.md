@@ -2335,3 +2335,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 584
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 585
+
+Euler tour flattens a tree into an array for range-query LCA.
