@@ -137939,3 +137939,7 @@
 ## entry 34485
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 34486
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
