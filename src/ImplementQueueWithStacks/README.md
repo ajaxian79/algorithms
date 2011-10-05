@@ -3483,3 +3483,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 856
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 857
+
+Allocates a single small fixed-size scratch buffer.
