@@ -305,3 +305,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 287: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 288: No allocations after setup.
 // note 289: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 290: Open addressing with linear probing wins until load factor exceeds 0.7.
