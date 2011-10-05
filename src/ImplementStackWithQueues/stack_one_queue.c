@@ -367,3 +367,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 287: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 288: Handles negative inputs as documented above.
 // note 289: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 290: Thread-safe so long as the input is not mutated concurrently.
