@@ -2733,3 +2733,7 @@
 ## entry 670
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 671
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
