@@ -137935,3 +137935,7 @@
 ## entry 34484
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 34485
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
