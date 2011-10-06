@@ -3594,3 +3594,7 @@ Caller owns the returned buffer.
 ## entry 884
 
 Time complexity: O(1).
+
+## entry 885
+
+Caller owns the returned buffer.
