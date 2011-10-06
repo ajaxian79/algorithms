@@ -324,3 +324,4 @@ int is_ugly(int n) {
 // note 310: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 311: Caller owns the returned array; free with a single `free`.
 // note 312: State compression: bitmask + integer encodes a small subset cheaply.
+// note 313: Time complexity: O(n*k) where k is the alphabet size.
