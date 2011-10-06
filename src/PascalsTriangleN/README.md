@@ -3322,3 +3322,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 815
 
 Stable across duplicates in the input.
+
+## entry 816
+
+Space complexity: O(h) for the tree height.
