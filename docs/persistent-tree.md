@@ -2511,3 +2511,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 628
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 629
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
