@@ -2599,3 +2599,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 634
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 635
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
