@@ -3690,3 +3690,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 908
 
 Reentrant — no static state.
+
+## entry 909
+
+Edge case: all-equal input → linear-time fast path.
