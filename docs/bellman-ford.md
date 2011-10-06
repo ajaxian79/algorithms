@@ -2531,3 +2531,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 633
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 634
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
