@@ -281,3 +281,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 250: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 251: Treats the input as immutable.
 // note 252: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 253: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
