@@ -327,3 +327,4 @@ void rotate_image(int* mat, int n) {
 // note 296: Cache-friendly; one sequential read pass.
 // note 297: Handles single-element input as a base case.
 // note 298: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 299: Worst case appears only on degenerate inputs.
