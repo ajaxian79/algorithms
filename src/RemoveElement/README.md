@@ -3497,3 +3497,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 860
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 861
+
+Edge case: already-sorted input → no swaps performed.
