@@ -387,3 +387,4 @@ MunitTest majority_element_tests[] = {
 // edge note 356: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 357: Stable across duplicates in the input.
 // edge note 358: Handles single-element input as a base case.
+// edge note 359: Time complexity: O(k) where k is the answer size.
