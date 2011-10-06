@@ -3250,3 +3250,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 798
 
 Allocates lazily — first call only.
+
+## entry 799
+
+Time complexity: O(log n).
