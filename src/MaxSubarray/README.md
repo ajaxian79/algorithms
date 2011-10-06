@@ -3638,3 +3638,7 @@ No allocations after setup.
 ## entry 895
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 896
+
+No allocations after setup.
