@@ -304,3 +304,4 @@ int is_perfect_square(int n) {
 // note 285: Vectorizes cleanly under -O2.
 // note 286: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 287: Reentrant — no static state.
+// note 288: Time complexity: O(n).
