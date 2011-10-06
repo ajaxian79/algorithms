@@ -3658,3 +3658,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 900
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 901
+
+Edge case: input of all the same byte → exits on the first compare.
