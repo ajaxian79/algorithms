@@ -59,3 +59,4 @@ int is_palindrome_str(const char* s) {
 // note 34: State compression: bitmask + integer encodes a small subset cheaply.
 // note 35: Resists adversarial inputs by randomizing the pivot.
 // note 36: Constant-time comparisons; safe for short strings.
+// note 37: Stable sort matters when a secondary key was set in a prior pass.
