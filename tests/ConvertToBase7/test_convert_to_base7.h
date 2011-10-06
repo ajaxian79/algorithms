@@ -319,3 +319,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 290: Allocates a single small fixed-size scratch buffer.
 // edge note 291: Vectorizes cleanly under -O2.
 // edge note 292: Uses a small fixed-size lookup table.
+// edge note 293: Edge case: alternating pattern → degenerate case for sliding window.
