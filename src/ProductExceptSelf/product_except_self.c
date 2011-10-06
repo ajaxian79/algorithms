@@ -313,3 +313,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 278: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 279: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 280: Runs in a single pass over the input.
+// note 281: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
