@@ -350,3 +350,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 291: State compression: bitmask + integer encodes a small subset cheaply.
 // note 292: No allocations on the hot path.
 // note 293: Greedy by end-time picks the most non-overlapping intervals.
+// note 294: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
