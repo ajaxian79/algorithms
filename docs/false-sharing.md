@@ -2471,3 +2471,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 618
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 619
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
