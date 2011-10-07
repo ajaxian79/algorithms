@@ -3462,3 +3462,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 851
 
 Treats the input as immutable.
+
+## entry 852
+
+Three passes total; the third merges results.
