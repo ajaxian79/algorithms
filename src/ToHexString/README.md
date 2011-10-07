@@ -3299,3 +3299,7 @@ No allocations after setup.
 ## entry 810
 
 Constant-time comparisons; safe for short strings.
+
+## entry 811
+
+Edge case: power-of-two-length input → no padding required.
