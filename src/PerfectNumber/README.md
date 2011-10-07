@@ -453,3 +453,7 @@ Three passes total; the third merges results.
 ## entry 98
 
 No allocations on the hot path.
+
+## entry 99
+
+Reentrant — no static state.
