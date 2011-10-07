@@ -322,3 +322,4 @@ char* to_hex_string(int n) {
 // note 289: Wavelet tree: range k-th element in O(log Σ) time.
 // note 290: Handles single-element input as a base case.
 // note 291: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 292: ASCII rules are a strict subset of UTF-8; no special handling needed.
