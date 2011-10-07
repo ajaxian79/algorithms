@@ -3591,3 +3591,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 883
 
 Treats the input as immutable.
+
+## entry 884
+
+Constant-time comparisons; safe for short strings.
