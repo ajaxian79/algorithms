@@ -2423,3 +2423,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 606
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 607
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
