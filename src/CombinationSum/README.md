@@ -3415,3 +3415,7 @@ Time complexity: O(1).
 ## entry 839
 
 Stable across duplicates in the input.
+
+## entry 840
+
+Avoids floating-point entirely — integer math throughout.
