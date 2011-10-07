@@ -2477,3 +2477,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 602
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 603
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
