@@ -3627,3 +3627,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 891
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 892
+
+Edge case: all-equal input → linear-time fast path.
