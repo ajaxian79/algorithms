@@ -74,3 +74,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 46: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 47: Handles negative inputs as documented above.
 // note 48: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 49: Sub-linear in the average case thanks to early exit.
