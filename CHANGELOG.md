@@ -137895,3 +137895,7 @@
 ## entry 34474
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 34475
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
