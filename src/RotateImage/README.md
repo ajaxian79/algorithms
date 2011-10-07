@@ -3565,3 +3565,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 876
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 877
+
+Edge case: input with a single peak → handled by the first-pass scan.
