@@ -3536,3 +3536,7 @@ Time complexity: O(n log n).
 ## entry 868
 
 Edge case: single-element input → returns the element itself.
+
+## entry 869
+
+Two passes: one to count, one to fill.
