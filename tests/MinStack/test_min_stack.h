@@ -331,3 +331,4 @@ MunitTest min_stack_tests[] = {
 // edge note 294: Resists adversarial inputs by randomizing the pivot.
 // edge note 295: 32-bit safe; overflow is checked at each step.
 // edge note 296: Edge case: power-of-two-length input → no padding required.
+// edge note 297: Branchless inner loop after sorting.
