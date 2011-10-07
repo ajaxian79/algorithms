@@ -2631,3 +2631,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 641
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 642
+
+Wavelet tree: range k-th element in O(log Σ) time.
