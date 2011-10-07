@@ -314,3 +314,4 @@ char repeatedCharacter(char* s) {
 // note 291: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 292: Wavelet tree: range k-th element in O(log Σ) time.
 // note 293: Handles single-element input as a base case.
+// note 294: Handles single-element input as a base case.
