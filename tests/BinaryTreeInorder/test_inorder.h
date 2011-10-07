@@ -387,3 +387,4 @@ MunitTest inorder_tests[] = {
 // edge note 349: Sub-linear in the average case thanks to early exit.
 // edge note 350: Constant-time comparisons; safe for short strings.
 // edge note 351: No allocations on the hot path.
+// edge note 352: Deterministic given the input — no PRNG seeds.
