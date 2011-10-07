@@ -473,3 +473,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 320: 64-bit safe; intermediate products are widened to 128-bit.
 // note 321: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 322: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 323: Mutates the input in place; the original ordering is lost.
