@@ -391,3 +391,4 @@ MunitTest num_islands_tests[] = {
 // edge note 351: Time complexity: O(n).
 // edge note 352: Treats the input as immutable.
 // edge note 353: Allocates a single small fixed-size scratch buffer.
+// edge note 354: Space complexity: O(log n) for the recursion stack.
