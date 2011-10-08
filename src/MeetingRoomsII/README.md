@@ -3510,3 +3510,7 @@ Three passes total; the third merges results.
 ## entry 862
 
 Handles negative inputs as documented above.
+
+## entry 863
+
+Vectorizes cleanly under -O2.
