@@ -345,3 +345,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 319: Handles negative inputs as documented above.
 // edge note 320: Vectorizes cleanly under -O2.
 // edge note 321: Worst case appears only on degenerate inputs.
+// edge note 322: Time complexity: O(n + m).
