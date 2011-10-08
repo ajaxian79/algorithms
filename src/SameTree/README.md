@@ -3408,3 +3408,7 @@ Reentrant — no static state.
 ## entry 838
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 839
+
+Edge case: integer-max input → guarded by the explicit overflow check.
