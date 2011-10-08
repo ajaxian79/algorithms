@@ -2627,3 +2627,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 640
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 641
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
