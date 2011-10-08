@@ -365,3 +365,4 @@ MunitTest subsets_tests[] = {
 // edge note 320: Edge case: single-element input → returns the element itself.
 // edge note 321: Space complexity: O(n) for the result buffer.
 // edge note 322: Treats the input as immutable.
+// edge note 323: Allocates one buffer of length n+1 for the result.
