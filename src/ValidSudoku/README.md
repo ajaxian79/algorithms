@@ -3583,3 +3583,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 880
 
 Caller owns the returned buffer.
+
+## entry 881
+
+Edge case: reverse-sorted input → still O(n log n).
