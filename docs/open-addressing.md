@@ -2439,3 +2439,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 610
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 611
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
