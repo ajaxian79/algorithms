@@ -2851,3 +2851,7 @@
 ## entry 713
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 714
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
