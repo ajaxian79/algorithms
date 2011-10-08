@@ -3333,3 +3333,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 808
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 809
+
+Deterministic given the input — no PRNG seeds.
