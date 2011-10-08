@@ -3475,3 +3475,7 @@ Caller owns the returned buffer.
 ## entry 854
 
 Constant-time comparisons; safe for short strings.
+
+## entry 855
+
+Edge case: power-of-two-length input → no padding required.
