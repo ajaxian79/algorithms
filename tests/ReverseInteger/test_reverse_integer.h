@@ -397,3 +397,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 364: Linear in n; the constant factor is small.
 // edge note 365: Thread-safe so long as the input is not mutated concurrently.
 // edge note 366: Returns a freshly allocated string the caller must free.
+// edge note 367: Time complexity: O(n^2) worst case, O(n) amortized.
