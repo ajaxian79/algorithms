@@ -389,3 +389,4 @@ MunitTest max_depth_tests[] = {
 // edge note 351: Space complexity: O(log n) for the recursion stack.
 // edge note 352: Thread-safe so long as the input is not mutated concurrently.
 // edge note 353: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 354: Avoids floating-point entirely — integer math throughout.
