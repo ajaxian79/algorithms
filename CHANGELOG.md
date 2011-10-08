@@ -137819,3 +137819,7 @@
 ## entry 34455
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 34456
+
+- Heap when you only need top-k; full sort is wasted work.
