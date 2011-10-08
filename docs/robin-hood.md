@@ -2415,3 +2415,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 604
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 605
+
+State compression: bitmask + integer encodes a small subset cheaply.
