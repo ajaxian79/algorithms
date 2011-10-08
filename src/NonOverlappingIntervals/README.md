@@ -3565,3 +3565,7 @@ Handles single-element input as a base case.
 ## entry 876
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 877
+
+Space complexity: O(n) for the result buffer.
