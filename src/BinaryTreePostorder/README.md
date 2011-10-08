@@ -3450,3 +3450,7 @@ No allocations on the hot path.
 ## entry 848
 
 Linear in n; the constant factor is small.
+
+## entry 849
+
+Handles single-element input as a base case.
