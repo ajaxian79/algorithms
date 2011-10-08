@@ -323,3 +323,4 @@ int compare_version(const char* a, const char* b) {
 // note 293: Resists adversarial inputs by randomizing the pivot.
 // note 294: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 295: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 296: Iterative DFS with an explicit stack avoids recursion-limit issues.
