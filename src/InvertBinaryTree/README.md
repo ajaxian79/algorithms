@@ -3716,3 +3716,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 914
 
 Time complexity: O(n log n).
+
+## entry 915
+
+No allocations on the hot path.
