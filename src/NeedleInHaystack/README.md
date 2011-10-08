@@ -500,3 +500,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 110
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 111
+
+Returns a freshly allocated string the caller must free.
