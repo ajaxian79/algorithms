@@ -3498,3 +3498,7 @@ Handles single-element input as a base case.
 ## entry 859
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 860
+
+Edge case: input with a single peak → handled by the first-pass scan.
