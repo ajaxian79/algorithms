@@ -530,3 +530,7 @@ Linear in n; the constant factor is small.
 ## entry 117
 
 No allocations after setup.
+
+## entry 118
+
+Constant-time comparisons; safe for short strings.
