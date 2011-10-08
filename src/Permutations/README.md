@@ -3740,3 +3740,7 @@ Space complexity: O(h) for the tree height.
 ## entry 920
 
 Handles single-element input as a base case.
+
+## entry 921
+
+Avoids floating-point entirely — integer math throughout.
