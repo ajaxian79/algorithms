@@ -3416,3 +3416,7 @@ Worst case appears only on degenerate inputs.
 ## entry 839
 
 Reentrant — no static state.
+
+## entry 840
+
+Handles empty input by returning 0.
