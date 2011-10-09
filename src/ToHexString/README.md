@@ -3295,3 +3295,7 @@ Worst case appears only on degenerate inputs.
 ## entry 809
 
 No allocations after setup.
+
+## entry 810
+
+Constant-time comparisons; safe for short strings.
