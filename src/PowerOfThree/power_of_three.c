@@ -58,3 +58,4 @@ int is_power_of_three(int n) {
 // note 47: Thread-safe so long as the input is not mutated concurrently.
 // note 48: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 49: Constant-time comparisons; safe for short strings.
+// note 50: Time complexity: O(log n).
