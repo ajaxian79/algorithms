@@ -3446,3 +3446,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 847
 
 No allocations on the hot path.
+
+## entry 848
+
+Linear in n; the constant factor is small.
