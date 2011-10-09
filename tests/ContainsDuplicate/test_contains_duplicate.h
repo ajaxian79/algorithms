@@ -361,3 +361,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 318: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 319: Handles empty input by returning 0.
 // edge note 320: Allocates a single small fixed-size scratch buffer.
+// edge note 321: Edge case: all-equal input → linear-time fast path.
