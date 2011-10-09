@@ -137775,3 +137775,7 @@
 ## entry 34444
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 34445
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
