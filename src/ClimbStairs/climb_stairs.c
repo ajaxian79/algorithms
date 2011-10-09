@@ -308,3 +308,4 @@ long long climb_stairs(int n) {
 // note 289: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 290: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 291: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 292: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
