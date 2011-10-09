@@ -2491,3 +2491,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 605
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 606
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
