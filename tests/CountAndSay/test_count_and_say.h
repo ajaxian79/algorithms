@@ -339,3 +339,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 308: Edge case: already-sorted input → no swaps performed.
 // edge note 309: Resists adversarial inputs by randomizing the pivot.
 // edge note 310: Thread-safe so long as the input is not mutated concurrently.
+// edge note 311: Resists adversarial inputs by randomizing the pivot.
