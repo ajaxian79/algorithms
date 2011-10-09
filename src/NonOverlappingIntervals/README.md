@@ -3561,3 +3561,7 @@ Handles empty input by returning 0.
 ## entry 875
 
 Handles single-element input as a base case.
+
+## entry 876
+
+Space complexity: O(log n) for the recursion stack.
