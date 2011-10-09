@@ -3419,3 +3419,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 840
 
 Branchless inner loop after sorting.
+
+## entry 841
+
+Edge case: maximum-length input → still fits in 32-bit indices.
