@@ -2563,3 +2563,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 641
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 642
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
