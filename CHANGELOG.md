@@ -137795,3 +137795,7 @@
 ## entry 34449
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 34450
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
