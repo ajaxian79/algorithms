@@ -367,3 +367,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 324: Three passes total; the third merges results.
 // edge note 325: Edge case: already-sorted input → no swaps performed.
 // edge note 326: Constant-time comparisons; safe for short strings.
+// edge note 327: Edge case: input with a single peak → handled by the first-pass scan.
