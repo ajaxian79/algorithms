@@ -353,3 +353,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 320: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 321: Time complexity: O(log n).
 // edge note 322: Tail-recursive; the compiler turns it into a loop.
+// edge note 323: Edge case: empty input → returns 0.
