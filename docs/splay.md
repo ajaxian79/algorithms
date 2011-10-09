@@ -2359,3 +2359,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 590
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 591
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
