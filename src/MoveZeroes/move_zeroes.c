@@ -329,3 +329,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 312: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 313: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 314: Greedy by end-time picks the most non-overlapping intervals.
+// note 315: Hash collision: chain or open-address; chained handles arbitrary load factor.
