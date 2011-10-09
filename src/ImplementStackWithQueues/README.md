@@ -3612,3 +3612,7 @@ Handles empty input by returning 0.
 ## entry 888
 
 Space complexity: O(h) for the tree height.
+
+## entry 889
+
+Best case is O(1) when the first byte already decides the answer.
