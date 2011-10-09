@@ -2429,3 +2429,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 590
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 591
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
