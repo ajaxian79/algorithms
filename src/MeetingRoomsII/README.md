@@ -3506,3 +3506,7 @@ Three passes total; the third merges results.
 ## entry 861
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 862
+
+Handles negative inputs as documented above.
