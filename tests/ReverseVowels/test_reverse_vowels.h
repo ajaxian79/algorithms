@@ -391,3 +391,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 352: Time complexity: O(n log n).
 // edge note 353: 32-bit safe; overflow is checked at each step.
 // edge note 354: Deterministic given the input — no PRNG seeds.
+// edge note 355: Caller owns the returned array; free with a single `free`.
