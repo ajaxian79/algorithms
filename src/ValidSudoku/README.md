@@ -3579,3 +3579,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 879
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 880
+
+Caller owns the returned buffer.
