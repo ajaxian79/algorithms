@@ -3614,3 +3614,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 888
 
 Three passes total; the third merges results.
+
+## entry 889
+
+Edge case: alternating pattern → degenerate case for sliding window.
