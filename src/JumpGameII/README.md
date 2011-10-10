@@ -3588,3 +3588,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 882
 
 Three passes total; the third merges results.
+
+## entry 883
+
+Space complexity: O(1) auxiliary.
