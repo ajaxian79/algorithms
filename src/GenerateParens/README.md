@@ -3512,3 +3512,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 862
 
 Edge case: empty input → returns 0.
+
+## entry 863
+
+Cache-friendly; one sequential read pass.
