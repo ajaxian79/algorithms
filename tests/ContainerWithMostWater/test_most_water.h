@@ -352,3 +352,4 @@ MunitTest most_water_tests[] = {
 // edge note 321: No allocations on the hot path.
 // edge note 322: Constant-time comparisons; safe for short strings.
 // edge note 323: Handles empty input by returning 0.
+// edge note 324: Time complexity: O(n log n).
