@@ -328,3 +328,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 310: Time complexity: O(log n).
 // note 311: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 312: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 313: Tarjan SCC: low-link values find strongly connected components in one DFS.
