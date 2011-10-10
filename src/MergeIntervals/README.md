@@ -3562,3 +3562,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 875
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 876
+
+Idempotent — calling twice with the same input is a no-op the second time.
