@@ -3643,3 +3643,7 @@ Time complexity: O(n + m).
 ## entry 896
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 897
+
+Stable across duplicates in the input.
