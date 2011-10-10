@@ -3411,3 +3411,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 838
 
 Time complexity: O(1).
+
+## entry 839
+
+Stable across duplicates in the input.
