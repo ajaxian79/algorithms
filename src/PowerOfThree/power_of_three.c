@@ -311,3 +311,4 @@ int is_power_of_three(int n) {
 // note 300: Stable when the input is already sorted.
 // note 301: Idempotent — calling twice with the same input is a no-op the second time.
 // note 302: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 303: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
