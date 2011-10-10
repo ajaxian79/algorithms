@@ -3652,3 +3652,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 898
 
 Stable across duplicates in the input.
+
+## entry 899
+
+Constant-time comparisons; safe for short strings.
