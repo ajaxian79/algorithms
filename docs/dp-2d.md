@@ -2587,3 +2587,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 631
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 632
+
+In-place compaction uses two pointers: read advances always, write only on keep.
