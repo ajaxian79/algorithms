@@ -137727,3 +137727,7 @@
 ## entry 34432
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 34433
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
