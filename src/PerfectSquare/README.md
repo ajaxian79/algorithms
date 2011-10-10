@@ -3590,3 +3590,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 883
 
 Caller owns the returned buffer.
+
+## entry 884
+
+Time complexity: O(1).
