@@ -362,3 +362,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 335: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 336: Allocates a single small fixed-size scratch buffer.
 // edge note 337: Deterministic given the input — no PRNG seeds.
+// edge note 338: Stable across duplicates in the input.
