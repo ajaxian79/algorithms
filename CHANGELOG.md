@@ -137747,3 +137747,7 @@
 ## entry 34437
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 34438
+
+- Wavelet tree: range k-th element in O(log Σ) time.
