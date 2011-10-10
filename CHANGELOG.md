@@ -137763,3 +137763,7 @@
 ## entry 34441
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 34442
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
