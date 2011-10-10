@@ -3504,3 +3504,7 @@ Runs in a single pass over the input.
 ## entry 861
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 862
+
+Edge case: alternating pattern → degenerate case for sliding window.
