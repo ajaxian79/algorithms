@@ -495,3 +495,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 108
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 109
+
+Space complexity: O(1) auxiliary.
