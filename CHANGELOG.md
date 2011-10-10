@@ -137739,3 +137739,7 @@
 ## entry 34435
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 34436
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
