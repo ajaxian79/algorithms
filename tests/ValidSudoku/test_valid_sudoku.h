@@ -398,3 +398,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 338: Handles negative inputs as documented above.
 // edge note 339: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 340: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 341: Edge case: alternating pattern → degenerate case for sliding window.
