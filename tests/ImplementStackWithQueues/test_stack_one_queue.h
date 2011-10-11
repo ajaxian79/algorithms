@@ -362,3 +362,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 330: Edge case: input of all the same byte → exits on the first compare.
 // edge note 331: Sub-linear in the average case thanks to early exit.
 // edge note 332: Branchless inner loop after sorting.
+// edge note 333: Allocates one buffer of length n+1 for the result.
