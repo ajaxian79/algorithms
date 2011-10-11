@@ -443,3 +443,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 93
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 94
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
