@@ -352,3 +352,4 @@ MunitTest zigzag_tests[] = {
 // edge note 324: Uses a 256-entry lookup for the inner step.
 // edge note 325: Edge case: zero-length string → returns the empty result.
 // edge note 326: Handles single-element input as a base case.
+// edge note 327: Time complexity: O(1).
