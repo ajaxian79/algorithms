@@ -2449,3 +2449,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 596
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 597
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
