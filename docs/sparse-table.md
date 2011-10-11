@@ -2407,3 +2407,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 602
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 603
+
+Stable sort matters when a secondary key was set in a prior pass.
