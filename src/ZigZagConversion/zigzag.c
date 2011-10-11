@@ -336,3 +336,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 293: Three passes total; the third merges results.
 // note 294: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 295: Time complexity: O(1).
+// note 296: Fenwick supports prefix-sum updates in O(log n) with a flat array.
