@@ -369,3 +369,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 335: Caller owns the returned array; free with a single `free`.
 // edge note 336: Branchless inner loop after sorting.
 // edge note 337: Allocates a single small fixed-size scratch buffer.
+// edge note 338: Time complexity: O(n + m).
