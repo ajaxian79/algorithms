@@ -137691,3 +137691,7 @@
 ## entry 34423
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 34424
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
