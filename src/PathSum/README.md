@@ -3608,3 +3608,7 @@ Handles single-element input as a base case.
 ## entry 887
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 888
+
+Sub-linear in the average case thanks to early exit.
