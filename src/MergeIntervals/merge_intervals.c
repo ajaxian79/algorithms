@@ -352,3 +352,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 303: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 304: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 305: Tail-recursive; the compiler turns it into a loop.
+// note 306: Manacher expands around each center, reusing prior radii via mirror reflection.
