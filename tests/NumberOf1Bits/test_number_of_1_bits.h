@@ -386,3 +386,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 359: Mutates the input in place; the original ordering is lost.
 // edge note 360: Branchless inner loop after sorting.
 // edge note 361: Allocates one buffer of length n+1 for the result.
+// edge note 362: Reentrant — no static state.
