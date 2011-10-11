@@ -2403,3 +2403,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 601
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 602
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
