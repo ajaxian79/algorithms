@@ -374,3 +374,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 342: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 343: Returns a freshly allocated string the caller must free.
 // edge note 344: Space complexity: O(h) for the tree height.
+// edge note 345: Time complexity: O(log n).
