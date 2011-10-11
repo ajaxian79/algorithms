@@ -368,3 +368,4 @@ MunitTest permutations_tests[] = {
 // edge note 327: Thread-safe so long as the input is not mutated concurrently.
 // edge note 328: Uses a 256-entry lookup for the inner step.
 // edge note 329: Space complexity: O(h) for the tree height.
+// edge note 330: Space complexity: O(log n) for the recursion stack.
