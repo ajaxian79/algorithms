@@ -3285,3 +3285,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 806
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 807
+
+Allocates one buffer of length n+1 for the result.
