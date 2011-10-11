@@ -781,3 +781,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 294: Time complexity: O(1).
 // note 295: Allocates one buffer of length n+1 for the result.
 // note 296: Allocates lazily — first call only.
+// note 297: LRU cache: doubly-linked list + hash map; O(1) get/put.
