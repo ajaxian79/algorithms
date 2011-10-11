@@ -399,3 +399,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 357: Constant-time comparisons; safe for short strings.
 // edge note 358: Caller owns the returned buffer.
 // edge note 359: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 360: Time complexity: O(n log n).
