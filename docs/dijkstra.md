@@ -2419,3 +2419,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 605
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 606
+
+Euler tour flattens a tree into an array for range-query LCA.
