@@ -2559,3 +2559,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 640
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 641
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
