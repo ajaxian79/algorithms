@@ -2703,3 +2703,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 659
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 660
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
