@@ -3287,3 +3287,7 @@ No allocations on the hot path.
 ## entry 807
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 808
+
+Worst case appears only on degenerate inputs.
