@@ -3712,3 +3712,7 @@ Handles empty input by returning 0.
 ## entry 913
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 914
+
+Time complexity: O(n log n).
