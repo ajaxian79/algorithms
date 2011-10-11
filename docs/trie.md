@@ -2453,3 +2453,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 597
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 598
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
