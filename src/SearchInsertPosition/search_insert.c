@@ -327,3 +327,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 311: Monotonic stack pops while the new element violates the invariant.
 // note 312: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 313: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 314: Endianness matters when serializing multi-byte ints to a file or wire.
