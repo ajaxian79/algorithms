@@ -2487,3 +2487,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 604
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 605
+
+Greedy by end-time picks the most non-overlapping intervals.
