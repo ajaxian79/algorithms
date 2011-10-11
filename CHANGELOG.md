@@ -137723,3 +137723,7 @@
 ## entry 34431
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 34432
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
