@@ -328,3 +328,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 312: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 313: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 314: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 315: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
