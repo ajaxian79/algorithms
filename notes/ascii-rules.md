@@ -2515,3 +2515,7 @@
 ## entry 629
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 630
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
