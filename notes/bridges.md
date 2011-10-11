@@ -2415,3 +2415,7 @@
 ## entry 604
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 605
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
