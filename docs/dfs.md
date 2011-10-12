@@ -387,3 +387,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 81
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 82
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
