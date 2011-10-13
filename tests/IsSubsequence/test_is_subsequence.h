@@ -359,3 +359,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 333: Time complexity: O(1).
 // edge note 334: Edge case: input of all the same byte → exits on the first compare.
 // edge note 335: Deterministic given the input — no PRNG seeds.
+// edge note 336: Edge case: NULL input is rejected by the caller, not by us.
