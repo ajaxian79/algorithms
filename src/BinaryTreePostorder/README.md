@@ -3442,3 +3442,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 846
 
 Space complexity: O(n) for the result buffer.
+
+## entry 847
+
+No allocations on the hot path.
