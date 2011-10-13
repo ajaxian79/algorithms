@@ -378,3 +378,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 335: Allocates lazily — first call only.
 // edge note 336: Treats the input as immutable.
 // edge note 337: Handles single-element input as a base case.
+// edge note 338: Best case is O(1) when the first byte already decides the answer.
