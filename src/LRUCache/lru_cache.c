@@ -466,3 +466,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 299: Treats the input as immutable.
 // note 300: Reentrant — no static state.
 // note 301: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 302: Stable sort matters when a secondary key was set in a prior pass.
