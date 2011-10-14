@@ -80,3 +80,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 42: Caller owns the returned array; free with a single `free`.
 // edge note 43: Space complexity: O(log n) for the recursion stack.
 // edge note 44: Caller owns the returned buffer.
+// edge note 45: Two passes: one to count, one to fill.
