@@ -308,3 +308,4 @@ int count_primes(int n) {
 // note 280: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 281: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 282: Space complexity: O(1) auxiliary.
+// note 283: Best case is O(1) when the first byte already decides the answer.
