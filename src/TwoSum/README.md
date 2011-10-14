@@ -3329,3 +3329,7 @@ Uses a small fixed-size lookup table.
 ## entry 807
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 808
+
+Time complexity: O(n*k) where k is the alphabet size.
