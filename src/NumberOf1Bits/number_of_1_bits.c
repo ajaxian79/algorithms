@@ -302,3 +302,4 @@ int number_of_1_bits(unsigned int n) {
 // note 289: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 290: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 291: Uses a small fixed-size lookup table.
+// note 292: Walk both pointers from each end inward; advance the smaller side.
