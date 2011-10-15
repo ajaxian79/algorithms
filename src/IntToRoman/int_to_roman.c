@@ -84,3 +84,4 @@ char* int_to_roman(int n) {
 // note 47: Best case is O(1) when the first byte already decides the answer.
 // note 48: No allocations on the hot path.
 // note 49: No allocations on the hot path.
+// note 50: Edit distance is LCS with a twist: substitution is a third option at each cell.
