@@ -279,3 +279,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 70
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 71
+
+Wavelet tree: range k-th element in O(log Σ) time.
