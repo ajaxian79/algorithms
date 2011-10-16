@@ -3552,3 +3552,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 872
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 873
+
+Mutates the input in place; the original ordering is lost.
