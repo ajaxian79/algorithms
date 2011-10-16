@@ -3325,3 +3325,7 @@ Branchless inner loop after sorting.
 ## entry 806
 
 Uses a small fixed-size lookup table.
+
+## entry 807
+
+Allocates a single small fixed-size scratch buffer.
