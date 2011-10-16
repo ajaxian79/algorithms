@@ -374,3 +374,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 345: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 346: Time complexity: O(n).
 // edge note 347: 32-bit safe; overflow is checked at each step.
+// edge note 348: Handles negative inputs as documented above.
