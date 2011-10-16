@@ -366,3 +366,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 286: Space complexity: O(n) for the result buffer.
 // note 287: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 288: Handles negative inputs as documented above.
+// note 289: Graph DP on DAGs: topological order makes the dependency direction explicit.
