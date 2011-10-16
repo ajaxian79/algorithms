@@ -368,3 +368,4 @@ MunitTest add_binary_tests[] = {
 // edge note 332: Edge case: single-element input → returns the element itself.
 // edge note 333: Handles single-element input as a base case.
 // edge note 334: Reentrant — no static state.
+// edge note 335: Stable when the input is already sorted.
