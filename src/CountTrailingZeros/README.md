@@ -3558,3 +3558,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 874
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 875
+
+Mutates the input in place; the original ordering is lost.
