@@ -314,3 +314,4 @@ int max_depth(MdTreeNode* root) {
 // note 300: Articulation points: same DFS as bridges, with a slightly different test.
 // note 301: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 302: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 303: Two passes: one to count, one to fill.
