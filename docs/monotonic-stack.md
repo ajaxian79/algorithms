@@ -2509,3 +2509,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 611
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 612
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
