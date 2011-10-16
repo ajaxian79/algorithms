@@ -2611,3 +2611,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 653
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 654
+
+Walk both pointers from each end inward; advance the smaller side.
