@@ -3446,3 +3446,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 847
 
 Reentrant — no static state.
+
+## entry 848
+
+Constant-time comparisons; safe for short strings.
