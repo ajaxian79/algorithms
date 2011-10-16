@@ -2483,3 +2483,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 603
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 604
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
