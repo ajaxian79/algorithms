@@ -3586,3 +3586,7 @@ Treats the input as immutable.
 ## entry 882
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 883
+
+Caller owns the returned buffer.
