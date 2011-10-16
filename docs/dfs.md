@@ -2555,3 +2555,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 623
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 624
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
