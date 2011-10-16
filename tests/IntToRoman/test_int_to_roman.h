@@ -383,3 +383,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 344: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 345: Stable when the input is already sorted.
 // edge note 346: 32-bit safe; overflow is checked at each step.
+// edge note 347: Edge case: integer-max input → guarded by the explicit overflow check.
