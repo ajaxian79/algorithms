@@ -326,3 +326,4 @@ int is_symmetric(STreeNode* root) {
 // note 307: Articulation points: same DFS as bridges, with a slightly different test.
 // note 308: Reentrant — no static state.
 // note 309: StringBuilder: amortize allocation by doubling on grow.
+// note 310: Space complexity: O(log n) for the recursion stack.
