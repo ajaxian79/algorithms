@@ -3283,3 +3283,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 806
 
 No allocations on the hot path.
+
+## entry 807
+
+Edge case: input of all the same byte → exits on the first compare.
