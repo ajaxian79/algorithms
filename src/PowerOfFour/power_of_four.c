@@ -327,3 +327,4 @@ int is_power_of_four(int n) {
 // note 314: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 315: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 316: Sub-linear in the average case thanks to early exit.
+// note 317: No allocations on the hot path.
