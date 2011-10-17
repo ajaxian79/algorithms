@@ -3426,3 +3426,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 842
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 843
+
+Mutates the input in place; the original ordering is lost.
