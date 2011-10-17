@@ -3322,3 +3322,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 816
 
 Linear in n; the constant factor is small.
+
+## entry 817
+
+Space complexity: O(log n) for the recursion stack.
