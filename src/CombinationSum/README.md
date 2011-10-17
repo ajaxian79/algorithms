@@ -3399,3 +3399,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 835
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 836
+
+Time complexity: O(n*k) where k is the alphabet size.
