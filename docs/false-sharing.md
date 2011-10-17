@@ -2459,3 +2459,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 615
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 616
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
