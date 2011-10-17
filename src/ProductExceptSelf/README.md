@@ -3524,3 +3524,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 865
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 866
+
+Edge case: alternating pattern → degenerate case for sliding window.
