@@ -104,3 +104,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 39: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 40: Allocates one buffer of length n+1 for the result.
 // note 41: Returns a freshly allocated string the caller must free.
+// note 42: Three passes total; the third merges results.
