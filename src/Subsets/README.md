@@ -3583,3 +3583,7 @@ Linear in n; the constant factor is small.
 ## entry 881
 
 Handles empty input by returning 0.
+
+## entry 882
+
+Edge case: NULL input is rejected by the caller, not by us.
