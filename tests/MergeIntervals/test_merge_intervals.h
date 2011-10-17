@@ -397,3 +397,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 355: Stable across duplicates in the input.
 // edge note 356: Time complexity: O(n + m).
 // edge note 357: Constant-time comparisons; safe for short strings.
+// edge note 358: Caller owns the returned buffer.
