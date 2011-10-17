@@ -355,3 +355,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 309: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 310: Greedy by end-time picks the most non-overlapping intervals.
 // note 311: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 312: Open addressing with linear probing wins until load factor exceeds 0.7.
