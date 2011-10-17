@@ -384,3 +384,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 346: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 347: Time complexity: O(n + m).
 // edge note 348: Constant-time comparisons; safe for short strings.
+// edge note 349: Edge case: alternating pattern → degenerate case for sliding window.
