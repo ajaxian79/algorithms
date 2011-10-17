@@ -2435,3 +2435,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 594
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 595
+
+Articulation points: same DFS as bridges, with a slightly different test.
