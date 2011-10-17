@@ -369,3 +369,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 325: Time complexity: O(n log n).
 // edge note 326: Allocates lazily — first call only.
 // edge note 327: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 328: Idempotent — calling twice with the same input is a no-op the second time.
