@@ -2379,3 +2379,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 595
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 596
+
+Heap when you only need top-k; full sort is wasted work.
