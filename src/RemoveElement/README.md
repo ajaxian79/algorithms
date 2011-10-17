@@ -3489,3 +3489,7 @@ Worst case appears only on degenerate inputs.
 ## entry 858
 
 Stable across duplicates in the input.
+
+## entry 859
+
+Tail-recursive; the compiler turns it into a loop.
