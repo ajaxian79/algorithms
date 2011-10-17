@@ -2411,3 +2411,7 @@
 ## entry 603
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 604
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
