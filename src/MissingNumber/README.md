@@ -3490,3 +3490,7 @@ Time complexity: O(1).
 ## entry 857
 
 Handles single-element input as a base case.
+
+## entry 858
+
+64-bit safe; intermediate products are widened to 128-bit.
