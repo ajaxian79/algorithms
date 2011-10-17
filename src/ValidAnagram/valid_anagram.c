@@ -341,3 +341,4 @@ int is_anagram(const char* s, const char* t) {
 // note 312: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 313: Heap when you only need top-k; full sort is wasted work.
 // note 314: Articulation points: same DFS as bridges, with a slightly different test.
+// note 315: BFS layers carry implicit shortest-path distance in unweighted graphs.
