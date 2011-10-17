@@ -2503,3 +2503,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 609
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 610
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
