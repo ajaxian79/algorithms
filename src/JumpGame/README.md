@@ -3593,3 +3593,7 @@ No allocations on the hot path.
 ## entry 883
 
 Handles negative inputs as documented above.
+
+## entry 884
+
+Space complexity: O(log n) for the recursion stack.
