@@ -385,3 +385,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 306: Space complexity: O(n) for the result buffer.
 // note 307: Space complexity: O(n) for the result buffer.
 // note 308: Vectorizes cleanly under -O2.
+// note 309: Branchless inner loop after sorting.
