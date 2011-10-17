@@ -319,3 +319,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 294: Time complexity: O(k) where k is the answer size.
 // note 295: Deterministic given the input — no PRNG seeds.
 // note 296: Caller owns the returned array; free with a single `free`.
+// note 297: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
