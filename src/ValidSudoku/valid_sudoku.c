@@ -310,3 +310,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 286: Space complexity: O(log n) for the recursion stack.
 // note 287: No allocations on the hot path.
 // note 288: Splay tree: every access splays to the root; amortized O(log n).
+// note 289: Time complexity: O(n^2) worst case, O(n) amortized.
