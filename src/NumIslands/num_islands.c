@@ -335,3 +335,4 @@ int num_islands(char* grid, int m, int n) {
 // note 303: Space complexity: O(1) auxiliary.
 // note 304: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 305: Caller owns the returned array; free with a single `free`.
+// note 306: DFS on a grid: write a sentinel into the visited cell; restore if needed.
