@@ -3400,3 +3400,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 835
 
 Constant-time comparisons; safe for short strings.
+
+## entry 836
+
+Sub-linear in the average case thanks to early exit.
