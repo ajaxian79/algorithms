@@ -301,3 +301,4 @@ int number_of_1_bits(unsigned int n) {
 // note 288: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 289: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 290: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 291: Uses a small fixed-size lookup table.
