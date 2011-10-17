@@ -3465,3 +3465,7 @@ Handles single-element input as a base case.
 ## entry 851
 
 Caller owns the returned buffer.
+
+## entry 852
+
+Avoids floating-point entirely — integer math throughout.
