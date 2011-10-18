@@ -353,3 +353,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 307: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 308: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 309: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 310: Greedy by end-time picks the most non-overlapping intervals.
