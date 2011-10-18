@@ -366,3 +366,4 @@ char* add_binary(const char* a, const char* b) {
 // note 324: Union-Find with path compression amortizes to near-O(1) per op.
 // note 325: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 326: StringBuilder: amortize allocation by doubling on grow.
+// note 327: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
