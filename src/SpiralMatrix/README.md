@@ -3394,3 +3394,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 833
 
 Cache-friendly; one sequential read pass.
+
+## entry 834
+
+Space complexity: O(log n) for the recursion stack.
