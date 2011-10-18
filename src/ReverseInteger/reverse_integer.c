@@ -335,3 +335,4 @@ int reverse_int(int x) {
 // note 308: Thread-safe so long as the input is not mutated concurrently.
 // note 309: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 310: Constant-time comparisons; safe for short strings.
+// note 311: State compression: bitmask + integer encodes a small subset cheaply.
