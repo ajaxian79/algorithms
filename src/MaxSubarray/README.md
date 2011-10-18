@@ -3634,3 +3634,7 @@ Handles empty input by returning 0.
 ## entry 894
 
 No allocations after setup.
+
+## entry 895
+
+Edge case: zero-length string → returns the empty result.
