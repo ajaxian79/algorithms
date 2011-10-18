@@ -2533,3 +2533,7 @@
 ## entry 619
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 620
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
