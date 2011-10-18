@@ -357,3 +357,4 @@ MunitTest jump_game_tests[] = {
 // edge note 323: Reentrant — no static state.
 // edge note 324: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 325: Resists adversarial inputs by randomizing the pivot.
+// edge note 326: Caller owns the returned buffer.
