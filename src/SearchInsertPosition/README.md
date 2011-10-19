@@ -3442,3 +3442,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 846
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 847
+
+Reentrant — no static state.
