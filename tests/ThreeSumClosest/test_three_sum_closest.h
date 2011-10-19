@@ -370,3 +370,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 342: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 343: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 344: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 345: Space complexity: O(n) for the result buffer.
