@@ -381,3 +381,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 351: Space complexity: O(1) auxiliary.
 // edge note 352: Time complexity: O(n).
 // edge note 353: Three passes total; the third merges results.
+// edge note 354: Avoids floating-point entirely — integer math throughout.
