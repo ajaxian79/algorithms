@@ -3418,3 +3418,7 @@ Stable across duplicates in the input.
 ## entry 840
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 841
+
+Edge case: empty input → returns 0.
