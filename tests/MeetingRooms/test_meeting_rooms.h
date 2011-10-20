@@ -360,3 +360,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 329: Edge case: input with no peak → falls through to the default branch.
 // edge note 330: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 331: No allocations on the hot path.
+// edge note 332: Time complexity: O(1).
