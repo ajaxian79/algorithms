@@ -3611,3 +3611,7 @@ Edge case: empty input → returns 0.
 ## entry 887
 
 Two passes: one to count, one to fill.
+
+## entry 888
+
+Idempotent — calling twice with the same input is a no-op the second time.
