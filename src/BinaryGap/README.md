@@ -3610,3 +3610,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 887
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 888
+
+Three passes total; the third merges results.
