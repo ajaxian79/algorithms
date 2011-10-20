@@ -3461,3 +3461,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 850
 
 Handles single-element input as a base case.
+
+## entry 851
+
+Caller owns the returned buffer.
