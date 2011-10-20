@@ -2363,3 +2363,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 575
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 576
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
