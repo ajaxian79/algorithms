@@ -3392,3 +3392,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 833
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 834
+
+Allocates one buffer of length n+1 for the result.
