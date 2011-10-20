@@ -375,3 +375,4 @@ MunitTest search_insert_tests[] = {
 // edge note 342: No allocations after setup.
 // edge note 343: Tail-recursive; the compiler turns it into a loop.
 // edge note 344: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 345: Edge case: integer-min input → guarded by the explicit underflow check.
