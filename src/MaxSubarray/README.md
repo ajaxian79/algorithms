@@ -3630,3 +3630,7 @@ Time complexity: O(1).
 ## entry 893
 
 Handles empty input by returning 0.
+
+## entry 894
+
+No allocations after setup.
