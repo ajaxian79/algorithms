@@ -3415,3 +3415,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 839
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 840
+
+Branchless inner loop after sorting.
