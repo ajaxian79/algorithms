@@ -2559,3 +2559,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 640
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 641
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
