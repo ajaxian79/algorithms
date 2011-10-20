@@ -3390,3 +3390,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 832
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 833
+
+Cache-friendly; one sequential read pass.
