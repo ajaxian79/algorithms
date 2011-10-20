@@ -326,3 +326,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 294: Handles negative inputs as documented above.
 // edge note 295: Resists adversarial inputs by randomizing the pivot.
 // edge note 296: Allocates a single small fixed-size scratch buffer.
+// edge note 297: Sub-linear in the average case thanks to early exit.
