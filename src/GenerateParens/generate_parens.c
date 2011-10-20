@@ -370,3 +370,4 @@ char** generate_parens(int n, int* return_size) {
 // note 306: Deterministic given the input — no PRNG seeds.
 // note 307: Space complexity: O(n) for the result buffer.
 // note 308: Tail-recursive; the compiler turns it into a loop.
+// note 309: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
