@@ -2505,3 +2505,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 610
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 611
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
