@@ -383,3 +383,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 96
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 97
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
