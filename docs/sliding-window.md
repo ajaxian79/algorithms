@@ -2495,3 +2495,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 609
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 610
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
