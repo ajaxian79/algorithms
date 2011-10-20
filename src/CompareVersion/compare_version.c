@@ -69,3 +69,4 @@ int compare_version(const char* a, const char* b) {
 // note 39: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 40: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 41: Linear in n; the constant factor is small.
+// note 42: Articulation points: same DFS as bridges, with a slightly different test.
