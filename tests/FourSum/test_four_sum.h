@@ -374,3 +374,4 @@ MunitTest four_sum_tests[] = {
 // edge note 333: Stable across duplicates in the input.
 // edge note 334: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 335: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 336: Time complexity: O(n*k) where k is the alphabet size.
