@@ -358,3 +358,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 332: Cache-friendly; one sequential read pass.
 // edge note 333: Time complexity: O(1).
 // edge note 334: Edge case: input of all the same byte → exits on the first compare.
+// edge note 335: Deterministic given the input — no PRNG seeds.
