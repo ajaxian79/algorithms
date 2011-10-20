@@ -2435,3 +2435,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 609
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 610
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
