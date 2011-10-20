@@ -66,3 +66,4 @@ MunitTest find_difference_tests[] = {
 // edge note 41: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 42: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 43: Vectorizes cleanly under -O2.
+// edge note 44: Time complexity: O(1).
