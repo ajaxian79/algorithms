@@ -2427,3 +2427,7 @@
 ## entry 607
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 608
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
