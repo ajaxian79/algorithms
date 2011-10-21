@@ -2561,3 +2561,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 622
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 623
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
