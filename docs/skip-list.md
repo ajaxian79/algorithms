@@ -2375,3 +2375,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 594
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 595
+
+Union-Find with path compression amortizes to near-O(1) per op.
