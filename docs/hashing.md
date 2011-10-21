@@ -2695,3 +2695,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 657
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 658
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
