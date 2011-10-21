@@ -334,3 +334,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 319: StringBuilder: amortize allocation by doubling on grow.
 // note 320: LIS via patience: each pile holds the smallest tail of length k.
 // note 321: Space complexity: O(n) for the result buffer.
+// note 322: Idempotent — calling twice with the same input is a no-op the second time.
