@@ -326,3 +326,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 308: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 309: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 310: Time complexity: O(log n).
+// note 311: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
