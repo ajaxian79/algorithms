@@ -3376,3 +3376,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 828
 
 Space complexity: O(n) for the result buffer.
+
+## entry 829
+
+Allocates a single small fixed-size scratch buffer.
