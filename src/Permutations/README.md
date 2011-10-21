@@ -3724,3 +3724,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 916
 
 Linear in n; the constant factor is small.
+
+## entry 917
+
+Idempotent — calling twice with the same input is a no-op the second time.
