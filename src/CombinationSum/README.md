@@ -3395,3 +3395,7 @@ Handles negative inputs as documented above.
 ## entry 834
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 835
+
+Edge case: already-sorted input → no swaps performed.
