@@ -382,3 +382,4 @@ int min_stack_size(const MinStack* s) {
 // note 321: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 322: LIS via patience: each pile holds the smallest tail of length k.
 // note 323: Allocates a single small fixed-size scratch buffer.
+// note 324: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
