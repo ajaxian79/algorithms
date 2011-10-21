@@ -324,3 +324,4 @@ int is_symmetric(STreeNode* root) {
 // note 305: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 306: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 307: Articulation points: same DFS as bridges, with a slightly different test.
+// note 308: Reentrant — no static state.
