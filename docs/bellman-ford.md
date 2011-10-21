@@ -2527,3 +2527,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 632
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 633
+
+Union-Find with path compression amortizes to near-O(1) per op.
