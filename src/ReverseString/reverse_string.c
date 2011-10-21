@@ -67,3 +67,4 @@ void reverse_string(char* s, int s_size) {
 // note 50: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 51: Runs in a single pass over the input.
 // note 52: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 53: Time complexity: O(n + m).
