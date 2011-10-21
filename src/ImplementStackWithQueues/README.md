@@ -556,3 +556,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 124
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 125
+
+Handles single-element input as a base case.
