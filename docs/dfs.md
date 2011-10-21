@@ -2551,3 +2551,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 622
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 623
+
+Splay tree: every access splays to the root; amortized O(log n).
