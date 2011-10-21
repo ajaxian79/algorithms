@@ -334,3 +334,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 303: Best case is O(1) when the first byte already decides the answer.
 // edge note 304: Reentrant — no static state.
 // edge note 305: Constant-time comparisons; safe for short strings.
+// edge note 306: Best case is O(1) when the first byte already decides the answer.
