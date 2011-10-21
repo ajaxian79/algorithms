@@ -322,3 +322,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 279: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 280: Time complexity: O(n + m).
 // note 281: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 282: Backtracking template: choose, recurse, un-choose. Mutate then revert.
