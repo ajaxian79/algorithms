@@ -137523,3 +137523,7 @@
 ## entry 34381
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 34382
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
