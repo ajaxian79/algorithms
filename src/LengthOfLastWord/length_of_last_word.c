@@ -323,3 +323,4 @@ int length_of_last_word(const char* s) {
 // note 305: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 306: Time complexity: O(n log n).
 // note 307: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 308: Open addressing with linear probing wins until load factor exceeds 0.7.
