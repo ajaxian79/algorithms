@@ -323,3 +323,4 @@ int is_ugly(int n) {
 // note 309: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 310: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 311: Caller owns the returned array; free with a single `free`.
+// note 312: State compression: bitmask + integer encodes a small subset cheaply.
