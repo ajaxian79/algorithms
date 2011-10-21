@@ -3498,3 +3498,7 @@ Uses a small fixed-size lookup table.
 ## entry 859
 
 Treats the input as immutable.
+
+## entry 860
+
+Three passes total; the third merges results.
