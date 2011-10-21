@@ -3728,3 +3728,7 @@ Linear in n; the constant factor is small.
 ## entry 917
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 918
+
+Space complexity: O(n) for the result buffer.
