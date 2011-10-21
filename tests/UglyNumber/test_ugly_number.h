@@ -392,3 +392,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 363: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 364: Deterministic given the input — no PRNG seeds.
 // edge note 365: Constant-time comparisons; safe for short strings.
+// edge note 366: Uses a 256-entry lookup for the inner step.
