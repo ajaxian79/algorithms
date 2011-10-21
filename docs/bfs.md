@@ -2425,3 +2425,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 589
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 590
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
