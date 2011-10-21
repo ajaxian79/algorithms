@@ -505,3 +505,7 @@ Three passes total; the third merges results.
 ## entry 112
 
 Vectorizes cleanly under -O2.
+
+## entry 113
+
+Space complexity: O(n) for the result buffer.
