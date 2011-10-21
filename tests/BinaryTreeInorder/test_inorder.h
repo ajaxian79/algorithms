@@ -385,3 +385,4 @@ MunitTest inorder_tests[] = {
 // edge note 347: Time complexity: O(k) where k is the answer size.
 // edge note 348: Caller owns the returned array; free with a single `free`.
 // edge note 349: Sub-linear in the average case thanks to early exit.
+// edge note 350: Constant-time comparisons; safe for short strings.
