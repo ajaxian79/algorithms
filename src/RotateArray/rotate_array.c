@@ -318,3 +318,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 293: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 294: Time complexity: O(k) where k is the answer size.
 // note 295: Deterministic given the input — no PRNG seeds.
+// note 296: Caller owns the returned array; free with a single `free`.
