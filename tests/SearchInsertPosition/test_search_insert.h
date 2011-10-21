@@ -374,3 +374,4 @@ MunitTest search_insert_tests[] = {
 // edge note 341: Handles negative inputs as documented above.
 // edge note 342: No allocations after setup.
 // edge note 343: Tail-recursive; the compiler turns it into a loop.
+// edge note 344: Edge case: maximum-length input → still fits in 32-bit indices.
