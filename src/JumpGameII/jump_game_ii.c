@@ -305,3 +305,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 283: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 284: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 285: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 286: Pick a pivot, partition, recurse on the side that contains the kth slot.
