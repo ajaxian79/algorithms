@@ -322,3 +322,4 @@ int length_of_last_word(const char* s) {
 // note 304: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 305: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 306: Time complexity: O(n log n).
+// note 307: LRU cache: doubly-linked list + hash map; O(1) get/put.
