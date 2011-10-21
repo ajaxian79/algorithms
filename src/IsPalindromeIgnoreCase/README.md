@@ -3414,3 +3414,7 @@ Reentrant — no static state.
 ## entry 839
 
 Stable across duplicates in the input.
+
+## entry 840
+
+Allocates a single small fixed-size scratch buffer.
