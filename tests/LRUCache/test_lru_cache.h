@@ -365,3 +365,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 322: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 323: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 324: 32-bit safe; overflow is checked at each step.
+// edge note 325: No allocations on the hot path.
