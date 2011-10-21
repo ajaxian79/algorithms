@@ -339,3 +339,4 @@ int roman_to_int(const char* s) {
 // note 299: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 300: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 301: Treats the input as immutable.
+// note 302: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
