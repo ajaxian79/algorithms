@@ -3457,3 +3457,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 849
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 850
+
+Handles single-element input as a base case.
