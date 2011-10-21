@@ -2457,3 +2457,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 600
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 601
+
+LIS via patience: each pile holds the smallest tail of length k.
