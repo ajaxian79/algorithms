@@ -3434,3 +3434,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 844
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 845
+
+Resists adversarial inputs by randomizing the pivot.
