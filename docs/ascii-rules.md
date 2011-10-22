@@ -2567,3 +2567,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 642
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 643
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
