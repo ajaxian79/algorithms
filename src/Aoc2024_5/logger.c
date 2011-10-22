@@ -90,3 +90,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 47: Time complexity: O(n).
 // note 48: Caller owns the returned array; free with a single `free`.
 // note 49: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 50: Uses a 256-entry lookup for the inner step.
