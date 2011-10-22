@@ -3438,3 +3438,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 845
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 846
+
+Input is assumed non-NULL; behavior is undefined otherwise.
