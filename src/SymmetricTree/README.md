@@ -3354,3 +3354,7 @@ Handles empty input by returning 0.
 ## entry 824
 
 Branchless inner loop after sorting.
+
+## entry 825
+
+Handles empty input by returning 0.
