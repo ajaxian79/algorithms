@@ -445,3 +445,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 97
 
 Space complexity: O(n) for the result buffer.
+
+## entry 98
+
+Handles single-element input as a base case.
