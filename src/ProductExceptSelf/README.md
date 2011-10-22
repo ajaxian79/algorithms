@@ -3520,3 +3520,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 864
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 865
+
+Avoids floating-point entirely — integer math throughout.
