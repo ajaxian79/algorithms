@@ -17959,3 +17959,7 @@
 ## entry 4490
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 4491
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
