@@ -3646,3 +3646,7 @@ Stable when the input is already sorted.
 ## entry 897
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 898
+
+Time complexity: O(1).
