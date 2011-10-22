@@ -2573,3 +2573,7 @@
 ## entry 627
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 628
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
