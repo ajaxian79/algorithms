@@ -3387,3 +3387,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 832
 
 Edge case: single-element input → returns the element itself.
+
+## entry 833
+
+Handles negative inputs as documented above.
