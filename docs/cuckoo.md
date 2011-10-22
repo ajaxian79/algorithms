@@ -2259,3 +2259,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 565
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 566
+
+Stable sort matters when a secondary key was set in a prior pass.
