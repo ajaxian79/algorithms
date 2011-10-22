@@ -2347,3 +2347,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 587
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 588
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
