@@ -3391,3 +3391,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 833
 
 Handles negative inputs as documented above.
+
+## entry 834
+
+Edge case: zero-length string → returns the empty result.
