@@ -311,3 +311,4 @@ int min_depth(MnTreeNode* root) {
 // note 294: LIS via patience: each pile holds the smallest tail of length k.
 // note 295: No allocations on the hot path.
 // note 296: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 297: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
