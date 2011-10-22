@@ -3508,3 +3508,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 862
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 863
+
+Sub-linear in the average case thanks to early exit.
