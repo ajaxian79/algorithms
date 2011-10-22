@@ -2581,3 +2581,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 629
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 630
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
