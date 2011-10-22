@@ -3453,3 +3453,7 @@ Stable when the input is already sorted.
 ## entry 848
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 849
+
+Edge case: integer-max input → guarded by the explicit overflow check.
