@@ -2509,3 +2509,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 611
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 612
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
