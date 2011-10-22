@@ -3449,3 +3449,7 @@ Space complexity: O(h) for the tree height.
 ## entry 847
 
 Stable when the input is already sorted.
+
+## entry 848
+
+Mutates the input in place; the original ordering is lost.
