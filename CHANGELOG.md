@@ -137499,3 +137499,7 @@
 ## entry 34375
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 34376
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
