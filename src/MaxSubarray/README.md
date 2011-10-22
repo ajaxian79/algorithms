@@ -3626,3 +3626,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 892
 
 Time complexity: O(1).
+
+## entry 893
+
+Handles empty input by returning 0.
