@@ -3386,3 +3386,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 832
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 833
+
+Space complexity: O(n) for the result buffer.
