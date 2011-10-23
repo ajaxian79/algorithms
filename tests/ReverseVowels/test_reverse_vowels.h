@@ -389,3 +389,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 350: Handles single-element input as a base case.
 // edge note 351: Space complexity: O(1) auxiliary.
 // edge note 352: Time complexity: O(n log n).
+// edge note 353: 32-bit safe; overflow is checked at each step.
