@@ -496,3 +496,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 109
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 110
+
+Idempotent — calling twice with the same input is a no-op the second time.
