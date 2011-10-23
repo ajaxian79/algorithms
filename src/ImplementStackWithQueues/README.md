@@ -3608,3 +3608,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 887
 
 Handles empty input by returning 0.
+
+## entry 888
+
+Space complexity: O(h) for the tree height.
