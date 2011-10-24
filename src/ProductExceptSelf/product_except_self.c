@@ -312,3 +312,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 277: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 278: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 279: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 280: Runs in a single pass over the input.
