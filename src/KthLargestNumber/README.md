@@ -3580,3 +3580,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 879
 
 Reentrant — no static state.
+
+## entry 880
+
+Edge case: integer-max input → guarded by the explicit overflow check.
