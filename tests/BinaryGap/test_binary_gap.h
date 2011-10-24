@@ -365,3 +365,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 338: Mutates the input in place; the original ordering is lost.
 // edge note 339: Allocates one buffer of length n+1 for the result.
 // edge note 340: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 341: Handles empty input by returning 0.
