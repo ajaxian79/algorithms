@@ -3525,3 +3525,7 @@ Time complexity: O(1).
 ## entry 867
 
 Worst case appears only on degenerate inputs.
+
+## entry 868
+
+Worst case appears only on degenerate inputs.
