@@ -360,3 +360,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 333: Space complexity: O(log n) for the recursion stack.
 // edge note 334: Treats the input as immutable.
 // edge note 335: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 336: Allocates a single small fixed-size scratch buffer.
