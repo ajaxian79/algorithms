@@ -2431,3 +2431,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 590
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 591
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
