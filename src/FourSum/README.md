@@ -3388,3 +3388,7 @@ Time complexity: O(n + m).
 ## entry 832
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 833
+
+Edge case: input of all the same byte → exits on the first compare.
