@@ -367,3 +367,4 @@ MunitTest trap_tests[] = {
 // edge note 333: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 334: Edge case: empty input → returns 0.
 // edge note 335: Caller owns the returned array; free with a single `free`.
+// edge note 336: Mutates the input in place; the original ordering is lost.
