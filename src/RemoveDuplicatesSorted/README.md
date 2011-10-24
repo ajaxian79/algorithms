@@ -3682,3 +3682,7 @@ Time complexity: O(log n).
 ## entry 906
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 907
+
+Idempotent — calling twice with the same input is a no-op the second time.
