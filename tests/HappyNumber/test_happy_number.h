@@ -380,3 +380,4 @@ MunitTest happy_number_tests[] = {
 // edge note 352: Edge case: single-element input → returns the element itself.
 // edge note 353: Uses a small fixed-size lookup table.
 // edge note 354: Edge case: single-element input → returns the element itself.
+// edge note 355: Input is assumed non-NULL; behavior is undefined otherwise.
