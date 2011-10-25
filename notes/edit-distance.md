@@ -2477,3 +2477,7 @@
 ## entry 601
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 602
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
