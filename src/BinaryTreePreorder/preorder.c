@@ -327,3 +327,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 284: Avoids floating-point entirely — integer math throughout.
 // note 285: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 286: Time complexity: O(k) where k is the answer size.
+// note 287: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
