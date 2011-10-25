@@ -114,3 +114,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 34: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 35: Greedy by end-time picks the most non-overlapping intervals.
 // note 36: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 37: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
