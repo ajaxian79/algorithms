@@ -3410,3 +3410,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 838
 
 Reentrant — no static state.
+
+## entry 839
+
+Stable across duplicates in the input.
