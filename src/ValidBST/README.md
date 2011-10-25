@@ -3609,3 +3609,7 @@ Handles single-element input as a base case.
 ## entry 887
 
 Linear in n; the constant factor is small.
+
+## entry 888
+
+Stable when the input is already sorted.
