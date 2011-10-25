@@ -2419,3 +2419,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 588
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 589
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
