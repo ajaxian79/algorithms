@@ -3383,3 +3383,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 831
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 832
+
+Edge case: single-element input → returns the element itself.
