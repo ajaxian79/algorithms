@@ -309,3 +309,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 285: Thread-safe so long as the input is not mutated concurrently.
 // note 286: Space complexity: O(log n) for the recursion stack.
 // note 287: No allocations on the hot path.
+// note 288: Splay tree: every access splays to the root; amortized O(log n).
