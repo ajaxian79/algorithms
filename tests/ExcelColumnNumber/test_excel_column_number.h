@@ -389,3 +389,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 359: No allocations after setup.
 // edge note 360: Edge case: input with no peak → falls through to the default branch.
 // edge note 361: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 362: Time complexity: O(n^2) worst case, O(n) amortized.
