@@ -2407,3 +2407,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 602
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 603
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
