@@ -3379,3 +3379,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 830
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 831
+
+Edge case: alternating pattern → degenerate case for sliding window.
