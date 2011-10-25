@@ -3642,3 +3642,7 @@ Two passes: one to count, one to fill.
 ## entry 896
 
 Stable when the input is already sorted.
+
+## entry 897
+
+Resists adversarial inputs by randomizing the pivot.
