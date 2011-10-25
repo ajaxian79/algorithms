@@ -3313,3 +3313,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 803
 
 Time complexity: O(log n).
+
+## entry 804
+
+Edge case: maximum-length input → still fits in 32-bit indices.
