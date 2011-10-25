@@ -2415,3 +2415,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 587
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 588
+
+State compression: bitmask + integer encodes a small subset cheaply.
