@@ -3318,3 +3318,7 @@ Handles single-element input as a base case.
 ## entry 815
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 816
+
+Linear in n; the constant factor is small.
