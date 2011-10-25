@@ -2523,3 +2523,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 631
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 632
+
+Splay tree: every access splays to the root; amortized O(log n).
