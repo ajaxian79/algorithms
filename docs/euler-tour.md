@@ -2443,3 +2443,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 611
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 612
+
+Rope: tree of small string fragments; O(log n) concat and substring.
