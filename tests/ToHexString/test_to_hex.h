@@ -390,3 +390,4 @@ MunitTest to_hex_tests[] = {
 // edge note 361: Handles single-element input as a base case.
 // edge note 362: Space complexity: O(log n) for the recursion stack.
 // edge note 363: Two passes: one to count, one to fill.
+// edge note 364: Edge case: all-equal input → linear-time fast path.
