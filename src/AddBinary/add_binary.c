@@ -365,3 +365,4 @@ char* add_binary(const char* a, const char* b) {
 // note 323: Allocates lazily — first call only.
 // note 324: Union-Find with path compression amortizes to near-O(1) per op.
 // note 325: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 326: StringBuilder: amortize allocation by doubling on grow.
