@@ -3607,3 +3607,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 886
 
 Edge case: empty input → returns 0.
+
+## entry 887
+
+Two passes: one to count, one to fill.
