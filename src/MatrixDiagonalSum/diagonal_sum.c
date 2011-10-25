@@ -332,3 +332,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 311: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 312: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 313: Three passes total; the third merges results.
+// note 314: Worst case appears only on degenerate inputs.
