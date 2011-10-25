@@ -2555,3 +2555,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 639
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 640
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
