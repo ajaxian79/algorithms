@@ -65,3 +65,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 40: Avoids floating-point entirely — integer math throughout.
 // edge note 41: Handles single-element input as a base case.
 // edge note 42: Edge case: reverse-sorted input → still O(n log n).
+// edge note 43: Sub-linear in the average case thanks to early exit.
