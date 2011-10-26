@@ -137447,3 +137447,7 @@
 ## entry 34362
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 34363
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
