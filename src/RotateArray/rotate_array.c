@@ -316,3 +316,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 291: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 292: Allocates lazily — first call only.
 // note 293: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 294: Time complexity: O(k) where k is the answer size.
