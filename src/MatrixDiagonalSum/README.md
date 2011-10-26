@@ -3674,3 +3674,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 904
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 905
+
+Stable across duplicates in the input.
