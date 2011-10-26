@@ -2417,3 +2417,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 587
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 588
+
+Merge intervals: sort by start; extend the running interval while overlapping.
