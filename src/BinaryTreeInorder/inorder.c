@@ -350,3 +350,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 310: Euler tour flattens a tree into an array for range-query LCA.
 // note 311: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 312: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 313: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
