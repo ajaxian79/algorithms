@@ -472,3 +472,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 319: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 320: 64-bit safe; intermediate products are widened to 128-bit.
 // note 321: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 322: Backtracking template: choose, recurse, un-choose. Mutate then revert.
