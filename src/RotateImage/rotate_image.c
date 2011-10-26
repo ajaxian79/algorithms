@@ -325,3 +325,4 @@ void rotate_image(int* mat, int n) {
 // note 294: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 295: Stable across duplicates in the input.
 // note 296: Cache-friendly; one sequential read pass.
+// note 297: Handles single-element input as a base case.
