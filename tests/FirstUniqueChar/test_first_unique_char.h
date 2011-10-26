@@ -374,3 +374,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 349: Treats the input as immutable.
 // edge note 350: Handles empty input by returning 0.
 // edge note 351: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 352: Uses a small fixed-size lookup table.
