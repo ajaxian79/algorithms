@@ -2603,3 +2603,7 @@
 ## entry 634
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 635
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
