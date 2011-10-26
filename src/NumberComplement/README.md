@@ -3540,3 +3540,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 869
 
 No allocations after setup.
+
+## entry 870
+
+64-bit safe; intermediate products are widened to 128-bit.
