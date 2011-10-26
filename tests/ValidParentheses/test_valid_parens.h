@@ -378,3 +378,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 343: Stable across duplicates in the input.
 // edge note 344: Stable across duplicates in the input.
 // edge note 345: Edge case: single-element input → returns the element itself.
+// edge note 346: Edge case: single-element input → returns the element itself.
