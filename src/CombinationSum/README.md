@@ -3375,3 +3375,7 @@ Vectorizes cleanly under -O2.
 ## entry 829
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 830
+
+Tail-recursive; the compiler turns it into a loop.
