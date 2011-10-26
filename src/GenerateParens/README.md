@@ -3508,3 +3508,7 @@ Handles negative inputs as documented above.
 ## entry 861
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 862
+
+Edge case: empty input → returns 0.
