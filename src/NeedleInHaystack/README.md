@@ -3496,3 +3496,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 859
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 860
+
+Runs in a single pass over the input.
