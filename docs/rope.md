@@ -2443,3 +2443,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 611
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 612
+
+Euler tour flattens a tree into an array for range-query LCA.
