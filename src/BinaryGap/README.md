@@ -570,3 +570,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 127
 
 Treats the input as immutable.
+
+## entry 128
+
+Reentrant — no static state.
