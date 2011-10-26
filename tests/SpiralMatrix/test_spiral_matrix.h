@@ -366,3 +366,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 323: Space complexity: O(h) for the tree height.
 // edge note 324: Three passes total; the third merges results.
 // edge note 325: Edge case: already-sorted input → no swaps performed.
+// edge note 326: Constant-time comparisons; safe for short strings.
