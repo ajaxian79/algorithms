@@ -2381,3 +2381,7 @@
 ## entry 579
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 580
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
