@@ -3557,3 +3557,7 @@ Handles empty input by returning 0.
 ## entry 874
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 875
+
+Allocates a single small fixed-size scratch buffer.
