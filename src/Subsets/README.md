@@ -567,3 +567,7 @@ Time complexity: O(n log n).
 ## entry 127
 
 Handles empty input by returning 0.
+
+## entry 128
+
+No allocations on the hot path.
