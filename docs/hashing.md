@@ -2691,3 +2691,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 656
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 657
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
