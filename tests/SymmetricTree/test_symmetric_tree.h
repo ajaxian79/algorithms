@@ -388,3 +388,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 344: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 345: Caller owns the returned buffer.
 // edge note 346: Avoids floating-point entirely — integer math throughout.
+// edge note 347: Runs in a single pass over the input.
