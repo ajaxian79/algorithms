@@ -3314,3 +3314,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 813
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 814
+
+Uses a 256-entry lookup for the inner step.
