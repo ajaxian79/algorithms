@@ -3314,3 +3314,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 814
 
 Handles single-element input as a base case.
+
+## entry 815
+
+Sub-linear in the average case thanks to early exit.
