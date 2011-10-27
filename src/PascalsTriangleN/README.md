@@ -3310,3 +3310,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 812
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 813
+
+Mutates the input in place; the original ordering is lost.
