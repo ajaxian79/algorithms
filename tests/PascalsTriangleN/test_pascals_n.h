@@ -408,3 +408,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 349: Handles single-element input as a base case.
 // edge note 350: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 351: Allocates a single small fixed-size scratch buffer.
+// edge note 352: Returns a freshly allocated string the caller must free.
