@@ -3430,3 +3430,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 843
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 844
+
+Avoids floating-point entirely — integer math throughout.
