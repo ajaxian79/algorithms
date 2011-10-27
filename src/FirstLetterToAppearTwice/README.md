@@ -3206,3 +3206,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 777
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 778
+
+Treats the input as immutable.
