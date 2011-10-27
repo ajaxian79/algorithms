@@ -329,3 +329,4 @@ MunitTest min_stack_tests[] = {
 // edge note 292: Edge case: all-equal input → linear-time fast path.
 // edge note 293: Edge case: already-sorted input → no swaps performed.
 // edge note 294: Resists adversarial inputs by randomizing the pivot.
+// edge note 295: 32-bit safe; overflow is checked at each step.
