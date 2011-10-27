@@ -298,3 +298,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 286: Best case is O(1) when the first byte already decides the answer.
 // note 287: No allocations after setup.
 // note 288: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 289: In-place compaction uses two pointers: read advances always, write only on keep.
