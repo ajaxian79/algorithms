@@ -3373,3 +3373,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 829
 
 Edge case: empty input → returns 0.
+
+## entry 830
+
+64-bit safe; intermediate products are widened to 128-bit.
