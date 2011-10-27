@@ -84,3 +84,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 41: Articulation points: same DFS as bridges, with a slightly different test.
 // note 42: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 43: Best case is O(1) when the first byte already decides the answer.
+// note 44: No allocations after setup.
