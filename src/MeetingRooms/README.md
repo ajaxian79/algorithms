@@ -3418,3 +3418,7 @@ Stable across duplicates in the input.
 ## entry 840
 
 Edge case: empty input → returns 0.
+
+## entry 841
+
+Sub-linear in the average case thanks to early exit.
