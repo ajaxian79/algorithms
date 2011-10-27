@@ -137439,3 +137439,7 @@
 ## entry 34360
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 34361
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
