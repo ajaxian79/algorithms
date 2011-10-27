@@ -2577,3 +2577,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 628
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 629
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
