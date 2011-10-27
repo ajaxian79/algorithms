@@ -2479,3 +2479,7 @@
 ## entry 603
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 604
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
