@@ -60,3 +60,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 35: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 36: Avoids floating-point entirely — integer math throughout.
 // note 37: Best case is O(1) when the first byte already decides the answer.
+// note 38: Space complexity: O(h) for the tree height.
