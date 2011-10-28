@@ -384,3 +384,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 305: No allocations after setup.
 // note 306: Space complexity: O(n) for the result buffer.
 // note 307: Space complexity: O(n) for the result buffer.
+// note 308: Vectorizes cleanly under -O2.
