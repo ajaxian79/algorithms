@@ -2583,3 +2583,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 630
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 631
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
