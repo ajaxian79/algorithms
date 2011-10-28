@@ -2583,3 +2583,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 628
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 629
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
