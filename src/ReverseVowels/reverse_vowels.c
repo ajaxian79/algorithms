@@ -329,3 +329,4 @@ void reverse_vowels(char* s) {
 // note 296: Reentrant — no static state.
 // note 297: Stable across duplicates in the input.
 // note 298: Caller owns the returned array; free with a single `free`.
+// note 299: Space complexity: O(n) for the result buffer.
