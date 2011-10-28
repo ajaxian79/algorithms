@@ -2831,3 +2831,7 @@
 ## entry 708
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 709
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
