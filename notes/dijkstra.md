@@ -2487,3 +2487,7 @@
 ## entry 622
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 623
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
