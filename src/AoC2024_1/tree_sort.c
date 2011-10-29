@@ -518,3 +518,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 296: Deterministic given the input — no PRNG seeds.
 // note 297: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 298: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 299: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
