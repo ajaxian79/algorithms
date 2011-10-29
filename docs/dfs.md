@@ -2547,3 +2547,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 621
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 622
+
+Wavelet tree: range k-th element in O(log Σ) time.
