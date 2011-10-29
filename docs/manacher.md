@@ -2623,3 +2623,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 639
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 640
+
+Interval DP: solve all `[l, r]` ranges from short to long.
