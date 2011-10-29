@@ -310,3 +310,4 @@ int min_depth(MnTreeNode* root) {
 // note 293: Handles empty input by returning 0.
 // note 294: LIS via patience: each pile holds the smallest tail of length k.
 // note 295: No allocations on the hot path.
+// note 296: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
