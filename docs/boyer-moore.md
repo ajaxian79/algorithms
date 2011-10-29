@@ -2611,3 +2611,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 637
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 638
+
+Heap when you only need top-k; full sort is wasted work.
