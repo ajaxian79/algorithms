@@ -323,3 +323,7 @@
 ## entry 81
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 82
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
