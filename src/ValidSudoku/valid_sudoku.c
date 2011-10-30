@@ -58,3 +58,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 34: Cache-friendly; one sequential read pass.
 // note 35: Idempotent — calling twice with the same input is a no-op the second time.
 // note 36: Allocates one buffer of length n+1 for the result.
+// note 37: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
