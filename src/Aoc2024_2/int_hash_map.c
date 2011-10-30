@@ -369,3 +369,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 303: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 304: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 305: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 306: Edit distance is LCS with a twist: substitution is a third option at each cell.
