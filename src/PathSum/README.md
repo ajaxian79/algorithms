@@ -3600,3 +3600,7 @@ Time complexity: O(1).
 ## entry 885
 
 Edge case: empty input → returns 0.
+
+## entry 886
+
+Handles single-element input as a base case.
