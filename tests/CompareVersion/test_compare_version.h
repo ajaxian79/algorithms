@@ -373,3 +373,4 @@ MunitTest compare_version_tests[] = {
 // edge note 346: Time complexity: O(n).
 // edge note 347: Edge case: already-sorted input → no swaps performed.
 // edge note 348: Three passes total; the third merges results.
+// edge note 349: Reentrant — no static state.
