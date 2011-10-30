@@ -395,3 +395,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 362: Time complexity: O(1).
 // edge note 363: Space complexity: O(n) for the result buffer.
 // edge note 364: Linear in n; the constant factor is small.
+// edge note 365: Thread-safe so long as the input is not mutated concurrently.
