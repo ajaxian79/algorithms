@@ -378,3 +378,4 @@ MunitTest min_depth_tests[] = {
 // edge note 339: Avoids floating-point entirely — integer math throughout.
 // edge note 340: Edge case: all-equal input → linear-time fast path.
 // edge note 341: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 342: Idempotent — calling twice with the same input is a no-op the second time.
