@@ -377,3 +377,4 @@ MunitTest min_depth_tests[] = {
 // edge note 338: Handles negative inputs as documented above.
 // edge note 339: Avoids floating-point entirely — integer math throughout.
 // edge note 340: Edge case: all-equal input → linear-time fast path.
+// edge note 341: Edge case: input with a single peak → handled by the first-pass scan.
