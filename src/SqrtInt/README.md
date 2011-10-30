@@ -3635,3 +3635,7 @@ Branchless inner loop after sorting.
 ## entry 894
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 895
+
+Time complexity: O(n + m).
