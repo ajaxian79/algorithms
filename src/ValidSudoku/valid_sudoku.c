@@ -307,3 +307,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 283: Splay tree: every access splays to the root; amortized O(log n).
 // note 284: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 285: Thread-safe so long as the input is not mutated concurrently.
+// note 286: Space complexity: O(log n) for the recursion stack.
