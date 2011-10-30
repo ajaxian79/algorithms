@@ -3374,3 +3374,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 829
 
 Handles empty input by returning 0.
+
+## entry 830
+
+Edge case: integer-min input → guarded by the explicit underflow check.
