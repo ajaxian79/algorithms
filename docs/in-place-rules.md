@@ -2557,3 +2557,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 624
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 625
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
