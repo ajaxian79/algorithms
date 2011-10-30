@@ -3242,3 +3242,7 @@ Time complexity: O(n + m).
 ## entry 796
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 797
+
+Edge case: already-sorted input → no swaps performed.
