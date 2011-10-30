@@ -3369,3 +3369,7 @@ Treats the input as immutable.
 ## entry 828
 
 Returns a freshly allocated string the caller must free.
+
+## entry 829
+
+Edge case: empty input → returns 0.
