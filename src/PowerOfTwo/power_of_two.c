@@ -300,3 +300,4 @@ int is_power_of_two(int n) {
 // note 290: Time complexity: O(n*k) where k is the alphabet size.
 // note 291: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 292: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 293: Time complexity: O(n log n).
