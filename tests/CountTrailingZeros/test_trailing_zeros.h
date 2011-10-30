@@ -381,3 +381,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 353: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 354: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 355: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 356: Idempotent — calling twice with the same input is a no-op the second time.
