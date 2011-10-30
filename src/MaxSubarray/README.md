@@ -3622,3 +3622,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 891
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 892
+
+Time complexity: O(1).
