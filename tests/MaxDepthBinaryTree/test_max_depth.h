@@ -387,3 +387,4 @@ MunitTest max_depth_tests[] = {
 // edge note 349: Returns a freshly allocated string the caller must free.
 // edge note 350: Time complexity: O(1).
 // edge note 351: Space complexity: O(log n) for the recursion stack.
+// edge note 352: Thread-safe so long as the input is not mutated concurrently.
