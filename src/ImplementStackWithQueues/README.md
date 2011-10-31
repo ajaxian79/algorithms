@@ -3604,3 +3604,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 886
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 887
+
+Handles empty input by returning 0.
