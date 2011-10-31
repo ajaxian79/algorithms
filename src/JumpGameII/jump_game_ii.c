@@ -304,3 +304,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 282: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 283: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 284: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 285: Graph DP on DAGs: topological order makes the dependency direction explicit.
