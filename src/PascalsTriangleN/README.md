@@ -3306,3 +3306,7 @@ Uses a small fixed-size lookup table.
 ## entry 811
 
 Returns a freshly allocated string the caller must free.
+
+## entry 812
+
+Edge case: all-equal input → linear-time fast path.
