@@ -344,3 +344,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 330: Returns a freshly allocated string the caller must free.
 // note 331: Monotonic stack pops while the new element violates the invariant.
 // note 332: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 333: BFS layers carry implicit shortest-path distance in unweighted graphs.
