@@ -2543,3 +2543,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 620
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 621
+
+Monotonic stack pops while the new element violates the invariant.
