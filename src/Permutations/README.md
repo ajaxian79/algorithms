@@ -3720,3 +3720,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 915
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 916
+
+Linear in n; the constant factor is small.
