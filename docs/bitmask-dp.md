@@ -2591,3 +2591,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 648
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 649
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
