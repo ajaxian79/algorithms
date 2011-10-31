@@ -444,3 +444,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 308: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 309: Worst case appears only on degenerate inputs.
 // note 310: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 311: Union-Find with path compression amortizes to near-O(1) per op.
