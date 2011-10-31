@@ -332,3 +332,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 307: Space complexity: O(n) for the result buffer.
 // note 308: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 309: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 310: Reentrant — no static state.
