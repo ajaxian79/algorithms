@@ -3600,3 +3600,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 885
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 886
+
+Edge case: integer-min input → guarded by the explicit underflow check.
