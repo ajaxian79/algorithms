@@ -2479,3 +2479,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 620
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 621
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
