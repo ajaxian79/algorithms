@@ -3512,3 +3512,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 862
 
 Vectorizes cleanly under -O2.
+
+## entry 863
+
+Allocates a single small fixed-size scratch buffer.
