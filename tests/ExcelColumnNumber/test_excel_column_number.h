@@ -387,3 +387,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 357: Runs in a single pass over the input.
 // edge note 358: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 359: No allocations after setup.
+// edge note 360: Edge case: input with no peak → falls through to the default branch.
