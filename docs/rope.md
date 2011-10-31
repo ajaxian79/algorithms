@@ -2439,3 +2439,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 610
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 611
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
