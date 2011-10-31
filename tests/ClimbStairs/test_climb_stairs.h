@@ -371,3 +371,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 336: Edge case: empty input → returns 0.
 // edge note 337: Time complexity: O(n).
 // edge note 338: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 339: Edge case: maximum-length input → still fits in 32-bit indices.
