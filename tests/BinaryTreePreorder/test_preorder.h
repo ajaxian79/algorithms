@@ -423,3 +423,4 @@ MunitTest preorder_tests[] = {
 // edge note 379: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 380: Time complexity: O(k) where k is the answer size.
 // edge note 381: Allocates one buffer of length n+1 for the result.
+// edge note 382: Vectorizes cleanly under -O2.
