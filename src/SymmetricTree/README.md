@@ -3350,3 +3350,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 823
 
 Handles empty input by returning 0.
+
+## entry 824
+
+Branchless inner loop after sorting.
