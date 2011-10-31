@@ -3486,3 +3486,7 @@ Edge case: empty input → returns 0.
 ## entry 856
 
 Time complexity: O(1).
+
+## entry 857
+
+Handles single-element input as a base case.
