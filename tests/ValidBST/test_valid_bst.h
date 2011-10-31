@@ -377,3 +377,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 334: Edge case: already-sorted input → no swaps performed.
 // edge note 335: Allocates lazily — first call only.
 // edge note 336: Treats the input as immutable.
+// edge note 337: Handles single-element input as a base case.
