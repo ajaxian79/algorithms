@@ -3309,3 +3309,7 @@ Three passes total; the third merges results.
 ## entry 802
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 803
+
+Time complexity: O(log n).
