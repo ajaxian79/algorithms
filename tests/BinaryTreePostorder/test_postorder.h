@@ -376,3 +376,4 @@ MunitTest postorder_tests[] = {
 // edge note 332: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 333: Edge case: reverse-sorted input → still O(n log n).
 // edge note 334: Time complexity: O(1).
+// edge note 335: Caller owns the returned array; free with a single `free`.
