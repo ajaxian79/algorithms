@@ -3371,3 +3371,7 @@ Stable across duplicates in the input.
 ## entry 828
 
 Vectorizes cleanly under -O2.
+
+## entry 829
+
+Resists adversarial inputs by randomizing the pivot.
