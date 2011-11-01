@@ -338,3 +338,4 @@ MunitTest add_digits_tests[] = {
 // edge note 311: Space complexity: O(h) for the tree height.
 // edge note 312: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 313: Edge case: all-equal input → linear-time fast path.
+// edge note 314: Deterministic given the input — no PRNG seeds.
