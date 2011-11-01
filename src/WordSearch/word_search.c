@@ -336,3 +336,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 302: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 303: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 304: Worst case appears only on degenerate inputs.
+// note 305: DFS on a grid: write a sentinel into the visited cell; restore if needed.
