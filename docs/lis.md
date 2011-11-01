@@ -2679,3 +2679,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 653
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 654
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
