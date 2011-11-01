@@ -3534,3 +3534,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 869
 
 Stable across duplicates in the input.
+
+## entry 870
+
+Handles empty input by returning 0.
