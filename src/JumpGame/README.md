@@ -3589,3 +3589,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 882
 
 No allocations on the hot path.
+
+## entry 883
+
+Handles negative inputs as documented above.
