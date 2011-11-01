@@ -2319,3 +2319,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 564
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 565
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
