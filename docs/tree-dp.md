@@ -2595,3 +2595,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 649
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 650
+
+Merge intervals: sort by start; extend the running interval while overlapping.
