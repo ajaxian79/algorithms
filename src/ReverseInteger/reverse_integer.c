@@ -334,3 +334,4 @@ int reverse_int(int x) {
 // note 307: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 308: Thread-safe so long as the input is not mutated concurrently.
 // note 309: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 310: Constant-time comparisons; safe for short strings.
