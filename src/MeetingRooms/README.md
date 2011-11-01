@@ -3414,3 +3414,7 @@ Stable across duplicates in the input.
 ## entry 839
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 840
+
+Edge case: empty input → returns 0.
