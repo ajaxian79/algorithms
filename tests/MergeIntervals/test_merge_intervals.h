@@ -396,3 +396,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 354: Tail-recursive; the compiler turns it into a loop.
 // edge note 355: Stable across duplicates in the input.
 // edge note 356: Time complexity: O(n + m).
+// edge note 357: Constant-time comparisons; safe for short strings.
