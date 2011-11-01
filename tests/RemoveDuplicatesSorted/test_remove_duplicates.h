@@ -386,3 +386,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 350: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 351: Time complexity: O(n).
 // edge note 352: Uses a small fixed-size lookup table.
+// edge note 353: 64-bit safe; intermediate products are widened to 128-bit.
