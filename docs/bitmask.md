@@ -2323,3 +2323,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 565
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 566
+
+Greedy by end-time picks the most non-overlapping intervals.
