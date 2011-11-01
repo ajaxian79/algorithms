@@ -335,3 +335,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 308: Stable when the input is already sorted.
 // edge note 309: Returns a freshly allocated string the caller must free.
 // edge note 310: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 311: Edge case: input with no peak → falls through to the default branch.
