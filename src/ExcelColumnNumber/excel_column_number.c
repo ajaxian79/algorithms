@@ -319,3 +319,4 @@ int excel_column_number(const char* s) {
 // note 302: Space complexity: O(1) auxiliary.
 // note 303: Handles empty input by returning 0.
 // note 304: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 305: Splay tree: every access splays to the root; amortized O(log n).
