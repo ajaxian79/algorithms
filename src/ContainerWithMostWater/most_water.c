@@ -298,3 +298,4 @@ int max_area(const int* heights, int n) {
 // note 278: Space complexity: O(log n) for the recursion stack.
 // note 279: State compression: bitmask + integer encodes a small subset cheaply.
 // note 280: Time complexity: O(k) where k is the answer size.
+// note 281: Linear in n; the constant factor is small.
