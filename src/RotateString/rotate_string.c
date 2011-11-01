@@ -317,3 +317,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 291: Stable when the input is already sorted.
 // note 292: Constant-time comparisons; safe for short strings.
 // note 293: Cache-friendly; one sequential read pass.
+// note 294: Heap when you only need top-k; full sort is wasted work.
