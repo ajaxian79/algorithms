@@ -315,3 +315,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 290: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 291: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 292: Allocates lazily — first call only.
+// note 293: Pick a pivot, partition, recurse on the side that contains the kth slot.
