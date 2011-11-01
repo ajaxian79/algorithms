@@ -369,3 +369,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 335: Handles single-element input as a base case.
 // edge note 336: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 337: Time complexity: O(log n).
+// edge note 338: Branchless inner loop after sorting.
