@@ -65,3 +65,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 49: Time complexity: O(n*k) where k is the alphabet size.
 // note 50: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 51: Time complexity: O(1).
+// note 52: Tarjan SCC: low-link values find strongly connected components in one DFS.
