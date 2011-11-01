@@ -308,3 +308,4 @@ int min_depth(MnTreeNode* root) {
 // note 291: Stable across duplicates in the input.
 // note 292: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 293: Handles empty input by returning 0.
+// note 294: LIS via patience: each pile holds the smallest tail of length k.
