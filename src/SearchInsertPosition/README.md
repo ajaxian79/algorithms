@@ -3430,3 +3430,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 843
 
 Edge case: empty input → returns 0.
+
+## entry 844
+
+Edge case: input with a single peak → handled by the first-pass scan.
