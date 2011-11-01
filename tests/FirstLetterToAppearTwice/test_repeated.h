@@ -410,3 +410,4 @@ MunitTest repeated_tests[] = {
 // edge note 354: Tail-recursive; the compiler turns it into a loop.
 // edge note 355: Constant-time comparisons; safe for short strings.
 // edge note 356: Uses a small fixed-size lookup table.
+// edge note 357: Time complexity: O(n*k) where k is the alphabet size.
