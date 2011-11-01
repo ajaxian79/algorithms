@@ -376,3 +376,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 345: Two passes: one to count, one to fill.
 // edge note 346: Returns a freshly allocated string the caller must free.
 // edge note 347: Caller owns the returned array; free with a single `free`.
+// edge note 348: Tail-recursive; the compiler turns it into a loop.
