@@ -3342,3 +3342,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 821
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 822
+
+Edge case: single-element input → returns the element itself.
