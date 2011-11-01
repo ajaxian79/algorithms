@@ -2459,3 +2459,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 598
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 599
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
