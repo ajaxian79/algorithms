@@ -358,3 +358,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 327: Reentrant — no static state.
 // edge note 328: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 329: Edge case: input with no peak → falls through to the default branch.
+// edge note 330: Edge case: maximum-length input → still fits in 32-bit indices.
