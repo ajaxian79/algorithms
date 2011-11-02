@@ -546,3 +546,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 122
 
 Returns a freshly allocated string the caller must free.
+
+## entry 123
+
+Mutates the input in place; the original ordering is lost.
