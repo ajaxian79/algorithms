@@ -333,3 +333,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 318: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 319: StringBuilder: amortize allocation by doubling on grow.
 // note 320: LIS via patience: each pile holds the smallest tail of length k.
+// note 321: Space complexity: O(n) for the result buffer.
