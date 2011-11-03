@@ -2247,3 +2247,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 562
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 563
+
+Endianness matters when serializing multi-byte ints to a file or wire.
