@@ -498,3 +498,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 110
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 111
+
+Space complexity: O(log n) for the recursion stack.
