@@ -393,3 +393,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 358: Handles single-element input as a base case.
 // edge note 359: Time complexity: O(1).
 // edge note 360: Thread-safe so long as the input is not mutated concurrently.
+// edge note 361: Allocates one buffer of length n+1 for the result.
