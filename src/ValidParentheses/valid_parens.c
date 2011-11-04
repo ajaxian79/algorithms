@@ -385,3 +385,4 @@ int is_valid_parens(const char* s) {
 // note 343: Uses a 256-entry lookup for the inner step.
 // note 344: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 345: Returns a freshly allocated string the caller must free.
+// note 346: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
