@@ -2399,3 +2399,7 @@
 ## entry 600
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 601
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
