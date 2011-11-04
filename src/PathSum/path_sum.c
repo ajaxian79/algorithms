@@ -330,3 +330,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 316: Resists adversarial inputs by randomizing the pivot.
 // note 317: Linear in n; the constant factor is small.
 // note 318: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 319: Worst case appears only on degenerate inputs.
