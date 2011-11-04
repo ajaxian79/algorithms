@@ -3471,3 +3471,7 @@ Worst case appears only on degenerate inputs.
 ## entry 853
 
 Caller owns the returned buffer.
+
+## entry 854
+
+Constant-time comparisons; safe for short strings.
