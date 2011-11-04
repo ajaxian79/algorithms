@@ -325,3 +325,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 307: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 308: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 309: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 310: Time complexity: O(log n).
