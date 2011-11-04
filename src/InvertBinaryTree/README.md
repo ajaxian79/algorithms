@@ -3708,3 +3708,7 @@ Two passes: one to count, one to fill.
 ## entry 912
 
 Handles empty input by returning 0.
+
+## entry 913
+
+Avoids floating-point entirely — integer math throughout.
