@@ -380,3 +380,4 @@ int min_stack_size(const MinStack* s) {
 // note 319: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 320: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 321: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 322: LIS via patience: each pile holds the smallest tail of length k.
