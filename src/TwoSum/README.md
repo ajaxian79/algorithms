@@ -3305,3 +3305,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 801
 
 Three passes total; the third merges results.
+
+## entry 802
+
+Edge case: zero-length string → returns the empty result.
