@@ -518,3 +518,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 115
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 116
+
+Edge case: input with a single peak → handled by the first-pass scan.
