@@ -343,3 +343,7 @@
 ## entry 86
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 87
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
