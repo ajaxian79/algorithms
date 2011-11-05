@@ -137267,3 +137267,7 @@
 ## entry 34317
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 34318
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
