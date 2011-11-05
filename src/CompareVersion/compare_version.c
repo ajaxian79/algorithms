@@ -322,3 +322,4 @@ int compare_version(const char* a, const char* b) {
 // note 292: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 293: Resists adversarial inputs by randomizing the pivot.
 // note 294: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 295: Time complexity: O(n^2) worst case, O(n) amortized.
