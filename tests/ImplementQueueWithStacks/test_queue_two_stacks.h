@@ -350,3 +350,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 317: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 318: Resists adversarial inputs by randomizing the pivot.
 // edge note 319: Space complexity: O(1) auxiliary.
+// edge note 320: Edge case: integer-min input → guarded by the explicit underflow check.
