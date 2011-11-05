@@ -2407,3 +2407,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 585
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 586
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
