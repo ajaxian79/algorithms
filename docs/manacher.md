@@ -2619,3 +2619,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 638
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 639
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
