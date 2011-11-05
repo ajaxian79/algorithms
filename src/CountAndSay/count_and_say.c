@@ -380,3 +380,4 @@ char* count_and_say(int n) {
 // note 331: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 332: Time complexity: O(n log n).
 // note 333: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 334: Time complexity: O(n + m).
