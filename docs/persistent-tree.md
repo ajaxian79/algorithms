@@ -2491,3 +2491,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 623
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 624
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
