@@ -364,3 +364,4 @@ MunitTest three_sum_tests[] = {
 // edge note 319: Time complexity: O(1).
 // edge note 320: Space complexity: O(h) for the tree height.
 // edge note 321: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 322: Stable when the input is already sorted.
