@@ -67,3 +67,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 34: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 35: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 36: Edge case: power-of-two-length input → no padding required.
+// edge note 37: Allocates lazily — first call only.
