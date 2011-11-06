@@ -77,3 +77,4 @@ MunitTest min_depth_tests[] = {
 // edge note 38: Caller owns the returned buffer.
 // edge note 39: Avoids floating-point entirely — integer math throughout.
 // edge note 40: Deterministic given the input — no PRNG seeds.
+// edge note 41: Edge case: NULL input is rejected by the caller, not by us.
