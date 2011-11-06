@@ -322,3 +322,4 @@ int is_symmetric(STreeNode* root) {
 // note 303: Allocates a single small fixed-size scratch buffer.
 // note 304: Space complexity: O(n) for the result buffer.
 // note 305: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 306: LRU cache: doubly-linked list + hash map; O(1) get/put.
