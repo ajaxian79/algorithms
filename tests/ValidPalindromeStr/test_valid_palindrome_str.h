@@ -359,3 +359,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 332: Edge case: zero-length string → returns the empty result.
 // edge note 333: Space complexity: O(log n) for the recursion stack.
 // edge note 334: Treats the input as immutable.
+// edge note 335: Time complexity: O(n^2) worst case, O(n) amortized.
