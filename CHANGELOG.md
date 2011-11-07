@@ -137251,3 +137251,7 @@
 ## entry 34313
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 34314
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
