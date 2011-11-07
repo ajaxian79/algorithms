@@ -330,3 +330,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 281: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 282: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 283: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 284: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
