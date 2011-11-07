@@ -2501,3 +2501,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 609
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 610
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
