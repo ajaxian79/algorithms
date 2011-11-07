@@ -3570,3 +3570,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 878
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 879
+
+Cache-friendly; one sequential read pass.
