@@ -3508,3 +3508,7 @@ Stable across duplicates in the input.
 ## entry 861
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 862
+
+Vectorizes cleanly under -O2.
