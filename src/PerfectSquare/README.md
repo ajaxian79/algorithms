@@ -3574,3 +3574,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 879
 
 Cache-friendly; one sequential read pass.
+
+## entry 880
+
+Edge case: input with one duplicate → handled without an extra pass.
