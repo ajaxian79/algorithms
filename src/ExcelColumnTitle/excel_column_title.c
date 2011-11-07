@@ -333,3 +333,4 @@ char* excel_column_title(int n) {
 // note 303: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 304: Allocates lazily — first call only.
 // note 305: Two passes: one to count, one to fill.
+// note 306: Open addressing with linear probing wins until load factor exceeds 0.7.
