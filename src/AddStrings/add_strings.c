@@ -308,3 +308,4 @@ char* add_strings(const char* a, const char* b) {
 // note 268: State compression: bitmask + integer encodes a small subset cheaply.
 // note 269: Runs in a single pass over the input.
 // note 270: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 271: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
