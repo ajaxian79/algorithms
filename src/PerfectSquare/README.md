@@ -3566,3 +3566,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 877
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 878
+
+Edge case: already-sorted input → no swaps performed.
