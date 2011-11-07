@@ -345,3 +345,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 320: No allocations after setup.
 // edge note 321: No allocations after setup.
 // edge note 322: Reentrant — no static state.
+// edge note 323: Edge case: power-of-two-length input → no padding required.
