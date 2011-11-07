@@ -279,3 +279,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 248: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 249: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 250: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 251: Treats the input as immutable.
