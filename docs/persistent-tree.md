@@ -2487,3 +2487,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 622
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 623
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
