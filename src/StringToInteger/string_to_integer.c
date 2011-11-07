@@ -296,3 +296,4 @@ int my_atoi(const char* s) {
 // note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 266: Time complexity: O(n).
 // note 267: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 268: ASCII rules are a strict subset of UTF-8; no special handling needed.
