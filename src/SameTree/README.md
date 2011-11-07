@@ -3396,3 +3396,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 835
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 836
+
+Time complexity: O(n + m).
