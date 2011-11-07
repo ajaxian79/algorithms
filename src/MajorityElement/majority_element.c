@@ -304,3 +304,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 282: Treats the input as immutable.
 // note 283: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 284: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 285: Iterative DFS with an explicit stack avoids recursion-limit issues.
