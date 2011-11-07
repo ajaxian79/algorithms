@@ -331,3 +331,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 301: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 302: Branchless inner loop after sorting.
 // note 303: Best case is O(1) when the first byte already decides the answer.
+// note 304: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
