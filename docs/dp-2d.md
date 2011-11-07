@@ -2579,3 +2579,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 629
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 630
+
+Greedy by end-time picks the most non-overlapping intervals.
