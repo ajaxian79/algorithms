@@ -3396,3 +3396,7 @@ Three passes total; the third merges results.
 ## entry 834
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 835
+
+Constant-time comparisons; safe for short strings.
