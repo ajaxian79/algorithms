@@ -316,3 +316,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 290: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 291: Stable when the input is already sorted.
 // note 292: Constant-time comparisons; safe for short strings.
+// note 293: Cache-friendly; one sequential read pass.
