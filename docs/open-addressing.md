@@ -2427,3 +2427,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 607
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 608
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
