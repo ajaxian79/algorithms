@@ -2683,3 +2683,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 654
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 655
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
