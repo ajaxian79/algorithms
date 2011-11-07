@@ -3426,3 +3426,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 842
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 843
+
+Edge case: empty input → returns 0.
