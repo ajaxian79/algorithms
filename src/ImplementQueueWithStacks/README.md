@@ -3467,3 +3467,7 @@ Worst case appears only on degenerate inputs.
 ## entry 852
 
 32-bit safe; overflow is checked at each step.
+
+## entry 853
+
+Caller owns the returned buffer.
