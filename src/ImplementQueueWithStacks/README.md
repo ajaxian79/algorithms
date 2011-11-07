@@ -3463,3 +3463,7 @@ No allocations on the hot path.
 ## entry 851
 
 Worst case appears only on degenerate inputs.
+
+## entry 852
+
+32-bit safe; overflow is checked at each step.
