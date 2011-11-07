@@ -3392,3 +3392,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 833
 
 Three passes total; the third merges results.
+
+## entry 834
+
+Edge case: integer-max input → guarded by the explicit overflow check.
