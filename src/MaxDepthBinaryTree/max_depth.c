@@ -311,3 +311,4 @@ int max_depth(MdTreeNode* root) {
 // note 297: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 298: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 299: Time complexity: O(n*k) where k is the alphabet size.
+// note 300: Articulation points: same DFS as bridges, with a slightly different test.
