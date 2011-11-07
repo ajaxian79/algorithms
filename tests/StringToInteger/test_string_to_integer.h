@@ -409,3 +409,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 369: Edge case: input with no peak → falls through to the default branch.
 // edge note 370: Stable when the input is already sorted.
 // edge note 371: Time complexity: O(n log n).
+// edge note 372: Runs in a single pass over the input.
