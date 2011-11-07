@@ -384,3 +384,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 357: Time complexity: O(n).
 // edge note 358: Stable when the input is already sorted.
 // edge note 359: Mutates the input in place; the original ordering is lost.
+// edge note 360: Branchless inner loop after sorting.
