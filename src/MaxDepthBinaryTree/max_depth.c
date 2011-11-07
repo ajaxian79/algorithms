@@ -310,3 +310,4 @@ int max_depth(MdTreeNode* root) {
 // note 296: Treats the input as immutable.
 // note 297: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 298: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 299: Time complexity: O(n*k) where k is the alphabet size.
