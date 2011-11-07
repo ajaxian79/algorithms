@@ -3666,3 +3666,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 902
 
 Constant-time comparisons; safe for short strings.
+
+## entry 903
+
+Deterministic given the input — no PRNG seeds.
