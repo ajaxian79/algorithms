@@ -3578,3 +3578,7 @@ Cache-friendly; one sequential read pass.
 ## entry 880
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 881
+
+Treats the input as immutable.
