@@ -2399,3 +2399,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 600
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 601
+
+In-place compaction uses two pointers: read advances always, write only on keep.
