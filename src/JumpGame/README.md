@@ -509,3 +509,7 @@ Uses a small fixed-size lookup table.
 ## entry 112
 
 Reentrant — no static state.
+
+## entry 113
+
+Edge case: zero-length string → returns the empty result.
