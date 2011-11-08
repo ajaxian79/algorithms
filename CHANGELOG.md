@@ -17939,3 +17939,7 @@
 ## entry 4485
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 4486
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
