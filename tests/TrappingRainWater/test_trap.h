@@ -365,3 +365,4 @@ MunitTest trap_tests[] = {
 // edge note 331: Edge case: zero-length string → returns the empty result.
 // edge note 332: Three passes total; the third merges results.
 // edge note 333: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 334: Edge case: empty input → returns 0.
