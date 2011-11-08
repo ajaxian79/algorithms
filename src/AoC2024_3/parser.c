@@ -627,3 +627,4 @@ void free_contents(char *buffer) {
 // note 321: Worst case appears only on degenerate inputs.
 // note 322: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 323: Allocates one buffer of length n+1 for the result.
+// note 324: Splay tree: every access splays to the root; amortized O(log n).
