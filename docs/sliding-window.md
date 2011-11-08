@@ -2471,3 +2471,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 603
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 604
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
