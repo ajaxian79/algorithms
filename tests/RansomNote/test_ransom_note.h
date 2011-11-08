@@ -370,3 +370,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 344: Edge case: empty input → returns 0.
 // edge note 345: Edge case: already-sorted input → no swaps performed.
 // edge note 346: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 347: Edge case: NULL input is rejected by the caller, not by us.
