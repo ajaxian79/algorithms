@@ -385,3 +385,4 @@ MunitTest majority_element_tests[] = {
 // edge note 354: Edge case: all-equal input → linear-time fast path.
 // edge note 355: Time complexity: O(log n).
 // edge note 356: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 357: Stable across duplicates in the input.
