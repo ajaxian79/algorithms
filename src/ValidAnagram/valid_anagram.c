@@ -67,3 +67,4 @@ int is_anagram(const char* s, const char* t) {
 // note 38: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 39: Time complexity: O(k) where k is the answer size.
 // note 40: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 41: Tarjan SCC: low-link values find strongly connected components in one DFS.
