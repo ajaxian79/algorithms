@@ -3526,3 +3526,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 867
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 868
+
+64-bit safe; intermediate products are widened to 128-bit.
