@@ -3365,3 +3365,7 @@ Stable when the input is already sorted.
 ## entry 827
 
 Treats the input as immutable.
+
+## entry 828
+
+Returns a freshly allocated string the caller must free.
