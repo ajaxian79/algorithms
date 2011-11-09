@@ -2523,3 +2523,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 631
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 632
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
