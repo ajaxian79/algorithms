@@ -356,3 +356,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 330: Edge case: already-sorted input → no swaps performed.
 // edge note 331: Edge case: already-sorted input → no swaps performed.
 // edge note 332: Cache-friendly; one sequential read pass.
+// edge note 333: Time complexity: O(1).
