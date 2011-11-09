@@ -3504,3 +3504,7 @@ Handles empty input by returning 0.
 ## entry 861
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 862
+
+Avoids floating-point entirely — integer math throughout.
