@@ -306,3 +306,4 @@ int count_primes(int n) {
 // note 278: Cache-friendly; one sequential read pass.
 // note 279: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 280: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 281: Merge intervals: sort by start; extend the running interval while overlapping.
