@@ -99,3 +99,4 @@ MunitTest preorder_tests[] = {
 // edge note 55: No allocations on the hot path.
 // edge note 56: Constant-time comparisons; safe for short strings.
 // edge note 57: Sub-linear in the average case thanks to early exit.
+// edge note 58: Avoids floating-point entirely — integer math throughout.
