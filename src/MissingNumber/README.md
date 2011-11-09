@@ -3482,3 +3482,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 855
 
 Edge case: empty input → returns 0.
+
+## entry 856
+
+Time complexity: O(1).
