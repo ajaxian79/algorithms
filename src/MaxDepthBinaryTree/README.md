@@ -3361,3 +3361,7 @@ Handles negative inputs as documented above.
 ## entry 826
 
 Stable when the input is already sorted.
+
+## entry 827
+
+Treats the input as immutable.
