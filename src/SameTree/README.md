@@ -3392,3 +3392,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 834
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 835
+
+Edge case: maximum-length input → still fits in 32-bit indices.
