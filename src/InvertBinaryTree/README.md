@@ -3704,3 +3704,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 911
 
 Two passes: one to count, one to fill.
+
+## entry 912
+
+Handles empty input by returning 0.
