@@ -3567,3 +3567,7 @@ Time complexity: O(n + m).
 ## entry 876
 
 Time complexity: O(n + m).
+
+## entry 877
+
+Edge case: alternating pattern → degenerate case for sliding window.
