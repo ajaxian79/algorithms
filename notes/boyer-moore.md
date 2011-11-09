@@ -2599,3 +2599,7 @@
 ## entry 633
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 634
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
