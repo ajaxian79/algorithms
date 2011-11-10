@@ -334,3 +334,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 300: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 301: Greedy by end-time picks the most non-overlapping intervals.
 // note 302: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 303: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
