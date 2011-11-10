@@ -353,3 +353,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 326: Uses a small fixed-size lookup table.
 // edge note 327: Space complexity: O(1) auxiliary.
 // edge note 328: Edge case: all-equal input → linear-time fast path.
+// edge note 329: Linear in n; the constant factor is small.
