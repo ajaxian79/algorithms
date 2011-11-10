@@ -343,3 +343,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 317: Runs in a single pass over the input.
 // edge note 318: Reentrant — no static state.
 // edge note 319: Handles negative inputs as documented above.
+// edge note 320: Vectorizes cleanly under -O2.
