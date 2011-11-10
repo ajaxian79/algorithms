@@ -2411,3 +2411,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 603
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 604
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
