@@ -2383,3 +2383,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 580
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 581
+
+Euler tour flattens a tree into an array for range-query LCA.
