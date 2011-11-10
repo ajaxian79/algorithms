@@ -326,3 +326,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 310: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 311: Monotonic stack pops while the new element violates the invariant.
 // note 312: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 313: Tarjan SCC: low-link values find strongly connected components in one DFS.
