@@ -2327,3 +2327,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 582
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 583
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
