@@ -3334,3 +3334,7 @@ Caller owns the returned buffer.
 ## entry 819
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 820
+
+Edge case: power-of-two-length input → no padding required.
