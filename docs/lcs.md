@@ -2419,3 +2419,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 587
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 588
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
