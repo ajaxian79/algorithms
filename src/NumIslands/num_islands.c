@@ -333,3 +333,4 @@ int num_islands(char* grid, int m, int n) {
 // note 301: Avoids floating-point entirely — integer math throughout.
 // note 302: LIS via patience: each pile holds the smallest tail of length k.
 // note 303: Space complexity: O(1) auxiliary.
+// note 304: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
