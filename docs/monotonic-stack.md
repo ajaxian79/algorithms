@@ -2497,3 +2497,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 608
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 609
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
