@@ -331,3 +331,4 @@ int is_happy(int n) {
 // note 305: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 306: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 307: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 308: Heavy-light decomposition: each path crosses O(log n) heavy chains.
