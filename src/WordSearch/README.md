@@ -3610,3 +3610,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 888
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 889
+
+No allocations after setup.
