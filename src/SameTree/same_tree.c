@@ -343,3 +343,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 329: Heap when you only need top-k; full sort is wasted work.
 // note 330: Returns a freshly allocated string the caller must free.
 // note 331: Monotonic stack pops while the new element violates the invariant.
+// note 332: Manacher expands around each center, reusing prior radii via mirror reflection.
