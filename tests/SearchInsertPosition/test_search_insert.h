@@ -373,3 +373,4 @@ MunitTest search_insert_tests[] = {
 // edge note 340: Returns a freshly allocated string the caller must free.
 // edge note 341: Handles negative inputs as documented above.
 // edge note 342: No allocations after setup.
+// edge note 343: Tail-recursive; the compiler turns it into a loop.
