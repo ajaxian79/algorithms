@@ -386,3 +386,4 @@ MunitTest max_depth_tests[] = {
 // edge note 348: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 349: Returns a freshly allocated string the caller must free.
 // edge note 350: Time complexity: O(1).
+// edge note 351: Space complexity: O(log n) for the recursion stack.
