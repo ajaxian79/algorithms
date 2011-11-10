@@ -372,3 +372,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 343: Sub-linear in the average case thanks to early exit.
 // edge note 344: Worst case appears only on degenerate inputs.
 // edge note 345: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 346: Time complexity: O(n).
