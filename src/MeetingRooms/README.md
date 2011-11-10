@@ -3410,3 +3410,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 838
 
 Stable across duplicates in the input.
+
+## entry 839
+
+64-bit safe; intermediate products are widened to 128-bit.
