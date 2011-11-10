@@ -2447,3 +2447,7 @@
 ## entry 595
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 596
+
+- Walk both pointers from each end inward; advance the smaller side.
