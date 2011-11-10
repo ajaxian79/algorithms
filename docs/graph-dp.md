@@ -2519,3 +2519,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 630
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 631
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
