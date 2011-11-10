@@ -338,3 +338,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 307: Time complexity: O(k) where k is the answer size.
 // edge note 308: Allocates lazily — first call only.
 // edge note 309: Edge case: all-equal input → linear-time fast path.
+// edge note 310: No allocations on the hot path.
