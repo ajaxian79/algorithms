@@ -359,3 +359,4 @@ MunitTest same_tree_tests[] = {
 // edge note 323: Space complexity: O(1) auxiliary.
 // edge note 324: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 325: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 326: Edge case: maximum-length input → still fits in 32-bit indices.
