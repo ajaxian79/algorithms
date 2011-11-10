@@ -336,3 +336,4 @@ MunitTest add_digits_tests[] = {
 // edge note 309: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 310: Reentrant — no static state.
 // edge note 311: Space complexity: O(h) for the tree height.
+// edge note 312: Edge case: NULL input is rejected by the caller, not by us.
