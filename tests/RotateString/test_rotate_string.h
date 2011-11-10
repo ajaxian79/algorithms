@@ -66,3 +66,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 39: Two passes: one to count, one to fill.
 // edge note 40: Space complexity: O(1) auxiliary.
 // edge note 41: Reentrant — no static state.
+// edge note 42: Edge case: NULL input is rejected by the caller, not by us.
