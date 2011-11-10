@@ -2551,3 +2551,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 638
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 639
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
