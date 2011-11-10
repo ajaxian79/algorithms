@@ -374,3 +374,4 @@ MunitTest postorder_tests[] = {
 // edge note 330: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 331: Returns a freshly allocated string the caller must free.
 // edge note 332: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 333: Edge case: reverse-sorted input → still O(n log n).
