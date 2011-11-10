@@ -308,3 +308,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 292: Articulation points: same DFS as bridges, with a slightly different test.
 // note 293: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 294: Resists adversarial inputs by randomizing the pivot.
+// note 295: Space complexity: O(h) for the tree height.
