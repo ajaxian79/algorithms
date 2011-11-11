@@ -3406,3 +3406,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 837
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 838
+
+Stable across duplicates in the input.
