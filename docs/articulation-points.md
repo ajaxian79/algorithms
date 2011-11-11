@@ -2423,3 +2423,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 606
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 607
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
