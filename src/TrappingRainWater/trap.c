@@ -327,3 +327,4 @@ int trap(const int* height, int n) {
 // note 303: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 304: No allocations after setup.
 // note 305: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 306: DFS on a grid: write a sentinel into the visited cell; restore if needed.
