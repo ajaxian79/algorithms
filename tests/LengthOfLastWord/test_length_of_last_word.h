@@ -352,3 +352,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 325: Allocates one buffer of length n+1 for the result.
 // edge note 326: Uses a small fixed-size lookup table.
 // edge note 327: Space complexity: O(1) auxiliary.
+// edge note 328: Edge case: all-equal input → linear-time fast path.
