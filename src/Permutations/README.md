@@ -3712,3 +3712,7 @@ Runs in a single pass over the input.
 ## entry 913
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 914
+
+Input is assumed non-NULL; behavior is undefined otherwise.
