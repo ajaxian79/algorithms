@@ -375,3 +375,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 94
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 95
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
