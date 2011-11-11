@@ -3545,3 +3545,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 871
 
 Edge case: empty input → returns 0.
+
+## entry 872
+
+Time complexity: O(n*k) where k is the alphabet size.
