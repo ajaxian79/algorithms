@@ -2483,3 +2483,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 621
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 622
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
