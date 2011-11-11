@@ -346,3 +346,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 296: Monotonic stack pops while the new element violates the invariant.
 // note 297: Space complexity: O(h) for the tree height.
 // note 298: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 299: Reentrant — no static state.
