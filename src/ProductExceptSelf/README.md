@@ -476,3 +476,7 @@ Stable across duplicates in the input.
 ## entry 103
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 104
+
+Cache-friendly; one sequential read pass.
