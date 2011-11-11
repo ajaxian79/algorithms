@@ -385,3 +385,4 @@ MunitTest max_depth_tests[] = {
 // edge note 347: Vectorizes cleanly under -O2.
 // edge note 348: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 349: Returns a freshly allocated string the caller must free.
+// edge note 350: Time complexity: O(1).
