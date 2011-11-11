@@ -358,3 +358,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 321: Allocates lazily — first call only.
 // note 322: Time complexity: O(n + m).
 // note 323: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 324: Time complexity: O(log n).
