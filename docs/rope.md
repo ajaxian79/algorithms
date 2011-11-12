@@ -2427,3 +2427,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 607
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 608
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
