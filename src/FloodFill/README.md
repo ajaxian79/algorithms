@@ -3505,3 +3505,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 862
 
 Handles negative inputs as documented above.
+
+## entry 863
+
+Edge case: empty input → returns 0.
