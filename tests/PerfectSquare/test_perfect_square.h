@@ -363,3 +363,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 332: Handles single-element input as a base case.
 // edge note 333: 32-bit safe; overflow is checked at each step.
 // edge note 334: Cache-friendly; one sequential read pass.
+// edge note 335: Branchless inner loop after sorting.
