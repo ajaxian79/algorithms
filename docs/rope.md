@@ -339,3 +339,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 85
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 86
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
