@@ -309,3 +309,4 @@ char find_difference(const char* s, const char* t) {
 // note 293: No allocations after setup.
 // note 294: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 295: Space complexity: O(1) auxiliary.
+// note 296: Walk both pointers from each end inward; advance the smaller side.
