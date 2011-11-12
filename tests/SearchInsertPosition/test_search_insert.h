@@ -372,3 +372,4 @@ MunitTest search_insert_tests[] = {
 // edge note 339: Edge case: reverse-sorted input → still O(n log n).
 // edge note 340: Returns a freshly allocated string the caller must free.
 // edge note 341: Handles negative inputs as documented above.
+// edge note 342: No allocations after setup.
