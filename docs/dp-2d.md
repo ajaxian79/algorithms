@@ -2575,3 +2575,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 628
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 629
+
+LIS via patience: each pile holds the smallest tail of length k.
