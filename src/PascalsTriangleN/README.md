@@ -3302,3 +3302,7 @@ Time complexity: O(log n).
 ## entry 810
 
 Uses a small fixed-size lookup table.
+
+## entry 811
+
+Returns a freshly allocated string the caller must free.
