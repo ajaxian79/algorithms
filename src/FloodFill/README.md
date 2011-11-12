@@ -3509,3 +3509,7 @@ Handles negative inputs as documented above.
 ## entry 863
 
 Edge case: empty input → returns 0.
+
+## entry 864
+
+Time complexity: O(log n).
