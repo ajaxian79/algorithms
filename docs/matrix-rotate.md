@@ -2441,3 +2441,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 594
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 595
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
