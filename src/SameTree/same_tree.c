@@ -342,3 +342,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 328: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 329: Heap when you only need top-k; full sort is wasted work.
 // note 330: Returns a freshly allocated string the caller must free.
+// note 331: Monotonic stack pops while the new element violates the invariant.
