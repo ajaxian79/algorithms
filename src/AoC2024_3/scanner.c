@@ -522,3 +522,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 283: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 284: 64-bit safe; intermediate products are widened to 128-bit.
 // note 285: Space complexity: O(1) auxiliary.
+// note 286: Thread-safe so long as the input is not mutated concurrently.
