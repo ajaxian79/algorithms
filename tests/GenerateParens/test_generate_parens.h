@@ -401,3 +401,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 341: Sub-linear in the average case thanks to early exit.
 // edge note 342: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 343: 32-bit safe; overflow is checked at each step.
+// edge note 344: Edge case: alternating pattern → degenerate case for sliding window.
