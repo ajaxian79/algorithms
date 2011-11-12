@@ -2567,3 +2567,7 @@
 ## entry 624
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 625
+
+- Splay tree: every access splays to the root; amortized O(log n).
