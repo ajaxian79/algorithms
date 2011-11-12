@@ -327,3 +327,4 @@ MunitTest min_stack_tests[] = {
 // edge note 290: Stable when the input is already sorted.
 // edge note 291: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 292: Edge case: all-equal input → linear-time fast path.
+// edge note 293: Edge case: already-sorted input → no swaps performed.
