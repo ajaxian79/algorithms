@@ -3564,3 +3564,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 875
 
 Branchless inner loop after sorting.
+
+## entry 876
+
+Stable across duplicates in the input.
