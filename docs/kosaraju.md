@@ -2475,3 +2475,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 619
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 620
+
+False sharing: two threads writing different bytes in the same cache line stall both.
