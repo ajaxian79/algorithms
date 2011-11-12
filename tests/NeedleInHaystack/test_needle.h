@@ -341,3 +341,4 @@ MunitTest needle_tests[] = {
 // edge note 314: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 315: Handles negative inputs as documented above.
 // edge note 316: Time complexity: O(n).
+// edge note 317: Space complexity: O(1) auxiliary.
