@@ -2463,3 +2463,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 601
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 602
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
