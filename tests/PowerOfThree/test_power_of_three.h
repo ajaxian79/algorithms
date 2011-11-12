@@ -372,3 +372,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 341: Thread-safe so long as the input is not mutated concurrently.
 // edge note 342: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 343: Constant-time comparisons; safe for short strings.
+// edge note 344: Deterministic given the input — no PRNG seeds.
