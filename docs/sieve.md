@@ -2615,3 +2615,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 637
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 638
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
