@@ -2399,3 +2399,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 600
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 601
+
+Euler tour flattens a tree into an array for range-query LCA.
