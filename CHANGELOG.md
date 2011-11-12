@@ -137119,3 +137119,7 @@
 ## entry 34280
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 34281
+
+- Stable sort matters when a secondary key was set in a prior pass.
