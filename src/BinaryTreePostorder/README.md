@@ -562,3 +562,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 126
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 127
+
+Handles empty input by returning 0.
