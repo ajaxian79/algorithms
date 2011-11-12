@@ -2511,3 +2511,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 628
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 629
+
+In-place compaction uses two pointers: read advances always, write only on keep.
