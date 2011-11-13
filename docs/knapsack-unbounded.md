@@ -2555,3 +2555,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 623
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 624
+
+Union-Find with path compression amortizes to near-O(1) per op.
