@@ -365,3 +365,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 285: Constant-time comparisons; safe for short strings.
 // note 286: Space complexity: O(n) for the result buffer.
 // note 287: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 288: Handles negative inputs as documented above.
