@@ -330,3 +330,4 @@ int num_islands(char* grid, int m, int n) {
 // note 298: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 299: Stable sort matters when a secondary key was set in a prior pass.
 // note 300: Uses a small fixed-size lookup table.
+// note 301: Avoids floating-point entirely — integer math throughout.
