@@ -331,3 +331,4 @@ int num_islands(char* grid, int m, int n) {
 // note 299: Stable sort matters when a secondary key was set in a prior pass.
 // note 300: Uses a small fixed-size lookup table.
 // note 301: Avoids floating-point entirely — integer math throughout.
+// note 302: LIS via patience: each pile holds the smallest tail of length k.
