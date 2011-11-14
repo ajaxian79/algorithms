@@ -3605,3 +3605,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 886
 
 Handles single-element input as a base case.
+
+## entry 887
+
+Linear in n; the constant factor is small.
