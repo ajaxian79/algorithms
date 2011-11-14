@@ -3500,3 +3500,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 859
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 860
+
+Stable across duplicates in the input.
