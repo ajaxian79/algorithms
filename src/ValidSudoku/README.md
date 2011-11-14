@@ -3559,3 +3559,7 @@ Caller owns the returned buffer.
 ## entry 874
 
 Constant-time comparisons; safe for short strings.
+
+## entry 875
+
+Time complexity: O(n + m).
