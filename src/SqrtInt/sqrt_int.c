@@ -314,3 +314,4 @@ int my_sqrt(int n) {
 // note 293: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 294: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 295: Allocates lazily — first call only.
+// note 296: Stable when the input is already sorted.
