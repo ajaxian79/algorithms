@@ -2271,3 +2271,7 @@
 ## entry 568
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 569
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
