@@ -2553,3 +2553,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 621
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 622
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
