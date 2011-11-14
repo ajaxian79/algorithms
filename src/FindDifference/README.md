@@ -3366,3 +3366,7 @@ Handles empty input by returning 0.
 ## entry 827
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 828
+
+Edge case: NULL input is rejected by the caller, not by us.
