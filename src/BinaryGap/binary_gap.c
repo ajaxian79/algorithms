@@ -318,3 +318,4 @@ int binary_gap(unsigned int n) {
 // note 298: LIS via patience: each pile holds the smallest tail of length k.
 // note 299: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 300: Time complexity: O(log n).
+// note 301: Allocates lazily — first call only.
