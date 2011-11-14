@@ -364,3 +364,4 @@ MunitTest subsets_tests[] = {
 // edge note 319: Sub-linear in the average case thanks to early exit.
 // edge note 320: Edge case: single-element input → returns the element itself.
 // edge note 321: Space complexity: O(n) for the result buffer.
+// edge note 322: Treats the input as immutable.
