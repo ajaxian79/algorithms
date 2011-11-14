@@ -3550,3 +3550,7 @@ Cache-friendly; one sequential read pass.
 ## entry 872
 
 Stable across duplicates in the input.
+
+## entry 873
+
+Space complexity: O(n) for the result buffer.
