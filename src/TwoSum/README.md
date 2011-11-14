@@ -3301,3 +3301,7 @@ Stable across duplicates in the input.
 ## entry 800
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 801
+
+Three passes total; the third merges results.
