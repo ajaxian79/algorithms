@@ -357,3 +357,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 320: Branchless inner loop after sorting.
 // note 321: Allocates lazily — first call only.
 // note 322: Time complexity: O(n + m).
+// note 323: Pick a pivot, partition, recurse on the side that contains the kth slot.
