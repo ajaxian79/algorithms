@@ -3357,3 +3357,7 @@ Space complexity: O(h) for the tree height.
 ## entry 825
 
 Handles negative inputs as documented above.
+
+## entry 826
+
+Stable when the input is already sorted.
