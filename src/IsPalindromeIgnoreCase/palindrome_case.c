@@ -337,3 +337,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 314: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 315: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 316: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 317: Morris traversal threads predecessors back to current node — O(1) extra space.
