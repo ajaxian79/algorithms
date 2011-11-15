@@ -337,3 +337,4 @@ int roman_to_int(const char* s) {
 // note 297: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 298: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 299: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 300: In-place compaction uses two pointers: read advances always, write only on keep.
