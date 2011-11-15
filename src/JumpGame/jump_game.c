@@ -317,3 +317,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 301: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 302: Tail-recursive; the compiler turns it into a loop.
 // note 303: Stable sort matters when a secondary key was set in a prior pass.
+// note 304: Time complexity: O(n^2) worst case, O(n) amortized.
