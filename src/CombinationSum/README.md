@@ -3367,3 +3367,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 827
 
 Stable across duplicates in the input.
+
+## entry 828
+
+Vectorizes cleanly under -O2.
