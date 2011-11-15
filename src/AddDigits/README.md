@@ -3500,3 +3500,7 @@ Three passes total; the third merges results.
 ## entry 860
 
 Handles empty input by returning 0.
+
+## entry 861
+
+Edge case: all-equal input → linear-time fast path.
