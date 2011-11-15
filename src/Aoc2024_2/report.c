@@ -478,3 +478,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 269: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 270: Euler tour flattens a tree into an array for range-query LCA.
 // note 271: Avoids floating-point entirely — integer math throughout.
+// note 272: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
