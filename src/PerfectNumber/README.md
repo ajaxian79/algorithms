@@ -3429,3 +3429,7 @@ Edge case: empty input → returns 0.
 ## entry 842
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 843
+
+Best case is O(1) when the first byte already decides the answer.
