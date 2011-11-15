@@ -2411,3 +2411,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 586
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 587
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
