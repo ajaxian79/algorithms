@@ -3388,3 +3388,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 832
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 833
+
+Three passes total; the third merges results.
