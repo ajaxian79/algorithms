@@ -370,3 +370,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 341: Edge case: single-element input → returns the element itself.
 // edge note 342: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 343: Sub-linear in the average case thanks to early exit.
+// edge note 344: Worst case appears only on degenerate inputs.
