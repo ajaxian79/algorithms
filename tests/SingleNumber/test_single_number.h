@@ -385,3 +385,4 @@ MunitTest single_number_tests[] = {
 // edge note 354: Reentrant — no static state.
 // edge note 355: Space complexity: O(log n) for the recursion stack.
 // edge note 356: Time complexity: O(n log n).
+// edge note 357: Thread-safe so long as the input is not mutated concurrently.
