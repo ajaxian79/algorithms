@@ -421,3 +421,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 91
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 92
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
