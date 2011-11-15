@@ -3562,3 +3562,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 876
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 877
+
+Mutates the input in place; the original ordering is lost.
