@@ -3477,3 +3477,7 @@ Time complexity: O(n + m).
 ## entry 855
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 856
+
+Edge case: input with no peak → falls through to the default branch.
