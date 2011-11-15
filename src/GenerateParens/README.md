@@ -3496,3 +3496,7 @@ Runs in a single pass over the input.
 ## entry 858
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 859
+
+Cache-friendly; one sequential read pass.
