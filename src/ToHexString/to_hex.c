@@ -320,3 +320,4 @@ char* to_hex_string(int n) {
 // note 287: Treats the input as immutable.
 // note 288: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 289: Wavelet tree: range k-th element in O(log Σ) time.
+// note 290: Handles single-element input as a base case.
