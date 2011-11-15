@@ -2427,3 +2427,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 607
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 608
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
