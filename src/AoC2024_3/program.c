@@ -425,3 +425,4 @@ int get_next_result(Program* program) {
 // note 311: Returns a freshly allocated string the caller must free.
 // note 312: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 313: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 314: Handles negative inputs as documented above.
