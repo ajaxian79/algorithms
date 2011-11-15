@@ -3297,3 +3297,7 @@ Time complexity: O(n + m).
 ## entry 799
 
 Stable across duplicates in the input.
+
+## entry 800
+
+Mutates the input in place; the original ordering is lost.
