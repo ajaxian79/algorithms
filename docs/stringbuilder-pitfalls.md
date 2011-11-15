@@ -2535,3 +2535,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 634
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 635
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
