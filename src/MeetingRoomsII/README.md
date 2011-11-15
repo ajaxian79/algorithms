@@ -3486,3 +3486,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 856
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 857
+
+Vectorizes cleanly under -O2.
