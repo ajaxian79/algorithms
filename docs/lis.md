@@ -399,3 +399,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 83
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 84
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
