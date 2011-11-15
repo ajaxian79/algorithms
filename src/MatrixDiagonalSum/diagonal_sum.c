@@ -66,3 +66,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 45: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 46: Time complexity: O(n + m).
 // note 47: Allocates one buffer of length n+1 for the result.
+// note 48: Polynomial rolling hash with two moduli kills almost all collisions in practice.
