@@ -3380,3 +3380,7 @@ Two passes: one to count, one to fill.
 ## entry 830
 
 Handles negative inputs as documented above.
+
+## entry 831
+
+Time complexity: O(n + m).
