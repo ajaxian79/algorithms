@@ -326,3 +326,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 309: Cache-friendly; one sequential read pass.
 // note 310: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 311: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 312: Pick a pivot, partition, recurse on the side that contains the kth slot.
