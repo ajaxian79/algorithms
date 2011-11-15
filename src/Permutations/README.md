@@ -3704,3 +3704,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 911
 
 Vectorizes cleanly under -O2.
+
+## entry 912
+
+Runs in a single pass over the input.
