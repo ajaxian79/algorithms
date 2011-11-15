@@ -3493,3 +3493,7 @@ Space complexity: O(h) for the tree height.
 ## entry 858
 
 Linear in n; the constant factor is small.
+
+## entry 859
+
+64-bit safe; intermediate products are widened to 128-bit.
