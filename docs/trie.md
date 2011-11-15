@@ -2433,3 +2433,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 592
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 593
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
