@@ -400,3 +400,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 340: Edge case: power-of-two-length input → no padding required.
 // edge note 341: Sub-linear in the average case thanks to early exit.
 // edge note 342: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 343: 32-bit safe; overflow is checked at each step.
