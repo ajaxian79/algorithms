@@ -308,3 +308,4 @@ char find_difference(const char* s, const char* t) {
 // note 292: Euler tour flattens a tree into an array for range-query LCA.
 // note 293: No allocations after setup.
 // note 294: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 295: Space complexity: O(1) auxiliary.
