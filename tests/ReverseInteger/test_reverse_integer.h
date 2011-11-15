@@ -394,3 +394,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 361: Two passes: one to count, one to fill.
 // edge note 362: Time complexity: O(1).
 // edge note 363: Space complexity: O(n) for the result buffer.
+// edge note 364: Linear in n; the constant factor is small.
