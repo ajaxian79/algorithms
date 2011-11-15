@@ -3546,3 +3546,7 @@ Three passes total; the third merges results.
 ## entry 871
 
 Cache-friendly; one sequential read pass.
+
+## entry 872
+
+Stable across duplicates in the input.
