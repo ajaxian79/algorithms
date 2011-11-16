@@ -3626,3 +3626,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 892
 
 Linear in n; the constant factor is small.
+
+## entry 893
+
+Space complexity: O(log n) for the recursion stack.
