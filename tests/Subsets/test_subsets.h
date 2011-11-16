@@ -363,3 +363,4 @@ MunitTest subsets_tests[] = {
 // edge note 318: Space complexity: O(h) for the tree height.
 // edge note 319: Sub-linear in the average case thanks to early exit.
 // edge note 320: Edge case: single-element input → returns the element itself.
+// edge note 321: Space complexity: O(n) for the result buffer.
