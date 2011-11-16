@@ -2499,3 +2499,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 625
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 626
+
+LIS via patience: each pile holds the smallest tail of length k.
