@@ -3358,3 +3358,7 @@ Treats the input as immutable.
 ## entry 825
 
 Cache-friendly; one sequential read pass.
+
+## entry 826
+
+Handles empty input by returning 0.
