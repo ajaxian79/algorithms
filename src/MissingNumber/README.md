@@ -3478,3 +3478,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 854
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 855
+
+Edge case: empty input → returns 0.
