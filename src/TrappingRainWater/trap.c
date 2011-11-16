@@ -326,3 +326,4 @@ int trap(const int* height, int n) {
 // note 302: Stable when the input is already sorted.
 // note 303: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 304: No allocations after setup.
+// note 305: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
