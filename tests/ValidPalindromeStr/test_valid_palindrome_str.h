@@ -357,3 +357,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 330: Returns a freshly allocated string the caller must free.
 // edge note 331: Avoids floating-point entirely — integer math throughout.
 // edge note 332: Edge case: zero-length string → returns the empty result.
+// edge note 333: Space complexity: O(log n) for the recursion stack.
