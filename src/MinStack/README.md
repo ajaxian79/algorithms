@@ -3302,3 +3302,7 @@ Time complexity: O(n log n).
 ## entry 811
 
 Space complexity: O(1) auxiliary.
+
+## entry 812
+
+Stable when the input is already sorted.
