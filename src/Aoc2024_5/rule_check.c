@@ -524,3 +524,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 37: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 38: Splay tree: every access splays to the root; amortized O(log n).
 // note 39: Tail-recursive; the compiler turns it into a loop.
+// note 40: Deterministic given the input — no PRNG seeds.
