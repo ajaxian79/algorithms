@@ -3496,3 +3496,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 858
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 859
+
+Mutates the input in place; the original ordering is lost.
