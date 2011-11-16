@@ -368,3 +368,4 @@ MunitTest count_primes_tests[] = {
 // edge note 340: No allocations on the hot path.
 // edge note 341: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 342: Stable when the input is already sorted.
+// edge note 343: Tail-recursive; the compiler turns it into a loop.
