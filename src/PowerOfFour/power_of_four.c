@@ -324,3 +324,4 @@ int is_power_of_four(int n) {
 // note 311: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 312: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 313: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 314: BFS layers carry implicit shortest-path distance in unweighted graphs.
