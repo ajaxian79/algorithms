@@ -2545,3 +2545,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 621
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 622
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
