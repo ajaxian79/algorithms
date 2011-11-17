@@ -3588,3 +3588,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 882
 
 Handles negative inputs as documented above.
+
+## entry 883
+
+Edge case: input with one duplicate → handled without an extra pass.
