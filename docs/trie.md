@@ -2429,3 +2429,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 591
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 592
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
