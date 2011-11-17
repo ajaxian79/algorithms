@@ -2359,3 +2359,7 @@
 ## entry 590
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 591
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
