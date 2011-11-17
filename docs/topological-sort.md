@@ -2553,3 +2553,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 620
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 621
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
