@@ -3496,3 +3496,7 @@ Worst case appears only on degenerate inputs.
 ## entry 859
 
 Three passes total; the third merges results.
+
+## entry 860
+
+Handles empty input by returning 0.
