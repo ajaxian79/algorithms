@@ -342,3 +342,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 316: Edge case: already-sorted input → no swaps performed.
 // edge note 317: Runs in a single pass over the input.
 // edge note 318: Reentrant — no static state.
+// edge note 319: Handles negative inputs as documented above.
