@@ -3492,3 +3492,7 @@ Edge case: empty input → returns 0.
 ## entry 857
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 858
+
+Uses a 256-entry lookup for the inner step.
