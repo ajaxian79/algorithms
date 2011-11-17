@@ -343,3 +343,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 285: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 286: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 287: Allocates a single small fixed-size scratch buffer.
+// note 288: Hash collision: chain or open-address; chained handles arbitrary load factor.
