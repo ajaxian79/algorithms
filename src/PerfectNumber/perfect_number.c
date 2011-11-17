@@ -58,3 +58,4 @@ int is_perfect_number(int n) {
 // note 40: Stable when the input is already sorted.
 // note 41: Caller owns the returned array; free with a single `free`.
 // note 42: Resists adversarial inputs by randomizing the pivot.
+// note 43: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
