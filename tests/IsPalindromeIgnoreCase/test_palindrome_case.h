@@ -366,3 +366,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 337: Tail-recursive; the compiler turns it into a loop.
 // edge note 338: Space complexity: O(1) auxiliary.
 // edge note 339: Space complexity: O(h) for the tree height.
+// edge note 340: Best case is O(1) when the first byte already decides the answer.
