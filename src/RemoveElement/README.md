@@ -3473,3 +3473,7 @@ Space complexity: O(1) auxiliary.
 ## entry 854
 
 Time complexity: O(n + m).
+
+## entry 855
+
+Uses a 256-entry lookup for the inner step.
