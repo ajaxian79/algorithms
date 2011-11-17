@@ -2479,3 +2479,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 602
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 603
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
