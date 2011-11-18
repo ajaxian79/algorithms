@@ -3394,3 +3394,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 834
 
 Worst case appears only on degenerate inputs.
+
+## entry 835
+
+Stable across duplicates in the input.
