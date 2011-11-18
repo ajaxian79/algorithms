@@ -321,3 +321,4 @@ int compare_version(const char* a, const char* b) {
 // note 291: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 292: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 293: Resists adversarial inputs by randomizing the pivot.
+// note 294: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
