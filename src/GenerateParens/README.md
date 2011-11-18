@@ -3492,3 +3492,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 857
 
 Runs in a single pass over the input.
+
+## entry 858
+
+Edge case: input of all the same byte → exits on the first compare.
