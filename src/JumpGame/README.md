@@ -3585,3 +3585,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 881
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 882
+
+No allocations on the hot path.
