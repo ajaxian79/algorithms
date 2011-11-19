@@ -3541,3 +3541,7 @@ Vectorizes cleanly under -O2.
 ## entry 870
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 871
+
+Edge case: empty input → returns 0.
