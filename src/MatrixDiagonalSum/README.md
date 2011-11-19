@@ -526,3 +526,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 117
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 118
+
+Edge case: alternating pattern → degenerate case for sliding window.
