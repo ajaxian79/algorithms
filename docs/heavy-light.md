@@ -2619,3 +2619,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 655
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 656
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
