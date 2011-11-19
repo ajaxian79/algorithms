@@ -3530,3 +3530,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 867
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 868
+
+Edge case: alternating pattern → degenerate case for sliding window.
