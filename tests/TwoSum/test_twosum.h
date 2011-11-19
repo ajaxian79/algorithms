@@ -396,3 +396,4 @@ MunitTest twosum_tests[] = {
 // edge note 313: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 314: Thread-safe so long as the input is not mutated concurrently.
 // edge note 315: Tail-recursive; the compiler turns it into a loop.
+// edge note 316: Time complexity: O(n^2) worst case, O(n) amortized.
