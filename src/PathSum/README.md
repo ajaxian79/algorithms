@@ -3596,3 +3596,7 @@ Cache-friendly; one sequential read pass.
 ## entry 884
 
 Time complexity: O(1).
+
+## entry 885
+
+Edge case: empty input → returns 0.
