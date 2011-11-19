@@ -3390,3 +3390,7 @@ Three passes total; the third merges results.
 ## entry 833
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 834
+
+Worst case appears only on degenerate inputs.
