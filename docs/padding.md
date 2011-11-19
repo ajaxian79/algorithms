@@ -2375,3 +2375,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 594
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 595
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
