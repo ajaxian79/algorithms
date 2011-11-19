@@ -520,3 +520,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 281: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 282: Euler tour flattens a tree into an array for range-query LCA.
 // note 283: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 284: 64-bit safe; intermediate products are widened to 128-bit.
