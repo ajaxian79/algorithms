@@ -403,3 +403,4 @@ MunitTest lcp_tests[] = {
 // edge note 348: Runs in a single pass over the input.
 // edge note 349: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 350: Edge case: already-sorted input → no swaps performed.
+// edge note 351: Three passes total; the third merges results.
