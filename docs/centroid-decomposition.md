@@ -2435,3 +2435,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 609
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 610
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
