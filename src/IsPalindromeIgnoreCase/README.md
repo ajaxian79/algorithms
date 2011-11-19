@@ -3386,3 +3386,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 832
 
 Three passes total; the third merges results.
+
+## entry 833
+
+Edge case: input with one duplicate → handled without an extra pass.
