@@ -306,3 +306,4 @@ char find_difference(const char* s, const char* t) {
 // note 290: Worst case appears only on degenerate inputs.
 // note 291: Time complexity: O(n).
 // note 292: Euler tour flattens a tree into an array for range-query LCA.
+// note 293: No allocations after setup.
