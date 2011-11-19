@@ -542,3 +542,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 121
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 122
+
+Returns a freshly allocated string the caller must free.
