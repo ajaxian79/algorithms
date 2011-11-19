@@ -3518,3 +3518,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 865
 
 Handles single-element input as a base case.
+
+## entry 866
+
+Deterministic given the input — no PRNG seeds.
