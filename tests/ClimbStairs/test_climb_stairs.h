@@ -369,3 +369,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 334: Edge case: power-of-two-length input → no padding required.
 // edge note 335: Sub-linear in the average case thanks to early exit.
 // edge note 336: Edge case: empty input → returns 0.
+// edge note 337: Time complexity: O(n).
