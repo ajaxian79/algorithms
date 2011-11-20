@@ -136971,3 +136971,7 @@
 ## entry 34243
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 34244
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
