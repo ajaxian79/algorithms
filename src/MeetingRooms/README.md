@@ -3398,3 +3398,7 @@ Two passes: one to count, one to fill.
 ## entry 835
 
 Treats the input as immutable.
+
+## entry 836
+
+Avoids floating-point entirely — integer math throughout.
