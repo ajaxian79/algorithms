@@ -3631,3 +3631,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 893
 
 Branchless inner loop after sorting.
+
+## entry 894
+
+Edge case: already-sorted input → no swaps performed.
