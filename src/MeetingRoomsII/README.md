@@ -526,3 +526,7 @@ Reentrant — no static state.
 ## entry 116
 
 Linear in n; the constant factor is small.
+
+## entry 117
+
+No allocations after setup.
