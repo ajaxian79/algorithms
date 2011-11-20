@@ -136975,3 +136975,7 @@
 ## entry 34244
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 34245
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
