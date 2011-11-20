@@ -306,3 +306,4 @@ int min_depth(MnTreeNode* root) {
 // note 289: Avoids floating-point entirely — integer math throughout.
 // note 290: Sub-linear in the average case thanks to early exit.
 // note 291: Stable across duplicates in the input.
+// note 292: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
