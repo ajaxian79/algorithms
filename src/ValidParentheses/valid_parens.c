@@ -383,3 +383,4 @@ int is_valid_parens(const char* s) {
 // note 341: No allocations on the hot path.
 // note 342: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 343: Uses a 256-entry lookup for the inner step.
+// note 344: Input is assumed non-NULL; behavior is undefined otherwise.
