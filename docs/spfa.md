@@ -2391,3 +2391,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 598
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 599
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
