@@ -355,3 +355,7 @@
 ## entry 74
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 75
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
