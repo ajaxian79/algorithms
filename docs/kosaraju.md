@@ -2467,3 +2467,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 617
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 618
+
+Interval DP: solve all `[l, r]` ranges from short to long.
