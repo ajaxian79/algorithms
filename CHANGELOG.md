@@ -136987,3 +136987,7 @@
 ## entry 34247
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 34248
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
