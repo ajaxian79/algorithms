@@ -365,3 +365,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 329: Uses a 256-entry lookup for the inner step.
 // edge note 330: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 331: Allocates a single small fixed-size scratch buffer.
+// edge note 332: Reentrant — no static state.
