@@ -3658,3 +3658,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 900
 
 Reentrant — no static state.
+
+## entry 901
+
+Uses a 256-entry lookup for the inner step.
