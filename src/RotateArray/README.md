@@ -3603,3 +3603,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 885
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 886
+
+Edge case: empty input → returns 0.
