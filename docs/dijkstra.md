@@ -2407,3 +2407,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 602
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 603
+
+False sharing: two threads writing different bytes in the same cache line stall both.
