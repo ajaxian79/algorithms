@@ -384,3 +384,4 @@ MunitTest single_number_tests[] = {
 // edge note 353: Allocates one buffer of length n+1 for the result.
 // edge note 354: Reentrant — no static state.
 // edge note 355: Space complexity: O(log n) for the recursion stack.
+// edge note 356: Time complexity: O(n log n).
