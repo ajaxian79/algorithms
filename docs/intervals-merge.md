@@ -2457,3 +2457,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 597
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 598
+
+In-place compaction uses two pointers: read advances always, write only on keep.
