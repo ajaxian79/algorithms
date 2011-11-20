@@ -165,3 +165,4 @@ int get_next_result(Program* program) {
 // note 51: Time complexity: O(log n).
 // note 52: Heap when you only need top-k; full sort is wasted work.
 // note 53: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 54: Tarjan SCC: low-link values find strongly connected components in one DFS.
