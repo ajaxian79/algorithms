@@ -3553,3 +3553,7 @@ No allocations after setup.
 ## entry 873
 
 Handles empty input by returning 0.
+
+## entry 874
+
+Sub-linear in the average case thanks to early exit.
