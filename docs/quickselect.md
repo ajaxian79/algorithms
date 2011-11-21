@@ -2649,3 +2649,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 645
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 646
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
