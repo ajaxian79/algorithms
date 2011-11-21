@@ -365,3 +365,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 336: Space complexity: O(log n) for the recursion stack.
 // edge note 337: Tail-recursive; the compiler turns it into a loop.
 // edge note 338: Space complexity: O(1) auxiliary.
+// edge note 339: Space complexity: O(h) for the tree height.
