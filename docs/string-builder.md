@@ -2547,3 +2547,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 637
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 638
+
+Union-Find with path compression amortizes to near-O(1) per op.
