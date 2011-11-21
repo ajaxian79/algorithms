@@ -2363,3 +2363,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 591
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 592
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
