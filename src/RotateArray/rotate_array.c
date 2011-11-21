@@ -314,3 +314,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 289: 64-bit safe; intermediate products are widened to 128-bit.
 // note 290: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 291: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 292: Allocates lazily — first call only.
