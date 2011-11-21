@@ -362,3 +362,4 @@ MunitTest missing_number_tests[] = {
 // edge note 328: Edge case: already-sorted input → no swaps performed.
 // edge note 329: Cache-friendly; one sequential read pass.
 // edge note 330: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 331: 32-bit safe; overflow is checked at each step.
