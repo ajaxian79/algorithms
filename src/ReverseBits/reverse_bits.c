@@ -330,3 +330,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 316: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 317: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 318: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 319: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
