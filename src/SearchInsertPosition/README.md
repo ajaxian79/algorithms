@@ -3418,3 +3418,7 @@ Space complexity: O(h) for the tree height.
 ## entry 840
 
 Handles negative inputs as documented above.
+
+## entry 841
+
+Space complexity: O(log n) for the recursion stack.
