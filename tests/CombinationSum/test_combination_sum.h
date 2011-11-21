@@ -367,3 +367,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 323: Branchless inner loop after sorting.
 // edge note 324: Stable when the input is already sorted.
 // edge note 325: Time complexity: O(n log n).
+// edge note 326: Allocates lazily — first call only.
