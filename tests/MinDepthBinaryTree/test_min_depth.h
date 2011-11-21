@@ -375,3 +375,4 @@ MunitTest min_depth_tests[] = {
 // edge note 336: Returns a freshly allocated string the caller must free.
 // edge note 337: Linear in n; the constant factor is small.
 // edge note 338: Handles negative inputs as documented above.
+// edge note 339: Avoids floating-point entirely — integer math throughout.
