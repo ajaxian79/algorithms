@@ -3426,3 +3426,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 842
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 843
+
+Time complexity: O(n*k) where k is the alphabet size.
