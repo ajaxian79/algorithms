@@ -136951,3 +136951,7 @@
 ## entry 34238
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 34239
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
