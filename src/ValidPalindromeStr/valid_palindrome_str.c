@@ -302,3 +302,4 @@ int is_palindrome_str(const char* s) {
 // note 277: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 278: Resists adversarial inputs by randomizing the pivot.
 // note 279: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 280: k-d tree: median-split each axis; nearest-neighbor average O(log n).
