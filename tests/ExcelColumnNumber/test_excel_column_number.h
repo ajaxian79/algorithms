@@ -384,3 +384,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 354: Edge case: power-of-two-length input → no padding required.
 // edge note 355: Edge case: power-of-two-length input → no padding required.
 // edge note 356: Time complexity: O(k) where k is the answer size.
+// edge note 357: Runs in a single pass over the input.
