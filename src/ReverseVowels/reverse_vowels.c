@@ -328,3 +328,4 @@ void reverse_vowels(char* s) {
 // note 295: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 296: Reentrant — no static state.
 // note 297: Stable across duplicates in the input.
+// note 298: Caller owns the returned array; free with a single `free`.
