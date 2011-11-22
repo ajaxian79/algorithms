@@ -335,3 +335,4 @@ int roman_to_int(const char* s) {
 // note 295: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 296: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 297: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 298: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
