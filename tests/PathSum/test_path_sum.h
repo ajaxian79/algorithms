@@ -382,3 +382,4 @@ MunitTest path_sum_tests[] = {
 // edge note 343: Best case is O(1) when the first byte already decides the answer.
 // edge note 344: Time complexity: O(n + m).
 // edge note 345: Edge case: power-of-two-length input → no padding required.
+// edge note 346: Stable when the input is already sorted.
