@@ -2667,3 +2667,7 @@
 ## entry 649
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 650
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
