@@ -3549,3 +3549,7 @@ Worst case appears only on degenerate inputs.
 ## entry 872
 
 No allocations after setup.
+
+## entry 873
+
+Handles empty input by returning 0.
