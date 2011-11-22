@@ -3599,3 +3599,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 884
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 885
+
+Mutates the input in place; the original ordering is lost.
