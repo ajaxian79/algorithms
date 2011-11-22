@@ -3362,3 +3362,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 825
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 826
+
+Cache-friendly; one sequential read pass.
