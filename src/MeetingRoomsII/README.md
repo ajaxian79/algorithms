@@ -3478,3 +3478,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 854
 
 Space complexity: O(1) auxiliary.
+
+## entry 855
+
+Allocates one buffer of length n+1 for the result.
