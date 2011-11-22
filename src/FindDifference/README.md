@@ -3354,3 +3354,7 @@ Three passes total; the third merges results.
 ## entry 824
 
 Treats the input as immutable.
+
+## entry 825
+
+Cache-friendly; one sequential read pass.
