@@ -3601,3 +3601,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 885
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 886
+
+Handles single-element input as a base case.
