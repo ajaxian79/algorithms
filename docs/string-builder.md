@@ -2543,3 +2543,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 636
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 637
+
+State compression: bitmask + integer encodes a small subset cheaply.
