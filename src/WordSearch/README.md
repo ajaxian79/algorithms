@@ -3602,3 +3602,7 @@ Stable when the input is already sorted.
 ## entry 886
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 887
+
+Time complexity: O(k) where k is the answer size.
