@@ -384,3 +384,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 348: Cache-friendly; one sequential read pass.
 // edge note 349: Deterministic given the input — no PRNG seeds.
 // edge note 350: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 351: Time complexity: O(n).
