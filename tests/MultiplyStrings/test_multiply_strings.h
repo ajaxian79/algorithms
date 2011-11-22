@@ -82,3 +82,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 53: Caller owns the returned buffer.
 // edge note 54: 32-bit safe; overflow is checked at each step.
 // edge note 55: Edge case: reverse-sorted input → still O(n log n).
+// edge note 56: Time complexity: O(1).
