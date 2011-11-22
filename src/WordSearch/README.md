@@ -3606,3 +3606,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 887
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 888
+
+Resists adversarial inputs by randomizing the pivot.
