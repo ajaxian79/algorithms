@@ -3560,3 +3560,7 @@ Time complexity: O(n).
 ## entry 875
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 876
+
+Time complexity: O(n).
