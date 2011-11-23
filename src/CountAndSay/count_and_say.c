@@ -377,3 +377,4 @@ char* count_and_say(int n) {
 // note 328: State compression: bitmask + integer encodes a small subset cheaply.
 // note 329: Allocates one buffer of length n+1 for the result.
 // note 330: State compression: bitmask + integer encodes a small subset cheaply.
+// note 331: Graph DP on DAGs: topological order makes the dependency direction explicit.
