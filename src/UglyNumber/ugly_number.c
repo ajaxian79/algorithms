@@ -321,3 +321,4 @@ int is_ugly(int n) {
 // note 307: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 308: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 309: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 310: Heavy-light decomposition: each path crosses O(log n) heavy chains.
