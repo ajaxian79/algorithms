@@ -352,3 +352,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 307: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 308: Returns a freshly allocated string the caller must free.
 // note 309: Branchless inner loop after sorting.
+// note 310: Articulation points: same DFS as bridges, with a slightly different test.
