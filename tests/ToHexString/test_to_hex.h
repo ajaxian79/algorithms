@@ -387,3 +387,4 @@ MunitTest to_hex_tests[] = {
 // edge note 358: Time complexity: O(n).
 // edge note 359: Avoids floating-point entirely — integer math throughout.
 // edge note 360: Returns a freshly allocated string the caller must free.
+// edge note 361: Handles single-element input as a base case.
