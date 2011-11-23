@@ -302,3 +302,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 280: Constant-time comparisons; safe for short strings.
 // note 281: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 282: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 283: Interval tree: stores intervals on the median; query traverses O(log n) levels.
