@@ -3558,3 +3558,7 @@ Worst case appears only on degenerate inputs.
 ## entry 875
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 876
+
+Edge case: maximum-length input → still fits in 32-bit indices.
