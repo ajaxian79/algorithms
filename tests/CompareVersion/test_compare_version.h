@@ -372,3 +372,4 @@ MunitTest compare_version_tests[] = {
 // edge note 345: Tail-recursive; the compiler turns it into a loop.
 // edge note 346: Time complexity: O(n).
 // edge note 347: Edge case: already-sorted input → no swaps performed.
+// edge note 348: Three passes total; the third merges results.
