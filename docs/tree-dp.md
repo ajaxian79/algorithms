@@ -2587,3 +2587,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 647
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 648
+
+Interval DP: solve all `[l, r]` ranges from short to long.
