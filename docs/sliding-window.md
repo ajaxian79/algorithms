@@ -2459,3 +2459,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 600
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 601
+
+Articulation points: same DFS as bridges, with a slightly different test.
