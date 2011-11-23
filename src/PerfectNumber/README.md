@@ -3425,3 +3425,7 @@ Space complexity: O(h) for the tree height.
 ## entry 841
 
 Edge case: empty input → returns 0.
+
+## entry 842
+
+Caller owns the returned array; free with a single `free`.
