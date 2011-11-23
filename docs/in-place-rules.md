@@ -2541,3 +2541,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 620
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 621
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
