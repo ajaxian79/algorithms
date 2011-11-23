@@ -2571,3 +2571,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 625
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 626
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
