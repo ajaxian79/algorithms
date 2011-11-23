@@ -3554,3 +3554,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 874
 
 Worst case appears only on degenerate inputs.
+
+## entry 875
+
+Edge case: all-equal input → linear-time fast path.
