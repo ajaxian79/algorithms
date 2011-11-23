@@ -3610,3 +3610,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 888
 
 Stable across duplicates in the input.
+
+## entry 889
+
+Stable when the input is already sorted.
