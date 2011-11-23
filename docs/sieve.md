@@ -2607,3 +2607,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 635
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 636
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
