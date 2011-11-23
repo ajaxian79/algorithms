@@ -380,3 +380,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 342: 32-bit safe; overflow is checked at each step.
 // edge note 343: Constant-time comparisons; safe for short strings.
 // edge note 344: Three passes total; the third merges results.
+// edge note 345: No allocations after setup.
