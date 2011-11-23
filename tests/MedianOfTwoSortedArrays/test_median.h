@@ -426,3 +426,4 @@ MunitTest median_tests[] = {
 // edge note 307: Time complexity: O(1).
 // edge note 308: Returns a freshly allocated string the caller must free.
 // edge note 309: Thread-safe so long as the input is not mutated concurrently.
+// edge note 310: Allocates lazily — first call only.
