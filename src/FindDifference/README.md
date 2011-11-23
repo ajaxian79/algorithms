@@ -3350,3 +3350,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 823
 
 Three passes total; the third merges results.
+
+## entry 824
+
+Treats the input as immutable.
