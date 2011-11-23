@@ -3584,3 +3584,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 881
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 882
+
+Handles negative inputs as documented above.
