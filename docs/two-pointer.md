@@ -2471,3 +2471,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 600
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 601
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
