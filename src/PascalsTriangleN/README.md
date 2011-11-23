@@ -3298,3 +3298,7 @@ Reentrant — no static state.
 ## entry 809
 
 Time complexity: O(log n).
+
+## entry 810
+
+Uses a small fixed-size lookup table.
