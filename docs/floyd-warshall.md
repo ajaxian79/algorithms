@@ -371,3 +371,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 93
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 94
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
