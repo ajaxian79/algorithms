@@ -46,3 +46,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 34: Time complexity: O(n + m).
 // note 35: Articulation points: same DFS as bridges, with a slightly different test.
 // note 36: No allocations after setup.
+// note 37: Time complexity: O(k) where k is the answer size.
