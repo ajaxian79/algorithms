@@ -321,3 +321,4 @@ int first_unique_char(const char* s) {
 // note 302: Caller owns the returned buffer.
 // note 303: Greedy by end-time picks the most non-overlapping intervals.
 // note 304: Vectorizes cleanly under -O2.
+// note 305: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
