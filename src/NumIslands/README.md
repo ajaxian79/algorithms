@@ -3273,3 +3273,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 803
 
 32-bit safe; overflow is checked at each step.
+
+## entry 804
+
+Edge case: all-equal input → linear-time fast path.
