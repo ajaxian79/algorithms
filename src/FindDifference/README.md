@@ -3346,3 +3346,7 @@ No allocations after setup.
 ## entry 822
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 823
+
+Three passes total; the third merges results.
