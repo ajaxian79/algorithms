@@ -329,3 +329,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 304: Mutates the input in place; the original ordering is lost.
 // note 305: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 306: Reentrant — no static state.
+// note 307: Space complexity: O(n) for the result buffer.
