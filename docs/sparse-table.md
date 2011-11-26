@@ -291,3 +291,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 73
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 74
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
