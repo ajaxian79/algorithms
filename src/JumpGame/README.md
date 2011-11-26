@@ -3581,3 +3581,7 @@ Handles empty input by returning 0.
 ## entry 880
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 881
+
+Edge case: zero-length string → returns the empty result.
