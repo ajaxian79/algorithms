@@ -3538,3 +3538,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 869
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 870
+
+Three passes total; the third merges results.
