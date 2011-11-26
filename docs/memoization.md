@@ -2483,3 +2483,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 621
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 622
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
