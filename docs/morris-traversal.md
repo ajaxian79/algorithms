@@ -2407,3 +2407,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 587
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 588
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
