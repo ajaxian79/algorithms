@@ -387,3 +387,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 358: Time complexity: O(k) where k is the answer size.
 // edge note 359: Edge case: reverse-sorted input → still O(n log n).
 // edge note 360: Space complexity: O(h) for the tree height.
+// edge note 361: Allocates one buffer of length n+1 for the result.
