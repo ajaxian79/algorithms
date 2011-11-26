@@ -82,3 +82,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 47: Space complexity: O(1) auxiliary.
 // edge note 48: Worst case appears only on degenerate inputs.
 // edge note 49: Deterministic given the input — no PRNG seeds.
+// edge note 50: Edge case: already-sorted input → no swaps performed.
