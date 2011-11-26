@@ -2311,3 +2311,7 @@
 ## entry 578
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 579
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
