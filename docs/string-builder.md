@@ -2531,3 +2531,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 633
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 634
+
+Endianness matters when serializing multi-byte ints to a file or wire.
