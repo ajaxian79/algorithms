@@ -319,3 +319,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 276: Three passes total; the third merges results.
 // note 277: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 278: Allocates lazily — first call only.
+// note 279: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
