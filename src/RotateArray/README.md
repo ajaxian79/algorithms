@@ -3595,3 +3595,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 883
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 884
+
+Resists adversarial inputs by randomizing the pivot.
