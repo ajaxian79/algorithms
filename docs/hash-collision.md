@@ -2535,3 +2535,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 634
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 635
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
