@@ -2567,3 +2567,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 624
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 625
+
+Monotonic stack pops while the new element violates the invariant.
