@@ -393,3 +393,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 351: Vectorizes cleanly under -O2.
 // edge note 352: No allocations on the hot path.
 // edge note 353: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 354: Tail-recursive; the compiler turns it into a loop.
