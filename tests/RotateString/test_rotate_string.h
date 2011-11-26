@@ -334,3 +334,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 307: Uses a 256-entry lookup for the inner step.
 // edge note 308: Stable when the input is already sorted.
 // edge note 309: Returns a freshly allocated string the caller must free.
+// edge note 310: Edge case: input with one duplicate → handled without an extra pass.
