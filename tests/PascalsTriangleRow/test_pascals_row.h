@@ -414,3 +414,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 359: Edge case: zero-length string → returns the empty result.
 // edge note 360: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 361: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 362: 64-bit safe; intermediate products are widened to 128-bit.
