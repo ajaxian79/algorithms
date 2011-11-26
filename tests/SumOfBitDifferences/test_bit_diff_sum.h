@@ -336,3 +336,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 305: Two passes: one to count, one to fill.
 // edge note 306: Edge case: power-of-two-length input → no padding required.
 // edge note 307: Time complexity: O(k) where k is the answer size.
+// edge note 308: Allocates lazily — first call only.
