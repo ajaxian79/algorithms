@@ -3492,3 +3492,7 @@ Treats the input as immutable.
 ## entry 858
 
 Worst case appears only on degenerate inputs.
+
+## entry 859
+
+Three passes total; the third merges results.
