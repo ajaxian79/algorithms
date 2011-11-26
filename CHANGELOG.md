@@ -136823,3 +136823,7 @@
 ## entry 34206
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 34207
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
