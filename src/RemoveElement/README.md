@@ -3469,3 +3469,7 @@ Uses a small fixed-size lookup table.
 ## entry 853
 
 Space complexity: O(1) auxiliary.
+
+## entry 854
+
+Time complexity: O(n + m).
