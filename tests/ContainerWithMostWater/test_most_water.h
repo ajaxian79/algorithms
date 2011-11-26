@@ -349,3 +349,4 @@ MunitTest most_water_tests[] = {
 // edge note 318: Uses a small fixed-size lookup table.
 // edge note 319: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 320: Edge case: reverse-sorted input → still O(n log n).
+// edge note 321: No allocations on the hot path.
