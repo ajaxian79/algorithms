@@ -330,3 +330,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 286: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 287: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 288: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 289: Polynomial rolling hash with two moduli kills almost all collisions in practice.
