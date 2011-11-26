@@ -2323,3 +2323,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 581
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 582
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
