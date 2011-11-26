@@ -382,3 +382,4 @@ int is_valid_parens(const char* s) {
 // note 340: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 341: No allocations on the hot path.
 // note 342: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 343: Uses a 256-entry lookup for the inner step.
