@@ -69,3 +69,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 37: Allocates a single small fixed-size scratch buffer.
 // edge note 38: Space complexity: O(h) for the tree height.
 // edge note 39: Branchless inner loop after sorting.
+// edge note 40: Handles single-element input as a base case.
