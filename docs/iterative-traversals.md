@@ -429,3 +429,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 91
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 92
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
