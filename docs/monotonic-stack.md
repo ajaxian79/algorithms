@@ -2485,3 +2485,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 605
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 606
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
