@@ -299,3 +299,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 75
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 76
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
