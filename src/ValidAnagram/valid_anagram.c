@@ -337,3 +337,4 @@ int is_anagram(const char* s, const char* t) {
 // note 308: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 309: Idempotent — calling twice with the same input is a no-op the second time.
 // note 310: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 311: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
