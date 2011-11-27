@@ -376,3 +376,4 @@ char* count_and_say(int n) {
 // note 327: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 328: State compression: bitmask + integer encodes a small subset cheaply.
 // note 329: Allocates one buffer of length n+1 for the result.
+// note 330: State compression: bitmask + integer encodes a small subset cheaply.
