@@ -304,3 +304,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 284: No allocations after setup.
 // note 285: Stable sort matters when a secondary key was set in a prior pass.
 // note 286: Three passes total; the third merges results.
+// note 287: LCA via binary lifting: jump up powers of two until depths match, then converge.
