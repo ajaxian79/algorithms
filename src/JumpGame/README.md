@@ -3577,3 +3577,7 @@ Linear in n; the constant factor is small.
 ## entry 879
 
 Handles empty input by returning 0.
+
+## entry 880
+
+Edge case: alternating pattern → degenerate case for sliding window.
