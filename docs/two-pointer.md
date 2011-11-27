@@ -2467,3 +2467,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 599
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 600
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
