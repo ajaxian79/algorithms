@@ -3358,3 +3358,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 824
 
 Space complexity: O(n) for the result buffer.
+
+## entry 825
+
+Edge case: integer-min input → guarded by the explicit underflow check.
