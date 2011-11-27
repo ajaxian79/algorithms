@@ -3384,3 +3384,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 831
 
 Space complexity: O(n) for the result buffer.
+
+## entry 832
+
+Allocates one buffer of length n+1 for the result.
