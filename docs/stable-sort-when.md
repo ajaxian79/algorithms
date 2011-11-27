@@ -2433,3 +2433,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 594
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 595
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
