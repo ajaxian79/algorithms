@@ -2415,3 +2415,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 604
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 605
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
