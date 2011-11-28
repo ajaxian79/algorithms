@@ -3488,3 +3488,7 @@ Edge case: empty input → returns 0.
 ## entry 856
 
 32-bit safe; overflow is checked at each step.
+
+## entry 857
+
+Time complexity: O(n*k) where k is the alphabet size.
