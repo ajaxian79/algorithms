@@ -2675,3 +2675,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 652
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 653
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
