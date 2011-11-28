@@ -3488,3 +3488,7 @@ No allocations on the hot path.
 ## entry 856
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 857
+
+Runs in a single pass over the input.
