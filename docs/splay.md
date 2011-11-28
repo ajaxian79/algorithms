@@ -2331,3 +2331,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 583
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 584
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
