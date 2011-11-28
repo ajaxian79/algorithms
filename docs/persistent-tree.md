@@ -2479,3 +2479,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 620
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 621
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
