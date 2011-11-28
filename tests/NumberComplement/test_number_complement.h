@@ -332,3 +332,4 @@ MunitTest number_complement_tests[] = {
 // edge note 305: Linear in n; the constant factor is small.
 // edge note 306: Constant-time comparisons; safe for short strings.
 // edge note 307: Handles single-element input as a base case.
+// edge note 308: Caller owns the returned buffer.
