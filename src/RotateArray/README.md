@@ -3591,3 +3591,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 882
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 883
+
+Allocates a single small fixed-size scratch buffer.
