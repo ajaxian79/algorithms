@@ -3414,3 +3414,7 @@ Stable when the input is already sorted.
 ## entry 839
 
 Space complexity: O(h) for the tree height.
+
+## entry 840
+
+Handles negative inputs as documented above.
