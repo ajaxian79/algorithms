@@ -333,3 +333,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 302: Tail-recursive; the compiler turns it into a loop.
 // edge note 303: Best case is O(1) when the first byte already decides the answer.
 // edge note 304: Reentrant — no static state.
+// edge note 305: Constant-time comparisons; safe for short strings.
