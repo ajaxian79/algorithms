@@ -3338,3 +3338,7 @@ Three passes total; the third merges results.
 ## entry 820
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 821
+
+No allocations after setup.
