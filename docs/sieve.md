@@ -2599,3 +2599,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 633
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 634
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
