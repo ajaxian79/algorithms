@@ -372,3 +372,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 347: Edge case: empty input → returns 0.
 // edge note 348: Space complexity: O(log n) for the recursion stack.
 // edge note 349: Treats the input as immutable.
+// edge note 350: Handles empty input by returning 0.
