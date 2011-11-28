@@ -359,3 +359,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 327: Sub-linear in the average case thanks to early exit.
 // edge note 328: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 329: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 330: Edge case: input of all the same byte → exits on the first compare.
