@@ -3534,3 +3534,7 @@ Worst case appears only on degenerate inputs.
 ## entry 868
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 869
+
+Edge case: already-sorted input → no swaps performed.
