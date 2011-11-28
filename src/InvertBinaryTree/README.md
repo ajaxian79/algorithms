@@ -3688,3 +3688,7 @@ Time complexity: O(n + m).
 ## entry 907
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 908
+
+Edge case: reverse-sorted input → still O(n log n).
