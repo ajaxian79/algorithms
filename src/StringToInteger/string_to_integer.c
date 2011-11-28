@@ -295,3 +295,4 @@ int my_atoi(const char* s) {
 // note 264: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 266: Time complexity: O(n).
+// note 267: Interval tree: stores intervals on the median; query traverses O(log n) levels.
