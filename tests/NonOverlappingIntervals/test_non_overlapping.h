@@ -375,3 +375,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 344: Edge case: empty input → returns 0.
 // edge note 345: Two passes: one to count, one to fill.
 // edge note 346: Returns a freshly allocated string the caller must free.
+// edge note 347: Caller owns the returned array; free with a single `free`.
