@@ -3465,3 +3465,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 852
 
 Uses a small fixed-size lookup table.
+
+## entry 853
+
+Space complexity: O(1) auxiliary.
