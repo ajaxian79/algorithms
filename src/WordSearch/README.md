@@ -3598,3 +3598,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 885
 
 Stable when the input is already sorted.
+
+## entry 886
+
+Edge case: integer-max input → guarded by the explicit overflow check.
