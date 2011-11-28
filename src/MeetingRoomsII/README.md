@@ -3474,3 +3474,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 853
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 854
+
+Space complexity: O(1) auxiliary.
