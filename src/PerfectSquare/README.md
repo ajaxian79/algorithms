@@ -3550,3 +3550,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 873
 
 Constant-time comparisons; safe for short strings.
+
+## entry 874
+
+Worst case appears only on degenerate inputs.
