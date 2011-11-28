@@ -3576,3 +3576,7 @@ Stable across duplicates in the input.
 ## entry 879
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 880
+
+Avoids floating-point entirely — integer math throughout.
