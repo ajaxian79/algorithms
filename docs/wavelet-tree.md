@@ -2403,3 +2403,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 601
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 602
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
