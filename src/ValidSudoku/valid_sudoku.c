@@ -305,3 +305,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 281: Heap when you only need top-k; full sort is wasted work.
 // note 282: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 283: Splay tree: every access splays to the root; amortized O(log n).
+// note 284: StringBuilder pitfall: reuse forces a deep copy on the first read.
