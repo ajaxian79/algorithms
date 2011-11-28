@@ -3334,3 +3334,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 819
 
 Three passes total; the third merges results.
+
+## entry 820
+
+Allocates one buffer of length n+1 for the result.
