@@ -3461,3 +3461,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 851
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 852
+
+Uses a small fixed-size lookup table.
