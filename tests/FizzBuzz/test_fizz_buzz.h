@@ -400,3 +400,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 350: Constant-time comparisons; safe for short strings.
 // edge note 351: Space complexity: O(n) for the result buffer.
 // edge note 352: Handles negative inputs as documented above.
+// edge note 353: Time complexity: O(1).
