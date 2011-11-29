@@ -3454,3 +3454,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 849
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 850
+
+Idempotent — calling twice with the same input is a no-op the second time.
