@@ -2515,3 +2515,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 612
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 613
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
