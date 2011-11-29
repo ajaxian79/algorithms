@@ -2475,3 +2475,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 619
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 620
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
