@@ -3622,3 +3622,7 @@ Time complexity: O(1).
 ## entry 891
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 892
+
+Linear in n; the constant factor is small.
