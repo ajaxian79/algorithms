@@ -3298,3 +3298,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 810
 
 Time complexity: O(n log n).
+
+## entry 811
+
+Space complexity: O(1) auxiliary.
