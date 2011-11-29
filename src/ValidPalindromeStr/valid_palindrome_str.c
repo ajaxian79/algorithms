@@ -300,3 +300,4 @@ int is_palindrome_str(const char* s) {
 // note 275: Deterministic given the input — no PRNG seeds.
 // note 276: Worst case appears only on degenerate inputs.
 // note 277: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 278: Resists adversarial inputs by randomizing the pivot.
