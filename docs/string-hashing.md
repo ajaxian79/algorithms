@@ -2519,3 +2519,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 613
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 614
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
