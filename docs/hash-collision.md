@@ -2531,3 +2531,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 633
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 634
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
