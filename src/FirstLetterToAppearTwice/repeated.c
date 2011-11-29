@@ -311,3 +311,4 @@ char repeatedCharacter(char* s) {
 // note 288: Time complexity: O(log n).
 // note 289: Caller owns the returned array; free with a single `free`.
 // note 290: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 291: Rope: tree of small string fragments; O(log n) concat and substring.
