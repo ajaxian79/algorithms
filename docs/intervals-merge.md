@@ -2453,3 +2453,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 596
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 597
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
