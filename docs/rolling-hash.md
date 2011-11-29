@@ -2447,3 +2447,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 595
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 596
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
