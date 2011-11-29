@@ -2403,3 +2403,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 584
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 585
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
