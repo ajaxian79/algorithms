@@ -2387,3 +2387,7 @@
 ## entry 597
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 598
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
