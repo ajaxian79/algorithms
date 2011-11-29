@@ -3376,3 +3376,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 829
 
 Two passes: one to count, one to fill.
+
+## entry 830
+
+Handles negative inputs as documented above.
