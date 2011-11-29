@@ -2481,3 +2481,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 604
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 605
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
