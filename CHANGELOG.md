@@ -136711,3 +136711,7 @@
 ## entry 34178
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 34179
+
+- LIS via patience: each pile holds the smallest tail of length k.
