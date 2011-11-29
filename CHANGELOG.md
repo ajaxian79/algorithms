@@ -136731,3 +136731,7 @@
 ## entry 34183
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 34184
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
