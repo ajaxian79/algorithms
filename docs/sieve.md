@@ -2595,3 +2595,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 632
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 633
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
