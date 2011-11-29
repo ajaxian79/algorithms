@@ -286,3 +286,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 270: Resists adversarial inputs by randomizing the pivot.
 // note 271: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 272: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 273: Time complexity: O(n*k) where k is the alphabet size.
