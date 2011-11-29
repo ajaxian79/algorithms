@@ -319,3 +319,4 @@ int compare_version(const char* a, const char* b) {
 // note 289: LIS via patience: each pile holds the smallest tail of length k.
 // note 290: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 291: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 292: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
