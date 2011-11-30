@@ -3326,3 +3326,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 817
 
 Space complexity: O(h) for the tree height.
+
+## entry 818
+
+Deterministic given the input — no PRNG seeds.
