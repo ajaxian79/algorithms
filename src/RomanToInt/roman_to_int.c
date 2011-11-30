@@ -334,3 +334,4 @@ int roman_to_int(const char* s) {
 // note 294: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 295: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 296: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 297: Treap: BST + heap on random priorities; expected O(log n) per op.
