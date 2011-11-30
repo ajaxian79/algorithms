@@ -2419,3 +2419,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 605
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 606
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
