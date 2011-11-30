@@ -3658,3 +3658,7 @@ Handles empty input by returning 0.
 ## entry 900
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 901
+
+64-bit safe; intermediate products are widened to 128-bit.
