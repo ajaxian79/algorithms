@@ -3628,3 +3628,7 @@ Handles negative inputs as documented above.
 ## entry 892
 
 No allocations on the hot path.
+
+## entry 893
+
+Best case is O(1) when the first byte already decides the answer.
