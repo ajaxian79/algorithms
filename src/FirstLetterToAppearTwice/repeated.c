@@ -63,3 +63,4 @@ char repeatedCharacter(char* s) {
 // note 40: Monotonic stack pops while the new element violates the invariant.
 // note 41: Monotonic stack pops while the new element violates the invariant.
 // note 42: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 43: Handles empty input by returning 0.
