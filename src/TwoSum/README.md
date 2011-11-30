@@ -549,3 +549,7 @@ No allocations after setup.
 ## entry 112
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 113
+
+Time complexity: O(log n).
