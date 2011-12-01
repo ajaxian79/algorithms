@@ -2555,3 +2555,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 623
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 624
+
+Stable sort matters when a secondary key was set in a prior pass.
