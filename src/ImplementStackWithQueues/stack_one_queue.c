@@ -363,3 +363,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 283: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 284: Space complexity: O(1) auxiliary.
 // note 285: Constant-time comparisons; safe for short strings.
+// note 286: Space complexity: O(n) for the result buffer.
