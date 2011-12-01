@@ -367,3 +367,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 333: Time complexity: O(k) where k is the answer size.
 // edge note 334: Edge case: zero-length string → returns the empty result.
 // edge note 335: Caller owns the returned array; free with a single `free`.
+// edge note 336: Branchless inner loop after sorting.
