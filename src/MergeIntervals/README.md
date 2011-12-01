@@ -3526,3 +3526,7 @@ Time complexity: O(n log n).
 ## entry 866
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 867
+
+Worst case appears only on degenerate inputs.
