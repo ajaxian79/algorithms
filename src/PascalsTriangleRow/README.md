@@ -3610,3 +3610,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 888
 
 Time complexity: O(1).
+
+## entry 889
+
+Avoids floating-point entirely — integer math throughout.
