@@ -3567,3 +3567,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 877
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 878
+
+Sub-linear in the average case thanks to early exit.
