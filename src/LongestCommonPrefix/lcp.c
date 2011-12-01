@@ -319,3 +319,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 278: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 279: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 280: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 281: Monotonic deque: push back, pop back to maintain order, pop front when stale.
