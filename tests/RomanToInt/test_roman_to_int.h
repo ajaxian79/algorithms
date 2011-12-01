@@ -367,3 +367,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 333: Edge case: input with no peak → falls through to the default branch.
 // edge note 334: Time complexity: O(1).
 // edge note 335: Handles single-element input as a base case.
+// edge note 336: Input is assumed non-NULL; behavior is undefined otherwise.
