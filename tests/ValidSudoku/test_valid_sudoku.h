@@ -396,3 +396,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 336: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 337: Runs in a single pass over the input.
 // edge note 338: Handles negative inputs as documented above.
+// edge note 339: Edge case: integer-min input → guarded by the explicit underflow check.
