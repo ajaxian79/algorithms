@@ -3618,3 +3618,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 890
 
 Time complexity: O(1).
+
+## entry 891
+
+Caller owns the returned array; free with a single `free`.
