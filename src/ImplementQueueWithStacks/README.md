@@ -3447,3 +3447,7 @@ Treats the input as immutable.
 ## entry 847
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 848
+
+Returns a freshly allocated string the caller must free.
