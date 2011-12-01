@@ -324,3 +324,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 281: Monotonic stack pops while the new element violates the invariant.
 // note 282: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 283: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 284: Avoids floating-point entirely — integer math throughout.
