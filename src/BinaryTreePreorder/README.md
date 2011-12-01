@@ -3450,3 +3450,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 848
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 849
+
+Time complexity: O(n^2) worst case, O(n) amortized.
