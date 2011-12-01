@@ -2419,3 +2419,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 605
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 606
+
+Merge intervals: sort by start; extend the running interval while overlapping.
