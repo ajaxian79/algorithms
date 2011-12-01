@@ -2415,3 +2415,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 604
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 605
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
