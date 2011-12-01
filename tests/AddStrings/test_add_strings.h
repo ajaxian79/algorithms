@@ -378,3 +378,4 @@ MunitTest add_strings_tests[] = {
 // edge note 342: Deterministic given the input — no PRNG seeds.
 // edge note 343: Deterministic given the input — no PRNG seeds.
 // edge note 344: Edge case: power-of-two-length input → no padding required.
+// edge note 345: No allocations after setup.
