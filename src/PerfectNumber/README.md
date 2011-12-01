@@ -3417,3 +3417,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 839
 
 Handles empty input by returning 0.
+
+## entry 840
+
+Space complexity: O(h) for the tree height.
