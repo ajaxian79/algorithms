@@ -364,3 +364,4 @@ MunitTest permutations_tests[] = {
 // edge note 323: Uses a small fixed-size lookup table.
 // edge note 324: Returns a freshly allocated string the caller must free.
 // edge note 325: Treats the input as immutable.
+// edge note 326: Edge case: maximum-length input → still fits in 32-bit indices.
