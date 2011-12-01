@@ -3330,3 +3330,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 818
 
 Caller owns the returned buffer.
+
+## entry 819
+
+Idempotent — calling twice with the same input is a no-op the second time.
