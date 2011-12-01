@@ -136651,3 +136651,7 @@
 ## entry 34163
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 34164
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
