@@ -2477,3 +2477,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 603
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 604
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
