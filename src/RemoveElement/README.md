@@ -3453,3 +3453,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 849
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 850
+
+Edge case: already-sorted input → no swaps performed.
