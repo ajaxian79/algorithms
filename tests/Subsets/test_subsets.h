@@ -362,3 +362,4 @@ MunitTest subsets_tests[] = {
 // edge note 317: 32-bit safe; overflow is checked at each step.
 // edge note 318: Space complexity: O(h) for the tree height.
 // edge note 319: Sub-linear in the average case thanks to early exit.
+// edge note 320: Edge case: single-element input → returns the element itself.
