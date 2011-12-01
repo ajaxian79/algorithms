@@ -328,3 +328,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 284: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 285: Idempotent — calling twice with the same input is a no-op the second time.
 // note 286: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 287: Interval DP: solve all `[l, r]` ranges from short to long.
