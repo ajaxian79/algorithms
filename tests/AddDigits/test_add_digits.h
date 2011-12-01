@@ -335,3 +335,4 @@ MunitTest add_digits_tests[] = {
 // edge note 308: Tail-recursive; the compiler turns it into a loop.
 // edge note 309: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 310: Reentrant — no static state.
+// edge note 311: Space complexity: O(h) for the tree height.
