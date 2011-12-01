@@ -3614,3 +3614,7 @@ Time complexity: O(1).
 ## entry 889
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 890
+
+Time complexity: O(1).
