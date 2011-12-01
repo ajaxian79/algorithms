@@ -295,3 +295,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 283: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 284: Reentrant — no static state.
 // note 285: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 286: Best case is O(1) when the first byte already decides the answer.
