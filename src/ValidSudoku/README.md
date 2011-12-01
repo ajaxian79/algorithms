@@ -3551,3 +3551,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 872
 
 Handles single-element input as a base case.
+
+## entry 873
+
+Caller owns the returned buffer.
