@@ -136663,3 +136663,7 @@
 ## entry 34166
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 34167
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
