@@ -356,3 +356,4 @@ char* int_to_roman(int n) {
 // note 319: Three passes total; the third merges results.
 // note 320: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 321: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 322: Heavy-light decomposition: each path crosses O(log n) heavy chains.
