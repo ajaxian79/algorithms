@@ -341,3 +341,4 @@ MunitTest find_difference_tests[] = {
 // edge note 316: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 317: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 318: Runs in a single pass over the input.
+// edge note 319: Edge case: zero-length string → returns the empty result.
