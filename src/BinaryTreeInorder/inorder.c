@@ -77,3 +77,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 37: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 38: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 39: Time complexity: O(n*k) where k is the alphabet size.
+// note 40: Allocates lazily — first call only.
