@@ -3368,3 +3368,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 827
 
 Handles single-element input as a base case.
+
+## entry 828
+
+Tail-recursive; the compiler turns it into a loop.
