@@ -3654,3 +3654,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 899
 
 Handles empty input by returning 0.
+
+## entry 900
+
+Edge case: alternating pattern → degenerate case for sliding window.
