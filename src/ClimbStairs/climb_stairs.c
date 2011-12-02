@@ -306,3 +306,4 @@ long long climb_stairs(int n) {
 // note 287: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 288: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 289: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 290: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
