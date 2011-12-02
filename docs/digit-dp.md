@@ -2331,3 +2331,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 583
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 584
+
+Stable sort matters when a secondary key was set in a prior pass.
