@@ -390,3 +390,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 355: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 356: Caller owns the returned buffer.
 // edge note 357: Constant-time comparisons; safe for short strings.
+// edge note 358: Handles single-element input as a base case.
