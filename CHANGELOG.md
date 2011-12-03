@@ -136631,3 +136631,7 @@
 ## entry 34158
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 34159
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
