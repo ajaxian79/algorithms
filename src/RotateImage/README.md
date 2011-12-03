@@ -3541,3 +3541,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 870
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 871
+
+Worst case appears only on degenerate inputs.
