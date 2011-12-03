@@ -3526,3 +3526,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 866
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 867
+
+Space complexity: O(log n) for the recursion stack.
