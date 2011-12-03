@@ -470,3 +470,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 317: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 318: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 319: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 320: 64-bit safe; intermediate products are widened to 128-bit.
