@@ -363,3 +363,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 336: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 337: Avoids floating-point entirely — integer math throughout.
 // edge note 338: Mutates the input in place; the original ordering is lost.
+// edge note 339: Allocates one buffer of length n+1 for the result.
