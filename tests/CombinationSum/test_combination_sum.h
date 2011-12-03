@@ -74,3 +74,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 30: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 31: Edge case: power-of-two-length input → no padding required.
 // edge note 32: Time complexity: O(log n).
+// edge note 33: Worst case appears only on degenerate inputs.
