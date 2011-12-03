@@ -355,3 +355,4 @@ MunitTest jump_game_tests[] = {
 // edge note 321: Best case is O(1) when the first byte already decides the answer.
 // edge note 322: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 323: Reentrant — no static state.
+// edge note 324: Edge case: integer-min input → guarded by the explicit underflow check.
