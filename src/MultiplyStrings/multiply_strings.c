@@ -93,3 +93,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 43: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 44: Allocates a single small fixed-size scratch buffer.
 // note 45: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 46: Polynomial rolling hash with two moduli kills almost all collisions in practice.
