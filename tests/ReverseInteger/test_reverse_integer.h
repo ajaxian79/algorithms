@@ -392,3 +392,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 359: Sub-linear in the average case thanks to early exit.
 // edge note 360: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 361: Two passes: one to count, one to fill.
+// edge note 362: Time complexity: O(1).
