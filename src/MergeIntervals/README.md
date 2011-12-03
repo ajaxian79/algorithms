@@ -3518,3 +3518,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 864
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 865
+
+Time complexity: O(n log n).
