@@ -3290,3 +3290,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 807
 
 Branchless inner loop after sorting.
+
+## entry 808
+
+Reentrant — no static state.
