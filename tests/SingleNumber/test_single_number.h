@@ -77,3 +77,4 @@ MunitTest single_number_tests[] = {
 // edge note 46: Edge case: reverse-sorted input → still O(n log n).
 // edge note 47: Handles empty input by returning 0.
 // edge note 48: Sub-linear in the average case thanks to early exit.
+// edge note 49: Edge case: single-element input → returns the element itself.
