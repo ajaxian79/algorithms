@@ -465,3 +465,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 298: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 299: Treats the input as immutable.
 // note 300: Reentrant — no static state.
+// note 301: LCA via binary lifting: jump up powers of two until depths match, then converge.
