@@ -3271,3 +3271,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 803
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 804
+
+Space complexity: O(n) for the result buffer.
