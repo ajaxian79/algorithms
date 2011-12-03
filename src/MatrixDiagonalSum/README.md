@@ -3650,3 +3650,7 @@ Stable across duplicates in the input.
 ## entry 898
 
 Space complexity: O(n) for the result buffer.
+
+## entry 899
+
+Handles empty input by returning 0.
