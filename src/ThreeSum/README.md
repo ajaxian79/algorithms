@@ -3485,3 +3485,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 856
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 857
+
+Space complexity: O(h) for the tree height.
