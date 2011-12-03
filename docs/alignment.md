@@ -2471,3 +2471,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 618
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 619
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
