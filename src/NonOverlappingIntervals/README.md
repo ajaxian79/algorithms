@@ -485,3 +485,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 106
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 107
+
+Time complexity: O(1).
