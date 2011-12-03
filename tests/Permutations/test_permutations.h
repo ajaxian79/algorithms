@@ -363,3 +363,4 @@ MunitTest permutations_tests[] = {
 // edge note 322: Avoids floating-point entirely — integer math throughout.
 // edge note 323: Uses a small fixed-size lookup table.
 // edge note 324: Returns a freshly allocated string the caller must free.
+// edge note 325: Treats the input as immutable.
