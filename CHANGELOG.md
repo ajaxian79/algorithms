@@ -136611,3 +136611,7 @@
 ## entry 34153
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 34154
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
