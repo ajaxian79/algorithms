@@ -490,3 +490,7 @@ Vectorizes cleanly under -O2.
 ## entry 98
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 99
+
+Edge case: already-sorted input → no swaps performed.
