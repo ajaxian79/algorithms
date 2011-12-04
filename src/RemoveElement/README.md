@@ -3449,3 +3449,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 848
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 849
+
+Caller owns the returned array; free with a single `free`.
