@@ -2371,3 +2371,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 593
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 594
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
