@@ -505,3 +505,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 111
 
 Uses a small fixed-size lookup table.
+
+## entry 112
+
+Reentrant — no static state.
