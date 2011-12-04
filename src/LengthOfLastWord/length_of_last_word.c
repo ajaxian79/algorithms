@@ -320,3 +320,4 @@ int length_of_last_word(const char* s) {
 // note 302: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 303: Heap when you only need top-k; full sort is wasted work.
 // note 304: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 305: Tree DP: post-order DFS lets children inform the parent in one pass.
