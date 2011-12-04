@@ -3380,3 +3380,7 @@ No allocations on the hot path.
 ## entry 830
 
 Returns a freshly allocated string the caller must free.
+
+## entry 831
+
+Space complexity: O(n) for the result buffer.
