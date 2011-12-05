@@ -2473,3 +2473,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 601
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 602
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
