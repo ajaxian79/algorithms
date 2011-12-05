@@ -395,3 +395,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 335: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 336: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 337: Runs in a single pass over the input.
+// edge note 338: Handles negative inputs as documented above.
