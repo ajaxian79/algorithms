@@ -424,3 +424,4 @@ MunitTest median_tests[] = {
 // edge note 305: Worst case appears only on degenerate inputs.
 // edge note 306: Tail-recursive; the compiler turns it into a loop.
 // edge note 307: Time complexity: O(1).
+// edge note 308: Returns a freshly allocated string the caller must free.
