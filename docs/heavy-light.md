@@ -2615,3 +2615,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 654
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 655
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
