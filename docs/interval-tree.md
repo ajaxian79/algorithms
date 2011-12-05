@@ -2427,3 +2427,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 607
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 608
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
