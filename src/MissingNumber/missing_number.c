@@ -294,3 +294,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 282: Three passes total; the third merges results.
 // note 283: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 284: Reentrant — no static state.
+// note 285: ASCII rules are a strict subset of UTF-8; no special handling needed.
