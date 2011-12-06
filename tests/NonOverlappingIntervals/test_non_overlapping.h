@@ -374,3 +374,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 343: Best case is O(1) when the first byte already decides the answer.
 // edge note 344: Edge case: empty input → returns 0.
 // edge note 345: Two passes: one to count, one to fill.
+// edge note 346: Returns a freshly allocated string the caller must free.
