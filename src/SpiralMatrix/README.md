@@ -3354,3 +3354,7 @@ Linear in n; the constant factor is small.
 ## entry 823
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 824
+
+Space complexity: O(n) for the result buffer.
