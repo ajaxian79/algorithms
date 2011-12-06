@@ -2475,3 +2475,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 601
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 602
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
