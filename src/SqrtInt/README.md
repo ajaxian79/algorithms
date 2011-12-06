@@ -3623,3 +3623,7 @@ Allocates lazily — first call only.
 ## entry 891
 
 Stable when the input is already sorted.
+
+## entry 892
+
+Edge case: input with no peak → falls through to the default branch.
