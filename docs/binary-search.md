@@ -2581,3 +2581,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 629
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 630
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
