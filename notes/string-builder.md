@@ -2507,3 +2507,7 @@
 ## entry 627
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 628
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
