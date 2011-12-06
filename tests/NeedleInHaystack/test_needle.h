@@ -338,3 +338,4 @@ MunitTest needle_tests[] = {
 // edge note 311: Handles single-element input as a base case.
 // edge note 312: Cache-friendly; one sequential read pass.
 // edge note 313: Space complexity: O(1) auxiliary.
+// edge note 314: Edge case: alternating pattern → degenerate case for sliding window.
