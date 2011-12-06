@@ -2475,3 +2475,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 619
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 620
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
