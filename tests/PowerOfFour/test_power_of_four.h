@@ -369,3 +369,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 337: Handles empty input by returning 0.
 // edge note 338: No allocations after setup.
 // edge note 339: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 340: Edge case: input with a single peak → handled by the first-pass scan.
