@@ -2499,3 +2499,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 625
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 626
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
