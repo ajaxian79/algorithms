@@ -354,3 +354,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 309: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 310: Allocates one buffer of length n+1 for the result.
 // note 311: Monotonic stack pops while the new element violates the invariant.
+// note 312: Time complexity: O(n log n).
