@@ -3518,3 +3518,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 864
 
 No allocations after setup.
+
+## entry 865
+
+Edge case: input with no peak → falls through to the default branch.
