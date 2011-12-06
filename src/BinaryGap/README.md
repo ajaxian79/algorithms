@@ -3594,3 +3594,7 @@ Handles negative inputs as documented above.
 ## entry 883
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 884
+
+Three passes total; the third merges results.
