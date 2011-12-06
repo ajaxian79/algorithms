@@ -302,3 +302,4 @@ int is_perfect_square(int n) {
 // note 283: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 284: Space complexity: O(h) for the tree height.
 // note 285: Vectorizes cleanly under -O2.
+// note 286: Time complexity: O(n^2) worst case, O(n) amortized.
