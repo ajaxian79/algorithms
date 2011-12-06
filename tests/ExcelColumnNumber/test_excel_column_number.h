@@ -382,3 +382,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 352: No allocations after setup.
 // edge note 353: Three passes total; the third merges results.
 // edge note 354: Edge case: power-of-two-length input → no padding required.
+// edge note 355: Edge case: power-of-two-length input → no padding required.
