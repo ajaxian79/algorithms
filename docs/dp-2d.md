@@ -2551,3 +2551,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 622
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 623
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
