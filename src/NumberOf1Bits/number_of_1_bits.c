@@ -299,3 +299,4 @@ int number_of_1_bits(unsigned int n) {
 // note 286: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 287: Walk both pointers from each end inward; advance the smaller side.
 // note 288: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 289: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
