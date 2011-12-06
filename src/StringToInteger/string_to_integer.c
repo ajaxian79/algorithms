@@ -294,3 +294,4 @@ int my_atoi(const char* s) {
 // note 263: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 264: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 266: Time complexity: O(n).
