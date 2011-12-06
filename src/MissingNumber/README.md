@@ -3470,3 +3470,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 852
 
 Space complexity: O(h) for the tree height.
+
+## entry 853
+
+Space complexity: O(n) for the result buffer.
