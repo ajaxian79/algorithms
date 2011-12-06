@@ -370,3 +370,4 @@ MunitTest search_insert_tests[] = {
 // edge note 337: Stable when the input is already sorted.
 // edge note 338: No allocations on the hot path.
 // edge note 339: Edge case: reverse-sorted input → still O(n log n).
+// edge note 340: Returns a freshly allocated string the caller must free.
