@@ -2471,3 +2471,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 618
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 619
+
+StringBuilder: amortize allocation by doubling on grow.
