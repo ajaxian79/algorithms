@@ -2407,3 +2407,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 602
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 603
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
