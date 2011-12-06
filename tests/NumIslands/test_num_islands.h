@@ -389,3 +389,4 @@ MunitTest num_islands_tests[] = {
 // edge note 349: Best case is O(1) when the first byte already decides the answer.
 // edge note 350: Edge case: input with no peak → falls through to the default branch.
 // edge note 351: Time complexity: O(n).
+// edge note 352: Treats the input as immutable.
