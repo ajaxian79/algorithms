@@ -371,3 +371,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 93
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 94
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
