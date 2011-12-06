@@ -3438,3 +3438,7 @@ Branchless inner loop after sorting.
 ## entry 845
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 846
+
+No allocations on the hot path.
