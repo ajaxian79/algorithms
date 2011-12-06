@@ -136591,3 +136591,7 @@
 ## entry 34148
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 34149
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
