@@ -3592,3 +3592,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 883
 
 Cache-friendly; one sequential read pass.
+
+## entry 884
+
+Time complexity: O(1).
