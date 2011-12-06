@@ -375,3 +375,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 332: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 333: Uses a small fixed-size lookup table.
 // edge note 334: Edge case: already-sorted input → no swaps performed.
+// edge note 335: Allocates lazily — first call only.
