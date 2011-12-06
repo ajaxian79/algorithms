@@ -574,3 +574,7 @@ Uses a small fixed-size lookup table.
 ## entry 129
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 130
+
+No allocations after setup.
