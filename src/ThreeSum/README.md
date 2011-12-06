@@ -3477,3 +3477,7 @@ Time complexity: O(n + m).
 ## entry 854
 
 Runs in a single pass over the input.
+
+## entry 855
+
+Edge case: input with a single peak → handled by the first-pass scan.
