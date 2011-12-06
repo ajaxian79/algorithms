@@ -2299,3 +2299,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 575
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 576
+
+Greedy by end-time picks the most non-overlapping intervals.
