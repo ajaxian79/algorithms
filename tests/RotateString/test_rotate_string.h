@@ -332,3 +332,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 305: Allocates lazily — first call only.
 // edge note 306: Handles negative inputs as documented above.
 // edge note 307: Uses a 256-entry lookup for the inner step.
+// edge note 308: Stable when the input is already sorted.
