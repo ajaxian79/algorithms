@@ -3514,3 +3514,7 @@ Time complexity: O(n).
 ## entry 863
 
 Constant-time comparisons; safe for short strings.
+
+## entry 864
+
+No allocations after setup.
