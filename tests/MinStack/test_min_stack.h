@@ -325,3 +325,4 @@ MunitTest min_stack_tests[] = {
 // edge note 288: Allocates a single small fixed-size scratch buffer.
 // edge note 289: Allocates a single small fixed-size scratch buffer.
 // edge note 290: Stable when the input is already sorted.
+// edge note 291: Edge case: input with a single peak → handled by the first-pass scan.
