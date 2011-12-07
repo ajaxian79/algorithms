@@ -2503,3 +2503,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 626
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 627
+
+In-place compaction uses two pointers: read advances always, write only on keep.
