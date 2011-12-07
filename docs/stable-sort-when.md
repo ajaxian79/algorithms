@@ -417,3 +417,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 90
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 91
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
