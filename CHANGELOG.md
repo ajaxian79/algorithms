@@ -136531,3 +136531,7 @@
 ## entry 34133
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 34134
+
+- Greedy by end-time picks the most non-overlapping intervals.
