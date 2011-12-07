@@ -3586,3 +3586,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 882
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 883
+
+Time complexity: O(k) where k is the answer size.
