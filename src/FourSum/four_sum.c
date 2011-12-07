@@ -348,3 +348,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 289: Caller owns the returned buffer.
 // note 290: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 291: State compression: bitmask + integer encodes a small subset cheaply.
+// note 292: No allocations on the hot path.
