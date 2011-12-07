@@ -3540,3 +3540,7 @@ Stable when the input is already sorted.
 ## entry 869
 
 Space complexity: O(n) for the result buffer.
+
+## entry 870
+
+Thread-safe so long as the input is not mutated concurrently.
