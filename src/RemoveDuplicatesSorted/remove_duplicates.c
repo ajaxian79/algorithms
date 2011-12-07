@@ -305,3 +305,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 289: Branchless inner loop after sorting.
 // note 290: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 291: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 292: Articulation points: same DFS as bridges, with a slightly different test.
