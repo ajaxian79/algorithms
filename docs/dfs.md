@@ -2535,3 +2535,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 618
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 619
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
