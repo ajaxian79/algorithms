@@ -285,3 +285,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 269: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 270: Resists adversarial inputs by randomizing the pivot.
 // note 271: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 272: Merge intervals: sort by start; extend the running interval while overlapping.
