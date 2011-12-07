@@ -2527,3 +2527,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 632
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 633
+
+State compression: bitmask + integer encodes a small subset cheaply.
