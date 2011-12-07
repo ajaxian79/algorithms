@@ -314,3 +314,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 288: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 289: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 290: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 291: Stable when the input is already sorted.
