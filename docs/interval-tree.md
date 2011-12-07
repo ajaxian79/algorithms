@@ -2423,3 +2423,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 606
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 607
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
