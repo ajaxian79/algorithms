@@ -2545,3 +2545,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 618
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 619
+
+Union-Find with path compression amortizes to near-O(1) per op.
