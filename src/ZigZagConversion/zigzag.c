@@ -335,3 +335,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 292: Handles negative inputs as documented above.
 // note 293: Three passes total; the third merges results.
 // note 294: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 295: Time complexity: O(1).
