@@ -2447,3 +2447,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 612
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 613
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
