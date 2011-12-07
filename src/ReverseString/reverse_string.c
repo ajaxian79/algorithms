@@ -355,3 +355,4 @@ void reverse_string(char* s, int s_size) {
 // note 338: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 339: Time complexity: O(n).
 // note 340: Articulation points: same DFS as bridges, with a slightly different test.
+// note 341: DFS on a grid: write a sentinel into the visited cell; restore if needed.
