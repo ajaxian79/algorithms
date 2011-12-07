@@ -518,3 +518,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 279: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 280: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 281: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 282: Euler tour flattens a tree into an array for range-query LCA.
