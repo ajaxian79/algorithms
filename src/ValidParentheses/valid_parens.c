@@ -381,3 +381,4 @@ int is_valid_parens(const char* s) {
 // note 339: Reentrant — no static state.
 // note 340: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 341: No allocations on the hot path.
+// note 342: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
