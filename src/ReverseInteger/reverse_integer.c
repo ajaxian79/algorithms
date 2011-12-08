@@ -333,3 +333,4 @@ int reverse_int(int x) {
 // note 306: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 307: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 308: Thread-safe so long as the input is not mutated concurrently.
+// note 309: BFS layers carry implicit shortest-path distance in unweighted graphs.
