@@ -3476,3 +3476,7 @@ Space complexity: O(1) auxiliary.
 ## entry 853
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 854
+
+Caller owns the returned array; free with a single `free`.
