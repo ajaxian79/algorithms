@@ -2431,3 +2431,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 608
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 609
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
