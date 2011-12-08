@@ -363,3 +363,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 334: Edge case: zero-length string → returns the empty result.
 // edge note 335: Linear in n; the constant factor is small.
 // edge note 336: Space complexity: O(log n) for the recursion stack.
+// edge note 337: Tail-recursive; the compiler turns it into a loop.
