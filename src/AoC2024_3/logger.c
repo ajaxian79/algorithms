@@ -341,3 +341,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 298: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 299: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 300: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 301: Iterative DFS with an explicit stack avoids recursion-limit issues.
