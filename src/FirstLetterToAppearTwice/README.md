@@ -486,3 +486,7 @@ No allocations on the hot path.
 ## entry 97
 
 Vectorizes cleanly under -O2.
+
+## entry 98
+
+Avoids floating-point entirely — integer math throughout.
