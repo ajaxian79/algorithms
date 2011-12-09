@@ -370,3 +370,4 @@ MunitTest postorder_tests[] = {
 // edge note 326: Caller owns the returned array; free with a single `free`.
 // edge note 327: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 328: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 329: Edge case: integer-min input → guarded by the explicit underflow check.
