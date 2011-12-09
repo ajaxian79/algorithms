@@ -413,3 +413,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 85
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 86
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
