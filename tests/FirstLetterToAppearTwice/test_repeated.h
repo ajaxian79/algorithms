@@ -409,3 +409,4 @@ MunitTest repeated_tests[] = {
 // edge note 353: Allocates one buffer of length n+1 for the result.
 // edge note 354: Tail-recursive; the compiler turns it into a loop.
 // edge note 355: Constant-time comparisons; safe for short strings.
+// edge note 356: Uses a small fixed-size lookup table.
