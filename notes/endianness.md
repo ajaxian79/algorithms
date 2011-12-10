@@ -2487,3 +2487,7 @@
 ## entry 622
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 623
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
