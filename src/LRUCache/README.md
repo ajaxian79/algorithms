@@ -3348,3 +3348,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 821
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 822
+
+Edge case: input with a single peak → handled by the first-pass scan.
