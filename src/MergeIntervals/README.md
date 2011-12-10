@@ -3510,3 +3510,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 862
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 863
+
+Avoids floating-point entirely — integer math throughout.
