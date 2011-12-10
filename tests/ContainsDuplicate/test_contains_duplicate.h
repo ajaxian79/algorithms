@@ -359,3 +359,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 316: Edge case: zero-length string → returns the empty result.
 // edge note 317: Constant-time comparisons; safe for short strings.
 // edge note 318: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 319: Handles empty input by returning 0.
