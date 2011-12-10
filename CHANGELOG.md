@@ -136503,3 +136503,7 @@
 ## entry 34126
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 34127
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
