@@ -3352,3 +3352,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 822
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 823
+
+Input is assumed non-NULL; behavior is undefined otherwise.
