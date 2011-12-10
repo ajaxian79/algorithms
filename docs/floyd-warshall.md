@@ -367,3 +367,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 92
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 93
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
