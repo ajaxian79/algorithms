@@ -365,3 +365,4 @@ MunitTest remove_element_tests[] = {
 // edge note 328: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 329: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 330: Stable when the input is already sorted.
+// edge note 331: Returns a freshly allocated string the caller must free.
