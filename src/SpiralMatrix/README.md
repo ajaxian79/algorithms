@@ -3350,3 +3350,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 822
 
 Linear in n; the constant factor is small.
+
+## entry 823
+
+Avoids floating-point entirely — integer math throughout.
