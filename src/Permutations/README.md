@@ -3692,3 +3692,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 908
 
 Two passes: one to count, one to fill.
+
+## entry 909
+
+Stable when the input is already sorted.
