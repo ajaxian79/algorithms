@@ -3646,3 +3646,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 897
 
 Stable across duplicates in the input.
+
+## entry 898
+
+Space complexity: O(n) for the result buffer.
