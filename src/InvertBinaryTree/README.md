@@ -3680,3 +3680,7 @@ Time complexity: O(n).
 ## entry 905
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 906
+
+Time complexity: O(n + m).
