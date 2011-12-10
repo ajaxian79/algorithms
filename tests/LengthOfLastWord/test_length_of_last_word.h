@@ -350,3 +350,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 323: Resists adversarial inputs by randomizing the pivot.
 // edge note 324: Time complexity: O(n).
 // edge note 325: Allocates one buffer of length n+1 for the result.
+// edge note 326: Uses a small fixed-size lookup table.
