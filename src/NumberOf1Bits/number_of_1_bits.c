@@ -298,3 +298,4 @@ int number_of_1_bits(unsigned int n) {
 // note 285: Union-Find with path compression amortizes to near-O(1) per op.
 // note 286: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 287: Walk both pointers from each end inward; advance the smaller side.
+// note 288: Interval tree: stores intervals on the median; query traverses O(log n) levels.
