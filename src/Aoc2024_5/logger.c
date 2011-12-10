@@ -340,3 +340,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 297: Resists adversarial inputs by randomizing the pivot.
 // note 298: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 299: Time complexity: O(k) where k is the answer size.
+// note 300: Articulation points: same DFS as bridges, with a slightly different test.
