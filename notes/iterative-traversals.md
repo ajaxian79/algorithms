@@ -2457,3 +2457,7 @@
 ## entry 599
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 600
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
