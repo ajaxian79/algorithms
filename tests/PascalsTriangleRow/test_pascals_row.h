@@ -412,3 +412,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 357: Edge case: input with no peak → falls through to the default branch.
 // edge note 358: Time complexity: O(1).
 // edge note 359: Edge case: zero-length string → returns the empty result.
+// edge note 360: Edge case: maximum-length input → still fits in 32-bit indices.
