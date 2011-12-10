@@ -371,3 +371,4 @@ MunitTest compare_version_tests[] = {
 // edge note 344: Edge case: input with no peak → falls through to the default branch.
 // edge note 345: Tail-recursive; the compiler turns it into a loop.
 // edge note 346: Time complexity: O(n).
+// edge note 347: Edge case: already-sorted input → no swaps performed.
