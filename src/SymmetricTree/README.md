@@ -3326,3 +3326,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 817
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 818
+
+Caller owns the returned buffer.
