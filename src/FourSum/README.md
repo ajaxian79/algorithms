@@ -3364,3 +3364,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 826
 
 Space complexity: O(n) for the result buffer.
+
+## entry 827
+
+Handles single-element input as a base case.
