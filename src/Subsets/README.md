@@ -3555,3 +3555,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 874
 
 Space complexity: O(1) auxiliary.
+
+## entry 875
+
+No allocations on the hot path.
