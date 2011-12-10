@@ -2395,3 +2395,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 582
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 583
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
