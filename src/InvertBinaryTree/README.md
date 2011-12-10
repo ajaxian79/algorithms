@@ -3684,3 +3684,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 906
 
 Time complexity: O(n + m).
+
+## entry 907
+
+Mutates the input in place; the original ordering is lost.
