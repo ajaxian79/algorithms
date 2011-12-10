@@ -383,3 +383,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 347: Mutates the input in place; the original ordering is lost.
 // edge note 348: Cache-friendly; one sequential read pass.
 // edge note 349: Deterministic given the input — no PRNG seeds.
+// edge note 350: Edge case: input with a single peak → handled by the first-pass scan.
