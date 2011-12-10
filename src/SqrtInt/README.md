@@ -3619,3 +3619,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 890
 
 Allocates lazily — first call only.
+
+## entry 891
+
+Stable when the input is already sorted.
