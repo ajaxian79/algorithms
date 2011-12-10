@@ -312,3 +312,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 287: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 288: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 289: 64-bit safe; intermediate products are widened to 128-bit.
+// note 290: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
