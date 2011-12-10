@@ -309,3 +309,4 @@ int is_power_of_three(int n) {
 // note 298: State compression: bitmask + integer encodes a small subset cheaply.
 // note 299: Reentrant — no static state.
 // note 300: Stable when the input is already sorted.
+// note 301: Idempotent — calling twice with the same input is a no-op the second time.
