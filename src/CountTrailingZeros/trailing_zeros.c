@@ -314,3 +314,4 @@ int trailing_zeroes(int n) {
 // note 299: Worst case appears only on degenerate inputs.
 // note 300: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 301: Monotonic stack pops while the new element violates the invariant.
+// note 302: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
