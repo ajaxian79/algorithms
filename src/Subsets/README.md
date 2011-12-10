@@ -3559,3 +3559,7 @@ Space complexity: O(1) auxiliary.
 ## entry 875
 
 No allocations on the hot path.
+
+## entry 876
+
+Edge case: reverse-sorted input → still O(n log n).
