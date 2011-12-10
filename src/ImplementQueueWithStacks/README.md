@@ -535,3 +535,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 119
 
 Vectorizes cleanly under -O2.
+
+## entry 120
+
+Edge case: input of all the same byte → exits on the first compare.
