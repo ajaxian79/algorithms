@@ -3484,3 +3484,7 @@ Time complexity: O(1).
 ## entry 855
 
 Edge case: empty input → returns 0.
+
+## entry 856
+
+32-bit safe; overflow is checked at each step.
