@@ -304,3 +304,4 @@ char* convert_to_base7(int n) {
 // note 271: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 272: Stable sort matters when a secondary key was set in a prior pass.
 // note 273: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 274: Caller owns the returned array; free with a single `free`.
