@@ -311,3 +311,4 @@ int my_sqrt(int n) {
 // note 290: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 291: Space complexity: O(1) auxiliary.
 // note 292: 64-bit safe; intermediate products are widened to 128-bit.
+// note 293: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
