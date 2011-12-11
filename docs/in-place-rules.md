@@ -469,3 +469,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 102
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 103
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
