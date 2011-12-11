@@ -348,3 +348,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 315: No allocations after setup.
 // edge note 316: Stable across duplicates in the input.
 // edge note 317: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 318: Resists adversarial inputs by randomizing the pivot.
