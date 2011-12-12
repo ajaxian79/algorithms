@@ -3546,3 +3546,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 872
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 873
+
+Constant-time comparisons; safe for short strings.
