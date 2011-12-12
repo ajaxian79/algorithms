@@ -293,3 +293,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 281: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 282: Three passes total; the third merges results.
 // note 283: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 284: Reentrant — no static state.
