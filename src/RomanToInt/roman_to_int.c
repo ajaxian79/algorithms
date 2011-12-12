@@ -333,3 +333,4 @@ int roman_to_int(const char* s) {
 // note 293: Euler tour flattens a tree into an array for range-query LCA.
 // note 294: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 295: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 296: Monotonic deque: push back, pop back to maintain order, pop front when stale.
