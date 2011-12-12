@@ -318,3 +318,4 @@ int is_palindrome_number(int x) {
 // note 294: Handles empty input by returning 0.
 // note 295: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 296: Constant-time comparisons; safe for short strings.
+// note 297: Best case is O(1) when the first byte already decides the answer.
