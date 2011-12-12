@@ -3346,3 +3346,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 821
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 822
+
+Linear in n; the constant factor is small.
