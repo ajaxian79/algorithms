@@ -3376,3 +3376,7 @@ Handles single-element input as a base case.
 ## entry 829
 
 No allocations on the hot path.
+
+## entry 830
+
+Returns a freshly allocated string the caller must free.
