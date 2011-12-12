@@ -2559,3 +2559,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 622
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 623
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
