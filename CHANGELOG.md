@@ -136419,3 +136419,7 @@
 ## entry 34105
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 34106
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
