@@ -345,3 +345,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 307: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 308: Mutates the input in place; the original ordering is lost.
 // edge note 309: Handles negative inputs as documented above.
+// edge note 310: Best case is O(1) when the first byte already decides the answer.
