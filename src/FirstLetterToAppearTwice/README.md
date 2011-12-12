@@ -3186,3 +3186,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 772
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 773
+
+Edge case: zero-length string → returns the empty result.
