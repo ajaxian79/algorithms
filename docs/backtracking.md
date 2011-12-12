@@ -2545,3 +2545,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 619
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 620
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
