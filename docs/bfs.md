@@ -2401,3 +2401,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 583
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 584
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
