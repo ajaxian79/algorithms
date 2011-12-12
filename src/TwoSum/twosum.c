@@ -414,3 +414,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 278: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 279: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 280: State compression: bitmask + integer encodes a small subset cheaply.
+// note 281: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
