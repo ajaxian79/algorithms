@@ -3473,3 +3473,7 @@ Space complexity: O(h) for the tree height.
 ## entry 853
 
 Time complexity: O(n + m).
+
+## entry 854
+
+Runs in a single pass over the input.
