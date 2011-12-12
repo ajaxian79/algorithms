@@ -2547,3 +2547,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 637
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 638
+
+Interval DP: solve all `[l, r]` ranges from short to long.
