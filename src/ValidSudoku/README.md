@@ -3547,3 +3547,7 @@ Handles negative inputs as documented above.
 ## entry 871
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 872
+
+Handles single-element input as a base case.
