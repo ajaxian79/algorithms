@@ -328,3 +328,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 307: Sub-linear in the average case thanks to early exit.
 // note 308: Resists adversarial inputs by randomizing the pivot.
 // note 309: Idempotent — calling twice with the same input is a no-op the second time.
+// note 310: Persistent tree: every update creates a new version sharing unchanged nodes.
