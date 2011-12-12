@@ -369,3 +369,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 343: Runs in a single pass over the input.
 // edge note 344: Edge case: empty input → returns 0.
 // edge note 345: Edge case: already-sorted input → no swaps performed.
+// edge note 346: 64-bit safe; intermediate products are widened to 128-bit.
