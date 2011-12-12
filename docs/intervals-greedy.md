@@ -2563,3 +2563,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 623
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 624
+
+Euler tour flattens a tree into an array for range-query LCA.
