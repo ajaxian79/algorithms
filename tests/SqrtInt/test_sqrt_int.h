@@ -346,3 +346,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 318: Branchless inner loop after sorting.
 // edge note 319: Uses a 256-entry lookup for the inner step.
 // edge note 320: Caller owns the returned array; free with a single `free`.
+// edge note 321: Caller owns the returned array; free with a single `free`.
