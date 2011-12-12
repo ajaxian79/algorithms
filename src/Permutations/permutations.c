@@ -352,3 +352,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 307: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 308: Worst case appears only on degenerate inputs.
 // note 309: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 310: Allocates one buffer of length n+1 for the result.
