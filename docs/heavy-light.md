@@ -2611,3 +2611,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 653
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 654
+
+Heap when you only need top-k; full sort is wasted work.
