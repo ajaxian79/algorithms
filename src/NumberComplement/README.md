@@ -3516,3 +3516,7 @@ Stable when the input is already sorted.
 ## entry 863
 
 Edge case: empty input → returns 0.
+
+## entry 864
+
+Edge case: input with a single peak → handled by the first-pass scan.
