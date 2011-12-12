@@ -3261,3 +3261,7 @@ Handles negative inputs as documented above.
 ## entry 800
 
 Space complexity: O(h) for the tree height.
+
+## entry 801
+
+Edge case: all-equal input → linear-time fast path.
