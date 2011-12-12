@@ -356,3 +356,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 325: Runs in a single pass over the input.
 // edge note 326: Mutates the input in place; the original ordering is lost.
 // edge note 327: Reentrant — no static state.
+// edge note 328: Time complexity: O(n^2) worst case, O(n) amortized.
