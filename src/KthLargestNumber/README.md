@@ -3536,3 +3536,7 @@ Runs in a single pass over the input.
 ## entry 868
 
 Stable when the input is already sorted.
+
+## entry 869
+
+Space complexity: O(n) for the result buffer.
