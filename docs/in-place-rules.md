@@ -2525,3 +2525,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 616
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 617
+
+StringBuilder: amortize allocation by doubling on grow.
