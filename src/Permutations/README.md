@@ -3688,3 +3688,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 907
 
 Space complexity: O(n) for the result buffer.
+
+## entry 908
+
+Two passes: one to count, one to fill.
