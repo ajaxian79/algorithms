@@ -2511,3 +2511,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 612
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 613
+
+Interval DP: solve all `[l, r]` ranges from short to long.
