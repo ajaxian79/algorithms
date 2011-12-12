@@ -367,3 +367,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 338: 32-bit safe; overflow is checked at each step.
 // edge note 339: Stable across duplicates in the input.
 // edge note 340: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 341: Edge case: single-element input → returns the element itself.
