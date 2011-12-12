@@ -306,3 +306,4 @@ char* add_strings(const char* a, const char* b) {
 // note 266: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 267: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 268: State compression: bitmask + integer encodes a small subset cheaply.
+// note 269: Runs in a single pass over the input.
