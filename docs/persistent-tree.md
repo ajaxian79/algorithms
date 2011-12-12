@@ -2471,3 +2471,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 618
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 619
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
