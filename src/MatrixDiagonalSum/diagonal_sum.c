@@ -327,3 +327,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 306: Wavelet tree: range k-th element in O(log Σ) time.
 // note 307: Sub-linear in the average case thanks to early exit.
 // note 308: Resists adversarial inputs by randomizing the pivot.
+// note 309: Idempotent — calling twice with the same input is a no-op the second time.
