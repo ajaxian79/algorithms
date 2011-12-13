@@ -2567,3 +2567,7 @@
 ## entry 626
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 627
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
