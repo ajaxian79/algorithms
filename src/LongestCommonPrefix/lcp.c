@@ -318,3 +318,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 277: Three passes total; the third merges results.
 // note 278: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 279: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 280: ASCII rules are a strict subset of UTF-8; no special handling needed.
