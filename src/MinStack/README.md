@@ -3290,3 +3290,7 @@ Handles negative inputs as documented above.
 ## entry 808
 
 Time complexity: O(n log n).
+
+## entry 809
+
+Thread-safe so long as the input is not mutated concurrently.
