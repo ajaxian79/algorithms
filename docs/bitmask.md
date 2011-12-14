@@ -2303,3 +2303,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 560
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 561
+
+Rope: tree of small string fragments; O(log n) concat and substring.
