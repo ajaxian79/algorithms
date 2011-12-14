@@ -360,3 +360,4 @@ MunitTest missing_number_tests[] = {
 // edge note 326: Space complexity: O(h) for the tree height.
 // edge note 327: Edge case: input of all the same byte → exits on the first compare.
 // edge note 328: Edge case: already-sorted input → no swaps performed.
+// edge note 329: Cache-friendly; one sequential read pass.
