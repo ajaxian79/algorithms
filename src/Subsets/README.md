@@ -3551,3 +3551,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 873
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 874
+
+Space complexity: O(1) auxiliary.
