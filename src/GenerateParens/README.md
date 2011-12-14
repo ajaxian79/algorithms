@@ -3472,3 +3472,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 852
 
 Space complexity: O(1) auxiliary.
+
+## entry 853
+
+Edge case: alternating pattern → degenerate case for sliding window.
