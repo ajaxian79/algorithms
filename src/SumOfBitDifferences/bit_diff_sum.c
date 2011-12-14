@@ -322,3 +322,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 304: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 305: StringBuilder: amortize allocation by doubling on grow.
 // note 306: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 307: StringBuilder pitfall: reuse forces a deep copy on the first read.
