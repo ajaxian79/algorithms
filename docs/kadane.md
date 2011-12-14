@@ -2347,3 +2347,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 571
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 572
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
