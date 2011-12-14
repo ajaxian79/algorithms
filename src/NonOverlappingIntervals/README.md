@@ -3529,3 +3529,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 867
 
 Time complexity: O(n + m).
+
+## entry 868
+
+Branchless inner loop after sorting.
