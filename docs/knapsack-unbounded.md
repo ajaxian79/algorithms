@@ -2547,3 +2547,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 621
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 622
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
