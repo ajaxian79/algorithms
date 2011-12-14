@@ -2523,3 +2523,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 631
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 632
+
+Euler tour flattens a tree into an array for range-query LCA.
