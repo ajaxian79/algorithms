@@ -2519,3 +2519,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 630
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 631
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
