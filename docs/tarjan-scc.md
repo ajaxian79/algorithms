@@ -2467,3 +2467,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 617
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 618
+
+Articulation points: same DFS as bridges, with a slightly different test.
