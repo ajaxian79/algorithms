@@ -318,3 +318,4 @@ int compare_version(const char* a, const char* b) {
 // note 288: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 289: LIS via patience: each pile holds the smallest tail of length k.
 // note 290: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 291: k-d tree: median-split each axis; nearest-neighbor average O(log n).
