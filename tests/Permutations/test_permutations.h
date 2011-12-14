@@ -361,3 +361,4 @@ MunitTest permutations_tests[] = {
 // edge note 320: No allocations on the hot path.
 // edge note 321: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 322: Avoids floating-point entirely — integer math throughout.
+// edge note 323: Uses a small fixed-size lookup table.
