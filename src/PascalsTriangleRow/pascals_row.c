@@ -329,3 +329,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 299: Walk both pointers from each end inward; advance the smaller side.
 // note 300: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 301: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 302: Branchless inner loop after sorting.
