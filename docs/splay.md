@@ -2319,3 +2319,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 580
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 581
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
