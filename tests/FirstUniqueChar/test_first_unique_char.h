@@ -370,3 +370,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 345: Resists adversarial inputs by randomizing the pivot.
 // edge note 346: Time complexity: O(k) where k is the answer size.
 // edge note 347: Edge case: empty input → returns 0.
+// edge note 348: Space complexity: O(log n) for the recursion stack.
