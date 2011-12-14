@@ -2595,3 +2595,7 @@
 ## entry 634
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 635
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
