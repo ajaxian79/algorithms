@@ -3263,3 +3263,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 801
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 802
+
+Edge case: already-sorted input → no swaps performed.
