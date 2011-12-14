@@ -373,3 +373,4 @@ MunitTest min_depth_tests[] = {
 // edge note 334: Allocates a single small fixed-size scratch buffer.
 // edge note 335: Edge case: empty input → returns 0.
 // edge note 336: Returns a freshly allocated string the caller must free.
+// edge note 337: Linear in n; the constant factor is small.
