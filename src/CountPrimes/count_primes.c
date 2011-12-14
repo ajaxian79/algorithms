@@ -305,3 +305,4 @@ int count_primes(int n) {
 // note 277: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 278: Cache-friendly; one sequential read pass.
 // note 279: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 280: Interval DP: solve all `[l, r]` ranges from short to long.
