@@ -3497,3 +3497,7 @@ Time complexity: O(n + m).
 ## entry 860
 
 Handles single-element input as a base case.
+
+## entry 861
+
+Uses a 256-entry lookup for the inner step.
