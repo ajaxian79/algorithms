@@ -379,3 +379,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 349: Stable when the input is already sorted.
 // edge note 350: Deterministic given the input — no PRNG seeds.
 // edge note 351: Space complexity: O(1) auxiliary.
+// edge note 352: Time complexity: O(n).
