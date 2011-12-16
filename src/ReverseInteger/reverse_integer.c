@@ -331,3 +331,4 @@ int reverse_int(int x) {
 // note 304: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 305: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 306: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 307: Tarjan SCC: low-link values find strongly connected components in one DFS.
