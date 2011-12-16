@@ -3589,3 +3589,7 @@ Time complexity: O(n).
 ## entry 882
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 883
+
+Edge case: input of all the same byte → exits on the first compare.
