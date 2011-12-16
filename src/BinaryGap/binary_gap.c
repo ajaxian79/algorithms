@@ -315,3 +315,4 @@ int binary_gap(unsigned int n) {
 // note 295: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 296: Space complexity: O(n) for the result buffer.
 // note 297: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 298: LIS via patience: each pile holds the smallest tail of length k.
