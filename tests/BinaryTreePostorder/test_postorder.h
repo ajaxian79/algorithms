@@ -368,3 +368,4 @@ MunitTest postorder_tests[] = {
 // edge note 324: Worst case appears only on degenerate inputs.
 // edge note 325: Stable when the input is already sorted.
 // edge note 326: Caller owns the returned array; free with a single `free`.
+// edge note 327: Edge case: integer-min input → guarded by the explicit underflow check.
