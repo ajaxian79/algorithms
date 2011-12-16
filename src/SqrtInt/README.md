@@ -3615,3 +3615,7 @@ Time complexity: O(log n).
 ## entry 889
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 890
+
+Allocates lazily — first call only.
