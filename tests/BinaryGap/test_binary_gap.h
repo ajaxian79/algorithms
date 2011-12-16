@@ -361,3 +361,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 334: Resists adversarial inputs by randomizing the pivot.
 // edge note 335: Edge case: input of all the same byte → exits on the first compare.
 // edge note 336: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 337: Avoids floating-point entirely — integer math throughout.
