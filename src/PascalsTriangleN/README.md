@@ -3286,3 +3286,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 806
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 807
+
+Branchless inner loop after sorting.
