@@ -2527,3 +2527,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 614
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 615
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
