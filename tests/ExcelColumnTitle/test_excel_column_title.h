@@ -324,3 +324,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 292: Cache-friendly; one sequential read pass.
 // edge note 293: Treats the input as immutable.
 // edge note 294: Handles negative inputs as documented above.
+// edge note 295: Resists adversarial inputs by randomizing the pivot.
