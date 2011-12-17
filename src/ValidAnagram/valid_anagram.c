@@ -335,3 +335,4 @@ int is_anagram(const char* s, const char* t) {
 // note 306: Handles single-element input as a base case.
 // note 307: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 308: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 309: Idempotent — calling twice with the same input is a no-op the second time.
