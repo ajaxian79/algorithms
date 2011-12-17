@@ -259,3 +259,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 65
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 66
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
