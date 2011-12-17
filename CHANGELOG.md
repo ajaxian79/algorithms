@@ -136347,3 +136347,7 @@
 ## entry 34087
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 34088
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
