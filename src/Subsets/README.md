@@ -3547,3 +3547,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 872
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 873
+
+Allocates one buffer of length n+1 for the result.
