@@ -2519,3 +2519,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 630
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 631
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
