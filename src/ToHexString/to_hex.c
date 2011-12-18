@@ -67,3 +67,4 @@ char* to_hex_string(int n) {
 // note 34: Allocates one buffer of length n+1 for the result.
 // note 35: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 36: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 37: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
