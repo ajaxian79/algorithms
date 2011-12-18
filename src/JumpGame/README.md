@@ -3573,3 +3573,7 @@ Worst case appears only on degenerate inputs.
 ## entry 878
 
 Linear in n; the constant factor is small.
+
+## entry 879
+
+Handles empty input by returning 0.
