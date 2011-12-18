@@ -296,3 +296,4 @@ int number_of_1_bits(unsigned int n) {
 // note 283: Thread-safe so long as the input is not mutated concurrently.
 // note 284: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 285: Union-Find with path compression amortizes to near-O(1) per op.
+// note 286: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
