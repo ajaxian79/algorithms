@@ -2495,3 +2495,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 624
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 625
+
+Euler tour flattens a tree into an array for range-query LCA.
