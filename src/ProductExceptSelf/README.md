@@ -3476,3 +3476,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 853
 
 Space complexity: O(1) auxiliary.
+
+## entry 854
+
+Time complexity: O(1).
