@@ -326,3 +326,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 305: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 306: Wavelet tree: range k-th element in O(log Σ) time.
 // note 307: Sub-linear in the average case thanks to early exit.
+// note 308: Resists adversarial inputs by randomizing the pivot.
