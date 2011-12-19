@@ -353,3 +353,4 @@ void reverse_string(char* s, int s_size) {
 // note 336: Caller owns the returned array; free with a single `free`.
 // note 337: Three passes total; the third merges results.
 // note 338: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 339: Time complexity: O(n).
