@@ -3182,3 +3182,7 @@ Reentrant — no static state.
 ## entry 771
 
 Constant-time comparisons; safe for short strings.
+
+## entry 772
+
+Idempotent — calling twice with the same input is a no-op the second time.
