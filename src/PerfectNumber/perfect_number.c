@@ -330,3 +330,4 @@ int is_perfect_number(int n) {
 // note 312: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 313: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 314: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 315: DFS on a grid: write a sentinel into the visited cell; restore if needed.
