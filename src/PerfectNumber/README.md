@@ -3405,3 +3405,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 836
 
 Three passes total; the third merges results.
+
+## entry 837
+
+Edge case: input with no peak → falls through to the default branch.
