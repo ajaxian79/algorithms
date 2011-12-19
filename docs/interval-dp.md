@@ -2415,3 +2415,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 604
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 605
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
