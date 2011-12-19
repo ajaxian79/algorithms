@@ -3257,3 +3257,7 @@ Three passes total; the third merges results.
 ## entry 799
 
 Handles negative inputs as documented above.
+
+## entry 800
+
+Space complexity: O(h) for the tree height.
