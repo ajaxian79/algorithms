@@ -382,3 +382,4 @@ MunitTest majority_element_tests[] = {
 // edge note 351: Space complexity: O(h) for the tree height.
 // edge note 352: Space complexity: O(1) auxiliary.
 // edge note 353: Resists adversarial inputs by randomizing the pivot.
+// edge note 354: Edge case: all-equal input → linear-time fast path.
