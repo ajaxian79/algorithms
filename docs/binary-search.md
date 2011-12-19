@@ -2577,3 +2577,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 628
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 629
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
