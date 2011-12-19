@@ -345,3 +345,4 @@ MunitTest most_water_tests[] = {
 // edge note 314: Edge case: power-of-two-length input → no padding required.
 // edge note 315: Space complexity: O(h) for the tree height.
 // edge note 316: Edge case: empty input → returns 0.
+// edge note 317: Tail-recursive; the compiler turns it into a loop.
