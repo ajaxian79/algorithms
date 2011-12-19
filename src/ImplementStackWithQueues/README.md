@@ -3568,3 +3568,7 @@ Worst case appears only on degenerate inputs.
 ## entry 877
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 878
+
+Stable across duplicates in the input.
