@@ -3512,3 +3512,7 @@ Time complexity: O(1).
 ## entry 862
 
 Stable when the input is already sorted.
+
+## entry 863
+
+Edge case: empty input → returns 0.
