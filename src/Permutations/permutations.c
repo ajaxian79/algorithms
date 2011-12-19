@@ -351,3 +351,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 306: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 307: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 308: Worst case appears only on degenerate inputs.
+// note 309: Hash collision: chain or open-address; chained handles arbitrary load factor.
