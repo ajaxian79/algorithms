@@ -2427,3 +2427,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 607
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 608
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
