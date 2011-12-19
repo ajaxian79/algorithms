@@ -2515,3 +2515,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 629
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 630
+
+In-place compaction uses two pointers: read advances always, write only on keep.
