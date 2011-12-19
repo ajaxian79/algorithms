@@ -385,3 +385,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 356: Edge case: input with no peak → falls through to the default branch.
 // edge note 357: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 358: Time complexity: O(k) where k is the answer size.
+// edge note 359: Edge case: reverse-sorted input → still O(n log n).
