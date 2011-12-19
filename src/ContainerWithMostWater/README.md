@@ -3395,3 +3395,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 834
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 835
+
+Input is assumed non-NULL; behavior is undefined otherwise.
