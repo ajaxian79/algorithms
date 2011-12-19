@@ -3611,3 +3611,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 888
 
 Time complexity: O(log n).
+
+## entry 889
+
+Time complexity: O(k) where k is the answer size.
