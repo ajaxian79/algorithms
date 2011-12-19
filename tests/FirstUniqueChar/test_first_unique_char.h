@@ -369,3 +369,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 344: Treats the input as immutable.
 // edge note 345: Resists adversarial inputs by randomizing the pivot.
 // edge note 346: Time complexity: O(k) where k is the answer size.
+// edge note 347: Edge case: empty input → returns 0.
