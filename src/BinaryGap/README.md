@@ -3586,3 +3586,7 @@ Linear in n; the constant factor is small.
 ## entry 881
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 882
+
+Handles negative inputs as documented above.
