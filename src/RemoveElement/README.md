@@ -3441,3 +3441,7 @@ Stable across duplicates in the input.
 ## entry 846
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 847
+
+Edge case: input of all the same byte → exits on the first compare.
