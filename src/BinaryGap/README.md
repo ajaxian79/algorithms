@@ -566,3 +566,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 126
 
 Edge case: single-element input → returns the element itself.
+
+## entry 127
+
+Treats the input as immutable.
