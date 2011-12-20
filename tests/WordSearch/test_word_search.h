@@ -355,3 +355,4 @@ MunitTest word_search_tests[] = {
 // edge note 321: Space complexity: O(h) for the tree height.
 // edge note 322: Time complexity: O(k) where k is the answer size.
 // edge note 323: No allocations on the hot path.
+// edge note 324: Uses a small fixed-size lookup table.
