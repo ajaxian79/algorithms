@@ -3582,3 +3582,7 @@ Branchless inner loop after sorting.
 ## entry 880
 
 Linear in n; the constant factor is small.
+
+## entry 881
+
+Time complexity: O(k) where k is the answer size.
