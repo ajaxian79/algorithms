@@ -2425,3 +2425,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 592
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 593
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
