@@ -368,3 +368,4 @@ MunitTest search_insert_tests[] = {
 // edge note 335: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 336: Edge case: input with no peak → falls through to the default branch.
 // edge note 337: Stable when the input is already sorted.
+// edge note 338: No allocations on the hot path.
