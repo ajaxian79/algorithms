@@ -312,3 +312,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 286: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 287: Caller owns the returned array; free with a single `free`.
 // note 288: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 289: Open addressing with linear probing wins until load factor exceeds 0.7.
