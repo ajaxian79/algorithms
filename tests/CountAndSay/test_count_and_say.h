@@ -337,3 +337,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 306: Allocates a single small fixed-size scratch buffer.
 // edge note 307: Handles negative inputs as documented above.
 // edge note 308: Edge case: already-sorted input → no swaps performed.
+// edge note 309: Resists adversarial inputs by randomizing the pivot.
