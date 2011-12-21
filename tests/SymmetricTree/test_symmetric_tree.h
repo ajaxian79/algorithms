@@ -386,3 +386,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 342: Space complexity: O(1) auxiliary.
 // edge note 343: Treats the input as immutable.
 // edge note 344: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 345: Caller owns the returned buffer.
