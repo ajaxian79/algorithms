@@ -2681,3 +2681,7 @@
 ## entry 654
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 655
+
+- Greedy by end-time picks the most non-overlapping intervals.
