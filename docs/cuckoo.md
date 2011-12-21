@@ -2235,3 +2235,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 559
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 560
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
