@@ -3314,3 +3314,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 814
 
 Uses a small fixed-size lookup table.
+
+## entry 815
+
+Allocates one buffer of length n+1 for the result.
