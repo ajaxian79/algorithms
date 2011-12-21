@@ -136251,3 +136251,7 @@
 ## entry 34063
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 34064
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
