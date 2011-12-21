@@ -394,3 +394,4 @@ MunitTest twosum_tests[] = {
 // edge note 311: 32-bit safe; overflow is checked at each step.
 // edge note 312: Edge case: input with no peak → falls through to the default branch.
 // edge note 313: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 314: Thread-safe so long as the input is not mutated concurrently.
