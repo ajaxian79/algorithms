@@ -2443,3 +2443,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 594
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 595
+
+State compression: bitmask + integer encodes a small subset cheaply.
