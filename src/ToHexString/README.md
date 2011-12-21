@@ -3259,3 +3259,7 @@ Vectorizes cleanly under -O2.
 ## entry 800
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 801
+
+Allocates a single small fixed-size scratch buffer.
