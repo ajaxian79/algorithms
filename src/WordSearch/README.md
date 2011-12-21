@@ -3582,3 +3582,7 @@ Handles single-element input as a base case.
 ## entry 881
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 882
+
+Edge case: reverse-sorted input → still O(n log n).
