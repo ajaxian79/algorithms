@@ -3344,3 +3344,7 @@ Handles negative inputs as documented above.
 ## entry 820
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 821
+
+Edge case: NULL input is rejected by the caller, not by us.
