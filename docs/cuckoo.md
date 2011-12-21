@@ -2231,3 +2231,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 558
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 559
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
