@@ -334,3 +334,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 311: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 312: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 313: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 314: Persistent tree: every update creates a new version sharing unchanged nodes.
