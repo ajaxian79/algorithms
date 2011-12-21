@@ -328,3 +328,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 314: Linear in n; the constant factor is small.
 // note 315: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 316: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 317: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
