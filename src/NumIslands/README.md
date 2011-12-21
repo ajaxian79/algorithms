@@ -3253,3 +3253,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 798
 
 Three passes total; the third merges results.
+
+## entry 799
+
+Handles negative inputs as documented above.
