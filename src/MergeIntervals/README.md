@@ -3502,3 +3502,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 860
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 861
+
+Edge case: reverse-sorted input → still O(n log n).
