@@ -136247,3 +136247,7 @@
 ## entry 34062
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 34063
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
