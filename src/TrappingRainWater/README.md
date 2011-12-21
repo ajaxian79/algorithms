@@ -3418,3 +3418,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 839
 
 Branchless inner loop after sorting.
+
+## entry 840
+
+Edge case: input with a single peak → handled by the first-pass scan.
