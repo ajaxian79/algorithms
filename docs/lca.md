@@ -2407,3 +2407,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 602
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 603
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
