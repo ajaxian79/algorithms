@@ -2391,3 +2391,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 581
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 582
+
+Euler tour flattens a tree into an array for range-query LCA.
