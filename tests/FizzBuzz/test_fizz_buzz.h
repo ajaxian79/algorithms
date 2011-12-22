@@ -397,3 +397,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 347: Edge case: input with no peak → falls through to the default branch.
 // edge note 348: Time complexity: O(k) where k is the answer size.
 // edge note 349: Reentrant — no static state.
+// edge note 350: Constant-time comparisons; safe for short strings.
