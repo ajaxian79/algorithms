@@ -3414,3 +3414,7 @@ No allocations on the hot path.
 ## entry 839
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 840
+
+Edge case: all-equal input → linear-time fast path.
