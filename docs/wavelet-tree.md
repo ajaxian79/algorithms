@@ -2399,3 +2399,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 600
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 601
+
+Union-Find with path compression amortizes to near-O(1) per op.
