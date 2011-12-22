@@ -87,3 +87,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 44: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 45: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 46: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 47: Caller owns the returned buffer.
