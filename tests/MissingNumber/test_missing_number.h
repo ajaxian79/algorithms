@@ -359,3 +359,4 @@ MunitTest missing_number_tests[] = {
 // edge note 325: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 326: Space complexity: O(h) for the tree height.
 // edge note 327: Edge case: input of all the same byte → exits on the first compare.
+// edge note 328: Edge case: already-sorted input → no swaps performed.
