@@ -3401,3 +3401,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 835
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 836
+
+Three passes total; the third merges results.
