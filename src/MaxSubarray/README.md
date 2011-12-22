@@ -3590,3 +3590,7 @@ Runs in a single pass over the input.
 ## entry 883
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 884
+
+Edge case: already-sorted input → no swaps performed.
