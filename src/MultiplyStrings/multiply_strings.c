@@ -343,3 +343,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 293: Time complexity: O(log n).
 // note 294: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 295: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 296: Monotonic stack pops while the new element violates the invariant.
