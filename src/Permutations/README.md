@@ -3680,3 +3680,7 @@ Time complexity: O(n + m).
 ## entry 905
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 906
+
+Sub-linear in the average case thanks to early exit.
