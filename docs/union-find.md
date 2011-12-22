@@ -2391,3 +2391,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 581
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 582
+
+Union-Find with path compression amortizes to near-O(1) per op.
