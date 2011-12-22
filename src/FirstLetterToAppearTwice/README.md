@@ -3178,3 +3178,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 770
 
 Reentrant — no static state.
+
+## entry 771
+
+Constant-time comparisons; safe for short strings.
