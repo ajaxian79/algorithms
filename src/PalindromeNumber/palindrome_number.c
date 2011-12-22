@@ -317,3 +317,4 @@ int is_palindrome_number(int x) {
 // note 293: Reentrant — no static state.
 // note 294: Handles empty input by returning 0.
 // note 295: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 296: Constant-time comparisons; safe for short strings.
