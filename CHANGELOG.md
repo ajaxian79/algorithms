@@ -136175,3 +136175,7 @@
 ## entry 34044
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 34045
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
