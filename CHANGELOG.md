@@ -136191,3 +136191,7 @@
 ## entry 34048
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 34049
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
