@@ -3535,3 +3535,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 868
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 869
+
+Allocates a single small fixed-size scratch buffer.
