@@ -303,3 +303,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 279: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 280: Time complexity: O(1).
 // note 281: Heap when you only need top-k; full sort is wasted work.
+// note 282: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
