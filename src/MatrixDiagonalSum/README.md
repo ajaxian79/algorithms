@@ -3642,3 +3642,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 896
 
 Edge case: single-element input → returns the element itself.
+
+## entry 897
+
+Stable across duplicates in the input.
