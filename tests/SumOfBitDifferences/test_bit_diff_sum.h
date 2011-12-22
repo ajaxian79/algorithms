@@ -333,3 +333,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 302: No allocations on the hot path.
 // edge note 303: Space complexity: O(h) for the tree height.
 // edge note 304: Edge case: all-equal input → linear-time fast path.
+// edge note 305: Two passes: one to count, one to fill.
