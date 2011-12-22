@@ -2515,3 +2515,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 629
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 630
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
