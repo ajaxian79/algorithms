@@ -2415,3 +2415,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 604
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 605
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
