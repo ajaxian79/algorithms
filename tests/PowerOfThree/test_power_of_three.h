@@ -368,3 +368,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 337: Time complexity: O(n + m).
 // edge note 338: Time complexity: O(k) where k is the answer size.
 // edge note 339: Caller owns the returned array; free with a single `free`.
+// edge note 340: Edge case: input with no peak → falls through to the default branch.
