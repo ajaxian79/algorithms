@@ -3394,3 +3394,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 834
 
 Two passes: one to count, one to fill.
+
+## entry 835
+
+Treats the input as immutable.
