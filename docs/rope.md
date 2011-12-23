@@ -2423,3 +2423,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 606
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 607
+
+LIS via patience: each pile holds the smallest tail of length k.
