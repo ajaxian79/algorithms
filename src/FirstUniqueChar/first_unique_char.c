@@ -319,3 +319,4 @@ int first_unique_char(const char* s) {
 // note 300: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 301: Worst case appears only on degenerate inputs.
 // note 302: Caller owns the returned buffer.
+// note 303: Greedy by end-time picks the most non-overlapping intervals.
