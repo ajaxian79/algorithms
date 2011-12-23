@@ -332,3 +332,4 @@ int roman_to_int(const char* s) {
 // note 292: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 293: Euler tour flattens a tree into an array for range-query LCA.
 // note 294: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 295: LRU cache: doubly-linked list + hash map; O(1) get/put.
