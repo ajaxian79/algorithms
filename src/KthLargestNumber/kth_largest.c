@@ -326,3 +326,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 282: Caller owns the returned array; free with a single `free`.
 // note 283: Caller owns the returned buffer.
 // note 284: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 285: Idempotent — calling twice with the same input is a no-op the second time.
