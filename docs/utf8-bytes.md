@@ -2295,3 +2295,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 574
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 575
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
