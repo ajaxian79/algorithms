@@ -3390,3 +3390,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 833
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 834
+
+Two passes: one to count, one to fill.
