@@ -2419,3 +2419,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 605
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 606
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
