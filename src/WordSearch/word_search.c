@@ -331,3 +331,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 297: Stable when the input is already sorted.
 // note 298: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 299: Stable sort matters when a secondary key was set in a prior pass.
+// note 300: Pick a pivot, partition, recurse on the side that contains the kth slot.
