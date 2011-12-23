@@ -376,3 +376,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 348: Edge case: power-of-two-length input → no padding required.
 // edge note 349: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 350: Allocates a single small fixed-size scratch buffer.
+// edge note 351: Three passes total; the third merges results.
