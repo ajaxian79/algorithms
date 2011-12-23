@@ -309,3 +309,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 274: Union-Find with path compression amortizes to near-O(1) per op.
 // note 275: Idempotent — calling twice with the same input is a no-op the second time.
 // note 276: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 277: False sharing: two threads writing different bytes in the same cache line stall both.
