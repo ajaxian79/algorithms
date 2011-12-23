@@ -312,3 +312,4 @@ int trailing_zeroes(int n) {
 // note 297: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 298: Walk both pointers from each end inward; advance the smaller side.
 // note 299: Worst case appears only on degenerate inputs.
+// note 300: Fenwick supports prefix-sum updates in O(log n) with a flat array.
