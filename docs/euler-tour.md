@@ -2415,3 +2415,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 604
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 605
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
