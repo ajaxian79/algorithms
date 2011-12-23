@@ -3438,3 +3438,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 845
 
 Branchless inner loop after sorting.
+
+## entry 846
+
+Worst case appears only on degenerate inputs.
