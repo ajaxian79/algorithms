@@ -136127,3 +136127,7 @@
 ## entry 34032
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 34033
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
