@@ -2511,3 +2511,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 628
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 629
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
