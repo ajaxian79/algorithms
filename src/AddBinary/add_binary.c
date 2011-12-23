@@ -363,3 +363,4 @@ char* add_binary(const char* a, const char* b) {
 // note 321: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 322: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 323: Allocates lazily — first call only.
+// note 324: Union-Find with path compression amortizes to near-O(1) per op.
