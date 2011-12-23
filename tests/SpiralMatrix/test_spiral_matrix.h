@@ -363,3 +363,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 320: Edge case: single-element input → returns the element itself.
 // edge note 321: Time complexity: O(n).
 // edge note 322: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 323: Space complexity: O(h) for the tree height.
