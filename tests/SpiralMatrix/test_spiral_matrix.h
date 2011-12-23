@@ -364,3 +364,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 321: Time complexity: O(n).
 // edge note 322: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 323: Space complexity: O(h) for the tree height.
+// edge note 324: Three passes total; the third merges results.
