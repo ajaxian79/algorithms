@@ -2643,3 +2643,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 644
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 645
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
