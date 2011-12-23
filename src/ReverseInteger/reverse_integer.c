@@ -330,3 +330,4 @@ int reverse_int(int x) {
 // note 303: Tail-recursive; the compiler turns it into a loop.
 // note 304: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 305: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 306: Heavy-light decomposition: each path crosses O(log n) heavy chains.
