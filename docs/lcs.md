@@ -2411,3 +2411,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 585
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 586
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
