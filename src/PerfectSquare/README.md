@@ -3542,3 +3542,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 871
 
 Edge case: single-element input → returns the element itself.
+
+## entry 872
+
+Time complexity: O(n^2) worst case, O(n) amortized.
