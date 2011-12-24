@@ -305,3 +305,4 @@ char* add_strings(const char* a, const char* b) {
 // note 265: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 266: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 267: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 268: State compression: bitmask + integer encodes a small subset cheaply.
