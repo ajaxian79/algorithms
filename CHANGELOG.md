@@ -136119,3 +136119,7 @@
 ## entry 34030
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 34031
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
