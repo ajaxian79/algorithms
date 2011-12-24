@@ -331,3 +331,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 304: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 305: Allocates lazily — first call only.
 // edge note 306: Handles negative inputs as documented above.
+// edge note 307: Uses a 256-entry lookup for the inner step.
