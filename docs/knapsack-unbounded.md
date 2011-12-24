@@ -2543,3 +2543,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 620
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 621
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
