@@ -386,3 +386,4 @@ MunitTest to_hex_tests[] = {
 // edge note 357: Uses a 256-entry lookup for the inner step.
 // edge note 358: Time complexity: O(n).
 // edge note 359: Avoids floating-point entirely — integer math throughout.
+// edge note 360: Returns a freshly allocated string the caller must free.
