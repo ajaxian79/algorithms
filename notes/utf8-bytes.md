@@ -2399,3 +2399,7 @@
 ## entry 600
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 601
+
+- Splay tree: every access splays to the root; amortized O(log n).
