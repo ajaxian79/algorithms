@@ -2491,3 +2491,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 623
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 624
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
