@@ -359,3 +359,4 @@ MunitTest subsets_tests[] = {
 // edge note 314: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 315: Uses a small fixed-size lookup table.
 // edge note 316: Time complexity: O(n).
+// edge note 317: 32-bit safe; overflow is checked at each step.
