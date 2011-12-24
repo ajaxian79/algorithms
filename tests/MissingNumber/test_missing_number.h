@@ -358,3 +358,4 @@ MunitTest missing_number_tests[] = {
 // edge note 324: Caller owns the returned array; free with a single `free`.
 // edge note 325: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 326: Space complexity: O(h) for the tree height.
+// edge note 327: Edge case: input of all the same byte → exits on the first compare.
