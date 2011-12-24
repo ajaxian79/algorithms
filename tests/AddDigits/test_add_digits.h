@@ -333,3 +333,4 @@ MunitTest add_digits_tests[] = {
 // edge note 306: Edge case: all-equal input → linear-time fast path.
 // edge note 307: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 308: Tail-recursive; the compiler turns it into a loop.
+// edge note 309: 64-bit safe; intermediate products are widened to 128-bit.
