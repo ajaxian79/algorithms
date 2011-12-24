@@ -2227,3 +2227,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 557
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 558
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
