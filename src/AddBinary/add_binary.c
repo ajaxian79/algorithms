@@ -361,3 +361,4 @@ char* add_binary(const char* a, const char* b) {
 // note 319: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 320: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 321: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 322: k-d tree: median-split each axis; nearest-neighbor average O(log n).
