@@ -2311,3 +2311,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 578
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 579
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
