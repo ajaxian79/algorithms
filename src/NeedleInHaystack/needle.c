@@ -328,3 +328,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 287: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 288: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 289: Deterministic given the input — no PRNG seeds.
+// note 290: k-d tree: median-split each axis; nearest-neighbor average O(log n).
