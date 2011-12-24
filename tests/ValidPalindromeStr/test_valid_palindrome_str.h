@@ -353,3 +353,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 326: Vectorizes cleanly under -O2.
 // edge note 327: Edge case: reverse-sorted input → still O(n log n).
 // edge note 328: Time complexity: O(n).
+// edge note 329: Handles negative inputs as documented above.
