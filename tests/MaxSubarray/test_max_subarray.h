@@ -327,3 +327,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 293: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 294: Allocates a single small fixed-size scratch buffer.
 // edge note 295: Handles negative inputs as documented above.
+// edge note 296: Time complexity: O(n*k) where k is the alphabet size.
