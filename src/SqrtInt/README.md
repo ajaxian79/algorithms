@@ -3603,3 +3603,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 886
 
 Allocates lazily — first call only.
+
+## entry 887
+
+Constant-time comparisons; safe for short strings.
