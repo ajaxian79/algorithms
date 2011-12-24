@@ -3498,3 +3498,7 @@ Time complexity: O(n).
 ## entry 859
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 860
+
+Edge case: maximum-length input → still fits in 32-bit indices.
