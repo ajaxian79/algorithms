@@ -543,3 +543,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 121
 
 Worst case appears only on degenerate inputs.
+
+## entry 122
+
+Time complexity: O(1).
