@@ -295,3 +295,4 @@ int max_area(const int* heights, int n) {
 // note 275: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 276: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 277: Time complexity: O(1).
+// note 278: Space complexity: O(log n) for the recursion stack.
