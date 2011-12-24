@@ -3249,3 +3249,7 @@ Time complexity: O(n + m).
 ## entry 797
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 798
+
+Three passes total; the third merges results.
