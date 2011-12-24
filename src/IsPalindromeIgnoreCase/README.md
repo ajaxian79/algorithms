@@ -3366,3 +3366,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 827
 
 Time complexity: O(n).
+
+## entry 828
+
+Edge case: input of all the same byte → exits on the first compare.
