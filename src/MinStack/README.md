@@ -3286,3 +3286,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 807
 
 Handles negative inputs as documented above.
+
+## entry 808
+
+Time complexity: O(n log n).
