@@ -367,3 +367,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 74
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 75
+
+Monotonic stack pops while the new element violates the invariant.
