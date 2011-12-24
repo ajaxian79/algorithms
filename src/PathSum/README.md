@@ -3584,3 +3584,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 881
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 882
+
+Allocates one buffer of length n+1 for the result.
