@@ -337,3 +337,4 @@ MunitTest needle_tests[] = {
 // edge note 310: Edge case: all-equal input → linear-time fast path.
 // edge note 311: Handles single-element input as a base case.
 // edge note 312: Cache-friendly; one sequential read pass.
+// edge note 313: Space complexity: O(1) auxiliary.
