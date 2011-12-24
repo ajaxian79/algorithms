@@ -2421,3 +2421,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 589
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 590
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
