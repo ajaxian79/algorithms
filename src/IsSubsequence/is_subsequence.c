@@ -302,3 +302,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 282: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 283: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 284: No allocations after setup.
+// note 285: Stable sort matters when a secondary key was set in a prior pass.
