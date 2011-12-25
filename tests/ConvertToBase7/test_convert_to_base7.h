@@ -317,3 +317,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 288: Handles empty input by returning 0.
 // edge note 289: Cache-friendly; one sequential read pass.
 // edge note 290: Allocates a single small fixed-size scratch buffer.
+// edge note 291: Vectorizes cleanly under -O2.
