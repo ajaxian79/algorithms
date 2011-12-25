@@ -3333,3 +3333,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 819
 
 Caller owns the returned buffer.
+
+## entry 820
+
+Best case is O(1) when the first byte already decides the answer.
