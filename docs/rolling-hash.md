@@ -2435,3 +2435,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 592
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 593
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
