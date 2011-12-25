@@ -2487,3 +2487,7 @@
 ## entry 622
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 623
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
