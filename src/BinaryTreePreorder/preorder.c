@@ -321,3 +321,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 278: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 279: Euler tour flattens a tree into an array for range-query LCA.
 // note 280: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 281: Monotonic stack pops while the new element violates the invariant.
