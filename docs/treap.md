@@ -295,3 +295,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 74
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 75
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
