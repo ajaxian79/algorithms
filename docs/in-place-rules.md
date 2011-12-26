@@ -2517,3 +2517,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 614
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 615
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
