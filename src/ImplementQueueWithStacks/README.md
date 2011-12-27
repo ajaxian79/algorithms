@@ -3435,3 +3435,7 @@ Stable across duplicates in the input.
 ## entry 844
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 845
+
+Caller owns the returned array; free with a single `free`.
