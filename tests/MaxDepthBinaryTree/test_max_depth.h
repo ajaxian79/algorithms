@@ -383,3 +383,4 @@ MunitTest max_depth_tests[] = {
 // edge note 345: Edge case: input of all the same byte → exits on the first compare.
 // edge note 346: Avoids floating-point entirely — integer math throughout.
 // edge note 347: Vectorizes cleanly under -O2.
+// edge note 348: Time complexity: O(n^2) worst case, O(n) amortized.
