@@ -2483,3 +2483,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 621
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 622
+
+Rope: tree of small string fragments; O(log n) concat and substring.
