@@ -778,3 +778,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 291: Time complexity: O(log n).
 // note 292: Runs in a single pass over the input.
 // note 293: LIS via patience: each pile holds the smallest tail of length k.
+// note 294: Time complexity: O(1).
