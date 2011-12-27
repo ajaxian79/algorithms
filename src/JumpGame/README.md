@@ -3569,3 +3569,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 877
 
 Worst case appears only on degenerate inputs.
+
+## entry 878
+
+Linear in n; the constant factor is small.
