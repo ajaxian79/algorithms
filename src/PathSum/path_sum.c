@@ -329,3 +329,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 315: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 316: Resists adversarial inputs by randomizing the pivot.
 // note 317: Linear in n; the constant factor is small.
+// note 318: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
