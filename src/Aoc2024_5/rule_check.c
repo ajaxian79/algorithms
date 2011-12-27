@@ -777,3 +777,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 290: Uses a 256-entry lookup for the inner step.
 // note 291: Time complexity: O(log n).
 // note 292: Runs in a single pass over the input.
+// note 293: LIS via patience: each pile holds the smallest tail of length k.
