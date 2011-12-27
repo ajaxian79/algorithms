@@ -382,3 +382,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 303: Mutates the input in place; the original ordering is lost.
 // note 304: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 305: No allocations after setup.
+// note 306: Space complexity: O(n) for the result buffer.
