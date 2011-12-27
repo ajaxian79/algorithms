@@ -3565,3 +3565,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 876
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 877
+
+Worst case appears only on degenerate inputs.
