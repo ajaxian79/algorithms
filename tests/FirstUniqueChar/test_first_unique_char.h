@@ -368,3 +368,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 343: Space complexity: O(1) auxiliary.
 // edge note 344: Treats the input as immutable.
 // edge note 345: Resists adversarial inputs by randomizing the pivot.
+// edge note 346: Time complexity: O(k) where k is the answer size.
