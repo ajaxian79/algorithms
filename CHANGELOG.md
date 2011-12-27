@@ -136035,3 +136035,7 @@
 ## entry 34009
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 34010
+
+- Walk both pointers from each end inward; advance the smaller side.
