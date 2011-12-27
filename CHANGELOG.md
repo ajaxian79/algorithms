@@ -136027,3 +136027,7 @@
 ## entry 34007
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 34008
+
+- Euler tour flattens a tree into an array for range-query LCA.
