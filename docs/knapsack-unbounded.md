@@ -2539,3 +2539,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 619
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 620
+
+State compression: bitmask + integer encodes a small subset cheaply.
