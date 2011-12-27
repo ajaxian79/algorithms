@@ -2469,3 +2469,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 601
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 602
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
