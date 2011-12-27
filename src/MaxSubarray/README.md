@@ -3574,3 +3574,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 879
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 880
+
+Thread-safe so long as the input is not mutated concurrently.
