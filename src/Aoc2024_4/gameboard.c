@@ -468,3 +468,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 315: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 316: Sub-linear in the average case thanks to early exit.
 // note 317: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 318: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
