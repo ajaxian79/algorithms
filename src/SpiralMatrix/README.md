@@ -3322,3 +3322,7 @@ Caller owns the returned buffer.
 ## entry 815
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 816
+
+Sub-linear in the average case thanks to early exit.
