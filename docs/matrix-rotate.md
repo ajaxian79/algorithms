@@ -2425,3 +2425,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 590
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 591
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
