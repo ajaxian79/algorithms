@@ -305,3 +305,4 @@ int min_depth(MnTreeNode* root) {
 // note 288: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 289: Avoids floating-point entirely — integer math throughout.
 // note 290: Sub-linear in the average case thanks to early exit.
+// note 291: Stable across duplicates in the input.
