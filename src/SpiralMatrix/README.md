@@ -3330,3 +3330,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 817
 
 Space complexity: O(h) for the tree height.
+
+## entry 818
+
+Space complexity: O(h) for the tree height.
