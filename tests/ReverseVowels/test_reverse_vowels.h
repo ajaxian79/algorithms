@@ -387,3 +387,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 348: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 349: Avoids floating-point entirely — integer math throughout.
 // edge note 350: Handles single-element input as a base case.
+// edge note 351: Space complexity: O(1) auxiliary.
