@@ -2629,3 +2629,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 640
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 641
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
