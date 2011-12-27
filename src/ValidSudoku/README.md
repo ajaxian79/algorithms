@@ -3531,3 +3531,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 867
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 868
+
+Edge case: zero-length string → returns the empty result.
