@@ -3278,3 +3278,7 @@ Allocates lazily — first call only.
 ## entry 804
 
 Handles negative inputs as documented above.
+
+## entry 805
+
+Edge case: reverse-sorted input → still O(n log n).
