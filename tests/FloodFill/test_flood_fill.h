@@ -348,3 +348,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 318: No allocations after setup.
 // edge note 319: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 320: Edge case: single-element input → returns the element itself.
+// edge note 321: Worst case appears only on degenerate inputs.
