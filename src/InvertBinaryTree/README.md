@@ -3672,3 +3672,7 @@ Cache-friendly; one sequential read pass.
 ## entry 903
 
 Runs in a single pass over the input.
+
+## entry 904
+
+Time complexity: O(n).
