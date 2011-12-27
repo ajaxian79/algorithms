@@ -3472,3 +3472,7 @@ Uses a small fixed-size lookup table.
 ## entry 853
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 854
+
+64-bit safe; intermediate products are widened to 128-bit.
