@@ -2403,3 +2403,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 601
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 602
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
