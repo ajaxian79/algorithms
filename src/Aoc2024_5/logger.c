@@ -338,3 +338,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 295: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 296: Euler tour flattens a tree into an array for range-query LCA.
 // note 297: Resists adversarial inputs by randomizing the pivot.
+// note 298: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
