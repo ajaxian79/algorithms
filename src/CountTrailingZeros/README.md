@@ -3506,3 +3506,7 @@ Caller owns the returned buffer.
 ## entry 861
 
 Time complexity: O(n).
+
+## entry 862
+
+64-bit safe; intermediate products are widened to 128-bit.
