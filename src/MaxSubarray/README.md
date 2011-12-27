@@ -3578,3 +3578,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 880
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 881
+
+Sub-linear in the average case thanks to early exit.
