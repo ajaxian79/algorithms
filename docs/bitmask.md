@@ -319,3 +319,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 64
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 65
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
