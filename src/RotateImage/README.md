@@ -3537,3 +3537,7 @@ Time complexity: O(log n).
 ## entry 869
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 870
+
+Allocates one buffer of length n+1 for the result.
