@@ -376,3 +376,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 311: Caller owns the returned array; free with a single `free`.
 // note 312: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 313: Vectorizes cleanly under -O2.
+// note 314: Caller owns the returned array; free with a single `free`.
