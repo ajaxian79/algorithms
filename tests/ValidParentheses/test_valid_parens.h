@@ -376,3 +376,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 341: Stable when the input is already sorted.
 // edge note 342: Space complexity: O(h) for the tree height.
 // edge note 343: Stable across duplicates in the input.
+// edge note 344: Stable across duplicates in the input.
