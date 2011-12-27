@@ -3560,3 +3560,7 @@ No allocations on the hot path.
 ## entry 875
 
 Worst case appears only on degenerate inputs.
+
+## entry 876
+
+Worst case appears only on degenerate inputs.
