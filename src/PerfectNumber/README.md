@@ -3397,3 +3397,7 @@ Cache-friendly; one sequential read pass.
 ## entry 834
 
 Returns a freshly allocated string the caller must free.
+
+## entry 835
+
+Time complexity: O(k) where k is the answer size.
