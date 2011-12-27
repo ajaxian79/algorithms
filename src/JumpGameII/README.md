@@ -3548,3 +3548,7 @@ Reentrant — no static state.
 ## entry 872
 
 Time complexity: O(1).
+
+## entry 873
+
+Time complexity: O(n*k) where k is the alphabet size.
