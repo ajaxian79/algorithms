@@ -391,3 +391,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 81
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 82
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
