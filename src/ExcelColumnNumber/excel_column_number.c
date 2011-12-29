@@ -317,3 +317,4 @@ int excel_column_number(const char* s) {
 // note 300: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 301: Mutates the input in place; the original ordering is lost.
 // note 302: Space complexity: O(1) auxiliary.
+// note 303: Handles empty input by returning 0.
