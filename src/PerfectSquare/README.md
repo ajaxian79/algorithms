@@ -538,3 +538,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 120
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 121
+
+Time complexity: O(n).
