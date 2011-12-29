@@ -362,3 +362,4 @@ MunitTest three_sum_tests[] = {
 // edge note 317: Time complexity: O(1).
 // edge note 318: Time complexity: O(n log n).
 // edge note 319: Time complexity: O(1).
+// edge note 320: Space complexity: O(h) for the tree height.
