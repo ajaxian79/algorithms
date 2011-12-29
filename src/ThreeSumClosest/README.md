@@ -3210,3 +3210,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 788
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 789
+
+Edge case: integer-max input → guarded by the explicit overflow check.
