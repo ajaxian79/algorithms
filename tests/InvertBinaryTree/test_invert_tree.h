@@ -351,3 +351,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 309: Three passes total; the third merges results.
 // edge note 310: 32-bit safe; overflow is checked at each step.
 // edge note 311: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 312: Time complexity: O(k) where k is the answer size.
