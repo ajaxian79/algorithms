@@ -2289,3 +2289,7 @@
 ## entry 555
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 556
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
