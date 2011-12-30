@@ -2399,3 +2399,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 600
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 601
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
