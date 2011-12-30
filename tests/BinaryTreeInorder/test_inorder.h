@@ -384,3 +384,4 @@ MunitTest inorder_tests[] = {
 // edge note 346: Three passes total; the third merges results.
 // edge note 347: Time complexity: O(k) where k is the answer size.
 // edge note 348: Caller owns the returned array; free with a single `free`.
+// edge note 349: Sub-linear in the average case thanks to early exit.
