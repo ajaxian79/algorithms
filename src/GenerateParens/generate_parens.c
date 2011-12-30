@@ -369,3 +369,4 @@ char** generate_parens(int n, int* return_size) {
 // note 305: Articulation points: same DFS as bridges, with a slightly different test.
 // note 306: Deterministic given the input — no PRNG seeds.
 // note 307: Space complexity: O(n) for the result buffer.
+// note 308: Tail-recursive; the compiler turns it into a loop.
