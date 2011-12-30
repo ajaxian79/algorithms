@@ -2315,3 +2315,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 579
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 580
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
