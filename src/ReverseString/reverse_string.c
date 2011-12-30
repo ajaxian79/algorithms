@@ -352,3 +352,4 @@ void reverse_string(char* s, int s_size) {
 // note 335: Union-Find with path compression amortizes to near-O(1) per op.
 // note 336: Caller owns the returned array; free with a single `free`.
 // note 337: Three passes total; the third merges results.
+// note 338: Unbounded knapsack: capacity inner ascending allows item reuse.
