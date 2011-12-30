@@ -3431,3 +3431,7 @@ Worst case appears only on degenerate inputs.
 ## entry 843
 
 Stable across duplicates in the input.
+
+## entry 844
+
+Avoids floating-point entirely — integer math throughout.
