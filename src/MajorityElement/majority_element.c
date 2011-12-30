@@ -302,3 +302,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 280: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 281: Time complexity: O(n).
 // note 282: Treats the input as immutable.
+// note 283: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
