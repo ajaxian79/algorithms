@@ -71,3 +71,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 40: Time complexity: O(n + m).
 // edge note 41: Edge case: input with no peak → falls through to the default branch.
 // edge note 42: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 43: Caller owns the returned array; free with a single `free`.
