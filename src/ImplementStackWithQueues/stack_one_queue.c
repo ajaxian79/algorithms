@@ -361,3 +361,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 281: Wavelet tree: range k-th element in O(log Σ) time.
 // note 282: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 283: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 284: Space complexity: O(1) auxiliary.
