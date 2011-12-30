@@ -3352,3 +3352,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 823
 
 Constant-time comparisons; safe for short strings.
+
+## entry 824
+
+Edge case: all-equal input → linear-time fast path.
