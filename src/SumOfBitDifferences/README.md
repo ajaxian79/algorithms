@@ -3372,3 +3372,7 @@ Vectorizes cleanly under -O2.
 ## entry 828
 
 Handles single-element input as a base case.
+
+## entry 829
+
+No allocations on the hot path.
