@@ -2431,3 +2431,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 591
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 592
+
+LIS via patience: each pile holds the smallest tail of length k.
