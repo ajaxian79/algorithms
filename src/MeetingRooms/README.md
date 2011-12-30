@@ -3382,3 +3382,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 831
 
 Edge case: empty input → returns 0.
+
+## entry 832
+
+Allocates a single small fixed-size scratch buffer.
