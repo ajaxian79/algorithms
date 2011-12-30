@@ -3579,3 +3579,7 @@ Worst case appears only on degenerate inputs.
 ## entry 879
 
 Returns a freshly allocated string the caller must free.
+
+## entry 880
+
+Worst case appears only on degenerate inputs.
