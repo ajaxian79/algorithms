@@ -3566,3 +3566,7 @@ Allocates lazily — first call only.
 ## entry 877
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 878
+
+Edge case: power-of-two-length input → no padding required.
