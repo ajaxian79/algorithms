@@ -3406,3 +3406,7 @@ Space complexity: O(1) auxiliary.
 ## entry 837
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 838
+
+No allocations on the hot path.
