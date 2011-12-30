@@ -3470,3 +3470,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 852
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 853
+
+Deterministic given the input — no PRNG seeds.
