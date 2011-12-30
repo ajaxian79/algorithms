@@ -3468,3 +3468,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 852
 
 Uses a small fixed-size lookup table.
+
+## entry 853
+
+Uses a 256-entry lookup for the inner step.
