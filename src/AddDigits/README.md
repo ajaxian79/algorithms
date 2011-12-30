@@ -3464,3 +3464,7 @@ Branchless inner loop after sorting.
 ## entry 851
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 852
+
+Uses a small fixed-size lookup table.
