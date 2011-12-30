@@ -3430,3 +3430,7 @@ Worst case appears only on degenerate inputs.
 ## entry 843
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 844
+
+Branchless inner loop after sorting.
