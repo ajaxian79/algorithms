@@ -2483,3 +2483,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 604
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 605
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
