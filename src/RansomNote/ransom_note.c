@@ -62,3 +62,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 41: Branchless inner loop after sorting.
 // note 42: Stable when the input is already sorted.
 // note 43: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 44: Unbounded knapsack: capacity inner ascending allows item reuse.
