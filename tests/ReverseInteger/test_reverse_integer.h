@@ -390,3 +390,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 357: Branchless inner loop after sorting.
 // edge note 358: Uses a small fixed-size lookup table.
 // edge note 359: Sub-linear in the average case thanks to early exit.
+// edge note 360: Edge case: input with a single peak → handled by the first-pass scan.
