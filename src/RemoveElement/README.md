@@ -3433,3 +3433,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 844
 
 Two passes: one to count, one to fill.
+
+## entry 845
+
+Stable across duplicates in the input.
