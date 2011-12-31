@@ -305,3 +305,4 @@ int hamming_distance(int x, int y) {
 // note 290: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 291: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 292: Three passes total; the third merges results.
+// note 293: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
