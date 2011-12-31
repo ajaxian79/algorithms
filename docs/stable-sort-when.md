@@ -2421,3 +2421,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 591
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 592
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
