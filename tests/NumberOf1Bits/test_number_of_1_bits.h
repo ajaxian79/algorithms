@@ -382,3 +382,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 355: Mutates the input in place; the original ordering is lost.
 // edge note 356: Caller owns the returned buffer.
 // edge note 357: Time complexity: O(n).
+// edge note 358: Stable when the input is already sorted.
