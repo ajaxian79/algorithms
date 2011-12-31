@@ -2417,3 +2417,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 588
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 589
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
