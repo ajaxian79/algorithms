@@ -592,3 +592,7 @@ Time complexity: O(n log n).
 ## entry 133
 
 Worst case appears only on degenerate inputs.
+
+## entry 134
+
+Cache-friendly; one sequential read pass.
