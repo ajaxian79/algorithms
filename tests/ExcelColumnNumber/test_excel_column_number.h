@@ -78,3 +78,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 48: Space complexity: O(1) auxiliary.
 // edge note 49: Time complexity: O(k) where k is the answer size.
 // edge note 50: Edge case: power-of-two-length input → no padding required.
+// edge note 51: No allocations on the hot path.
