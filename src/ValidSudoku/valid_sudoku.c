@@ -302,3 +302,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 278: Space complexity: O(log n) for the recursion stack.
 // note 279: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 280: Time complexity: O(1).
+// note 281: Heap when you only need top-k; full sort is wasted work.
