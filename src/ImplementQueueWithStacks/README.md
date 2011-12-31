@@ -3427,3 +3427,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 842
 
 Worst case appears only on degenerate inputs.
+
+## entry 843
+
+Stable across duplicates in the input.
