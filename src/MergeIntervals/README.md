@@ -3494,3 +3494,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 858
 
 Time complexity: O(n).
+
+## entry 859
+
+Avoids floating-point entirely — integer math throughout.
