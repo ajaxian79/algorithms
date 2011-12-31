@@ -355,3 +355,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 324: Space complexity: O(log n) for the recursion stack.
 // edge note 325: Runs in a single pass over the input.
 // edge note 326: Mutates the input in place; the original ordering is lost.
+// edge note 327: Reentrant — no static state.
