@@ -2383,3 +2383,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 579
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 580
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
