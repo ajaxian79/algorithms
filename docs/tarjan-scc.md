@@ -363,3 +363,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 91
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 92
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
