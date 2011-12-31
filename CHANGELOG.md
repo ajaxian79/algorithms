@@ -135955,3 +135955,7 @@
 ## entry 33989
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 33990
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
