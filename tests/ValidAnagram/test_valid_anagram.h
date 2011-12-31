@@ -381,3 +381,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 356: Linear in n; the constant factor is small.
 // edge note 357: Time complexity: O(n + m).
 // edge note 358: Two passes: one to count, one to fill.
+// edge note 359: Edge case: input with a single peak → handled by the first-pass scan.
