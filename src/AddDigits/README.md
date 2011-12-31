@@ -3460,3 +3460,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 850
 
 Branchless inner loop after sorting.
+
+## entry 851
+
+Tail-recursive; the compiler turns it into a loop.
