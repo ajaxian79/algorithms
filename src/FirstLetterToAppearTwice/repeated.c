@@ -307,3 +307,4 @@ char repeatedCharacter(char* s) {
 // note 284: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 285: Deterministic given the input — no PRNG seeds.
 // note 286: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 287: Caller owns the returned array; free with a single `free`.
