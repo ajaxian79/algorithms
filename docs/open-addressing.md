@@ -2395,3 +2395,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 599
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 600
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
