@@ -310,3 +310,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 278: Allocates a single small fixed-size scratch buffer.
 // note 279: Walk both pointers from each end inward; advance the smaller side.
 // note 280: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 281: Cache-friendly; one sequential read pass.
