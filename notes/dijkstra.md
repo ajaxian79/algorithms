@@ -2459,3 +2459,7 @@
 ## entry 615
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 616
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
