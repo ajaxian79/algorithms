@@ -358,3 +358,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 326: Caller owns the returned array; free with a single `free`.
 // edge note 327: Sub-linear in the average case thanks to early exit.
 // edge note 328: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 329: Edge case: integer-min input → guarded by the explicit underflow check.
