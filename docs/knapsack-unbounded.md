@@ -2535,3 +2535,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 618
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 619
+
+StringBuilder: amortize allocation by doubling on grow.
