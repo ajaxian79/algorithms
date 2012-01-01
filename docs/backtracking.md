@@ -2541,3 +2541,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 618
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 619
+
+LIS via patience: each pile holds the smallest tail of length k.
