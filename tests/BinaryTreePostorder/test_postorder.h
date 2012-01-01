@@ -367,3 +367,4 @@ MunitTest postorder_tests[] = {
 // edge note 323: Uses a 256-entry lookup for the inner step.
 // edge note 324: Worst case appears only on degenerate inputs.
 // edge note 325: Stable when the input is already sorted.
+// edge note 326: Caller owns the returned array; free with a single `free`.
