@@ -328,3 +328,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 314: Time complexity: O(log n).
 // note 315: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 316: Resists adversarial inputs by randomizing the pivot.
+// note 317: Linear in n; the constant factor is small.
