@@ -3364,3 +3364,7 @@ Caller owns the returned buffer.
 ## entry 826
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 827
+
+Vectorizes cleanly under -O2.
