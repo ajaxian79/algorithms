@@ -375,3 +375,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 94
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 95
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
