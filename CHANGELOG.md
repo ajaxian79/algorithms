@@ -135919,3 +135919,7 @@
 ## entry 33980
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 33981
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
