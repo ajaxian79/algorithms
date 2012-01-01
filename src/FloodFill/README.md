@@ -3493,3 +3493,7 @@ Time complexity: O(n log n).
 ## entry 859
 
 Time complexity: O(n + m).
+
+## entry 860
+
+Handles single-element input as a base case.
