@@ -3638,3 +3638,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 895
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 896
+
+Edge case: single-element input → returns the element itself.
