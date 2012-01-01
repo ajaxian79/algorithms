@@ -2383,3 +2383,7 @@
 ## entry 596
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 597
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
