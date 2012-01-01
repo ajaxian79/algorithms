@@ -3452,3 +3452,7 @@ Two passes: one to count, one to fill.
 ## entry 848
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 849
+
+Branchless inner loop after sorting.
