@@ -385,3 +385,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 341: Handles negative inputs as documented above.
 // edge note 342: Space complexity: O(1) auxiliary.
 // edge note 343: Treats the input as immutable.
+// edge note 344: Edge case: NULL input is rejected by the caller, not by us.
