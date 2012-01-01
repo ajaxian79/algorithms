@@ -3348,3 +3348,7 @@ Handles empty input by returning 0.
 ## entry 822
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 823
+
+Constant-time comparisons; safe for short strings.
