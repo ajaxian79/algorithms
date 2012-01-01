@@ -2419,3 +2419,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 605
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 606
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
