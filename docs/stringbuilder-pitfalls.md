@@ -2515,3 +2515,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 629
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 630
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
