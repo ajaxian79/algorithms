@@ -3494,3 +3494,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 859
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 860
+
+Edge case: all-equal input → linear-time fast path.
