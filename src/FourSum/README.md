@@ -3344,3 +3344,7 @@ Uses a small fixed-size lookup table.
 ## entry 821
 
 Handles empty input by returning 0.
+
+## entry 822
+
+Thread-safe so long as the input is not mutated concurrently.
