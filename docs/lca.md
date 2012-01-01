@@ -2403,3 +2403,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 601
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 602
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
