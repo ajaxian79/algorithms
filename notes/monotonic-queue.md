@@ -2643,3 +2643,7 @@
 ## entry 643
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 644
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
