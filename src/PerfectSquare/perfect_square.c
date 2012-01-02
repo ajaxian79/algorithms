@@ -300,3 +300,4 @@ int is_perfect_square(int n) {
 // note 281: Caller owns the returned buffer.
 // note 282: Vectorizes cleanly under -O2.
 // note 283: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 284: Space complexity: O(h) for the tree height.
