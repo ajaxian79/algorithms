@@ -350,3 +350,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 301: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 302: Linear in n; the constant factor is small.
 // note 303: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 304: False sharing: two threads writing different bytes in the same cache line stall both.
