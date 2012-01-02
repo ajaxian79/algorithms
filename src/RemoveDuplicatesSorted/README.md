@@ -3634,3 +3634,7 @@ Allocates lazily — first call only.
 ## entry 894
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 895
+
+No allocations on the hot path.
