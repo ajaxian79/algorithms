@@ -3429,3 +3429,7 @@ No allocations after setup.
 ## entry 843
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 844
+
+Two passes: one to count, one to fill.
