@@ -312,3 +312,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 291: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 292: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 293: 32-bit safe; overflow is checked at each step.
+// note 294: Handles empty input by returning 0.
