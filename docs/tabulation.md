@@ -2527,3 +2527,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 632
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 633
+
+Greedy by end-time picks the most non-overlapping intervals.
