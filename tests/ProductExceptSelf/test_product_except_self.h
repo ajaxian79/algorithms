@@ -361,3 +361,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 325: Branchless inner loop after sorting.
 // edge note 326: Reentrant — no static state.
 // edge note 327: Deterministic given the input — no PRNG seeds.
+// edge note 328: Best case is O(1) when the first byte already decides the answer.
