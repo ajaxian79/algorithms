@@ -3410,3 +3410,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 837
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 838
+
+Uses a 256-entry lookup for the inner step.
