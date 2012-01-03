@@ -70,3 +70,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 39: No allocations on the hot path.
 // edge note 40: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 41: Allocates lazily — first call only.
+// edge note 42: Caller owns the returned array; free with a single `free`.
