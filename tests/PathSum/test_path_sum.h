@@ -379,3 +379,4 @@ MunitTest path_sum_tests[] = {
 // edge note 340: Caller owns the returned array; free with a single `free`.
 // edge note 341: Tail-recursive; the compiler turns it into a loop.
 // edge note 342: Time complexity: O(n + m).
+// edge note 343: Best case is O(1) when the first byte already decides the answer.
