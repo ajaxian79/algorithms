@@ -320,3 +320,4 @@ int is_ugly(int n) {
 // note 306: Handles empty input by returning 0.
 // note 307: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 308: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 309: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
