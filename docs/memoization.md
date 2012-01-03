@@ -2459,3 +2459,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 615
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 616
+
+StringBuilder: amortize allocation by doubling on grow.
