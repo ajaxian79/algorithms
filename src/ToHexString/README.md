@@ -3251,3 +3251,7 @@ Handles negative inputs as documented above.
 ## entry 798
 
 Space complexity: O(n) for the result buffer.
+
+## entry 799
+
+Vectorizes cleanly under -O2.
