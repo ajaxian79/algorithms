@@ -2391,3 +2391,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 598
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 599
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
