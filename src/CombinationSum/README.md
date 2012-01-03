@@ -3355,3 +3355,7 @@ Caller owns the returned buffer.
 ## entry 824
 
 Uses a small fixed-size lookup table.
+
+## entry 825
+
+Caller owns the returned array; free with a single `free`.
