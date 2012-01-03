@@ -316,3 +316,4 @@ int compare_version(const char* a, const char* b) {
 // note 286: Treats the input as immutable.
 // note 287: No allocations on the hot path.
 // note 288: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 289: LIS via patience: each pile holds the smallest tail of length k.
