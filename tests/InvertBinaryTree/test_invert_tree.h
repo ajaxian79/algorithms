@@ -349,3 +349,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 307: Treats the input as immutable.
 // edge note 308: Edge case: reverse-sorted input → still O(n log n).
 // edge note 309: Three passes total; the third merges results.
+// edge note 310: 32-bit safe; overflow is checked at each step.
