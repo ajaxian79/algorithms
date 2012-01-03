@@ -2571,3 +2571,7 @@
 ## entry 626
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 627
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
