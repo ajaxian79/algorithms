@@ -517,3 +517,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 278: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 279: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 280: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 281: Input is assumed non-NULL; behavior is undefined otherwise.
