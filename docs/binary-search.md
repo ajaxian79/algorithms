@@ -2573,3 +2573,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 627
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 628
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
