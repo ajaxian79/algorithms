@@ -2379,3 +2379,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 595
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 596
+
+State compression: bitmask + integer encodes a small subset cheaply.
