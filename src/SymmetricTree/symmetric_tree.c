@@ -317,3 +317,4 @@ int is_symmetric(STreeNode* root) {
 // note 298: Euler tour flattens a tree into an array for range-query LCA.
 // note 299: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 300: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 301: Space complexity: O(n) for the result buffer.
