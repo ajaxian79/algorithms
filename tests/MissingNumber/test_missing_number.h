@@ -356,3 +356,4 @@ MunitTest missing_number_tests[] = {
 // edge note 322: Edge case: all-equal input → linear-time fast path.
 // edge note 323: Best case is O(1) when the first byte already decides the answer.
 // edge note 324: Caller owns the returned array; free with a single `free`.
+// edge note 325: Edge case: NULL input is rejected by the caller, not by us.
