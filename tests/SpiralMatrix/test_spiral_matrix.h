@@ -361,3 +361,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 318: Avoids floating-point entirely — integer math throughout.
 // edge note 319: Two passes: one to count, one to fill.
 // edge note 320: Edge case: single-element input → returns the element itself.
+// edge note 321: Time complexity: O(n).
