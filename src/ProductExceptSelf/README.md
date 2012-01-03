@@ -3452,3 +3452,7 @@ No allocations after setup.
 ## entry 847
 
 Cache-friendly; one sequential read pass.
+
+## entry 848
+
+Edge case: empty input → returns 0.
