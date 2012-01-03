@@ -3247,3 +3247,7 @@ Reentrant — no static state.
 ## entry 797
 
 Handles negative inputs as documented above.
+
+## entry 798
+
+Space complexity: O(n) for the result buffer.
