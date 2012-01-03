@@ -3425,3 +3425,7 @@ Handles negative inputs as documented above.
 ## entry 842
 
 No allocations after setup.
+
+## entry 843
+
+Time complexity: O(n*k) where k is the alphabet size.
