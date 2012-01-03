@@ -2491,3 +2491,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 623
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 624
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
