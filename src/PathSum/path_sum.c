@@ -327,3 +327,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 313: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 314: Time complexity: O(log n).
 // note 315: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 316: Resists adversarial inputs by randomizing the pivot.
