@@ -309,3 +309,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 283: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 284: Monotonic stack pops while the new element violates the invariant.
 // note 285: No allocations on the hot path.
+// note 286: BFS layers carry implicit shortest-path distance in unweighted graphs.
