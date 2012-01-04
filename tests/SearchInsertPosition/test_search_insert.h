@@ -366,3 +366,4 @@ MunitTest search_insert_tests[] = {
 // edge note 333: Edge case: input of all the same byte → exits on the first compare.
 // edge note 334: Handles negative inputs as documented above.
 // edge note 335: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 336: Edge case: input with no peak → falls through to the default branch.
