@@ -3406,3 +3406,7 @@ No allocations after setup.
 ## entry 836
 
 Returns a freshly allocated string the caller must free.
+
+## entry 837
+
+Space complexity: O(log n) for the recursion stack.
