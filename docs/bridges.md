@@ -2487,3 +2487,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 622
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 623
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
