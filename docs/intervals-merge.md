@@ -2433,3 +2433,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 591
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 592
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
