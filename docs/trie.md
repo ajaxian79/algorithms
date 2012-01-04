@@ -2413,3 +2413,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 587
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 588
+
+Stable sort matters when a secondary key was set in a prior pass.
