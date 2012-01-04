@@ -492,3 +492,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 108
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 109
+
+Resists adversarial inputs by randomizing the pivot.
