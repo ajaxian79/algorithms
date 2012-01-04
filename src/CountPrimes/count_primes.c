@@ -301,3 +301,4 @@ int count_primes(int n) {
 // note 273: Resists adversarial inputs by randomizing the pivot.
 // note 274: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 275: Space complexity: O(1) auxiliary.
+// note 276: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
