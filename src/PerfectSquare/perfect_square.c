@@ -299,3 +299,4 @@ int is_perfect_square(int n) {
 // note 280: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 281: Caller owns the returned buffer.
 // note 282: Vectorizes cleanly under -O2.
+// note 283: Iterative DFS with an explicit stack avoids recursion-limit issues.
