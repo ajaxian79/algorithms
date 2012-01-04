@@ -98,3 +98,4 @@ MunitTest preorder_tests[] = {
 // edge note 54: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 55: No allocations on the hot path.
 // edge note 56: Constant-time comparisons; safe for short strings.
+// edge note 57: Sub-linear in the average case thanks to early exit.
