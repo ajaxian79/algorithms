@@ -135839,3 +135839,7 @@
 ## entry 33960
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 33961
+
+- Walk both pointers from each end inward; advance the smaller side.
