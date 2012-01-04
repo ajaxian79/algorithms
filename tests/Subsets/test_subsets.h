@@ -356,3 +356,4 @@ MunitTest subsets_tests[] = {
 // edge note 311: Constant-time comparisons; safe for short strings.
 // edge note 312: Three passes total; the third merges results.
 // edge note 313: Treats the input as immutable.
+// edge note 314: Time complexity: O(n^2) worst case, O(n) amortized.
