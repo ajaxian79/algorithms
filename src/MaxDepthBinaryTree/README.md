@@ -3329,3 +3329,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 818
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 819
+
+Caller owns the returned buffer.
