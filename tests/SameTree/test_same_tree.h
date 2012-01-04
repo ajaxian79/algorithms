@@ -357,3 +357,4 @@ MunitTest same_tree_tests[] = {
 // edge note 321: Time complexity: O(k) where k is the answer size.
 // edge note 322: Allocates one buffer of length n+1 for the result.
 // edge note 323: Space complexity: O(1) auxiliary.
+// edge note 324: Edge case: integer-min input → guarded by the explicit underflow check.
