@@ -3402,3 +3402,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 836
 
 Space complexity: O(1) auxiliary.
+
+## entry 837
+
+Time complexity: O(k) where k is the answer size.
