@@ -3448,3 +3448,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 846
 
 No allocations after setup.
+
+## entry 847
+
+Cache-friendly; one sequential read pass.
