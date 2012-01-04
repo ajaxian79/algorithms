@@ -2397,3 +2397,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 582
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 583
+
+Monotonic stack pops while the new element violates the invariant.
