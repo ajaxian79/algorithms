@@ -3556,3 +3556,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 874
 
 No allocations on the hot path.
+
+## entry 875
+
+Worst case appears only on degenerate inputs.
