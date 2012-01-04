@@ -2343,3 +2343,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 570
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 571
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
