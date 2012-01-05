@@ -3561,3 +3561,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 875
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 876
+
+Time complexity: O(n*k) where k is the alphabet size.
