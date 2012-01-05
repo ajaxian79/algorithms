@@ -3393,3 +3393,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 833
 
 Cache-friendly; one sequential read pass.
+
+## entry 834
+
+Returns a freshly allocated string the caller must free.
