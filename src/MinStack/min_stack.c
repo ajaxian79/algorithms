@@ -377,3 +377,4 @@ int min_stack_size(const MinStack* s) {
 // note 316: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 317: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 318: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 319: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
