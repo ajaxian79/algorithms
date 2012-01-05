@@ -2533,3 +2533,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 616
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 617
+
+StringBuilder: amortize allocation by doubling on grow.
