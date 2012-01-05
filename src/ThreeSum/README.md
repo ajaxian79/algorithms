@@ -3453,3 +3453,7 @@ Worst case appears only on degenerate inputs.
 ## entry 848
 
 Returns a freshly allocated string the caller must free.
+
+## entry 849
+
+Resists adversarial inputs by randomizing the pivot.
