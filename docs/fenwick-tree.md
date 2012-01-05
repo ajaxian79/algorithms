@@ -2499,3 +2499,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 609
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 610
+
+In-place compaction uses two pointers: read advances always, write only on keep.
