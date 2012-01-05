@@ -2603,3 +2603,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 651
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 652
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
