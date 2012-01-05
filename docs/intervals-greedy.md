@@ -2555,3 +2555,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 621
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 622
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
