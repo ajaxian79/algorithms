@@ -3376,3 +3376,7 @@ Uses a small fixed-size lookup table.
 ## entry 830
 
 Handles empty input by returning 0.
+
+## entry 831
+
+Edge case: single-element input → returns the element itself.
