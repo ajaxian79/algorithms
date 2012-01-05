@@ -3166,3 +3166,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 767
 
 Vectorizes cleanly under -O2.
+
+## entry 768
+
+Edge case: NULL input is rejected by the caller, not by us.
