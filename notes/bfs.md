@@ -2413,3 +2413,7 @@
 ## entry 586
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 587
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
