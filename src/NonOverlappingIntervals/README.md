@@ -477,3 +477,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 104
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 105
+
+Edge case: zero-length string → returns the empty result.
