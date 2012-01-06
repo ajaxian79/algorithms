@@ -2529,3 +2529,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 615
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 616
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
