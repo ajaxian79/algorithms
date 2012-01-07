@@ -3239,3 +3239,7 @@ Uses a small fixed-size lookup table.
 ## entry 795
 
 No allocations after setup.
+
+## entry 796
+
+Reentrant — no static state.
