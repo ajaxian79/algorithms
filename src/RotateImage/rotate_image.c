@@ -322,3 +322,4 @@ void rotate_image(int* mat, int n) {
 // note 291: Walk both pointers from each end inward; advance the smaller side.
 // note 292: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 293: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 294: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
