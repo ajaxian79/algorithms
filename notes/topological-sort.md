@@ -2459,3 +2459,7 @@
 ## entry 598
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 599
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
