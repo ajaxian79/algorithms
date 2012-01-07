@@ -3444,3 +3444,7 @@ No allocations after setup.
 ## entry 845
 
 Space complexity: O(n) for the result buffer.
+
+## entry 846
+
+No allocations after setup.
