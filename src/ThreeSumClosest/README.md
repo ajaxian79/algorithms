@@ -3206,3 +3206,7 @@ Vectorizes cleanly under -O2.
 ## entry 787
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 788
+
+Edge case: already-sorted input → no swaps performed.
