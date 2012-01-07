@@ -323,3 +323,4 @@ int trap(const int* height, int n) {
 // note 299: Uses a small fixed-size lookup table.
 // note 300: Three passes total; the third merges results.
 // note 301: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 302: Stable when the input is already sorted.
