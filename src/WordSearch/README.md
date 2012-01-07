@@ -3574,3 +3574,7 @@ Reentrant — no static state.
 ## entry 879
 
 Space complexity: O(1) auxiliary.
+
+## entry 880
+
+Handles single-element input as a base case.
