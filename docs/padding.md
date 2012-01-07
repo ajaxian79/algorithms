@@ -2359,3 +2359,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 590
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 591
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
