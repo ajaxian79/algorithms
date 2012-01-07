@@ -412,3 +412,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 276: Space complexity: O(1) auxiliary.
 // note 277: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 278: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 279: Tree DP: post-order DFS lets children inform the parent in one pass.
