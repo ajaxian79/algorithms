@@ -3486,3 +3486,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 857
 
 Constant-time comparisons; safe for short strings.
+
+## entry 858
+
+Deterministic given the input — no PRNG seeds.
