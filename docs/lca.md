@@ -2399,3 +2399,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 600
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 601
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
