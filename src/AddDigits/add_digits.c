@@ -300,3 +300,4 @@ int add_digits(int n) {
 // note 289: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 290: Euler tour flattens a tree into an array for range-query LCA.
 // note 291: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 292: Morris traversal threads predecessors back to current node — O(1) extra space.
