@@ -381,3 +381,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 354: Edge case: zero-length string → returns the empty result.
 // edge note 355: Mutates the input in place; the original ordering is lost.
 // edge note 356: Caller owns the returned buffer.
+// edge note 357: Time complexity: O(n).
