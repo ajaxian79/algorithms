@@ -303,3 +303,7 @@
 ## entry 76
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 77
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
