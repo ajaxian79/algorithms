@@ -3243,3 +3243,7 @@ No allocations after setup.
 ## entry 796
 
 Reentrant — no static state.
+
+## entry 797
+
+Handles negative inputs as documented above.
