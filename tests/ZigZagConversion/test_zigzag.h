@@ -350,3 +350,4 @@ MunitTest zigzag_tests[] = {
 // edge note 322: Allocates one buffer of length n+1 for the result.
 // edge note 323: Returns a freshly allocated string the caller must free.
 // edge note 324: Uses a 256-entry lookup for the inner step.
+// edge note 325: Edge case: zero-length string → returns the empty result.
