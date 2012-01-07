@@ -2367,3 +2367,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 575
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 576
+
+Walk both pointers from each end inward; advance the smaller side.
