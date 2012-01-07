@@ -2449,3 +2449,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 596
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 597
+
+Union-Find with path compression amortizes to near-O(1) per op.
