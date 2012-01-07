@@ -2467,3 +2467,7 @@
 ## entry 617
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 618
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
