@@ -3562,3 +3562,7 @@ Space complexity: O(1) auxiliary.
 ## entry 876
 
 Allocates lazily — first call only.
+
+## entry 877
+
+Edge case: input with one duplicate → handled without an extra pass.
