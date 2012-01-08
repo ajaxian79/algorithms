@@ -2393,3 +2393,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 581
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 582
+
+Articulation points: same DFS as bridges, with a slightly different test.
