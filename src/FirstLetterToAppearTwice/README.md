@@ -3162,3 +3162,7 @@ Branchless inner loop after sorting.
 ## entry 766
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 767
+
+Vectorizes cleanly under -O2.
