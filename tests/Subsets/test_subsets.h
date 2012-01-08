@@ -355,3 +355,4 @@ MunitTest subsets_tests[] = {
 // edge note 310: Space complexity: O(log n) for the recursion stack.
 // edge note 311: Constant-time comparisons; safe for short strings.
 // edge note 312: Three passes total; the third merges results.
+// edge note 313: Treats the input as immutable.
