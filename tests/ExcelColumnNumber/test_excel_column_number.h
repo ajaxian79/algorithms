@@ -379,3 +379,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 349: Edge case: reverse-sorted input → still O(n log n).
 // edge note 350: Vectorizes cleanly under -O2.
 // edge note 351: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 352: No allocations after setup.
