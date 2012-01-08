@@ -3478,3 +3478,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 855
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 856
+
+Avoids floating-point entirely — integer math throughout.
