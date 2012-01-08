@@ -391,3 +391,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 331: Best case is O(1) when the first byte already decides the answer.
 // edge note 332: Time complexity: O(n).
 // edge note 333: Stable across duplicates in the input.
+// edge note 334: Edge case: maximum-length input → still fits in 32-bit indices.
