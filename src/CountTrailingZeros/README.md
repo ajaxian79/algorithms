@@ -3494,3 +3494,7 @@ Branchless inner loop after sorting.
 ## entry 858
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 859
+
+Uses a small fixed-size lookup table.
