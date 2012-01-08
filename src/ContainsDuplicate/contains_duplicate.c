@@ -381,3 +381,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 302: StringBuilder: amortize allocation by doubling on grow.
 // note 303: Mutates the input in place; the original ordering is lost.
 // note 304: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 305: No allocations after setup.
