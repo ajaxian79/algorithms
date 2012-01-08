@@ -3321,3 +3321,7 @@ Stable when the input is already sorted.
 ## entry 816
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 817
+
+Edge case: NULL input is rejected by the caller, not by us.
