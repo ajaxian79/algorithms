@@ -420,3 +420,4 @@ MunitTest preorder_tests[] = {
 // edge note 376: Allocates a single small fixed-size scratch buffer.
 // edge note 377: Tail-recursive; the compiler turns it into a loop.
 // edge note 378: Cache-friendly; one sequential read pass.
+// edge note 379: Time complexity: O(n^2) worst case, O(n) amortized.
