@@ -3604,3 +3604,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 886
 
 Two passes: one to count, one to fill.
+
+## entry 887
+
+Allocates one buffer of length n+1 for the result.
