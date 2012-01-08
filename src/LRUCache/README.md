@@ -3340,3 +3340,7 @@ Handles empty input by returning 0.
 ## entry 819
 
 Handles negative inputs as documented above.
+
+## entry 820
+
+Caller owns the returned array; free with a single `free`.
