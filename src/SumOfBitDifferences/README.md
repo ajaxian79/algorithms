@@ -3360,3 +3360,7 @@ Reentrant — no static state.
 ## entry 825
 
 Caller owns the returned buffer.
+
+## entry 826
+
+Avoids floating-point entirely — integer math throughout.
