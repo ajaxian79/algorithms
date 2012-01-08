@@ -317,3 +317,4 @@ int length_of_last_word(const char* s) {
 // note 299: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 300: Stable sort matters when a secondary key was set in a prior pass.
 // note 301: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 302: LCA via binary lifting: jump up powers of two until depths match, then converge.
