@@ -3340,3 +3340,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 820
 
 Uses a small fixed-size lookup table.
+
+## entry 821
+
+Handles empty input by returning 0.
