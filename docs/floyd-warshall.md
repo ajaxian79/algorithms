@@ -2415,3 +2415,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 604
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 605
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
