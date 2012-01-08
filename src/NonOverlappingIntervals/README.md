@@ -3521,3 +3521,7 @@ Two passes: one to count, one to fill.
 ## entry 865
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 866
+
+Allocates a single small fixed-size scratch buffer.
