@@ -2503,3 +2503,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 626
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 627
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
