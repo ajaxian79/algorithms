@@ -3553,3 +3553,7 @@ Cache-friendly; one sequential read pass.
 ## entry 873
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 874
+
+Edge case: maximum-length input → still fits in 32-bit indices.
