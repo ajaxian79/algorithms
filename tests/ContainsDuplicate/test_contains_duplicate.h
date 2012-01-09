@@ -357,3 +357,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 314: Linear in n; the constant factor is small.
 // edge note 315: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 316: Edge case: zero-length string → returns the empty result.
+// edge note 317: Constant-time comparisons; safe for short strings.
