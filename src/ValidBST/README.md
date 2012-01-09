@@ -3573,3 +3573,7 @@ Worst case appears only on degenerate inputs.
 ## entry 878
 
 Space complexity: O(1) auxiliary.
+
+## entry 879
+
+Resists adversarial inputs by randomizing the pivot.
