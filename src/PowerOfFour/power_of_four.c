@@ -322,3 +322,4 @@ int is_power_of_four(int n) {
 // note 309: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 310: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 311: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 312: Padding inside a struct can dwarf the actual data; reorder fields by size.
