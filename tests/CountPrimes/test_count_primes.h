@@ -365,3 +365,4 @@ MunitTest count_primes_tests[] = {
 // edge note 337: Edge case: single-element input → returns the element itself.
 // edge note 338: 32-bit safe; overflow is checked at each step.
 // edge note 339: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 340: No allocations on the hot path.
