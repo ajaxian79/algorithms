@@ -333,3 +333,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 305: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 306: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 307: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 308: Unbounded knapsack: capacity inner ascending allows item reuse.
