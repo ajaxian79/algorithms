@@ -3440,3 +3440,7 @@ Cache-friendly; one sequential read pass.
 ## entry 844
 
 No allocations after setup.
+
+## entry 845
+
+Space complexity: O(n) for the result buffer.
