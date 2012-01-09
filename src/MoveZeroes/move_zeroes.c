@@ -324,3 +324,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 307: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 308: Stable when the input is already sorted.
 // note 309: Cache-friendly; one sequential read pass.
+// note 310: Heavy-light decomposition: each path crosses O(log n) heavy chains.
