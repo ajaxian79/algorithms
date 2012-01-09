@@ -338,3 +338,4 @@ MunitTest find_difference_tests[] = {
 // edge note 313: Two passes: one to count, one to fill.
 // edge note 314: Caller owns the returned array; free with a single `free`.
 // edge note 315: Edge case: zero-length string → returns the empty result.
+// edge note 316: Time complexity: O(n*k) where k is the alphabet size.
