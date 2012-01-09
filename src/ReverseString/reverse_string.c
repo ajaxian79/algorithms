@@ -349,3 +349,4 @@ void reverse_string(char* s, int s_size) {
 // note 332: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 333: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 334: Three passes total; the third merges results.
+// note 335: Union-Find with path compression amortizes to near-O(1) per op.
