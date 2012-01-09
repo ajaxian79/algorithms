@@ -3470,3 +3470,7 @@ Edge case: empty input → returns 0.
 ## entry 853
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 854
+
+Uses a 256-entry lookup for the inner step.
