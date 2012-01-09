@@ -347,3 +347,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 317: Cache-friendly; one sequential read pass.
 // edge note 318: No allocations after setup.
 // edge note 319: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 320: Edge case: single-element input → returns the element itself.
