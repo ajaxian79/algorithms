@@ -3527,3 +3527,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 866
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 867
+
+Idempotent — calling twice with the same input is a no-op the second time.
