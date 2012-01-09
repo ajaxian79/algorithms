@@ -135743,3 +135743,7 @@
 ## entry 33936
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 33937
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
