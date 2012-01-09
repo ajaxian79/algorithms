@@ -2511,3 +2511,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 628
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 629
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
