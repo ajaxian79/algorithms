@@ -135747,3 +135747,7 @@
 ## entry 33937
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 33938
+
+- Monotonic stack pops while the new element violates the invariant.
