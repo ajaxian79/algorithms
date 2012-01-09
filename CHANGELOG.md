@@ -135683,3 +135683,7 @@
 ## entry 33921
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 33922
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
