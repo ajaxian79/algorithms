@@ -3570,3 +3570,7 @@ Space complexity: O(1) auxiliary.
 ## entry 878
 
 Reentrant — no static state.
+
+## entry 879
+
+Space complexity: O(1) auxiliary.
