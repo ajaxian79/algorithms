@@ -2391,3 +2391,7 @@
 ## entry 598
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 599
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
