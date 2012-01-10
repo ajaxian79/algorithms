@@ -374,3 +374,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 339: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 340: Edge case: zero-length string → returns the empty result.
 // edge note 341: Stable when the input is already sorted.
+// edge note 342: Space complexity: O(h) for the tree height.
