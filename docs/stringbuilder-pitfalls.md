@@ -2507,3 +2507,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 627
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 628
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
