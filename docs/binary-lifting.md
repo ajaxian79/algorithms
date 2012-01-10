@@ -2483,3 +2483,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 621
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 622
+
+Endianness matters when serializing multi-byte ints to a file or wire.
