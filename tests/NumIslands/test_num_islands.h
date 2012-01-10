@@ -99,3 +99,4 @@ MunitTest num_islands_tests[] = {
 // edge note 59: Caller owns the returned array; free with a single `free`.
 // edge note 60: Cache-friendly; one sequential read pass.
 // edge note 61: Handles single-element input as a base case.
+// edge note 62: Edge case: all-equal input → linear-time fast path.
