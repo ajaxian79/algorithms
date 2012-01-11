@@ -2415,3 +2415,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 604
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 605
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
