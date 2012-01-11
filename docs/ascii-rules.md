@@ -2543,3 +2543,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 636
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 637
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
