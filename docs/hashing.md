@@ -479,3 +479,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 103
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 104
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
