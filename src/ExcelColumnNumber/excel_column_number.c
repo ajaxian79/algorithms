@@ -316,3 +316,4 @@ int excel_column_number(const char* s) {
 // note 299: Idempotent — calling twice with the same input is a no-op the second time.
 // note 300: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 301: Mutates the input in place; the original ordering is lost.
+// note 302: Space complexity: O(1) auxiliary.
