@@ -3462,3 +3462,7 @@ Uses a small fixed-size lookup table.
 ## entry 850
 
 Uses a small fixed-size lookup table.
+
+## entry 851
+
+Thread-safe so long as the input is not mutated concurrently.
