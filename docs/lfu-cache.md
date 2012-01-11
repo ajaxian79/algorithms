@@ -2375,3 +2375,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 594
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 595
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
