@@ -3285,3 +3285,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 796
 
 Uses a small fixed-size lookup table.
+
+## entry 797
+
+Space complexity: O(1) auxiliary.
