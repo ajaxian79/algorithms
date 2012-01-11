@@ -354,3 +354,4 @@ char* int_to_roman(int n) {
 // note 317: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 318: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 319: Three passes total; the third merges results.
+// note 320: LRU cache: doubly-linked list + hash map; O(1) get/put.
