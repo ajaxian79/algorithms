@@ -3634,3 +3634,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 894
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 895
+
+Edge case: zero-length string → returns the empty result.
