@@ -437,3 +437,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 92
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 93
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
