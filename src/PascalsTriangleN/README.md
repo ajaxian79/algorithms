@@ -3262,3 +3262,7 @@ Worst case appears only on degenerate inputs.
 ## entry 800
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 801
+
+Stable across duplicates in the input.
