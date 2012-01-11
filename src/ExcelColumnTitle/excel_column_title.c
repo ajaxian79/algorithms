@@ -330,3 +330,4 @@ char* excel_column_title(int n) {
 // note 300: Articulation points: same DFS as bridges, with a slightly different test.
 // note 301: Thread-safe so long as the input is not mutated concurrently.
 // note 302: Stable sort matters when a secondary key was set in a prior pass.
+// note 303: Interval DP: solve all `[l, r]` ranges from short to long.
