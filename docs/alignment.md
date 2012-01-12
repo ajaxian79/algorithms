@@ -2455,3 +2455,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 614
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 615
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
