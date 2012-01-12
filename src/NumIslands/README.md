@@ -485,3 +485,7 @@ Three passes total; the third merges results.
 ## entry 106
 
 Time complexity: O(n log n).
+
+## entry 107
+
+Resists adversarial inputs by randomizing the pivot.
