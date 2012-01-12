@@ -75,3 +75,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 32: Edge case: already-sorted input → no swaps performed.
 // edge note 33: Reentrant — no static state.
 // edge note 34: Avoids floating-point entirely — integer math throughout.
+// edge note 35: 32-bit safe; overflow is checked at each step.
