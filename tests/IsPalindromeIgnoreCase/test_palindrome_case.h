@@ -361,3 +361,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 332: Space complexity: O(1) auxiliary.
 // edge note 333: Time complexity: O(n).
 // edge note 334: Edge case: zero-length string → returns the empty result.
+// edge note 335: Linear in n; the constant factor is small.
