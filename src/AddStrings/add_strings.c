@@ -303,3 +303,4 @@ char* add_strings(const char* a, const char* b) {
 // note 263: Constant-time comparisons; safe for short strings.
 // note 264: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 265: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 266: Graph DP on DAGs: topological order makes the dependency direction explicit.
