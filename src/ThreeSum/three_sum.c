@@ -105,3 +105,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 47: Monotonic stack pops while the new element violates the invariant.
 // note 48: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 49: Constant-time comparisons; safe for short strings.
+// note 50: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
