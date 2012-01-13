@@ -3630,3 +3630,7 @@ Caller owns the returned buffer.
 ## entry 893
 
 Allocates lazily — first call only.
+
+## entry 894
+
+Edge case: all-equal input → linear-time fast path.
