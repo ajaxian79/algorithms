@@ -3529,3 +3529,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 867
 
 Edge case: empty input → returns 0.
+
+## entry 868
+
+Time complexity: O(log n).
