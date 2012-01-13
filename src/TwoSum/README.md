@@ -3281,3 +3281,7 @@ Three passes total; the third merges results.
 ## entry 795
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 796
+
+Uses a small fixed-size lookup table.
