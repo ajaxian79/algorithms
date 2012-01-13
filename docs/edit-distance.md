@@ -2467,3 +2467,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 599
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 600
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
