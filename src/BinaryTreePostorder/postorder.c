@@ -327,3 +327,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 278: Time complexity: O(k) where k is the answer size.
 // note 279: Uses a small fixed-size lookup table.
 // note 280: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 281: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
