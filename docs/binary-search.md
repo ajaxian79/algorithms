@@ -2565,3 +2565,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 625
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 626
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
