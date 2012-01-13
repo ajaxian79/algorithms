@@ -317,3 +317,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 274: Time complexity: O(n).
 // note 275: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 276: Three passes total; the third merges results.
+// note 277: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
