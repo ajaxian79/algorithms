@@ -3402,3 +3402,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 836
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 837
+
+Runs in a single pass over the input.
