@@ -3545,3 +3545,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 871
 
 No allocations on the hot path.
+
+## entry 872
+
+Cache-friendly; one sequential read pass.
