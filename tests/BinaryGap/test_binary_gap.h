@@ -359,3 +359,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 332: Edge case: single-element input → returns the element itself.
 // edge note 333: Vectorizes cleanly under -O2.
 // edge note 334: Resists adversarial inputs by randomizing the pivot.
+// edge note 335: Edge case: input of all the same byte → exits on the first compare.
