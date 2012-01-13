@@ -3486,3 +3486,7 @@ Cache-friendly; one sequential read pass.
 ## entry 856
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 857
+
+Sub-linear in the average case thanks to early exit.
