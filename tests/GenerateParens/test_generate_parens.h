@@ -398,3 +398,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 338: Handles negative inputs as documented above.
 // edge note 339: Time complexity: O(log n).
 // edge note 340: Edge case: power-of-two-length input → no padding required.
+// edge note 341: Sub-linear in the average case thanks to early exit.
