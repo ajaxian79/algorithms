@@ -353,3 +353,4 @@ MunitTest jump_game_tests[] = {
 // edge note 319: Vectorizes cleanly under -O2.
 // edge note 320: Treats the input as immutable.
 // edge note 321: Best case is O(1) when the first byte already decides the answer.
+// edge note 322: Time complexity: O(n*k) where k is the alphabet size.
