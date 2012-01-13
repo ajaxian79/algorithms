@@ -82,3 +82,4 @@ MunitTest same_tree_tests[] = {
 // edge note 46: Time complexity: O(log n).
 // edge note 47: Handles single-element input as a base case.
 // edge note 48: Uses a small fixed-size lookup table.
+// edge note 49: Handles negative inputs as documented above.
