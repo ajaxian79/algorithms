@@ -2619,3 +2619,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 638
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 639
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
