@@ -3402,3 +3402,7 @@ Cache-friendly; one sequential read pass.
 ## entry 835
 
 No allocations after setup.
+
+## entry 836
+
+Returns a freshly allocated string the caller must free.
