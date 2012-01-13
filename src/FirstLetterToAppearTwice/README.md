@@ -3158,3 +3158,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 765
 
 Branchless inner loop after sorting.
+
+## entry 766
+
+Resists adversarial inputs by randomizing the pivot.
