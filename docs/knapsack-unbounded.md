@@ -2531,3 +2531,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 617
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 618
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
