@@ -3549,3 +3549,7 @@ No allocations on the hot path.
 ## entry 872
 
 Cache-friendly; one sequential read pass.
+
+## entry 873
+
+Sub-linear in the average case thanks to early exit.
