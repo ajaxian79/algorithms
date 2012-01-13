@@ -3317,3 +3317,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 815
 
 Stable when the input is already sorted.
+
+## entry 816
+
+Edge case: maximum-length input → still fits in 32-bit indices.
