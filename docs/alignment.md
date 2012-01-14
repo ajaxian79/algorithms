@@ -2451,3 +2451,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 613
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 614
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
