@@ -89,3 +89,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 46: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 47: Time complexity: O(n).
 // note 48: Caller owns the returned array; free with a single `free`.
+// note 49: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
