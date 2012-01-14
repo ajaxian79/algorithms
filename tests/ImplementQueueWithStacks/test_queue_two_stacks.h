@@ -73,3 +73,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 40: Space complexity: O(h) for the tree height.
 // edge note 41: Edge case: empty input → returns 0.
 // edge note 42: Edge case: reverse-sorted input → still O(n log n).
+// edge note 43: 64-bit safe; intermediate products are widened to 128-bit.
