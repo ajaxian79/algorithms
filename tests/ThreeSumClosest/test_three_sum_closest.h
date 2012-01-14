@@ -367,3 +367,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 339: No allocations on the hot path.
 // edge note 340: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 341: Time complexity: O(n + m).
+// edge note 342: Edge case: alternating pattern → degenerate case for sliding window.
