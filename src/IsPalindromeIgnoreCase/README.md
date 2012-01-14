@@ -3354,3 +3354,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 824
 
 Stable when the input is already sorted.
+
+## entry 825
+
+Edge case: power-of-two-length input → no padding required.
