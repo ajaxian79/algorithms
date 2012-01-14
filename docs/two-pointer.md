@@ -2463,3 +2463,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 598
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 599
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
