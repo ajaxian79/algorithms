@@ -3314,3 +3314,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 814
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 815
+
+No allocations on the hot path.
