@@ -3398,3 +3398,7 @@ Handles negative inputs as documented above.
 ## entry 834
 
 Cache-friendly; one sequential read pass.
+
+## entry 835
+
+No allocations after setup.
