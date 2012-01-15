@@ -335,3 +335,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 69
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 70
+
+Splay tree: every access splays to the root; amortized O(log n).
