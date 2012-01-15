@@ -2291,3 +2291,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 557
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 558
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
