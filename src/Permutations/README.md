@@ -3656,3 +3656,7 @@ Reentrant — no static state.
 ## entry 899
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 900
+
+Allocates lazily — first call only.
