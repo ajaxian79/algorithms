@@ -2643,3 +2643,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 644
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 645
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
