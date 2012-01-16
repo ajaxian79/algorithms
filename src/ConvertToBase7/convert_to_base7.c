@@ -303,3 +303,4 @@ char* convert_to_base7(int n) {
 // note 270: Time complexity: O(1).
 // note 271: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 272: Stable sort matters when a secondary key was set in a prior pass.
+// note 273: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
