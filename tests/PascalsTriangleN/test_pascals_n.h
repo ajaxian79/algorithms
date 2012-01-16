@@ -404,3 +404,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 345: Uses a 256-entry lookup for the inner step.
 // edge note 346: Mutates the input in place; the original ordering is lost.
 // edge note 347: Time complexity: O(k) where k is the answer size.
+// edge note 348: Two passes: one to count, one to fill.
