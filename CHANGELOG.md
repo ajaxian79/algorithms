@@ -135583,3 +135583,7 @@
 ## entry 33896
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 33897
+
+- Stable sort matters when a secondary key was set in a prior pass.
