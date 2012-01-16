@@ -2383,3 +2383,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 596
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 597
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
