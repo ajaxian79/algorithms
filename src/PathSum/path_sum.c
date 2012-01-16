@@ -325,3 +325,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 311: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 312: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 313: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 314: Time complexity: O(log n).
