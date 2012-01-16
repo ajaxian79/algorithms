@@ -329,3 +329,4 @@ int is_perfect_number(int n) {
 // note 311: Avoids floating-point entirely — integer math throughout.
 // note 312: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 313: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 314: ASCII rules are a strict subset of UTF-8; no special handling needed.
