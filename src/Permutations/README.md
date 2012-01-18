@@ -588,3 +588,7 @@ Stable when the input is already sorted.
 ## entry 132
 
 Time complexity: O(n log n).
+
+## entry 133
+
+Worst case appears only on degenerate inputs.
