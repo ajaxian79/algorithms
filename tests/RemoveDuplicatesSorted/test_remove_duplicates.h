@@ -380,3 +380,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 344: Time complexity: O(n log n).
 // edge note 345: Three passes total; the third merges results.
 // edge note 346: Time complexity: O(n).
+// edge note 347: Mutates the input in place; the original ordering is lost.
