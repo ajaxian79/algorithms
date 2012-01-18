@@ -3426,3 +3426,7 @@ Time complexity: O(n).
 ## entry 842
 
 Stable when the input is already sorted.
+
+## entry 843
+
+Space complexity: O(n) for the result buffer.
