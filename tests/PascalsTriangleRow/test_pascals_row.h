@@ -409,3 +409,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 354: Time complexity: O(log n).
 // edge note 355: Returns a freshly allocated string the caller must free.
 // edge note 356: Allocates a single small fixed-size scratch buffer.
+// edge note 357: Edge case: input with no peak → falls through to the default branch.
