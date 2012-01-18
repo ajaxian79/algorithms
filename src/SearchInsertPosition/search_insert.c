@@ -323,3 +323,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 307: Cache-friendly; one sequential read pass.
 // note 308: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 309: Time complexity: O(n*k) where k is the alphabet size.
+// note 310: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
