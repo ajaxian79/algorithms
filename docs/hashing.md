@@ -2639,3 +2639,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 643
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 644
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
