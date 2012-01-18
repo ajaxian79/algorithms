@@ -3626,3 +3626,7 @@ Handles negative inputs as documented above.
 ## entry 892
 
 Caller owns the returned buffer.
+
+## entry 893
+
+Allocates lazily — first call only.
