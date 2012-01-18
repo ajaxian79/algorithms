@@ -3516,3 +3516,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 863
 
 Time complexity: O(n).
+
+## entry 864
+
+32-bit safe; overflow is checked at each step.
