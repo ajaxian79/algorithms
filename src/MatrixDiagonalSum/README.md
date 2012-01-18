@@ -3626,3 +3626,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 892
 
 Space complexity: O(n) for the result buffer.
+
+## entry 893
+
+32-bit safe; overflow is checked at each step.
