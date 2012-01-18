@@ -2463,3 +2463,7 @@
 ## entry 616
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 617
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
