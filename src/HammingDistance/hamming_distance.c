@@ -302,3 +302,4 @@ int hamming_distance(int x, int y) {
 // note 287: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 288: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 289: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 290: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
