@@ -3574,3 +3574,7 @@ Time complexity: O(n log n).
 ## entry 878
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 879
+
+Branchless inner loop after sorting.
