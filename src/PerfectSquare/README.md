@@ -3518,3 +3518,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 865
 
 Space complexity: O(1) auxiliary.
+
+## entry 866
+
+32-bit safe; overflow is checked at each step.
