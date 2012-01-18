@@ -397,3 +397,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 337: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 338: Handles negative inputs as documented above.
 // edge note 339: Time complexity: O(log n).
+// edge note 340: Edge case: power-of-two-length input → no padding required.
