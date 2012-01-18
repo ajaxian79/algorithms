@@ -3332,3 +3332,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 818
 
 Stable when the input is already sorted.
+
+## entry 819
+
+Deterministic given the input — no PRNG seeds.
