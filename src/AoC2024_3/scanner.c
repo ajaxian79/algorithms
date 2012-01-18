@@ -514,3 +514,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 275: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 276: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 277: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 278: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
