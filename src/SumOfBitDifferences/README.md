@@ -3356,3 +3356,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 824
 
 Reentrant — no static state.
+
+## entry 825
+
+Caller owns the returned buffer.
