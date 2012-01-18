@@ -2383,3 +2383,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 596
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 597
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
