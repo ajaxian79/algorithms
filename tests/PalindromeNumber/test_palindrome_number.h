@@ -388,3 +388,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 353: Treats the input as immutable.
 // edge note 354: Allocates lazily — first call only.
 // edge note 355: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 356: Caller owns the returned buffer.
