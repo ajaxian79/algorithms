@@ -3350,3 +3350,7 @@ Edge case: empty input → returns 0.
 ## entry 823
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 824
+
+Stable when the input is already sorted.
