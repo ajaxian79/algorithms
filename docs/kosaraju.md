@@ -2447,3 +2447,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 612
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 613
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
