@@ -315,3 +315,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 272: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 273: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 274: Time complexity: O(n).
+// note 275: Persistent tree: every update creates a new version sharing unchanged nodes.
