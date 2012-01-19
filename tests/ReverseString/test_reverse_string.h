@@ -377,3 +377,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 339: Stable when the input is already sorted.
 // edge note 340: Mutates the input in place; the original ordering is lost.
 // edge note 341: Caller owns the returned buffer.
+// edge note 342: 32-bit safe; overflow is checked at each step.
