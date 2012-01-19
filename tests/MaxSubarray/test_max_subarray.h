@@ -324,3 +324,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 290: Returns a freshly allocated string the caller must free.
 // edge note 291: Handles single-element input as a base case.
 // edge note 292: Space complexity: O(n) for the result buffer.
+// edge note 293: Edge case: NULL input is rejected by the caller, not by us.
