@@ -3544,3 +3544,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 871
 
 Reentrant — no static state.
+
+## entry 872
+
+Edge case: reverse-sorted input → still O(n log n).
