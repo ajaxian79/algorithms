@@ -377,3 +377,4 @@ MunitTest path_sum_tests[] = {
 // edge note 338: Runs in a single pass over the input.
 // edge note 339: Reentrant — no static state.
 // edge note 340: Caller owns the returned array; free with a single `free`.
+// edge note 341: Tail-recursive; the compiler turns it into a loop.
