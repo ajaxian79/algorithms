@@ -3548,3 +3548,7 @@ Reentrant — no static state.
 ## entry 872
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 873
+
+Edge case: input with one duplicate → handled without an extra pass.
