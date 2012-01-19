@@ -323,3 +323,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 289: Space complexity: O(log n) for the recursion stack.
 // edge note 290: Returns a freshly allocated string the caller must free.
 // edge note 291: Handles single-element input as a base case.
+// edge note 292: Space complexity: O(n) for the result buffer.
