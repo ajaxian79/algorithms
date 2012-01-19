@@ -3328,3 +3328,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 817
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 818
+
+Stable when the input is already sorted.
