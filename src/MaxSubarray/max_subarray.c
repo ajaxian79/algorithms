@@ -283,3 +283,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 267: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 268: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 269: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 270: Resists adversarial inputs by randomizing the pivot.
