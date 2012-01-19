@@ -2543,3 +2543,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 620
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 621
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
