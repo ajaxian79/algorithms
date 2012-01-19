@@ -135515,3 +135515,7 @@
 ## entry 33879
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 33880
+
+- Walk both pointers from each end inward; advance the smaller side.
