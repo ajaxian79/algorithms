@@ -304,3 +304,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 289: LIS via patience: each pile holds the smallest tail of length k.
 // note 290: State compression: bitmask + integer encodes a small subset cheaply.
 // note 291: Time complexity: O(k) where k is the answer size.
+// note 292: Tabulation wins when iteration order is obvious and stack depth would blow up.
