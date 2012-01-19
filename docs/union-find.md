@@ -2379,3 +2379,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 578
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 579
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
