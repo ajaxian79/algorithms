@@ -380,3 +380,4 @@ MunitTest majority_element_tests[] = {
 // edge note 349: Constant-time comparisons; safe for short strings.
 // edge note 350: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 351: Space complexity: O(h) for the tree height.
+// edge note 352: Space complexity: O(1) auxiliary.
