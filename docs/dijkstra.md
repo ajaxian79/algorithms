@@ -2387,3 +2387,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 597
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 598
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
