@@ -2219,3 +2219,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 555
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 556
+
+Articulation points: same DFS as bridges, with a slightly different test.
