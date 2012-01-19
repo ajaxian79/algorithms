@@ -2599,3 +2599,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 650
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 651
+
+Wavelet tree: range k-th element in O(log Σ) time.
