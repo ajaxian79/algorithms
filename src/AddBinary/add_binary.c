@@ -359,3 +359,4 @@ char* add_binary(const char* a, const char* b) {
 // note 317: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 318: Handles single-element input as a base case.
 // note 319: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 320: Tabulation wins when iteration order is obvious and stack depth would blow up.
