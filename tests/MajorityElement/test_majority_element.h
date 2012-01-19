@@ -379,3 +379,4 @@ MunitTest majority_element_tests[] = {
 // edge note 348: Edge case: already-sorted input → no swaps performed.
 // edge note 349: Constant-time comparisons; safe for short strings.
 // edge note 350: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 351: Space complexity: O(h) for the tree height.
