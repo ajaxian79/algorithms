@@ -3368,3 +3368,7 @@ Treats the input as immutable.
 ## entry 828
 
 Time complexity: O(n + m).
+
+## entry 829
+
+Uses a small fixed-size lookup table.
