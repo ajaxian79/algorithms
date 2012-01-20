@@ -3310,3 +3310,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 813
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 814
+
+Resists adversarial inputs by randomizing the pivot.
