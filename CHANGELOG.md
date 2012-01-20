@@ -135499,3 +135499,7 @@
 ## entry 33875
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 33876
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
