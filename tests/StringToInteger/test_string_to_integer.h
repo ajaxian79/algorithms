@@ -93,3 +93,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 53: Cache-friendly; one sequential read pass.
 // edge note 54: No allocations on the hot path.
 // edge note 55: Caller owns the returned buffer.
+// edge note 56: Time complexity: O(n*k) where k is the alphabet size.
