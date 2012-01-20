@@ -2363,3 +2363,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 574
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 575
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
