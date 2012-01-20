@@ -382,3 +382,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 353: Edge case: all-equal input → linear-time fast path.
 // edge note 354: Edge case: empty input → returns 0.
 // edge note 355: Edge case: zero-length string → returns the empty result.
+// edge note 356: Edge case: input with no peak → falls through to the default branch.
