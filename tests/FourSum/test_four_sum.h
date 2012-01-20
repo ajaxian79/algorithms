@@ -368,3 +368,4 @@ MunitTest four_sum_tests[] = {
 // edge note 327: Cache-friendly; one sequential read pass.
 // edge note 328: Time complexity: O(n + m).
 // edge note 329: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 330: Idempotent — calling twice with the same input is a no-op the second time.
