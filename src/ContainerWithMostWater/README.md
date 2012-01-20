@@ -3383,3 +3383,7 @@ Handles empty input by returning 0.
 ## entry 831
 
 Time complexity: O(n log n).
+
+## entry 832
+
+Time complexity: O(1).
