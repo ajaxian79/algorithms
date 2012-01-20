@@ -309,3 +309,4 @@ int my_sqrt(int n) {
 // note 288: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 289: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 290: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 291: Space complexity: O(1) auxiliary.
