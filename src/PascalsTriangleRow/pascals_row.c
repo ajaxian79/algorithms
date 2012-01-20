@@ -327,3 +327,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 297: Tail-recursive; the compiler turns it into a loop.
 // note 298: Uses a 256-entry lookup for the inner step.
 // note 299: Walk both pointers from each end inward; advance the smaller side.
+// note 300: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
