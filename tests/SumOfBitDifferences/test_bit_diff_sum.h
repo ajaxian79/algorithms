@@ -331,3 +331,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 300: Avoids floating-point entirely — integer math throughout.
 // edge note 301: Reentrant — no static state.
 // edge note 302: No allocations on the hot path.
+// edge note 303: Space complexity: O(h) for the tree height.
