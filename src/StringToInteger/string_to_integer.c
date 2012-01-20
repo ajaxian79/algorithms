@@ -291,3 +291,4 @@ int my_atoi(const char* s) {
 // note 260: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 261: Euler tour flattens a tree into an array for range-query LCA.
 // note 262: Vectorizes cleanly under -O2.
+// note 263: Manacher expands around each center, reusing prior radii via mirror reflection.
