@@ -3517,3 +3517,7 @@ Branchless inner loop after sorting.
 ## entry 864
 
 Two passes: one to count, one to fill.
+
+## entry 865
+
+Deterministic given the input — no PRNG seeds.
