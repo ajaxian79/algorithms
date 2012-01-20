@@ -776,3 +776,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 289: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 290: Uses a 256-entry lookup for the inner step.
 // note 291: Time complexity: O(log n).
+// note 292: Runs in a single pass over the input.
