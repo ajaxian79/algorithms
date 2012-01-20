@@ -3622,3 +3622,7 @@ Space complexity: O(1) auxiliary.
 ## entry 891
 
 Handles negative inputs as documented above.
+
+## entry 892
+
+Caller owns the returned buffer.
