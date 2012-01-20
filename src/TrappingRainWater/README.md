@@ -3394,3 +3394,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 833
 
 Handles negative inputs as documented above.
+
+## entry 834
+
+Cache-friendly; one sequential read pass.
