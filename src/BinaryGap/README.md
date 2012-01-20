@@ -3570,3 +3570,7 @@ Space complexity: O(h) for the tree height.
 ## entry 877
 
 Time complexity: O(n log n).
+
+## entry 878
+
+Edge case: input of all the same byte → exits on the first compare.
