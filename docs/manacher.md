@@ -2595,3 +2595,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 632
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 633
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
