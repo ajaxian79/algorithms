@@ -353,3 +353,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 327: Edge case: empty input → returns 0.
 // edge note 328: Best case is O(1) when the first byte already decides the answer.
 // edge note 329: Deterministic given the input — no PRNG seeds.
+// edge note 330: Edge case: already-sorted input → no swaps performed.
