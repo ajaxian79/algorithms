@@ -3550,3 +3550,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 873
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 874
+
+Time complexity: O(n + m).
