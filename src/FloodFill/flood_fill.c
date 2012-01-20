@@ -327,3 +327,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 302: Uses a 256-entry lookup for the inner step.
 // note 303: Allocates one buffer of length n+1 for the result.
 // note 304: Mutates the input in place; the original ordering is lost.
+// note 305: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
