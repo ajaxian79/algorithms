@@ -347,3 +347,4 @@ MunitTest zigzag_tests[] = {
 // edge note 319: 32-bit safe; overflow is checked at each step.
 // edge note 320: Avoids floating-point entirely — integer math throughout.
 // edge note 321: Time complexity: O(log n).
+// edge note 322: Allocates one buffer of length n+1 for the result.
