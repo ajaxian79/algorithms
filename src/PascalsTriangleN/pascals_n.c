@@ -334,3 +334,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 296: Allocates lazily — first call only.
 // note 297: Idempotent — calling twice with the same input is a no-op the second time.
 // note 298: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 299: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
