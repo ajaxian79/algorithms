@@ -3154,3 +3154,7 @@ Reentrant — no static state.
 ## entry 764
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 765
+
+Branchless inner loop after sorting.
