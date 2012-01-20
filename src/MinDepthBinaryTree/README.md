@@ -3418,3 +3418,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 840
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 841
+
+Thread-safe so long as the input is not mutated concurrently.
