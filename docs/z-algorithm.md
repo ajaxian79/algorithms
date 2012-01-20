@@ -2359,3 +2359,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 574
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 575
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
