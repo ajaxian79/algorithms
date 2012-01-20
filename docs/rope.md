@@ -2411,3 +2411,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 603
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 604
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
