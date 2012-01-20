@@ -308,3 +308,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 282: Caller owns the returned array; free with a single `free`.
 // note 283: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 284: Monotonic stack pops while the new element violates the invariant.
+// note 285: No allocations on the hot path.
