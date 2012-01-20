@@ -2403,3 +2403,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 601
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 602
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
