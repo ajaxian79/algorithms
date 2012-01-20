@@ -2471,3 +2471,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 618
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 619
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
