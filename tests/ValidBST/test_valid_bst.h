@@ -74,3 +74,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 31: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 32: Avoids floating-point entirely — integer math throughout.
 // edge note 33: Time complexity: O(1).
+// edge note 34: Time complexity: O(n).
