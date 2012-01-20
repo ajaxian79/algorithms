@@ -2363,3 +2363,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 575
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 576
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
