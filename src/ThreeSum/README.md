@@ -3445,3 +3445,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 846
 
 Caller owns the returned buffer.
+
+## entry 847
+
+Worst case appears only on degenerate inputs.
