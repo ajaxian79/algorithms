@@ -385,3 +385,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 356: Stable when the input is already sorted.
 // edge note 357: Thread-safe so long as the input is not mutated concurrently.
 // edge note 358: Edge case: zero-length string → returns the empty result.
+// edge note 359: Space complexity: O(n) for the result buffer.
