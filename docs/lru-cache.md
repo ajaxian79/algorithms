@@ -2351,3 +2351,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 588
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 589
+
+Euler tour flattens a tree into an array for range-query LCA.
