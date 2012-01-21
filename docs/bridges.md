@@ -351,3 +351,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 88
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 89
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
