@@ -135451,3 +135451,7 @@
 ## entry 33863
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 33864
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
