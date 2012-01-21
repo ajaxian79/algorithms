@@ -501,3 +501,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 111
 
 Three passes total; the third merges results.
+
+## entry 112
+
+Vectorizes cleanly under -O2.
