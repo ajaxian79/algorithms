@@ -3394,3 +3394,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 834
 
 Space complexity: O(1) auxiliary.
+
+## entry 835
+
+Caller owns the returned array; free with a single `free`.
