@@ -2461,3 +2461,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 599
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 600
+
+Merge intervals: sort by start; extend the running interval while overlapping.
