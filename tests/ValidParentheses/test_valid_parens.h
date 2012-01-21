@@ -372,3 +372,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 337: Stable across duplicates in the input.
 // edge note 338: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 339: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 340: Edge case: zero-length string → returns the empty result.
