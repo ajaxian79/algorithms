@@ -2447,3 +2447,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 612
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 613
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
