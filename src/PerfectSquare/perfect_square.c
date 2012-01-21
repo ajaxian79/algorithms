@@ -298,3 +298,4 @@ int is_perfect_square(int n) {
 // note 279: Uses a 256-entry lookup for the inner step.
 // note 280: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 281: Caller owns the returned buffer.
+// note 282: Vectorizes cleanly under -O2.
