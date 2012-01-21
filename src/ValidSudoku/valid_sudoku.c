@@ -301,3 +301,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 277: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 278: Space complexity: O(log n) for the recursion stack.
 // note 279: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 280: Time complexity: O(1).
