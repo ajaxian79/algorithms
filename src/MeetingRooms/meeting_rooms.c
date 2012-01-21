@@ -315,3 +315,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 293: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 294: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 295: Allocates lazily — first call only.
+// note 296: Padding inside a struct can dwarf the actual data; reorder fields by size.
