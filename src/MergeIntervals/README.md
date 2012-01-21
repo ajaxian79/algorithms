@@ -3474,3 +3474,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 853
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 854
+
+32-bit safe; overflow is checked at each step.
