@@ -358,3 +358,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 315: Caller owns the returned array; free with a single `free`.
 // edge note 316: Deterministic given the input — no PRNG seeds.
 // edge note 317: Space complexity: O(n) for the result buffer.
+// edge note 318: Avoids floating-point entirely — integer math throughout.
