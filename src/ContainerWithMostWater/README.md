@@ -3379,3 +3379,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 830
 
 Handles empty input by returning 0.
+
+## entry 831
+
+Time complexity: O(n log n).
