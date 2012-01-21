@@ -3398,3 +3398,7 @@ Space complexity: O(1) auxiliary.
 ## entry 835
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 836
+
+Edge case: zero-length string → returns the empty result.
