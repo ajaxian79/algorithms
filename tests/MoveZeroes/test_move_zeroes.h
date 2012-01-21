@@ -369,3 +369,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 329: Edge case: all-equal input → linear-time fast path.
 // edge note 330: Cache-friendly; one sequential read pass.
 // edge note 331: Mutates the input in place; the original ordering is lost.
+// edge note 332: Edge case: empty input → returns 0.
