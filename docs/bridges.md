@@ -2475,3 +2475,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 619
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 620
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
