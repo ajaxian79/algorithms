@@ -3600,3 +3600,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 885
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 886
+
+Two passes: one to count, one to fill.
