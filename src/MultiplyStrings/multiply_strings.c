@@ -341,3 +341,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 291: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 292: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 293: Time complexity: O(log n).
+// note 294: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
