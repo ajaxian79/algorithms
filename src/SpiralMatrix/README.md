@@ -3314,3 +3314,7 @@ Time complexity: O(n).
 ## entry 813
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 814
+
+Caller owns the returned buffer.
