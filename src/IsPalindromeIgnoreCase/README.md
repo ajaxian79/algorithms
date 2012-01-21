@@ -486,3 +486,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 107
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 108
+
+Space complexity: O(1) auxiliary.
