@@ -3652,3 +3652,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 898
 
 Reentrant — no static state.
+
+## entry 899
+
+Edge case: input with one duplicate → handled without an extra pass.
