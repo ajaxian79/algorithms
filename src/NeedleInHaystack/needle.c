@@ -326,3 +326,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 285: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 286: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 287: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 288: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
