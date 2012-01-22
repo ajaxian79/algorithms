@@ -333,3 +333,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 302: Constant-time comparisons; safe for short strings.
 // edge note 303: Handles single-element input as a base case.
 // edge note 304: Edge case: single-element input → returns the element itself.
+// edge note 305: Edge case: already-sorted input → no swaps performed.
