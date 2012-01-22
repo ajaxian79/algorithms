@@ -3375,3 +3375,7 @@ Treats the input as immutable.
 ## entry 829
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 830
+
+Handles empty input by returning 0.
