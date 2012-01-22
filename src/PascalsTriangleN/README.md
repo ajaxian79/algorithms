@@ -3258,3 +3258,7 @@ Time complexity: O(1).
 ## entry 799
 
 Worst case appears only on degenerate inputs.
+
+## entry 800
+
+Edge case: input with one duplicate → handled without an extra pass.
