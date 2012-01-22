@@ -304,3 +304,4 @@ unsigned int find_complement(unsigned int n) {
 // note 288: Space complexity: O(n) for the result buffer.
 // note 289: Handles empty input by returning 0.
 // note 290: Articulation points: same DFS as bridges, with a slightly different test.
+// note 291: State compression: bitmask + integer encodes a small subset cheaply.
