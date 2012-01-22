@@ -3618,3 +3618,7 @@ Branchless inner loop after sorting.
 ## entry 890
 
 Space complexity: O(1) auxiliary.
+
+## entry 891
+
+Handles negative inputs as documented above.
