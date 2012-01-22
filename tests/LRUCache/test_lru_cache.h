@@ -360,3 +360,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 317: Worst case appears only on degenerate inputs.
 // edge note 318: Time complexity: O(n).
 // edge note 319: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 320: Stable across duplicates in the input.
