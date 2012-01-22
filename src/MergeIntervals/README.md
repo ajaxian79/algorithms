@@ -3470,3 +3470,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 852
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 853
+
+Edge case: input of all the same byte → exits on the first compare.
