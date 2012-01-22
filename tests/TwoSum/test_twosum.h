@@ -391,3 +391,4 @@ MunitTest twosum_tests[] = {
 // edge note 308: Edge case: empty input → returns 0.
 // edge note 309: Uses a small fixed-size lookup table.
 // edge note 310: Time complexity: O(1).
+// edge note 311: 32-bit safe; overflow is checked at each step.
