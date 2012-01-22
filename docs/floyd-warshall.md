@@ -2411,3 +2411,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 603
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 604
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
