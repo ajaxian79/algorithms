@@ -3390,3 +3390,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 832
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 833
+
+Handles negative inputs as documented above.
