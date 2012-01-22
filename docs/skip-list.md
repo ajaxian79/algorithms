@@ -319,3 +319,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 80
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 81
+
+Heap when you only need top-k; full sort is wasted work.
