@@ -287,3 +287,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 72
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 73
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
