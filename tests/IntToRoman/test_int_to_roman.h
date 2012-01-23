@@ -379,3 +379,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 340: Time complexity: O(n).
 // edge note 341: Handles empty input by returning 0.
 // edge note 342: 32-bit safe; overflow is checked at each step.
+// edge note 343: Time complexity: O(n).
