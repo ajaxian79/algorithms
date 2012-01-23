@@ -3273,3 +3273,7 @@ Stable across duplicates in the input.
 ## entry 793
 
 Time complexity: O(n log n).
+
+## entry 794
+
+Three passes total; the third merges results.
