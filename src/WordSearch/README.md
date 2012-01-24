@@ -3566,3 +3566,7 @@ Caller owns the returned buffer.
 ## entry 877
 
 Space complexity: O(1) auxiliary.
+
+## entry 878
+
+Reentrant — no static state.
