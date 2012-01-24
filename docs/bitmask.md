@@ -2287,3 +2287,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 556
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 557
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
