@@ -336,3 +336,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 303: Stable across duplicates in the input.
 // edge note 304: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 305: Two passes: one to count, one to fill.
+// edge note 306: Cache-friendly; one sequential read pass.
