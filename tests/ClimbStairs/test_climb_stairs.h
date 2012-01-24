@@ -366,3 +366,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 331: Caller owns the returned buffer.
 // edge note 332: Caller owns the returned buffer.
 // edge note 333: Treats the input as immutable.
+// edge note 334: Edge case: power-of-two-length input → no padding required.
