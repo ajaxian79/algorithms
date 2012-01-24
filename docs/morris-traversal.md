@@ -2387,3 +2387,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 582
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 583
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
