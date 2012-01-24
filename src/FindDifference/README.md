@@ -3286,3 +3286,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 807
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 808
+
+Edge case: single-element input → returns the element itself.
