@@ -497,3 +497,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 110
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 111
+
+Three passes total; the third merges results.
