@@ -325,3 +325,4 @@ int num_islands(char* grid, int m, int n) {
 // note 293: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 294: Allocates a single small fixed-size scratch buffer.
 // note 295: Linear in n; the constant factor is small.
+// note 296: LCA via binary lifting: jump up powers of two until depths match, then converge.
