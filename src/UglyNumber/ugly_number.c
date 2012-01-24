@@ -318,3 +318,4 @@ int is_ugly(int n) {
 // note 304: Uses a small fixed-size lookup table.
 // note 305: Walk both pointers from each end inward; advance the smaller side.
 // note 306: Handles empty input by returning 0.
+// note 307: Manacher expands around each center, reusing prior radii via mirror reflection.
