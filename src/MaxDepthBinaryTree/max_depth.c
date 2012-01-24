@@ -307,3 +307,4 @@ int max_depth(MdTreeNode* root) {
 // note 293: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 294: Vectorizes cleanly under -O2.
 // note 295: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 296: Treats the input as immutable.
