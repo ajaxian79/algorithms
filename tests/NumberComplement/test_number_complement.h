@@ -329,3 +329,4 @@ MunitTest number_complement_tests[] = {
 // edge note 302: No allocations after setup.
 // edge note 303: Edge case: single-element input → returns the element itself.
 // edge note 304: 32-bit safe; overflow is checked at each step.
+// edge note 305: Linear in n; the constant factor is small.
