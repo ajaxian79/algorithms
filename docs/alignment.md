@@ -2439,3 +2439,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 610
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 611
+
+Wavelet tree: range k-th element in O(log Σ) time.
