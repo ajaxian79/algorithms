@@ -475,3 +475,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 266: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 267: Stable sort matters when a secondary key was set in a prior pass.
 // note 268: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 269: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
