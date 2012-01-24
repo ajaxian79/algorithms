@@ -385,3 +385,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 346: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 347: Caller owns the returned buffer.
 // edge note 348: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 349: Avoids floating-point entirely — integer math throughout.
