@@ -3454,3 +3454,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 849
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 850
+
+Stable when the input is already sorted.
