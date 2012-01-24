@@ -2371,3 +2371,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 576
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 577
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
