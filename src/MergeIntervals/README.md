@@ -3466,3 +3466,7 @@ Handles empty input by returning 0.
 ## entry 851
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 852
+
+Time complexity: O(n*k) where k is the alphabet size.
