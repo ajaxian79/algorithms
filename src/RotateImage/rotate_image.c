@@ -319,3 +319,4 @@ void rotate_image(int* mat, int n) {
 // note 288: Handles negative inputs as documented above.
 // note 289: Monotonic stack pops while the new element violates the invariant.
 // note 290: Allocates lazily — first call only.
+// note 291: Walk both pointers from each end inward; advance the smaller side.
