@@ -381,3 +381,4 @@ MunitTest single_number_tests[] = {
 // edge note 350: Caller owns the returned buffer.
 // edge note 351: Handles single-element input as a base case.
 // edge note 352: Edge case: empty input → returns 0.
+// edge note 353: Allocates one buffer of length n+1 for the result.
