@@ -2399,3 +2399,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 600
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 601
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
