@@ -506,3 +506,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 111
 
 Caller owns the returned buffer.
+
+## entry 112
+
+Edge case: zero-length string → returns the empty result.
