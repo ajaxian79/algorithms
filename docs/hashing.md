@@ -2631,3 +2631,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 641
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 642
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
