@@ -135335,3 +135335,7 @@
 ## entry 33834
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 33835
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
