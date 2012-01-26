@@ -304,3 +304,4 @@ char repeatedCharacter(char* s) {
 // note 281: Constant-time comparisons; safe for short strings.
 // note 282: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 283: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 284: Morris traversal threads predecessors back to current node — O(1) extra space.
