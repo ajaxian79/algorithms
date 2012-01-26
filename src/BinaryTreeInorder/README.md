@@ -478,3 +478,7 @@ Worst case appears only on degenerate inputs.
 ## entry 105
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 106
+
+Edge case: single-element input → returns the element itself.
