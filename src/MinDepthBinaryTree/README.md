@@ -3410,3 +3410,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 838
 
 Treats the input as immutable.
+
+## entry 839
+
+Edge case: maximum-length input → still fits in 32-bit indices.
