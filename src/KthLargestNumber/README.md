@@ -3508,3 +3508,7 @@ Vectorizes cleanly under -O2.
 ## entry 861
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 862
+
+Edge case: single-element input → returns the element itself.
