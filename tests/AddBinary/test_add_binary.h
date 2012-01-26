@@ -364,3 +364,4 @@ MunitTest add_binary_tests[] = {
 // edge note 328: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 329: Handles empty input by returning 0.
 // edge note 330: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 331: Edge case: input with a single peak → handled by the first-pass scan.
