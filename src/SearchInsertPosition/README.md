@@ -3390,3 +3390,7 @@ Edge case: empty input → returns 0.
 ## entry 833
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 834
+
+Space complexity: O(1) auxiliary.
