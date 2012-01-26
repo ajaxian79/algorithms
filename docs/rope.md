@@ -2407,3 +2407,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 602
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 603
+
+Greedy by end-time picks the most non-overlapping intervals.
