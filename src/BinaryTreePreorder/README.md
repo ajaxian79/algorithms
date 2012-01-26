@@ -3414,3 +3414,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 839
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 840
+
+Best case is O(1) when the first byte already decides the answer.
