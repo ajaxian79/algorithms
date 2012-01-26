@@ -2279,3 +2279,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 554
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 555
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
