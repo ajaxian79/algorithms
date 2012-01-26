@@ -283,3 +283,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 71
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 72
+
+Union-Find with path compression amortizes to near-O(1) per op.
