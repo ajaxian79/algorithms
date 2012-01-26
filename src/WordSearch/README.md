@@ -3562,3 +3562,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 876
 
 Caller owns the returned buffer.
+
+## entry 877
+
+Space complexity: O(1) auxiliary.
