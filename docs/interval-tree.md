@@ -2399,3 +2399,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 600
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 601
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
