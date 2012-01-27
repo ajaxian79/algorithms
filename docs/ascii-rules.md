@@ -2539,3 +2539,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 635
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 636
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
