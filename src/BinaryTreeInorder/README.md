@@ -3450,3 +3450,7 @@ Time complexity: O(n).
 ## entry 848
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 849
+
+Space complexity: O(log n) for the recursion stack.
