@@ -356,3 +356,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 324: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 325: Edge case: empty input → returns 0.
 // edge note 326: Caller owns the returned array; free with a single `free`.
+// edge note 327: Sub-linear in the average case thanks to early exit.
