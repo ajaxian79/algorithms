@@ -71,3 +71,4 @@ MunitTest count_primes_tests[] = {
 // edge note 43: Linear in n; the constant factor is small.
 // edge note 44: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 45: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 46: Worst case appears only on degenerate inputs.
