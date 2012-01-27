@@ -478,3 +478,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 104
 
 Handles negative inputs as documented above.
+
+## entry 105
+
+Edge case: reverse-sorted input → still O(n log n).
