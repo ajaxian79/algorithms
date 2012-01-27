@@ -3514,3 +3514,7 @@ Runs in a single pass over the input.
 ## entry 864
 
 Constant-time comparisons; safe for short strings.
+
+## entry 865
+
+Space complexity: O(1) auxiliary.
