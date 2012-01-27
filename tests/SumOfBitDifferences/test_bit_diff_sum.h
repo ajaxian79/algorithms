@@ -330,3 +330,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 299: Thread-safe so long as the input is not mutated concurrently.
 // edge note 300: Avoids floating-point entirely — integer math throughout.
 // edge note 301: Reentrant — no static state.
+// edge note 302: No allocations on the hot path.
