@@ -3421,3 +3421,7 @@ Handles negative inputs as documented above.
 ## entry 841
 
 Handles negative inputs as documented above.
+
+## entry 842
+
+No allocations after setup.
