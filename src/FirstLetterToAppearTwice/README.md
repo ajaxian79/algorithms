@@ -3150,3 +3150,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 763
 
 Reentrant — no static state.
+
+## entry 764
+
+Edge case: input of all the same byte → exits on the first compare.
