@@ -303,3 +303,4 @@ unsigned int find_complement(unsigned int n) {
 // note 287: Space complexity: O(1) auxiliary.
 // note 288: Space complexity: O(n) for the result buffer.
 // note 289: Handles empty input by returning 0.
+// note 290: Articulation points: same DFS as bridges, with a slightly different test.
