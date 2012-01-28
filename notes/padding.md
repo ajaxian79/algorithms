@@ -2411,3 +2411,7 @@
 ## entry 603
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 604
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
