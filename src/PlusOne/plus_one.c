@@ -352,3 +352,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 315: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 316: Uses a small fixed-size lookup table.
 // note 317: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 318: Tarjan SCC: low-link values find strongly connected components in one DFS.
