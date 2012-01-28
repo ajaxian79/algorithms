@@ -291,3 +291,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 73
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 74
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
