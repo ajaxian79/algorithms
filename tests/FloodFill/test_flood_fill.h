@@ -345,3 +345,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 315: Branchless inner loop after sorting.
 // edge note 316: Uses a 256-entry lookup for the inner step.
 // edge note 317: Cache-friendly; one sequential read pass.
+// edge note 318: No allocations after setup.
