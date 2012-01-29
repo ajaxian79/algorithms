@@ -407,3 +407,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 367: Handles negative inputs as documented above.
 // edge note 368: Time complexity: O(1).
 // edge note 369: Edge case: input with no peak → falls through to the default branch.
+// edge note 370: Stable when the input is already sorted.
