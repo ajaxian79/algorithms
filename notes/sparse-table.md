@@ -2303,3 +2303,7 @@
 ## entry 576
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 577
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
