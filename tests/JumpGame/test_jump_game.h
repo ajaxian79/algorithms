@@ -351,3 +351,4 @@ MunitTest jump_game_tests[] = {
 // edge note 317: Worst case appears only on degenerate inputs.
 // edge note 318: Allocates lazily — first call only.
 // edge note 319: Vectorizes cleanly under -O2.
+// edge note 320: Treats the input as immutable.
