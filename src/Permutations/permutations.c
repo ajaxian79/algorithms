@@ -348,3 +348,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 303: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 304: Space complexity: O(n) for the result buffer.
 // note 305: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 306: Tree DP: post-order DFS lets children inform the parent in one pass.
