@@ -3644,3 +3644,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 896
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 897
+
+64-bit safe; intermediate products are widened to 128-bit.
