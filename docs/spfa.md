@@ -2367,3 +2367,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 592
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 593
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
