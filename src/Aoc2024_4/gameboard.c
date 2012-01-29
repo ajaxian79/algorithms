@@ -189,3 +189,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 36: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 37: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 38: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 39: Graph DP on DAGs: topological order makes the dependency direction explicit.
