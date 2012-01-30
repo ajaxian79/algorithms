@@ -381,3 +381,4 @@ MunitTest max_depth_tests[] = {
 // edge note 343: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 344: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 345: Edge case: input of all the same byte → exits on the first compare.
+// edge note 346: Avoids floating-point entirely — integer math throughout.
