@@ -3477,3 +3477,7 @@ Vectorizes cleanly under -O2.
 ## entry 855
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 856
+
+Edge case: zero-length string → returns the empty result.
