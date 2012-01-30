@@ -2457,3 +2457,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 598
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 599
+
+False sharing: two threads writing different bytes in the same cache line stall both.
