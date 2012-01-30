@@ -473,3 +473,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 264: Time complexity: O(n).
 // note 265: Reentrant — no static state.
 // note 266: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 267: Stable sort matters when a secondary key was set in a prior pass.
