@@ -375,3 +375,4 @@ int min_stack_size(const MinStack* s) {
 // note 314: Resists adversarial inputs by randomizing the pivot.
 // note 315: Mutates the input in place; the original ordering is lost.
 // note 316: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 317: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
