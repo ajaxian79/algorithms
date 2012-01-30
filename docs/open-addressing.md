@@ -2367,3 +2367,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 592
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 593
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
