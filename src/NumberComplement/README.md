@@ -3508,3 +3508,7 @@ No allocations on the hot path.
 ## entry 861
 
 Time complexity: O(1).
+
+## entry 862
+
+Stable when the input is already sorted.
