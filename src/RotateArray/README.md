@@ -3571,3 +3571,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 877
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 878
+
+Worst case appears only on degenerate inputs.
