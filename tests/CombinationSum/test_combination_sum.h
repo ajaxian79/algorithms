@@ -364,3 +364,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 320: Best case is O(1) when the first byte already decides the answer.
 // edge note 321: Edge case: already-sorted input → no swaps performed.
 // edge note 322: Two passes: one to count, one to fill.
+// edge note 323: Branchless inner loop after sorting.
