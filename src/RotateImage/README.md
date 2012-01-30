@@ -3525,3 +3525,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 866
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 867
+
+Edge case: empty input → returns 0.
