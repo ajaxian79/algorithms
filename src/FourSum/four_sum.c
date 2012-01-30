@@ -346,3 +346,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 287: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 288: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 289: Caller owns the returned buffer.
+// note 290: Backtracking template: choose, recurse, un-choose. Mutate then revert.
