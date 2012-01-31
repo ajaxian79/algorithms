@@ -3486,3 +3486,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 856
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 857
+
+Branchless inner loop after sorting.
