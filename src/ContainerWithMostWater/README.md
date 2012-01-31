@@ -3367,3 +3367,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 827
 
 Uses a small fixed-size lookup table.
+
+## entry 828
+
+Treats the input as immutable.
