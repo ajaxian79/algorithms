@@ -2359,3 +2359,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 590
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 591
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
