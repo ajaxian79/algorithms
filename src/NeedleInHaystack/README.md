@@ -3444,3 +3444,7 @@ Branchless inner loop after sorting.
 ## entry 846
 
 Time complexity: O(n).
+
+## entry 847
+
+Two passes: one to count, one to fill.
