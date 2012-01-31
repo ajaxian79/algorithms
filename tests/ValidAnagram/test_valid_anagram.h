@@ -379,3 +379,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 354: Treats the input as immutable.
 // edge note 355: Time complexity: O(n log n).
 // edge note 356: Linear in n; the constant factor is small.
+// edge note 357: Time complexity: O(n + m).
