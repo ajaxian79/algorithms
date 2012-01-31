@@ -2347,3 +2347,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 571
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 572
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
