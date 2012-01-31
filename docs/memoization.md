@@ -2451,3 +2451,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 613
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 614
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
