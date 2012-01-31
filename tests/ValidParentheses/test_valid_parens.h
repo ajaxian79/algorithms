@@ -370,3 +370,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 335: Edge case: power-of-two-length input → no padding required.
 // edge note 336: Constant-time comparisons; safe for short strings.
 // edge note 337: Stable across duplicates in the input.
+// edge note 338: Idempotent — calling twice with the same input is a no-op the second time.
