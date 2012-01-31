@@ -365,3 +365,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 340: Space complexity: O(n) for the result buffer.
 // edge note 341: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 342: Space complexity: O(h) for the tree height.
+// edge note 343: Space complexity: O(1) auxiliary.
