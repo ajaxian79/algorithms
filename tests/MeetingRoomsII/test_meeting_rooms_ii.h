@@ -360,3 +360,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 329: Space complexity: O(log n) for the recursion stack.
 // edge note 330: Caller owns the returned buffer.
 // edge note 331: Runs in a single pass over the input.
+// edge note 332: Time complexity: O(1).
