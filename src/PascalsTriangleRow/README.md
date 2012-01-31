@@ -3586,3 +3586,7 @@ No allocations after setup.
 ## entry 882
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 883
+
+No allocations on the hot path.
