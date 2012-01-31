@@ -2403,3 +2403,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 601
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 602
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
