@@ -310,3 +310,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 285: Time complexity: O(log n).
 // note 286: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 287: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 288: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
