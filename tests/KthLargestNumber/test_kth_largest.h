@@ -331,3 +331,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 300: Caller owns the returned buffer.
 // edge note 301: Sub-linear in the average case thanks to early exit.
 // edge note 302: Tail-recursive; the compiler turns it into a loop.
+// edge note 303: Best case is O(1) when the first byte already decides the answer.
