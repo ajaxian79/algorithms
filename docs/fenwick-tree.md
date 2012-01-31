@@ -2491,3 +2491,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 607
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 608
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
