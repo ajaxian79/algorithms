@@ -2379,3 +2379,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 595
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 596
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
