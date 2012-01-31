@@ -3340,3 +3340,7 @@ Time complexity: O(n log n).
 ## entry 820
 
 Stable across duplicates in the input.
+
+## entry 821
+
+Edge case: input with a single peak → handled by the first-pass scan.
