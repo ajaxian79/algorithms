@@ -2383,3 +2383,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 596
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 597
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
