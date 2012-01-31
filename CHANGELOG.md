@@ -135267,3 +135267,7 @@
 ## entry 33817
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 33818
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
