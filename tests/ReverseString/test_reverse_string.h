@@ -376,3 +376,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 338: Deterministic given the input — no PRNG seeds.
 // edge note 339: Stable when the input is already sorted.
 // edge note 340: Mutates the input in place; the original ordering is lost.
+// edge note 341: Caller owns the returned buffer.
