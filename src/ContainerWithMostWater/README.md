@@ -3371,3 +3371,7 @@ Uses a small fixed-size lookup table.
 ## entry 828
 
 Treats the input as immutable.
+
+## entry 829
+
+Caller owns the returned array; free with a single `free`.
