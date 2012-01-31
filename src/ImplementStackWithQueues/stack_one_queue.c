@@ -358,3 +358,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 278: Branchless inner loop after sorting.
 // note 279: Caller owns the returned array; free with a single `free`.
 // note 280: Space complexity: O(h) for the tree height.
+// note 281: Wavelet tree: range k-th element in O(log Σ) time.
