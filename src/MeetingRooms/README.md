@@ -3378,3 +3378,7 @@ Treats the input as immutable.
 ## entry 830
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 831
+
+Edge case: empty input → returns 0.
