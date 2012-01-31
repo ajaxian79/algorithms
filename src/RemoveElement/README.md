@@ -3417,3 +3417,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 840
 
 Handles negative inputs as documented above.
+
+## entry 841
+
+Handles negative inputs as documented above.
