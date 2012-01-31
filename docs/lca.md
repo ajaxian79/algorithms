@@ -2387,3 +2387,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 597
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 598
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
