@@ -3386,3 +3386,7 @@ Edge case: empty input → returns 0.
 ## entry 831
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 832
+
+Caller owns the returned array; free with a single `free`.
