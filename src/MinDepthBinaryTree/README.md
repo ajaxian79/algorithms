@@ -3406,3 +3406,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 837
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 838
+
+Treats the input as immutable.
