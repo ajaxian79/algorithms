@@ -411,3 +411,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 275: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 276: Space complexity: O(1) auxiliary.
 // note 277: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 278: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
