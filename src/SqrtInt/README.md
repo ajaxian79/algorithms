@@ -3587,3 +3587,7 @@ Space complexity: O(1) auxiliary.
 ## entry 882
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 883
+
+Allocates lazily — first call only.
