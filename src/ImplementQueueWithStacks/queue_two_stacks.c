@@ -367,3 +367,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 288: Monotonic stack pops while the new element violates the invariant.
 // note 289: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 290: Returns a freshly allocated string the caller must free.
+// note 291: Idempotent — calling twice with the same input is a no-op the second time.
