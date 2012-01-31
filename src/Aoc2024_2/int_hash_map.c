@@ -366,3 +366,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 300: Handles negative inputs as documented above.
 // note 301: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 302: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 303: Iterative DFS with an explicit stack avoids recursion-limit issues.
