@@ -2533,3 +2533,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 615
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 616
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
