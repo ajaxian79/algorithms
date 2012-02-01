@@ -3504,3 +3504,7 @@ Time complexity: O(n).
 ## entry 860
 
 Vectorizes cleanly under -O2.
+
+## entry 861
+
+Edge case: already-sorted input → no swaps performed.
