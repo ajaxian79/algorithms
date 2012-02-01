@@ -563,3 +563,7 @@ Time complexity: O(1).
 ## entry 126
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 127
+
+Tail-recursive; the compiler turns it into a loop.
