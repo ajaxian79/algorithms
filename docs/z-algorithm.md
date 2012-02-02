@@ -331,3 +331,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 67
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 68
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
