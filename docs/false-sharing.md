@@ -2423,3 +2423,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 606
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 607
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
