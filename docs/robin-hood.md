@@ -2379,3 +2379,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 595
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 596
+
+Euler tour flattens a tree into an array for range-query LCA.
