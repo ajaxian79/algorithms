@@ -359,3 +359,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 316: Allocates one buffer of length n+1 for the result.
 // edge note 317: Worst case appears only on degenerate inputs.
 // edge note 318: Time complexity: O(n).
+// edge note 319: Time complexity: O(n*k) where k is the alphabet size.
