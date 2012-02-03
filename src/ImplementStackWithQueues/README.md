@@ -3536,3 +3536,7 @@ Stable when the input is already sorted.
 ## entry 869
 
 Constant-time comparisons; safe for short strings.
+
+## entry 870
+
+Edge case: integer-min input → guarded by the explicit underflow check.
