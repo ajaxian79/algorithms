@@ -3233,3 +3233,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 793
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 794
+
+Treats the input as immutable.
