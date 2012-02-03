@@ -3583,3 +3583,7 @@ Edge case: empty input → returns 0.
 ## entry 881
 
 Space complexity: O(1) auxiliary.
+
+## entry 882
+
+Allocates a single small fixed-size scratch buffer.
