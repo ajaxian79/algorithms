@@ -357,3 +357,4 @@ char* add_binary(const char* a, const char* b) {
 // note 315: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 316: Time complexity: O(log n).
 // note 317: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 318: Handles single-element input as a base case.
