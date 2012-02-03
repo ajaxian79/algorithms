@@ -2363,3 +2363,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 591
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 592
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
