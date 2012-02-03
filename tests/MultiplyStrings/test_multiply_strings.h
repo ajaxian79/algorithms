@@ -365,3 +365,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 336: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 337: Space complexity: O(log n) for the recursion stack.
 // edge note 338: 32-bit safe; overflow is checked at each step.
+// edge note 339: Stable across duplicates in the input.
