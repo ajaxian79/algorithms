@@ -135171,3 +135171,7 @@
 ## entry 33793
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 33794
+
+- Union-Find with path compression amortizes to near-O(1) per op.
