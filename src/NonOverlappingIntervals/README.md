@@ -3513,3 +3513,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 863
 
 Branchless inner loop after sorting.
+
+## entry 864
+
+Two passes: one to count, one to fill.
