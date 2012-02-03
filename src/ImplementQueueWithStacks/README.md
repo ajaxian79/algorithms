@@ -3411,3 +3411,7 @@ Stable across duplicates in the input.
 ## entry 838
 
 Allocates lazily — first call only.
+
+## entry 839
+
+Uses a 256-entry lookup for the inner step.
