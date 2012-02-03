@@ -135203,3 +135203,7 @@
 ## entry 33801
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 33802
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
