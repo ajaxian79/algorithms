@@ -3402,3 +3402,7 @@ Time complexity: O(n + m).
 ## entry 836
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 837
+
+Space complexity: O(log n) for the recursion stack.
