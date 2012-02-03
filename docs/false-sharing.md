@@ -2419,3 +2419,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 605
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 606
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
