@@ -135215,3 +135215,7 @@
 ## entry 33804
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 33805
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
