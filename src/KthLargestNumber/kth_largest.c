@@ -323,3 +323,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 279: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 280: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 281: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 282: Caller owns the returned array; free with a single `free`.
