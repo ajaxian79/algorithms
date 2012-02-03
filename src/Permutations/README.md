@@ -3640,3 +3640,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 895
 
 No allocations after setup.
+
+## entry 896
+
+Allocates lazily — first call only.
