@@ -3237,3 +3237,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 794
 
 Treats the input as immutable.
+
+## entry 795
+
+Allocates lazily — first call only.
