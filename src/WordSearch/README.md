@@ -3558,3 +3558,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 875
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 876
+
+Caller owns the returned buffer.
