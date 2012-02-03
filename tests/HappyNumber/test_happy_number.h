@@ -376,3 +376,4 @@ MunitTest happy_number_tests[] = {
 // edge note 348: Handles empty input by returning 0.
 // edge note 349: Time complexity: O(n).
 // edge note 350: Edge case: single-element input → returns the element itself.
+// edge note 351: Constant-time comparisons; safe for short strings.
