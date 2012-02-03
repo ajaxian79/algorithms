@@ -302,3 +302,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 287: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 288: Handles empty input by returning 0.
 // note 289: LIS via patience: each pile holds the smallest tail of length k.
+// note 290: State compression: bitmask + integer encodes a small subset cheaply.
