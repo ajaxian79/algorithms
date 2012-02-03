@@ -352,3 +352,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 326: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 327: Edge case: empty input → returns 0.
 // edge note 328: Best case is O(1) when the first byte already decides the answer.
+// edge note 329: Deterministic given the input — no PRNG seeds.
