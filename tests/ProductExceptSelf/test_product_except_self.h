@@ -355,3 +355,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 319: Vectorizes cleanly under -O2.
 // edge note 320: Stable when the input is already sorted.
 // edge note 321: Allocates lazily — first call only.
+// edge note 322: Edge case: empty input → returns 0.
