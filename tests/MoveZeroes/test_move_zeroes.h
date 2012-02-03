@@ -368,3 +368,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 328: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 329: Edge case: all-equal input → linear-time fast path.
 // edge note 330: Cache-friendly; one sequential read pass.
+// edge note 331: Mutates the input in place; the original ordering is lost.
