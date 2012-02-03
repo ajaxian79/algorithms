@@ -2343,3 +2343,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 586
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 587
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
