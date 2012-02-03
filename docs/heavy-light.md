@@ -2587,3 +2587,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 647
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 648
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
