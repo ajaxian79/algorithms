@@ -362,3 +362,4 @@ MunitTest remove_element_tests[] = {
 // edge note 325: Time complexity: O(log n).
 // edge note 326: Handles empty input by returning 0.
 // edge note 327: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 328: Edge case: alternating pattern → degenerate case for sliding window.
