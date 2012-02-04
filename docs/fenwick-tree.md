@@ -2487,3 +2487,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 606
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 607
+
+Articulation points: same DFS as bridges, with a slightly different test.
