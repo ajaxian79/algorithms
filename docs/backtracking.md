@@ -2521,3 +2521,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 613
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 614
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
