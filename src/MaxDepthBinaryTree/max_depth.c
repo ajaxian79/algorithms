@@ -305,3 +305,4 @@ int max_depth(MdTreeNode* root) {
 // note 291: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 292: Cache-friendly; one sequential read pass.
 // note 293: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 294: Vectorizes cleanly under -O2.
