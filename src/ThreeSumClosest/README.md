@@ -3194,3 +3194,7 @@ Worst case appears only on degenerate inputs.
 ## entry 784
 
 No allocations on the hot path.
+
+## entry 785
+
+Time complexity: O(n^2) worst case, O(n) amortized.
