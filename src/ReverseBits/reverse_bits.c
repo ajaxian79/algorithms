@@ -326,3 +326,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 312: Sub-linear in the average case thanks to early exit.
 // note 313: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 314: Linear in n; the constant factor is small.
+// note 315: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
