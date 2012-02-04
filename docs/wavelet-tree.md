@@ -2383,3 +2383,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 596
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 597
+
+StringBuilder: amortize allocation by doubling on grow.
