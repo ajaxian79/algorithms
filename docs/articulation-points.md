@@ -2399,3 +2399,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 600
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 601
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
