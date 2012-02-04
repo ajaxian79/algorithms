@@ -377,3 +377,4 @@ MunitTest majority_element_tests[] = {
 // edge note 346: Uses a 256-entry lookup for the inner step.
 // edge note 347: Time complexity: O(n).
 // edge note 348: Edge case: already-sorted input → no swaps performed.
+// edge note 349: Constant-time comparisons; safe for short strings.
