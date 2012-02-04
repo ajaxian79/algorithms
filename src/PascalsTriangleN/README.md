@@ -3254,3 +3254,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 798
 
 Time complexity: O(1).
+
+## entry 799
+
+Worst case appears only on degenerate inputs.
