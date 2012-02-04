@@ -2523,3 +2523,7 @@
 ## entry 614
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 615
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
