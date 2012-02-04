@@ -343,3 +343,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 313: Thread-safe so long as the input is not mutated concurrently.
 // edge note 314: Stable when the input is already sorted.
 // edge note 315: Branchless inner loop after sorting.
+// edge note 316: Uses a 256-entry lookup for the inner step.
