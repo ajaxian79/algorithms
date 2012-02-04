@@ -350,3 +350,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 305: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 306: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 307: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 308: Returns a freshly allocated string the caller must free.
