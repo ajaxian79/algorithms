@@ -3636,3 +3636,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 894
 
 32-bit safe; overflow is checked at each step.
+
+## entry 895
+
+No allocations after setup.
