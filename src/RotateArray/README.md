@@ -3563,3 +3563,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 875
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 876
+
+Mutates the input in place; the original ordering is lost.
