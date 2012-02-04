@@ -304,3 +304,4 @@ long long climb_stairs(int n) {
 // note 285: StringBuilder: amortize allocation by doubling on grow.
 // note 286: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 287: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 288: Graph DP on DAGs: topological order makes the dependency direction explicit.
