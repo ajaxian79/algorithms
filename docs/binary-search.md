@@ -2553,3 +2553,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 622
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 623
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
