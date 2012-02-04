@@ -3510,3 +3510,7 @@ Edge case: empty input → returns 0.
 ## entry 863
 
 Runs in a single pass over the input.
+
+## entry 864
+
+Constant-time comparisons; safe for short strings.
