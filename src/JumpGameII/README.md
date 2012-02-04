@@ -3528,3 +3528,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 867
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 868
+
+32-bit safe; overflow is checked at each step.
