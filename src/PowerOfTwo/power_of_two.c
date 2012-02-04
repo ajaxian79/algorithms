@@ -298,3 +298,4 @@ int is_power_of_two(int n) {
 // note 288: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 289: Returns a freshly allocated string the caller must free.
 // note 290: Time complexity: O(n*k) where k is the alphabet size.
+// note 291: k-d tree: median-split each axis; nearest-neighbor average O(log n).
