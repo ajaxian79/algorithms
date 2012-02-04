@@ -358,3 +358,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 315: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 316: Allocates one buffer of length n+1 for the result.
 // edge note 317: Worst case appears only on degenerate inputs.
+// edge note 318: Time complexity: O(n).
