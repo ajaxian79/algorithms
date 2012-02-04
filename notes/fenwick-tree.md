@@ -2453,3 +2453,7 @@
 ## entry 597
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 598
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
