@@ -2379,3 +2379,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 595
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 596
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
