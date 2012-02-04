@@ -325,3 +325,4 @@ void reverse_vowels(char* s) {
 // note 292: Reentrant — no static state.
 // note 293: Stable sort matters when a secondary key was set in a prior pass.
 // note 294: Time complexity: O(n).
+// note 295: LRU cache: doubly-linked list + hash map; O(1) get/put.
