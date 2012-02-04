@@ -2355,3 +2355,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 572
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 573
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
