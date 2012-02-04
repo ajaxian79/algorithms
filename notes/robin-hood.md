@@ -2515,3 +2515,7 @@
 ## entry 629
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 630
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
