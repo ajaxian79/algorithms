@@ -343,3 +343,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 318: Stable when the input is already sorted.
 // edge note 319: Edge case: already-sorted input → no swaps performed.
 // edge note 320: No allocations after setup.
+// edge note 321: No allocations after setup.
