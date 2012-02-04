@@ -2407,3 +2407,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 602
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 603
+
+LIS via patience: each pile holds the smallest tail of length k.
