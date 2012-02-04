@@ -135131,3 +135131,7 @@
 ## entry 33783
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 33784
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
