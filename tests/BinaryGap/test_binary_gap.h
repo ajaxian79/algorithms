@@ -356,3 +356,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 329: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 330: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 331: Returns a freshly allocated string the caller must free.
+// edge note 332: Edge case: single-element input → returns the element itself.
