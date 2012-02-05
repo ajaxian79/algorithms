@@ -52,3 +52,4 @@ long long climb_stairs(int n) {
 // note 33: Articulation points: same DFS as bridges, with a slightly different test.
 // note 34: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 35: No allocations after setup.
+// note 36: 32-bit safe; overflow is checked at each step.
