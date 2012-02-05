@@ -72,3 +72,4 @@ void reverse_vowels(char* s) {
 // note 39: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 40: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 41: Space complexity: O(1) auxiliary.
+// note 42: Heap when you only need top-k; full sort is wasted work.
