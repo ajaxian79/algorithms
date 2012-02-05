@@ -339,3 +339,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 85
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 86
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
