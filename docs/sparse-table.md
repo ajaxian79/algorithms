@@ -2371,3 +2371,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 593
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 594
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
