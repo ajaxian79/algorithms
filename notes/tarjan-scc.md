@@ -2423,3 +2423,7 @@
 ## entry 606
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 607
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
