@@ -2203,3 +2203,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 551
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 552
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
