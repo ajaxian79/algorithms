@@ -329,3 +329,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 298: Edge case: zero-length string → returns the empty result.
 // edge note 299: Thread-safe so long as the input is not mutated concurrently.
 // edge note 300: Avoids floating-point entirely — integer math throughout.
+// edge note 301: Reentrant — no static state.
