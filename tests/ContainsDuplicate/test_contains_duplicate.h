@@ -356,3 +356,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 313: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 314: Linear in n; the constant factor is small.
 // edge note 315: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 316: Edge case: zero-length string → returns the empty result.
