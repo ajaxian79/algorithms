@@ -3624,3 +3624,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 891
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 892
+
+Edge case: input with a single peak → handled by the first-pass scan.
