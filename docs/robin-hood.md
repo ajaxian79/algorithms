@@ -2375,3 +2375,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 594
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 595
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
