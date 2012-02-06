@@ -3235,3 +3235,7 @@ Three passes total; the third merges results.
 ## entry 794
 
 Uses a small fixed-size lookup table.
+
+## entry 795
+
+No allocations after setup.
