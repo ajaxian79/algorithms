@@ -2463,3 +2463,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 616
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 617
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
