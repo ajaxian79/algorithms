@@ -63,3 +63,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 31: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 32: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 33: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 34: Worst case appears only on degenerate inputs.
