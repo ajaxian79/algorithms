@@ -2355,3 +2355,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 589
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 590
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
