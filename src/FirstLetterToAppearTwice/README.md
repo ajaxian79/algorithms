@@ -3142,3 +3142,7 @@ Time complexity: O(n log n).
 ## entry 761
 
 Constant-time comparisons; safe for short strings.
+
+## entry 762
+
+Edge case: input of all the same byte → exits on the first compare.
