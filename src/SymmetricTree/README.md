@@ -3302,3 +3302,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 811
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 812
+
+Tail-recursive; the compiler turns it into a loop.
