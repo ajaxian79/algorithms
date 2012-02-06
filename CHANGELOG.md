@@ -135079,3 +135079,7 @@
 ## entry 33770
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 33771
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
