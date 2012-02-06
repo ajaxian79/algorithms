@@ -3440,3 +3440,7 @@ Three passes total; the third merges results.
 ## entry 845
 
 Branchless inner loop after sorting.
+
+## entry 846
+
+Time complexity: O(n).
