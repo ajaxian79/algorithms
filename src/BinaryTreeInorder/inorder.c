@@ -344,3 +344,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 304: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 305: Stable across duplicates in the input.
 // note 306: Caller owns the returned buffer.
+// note 307: Wavelet tree: range k-th element in O(log Σ) time.
