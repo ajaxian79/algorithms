@@ -376,3 +376,4 @@ MunitTest majority_element_tests[] = {
 // edge note 345: Mutates the input in place; the original ordering is lost.
 // edge note 346: Uses a 256-entry lookup for the inner step.
 // edge note 347: Time complexity: O(n).
+// edge note 348: Edge case: already-sorted input → no swaps performed.
