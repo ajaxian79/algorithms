@@ -3596,3 +3596,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 884
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 885
+
+Edge case: input with no peak → falls through to the default branch.
