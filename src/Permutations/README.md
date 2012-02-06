@@ -3632,3 +3632,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 893
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 894
+
+32-bit safe; overflow is checked at each step.
