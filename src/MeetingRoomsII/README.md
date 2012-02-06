@@ -3454,3 +3454,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 848
 
 Time complexity: O(n log n).
+
+## entry 849
+
+Uses a small fixed-size lookup table.
