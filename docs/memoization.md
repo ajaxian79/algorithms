@@ -2447,3 +2447,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 612
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 613
+
+In-place compaction uses two pointers: read advances always, write only on keep.
