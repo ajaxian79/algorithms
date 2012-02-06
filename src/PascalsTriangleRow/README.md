@@ -3582,3 +3582,7 @@ Treats the input as immutable.
 ## entry 881
 
 No allocations after setup.
+
+## entry 882
+
+Edge case: already-sorted input → no swaps performed.
