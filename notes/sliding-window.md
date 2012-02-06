@@ -2645,3 +2645,7 @@
 ## entry 645
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 646
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
