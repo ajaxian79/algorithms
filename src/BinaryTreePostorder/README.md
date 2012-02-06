@@ -3382,3 +3382,7 @@ Time complexity: O(n log n).
 ## entry 831
 
 Edge case: empty input → returns 0.
+
+## entry 832
+
+Cache-friendly; one sequential read pass.
