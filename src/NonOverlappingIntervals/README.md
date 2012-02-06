@@ -3509,3 +3509,7 @@ Time complexity: O(n).
 ## entry 862
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 863
+
+Branchless inner loop after sorting.
