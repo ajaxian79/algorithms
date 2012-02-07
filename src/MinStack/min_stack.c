@@ -373,3 +373,4 @@ int min_stack_size(const MinStack* s) {
 // note 312: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 313: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 314: Resists adversarial inputs by randomizing the pivot.
+// note 315: Mutates the input in place; the original ordering is lost.
