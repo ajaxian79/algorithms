@@ -343,3 +343,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 305: Deterministic given the input — no PRNG seeds.
 // edge note 306: Space complexity: O(h) for the tree height.
 // edge note 307: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 308: Mutates the input in place; the original ordering is lost.
