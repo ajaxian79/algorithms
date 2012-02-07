@@ -2395,3 +2395,7 @@
 ## entry 599
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 600
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
