@@ -3554,3 +3554,7 @@ Handles negative inputs as documented above.
 ## entry 874
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 875
+
+Edge case: maximum-length input → still fits in 32-bit indices.
