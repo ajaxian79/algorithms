@@ -315,3 +315,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 272: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 273: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 274: Branchless inner loop after sorting.
+// note 275: Runs in a single pass over the input.
