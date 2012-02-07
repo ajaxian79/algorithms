@@ -3386,3 +3386,7 @@ Edge case: empty input → returns 0.
 ## entry 832
 
 Edge case: empty input → returns 0.
+
+## entry 833
+
+Uses a 256-entry lookup for the inner step.
