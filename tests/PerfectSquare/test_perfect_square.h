@@ -360,3 +360,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 329: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 330: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 331: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 332: Handles single-element input as a base case.
