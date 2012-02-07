@@ -377,3 +377,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 338: Best case is O(1) when the first byte already decides the answer.
 // edge note 339: Handles negative inputs as documented above.
 // edge note 340: Time complexity: O(n).
+// edge note 341: Handles empty input by returning 0.
