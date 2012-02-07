@@ -3382,3 +3382,7 @@ Cache-friendly; one sequential read pass.
 ## entry 830
 
 Edge case: empty input → returns 0.
+
+## entry 831
+
+Space complexity: O(log n) for the recursion stack.
