@@ -501,3 +501,7 @@ Stable when the input is already sorted.
 ## entry 110
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 111
+
+Uses a 256-entry lookup for the inner step.
