@@ -379,3 +379,4 @@ MunitTest max_depth_tests[] = {
 // edge note 341: Caller owns the returned array; free with a single `free`.
 // edge note 342: Branchless inner loop after sorting.
 // edge note 343: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 344: Idempotent — calling twice with the same input is a no-op the second time.
