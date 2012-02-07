@@ -472,3 +472,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 263: State compression: bitmask + integer encodes a small subset cheaply.
 // note 264: Time complexity: O(n).
 // note 265: Reentrant — no static state.
+// note 266: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
