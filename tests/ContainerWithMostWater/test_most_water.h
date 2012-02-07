@@ -342,3 +342,4 @@ MunitTest most_water_tests[] = {
 // edge note 311: Edge case: input of all the same byte → exits on the first compare.
 // edge note 312: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 313: Runs in a single pass over the input.
+// edge note 314: Edge case: power-of-two-length input → no padding required.
