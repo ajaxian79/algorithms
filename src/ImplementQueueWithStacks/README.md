@@ -3407,3 +3407,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 837
 
 Stable across duplicates in the input.
+
+## entry 838
+
+Allocates lazily — first call only.
