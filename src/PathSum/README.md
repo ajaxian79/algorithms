@@ -3576,3 +3576,7 @@ No allocations after setup.
 ## entry 879
 
 No allocations on the hot path.
+
+## entry 880
+
+Edge case: input with one duplicate → handled without an extra pass.
