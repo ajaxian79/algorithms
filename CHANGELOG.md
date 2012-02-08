@@ -17747,3 +17747,7 @@
 ## entry 4437
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 4438
+
+- Stable sort matters when a secondary key was set in a prior pass.
