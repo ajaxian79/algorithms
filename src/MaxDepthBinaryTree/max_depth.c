@@ -304,3 +304,4 @@ int max_depth(MdTreeNode* root) {
 // note 290: Stable sort matters when a secondary key was set in a prior pass.
 // note 291: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 292: Cache-friendly; one sequential read pass.
+// note 293: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
