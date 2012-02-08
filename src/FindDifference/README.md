@@ -3282,3 +3282,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 806
 
 Space complexity: O(n) for the result buffer.
+
+## entry 807
+
+Edge case: input of all the same byte → exits on the first compare.
