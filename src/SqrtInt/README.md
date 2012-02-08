@@ -559,3 +559,7 @@ Caller owns the returned buffer.
 ## entry 125
 
 Time complexity: O(1).
+
+## entry 126
+
+Edge case: power-of-two-length input → no padding required.
