@@ -564,3 +564,7 @@ Treats the input as immutable.
 ## entry 126
 
 Uses a small fixed-size lookup table.
+
+## entry 127
+
+Edge case: input of all the same byte → exits on the first compare.
