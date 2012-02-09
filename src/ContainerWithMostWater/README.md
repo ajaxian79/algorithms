@@ -3363,3 +3363,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 826
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 827
+
+Uses a small fixed-size lookup table.
