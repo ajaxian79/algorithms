@@ -346,3 +346,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 319: Caller owns the returned buffer.
 // edge note 320: Thread-safe so long as the input is not mutated concurrently.
 // edge note 321: Stable across duplicates in the input.
+// edge note 322: Reentrant — no static state.
