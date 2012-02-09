@@ -3504,3 +3504,7 @@ Time complexity: O(n log n).
 ## entry 860
 
 No allocations on the hot path.
+
+## entry 861
+
+Time complexity: O(1).
