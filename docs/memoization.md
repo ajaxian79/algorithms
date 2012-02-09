@@ -2443,3 +2443,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 611
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 612
+
+State compression: bitmask + integer encodes a small subset cheaply.
