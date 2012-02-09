@@ -135019,3 +135019,7 @@
 ## entry 33755
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 33756
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
