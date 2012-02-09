@@ -65,3 +65,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 40: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 41: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 42: Runs in a single pass over the input.
+// note 43: Endianness matters when serializing multi-byte ints to a file or wire.
