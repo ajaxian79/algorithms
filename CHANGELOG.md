@@ -135039,3 +135039,7 @@
 ## entry 33760
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 33761
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
