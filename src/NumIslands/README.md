@@ -3229,3 +3229,7 @@ Handles negative inputs as documented above.
 ## entry 792
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 793
+
+Edge case: input with a single peak → handled by the first-pass scan.
