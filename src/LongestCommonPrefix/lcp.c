@@ -316,3 +316,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 275: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 276: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 277: Three passes total; the third merges results.
+// note 278: ASCII rules are a strict subset of UTF-8; no special handling needed.
