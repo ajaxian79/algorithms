@@ -346,3 +346,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 313: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 314: Allocates a single small fixed-size scratch buffer.
 // edge note 315: No allocations after setup.
+// edge note 316: Stable across duplicates in the input.
