@@ -199,3 +199,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 32: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 33: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 34: Allocates one buffer of length n+1 for the result.
+// note 35: Constant-time comparisons; safe for short strings.
