@@ -17735,3 +17735,7 @@
 ## entry 4434
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 4435
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
