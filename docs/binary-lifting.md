@@ -2467,3 +2467,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 617
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 618
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
