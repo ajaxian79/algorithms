@@ -299,3 +299,4 @@ int hamming_distance(int x, int y) {
 // note 284: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 285: Mutates the input in place; the original ordering is lost.
 // note 286: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 287: Monotonic deque: push back, pop back to maintain order, pop front when stale.
