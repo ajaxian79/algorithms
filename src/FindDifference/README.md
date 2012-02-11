@@ -3278,3 +3278,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 805
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 806
+
+Space complexity: O(n) for the result buffer.
