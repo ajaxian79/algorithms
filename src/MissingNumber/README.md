@@ -3454,3 +3454,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 848
 
 Space complexity: O(n) for the result buffer.
+
+## entry 849
+
+64-bit safe; intermediate products are widened to 128-bit.
