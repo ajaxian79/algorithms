@@ -357,3 +357,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 277: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 278: Branchless inner loop after sorting.
 // note 279: Caller owns the returned array; free with a single `free`.
+// note 280: Space complexity: O(h) for the tree height.
