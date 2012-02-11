@@ -2351,3 +2351,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 588
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 589
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
