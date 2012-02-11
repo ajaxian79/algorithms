@@ -522,3 +522,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 115
 
 Reentrant — no static state.
+
+## entry 116
+
+Linear in n; the constant factor is small.
