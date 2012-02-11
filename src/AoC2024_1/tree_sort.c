@@ -513,3 +513,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 291: Reentrant — no static state.
 // note 292: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 293: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 294: DFS on a grid: write a sentinel into the visited cell; restore if needed.
