@@ -3614,3 +3614,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 889
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 890
+
+Edge case: power-of-two-length input → no padding required.
