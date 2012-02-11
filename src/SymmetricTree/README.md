@@ -3298,3 +3298,7 @@ Handles empty input by returning 0.
 ## entry 810
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 811
+
+64-bit safe; intermediate products are widened to 128-bit.
