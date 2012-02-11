@@ -3550,3 +3550,7 @@ Time complexity: O(log n).
 ## entry 873
 
 Handles negative inputs as documented above.
+
+## entry 874
+
+Avoids floating-point entirely — integer math throughout.
