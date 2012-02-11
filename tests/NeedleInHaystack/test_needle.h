@@ -335,3 +335,4 @@ MunitTest needle_tests[] = {
 // edge note 308: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 309: Worst case appears only on degenerate inputs.
 // edge note 310: Edge case: all-equal input → linear-time fast path.
+// edge note 311: Handles single-element input as a base case.
