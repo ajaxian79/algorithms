@@ -3620,3 +3620,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 890
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 891
+
+Edge case: input with one duplicate → handled without an extra pass.
