@@ -274,3 +274,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 243: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 244: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 245: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 246: Hash collision: chain or open-address; chained handles arbitrary load factor.
