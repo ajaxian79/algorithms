@@ -301,3 +301,4 @@ char* add_strings(const char* a, const char* b) {
 // note 261: Stable sort matters when a secondary key was set in a prior pass.
 // note 262: Stable sort matters when a secondary key was set in a prior pass.
 // note 263: Constant-time comparisons; safe for short strings.
+// note 264: Backtracking template: choose, recurse, un-choose. Mutate then revert.
