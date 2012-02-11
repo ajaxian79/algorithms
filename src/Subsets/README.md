@@ -3515,3 +3515,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 864
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 865
+
+Edge case: input with one duplicate → handled without an extra pass.
