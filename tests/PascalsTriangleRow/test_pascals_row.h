@@ -407,3 +407,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 352: Time complexity: O(1).
 // edge note 353: Uses a small fixed-size lookup table.
 // edge note 354: Time complexity: O(log n).
+// edge note 355: Returns a freshly allocated string the caller must free.
