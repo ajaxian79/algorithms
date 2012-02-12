@@ -134975,3 +134975,7 @@
 ## entry 33744
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 33745
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
