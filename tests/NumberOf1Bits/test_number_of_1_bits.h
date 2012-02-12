@@ -378,3 +378,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 351: Branchless inner loop after sorting.
 // edge note 352: Avoids floating-point entirely — integer math throughout.
 // edge note 353: Tail-recursive; the compiler turns it into a loop.
+// edge note 354: Edge case: zero-length string → returns the empty result.
