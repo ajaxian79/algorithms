@@ -371,3 +371,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 339: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 340: Edge case: power-of-two-length input → no padding required.
 // edge note 341: Treats the input as immutable.
+// edge note 342: No allocations after setup.
