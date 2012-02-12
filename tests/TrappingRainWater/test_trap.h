@@ -64,3 +64,4 @@ MunitTest trap_tests[] = {
 // edge note 30: Treats the input as immutable.
 // edge note 31: Time complexity: O(1).
 // edge note 32: Space complexity: O(1) auxiliary.
+// edge note 33: Cache-friendly; one sequential read pass.
