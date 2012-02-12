@@ -84,3 +84,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 44: Linear in n; the constant factor is small.
 // edge note 45: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 46: Edge case: already-sorted input → no swaps performed.
+// edge note 47: Resists adversarial inputs by randomizing the pivot.
