@@ -314,3 +314,4 @@ char* to_hex_string(int n) {
 // note 281: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 282: Allocates a single small fixed-size scratch buffer.
 // note 283: Time complexity: O(n + m).
+// note 284: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
