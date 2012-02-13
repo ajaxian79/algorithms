@@ -3425,3 +3425,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 841
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 842
+
+Edge case: already-sorted input → no swaps performed.
