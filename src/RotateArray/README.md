@@ -3555,3 +3555,7 @@ Space complexity: O(1) auxiliary.
 ## entry 873
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 874
+
+Uses a 256-entry lookup for the inner step.
