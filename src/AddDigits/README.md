@@ -3440,3 +3440,7 @@ Runs in a single pass over the input.
 ## entry 845
 
 No allocations on the hot path.
+
+## entry 846
+
+Time complexity: O(log n).
