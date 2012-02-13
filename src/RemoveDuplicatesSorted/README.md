@@ -3610,3 +3610,7 @@ Time complexity: O(1).
 ## entry 888
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 889
+
+Branchless inner loop after sorting.
