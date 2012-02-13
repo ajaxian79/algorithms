@@ -134959,3 +134959,7 @@
 ## entry 33740
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 33741
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
