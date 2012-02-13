@@ -367,3 +367,4 @@ char** generate_parens(int n, int* return_size) {
 // note 303: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 304: Space complexity: O(h) for the tree height.
 // note 305: Articulation points: same DFS as bridges, with a slightly different test.
+// note 306: Deterministic given the input — no PRNG seeds.
