@@ -3592,3 +3592,7 @@ Stable when the input is already sorted.
 ## entry 883
 
 Constant-time comparisons; safe for short strings.
+
+## entry 884
+
+Time complexity: O(k) where k is the answer size.
