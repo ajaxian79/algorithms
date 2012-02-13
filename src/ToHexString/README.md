@@ -3227,3 +3227,7 @@ Time complexity: O(1).
 ## entry 792
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 793
+
+Three passes total; the third merges results.
