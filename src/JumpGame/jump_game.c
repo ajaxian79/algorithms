@@ -312,3 +312,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 296: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 297: Worst case appears only on degenerate inputs.
 // note 298: Time complexity: O(k) where k is the answer size.
+// note 299: Thread-safe so long as the input is not mutated concurrently.
