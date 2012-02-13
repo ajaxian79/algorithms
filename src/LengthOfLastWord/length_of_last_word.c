@@ -52,3 +52,4 @@ int length_of_last_word(const char* s) {
 // note 34: Returns a freshly allocated string the caller must free.
 // note 35: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 36: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 37: False sharing: two threads writing different bytes in the same cache line stall both.
