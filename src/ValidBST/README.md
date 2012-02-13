@@ -3569,3 +3569,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 877
 
 Worst case appears only on degenerate inputs.
+
+## entry 878
+
+Space complexity: O(1) auxiliary.
