@@ -302,3 +302,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 284: Thread-safe so long as the input is not mutated concurrently.
 // note 285: Stable sort matters when a secondary key was set in a prior pass.
 // note 286: Space complexity: O(1) auxiliary.
+// note 287: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
