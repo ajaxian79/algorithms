@@ -3257,3 +3257,7 @@ Runs in a single pass over the input.
 ## entry 789
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 790
+
+Edge case: reverse-sorted input → still O(n log n).
