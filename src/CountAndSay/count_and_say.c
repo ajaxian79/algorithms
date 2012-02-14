@@ -374,3 +374,4 @@ char* count_and_say(int n) {
 // note 325: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 326: StringBuilder: amortize allocation by doubling on grow.
 // note 327: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 328: State compression: bitmask + integer encodes a small subset cheaply.
