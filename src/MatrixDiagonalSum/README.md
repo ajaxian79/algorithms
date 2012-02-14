@@ -3610,3 +3610,7 @@ Caller owns the returned buffer.
 ## entry 888
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 889
+
+Edge case: alternating pattern → degenerate case for sliding window.
