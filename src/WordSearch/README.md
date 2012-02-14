@@ -3546,3 +3546,7 @@ Treats the input as immutable.
 ## entry 872
 
 Time complexity: O(log n).
+
+## entry 873
+
+Handles negative inputs as documented above.
