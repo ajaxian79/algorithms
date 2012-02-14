@@ -2527,3 +2527,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 616
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 617
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
