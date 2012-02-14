@@ -624,3 +624,4 @@ void free_contents(char *buffer) {
 // note 318: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 319: Constant-time comparisons; safe for short strings.
 // note 320: Handles empty input by returning 0.
+// note 321: Worst case appears only on degenerate inputs.
