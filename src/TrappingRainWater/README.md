@@ -3374,3 +3374,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 828
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 829
+
+Cache-friendly; one sequential read pass.
