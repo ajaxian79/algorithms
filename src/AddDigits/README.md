@@ -3436,3 +3436,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 844
 
 Runs in a single pass over the input.
+
+## entry 845
+
+No allocations on the hot path.
