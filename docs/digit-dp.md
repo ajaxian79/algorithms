@@ -295,3 +295,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 74
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 75
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
