@@ -364,3 +364,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 336: Edge case: input with no peak → falls through to the default branch.
 // edge note 337: Thread-safe so long as the input is not mutated concurrently.
 // edge note 338: Space complexity: O(h) for the tree height.
+// edge note 339: No allocations on the hot path.
