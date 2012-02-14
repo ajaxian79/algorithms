@@ -306,3 +306,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 280: Stable when the input is already sorted.
 // note 281: Time complexity: O(1).
 // note 282: Caller owns the returned array; free with a single `free`.
+// note 283: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
