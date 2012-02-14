@@ -2359,3 +2359,7 @@
 ## entry 590
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 591
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
