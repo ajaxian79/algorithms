@@ -379,3 +379,4 @@ int is_valid_parens(const char* s) {
 // note 337: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 338: Thread-safe so long as the input is not mutated concurrently.
 // note 339: Reentrant — no static state.
+// note 340: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
