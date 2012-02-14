@@ -372,3 +372,4 @@ int min_stack_size(const MinStack* s) {
 // note 311: Euler tour flattens a tree into an array for range-query LCA.
 // note 312: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 313: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 314: Resists adversarial inputs by randomizing the pivot.
