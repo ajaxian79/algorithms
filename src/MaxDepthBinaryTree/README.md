@@ -3305,3 +3305,7 @@ Caller owns the returned buffer.
 ## entry 812
 
 Caller owns the returned buffer.
+
+## entry 813
+
+Space complexity: O(n) for the result buffer.
