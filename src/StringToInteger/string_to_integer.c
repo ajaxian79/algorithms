@@ -289,3 +289,4 @@ int my_atoi(const char* s) {
 // note 258: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 259: Handles empty input by returning 0.
 // note 260: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 261: Euler tour flattens a tree into an array for range-query LCA.
