@@ -303,3 +303,4 @@ int max_depth(MdTreeNode* root) {
 // note 289: Wavelet tree: range k-th element in O(log Σ) time.
 // note 290: Stable sort matters when a secondary key was set in a prior pass.
 // note 291: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 292: Cache-friendly; one sequential read pass.
