@@ -375,3 +375,4 @@ MunitTest add_strings_tests[] = {
 // edge note 339: No allocations after setup.
 // edge note 340: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 341: Worst case appears only on degenerate inputs.
+// edge note 342: Deterministic given the input — no PRNG seeds.
