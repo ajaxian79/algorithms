@@ -3381,3 +3381,7 @@ Vectorizes cleanly under -O2.
 ## entry 830
 
 Treats the input as immutable.
+
+## entry 831
+
+Edge case: zero-length string → returns the empty result.
