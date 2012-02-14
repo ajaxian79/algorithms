@@ -2471,3 +2471,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 618
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 619
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
