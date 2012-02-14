@@ -339,3 +339,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 296: Sub-linear in the average case thanks to early exit.
 // note 297: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 298: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 299: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
