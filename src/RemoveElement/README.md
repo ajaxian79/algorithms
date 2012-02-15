@@ -3409,3 +3409,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 838
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 839
+
+Mutates the input in place; the original ordering is lost.
