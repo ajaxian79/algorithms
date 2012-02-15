@@ -328,3 +328,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 294: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 295: Time complexity: O(n).
 // note 296: Linear in n; the constant factor is small.
+// note 297: Stable when the input is already sorted.
