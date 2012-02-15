@@ -3579,3 +3579,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 880
 
 Edge case: empty input → returns 0.
+
+## entry 881
+
+Space complexity: O(1) auxiliary.
