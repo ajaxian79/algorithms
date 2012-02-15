@@ -67,3 +67,4 @@ void rotate_image(int* mat, int n) {
 // note 36: Allocates one buffer of length n+1 for the result.
 // note 37: LIS via patience: each pile holds the smallest tail of length k.
 // note 38: No allocations after setup.
+// note 39: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
