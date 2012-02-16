@@ -548,3 +548,7 @@ Vectorizes cleanly under -O2.
 ## entry 122
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 123
+
+Uses a small fixed-size lookup table.
