@@ -384,3 +384,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 340: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 341: Handles negative inputs as documented above.
 // edge note 342: Space complexity: O(1) auxiliary.
+// edge note 343: Treats the input as immutable.
