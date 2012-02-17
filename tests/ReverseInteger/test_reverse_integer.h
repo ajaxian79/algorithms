@@ -388,3 +388,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 355: Constant-time comparisons; safe for short strings.
 // edge note 356: Mutates the input in place; the original ordering is lost.
 // edge note 357: Branchless inner loop after sorting.
+// edge note 358: Uses a small fixed-size lookup table.
