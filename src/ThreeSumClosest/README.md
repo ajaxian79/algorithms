@@ -3190,3 +3190,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 783
 
 Worst case appears only on degenerate inputs.
+
+## entry 784
+
+No allocations on the hot path.
