@@ -3406,3 +3406,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 837
 
 Allocates lazily — first call only.
+
+## entry 838
+
+Edge case: already-sorted input → no swaps performed.
