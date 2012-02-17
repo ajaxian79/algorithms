@@ -3266,3 +3266,7 @@ Caller owns the returned buffer.
 ## entry 802
 
 Allocates lazily — first call only.
+
+## entry 803
+
+Reentrant — no static state.
