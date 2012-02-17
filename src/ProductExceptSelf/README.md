@@ -3436,3 +3436,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 843
 
 Cache-friendly; one sequential read pass.
+
+## entry 844
+
+No allocations after setup.
