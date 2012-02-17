@@ -2395,3 +2395,7 @@
 ## entry 599
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 600
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
