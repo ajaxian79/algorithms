@@ -2471,3 +2471,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 601
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 602
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
