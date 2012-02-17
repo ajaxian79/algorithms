@@ -46,3 +46,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 26: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 27: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 28: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 29: Tabulation wins when iteration order is obvious and stack depth would blow up.
