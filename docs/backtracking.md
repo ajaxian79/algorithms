@@ -2517,3 +2517,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 612
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 613
+
+Splay tree: every access splays to the root; amortized O(log n).
