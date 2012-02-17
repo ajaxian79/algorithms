@@ -623,3 +623,4 @@ void free_contents(char *buffer) {
 // note 317: Treats the input as immutable.
 // note 318: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 319: Constant-time comparisons; safe for short strings.
+// note 320: Handles empty input by returning 0.
