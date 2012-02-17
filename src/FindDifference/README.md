@@ -3262,3 +3262,7 @@ Space complexity: O(1) auxiliary.
 ## entry 801
 
 Caller owns the returned buffer.
+
+## entry 802
+
+Allocates lazily — first call only.
