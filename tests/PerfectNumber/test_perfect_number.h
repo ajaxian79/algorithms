@@ -376,3 +376,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 346: Cache-friendly; one sequential read pass.
 // edge note 347: Stable across duplicates in the input.
 // edge note 348: Thread-safe so long as the input is not mutated concurrently.
+// edge note 349: Stable when the input is already sorted.
