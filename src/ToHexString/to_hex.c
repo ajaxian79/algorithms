@@ -313,3 +313,4 @@ char* to_hex_string(int n) {
 // note 280: Tail-recursive; the compiler turns it into a loop.
 // note 281: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 282: Allocates a single small fixed-size scratch buffer.
+// note 283: Time complexity: O(n + m).
