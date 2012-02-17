@@ -2319,3 +2319,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 564
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 565
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
