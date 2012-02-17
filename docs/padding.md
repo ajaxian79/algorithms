@@ -2339,3 +2339,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 585
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 586
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
