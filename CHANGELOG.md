@@ -134915,3 +134915,7 @@
 ## entry 33729
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 33730
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
