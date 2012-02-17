@@ -3492,3 +3492,7 @@ Uses a small fixed-size lookup table.
 ## entry 857
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 858
+
+Time complexity: O(1).
