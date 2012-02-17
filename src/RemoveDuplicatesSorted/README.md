@@ -3606,3 +3606,7 @@ Cache-friendly; one sequential read pass.
 ## entry 887
 
 Time complexity: O(1).
+
+## entry 888
+
+Sub-linear in the average case thanks to early exit.
