@@ -134895,3 +134895,7 @@
 ## entry 33724
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 33725
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
