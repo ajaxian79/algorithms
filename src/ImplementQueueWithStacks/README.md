@@ -3403,3 +3403,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 836
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 837
+
+Stable across duplicates in the input.
