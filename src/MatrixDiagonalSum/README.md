@@ -3606,3 +3606,7 @@ Two passes: one to count, one to fill.
 ## entry 887
 
 Caller owns the returned buffer.
+
+## entry 888
+
+Edge case: integer-max input → guarded by the explicit overflow check.
