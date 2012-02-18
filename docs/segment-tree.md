@@ -2503,3 +2503,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 608
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 609
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
