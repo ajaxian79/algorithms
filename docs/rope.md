@@ -2395,3 +2395,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 599
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 600
+
+Wavelet tree: range k-th element in O(log Σ) time.
