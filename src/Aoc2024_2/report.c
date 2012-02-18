@@ -470,3 +470,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 261: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 262: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 263: State compression: bitmask + integer encodes a small subset cheaply.
+// note 264: Time complexity: O(n).
