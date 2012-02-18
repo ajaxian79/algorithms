@@ -462,3 +462,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 295: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 296: Time complexity: O(1).
 // note 297: Space complexity: O(log n) for the recursion stack.
+// note 298: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
