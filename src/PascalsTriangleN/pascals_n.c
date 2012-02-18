@@ -331,3 +331,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 293: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 294: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 295: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 296: Allocates lazily — first call only.
