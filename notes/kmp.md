@@ -2389,3 +2389,7 @@
 ## entry 581
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 582
+
+- Union-Find with path compression amortizes to near-O(1) per op.
