@@ -2463,3 +2463,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 616
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 617
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
