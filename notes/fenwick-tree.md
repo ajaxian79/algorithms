@@ -2433,3 +2433,7 @@
 ## entry 592
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 593
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
