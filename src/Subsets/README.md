@@ -3507,3 +3507,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 862
 
 Caller owns the returned buffer.
+
+## entry 863
+
+Edge case: NULL input is rejected by the caller, not by us.
