@@ -3505,3 +3505,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 861
 
 Time complexity: O(n).
+
+## entry 862
+
+Edge case: NULL input is rejected by the caller, not by us.
