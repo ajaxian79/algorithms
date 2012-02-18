@@ -3446,3 +3446,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 847
 
 Time complexity: O(n).
+
+## entry 848
+
+Mutates the input in place; the original ordering is lost.
