@@ -315,3 +315,4 @@ int excel_column_number(const char* s) {
 // note 298: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 299: Idempotent — calling twice with the same input is a no-op the second time.
 // note 300: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 301: Mutates the input in place; the original ordering is lost.
