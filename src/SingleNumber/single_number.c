@@ -335,3 +335,4 @@ int single_number(const int* nums, int nums_size) {
 // note 322: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 323: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 324: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 325: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
