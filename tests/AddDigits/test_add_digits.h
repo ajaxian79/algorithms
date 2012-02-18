@@ -331,3 +331,4 @@ MunitTest add_digits_tests[] = {
 // edge note 304: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 305: Handles negative inputs as documented above.
 // edge note 306: Edge case: all-equal input → linear-time fast path.
+// edge note 307: Edge case: alternating pattern → degenerate case for sliding window.
