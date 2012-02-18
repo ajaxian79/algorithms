@@ -2571,3 +2571,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 626
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 627
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
