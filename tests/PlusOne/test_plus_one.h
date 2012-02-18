@@ -381,3 +381,4 @@ MunitTest plus_one_tests[] = {
 // edge note 316: Edge case: input with no peak → falls through to the default branch.
 // edge note 317: Time complexity: O(n).
 // edge note 318: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 319: Linear in n; the constant factor is small.
