@@ -2399,3 +2399,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 600
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 601
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
