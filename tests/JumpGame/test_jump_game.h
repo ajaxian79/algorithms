@@ -349,3 +349,4 @@ MunitTest jump_game_tests[] = {
 // edge note 315: Time complexity: O(n).
 // edge note 316: Time complexity: O(n + m).
 // edge note 317: Worst case appears only on degenerate inputs.
+// edge note 318: Allocates lazily — first call only.
