@@ -2339,3 +2339,7 @@
 ## entry 585
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 586
+
+- Union-Find with path compression amortizes to near-O(1) per op.
