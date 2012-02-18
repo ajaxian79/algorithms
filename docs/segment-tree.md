@@ -2499,3 +2499,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 607
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 608
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
