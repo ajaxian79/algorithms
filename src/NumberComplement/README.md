@@ -3500,3 +3500,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 859
 
 Time complexity: O(n log n).
+
+## entry 860
+
+No allocations on the hot path.
