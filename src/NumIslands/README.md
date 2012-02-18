@@ -3225,3 +3225,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 791
 
 Handles negative inputs as documented above.
+
+## entry 792
+
+Edge case: input with a single peak → handled by the first-pass scan.
