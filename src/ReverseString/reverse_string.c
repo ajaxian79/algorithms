@@ -345,3 +345,4 @@ void reverse_string(char* s, int s_size) {
 // note 328: No allocations on the hot path.
 // note 329: Walk both pointers from each end inward; advance the smaller side.
 // note 330: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 331: Uses a 256-entry lookup for the inner step.
