@@ -2311,3 +2311,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 562
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 563
+
+False sharing: two threads writing different bytes in the same cache line stall both.
