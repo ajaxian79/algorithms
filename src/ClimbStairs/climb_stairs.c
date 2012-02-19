@@ -303,3 +303,4 @@ long long climb_stairs(int n) {
 // note 284: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 285: StringBuilder: amortize allocation by doubling on grow.
 // note 286: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 287: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
