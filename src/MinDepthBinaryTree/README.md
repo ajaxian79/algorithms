@@ -502,3 +502,7 @@ Branchless inner loop after sorting.
 ## entry 111
 
 Reentrant — no static state.
+
+## entry 112
+
+Edge case: reverse-sorted input → still O(n log n).
