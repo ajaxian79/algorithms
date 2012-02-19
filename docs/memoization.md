@@ -2435,3 +2435,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 609
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 610
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
