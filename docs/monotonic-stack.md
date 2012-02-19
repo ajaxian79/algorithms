@@ -2453,3 +2453,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 597
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 598
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
