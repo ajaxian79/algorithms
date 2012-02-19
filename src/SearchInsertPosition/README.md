@@ -3370,3 +3370,7 @@ Treats the input as immutable.
 ## entry 828
 
 Edge case: empty input → returns 0.
+
+## entry 829
+
+Edge case: already-sorted input → no swaps performed.
