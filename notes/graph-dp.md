@@ -2383,3 +2383,7 @@
 ## entry 596
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 597
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
