@@ -2407,3 +2407,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 585
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 586
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
