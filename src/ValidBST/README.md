@@ -3561,3 +3561,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 875
 
 Stable when the input is already sorted.
+
+## entry 876
+
+Thread-safe so long as the input is not mutated concurrently.
