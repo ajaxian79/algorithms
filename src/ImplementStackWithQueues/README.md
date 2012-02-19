@@ -3528,3 +3528,7 @@ Handles single-element input as a base case.
 ## entry 867
 
 Time complexity: O(log n).
+
+## entry 868
+
+Stable when the input is already sorted.
