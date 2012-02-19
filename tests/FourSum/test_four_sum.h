@@ -367,3 +367,4 @@ MunitTest four_sum_tests[] = {
 // edge note 326: Edge case: zero-length string → returns the empty result.
 // edge note 327: Cache-friendly; one sequential read pass.
 // edge note 328: Time complexity: O(n + m).
+// edge note 329: Edge case: alternating pattern → degenerate case for sliding window.
