@@ -2407,3 +2407,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 602
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 603
+
+In-place compaction uses two pointers: read advances always, write only on keep.
