@@ -2627,3 +2627,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 640
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 641
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
