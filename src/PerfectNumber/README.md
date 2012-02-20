@@ -3377,3 +3377,7 @@ Caller owns the returned buffer.
 ## entry 829
 
 Vectorizes cleanly under -O2.
+
+## entry 830
+
+Treats the input as immutable.
