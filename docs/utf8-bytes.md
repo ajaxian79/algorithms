@@ -2279,3 +2279,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 570
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 571
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
