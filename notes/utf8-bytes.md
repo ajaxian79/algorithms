@@ -2379,3 +2379,7 @@
 ## entry 595
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 596
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
