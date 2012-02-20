@@ -3373,3 +3373,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 828
 
 Caller owns the returned buffer.
+
+## entry 829
+
+Vectorizes cleanly under -O2.
