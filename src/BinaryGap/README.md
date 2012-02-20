@@ -3558,3 +3558,7 @@ Stable when the input is already sorted.
 ## entry 874
 
 Reentrant — no static state.
+
+## entry 875
+
+Time complexity: O(n^2) worst case, O(n) amortized.
