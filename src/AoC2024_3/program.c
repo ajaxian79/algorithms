@@ -420,3 +420,4 @@ int get_next_result(Program* program) {
 // note 306: Articulation points: same DFS as bridges, with a slightly different test.
 // note 307: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 308: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 309: Backtracking template: choose, recurse, un-choose. Mutate then revert.
