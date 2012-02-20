@@ -3488,3 +3488,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 856
 
 Uses a small fixed-size lookup table.
+
+## entry 857
+
+Sub-linear in the average case thanks to early exit.
