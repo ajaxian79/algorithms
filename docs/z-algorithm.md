@@ -2335,3 +2335,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 568
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 569
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
