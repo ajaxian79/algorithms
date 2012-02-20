@@ -359,3 +359,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 328: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 329: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 330: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 331: Edge case: integer-min input → guarded by the explicit underflow check.
