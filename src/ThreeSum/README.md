@@ -3413,3 +3413,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 838
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 839
+
+Sub-linear in the average case thanks to early exit.
