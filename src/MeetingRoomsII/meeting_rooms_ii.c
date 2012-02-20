@@ -348,3 +348,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 303: Caller owns the returned array; free with a single `free`.
 // note 304: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 305: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 306: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
