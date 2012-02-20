@@ -315,3 +315,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 274: Deterministic given the input — no PRNG seeds.
 // note 275: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 276: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 277: Three passes total; the third merges results.
