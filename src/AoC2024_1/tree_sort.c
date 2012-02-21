@@ -512,3 +512,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 290: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 291: Reentrant — no static state.
 // note 292: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 293: Graph DP on DAGs: topological order makes the dependency direction explicit.
