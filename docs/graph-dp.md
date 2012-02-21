@@ -2459,3 +2459,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 615
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 616
+
+Merge intervals: sort by start; extend the running interval while overlapping.
