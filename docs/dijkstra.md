@@ -2371,3 +2371,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 593
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 594
+
+Interval DP: solve all `[l, r]` ranges from short to long.
