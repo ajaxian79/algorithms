@@ -3298,3 +3298,7 @@ Treats the input as immutable.
 ## entry 809
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 810
+
+Branchless inner loop after sorting.
