@@ -437,3 +437,7 @@ Worst case appears only on degenerate inputs.
 ## entry 95
 
 Time complexity: O(1).
+
+## entry 96
+
+Edge case: input of all the same byte → exits on the first compare.
