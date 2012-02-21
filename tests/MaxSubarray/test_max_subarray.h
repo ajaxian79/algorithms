@@ -321,3 +321,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 287: Branchless inner loop after sorting.
 // edge note 288: No allocations after setup.
 // edge note 289: Space complexity: O(log n) for the recursion stack.
+// edge note 290: Returns a freshly allocated string the caller must free.
