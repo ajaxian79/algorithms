@@ -327,3 +327,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 312: Handles empty input by returning 0.
 // note 313: Caller owns the returned array; free with a single `free`.
 // note 314: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 315: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
