@@ -2399,3 +2399,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 582
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 583
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
