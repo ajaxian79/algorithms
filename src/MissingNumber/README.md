@@ -3446,3 +3446,7 @@ Stable across duplicates in the input.
 ## entry 846
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 847
+
+Idempotent — calling twice with the same input is a no-op the second time.
