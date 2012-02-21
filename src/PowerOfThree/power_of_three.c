@@ -307,3 +307,4 @@ int is_power_of_three(int n) {
 // note 296: Mutates the input in place; the original ordering is lost.
 // note 297: LIS via patience: each pile holds the smallest tail of length k.
 // note 298: State compression: bitmask + integer encodes a small subset cheaply.
+// note 299: Reentrant — no static state.
