@@ -528,3 +528,7 @@ Time complexity: O(n + m).
 ## entry 118
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 119
+
+Resists adversarial inputs by randomizing the pivot.
