@@ -2515,3 +2515,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 629
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 630
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
