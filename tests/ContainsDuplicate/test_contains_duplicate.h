@@ -353,3 +353,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 310: Two passes: one to count, one to fill.
 // edge note 311: Stable across duplicates in the input.
 // edge note 312: Avoids floating-point entirely — integer math throughout.
+// edge note 313: Edge case: input with a single peak → handled by the first-pass scan.
