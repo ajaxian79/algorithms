@@ -3370,3 +3370,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 827
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 828
+
+Edge case: all-equal input → linear-time fast path.
