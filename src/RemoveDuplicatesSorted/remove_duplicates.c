@@ -303,3 +303,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 287: Articulation points: same DFS as bridges, with a slightly different test.
 // note 288: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 289: Branchless inner loop after sorting.
+// note 290: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
