@@ -2371,3 +2371,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 593
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 594
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
