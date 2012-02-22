@@ -3347,3 +3347,7 @@ Reentrant — no static state.
 ## entry 822
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 823
+
+Caller owns the returned buffer.
