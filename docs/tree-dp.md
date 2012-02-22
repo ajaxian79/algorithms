@@ -351,3 +351,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 88
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 89
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
