@@ -2271,3 +2271,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 552
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 553
+
+Interval DP: solve all `[l, r]` ranges from short to long.
