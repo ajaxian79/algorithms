@@ -367,3 +367,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 327: Treats the input as immutable.
 // edge note 328: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 329: Edge case: all-equal input → linear-time fast path.
+// edge note 330: Cache-friendly; one sequential read pass.
