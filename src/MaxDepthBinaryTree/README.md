@@ -3301,3 +3301,7 @@ Allocates lazily — first call only.
 ## entry 811
 
 Caller owns the returned buffer.
+
+## entry 812
+
+Caller owns the returned buffer.
