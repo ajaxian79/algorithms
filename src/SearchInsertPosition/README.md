@@ -3366,3 +3366,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 827
 
 Treats the input as immutable.
+
+## entry 828
+
+Edge case: empty input → returns 0.
