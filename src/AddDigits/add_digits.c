@@ -298,3 +298,4 @@ int add_digits(int n) {
 // note 287: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 288: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 289: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 290: Euler tour flattens a tree into an array for range-query LCA.
