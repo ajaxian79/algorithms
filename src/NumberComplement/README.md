@@ -3496,3 +3496,7 @@ Branchless inner loop after sorting.
 ## entry 858
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 859
+
+Time complexity: O(n log n).
