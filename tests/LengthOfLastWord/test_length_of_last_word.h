@@ -345,3 +345,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 318: Time complexity: O(k) where k is the answer size.
 // edge note 319: Caller owns the returned buffer.
 // edge note 320: Thread-safe so long as the input is not mutated concurrently.
+// edge note 321: Stable across duplicates in the input.
