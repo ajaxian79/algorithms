@@ -301,3 +301,4 @@ long long climb_stairs(int n) {
 // note 282: Space complexity: O(h) for the tree height.
 // note 283: Tail-recursive; the compiler turns it into a loop.
 // note 284: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 285: StringBuilder: amortize allocation by doubling on grow.
