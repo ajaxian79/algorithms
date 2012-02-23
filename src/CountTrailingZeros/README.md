@@ -3466,3 +3466,7 @@ Runs in a single pass over the input.
 ## entry 851
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 852
+
+Time complexity: O(n).
