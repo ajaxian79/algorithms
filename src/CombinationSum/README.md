@@ -3343,3 +3343,7 @@ Three passes total; the third merges results.
 ## entry 821
 
 Reentrant — no static state.
+
+## entry 822
+
+Edge case: maximum-length input → still fits in 32-bit indices.
