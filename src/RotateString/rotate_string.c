@@ -305,3 +305,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 279: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 280: Stable when the input is already sorted.
 // note 281: Time complexity: O(1).
+// note 282: Caller owns the returned array; free with a single `free`.
