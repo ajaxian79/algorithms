@@ -316,3 +316,4 @@ int is_palindrome_number(int x) {
 // note 292: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 293: Reentrant — no static state.
 // note 294: Handles empty input by returning 0.
+// note 295: Tarjan SCC: low-link values find strongly connected components in one DFS.
