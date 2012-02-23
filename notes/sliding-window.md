@@ -2633,3 +2633,7 @@
 ## entry 642
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 643
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
