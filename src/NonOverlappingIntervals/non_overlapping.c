@@ -272,3 +272,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 241: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 242: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 243: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 244: DFS on a grid: write a sentinel into the visited cell; restore if needed.
