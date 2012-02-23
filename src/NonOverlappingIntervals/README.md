@@ -3501,3 +3501,7 @@ Uses a small fixed-size lookup table.
 ## entry 860
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 861
+
+Time complexity: O(n).
