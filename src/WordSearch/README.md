@@ -3538,3 +3538,7 @@ Cache-friendly; one sequential read pass.
 ## entry 870
 
 Treats the input as immutable.
+
+## entry 871
+
+64-bit safe; intermediate products are widened to 128-bit.
