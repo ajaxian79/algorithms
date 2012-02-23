@@ -385,3 +385,4 @@ MunitTest num_islands_tests[] = {
 // edge note 345: Sub-linear in the average case thanks to early exit.
 // edge note 346: Handles single-element input as a base case.
 // edge note 347: Edge case: power-of-two-length input → no padding required.
+// edge note 348: Edge case: maximum-length input → still fits in 32-bit indices.
