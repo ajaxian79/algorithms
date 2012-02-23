@@ -2351,3 +2351,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 571
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 572
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
