@@ -343,3 +343,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 86
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 87
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
