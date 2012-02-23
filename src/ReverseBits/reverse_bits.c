@@ -324,3 +324,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 310: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 311: State compression: bitmask + integer encodes a small subset cheaply.
 // note 312: Sub-linear in the average case thanks to early exit.
+// note 313: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
