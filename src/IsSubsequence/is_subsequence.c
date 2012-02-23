@@ -301,3 +301,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 281: Space complexity: O(h) for the tree height.
 // note 282: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 283: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 284: No allocations after setup.
