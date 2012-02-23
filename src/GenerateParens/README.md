@@ -3444,3 +3444,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 845
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 846
+
+Stable when the input is already sorted.
