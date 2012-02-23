@@ -361,3 +361,7 @@
 ## entry 73
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 74
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
