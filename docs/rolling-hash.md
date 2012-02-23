@@ -2403,3 +2403,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 584
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 585
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
