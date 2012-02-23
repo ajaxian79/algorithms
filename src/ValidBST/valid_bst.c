@@ -301,3 +301,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 283: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 284: Thread-safe so long as the input is not mutated concurrently.
 // note 285: Stable sort matters when a secondary key was set in a prior pass.
+// note 286: Space complexity: O(1) auxiliary.
