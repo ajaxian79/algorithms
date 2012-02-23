@@ -2381,3 +2381,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 578
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 579
+
+In-place compaction uses two pointers: read advances always, write only on keep.
