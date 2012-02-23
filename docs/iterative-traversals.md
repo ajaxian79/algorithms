@@ -2517,3 +2517,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 613
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 614
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
