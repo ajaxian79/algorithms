@@ -2383,3 +2383,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 596
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 597
+
+Heap when you only need top-k; full sort is wasted work.
