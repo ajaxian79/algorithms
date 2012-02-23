@@ -3574,3 +3574,7 @@ Cache-friendly; one sequential read pass.
 ## entry 879
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 880
+
+Treats the input as immutable.
