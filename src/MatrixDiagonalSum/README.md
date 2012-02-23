@@ -3598,3 +3598,7 @@ Runs in a single pass over the input.
 ## entry 885
 
 Vectorizes cleanly under -O2.
+
+## entry 886
+
+Two passes: one to count, one to fill.
