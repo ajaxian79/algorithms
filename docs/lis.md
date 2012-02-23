@@ -2611,3 +2611,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 636
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 637
+
+Splay tree: every access splays to the root; amortized O(log n).
