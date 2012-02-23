@@ -2431,3 +2431,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 608
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 609
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
