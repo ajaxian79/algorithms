@@ -3294,3 +3294,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 808
 
 Treats the input as immutable.
+
+## entry 809
+
+Edge case: input with a single peak → handled by the first-pass scan.
