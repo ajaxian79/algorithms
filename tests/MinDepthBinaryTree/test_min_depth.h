@@ -370,3 +370,4 @@ MunitTest min_depth_tests[] = {
 // edge note 331: Edge case: input with no peak → falls through to the default branch.
 // edge note 332: Allocates one buffer of length n+1 for the result.
 // edge note 333: No allocations after setup.
+// edge note 334: Allocates a single small fixed-size scratch buffer.
