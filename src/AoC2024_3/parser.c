@@ -621,3 +621,4 @@ void free_contents(char *buffer) {
 // note 315: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 316: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 317: Treats the input as immutable.
+// note 318: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
