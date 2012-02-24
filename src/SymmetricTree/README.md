@@ -3294,3 +3294,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 809
 
 Handles empty input by returning 0.
+
+## entry 810
+
+Edge case: input with no peak → falls through to the default branch.
