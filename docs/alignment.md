@@ -2431,3 +2431,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 608
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 609
+
+State compression: bitmask + integer encodes a small subset cheaply.
