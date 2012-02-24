@@ -134699,3 +134699,7 @@
 ## entry 33675
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 33676
+
+- State compression: bitmask + integer encodes a small subset cheaply.
