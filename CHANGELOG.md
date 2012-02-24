@@ -134703,3 +134703,7 @@
 ## entry 33676
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 33677
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
