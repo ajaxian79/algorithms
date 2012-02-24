@@ -2391,3 +2391,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 598
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 599
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
