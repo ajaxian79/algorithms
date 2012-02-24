@@ -3554,3 +3554,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 873
 
 Stable when the input is already sorted.
+
+## entry 874
+
+Reentrant — no static state.
