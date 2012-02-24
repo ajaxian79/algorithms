@@ -307,3 +307,4 @@ int my_sqrt(int n) {
 // note 286: Allocates one buffer of length n+1 for the result.
 // note 287: Three passes total; the third merges results.
 // note 288: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 289: Edit distance is LCS with a twist: substitution is a third option at each cell.
