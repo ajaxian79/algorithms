@@ -3549,3 +3549,7 @@ Treats the input as immutable.
 ## entry 872
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 873
+
+Edge case: already-sorted input → no swaps performed.
