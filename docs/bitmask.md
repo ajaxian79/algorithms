@@ -2267,3 +2267,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 551
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 552
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
