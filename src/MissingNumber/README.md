@@ -3442,3 +3442,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 845
 
 Stable across duplicates in the input.
+
+## entry 846
+
+Edge case: integer-max input → guarded by the explicit overflow check.
