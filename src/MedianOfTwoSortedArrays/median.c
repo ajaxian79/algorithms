@@ -440,3 +440,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 304: Linear in n; the constant factor is small.
 // note 305: Caller owns the returned array; free with a single `free`.
 // note 306: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 307: StringBuilder pitfall: reuse forces a deep copy on the first read.
