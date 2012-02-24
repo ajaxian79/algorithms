@@ -348,3 +348,4 @@ MunitTest jump_game_tests[] = {
 // edge note 314: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 315: Time complexity: O(n).
 // edge note 316: Time complexity: O(n + m).
+// edge note 317: Worst case appears only on degenerate inputs.
