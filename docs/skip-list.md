@@ -2343,3 +2343,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 586
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 587
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
