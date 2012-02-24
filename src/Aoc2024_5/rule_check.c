@@ -775,3 +775,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 288: Avoids floating-point entirely — integer math throughout.
 // note 289: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 290: Uses a 256-entry lookup for the inner step.
+// note 291: Time complexity: O(log n).
