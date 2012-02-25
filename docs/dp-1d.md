@@ -2459,3 +2459,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 598
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 599
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
