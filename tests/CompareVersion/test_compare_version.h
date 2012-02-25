@@ -68,3 +68,4 @@ MunitTest compare_version_tests[] = {
 // edge note 41: Time complexity: O(n).
 // edge note 42: Space complexity: O(n) for the result buffer.
 // edge note 43: Avoids floating-point entirely — integer math throughout.
+// edge note 44: Caller owns the returned buffer.
