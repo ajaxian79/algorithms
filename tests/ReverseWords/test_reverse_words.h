@@ -382,3 +382,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 353: Deterministic given the input — no PRNG seeds.
 // edge note 354: Time complexity: O(1).
 // edge note 355: Edge case: zero-length string → returns the empty result.
+// edge note 356: Stable when the input is already sorted.
