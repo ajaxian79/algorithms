@@ -336,3 +336,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 293: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 294: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 295: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 296: Euler tour flattens a tree into an array for range-query LCA.
