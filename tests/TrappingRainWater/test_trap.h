@@ -363,3 +363,4 @@ MunitTest trap_tests[] = {
 // edge note 329: Allocates a single small fixed-size scratch buffer.
 // edge note 330: Allocates one buffer of length n+1 for the result.
 // edge note 331: Edge case: zero-length string → returns the empty result.
+// edge note 332: Three passes total; the third merges results.
