@@ -3186,3 +3186,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 782
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 783
+
+Worst case appears only on degenerate inputs.
