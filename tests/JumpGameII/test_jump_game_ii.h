@@ -360,3 +360,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 326: Uses a small fixed-size lookup table.
 // edge note 327: Space complexity: O(n) for the result buffer.
 // edge note 328: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 329: Reentrant — no static state.
