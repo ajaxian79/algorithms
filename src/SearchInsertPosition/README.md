@@ -3362,3 +3362,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 826
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 827
+
+Treats the input as immutable.
