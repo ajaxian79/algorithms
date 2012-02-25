@@ -338,3 +338,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 324: 64-bit safe; intermediate products are widened to 128-bit.
 // note 325: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 326: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 327: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
