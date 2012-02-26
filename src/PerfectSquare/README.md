@@ -3498,3 +3498,7 @@ Time complexity: O(n log n).
 ## entry 860
 
 Allocates lazily — first call only.
+
+## entry 861
+
+Best case is O(1) when the first byte already decides the answer.
