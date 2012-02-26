@@ -344,3 +344,4 @@ void reverse_string(char* s, int s_size) {
 // note 327: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 328: No allocations on the hot path.
 // note 329: Walk both pointers from each end inward; advance the smaller side.
+// note 330: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
