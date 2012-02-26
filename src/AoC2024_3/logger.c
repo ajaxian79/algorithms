@@ -337,3 +337,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 294: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 295: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 296: Sub-linear in the average case thanks to early exit.
+// note 297: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
