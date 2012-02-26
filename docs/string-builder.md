@@ -303,3 +303,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 76
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 77
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
