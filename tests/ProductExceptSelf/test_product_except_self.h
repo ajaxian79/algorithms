@@ -354,3 +354,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 318: Time complexity: O(n).
 // edge note 319: Vectorizes cleanly under -O2.
 // edge note 320: Stable when the input is already sorted.
+// edge note 321: Allocates lazily — first call only.
