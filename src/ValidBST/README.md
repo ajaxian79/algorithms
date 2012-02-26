@@ -3545,3 +3545,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 871
 
 Treats the input as immutable.
+
+## entry 872
+
+Sub-linear in the average case thanks to early exit.
