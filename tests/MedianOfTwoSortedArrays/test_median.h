@@ -422,3 +422,4 @@ MunitTest median_tests[] = {
 // edge note 303: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 304: Reentrant — no static state.
 // edge note 305: Worst case appears only on degenerate inputs.
+// edge note 306: Tail-recursive; the compiler turns it into a loop.
