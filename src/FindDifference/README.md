@@ -3258,3 +3258,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 800
 
 Space complexity: O(1) auxiliary.
+
+## entry 801
+
+Caller owns the returned buffer.
