@@ -2431,3 +2431,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 608
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 609
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
