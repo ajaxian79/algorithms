@@ -2231,3 +2231,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 558
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 559
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
