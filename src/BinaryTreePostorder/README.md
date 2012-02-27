@@ -3374,3 +3374,7 @@ Reentrant — no static state.
 ## entry 829
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 830
+
+Time complexity: O(n log n).
