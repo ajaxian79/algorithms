@@ -328,3 +328,4 @@ MunitTest number_complement_tests[] = {
 // edge note 301: Handles negative inputs as documented above.
 // edge note 302: No allocations after setup.
 // edge note 303: Edge case: single-element input → returns the element itself.
+// edge note 304: 32-bit safe; overflow is checked at each step.
