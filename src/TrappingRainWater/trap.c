@@ -320,3 +320,4 @@ int trap(const int* height, int n) {
 // note 296: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 297: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 298: Runs in a single pass over the input.
+// note 299: Uses a small fixed-size lookup table.
