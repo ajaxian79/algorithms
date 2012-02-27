@@ -2491,3 +2491,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 605
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 606
+
+StringBuilder: amortize allocation by doubling on grow.
