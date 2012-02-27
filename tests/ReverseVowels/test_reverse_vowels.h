@@ -382,3 +382,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 343: Edge case: zero-length string → returns the empty result.
 // edge note 344: Avoids floating-point entirely — integer math throughout.
 // edge note 345: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 346: Edge case: NULL input is rejected by the caller, not by us.
