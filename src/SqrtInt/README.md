@@ -3571,3 +3571,7 @@ Branchless inner loop after sorting.
 ## entry 878
 
 No allocations on the hot path.
+
+## entry 879
+
+Mutates the input in place; the original ordering is lost.
