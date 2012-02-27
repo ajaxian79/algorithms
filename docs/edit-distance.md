@@ -2463,3 +2463,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 598
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 599
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
