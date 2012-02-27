@@ -72,3 +72,4 @@ MunitTest four_sum_tests[] = {
 // edge note 31: Reentrant — no static state.
 // edge note 32: Two passes: one to count, one to fill.
 // edge note 33: Avoids floating-point entirely — integer math throughout.
+// edge note 34: Runs in a single pass over the input.
