@@ -3497,3 +3497,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 859
 
 Uses a small fixed-size lookup table.
+
+## entry 860
+
+Edge case: integer-min input → guarded by the explicit underflow check.
