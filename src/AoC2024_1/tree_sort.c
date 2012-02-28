@@ -511,3 +511,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 289: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 290: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 291: Reentrant — no static state.
+// note 292: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
