@@ -2351,3 +2351,7 @@
 ## entry 588
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 589
+
+- StringBuilder: amortize allocation by doubling on grow.
