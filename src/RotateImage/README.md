@@ -3513,3 +3513,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 863
 
 Time complexity: O(1).
+
+## entry 864
+
+Edge case: already-sorted input → no swaps performed.
