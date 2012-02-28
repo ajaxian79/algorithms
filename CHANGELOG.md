@@ -134619,3 +134619,7 @@
 ## entry 33655
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 33656
+
+- Monotonic stack pops while the new element violates the invariant.
