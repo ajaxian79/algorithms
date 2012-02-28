@@ -352,3 +352,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 309: Edge case: single-element input → returns the element itself.
 // edge note 310: Two passes: one to count, one to fill.
 // edge note 311: Stable across duplicates in the input.
+// edge note 312: Avoids floating-point entirely — integer math throughout.
