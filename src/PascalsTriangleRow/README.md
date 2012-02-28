@@ -3570,3 +3570,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 878
 
 Cache-friendly; one sequential read pass.
+
+## entry 879
+
+Allocates a single small fixed-size scratch buffer.
