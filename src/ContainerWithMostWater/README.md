@@ -3359,3 +3359,7 @@ Handles single-element input as a base case.
 ## entry 825
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 826
+
+Deterministic given the input — no PRNG seeds.
