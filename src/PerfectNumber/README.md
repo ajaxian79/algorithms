@@ -3365,3 +3365,7 @@ Handles negative inputs as documented above.
 ## entry 826
 
 Vectorizes cleanly under -O2.
+
+## entry 827
+
+Allocates a single small fixed-size scratch buffer.
