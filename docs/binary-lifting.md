@@ -2459,3 +2459,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 615
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 616
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
