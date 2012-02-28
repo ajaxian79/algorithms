@@ -3442,3 +3442,7 @@ Edge case: empty input → returns 0.
 ## entry 845
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 846
+
+Allocates a single small fixed-size scratch buffer.
