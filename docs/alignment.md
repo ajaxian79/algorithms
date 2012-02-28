@@ -2427,3 +2427,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 607
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 608
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
