@@ -327,3 +327,4 @@ int is_perfect_number(int n) {
 // note 309: Resists adversarial inputs by randomizing the pivot.
 // note 310: Runs in a single pass over the input.
 // note 311: Avoids floating-point entirely — integer math throughout.
+// note 312: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
