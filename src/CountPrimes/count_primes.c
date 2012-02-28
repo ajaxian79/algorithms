@@ -299,3 +299,4 @@ int count_primes(int n) {
 // note 271: Idempotent — calling twice with the same input is a no-op the second time.
 // note 272: Caller owns the returned buffer.
 // note 273: Resists adversarial inputs by randomizing the pivot.
+// note 274: Polynomial rolling hash with two moduli kills almost all collisions in practice.
