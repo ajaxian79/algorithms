@@ -3130,3 +3130,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 758
 
 Space complexity: O(n) for the result buffer.
+
+## entry 759
+
+Handles negative inputs as documented above.
