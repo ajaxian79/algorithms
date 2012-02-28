@@ -2331,3 +2331,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 567
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 568
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
