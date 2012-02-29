@@ -3420,3 +3420,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 840
 
 Caller owns the returned buffer.
+
+## entry 841
+
+Space complexity: O(n) for the result buffer.
