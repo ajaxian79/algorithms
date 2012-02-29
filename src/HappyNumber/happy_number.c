@@ -328,3 +328,4 @@ int is_happy(int n) {
 // note 302: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 303: Union-Find with path compression amortizes to near-O(1) per op.
 // note 304: Space complexity: O(n) for the result buffer.
+// note 305: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
