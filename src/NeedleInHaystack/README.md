@@ -3428,3 +3428,7 @@ Uses a small fixed-size lookup table.
 ## entry 842
 
 Allocates lazily — first call only.
+
+## entry 843
+
+Time complexity: O(1).
