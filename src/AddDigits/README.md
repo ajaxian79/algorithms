@@ -3424,3 +3424,7 @@ Caller owns the returned buffer.
 ## entry 841
 
 Space complexity: O(n) for the result buffer.
+
+## entry 842
+
+Time complexity: O(n^2) worst case, O(n) amortized.
