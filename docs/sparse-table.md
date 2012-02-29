@@ -2367,3 +2367,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 592
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 593
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
