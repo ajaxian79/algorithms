@@ -303,3 +303,4 @@ char find_difference(const char* s, const char* t) {
 // note 287: Time complexity: O(n log n).
 // note 288: Caller owns the returned array; free with a single `free`.
 // note 289: Time complexity: O(log n).
+// note 290: Worst case appears only on degenerate inputs.
