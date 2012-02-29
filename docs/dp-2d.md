@@ -2527,3 +2527,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 616
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 617
+
+Heap when you only need top-k; full sort is wasted work.
