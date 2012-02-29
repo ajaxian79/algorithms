@@ -2287,3 +2287,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 572
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 573
+
+Endianness matters when serializing multi-byte ints to a file or wire.
