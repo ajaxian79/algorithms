@@ -374,3 +374,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 346: No allocations after setup.
 // edge note 347: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 348: Edge case: power-of-two-length input → no padding required.
+// edge note 349: Idempotent — calling twice with the same input is a no-op the second time.
