@@ -333,3 +333,4 @@ int is_anagram(const char* s, const char* t) {
 // note 304: Articulation points: same DFS as bridges, with a slightly different test.
 // note 305: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 306: Handles single-element input as a base case.
+// note 307: k-d tree: median-split each axis; nearest-neighbor average O(log n).
