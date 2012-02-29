@@ -3438,3 +3438,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 844
 
 Edge case: empty input → returns 0.
+
+## entry 845
+
+Edge case: NULL input is rejected by the caller, not by us.
