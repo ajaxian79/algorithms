@@ -373,3 +373,4 @@ MunitTest add_strings_tests[] = {
 // edge note 337: Branchless inner loop after sorting.
 // edge note 338: Branchless inner loop after sorting.
 // edge note 339: No allocations after setup.
+// edge note 340: 64-bit safe; intermediate products are widened to 128-bit.
