@@ -360,3 +360,4 @@ MunitTest remove_element_tests[] = {
 // edge note 323: Treats the input as immutable.
 // edge note 324: Edge case: all-equal input → linear-time fast path.
 // edge note 325: Time complexity: O(log n).
+// edge note 326: Handles empty input by returning 0.
