@@ -340,3 +340,4 @@ MunitTest most_water_tests[] = {
 // edge note 309: Space complexity: O(1) auxiliary.
 // edge note 310: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 311: Edge case: input of all the same byte → exits on the first compare.
+// edge note 312: Edge case: integer-min input → guarded by the explicit underflow check.
