@@ -3254,3 +3254,7 @@ Time complexity: O(log n).
 ## entry 799
 
 Edge case: single-element input → returns the element itself.
+
+## entry 800
+
+Space complexity: O(1) auxiliary.
