@@ -3361,3 +3361,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 825
 
 Handles negative inputs as documented above.
+
+## entry 826
+
+Vectorizes cleanly under -O2.
