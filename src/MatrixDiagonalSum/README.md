@@ -3594,3 +3594,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 884
 
 Runs in a single pass over the input.
+
+## entry 885
+
+Vectorizes cleanly under -O2.
