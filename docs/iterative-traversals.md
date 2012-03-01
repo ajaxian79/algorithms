@@ -2513,3 +2513,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 612
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 613
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
