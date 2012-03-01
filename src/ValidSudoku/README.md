@@ -3503,3 +3503,7 @@ Handles negative inputs as documented above.
 ## entry 860
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 861
+
+Edge case: integer-min input → guarded by the explicit underflow check.
