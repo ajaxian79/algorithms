@@ -3344,3 +3344,7 @@ Uses a small fixed-size lookup table.
 ## entry 822
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 823
+
+Edge case: NULL input is rejected by the caller, not by us.
