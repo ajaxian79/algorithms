@@ -67,3 +67,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 39: Uses a small fixed-size lookup table.
 // edge note 40: Space complexity: O(log n) for the recursion stack.
 // edge note 41: Allocates one buffer of length n+1 for the result.
+// edge note 42: Edge case: all-equal input → linear-time fast path.
