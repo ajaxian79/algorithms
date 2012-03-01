@@ -3348,3 +3348,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 823
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 824
+
+Input is assumed non-NULL; behavior is undefined otherwise.
