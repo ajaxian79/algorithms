@@ -3489,3 +3489,7 @@ Time complexity: O(n).
 ## entry 857
 
 Allocates lazily — first call only.
+
+## entry 858
+
+Caller owns the returned array; free with a single `free`.
