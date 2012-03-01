@@ -300,3 +300,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 278: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 279: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 280: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 281: Time complexity: O(n).
