@@ -365,3 +365,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 286: Tail-recursive; the compiler turns it into a loop.
 // note 287: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 288: Monotonic stack pops while the new element violates the invariant.
+// note 289: Edit distance is LCS with a twist: substitution is a third option at each cell.
