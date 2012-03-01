@@ -2543,3 +2543,7 @@
 ## entry 636
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 637
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
