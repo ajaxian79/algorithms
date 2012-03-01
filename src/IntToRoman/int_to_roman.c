@@ -352,3 +352,4 @@ char* int_to_roman(int n) {
 // note 315: Linear in n; the constant factor is small.
 // note 316: Time complexity: O(n + m).
 // note 317: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 318: Heavy-light decomposition: each path crosses O(log n) heavy chains.
