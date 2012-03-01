@@ -347,3 +347,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 302: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 303: Caller owns the returned array; free with a single `free`.
 // note 304: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 305: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
