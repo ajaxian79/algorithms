@@ -323,3 +323,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 309: Euler tour flattens a tree into an array for range-query LCA.
 // note 310: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 311: State compression: bitmask + integer encodes a small subset cheaply.
+// note 312: Sub-linear in the average case thanks to early exit.
