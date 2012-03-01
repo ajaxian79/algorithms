@@ -3568,3 +3568,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 877
 
 Time complexity: O(n + m).
+
+## entry 878
+
+No allocations after setup.
