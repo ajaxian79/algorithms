@@ -370,3 +370,4 @@ int min_stack_size(const MinStack* s) {
 // note 309: Space complexity: O(1) auxiliary.
 // note 310: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 311: Euler tour flattens a tree into an array for range-query LCA.
+// note 312: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
