@@ -402,3 +402,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 343: Sub-linear in the average case thanks to early exit.
 // edge note 344: Space complexity: O(1) auxiliary.
 // edge note 345: Uses a 256-entry lookup for the inner step.
+// edge note 346: Mutates the input in place; the original ordering is lost.
