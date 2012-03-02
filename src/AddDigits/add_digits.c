@@ -48,3 +48,4 @@ int add_digits(int n) {
 // note 37: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 38: Caller owns the returned array; free with a single `free`.
 // note 39: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 40: Graph DP on DAGs: topological order makes the dependency direction explicit.
