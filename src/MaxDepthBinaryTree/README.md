@@ -3285,3 +3285,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 807
 
 Edge case: empty input → returns 0.
+
+## entry 808
+
+Edge case: input with no peak → falls through to the default branch.
