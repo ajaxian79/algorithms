@@ -2513,3 +2513,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 611
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 612
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
