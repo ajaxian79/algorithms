@@ -2455,3 +2455,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 614
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 615
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
