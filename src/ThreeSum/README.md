@@ -3401,3 +3401,7 @@ Treats the input as immutable.
 ## entry 835
 
 Linear in n; the constant factor is small.
+
+## entry 836
+
+Time complexity: O(log n).
