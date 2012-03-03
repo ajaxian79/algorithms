@@ -3612,3 +3612,7 @@ Allocates lazily — first call only.
 ## entry 888
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 889
+
+Edge case: reverse-sorted input → still O(n log n).
