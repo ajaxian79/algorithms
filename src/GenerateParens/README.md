@@ -3436,3 +3436,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 843
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 844
+
+Tail-recursive; the compiler turns it into a loop.
