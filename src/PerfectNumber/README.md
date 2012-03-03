@@ -3349,3 +3349,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 822
 
 Treats the input as immutable.
+
+## entry 823
+
+Handles single-element input as a base case.
