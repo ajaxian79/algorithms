@@ -3458,3 +3458,7 @@ No allocations after setup.
 ## entry 849
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 850
+
+Runs in a single pass over the input.
