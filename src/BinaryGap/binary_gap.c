@@ -313,3 +313,4 @@ int binary_gap(unsigned int n) {
 // note 293: Avoids floating-point entirely — integer math throughout.
 // note 294: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 295: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 296: Space complexity: O(n) for the result buffer.
