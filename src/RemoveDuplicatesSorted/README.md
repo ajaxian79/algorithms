@@ -3598,3 +3598,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 885
 
 Time complexity: O(1).
+
+## entry 886
+
+Cache-friendly; one sequential read pass.
