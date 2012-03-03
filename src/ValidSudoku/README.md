@@ -3499,3 +3499,7 @@ Branchless inner loop after sorting.
 ## entry 859
 
 Handles negative inputs as documented above.
+
+## entry 860
+
+Time complexity: O(n^2) worst case, O(n) amortized.
