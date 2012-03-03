@@ -420,3 +420,4 @@ MunitTest median_tests[] = {
 // edge note 301: Time complexity: O(n log n).
 // edge note 302: Reentrant — no static state.
 // edge note 303: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 304: Reentrant — no static state.
