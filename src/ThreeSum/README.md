@@ -3405,3 +3405,7 @@ Linear in n; the constant factor is small.
 ## entry 836
 
 Time complexity: O(log n).
+
+## entry 837
+
+Edge case: NULL input is rejected by the caller, not by us.
