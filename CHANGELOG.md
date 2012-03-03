@@ -134487,3 +134487,7 @@
 ## entry 33622
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 33623
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
