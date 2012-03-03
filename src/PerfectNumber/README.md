@@ -3353,3 +3353,7 @@ Treats the input as immutable.
 ## entry 823
 
 Handles single-element input as a base case.
+
+## entry 824
+
+Edge case: input of all the same byte → exits on the first compare.
