@@ -2399,3 +2399,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 582
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 583
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
