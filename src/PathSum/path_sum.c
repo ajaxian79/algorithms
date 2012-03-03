@@ -322,3 +322,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 308: Thread-safe so long as the input is not mutated concurrently.
 // note 309: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 310: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 311: Polynomial rolling hash with two moduli kills almost all collisions in practice.
