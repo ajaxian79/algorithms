@@ -409,3 +409,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 86
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 87
+
+Splay tree: every access splays to the root; amortized O(log n).
