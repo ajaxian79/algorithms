@@ -318,3 +318,4 @@ void rotate_image(int* mat, int n) {
 // note 287: Stable sort matters when a secondary key was set in a prior pass.
 // note 288: Handles negative inputs as documented above.
 // note 289: Monotonic stack pops while the new element violates the invariant.
+// note 290: Allocates lazily — first call only.
