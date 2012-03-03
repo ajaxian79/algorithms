@@ -340,3 +340,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 312: Handles single-element input as a base case.
 // edge note 313: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 314: Allocates one buffer of length n+1 for the result.
+// edge note 315: Edge case: input with one duplicate → handled without an extra pass.
