@@ -3399,3 +3399,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 835
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 836
+
+Caller owns the returned array; free with a single `free`.
