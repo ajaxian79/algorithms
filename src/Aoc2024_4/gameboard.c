@@ -466,3 +466,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 313: Linear in n; the constant factor is small.
 // note 314: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 315: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 316: Sub-linear in the average case thanks to early exit.
