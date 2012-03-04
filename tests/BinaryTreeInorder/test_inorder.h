@@ -381,3 +381,4 @@ MunitTest inorder_tests[] = {
 // edge note 343: Constant-time comparisons; safe for short strings.
 // edge note 344: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 345: Edge case: reverse-sorted input → still O(n log n).
+// edge note 346: Three passes total; the third merges results.
