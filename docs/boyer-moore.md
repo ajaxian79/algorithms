@@ -2575,3 +2575,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 628
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 629
+
+Merge intervals: sort by start; extend the running interval while overlapping.
