@@ -2355,3 +2355,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 589
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 590
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
