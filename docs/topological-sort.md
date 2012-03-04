@@ -2529,3 +2529,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 614
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 615
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
