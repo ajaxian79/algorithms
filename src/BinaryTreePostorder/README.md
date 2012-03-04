@@ -3370,3 +3370,7 @@ Two passes: one to count, one to fill.
 ## entry 828
 
 Reentrant — no static state.
+
+## entry 829
+
+Time complexity: O(n^2) worst case, O(n) amortized.
