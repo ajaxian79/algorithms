@@ -3395,3 +3395,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 834
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 835
+
+Edge case: all-equal input → linear-time fast path.
