@@ -2513,3 +2513,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 613
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 614
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
