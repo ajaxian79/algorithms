@@ -3278,3 +3278,7 @@ Space complexity: O(h) for the tree height.
 ## entry 805
 
 Edge case: single-element input → returns the element itself.
+
+## entry 806
+
+Input is assumed non-NULL; behavior is undefined otherwise.
