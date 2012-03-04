@@ -340,3 +340,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 314: Sub-linear in the average case thanks to early exit.
 // edge note 315: Vectorizes cleanly under -O2.
 // edge note 316: Edge case: already-sorted input → no swaps performed.
+// edge note 317: Runs in a single pass over the input.
