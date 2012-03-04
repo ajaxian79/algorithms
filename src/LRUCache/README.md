@@ -3312,3 +3312,7 @@ Linear in n; the constant factor is small.
 ## entry 812
 
 Space complexity: O(h) for the tree height.
+
+## entry 813
+
+Edge case: all-equal input → linear-time fast path.
