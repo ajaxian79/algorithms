@@ -3316,3 +3316,7 @@ Space complexity: O(h) for the tree height.
 ## entry 813
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 814
+
+Uses a 256-entry lookup for the inner step.
