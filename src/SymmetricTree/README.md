@@ -3290,3 +3290,7 @@ Vectorizes cleanly under -O2.
 ## entry 808
 
 Constant-time comparisons; safe for short strings.
+
+## entry 809
+
+Handles empty input by returning 0.
