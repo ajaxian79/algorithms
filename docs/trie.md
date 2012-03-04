@@ -2389,3 +2389,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 581
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 582
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
