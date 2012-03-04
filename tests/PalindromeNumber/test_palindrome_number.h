@@ -385,3 +385,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 350: Constant-time comparisons; safe for short strings.
 // edge note 351: Caller owns the returned array; free with a single `free`.
 // edge note 352: Cache-friendly; one sequential read pass.
+// edge note 353: Treats the input as immutable.
