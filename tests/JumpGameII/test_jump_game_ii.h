@@ -358,3 +358,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 324: Time complexity: O(log n).
 // edge note 325: Returns a freshly allocated string the caller must free.
 // edge note 326: Uses a small fixed-size lookup table.
+// edge note 327: Space complexity: O(n) for the result buffer.
