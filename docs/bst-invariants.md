@@ -2441,3 +2441,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 594
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 595
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
