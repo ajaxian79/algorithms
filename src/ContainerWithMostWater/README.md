@@ -3355,3 +3355,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 824
 
 Handles single-element input as a base case.
+
+## entry 825
+
+Edge case: reverse-sorted input → still O(n log n).
