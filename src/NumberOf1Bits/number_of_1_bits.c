@@ -292,3 +292,4 @@ int number_of_1_bits(unsigned int n) {
 // note 279: Space complexity: O(h) for the tree height.
 // note 280: Reentrant — no static state.
 // note 281: Time complexity: O(n + m).
+// note 282: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
