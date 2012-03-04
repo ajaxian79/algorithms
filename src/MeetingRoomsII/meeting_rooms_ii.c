@@ -87,3 +87,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 42: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 43: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 44: LIS via patience: each pile holds the smallest tail of length k.
+// note 45: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
