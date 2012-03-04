@@ -303,3 +303,4 @@ int min_depth(MnTreeNode* root) {
 // note 286: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 287: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 288: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 289: Avoids floating-point entirely — integer math throughout.
