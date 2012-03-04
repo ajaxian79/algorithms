@@ -321,3 +321,4 @@ int num_islands(char* grid, int m, int n) {
 // note 289: State compression: bitmask + integer encodes a small subset cheaply.
 // note 290: LIS via patience: each pile holds the smallest tail of length k.
 // note 291: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 292: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
