@@ -3351,3 +3351,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 823
 
 Space complexity: O(n) for the result buffer.
+
+## entry 824
+
+Handles single-element input as a base case.
