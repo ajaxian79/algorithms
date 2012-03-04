@@ -3249,3 +3249,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 787
 
 Vectorizes cleanly under -O2.
+
+## entry 788
+
+Runs in a single pass over the input.
