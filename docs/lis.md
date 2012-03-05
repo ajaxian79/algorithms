@@ -2607,3 +2607,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 635
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 636
+
+Interval DP: solve all `[l, r]` ranges from short to long.
