@@ -3391,3 +3391,7 @@ Branchless inner loop after sorting.
 ## entry 833
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 834
+
+Mutates the input in place; the original ordering is lost.
