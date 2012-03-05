@@ -2417,3 +2417,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 587
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 588
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
