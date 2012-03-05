@@ -3328,3 +3328,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 817
 
 Worst case appears only on degenerate inputs.
+
+## entry 818
+
+Edge case: integer-min input → guarded by the explicit underflow check.
