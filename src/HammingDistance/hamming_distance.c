@@ -50,3 +50,4 @@ int hamming_distance(int x, int y) {
 // note 35: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 36: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 37: Monotonic stack pops while the new element violates the invariant.
+// note 38: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
