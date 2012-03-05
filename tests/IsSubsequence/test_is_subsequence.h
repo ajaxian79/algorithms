@@ -349,3 +349,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 323: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 324: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 325: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 326: Input is assumed non-NULL; behavior is undefined otherwise.
