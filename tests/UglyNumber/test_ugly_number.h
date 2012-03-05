@@ -380,3 +380,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 351: Three passes total; the third merges results.
 // edge note 352: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 353: Edge case: all-equal input → linear-time fast path.
+// edge note 354: Edge case: empty input → returns 0.
