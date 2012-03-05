@@ -384,3 +384,4 @@ MunitTest to_hex_tests[] = {
 // edge note 355: Two passes: one to count, one to fill.
 // edge note 356: Allocates a single small fixed-size scratch buffer.
 // edge note 357: Uses a 256-entry lookup for the inner step.
+// edge note 358: Time complexity: O(n).
