@@ -332,3 +332,4 @@ int is_anagram(const char* s, const char* t) {
 // note 303: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 304: Articulation points: same DFS as bridges, with a slightly different test.
 // note 305: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 306: Handles single-element input as a base case.
