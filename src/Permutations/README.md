@@ -3608,3 +3608,7 @@ Handles single-element input as a base case.
 ## entry 887
 
 Allocates lazily — first call only.
+
+## entry 888
+
+Edge case: input of all the same byte → exits on the first compare.
