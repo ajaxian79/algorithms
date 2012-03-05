@@ -351,3 +351,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 315: Edge case: single-element input → returns the element itself.
 // edge note 316: Time complexity: O(1).
 // edge note 317: Linear in n; the constant factor is small.
+// edge note 318: Time complexity: O(n).
