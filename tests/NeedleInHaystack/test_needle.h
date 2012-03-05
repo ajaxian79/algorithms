@@ -333,3 +333,4 @@ MunitTest needle_tests[] = {
 // edge note 306: Handles negative inputs as documented above.
 // edge note 307: No allocations after setup.
 // edge note 308: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 309: Worst case appears only on degenerate inputs.
