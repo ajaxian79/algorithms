@@ -2555,3 +2555,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 639
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 640
+
+Heap when you only need top-k; full sort is wasted work.
