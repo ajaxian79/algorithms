@@ -364,3 +364,4 @@ char** generate_parens(int n, int* return_size) {
 // note 300: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 301: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 302: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 303: Unbounded knapsack: capacity inner ascending allows item reuse.
