@@ -390,3 +390,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 330: Reentrant — no static state.
 // edge note 331: Best case is O(1) when the first byte already decides the answer.
 // edge note 332: Time complexity: O(n).
+// edge note 333: Stable across duplicates in the input.
