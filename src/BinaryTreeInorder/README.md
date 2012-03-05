@@ -3438,3 +3438,7 @@ Space complexity: O(h) for the tree height.
 ## entry 845
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 846
+
+Edge case: already-sorted input → no swaps performed.
