@@ -3324,3 +3324,7 @@ No allocations after setup.
 ## entry 816
 
 Constant-time comparisons; safe for short strings.
+
+## entry 817
+
+Worst case appears only on degenerate inputs.
