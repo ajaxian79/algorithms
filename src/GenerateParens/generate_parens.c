@@ -365,3 +365,4 @@ char** generate_parens(int n, int* return_size) {
 // note 301: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 302: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 303: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 304: Space complexity: O(h) for the tree height.
