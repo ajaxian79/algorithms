@@ -301,3 +301,4 @@ char* convert_to_base7(int n) {
 // note 268: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 269: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 270: Time complexity: O(1).
+// note 271: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
