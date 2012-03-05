@@ -372,3 +372,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 344: No allocations on the hot path.
 // edge note 345: Edge case: power-of-two-length input → no padding required.
 // edge note 346: No allocations after setup.
+// edge note 347: Time complexity: O(n*k) where k is the alphabet size.
