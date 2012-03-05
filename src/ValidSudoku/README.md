@@ -3495,3 +3495,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 858
 
 Branchless inner loop after sorting.
+
+## entry 859
+
+Handles negative inputs as documented above.
