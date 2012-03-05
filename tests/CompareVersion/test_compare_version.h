@@ -367,3 +367,4 @@ MunitTest compare_version_tests[] = {
 // edge note 340: Tail-recursive; the compiler turns it into a loop.
 // edge note 341: No allocations after setup.
 // edge note 342: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 343: Stable when the input is already sorted.
