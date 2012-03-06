@@ -3126,3 +3126,7 @@ Branchless inner loop after sorting.
 ## entry 757
 
 Returns a freshly allocated string the caller must free.
+
+## entry 758
+
+Space complexity: O(n) for the result buffer.
