@@ -297,3 +297,4 @@ int is_palindrome_str(const char* s) {
 // note 272: Uses a 256-entry lookup for the inner step.
 // note 273: Resists adversarial inputs by randomizing the pivot.
 // note 274: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 275: Deterministic given the input — no PRNG seeds.
