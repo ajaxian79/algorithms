@@ -2427,3 +2427,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 607
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 608
+
+StringBuilder: amortize allocation by doubling on grow.
