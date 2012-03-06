@@ -281,3 +281,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 265: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 266: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 267: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 268: False sharing: two threads writing different bytes in the same cache line stall both.
