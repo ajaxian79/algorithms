@@ -2339,3 +2339,7 @@
 ## entry 585
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 586
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
