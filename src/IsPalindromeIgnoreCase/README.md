@@ -3334,3 +3334,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 819
 
 Linear in n; the constant factor is small.
+
+## entry 820
+
+Edge case: already-sorted input → no swaps performed.
