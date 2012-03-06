@@ -2505,3 +2505,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 610
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 611
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
