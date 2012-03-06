@@ -2363,3 +2363,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 591
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 592
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
