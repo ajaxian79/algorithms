@@ -134359,3 +134359,7 @@
 ## entry 33590
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 33591
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
