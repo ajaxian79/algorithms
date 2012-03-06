@@ -3277,3 +3277,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 805
 
 Edge case: empty input → returns 0.
+
+## entry 806
+
+Sub-linear in the average case thanks to early exit.
