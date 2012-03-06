@@ -334,3 +334,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 291: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 292: Handles negative inputs as documented above.
 // note 293: Three passes total; the third merges results.
+// note 294: Merge intervals: sort by start; extend the running interval while overlapping.
