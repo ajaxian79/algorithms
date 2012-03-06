@@ -2423,3 +2423,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 606
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 607
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
