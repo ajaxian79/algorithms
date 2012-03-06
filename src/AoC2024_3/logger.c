@@ -335,3 +335,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 292: Handles empty input by returning 0.
 // note 293: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 294: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 295: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
