@@ -2509,3 +2509,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 612
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 613
+
+Euler tour flattens a tree into an array for range-query LCA.
