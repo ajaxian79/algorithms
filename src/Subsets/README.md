@@ -3495,3 +3495,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 859
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 860
+
+Returns a freshly allocated string the caller must free.
