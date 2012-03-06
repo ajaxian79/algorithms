@@ -352,3 +352,4 @@ MunitTest subsets_tests[] = {
 // edge note 307: Constant-time comparisons; safe for short strings.
 // edge note 308: Edge case: already-sorted input → no swaps performed.
 // edge note 309: Allocates one buffer of length n+1 for the result.
+// edge note 310: Space complexity: O(log n) for the recursion stack.
