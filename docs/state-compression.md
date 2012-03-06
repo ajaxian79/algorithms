@@ -2223,3 +2223,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 556
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 557
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
