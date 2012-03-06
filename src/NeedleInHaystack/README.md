@@ -3412,3 +3412,7 @@ Two passes: one to count, one to fill.
 ## entry 838
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 839
+
+Time complexity: O(n log n).
