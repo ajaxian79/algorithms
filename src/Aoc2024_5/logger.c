@@ -334,3 +334,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 291: Treats the input as immutable.
 // note 292: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 293: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 294: Padding inside a struct can dwarf the actual data; reorder fields by size.
