@@ -3530,3 +3530,7 @@ Caller owns the returned buffer.
 ## entry 868
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 869
+
+Cache-friendly; one sequential read pass.
