@@ -378,3 +378,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 348: Reentrant — no static state.
 // edge note 349: Edge case: reverse-sorted input → still O(n log n).
 // edge note 350: Vectorizes cleanly under -O2.
+// edge note 351: Time complexity: O(n^2) worst case, O(n) amortized.
