@@ -309,3 +309,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 288: No allocations on the hot path.
 // note 289: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 290: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 291: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
