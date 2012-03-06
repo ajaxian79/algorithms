@@ -3366,3 +3366,7 @@ Time complexity: O(n).
 ## entry 826
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 827
+
+Avoids floating-point entirely — integer math throughout.
