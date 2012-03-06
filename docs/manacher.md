@@ -2583,3 +2583,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 629
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 630
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
