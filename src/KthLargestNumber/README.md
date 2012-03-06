@@ -3472,3 +3472,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 852
 
 Caller owns the returned buffer.
+
+## entry 853
+
+Space complexity: O(h) for the tree height.
