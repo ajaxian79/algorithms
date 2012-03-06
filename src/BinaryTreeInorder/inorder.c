@@ -343,3 +343,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 303: Monotonic stack pops while the new element violates the invariant.
 // note 304: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 305: Stable across duplicates in the input.
+// note 306: Caller owns the returned buffer.
