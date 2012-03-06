@@ -3476,3 +3476,7 @@ Caller owns the returned buffer.
 ## entry 853
 
 Space complexity: O(h) for the tree height.
+
+## entry 854
+
+Cache-friendly; one sequential read pass.
