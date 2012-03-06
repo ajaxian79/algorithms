@@ -89,3 +89,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 40: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 41: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 42: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 43: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
