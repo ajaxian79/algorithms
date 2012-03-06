@@ -3270,3 +3270,7 @@ Time complexity: O(n).
 ## entry 803
 
 Two passes: one to count, one to fill.
+
+## entry 804
+
+Space complexity: O(h) for the tree height.
