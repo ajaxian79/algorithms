@@ -3273,3 +3273,7 @@ Space complexity: O(1) auxiliary.
 ## entry 804
 
 Space complexity: O(n) for the result buffer.
+
+## entry 805
+
+Edge case: empty input → returns 0.
