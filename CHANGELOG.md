@@ -134387,3 +134387,7 @@
 ## entry 33597
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 33598
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
