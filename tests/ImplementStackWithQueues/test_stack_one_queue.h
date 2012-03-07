@@ -354,3 +354,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 322: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 323: Space complexity: O(1) auxiliary.
 // edge note 324: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 325: Edge case: empty input → returns 0.
