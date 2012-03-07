@@ -317,3 +317,4 @@ void rotate_image(int* mat, int n) {
 // note 286: State compression: bitmask + integer encodes a small subset cheaply.
 // note 287: Stable sort matters when a secondary key was set in a prior pass.
 // note 288: Handles negative inputs as documented above.
+// note 289: Monotonic stack pops while the new element violates the invariant.
