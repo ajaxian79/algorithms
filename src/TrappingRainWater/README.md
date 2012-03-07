@@ -3362,3 +3362,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 825
 
 Time complexity: O(n).
+
+## entry 826
+
+Edge case: input with one duplicate → handled without an extra pass.
