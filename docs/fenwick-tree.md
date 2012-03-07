@@ -2471,3 +2471,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 602
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 603
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
