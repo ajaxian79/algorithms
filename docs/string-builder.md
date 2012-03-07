@@ -2495,3 +2495,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 624
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 625
+
+Merge intervals: sort by start; extend the running interval while overlapping.
