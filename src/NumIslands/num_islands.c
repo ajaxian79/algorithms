@@ -319,3 +319,4 @@ int num_islands(char* grid, int m, int n) {
 // note 287: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 288: Handles empty input by returning 0.
 // note 289: State compression: bitmask + integer encodes a small subset cheaply.
+// note 290: LIS via patience: each pile holds the smallest tail of length k.
