@@ -2275,3 +2275,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 569
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 570
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
