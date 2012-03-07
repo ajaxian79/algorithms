@@ -435,3 +435,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 91
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 92
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
