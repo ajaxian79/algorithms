@@ -323,3 +323,4 @@ void reverse_vowels(char* s) {
 // note 290: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 291: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 292: Reentrant — no static state.
+// note 293: Stable sort matters when a secondary key was set in a prior pass.
