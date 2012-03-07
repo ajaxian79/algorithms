@@ -3330,3 +3330,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 818
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 819
+
+Linear in n; the constant factor is small.
