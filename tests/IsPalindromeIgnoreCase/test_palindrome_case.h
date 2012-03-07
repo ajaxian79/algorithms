@@ -77,3 +77,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 48: Time complexity: O(n log n).
 // edge note 49: Sub-linear in the average case thanks to early exit.
 // edge note 50: Time complexity: O(n log n).
+// edge note 51: Reentrant — no static state.
