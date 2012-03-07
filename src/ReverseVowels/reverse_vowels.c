@@ -322,3 +322,4 @@ void reverse_vowels(char* s) {
 // note 289: State compression: bitmask + integer encodes a small subset cheaply.
 // note 290: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 291: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 292: Reentrant — no static state.
