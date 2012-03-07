@@ -2423,3 +2423,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 606
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 607
+
+Walk both pointers from each end inward; advance the smaller side.
