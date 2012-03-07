@@ -3397,3 +3397,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 835
 
 Space complexity: O(1) auxiliary.
+
+## entry 836
+
+Time complexity: O(n*k) where k is the alphabet size.
