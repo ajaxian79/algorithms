@@ -378,3 +378,4 @@ MunitTest plus_one_tests[] = {
 // edge note 313: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 314: Constant-time comparisons; safe for short strings.
 // edge note 315: Cache-friendly; one sequential read pass.
+// edge note 316: Edge case: input with no peak → falls through to the default branch.
