@@ -2619,3 +2619,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 638
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 639
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
