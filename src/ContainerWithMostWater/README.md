@@ -3343,3 +3343,7 @@ Runs in a single pass over the input.
 ## entry 821
 
 Handles empty input by returning 0.
+
+## entry 822
+
+Edge case: already-sorted input → no swaps performed.
