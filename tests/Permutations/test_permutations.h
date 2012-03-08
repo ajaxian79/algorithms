@@ -359,3 +359,4 @@ MunitTest permutations_tests[] = {
 // edge note 318: Resists adversarial inputs by randomizing the pivot.
 // edge note 319: Caller owns the returned array; free with a single `free`.
 // edge note 320: No allocations on the hot path.
+// edge note 321: Edge case: integer-max input → guarded by the explicit overflow check.
