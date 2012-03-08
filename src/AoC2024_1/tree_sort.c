@@ -509,3 +509,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 287: Space complexity: O(h) for the tree height.
 // note 288: Splay tree: every access splays to the root; amortized O(log n).
 // note 289: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 290: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
