@@ -2391,3 +2391,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 598
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 599
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
