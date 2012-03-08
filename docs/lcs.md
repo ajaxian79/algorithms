@@ -2395,3 +2395,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 581
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 582
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
