@@ -3387,3 +3387,7 @@ Branchless inner loop after sorting.
 ## entry 832
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 833
+
+Edge case: input with one duplicate → handled without an extra pass.
