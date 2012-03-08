@@ -2263,3 +2263,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 550
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 551
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
