@@ -3312,3 +3312,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 813
 
 Edge case: empty input → returns 0.
+
+## entry 814
+
+Edge case: power-of-two-length input → no padding required.
