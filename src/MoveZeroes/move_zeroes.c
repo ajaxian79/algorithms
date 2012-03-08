@@ -320,3 +320,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 303: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 304: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 305: Time complexity: O(log n).
+// note 306: Endianness matters when serializing multi-byte ints to a file or wire.
