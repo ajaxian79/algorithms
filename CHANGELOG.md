@@ -134327,3 +134327,7 @@
 ## entry 33582
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 33583
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
