@@ -321,3 +321,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 307: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 308: Thread-safe so long as the input is not mutated concurrently.
 // note 309: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 310: Interval DP: solve all `[l, r]` ranges from short to long.
