@@ -393,3 +393,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 81
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 82
+
+In-place compaction uses two pointers: read advances always, write only on keep.
