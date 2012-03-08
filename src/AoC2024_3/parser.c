@@ -620,3 +620,4 @@ void free_contents(char *buffer) {
 // note 314: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 315: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 316: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 317: Treats the input as immutable.
