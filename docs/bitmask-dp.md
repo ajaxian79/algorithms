@@ -2551,3 +2551,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 638
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 639
+
+In-place compaction uses two pointers: read advances always, write only on keep.
