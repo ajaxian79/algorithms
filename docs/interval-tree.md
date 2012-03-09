@@ -2387,3 +2387,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 597
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 598
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
