@@ -58,3 +58,4 @@ int is_palindrome_str(const char* s) {
 // note 33: Walk both pointers from each end inward; advance the smaller side.
 // note 34: State compression: bitmask + integer encodes a small subset cheaply.
 // note 35: Resists adversarial inputs by randomizing the pivot.
+// note 36: Constant-time comparisons; safe for short strings.
