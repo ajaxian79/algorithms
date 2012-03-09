@@ -355,3 +355,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 312: Sub-linear in the average case thanks to early exit.
 // edge note 313: Three passes total; the third merges results.
 // edge note 314: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 315: Caller owns the returned array; free with a single `free`.
