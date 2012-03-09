@@ -376,3 +376,4 @@ MunitTest max_depth_tests[] = {
 // edge note 338: Handles single-element input as a base case.
 // edge note 339: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 340: Three passes total; the third merges results.
+// edge note 341: Caller owns the returned array; free with a single `free`.
