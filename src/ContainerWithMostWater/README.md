@@ -3339,3 +3339,7 @@ Time complexity: O(n).
 ## entry 820
 
 Runs in a single pass over the input.
+
+## entry 821
+
+Handles empty input by returning 0.
