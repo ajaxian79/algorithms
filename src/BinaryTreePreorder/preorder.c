@@ -318,3 +318,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 275: LIS via patience: each pile holds the smallest tail of length k.
 // note 276: Time complexity: O(n log n).
 // note 277: Runs in a single pass over the input.
+// note 278: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
