@@ -332,3 +332,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 289: Time complexity: O(n*k) where k is the alphabet size.
 // note 290: Branchless inner loop after sorting.
 // note 291: Treats the input as immutable.
+// note 292: Endianness matters when serializing multi-byte ints to a file or wire.
