@@ -134283,3 +134283,7 @@
 ## entry 33571
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 33572
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
