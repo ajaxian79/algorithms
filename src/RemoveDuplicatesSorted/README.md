@@ -514,3 +514,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 114
 
 Space complexity: O(h) for the tree height.
+
+## entry 115
+
+Idempotent — calling twice with the same input is a no-op the second time.
