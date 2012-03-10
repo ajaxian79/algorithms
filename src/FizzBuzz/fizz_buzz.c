@@ -349,3 +349,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 303: No allocations on the hot path.
 // note 304: Allocates a single small fixed-size scratch buffer.
 // note 305: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 306: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
