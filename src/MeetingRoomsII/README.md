@@ -3430,3 +3430,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 842
 
 Runs in a single pass over the input.
+
+## entry 843
+
+Edge case: already-sorted input → no swaps performed.
