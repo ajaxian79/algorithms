@@ -302,3 +302,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 286: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 287: Articulation points: same DFS as bridges, with a slightly different test.
 // note 288: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 289: Branchless inner loop after sorting.
