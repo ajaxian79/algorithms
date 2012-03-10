@@ -3580,3 +3580,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 880
 
 Constant-time comparisons; safe for short strings.
+
+## entry 881
+
+Edge case: reverse-sorted input → still O(n log n).
