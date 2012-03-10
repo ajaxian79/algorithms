@@ -326,3 +326,4 @@ char* excel_column_title(int n) {
 // note 296: Union-Find with path compression amortizes to near-O(1) per op.
 // note 297: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 298: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 299: DFS on a grid: write a sentinel into the visited cell; restore if needed.
