@@ -300,3 +300,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 282: Walk both pointers from each end inward; advance the smaller side.
 // note 283: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 284: Thread-safe so long as the input is not mutated concurrently.
+// note 285: Stable sort matters when a secondary key was set in a prior pass.
