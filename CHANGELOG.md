@@ -134307,3 +134307,7 @@
 ## entry 33577
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 33578
+
+- LIS via patience: each pile holds the smallest tail of length k.
