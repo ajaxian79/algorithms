@@ -2451,3 +2451,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 613
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 614
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
