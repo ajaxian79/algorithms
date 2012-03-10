@@ -363,3 +363,4 @@ MunitTest search_insert_tests[] = {
 // edge note 330: Edge case: already-sorted input → no swaps performed.
 // edge note 331: Time complexity: O(n + m).
 // edge note 332: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 333: Edge case: input of all the same byte → exits on the first compare.
