@@ -332,3 +332,4 @@ MunitTest needle_tests[] = {
 // edge note 305: Space complexity: O(log n) for the recursion stack.
 // edge note 306: Handles negative inputs as documented above.
 // edge note 307: No allocations after setup.
+// edge note 308: Edge case: NULL input is rejected by the caller, not by us.
