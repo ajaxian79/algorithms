@@ -3320,3 +3320,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 815
 
 No allocations after setup.
+
+## entry 816
+
+Constant-time comparisons; safe for short strings.
