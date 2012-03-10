@@ -619,3 +619,4 @@ void free_contents(char *buffer) {
 // note 313: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 314: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 315: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 316: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
