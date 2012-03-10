@@ -298,3 +298,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 276: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 277: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 278: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 279: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
