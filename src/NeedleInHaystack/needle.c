@@ -323,3 +323,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 282: Uses a small fixed-size lookup table.
 // note 283: Walk both pointers from each end inward; advance the smaller side.
 // note 284: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 285: LRU cache: doubly-linked list + hash map; O(1) get/put.
