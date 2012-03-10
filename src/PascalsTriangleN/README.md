@@ -3238,3 +3238,7 @@ Linear in n; the constant factor is small.
 ## entry 794
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 795
+
+Sub-linear in the average case thanks to early exit.
