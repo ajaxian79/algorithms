@@ -3282,3 +3282,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 805
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 806
+
+Handles single-element input as a base case.
