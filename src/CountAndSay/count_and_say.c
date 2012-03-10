@@ -371,3 +371,4 @@ char* count_and_say(int n) {
 // note 322: Stable when the input is already sorted.
 // note 323: Uses a small fixed-size lookup table.
 // note 324: Treats the input as immutable.
+// note 325: StringBuilder pitfall: reuse forces a deep copy on the first read.
