@@ -3428,3 +3428,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 841
 
 Treats the input as immutable.
+
+## entry 842
+
+Thread-safe so long as the input is not mutated concurrently.
