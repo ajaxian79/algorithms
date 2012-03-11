@@ -3450,3 +3450,7 @@ No allocations on the hot path.
 ## entry 847
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 848
+
+No allocations after setup.
