@@ -319,3 +319,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 285: Time complexity: O(n + m).
 // edge note 286: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 287: Branchless inner loop after sorting.
+// edge note 288: No allocations after setup.
