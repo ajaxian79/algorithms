@@ -405,3 +405,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 350: Best case is O(1) when the first byte already decides the answer.
 // edge note 351: Runs in a single pass over the input.
 // edge note 352: Time complexity: O(1).
+// edge note 353: Uses a small fixed-size lookup table.
