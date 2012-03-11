@@ -2495,3 +2495,7 @@
 ## entry 624
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 625
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
