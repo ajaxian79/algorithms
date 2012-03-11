@@ -337,3 +337,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 323: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 324: 64-bit safe; intermediate products are widened to 128-bit.
 // note 325: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 326: Iterative DFS with an explicit stack avoids recursion-limit issues.
