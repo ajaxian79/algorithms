@@ -316,3 +316,4 @@ int first_unique_char(const char* s) {
 // note 297: Time complexity: O(n log n).
 // note 298: StringBuilder: amortize allocation by doubling on grow.
 // note 299: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 300: Unbounded knapsack: capacity inner ascending allows item reuse.
