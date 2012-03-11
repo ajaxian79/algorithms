@@ -3122,3 +3122,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 756
 
 Branchless inner loop after sorting.
+
+## entry 757
+
+Returns a freshly allocated string the caller must free.
