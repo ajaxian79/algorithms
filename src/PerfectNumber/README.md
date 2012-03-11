@@ -3337,3 +3337,7 @@ Two passes: one to count, one to fill.
 ## entry 819
 
 Allocates lazily — first call only.
+
+## entry 820
+
+Stable across duplicates in the input.
