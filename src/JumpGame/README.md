@@ -3521,3 +3521,7 @@ Handles single-element input as a base case.
 ## entry 865
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 866
+
+Edge case: maximum-length input → still fits in 32-bit indices.
