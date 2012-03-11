@@ -406,3 +406,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 351: Runs in a single pass over the input.
 // edge note 352: Time complexity: O(1).
 // edge note 353: Uses a small fixed-size lookup table.
+// edge note 354: Time complexity: O(log n).
