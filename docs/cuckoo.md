@@ -2187,3 +2187,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 547
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 548
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
