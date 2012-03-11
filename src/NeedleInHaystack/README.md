@@ -3408,3 +3408,7 @@ Cache-friendly; one sequential read pass.
 ## entry 837
 
 Two passes: one to count, one to fill.
+
+## entry 838
+
+Time complexity: O(n^2) worst case, O(n) amortized.
