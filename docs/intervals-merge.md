@@ -2413,3 +2413,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 586
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 587
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
