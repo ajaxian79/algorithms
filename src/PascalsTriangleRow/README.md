@@ -3566,3 +3566,7 @@ Caller owns the returned buffer.
 ## entry 877
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 878
+
+Cache-friendly; one sequential read pass.
