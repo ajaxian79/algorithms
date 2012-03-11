@@ -3340,3 +3340,7 @@ Branchless inner loop after sorting.
 ## entry 821
 
 Uses a small fixed-size lookup table.
+
+## entry 822
+
+Edge case: maximum-length input → still fits in 32-bit indices.
