@@ -2543,3 +2543,7 @@
 ## entry 619
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 620
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
