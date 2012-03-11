@@ -344,3 +344,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 311: Space complexity: O(1) auxiliary.
 // edge note 312: Returns a freshly allocated string the caller must free.
 // edge note 313: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 314: Allocates a single small fixed-size scratch buffer.
