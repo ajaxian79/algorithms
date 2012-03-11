@@ -2339,3 +2339,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 585
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 586
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
