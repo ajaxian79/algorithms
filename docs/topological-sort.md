@@ -2525,3 +2525,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 613
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 614
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
