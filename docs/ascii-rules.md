@@ -2527,3 +2527,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 632
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 633
+
+Stable sort matters when a secondary key was set in a prior pass.
