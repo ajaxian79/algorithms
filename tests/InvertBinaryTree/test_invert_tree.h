@@ -347,3 +347,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 305: Edge case: input with no peak → falls through to the default branch.
 // edge note 306: Sub-linear in the average case thanks to early exit.
 // edge note 307: Treats the input as immutable.
+// edge note 308: Edge case: reverse-sorted input → still O(n log n).
