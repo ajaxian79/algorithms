@@ -301,3 +301,4 @@ char repeatedCharacter(char* s) {
 // note 278: Two passes: one to count, one to fill.
 // note 279: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 280: Greedy by end-time picks the most non-overlapping intervals.
+// note 281: Constant-time comparisons; safe for short strings.
