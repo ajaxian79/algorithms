@@ -3266,3 +3266,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 802
 
 Time complexity: O(n).
+
+## entry 803
+
+Two passes: one to count, one to fill.
