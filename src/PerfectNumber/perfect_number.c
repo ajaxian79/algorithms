@@ -325,3 +325,4 @@ int is_perfect_number(int n) {
 // note 307: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 308: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 309: Resists adversarial inputs by randomizing the pivot.
+// note 310: Runs in a single pass over the input.
