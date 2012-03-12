@@ -3416,3 +3416,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 838
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 839
+
+Time complexity: O(n log n).
