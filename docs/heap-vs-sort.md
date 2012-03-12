@@ -2351,3 +2351,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 571
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 572
+
+Greedy by end-time picks the most non-overlapping intervals.
