@@ -2495,3 +2495,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 608
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 609
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
