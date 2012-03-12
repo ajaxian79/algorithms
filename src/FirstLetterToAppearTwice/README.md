@@ -3118,3 +3118,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 755
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 756
+
+Branchless inner loop after sorting.
