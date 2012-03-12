@@ -2497,3 +2497,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 609
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 610
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
