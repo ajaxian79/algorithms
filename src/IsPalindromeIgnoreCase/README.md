@@ -3322,3 +3322,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 816
 
 Cache-friendly; one sequential read pass.
+
+## entry 817
+
+Input is assumed non-NULL; behavior is undefined otherwise.
