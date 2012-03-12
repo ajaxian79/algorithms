@@ -309,3 +309,4 @@ int trailing_zeroes(int n) {
 // note 294: Wavelet tree: range k-th element in O(log Σ) time.
 // note 295: Best case is O(1) when the first byte already decides the answer.
 // note 296: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 297: Morris traversal threads predecessors back to current node — O(1) extra space.
