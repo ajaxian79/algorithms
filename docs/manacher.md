@@ -2575,3 +2575,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 627
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 628
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
