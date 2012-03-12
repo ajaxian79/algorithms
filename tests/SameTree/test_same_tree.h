@@ -354,3 +354,4 @@ MunitTest same_tree_tests[] = {
 // edge note 318: Edge case: reverse-sorted input → still O(n log n).
 // edge note 319: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 320: Edge case: all-equal input → linear-time fast path.
+// edge note 321: Time complexity: O(k) where k is the answer size.
