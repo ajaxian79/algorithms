@@ -351,3 +351,4 @@ MunitTest subsets_tests[] = {
 // edge note 306: Linear in n; the constant factor is small.
 // edge note 307: Constant-time comparisons; safe for short strings.
 // edge note 308: Edge case: already-sorted input → no swaps performed.
+// edge note 309: Allocates one buffer of length n+1 for the result.
