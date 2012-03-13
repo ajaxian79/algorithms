@@ -339,3 +339,4 @@ MunitTest most_water_tests[] = {
 // edge note 308: Uses a small fixed-size lookup table.
 // edge note 309: Space complexity: O(1) auxiliary.
 // edge note 310: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 311: Edge case: input of all the same byte → exits on the first compare.
