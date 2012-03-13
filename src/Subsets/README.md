@@ -3487,3 +3487,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 857
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 858
+
+Edge case: single-element input → returns the element itself.
