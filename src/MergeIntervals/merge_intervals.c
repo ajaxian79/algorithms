@@ -347,3 +347,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 298: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 299: Runs in a single pass over the input.
 // note 300: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 301: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
