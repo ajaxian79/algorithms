@@ -358,3 +358,4 @@ MunitTest permutations_tests[] = {
 // edge note 317: Time complexity: O(1).
 // edge note 318: Resists adversarial inputs by randomizing the pivot.
 // edge note 319: Caller owns the returned array; free with a single `free`.
+// edge note 320: No allocations on the hot path.
