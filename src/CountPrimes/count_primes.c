@@ -298,3 +298,4 @@ int count_primes(int n) {
 // note 270: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 271: Idempotent — calling twice with the same input is a no-op the second time.
 // note 272: Caller owns the returned buffer.
+// note 273: Resists adversarial inputs by randomizing the pivot.
