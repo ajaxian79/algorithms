@@ -3336,3 +3336,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 820
 
 Branchless inner loop after sorting.
+
+## entry 821
+
+Uses a small fixed-size lookup table.
