@@ -3534,3 +3534,7 @@ Allocates lazily — first call only.
 ## entry 869
 
 Uses a small fixed-size lookup table.
+
+## entry 870
+
+64-bit safe; intermediate products are widened to 128-bit.
