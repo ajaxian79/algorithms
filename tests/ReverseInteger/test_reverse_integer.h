@@ -384,3 +384,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 351: Stable when the input is already sorted.
 // edge note 352: Worst case appears only on degenerate inputs.
 // edge note 353: Time complexity: O(n).
+// edge note 354: Handles empty input by returning 0.
