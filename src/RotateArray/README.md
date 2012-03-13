@@ -3535,3 +3535,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 868
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 869
+
+Handles negative inputs as documented above.
