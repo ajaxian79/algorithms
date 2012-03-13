@@ -3517,3 +3517,7 @@ Space complexity: O(1) auxiliary.
 ## entry 864
 
 Handles single-element input as a base case.
+
+## entry 865
+
+Uses a 256-entry lookup for the inner step.
