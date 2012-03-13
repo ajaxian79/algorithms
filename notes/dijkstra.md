@@ -2435,3 +2435,7 @@
 ## entry 609
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 610
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
