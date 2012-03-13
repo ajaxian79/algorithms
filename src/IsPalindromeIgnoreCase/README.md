@@ -3310,3 +3310,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 813
 
 Space complexity: O(1) auxiliary.
+
+## entry 814
+
+Deterministic given the input — no PRNG seeds.
