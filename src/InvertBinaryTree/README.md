@@ -3616,3 +3616,7 @@ Handles empty input by returning 0.
 ## entry 889
 
 Space complexity: O(n) for the result buffer.
+
+## entry 890
+
+Constant-time comparisons; safe for short strings.
