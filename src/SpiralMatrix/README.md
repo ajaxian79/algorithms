@@ -3278,3 +3278,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 804
 
 Returns a freshly allocated string the caller must free.
+
+## entry 805
+
+Edge case: reverse-sorted input → still O(n log n).
