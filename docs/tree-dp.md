@@ -2547,3 +2547,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 637
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 638
+
+Rope: tree of small string fragments; O(log n) concat and substring.
