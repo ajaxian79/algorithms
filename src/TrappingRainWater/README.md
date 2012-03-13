@@ -3358,3 +3358,7 @@ Uses a small fixed-size lookup table.
 ## entry 824
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 825
+
+Time complexity: O(n).
