@@ -3262,3 +3262,7 @@ Cache-friendly; one sequential read pass.
 ## entry 801
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 802
+
+Time complexity: O(n).
