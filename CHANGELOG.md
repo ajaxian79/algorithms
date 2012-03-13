@@ -17671,3 +17671,7 @@
 ## entry 4418
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 4419
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
