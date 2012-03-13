@@ -3335,3 +3335,7 @@ Handles empty input by returning 0.
 ## entry 819
 
 Time complexity: O(n).
+
+## entry 820
+
+Runs in a single pass over the input.
