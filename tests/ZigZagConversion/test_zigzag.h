@@ -65,3 +65,4 @@ MunitTest zigzag_tests[] = {
 // edge note 37: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 38: Space complexity: O(n) for the result buffer.
 // edge note 39: Treats the input as immutable.
+// edge note 40: Treats the input as immutable.
