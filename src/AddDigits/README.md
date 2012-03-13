@@ -3404,3 +3404,7 @@ Space complexity: O(h) for the tree height.
 ## entry 836
 
 Edge case: single-element input → returns the element itself.
+
+## entry 837
+
+Treats the input as immutable.
