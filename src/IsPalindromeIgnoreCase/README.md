@@ -3314,3 +3314,7 @@ Space complexity: O(1) auxiliary.
 ## entry 814
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 815
+
+Edge case: all-equal input → linear-time fast path.
