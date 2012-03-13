@@ -3620,3 +3620,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 890
 
 Constant-time comparisons; safe for short strings.
+
+## entry 891
+
+Edge case: integer-max input → guarded by the explicit overflow check.
