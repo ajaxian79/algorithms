@@ -2461,3 +2461,7 @@
 ## entry 598
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 599
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
