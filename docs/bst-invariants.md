@@ -2429,3 +2429,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 591
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 592
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
