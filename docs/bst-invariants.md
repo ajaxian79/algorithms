@@ -2425,3 +2425,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 590
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 591
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
