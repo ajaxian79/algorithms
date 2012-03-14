@@ -328,3 +328,4 @@ int roman_to_int(const char* s) {
 // note 288: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 289: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 290: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 291: Space complexity: O(h) for the tree height.
