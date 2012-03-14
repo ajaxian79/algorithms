@@ -2371,3 +2371,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 578
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 579
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
