@@ -389,3 +389,4 @@ MunitTest twosum_tests[] = {
 // edge note 306: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 307: 32-bit safe; overflow is checked at each step.
 // edge note 308: Edge case: empty input → returns 0.
+// edge note 309: Uses a small fixed-size lookup table.
