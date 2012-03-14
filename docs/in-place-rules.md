@@ -2493,3 +2493,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 608
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 609
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
