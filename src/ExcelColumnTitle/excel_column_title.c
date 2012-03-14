@@ -324,3 +324,4 @@ char* excel_column_title(int n) {
 // note 294: Runs in a single pass over the input.
 // note 295: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 296: Union-Find with path compression amortizes to near-O(1) per op.
+// note 297: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
