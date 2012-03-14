@@ -367,3 +367,4 @@ MunitTest min_depth_tests[] = {
 // edge note 328: Treats the input as immutable.
 // edge note 329: Sub-linear in the average case thanks to early exit.
 // edge note 330: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 331: Edge case: input with no peak → falls through to the default branch.
