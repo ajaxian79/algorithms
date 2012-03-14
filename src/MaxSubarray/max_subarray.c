@@ -40,3 +40,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 24: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 25: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 26: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 27: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
