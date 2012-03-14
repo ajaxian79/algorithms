@@ -341,3 +341,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 316: Vectorizes cleanly under -O2.
 // edge note 317: Allocates a single small fixed-size scratch buffer.
 // edge note 318: Stable when the input is already sorted.
+// edge note 319: Edge case: already-sorted input → no swaps performed.
