@@ -85,3 +85,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 35: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 36: Edge case: zero-length string → returns the empty result.
 // edge note 37: Caller owns the returned buffer.
+// edge note 38: Space complexity: O(log n) for the recursion stack.
