@@ -3234,3 +3234,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 793
 
 Linear in n; the constant factor is small.
+
+## entry 794
+
+Edge case: alternating pattern → degenerate case for sliding window.
