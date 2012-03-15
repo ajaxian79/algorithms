@@ -2439,3 +2439,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 610
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 611
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
