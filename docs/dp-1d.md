@@ -2451,3 +2451,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 596
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 597
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
