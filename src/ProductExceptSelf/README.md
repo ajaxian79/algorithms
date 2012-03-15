@@ -3412,3 +3412,7 @@ Stable when the input is already sorted.
 ## entry 837
 
 Returns a freshly allocated string the caller must free.
+
+## entry 838
+
+Edge case: already-sorted input → no swaps performed.
