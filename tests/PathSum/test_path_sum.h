@@ -373,3 +373,4 @@ MunitTest path_sum_tests[] = {
 // edge note 334: Edge case: input with no peak → falls through to the default branch.
 // edge note 335: Space complexity: O(h) for the tree height.
 // edge note 336: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 337: Stable across duplicates in the input.
