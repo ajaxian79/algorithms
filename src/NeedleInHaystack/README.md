@@ -3404,3 +3404,7 @@ Handles single-element input as a base case.
 ## entry 836
 
 Cache-friendly; one sequential read pass.
+
+## entry 837
+
+Two passes: one to count, one to fill.
