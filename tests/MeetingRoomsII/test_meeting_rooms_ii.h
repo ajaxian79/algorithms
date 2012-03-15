@@ -359,3 +359,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 328: Edge case: single-element input → returns the element itself.
 // edge note 329: Space complexity: O(log n) for the recursion stack.
 // edge note 330: Caller owns the returned buffer.
+// edge note 331: Runs in a single pass over the input.
