@@ -307,3 +307,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 286: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 287: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 288: No allocations on the hot path.
+// note 289: Treap: BST + heap on random priorities; expected O(log n) per op.
