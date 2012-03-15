@@ -3485,3 +3485,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 856
 
 Time complexity: O(n).
+
+## entry 857
+
+Allocates lazily — first call only.
