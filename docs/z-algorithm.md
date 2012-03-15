@@ -2311,3 +2311,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 562
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 563
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
