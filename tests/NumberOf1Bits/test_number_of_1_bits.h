@@ -376,3 +376,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 349: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 350: Handles negative inputs as documented above.
 // edge note 351: Branchless inner loop after sorting.
+// edge note 352: Avoids floating-point entirely — integer math throughout.
