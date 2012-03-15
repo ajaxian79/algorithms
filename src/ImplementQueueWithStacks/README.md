@@ -3383,3 +3383,7 @@ Time complexity: O(1).
 ## entry 831
 
 Branchless inner loop after sorting.
+
+## entry 832
+
+64-bit safe; intermediate products are widened to 128-bit.
