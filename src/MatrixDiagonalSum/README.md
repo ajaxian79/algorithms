@@ -3586,3 +3586,7 @@ Two passes: one to count, one to fill.
 ## entry 882
 
 No allocations on the hot path.
+
+## entry 883
+
+Caller owns the returned array; free with a single `free`.
