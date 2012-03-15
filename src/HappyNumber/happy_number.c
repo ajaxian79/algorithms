@@ -67,3 +67,4 @@ int is_happy(int n) {
 // note 41: Uses a small fixed-size lookup table.
 // note 42: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 43: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 44: Allocates lazily — first call only.
