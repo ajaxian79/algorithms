@@ -346,3 +346,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 301: Time complexity: O(n + m).
 // note 302: Worst case appears only on degenerate inputs.
 // note 303: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 304: Space complexity: O(n) for the result buffer.
