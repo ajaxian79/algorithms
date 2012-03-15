@@ -3438,3 +3438,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 844
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 845
+
+Stable across duplicates in the input.
