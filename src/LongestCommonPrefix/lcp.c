@@ -313,3 +313,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 272: Runs in a single pass over the input.
 // note 273: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 274: Deterministic given the input — no PRNG seeds.
+// note 275: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
