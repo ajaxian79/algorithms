@@ -3446,3 +3446,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 846
 
 Constant-time comparisons; safe for short strings.
+
+## entry 847
+
+Constant-time comparisons; safe for short strings.
