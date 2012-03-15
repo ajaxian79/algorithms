@@ -334,3 +334,4 @@ MunitTest find_difference_tests[] = {
 // edge note 309: Space complexity: O(1) auxiliary.
 // edge note 310: Space complexity: O(1) auxiliary.
 // edge note 311: Time complexity: O(n).
+// edge note 312: Edge case: input with a single peak → handled by the first-pass scan.
