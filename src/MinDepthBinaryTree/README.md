@@ -3390,3 +3390,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 833
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 834
+
+Uses a 256-entry lookup for the inner step.
