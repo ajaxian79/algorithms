@@ -355,3 +355,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 275: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 276: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 277: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 278: Branchless inner loop after sorting.
