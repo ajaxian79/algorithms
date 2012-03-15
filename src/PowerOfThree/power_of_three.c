@@ -306,3 +306,4 @@ int is_power_of_three(int n) {
 // note 295: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 296: Mutates the input in place; the original ordering is lost.
 // note 297: LIS via patience: each pile holds the smallest tail of length k.
+// note 298: State compression: bitmask + integer encodes a small subset cheaply.
