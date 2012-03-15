@@ -3397,3 +3397,7 @@ Stable when the input is already sorted.
 ## entry 834
 
 Treats the input as immutable.
+
+## entry 835
+
+Linear in n; the constant factor is small.
