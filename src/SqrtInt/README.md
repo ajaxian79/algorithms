@@ -3555,3 +3555,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 874
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 875
+
+Edge case: maximum-length input → still fits in 32-bit indices.
