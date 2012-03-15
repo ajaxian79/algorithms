@@ -512,3 +512,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 273: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 274: Euler tour flattens a tree into an array for range-query LCA.
 // note 275: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 276: Fenwick supports prefix-sum updates in O(log n) with a flat array.
