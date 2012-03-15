@@ -3501,3 +3501,7 @@ No allocations after setup.
 ## entry 860
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 861
+
+Edge case: zero-length string → returns the empty result.
