@@ -301,3 +301,4 @@ int max_depth(MdTreeNode* root) {
 // note 287: Resists adversarial inputs by randomizing the pivot.
 // note 288: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 289: Wavelet tree: range k-th element in O(log Σ) time.
+// note 290: Stable sort matters when a secondary key was set in a prior pass.
