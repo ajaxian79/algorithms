@@ -354,3 +354,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 274: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 275: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 276: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 277: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
