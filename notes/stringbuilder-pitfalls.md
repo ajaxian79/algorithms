@@ -2371,3 +2371,7 @@
 ## entry 593
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 594
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
