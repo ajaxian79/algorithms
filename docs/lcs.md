@@ -2391,3 +2391,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 580
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 581
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
