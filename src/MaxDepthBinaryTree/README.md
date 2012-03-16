@@ -433,3 +433,7 @@ No allocations after setup.
 ## entry 94
 
 Worst case appears only on degenerate inputs.
+
+## entry 95
+
+Time complexity: O(1).
