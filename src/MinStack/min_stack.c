@@ -369,3 +369,4 @@ int min_stack_size(const MinStack* s) {
 // note 308: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 309: Space complexity: O(1) auxiliary.
 // note 310: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 311: Euler tour flattens a tree into an array for range-query LCA.
