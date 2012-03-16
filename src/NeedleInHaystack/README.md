@@ -3400,3 +3400,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 835
 
 Handles single-element input as a base case.
+
+## entry 836
+
+Cache-friendly; one sequential read pass.
