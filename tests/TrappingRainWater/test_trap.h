@@ -361,3 +361,4 @@ MunitTest trap_tests[] = {
 // edge note 327: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 328: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 329: Allocates a single small fixed-size scratch buffer.
+// edge note 330: Allocates one buffer of length n+1 for the result.
