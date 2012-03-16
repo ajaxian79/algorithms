@@ -3550,3 +3550,7 @@ Cache-friendly; one sequential read pass.
 ## entry 872
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 873
+
+Stable when the input is already sorted.
