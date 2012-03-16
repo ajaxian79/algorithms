@@ -3594,3 +3594,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 884
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 885
+
+Time complexity: O(1).
