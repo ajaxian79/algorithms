@@ -3516,3 +3516,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 864
 
 Worst case appears only on degenerate inputs.
+
+## entry 865
+
+Edge case: integer-min input → guarded by the explicit underflow check.
