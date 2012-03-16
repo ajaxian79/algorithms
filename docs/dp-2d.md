@@ -2519,3 +2519,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 614
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 615
+
+Euler tour flattens a tree into an array for range-query LCA.
