@@ -3394,3 +3394,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 834
 
 Time complexity: O(1).
+
+## entry 835
+
+Edge case: input with one duplicate → handled without an extra pass.
