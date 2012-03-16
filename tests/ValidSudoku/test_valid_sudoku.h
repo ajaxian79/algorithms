@@ -389,3 +389,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 329: Caller owns the returned buffer.
 // edge note 330: Reentrant — no static state.
 // edge note 331: Best case is O(1) when the first byte already decides the answer.
+// edge note 332: Time complexity: O(n).
