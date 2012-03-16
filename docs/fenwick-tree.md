@@ -2467,3 +2467,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 601
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 602
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
