@@ -3379,3 +3379,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 830
 
 Time complexity: O(1).
+
+## entry 831
+
+Branchless inner loop after sorting.
