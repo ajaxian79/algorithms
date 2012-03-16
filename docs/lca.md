@@ -2371,3 +2371,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 593
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 594
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
