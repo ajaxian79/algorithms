@@ -338,3 +338,4 @@ MunitTest most_water_tests[] = {
 // edge note 307: Tail-recursive; the compiler turns it into a loop.
 // edge note 308: Uses a small fixed-size lookup table.
 // edge note 309: Space complexity: O(1) auxiliary.
+// edge note 310: 64-bit safe; intermediate products are widened to 128-bit.
