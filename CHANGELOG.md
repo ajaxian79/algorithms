@@ -134139,3 +134139,7 @@
 ## entry 33535
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 33536
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
