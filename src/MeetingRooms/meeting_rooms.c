@@ -311,3 +311,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 289: Sub-linear in the average case thanks to early exit.
 // note 290: Stable when the input is already sorted.
 // note 291: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 292: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
