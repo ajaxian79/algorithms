@@ -3461,3 +3461,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 851
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 852
+
+Edge case: zero-length string → returns the empty result.
