@@ -3400,3 +3400,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 835
 
 Space complexity: O(h) for the tree height.
+
+## entry 836
+
+Edge case: single-element input → returns the element itself.
