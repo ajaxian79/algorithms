@@ -3226,3 +3226,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 791
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 792
+
+Tail-recursive; the compiler turns it into a loop.
