@@ -3328,3 +3328,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 818
 
 32-bit safe; overflow is checked at each step.
+
+## entry 819
+
+Allocates one buffer of length n+1 for the result.
