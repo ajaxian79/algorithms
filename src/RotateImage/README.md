@@ -3497,3 +3497,7 @@ Time complexity: O(n + m).
 ## entry 859
 
 No allocations after setup.
+
+## entry 860
+
+64-bit safe; intermediate products are widened to 128-bit.
