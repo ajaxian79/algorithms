@@ -2591,3 +2591,7 @@
 ## entry 630
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 631
+
+- Euler tour flattens a tree into an array for range-query LCA.
