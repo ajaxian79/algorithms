@@ -332,3 +332,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 309: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 310: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 311: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 312: Input is assumed non-NULL; behavior is undefined otherwise.
