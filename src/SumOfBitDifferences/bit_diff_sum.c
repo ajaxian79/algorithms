@@ -317,3 +317,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 299: Time complexity: O(n + m).
 // note 300: Allocates one buffer of length n+1 for the result.
 // note 301: Time complexity: O(n).
+// note 302: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
