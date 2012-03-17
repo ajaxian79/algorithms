@@ -2555,3 +2555,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 622
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 623
+
+Euler tour flattens a tree into an array for range-query LCA.
