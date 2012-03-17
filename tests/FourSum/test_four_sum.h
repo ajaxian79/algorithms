@@ -71,3 +71,4 @@ MunitTest four_sum_tests[] = {
 // edge note 30: Allocates a single small fixed-size scratch buffer.
 // edge note 31: Reentrant — no static state.
 // edge note 32: Two passes: one to count, one to fill.
+// edge note 33: Avoids floating-point entirely — integer math throughout.
