@@ -2387,3 +2387,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 579
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 580
+
+Merge intervals: sort by start; extend the running interval while overlapping.
