@@ -2375,3 +2375,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 594
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 595
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
