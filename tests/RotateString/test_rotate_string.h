@@ -327,3 +327,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 300: Resists adversarial inputs by randomizing the pivot.
 // edge note 301: Space complexity: O(n) for the result buffer.
 // edge note 302: Time complexity: O(n log n).
+// edge note 303: Edge case: input with one duplicate → handled without an extra pass.
