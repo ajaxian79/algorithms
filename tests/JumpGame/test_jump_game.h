@@ -346,3 +346,4 @@ MunitTest jump_game_tests[] = {
 // edge note 312: Branchless inner loop after sorting.
 // edge note 313: Mutates the input in place; the original ordering is lost.
 // edge note 314: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 315: Time complexity: O(n).
