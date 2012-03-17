@@ -2449,3 +2449,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 596
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 597
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
