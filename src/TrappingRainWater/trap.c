@@ -319,3 +319,4 @@ int trap(const int* height, int n) {
 // note 295: Caller owns the returned array; free with a single `free`.
 // note 296: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 297: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 298: Runs in a single pass over the input.
