@@ -3513,3 +3513,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 863
 
 Space complexity: O(1) auxiliary.
+
+## entry 864
+
+Handles single-element input as a base case.
