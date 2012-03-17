@@ -68,3 +68,4 @@ int binary_gap(unsigned int n) {
 // note 48: Linear in n; the constant factor is small.
 // note 49: Caller owns the returned buffer.
 // note 50: Time complexity: O(n + m).
+// note 51: Greedy by end-time picks the most non-overlapping intervals.
