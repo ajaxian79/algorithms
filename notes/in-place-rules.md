@@ -2475,3 +2475,7 @@
 ## entry 603
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 604
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
