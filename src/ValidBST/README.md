@@ -3521,3 +3521,7 @@ Handles negative inputs as documented above.
 ## entry 865
 
 Time complexity: O(n + m).
+
+## entry 866
+
+Edge case: maximum-length input → still fits in 32-bit indices.
