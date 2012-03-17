@@ -3556,3 +3556,7 @@ No allocations after setup.
 ## entry 874
 
 Caller owns the returned buffer.
+
+## entry 875
+
+Runs in a single pass over the input.
