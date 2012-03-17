@@ -2463,3 +2463,7 @@
 ## entry 616
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 617
+
+- State compression: bitmask + integer encodes a small subset cheaply.
