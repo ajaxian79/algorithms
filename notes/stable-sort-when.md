@@ -2395,3 +2395,7 @@
 ## entry 582
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 583
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
