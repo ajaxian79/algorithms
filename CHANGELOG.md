@@ -134083,3 +134083,7 @@
 ## entry 33521
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 33522
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
