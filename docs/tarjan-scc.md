@@ -355,3 +355,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 89
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 90
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
