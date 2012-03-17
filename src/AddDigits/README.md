@@ -560,3 +560,7 @@ Worst case appears only on degenerate inputs.
 ## entry 125
 
 Treats the input as immutable.
+
+## entry 126
+
+Uses a small fixed-size lookup table.
