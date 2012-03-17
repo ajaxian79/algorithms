@@ -311,3 +311,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 295: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 296: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 297: Worst case appears only on degenerate inputs.
+// note 298: Time complexity: O(k) where k is the answer size.
