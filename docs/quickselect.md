@@ -2609,3 +2609,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 635
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 636
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
