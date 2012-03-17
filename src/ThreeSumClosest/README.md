@@ -3178,3 +3178,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 780
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 781
+
+Best case is O(1) when the first byte already decides the answer.
