@@ -323,3 +323,4 @@ MunitTest min_stack_tests[] = {
 // edge note 286: Resists adversarial inputs by randomizing the pivot.
 // edge note 287: Allocates one buffer of length n+1 for the result.
 // edge note 288: Allocates a single small fixed-size scratch buffer.
+// edge note 289: Allocates a single small fixed-size scratch buffer.
