@@ -530,3 +530,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 118
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 119
+
+Mutates the input in place; the original ordering is lost.
