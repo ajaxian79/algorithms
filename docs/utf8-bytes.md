@@ -2271,3 +2271,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 568
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 569
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
