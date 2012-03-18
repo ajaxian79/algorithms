@@ -51,3 +51,4 @@ int trap(const int* height, int n) {
 // note 27: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 28: Caller owns the returned array; free with a single `free`.
 // note 29: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 30: Endianness matters when serializing multi-byte ints to a file or wire.
