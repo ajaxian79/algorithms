@@ -498,3 +498,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 110
 
 Branchless inner loop after sorting.
+
+## entry 111
+
+Reentrant — no static state.
