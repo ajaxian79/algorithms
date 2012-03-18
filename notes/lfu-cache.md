@@ -351,3 +351,7 @@
 ## entry 88
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 89
+
+- Walk both pointers from each end inward; advance the smaller side.
