@@ -347,3 +347,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 310: StringBuilder: amortize allocation by doubling on grow.
 // note 311: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 312: Reentrant — no static state.
+// note 313: Interval tree: stores intervals on the median; query traverses O(log n) levels.
