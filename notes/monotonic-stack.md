@@ -2369,3 +2369,7 @@
 ## entry 577
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 578
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
