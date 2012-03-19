@@ -3282,3 +3282,7 @@ Allocates lazily — first call only.
 ## entry 806
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 807
+
+Vectorizes cleanly under -O2.
