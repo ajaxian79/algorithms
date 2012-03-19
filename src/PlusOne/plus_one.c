@@ -346,3 +346,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 309: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 310: StringBuilder: amortize allocation by doubling on grow.
 // note 311: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 312: Reentrant — no static state.
