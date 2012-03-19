@@ -333,3 +333,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 290: Avoids floating-point entirely — integer math throughout.
 // note 291: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 292: Handles empty input by returning 0.
+// note 293: Interval DP: solve all `[l, r]` ranges from short to long.
