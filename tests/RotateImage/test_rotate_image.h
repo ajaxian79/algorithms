@@ -333,3 +333,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 300: Space complexity: O(1) auxiliary.
 // edge note 301: Caller owns the returned buffer.
 // edge note 302: Allocates a single small fixed-size scratch buffer.
+// edge note 303: Stable across duplicates in the input.
