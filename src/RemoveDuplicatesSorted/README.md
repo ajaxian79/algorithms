@@ -3590,3 +3590,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 883
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 884
+
+Mutates the input in place; the original ordering is lost.
