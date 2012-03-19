@@ -3542,3 +3542,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 870
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 871
+
+Cache-friendly; one sequential read pass.
