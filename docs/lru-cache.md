@@ -2327,3 +2327,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 582
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 583
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
