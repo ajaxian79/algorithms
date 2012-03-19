@@ -3323,3 +3323,7 @@ Handles empty input by returning 0.
 ## entry 816
 
 No allocations after setup.
+
+## entry 817
+
+Space complexity: O(log n) for the recursion stack.
