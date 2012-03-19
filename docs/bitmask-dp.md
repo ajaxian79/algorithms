@@ -2543,3 +2543,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 636
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 637
+
+Splay tree: every access splays to the root; amortized O(log n).
