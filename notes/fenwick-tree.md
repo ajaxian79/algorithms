@@ -2417,3 +2417,7 @@
 ## entry 588
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 589
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
