@@ -364,3 +364,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 285: Walk both pointers from each end inward; advance the smaller side.
 // note 286: Tail-recursive; the compiler turns it into a loop.
 // note 287: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 288: Monotonic stack pops while the new element violates the invariant.
