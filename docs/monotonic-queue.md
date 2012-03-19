@@ -2383,3 +2383,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 578
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 579
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
