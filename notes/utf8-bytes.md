@@ -2359,3 +2359,7 @@
 ## entry 590
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 591
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
