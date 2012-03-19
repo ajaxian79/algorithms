@@ -2421,3 +2421,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 589
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 590
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
