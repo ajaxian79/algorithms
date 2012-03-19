@@ -2271,3 +2271,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 568
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 569
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
