@@ -328,3 +328,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 297: Caller owns the returned buffer.
 // edge note 298: Thread-safe so long as the input is not mutated concurrently.
 // edge note 299: Edge case: input with no peak → falls through to the default branch.
+// edge note 300: Caller owns the returned buffer.
