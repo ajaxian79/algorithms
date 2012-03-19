@@ -3512,3 +3512,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 863
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 864
+
+Worst case appears only on degenerate inputs.
