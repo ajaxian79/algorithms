@@ -2421,3 +2421,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 589
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 590
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
