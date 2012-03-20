@@ -134047,3 +134047,7 @@
 ## entry 33512
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 33513
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
