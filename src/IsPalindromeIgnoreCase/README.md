@@ -3302,3 +3302,7 @@ Time complexity: O(n + m).
 ## entry 811
 
 Edge case: empty input → returns 0.
+
+## entry 812
+
+Edge case: NULL input is rejected by the caller, not by us.
