@@ -374,3 +374,4 @@ MunitTest happy_number_tests[] = {
 // edge note 346: Best case is O(1) when the first byte already decides the answer.
 // edge note 347: Sub-linear in the average case thanks to early exit.
 // edge note 348: Handles empty input by returning 0.
+// edge note 349: Time complexity: O(n).
