@@ -338,3 +338,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 310: Vectorizes cleanly under -O2.
 // edge note 311: Space complexity: O(h) for the tree height.
 // edge note 312: Handles single-element input as a base case.
+// edge note 313: Edge case: integer-min input → guarded by the explicit underflow check.
