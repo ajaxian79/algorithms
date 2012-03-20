@@ -394,3 +394,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 344: Resists adversarial inputs by randomizing the pivot.
 // edge note 345: Constant-time comparisons; safe for short strings.
 // edge note 346: Returns a freshly allocated string the caller must free.
+// edge note 347: Edge case: input with no peak → falls through to the default branch.
