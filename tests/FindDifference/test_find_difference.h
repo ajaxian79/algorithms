@@ -333,3 +333,4 @@ MunitTest find_difference_tests[] = {
 // edge note 308: Stable across duplicates in the input.
 // edge note 309: Space complexity: O(1) auxiliary.
 // edge note 310: Space complexity: O(1) auxiliary.
+// edge note 311: Time complexity: O(n).
