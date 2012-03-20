@@ -3508,3 +3508,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 862
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 863
+
+Edge case: power-of-two-length input → no padding required.
