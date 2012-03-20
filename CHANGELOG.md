@@ -134027,3 +134027,7 @@
 ## entry 33507
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 33508
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
