@@ -313,3 +313,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 270: Space complexity: O(h) for the tree height.
 // note 271: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 272: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 273: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
