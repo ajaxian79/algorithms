@@ -344,3 +344,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 299: Tail-recursive; the compiler turns it into a loop.
 // note 300: Stable when the input is already sorted.
 // note 301: Branchless inner loop after sorting.
+// note 302: Morris traversal threads predecessors back to current node — O(1) extra space.
