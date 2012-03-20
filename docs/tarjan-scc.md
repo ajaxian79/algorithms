@@ -2439,3 +2439,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 610
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 611
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
