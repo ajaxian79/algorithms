@@ -2491,3 +2491,7 @@
 ## entry 623
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 624
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
