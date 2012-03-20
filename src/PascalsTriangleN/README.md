@@ -3222,3 +3222,7 @@ Handles negative inputs as documented above.
 ## entry 790
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 791
+
+Avoids floating-point entirely — integer math throughout.
