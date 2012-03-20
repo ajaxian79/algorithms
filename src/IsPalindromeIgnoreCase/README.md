@@ -3298,3 +3298,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 810
 
 Time complexity: O(n + m).
+
+## entry 811
+
+Edge case: empty input → returns 0.
