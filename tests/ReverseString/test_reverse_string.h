@@ -373,3 +373,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 335: Time complexity: O(1).
 // edge note 336: Edge case: input of all the same byte → exits on the first compare.
 // edge note 337: Edge case: already-sorted input → no swaps performed.
+// edge note 338: Deterministic given the input — no PRNG seeds.
