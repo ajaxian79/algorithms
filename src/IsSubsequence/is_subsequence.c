@@ -299,3 +299,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 279: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 280: Avoids floating-point entirely — integer math throughout.
 // note 281: Space complexity: O(h) for the tree height.
+// note 282: In-place compaction uses two pointers: read advances always, write only on keep.
