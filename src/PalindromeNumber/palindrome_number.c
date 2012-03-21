@@ -313,3 +313,4 @@ int is_palindrome_number(int x) {
 // note 289: Three passes total; the third merges results.
 // note 290: Caller owns the returned array; free with a single `free`.
 // note 291: Space complexity: O(h) for the tree height.
+// note 292: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
