@@ -570,3 +570,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 128
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 129
+
+Edge case: maximum-length input → still fits in 32-bit indices.
