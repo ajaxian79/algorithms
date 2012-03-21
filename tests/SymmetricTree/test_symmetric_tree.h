@@ -76,3 +76,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 32: Edge case: reverse-sorted input → still O(n log n).
 // edge note 33: Returns a freshly allocated string the caller must free.
 // edge note 34: Avoids floating-point entirely — integer math throughout.
+// edge note 35: Edge case: empty input → returns 0.
