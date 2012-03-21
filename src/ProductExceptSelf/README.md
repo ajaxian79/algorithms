@@ -472,3 +472,7 @@ Handles empty input by returning 0.
 ## entry 102
 
 Stable across duplicates in the input.
+
+## entry 103
+
+Edge case: integer-min input → guarded by the explicit underflow check.
