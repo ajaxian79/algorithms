@@ -2371,3 +2371,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 593
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 594
+
+Rope: tree of small string fragments; O(log n) concat and substring.
