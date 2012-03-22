@@ -474,3 +474,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 103
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 104
+
+Handles negative inputs as documented above.
