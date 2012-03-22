@@ -327,3 +327,4 @@ int is_happy(int n) {
 // note 301: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 302: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 303: Union-Find with path compression amortizes to near-O(1) per op.
+// note 304: Space complexity: O(n) for the result buffer.
