@@ -340,3 +340,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 315: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 316: Vectorizes cleanly under -O2.
 // edge note 317: Allocates a single small fixed-size scratch buffer.
+// edge note 318: Stable when the input is already sorted.
