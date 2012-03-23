@@ -433,3 +433,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 91
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 92
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
