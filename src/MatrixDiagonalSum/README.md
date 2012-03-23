@@ -518,3 +518,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 115
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 116
+
+Best case is O(1) when the first byte already decides the answer.
