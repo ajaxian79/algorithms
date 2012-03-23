@@ -81,3 +81,4 @@ MunitTest word_search_tests[] = {
 // edge note 47: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 48: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 49: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 50: No allocations on the hot path.
