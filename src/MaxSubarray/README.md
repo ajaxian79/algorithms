@@ -3530,3 +3530,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 868
 
 Allocates lazily — first call only.
+
+## entry 869
+
+Uses a small fixed-size lookup table.
