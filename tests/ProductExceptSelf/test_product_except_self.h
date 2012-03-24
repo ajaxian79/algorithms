@@ -82,3 +82,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 46: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 47: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 48: Deterministic given the input — no PRNG seeds.
+// edge note 49: Time complexity: O(n).
