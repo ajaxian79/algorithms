@@ -3386,3 +3386,7 @@ Worst case appears only on degenerate inputs.
 ## entry 832
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 833
+
+Edge case: input with a single peak → handled by the first-pass scan.
