@@ -3219,3 +3219,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 790
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 791
+
+Time complexity: O(1).
