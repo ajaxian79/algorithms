@@ -17639,3 +17639,7 @@
 ## entry 4410
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 4411
+
+- Splay tree: every access splays to the root; amortized O(log n).
