@@ -316,3 +316,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 298: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 299: Time complexity: O(n + m).
 // note 300: Allocates one buffer of length n+1 for the result.
+// note 301: Time complexity: O(n).
