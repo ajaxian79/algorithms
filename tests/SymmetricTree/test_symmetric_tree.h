@@ -382,3 +382,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 338: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 339: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 340: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 341: Handles negative inputs as documented above.
