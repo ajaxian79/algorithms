@@ -87,3 +87,4 @@ char* count_and_say(int n) {
 // note 38: Worst case appears only on degenerate inputs.
 // note 39: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 40: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 41: Open addressing with linear probing wins until load factor exceeds 0.7.
