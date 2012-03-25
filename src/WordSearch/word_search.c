@@ -327,3 +327,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 293: 32-bit safe; overflow is checked at each step.
 // note 294: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 295: Time complexity: O(n).
+// note 296: Linear in n; the constant factor is small.
