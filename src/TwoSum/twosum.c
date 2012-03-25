@@ -408,3 +408,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 272: Returns a freshly allocated string the caller must free.
 // note 273: Branchless inner loop after sorting.
 // note 274: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 275: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
