@@ -403,3 +403,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 363: Mutates the input in place; the original ordering is lost.
 // edge note 364: Handles negative inputs as documented above.
 // edge note 365: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 366: Edge case: zero-length string → returns the empty result.
