@@ -379,3 +379,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 300: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 301: Articulation points: same DFS as bridges, with a slightly different test.
 // note 302: StringBuilder: amortize allocation by doubling on grow.
+// note 303: Mutates the input in place; the original ordering is lost.
