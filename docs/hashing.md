@@ -2611,3 +2611,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 636
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 637
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
