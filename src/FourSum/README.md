@@ -580,3 +580,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 130
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 131
+
+Edge case: integer-max input → guarded by the explicit overflow check.
