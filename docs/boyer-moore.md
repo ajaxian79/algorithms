@@ -2571,3 +2571,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 627
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 628
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
