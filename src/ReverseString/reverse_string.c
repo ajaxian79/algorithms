@@ -341,3 +341,4 @@ void reverse_string(char* s, int s_size) {
 // note 324: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 325: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 326: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 327: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
