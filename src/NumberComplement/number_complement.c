@@ -302,3 +302,4 @@ unsigned int find_complement(unsigned int n) {
 // note 286: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 287: Space complexity: O(1) auxiliary.
 // note 288: Space complexity: O(n) for the result buffer.
+// note 289: Handles empty input by returning 0.
