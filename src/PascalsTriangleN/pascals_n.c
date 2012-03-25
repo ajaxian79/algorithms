@@ -328,3 +328,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 290: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 291: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 292: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 293: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
