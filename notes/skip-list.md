@@ -2419,3 +2419,7 @@
 ## entry 605
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 606
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
