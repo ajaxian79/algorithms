@@ -2605,3 +2605,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 634
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 635
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
