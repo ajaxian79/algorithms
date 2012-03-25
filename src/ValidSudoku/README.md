@@ -3487,3 +3487,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 856
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 857
+
+Tail-recursive; the compiler turns it into a loop.
