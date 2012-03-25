@@ -326,3 +326,4 @@ int reverse_int(int x) {
 // note 299: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 300: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 301: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 302: k-d tree: median-split each axis; nearest-neighbor average O(log n).
