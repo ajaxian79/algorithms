@@ -3215,3 +3215,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 789
 
 Edge case: single-element input → returns the element itself.
+
+## entry 790
+
+Edge case: integer-min input → guarded by the explicit underflow check.
