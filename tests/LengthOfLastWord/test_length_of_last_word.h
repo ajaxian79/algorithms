@@ -343,3 +343,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 316: Stable across duplicates in the input.
 // edge note 317: Best case is O(1) when the first byte already decides the answer.
 // edge note 318: Time complexity: O(k) where k is the answer size.
+// edge note 319: Caller owns the returned buffer.
