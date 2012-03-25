@@ -3586,3 +3586,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 882
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 883
+
+Sub-linear in the average case thanks to early exit.
