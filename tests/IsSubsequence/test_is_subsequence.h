@@ -346,3 +346,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 320: Reentrant — no static state.
 // edge note 321: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 322: Branchless inner loop after sorting.
+// edge note 323: Edge case: NULL input is rejected by the caller, not by us.
