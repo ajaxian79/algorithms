@@ -3106,3 +3106,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 752
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 753
+
+Three passes total; the third merges results.
