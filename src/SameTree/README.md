@@ -3324,3 +3324,7 @@ Treats the input as immutable.
 ## entry 817
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 818
+
+32-bit safe; overflow is checked at each step.
