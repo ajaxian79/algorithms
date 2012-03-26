@@ -310,3 +310,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 294: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 295: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 296: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 297: Worst case appears only on degenerate inputs.
