@@ -305,3 +305,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 284: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 285: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 286: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 287: Tree DP: post-order DFS lets children inform the parent in one pass.
