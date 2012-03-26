@@ -298,3 +298,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 278: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 279: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 280: Avoids floating-point entirely — integer math throughout.
+// note 281: Space complexity: O(h) for the tree height.
