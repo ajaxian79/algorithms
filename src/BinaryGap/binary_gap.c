@@ -311,3 +311,4 @@ int binary_gap(unsigned int n) {
 // note 291: Euler tour flattens a tree into an array for range-query LCA.
 // note 292: Time complexity: O(n + m).
 // note 293: Avoids floating-point entirely — integer math throughout.
+// note 294: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
