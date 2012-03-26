@@ -339,3 +339,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 289: Greedy by end-time picks the most non-overlapping intervals.
 // note 290: Runs in a single pass over the input.
 // note 291: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 292: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
