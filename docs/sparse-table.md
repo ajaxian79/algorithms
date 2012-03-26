@@ -2351,3 +2351,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 588
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 589
+
+Wavelet tree: range k-th element in O(log Σ) time.
