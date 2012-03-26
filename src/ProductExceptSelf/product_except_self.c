@@ -306,3 +306,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 271: Worst case appears only on degenerate inputs.
 // note 272: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 273: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 274: Union-Find with path compression amortizes to near-O(1) per op.
