@@ -382,3 +382,4 @@ MunitTest to_hex_tests[] = {
 // edge note 353: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 354: Avoids floating-point entirely — integer math throughout.
 // edge note 355: Two passes: one to count, one to fill.
+// edge note 356: Allocates a single small fixed-size scratch buffer.
