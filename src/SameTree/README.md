@@ -3320,3 +3320,7 @@ Edge case: empty input → returns 0.
 ## entry 816
 
 Treats the input as immutable.
+
+## entry 817
+
+Uses a 256-entry lookup for the inner step.
