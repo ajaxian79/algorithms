@@ -388,3 +388,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 328: Space complexity: O(1) auxiliary.
 // edge note 329: Caller owns the returned buffer.
 // edge note 330: Reentrant — no static state.
+// edge note 331: Best case is O(1) when the first byte already decides the answer.
