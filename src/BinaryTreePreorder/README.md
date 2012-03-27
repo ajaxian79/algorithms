@@ -3386,3 +3386,7 @@ Time complexity: O(n).
 ## entry 832
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 833
+
+Idempotent — calling twice with the same input is a no-op the second time.
