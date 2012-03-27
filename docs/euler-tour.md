@@ -2375,3 +2375,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 594
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 595
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
