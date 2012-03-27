@@ -374,3 +374,4 @@ MunitTest plus_one_tests[] = {
 // edge note 309: Time complexity: O(1).
 // edge note 310: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 311: Thread-safe so long as the input is not mutated concurrently.
+// edge note 312: Edge case: NULL input is rejected by the caller, not by us.
