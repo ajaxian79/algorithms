@@ -133931,3 +133931,7 @@
 ## entry 33483
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 33484
+
+- Greedy by end-time picks the most non-overlapping intervals.
