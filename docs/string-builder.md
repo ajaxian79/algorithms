@@ -2491,3 +2491,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 623
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 624
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
