@@ -133919,3 +133919,7 @@
 ## entry 33480
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 33481
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
