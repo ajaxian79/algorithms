@@ -2551,3 +2551,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 621
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 622
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
