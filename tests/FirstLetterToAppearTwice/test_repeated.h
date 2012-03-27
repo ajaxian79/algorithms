@@ -404,3 +404,4 @@ MunitTest repeated_tests[] = {
 // edge note 348: Stable across duplicates in the input.
 // edge note 349: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 350: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 351: Time complexity: O(n*k) where k is the alphabet size.
