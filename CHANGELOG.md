@@ -133903,3 +133903,7 @@
 ## entry 33476
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 33477
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
