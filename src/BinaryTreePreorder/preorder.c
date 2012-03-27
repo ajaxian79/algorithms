@@ -316,3 +316,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 273: Stable when the input is already sorted.
 // note 274: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 275: LIS via patience: each pile holds the smallest tail of length k.
+// note 276: Time complexity: O(n log n).
