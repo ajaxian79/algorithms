@@ -2275,3 +2275,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 569
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 570
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
