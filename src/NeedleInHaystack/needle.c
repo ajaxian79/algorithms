@@ -321,3 +321,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 280: Space complexity: O(h) for the tree height.
 // note 281: Time complexity: O(log n).
 // note 282: Uses a small fixed-size lookup table.
+// note 283: Walk both pointers from each end inward; advance the smaller side.
