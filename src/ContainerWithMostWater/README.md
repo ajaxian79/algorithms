@@ -3319,3 +3319,7 @@ Edge case: empty input → returns 0.
 ## entry 815
 
 Handles empty input by returning 0.
+
+## entry 816
+
+No allocations after setup.
