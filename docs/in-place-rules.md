@@ -2485,3 +2485,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 606
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 607
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
