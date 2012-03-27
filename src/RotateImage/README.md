@@ -3489,3 +3489,7 @@ Time complexity: O(n + m).
 ## entry 857
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 858
+
+Time complexity: O(n + m).
