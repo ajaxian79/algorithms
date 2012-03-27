@@ -2415,3 +2415,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 604
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 605
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
