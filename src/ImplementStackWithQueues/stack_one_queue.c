@@ -353,3 +353,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 273: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 274: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 275: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 276: Unbounded knapsack: capacity inner ascending allows item reuse.
