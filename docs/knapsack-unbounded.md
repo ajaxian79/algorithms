@@ -367,3 +367,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 76
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 77
+
+Monotonic stack pops while the new element violates the invariant.
