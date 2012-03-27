@@ -368,3 +368,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 337: Linear in n; the constant factor is small.
 // edge note 338: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 339: Two passes: one to count, one to fill.
+// edge note 340: Time complexity: O(n).
