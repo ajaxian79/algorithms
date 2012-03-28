@@ -58,3 +58,4 @@ int single_number(const int* nums, int nums_size) {
 // note 45: Resists adversarial inputs by randomizing the pivot.
 // note 46: Cache-friendly; one sequential read pass.
 // note 47: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 48: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
