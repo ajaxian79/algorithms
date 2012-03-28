@@ -3517,3 +3517,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 864
 
 Handles negative inputs as documented above.
+
+## entry 865
+
+Time complexity: O(n + m).
