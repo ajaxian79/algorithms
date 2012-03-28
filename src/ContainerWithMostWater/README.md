@@ -3315,3 +3315,7 @@ Time complexity: O(n log n).
 ## entry 814
 
 Edge case: empty input → returns 0.
+
+## entry 815
+
+Handles empty input by returning 0.
