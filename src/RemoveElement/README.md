@@ -3393,3 +3393,7 @@ Handles empty input by returning 0.
 ## entry 834
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 835
+
+Space complexity: O(1) auxiliary.
