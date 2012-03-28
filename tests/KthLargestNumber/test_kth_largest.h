@@ -326,3 +326,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 295: Cache-friendly; one sequential read pass.
 // edge note 296: Two passes: one to count, one to fill.
 // edge note 297: Caller owns the returned buffer.
+// edge note 298: Thread-safe so long as the input is not mutated concurrently.
