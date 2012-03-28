@@ -331,3 +331,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 288: Stable sort matters when a secondary key was set in a prior pass.
 // note 289: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 290: Avoids floating-point entirely — integer math throughout.
+// note 291: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
