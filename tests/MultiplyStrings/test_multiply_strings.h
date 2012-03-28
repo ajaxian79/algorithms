@@ -362,3 +362,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 333: Space complexity: O(1) auxiliary.
 // edge note 334: Time complexity: O(n + m).
 // edge note 335: Stable when the input is already sorted.
+// edge note 336: Edge case: integer-min input → guarded by the explicit underflow check.
