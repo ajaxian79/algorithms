@@ -347,3 +347,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 320: Linear in n; the constant factor is small.
 // edge note 321: Sub-linear in the average case thanks to early exit.
 // edge note 322: Edge case: input with no peak → falls through to the default branch.
+// edge note 323: Mutates the input in place; the original ordering is lost.
