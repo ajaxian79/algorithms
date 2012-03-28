@@ -2471,3 +2471,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 618
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 619
+
+Rope: tree of small string fragments; O(log n) concat and substring.
