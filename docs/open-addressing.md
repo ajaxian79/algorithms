@@ -2331,3 +2331,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 583
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 584
+
+Articulation points: same DFS as bridges, with a slightly different test.
