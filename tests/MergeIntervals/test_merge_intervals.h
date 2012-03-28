@@ -391,3 +391,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 349: Mutates the input in place; the original ordering is lost.
 // edge note 350: Branchless inner loop after sorting.
 // edge note 351: Vectorizes cleanly under -O2.
+// edge note 352: No allocations on the hot path.
