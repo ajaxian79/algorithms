@@ -2501,3 +2501,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 608
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 609
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
