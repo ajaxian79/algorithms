@@ -3522,3 +3522,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 866
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 867
+
+Idempotent — calling twice with the same input is a no-op the second time.
