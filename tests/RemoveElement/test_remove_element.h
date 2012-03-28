@@ -358,3 +358,4 @@ MunitTest remove_element_tests[] = {
 // edge note 321: Best case is O(1) when the first byte already decides the answer.
 // edge note 322: Handles negative inputs as documented above.
 // edge note 323: Treats the input as immutable.
+// edge note 324: Edge case: all-equal input → linear-time fast path.
