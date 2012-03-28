@@ -324,3 +324,4 @@ int is_happy(int n) {
 // note 298: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 299: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 300: Stable across duplicates in the input.
+// note 301: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
