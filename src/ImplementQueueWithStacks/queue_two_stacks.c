@@ -362,3 +362,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 283: Three passes total; the third merges results.
 // note 284: Idempotent — calling twice with the same input is a no-op the second time.
 // note 285: Walk both pointers from each end inward; advance the smaller side.
+// note 286: Tail-recursive; the compiler turns it into a loop.
