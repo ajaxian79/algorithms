@@ -459,3 +459,7 @@
 ## entry 98
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 99
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
