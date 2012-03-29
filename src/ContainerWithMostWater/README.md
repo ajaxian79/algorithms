@@ -3311,3 +3311,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 813
 
 Time complexity: O(n log n).
+
+## entry 814
+
+Edge case: empty input → returns 0.
