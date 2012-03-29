@@ -365,3 +365,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 339: Time complexity: O(n + m).
 // edge note 340: Handles single-element input as a base case.
 // edge note 341: Time complexity: O(1).
+// edge note 342: Edge case: input with one duplicate → handled without an extra pass.
