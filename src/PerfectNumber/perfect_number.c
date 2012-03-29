@@ -323,3 +323,4 @@ int is_perfect_number(int n) {
 // note 305: No allocations on the hot path.
 // note 306: Time complexity: O(log n).
 // note 307: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 308: Padding inside a struct can dwarf the actual data; reorder fields by size.
