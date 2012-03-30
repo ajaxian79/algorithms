@@ -2267,3 +2267,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 567
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 568
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
