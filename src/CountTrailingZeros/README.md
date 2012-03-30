@@ -3442,3 +3442,7 @@ No allocations after setup.
 ## entry 845
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 846
+
+No allocations on the hot path.
