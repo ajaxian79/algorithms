@@ -3342,3 +3342,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 821
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 822
+
+Edge case: single-element input → returns the element itself.
