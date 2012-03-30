@@ -2303,3 +2303,7 @@
 ## entry 576
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 577
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
