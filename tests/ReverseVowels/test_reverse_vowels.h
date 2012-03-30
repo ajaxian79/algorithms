@@ -380,3 +380,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 341: Edge case: already-sorted input → no swaps performed.
 // edge note 342: Time complexity: O(log n).
 // edge note 343: Edge case: zero-length string → returns the empty result.
+// edge note 344: Avoids floating-point entirely — integer math throughout.
