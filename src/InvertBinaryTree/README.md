@@ -3608,3 +3608,7 @@ Vectorizes cleanly under -O2.
 ## entry 887
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 888
+
+Handles empty input by returning 0.
