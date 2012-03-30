@@ -133851,3 +133851,7 @@
 ## entry 33463
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 33464
+
+- LIS via patience: each pile holds the smallest tail of length k.
