@@ -2383,3 +2383,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 596
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 597
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
