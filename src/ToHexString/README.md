@@ -3211,3 +3211,7 @@ Reentrant — no static state.
 ## entry 788
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 789
+
+Edge case: single-element input → returns the element itself.
