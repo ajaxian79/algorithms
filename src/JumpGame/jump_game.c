@@ -309,3 +309,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 293: Tail-recursive; the compiler turns it into a loop.
 // note 294: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 295: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 296: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
