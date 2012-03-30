@@ -3389,3 +3389,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 833
 
 Handles empty input by returning 0.
+
+## entry 834
+
+Edge case: integer-min input → guarded by the explicit underflow check.
