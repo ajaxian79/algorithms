@@ -3518,3 +3518,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 865
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 866
+
+Resists adversarial inputs by randomizing the pivot.
