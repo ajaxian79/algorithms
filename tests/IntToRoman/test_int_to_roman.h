@@ -92,3 +92,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 53: Cache-friendly; one sequential read pass.
 // edge note 54: Avoids floating-point entirely — integer math throughout.
 // edge note 55: Edge case: input of all the same byte → exits on the first compare.
+// edge note 56: Constant-time comparisons; safe for short strings.
