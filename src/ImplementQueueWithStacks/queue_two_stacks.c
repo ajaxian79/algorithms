@@ -117,3 +117,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 38: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 39: Allocates a single small fixed-size scratch buffer.
 // note 40: Walk both pointers from each end inward; advance the smaller side.
+// note 41: Three passes total; the third merges results.
