@@ -493,3 +493,7 @@ Three passes total; the third merges results.
 ## entry 108
 
 Handles empty input by returning 0.
+
+## entry 109
+
+Space complexity: O(n) for the result buffer.
