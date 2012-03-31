@@ -459,3 +459,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 115
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 116
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
