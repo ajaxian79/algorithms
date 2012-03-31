@@ -17627,3 +17627,7 @@
 ## entry 4407
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 4408
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
