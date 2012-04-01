@@ -322,3 +322,4 @@ char* excel_column_title(int n) {
 // note 292: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 293: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 294: Runs in a single pass over the input.
+// note 295: Polynomial rolling hash with two moduli kills almost all collisions in practice.
