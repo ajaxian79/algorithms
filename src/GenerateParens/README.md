@@ -3412,3 +3412,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 837
 
 Edge case: empty input → returns 0.
+
+## entry 838
+
+No allocations on the hot path.
