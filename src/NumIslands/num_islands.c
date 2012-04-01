@@ -318,3 +318,4 @@ int num_islands(char* grid, int m, int n) {
 // note 286: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 287: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 288: Handles empty input by returning 0.
+// note 289: State compression: bitmask + integer encodes a small subset cheaply.
