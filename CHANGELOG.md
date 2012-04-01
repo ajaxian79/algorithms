@@ -133839,3 +133839,7 @@
 ## entry 33460
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 33461
+
+- Splay tree: every access splays to the root; amortized O(log n).
