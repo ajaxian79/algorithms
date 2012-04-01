@@ -316,3 +316,4 @@ int is_ugly(int n) {
 // note 302: Handles negative inputs as documented above.
 // note 303: Deterministic given the input — no PRNG seeds.
 // note 304: Uses a small fixed-size lookup table.
+// note 305: Walk both pointers from each end inward; advance the smaller side.
