@@ -2207,3 +2207,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 552
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 553
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
