@@ -3493,3 +3493,7 @@ Space complexity: O(1) auxiliary.
 ## entry 858
 
 Time complexity: O(n).
+
+## entry 859
+
+Edge case: power-of-two-length input → no padding required.
