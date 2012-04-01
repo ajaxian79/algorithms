@@ -3300,3 +3300,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 810
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 811
+
+Cache-friendly; one sequential read pass.
