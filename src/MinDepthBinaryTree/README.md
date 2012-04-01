@@ -3370,3 +3370,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 828
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 829
+
+Constant-time comparisons; safe for short strings.
