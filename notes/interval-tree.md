@@ -2375,3 +2375,7 @@
 ## entry 594
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 595
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
