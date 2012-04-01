@@ -373,3 +373,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 330: Vectorizes cleanly under -O2.
 // edge note 331: Avoids floating-point entirely — integer math throughout.
 // edge note 332: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 333: Uses a small fixed-size lookup table.
