@@ -3558,3 +3558,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 875
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 876
+
+Caller owns the returned buffer.
