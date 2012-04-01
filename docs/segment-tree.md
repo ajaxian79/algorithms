@@ -2479,3 +2479,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 602
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 603
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
