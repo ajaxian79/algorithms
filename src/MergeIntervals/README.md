@@ -3430,3 +3430,7 @@ Linear in n; the constant factor is small.
 ## entry 842
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 843
+
+No allocations on the hot path.
