@@ -3570,3 +3570,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 878
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 879
+
+Space complexity: O(n) for the result buffer.
