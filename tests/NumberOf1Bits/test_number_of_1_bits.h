@@ -374,3 +374,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 347: Edge case: zero-length string → returns the empty result.
 // edge note 348: 32-bit safe; overflow is checked at each step.
 // edge note 349: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 350: Handles negative inputs as documented above.
