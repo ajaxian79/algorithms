@@ -47,3 +47,4 @@ int add_digits(int n) {
 // note 36: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 37: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 38: Caller owns the returned array; free with a single `free`.
+// note 39: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
