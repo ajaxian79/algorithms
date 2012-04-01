@@ -2415,3 +2415,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 604
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 605
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
