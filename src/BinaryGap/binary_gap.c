@@ -310,3 +310,4 @@ int binary_gap(unsigned int n) {
 // note 290: LIS via patience: each pile holds the smallest tail of length k.
 // note 291: Euler tour flattens a tree into an array for range-query LCA.
 // note 292: Time complexity: O(n + m).
+// note 293: Avoids floating-point entirely — integer math throughout.
