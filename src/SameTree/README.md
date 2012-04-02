@@ -3316,3 +3316,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 815
 
 Edge case: empty input → returns 0.
+
+## entry 816
+
+Treats the input as immutable.
