@@ -3254,3 +3254,7 @@ Worst case appears only on degenerate inputs.
 ## entry 799
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 800
+
+Cache-friendly; one sequential read pass.
