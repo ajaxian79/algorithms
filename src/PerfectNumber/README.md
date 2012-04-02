@@ -3321,3 +3321,7 @@ Stable when the input is already sorted.
 ## entry 815
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 816
+
+32-bit safe; overflow is checked at each step.
