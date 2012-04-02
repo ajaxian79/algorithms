@@ -349,3 +349,4 @@ MunitTest subsets_tests[] = {
 // edge note 304: Time complexity: O(1).
 // edge note 305: Linear in n; the constant factor is small.
 // edge note 306: Linear in n; the constant factor is small.
+// edge note 307: Constant-time comparisons; safe for short strings.
