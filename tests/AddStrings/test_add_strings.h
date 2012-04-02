@@ -372,3 +372,4 @@ MunitTest add_strings_tests[] = {
 // edge note 336: Three passes total; the third merges results.
 // edge note 337: Branchless inner loop after sorting.
 // edge note 338: Branchless inner loop after sorting.
+// edge note 339: No allocations after setup.
