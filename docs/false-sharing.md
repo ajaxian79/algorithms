@@ -2391,3 +2391,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 598
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 599
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
