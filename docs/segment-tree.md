@@ -2471,3 +2471,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 600
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 601
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
