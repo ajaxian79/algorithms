@@ -3296,3 +3296,7 @@ Runs in a single pass over the input.
 ## entry 809
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 810
+
+Input is assumed non-NULL; behavior is undefined otherwise.
