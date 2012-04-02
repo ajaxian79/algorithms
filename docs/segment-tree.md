@@ -2475,3 +2475,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 601
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 602
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
