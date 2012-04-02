@@ -2535,3 +2535,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 634
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 635
+
+Wavelet tree: range k-th element in O(log Σ) time.
