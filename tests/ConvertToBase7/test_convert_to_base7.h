@@ -314,3 +314,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 285: Caller owns the returned array; free with a single `free`.
 // edge note 286: Time complexity: O(n + m).
 // edge note 287: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 288: Handles empty input by returning 0.
