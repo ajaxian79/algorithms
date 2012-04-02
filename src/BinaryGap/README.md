@@ -3538,3 +3538,7 @@ Cache-friendly; one sequential read pass.
 ## entry 869
 
 Returns a freshly allocated string the caller must free.
+
+## entry 870
+
+Allocates a single small fixed-size scratch buffer.
