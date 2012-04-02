@@ -2499,3 +2499,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 625
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 626
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
