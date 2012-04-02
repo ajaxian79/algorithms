@@ -382,3 +382,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 349: Space complexity: O(h) for the tree height.
 // edge note 350: No allocations on the hot path.
 // edge note 351: Stable when the input is already sorted.
+// edge note 352: Worst case appears only on degenerate inputs.
