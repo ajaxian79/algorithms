@@ -3392,3 +3392,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 833
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 834
+
+32-bit safe; overflow is checked at each step.
