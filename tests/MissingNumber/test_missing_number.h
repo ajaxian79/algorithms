@@ -353,3 +353,4 @@ MunitTest missing_number_tests[] = {
 // edge note 319: Caller owns the returned buffer.
 // edge note 320: Two passes: one to count, one to fill.
 // edge note 321: Thread-safe so long as the input is not mutated concurrently.
+// edge note 322: Edge case: all-equal input → linear-time fast path.
