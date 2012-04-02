@@ -345,3 +345,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 299: 64-bit safe; intermediate products are widened to 128-bit.
 // note 300: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 301: Walk both pointers from each end inward; advance the smaller side.
+// note 302: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
