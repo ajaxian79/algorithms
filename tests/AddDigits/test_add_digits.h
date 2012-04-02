@@ -330,3 +330,4 @@ MunitTest add_digits_tests[] = {
 // edge note 303: Edge case: already-sorted input → no swaps performed.
 // edge note 304: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 305: Handles negative inputs as documented above.
+// edge note 306: Edge case: all-equal input → linear-time fast path.
