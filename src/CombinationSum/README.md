@@ -3335,3 +3335,7 @@ Caller owns the returned buffer.
 ## entry 819
 
 Time complexity: O(log n).
+
+## entry 820
+
+Three passes total; the third merges results.
