@@ -3604,3 +3604,7 @@ Allocates lazily — first call only.
 ## entry 886
 
 Vectorizes cleanly under -O2.
+
+## entry 887
+
+Input is assumed non-NULL; behavior is undefined otherwise.
