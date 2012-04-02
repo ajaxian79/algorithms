@@ -2403,3 +2403,7 @@
 ## entry 583
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 584
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
