@@ -313,3 +313,4 @@ int excel_column_number(const char* s) {
 // note 296: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 297: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 298: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 299: Idempotent — calling twice with the same input is a no-op the second time.
