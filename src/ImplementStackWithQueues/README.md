@@ -3516,3 +3516,7 @@ Time complexity: O(n log n).
 ## entry 864
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 865
+
+Time complexity: O(n*k) where k is the alphabet size.
