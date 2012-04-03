@@ -553,3 +553,7 @@ Handles empty input by returning 0.
 ## entry 124
 
 Handles single-element input as a base case.
+
+## entry 125
+
+Edge case: integer-max input → guarded by the explicit overflow check.
