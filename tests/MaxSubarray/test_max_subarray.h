@@ -60,3 +60,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 26: Mutates the input in place; the original ordering is lost.
 // edge note 27: Time complexity: O(k) where k is the answer size.
 // edge note 28: Runs in a single pass over the input.
+// edge note 29: Edge case: input with no peak → falls through to the default branch.
