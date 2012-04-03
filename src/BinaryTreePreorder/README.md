@@ -566,3 +566,7 @@ Time complexity: O(1).
 ## entry 127
 
 Uses a small fixed-size lookup table.
+
+## entry 128
+
+Uses a small fixed-size lookup table.
