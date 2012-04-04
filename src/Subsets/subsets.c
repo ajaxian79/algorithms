@@ -328,3 +328,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 300: Resists adversarial inputs by randomizing the pivot.
 // note 301: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 302: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 303: Returns a freshly allocated string the caller must free.
