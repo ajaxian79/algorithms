@@ -2439,3 +2439,7 @@
 ## entry 610
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 611
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
