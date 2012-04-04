@@ -3514,3 +3514,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 864
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 865
+
+Edge case: maximum-length input → still fits in 32-bit indices.
