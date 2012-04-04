@@ -2493,3 +2493,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 607
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 608
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
