@@ -3392,3 +3392,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 833
 
 Cache-friendly; one sequential read pass.
+
+## entry 834
+
+Edge case: reverse-sorted input → still O(n log n).
