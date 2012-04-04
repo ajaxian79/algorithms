@@ -2299,3 +2299,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 559
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 560
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
