@@ -2451,3 +2451,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 613
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 614
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
