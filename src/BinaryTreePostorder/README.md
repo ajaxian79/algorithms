@@ -3354,3 +3354,7 @@ Handles negative inputs as documented above.
 ## entry 824
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 825
+
+Time complexity: O(k) where k is the answer size.
