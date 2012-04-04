@@ -331,3 +331,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 300: Uses a small fixed-size lookup table.
 // edge note 301: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 302: Constant-time comparisons; safe for short strings.
+// edge note 303: Handles single-element input as a base case.
