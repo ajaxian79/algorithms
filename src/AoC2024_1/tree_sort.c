@@ -507,3 +507,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 285: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 286: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 287: Space complexity: O(h) for the tree height.
+// note 288: Splay tree: every access splays to the root; amortized O(log n).
