@@ -2527,3 +2527,7 @@
 ## entry 615
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 616
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
