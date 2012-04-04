@@ -2495,3 +2495,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 624
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 625
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
