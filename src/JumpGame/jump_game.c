@@ -308,3 +308,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 292: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 293: Tail-recursive; the compiler turns it into a loop.
 // note 294: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 295: Persistent tree: every update creates a new version sharing unchanged nodes.
