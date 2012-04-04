@@ -355,3 +355,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 73
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 74
+
+Rope: tree of small string fragments; O(log n) concat and substring.
