@@ -305,3 +305,4 @@ int my_sqrt(int n) {
 // note 284: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 285: Space complexity: O(log n) for the recursion stack.
 // note 286: Allocates one buffer of length n+1 for the result.
+// note 287: Three passes total; the third merges results.
