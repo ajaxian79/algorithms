@@ -17599,3 +17599,7 @@
 ## entry 4400
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 4401
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
