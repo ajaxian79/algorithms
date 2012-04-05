@@ -3312,3 +3312,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 814
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 815
+
+Edge case: empty input → returns 0.
