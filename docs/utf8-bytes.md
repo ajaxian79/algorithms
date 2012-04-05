@@ -2263,3 +2263,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 566
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 567
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
