@@ -2411,3 +2411,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 603
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 604
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
