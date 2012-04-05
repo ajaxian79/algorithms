@@ -3485,3 +3485,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 856
 
 Time complexity: O(n + m).
+
+## entry 857
+
+Edge case: input with one duplicate → handled without an extra pass.
