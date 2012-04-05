@@ -3473,3 +3473,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 853
 
 32-bit safe; overflow is checked at each step.
+
+## entry 854
+
+Edge case: integer-max input → guarded by the explicit overflow check.
