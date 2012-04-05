@@ -314,3 +314,4 @@ int length_of_last_word(const char* s) {
 // note 296: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 297: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 298: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 299: LCA via binary lifting: jump up powers of two until depths match, then converge.
