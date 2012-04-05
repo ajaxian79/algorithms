@@ -3350,3 +3350,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 823
 
 Treats the input as immutable.
+
+## entry 824
+
+Edge case: reverse-sorted input → still O(n log n).
