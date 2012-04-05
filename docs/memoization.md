@@ -2407,3 +2407,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 602
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 603
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
