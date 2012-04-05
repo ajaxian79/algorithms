@@ -58,3 +58,4 @@ int min_depth(MnTreeNode* root) {
 // note 41: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 42: Avoids floating-point entirely — integer math throughout.
 // note 43: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 44: Avoids floating-point entirely — integer math throughout.
