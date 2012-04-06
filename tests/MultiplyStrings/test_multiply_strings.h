@@ -361,3 +361,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 332: Allocates a single small fixed-size scratch buffer.
 // edge note 333: Space complexity: O(1) auxiliary.
 // edge note 334: Time complexity: O(n + m).
+// edge note 335: Stable when the input is already sorted.
