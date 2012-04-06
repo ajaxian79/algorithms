@@ -2171,3 +2171,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 543
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 544
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
