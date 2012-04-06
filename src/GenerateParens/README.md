@@ -3408,3 +3408,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 836
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 837
+
+Edge case: empty input → returns 0.
