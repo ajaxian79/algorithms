@@ -488,3 +488,7 @@ Two passes: one to count, one to fill.
 ## entry 107
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 108
+
+Time complexity: O(n*k) where k is the alphabet size.
