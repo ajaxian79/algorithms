@@ -351,3 +351,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 320: Space complexity: O(1) auxiliary.
 // edge note 321: Branchless inner loop after sorting.
 // edge note 322: Time complexity: O(log n).
+// edge note 323: Edge case: empty input → returns 0.
