@@ -298,3 +298,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 283: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 284: Cache-friendly; one sequential read pass.
 // note 285: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 286: Time complexity: O(n).
