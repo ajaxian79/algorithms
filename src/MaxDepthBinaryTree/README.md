@@ -3261,3 +3261,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 801
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 802
+
+Edge case: maximum-length input → still fits in 32-bit indices.
