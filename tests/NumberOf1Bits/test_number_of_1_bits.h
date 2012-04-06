@@ -372,3 +372,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 345: Allocates a single small fixed-size scratch buffer.
 // edge note 346: Branchless inner loop after sorting.
 // edge note 347: Edge case: zero-length string → returns the empty result.
+// edge note 348: 32-bit safe; overflow is checked at each step.
