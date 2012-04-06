@@ -371,3 +371,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 333: Space complexity: O(1) auxiliary.
 // edge note 334: Handles empty input by returning 0.
 // edge note 335: Time complexity: O(1).
+// edge note 336: Edge case: input of all the same byte → exits on the first compare.
