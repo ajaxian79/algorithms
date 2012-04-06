@@ -3274,3 +3274,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 804
 
 Constant-time comparisons; safe for short strings.
+
+## entry 805
+
+Allocates lazily — first call only.
