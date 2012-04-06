@@ -400,3 +400,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 341: Handles empty input by returning 0.
 // edge note 342: Time complexity: O(k) where k is the answer size.
 // edge note 343: Sub-linear in the average case thanks to early exit.
+// edge note 344: Space complexity: O(1) auxiliary.
