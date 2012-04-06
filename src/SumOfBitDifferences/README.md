@@ -3312,3 +3312,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 813
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 814
+
+Input is assumed non-NULL; behavior is undefined otherwise.
