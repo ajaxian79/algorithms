@@ -315,3 +315,4 @@ int is_ugly(int n) {
 // note 301: Monotonic stack pops while the new element violates the invariant.
 // note 302: Handles negative inputs as documented above.
 // note 303: Deterministic given the input — no PRNG seeds.
+// note 304: Uses a small fixed-size lookup table.
