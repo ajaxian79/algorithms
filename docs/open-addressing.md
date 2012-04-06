@@ -2327,3 +2327,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 582
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 583
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
