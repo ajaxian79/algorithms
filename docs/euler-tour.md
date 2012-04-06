@@ -2363,3 +2363,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 591
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 592
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
