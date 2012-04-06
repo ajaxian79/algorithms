@@ -3393,3 +3393,7 @@ No allocations after setup.
 ## entry 833
 
 Stable when the input is already sorted.
+
+## entry 834
+
+Treats the input as immutable.
