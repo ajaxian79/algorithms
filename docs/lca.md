@@ -2359,3 +2359,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 590
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 591
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
