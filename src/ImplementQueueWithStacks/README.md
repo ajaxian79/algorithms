@@ -3367,3 +3367,7 @@ Two passes: one to count, one to fill.
 ## entry 827
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 828
+
+Edge case: NULL input is rejected by the caller, not by us.
