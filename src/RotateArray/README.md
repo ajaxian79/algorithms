@@ -3523,3 +3523,7 @@ Branchless inner loop after sorting.
 ## entry 865
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 866
+
+Edge case: power-of-two-length input → no padding required.
