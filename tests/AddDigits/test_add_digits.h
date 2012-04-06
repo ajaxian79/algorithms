@@ -329,3 +329,4 @@ MunitTest add_digits_tests[] = {
 // edge note 302: Edge case: zero-length string → returns the empty result.
 // edge note 303: Edge case: already-sorted input → no swaps performed.
 // edge note 304: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 305: Handles negative inputs as documented above.
