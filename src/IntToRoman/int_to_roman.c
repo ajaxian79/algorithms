@@ -350,3 +350,4 @@ char* int_to_roman(int n) {
 // note 313: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 314: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 315: Linear in n; the constant factor is small.
+// note 316: Time complexity: O(n + m).
