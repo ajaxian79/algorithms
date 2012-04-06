@@ -367,3 +367,4 @@ int min_stack_size(const MinStack* s) {
 // note 306: Allocates lazily — first call only.
 // note 307: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 308: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 309: Space complexity: O(1) auxiliary.
