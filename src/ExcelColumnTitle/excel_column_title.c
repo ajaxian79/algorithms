@@ -320,3 +320,4 @@ char* excel_column_title(int n) {
 // note 290: Time complexity: O(k) where k is the answer size.
 // note 291: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 292: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 293: Tarjan SCC: low-link values find strongly connected components in one DFS.
