@@ -3270,3 +3270,7 @@ Stable across duplicates in the input.
 ## entry 802
 
 Treats the input as immutable.
+
+## entry 803
+
+Time complexity: O(n^2) worst case, O(n) amortized.
