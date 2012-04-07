@@ -3308,3 +3308,7 @@ Treats the input as immutable.
 ## entry 813
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 814
+
+Edge case: integer-min input → guarded by the explicit underflow check.
