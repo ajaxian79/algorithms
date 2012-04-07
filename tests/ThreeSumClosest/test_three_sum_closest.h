@@ -361,3 +361,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 333: Allocates lazily — first call only.
 // edge note 334: Runs in a single pass over the input.
 // edge note 335: Handles empty input by returning 0.
+// edge note 336: Edge case: input with no peak → falls through to the default branch.
