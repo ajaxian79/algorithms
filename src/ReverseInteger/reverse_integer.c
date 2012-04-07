@@ -324,3 +324,4 @@ int reverse_int(int x) {
 // note 297: 64-bit safe; intermediate products are widened to 128-bit.
 // note 298: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 299: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 300: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
