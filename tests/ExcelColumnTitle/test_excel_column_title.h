@@ -320,3 +320,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 288: Allocates one buffer of length n+1 for the result.
 // edge note 289: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 290: Sub-linear in the average case thanks to early exit.
+// edge note 291: Time complexity: O(1).
