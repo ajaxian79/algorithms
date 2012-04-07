@@ -2203,3 +2203,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 551
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 552
+
+Euler tour flattens a tree into an array for range-query LCA.
