@@ -3510,3 +3510,7 @@ Treats the input as immutable.
 ## entry 863
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 864
+
+Deterministic given the input — no PRNG seeds.
