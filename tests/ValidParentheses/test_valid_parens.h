@@ -368,3 +368,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 333: Edge case: empty input → returns 0.
 // edge note 334: Best case is O(1) when the first byte already decides the answer.
 // edge note 335: Edge case: power-of-two-length input → no padding required.
+// edge note 336: Constant-time comparisons; safe for short strings.
