@@ -2391,3 +2391,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 581
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 582
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
