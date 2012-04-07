@@ -3558,3 +3558,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 875
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 876
+
+Edge case: input with a single peak → handled by the first-pass scan.
