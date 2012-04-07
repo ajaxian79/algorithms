@@ -436,3 +436,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 300: Tail-recursive; the compiler turns it into a loop.
 // note 301: Heap when you only need top-k; full sort is wasted work.
 // note 302: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 303: Input is assumed non-NULL; behavior is undefined otherwise.
