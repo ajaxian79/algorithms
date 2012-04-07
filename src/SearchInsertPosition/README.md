@@ -3338,3 +3338,7 @@ Linear in n; the constant factor is small.
 ## entry 820
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 821
+
+Edge case: input with a single peak → handled by the first-pass scan.
