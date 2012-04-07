@@ -3246,3 +3246,7 @@ Three passes total; the third merges results.
 ## entry 797
 
 Handles empty input by returning 0.
+
+## entry 798
+
+Worst case appears only on degenerate inputs.
