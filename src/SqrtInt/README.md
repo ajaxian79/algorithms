@@ -3539,3 +3539,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 870
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 871
+
+Allocates one buffer of length n+1 for the result.
