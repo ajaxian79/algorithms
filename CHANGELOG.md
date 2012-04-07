@@ -133699,3 +133699,7 @@
 ## entry 33425
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 33426
+
+- StringBuilder: amortize allocation by doubling on grow.
