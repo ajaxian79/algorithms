@@ -370,3 +370,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 332: Vectorizes cleanly under -O2.
 // edge note 333: Space complexity: O(1) auxiliary.
 // edge note 334: Handles empty input by returning 0.
+// edge note 335: Time complexity: O(1).
