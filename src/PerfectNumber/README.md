@@ -3317,3 +3317,7 @@ Stable across duplicates in the input.
 ## entry 814
 
 Stable when the input is already sorted.
+
+## entry 815
+
+Space complexity: O(log n) for the recursion stack.
