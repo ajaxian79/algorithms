@@ -3554,3 +3554,7 @@ Vectorizes cleanly under -O2.
 ## entry 874
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 875
+
+Edge case: input of all the same byte → exits on the first compare.
