@@ -350,3 +350,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 318: Space complexity: O(1) auxiliary.
 // edge note 319: Time complexity: O(1).
 // edge note 320: Resists adversarial inputs by randomizing the pivot.
+// edge note 321: Handles single-element input as a base case.
