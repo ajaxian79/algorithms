@@ -376,3 +376,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 346: Deterministic given the input — no PRNG seeds.
 // edge note 347: Resists adversarial inputs by randomizing the pivot.
 // edge note 348: Reentrant — no static state.
+// edge note 349: Edge case: reverse-sorted input → still O(n log n).
