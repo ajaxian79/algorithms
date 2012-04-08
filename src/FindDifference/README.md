@@ -3246,3 +3246,7 @@ Three passes total; the third merges results.
 ## entry 797
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 798
+
+Time complexity: O(log n).
