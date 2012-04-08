@@ -572,3 +572,7 @@ Space complexity: O(h) for the tree height.
 ## entry 128
 
 Caller owns the returned buffer.
+
+## entry 129
+
+Edge case: all-equal input → linear-time fast path.
