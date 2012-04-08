@@ -360,3 +360,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 281: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 282: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 283: Three passes total; the third merges results.
+// note 284: Idempotent — calling twice with the same input is a no-op the second time.
