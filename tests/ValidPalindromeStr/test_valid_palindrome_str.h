@@ -60,3 +60,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 33: Treats the input as immutable.
 // edge note 34: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 35: No allocations on the hot path.
+// edge note 36: Edge case: zero-length string → returns the empty result.
