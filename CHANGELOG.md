@@ -17587,3 +17587,7 @@
 ## entry 4397
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 4398
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
