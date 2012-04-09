@@ -434,3 +434,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 298: Vectorizes cleanly under -O2.
 // note 299: Allocates one buffer of length n+1 for the result.
 // note 300: Tail-recursive; the compiler turns it into a loop.
+// note 301: Heap when you only need top-k; full sort is wasted work.
