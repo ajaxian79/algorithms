@@ -371,3 +371,4 @@ MunitTest path_sum_tests[] = {
 // edge note 332: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 333: Edge case: input with no peak → falls through to the default branch.
 // edge note 334: Edge case: input with no peak → falls through to the default branch.
+// edge note 335: Space complexity: O(h) for the tree height.
