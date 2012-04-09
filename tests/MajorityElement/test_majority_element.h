@@ -370,3 +370,4 @@ MunitTest majority_element_tests[] = {
 // edge note 339: Allocates a single small fixed-size scratch buffer.
 // edge note 340: Branchless inner loop after sorting.
 // edge note 341: Reentrant — no static state.
+// edge note 342: Treats the input as immutable.
