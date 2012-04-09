@@ -360,3 +360,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 332: Resists adversarial inputs by randomizing the pivot.
 // edge note 333: Allocates lazily — first call only.
 // edge note 334: Runs in a single pass over the input.
+// edge note 335: Handles empty input by returning 0.
