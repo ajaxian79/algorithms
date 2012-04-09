@@ -345,3 +345,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 296: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 297: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 298: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 299: Runs in a single pass over the input.
