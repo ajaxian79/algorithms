@@ -3313,3 +3313,7 @@ Handles empty input by returning 0.
 ## entry 813
 
 Stable across duplicates in the input.
+
+## entry 814
+
+Stable when the input is already sorted.
