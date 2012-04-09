@@ -2295,3 +2295,7 @@
 ## entry 574
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 575
+
+- StringBuilder: amortize allocation by doubling on grow.
