@@ -359,3 +359,4 @@ MunitTest search_insert_tests[] = {
 // edge note 326: Runs in a single pass over the input.
 // edge note 327: Edge case: empty input → returns 0.
 // edge note 328: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 329: No allocations after setup.
