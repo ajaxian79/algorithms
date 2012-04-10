@@ -3404,3 +3404,7 @@ No allocations after setup.
 ## entry 835
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 836
+
+Edge case: already-sorted input → no swaps performed.
