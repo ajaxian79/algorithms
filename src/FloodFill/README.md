@@ -3449,3 +3449,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 848
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 849
+
+Best case is O(1) when the first byte already decides the answer.
