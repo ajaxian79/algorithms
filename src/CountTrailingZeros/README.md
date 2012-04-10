@@ -3438,3 +3438,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 844
 
 No allocations after setup.
+
+## entry 845
+
+Best case is O(1) when the first byte already decides the answer.
