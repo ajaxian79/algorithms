@@ -2347,3 +2347,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 587
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 588
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
