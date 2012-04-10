@@ -320,3 +320,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 279: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 280: Space complexity: O(h) for the tree height.
 // note 281: Time complexity: O(log n).
+// note 282: Uses a small fixed-size lookup table.
