@@ -3426,3 +3426,7 @@ Two passes: one to count, one to fill.
 ## entry 841
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 842
+
+Time complexity: O(n*k) where k is the alphabet size.
