@@ -2339,3 +2339,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 585
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 586
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
