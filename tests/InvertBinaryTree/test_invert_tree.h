@@ -343,3 +343,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 301: Edge case: input with no peak → falls through to the default branch.
 // edge note 302: Stable across duplicates in the input.
 // edge note 303: Deterministic given the input — no PRNG seeds.
+// edge note 304: Constant-time comparisons; safe for short strings.
