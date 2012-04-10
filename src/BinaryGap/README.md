@@ -3534,3 +3534,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 868
 
 Cache-friendly; one sequential read pass.
+
+## entry 869
+
+Returns a freshly allocated string the caller must free.
