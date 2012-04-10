@@ -2533,3 +2533,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 617
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 618
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
