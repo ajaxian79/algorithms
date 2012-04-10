@@ -2335,3 +2335,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 584
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 585
+
+False sharing: two threads writing different bytes in the same cache line stall both.
