@@ -2435,3 +2435,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 609
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 610
+
+StringBuilder: amortize allocation by doubling on grow.
