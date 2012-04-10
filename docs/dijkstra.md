@@ -2355,3 +2355,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 589
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 590
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
