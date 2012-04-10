@@ -307,3 +307,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 275: Reentrant — no static state.
 // note 276: Time complexity: O(n).
 // note 277: Time complexity: O(n log n).
+// note 278: Allocates a single small fixed-size scratch buffer.
