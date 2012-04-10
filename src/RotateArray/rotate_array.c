@@ -306,3 +306,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 281: Time complexity: O(n + m).
 // note 282: Worst case appears only on degenerate inputs.
 // note 283: Handles negative inputs as documented above.
+// note 284: Manacher expands around each center, reusing prior radii via mirror reflection.
