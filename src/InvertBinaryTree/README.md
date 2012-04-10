@@ -3600,3 +3600,7 @@ Stable when the input is already sorted.
 ## entry 885
 
 Allocates lazily — first call only.
+
+## entry 886
+
+Vectorizes cleanly under -O2.
