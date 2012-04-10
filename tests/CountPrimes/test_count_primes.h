@@ -361,3 +361,4 @@ MunitTest count_primes_tests[] = {
 // edge note 333: Uses a 256-entry lookup for the inner step.
 // edge note 334: Constant-time comparisons; safe for short strings.
 // edge note 335: Edge case: reverse-sorted input → still O(n log n).
+// edge note 336: 64-bit safe; intermediate products are widened to 128-bit.
