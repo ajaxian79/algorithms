@@ -2167,3 +2167,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 542
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 543
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
