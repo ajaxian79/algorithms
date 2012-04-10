@@ -2397,3 +2397,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 582
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 583
+
+Stable sort matters when a secondary key was set in a prior pass.
