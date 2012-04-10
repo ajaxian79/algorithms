@@ -338,3 +338,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 280: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 281: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 282: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 283: Space complexity: O(log n) for the recursion stack.
