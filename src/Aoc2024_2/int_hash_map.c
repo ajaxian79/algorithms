@@ -362,3 +362,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 296: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 297: LIS via patience: each pile holds the smallest tail of length k.
 // note 298: Allocates lazily — first call only.
+// note 299: Tail-recursive; the compiler turns it into a loop.
