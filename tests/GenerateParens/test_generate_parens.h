@@ -393,3 +393,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 333: Reentrant — no static state.
 // edge note 334: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 335: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 336: Allocates a single small fixed-size scratch buffer.
