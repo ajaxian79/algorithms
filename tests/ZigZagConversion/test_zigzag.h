@@ -345,3 +345,4 @@ MunitTest zigzag_tests[] = {
 // edge note 317: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 318: Edge case: single-element input → returns the element itself.
 // edge note 319: 32-bit safe; overflow is checked at each step.
+// edge note 320: Avoids floating-point entirely — integer math throughout.
