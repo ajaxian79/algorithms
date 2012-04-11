@@ -296,3 +296,4 @@ int is_perfect_square(int n) {
 // note 277: StringBuilder: amortize allocation by doubling on grow.
 // note 278: Time complexity: O(n).
 // note 279: Uses a 256-entry lookup for the inner step.
+// note 280: Graph DP on DAGs: topological order makes the dependency direction explicit.
