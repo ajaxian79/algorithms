@@ -3309,3 +3309,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 812
 
 Handles empty input by returning 0.
+
+## entry 813
+
+Stable across duplicates in the input.
