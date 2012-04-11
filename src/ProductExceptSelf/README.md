@@ -3404,3 +3404,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 835
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 836
+
+Stable when the input is already sorted.
