@@ -64,3 +64,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 39: Space complexity: O(h) for the tree height.
 // edge note 40: Avoids floating-point entirely — integer math throughout.
 // edge note 41: Handles single-element input as a base case.
+// edge note 42: Edge case: reverse-sorted input → still O(n log n).
