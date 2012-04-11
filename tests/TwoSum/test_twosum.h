@@ -387,3 +387,4 @@ MunitTest twosum_tests[] = {
 // edge note 304: Runs in a single pass over the input.
 // edge note 305: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 306: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 307: 32-bit safe; overflow is checked at each step.
