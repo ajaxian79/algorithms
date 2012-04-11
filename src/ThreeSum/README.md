@@ -3389,3 +3389,7 @@ Handles single-element input as a base case.
 ## entry 832
 
 No allocations after setup.
+
+## entry 833
+
+Stable when the input is already sorted.
