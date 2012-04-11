@@ -2397,3 +2397,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 583
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 584
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
