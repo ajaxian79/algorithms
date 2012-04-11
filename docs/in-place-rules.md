@@ -453,3 +453,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 98
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 99
+
+Splay tree: every access splays to the root; amortized O(log n).
