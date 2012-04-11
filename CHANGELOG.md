@@ -133595,3 +133595,7 @@
 ## entry 33399
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 33400
+
+- Walk both pointers from each end inward; advance the smaller side.
