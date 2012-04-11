@@ -2543,3 +2543,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 619
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 620
+
+False sharing: two threads writing different bytes in the same cache line stall both.
