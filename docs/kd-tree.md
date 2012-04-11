@@ -2399,3 +2399,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 600
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 601
+
+Merge intervals: sort by start; extend the running interval while overlapping.
