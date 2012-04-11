@@ -2343,3 +2343,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 569
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 570
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
