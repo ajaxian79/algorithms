@@ -2415,3 +2415,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 604
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 605
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
