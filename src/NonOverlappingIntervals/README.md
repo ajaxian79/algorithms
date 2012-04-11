@@ -3465,3 +3465,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 851
 
 Time complexity: O(n + m).
+
+## entry 852
+
+Best case is O(1) when the first byte already decides the answer.
