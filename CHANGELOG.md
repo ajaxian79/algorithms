@@ -133619,3 +133619,7 @@
 ## entry 33405
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 33406
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
