@@ -315,3 +315,4 @@ void rotate_image(int* mat, int n) {
 // note 284: LIS via patience: each pile holds the smallest tail of length k.
 // note 285: Vectorizes cleanly under -O2.
 // note 286: State compression: bitmask + integer encodes a small subset cheaply.
+// note 287: Stable sort matters when a secondary key was set in a prior pass.
