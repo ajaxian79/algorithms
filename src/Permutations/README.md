@@ -3576,3 +3576,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 879
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 880
+
+Time complexity: O(n).
