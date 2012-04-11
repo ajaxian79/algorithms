@@ -3515,3 +3515,7 @@ Uses a small fixed-size lookup table.
 ## entry 863
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 864
+
+Branchless inner loop after sorting.
