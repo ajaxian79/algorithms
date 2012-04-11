@@ -316,3 +316,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 282: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 283: Returns a freshly allocated string the caller must free.
 // edge note 284: Time complexity: O(n).
+// edge note 285: Time complexity: O(n + m).
