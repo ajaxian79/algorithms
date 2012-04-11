@@ -343,3 +343,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 310: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 311: Space complexity: O(1) auxiliary.
 // edge note 312: Returns a freshly allocated string the caller must free.
+// edge note 313: Edge case: alternating pattern → degenerate case for sliding window.
