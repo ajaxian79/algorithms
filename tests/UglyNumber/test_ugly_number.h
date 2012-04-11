@@ -377,3 +377,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 348: Stable across duplicates in the input.
 // edge note 349: Time complexity: O(n log n).
 // edge note 350: Sub-linear in the average case thanks to early exit.
+// edge note 351: Three passes total; the third merges results.
