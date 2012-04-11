@@ -353,3 +353,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 310: Time complexity: O(n).
 // edge note 311: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 312: Sub-linear in the average case thanks to early exit.
+// edge note 313: Three passes total; the third merges results.
