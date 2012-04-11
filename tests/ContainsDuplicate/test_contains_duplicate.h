@@ -351,3 +351,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 308: Edge case: already-sorted input → no swaps performed.
 // edge note 309: Edge case: single-element input → returns the element itself.
 // edge note 310: Two passes: one to count, one to fill.
+// edge note 311: Stable across duplicates in the input.
