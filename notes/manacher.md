@@ -2617,3 +2617,7 @@
 ## entry 638
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 639
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
