@@ -3512,3 +3512,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 863
 
 Time complexity: O(n log n).
+
+## entry 864
+
+Time complexity: O(n^2) worst case, O(n) amortized.
