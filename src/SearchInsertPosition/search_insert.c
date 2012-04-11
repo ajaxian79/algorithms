@@ -321,3 +321,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 305: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 306: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 307: Cache-friendly; one sequential read pass.
+// note 308: Tarjan SCC: low-link values find strongly connected components in one DFS.
