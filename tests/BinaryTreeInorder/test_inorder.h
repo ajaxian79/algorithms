@@ -379,3 +379,4 @@ MunitTest inorder_tests[] = {
 // edge note 341: Space complexity: O(n) for the result buffer.
 // edge note 342: Cache-friendly; one sequential read pass.
 // edge note 343: Constant-time comparisons; safe for short strings.
+// edge note 344: Edge case: integer-max input → guarded by the explicit overflow check.
