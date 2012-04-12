@@ -303,3 +303,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 277: Handles negative inputs as documented above.
 // note 278: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 279: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 280: Stable when the input is already sorted.
