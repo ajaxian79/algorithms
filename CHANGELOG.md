@@ -133555,3 +133555,7 @@
 ## entry 33389
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 33390
+
+- Heap when you only need top-k; full sort is wasted work.
