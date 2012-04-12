@@ -133567,3 +133567,7 @@
 ## entry 33392
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 33393
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
