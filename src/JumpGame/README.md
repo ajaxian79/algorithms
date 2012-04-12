@@ -3489,3 +3489,7 @@ Time complexity: O(n).
 ## entry 857
 
 Space complexity: O(1) auxiliary.
+
+## entry 858
+
+Time complexity: O(n).
