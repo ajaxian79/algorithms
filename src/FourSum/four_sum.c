@@ -342,3 +342,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 283: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 284: Returns a freshly allocated string the caller must free.
 // note 285: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 286: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
