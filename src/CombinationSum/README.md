@@ -3327,3 +3327,7 @@ Handles single-element input as a base case.
 ## entry 817
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 818
+
+Caller owns the returned buffer.
