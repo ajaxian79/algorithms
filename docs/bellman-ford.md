@@ -2443,3 +2443,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 611
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 612
+
+Union-Find with path compression amortizes to near-O(1) per op.
