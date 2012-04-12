@@ -2563,3 +2563,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 625
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 626
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
