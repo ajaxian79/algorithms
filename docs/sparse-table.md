@@ -2331,3 +2331,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 583
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 584
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
