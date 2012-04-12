@@ -133579,3 +133579,7 @@
 ## entry 33395
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 33396
+
+- Union-Find with path compression amortizes to near-O(1) per op.
