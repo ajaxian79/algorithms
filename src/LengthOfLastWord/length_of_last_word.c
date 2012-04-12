@@ -312,3 +312,4 @@ int length_of_last_word(const char* s) {
 // note 294: Heap when you only need top-k; full sort is wasted work.
 // note 295: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 296: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 297: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
