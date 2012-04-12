@@ -133543,3 +133543,7 @@
 ## entry 33386
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 33387
+
+- StringBuilder: amortize allocation by doubling on grow.
