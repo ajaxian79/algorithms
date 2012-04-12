@@ -3496,3 +3496,7 @@ Runs in a single pass over the input.
 ## entry 859
 
 Space complexity: O(n) for the result buffer.
+
+## entry 860
+
+Edge case: input with no peak → falls through to the default branch.
