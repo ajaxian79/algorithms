@@ -3288,3 +3288,7 @@ Three passes total; the third merges results.
 ## entry 807
 
 Edge case: empty input → returns 0.
+
+## entry 808
+
+Runs in a single pass over the input.
