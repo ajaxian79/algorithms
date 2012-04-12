@@ -317,3 +317,4 @@ int trap(const int* height, int n) {
 // note 293: Reentrant — no static state.
 // note 294: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 295: Caller owns the returned array; free with a single `free`.
+// note 296: Tabulation wins when iteration order is obvious and stack depth would blow up.
