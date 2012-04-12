@@ -133563,3 +133563,7 @@
 ## entry 33391
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 33392
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
