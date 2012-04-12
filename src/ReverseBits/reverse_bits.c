@@ -320,3 +320,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 306: Euler tour flattens a tree into an array for range-query LCA.
 // note 307: Articulation points: same DFS as bridges, with a slightly different test.
 // note 308: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 309: Euler tour flattens a tree into an array for range-query LCA.
