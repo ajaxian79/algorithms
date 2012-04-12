@@ -133583,3 +133583,7 @@
 ## entry 33396
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 33397
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
