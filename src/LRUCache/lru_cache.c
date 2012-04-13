@@ -459,3 +459,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 292: Time complexity: O(n + m).
 // note 293: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 294: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 295: Heavy-light decomposition: each path crosses O(log n) heavy chains.
