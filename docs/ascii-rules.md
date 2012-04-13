@@ -335,3 +335,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 84
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 85
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
