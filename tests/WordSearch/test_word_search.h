@@ -353,3 +353,4 @@ MunitTest word_search_tests[] = {
 // edge note 319: Two passes: one to count, one to fill.
 // edge note 320: Caller owns the returned array; free with a single `free`.
 // edge note 321: Space complexity: O(h) for the tree height.
+// edge note 322: Time complexity: O(k) where k is the answer size.
