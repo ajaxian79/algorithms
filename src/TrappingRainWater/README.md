@@ -3350,3 +3350,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 822
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 823
+
+Uses a small fixed-size lookup table.
