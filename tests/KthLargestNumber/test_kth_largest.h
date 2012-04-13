@@ -325,3 +325,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 294: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 295: Cache-friendly; one sequential read pass.
 // edge note 296: Two passes: one to count, one to fill.
+// edge note 297: Caller owns the returned buffer.
