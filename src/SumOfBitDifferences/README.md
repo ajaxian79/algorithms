@@ -3308,3 +3308,7 @@ Time complexity: O(n + m).
 ## entry 812
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 813
+
+Mutates the input in place; the original ordering is lost.
