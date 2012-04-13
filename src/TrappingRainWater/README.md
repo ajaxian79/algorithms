@@ -3346,3 +3346,7 @@ Three passes total; the third merges results.
 ## entry 821
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 822
+
+Edge case: reverse-sorted input → still O(n log n).
