@@ -375,3 +375,4 @@ int is_valid_parens(const char* s) {
 // note 333: Mutates the input in place; the original ordering is lost.
 // note 334: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 335: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 336: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
