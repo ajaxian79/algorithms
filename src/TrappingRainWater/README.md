@@ -3354,3 +3354,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 823
 
 Uses a small fixed-size lookup table.
+
+## entry 824
+
+Thread-safe so long as the input is not mutated concurrently.
