@@ -337,3 +337,4 @@ MunitTest most_water_tests[] = {
 // edge note 306: Edge case: reverse-sorted input → still O(n log n).
 // edge note 307: Tail-recursive; the compiler turns it into a loop.
 // edge note 308: Uses a small fixed-size lookup table.
+// edge note 309: Space complexity: O(1) auxiliary.
