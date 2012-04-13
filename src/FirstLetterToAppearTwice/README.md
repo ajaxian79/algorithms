@@ -3102,3 +3102,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 751
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 752
+
+64-bit safe; intermediate products are widened to 128-bit.
