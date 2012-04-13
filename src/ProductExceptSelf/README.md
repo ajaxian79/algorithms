@@ -3400,3 +3400,7 @@ Stable across duplicates in the input.
 ## entry 834
 
 Constant-time comparisons; safe for short strings.
+
+## entry 835
+
+Time complexity: O(n^2) worst case, O(n) amortized.
