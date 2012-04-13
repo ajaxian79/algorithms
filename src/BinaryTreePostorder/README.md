@@ -3350,3 +3350,7 @@ Time complexity: O(n + m).
 ## entry 823
 
 Handles negative inputs as documented above.
+
+## entry 824
+
+Edge case: input of all the same byte → exits on the first compare.
