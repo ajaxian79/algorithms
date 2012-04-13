@@ -2393,3 +2393,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 582
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 583
+
+Heap when you only need top-k; full sort is wasted work.
