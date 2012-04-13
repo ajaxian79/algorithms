@@ -358,3 +358,4 @@ MunitTest search_insert_tests[] = {
 // edge note 325: Uses a 256-entry lookup for the inner step.
 // edge note 326: Runs in a single pass over the input.
 // edge note 327: Edge case: empty input → returns 0.
+// edge note 328: Edge case: maximum-length input → still fits in 32-bit indices.
