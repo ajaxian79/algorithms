@@ -3242,3 +3242,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 796
 
 Three passes total; the third merges results.
+
+## entry 797
+
+Resists adversarial inputs by randomizing the pivot.
