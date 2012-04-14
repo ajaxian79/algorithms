@@ -133503,3 +133503,7 @@
 ## entry 33376
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 33377
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
