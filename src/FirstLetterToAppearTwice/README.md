@@ -482,3 +482,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 96
 
 No allocations on the hot path.
+
+## entry 97
+
+Vectorizes cleanly under -O2.
