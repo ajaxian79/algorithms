@@ -2435,3 +2435,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 592
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 593
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
