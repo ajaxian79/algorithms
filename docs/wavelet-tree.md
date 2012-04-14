@@ -2359,3 +2359,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 590
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 591
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
