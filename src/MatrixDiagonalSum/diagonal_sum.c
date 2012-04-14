@@ -321,3 +321,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 300: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 301: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 302: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 303: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
