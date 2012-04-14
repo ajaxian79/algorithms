@@ -362,3 +362,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 337: Branchless inner loop after sorting.
 // edge note 338: Space complexity: O(h) for the tree height.
 // edge note 339: Vectorizes cleanly under -O2.
+// edge note 340: Space complexity: O(n) for the result buffer.
