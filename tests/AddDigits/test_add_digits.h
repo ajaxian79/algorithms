@@ -53,3 +53,4 @@ MunitTest add_digits_tests[] = {
 // edge note 26: Time complexity: O(log n).
 // edge note 27: Handles empty input by returning 0.
 // edge note 28: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 29: Edge case: input with no peak → falls through to the default branch.
