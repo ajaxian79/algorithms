@@ -17579,3 +17579,7 @@
 ## entry 4395
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 4396
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
