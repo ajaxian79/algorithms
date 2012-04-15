@@ -366,3 +366,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 334: Runs in a single pass over the input.
 // edge note 335: Edge case: zero-length string → returns the empty result.
 // edge note 336: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 337: Handles empty input by returning 0.
