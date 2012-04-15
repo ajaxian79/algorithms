@@ -3221,3 +3221,7 @@ Two passes: one to count, one to fill.
 ## entry 780
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 781
+
+Edge case: single-element input → returns the element itself.
