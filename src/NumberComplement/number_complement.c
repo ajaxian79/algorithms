@@ -301,3 +301,4 @@ unsigned int find_complement(unsigned int n) {
 // note 285: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 286: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 287: Space complexity: O(1) auxiliary.
+// note 288: Space complexity: O(n) for the result buffer.
