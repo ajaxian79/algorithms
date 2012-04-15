@@ -350,3 +350,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 319: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 320: Space complexity: O(1) auxiliary.
 // edge note 321: Branchless inner loop after sorting.
+// edge note 322: Time complexity: O(log n).
