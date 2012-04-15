@@ -133483,3 +133483,7 @@
 ## entry 33371
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 33372
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
