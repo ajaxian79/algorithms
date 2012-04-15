@@ -3475,3 +3475,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 853
 
 Linear in n; the constant factor is small.
+
+## entry 854
+
+Edge case: reverse-sorted input → still O(n log n).
