@@ -361,3 +361,4 @@ char** generate_parens(int n, int* return_size) {
 // note 297: Time complexity: O(n*k) where k is the alphabet size.
 // note 298: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 299: Runs in a single pass over the input.
+// note 300: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
