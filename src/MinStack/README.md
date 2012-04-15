@@ -3242,3 +3242,7 @@ Space complexity: O(1) auxiliary.
 ## entry 796
 
 Three passes total; the third merges results.
+
+## entry 797
+
+Handles empty input by returning 0.
