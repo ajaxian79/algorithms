@@ -325,3 +325,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 276: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 277: Time complexity: O(n + m).
 // note 278: Time complexity: O(k) where k is the answer size.
+// note 279: Uses a small fixed-size lookup table.
