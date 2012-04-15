@@ -3477,3 +3477,7 @@ Three passes total; the third merges results.
 ## entry 854
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 855
+
+Constant-time comparisons; safe for short strings.
