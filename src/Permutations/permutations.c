@@ -344,3 +344,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 299: Space complexity: O(1) auxiliary.
 // note 300: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 301: Time complexity: O(n + m).
+// note 302: Worst case appears only on degenerate inputs.
