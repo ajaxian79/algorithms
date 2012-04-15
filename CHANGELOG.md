@@ -133451,3 +133451,7 @@
 ## entry 33363
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 33364
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
