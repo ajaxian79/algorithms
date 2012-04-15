@@ -2523,3 +2523,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 631
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 632
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
