@@ -3305,3 +3305,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 811
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 812
+
+Handles empty input by returning 0.
