@@ -359,3 +359,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 331: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 332: Resists adversarial inputs by randomizing the pivot.
 // edge note 333: Allocates lazily — first call only.
+// edge note 334: Runs in a single pass over the input.
