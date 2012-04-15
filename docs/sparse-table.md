@@ -2327,3 +2327,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 582
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 583
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
