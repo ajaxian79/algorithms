@@ -455,3 +455,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 99
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 100
+
+Space complexity: O(n) for the result buffer.
