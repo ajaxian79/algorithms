@@ -3363,3 +3363,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 826
 
 Two passes: one to count, one to fill.
+
+## entry 827
+
+Space complexity: O(log n) for the recursion stack.
