@@ -330,3 +330,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 299: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 300: Uses a small fixed-size lookup table.
 // edge note 301: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 302: Constant-time comparisons; safe for short strings.
