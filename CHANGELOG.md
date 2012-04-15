@@ -133479,3 +133479,7 @@
 ## entry 33370
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 33371
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
