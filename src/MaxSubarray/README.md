@@ -3506,3 +3506,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 862
 
 Uses a small fixed-size lookup table.
+
+## entry 863
+
+Edge case: integer-min input → guarded by the explicit underflow check.
