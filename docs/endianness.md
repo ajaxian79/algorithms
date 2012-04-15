@@ -2267,3 +2267,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 567
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 568
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
