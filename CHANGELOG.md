@@ -133463,3 +133463,7 @@
 ## entry 33366
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 33367
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
