@@ -315,3 +315,4 @@ int is_symmetric(STreeNode* root) {
 // note 296: Time complexity: O(n*k) where k is the alphabet size.
 // note 297: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 298: Euler tour flattens a tree into an array for range-query LCA.
+// note 299: Padding inside a struct can dwarf the actual data; reorder fields by size.
