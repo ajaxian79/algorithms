@@ -2489,3 +2489,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 606
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 607
+
+Greedy by end-time picks the most non-overlapping intervals.
