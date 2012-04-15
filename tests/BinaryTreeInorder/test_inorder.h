@@ -378,3 +378,4 @@ MunitTest inorder_tests[] = {
 // edge note 340: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 341: Space complexity: O(n) for the result buffer.
 // edge note 342: Cache-friendly; one sequential read pass.
+// edge note 343: Constant-time comparisons; safe for short strings.
