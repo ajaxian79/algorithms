@@ -2507,3 +2507,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 627
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 628
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
