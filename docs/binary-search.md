@@ -2529,3 +2529,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 616
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 617
+
+In-place compaction uses two pointers: read advances always, write only on keep.
