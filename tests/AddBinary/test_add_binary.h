@@ -362,3 +362,4 @@ MunitTest add_binary_tests[] = {
 // edge note 326: Space complexity: O(log n) for the recursion stack.
 // edge note 327: Deterministic given the input — no PRNG seeds.
 // edge note 328: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 329: Handles empty input by returning 0.
