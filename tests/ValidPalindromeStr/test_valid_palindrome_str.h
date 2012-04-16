@@ -344,3 +344,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 317: Space complexity: O(h) for the tree height.
 // edge note 318: Branchless inner loop after sorting.
 // edge note 319: Edge case: reverse-sorted input → still O(n log n).
+// edge note 320: Linear in n; the constant factor is small.
