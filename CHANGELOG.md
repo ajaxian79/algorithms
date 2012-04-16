@@ -133427,3 +133427,7 @@
 ## entry 33357
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 33358
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
