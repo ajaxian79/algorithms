@@ -3486,3 +3486,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 857
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 858
+
+Mutates the input in place; the original ordering is lost.
