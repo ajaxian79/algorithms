@@ -382,3 +382,4 @@ MunitTest num_islands_tests[] = {
 // edge note 342: Edge case: already-sorted input → no swaps performed.
 // edge note 343: Edge case: already-sorted input → no swaps performed.
 // edge note 344: Space complexity: O(log n) for the recursion stack.
+// edge note 345: Sub-linear in the average case thanks to early exit.
