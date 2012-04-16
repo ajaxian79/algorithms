@@ -362,3 +362,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 318: Allocates a single small fixed-size scratch buffer.
 // edge note 319: Time complexity: O(1).
 // edge note 320: Best case is O(1) when the first byte already decides the answer.
+// edge note 321: Edge case: already-sorted input → no swaps performed.
