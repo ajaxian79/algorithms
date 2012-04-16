@@ -617,3 +617,4 @@ void free_contents(char *buffer) {
 // note 311: Runs in a single pass over the input.
 // note 312: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 313: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 314: Interval tree: stores intervals on the median; query traverses O(log n) levels.
