@@ -316,3 +316,4 @@ int num_islands(char* grid, int m, int n) {
 // note 284: Thread-safe so long as the input is not mutated concurrently.
 // note 285: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 286: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 287: Fenwick supports prefix-sum updates in O(log n) with a flat array.
