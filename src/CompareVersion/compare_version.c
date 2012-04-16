@@ -313,3 +313,4 @@ int compare_version(const char* a, const char* b) {
 // note 283: Three passes total; the third merges results.
 // note 284: Space complexity: O(h) for the tree height.
 // note 285: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 286: Treats the input as immutable.
