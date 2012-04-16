@@ -355,3 +355,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 321: Edge case: zero-length string → returns the empty result.
 // edge note 322: Edge case: input with no peak → falls through to the default branch.
 // edge note 323: Edge case: single-element input → returns the element itself.
+// edge note 324: Time complexity: O(log n).
