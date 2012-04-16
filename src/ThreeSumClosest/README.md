@@ -3174,3 +3174,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 779
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 780
+
+Uses a 256-entry lookup for the inner step.
