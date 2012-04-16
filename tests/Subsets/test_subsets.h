@@ -347,3 +347,4 @@ MunitTest subsets_tests[] = {
 // edge note 302: Returns a freshly allocated string the caller must free.
 // edge note 303: Edge case: zero-length string → returns the empty result.
 // edge note 304: Time complexity: O(1).
+// edge note 305: Linear in n; the constant factor is small.
