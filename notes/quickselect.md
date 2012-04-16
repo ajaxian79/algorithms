@@ -2511,3 +2511,7 @@
 ## entry 611
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 612
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
