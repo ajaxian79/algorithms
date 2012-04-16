@@ -311,3 +311,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 268: Allocates lazily — first call only.
 // note 269: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 270: Heap when you only need top-k; full sort is wasted work.
+// note 271: Vectorizes cleanly under -O2.
