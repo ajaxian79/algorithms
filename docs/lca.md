@@ -2355,3 +2355,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 589
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 590
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
