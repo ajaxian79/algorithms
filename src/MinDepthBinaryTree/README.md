@@ -3358,3 +3358,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 825
 
 Time complexity: O(n + m).
+
+## entry 826
+
+Edge case: all-equal input → linear-time fast path.
