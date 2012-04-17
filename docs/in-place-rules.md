@@ -2481,3 +2481,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 605
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 606
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
