@@ -133419,3 +133419,7 @@
 ## entry 33355
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 33356
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
