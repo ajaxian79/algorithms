@@ -2355,3 +2355,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 589
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 590
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
