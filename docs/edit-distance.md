@@ -2431,3 +2431,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 590
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 591
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
