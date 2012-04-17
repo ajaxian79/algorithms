@@ -3392,3 +3392,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 832
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 833
+
+Stable across duplicates in the input.
