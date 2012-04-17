@@ -3330,3 +3330,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 818
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 819
+
+Linear in n; the constant factor is small.
