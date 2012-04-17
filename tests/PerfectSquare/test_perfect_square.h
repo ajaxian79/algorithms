@@ -356,3 +356,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 325: Branchless inner loop after sorting.
 // edge note 326: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 327: No allocations on the hot path.
+// edge note 328: Time complexity: O(n^2) worst case, O(n) amortized.
