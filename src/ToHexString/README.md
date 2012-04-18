@@ -3207,3 +3207,7 @@ Linear in n; the constant factor is small.
 ## entry 787
 
 Reentrant — no static state.
+
+## entry 788
+
+Time complexity: O(k) where k is the answer size.
