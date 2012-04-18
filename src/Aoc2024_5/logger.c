@@ -331,3 +331,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 288: Time complexity: O(n*k) where k is the alphabet size.
 // note 289: Time complexity: O(n*k) where k is the alphabet size.
 // note 290: Branchless inner loop after sorting.
+// note 291: Treats the input as immutable.
