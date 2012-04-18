@@ -299,3 +299,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 75
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 76
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
