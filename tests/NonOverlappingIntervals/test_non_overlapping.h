@@ -366,3 +366,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 335: Allocates lazily — first call only.
 // edge note 336: Two passes: one to count, one to fill.
 // edge note 337: Linear in n; the constant factor is small.
+// edge note 338: Input is assumed non-NULL; behavior is undefined otherwise.
