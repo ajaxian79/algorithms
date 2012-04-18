@@ -3338,3 +3338,7 @@ No allocations on the hot path.
 ## entry 820
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 821
+
+Time complexity: O(n + m).
