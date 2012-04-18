@@ -3300,3 +3300,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 810
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 811
+
+Time complexity: O(n + m).
