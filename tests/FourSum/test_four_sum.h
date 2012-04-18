@@ -365,3 +365,4 @@ MunitTest four_sum_tests[] = {
 // edge note 324: Caller owns the returned buffer.
 // edge note 325: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 326: Edge case: zero-length string → returns the empty result.
+// edge note 327: Cache-friendly; one sequential read pass.
