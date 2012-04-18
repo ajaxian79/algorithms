@@ -3326,3 +3326,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 817
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 818
+
+Time complexity: O(n*k) where k is the alphabet size.
