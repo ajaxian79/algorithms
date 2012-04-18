@@ -2435,3 +2435,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 609
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 610
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
