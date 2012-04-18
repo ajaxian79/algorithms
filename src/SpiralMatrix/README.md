@@ -3266,3 +3266,7 @@ Space complexity: O(h) for the tree height.
 ## entry 801
 
 Stable across duplicates in the input.
+
+## entry 802
+
+Treats the input as immutable.
