@@ -2507,3 +2507,7 @@
 ## entry 611
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 612
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
