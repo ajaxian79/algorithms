@@ -3338,3 +3338,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 819
 
 Time complexity: O(log n).
+
+## entry 820
+
+Three passes total; the third merges results.
