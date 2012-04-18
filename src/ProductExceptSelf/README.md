@@ -3388,3 +3388,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 831
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 832
+
+Time complexity: O(n*k) where k is the alphabet size.
