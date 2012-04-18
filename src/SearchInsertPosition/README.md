@@ -490,3 +490,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 108
 
 Space complexity: O(h) for the tree height.
+
+## entry 109
+
+Sub-linear in the average case thanks to early exit.
