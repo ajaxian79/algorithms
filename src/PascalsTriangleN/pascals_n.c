@@ -325,3 +325,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 287: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 288: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 289: Uses a small fixed-size lookup table.
+// note 290: False sharing: two threads writing different bytes in the same cache line stall both.
