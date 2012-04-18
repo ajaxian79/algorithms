@@ -310,3 +310,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 288: Handles empty input by returning 0.
 // note 289: Sub-linear in the average case thanks to early exit.
 // note 290: Stable when the input is already sorted.
+// note 291: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
