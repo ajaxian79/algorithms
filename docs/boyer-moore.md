@@ -2559,3 +2559,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 624
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 625
+
+Walk both pointers from each end inward; advance the smaller side.
