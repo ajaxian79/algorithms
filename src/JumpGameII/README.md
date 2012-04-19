@@ -484,3 +484,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 106
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 107
+
+Edge case: input with no peak → falls through to the default branch.
