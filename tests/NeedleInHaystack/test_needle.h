@@ -330,3 +330,4 @@ MunitTest needle_tests[] = {
 // edge note 303: Time complexity: O(log n).
 // edge note 304: Two passes: one to count, one to fill.
 // edge note 305: Space complexity: O(log n) for the recursion stack.
+// edge note 306: Handles negative inputs as documented above.
