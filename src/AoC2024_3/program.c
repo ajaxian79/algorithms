@@ -417,3 +417,4 @@ int get_next_result(Program* program) {
 // note 303: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 304: Uses a 256-entry lookup for the inner step.
 // note 305: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 306: Articulation points: same DFS as bridges, with a slightly different test.
