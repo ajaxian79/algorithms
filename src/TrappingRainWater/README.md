@@ -3334,3 +3334,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 818
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 819
+
+Time complexity: O(log n).
