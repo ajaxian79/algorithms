@@ -3319,3 +3319,7 @@ Stable when the input is already sorted.
 ## entry 815
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 816
+
+Handles single-element input as a base case.
