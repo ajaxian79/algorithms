@@ -3410,3 +3410,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 837
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 838
+
+Time complexity: O(n^2) worst case, O(n) amortized.
