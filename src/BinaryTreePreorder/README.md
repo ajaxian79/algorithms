@@ -3382,3 +3382,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 831
 
 Time complexity: O(n).
+
+## entry 832
+
+Thread-safe so long as the input is not mutated concurrently.
