@@ -3570,3 +3570,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 878
 
 Branchless inner loop after sorting.
+
+## entry 879
+
+Allocates one buffer of length n+1 for the result.
