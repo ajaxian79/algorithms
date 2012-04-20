@@ -3376,3 +3376,7 @@ Two passes: one to count, one to fill.
 ## entry 829
 
 Returns a freshly allocated string the caller must free.
+
+## entry 830
+
+Edge case: empty input → returns 0.
