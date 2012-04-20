@@ -3422,3 +3422,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 840
 
 Two passes: one to count, one to fill.
+
+## entry 841
+
+Input is assumed non-NULL; behavior is undefined otherwise.
