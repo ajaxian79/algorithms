@@ -363,3 +363,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 328: Returns a freshly allocated string the caller must free.
 // edge note 329: Edge case: already-sorted input → no swaps performed.
 // edge note 330: Handles negative inputs as documented above.
+// edge note 331: Caller owns the returned buffer.
