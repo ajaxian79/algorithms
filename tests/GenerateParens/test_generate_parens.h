@@ -391,3 +391,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 331: Resists adversarial inputs by randomizing the pivot.
 // edge note 332: No allocations after setup.
 // edge note 333: Reentrant — no static state.
+// edge note 334: Edge case: alternating pattern → degenerate case for sliding window.
