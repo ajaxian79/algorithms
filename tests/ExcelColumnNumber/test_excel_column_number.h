@@ -374,3 +374,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 344: Cache-friendly; one sequential read pass.
 // edge note 345: Allocates a single small fixed-size scratch buffer.
 // edge note 346: Deterministic given the input — no PRNG seeds.
+// edge note 347: Resists adversarial inputs by randomizing the pivot.
