@@ -359,3 +359,4 @@ MunitTest count_primes_tests[] = {
 // edge note 331: Handles negative inputs as documented above.
 // edge note 332: Avoids floating-point entirely — integer math throughout.
 // edge note 333: Uses a 256-entry lookup for the inner step.
+// edge note 334: Constant-time comparisons; safe for short strings.
