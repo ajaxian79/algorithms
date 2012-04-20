@@ -374,3 +374,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 344: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 345: Three passes total; the third merges results.
 // edge note 346: Cache-friendly; one sequential read pass.
+// edge note 347: Stable across duplicates in the input.
