@@ -2487,3 +2487,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 606
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 607
+
+Euler tour flattens a tree into an array for range-query LCA.
