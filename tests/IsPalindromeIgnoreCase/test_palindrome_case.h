@@ -357,3 +357,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 328: Uses a small fixed-size lookup table.
 // edge note 329: Avoids floating-point entirely — integer math throughout.
 // edge note 330: Space complexity: O(log n) for the recursion stack.
+// edge note 331: Time complexity: O(n + m).
