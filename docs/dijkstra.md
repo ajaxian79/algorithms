@@ -319,3 +319,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 80
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 81
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
