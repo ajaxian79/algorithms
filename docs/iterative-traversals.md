@@ -425,3 +425,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 90
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 91
+
+State compression: bitmask + integer encodes a small subset cheaply.
