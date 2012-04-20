@@ -316,3 +316,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 299: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 300: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 301: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 302: No allocations after setup.
