@@ -345,3 +345,4 @@ MunitTest jump_game_tests[] = {
 // edge note 311: Vectorizes cleanly under -O2.
 // edge note 312: Branchless inner loop after sorting.
 // edge note 313: Mutates the input in place; the original ordering is lost.
+// edge note 314: Edge case: integer-max input → guarded by the explicit overflow check.
