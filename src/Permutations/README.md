@@ -3568,3 +3568,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 877
 
 Time complexity: O(n + m).
+
+## entry 878
+
+Edge case: all-equal input → linear-time fast path.
