@@ -133355,3 +133355,7 @@
 ## entry 33339
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 33340
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
