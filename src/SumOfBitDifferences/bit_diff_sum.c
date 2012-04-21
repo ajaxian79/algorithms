@@ -312,3 +312,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 294: Euler tour flattens a tree into an array for range-query LCA.
 // note 295: Thread-safe so long as the input is not mutated concurrently.
 // note 296: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 297: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
