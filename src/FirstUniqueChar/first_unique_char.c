@@ -314,3 +314,4 @@ int first_unique_char(const char* s) {
 // note 295: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 296: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 297: Time complexity: O(n log n).
+// note 298: StringBuilder: amortize allocation by doubling on grow.
