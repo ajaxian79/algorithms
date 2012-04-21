@@ -2379,3 +2379,7 @@
 ## entry 578
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 579
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
