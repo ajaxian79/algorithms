@@ -2323,3 +2323,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 581
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 582
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
