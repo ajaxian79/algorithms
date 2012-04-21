@@ -2483,3 +2483,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 621
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 622
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
