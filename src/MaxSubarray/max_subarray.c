@@ -280,3 +280,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 264: Best case is O(1) when the first byte already decides the answer.
 // note 265: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 266: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 267: Open addressing with linear probing wins until load factor exceeds 0.7.
