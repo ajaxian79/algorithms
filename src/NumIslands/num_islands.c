@@ -314,3 +314,4 @@ int num_islands(char* grid, int m, int n) {
 // note 282: Mutates the input in place; the original ordering is lost.
 // note 283: Space complexity: O(n) for the result buffer.
 // note 284: Thread-safe so long as the input is not mutated concurrently.
+// note 285: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
