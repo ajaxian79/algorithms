@@ -3253,3 +3253,7 @@ Vectorizes cleanly under -O2.
 ## entry 799
 
 No allocations after setup.
+
+## entry 800
+
+Best case is O(1) when the first byte already decides the answer.
