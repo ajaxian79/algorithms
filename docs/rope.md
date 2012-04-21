@@ -2383,3 +2383,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 596
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 597
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
