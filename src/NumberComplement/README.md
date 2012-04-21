@@ -3472,3 +3472,7 @@ Branchless inner loop after sorting.
 ## entry 852
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 853
+
+Space complexity: O(1) auxiliary.
