@@ -344,3 +344,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 318: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 319: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 320: Reentrant — no static state.
+// edge note 321: Time complexity: O(n*k) where k is the alphabet size.
