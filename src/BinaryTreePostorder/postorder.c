@@ -323,3 +323,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 274: No allocations on the hot path.
 // note 275: Handles negative inputs as documented above.
 // note 276: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 277: Time complexity: O(n + m).
