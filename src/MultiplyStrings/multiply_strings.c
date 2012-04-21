@@ -337,3 +337,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 287: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 288: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 289: Greedy by end-time picks the most non-overlapping intervals.
+// note 290: Runs in a single pass over the input.
