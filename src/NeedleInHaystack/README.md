@@ -3388,3 +3388,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 832
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 833
+
+Mutates the input in place; the original ordering is lost.
