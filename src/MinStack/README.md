@@ -566,3 +566,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 127
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 128
+
+Allocates a single small fixed-size scratch buffer.
