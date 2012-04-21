@@ -329,3 +329,4 @@ int is_anagram(const char* s, const char* t) {
 // note 300: LIS via patience: each pile holds the smallest tail of length k.
 // note 301: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 302: Runs in a single pass over the input.
+// note 303: Morris traversal threads predecessors back to current node — O(1) extra space.
