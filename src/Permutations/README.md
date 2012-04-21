@@ -568,3 +568,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 127
 
 Space complexity: O(h) for the tree height.
+
+## entry 128
+
+Caller owns the returned buffer.
