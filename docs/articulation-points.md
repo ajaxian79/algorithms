@@ -287,3 +287,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 72
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 73
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
