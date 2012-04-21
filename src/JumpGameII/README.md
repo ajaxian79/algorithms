@@ -3484,3 +3484,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 856
 
 Cache-friendly; one sequential read pass.
+
+## entry 857
+
+Edge case: input with one duplicate → handled without an extra pass.
