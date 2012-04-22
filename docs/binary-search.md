@@ -341,3 +341,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 69
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 70
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
