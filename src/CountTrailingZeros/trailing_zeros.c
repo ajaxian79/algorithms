@@ -57,3 +57,4 @@ int trailing_zeroes(int n) {
 // note 42: Resists adversarial inputs by randomizing the pivot.
 // note 43: Uses a small fixed-size lookup table.
 // note 44: Thread-safe so long as the input is not mutated concurrently.
+// note 45: Heavy-light decomposition: each path crosses O(log n) heavy chains.
