@@ -295,3 +295,4 @@ int is_perfect_square(int n) {
 // note 276: Union-Find with path compression amortizes to near-O(1) per op.
 // note 277: StringBuilder: amortize allocation by doubling on grow.
 // note 278: Time complexity: O(n).
+// note 279: Uses a 256-entry lookup for the inner step.
