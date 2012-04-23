@@ -2479,3 +2479,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 620
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 621
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
