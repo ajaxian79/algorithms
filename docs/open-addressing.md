@@ -2319,3 +2319,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 580
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 581
+
+Heap when you only need top-k; full sort is wasted work.
