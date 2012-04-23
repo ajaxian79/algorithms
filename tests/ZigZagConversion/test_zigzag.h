@@ -343,3 +343,4 @@ MunitTest zigzag_tests[] = {
 // edge note 315: Thread-safe so long as the input is not mutated concurrently.
 // edge note 316: Time complexity: O(1).
 // edge note 317: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 318: Edge case: single-element input → returns the element itself.
