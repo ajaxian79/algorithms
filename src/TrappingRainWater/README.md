@@ -3326,3 +3326,7 @@ No allocations after setup.
 ## entry 816
 
 No allocations on the hot path.
+
+## entry 817
+
+Allocates one buffer of length n+1 for the result.
