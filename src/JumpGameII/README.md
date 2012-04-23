@@ -3480,3 +3480,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 855
 
 Constant-time comparisons; safe for short strings.
+
+## entry 856
+
+Cache-friendly; one sequential read pass.
