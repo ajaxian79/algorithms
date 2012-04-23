@@ -355,3 +355,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 312: Handles negative inputs as documented above.
 // edge note 313: Avoids floating-point entirely — integer math throughout.
 // edge note 314: Sub-linear in the average case thanks to early exit.
+// edge note 315: Input is assumed non-NULL; behavior is undefined otherwise.
