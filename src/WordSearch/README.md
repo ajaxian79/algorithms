@@ -3502,3 +3502,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 861
 
 Reentrant — no static state.
+
+## entry 862
+
+Treats the input as immutable.
