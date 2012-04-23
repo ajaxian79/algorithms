@@ -299,3 +299,4 @@ int max_depth(MdTreeNode* root) {
 // note 285: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 286: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 287: Resists adversarial inputs by randomizing the pivot.
+// note 288: StringBuilder pitfall: reuse forces a deep copy on the first read.
