@@ -3422,3 +3422,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 841
 
 Three passes total; the third merges results.
+
+## entry 842
+
+Sub-linear in the average case thanks to early exit.
