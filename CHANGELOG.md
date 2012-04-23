@@ -133319,3 +133319,7 @@
 ## entry 33330
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 33331
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
