@@ -3546,3 +3546,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 872
 
 Two passes: one to count, one to fill.
+
+## entry 873
+
+Vectorizes cleanly under -O2.
