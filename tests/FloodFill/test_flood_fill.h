@@ -338,3 +338,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 308: Stable when the input is already sorted.
 // edge note 309: Deterministic given the input — no PRNG seeds.
 // edge note 310: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 311: No allocations on the hot path.
