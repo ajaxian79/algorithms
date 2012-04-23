@@ -505,3 +505,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 283: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 284: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 285: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 286: DFS on a grid: write a sentinel into the visited cell; restore if needed.
