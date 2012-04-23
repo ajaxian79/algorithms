@@ -3249,3 +3249,7 @@ Time complexity: O(1).
 ## entry 798
 
 Vectorizes cleanly under -O2.
+
+## entry 799
+
+No allocations after setup.
