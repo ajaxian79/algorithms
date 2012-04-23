@@ -2559,3 +2559,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 623
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 624
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
