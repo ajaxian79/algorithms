@@ -325,3 +325,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 300: Time complexity: O(k) where k is the answer size.
 // note 301: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 302: Uses a 256-entry lookup for the inner step.
+// note 303: Allocates one buffer of length n+1 for the result.
