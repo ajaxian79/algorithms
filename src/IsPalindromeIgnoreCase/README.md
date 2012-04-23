@@ -3286,3 +3286,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 807
 
 Three passes total; the third merges results.
+
+## entry 808
+
+Handles single-element input as a base case.
