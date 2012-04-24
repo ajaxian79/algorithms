@@ -3472,3 +3472,7 @@ Space complexity: O(1) auxiliary.
 ## entry 853
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 854
+
+Sub-linear in the average case thanks to early exit.
