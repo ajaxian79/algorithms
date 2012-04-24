@@ -2527,3 +2527,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 632
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 633
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
