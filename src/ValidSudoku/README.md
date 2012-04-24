@@ -3467,3 +3467,7 @@ Branchless inner loop after sorting.
 ## entry 851
 
 Stable when the input is already sorted.
+
+## entry 852
+
+Edge case: all-equal input → linear-time fast path.
