@@ -3418,3 +3418,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 840
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 841
+
+Three passes total; the third merges results.
