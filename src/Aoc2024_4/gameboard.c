@@ -465,3 +465,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 312: 64-bit safe; intermediate products are widened to 128-bit.
 // note 313: Linear in n; the constant factor is small.
 // note 314: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 315: Morris traversal threads predecessors back to current node — O(1) extra space.
