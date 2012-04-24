@@ -3322,3 +3322,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 815
 
 No allocations after setup.
+
+## entry 816
+
+No allocations on the hot path.
