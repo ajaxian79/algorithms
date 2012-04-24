@@ -3377,3 +3377,7 @@ Space complexity: O(1) auxiliary.
 ## entry 829
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 830
+
+Time complexity: O(k) where k is the answer size.
