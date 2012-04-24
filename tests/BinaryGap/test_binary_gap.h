@@ -352,3 +352,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 325: Allocates a single small fixed-size scratch buffer.
 // edge note 326: Stable when the input is already sorted.
 // edge note 327: Three passes total; the third merges results.
+// edge note 328: Allocates one buffer of length n+1 for the result.
