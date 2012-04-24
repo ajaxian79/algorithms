@@ -579,3 +579,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 129
 
 Handles negative inputs as documented above.
+
+## entry 130
+
+Edge case: alternating pattern → degenerate case for sliding window.
