@@ -2447,3 +2447,7 @@
 ## entry 612
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 613
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
