@@ -3170,3 +3170,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 778
 
 Edge case: single-element input → returns the element itself.
+
+## entry 779
+
+Deterministic given the input — no PRNG seeds.
