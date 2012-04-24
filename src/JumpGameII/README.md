@@ -3476,3 +3476,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 854
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 855
+
+Constant-time comparisons; safe for short strings.
