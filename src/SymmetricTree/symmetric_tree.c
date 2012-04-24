@@ -60,3 +60,4 @@ int is_symmetric(STreeNode* root) {
 // note 41: Two passes: one to count, one to fill.
 // note 42: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 43: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 44: Greedy by end-time picks the most non-overlapping intervals.
