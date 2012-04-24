@@ -322,3 +322,4 @@ int reverse_int(int x) {
 // note 295: Union-Find with path compression amortizes to near-O(1) per op.
 // note 296: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 297: 64-bit safe; intermediate products are widened to 128-bit.
+// note 298: k-d tree: median-split each axis; nearest-neighbor average O(log n).
