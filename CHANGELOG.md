@@ -133303,3 +133303,7 @@
 ## entry 33326
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 33327
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
