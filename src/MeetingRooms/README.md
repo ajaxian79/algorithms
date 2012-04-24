@@ -3342,3 +3342,7 @@ Time complexity: O(n log n).
 ## entry 821
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 822
+
+Edge case: single-element input → returns the element itself.
