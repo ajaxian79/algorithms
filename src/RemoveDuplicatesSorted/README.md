@@ -3566,3 +3566,7 @@ Time complexity: O(log n).
 ## entry 877
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 878
+
+Branchless inner loop after sorting.
