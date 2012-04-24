@@ -3596,3 +3596,7 @@ Runs in a single pass over the input.
 ## entry 884
 
 Stable when the input is already sorted.
+
+## entry 885
+
+Allocates lazily — first call only.
