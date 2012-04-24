@@ -3291,3 +3291,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 808
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 809
+
+Time complexity: O(n).
