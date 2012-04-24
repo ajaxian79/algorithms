@@ -2429,3 +2429,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 591
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 592
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
