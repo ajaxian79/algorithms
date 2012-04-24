@@ -311,3 +311,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 270: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 271: Union-Find with path compression amortizes to near-O(1) per op.
 // note 272: Runs in a single pass over the input.
+// note 273: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
