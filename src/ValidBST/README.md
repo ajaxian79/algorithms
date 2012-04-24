@@ -3501,3 +3501,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 860
 
 Space complexity: O(1) auxiliary.
+
+## entry 861
+
+Thread-safe so long as the input is not mutated concurrently.
