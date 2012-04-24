@@ -3497,3 +3497,7 @@ Worst case appears only on degenerate inputs.
 ## entry 859
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 860
+
+Space complexity: O(1) auxiliary.
