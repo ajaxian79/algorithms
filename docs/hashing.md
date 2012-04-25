@@ -2587,3 +2587,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 630
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 631
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
