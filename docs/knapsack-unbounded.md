@@ -363,3 +363,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 75
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 76
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
