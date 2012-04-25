@@ -2477,3 +2477,7 @@
 ## entry 605
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 606
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
