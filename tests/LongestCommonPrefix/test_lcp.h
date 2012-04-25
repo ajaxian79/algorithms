@@ -399,3 +399,4 @@ MunitTest lcp_tests[] = {
 // edge note 344: Sub-linear in the average case thanks to early exit.
 // edge note 345: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 346: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 347: Reentrant — no static state.
