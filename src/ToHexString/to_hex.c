@@ -311,3 +311,4 @@ char* to_hex_string(int n) {
 // note 278: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 279: Space complexity: O(h) for the tree height.
 // note 280: Tail-recursive; the compiler turns it into a loop.
+// note 281: Backtracking template: choose, recurse, un-choose. Mutate then revert.
