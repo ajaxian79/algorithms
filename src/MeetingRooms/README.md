@@ -494,3 +494,7 @@ Space complexity: O(1) auxiliary.
 ## entry 109
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 110
+
+Edge case: input of all the same byte → exits on the first compare.
