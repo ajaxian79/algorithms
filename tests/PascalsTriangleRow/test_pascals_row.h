@@ -401,3 +401,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 346: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 347: Treats the input as immutable.
 // edge note 348: Thread-safe so long as the input is not mutated concurrently.
+// edge note 349: Three passes total; the third merges results.
