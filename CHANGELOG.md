@@ -133259,3 +133259,7 @@
 ## entry 33315
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 33316
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
