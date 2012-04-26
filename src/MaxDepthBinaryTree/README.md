@@ -425,3 +425,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 92
 
 Handles single-element input as a base case.
+
+## entry 93
+
+No allocations after setup.
