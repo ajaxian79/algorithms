@@ -2379,3 +2379,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 577
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 578
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
