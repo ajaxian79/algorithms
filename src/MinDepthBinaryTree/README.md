@@ -3350,3 +3350,7 @@ Reentrant — no static state.
 ## entry 823
 
 32-bit safe; overflow is checked at each step.
+
+## entry 824
+
+Allocates one buffer of length n+1 for the result.
