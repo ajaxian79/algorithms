@@ -2583,3 +2583,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 629
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 630
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
