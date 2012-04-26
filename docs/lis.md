@@ -2575,3 +2575,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 627
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 628
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
