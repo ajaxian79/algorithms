@@ -3166,3 +3166,7 @@ Treats the input as immutable.
 ## entry 777
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 778
+
+Edge case: single-element input → returns the element itself.
