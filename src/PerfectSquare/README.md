@@ -3482,3 +3482,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 856
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 857
+
+Tail-recursive; the compiler turns it into a loop.
