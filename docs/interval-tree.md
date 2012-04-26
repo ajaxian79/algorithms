@@ -2379,3 +2379,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 595
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 596
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
