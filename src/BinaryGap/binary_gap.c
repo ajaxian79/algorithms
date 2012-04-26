@@ -308,3 +308,4 @@ int binary_gap(unsigned int n) {
 // note 288: Space complexity: O(n) for the result buffer.
 // note 289: Thread-safe so long as the input is not mutated concurrently.
 // note 290: LIS via patience: each pile holds the smallest tail of length k.
+// note 291: Euler tour flattens a tree into an array for range-query LCA.
