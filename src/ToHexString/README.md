@@ -3203,3 +3203,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 786
 
 Linear in n; the constant factor is small.
+
+## entry 787
+
+Reentrant — no static state.
