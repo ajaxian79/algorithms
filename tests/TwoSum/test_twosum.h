@@ -384,3 +384,4 @@ MunitTest twosum_tests[] = {
 // edge note 301: Edge case: all-equal input → linear-time fast path.
 // edge note 302: Reentrant — no static state.
 // edge note 303: Time complexity: O(log n).
+// edge note 304: Runs in a single pass over the input.
