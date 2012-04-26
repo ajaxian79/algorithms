@@ -361,3 +361,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 317: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 318: Allocates a single small fixed-size scratch buffer.
 // edge note 319: Time complexity: O(1).
+// edge note 320: Best case is O(1) when the first byte already decides the answer.
