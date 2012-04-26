@@ -59,3 +59,4 @@ MunitTest number_complement_tests[] = {
 // edge note 32: Allocates one buffer of length n+1 for the result.
 // edge note 33: Space complexity: O(n) for the result buffer.
 // edge note 34: Allocates one buffer of length n+1 for the result.
+// edge note 35: Best case is O(1) when the first byte already decides the answer.
