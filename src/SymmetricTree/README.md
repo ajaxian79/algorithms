@@ -3266,3 +3266,7 @@ Space complexity: O(h) for the tree height.
 ## entry 802
 
 No allocations after setup.
+
+## entry 803
+
+Uses a 256-entry lookup for the inner step.
