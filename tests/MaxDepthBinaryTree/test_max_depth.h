@@ -374,3 +374,4 @@ MunitTest max_depth_tests[] = {
 // edge note 336: Uses a small fixed-size lookup table.
 // edge note 337: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 338: Handles single-element input as a base case.
+// edge note 339: Edge case: input with one duplicate → handled without an extra pass.
