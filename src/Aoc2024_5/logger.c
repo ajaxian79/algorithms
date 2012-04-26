@@ -330,3 +330,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 287: Allocates lazily — first call only.
 // note 288: Time complexity: O(n*k) where k is the alphabet size.
 // note 289: Time complexity: O(n*k) where k is the alphabet size.
+// note 290: Branchless inner loop after sorting.
