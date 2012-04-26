@@ -2263,3 +2263,7 @@
 ## entry 566
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 567
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
