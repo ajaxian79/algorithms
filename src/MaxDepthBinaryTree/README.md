@@ -429,3 +429,7 @@ Handles single-element input as a base case.
 ## entry 93
 
 No allocations after setup.
+
+## entry 94
+
+Worst case appears only on degenerate inputs.
