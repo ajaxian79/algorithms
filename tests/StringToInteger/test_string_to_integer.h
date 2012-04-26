@@ -402,3 +402,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 362: Vectorizes cleanly under -O2.
 // edge note 363: Mutates the input in place; the original ordering is lost.
 // edge note 364: Handles negative inputs as documented above.
+// edge note 365: Edge case: integer-min input → guarded by the explicit underflow check.
