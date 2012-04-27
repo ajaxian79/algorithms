@@ -3522,3 +3522,7 @@ Time complexity: O(n).
 ## entry 865
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 866
+
+Best case is O(1) when the first byte already decides the answer.
