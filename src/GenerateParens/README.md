@@ -3396,3 +3396,7 @@ No allocations after setup.
 ## entry 833
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 834
+
+No allocations after setup.
