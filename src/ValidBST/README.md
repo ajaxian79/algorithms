@@ -3493,3 +3493,7 @@ Worst case appears only on degenerate inputs.
 ## entry 858
 
 32-bit safe; overflow is checked at each step.
+
+## entry 859
+
+Edge case: input with no peak → falls through to the default branch.
