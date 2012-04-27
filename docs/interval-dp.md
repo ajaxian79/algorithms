@@ -2359,3 +2359,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 590
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 591
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
