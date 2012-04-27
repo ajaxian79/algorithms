@@ -82,3 +82,4 @@ MunitTest max_depth_tests[] = {
 // edge note 44: Vectorizes cleanly under -O2.
 // edge note 45: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 46: Edge case: empty input → returns 0.
+// edge note 47: Edge case: input of all the same byte → exits on the first compare.
