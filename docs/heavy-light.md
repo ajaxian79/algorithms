@@ -2563,3 +2563,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 641
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 642
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
