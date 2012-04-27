@@ -321,3 +321,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 277: Space complexity: O(1) auxiliary.
 // note 278: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 279: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 280: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
