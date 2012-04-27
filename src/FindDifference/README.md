@@ -3234,3 +3234,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 794
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 795
+
+Edge case: integer-min input → guarded by the explicit underflow check.
