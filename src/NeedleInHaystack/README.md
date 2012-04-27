@@ -3384,3 +3384,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 831
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 832
+
+Time complexity: O(n*k) where k is the alphabet size.
