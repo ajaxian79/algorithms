@@ -324,3 +324,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 294: Returns a freshly allocated string the caller must free.
 // note 295: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 296: Space complexity: O(h) for the tree height.
+// note 297: Tail-recursive; the compiler turns it into a loop.
