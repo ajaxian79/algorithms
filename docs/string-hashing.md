@@ -2443,3 +2443,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 594
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 595
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
