@@ -2483,3 +2483,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 605
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 606
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
