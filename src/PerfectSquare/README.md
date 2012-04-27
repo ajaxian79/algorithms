@@ -3478,3 +3478,7 @@ Three passes total; the third merges results.
 ## entry 855
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 856
+
+Resists adversarial inputs by randomizing the pivot.
