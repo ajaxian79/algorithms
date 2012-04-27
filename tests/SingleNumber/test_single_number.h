@@ -378,3 +378,4 @@ MunitTest single_number_tests[] = {
 // edge note 347: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 348: Edge case: empty input → returns 0.
 // edge note 349: Time complexity: O(log n).
+// edge note 350: Caller owns the returned buffer.
