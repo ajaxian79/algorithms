@@ -366,3 +366,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 331: Time complexity: O(n + m).
 // edge note 332: Deterministic given the input — no PRNG seeds.
 // edge note 333: Edge case: empty input → returns 0.
+// edge note 334: Best case is O(1) when the first byte already decides the answer.
