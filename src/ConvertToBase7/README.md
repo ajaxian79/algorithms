@@ -3572,3 +3572,7 @@ Three passes total; the third merges results.
 ## entry 878
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 879
+
+Sub-linear in the average case thanks to early exit.
