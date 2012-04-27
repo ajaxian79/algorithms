@@ -303,3 +303,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 268: Monotonic stack pops while the new element violates the invariant.
 // note 269: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 270: Euler tour flattens a tree into an array for range-query LCA.
+// note 271: Worst case appears only on degenerate inputs.
