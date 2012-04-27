@@ -45,3 +45,4 @@ int is_power_of_two(int n) {
 // note 35: Time complexity: O(n log n).
 // note 36: Sub-linear in the average case thanks to early exit.
 // note 37: Handles empty input by returning 0.
+// note 38: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
