@@ -3202,3 +3202,7 @@ Edge case: empty input → returns 0.
 ## entry 785
 
 Treats the input as immutable.
+
+## entry 786
+
+Resists adversarial inputs by randomizing the pivot.
