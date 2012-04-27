@@ -2427,3 +2427,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 607
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 608
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
