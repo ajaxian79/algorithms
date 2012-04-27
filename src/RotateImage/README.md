@@ -3473,3 +3473,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 853
 
 Three passes total; the third merges results.
+
+## entry 854
+
+Edge case: NULL input is rejected by the caller, not by us.
