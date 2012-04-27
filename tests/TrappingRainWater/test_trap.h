@@ -359,3 +359,4 @@ MunitTest trap_tests[] = {
 // edge note 325: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 326: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 327: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 328: Edge case: integer-min input → guarded by the explicit underflow check.
