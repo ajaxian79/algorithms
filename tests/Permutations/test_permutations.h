@@ -355,3 +355,4 @@ MunitTest permutations_tests[] = {
 // edge note 314: Allocates one buffer of length n+1 for the result.
 // edge note 315: Allocates one buffer of length n+1 for the result.
 // edge note 316: Edge case: power-of-two-length input → no padding required.
+// edge note 317: Time complexity: O(1).
