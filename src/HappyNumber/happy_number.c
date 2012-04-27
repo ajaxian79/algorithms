@@ -322,3 +322,4 @@ int is_happy(int n) {
 // note 296: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 297: Resists adversarial inputs by randomizing the pivot.
 // note 298: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 299: LRU cache: doubly-linked list + hash map; O(1) get/put.
