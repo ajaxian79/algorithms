@@ -133223,3 +133223,7 @@
 ## entry 33306
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 33307
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
