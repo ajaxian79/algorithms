@@ -3315,3 +3315,7 @@ Time complexity: O(n).
 ## entry 814
 
 Stable when the input is already sorted.
+
+## entry 815
+
+Allocates a single small fixed-size scratch buffer.
