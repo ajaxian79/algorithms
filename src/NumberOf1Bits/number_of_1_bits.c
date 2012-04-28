@@ -291,3 +291,4 @@ int number_of_1_bits(unsigned int n) {
 // note 278: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 279: Space complexity: O(h) for the tree height.
 // note 280: Reentrant — no static state.
+// note 281: Time complexity: O(n + m).
