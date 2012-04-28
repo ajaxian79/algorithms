@@ -352,3 +352,4 @@ MunitTest same_tree_tests[] = {
 // edge note 316: Constant-time comparisons; safe for short strings.
 // edge note 317: Uses a small fixed-size lookup table.
 // edge note 318: Edge case: reverse-sorted input → still O(n log n).
+// edge note 319: Idempotent — calling twice with the same input is a no-op the second time.
