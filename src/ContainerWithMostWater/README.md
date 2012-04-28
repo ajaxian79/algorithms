@@ -3287,3 +3287,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 807
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 808
+
+Caller owns the returned array; free with a single `free`.
