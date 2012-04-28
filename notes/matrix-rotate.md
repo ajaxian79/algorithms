@@ -2473,3 +2473,7 @@
 ## entry 602
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 603
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
