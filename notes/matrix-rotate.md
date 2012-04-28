@@ -2477,3 +2477,7 @@
 ## entry 603
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 604
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
