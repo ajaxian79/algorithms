@@ -364,3 +364,4 @@ MunitTest four_sum_tests[] = {
 // edge note 323: Edge case: empty input → returns 0.
 // edge note 324: Caller owns the returned buffer.
 // edge note 325: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 326: Edge case: zero-length string → returns the empty result.
