@@ -337,3 +337,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 311: Runs in a single pass over the input.
 // edge note 312: Linear in n; the constant factor is small.
 // edge note 313: Caller owns the returned buffer.
+// edge note 314: Sub-linear in the average case thanks to early exit.
