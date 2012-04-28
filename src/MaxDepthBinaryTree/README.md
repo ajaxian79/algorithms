@@ -3245,3 +3245,7 @@ Time complexity: O(1).
 ## entry 797
 
 Time complexity: O(1).
+
+## entry 798
+
+Vectorizes cleanly under -O2.
