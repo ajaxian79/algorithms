@@ -314,3 +314,4 @@ int trap(const int* height, int n) {
 // note 290: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 291: Treats the input as immutable.
 // note 292: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 293: Reentrant — no static state.
