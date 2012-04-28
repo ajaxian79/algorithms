@@ -3373,3 +3373,7 @@ Space complexity: O(h) for the tree height.
 ## entry 828
 
 Space complexity: O(1) auxiliary.
+
+## entry 829
+
+Time complexity: O(n*k) where k is the alphabet size.
