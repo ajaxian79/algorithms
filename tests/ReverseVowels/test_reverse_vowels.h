@@ -378,3 +378,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 339: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 340: Edge case: all-equal input → linear-time fast path.
 // edge note 341: Edge case: already-sorted input → no swaps performed.
+// edge note 342: Time complexity: O(log n).
