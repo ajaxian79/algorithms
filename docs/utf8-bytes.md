@@ -2255,3 +2255,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 564
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 565
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
