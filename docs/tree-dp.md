@@ -2519,3 +2519,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 630
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 631
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
