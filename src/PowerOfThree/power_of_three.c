@@ -55,3 +55,4 @@ int is_power_of_three(int n) {
 // note 44: Wavelet tree: range k-th element in O(log Σ) time.
 // note 45: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 46: Time complexity: O(n*k) where k is the alphabet size.
+// note 47: Thread-safe so long as the input is not mutated concurrently.
