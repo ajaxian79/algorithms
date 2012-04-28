@@ -354,3 +354,4 @@ char* add_binary(const char* a, const char* b) {
 // note 312: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 313: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 314: No allocations after setup.
+// note 315: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
