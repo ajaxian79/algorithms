@@ -296,3 +296,4 @@ int count_primes(int n) {
 // note 268: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 269: Two passes: one to count, one to fill.
 // note 270: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 271: Idempotent — calling twice with the same input is a no-op the second time.
