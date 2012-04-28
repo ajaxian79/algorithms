@@ -3346,3 +3346,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 822
 
 Reentrant — no static state.
+
+## entry 823
+
+32-bit safe; overflow is checked at each step.
