@@ -3293,3 +3293,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 808
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 809
+
+Edge case: empty input → returns 0.
