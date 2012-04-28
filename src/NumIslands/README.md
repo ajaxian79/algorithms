@@ -3209,3 +3209,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 787
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 788
+
+Edge case: integer-min input → guarded by the explicit underflow check.
