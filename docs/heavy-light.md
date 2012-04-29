@@ -2559,3 +2559,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 640
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 641
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
