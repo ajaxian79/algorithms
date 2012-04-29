@@ -3536,3 +3536,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 869
 
 Runs in a single pass over the input.
+
+## entry 870
+
+Allocates a single small fixed-size scratch buffer.
