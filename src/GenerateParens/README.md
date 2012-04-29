@@ -3392,3 +3392,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 832
 
 No allocations after setup.
+
+## entry 833
+
+Input is assumed non-NULL; behavior is undefined otherwise.
