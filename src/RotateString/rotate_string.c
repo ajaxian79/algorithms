@@ -301,3 +301,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 275: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 276: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 277: Handles negative inputs as documented above.
+// note 278: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
