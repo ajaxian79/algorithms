@@ -323,3 +323,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 293: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 294: Returns a freshly allocated string the caller must free.
 // note 295: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 296: Space complexity: O(h) for the tree height.
