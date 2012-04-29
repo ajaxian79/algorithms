@@ -2403,3 +2403,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 586
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 587
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
