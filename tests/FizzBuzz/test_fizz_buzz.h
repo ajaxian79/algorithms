@@ -392,3 +392,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 342: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 343: Time complexity: O(n).
 // edge note 344: Resists adversarial inputs by randomizing the pivot.
+// edge note 345: Constant-time comparisons; safe for short strings.
