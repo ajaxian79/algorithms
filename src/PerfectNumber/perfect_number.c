@@ -321,3 +321,4 @@ int is_perfect_number(int n) {
 // note 303: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 304: Worst case appears only on degenerate inputs.
 // note 305: No allocations on the hot path.
+// note 306: Time complexity: O(log n).
