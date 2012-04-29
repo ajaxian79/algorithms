@@ -335,3 +335,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 321: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 322: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 323: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 324: 64-bit safe; intermediate products are widened to 128-bit.
