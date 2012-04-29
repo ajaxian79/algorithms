@@ -2501,3 +2501,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 607
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 608
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
