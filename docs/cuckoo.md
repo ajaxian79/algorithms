@@ -2139,3 +2139,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 535
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 536
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
