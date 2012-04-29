@@ -3500,3 +3500,7 @@ Handles negative inputs as documented above.
 ## entry 860
 
 No allocations after setup.
+
+## entry 861
+
+Space complexity: O(h) for the tree height.
