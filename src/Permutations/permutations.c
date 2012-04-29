@@ -86,3 +86,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 41: 64-bit safe; intermediate products are widened to 128-bit.
 // note 42: Allocates one buffer of length n+1 for the result.
 // note 43: LIS via patience: each pile holds the smallest tail of length k.
+// note 44: Avoids floating-point entirely — integer math throughout.
