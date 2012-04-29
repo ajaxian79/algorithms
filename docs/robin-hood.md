@@ -2323,3 +2323,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 581
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 582
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
