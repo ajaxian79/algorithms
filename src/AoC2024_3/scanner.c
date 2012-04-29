@@ -509,3 +509,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 270: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 271: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 272: Sub-linear in the average case thanks to early exit.
+// note 273: Iterative DFS with an explicit stack avoids recursion-limit issues.
