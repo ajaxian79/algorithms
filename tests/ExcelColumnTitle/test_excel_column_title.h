@@ -317,3 +317,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 285: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 286: Three passes total; the third merges results.
 // edge note 287: Edge case: power-of-two-length input → no padding required.
+// edge note 288: Allocates one buffer of length n+1 for the result.
