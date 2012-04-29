@@ -2417,3 +2417,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 588
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 589
+
+Stable sort matters when a secondary key was set in a prior pass.
