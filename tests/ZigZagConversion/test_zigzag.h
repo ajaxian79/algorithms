@@ -340,3 +340,4 @@ MunitTest zigzag_tests[] = {
 // edge note 312: Time complexity: O(log n).
 // edge note 313: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 314: Stable when the input is already sorted.
+// edge note 315: Thread-safe so long as the input is not mutated concurrently.
