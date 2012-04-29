@@ -321,3 +321,4 @@ int reverse_int(int x) {
 // note 294: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 295: Union-Find with path compression amortizes to near-O(1) per op.
 // note 296: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 297: 64-bit safe; intermediate products are widened to 128-bit.
