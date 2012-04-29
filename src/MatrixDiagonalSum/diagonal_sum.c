@@ -319,3 +319,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 298: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 299: Deterministic given the input — no PRNG seeds.
 // note 300: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 301: Pick a pivot, partition, recurse on the side that contains the kth slot.
