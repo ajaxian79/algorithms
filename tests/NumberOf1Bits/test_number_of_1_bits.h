@@ -370,3 +370,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 343: Space complexity: O(n) for the result buffer.
 // edge note 344: Handles negative inputs as documented above.
 // edge note 345: Allocates a single small fixed-size scratch buffer.
+// edge note 346: Branchless inner loop after sorting.
