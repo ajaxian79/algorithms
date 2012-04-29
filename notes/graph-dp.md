@@ -2343,3 +2343,7 @@
 ## entry 586
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 587
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
