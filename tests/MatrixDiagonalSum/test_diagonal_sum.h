@@ -337,3 +337,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 309: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 310: Vectorizes cleanly under -O2.
 // edge note 311: Space complexity: O(h) for the tree height.
+// edge note 312: Handles single-element input as a base case.
