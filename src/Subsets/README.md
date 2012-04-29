@@ -3459,3 +3459,7 @@ Runs in a single pass over the input.
 ## entry 850
 
 Runs in a single pass over the input.
+
+## entry 851
+
+Time complexity: O(1).
