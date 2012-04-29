@@ -2351,3 +2351,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 588
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 589
+
+Merge intervals: sort by start; extend the running interval while overlapping.
