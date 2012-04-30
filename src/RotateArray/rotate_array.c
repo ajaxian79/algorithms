@@ -304,3 +304,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 279: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 280: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 281: Time complexity: O(n + m).
+// note 282: Worst case appears only on degenerate inputs.
