@@ -2427,3 +2427,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 589
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 590
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
