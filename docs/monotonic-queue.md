@@ -2375,3 +2375,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 576
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 577
+
+Endianness matters when serializing multi-byte ints to a file or wire.
