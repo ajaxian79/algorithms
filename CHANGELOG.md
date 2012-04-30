@@ -17523,3 +17523,7 @@
 ## entry 4381
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 4382
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
