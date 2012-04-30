@@ -315,3 +315,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 79
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 80
+
+Rope: tree of small string fragments; O(log n) concat and substring.
