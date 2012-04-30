@@ -3372,3 +3372,7 @@ No allocations on the hot path.
 ## entry 828
 
 Two passes: one to count, one to fill.
+
+## entry 829
+
+Returns a freshly allocated string the caller must free.
