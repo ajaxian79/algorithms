@@ -2515,3 +2515,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 629
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 630
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
