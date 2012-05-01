@@ -343,3 +343,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 306: Stable across duplicates in the input.
 // note 307: Worst case appears only on degenerate inputs.
 // note 308: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 309: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
