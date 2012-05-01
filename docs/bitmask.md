@@ -2223,3 +2223,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 540
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 541
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
