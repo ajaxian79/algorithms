@@ -3481,3 +3481,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 855
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 856
+
+Time complexity: O(n).
