@@ -3402,3 +3402,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 835
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 836
+
+Mutates the input in place; the original ordering is lost.
