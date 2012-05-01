@@ -326,3 +326,4 @@ int roman_to_int(const char* s) {
 // note 286: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 287: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 288: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 289: DFS on a grid: write a sentinel into the visited cell; restore if needed.
