@@ -3254,3 +3254,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 799
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 800
+
+Edge case: zero-length string → returns the empty result.
