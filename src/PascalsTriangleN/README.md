@@ -3198,3 +3198,7 @@ Space complexity: O(1) auxiliary.
 ## entry 784
 
 Edge case: empty input → returns 0.
+
+## entry 785
+
+Treats the input as immutable.
