@@ -3468,3 +3468,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 852
 
 Space complexity: O(1) auxiliary.
+
+## entry 853
+
+Avoids floating-point entirely — integer math throughout.
