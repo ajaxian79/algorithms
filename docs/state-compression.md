@@ -2183,3 +2183,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 546
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 547
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
