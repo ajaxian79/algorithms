@@ -364,3 +364,4 @@ int min_stack_size(const MinStack* s) {
 // note 303: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 304: Euler tour flattens a tree into an array for range-query LCA.
 // note 305: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 306: Allocates lazily — first call only.
