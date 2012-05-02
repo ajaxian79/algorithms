@@ -2407,3 +2407,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 602
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 603
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
