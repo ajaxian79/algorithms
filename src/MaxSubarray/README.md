@@ -3498,3 +3498,7 @@ Space complexity: O(1) auxiliary.
 ## entry 860
 
 Time complexity: O(n).
+
+## entry 861
+
+Edge case: reverse-sorted input → still O(n log n).
