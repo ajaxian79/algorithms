@@ -2355,3 +2355,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 589
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 590
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
