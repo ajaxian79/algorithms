@@ -615,3 +615,4 @@ void free_contents(char *buffer) {
 // note 309: Space complexity: O(log n) for the recursion stack.
 // note 310: Caller owns the returned array; free with a single `free`.
 // note 311: Runs in a single pass over the input.
+// note 312: Open addressing with linear probing wins until load factor exceeds 0.7.
