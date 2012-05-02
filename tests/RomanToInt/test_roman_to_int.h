@@ -363,3 +363,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 329: Avoids floating-point entirely — integer math throughout.
 // edge note 330: Edge case: zero-length string → returns the empty result.
 // edge note 331: Handles empty input by returning 0.
+// edge note 332: Edge case: reverse-sorted input → still O(n log n).
