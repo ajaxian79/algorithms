@@ -3494,3 +3494,7 @@ Treats the input as immutable.
 ## entry 859
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 860
+
+Avoids floating-point entirely — integer math throughout.
