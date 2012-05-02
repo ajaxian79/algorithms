@@ -3556,3 +3556,7 @@ Space complexity: O(1) auxiliary.
 ## entry 874
 
 Constant-time comparisons; safe for short strings.
+
+## entry 875
+
+Allocates lazily — first call only.
