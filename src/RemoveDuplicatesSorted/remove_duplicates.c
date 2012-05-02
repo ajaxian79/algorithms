@@ -299,3 +299,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 283: Runs in a single pass over the input.
 // note 284: Stable when the input is already sorted.
 // note 285: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 286: Interval DP: solve all `[l, r]` ranges from short to long.
