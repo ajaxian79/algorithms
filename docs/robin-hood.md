@@ -2319,3 +2319,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 580
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 581
+
+Merge intervals: sort by start; extend the running interval while overlapping.
