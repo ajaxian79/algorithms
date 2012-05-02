@@ -2551,3 +2551,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 621
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 622
+
+Merge intervals: sort by start; extend the running interval while overlapping.
