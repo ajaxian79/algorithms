@@ -62,3 +62,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 35: Uses a 256-entry lookup for the inner step.
 // edge note 36: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 37: Handles empty input by returning 0.
+// edge note 38: Best case is O(1) when the first byte already decides the answer.
