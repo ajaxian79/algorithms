@@ -2347,3 +2347,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 587
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 588
+
+Greedy by end-time picks the most non-overlapping intervals.
