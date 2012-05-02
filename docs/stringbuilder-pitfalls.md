@@ -2475,3 +2475,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 619
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 620
+
+LIS via patience: each pile holds the smallest tail of length k.
