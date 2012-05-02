@@ -3560,3 +3560,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 875
 
 Allocates lazily — first call only.
+
+## entry 876
+
+Edge case: zero-length string → returns the empty result.
