@@ -3410,3 +3410,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 837
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 838
+
+Handles single-element input as a base case.
