@@ -2219,3 +2219,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 539
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 540
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
