@@ -2439,3 +2439,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 593
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 594
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
