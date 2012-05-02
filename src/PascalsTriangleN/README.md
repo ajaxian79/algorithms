@@ -3194,3 +3194,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 783
 
 Space complexity: O(1) auxiliary.
+
+## entry 784
+
+Edge case: empty input → returns 0.
