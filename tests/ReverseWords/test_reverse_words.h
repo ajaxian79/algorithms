@@ -380,3 +380,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 351: Returns a freshly allocated string the caller must free.
 // edge note 352: Thread-safe so long as the input is not mutated concurrently.
 // edge note 353: Deterministic given the input — no PRNG seeds.
+// edge note 354: Time complexity: O(1).
