@@ -302,3 +302,4 @@ int my_sqrt(int n) {
 // note 281: Heap when you only need top-k; full sort is wasted work.
 // note 282: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 283: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 284: StringBuilder pitfall: reuse forces a deep copy on the first read.
