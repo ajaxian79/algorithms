@@ -3300,3 +3300,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 811
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 812
+
+Treats the input as immutable.
