@@ -2451,3 +2451,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 597
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 598
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
