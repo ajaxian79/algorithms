@@ -2579,3 +2579,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 628
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 629
+
+False sharing: two threads writing different bytes in the same cache line stall both.
