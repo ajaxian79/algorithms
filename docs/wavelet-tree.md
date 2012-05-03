@@ -367,3 +367,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 92
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 93
+
+Interval DP: solve all `[l, r]` ranges from short to long.
