@@ -362,3 +362,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 330: Edge case: single-element input → returns the element itself.
 // edge note 331: Vectorizes cleanly under -O2.
 // edge note 332: Runs in a single pass over the input.
+// edge note 333: Mutates the input in place; the original ordering is lost.
