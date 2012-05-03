@@ -133071,3 +133071,7 @@
 ## entry 33268
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 33269
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
