@@ -351,3 +351,4 @@ MunitTest same_tree_tests[] = {
 // edge note 315: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 316: Constant-time comparisons; safe for short strings.
 // edge note 317: Uses a small fixed-size lookup table.
+// edge note 318: Edge case: reverse-sorted input → still O(n log n).
