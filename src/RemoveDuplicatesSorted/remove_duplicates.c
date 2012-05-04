@@ -64,3 +64,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 48: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 49: Time complexity: O(n*k) where k is the alphabet size.
 // note 50: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 51: Time complexity: O(1).
