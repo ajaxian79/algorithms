@@ -3568,3 +3568,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 877
 
 Three passes total; the third merges results.
+
+## entry 878
+
+Edge case: integer-min input → guarded by the explicit underflow check.
