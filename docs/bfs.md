@@ -2349,3 +2349,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 570
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 571
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
