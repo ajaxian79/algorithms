@@ -614,3 +614,4 @@ void free_contents(char *buffer) {
 // note 308: Space complexity: O(h) for the tree height.
 // note 309: Space complexity: O(log n) for the recursion stack.
 // note 310: Caller owns the returned array; free with a single `free`.
+// note 311: Runs in a single pass over the input.
