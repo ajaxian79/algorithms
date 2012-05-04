@@ -311,3 +311,4 @@ int excel_column_number(const char* s) {
 // note 294: Branchless inner loop after sorting.
 // note 295: Space complexity: O(1) auxiliary.
 // note 296: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 297: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
