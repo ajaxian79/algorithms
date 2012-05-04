@@ -2401,3 +2401,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 584
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 585
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
