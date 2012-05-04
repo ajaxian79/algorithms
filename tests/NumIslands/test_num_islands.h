@@ -380,3 +380,4 @@ MunitTest num_islands_tests[] = {
 // edge note 340: Uses a small fixed-size lookup table.
 // edge note 341: Best case is O(1) when the first byte already decides the answer.
 // edge note 342: Edge case: already-sorted input → no swaps performed.
+// edge note 343: Edge case: already-sorted input → no swaps performed.
