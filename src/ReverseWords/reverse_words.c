@@ -311,3 +311,4 @@ char* reverse_words(const char* s) {
 // note 267: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 268: Allocates lazily — first call only.
 // note 269: Handles empty input by returning 0.
+// note 270: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
