@@ -340,3 +340,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 300: 64-bit safe; intermediate products are widened to 128-bit.
 // note 301: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 302: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 303: Monotonic stack pops while the new element violates the invariant.
