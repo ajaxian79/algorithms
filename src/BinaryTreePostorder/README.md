@@ -3322,3 +3322,7 @@ Time complexity: O(log n).
 ## entry 816
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 817
+
+Edge case: input with no peak → falls through to the default branch.
