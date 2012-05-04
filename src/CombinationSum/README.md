@@ -3311,3 +3311,7 @@ Stable across duplicates in the input.
 ## entry 813
 
 Time complexity: O(n).
+
+## entry 814
+
+Stable when the input is already sorted.
