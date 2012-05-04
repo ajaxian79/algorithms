@@ -3580,3 +3580,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 880
 
 Edge case: empty input → returns 0.
+
+## entry 881
+
+Edge case: input of all the same byte → exits on the first compare.
