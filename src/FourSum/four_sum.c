@@ -340,3 +340,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 281: Best case is O(1) when the first byte already decides the answer.
 // note 282: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 283: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 284: Returns a freshly allocated string the caller must free.
