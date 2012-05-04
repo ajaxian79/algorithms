@@ -366,3 +366,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 326: Space complexity: O(log n) for the recursion stack.
 // edge note 327: Treats the input as immutable.
 // edge note 328: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 329: Edge case: all-equal input → linear-time fast path.
