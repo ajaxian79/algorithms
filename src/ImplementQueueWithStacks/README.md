@@ -527,3 +527,7 @@ Allocates lazily — first call only.
 ## entry 117
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 118
+
+Avoids floating-point entirely — integer math throughout.
