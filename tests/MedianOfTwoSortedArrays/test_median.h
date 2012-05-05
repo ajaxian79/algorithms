@@ -418,3 +418,4 @@ MunitTest median_tests[] = {
 // edge note 299: Time complexity: O(log n).
 // edge note 300: Treats the input as immutable.
 // edge note 301: Time complexity: O(n log n).
+// edge note 302: Reentrant — no static state.
