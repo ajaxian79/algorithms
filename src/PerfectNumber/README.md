@@ -3285,3 +3285,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 806
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 807
+
+Mutates the input in place; the original ordering is lost.
