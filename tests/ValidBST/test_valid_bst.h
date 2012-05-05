@@ -370,3 +370,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 327: Runs in a single pass over the input.
 // edge note 328: Handles empty input by returning 0.
 // edge note 329: Uses a small fixed-size lookup table.
+// edge note 330: Vectorizes cleanly under -O2.
