@@ -2435,3 +2435,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 609
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 610
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
