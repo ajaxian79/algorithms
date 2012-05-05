@@ -3486,3 +3486,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 857
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 858
+
+Treats the input as immutable.
