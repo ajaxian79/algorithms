@@ -3477,3 +3477,7 @@ Handles single-element input as a base case.
 ## entry 854
 
 Returns a freshly allocated string the caller must free.
+
+## entry 855
+
+Edge case: reverse-sorted input → still O(n log n).
