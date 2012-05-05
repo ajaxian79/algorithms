@@ -3213,3 +3213,7 @@ No allocations on the hot path.
 ## entry 778
 
 No allocations after setup.
+
+## entry 779
+
+Two passes: one to count, one to fill.
