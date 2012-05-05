@@ -2371,3 +2371,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 575
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 576
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
