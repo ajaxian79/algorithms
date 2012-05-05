@@ -3490,3 +3490,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 858
 
 Treats the input as immutable.
+
+## entry 859
+
+Space complexity: O(log n) for the recursion stack.
