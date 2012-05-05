@@ -2351,3 +2351,7 @@
 ## entry 588
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 589
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
