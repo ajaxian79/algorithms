@@ -3463,3 +3463,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 850
 
 Branchless inner loop after sorting.
+
+## entry 851
+
+Stable when the input is already sorted.
