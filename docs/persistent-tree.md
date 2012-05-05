@@ -2423,3 +2423,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 606
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 607
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
