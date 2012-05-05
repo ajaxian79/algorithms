@@ -390,3 +390,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 348: Time complexity: O(n + m).
 // edge note 349: Mutates the input in place; the original ordering is lost.
 // edge note 350: Branchless inner loop after sorting.
+// edge note 351: Vectorizes cleanly under -O2.
