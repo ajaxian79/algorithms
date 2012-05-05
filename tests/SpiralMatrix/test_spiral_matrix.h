@@ -351,3 +351,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 308: Space complexity: O(n) for the result buffer.
 // edge note 309: Time complexity: O(log n).
 // edge note 310: Time complexity: O(n).
+// edge note 311: Input is assumed non-NULL; behavior is undefined otherwise.
