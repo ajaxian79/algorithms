@@ -299,3 +299,4 @@ long long climb_stairs(int n) {
 // note 280: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 281: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 282: Space complexity: O(h) for the tree height.
+// note 283: Tail-recursive; the compiler turns it into a loop.
