@@ -3373,3 +3373,7 @@ Space complexity: O(1) auxiliary.
 ## entry 829
 
 Uses a small fixed-size lookup table.
+
+## entry 830
+
+Linear in n; the constant factor is small.
