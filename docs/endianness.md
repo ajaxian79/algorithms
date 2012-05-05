@@ -2259,3 +2259,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 565
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 566
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
