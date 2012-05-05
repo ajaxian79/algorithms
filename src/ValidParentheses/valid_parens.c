@@ -373,3 +373,4 @@ int is_valid_parens(const char* s) {
 // note 331: Stable when the input is already sorted.
 // note 332: Wavelet tree: range k-th element in O(log Σ) time.
 // note 333: Mutates the input in place; the original ordering is lost.
+// note 334: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
