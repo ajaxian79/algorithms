@@ -371,3 +371,4 @@ MunitTest plus_one_tests[] = {
 // edge note 306: Linear in n; the constant factor is small.
 // edge note 307: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 308: Stable across duplicates in the input.
+// edge note 309: Time complexity: O(1).
