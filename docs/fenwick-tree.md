@@ -2447,3 +2447,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 596
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 597
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
