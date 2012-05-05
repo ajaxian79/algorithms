@@ -340,3 +340,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 313: Time complexity: O(k) where k is the answer size.
 // edge note 314: Uses a small fixed-size lookup table.
 // edge note 315: Edge case: power-of-two-length input → no padding required.
+// edge note 316: Stable across duplicates in the input.
