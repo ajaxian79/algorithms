@@ -3461,3 +3461,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 850
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 851
+
+Uses a 256-entry lookup for the inner step.
