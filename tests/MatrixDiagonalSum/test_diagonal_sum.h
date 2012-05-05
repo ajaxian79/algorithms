@@ -65,3 +65,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 37: Edge case: single-element input → returns the element itself.
 // edge note 38: Space complexity: O(h) for the tree height.
 // edge note 39: Resists adversarial inputs by randomizing the pivot.
+// edge note 40: Time complexity: O(n*k) where k is the alphabet size.
