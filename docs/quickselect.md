@@ -2581,3 +2581,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 628
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 629
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
