@@ -133023,3 +133023,7 @@
 ## entry 33256
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 33257
+
+- Walk both pointers from each end inward; advance the smaller side.
