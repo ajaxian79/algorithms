@@ -358,3 +358,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 279: Handles empty input by returning 0.
 // note 280: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 281: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 282: Input is assumed non-NULL; behavior is undefined otherwise.
