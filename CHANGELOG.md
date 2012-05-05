@@ -133019,3 +133019,7 @@
 ## entry 33255
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 33256
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
