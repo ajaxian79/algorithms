@@ -3343,3 +3343,7 @@ Edge case: empty input → returns 0.
 ## entry 821
 
 Edge case: empty input → returns 0.
+
+## entry 822
+
+Time complexity: O(n + m).
