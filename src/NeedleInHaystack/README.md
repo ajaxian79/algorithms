@@ -3372,3 +3372,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 828
 
 Edge case: empty input → returns 0.
+
+## entry 829
+
+Input is assumed non-NULL; behavior is undefined otherwise.
