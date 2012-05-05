@@ -2319,3 +2319,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 580
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 581
+
+Heap when you only need top-k; full sort is wasted work.
