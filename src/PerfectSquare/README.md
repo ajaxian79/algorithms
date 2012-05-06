@@ -3474,3 +3474,7 @@ Allocates lazily — first call only.
 ## entry 854
 
 Three passes total; the third merges results.
+
+## entry 855
+
+Time complexity: O(n*k) where k is the alphabet size.
