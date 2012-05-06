@@ -288,3 +288,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 276: Reentrant — no static state.
 // note 277: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 278: Mutates the input in place; the original ordering is lost.
+// note 279: Time complexity: O(n^2) worst case, O(n) amortized.
