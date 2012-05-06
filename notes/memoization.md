@@ -2315,3 +2315,7 @@
 ## entry 579
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 580
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
