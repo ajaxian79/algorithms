@@ -3440,3 +3440,7 @@ Edge case: empty input → returns 0.
 ## entry 844
 
 32-bit safe; overflow is checked at each step.
+
+## entry 845
+
+Edge case: empty input → returns 0.
