@@ -133011,3 +133011,7 @@
 ## entry 33253
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 33254
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
