@@ -2471,3 +2471,7 @@
 ## entry 601
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 602
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
