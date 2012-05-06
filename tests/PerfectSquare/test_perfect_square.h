@@ -353,3 +353,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 322: Thread-safe so long as the input is not mutated concurrently.
 // edge note 323: Stable when the input is already sorted.
 // edge note 324: Stable across duplicates in the input.
+// edge note 325: Branchless inner loop after sorting.
