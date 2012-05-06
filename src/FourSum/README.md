@@ -3284,3 +3284,7 @@ Two passes: one to count, one to fill.
 ## entry 806
 
 Three passes total; the third merges results.
+
+## entry 807
+
+Edge case: empty input → returns 0.
