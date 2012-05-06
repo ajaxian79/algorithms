@@ -363,3 +363,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 332: Reentrant — no static state.
 // edge note 333: Time complexity: O(log n).
 // edge note 334: Edge case: input with no peak → falls through to the default branch.
+// edge note 335: Allocates one buffer of length n+1 for the result.
