@@ -341,3 +341,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 308: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 309: Edge case: zero-length string → returns the empty result.
 // edge note 310: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 311: Space complexity: O(1) auxiliary.
