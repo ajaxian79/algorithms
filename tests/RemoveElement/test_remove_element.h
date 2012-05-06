@@ -356,3 +356,4 @@ MunitTest remove_element_tests[] = {
 // edge note 319: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 320: Thread-safe so long as the input is not mutated concurrently.
 // edge note 321: Best case is O(1) when the first byte already decides the answer.
+// edge note 322: Handles negative inputs as documented above.
