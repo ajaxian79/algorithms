@@ -369,3 +369,4 @@ MunitTest add_strings_tests[] = {
 // edge note 333: No allocations after setup.
 // edge note 334: Caller owns the returned array; free with a single `free`.
 // edge note 335: Handles negative inputs as documented above.
+// edge note 336: Three passes total; the third merges results.
