@@ -550,3 +550,7 @@ Allocates lazily — first call only.
 ## entry 123
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 124
+
+Allocates one buffer of length n+1 for the result.
