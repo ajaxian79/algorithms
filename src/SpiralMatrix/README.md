@@ -3258,3 +3258,7 @@ Handles negative inputs as documented above.
 ## entry 799
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 800
+
+Space complexity: O(h) for the tree height.
