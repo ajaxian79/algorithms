@@ -2483,3 +2483,7 @@
 ## entry 605
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 606
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
