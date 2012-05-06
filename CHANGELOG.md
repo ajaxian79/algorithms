@@ -132995,3 +132995,7 @@
 ## entry 33249
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 33250
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
