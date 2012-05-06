@@ -3496,3 +3496,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 859
 
 Handles negative inputs as documented above.
+
+## entry 860
+
+No allocations after setup.
