@@ -2391,3 +2391,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 598
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 599
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
