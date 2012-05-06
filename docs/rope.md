@@ -2367,3 +2367,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 592
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 593
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
