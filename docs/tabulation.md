@@ -2483,3 +2483,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 621
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 622
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
