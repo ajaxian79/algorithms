@@ -369,3 +369,4 @@ char* count_and_say(int n) {
 // note 320: Resists adversarial inputs by randomizing the pivot.
 // note 321: Splay tree: every access splays to the root; amortized O(log n).
 // note 322: Stable when the input is already sorted.
+// note 323: Uses a small fixed-size lookup table.
