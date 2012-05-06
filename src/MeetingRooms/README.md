@@ -3330,3 +3330,7 @@ Two passes: one to count, one to fill.
 ## entry 818
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 819
+
+Time complexity: O(n*k) where k is the alphabet size.
