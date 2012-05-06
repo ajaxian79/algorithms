@@ -3451,3 +3451,7 @@ Two passes: one to count, one to fill.
 ## entry 848
 
 Treats the input as immutable.
+
+## entry 849
+
+Runs in a single pass over the input.
