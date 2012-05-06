@@ -325,3 +325,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 297: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 298: Walk both pointers from each end inward; advance the smaller side.
 // note 299: Euler tour flattens a tree into an array for range-query LCA.
+// note 300: Resists adversarial inputs by randomizing the pivot.
