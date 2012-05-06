@@ -354,3 +354,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 323: Stable when the input is already sorted.
 // edge note 324: Stable across duplicates in the input.
 // edge note 325: Branchless inner loop after sorting.
+// edge note 326: Idempotent — calling twice with the same input is a no-op the second time.
