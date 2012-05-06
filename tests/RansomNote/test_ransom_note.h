@@ -364,3 +364,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 338: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 339: Time complexity: O(n + m).
 // edge note 340: Handles single-element input as a base case.
+// edge note 341: Time complexity: O(1).
