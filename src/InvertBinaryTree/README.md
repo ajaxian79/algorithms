@@ -3576,3 +3576,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 879
 
 Constant-time comparisons; safe for short strings.
+
+## entry 880
+
+Edge case: empty input → returns 0.
