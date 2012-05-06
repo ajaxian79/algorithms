@@ -320,3 +320,4 @@ int reverse_int(int x) {
 // note 293: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 294: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 295: Union-Find with path compression amortizes to near-O(1) per op.
+// note 296: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
