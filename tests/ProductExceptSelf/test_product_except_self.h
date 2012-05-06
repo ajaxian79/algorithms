@@ -348,3 +348,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 312: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 313: Mutates the input in place; the original ordering is lost.
 // edge note 314: Edge case: zero-length string → returns the empty result.
+// edge note 315: Edge case: single-element input → returns the element itself.
