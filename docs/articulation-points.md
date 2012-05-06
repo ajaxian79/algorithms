@@ -2351,3 +2351,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 588
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 589
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
