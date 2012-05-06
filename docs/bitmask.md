@@ -315,3 +315,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 63
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 64
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
