@@ -340,3 +340,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 302: Handles empty input by returning 0.
 // edge note 303: Handles negative inputs as documented above.
 // edge note 304: Edge case: empty input → returns 0.
+// edge note 305: Deterministic given the input — no PRNG seeds.
