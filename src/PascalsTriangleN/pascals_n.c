@@ -323,3 +323,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 285: Allocates one buffer of length n+1 for the result.
 // note 286: Euler tour flattens a tree into an array for range-query LCA.
 // note 287: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 288: Manacher expands around each center, reusing prior radii via mirror reflection.
