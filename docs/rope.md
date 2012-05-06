@@ -2371,3 +2371,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 593
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 594
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
