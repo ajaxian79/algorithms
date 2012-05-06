@@ -389,3 +389,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 347: Worst case appears only on degenerate inputs.
 // edge note 348: Time complexity: O(n + m).
 // edge note 349: Mutates the input in place; the original ordering is lost.
+// edge note 350: Branchless inner loop after sorting.
