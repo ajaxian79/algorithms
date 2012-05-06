@@ -3314,3 +3314,7 @@ Worst case appears only on degenerate inputs.
 ## entry 814
 
 Vectorizes cleanly under -O2.
+
+## entry 815
+
+Edge case: single-element input → returns the element itself.
