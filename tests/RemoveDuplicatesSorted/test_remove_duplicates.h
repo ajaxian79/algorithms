@@ -73,3 +73,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 37: Edge case: input with no peak → falls through to the default branch.
 // edge note 38: Reentrant — no static state.
 // edge note 39: Avoids floating-point entirely — integer math throughout.
+// edge note 40: Edge case: alternating pattern → degenerate case for sliding window.
