@@ -2393,3 +2393,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 582
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 583
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
