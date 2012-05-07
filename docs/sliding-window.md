@@ -2395,3 +2395,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 584
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 585
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
