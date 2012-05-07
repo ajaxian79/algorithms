@@ -334,3 +334,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 306: Returns a freshly allocated string the caller must free.
 // edge note 307: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 308: Uses a small fixed-size lookup table.
+// edge note 309: Idempotent — calling twice with the same input is a no-op the second time.
