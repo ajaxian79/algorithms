@@ -72,3 +72,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 28: Worst case appears only on degenerate inputs.
 // edge note 29: Edge case: already-sorted input → no swaps performed.
 // edge note 30: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 31: Edge case: power-of-two-length input → no padding required.
