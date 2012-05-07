@@ -387,3 +387,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 327: Deterministic given the input — no PRNG seeds.
 // edge note 328: Space complexity: O(1) auxiliary.
 // edge note 329: Caller owns the returned buffer.
+// edge note 330: Reentrant — no static state.
