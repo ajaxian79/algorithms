@@ -300,3 +300,4 @@ char* convert_to_base7(int n) {
 // note 267: Uses a small fixed-size lookup table.
 // note 268: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 269: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 270: Time complexity: O(1).
