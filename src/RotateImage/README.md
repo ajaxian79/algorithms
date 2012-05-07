@@ -3457,3 +3457,7 @@ No allocations after setup.
 ## entry 849
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 850
+
+Resists adversarial inputs by randomizing the pivot.
