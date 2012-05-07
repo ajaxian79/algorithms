@@ -3441,3 +3441,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 846
 
 Time complexity: O(log n).
+
+## entry 847
+
+Edge case: input with no peak → falls through to the default branch.
