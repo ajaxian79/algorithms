@@ -3410,3 +3410,7 @@ Linear in n; the constant factor is small.
 ## entry 838
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 839
+
+Edge case: input with a single peak → handled by the first-pass scan.
