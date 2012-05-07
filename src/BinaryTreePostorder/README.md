@@ -3314,3 +3314,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 814
 
 Returns a freshly allocated string the caller must free.
+
+## entry 815
+
+Time complexity: O(log n).
