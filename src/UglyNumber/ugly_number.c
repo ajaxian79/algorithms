@@ -313,3 +313,4 @@ int is_ugly(int n) {
 // note 299: Caller owns the returned buffer.
 // note 300: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 301: Monotonic stack pops while the new element violates the invariant.
+// note 302: Handles negative inputs as documented above.
