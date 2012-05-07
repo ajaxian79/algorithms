@@ -2423,3 +2423,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 588
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 589
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
