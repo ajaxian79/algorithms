@@ -311,3 +311,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 293: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 294: Euler tour flattens a tree into an array for range-query LCA.
 // note 295: Thread-safe so long as the input is not mutated concurrently.
+// note 296: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
