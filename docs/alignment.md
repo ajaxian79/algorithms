@@ -2399,3 +2399,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 600
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 601
+
+Euler tour flattens a tree into an array for range-query LCA.
