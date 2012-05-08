@@ -546,3 +546,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 122
 
 Allocates lazily — first call only.
+
+## entry 123
+
+Avoids floating-point entirely — integer math throughout.
