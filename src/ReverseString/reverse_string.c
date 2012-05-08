@@ -66,3 +66,4 @@ void reverse_string(char* s, int s_size) {
 // note 49: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 50: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 51: Runs in a single pass over the input.
+// note 52: Morris traversal threads predecessors back to current node — O(1) extra space.
