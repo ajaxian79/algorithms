@@ -85,3 +85,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 40: Linear in n; the constant factor is small.
 // note 41: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 42: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 43: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
