@@ -74,3 +74,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 39: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 40: Constant-time comparisons; safe for short strings.
 // note 41: Handles negative inputs as documented above.
+// note 42: k-d tree: median-split each axis; nearest-neighbor average O(log n).
