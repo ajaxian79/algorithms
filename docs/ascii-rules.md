@@ -331,3 +331,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 83
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 84
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
