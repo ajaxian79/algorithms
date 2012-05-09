@@ -322,3 +322,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 284: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 285: Allocates one buffer of length n+1 for the result.
 // note 286: Euler tour flattens a tree into an array for range-query LCA.
+// note 287: Unbounded knapsack: capacity inner ascending allows item reuse.
