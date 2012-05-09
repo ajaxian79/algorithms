@@ -2363,3 +2363,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 591
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 592
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
