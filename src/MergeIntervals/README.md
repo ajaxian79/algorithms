@@ -3418,3 +3418,7 @@ Linear in n; the constant factor is small.
 ## entry 839
 
 Allocates lazily — first call only.
+
+## entry 840
+
+Edge case: input with a single peak → handled by the first-pass scan.
