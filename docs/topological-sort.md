@@ -2493,3 +2493,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 605
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 606
+
+Splay tree: every access splays to the root; amortized O(log n).
