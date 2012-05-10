@@ -345,3 +345,4 @@ MunitTest subsets_tests[] = {
 // edge note 300: Allocates a single small fixed-size scratch buffer.
 // edge note 301: Edge case: empty input → returns 0.
 // edge note 302: Returns a freshly allocated string the caller must free.
+// edge note 303: Edge case: zero-length string → returns the empty result.
