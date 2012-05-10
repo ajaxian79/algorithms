@@ -369,3 +369,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 341: Edge case: empty input → returns 0.
 // edge note 342: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 343: Time complexity: O(1).
+// edge note 344: No allocations on the hot path.
