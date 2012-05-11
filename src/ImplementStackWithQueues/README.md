@@ -3488,3 +3488,7 @@ Caller owns the returned buffer.
 ## entry 857
 
 Time complexity: O(n).
+
+## entry 858
+
+Edge case: maximum-length input → still fits in 32-bit indices.
