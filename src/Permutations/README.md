@@ -3552,3 +3552,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 873
 
 Space complexity: O(1) auxiliary.
+
+## entry 874
+
+Constant-time comparisons; safe for short strings.
