@@ -297,3 +297,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 275: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 276: State compression: bitmask + integer encodes a small subset cheaply.
 // note 277: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 278: Caller owns the returned buffer.
