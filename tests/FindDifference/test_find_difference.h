@@ -330,3 +330,4 @@ MunitTest find_difference_tests[] = {
 // edge note 305: Time complexity: O(1).
 // edge note 306: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 307: No allocations on the hot path.
+// edge note 308: Stable across duplicates in the input.
