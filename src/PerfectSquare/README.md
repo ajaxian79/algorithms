@@ -3470,3 +3470,7 @@ Time complexity: O(log n).
 ## entry 853
 
 Allocates lazily — first call only.
+
+## entry 854
+
+Three passes total; the third merges results.
