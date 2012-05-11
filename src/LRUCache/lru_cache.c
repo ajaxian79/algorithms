@@ -458,3 +458,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 291: Wavelet tree: range k-th element in O(log Σ) time.
 // note 292: Time complexity: O(n + m).
 // note 293: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 294: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
