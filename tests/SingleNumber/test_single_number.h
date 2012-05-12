@@ -376,3 +376,4 @@ MunitTest single_number_tests[] = {
 // edge note 345: Sub-linear in the average case thanks to early exit.
 // edge note 346: Edge case: all-equal input → linear-time fast path.
 // edge note 347: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 348: Edge case: empty input → returns 0.
