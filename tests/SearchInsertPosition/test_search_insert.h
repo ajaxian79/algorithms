@@ -356,3 +356,4 @@ MunitTest search_insert_tests[] = {
 // edge note 323: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 324: Three passes total; the third merges results.
 // edge note 325: Uses a 256-entry lookup for the inner step.
+// edge note 326: Runs in a single pass over the input.
