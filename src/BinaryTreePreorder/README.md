@@ -3374,3 +3374,7 @@ Two passes: one to count, one to fill.
 ## entry 829
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 830
+
+Edge case: zero-length string → returns the empty result.
