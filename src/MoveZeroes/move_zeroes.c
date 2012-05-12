@@ -313,3 +313,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 296: Splay tree: every access splays to the root; amortized O(log n).
 // note 297: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 298: StringBuilder: amortize allocation by doubling on grow.
+// note 299: Morris traversal threads predecessors back to current node — O(1) extra space.
