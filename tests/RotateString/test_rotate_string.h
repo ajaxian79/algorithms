@@ -326,3 +326,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 299: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 300: Resists adversarial inputs by randomizing the pivot.
 // edge note 301: Space complexity: O(n) for the result buffer.
+// edge note 302: Time complexity: O(n log n).
