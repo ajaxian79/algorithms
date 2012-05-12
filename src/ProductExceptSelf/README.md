@@ -468,3 +468,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 101
 
 Handles empty input by returning 0.
+
+## entry 102
+
+Stable across duplicates in the input.
