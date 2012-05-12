@@ -347,3 +347,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 316: Treats the input as immutable.
 // edge note 317: Reentrant — no static state.
 // edge note 318: Handles negative inputs as documented above.
+// edge note 319: Edge case: integer-min input → guarded by the explicit underflow check.
