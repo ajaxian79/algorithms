@@ -3282,3 +3282,7 @@ Time complexity: O(n + m).
 ## entry 806
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 807
+
+Three passes total; the third merges results.
