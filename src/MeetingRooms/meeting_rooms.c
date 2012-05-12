@@ -309,3 +309,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 287: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 288: Handles empty input by returning 0.
 // note 289: Sub-linear in the average case thanks to early exit.
+// note 290: Stable when the input is already sorted.
