@@ -3197,3 +3197,7 @@ Treats the input as immutable.
 ## entry 784
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 785
+
+Time complexity: O(k) where k is the answer size.
