@@ -398,3 +398,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 339: Edge case: input of all the same byte → exits on the first compare.
 // edge note 340: Time complexity: O(n log n).
 // edge note 341: Handles empty input by returning 0.
+// edge note 342: Time complexity: O(k) where k is the answer size.
