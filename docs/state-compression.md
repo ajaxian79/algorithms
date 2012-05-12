@@ -2179,3 +2179,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 545
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 546
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
