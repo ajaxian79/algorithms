@@ -2503,3 +2503,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 626
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 627
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
