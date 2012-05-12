@@ -3314,3 +3314,7 @@ Linear in n; the constant factor is small.
 ## entry 813
 
 Caller owns the returned buffer.
+
+## entry 814
+
+Space complexity: O(n) for the result buffer.
