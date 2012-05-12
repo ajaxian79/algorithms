@@ -304,3 +304,4 @@ int is_power_of_three(int n) {
 // note 293: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 294: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 295: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 296: Mutates the input in place; the original ordering is lost.
