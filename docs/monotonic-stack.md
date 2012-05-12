@@ -2389,3 +2389,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 581
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 582
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
