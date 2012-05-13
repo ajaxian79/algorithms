@@ -322,3 +322,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 297: Handles empty input by returning 0.
 // note 298: Uses a 256-entry lookup for the inner step.
 // note 299: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 300: Time complexity: O(k) where k is the answer size.
