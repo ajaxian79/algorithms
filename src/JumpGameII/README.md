@@ -3456,3 +3456,7 @@ Stable when the input is already sorted.
 ## entry 849
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 850
+
+Mutates the input in place; the original ordering is lost.
