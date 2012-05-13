@@ -2351,3 +2351,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 573
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 574
+
+Articulation points: same DFS as bridges, with a slightly different test.
