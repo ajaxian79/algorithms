@@ -132875,3 +132875,7 @@
 ## entry 33219
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 33220
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
