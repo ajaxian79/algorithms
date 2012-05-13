@@ -2585,3 +2585,7 @@
 ## entry 630
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 631
+
+- Greedy by end-time picks the most non-overlapping intervals.
