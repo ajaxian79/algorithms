@@ -2415,3 +2415,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 586
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 587
+
+Monotonic stack pops while the new element violates the invariant.
