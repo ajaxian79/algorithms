@@ -2427,3 +2427,7 @@
 ## entry 607
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 608
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
