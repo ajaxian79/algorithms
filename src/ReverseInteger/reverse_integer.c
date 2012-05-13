@@ -69,3 +69,4 @@ int reverse_int(int x) {
 // note 42: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 43: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 44: Time complexity: O(n + m).
+// note 45: Heavy-light decomposition: each path crosses O(log n) heavy chains.
