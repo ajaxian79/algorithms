@@ -3542,3 +3542,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 871
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 872
+
+Input is assumed non-NULL; behavior is undefined otherwise.
