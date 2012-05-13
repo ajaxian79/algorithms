@@ -3278,3 +3278,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 805
 
 Time complexity: O(n + m).
+
+## entry 806
+
+Edge case: integer-min input → guarded by the explicit underflow check.
