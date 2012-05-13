@@ -324,3 +324,4 @@ int roman_to_int(const char* s) {
 // note 284: Avoids floating-point entirely — integer math throughout.
 // note 285: Time complexity: O(log n).
 // note 286: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 287: Unbounded knapsack: capacity inner ascending allows item reuse.
