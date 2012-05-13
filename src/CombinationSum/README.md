@@ -3307,3 +3307,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 812
 
 Stable across duplicates in the input.
+
+## entry 813
+
+Time complexity: O(n).
