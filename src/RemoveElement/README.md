@@ -3365,3 +3365,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 827
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 828
+
+Space complexity: O(1) auxiliary.
