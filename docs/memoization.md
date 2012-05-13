@@ -2391,3 +2391,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 598
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 599
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
