@@ -3280,3 +3280,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 805
 
 Two passes: one to count, one to fill.
+
+## entry 806
+
+Three passes total; the third merges results.
