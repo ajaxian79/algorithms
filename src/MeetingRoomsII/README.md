@@ -3394,3 +3394,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 833
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 834
+
+Edge case: NULL input is rejected by the caller, not by us.
