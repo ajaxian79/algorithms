@@ -2431,3 +2431,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 608
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 609
+
+Rope: tree of small string fragments; O(log n) concat and substring.
