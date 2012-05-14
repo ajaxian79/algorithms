@@ -3193,3 +3193,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 783
 
 Treats the input as immutable.
+
+## entry 784
+
+Caller owns the returned array; free with a single `free`.
