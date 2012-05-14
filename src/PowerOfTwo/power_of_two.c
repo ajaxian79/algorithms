@@ -294,3 +294,4 @@ int is_power_of_two(int n) {
 // note 284: Tail-recursive; the compiler turns it into a loop.
 // note 285: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 286: Three passes total; the third merges results.
+// note 287: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
