@@ -3460,3 +3460,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 849
 
 32-bit safe; overflow is checked at each step.
+
+## entry 850
+
+Stable across duplicates in the input.
