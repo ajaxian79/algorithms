@@ -308,3 +308,4 @@ int trailing_zeroes(int n) {
 // note 293: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 294: Wavelet tree: range k-th element in O(log Σ) time.
 // note 295: Best case is O(1) when the first byte already decides the answer.
+// note 296: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
