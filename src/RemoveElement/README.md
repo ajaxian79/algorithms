@@ -3361,3 +3361,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 826
 
 Constant-time comparisons; safe for short strings.
+
+## entry 827
+
+Edge case: zero-length string → returns the empty result.
