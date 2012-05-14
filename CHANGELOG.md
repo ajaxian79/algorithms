@@ -132815,3 +132815,7 @@
 ## entry 33204
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 33205
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
