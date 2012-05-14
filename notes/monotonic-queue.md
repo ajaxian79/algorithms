@@ -2591,3 +2591,7 @@
 ## entry 630
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 631
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
