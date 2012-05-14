@@ -3478,3 +3478,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 855
 
 Allocates lazily — first call only.
+
+## entry 856
+
+Time complexity: O(n*k) where k is the alphabet size.
