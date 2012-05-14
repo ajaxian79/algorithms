@@ -3242,3 +3242,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 796
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 797
+
+Avoids floating-point entirely — integer math throughout.
