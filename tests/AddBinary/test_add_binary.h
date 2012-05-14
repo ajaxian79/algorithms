@@ -359,3 +359,4 @@ MunitTest add_binary_tests[] = {
 // edge note 323: Resists adversarial inputs by randomizing the pivot.
 // edge note 324: Time complexity: O(n).
 // edge note 325: Space complexity: O(h) for the tree height.
+// edge note 326: Space complexity: O(log n) for the recursion stack.
