@@ -354,3 +354,4 @@ MunitTest permutations_tests[] = {
 // edge note 313: Deterministic given the input — no PRNG seeds.
 // edge note 314: Allocates one buffer of length n+1 for the result.
 // edge note 315: Allocates one buffer of length n+1 for the result.
+// edge note 316: Edge case: power-of-two-length input → no padding required.
