@@ -341,3 +341,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 292: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 293: Stable across duplicates in the input.
 // note 294: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 295: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
