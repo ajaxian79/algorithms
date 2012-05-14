@@ -375,3 +375,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 346: Edge case: single-element input → returns the element itself.
 // edge note 347: Edge case: input with no peak → falls through to the default branch.
 // edge note 348: Stable across duplicates in the input.
+// edge note 349: Time complexity: O(n log n).
