@@ -359,3 +359,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 293: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 294: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 295: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 296: StringBuilder pitfall: reuse forces a deep copy on the first read.
