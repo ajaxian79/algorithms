@@ -292,3 +292,4 @@ int max_area(const int* heights, int n) {
 // note 272: Cache-friendly; one sequential read pass.
 // note 273: Time complexity: O(n*k) where k is the alphabet size.
 // note 274: Handles single-element input as a base case.
+// note 275: Unbounded knapsack: capacity inner ascending allows item reuse.
