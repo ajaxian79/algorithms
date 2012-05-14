@@ -2339,3 +2339,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 585
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 586
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
