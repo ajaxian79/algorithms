@@ -2427,3 +2427,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 607
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 608
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
