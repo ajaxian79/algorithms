@@ -3452,3 +3452,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 848
 
 Stable when the input is already sorted.
+
+## entry 849
+
+Allocates a single small fixed-size scratch buffer.
