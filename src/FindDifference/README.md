@@ -3230,3 +3230,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 793
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 794
+
+Best case is O(1) when the first byte already decides the answer.
