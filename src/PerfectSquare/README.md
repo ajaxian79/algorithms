@@ -3466,3 +3466,7 @@ Cache-friendly; one sequential read pass.
 ## entry 852
 
 Time complexity: O(log n).
+
+## entry 853
+
+Allocates lazily — first call only.
