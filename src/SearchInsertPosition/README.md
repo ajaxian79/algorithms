@@ -3310,3 +3310,7 @@ Handles negative inputs as documented above.
 ## entry 813
 
 Worst case appears only on degenerate inputs.
+
+## entry 814
+
+Vectorizes cleanly under -O2.
