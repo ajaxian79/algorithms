@@ -2307,3 +2307,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 577
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 578
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
