@@ -311,3 +311,4 @@ int compare_version(const char* a, const char* b) {
 // note 281: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 282: Greedy by end-time picks the most non-overlapping intervals.
 // note 283: Three passes total; the third merges results.
+// note 284: Space complexity: O(h) for the tree height.
