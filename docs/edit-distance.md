@@ -2403,3 +2403,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 583
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 584
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
