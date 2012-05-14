@@ -2361,3 +2361,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 574
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 575
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
