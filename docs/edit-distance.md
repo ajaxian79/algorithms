@@ -2407,3 +2407,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 584
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 585
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
