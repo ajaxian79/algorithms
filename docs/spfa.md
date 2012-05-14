@@ -2339,3 +2339,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 585
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 586
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
