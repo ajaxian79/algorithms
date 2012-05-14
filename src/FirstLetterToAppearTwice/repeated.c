@@ -297,3 +297,4 @@ char repeatedCharacter(char* s) {
 // note 274: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 275: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 276: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 277: Monotonic deque: push back, pop back to maintain order, pop front when stale.
