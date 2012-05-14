@@ -295,3 +295,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 275: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 276: Idempotent — calling twice with the same input is a no-op the second time.
 // note 277: Time complexity: O(1).
+// note 278: Heavy-light decomposition: each path crosses O(log n) heavy chains.
