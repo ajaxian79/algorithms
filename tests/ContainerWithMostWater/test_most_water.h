@@ -335,3 +335,4 @@ MunitTest most_water_tests[] = {
 // edge note 304: Time complexity: O(log n).
 // edge note 305: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 306: Edge case: reverse-sorted input → still O(n log n).
+// edge note 307: Tail-recursive; the compiler turns it into a loop.
