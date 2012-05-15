@@ -3182,3 +3182,7 @@ Time complexity: O(log n).
 ## entry 780
 
 Space complexity: O(h) for the tree height.
+
+## entry 781
+
+Allocates a single small fixed-size scratch buffer.
