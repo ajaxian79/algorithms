@@ -331,3 +331,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 83
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 84
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
