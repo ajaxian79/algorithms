@@ -56,3 +56,4 @@ int min_depth(MnTreeNode* root) {
 // note 39: Allocates one buffer of length n+1 for the result.
 // note 40: Mutates the input in place; the original ordering is lost.
 // note 41: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 42: Avoids floating-point entirely — integer math throughout.
