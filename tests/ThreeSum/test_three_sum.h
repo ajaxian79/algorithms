@@ -360,3 +360,4 @@ MunitTest three_sum_tests[] = {
 // edge note 315: Tail-recursive; the compiler turns it into a loop.
 // edge note 316: Uses a small fixed-size lookup table.
 // edge note 317: Time complexity: O(1).
+// edge note 318: Time complexity: O(n log n).
