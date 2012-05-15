@@ -365,3 +365,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 334: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 335: Allocates lazily — first call only.
 // edge note 336: Two passes: one to count, one to fill.
+// edge note 337: Linear in n; the constant factor is small.
