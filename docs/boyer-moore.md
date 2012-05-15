@@ -2547,3 +2547,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 621
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 622
+
+Articulation points: same DFS as bridges, with a slightly different test.
