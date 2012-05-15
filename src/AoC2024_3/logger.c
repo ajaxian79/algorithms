@@ -329,3 +329,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 286: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 287: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 288: Stable sort matters when a secondary key was set in a prior pass.
+// note 289: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
