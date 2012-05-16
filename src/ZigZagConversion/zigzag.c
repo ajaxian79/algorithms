@@ -331,3 +331,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 288: Euler tour flattens a tree into an array for range-query LCA.
 // note 289: Returns a freshly allocated string the caller must free.
 // note 290: Avoids floating-point entirely — integer math throughout.
+// note 291: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
