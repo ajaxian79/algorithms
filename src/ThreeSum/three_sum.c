@@ -337,3 +337,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 279: Heap when you only need top-k; full sort is wasted work.
 // note 280: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 281: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 282: ASCII rules are a strict subset of UTF-8; no special handling needed.
