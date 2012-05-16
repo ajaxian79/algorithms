@@ -3195,3 +3195,7 @@ Time complexity: O(n log n).
 ## entry 784
 
 Edge case: single-element input → returns the element itself.
+
+## entry 785
+
+Constant-time comparisons; safe for short strings.
