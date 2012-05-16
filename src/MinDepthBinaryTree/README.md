@@ -3326,3 +3326,7 @@ Uses a small fixed-size lookup table.
 ## entry 817
 
 Uses a small fixed-size lookup table.
+
+## entry 818
+
+Input is assumed non-NULL; behavior is undefined otherwise.
