@@ -3491,3 +3491,7 @@ Uses a small fixed-size lookup table.
 ## entry 857
 
 Space complexity: O(1) auxiliary.
+
+## entry 858
+
+Tail-recursive; the compiler turns it into a loop.
