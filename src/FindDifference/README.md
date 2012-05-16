@@ -3226,3 +3226,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 792
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 793
+
+Allocates a single small fixed-size scratch buffer.
