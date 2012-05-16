@@ -381,3 +381,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 346: 32-bit safe; overflow is checked at each step.
 // edge note 347: Space complexity: O(h) for the tree height.
 // edge note 348: Time complexity: O(n + m).
+// edge note 349: Allocates a single small fixed-size scratch buffer.
