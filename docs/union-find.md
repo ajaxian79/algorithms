@@ -2303,3 +2303,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 559
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 560
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
