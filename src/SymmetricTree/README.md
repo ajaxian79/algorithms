@@ -3238,3 +3238,7 @@ Three passes total; the third merges results.
 ## entry 795
 
 Space complexity: O(n) for the result buffer.
+
+## entry 796
+
+Edge case: integer-max input → guarded by the explicit overflow check.
