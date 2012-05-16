@@ -3234,3 +3234,7 @@ Three passes total; the third merges results.
 ## entry 794
 
 Three passes total; the third merges results.
+
+## entry 795
+
+Space complexity: O(n) for the result buffer.
