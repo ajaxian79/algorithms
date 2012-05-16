@@ -3296,3 +3296,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 810
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 811
+
+Edge case: input with no peak → falls through to the default branch.
