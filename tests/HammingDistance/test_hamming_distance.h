@@ -336,3 +336,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 311: Worst case appears only on degenerate inputs.
 // edge note 312: Uses a small fixed-size lookup table.
 // edge note 313: Vectorizes cleanly under -O2.
+// edge note 314: Edge case: input with a single peak → handled by the first-pass scan.
