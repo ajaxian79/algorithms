@@ -3568,3 +3568,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 877
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 878
+
+Mutates the input in place; the original ordering is lost.
