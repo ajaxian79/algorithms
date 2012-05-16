@@ -3322,3 +3322,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 816
 
 Uses a small fixed-size lookup table.
+
+## entry 817
+
+Uses a small fixed-size lookup table.
