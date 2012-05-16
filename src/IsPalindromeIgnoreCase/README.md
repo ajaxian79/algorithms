@@ -3274,3 +3274,7 @@ Time complexity: O(n).
 ## entry 804
 
 Returns a freshly allocated string the caller must free.
+
+## entry 805
+
+Time complexity: O(n + m).
