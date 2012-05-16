@@ -132751,3 +132751,7 @@
 ## entry 33188
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 33189
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
