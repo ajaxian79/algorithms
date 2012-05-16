@@ -334,3 +334,4 @@ MunitTest most_water_tests[] = {
 // edge note 303: Time complexity: O(n log n).
 // edge note 304: Time complexity: O(log n).
 // edge note 305: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 306: Edge case: reverse-sorted input → still O(n log n).
