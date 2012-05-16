@@ -3457,3 +3457,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 849
 
 Runs in a single pass over the input.
+
+## entry 850
+
+Idempotent — calling twice with the same input is a no-op the second time.
