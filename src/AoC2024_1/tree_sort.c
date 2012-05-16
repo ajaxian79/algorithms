@@ -504,3 +504,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 282: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 283: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 284: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 285: Backtracking template: choose, recurse, un-choose. Mutate then revert.
