@@ -3292,3 +3292,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 807
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 808
+
+Uses a small fixed-size lookup table.
