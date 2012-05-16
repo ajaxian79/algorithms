@@ -3357,3 +3357,7 @@ Handles single-element input as a base case.
 ## entry 825
 
 Returns a freshly allocated string the caller must free.
+
+## entry 826
+
+Constant-time comparisons; safe for short strings.
