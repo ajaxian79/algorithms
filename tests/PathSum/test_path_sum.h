@@ -369,3 +369,4 @@ MunitTest path_sum_tests[] = {
 // edge note 330: Handles empty input by returning 0.
 // edge note 331: Stable across duplicates in the input.
 // edge note 332: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 333: Edge case: input with no peak → falls through to the default branch.
