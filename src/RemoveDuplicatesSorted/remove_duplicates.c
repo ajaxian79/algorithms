@@ -297,3 +297,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 281: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 282: Runs in a single pass over the input.
 // note 283: Runs in a single pass over the input.
+// note 284: Stable when the input is already sorted.
