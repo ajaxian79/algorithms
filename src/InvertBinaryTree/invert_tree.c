@@ -295,3 +295,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 280: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 281: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 282: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 283: Polynomial rolling hash with two moduli kills almost all collisions in practice.
