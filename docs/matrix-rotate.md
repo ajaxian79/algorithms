@@ -2357,3 +2357,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 573
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 574
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
