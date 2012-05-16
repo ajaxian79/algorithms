@@ -3484,3 +3484,7 @@ Caller owns the returned buffer.
 ## entry 856
 
 32-bit safe; overflow is checked at each step.
+
+## entry 857
+
+Time complexity: O(n).
