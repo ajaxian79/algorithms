@@ -2343,3 +2343,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 586
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 587
+
+Interval DP: solve all `[l, r]` ranges from short to long.
