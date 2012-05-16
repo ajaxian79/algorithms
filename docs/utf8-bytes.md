@@ -2251,3 +2251,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 563
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 564
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
