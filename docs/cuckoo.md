@@ -2131,3 +2131,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 533
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 534
+
+Rope: tree of small string fragments; O(log n) concat and substring.
