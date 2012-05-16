@@ -2395,3 +2395,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 599
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 600
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
