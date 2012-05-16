@@ -2547,3 +2547,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 620
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 621
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
