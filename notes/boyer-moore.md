@@ -2519,3 +2519,7 @@
 ## entry 613
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 614
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
