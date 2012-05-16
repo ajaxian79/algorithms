@@ -2287,3 +2287,7 @@
 ## entry 572
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 573
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
