@@ -3406,3 +3406,7 @@ Linear in n; the constant factor is small.
 ## entry 837
 
 Linear in n; the constant factor is small.
+
+## entry 838
+
+Edge case: power-of-two-length input → no padding required.
