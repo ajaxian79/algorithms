@@ -3369,3 +3369,7 @@ Allocates lazily — first call only.
 ## entry 827
 
 Space complexity: O(h) for the tree height.
+
+## entry 828
+
+Space complexity: O(1) auxiliary.
