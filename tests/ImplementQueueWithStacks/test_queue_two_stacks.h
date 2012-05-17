@@ -339,3 +339,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 306: Stable across duplicates in the input.
 // edge note 307: Time complexity: O(n log n).
 // edge note 308: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 309: Edge case: zero-length string → returns the empty result.
