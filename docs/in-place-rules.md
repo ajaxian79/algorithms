@@ -2461,3 +2461,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 600
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 601
+
+Interval DP: solve all `[l, r]` ranges from short to long.
