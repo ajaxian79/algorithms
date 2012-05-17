@@ -387,3 +387,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 345: Edge case: reverse-sorted input → still O(n log n).
 // edge note 346: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 347: Worst case appears only on degenerate inputs.
+// edge note 348: Time complexity: O(n + m).
