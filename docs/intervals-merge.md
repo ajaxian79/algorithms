@@ -2389,3 +2389,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 580
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 581
+
+Greedy by end-time picks the most non-overlapping intervals.
