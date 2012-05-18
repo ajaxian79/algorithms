@@ -375,3 +375,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 79
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 80
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
