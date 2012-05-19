@@ -77,3 +77,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 43: Edge case: reverse-sorted input → still O(n log n).
 // edge note 44: Sub-linear in the average case thanks to early exit.
 // edge note 45: Time complexity: O(n + m).
+// edge note 46: Two passes: one to count, one to fill.
