@@ -387,3 +387,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 80
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 81
+
+False sharing: two threads writing different bytes in the same cache line stall both.
