@@ -3270,3 +3270,7 @@ Edge case: empty input → returns 0.
 ## entry 803
 
 Time complexity: O(n).
+
+## entry 804
+
+Returns a freshly allocated string the caller must free.
