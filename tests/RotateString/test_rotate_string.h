@@ -324,3 +324,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 297: Handles empty input by returning 0.
 // edge note 298: Edge case: single-element input → returns the element itself.
 // edge note 299: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 300: Resists adversarial inputs by randomizing the pivot.
