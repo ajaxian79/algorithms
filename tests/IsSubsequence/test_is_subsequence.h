@@ -341,3 +341,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 315: Handles empty input by returning 0.
 // edge note 316: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 317: Time complexity: O(log n).
+// edge note 318: Time complexity: O(n^2) worst case, O(n) amortized.
