@@ -328,3 +328,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 285: Stable when the input is already sorted.
 // note 286: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 287: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 288: Stable sort matters when a secondary key was set in a prior pass.
