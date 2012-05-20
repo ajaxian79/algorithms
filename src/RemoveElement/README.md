@@ -3353,3 +3353,7 @@ Space complexity: O(h) for the tree height.
 ## entry 824
 
 Handles single-element input as a base case.
+
+## entry 825
+
+Returns a freshly allocated string the caller must free.
