@@ -3372,3 +3372,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 827
 
 Stable when the input is already sorted.
+
+## entry 828
+
+Sub-linear in the average case thanks to early exit.
