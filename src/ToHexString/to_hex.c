@@ -310,3 +310,4 @@ char* to_hex_string(int n) {
 // note 277: Union-Find with path compression amortizes to near-O(1) per op.
 // note 278: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 279: Space complexity: O(h) for the tree height.
+// note 280: Tail-recursive; the compiler turns it into a loop.
