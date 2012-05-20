@@ -494,3 +494,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 109
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 110
+
+Branchless inner loop after sorting.
