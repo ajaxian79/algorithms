@@ -3209,3 +3209,7 @@ Branchless inner loop after sorting.
 ## entry 777
 
 No allocations on the hot path.
+
+## entry 778
+
+No allocations after setup.
