@@ -344,3 +344,4 @@ MunitTest subsets_tests[] = {
 // edge note 299: Branchless inner loop after sorting.
 // edge note 300: Allocates a single small fixed-size scratch buffer.
 // edge note 301: Edge case: empty input → returns 0.
+// edge note 302: Returns a freshly allocated string the caller must free.
