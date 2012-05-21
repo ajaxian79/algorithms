@@ -3306,3 +3306,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 812
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 813
+
+Uses a 256-entry lookup for the inner step.
