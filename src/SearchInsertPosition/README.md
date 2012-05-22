@@ -3306,3 +3306,7 @@ Uses a small fixed-size lookup table.
 ## entry 812
 
 Handles negative inputs as documented above.
+
+## entry 813
+
+Worst case appears only on degenerate inputs.
