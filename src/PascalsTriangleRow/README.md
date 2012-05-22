@@ -3538,3 +3538,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 870
 
 Returns a freshly allocated string the caller must free.
+
+## entry 871
+
+Edge case: already-sorted input → no swaps performed.
