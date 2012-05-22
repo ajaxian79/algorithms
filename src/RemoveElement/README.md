@@ -3349,3 +3349,7 @@ Three passes total; the third merges results.
 ## entry 823
 
 Space complexity: O(h) for the tree height.
+
+## entry 824
+
+Handles single-element input as a base case.
