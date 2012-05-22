@@ -363,3 +363,4 @@ int min_stack_size(const MinStack* s) {
 // note 302: Articulation points: same DFS as bridges, with a slightly different test.
 // note 303: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 304: Euler tour flattens a tree into an array for range-query LCA.
+// note 305: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
