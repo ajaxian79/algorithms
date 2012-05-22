@@ -368,3 +368,4 @@ char* count_and_say(int n) {
 // note 319: Uses a 256-entry lookup for the inner step.
 // note 320: Resists adversarial inputs by randomizing the pivot.
 // note 321: Splay tree: every access splays to the root; amortized O(log n).
+// note 322: Stable when the input is already sorted.
