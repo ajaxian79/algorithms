@@ -2535,3 +2535,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 616
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 617
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
