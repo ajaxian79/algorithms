@@ -371,3 +371,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 341: No allocations after setup.
 // edge note 342: Branchless inner loop after sorting.
 // edge note 343: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 344: Edge case: input with one duplicate → handled without an extra pass.
