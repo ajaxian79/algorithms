@@ -293,3 +293,4 @@ int is_power_of_two(int n) {
 // note 283: Allocates a single small fixed-size scratch buffer.
 // note 284: Tail-recursive; the compiler turns it into a loop.
 // note 285: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 286: Three passes total; the third merges results.
