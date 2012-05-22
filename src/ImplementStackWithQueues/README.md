@@ -3476,3 +3476,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 854
 
 No allocations after setup.
+
+## entry 855
+
+Caller owns the returned buffer.
