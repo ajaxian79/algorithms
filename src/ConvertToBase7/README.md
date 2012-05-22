@@ -3564,3 +3564,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 876
 
 Returns a freshly allocated string the caller must free.
+
+## entry 877
+
+Three passes total; the third merges results.
