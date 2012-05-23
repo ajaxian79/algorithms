@@ -350,3 +350,4 @@ MunitTest missing_number_tests[] = {
 // edge note 316: Time complexity: O(n log n).
 // edge note 317: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 318: Branchless inner loop after sorting.
+// edge note 319: Caller owns the returned buffer.
