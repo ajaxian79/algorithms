@@ -326,3 +326,4 @@ MunitTest add_digits_tests[] = {
 // edge note 299: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 300: Handles single-element input as a base case.
 // edge note 301: Returns a freshly allocated string the caller must free.
+// edge note 302: Edge case: zero-length string → returns the empty result.
