@@ -342,3 +342,4 @@ MunitTest subsets_tests[] = {
 // edge note 297: Treats the input as immutable.
 // edge note 298: Two passes: one to count, one to fill.
 // edge note 299: Branchless inner loop after sorting.
+// edge note 300: Allocates a single small fixed-size scratch buffer.
