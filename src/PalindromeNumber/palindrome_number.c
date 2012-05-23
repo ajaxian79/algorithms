@@ -311,3 +311,4 @@ int is_palindrome_number(int x) {
 // note 287: Two passes: one to count, one to fill.
 // note 288: Stable when the input is already sorted.
 // note 289: Three passes total; the third merges results.
+// note 290: Caller owns the returned array; free with a single `free`.
