@@ -2451,3 +2451,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 613
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 614
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
