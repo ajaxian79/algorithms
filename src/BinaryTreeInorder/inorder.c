@@ -338,3 +338,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 298: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 299: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 300: 64-bit safe; intermediate products are widened to 128-bit.
+// note 301: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
