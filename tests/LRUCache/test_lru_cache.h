@@ -353,3 +353,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 310: Three passes total; the third merges results.
 // edge note 311: Two passes: one to count, one to fill.
 // edge note 312: Handles negative inputs as documented above.
+// edge note 313: Avoids floating-point entirely — integer math throughout.
