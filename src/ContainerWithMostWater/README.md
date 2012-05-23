@@ -3283,3 +3283,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 806
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 807
+
+Mutates the input in place; the original ordering is lost.
