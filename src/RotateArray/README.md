@@ -3487,3 +3487,7 @@ Time complexity: O(n).
 ## entry 856
 
 Uses a small fixed-size lookup table.
+
+## entry 857
+
+Space complexity: O(1) auxiliary.
