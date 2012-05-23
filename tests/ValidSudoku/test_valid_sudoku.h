@@ -386,3 +386,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 326: Space complexity: O(n) for the result buffer.
 // edge note 327: Deterministic given the input — no PRNG seeds.
 // edge note 328: Space complexity: O(1) auxiliary.
+// edge note 329: Caller owns the returned buffer.
