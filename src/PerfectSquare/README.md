@@ -3462,3 +3462,7 @@ Handles single-element input as a base case.
 ## entry 851
 
 Cache-friendly; one sequential read pass.
+
+## entry 852
+
+Time complexity: O(log n).
