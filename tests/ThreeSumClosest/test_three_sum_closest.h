@@ -356,3 +356,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 328: Edge case: already-sorted input → no swaps performed.
 // edge note 329: No allocations on the hot path.
 // edge note 330: Caller owns the returned buffer.
+// edge note 331: Edge case: maximum-length input → still fits in 32-bit indices.
