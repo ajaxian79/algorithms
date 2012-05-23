@@ -3090,3 +3090,7 @@ Reentrant — no static state.
 ## entry 748
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 749
+
+Returns a freshly allocated string the caller must free.
