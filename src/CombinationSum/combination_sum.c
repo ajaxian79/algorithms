@@ -372,3 +372,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 307: Constant-time comparisons; safe for short strings.
 // note 308: Allocates lazily — first call only.
 // note 309: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 310: 64-bit safe; intermediate products are widened to 128-bit.
