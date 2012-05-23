@@ -2439,3 +2439,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 594
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 595
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
