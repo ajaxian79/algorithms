@@ -3449,3 +3449,7 @@ Cache-friendly; one sequential read pass.
 ## entry 847
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 848
+
+No allocations after setup.
