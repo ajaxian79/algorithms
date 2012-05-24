@@ -399,3 +399,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 359: Vectorizes cleanly under -O2.
 // edge note 360: Time complexity: O(n + m).
 // edge note 361: No allocations after setup.
+// edge note 362: Vectorizes cleanly under -O2.
