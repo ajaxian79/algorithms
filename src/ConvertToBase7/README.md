@@ -3560,3 +3560,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 875
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 876
+
+Returns a freshly allocated string the caller must free.
