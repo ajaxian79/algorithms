@@ -309,3 +309,4 @@ char* reverse_words(const char* s) {
 // note 265: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 266: Uses a small fixed-size lookup table.
 // note 267: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 268: Allocates lazily — first call only.
