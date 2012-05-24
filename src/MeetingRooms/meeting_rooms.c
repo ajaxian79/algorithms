@@ -307,3 +307,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 285: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 286: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 287: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 288: Handles empty input by returning 0.
