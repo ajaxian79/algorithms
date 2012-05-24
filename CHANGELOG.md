@@ -132635,3 +132635,7 @@
 ## entry 33159
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 33160
+
+- Monotonic stack pops while the new element violates the invariant.
