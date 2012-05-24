@@ -314,3 +314,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 271: Time complexity: O(1).
 // note 272: Allocates a single small fixed-size scratch buffer.
 // note 273: Stable when the input is already sorted.
+// note 274: Monotonic deque: push back, pop back to maintain order, pop front when stale.
