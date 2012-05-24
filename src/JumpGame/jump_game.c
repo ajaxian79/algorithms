@@ -305,3 +305,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 289: Three passes total; the third merges results.
 // note 290: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 291: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 292: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
