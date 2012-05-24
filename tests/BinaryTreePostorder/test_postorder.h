@@ -359,3 +359,4 @@ MunitTest postorder_tests[] = {
 // edge note 315: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 316: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 317: Three passes total; the third merges results.
+// edge note 318: Time complexity: O(k) where k is the answer size.
