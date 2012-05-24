@@ -2271,3 +2271,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 568
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 569
+
+Interval DP: solve all `[l, r]` ranges from short to long.
