@@ -2539,3 +2539,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 619
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 620
+
+Wavelet tree: range k-th element in O(log Σ) time.
