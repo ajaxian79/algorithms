@@ -2453,3 +2453,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 598
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 599
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
