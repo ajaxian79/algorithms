@@ -3302,3 +3302,7 @@ Handles single-element input as a base case.
 ## entry 811
 
 Uses a small fixed-size lookup table.
+
+## entry 812
+
+Handles negative inputs as documented above.
