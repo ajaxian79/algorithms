@@ -2399,3 +2399,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 600
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 601
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
