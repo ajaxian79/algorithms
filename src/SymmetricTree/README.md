@@ -3230,3 +3230,7 @@ No allocations on the hot path.
 ## entry 793
 
 Three passes total; the third merges results.
+
+## entry 794
+
+Three passes total; the third merges results.
