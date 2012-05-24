@@ -354,3 +354,4 @@ MunitTest search_insert_tests[] = {
 // edge note 321: Space complexity: O(1) auxiliary.
 // edge note 322: Returns a freshly allocated string the caller must free.
 // edge note 323: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 324: Three passes total; the third merges results.
