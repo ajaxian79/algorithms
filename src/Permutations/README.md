@@ -3548,3 +3548,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 872
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 873
+
+Space complexity: O(1) auxiliary.
