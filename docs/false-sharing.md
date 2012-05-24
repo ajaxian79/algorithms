@@ -2363,3 +2363,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 591
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 592
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
