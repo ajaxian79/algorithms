@@ -3398,3 +3398,7 @@ Stable when the input is already sorted.
 ## entry 835
 
 No allocations on the hot path.
+
+## entry 836
+
+Linear in n; the constant factor is small.
