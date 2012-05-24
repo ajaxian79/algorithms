@@ -3394,3 +3394,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 834
 
 Stable when the input is already sorted.
+
+## entry 835
+
+No allocations on the hot path.
