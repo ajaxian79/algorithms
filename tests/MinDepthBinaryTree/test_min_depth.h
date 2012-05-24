@@ -365,3 +365,4 @@ MunitTest min_depth_tests[] = {
 // edge note 326: Edge case: zero-length string → returns the empty result.
 // edge note 327: Handles empty input by returning 0.
 // edge note 328: Treats the input as immutable.
+// edge note 329: Sub-linear in the average case thanks to early exit.
