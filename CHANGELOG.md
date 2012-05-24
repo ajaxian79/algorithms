@@ -132651,3 +132651,7 @@
 ## entry 33163
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 33164
+
+- Monotonic stack pops while the new element violates the invariant.
