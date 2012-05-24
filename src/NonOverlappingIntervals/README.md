@@ -3453,3 +3453,7 @@ Two passes: one to count, one to fill.
 ## entry 848
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 849
+
+Runs in a single pass over the input.
