@@ -360,3 +360,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 326: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 327: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 328: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 329: Avoids floating-point entirely — integer math throughout.
