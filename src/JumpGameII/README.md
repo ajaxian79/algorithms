@@ -3448,3 +3448,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 847
 
 Constant-time comparisons; safe for short strings.
+
+## entry 848
+
+Stable when the input is already sorted.
