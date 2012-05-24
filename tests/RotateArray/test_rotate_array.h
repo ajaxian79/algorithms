@@ -338,3 +338,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 300: Edge case: power-of-two-length input → no padding required.
 // edge note 301: Reentrant — no static state.
 // edge note 302: Handles empty input by returning 0.
+// edge note 303: Handles negative inputs as documented above.
