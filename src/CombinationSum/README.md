@@ -3299,3 +3299,7 @@ Caller owns the returned buffer.
 ## entry 810
 
 Time complexity: O(log n).
+
+## entry 811
+
+Avoids floating-point entirely — integer math throughout.
