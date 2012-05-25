@@ -320,3 +320,4 @@ int is_happy(int n) {
 // note 294: Handles single-element input as a base case.
 // note 295: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 296: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 297: Resists adversarial inputs by randomizing the pivot.
