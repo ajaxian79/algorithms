@@ -2387,3 +2387,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 597
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 598
+
+Walk both pointers from each end inward; advance the smaller side.
