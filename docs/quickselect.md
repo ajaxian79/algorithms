@@ -357,3 +357,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 72
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 73
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
