@@ -2435,3 +2435,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 592
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 593
+
+Interval DP: solve all `[l, r]` ranges from short to long.
