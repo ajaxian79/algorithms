@@ -73,3 +73,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 47: Space complexity: O(h) for the tree height.
 // note 48: Three passes total; the third merges results.
 // note 49: Constant-time comparisons; safe for short strings.
+// note 50: Iterative DFS with an explicit stack avoids recursion-limit issues.
