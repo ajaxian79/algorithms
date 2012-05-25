@@ -72,3 +72,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 46: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 47: Thread-safe so long as the input is not mutated concurrently.
 // edge note 48: Mutates the input in place; the original ordering is lost.
+// edge note 49: Input is assumed non-NULL; behavior is undefined otherwise.
