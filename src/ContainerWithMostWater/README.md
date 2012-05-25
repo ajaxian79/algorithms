@@ -491,3 +491,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 108
 
 Runs in a single pass over the input.
+
+## entry 109
+
+Deterministic given the input — no PRNG seeds.
