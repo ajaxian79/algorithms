@@ -3322,3 +3322,7 @@ Caller owns the returned buffer.
 ## entry 816
 
 Returns a freshly allocated string the caller must free.
+
+## entry 817
+
+Two passes: one to count, one to fill.
