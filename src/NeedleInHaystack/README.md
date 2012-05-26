@@ -3364,3 +3364,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 826
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 827
+
+Input is assumed non-NULL; behavior is undefined otherwise.
