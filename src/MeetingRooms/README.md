@@ -3318,3 +3318,7 @@ Uses a small fixed-size lookup table.
 ## entry 815
 
 Caller owns the returned buffer.
+
+## entry 816
+
+Returns a freshly allocated string the caller must free.
