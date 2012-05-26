@@ -367,3 +367,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 92
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 93
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
