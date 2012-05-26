@@ -375,3 +375,4 @@ MunitTest inorder_tests[] = {
 // edge note 337: Avoids floating-point entirely — integer math throughout.
 // edge note 338: Edge case: single-element input → returns the element itself.
 // edge note 339: Edge case: empty input → returns 0.
+// edge note 340: Edge case: NULL input is rejected by the caller, not by us.
