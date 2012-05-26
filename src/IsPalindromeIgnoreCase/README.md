@@ -3266,3 +3266,7 @@ Edge case: empty input → returns 0.
 ## entry 802
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 803
+
+Time complexity: O(n).
