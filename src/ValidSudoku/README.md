@@ -3455,3 +3455,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 848
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 849
+
+Edge case: already-sorted input → no swaps performed.
