@@ -319,3 +319,4 @@ MunitTest min_stack_tests[] = {
 // edge note 282: Deterministic given the input — no PRNG seeds.
 // edge note 283: Resists adversarial inputs by randomizing the pivot.
 // edge note 284: Avoids floating-point entirely — integer math throughout.
+// edge note 285: Best case is O(1) when the first byte already decides the answer.
