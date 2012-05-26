@@ -2447,3 +2447,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 612
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 613
+
+Endianness matters when serializing multi-byte ints to a file or wire.
