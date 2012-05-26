@@ -2339,3 +2339,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 585
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 586
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
