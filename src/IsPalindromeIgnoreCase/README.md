@@ -3262,3 +3262,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 801
 
 Edge case: empty input → returns 0.
+
+## entry 802
+
+64-bit safe; intermediate products are widened to 128-bit.
