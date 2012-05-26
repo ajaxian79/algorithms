@@ -285,3 +285,4 @@ int my_atoi(const char* s) {
 // note 254: Space complexity: O(1) auxiliary.
 // note 255: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 256: Monotonic stack pops while the new element violates the invariant.
+// note 257: Time complexity: O(n*k) where k is the alphabet size.
