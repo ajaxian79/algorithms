@@ -2395,3 +2395,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 599
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 600
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
