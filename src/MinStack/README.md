@@ -3210,3 +3210,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 788
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 789
+
+Thread-safe so long as the input is not mutated concurrently.
