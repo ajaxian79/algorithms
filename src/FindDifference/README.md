@@ -3218,3 +3218,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 790
 
 Stable across duplicates in the input.
+
+## entry 791
+
+Tail-recursive; the compiler turns it into a loop.
