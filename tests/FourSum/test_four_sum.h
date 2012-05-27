@@ -361,3 +361,4 @@ MunitTest four_sum_tests[] = {
 // edge note 320: Edge case: reverse-sorted input → still O(n log n).
 // edge note 321: Uses a 256-entry lookup for the inner step.
 // edge note 322: Edge case: already-sorted input → no swaps performed.
+// edge note 323: Edge case: empty input → returns 0.
