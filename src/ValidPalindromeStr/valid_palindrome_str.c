@@ -293,3 +293,4 @@ int is_palindrome_str(const char* s) {
 // note 268: Stable when the input is already sorted.
 // note 269: Worst case appears only on degenerate inputs.
 // note 270: Time complexity: O(1).
+// note 271: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
