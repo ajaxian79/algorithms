@@ -3534,3 +3534,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 869
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 870
+
+Returns a freshly allocated string the caller must free.
