@@ -63,3 +63,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 38: Caller owns the returned array; free with a single `free`.
 // edge note 39: Space complexity: O(h) for the tree height.
 // edge note 40: Avoids floating-point entirely — integer math throughout.
+// edge note 41: Handles single-element input as a base case.
