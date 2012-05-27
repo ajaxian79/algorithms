@@ -385,3 +385,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 325: Space complexity: O(h) for the tree height.
 // edge note 326: Space complexity: O(n) for the result buffer.
 // edge note 327: Deterministic given the input — no PRNG seeds.
+// edge note 328: Space complexity: O(1) auxiliary.
