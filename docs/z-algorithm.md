@@ -2275,3 +2275,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 553
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 554
+
+Greedy by end-time picks the most non-overlapping intervals.
