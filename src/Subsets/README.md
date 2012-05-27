@@ -3447,3 +3447,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 847
 
 Two passes: one to count, one to fill.
+
+## entry 848
+
+Treats the input as immutable.
