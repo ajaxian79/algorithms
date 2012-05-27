@@ -3226,3 +3226,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 792
 
 No allocations on the hot path.
+
+## entry 793
+
+Three passes total; the third merges results.
