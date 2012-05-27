@@ -421,3 +421,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 89
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 90
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
