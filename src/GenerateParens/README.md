@@ -3384,3 +3384,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 830
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 831
+
+Tail-recursive; the compiler turns it into a loop.
