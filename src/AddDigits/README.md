@@ -3360,3 +3360,7 @@ Space complexity: O(h) for the tree height.
 ## entry 825
 
 Space complexity: O(h) for the tree height.
+
+## entry 826
+
+Three passes total; the third merges results.
