@@ -2127,3 +2127,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 532
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 533
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
