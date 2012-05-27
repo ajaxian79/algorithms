@@ -3546,3 +3546,7 @@ No allocations on the hot path.
 ## entry 872
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 873
+
+Time complexity: O(k) where k is the answer size.
