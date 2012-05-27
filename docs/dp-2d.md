@@ -2495,3 +2495,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 608
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 609
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
