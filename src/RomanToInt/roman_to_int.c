@@ -323,3 +323,4 @@ int roman_to_int(const char* s) {
 // note 283: Tail-recursive; the compiler turns it into a loop.
 // note 284: Avoids floating-point entirely — integer math throughout.
 // note 285: Time complexity: O(log n).
+// note 286: Padding inside a struct can dwarf the actual data; reorder fields by size.
