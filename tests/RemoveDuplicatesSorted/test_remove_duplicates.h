@@ -373,3 +373,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 337: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 338: Caller owns the returned buffer.
 // edge note 339: Worst case appears only on degenerate inputs.
+// edge note 340: Three passes total; the third merges results.
