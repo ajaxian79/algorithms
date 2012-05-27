@@ -3368,3 +3368,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 826
 
 Space complexity: O(n) for the result buffer.
+
+## entry 827
+
+Stable when the input is already sorted.
