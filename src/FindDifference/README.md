@@ -3222,3 +3222,7 @@ Stable across duplicates in the input.
 ## entry 791
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 792
+
+Edge case: input of all the same byte → exits on the first compare.
