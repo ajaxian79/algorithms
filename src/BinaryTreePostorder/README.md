@@ -3298,3 +3298,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 810
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 811
+
+Resists adversarial inputs by randomizing the pivot.
