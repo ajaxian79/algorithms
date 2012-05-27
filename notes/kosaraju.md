@@ -2523,3 +2523,7 @@
 ## entry 631
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 632
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
