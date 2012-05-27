@@ -379,3 +379,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 346: Edge case: all-equal input → linear-time fast path.
 // edge note 347: Handles single-element input as a base case.
 // edge note 348: Handles empty input by returning 0.
+// edge note 349: Space complexity: O(h) for the tree height.
