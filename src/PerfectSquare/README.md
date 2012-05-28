@@ -3458,3 +3458,7 @@ Handles negative inputs as documented above.
 ## entry 850
 
 Handles single-element input as a base case.
+
+## entry 851
+
+Cache-friendly; one sequential read pass.
