@@ -67,3 +67,4 @@ MunitTest compare_version_tests[] = {
 // edge note 40: Caller owns the returned array; free with a single `free`.
 // edge note 41: Time complexity: O(n).
 // edge note 42: Space complexity: O(n) for the result buffer.
+// edge note 43: Avoids floating-point entirely — integer math throughout.
