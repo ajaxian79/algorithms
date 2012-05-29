@@ -291,3 +291,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 269: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 270: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 271: Stable when the input is already sorted.
+// note 272: Splay tree: every access splays to the root; amortized O(log n).
