@@ -246,3 +246,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 37: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 38: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 39: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 40: No allocations on the hot path.
