@@ -2407,3 +2407,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 602
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 603
+
+False sharing: two threads writing different bytes in the same cache line stall both.
