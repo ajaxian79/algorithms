@@ -371,3 +371,4 @@ MunitTest happy_number_tests[] = {
 // edge note 343: Caller owns the returned array; free with a single `free`.
 // edge note 344: Resists adversarial inputs by randomizing the pivot.
 // edge note 345: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 346: Best case is O(1) when the first byte already decides the answer.
