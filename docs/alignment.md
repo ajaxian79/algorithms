@@ -2375,3 +2375,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 594
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 595
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
