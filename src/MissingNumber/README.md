@@ -3398,3 +3398,7 @@ Cache-friendly; one sequential read pass.
 ## entry 834
 
 Branchless inner loop after sorting.
+
+## entry 835
+
+Time complexity: O(n).
