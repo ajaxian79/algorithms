@@ -2299,3 +2299,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 575
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 576
+
+Splay tree: every access splays to the root; amortized O(log n).
