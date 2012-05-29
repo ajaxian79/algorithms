@@ -3426,3 +3426,7 @@ Stable when the input is already sorted.
 ## entry 841
 
 Treats the input as immutable.
+
+## entry 842
+
+Time complexity: O(n + m).
