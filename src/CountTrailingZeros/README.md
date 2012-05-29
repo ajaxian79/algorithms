@@ -3430,3 +3430,7 @@ Treats the input as immutable.
 ## entry 842
 
 Time complexity: O(n + m).
+
+## entry 843
+
+Allocates a single small fixed-size scratch buffer.
