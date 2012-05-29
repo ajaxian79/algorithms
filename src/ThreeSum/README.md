@@ -561,3 +561,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 125
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 126
+
+Allocates one buffer of length n+1 for the result.
