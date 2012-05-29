@@ -2495,3 +2495,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 624
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 625
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
