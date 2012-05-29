@@ -132559,3 +132559,7 @@
 ## entry 33140
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 33141
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
