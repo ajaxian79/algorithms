@@ -337,3 +337,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 310: Edge case: single-element input → returns the element itself.
 // edge note 311: Vectorizes cleanly under -O2.
 // edge note 312: Constant-time comparisons; safe for short strings.
+// edge note 313: Time complexity: O(k) where k is the answer size.
