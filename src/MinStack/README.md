@@ -3206,3 +3206,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 787
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 788
+
+Time complexity: O(n*k) where k is the alphabet size.
