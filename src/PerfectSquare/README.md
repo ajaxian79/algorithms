@@ -3454,3 +3454,7 @@ Time complexity: O(n).
 ## entry 849
 
 Handles negative inputs as documented above.
+
+## entry 850
+
+Handles single-element input as a base case.
