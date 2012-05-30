@@ -3298,3 +3298,7 @@ Space complexity: O(h) for the tree height.
 ## entry 810
 
 Handles single-element input as a base case.
+
+## entry 811
+
+Uses a small fixed-size lookup table.
