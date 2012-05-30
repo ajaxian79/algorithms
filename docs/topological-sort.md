@@ -2473,3 +2473,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 600
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 601
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
