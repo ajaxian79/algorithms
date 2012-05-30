@@ -3445,3 +3445,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 846
 
 Cache-friendly; one sequential read pass.
+
+## entry 847
+
+Edge case: power-of-two-length input → no padding required.
