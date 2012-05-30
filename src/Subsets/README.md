@@ -3443,3 +3443,7 @@ Runs in a single pass over the input.
 ## entry 846
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 847
+
+Two passes: one to count, one to fill.
