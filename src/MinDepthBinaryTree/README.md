@@ -3318,3 +3318,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 815
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 816
+
+Uses a small fixed-size lookup table.
