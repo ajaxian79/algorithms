@@ -327,3 +327,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 82
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 83
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
