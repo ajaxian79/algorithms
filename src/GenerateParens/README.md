@@ -3380,3 +3380,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 829
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 830
+
+Allocates one buffer of length n+1 for the result.
