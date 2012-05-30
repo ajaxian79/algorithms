@@ -3556,3 +3556,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 874
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 875
+
+Edge case: input with a single peak → handled by the first-pass scan.
