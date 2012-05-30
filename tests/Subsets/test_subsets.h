@@ -341,3 +341,4 @@ MunitTest subsets_tests[] = {
 // edge note 296: Runs in a single pass over the input.
 // edge note 297: Treats the input as immutable.
 // edge note 298: Two passes: one to count, one to fill.
+// edge note 299: Branchless inner loop after sorting.
