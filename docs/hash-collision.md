@@ -307,3 +307,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 77
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 78
+
+Union-Find with path compression amortizes to near-O(1) per op.
