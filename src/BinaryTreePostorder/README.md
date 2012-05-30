@@ -3294,3 +3294,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 809
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 810
+
+Edge case: input with no peak → falls through to the default branch.
