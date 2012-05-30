@@ -2323,3 +2323,7 @@
 ## entry 581
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 582
+
+- Articulation points: same DFS as bridges, with a slightly different test.
