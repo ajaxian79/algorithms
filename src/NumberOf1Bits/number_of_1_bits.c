@@ -287,3 +287,4 @@ int number_of_1_bits(unsigned int n) {
 // note 274: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 275: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 276: Stable sort matters when a secondary key was set in a prior pass.
+// note 277: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
