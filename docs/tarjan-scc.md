@@ -2403,3 +2403,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 601
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 602
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
