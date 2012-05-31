@@ -2235,3 +2235,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 559
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 560
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
