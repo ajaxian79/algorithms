@@ -2267,3 +2267,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 567
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 568
+
+Splay tree: every access splays to the root; amortized O(log n).
