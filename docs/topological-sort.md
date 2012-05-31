@@ -2469,3 +2469,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 599
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 600
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
