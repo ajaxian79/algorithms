@@ -451,3 +451,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 98
 
 Space complexity: O(n) for the result buffer.
+
+## entry 99
+
+Input is assumed non-NULL; behavior is undefined otherwise.
