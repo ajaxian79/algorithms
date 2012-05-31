@@ -3518,3 +3518,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 865
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 866
+
+Edge case: single-element input → returns the element itself.
