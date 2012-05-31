@@ -3352,3 +3352,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 823
 
 Stable when the input is already sorted.
+
+## entry 824
+
+64-bit safe; intermediate products are widened to 128-bit.
