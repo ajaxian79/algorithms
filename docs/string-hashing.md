@@ -2431,3 +2431,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 591
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 592
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
