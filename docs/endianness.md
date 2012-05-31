@@ -2251,3 +2251,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 563
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 564
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
