@@ -314,3 +314,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 282: Stable when the input is already sorted.
 // edge note 283: Linear in n; the constant factor is small.
 // edge note 284: Allocates a single small fixed-size scratch buffer.
+// edge note 285: Edge case: NULL input is rejected by the caller, not by us.
