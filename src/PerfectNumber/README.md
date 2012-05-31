@@ -3277,3 +3277,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 804
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 805
+
+Edge case: already-sorted input → no swaps performed.
