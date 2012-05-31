@@ -3468,3 +3468,7 @@ Stable across duplicates in the input.
 ## entry 852
 
 Time complexity: O(log n).
+
+## entry 853
+
+Time complexity: O(k) where k is the answer size.
