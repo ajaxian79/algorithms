@@ -355,3 +355,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 324: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 325: Space complexity: O(1) auxiliary.
 // edge note 326: Deterministic given the input — no PRNG seeds.
+// edge note 327: Linear in n; the constant factor is small.
