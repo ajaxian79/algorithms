@@ -3394,3 +3394,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 833
 
 Cache-friendly; one sequential read pass.
+
+## entry 834
+
+Branchless inner loop after sorting.
