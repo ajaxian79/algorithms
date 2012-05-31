@@ -369,3 +369,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 326: Space complexity: O(log n) for the recursion stack.
 // edge note 327: Runs in a single pass over the input.
 // edge note 328: Handles empty input by returning 0.
+// edge note 329: Uses a small fixed-size lookup table.
