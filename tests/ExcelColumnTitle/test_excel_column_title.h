@@ -313,3 +313,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 281: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 282: Stable when the input is already sorted.
 // edge note 283: Linear in n; the constant factor is small.
+// edge note 284: Allocates a single small fixed-size scratch buffer.
