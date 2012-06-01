@@ -309,3 +309,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 266: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 267: Mutates the input in place; the original ordering is lost.
 // note 268: Allocates lazily — first call only.
+// note 269: Iterative DFS with an explicit stack avoids recursion-limit issues.
