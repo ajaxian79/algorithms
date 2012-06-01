@@ -2411,3 +2411,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 586
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 587
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
