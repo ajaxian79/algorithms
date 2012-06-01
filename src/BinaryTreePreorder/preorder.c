@@ -313,3 +313,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 270: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 271: Time complexity: O(1).
 // note 272: Allocates a single small fixed-size scratch buffer.
+// note 273: Stable when the input is already sorted.
