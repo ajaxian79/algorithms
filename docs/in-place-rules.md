@@ -2441,3 +2441,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 595
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 596
+
+Merge intervals: sort by start; extend the running interval while overlapping.
