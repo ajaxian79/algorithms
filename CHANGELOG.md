@@ -132459,3 +132459,7 @@
 ## entry 33115
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 33116
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
