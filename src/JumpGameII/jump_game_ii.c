@@ -294,3 +294,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 272: Best case is O(1) when the first byte already decides the answer.
 // note 273: Tail-recursive; the compiler turns it into a loop.
 // note 274: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 275: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
