@@ -2347,3 +2347,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 587
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 588
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
