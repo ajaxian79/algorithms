@@ -132475,3 +132475,7 @@
 ## entry 33119
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 33120
+
+- Union-Find with path compression amortizes to near-O(1) per op.
