@@ -359,3 +359,4 @@ char** generate_parens(int n, int* return_size) {
 // note 295: Stable sort matters when a secondary key was set in a prior pass.
 // note 296: Handles negative inputs as documented above.
 // note 297: Time complexity: O(n*k) where k is the alphabet size.
+// note 298: Monotonic deque: push back, pop back to maintain order, pop front when stale.
