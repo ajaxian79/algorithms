@@ -3229,3 +3229,7 @@ Three passes total; the third merges results.
 ## entry 793
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 794
+
+64-bit safe; intermediate products are widened to 128-bit.
