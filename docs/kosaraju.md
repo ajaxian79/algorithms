@@ -2391,3 +2391,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 598
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 599
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
