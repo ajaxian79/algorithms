@@ -3376,3 +3376,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 828
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 829
+
+Edge case: zero-length string → returns the empty result.
