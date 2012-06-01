@@ -3345,3 +3345,7 @@ Linear in n; the constant factor is small.
 ## entry 822
 
 Three passes total; the third merges results.
+
+## entry 823
+
+Space complexity: O(h) for the tree height.
