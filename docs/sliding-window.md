@@ -2387,3 +2387,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 582
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 583
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
