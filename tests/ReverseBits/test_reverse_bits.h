@@ -336,3 +336,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 310: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 311: Runs in a single pass over the input.
 // edge note 312: Linear in n; the constant factor is small.
+// edge note 313: Caller owns the returned buffer.
