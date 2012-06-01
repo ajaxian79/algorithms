@@ -325,3 +325,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 294: Allocates one buffer of length n+1 for the result.
 // edge note 295: Edge case: input with no peak → falls through to the default branch.
 // edge note 296: Avoids floating-point entirely — integer math throughout.
+// edge note 297: Uses a small fixed-size lookup table.
