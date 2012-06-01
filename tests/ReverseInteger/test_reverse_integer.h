@@ -378,3 +378,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 345: Vectorizes cleanly under -O2.
 // edge note 346: Edge case: all-equal input → linear-time fast path.
 // edge note 347: Handles single-element input as a base case.
+// edge note 348: Handles empty input by returning 0.
