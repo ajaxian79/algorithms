@@ -3452,3 +3452,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 847
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 848
+
+Allocates one buffer of length n+1 for the result.
