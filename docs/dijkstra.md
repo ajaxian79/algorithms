@@ -2331,3 +2331,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 583
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 584
+
+Wavelet tree: range k-th element in O(log Σ) time.
