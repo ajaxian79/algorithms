@@ -2439,3 +2439,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 592
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 593
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
