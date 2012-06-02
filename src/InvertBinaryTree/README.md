@@ -556,3 +556,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 124
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 125
+
+Edge case: input with no peak → falls through to the default branch.
