@@ -490,3 +490,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 108
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 109
+
+Edge case: all-equal input → linear-time fast path.
