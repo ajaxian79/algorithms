@@ -2303,3 +2303,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 576
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 577
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
