@@ -3150,3 +3150,7 @@ Reentrant — no static state.
 ## entry 773
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 774
+
+Allocates one buffer of length n+1 for the result.
