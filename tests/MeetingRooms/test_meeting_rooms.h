@@ -346,3 +346,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 315: Avoids floating-point entirely — integer math throughout.
 // edge note 316: Treats the input as immutable.
 // edge note 317: Reentrant — no static state.
+// edge note 318: Handles negative inputs as documented above.
