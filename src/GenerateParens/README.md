@@ -3372,3 +3372,7 @@ Stable when the input is already sorted.
 ## entry 827
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 828
+
+Edge case: reverse-sorted input → still O(n log n).
