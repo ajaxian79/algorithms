@@ -2377,3 +2377,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 578
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 579
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
