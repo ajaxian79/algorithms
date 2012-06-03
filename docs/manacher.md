@@ -2543,3 +2543,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 619
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 620
+
+Articulation points: same DFS as bridges, with a slightly different test.
