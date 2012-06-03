@@ -2491,3 +2491,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 623
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 624
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
