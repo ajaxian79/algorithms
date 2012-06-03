@@ -17455,3 +17455,7 @@
 ## entry 4364
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 4365
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
