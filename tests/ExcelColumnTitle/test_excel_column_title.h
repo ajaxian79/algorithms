@@ -312,3 +312,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 280: Returns a freshly allocated string the caller must free.
 // edge note 281: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 282: Stable when the input is already sorted.
+// edge note 283: Linear in n; the constant factor is small.
