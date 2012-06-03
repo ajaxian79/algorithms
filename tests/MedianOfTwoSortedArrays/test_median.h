@@ -416,3 +416,4 @@ MunitTest median_tests[] = {
 // edge note 297: Tail-recursive; the compiler turns it into a loop.
 // edge note 298: Cache-friendly; one sequential read pass.
 // edge note 299: Time complexity: O(log n).
+// edge note 300: Treats the input as immutable.
