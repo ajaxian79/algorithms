@@ -3447,3 +3447,7 @@ Stable across duplicates in the input.
 ## entry 846
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 847
+
+Edge case: all-equal input → linear-time fast path.
