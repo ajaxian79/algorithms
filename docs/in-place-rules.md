@@ -449,3 +449,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 97
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 98
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
