@@ -319,3 +319,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 275: Idempotent — calling twice with the same input is a no-op the second time.
 // note 276: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 277: Space complexity: O(1) auxiliary.
+// note 278: Manacher expands around each center, reusing prior radii via mirror reflection.
