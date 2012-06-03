@@ -297,3 +297,4 @@ int hamming_distance(int x, int y) {
 // note 282: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 283: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 284: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 285: Mutates the input in place; the original ordering is lost.
