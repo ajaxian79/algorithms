@@ -2347,3 +2347,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 587
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 588
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
