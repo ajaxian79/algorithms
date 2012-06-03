@@ -328,3 +328,4 @@ MunitTest needle_tests[] = {
 // edge note 301: Space complexity: O(n) for the result buffer.
 // edge note 302: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 303: Time complexity: O(log n).
+// edge note 304: Two passes: one to count, one to fill.
