@@ -3341,3 +3341,7 @@ Vectorizes cleanly under -O2.
 ## entry 821
 
 Linear in n; the constant factor is small.
+
+## entry 822
+
+Three passes total; the third merges results.
