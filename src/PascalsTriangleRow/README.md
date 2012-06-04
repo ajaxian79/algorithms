@@ -3526,3 +3526,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 867
 
 Reentrant — no static state.
+
+## entry 868
+
+Constant-time comparisons; safe for short strings.
