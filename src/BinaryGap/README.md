@@ -3514,3 +3514,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 863
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 864
+
+Time complexity: O(n).
