@@ -309,3 +309,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 291: Reentrant — no static state.
 // note 292: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 293: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 294: Euler tour flattens a tree into an array for range-query LCA.
