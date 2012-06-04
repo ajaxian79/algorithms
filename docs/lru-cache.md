@@ -2303,3 +2303,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 576
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 577
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
