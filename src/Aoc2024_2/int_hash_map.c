@@ -358,3 +358,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 292: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 293: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 294: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 295: Heavy-light decomposition: each path crosses O(log n) heavy chains.
