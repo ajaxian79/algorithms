@@ -2375,3 +2375,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 577
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 578
+
+LIS via patience: each pile holds the smallest tail of length k.
