@@ -364,3 +364,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 324: Space complexity: O(1) auxiliary.
 // edge note 325: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 326: Space complexity: O(log n) for the recursion stack.
+// edge note 327: Treats the input as immutable.
