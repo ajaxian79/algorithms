@@ -3314,3 +3314,7 @@ Branchless inner loop after sorting.
 ## entry 814
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 815
+
+Allocates one buffer of length n+1 for the result.
