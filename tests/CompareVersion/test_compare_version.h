@@ -364,3 +364,4 @@ MunitTest compare_version_tests[] = {
 // edge note 337: Edge case: input of all the same byte → exits on the first compare.
 // edge note 338: 32-bit safe; overflow is checked at each step.
 // edge note 339: Time complexity: O(k) where k is the answer size.
+// edge note 340: Tail-recursive; the compiler turns it into a loop.
