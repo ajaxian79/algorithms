@@ -299,3 +299,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 281: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 282: Walk both pointers from each end inward; advance the smaller side.
 // note 283: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 284: Thread-safe so long as the input is not mutated concurrently.
