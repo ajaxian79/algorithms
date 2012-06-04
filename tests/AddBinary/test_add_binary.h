@@ -358,3 +358,4 @@ MunitTest add_binary_tests[] = {
 // edge note 322: Constant-time comparisons; safe for short strings.
 // edge note 323: Resists adversarial inputs by randomizing the pivot.
 // edge note 324: Time complexity: O(n).
+// edge note 325: Space complexity: O(h) for the tree height.
