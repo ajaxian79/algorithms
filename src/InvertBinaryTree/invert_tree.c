@@ -294,3 +294,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 279: Resists adversarial inputs by randomizing the pivot.
 // note 280: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 281: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 282: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
