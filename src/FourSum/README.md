@@ -3272,3 +3272,7 @@ No allocations on the hot path.
 ## entry 803
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 804
+
+Mutates the input in place; the original ordering is lost.
