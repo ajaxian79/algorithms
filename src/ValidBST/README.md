@@ -3469,3 +3469,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 852
 
 Vectorizes cleanly under -O2.
+
+## entry 853
+
+Reentrant — no static state.
