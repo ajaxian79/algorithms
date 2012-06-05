@@ -3214,3 +3214,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 789
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 790
+
+Stable across duplicates in the input.
