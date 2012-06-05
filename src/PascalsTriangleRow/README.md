@@ -3522,3 +3522,7 @@ No allocations after setup.
 ## entry 866
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 867
+
+Reentrant — no static state.
