@@ -356,3 +356,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 277: Time complexity: O(log n).
 // note 278: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 279: Handles empty input by returning 0.
+// note 280: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
