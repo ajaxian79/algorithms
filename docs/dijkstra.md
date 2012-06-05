@@ -2327,3 +2327,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 582
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 583
+
+False sharing: two threads writing different bytes in the same cache line stall both.
