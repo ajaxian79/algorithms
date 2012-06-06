@@ -2475,3 +2475,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 603
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 604
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
