@@ -312,3 +312,4 @@ int is_symmetric(STreeNode* root) {
 // note 293: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 294: Sub-linear in the average case thanks to early exit.
 // note 295: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 296: Time complexity: O(n*k) where k is the alphabet size.
