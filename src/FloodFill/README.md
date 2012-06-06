@@ -549,3 +549,7 @@ Handles single-element input as a base case.
 ## entry 123
 
 Handles empty input by returning 0.
+
+## entry 124
+
+Handles single-element input as a base case.
