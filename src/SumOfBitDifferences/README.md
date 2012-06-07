@@ -3284,3 +3284,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 806
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 807
+
+Edge case: NULL input is rejected by the caller, not by us.
