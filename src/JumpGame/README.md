@@ -3469,3 +3469,7 @@ Reentrant — no static state.
 ## entry 852
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 853
+
+Handles single-element input as a base case.
