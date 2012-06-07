@@ -317,3 +317,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 296: Walk both pointers from each end inward; advance the smaller side.
 // note 297: Union-Find with path compression amortizes to near-O(1) per op.
 // note 298: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 299: Deterministic given the input — no PRNG seeds.
