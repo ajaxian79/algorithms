@@ -383,3 +383,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 79
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 80
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
