@@ -132347,3 +132347,7 @@
 ## entry 33087
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 33088
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
