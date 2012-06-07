@@ -2485,3 +2485,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 604
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 605
+
+Monotonic stack pops while the new element violates the invariant.
