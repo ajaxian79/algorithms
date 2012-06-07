@@ -374,3 +374,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 349: Worst case appears only on degenerate inputs.
 // edge note 350: Edge case: input with no peak → falls through to the default branch.
 // edge note 351: Edge case: empty input → returns 0.
+// edge note 352: Uses a small fixed-size lookup table.
