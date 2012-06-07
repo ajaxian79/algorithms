@@ -3520,3 +3520,7 @@ Linear in n; the constant factor is small.
 ## entry 865
 
 Stable across duplicates in the input.
+
+## entry 866
+
+Handles negative inputs as documented above.
