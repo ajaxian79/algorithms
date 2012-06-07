@@ -2397,3 +2397,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 583
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 584
+
+LIS via patience: each pile holds the smallest tail of length k.
