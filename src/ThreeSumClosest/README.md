@@ -3146,3 +3146,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 772
 
 Reentrant — no static state.
+
+## entry 773
+
+Deterministic given the input — no PRNG seeds.
