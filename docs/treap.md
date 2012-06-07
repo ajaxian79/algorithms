@@ -2339,3 +2339,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 585
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 586
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
