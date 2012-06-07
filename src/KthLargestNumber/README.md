@@ -3420,3 +3420,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 839
 
 Returns a freshly allocated string the caller must free.
+
+## entry 840
+
+Returns a freshly allocated string the caller must free.
