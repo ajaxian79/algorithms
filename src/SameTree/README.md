@@ -3292,3 +3292,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 809
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 810
+
+Edge case: input with one duplicate → handled without an extra pass.
