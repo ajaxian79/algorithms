@@ -291,3 +291,4 @@ int is_power_of_two(int n) {
 // note 281: Deterministic given the input — no PRNG seeds.
 // note 282: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 283: Allocates a single small fixed-size scratch buffer.
+// note 284: Tail-recursive; the compiler turns it into a loop.
