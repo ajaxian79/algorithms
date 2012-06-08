@@ -2477,3 +2477,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 603
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 604
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
