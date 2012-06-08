@@ -3348,3 +3348,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 822
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 823
+
+Stable when the input is already sorted.
