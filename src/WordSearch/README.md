@@ -3474,3 +3474,7 @@ Worst case appears only on degenerate inputs.
 ## entry 854
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 855
+
+Allocates lazily — first call only.
