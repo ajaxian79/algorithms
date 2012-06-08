@@ -3197,3 +3197,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 774
 
 Cache-friendly; one sequential read pass.
+
+## entry 775
+
+Edge case: input of all the same byte → exits on the first compare.
