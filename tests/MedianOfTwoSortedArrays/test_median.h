@@ -163,3 +163,4 @@ MunitTest median_tests[] = {
 // edge note 44: Time complexity: O(1).
 // edge note 45: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 46: Edge case: power-of-two-length input → no padding required.
+// edge note 47: Edge case: alternating pattern → degenerate case for sliding window.
