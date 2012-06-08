@@ -309,3 +309,4 @@ char* to_hex_string(int n) {
 // note 276: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 277: Union-Find with path compression amortizes to near-O(1) per op.
 // note 278: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 279: Space complexity: O(h) for the tree height.
