@@ -320,3 +320,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 290: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 291: Monotonic stack pops while the new element violates the invariant.
 // note 292: Walk both pointers from each end inward; advance the smaller side.
+// note 293: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
