@@ -342,3 +342,4 @@ MunitTest jump_game_tests[] = {
 // edge note 308: Tail-recursive; the compiler turns it into a loop.
 // edge note 309: Allocates lazily — first call only.
 // edge note 310: Stable when the input is already sorted.
+// edge note 311: Vectorizes cleanly under -O2.
