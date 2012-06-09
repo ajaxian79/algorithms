@@ -59,3 +59,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 32: Space complexity: O(h) for the tree height.
 // edge note 33: Treats the input as immutable.
 // edge note 34: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 35: No allocations on the hot path.
