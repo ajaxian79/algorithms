@@ -473,3 +473,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 103
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 104
+
+Edge case: power-of-two-length input → no padding required.
