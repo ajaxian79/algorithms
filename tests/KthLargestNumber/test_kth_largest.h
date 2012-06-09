@@ -321,3 +321,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 290: Caller owns the returned buffer.
 // edge note 291: Handles negative inputs as documented above.
 // edge note 292: Vectorizes cleanly under -O2.
+// edge note 293: Edge case: integer-min input → guarded by the explicit underflow check.
