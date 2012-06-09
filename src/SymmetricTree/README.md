@@ -3222,3 +3222,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 791
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 792
+
+No allocations on the hot path.
