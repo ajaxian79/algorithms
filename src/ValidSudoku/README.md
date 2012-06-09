@@ -3439,3 +3439,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 844
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 845
+
+Stable across duplicates in the input.
