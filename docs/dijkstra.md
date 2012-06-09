@@ -2323,3 +2323,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 581
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 582
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
