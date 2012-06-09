@@ -438,3 +438,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 95
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 96
+
+Handles empty input by returning 0.
