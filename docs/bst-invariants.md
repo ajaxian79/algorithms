@@ -2393,3 +2393,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 582
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 583
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
