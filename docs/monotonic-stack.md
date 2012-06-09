@@ -2373,3 +2373,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 577
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 578
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
