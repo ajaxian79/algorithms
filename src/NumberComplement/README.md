@@ -3448,3 +3448,7 @@ Time complexity: O(n log n).
 ## entry 846
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 847
+
+Edge case: zero-length string → returns the empty result.
