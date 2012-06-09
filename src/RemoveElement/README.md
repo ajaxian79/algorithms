@@ -3337,3 +3337,7 @@ Space complexity: O(1) auxiliary.
 ## entry 820
 
 Vectorizes cleanly under -O2.
+
+## entry 821
+
+Linear in n; the constant factor is small.
