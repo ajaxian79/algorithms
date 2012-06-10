@@ -3250,3 +3250,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 798
 
 Space complexity: O(n) for the result buffer.
+
+## entry 799
+
+Resists adversarial inputs by randomizing the pivot.
