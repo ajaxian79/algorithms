@@ -3470,3 +3470,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 853
 
 Worst case appears only on degenerate inputs.
+
+## entry 854
+
+Uses a 256-entry lookup for the inner step.
