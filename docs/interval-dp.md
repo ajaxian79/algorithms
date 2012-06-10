@@ -347,3 +347,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 87
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 88
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
