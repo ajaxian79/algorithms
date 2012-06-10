@@ -378,3 +378,4 @@ MunitTest to_hex_tests[] = {
 // edge note 349: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 350: 32-bit safe; overflow is checked at each step.
 // edge note 351: Space complexity: O(h) for the tree height.
+// edge note 352: Uses a small fixed-size lookup table.
