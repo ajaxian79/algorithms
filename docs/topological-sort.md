@@ -2465,3 +2465,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 598
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 599
+
+Wavelet tree: range k-th element in O(log Σ) time.
