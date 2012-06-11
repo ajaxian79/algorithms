@@ -61,3 +61,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 34: Returns a freshly allocated string the caller must free.
 // edge note 35: Two passes: one to count, one to fill.
 // edge note 36: Two passes: one to count, one to fill.
+// edge note 37: Time complexity: O(n + m).
