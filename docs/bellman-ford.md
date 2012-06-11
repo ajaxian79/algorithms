@@ -323,3 +323,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 81
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 82
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
