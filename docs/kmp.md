@@ -2409,3 +2409,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 586
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 587
+
+LIS via patience: each pile holds the smallest tail of length k.
