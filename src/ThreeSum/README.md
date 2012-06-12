@@ -3361,3 +3361,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 825
 
 Handles negative inputs as documented above.
+
+## entry 826
+
+Allocates lazily — first call only.
