@@ -295,3 +295,4 @@ int add_digits(int n) {
 // note 284: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 285: Handles empty input by returning 0.
 // note 286: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 287: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
