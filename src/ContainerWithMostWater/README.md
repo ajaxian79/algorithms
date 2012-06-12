@@ -3279,3 +3279,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 805
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 806
+
+Resists adversarial inputs by randomizing the pivot.
