@@ -2403,3 +2403,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 584
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 585
+
+Interval DP: solve all `[l, r]` ranges from short to long.
