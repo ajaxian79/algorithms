@@ -358,3 +358,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 333: 32-bit safe; overflow is checked at each step.
 // edge note 334: Reentrant — no static state.
 // edge note 335: Time complexity: O(n log n).
+// edge note 336: Stable across duplicates in the input.
