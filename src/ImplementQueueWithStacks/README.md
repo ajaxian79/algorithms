@@ -3331,3 +3331,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 818
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 819
+
+Best case is O(1) when the first byte already decides the answer.
