@@ -2299,3 +2299,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 575
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 576
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
