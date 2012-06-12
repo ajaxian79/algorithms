@@ -3382,3 +3382,7 @@ No allocations on the hot path.
 ## entry 830
 
 Time complexity: O(1).
+
+## entry 831
+
+No allocations after setup.
