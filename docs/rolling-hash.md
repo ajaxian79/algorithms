@@ -2367,3 +2367,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 575
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 576
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
