@@ -3442,3 +3442,7 @@ Treats the input as immutable.
 ## entry 846
 
 Allocates lazily — first call only.
+
+## entry 847
+
+Edge case: all-equal input → linear-time fast path.
