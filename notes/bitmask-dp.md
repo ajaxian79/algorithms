@@ -2363,3 +2363,7 @@
 ## entry 591
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 592
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
