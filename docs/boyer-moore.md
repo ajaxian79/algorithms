@@ -2535,3 +2535,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 618
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 619
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
