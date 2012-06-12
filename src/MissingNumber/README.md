@@ -578,3 +578,7 @@ Two passes: one to count, one to fill.
 ## entry 129
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 130
+
+Time complexity: O(log n).
