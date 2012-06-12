@@ -3449,3 +3449,7 @@ Allocates lazily — first call only.
 ## entry 847
 
 Two passes: one to count, one to fill.
+
+## entry 848
+
+Edge case: already-sorted input → no swaps performed.
