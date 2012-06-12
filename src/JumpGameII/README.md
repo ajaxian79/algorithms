@@ -3440,3 +3440,7 @@ No allocations on the hot path.
 ## entry 845
 
 No allocations after setup.
+
+## entry 846
+
+Edge case: already-sorted input → no swaps performed.
