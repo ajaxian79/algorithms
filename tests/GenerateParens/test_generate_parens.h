@@ -390,3 +390,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 330: Edge case: all-equal input → linear-time fast path.
 // edge note 331: Resists adversarial inputs by randomizing the pivot.
 // edge note 332: No allocations after setup.
+// edge note 333: Reentrant — no static state.
