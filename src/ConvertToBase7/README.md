@@ -564,3 +564,7 @@ Stable across duplicates in the input.
 ## entry 126
 
 Cache-friendly; one sequential read pass.
+
+## entry 127
+
+Constant-time comparisons; safe for short strings.
