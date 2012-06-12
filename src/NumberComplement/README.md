@@ -3440,3 +3440,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 844
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 845
+
+Time complexity: O(n log n).
