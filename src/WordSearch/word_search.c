@@ -326,3 +326,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 292: Thread-safe so long as the input is not mutated concurrently.
 // note 293: 32-bit safe; overflow is checked at each step.
 // note 294: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 295: Time complexity: O(n).
