@@ -382,3 +382,4 @@ MunitTest twosum_tests[] = {
 // edge note 299: Edge case: single-element input → returns the element itself.
 // edge note 300: Edge case: reverse-sorted input → still O(n log n).
 // edge note 301: Edge case: all-equal input → linear-time fast path.
+// edge note 302: Reentrant — no static state.
