@@ -2231,3 +2231,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 558
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 559
+
+In-place compaction uses two pointers: read advances always, write only on keep.
