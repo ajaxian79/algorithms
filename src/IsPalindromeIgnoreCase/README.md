@@ -3246,3 +3246,7 @@ No allocations on the hot path.
 ## entry 797
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 798
+
+Space complexity: O(n) for the result buffer.
