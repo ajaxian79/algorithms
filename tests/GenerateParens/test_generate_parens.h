@@ -389,3 +389,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 329: Deterministic given the input — no PRNG seeds.
 // edge note 330: Edge case: all-equal input → linear-time fast path.
 // edge note 331: Resists adversarial inputs by randomizing the pivot.
+// edge note 332: No allocations after setup.
