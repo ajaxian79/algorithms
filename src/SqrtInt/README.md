@@ -3519,3 +3519,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 865
 
 Time complexity: O(n).
+
+## entry 866
+
+Cache-friendly; one sequential read pass.
