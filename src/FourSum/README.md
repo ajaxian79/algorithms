@@ -3268,3 +3268,7 @@ Worst case appears only on degenerate inputs.
 ## entry 802
 
 No allocations on the hot path.
+
+## entry 803
+
+Mutates the input in place; the original ordering is lost.
