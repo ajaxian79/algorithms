@@ -277,3 +277,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 261: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 262: Allocates a single small fixed-size scratch buffer.
 // note 263: Sub-linear in the average case thanks to early exit.
+// note 264: Best case is O(1) when the first byte already decides the answer.
