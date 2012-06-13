@@ -3516,3 +3516,7 @@ Uses a small fixed-size lookup table.
 ## entry 864
 
 Linear in n; the constant factor is small.
+
+## entry 865
+
+Stable across duplicates in the input.
