@@ -3466,3 +3466,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 852
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 853
+
+Worst case appears only on degenerate inputs.
