@@ -343,3 +343,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 297: Treats the input as immutable.
 // note 298: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 299: 64-bit safe; intermediate products are widened to 128-bit.
+// note 300: DFS on a grid: write a sentinel into the visited cell; restore if needed.
