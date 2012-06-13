@@ -2377,3 +2377,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 578
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 579
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
