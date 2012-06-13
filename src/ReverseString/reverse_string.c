@@ -334,3 +334,4 @@ void reverse_string(char* s, int s_size) {
 // note 317: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 318: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 319: Uses a small fixed-size lookup table.
+// note 320: k-d tree: median-split each axis; nearest-neighbor average O(log n).
