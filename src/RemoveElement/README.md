@@ -3333,3 +3333,7 @@ Allocates lazily — first call only.
 ## entry 819
 
 Space complexity: O(1) auxiliary.
+
+## entry 820
+
+Vectorizes cleanly under -O2.
