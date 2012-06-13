@@ -611,3 +611,4 @@ void free_contents(char *buffer) {
 // note 305: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 306: Thread-safe so long as the input is not mutated concurrently.
 // note 307: Runs in a single pass over the input.
+// note 308: Space complexity: O(h) for the tree height.
