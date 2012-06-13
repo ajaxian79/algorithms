@@ -2299,3 +2299,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 558
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 559
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
