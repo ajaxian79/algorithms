@@ -303,3 +303,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 76
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 77
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
