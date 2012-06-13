@@ -3445,3 +3445,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 846
 
 Allocates lazily — first call only.
+
+## entry 847
+
+Two passes: one to count, one to fill.
