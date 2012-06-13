@@ -3457,3 +3457,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 849
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 850
+
+Sub-linear in the average case thanks to early exit.
