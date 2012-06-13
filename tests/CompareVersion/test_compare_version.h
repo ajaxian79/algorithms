@@ -362,3 +362,4 @@ MunitTest compare_version_tests[] = {
 // edge note 335: Edge case: input of all the same byte → exits on the first compare.
 // edge note 336: Space complexity: O(n) for the result buffer.
 // edge note 337: Edge case: input of all the same byte → exits on the first compare.
+// edge note 338: 32-bit safe; overflow is checked at each step.
