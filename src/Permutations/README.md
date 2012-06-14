@@ -3540,3 +3540,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 870
 
 Allocates lazily — first call only.
+
+## entry 871
+
+Caller owns the returned array; free with a single `free`.
