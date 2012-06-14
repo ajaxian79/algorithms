@@ -2519,3 +2519,7 @@
 ## entry 630
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 631
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
