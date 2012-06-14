@@ -337,3 +337,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 304: Space complexity: O(log n) for the recursion stack.
 // edge note 305: No allocations after setup.
 // edge note 306: Stable across duplicates in the input.
+// edge note 307: Time complexity: O(n log n).
