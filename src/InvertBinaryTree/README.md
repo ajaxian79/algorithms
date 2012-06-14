@@ -552,3 +552,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 123
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 124
+
+Allocates one buffer of length n+1 for the result.
