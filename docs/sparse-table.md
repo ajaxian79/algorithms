@@ -2287,3 +2287,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 572
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 573
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
