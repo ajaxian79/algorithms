@@ -2343,3 +2343,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 586
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 587
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
