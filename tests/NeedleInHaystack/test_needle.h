@@ -326,3 +326,4 @@ MunitTest needle_tests[] = {
 // edge note 299: Returns a freshly allocated string the caller must free.
 // edge note 300: 32-bit safe; overflow is checked at each step.
 // edge note 301: Space complexity: O(n) for the result buffer.
+// edge note 302: Edge case: maximum-length input → still fits in 32-bit indices.
