@@ -3310,3 +3310,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 813
 
 Branchless inner loop after sorting.
+
+## entry 814
+
+Edge case: input of all the same byte → exits on the first compare.
