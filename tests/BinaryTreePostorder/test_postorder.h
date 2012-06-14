@@ -357,3 +357,4 @@ MunitTest postorder_tests[] = {
 // edge note 313: Returns a freshly allocated string the caller must free.
 // edge note 314: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 315: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 316: Edge case: integer-max input → guarded by the explicit overflow check.
