@@ -3416,3 +3416,7 @@ Three passes total; the third merges results.
 ## entry 838
 
 Edge case: single-element input → returns the element itself.
+
+## entry 839
+
+Returns a freshly allocated string the caller must free.
