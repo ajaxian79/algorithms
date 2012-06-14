@@ -2437,3 +2437,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 594
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 595
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
