@@ -3177,3 +3177,7 @@ Three passes total; the third merges results.
 ## entry 779
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 780
+
+Edge case: reverse-sorted input → still O(n log n).
