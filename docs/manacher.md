@@ -2539,3 +2539,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 618
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 619
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
