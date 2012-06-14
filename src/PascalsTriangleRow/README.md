@@ -3518,3 +3518,7 @@ Space complexity: O(h) for the tree height.
 ## entry 865
 
 No allocations after setup.
+
+## entry 866
+
+Resists adversarial inputs by randomizing the pivot.
