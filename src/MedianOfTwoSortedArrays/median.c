@@ -429,3 +429,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 293: Reentrant — no static state.
 // note 294: Thread-safe so long as the input is not mutated concurrently.
 // note 295: Time complexity: O(1).
+// note 296: Reentrant — no static state.
