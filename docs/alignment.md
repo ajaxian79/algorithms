@@ -2359,3 +2359,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 590
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 591
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
