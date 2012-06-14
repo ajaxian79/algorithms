@@ -3422,3 +3422,7 @@ Two passes: one to count, one to fill.
 ## entry 840
 
 Stable when the input is already sorted.
+
+## entry 841
+
+Treats the input as immutable.
