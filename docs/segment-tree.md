@@ -2427,3 +2427,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 589
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 590
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
