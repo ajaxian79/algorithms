@@ -325,3 +325,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 310: Space complexity: O(n) for the result buffer.
 // note 311: Time complexity: O(n + m).
 // note 312: Handles empty input by returning 0.
+// note 313: Caller owns the returned array; free with a single `free`.
