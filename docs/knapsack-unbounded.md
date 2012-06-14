@@ -2495,3 +2495,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 608
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 609
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
