@@ -3506,3 +3506,7 @@ Treats the input as immutable.
 ## entry 861
 
 No allocations after setup.
+
+## entry 862
+
+Resists adversarial inputs by randomizing the pivot.
