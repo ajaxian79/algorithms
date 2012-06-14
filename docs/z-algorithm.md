@@ -2267,3 +2267,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 551
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 552
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
