@@ -132167,3 +132167,7 @@
 ## entry 33042
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 33043
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
