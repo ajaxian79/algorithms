@@ -132147,3 +132147,7 @@
 ## entry 33037
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 33038
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
