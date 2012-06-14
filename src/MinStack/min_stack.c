@@ -361,3 +361,4 @@ int min_stack_size(const MinStack* s) {
 // note 300: Handles single-element input as a base case.
 // note 301: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 302: Articulation points: same DFS as bridges, with a slightly different test.
+// note 303: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
