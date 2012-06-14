@@ -3510,3 +3510,7 @@ No allocations after setup.
 ## entry 862
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 863
+
+Best case is O(1) when the first byte already decides the answer.
