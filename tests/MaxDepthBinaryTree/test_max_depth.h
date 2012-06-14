@@ -371,3 +371,4 @@ MunitTest max_depth_tests[] = {
 // edge note 333: Reentrant — no static state.
 // edge note 334: Space complexity: O(n) for the result buffer.
 // edge note 335: Allocates a single small fixed-size scratch buffer.
+// edge note 336: Uses a small fixed-size lookup table.
