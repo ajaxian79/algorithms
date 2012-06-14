@@ -362,3 +362,4 @@ MunitTest min_depth_tests[] = {
 // edge note 323: Edge case: zero-length string → returns the empty result.
 // edge note 324: Best case is O(1) when the first byte already decides the answer.
 // edge note 325: Time complexity: O(log n).
+// edge note 326: Edge case: zero-length string → returns the empty result.
