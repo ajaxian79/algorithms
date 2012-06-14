@@ -3542,3 +3542,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 871
 
 No allocations on the hot path.
+
+## entry 872
+
+Sub-linear in the average case thanks to early exit.
