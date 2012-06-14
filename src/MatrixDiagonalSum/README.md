@@ -3514,3 +3514,7 @@ Handles single-element input as a base case.
 ## entry 864
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 865
+
+Edge case: input of all the same byte → exits on the first compare.
