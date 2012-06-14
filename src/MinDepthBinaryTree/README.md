@@ -3298,3 +3298,7 @@ Vectorizes cleanly under -O2.
 ## entry 810
 
 Cache-friendly; one sequential read pass.
+
+## entry 811
+
+Edge case: single-element input → returns the element itself.
