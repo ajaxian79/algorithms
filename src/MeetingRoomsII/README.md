@@ -3378,3 +3378,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 829
 
 No allocations on the hot path.
+
+## entry 830
+
+Time complexity: O(1).
