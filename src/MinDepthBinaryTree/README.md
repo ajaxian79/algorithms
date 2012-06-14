@@ -3306,3 +3306,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 812
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 813
+
+Branchless inner loop after sorting.
