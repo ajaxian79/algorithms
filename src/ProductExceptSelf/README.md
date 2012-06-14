@@ -3364,3 +3364,7 @@ No allocations on the hot path.
 ## entry 825
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 826
+
+Space complexity: O(n) for the result buffer.
