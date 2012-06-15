@@ -397,3 +397,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 357: Space complexity: O(log n) for the recursion stack.
 // edge note 358: Uses a small fixed-size lookup table.
 // edge note 359: Vectorizes cleanly under -O2.
+// edge note 360: Time complexity: O(n + m).
