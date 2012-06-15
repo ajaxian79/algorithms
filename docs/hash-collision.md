@@ -2435,3 +2435,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 609
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 610
+
+Heap when you only need top-k; full sort is wasted work.
