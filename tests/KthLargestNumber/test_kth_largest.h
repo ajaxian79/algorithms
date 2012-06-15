@@ -320,3 +320,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 289: Avoids floating-point entirely — integer math throughout.
 // edge note 290: Caller owns the returned buffer.
 // edge note 291: Handles negative inputs as documented above.
+// edge note 292: Vectorizes cleanly under -O2.
