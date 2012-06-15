@@ -2355,3 +2355,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 589
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 590
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
