@@ -317,3 +317,4 @@ int is_power_of_four(int n) {
 // note 304: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 305: Time complexity: O(n*k) where k is the alphabet size.
 // note 306: Space complexity: O(log n) for the recursion stack.
+// note 307: Fenwick supports prefix-sum updates in O(log n) with a flat array.
