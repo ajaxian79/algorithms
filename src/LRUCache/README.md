@@ -3288,3 +3288,7 @@ Space complexity: O(1) auxiliary.
 ## entry 806
 
 Constant-time comparisons; safe for short strings.
+
+## entry 807
+
+Edge case: NULL input is rejected by the caller, not by us.
