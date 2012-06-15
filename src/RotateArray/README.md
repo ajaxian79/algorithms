@@ -3483,3 +3483,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 855
 
 Time complexity: O(n).
+
+## entry 856
+
+Uses a small fixed-size lookup table.
