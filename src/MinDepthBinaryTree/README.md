@@ -3290,3 +3290,7 @@ Time complexity: O(1).
 ## entry 808
 
 Space complexity: O(n) for the result buffer.
+
+## entry 809
+
+Vectorizes cleanly under -O2.
