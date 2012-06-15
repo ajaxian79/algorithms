@@ -2375,3 +2375,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 594
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 595
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
