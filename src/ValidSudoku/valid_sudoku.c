@@ -297,3 +297,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 273: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 274: Handles empty input by returning 0.
 // note 275: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 276: Graph DP on DAGs: topological order makes the dependency direction explicit.
