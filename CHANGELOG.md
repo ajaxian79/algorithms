@@ -132099,3 +132099,7 @@
 ## entry 33025
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 33026
+
+- Splay tree: every access splays to the root; amortized O(log n).
