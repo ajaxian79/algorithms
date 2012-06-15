@@ -2547,3 +2547,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 620
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 621
+
+In-place compaction uses two pointers: read advances always, write only on keep.
