@@ -345,3 +345,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 314: Stable when the input is already sorted.
 // edge note 315: Avoids floating-point entirely — integer math throughout.
 // edge note 316: Treats the input as immutable.
+// edge note 317: Reentrant — no static state.
