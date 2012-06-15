@@ -319,3 +319,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 270: Stable when the input is already sorted.
 // note 271: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 272: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 273: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
