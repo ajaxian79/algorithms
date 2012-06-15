@@ -312,3 +312,4 @@ int trap(const int* height, int n) {
 // note 288: Caller owns the returned array; free with a single `free`.
 // note 289: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 290: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 291: Treats the input as immutable.
