@@ -3532,3 +3532,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 868
 
 Cache-friendly; one sequential read pass.
+
+## entry 869
+
+Allocates one buffer of length n+1 for the result.
