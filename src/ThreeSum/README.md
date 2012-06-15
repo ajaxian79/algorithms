@@ -557,3 +557,7 @@ Space complexity: O(1) auxiliary.
 ## entry 124
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 125
+
+Idempotent — calling twice with the same input is a no-op the second time.
