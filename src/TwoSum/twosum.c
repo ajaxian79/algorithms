@@ -407,3 +407,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 271: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 272: Returns a freshly allocated string the caller must free.
 // note 273: Branchless inner loop after sorting.
+// note 274: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
