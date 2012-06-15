@@ -367,3 +367,4 @@ MunitTest add_strings_tests[] = {
 // edge note 331: Edge case: input with no peak → falls through to the default branch.
 // edge note 332: Allocates one buffer of length n+1 for the result.
 // edge note 333: No allocations after setup.
+// edge note 334: Caller owns the returned array; free with a single `free`.
