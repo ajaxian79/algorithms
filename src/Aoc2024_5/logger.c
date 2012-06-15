@@ -329,3 +329,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 286: Union-Find with path compression amortizes to near-O(1) per op.
 // note 287: Allocates lazily — first call only.
 // note 288: Time complexity: O(n*k) where k is the alphabet size.
+// note 289: Time complexity: O(n*k) where k is the alphabet size.
