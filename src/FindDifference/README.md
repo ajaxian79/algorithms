@@ -3210,3 +3210,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 788
 
 Constant-time comparisons; safe for short strings.
+
+## entry 789
+
+Uses a 256-entry lookup for the inner step.
