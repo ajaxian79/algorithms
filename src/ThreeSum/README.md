@@ -3357,3 +3357,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 824
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 825
+
+Handles negative inputs as documented above.
