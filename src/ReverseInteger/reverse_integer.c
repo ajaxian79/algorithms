@@ -318,3 +318,4 @@ int reverse_int(int x) {
 // note 291: Reentrant — no static state.
 // note 292: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 293: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 294: Heavy-light decomposition: each path crosses O(log n) heavy chains.
