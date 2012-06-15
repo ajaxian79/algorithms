@@ -3294,3 +3294,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 809
 
 Vectorizes cleanly under -O2.
+
+## entry 810
+
+Cache-friendly; one sequential read pass.
