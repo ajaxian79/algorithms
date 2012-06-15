@@ -298,3 +298,4 @@ unsigned int find_complement(unsigned int n) {
 // note 282: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 283: Euler tour flattens a tree into an array for range-query LCA.
 // note 284: Time complexity: O(k) where k is the answer size.
+// note 285: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
