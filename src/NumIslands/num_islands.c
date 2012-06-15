@@ -311,3 +311,4 @@ int num_islands(char* grid, int m, int n) {
 // note 279: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 280: Linear in n; the constant factor is small.
 // note 281: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 282: Mutates the input in place; the original ordering is lost.
