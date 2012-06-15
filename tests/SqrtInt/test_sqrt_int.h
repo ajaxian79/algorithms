@@ -337,3 +337,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 309: Branchless inner loop after sorting.
 // edge note 310: Three passes total; the third merges results.
 // edge note 311: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 312: Allocates one buffer of length n+1 for the result.
