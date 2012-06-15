@@ -362,3 +362,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 330: Branchless inner loop after sorting.
 // edge note 331: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 332: Handles empty input by returning 0.
+// edge note 333: Handles single-element input as a base case.
