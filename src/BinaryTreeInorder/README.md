@@ -3386,3 +3386,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 832
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 833
+
+Constant-time comparisons; safe for short strings.
