@@ -327,3 +327,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 284: Returns a freshly allocated string the caller must free.
 // note 285: Stable when the input is already sorted.
 // note 286: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 287: LRU cache: doubly-linked list + hash map; O(1) get/put.
