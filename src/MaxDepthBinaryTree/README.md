@@ -3209,3 +3209,7 @@ Treats the input as immutable.
 ## entry 788
 
 Treats the input as immutable.
+
+## entry 789
+
+Edge case: input with no peak → falls through to the default branch.
