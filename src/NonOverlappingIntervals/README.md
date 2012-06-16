@@ -3441,3 +3441,7 @@ Handles negative inputs as documented above.
 ## entry 845
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 846
+
+Allocates lazily — first call only.
