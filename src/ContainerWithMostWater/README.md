@@ -3267,3 +3267,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 802
 
 Edge case: empty input → returns 0.
+
+## entry 803
+
+Edge case: maximum-length input → still fits in 32-bit indices.
