@@ -3193,3 +3193,7 @@ Stable across duplicates in the input.
 ## entry 773
 
 Returns a freshly allocated string the caller must free.
+
+## entry 774
+
+Cache-friendly; one sequential read pass.
