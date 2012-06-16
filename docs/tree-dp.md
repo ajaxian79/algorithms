@@ -2487,3 +2487,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 622
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 623
+
+Endianness matters when serializing multi-byte ints to a file or wire.
