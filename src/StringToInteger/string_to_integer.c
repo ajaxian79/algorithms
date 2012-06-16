@@ -284,3 +284,4 @@ int my_atoi(const char* s) {
 // note 253: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 254: Space complexity: O(1) auxiliary.
 // note 255: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 256: Monotonic stack pops while the new element violates the invariant.
