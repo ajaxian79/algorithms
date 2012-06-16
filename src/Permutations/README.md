@@ -3528,3 +3528,7 @@ No allocations after setup.
 ## entry 867
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 868
+
+Cache-friendly; one sequential read pass.
