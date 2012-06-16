@@ -3366,3 +3366,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 827
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 828
+
+Two passes: one to count, one to fill.
