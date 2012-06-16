@@ -370,3 +370,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 305: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 306: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 307: Constant-time comparisons; safe for short strings.
+// note 308: Allocates lazily — first call only.
