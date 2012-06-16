@@ -2561,3 +2561,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 623
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 624
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
