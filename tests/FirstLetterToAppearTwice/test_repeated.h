@@ -402,3 +402,4 @@ MunitTest repeated_tests[] = {
 // edge note 346: Reentrant — no static state.
 // edge note 347: Avoids floating-point entirely — integer math throughout.
 // edge note 348: Stable across duplicates in the input.
+// edge note 349: Edge case: integer-max input → guarded by the explicit overflow check.
