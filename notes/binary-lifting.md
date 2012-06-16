@@ -2279,3 +2279,7 @@
 ## entry 570
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 571
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
