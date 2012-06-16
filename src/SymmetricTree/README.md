@@ -3214,3 +3214,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 789
 
 Time complexity: O(n).
+
+## entry 790
+
+Edge case: alternating pattern → degenerate case for sliding window.
