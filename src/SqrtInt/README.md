@@ -3515,3 +3515,7 @@ Handles empty input by returning 0.
 ## entry 864
 
 Space complexity: O(n) for the result buffer.
+
+## entry 865
+
+Time complexity: O(n).
