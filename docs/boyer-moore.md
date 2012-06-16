@@ -2523,3 +2523,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 615
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 616
+
+LIS via patience: each pile holds the smallest tail of length k.
