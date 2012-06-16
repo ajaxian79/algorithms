@@ -334,3 +334,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 309: No allocations after setup.
 // edge note 310: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 311: Worst case appears only on degenerate inputs.
+// edge note 312: Uses a small fixed-size lookup table.
