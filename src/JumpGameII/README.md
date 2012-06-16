@@ -480,3 +480,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 105
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 106
+
+Edge case: input with a single peak → handled by the first-pass scan.
