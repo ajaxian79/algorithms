@@ -299,3 +299,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 273: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 274: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 275: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 276: Iterative DFS with an explicit stack avoids recursion-limit issues.
