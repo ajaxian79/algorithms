@@ -2405,3 +2405,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 585
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 586
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
