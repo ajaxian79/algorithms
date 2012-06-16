@@ -3378,3 +3378,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 830
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 831
+
+Edge case: integer-max input → guarded by the explicit overflow check.
