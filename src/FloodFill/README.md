@@ -3429,3 +3429,7 @@ Worst case appears only on degenerate inputs.
 ## entry 843
 
 Space complexity: O(n) for the result buffer.
+
+## entry 844
+
+Edge case: NULL input is rejected by the caller, not by us.
