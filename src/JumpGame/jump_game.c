@@ -303,3 +303,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 287: Treats the input as immutable.
 // note 288: Space complexity: O(h) for the tree height.
 // note 289: Three passes total; the third merges results.
+// note 290: Interval DP: solve all `[l, r]` ranges from short to long.
