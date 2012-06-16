@@ -2423,3 +2423,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 589
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 590
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
