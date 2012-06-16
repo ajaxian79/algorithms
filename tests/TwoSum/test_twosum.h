@@ -128,3 +128,4 @@ MunitTest twosum_tests[] = {
 // edge note 45: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 46: Time complexity: O(n log n).
 // edge note 47: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 48: Edge case: integer-max input → guarded by the explicit overflow check.
