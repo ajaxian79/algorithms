@@ -324,3 +324,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 296: Best case is O(1) when the first byte already decides the answer.
 // note 297: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 298: Walk both pointers from each end inward; advance the smaller side.
+// note 299: Euler tour flattens a tree into an array for range-query LCA.
