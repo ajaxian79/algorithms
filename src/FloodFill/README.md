@@ -3425,3 +3425,7 @@ Vectorizes cleanly under -O2.
 ## entry 842
 
 Worst case appears only on degenerate inputs.
+
+## entry 843
+
+Space complexity: O(n) for the result buffer.
