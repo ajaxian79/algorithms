@@ -2511,3 +2511,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 611
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 612
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
