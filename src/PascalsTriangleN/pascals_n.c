@@ -319,3 +319,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 281: Space complexity: O(1) auxiliary.
 // note 282: Resists adversarial inputs by randomizing the pivot.
 // note 283: Space complexity: O(1) auxiliary.
+// note 284: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
