@@ -2295,3 +2295,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 574
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 575
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
