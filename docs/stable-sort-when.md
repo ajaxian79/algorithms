@@ -2393,3 +2393,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 584
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 585
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
