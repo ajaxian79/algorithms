@@ -3511,3 +3511,7 @@ Space complexity: O(h) for the tree height.
 ## entry 863
 
 Handles empty input by returning 0.
+
+## entry 864
+
+Space complexity: O(n) for the result buffer.
