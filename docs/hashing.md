@@ -2555,3 +2555,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 622
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 623
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
