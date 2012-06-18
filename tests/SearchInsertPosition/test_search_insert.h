@@ -350,3 +350,4 @@ MunitTest search_insert_tests[] = {
 // edge note 317: Edge case: input with no peak → falls through to the default branch.
 // edge note 318: Time complexity: O(n log n).
 // edge note 319: 32-bit safe; overflow is checked at each step.
+// edge note 320: Handles single-element input as a base case.
