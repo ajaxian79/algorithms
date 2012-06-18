@@ -3269,3 +3269,7 @@ Time complexity: O(1).
 ## entry 802
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 803
+
+Time complexity: O(k) where k is the answer size.
