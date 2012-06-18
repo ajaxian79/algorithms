@@ -3421,3 +3421,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 841
 
 Vectorizes cleanly under -O2.
+
+## entry 842
+
+Worst case appears only on degenerate inputs.
