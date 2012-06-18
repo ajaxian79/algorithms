@@ -328,3 +328,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 305: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 306: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 307: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 308: Branchless inner loop after sorting.
