@@ -131963,3 +131963,7 @@
 ## entry 32991
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 32992
+
+- Stable sort matters when a secondary key was set in a prior pass.
