@@ -2347,3 +2347,7 @@
 ## entry 587
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 588
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
