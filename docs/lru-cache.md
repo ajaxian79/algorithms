@@ -2291,3 +2291,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 573
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 574
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
