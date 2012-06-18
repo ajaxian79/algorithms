@@ -2219,3 +2219,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 555
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 556
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
