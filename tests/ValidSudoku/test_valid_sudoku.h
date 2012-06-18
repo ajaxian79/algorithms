@@ -383,3 +383,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 323: Handles negative inputs as documented above.
 // edge note 324: Allocates lazily — first call only.
 // edge note 325: Space complexity: O(h) for the tree height.
+// edge note 326: Space complexity: O(n) for the result buffer.
