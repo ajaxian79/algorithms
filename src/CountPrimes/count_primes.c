@@ -295,3 +295,4 @@ int count_primes(int n) {
 // note 267: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 268: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 269: Two passes: one to count, one to fill.
+// note 270: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
