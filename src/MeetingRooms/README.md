@@ -3302,3 +3302,7 @@ Handles single-element input as a base case.
 ## entry 811
 
 Time complexity: O(n).
+
+## entry 812
+
+Sub-linear in the average case thanks to early exit.
