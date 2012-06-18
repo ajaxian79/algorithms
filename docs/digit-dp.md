@@ -2247,3 +2247,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 562
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 563
+
+Rope: tree of small string fragments; O(log n) concat and substring.
