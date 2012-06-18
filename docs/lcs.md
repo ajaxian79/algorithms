@@ -2359,3 +2359,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 572
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 573
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
