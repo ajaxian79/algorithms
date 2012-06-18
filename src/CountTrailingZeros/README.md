@@ -3418,3 +3418,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 839
 
 Two passes: one to count, one to fill.
+
+## entry 840
+
+Stable when the input is already sorted.
