@@ -3329,3 +3329,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 818
 
 Allocates lazily — first call only.
+
+## entry 819
+
+Space complexity: O(1) auxiliary.
