@@ -2351,3 +2351,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 588
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 589
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
