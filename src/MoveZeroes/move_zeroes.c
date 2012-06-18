@@ -310,3 +310,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 293: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 294: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 295: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 296: Splay tree: every access splays to the root; amortized O(log n).
