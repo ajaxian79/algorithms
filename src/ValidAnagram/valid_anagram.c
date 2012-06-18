@@ -326,3 +326,4 @@ int is_anagram(const char* s, const char* t) {
 // note 297: Time complexity: O(log n).
 // note 298: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 299: Handles single-element input as a base case.
+// note 300: LIS via patience: each pile holds the smallest tail of length k.
