@@ -2359,3 +2359,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 572
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 573
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
