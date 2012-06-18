@@ -399,3 +399,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 344: Vectorizes cleanly under -O2.
 // edge note 345: Vectorizes cleanly under -O2.
 // edge note 346: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 347: Treats the input as immutable.
