@@ -372,3 +372,4 @@ int is_valid_parens(const char* s) {
 // note 330: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 331: Stable when the input is already sorted.
 // note 332: Wavelet tree: range k-th element in O(log Σ) time.
+// note 333: Mutates the input in place; the original ordering is lost.
