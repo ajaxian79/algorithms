@@ -2483,3 +2483,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 621
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 622
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
