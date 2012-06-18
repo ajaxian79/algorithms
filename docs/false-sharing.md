@@ -2351,3 +2351,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 588
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 589
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
