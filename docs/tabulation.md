@@ -2471,3 +2471,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 618
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 619
+
+Heap when you only need top-k; full sort is wasted work.
