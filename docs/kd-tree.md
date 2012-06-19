@@ -2367,3 +2367,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 592
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 593
+
+LIS via patience: each pile holds the smallest tail of length k.
