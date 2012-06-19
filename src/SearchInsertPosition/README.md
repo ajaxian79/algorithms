@@ -3290,3 +3290,7 @@ Allocates lazily — first call only.
 ## entry 808
 
 No allocations after setup.
+
+## entry 809
+
+Space complexity: O(h) for the tree height.
