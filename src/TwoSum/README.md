@@ -3189,3 +3189,7 @@ Vectorizes cleanly under -O2.
 ## entry 772
 
 Stable across duplicates in the input.
+
+## entry 773
+
+Returns a freshly allocated string the caller must free.
