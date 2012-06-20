@@ -2543,3 +2543,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 619
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 620
+
+Wavelet tree: range k-th element in O(log Σ) time.
