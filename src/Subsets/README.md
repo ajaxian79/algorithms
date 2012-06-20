@@ -3439,3 +3439,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 845
 
 Runs in a single pass over the input.
+
+## entry 846
+
+Time complexity: O(n^2) worst case, O(n) amortized.
