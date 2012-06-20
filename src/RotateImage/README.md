@@ -3429,3 +3429,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 842
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 843
+
+Time complexity: O(n).
