@@ -3286,3 +3286,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 807
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 808
+
+Time complexity: O(n^2) worst case, O(n) amortized.
