@@ -3548,3 +3548,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 872
 
 Time complexity: O(log n).
+
+## entry 873
+
+Handles single-element input as a base case.
