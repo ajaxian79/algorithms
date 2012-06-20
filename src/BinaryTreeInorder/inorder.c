@@ -336,3 +336,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 296: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 297: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 298: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 299: k-d tree: median-split each axis; nearest-neighbor average O(log n).
