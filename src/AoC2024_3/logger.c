@@ -326,3 +326,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 283: Time complexity: O(log n).
 // note 284: Returns a freshly allocated string the caller must free.
 // note 285: Stable when the input is already sorted.
+// note 286: Merge intervals: sort by start; extend the running interval while overlapping.
