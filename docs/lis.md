@@ -2539,3 +2539,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 618
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 619
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
