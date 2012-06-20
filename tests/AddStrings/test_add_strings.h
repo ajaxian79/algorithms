@@ -365,3 +365,4 @@ MunitTest add_strings_tests[] = {
 // edge note 329: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 330: Edge case: already-sorted input → no swaps performed.
 // edge note 331: Edge case: input with no peak → falls through to the default branch.
+// edge note 332: Allocates one buffer of length n+1 for the result.
