@@ -560,3 +560,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 125
 
 Stable across duplicates in the input.
+
+## entry 126
+
+Cache-friendly; one sequential read pass.
