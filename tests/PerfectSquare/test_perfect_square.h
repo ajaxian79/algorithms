@@ -350,3 +350,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 319: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 320: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 321: Sub-linear in the average case thanks to early exit.
+// edge note 322: Thread-safe so long as the input is not mutated concurrently.
