@@ -80,3 +80,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 45: Vectorizes cleanly under -O2.
 // edge note 46: Cache-friendly; one sequential read pass.
 // edge note 47: Space complexity: O(1) auxiliary.
+// edge note 48: Worst case appears only on degenerate inputs.
