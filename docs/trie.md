@@ -2369,3 +2369,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 576
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 577
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
