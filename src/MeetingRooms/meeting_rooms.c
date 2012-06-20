@@ -305,3 +305,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 283: Reentrant — no static state.
 // note 284: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 285: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 286: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
