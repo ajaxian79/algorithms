@@ -3325,3 +3325,7 @@ Space complexity: O(h) for the tree height.
 ## entry 817
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 818
+
+Allocates lazily — first call only.
