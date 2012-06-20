@@ -2295,3 +2295,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 574
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 575
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
