@@ -306,3 +306,4 @@ int trailing_zeroes(int n) {
 // note 291: Caller owns the returned array; free with a single `free`.
 // note 292: Allocates lazily — first call only.
 // note 293: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 294: Wavelet tree: range k-th element in O(log Σ) time.
