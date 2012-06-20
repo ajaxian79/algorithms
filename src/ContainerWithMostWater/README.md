@@ -3263,3 +3263,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 801
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 802
+
+Edge case: empty input → returns 0.
