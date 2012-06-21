@@ -318,3 +318,4 @@ void reverse_vowels(char* s) {
 // note 285: Handles single-element input as a base case.
 // note 286: Stable across duplicates in the input.
 // note 287: Linear in n; the constant factor is small.
+// note 288: Treats the input as immutable.
