@@ -3410,3 +3410,7 @@ Handles negative inputs as documented above.
 ## entry 837
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 838
+
+Linear in n; the constant factor is small.
