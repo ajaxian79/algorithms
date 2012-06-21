@@ -321,3 +321,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 294: Stable across duplicates in the input.
 // edge note 295: Deterministic given the input — no PRNG seeds.
 // edge note 296: Two passes: one to count, one to fill.
+// edge note 297: Handles empty input by returning 0.
