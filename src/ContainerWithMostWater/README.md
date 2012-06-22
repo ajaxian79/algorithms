@@ -487,3 +487,7 @@ Handles negative inputs as documented above.
 ## entry 107
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 108
+
+Runs in a single pass over the input.
