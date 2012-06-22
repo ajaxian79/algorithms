@@ -343,3 +343,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 312: Time complexity: O(1).
 // edge note 313: Allocates lazily — first call only.
 // edge note 314: Stable when the input is already sorted.
+// edge note 315: Avoids floating-point entirely — integer math throughout.
