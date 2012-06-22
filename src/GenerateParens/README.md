@@ -3364,3 +3364,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 825
 
 Stable when the input is already sorted.
+
+## entry 826
+
+Stable when the input is already sorted.
