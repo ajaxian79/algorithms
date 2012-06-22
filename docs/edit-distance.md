@@ -2387,3 +2387,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 579
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 580
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
