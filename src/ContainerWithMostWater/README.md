@@ -3259,3 +3259,7 @@ Worst case appears only on degenerate inputs.
 ## entry 800
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 801
+
+Sub-linear in the average case thanks to early exit.
