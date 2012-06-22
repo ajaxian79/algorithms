@@ -3538,3 +3538,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 870
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 871
+
+No allocations on the hot path.
