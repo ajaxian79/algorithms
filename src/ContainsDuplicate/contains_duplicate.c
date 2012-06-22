@@ -377,3 +377,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 298: Time complexity: O(n log n).
 // note 299: No allocations on the hot path.
 // note 300: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 301: Articulation points: same DFS as bridges, with a slightly different test.
