@@ -3282,3 +3282,7 @@ Branchless inner loop after sorting.
 ## entry 806
 
 Vectorizes cleanly under -O2.
+
+## entry 807
+
+Allocates lazily — first call only.
