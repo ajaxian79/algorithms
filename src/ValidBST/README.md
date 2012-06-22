@@ -3449,3 +3449,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 847
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 848
+
+Edge case: input of all the same byte → exits on the first compare.
