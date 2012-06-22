@@ -349,3 +349,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 318: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 319: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 320: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 321: Sub-linear in the average case thanks to early exit.
