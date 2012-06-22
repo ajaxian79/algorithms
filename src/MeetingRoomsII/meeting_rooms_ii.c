@@ -342,3 +342,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 297: Linear in n; the constant factor is small.
 // note 298: Treats the input as immutable.
 // note 299: Tail-recursive; the compiler turns it into a loop.
+// note 300: Stable when the input is already sorted.
