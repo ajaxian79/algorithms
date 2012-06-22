@@ -3445,3 +3445,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 846
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 847
+
+Allocates one buffer of length n+1 for the result.
