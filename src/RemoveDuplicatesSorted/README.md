@@ -3534,3 +3534,7 @@ Time complexity: O(n + m).
 ## entry 869
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 870
+
+Edge case: input with no peak → falls through to the default branch.
