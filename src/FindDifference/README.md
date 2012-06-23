@@ -3206,3 +3206,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 787
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 788
+
+Constant-time comparisons; safe for short strings.
