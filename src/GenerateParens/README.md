@@ -3360,3 +3360,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 824
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 825
+
+Stable when the input is already sorted.
