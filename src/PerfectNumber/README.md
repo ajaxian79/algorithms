@@ -3265,3 +3265,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 801
 
 Time complexity: O(1).
+
+## entry 802
+
+Caller owns the returned array; free with a single `free`.
