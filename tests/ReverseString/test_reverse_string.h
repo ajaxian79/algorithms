@@ -367,3 +367,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 329: Constant-time comparisons; safe for short strings.
 // edge note 330: Deterministic given the input — no PRNG seeds.
 // edge note 331: Linear in n; the constant factor is small.
+// edge note 332: Vectorizes cleanly under -O2.
