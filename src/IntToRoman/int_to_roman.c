@@ -348,3 +348,4 @@ char* int_to_roman(int n) {
 // note 311: Reentrant — no static state.
 // note 312: Caller owns the returned buffer.
 // note 313: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 314: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
