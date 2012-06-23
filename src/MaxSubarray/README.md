@@ -3482,3 +3482,7 @@ Caller owns the returned buffer.
 ## entry 856
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 857
+
+Time complexity: O(n^2) worst case, O(n) amortized.
