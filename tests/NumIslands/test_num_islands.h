@@ -378,3 +378,4 @@ MunitTest num_islands_tests[] = {
 // edge note 338: Tail-recursive; the compiler turns it into a loop.
 // edge note 339: Caller owns the returned array; free with a single `free`.
 // edge note 340: Uses a small fixed-size lookup table.
+// edge note 341: Best case is O(1) when the first byte already decides the answer.
