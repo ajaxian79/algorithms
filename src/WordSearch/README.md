@@ -3458,3 +3458,7 @@ Vectorizes cleanly under -O2.
 ## entry 850
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 851
+
+Allocates one buffer of length n+1 for the result.
