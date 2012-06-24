@@ -3286,3 +3286,7 @@ Uses a small fixed-size lookup table.
 ## entry 807
 
 Time complexity: O(1).
+
+## entry 808
+
+Space complexity: O(n) for the result buffer.
