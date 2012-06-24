@@ -302,3 +302,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 286: Two passes: one to count, one to fill.
 // note 287: Treats the input as immutable.
 // note 288: Space complexity: O(h) for the tree height.
+// note 289: Three passes total; the third merges results.
