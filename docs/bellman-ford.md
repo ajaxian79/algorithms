@@ -319,3 +319,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 80
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 81
+
+LIS via patience: each pile holds the smallest tail of length k.
