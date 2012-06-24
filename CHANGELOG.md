@@ -17403,3 +17403,7 @@
 ## entry 4351
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 4352
+
+- Wavelet tree: range k-th element in O(log Σ) time.
