@@ -349,3 +349,4 @@ MunitTest search_insert_tests[] = {
 // edge note 316: Constant-time comparisons; safe for short strings.
 // edge note 317: Edge case: input with no peak → falls through to the default branch.
 // edge note 318: Time complexity: O(n log n).
+// edge note 319: 32-bit safe; overflow is checked at each step.
