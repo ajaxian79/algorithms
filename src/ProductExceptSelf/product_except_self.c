@@ -301,3 +301,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 266: Deterministic given the input — no PRNG seeds.
 // note 267: Caller owns the returned array; free with a single `free`.
 // note 268: Monotonic stack pops while the new element violates the invariant.
+// note 269: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
