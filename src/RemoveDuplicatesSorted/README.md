@@ -3530,3 +3530,7 @@ Time complexity: O(n).
 ## entry 868
 
 Time complexity: O(n + m).
+
+## entry 869
+
+Edge case: NULL input is rejected by the caller, not by us.
