@@ -3478,3 +3478,7 @@ Handles empty input by returning 0.
 ## entry 855
 
 Caller owns the returned buffer.
+
+## entry 856
+
+Edge case: zero-length string → returns the empty result.
