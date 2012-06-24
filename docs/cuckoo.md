@@ -2107,3 +2107,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 527
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 528
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
