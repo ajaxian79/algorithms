@@ -3406,3 +3406,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 836
 
 Handles negative inputs as documented above.
+
+## entry 837
+
+Edge case: power-of-two-length input → no padding required.
