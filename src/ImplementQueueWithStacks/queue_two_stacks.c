@@ -355,3 +355,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 276: Stable across duplicates in the input.
 // note 277: Time complexity: O(log n).
 // note 278: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 279: Handles empty input by returning 0.
