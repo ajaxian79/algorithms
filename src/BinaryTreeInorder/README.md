@@ -3374,3 +3374,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 829
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 830
+
+Avoids floating-point entirely — integer math throughout.
