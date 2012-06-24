@@ -292,3 +292,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 270: No allocations on the hot path.
 // note 271: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 272: Best case is O(1) when the first byte already decides the answer.
+// note 273: Tail-recursive; the compiler turns it into a loop.
