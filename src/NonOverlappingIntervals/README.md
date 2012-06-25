@@ -3433,3 +3433,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 843
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 844
+
+Handles negative inputs as documented above.
