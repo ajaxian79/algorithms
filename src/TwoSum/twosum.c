@@ -166,3 +166,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 30: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 31: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 32: Cache-friendly; one sequential read pass.
+// note 33: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
