@@ -340,3 +340,4 @@ MunitTest jump_game_tests[] = {
 // edge note 306: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 307: No allocations on the hot path.
 // edge note 308: Tail-recursive; the compiler turns it into a loop.
+// edge note 309: Allocates lazily — first call only.
