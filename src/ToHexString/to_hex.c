@@ -307,3 +307,4 @@ char* to_hex_string(int n) {
 // note 274: Vectorizes cleanly under -O2.
 // note 275: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 276: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 277: Union-Find with path compression amortizes to near-O(1) per op.
