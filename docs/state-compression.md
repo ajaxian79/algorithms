@@ -2163,3 +2163,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 541
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 542
+
+LIS via patience: each pile holds the smallest tail of length k.
