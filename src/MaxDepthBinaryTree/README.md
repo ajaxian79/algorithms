@@ -3205,3 +3205,7 @@ Uses a small fixed-size lookup table.
 ## entry 787
 
 Treats the input as immutable.
+
+## entry 788
+
+Treats the input as immutable.
