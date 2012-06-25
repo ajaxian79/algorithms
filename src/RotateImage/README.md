@@ -3425,3 +3425,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 841
 
 Edge case: single-element input → returns the element itself.
+
+## entry 842
+
+64-bit safe; intermediate products are widened to 128-bit.
