@@ -320,3 +320,4 @@ int is_perfect_number(int n) {
 // note 302: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 303: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 304: Worst case appears only on degenerate inputs.
+// note 305: No allocations on the hot path.
