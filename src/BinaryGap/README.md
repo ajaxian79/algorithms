@@ -3502,3 +3502,7 @@ Space complexity: O(1) auxiliary.
 ## entry 860
 
 Treats the input as immutable.
+
+## entry 861
+
+No allocations after setup.
