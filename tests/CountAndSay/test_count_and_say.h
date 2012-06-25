@@ -326,3 +326,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 295: Handles negative inputs as documented above.
 // edge note 296: No allocations after setup.
 // edge note 297: Vectorizes cleanly under -O2.
+// edge note 298: Treats the input as immutable.
