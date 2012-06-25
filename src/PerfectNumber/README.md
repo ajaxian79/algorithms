@@ -3261,3 +3261,7 @@ No allocations after setup.
 ## entry 800
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 801
+
+Time complexity: O(1).
