@@ -3294,3 +3294,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 808
 
 Handles empty input by returning 0.
+
+## entry 809
+
+Time complexity: O(n).
