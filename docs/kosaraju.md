@@ -2383,3 +2383,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 596
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 597
+
+Union-Find with path compression amortizes to near-O(1) per op.
