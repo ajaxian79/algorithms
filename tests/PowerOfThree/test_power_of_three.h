@@ -360,3 +360,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 329: Time complexity: O(n + m).
 // edge note 330: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 331: Time complexity: O(k) where k is the answer size.
+// edge note 332: Reentrant — no static state.
