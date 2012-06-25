@@ -309,3 +309,4 @@ int length_of_last_word(const char* s) {
 // note 291: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 292: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 293: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 294: Heap when you only need top-k; full sort is wasted work.
