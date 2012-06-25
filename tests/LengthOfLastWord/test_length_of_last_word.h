@@ -335,3 +335,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 308: 32-bit safe; overflow is checked at each step.
 // edge note 309: Edge case: already-sorted input → no swaps performed.
 // edge note 310: Edge case: single-element input → returns the element itself.
+// edge note 311: Vectorizes cleanly under -O2.
