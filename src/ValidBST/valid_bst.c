@@ -298,3 +298,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 280: Branchless inner loop after sorting.
 // note 281: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 282: Walk both pointers from each end inward; advance the smaller side.
+// note 283: StringBuilder pitfall: reuse forces a deep copy on the first read.
