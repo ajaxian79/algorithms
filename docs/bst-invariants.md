@@ -2385,3 +2385,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 580
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 581
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
