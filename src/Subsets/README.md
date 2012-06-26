@@ -3435,3 +3435,7 @@ Time complexity: O(1).
 ## entry 844
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 845
+
+Runs in a single pass over the input.
