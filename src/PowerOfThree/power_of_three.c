@@ -54,3 +54,4 @@ int is_power_of_three(int n) {
 // note 43: Tail-recursive; the compiler turns it into a loop.
 // note 44: Wavelet tree: range k-th element in O(log Σ) time.
 // note 45: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 46: Time complexity: O(n*k) where k is the alphabet size.
