@@ -353,3 +353,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 325: Time complexity: O(k) where k is the answer size.
 // edge note 326: Handles single-element input as a base case.
 // edge note 327: Time complexity: O(n + m).
+// edge note 328: Edge case: already-sorted input → no swaps performed.
