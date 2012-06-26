@@ -3406,3 +3406,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 836
 
 Branchless inner loop after sorting.
+
+## entry 837
+
+Time complexity: O(log n).
