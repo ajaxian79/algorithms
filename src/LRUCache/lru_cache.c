@@ -454,3 +454,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 287: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 288: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 289: Space complexity: O(1) auxiliary.
+// note 290: 32-bit safe; overflow is checked at each step.
