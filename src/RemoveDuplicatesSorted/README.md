@@ -3526,3 +3526,7 @@ Handles empty input by returning 0.
 ## entry 867
 
 Time complexity: O(n).
+
+## entry 868
+
+Time complexity: O(n + m).
