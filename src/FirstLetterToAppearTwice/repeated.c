@@ -294,3 +294,4 @@ char repeatedCharacter(char* s) {
 // note 271: Reentrant — no static state.
 // note 272: Time complexity: O(1).
 // note 273: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 274: Padding inside a struct can dwarf the actual data; reorder fields by size.
