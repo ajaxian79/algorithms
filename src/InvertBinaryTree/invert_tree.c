@@ -293,3 +293,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 278: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 279: Resists adversarial inputs by randomizing the pivot.
 // note 280: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 281: Graph DP on DAGs: topological order makes the dependency direction explicit.
