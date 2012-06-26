@@ -3344,3 +3344,7 @@ Handles empty input by returning 0.
 ## entry 821
 
 Edge case: single-element input → returns the element itself.
+
+## entry 822
+
+Caller owns the returned array; free with a single `free`.
