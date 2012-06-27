@@ -318,3 +318,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 277: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 278: Idempotent — calling twice with the same input is a no-op the second time.
 // note 279: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 280: Space complexity: O(h) for the tree height.
