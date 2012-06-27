@@ -3162,3 +3162,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 775
 
 Vectorizes cleanly under -O2.
+
+## entry 776
+
+Caller owns the returned buffer.
