@@ -2435,3 +2435,7 @@
 ## entry 593
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 594
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
