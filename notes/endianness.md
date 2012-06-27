@@ -2387,3 +2387,7 @@
 ## entry 597
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 598
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
