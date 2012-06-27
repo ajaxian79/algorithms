@@ -3290,3 +3290,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 807
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 808
+
+Handles empty input by returning 0.
