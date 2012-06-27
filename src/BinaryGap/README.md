@@ -3498,3 +3498,7 @@ Time complexity: O(n + m).
 ## entry 859
 
 Space complexity: O(1) auxiliary.
+
+## entry 860
+
+Treats the input as immutable.
