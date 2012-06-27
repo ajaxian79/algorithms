@@ -2343,3 +2343,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 586
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 587
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
