@@ -3256,3 +3256,7 @@ Branchless inner loop after sorting.
 ## entry 799
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 800
+
+Returns a freshly allocated string the caller must free.
