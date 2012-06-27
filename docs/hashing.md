@@ -2551,3 +2551,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 621
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 622
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
