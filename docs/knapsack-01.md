@@ -2425,3 +2425,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 589
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 590
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
