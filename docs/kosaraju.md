@@ -2379,3 +2379,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 595
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 596
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
