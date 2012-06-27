@@ -2381,3 +2381,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 579
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 580
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
