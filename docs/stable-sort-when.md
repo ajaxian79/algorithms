@@ -2385,3 +2385,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 582
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 583
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
