@@ -2493,3 +2493,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 607
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 608
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
