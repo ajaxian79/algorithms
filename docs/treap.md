@@ -2319,3 +2319,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 580
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 581
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
