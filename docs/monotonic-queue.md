@@ -2355,3 +2355,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 571
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 572
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
