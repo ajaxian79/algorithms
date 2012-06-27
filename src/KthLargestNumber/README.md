@@ -3404,3 +3404,7 @@ Two passes: one to count, one to fill.
 ## entry 835
 
 Time complexity: O(1).
+
+## entry 836
+
+Branchless inner loop after sorting.
