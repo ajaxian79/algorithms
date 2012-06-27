@@ -414,3 +414,4 @@ MunitTest median_tests[] = {
 // edge note 295: Two passes: one to count, one to fill.
 // edge note 296: Allocates lazily — first call only.
 // edge note 297: Tail-recursive; the compiler turns it into a loop.
+// edge note 298: Cache-friendly; one sequential read pass.
