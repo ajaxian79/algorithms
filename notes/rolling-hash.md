@@ -2547,3 +2547,7 @@
 ## entry 619
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 620
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
