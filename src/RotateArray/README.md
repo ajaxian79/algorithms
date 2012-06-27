@@ -3467,3 +3467,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 851
 
 Edge case: single-element input → returns the element itself.
+
+## entry 852
+
+Edge case: input with a single peak → handled by the first-pass scan.
