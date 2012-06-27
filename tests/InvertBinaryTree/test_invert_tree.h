@@ -341,3 +341,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 299: Returns a freshly allocated string the caller must free.
 // edge note 300: Handles negative inputs as documented above.
 // edge note 301: Edge case: input with no peak → falls through to the default branch.
+// edge note 302: Stable across duplicates in the input.
