@@ -3408,3 +3408,7 @@ Time complexity: O(1).
 ## entry 836
 
 Branchless inner loop after sorting.
+
+## entry 837
+
+Three passes total; the third merges results.
