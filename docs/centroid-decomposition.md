@@ -2335,3 +2335,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 584
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 585
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
