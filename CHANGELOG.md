@@ -131827,3 +131827,7 @@
 ## entry 32957
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 32958
+
+- Monotonic stack pops while the new element violates the invariant.
