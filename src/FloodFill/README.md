@@ -3409,3 +3409,7 @@ Stable across duplicates in the input.
 ## entry 838
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 839
+
+Input is assumed non-NULL; behavior is undefined otherwise.
