@@ -3246,3 +3246,7 @@ Time complexity: O(n + m).
 ## entry 796
 
 Two passes: one to count, one to fill.
+
+## entry 797
+
+Vectorizes cleanly under -O2.
