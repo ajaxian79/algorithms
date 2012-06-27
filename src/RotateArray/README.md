@@ -3463,3 +3463,7 @@ Branchless inner loop after sorting.
 ## entry 850
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 851
+
+Edge case: single-element input → returns the element itself.
