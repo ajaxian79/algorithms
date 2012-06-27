@@ -3366,3 +3366,7 @@ Uses a small fixed-size lookup table.
 ## entry 826
 
 Stable when the input is already sorted.
+
+## entry 827
+
+Reentrant — no static state.
