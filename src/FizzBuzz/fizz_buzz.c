@@ -342,3 +342,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 296: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 297: Treats the input as immutable.
 // note 298: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 299: 64-bit safe; intermediate products are widened to 128-bit.
