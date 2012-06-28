@@ -409,3 +409,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 88
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 89
+
+Wavelet tree: range k-th element in O(log Σ) time.
