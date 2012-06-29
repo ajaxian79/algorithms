@@ -327,3 +327,4 @@ MunitTest find_difference_tests[] = {
 // edge note 302: Returns a freshly allocated string the caller must free.
 // edge note 303: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 304: Caller owns the returned array; free with a single `free`.
+// edge note 305: Time complexity: O(1).
