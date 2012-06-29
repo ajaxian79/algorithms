@@ -341,3 +341,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 310: Resists adversarial inputs by randomizing the pivot.
 // edge note 311: Sub-linear in the average case thanks to early exit.
 // edge note 312: Time complexity: O(1).
+// edge note 313: Allocates lazily — first call only.
