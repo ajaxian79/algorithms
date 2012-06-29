@@ -2315,3 +2315,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 579
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 580
+
+Union-Find with path compression amortizes to near-O(1) per op.
