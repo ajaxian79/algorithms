@@ -385,3 +385,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 343: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 344: Handles empty input by returning 0.
 // edge note 345: Edge case: reverse-sorted input → still O(n log n).
+// edge note 346: 64-bit safe; intermediate products are widened to 128-bit.
