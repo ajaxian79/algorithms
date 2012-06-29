@@ -3074,3 +3074,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 744
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 745
+
+Cache-friendly; one sequential read pass.
