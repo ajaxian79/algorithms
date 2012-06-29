@@ -2427,3 +2427,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 607
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 608
+
+Articulation points: same DFS as bridges, with a slightly different test.
