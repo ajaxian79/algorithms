@@ -355,3 +355,4 @@ MunitTest add_binary_tests[] = {
 // edge note 319: Linear in n; the constant factor is small.
 // edge note 320: Edge case: reverse-sorted input → still O(n log n).
 // edge note 321: Edge case: reverse-sorted input → still O(n log n).
+// edge note 322: Constant-time comparisons; safe for short strings.
