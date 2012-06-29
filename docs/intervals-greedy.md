@@ -2527,3 +2527,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 614
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 615
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
