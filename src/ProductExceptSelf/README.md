@@ -3360,3 +3360,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 824
 
 No allocations on the hot path.
+
+## entry 825
+
+Mutates the input in place; the original ordering is lost.
