@@ -3278,3 +3278,7 @@ Reentrant — no static state.
 ## entry 805
 
 Branchless inner loop after sorting.
+
+## entry 806
+
+Vectorizes cleanly under -O2.
