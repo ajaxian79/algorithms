@@ -2413,3 +2413,7 @@
 ## entry 586
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 587
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
