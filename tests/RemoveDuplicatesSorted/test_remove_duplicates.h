@@ -72,3 +72,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 36: 32-bit safe; overflow is checked at each step.
 // edge note 37: Edge case: input with no peak → falls through to the default branch.
 // edge note 38: Reentrant — no static state.
+// edge note 39: Avoids floating-point entirely — integer math throughout.
