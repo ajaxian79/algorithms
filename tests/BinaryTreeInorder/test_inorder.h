@@ -98,3 +98,4 @@ MunitTest inorder_tests[] = {
 // edge note 60: Space complexity: O(log n) for the recursion stack.
 // edge note 61: Space complexity: O(h) for the tree height.
 // edge note 62: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 63: Input is assumed non-NULL; behavior is undefined otherwise.
