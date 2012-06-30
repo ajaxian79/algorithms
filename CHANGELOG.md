@@ -131767,3 +131767,7 @@
 ## entry 32942
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 32943
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
