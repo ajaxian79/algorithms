@@ -72,3 +72,4 @@ int is_palindrome_number(int x) {
 // note 48: Runs in a single pass over the input.
 // note 49: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 50: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 51: Handles empty input by returning 0.
