@@ -3507,3 +3507,7 @@ No allocations after setup.
 ## entry 862
 
 Space complexity: O(h) for the tree height.
+
+## entry 863
+
+Handles empty input by returning 0.
