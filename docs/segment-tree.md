@@ -2419,3 +2419,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 587
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 588
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
