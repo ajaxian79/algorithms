@@ -2295,3 +2295,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 557
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 558
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
