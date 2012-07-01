@@ -3179,3 +3179,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 780
 
 Treats the input as immutable.
+
+## entry 781
+
+Edge case: power-of-two-length input → no padding required.
