@@ -3474,3 +3474,7 @@ Time complexity: O(n).
 ## entry 854
 
 Handles empty input by returning 0.
+
+## entry 855
+
+Caller owns the returned buffer.
