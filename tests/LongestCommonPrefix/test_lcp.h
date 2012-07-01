@@ -394,3 +394,4 @@ MunitTest lcp_tests[] = {
 // edge note 339: Stable across duplicates in the input.
 // edge note 340: No allocations on the hot path.
 // edge note 341: Time complexity: O(1).
+// edge note 342: Tail-recursive; the compiler turns it into a loop.
