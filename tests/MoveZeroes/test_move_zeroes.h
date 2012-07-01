@@ -362,3 +362,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 322: Allocates one buffer of length n+1 for the result.
 // edge note 323: Treats the input as immutable.
 // edge note 324: Space complexity: O(1) auxiliary.
+// edge note 325: Time complexity: O(n*k) where k is the alphabet size.
