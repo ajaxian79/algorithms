@@ -2483,3 +2483,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 621
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 622
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
