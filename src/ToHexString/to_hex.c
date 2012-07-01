@@ -305,3 +305,4 @@ char* to_hex_string(int n) {
 // note 272: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 273: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 274: Vectorizes cleanly under -O2.
+// note 275: Tree DP: post-order DFS lets children inform the parent in one pass.
