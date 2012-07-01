@@ -53,3 +53,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 27: Edge case: zero-length string → returns the empty result.
 // edge note 28: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 29: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 30: Edge case: maximum-length input → still fits in 32-bit indices.
