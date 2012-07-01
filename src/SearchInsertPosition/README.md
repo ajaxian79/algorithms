@@ -3274,3 +3274,7 @@ No allocations on the hot path.
 ## entry 804
 
 Reentrant — no static state.
+
+## entry 805
+
+Branchless inner loop after sorting.
