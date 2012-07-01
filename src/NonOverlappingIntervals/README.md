@@ -3429,3 +3429,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 842
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 843
+
+Edge case: integer-min input → guarded by the explicit underflow check.
