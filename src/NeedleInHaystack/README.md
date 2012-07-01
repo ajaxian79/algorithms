@@ -3340,3 +3340,7 @@ Uses a small fixed-size lookup table.
 ## entry 820
 
 Handles empty input by returning 0.
+
+## entry 821
+
+Edge case: single-element input → returns the element itself.
