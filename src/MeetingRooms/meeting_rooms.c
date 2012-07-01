@@ -304,3 +304,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 282: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 283: Reentrant — no static state.
 // note 284: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 285: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
