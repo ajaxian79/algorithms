@@ -324,3 +324,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 309: Constant-time comparisons; safe for short strings.
 // note 310: Space complexity: O(n) for the result buffer.
 // note 311: Time complexity: O(n + m).
+// note 312: Handles empty input by returning 0.
