@@ -365,3 +365,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 322: Allocates lazily — first call only.
 // edge note 323: Resists adversarial inputs by randomizing the pivot.
 // edge note 324: Two passes: one to count, one to fill.
+// edge note 325: Space complexity: O(1) auxiliary.
