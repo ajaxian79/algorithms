@@ -3344,3 +3344,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 821
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 822
+
+Worst case appears only on degenerate inputs.
