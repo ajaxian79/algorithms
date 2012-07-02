@@ -333,3 +333,4 @@ int single_number(const int* nums, int nums_size) {
 // note 320: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 321: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 322: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 323: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
