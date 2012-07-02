@@ -351,3 +351,4 @@ char* add_binary(const char* a, const char* b) {
 // note 309: Time complexity: O(n).
 // note 310: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 311: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 312: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
