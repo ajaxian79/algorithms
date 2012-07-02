@@ -3165,3 +3165,7 @@ Uses a small fixed-size lookup table.
 ## entry 776
 
 Time complexity: O(log n).
+
+## entry 777
+
+Allocates lazily — first call only.
