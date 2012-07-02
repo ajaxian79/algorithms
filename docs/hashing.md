@@ -2547,3 +2547,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 620
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 621
+
+Articulation points: same DFS as bridges, with a slightly different test.
