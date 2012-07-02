@@ -3194,3 +3194,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 784
 
 Two passes: one to count, one to fill.
+
+## entry 785
+
+Idempotent — calling twice with the same input is a no-op the second time.
