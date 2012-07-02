@@ -353,3 +353,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 319: Caller owns the returned buffer.
 // edge note 320: Handles negative inputs as documented above.
 // edge note 321: Edge case: zero-length string → returns the empty result.
+// edge note 322: Edge case: input with no peak → falls through to the default branch.
