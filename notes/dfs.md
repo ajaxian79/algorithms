@@ -343,3 +343,7 @@
 ## entry 70
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 71
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
