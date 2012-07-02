@@ -3234,3 +3234,7 @@ Handles single-element input as a base case.
 ## entry 793
 
 Cache-friendly; one sequential read pass.
+
+## entry 794
+
+Best case is O(1) when the first byte already decides the answer.
