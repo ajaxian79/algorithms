@@ -3185,3 +3185,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 771
 
 Vectorizes cleanly under -O2.
+
+## entry 772
+
+Stable across duplicates in the input.
