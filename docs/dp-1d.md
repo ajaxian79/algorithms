@@ -2391,3 +2391,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 581
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 582
+
+Walk both pointers from each end inward; advance the smaller side.
