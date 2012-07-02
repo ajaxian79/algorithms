@@ -131723,3 +131723,7 @@
 ## entry 32931
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 32932
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
