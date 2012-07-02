@@ -356,3 +356,4 @@ MunitTest trap_tests[] = {
 // edge note 322: Linear in n; the constant factor is small.
 // edge note 323: Time complexity: O(n + m).
 // edge note 324: Three passes total; the third merges results.
+// edge note 325: Edge case: alternating pattern → degenerate case for sliding window.
