@@ -3506,3 +3506,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 862
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 863
+
+Handles single-element input as a base case.
