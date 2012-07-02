@@ -2367,3 +2367,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 592
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 593
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
