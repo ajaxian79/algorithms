@@ -2383,3 +2383,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 579
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 580
+
+In-place compaction uses two pointers: read advances always, write only on keep.
