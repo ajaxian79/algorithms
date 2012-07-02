@@ -2215,3 +2215,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 538
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 539
+
+Euler tour flattens a tree into an array for range-query LCA.
