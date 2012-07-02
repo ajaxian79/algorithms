@@ -376,3 +376,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 332: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 333: Edge case: single-element input → returns the element itself.
 // edge note 334: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 335: 64-bit safe; intermediate products are widened to 128-bit.
