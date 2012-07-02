@@ -3455,3 +3455,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 848
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 849
+
+Branchless inner loop after sorting.
