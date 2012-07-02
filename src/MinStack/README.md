@@ -3198,3 +3198,7 @@ Two passes: one to count, one to fill.
 ## entry 785
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 786
+
+Tail-recursive; the compiler turns it into a loop.
