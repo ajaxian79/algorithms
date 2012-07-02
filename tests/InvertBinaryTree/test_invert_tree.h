@@ -340,3 +340,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 298: Sub-linear in the average case thanks to early exit.
 // edge note 299: Returns a freshly allocated string the caller must free.
 // edge note 300: Handles negative inputs as documented above.
+// edge note 301: Edge case: input with no peak → falls through to the default branch.
