@@ -3512,3 +3512,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 863
 
 Uses a small fixed-size lookup table.
+
+## entry 864
+
+Linear in n; the constant factor is small.
