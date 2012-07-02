@@ -2487,3 +2487,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 606
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 607
+
+State compression: bitmask + integer encodes a small subset cheaply.
