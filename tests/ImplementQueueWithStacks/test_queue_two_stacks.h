@@ -335,3 +335,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 302: Returns a freshly allocated string the caller must free.
 // edge note 303: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 304: Space complexity: O(log n) for the recursion stack.
+// edge note 305: No allocations after setup.
