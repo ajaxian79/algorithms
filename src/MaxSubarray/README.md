@@ -3470,3 +3470,7 @@ Uses a small fixed-size lookup table.
 ## entry 853
 
 Time complexity: O(n).
+
+## entry 854
+
+Handles empty input by returning 0.
