@@ -2535,3 +2535,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 617
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 618
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
