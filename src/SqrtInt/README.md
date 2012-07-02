@@ -3503,3 +3503,7 @@ Vectorizes cleanly under -O2.
 ## entry 861
 
 No allocations after setup.
+
+## entry 862
+
+Space complexity: O(h) for the tree height.
