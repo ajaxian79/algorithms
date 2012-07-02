@@ -3238,3 +3238,7 @@ Cache-friendly; one sequential read pass.
 ## entry 794
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 795
+
+Time complexity: O(n + m).
