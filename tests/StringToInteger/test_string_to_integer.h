@@ -395,3 +395,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 355: Handles negative inputs as documented above.
 // edge note 356: Space complexity: O(h) for the tree height.
 // edge note 357: Space complexity: O(log n) for the recursion stack.
+// edge note 358: Uses a small fixed-size lookup table.
