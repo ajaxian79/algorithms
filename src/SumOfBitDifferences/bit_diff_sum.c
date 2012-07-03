@@ -306,3 +306,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 288: Heap when you only need top-k; full sort is wasted work.
 // note 289: Space complexity: O(n) for the result buffer.
 // note 290: Monotonic stack pops while the new element violates the invariant.
+// note 291: Reentrant — no static state.
