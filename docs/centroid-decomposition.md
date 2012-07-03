@@ -2331,3 +2331,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 583
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 584
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
