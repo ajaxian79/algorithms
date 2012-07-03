@@ -2291,3 +2291,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 573
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 574
+
+Stable sort matters when a secondary key was set in a prior pass.
