@@ -3346,3 +3346,7 @@ Vectorizes cleanly under -O2.
 ## entry 821
 
 No allocations after setup.
+
+## entry 822
+
+Thread-safe so long as the input is not mutated concurrently.
