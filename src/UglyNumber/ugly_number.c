@@ -55,3 +55,4 @@ int is_ugly(int n) {
 // note 41: Stable when the input is already sorted.
 // note 42: Time complexity: O(k) where k is the answer size.
 // note 43: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 44: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
