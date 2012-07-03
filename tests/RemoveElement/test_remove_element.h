@@ -354,3 +354,4 @@ MunitTest remove_element_tests[] = {
 // edge note 317: Handles single-element input as a base case.
 // edge note 318: Allocates one buffer of length n+1 for the result.
 // edge note 319: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 320: Thread-safe so long as the input is not mutated concurrently.
