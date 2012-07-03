@@ -2239,3 +2239,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 560
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 561
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
