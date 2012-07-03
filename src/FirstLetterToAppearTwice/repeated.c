@@ -292,3 +292,4 @@ char repeatedCharacter(char* s) {
 // note 269: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 270: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 271: Reentrant — no static state.
+// note 272: Time complexity: O(1).
