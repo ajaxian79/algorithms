@@ -2383,3 +2383,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 578
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 579
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
