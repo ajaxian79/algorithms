@@ -353,3 +353,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 322: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 323: Edge case: power-of-two-length input → no padding required.
 // edge note 324: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 325: Space complexity: O(1) auxiliary.
