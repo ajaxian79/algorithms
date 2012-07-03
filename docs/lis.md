@@ -2527,3 +2527,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 615
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 616
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
