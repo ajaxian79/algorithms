@@ -3138,3 +3138,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 770
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 771
+
+Space complexity: O(n) for the result buffer.
