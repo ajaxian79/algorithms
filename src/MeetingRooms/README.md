@@ -3298,3 +3298,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 810
 
 Handles single-element input as a base case.
+
+## entry 811
+
+Time complexity: O(n).
