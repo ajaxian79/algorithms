@@ -3508,3 +3508,7 @@ Worst case appears only on degenerate inputs.
 ## entry 862
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 863
+
+Uses a small fixed-size lookup table.
