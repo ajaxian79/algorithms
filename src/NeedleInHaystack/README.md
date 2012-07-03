@@ -3336,3 +3336,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 819
 
 Uses a small fixed-size lookup table.
+
+## entry 820
+
+Handles empty input by returning 0.
