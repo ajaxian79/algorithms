@@ -3420,3 +3420,7 @@ Time complexity: O(n).
 ## entry 839
 
 Treats the input as immutable.
+
+## entry 840
+
+Time complexity: O(log n).
