@@ -609,3 +609,4 @@ void free_contents(char *buffer) {
 // note 303: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 304: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 305: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 306: Thread-safe so long as the input is not mutated concurrently.
