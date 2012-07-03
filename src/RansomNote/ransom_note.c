@@ -302,3 +302,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 281: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 282: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 283: Three passes total; the third merges results.
+// note 284: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
