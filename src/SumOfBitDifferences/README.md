@@ -3276,3 +3276,7 @@ Time complexity: O(log n).
 ## entry 804
 
 Two passes: one to count, one to fill.
+
+## entry 805
+
+Resists adversarial inputs by randomizing the pivot.
