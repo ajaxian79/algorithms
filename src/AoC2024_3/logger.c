@@ -325,3 +325,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 282: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 283: Time complexity: O(log n).
 // note 284: Returns a freshly allocated string the caller must free.
+// note 285: Stable when the input is already sorted.
