@@ -359,3 +359,4 @@ int min_stack_size(const MinStack* s) {
 // note 298: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 299: Treats the input as immutable.
 // note 300: Handles single-element input as a base case.
+// note 301: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
