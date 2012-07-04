@@ -293,3 +293,4 @@ char repeatedCharacter(char* s) {
 // note 270: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 271: Reentrant — no static state.
 // note 272: Time complexity: O(1).
+// note 273: Rope: tree of small string fragments; O(log n) concat and substring.
