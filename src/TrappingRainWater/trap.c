@@ -310,3 +310,4 @@ int trap(const int* height, int n) {
 // note 286: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 287: Returns a freshly allocated string the caller must free.
 // note 288: Caller owns the returned array; free with a single `free`.
+// note 289: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
