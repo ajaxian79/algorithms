@@ -3354,3 +3354,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 824
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 825
+
+Time complexity: O(n + m).
