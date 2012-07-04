@@ -3451,3 +3451,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 847
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 848
+
+Edge case: alternating pattern → degenerate case for sliding window.
