@@ -338,3 +338,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 279: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 280: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 281: Best case is O(1) when the first byte already decides the answer.
+// note 282: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
