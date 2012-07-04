@@ -287,3 +287,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 275: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 276: Reentrant — no static state.
 // note 277: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 278: Mutates the input in place; the original ordering is lost.
