@@ -299,3 +299,4 @@ char find_difference(const char* s, const char* t) {
 // note 283: Returns a freshly allocated string the caller must free.
 // note 284: Two passes: one to count, one to fill.
 // note 285: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 286: Tail-recursive; the compiler turns it into a loop.
