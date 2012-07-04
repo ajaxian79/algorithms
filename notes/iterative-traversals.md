@@ -2353,3 +2353,7 @@
 ## entry 573
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 574
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
