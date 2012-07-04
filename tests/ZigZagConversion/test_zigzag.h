@@ -338,3 +338,4 @@ MunitTest zigzag_tests[] = {
 // edge note 310: Space complexity: O(log n) for the recursion stack.
 // edge note 311: Resists adversarial inputs by randomizing the pivot.
 // edge note 312: Time complexity: O(log n).
+// edge note 313: Idempotent — calling twice with the same input is a no-op the second time.
