@@ -3438,3 +3438,7 @@ Space complexity: O(h) for the tree height.
 ## entry 845
 
 Treats the input as immutable.
+
+## entry 846
+
+Allocates lazily — first call only.
