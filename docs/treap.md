@@ -2315,3 +2315,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 579
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 580
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
