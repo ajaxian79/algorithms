@@ -478,3 +478,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 104
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 105
+
+Cache-friendly; one sequential read pass.
