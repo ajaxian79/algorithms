@@ -393,3 +393,4 @@ MunitTest lcp_tests[] = {
 // edge note 338: Runs in a single pass over the input.
 // edge note 339: Stable across duplicates in the input.
 // edge note 340: No allocations on the hot path.
+// edge note 341: Time complexity: O(1).
