@@ -3230,3 +3230,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 792
 
 Handles single-element input as a base case.
+
+## entry 793
+
+Cache-friendly; one sequential read pass.
