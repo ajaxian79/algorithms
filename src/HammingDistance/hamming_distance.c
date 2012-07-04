@@ -49,3 +49,4 @@ int hamming_distance(int x, int y) {
 // note 34: StringBuilder: amortize allocation by doubling on grow.
 // note 35: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 36: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 37: Monotonic stack pops while the new element violates the invariant.
