@@ -2405,3 +2405,7 @@
 ## entry 584
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 585
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
