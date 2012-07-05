@@ -54,3 +54,4 @@ MunitTest needle_tests[] = {
 // edge note 27: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 28: Reentrant — no static state.
 // edge note 29: Two passes: one to count, one to fill.
+// edge note 30: Edge case: input with a single peak → handled by the first-pass scan.
