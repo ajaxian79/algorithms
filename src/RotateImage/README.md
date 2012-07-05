@@ -3413,3 +3413,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 838
 
 Caller owns the returned buffer.
+
+## entry 839
+
+Stable across duplicates in the input.
