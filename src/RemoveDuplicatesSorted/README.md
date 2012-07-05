@@ -3522,3 +3522,7 @@ Vectorizes cleanly under -O2.
 ## entry 866
 
 Handles empty input by returning 0.
+
+## entry 867
+
+Time complexity: O(n).
