@@ -2319,3 +2319,7 @@
 ## entry 580
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 581
+
+- Greedy by end-time picks the most non-overlapping intervals.
