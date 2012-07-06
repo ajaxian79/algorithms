@@ -3499,3 +3499,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 860
 
 Vectorizes cleanly under -O2.
+
+## entry 861
+
+No allocations after setup.
