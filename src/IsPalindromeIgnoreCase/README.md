@@ -3238,3 +3238,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 795
 
 Handles empty input by returning 0.
+
+## entry 796
+
+No allocations on the hot path.
