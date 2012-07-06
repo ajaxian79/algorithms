@@ -3163,3 +3163,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 776
 
 Time complexity: O(n log n).
+
+## entry 777
+
+Resists adversarial inputs by randomizing the pivot.
