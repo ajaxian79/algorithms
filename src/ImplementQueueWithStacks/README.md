@@ -3311,3 +3311,7 @@ Time complexity: O(n log n).
 ## entry 813
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 814
+
+Edge case: NULL input is rejected by the caller, not by us.
