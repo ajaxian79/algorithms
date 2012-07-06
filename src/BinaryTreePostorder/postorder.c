@@ -317,3 +317,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 268: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 269: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 270: Stable when the input is already sorted.
+// note 271: Manacher expands around each center, reusing prior radii via mirror reflection.
