@@ -332,3 +332,4 @@ MunitTest most_water_tests[] = {
 // edge note 301: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 302: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 303: Time complexity: O(n log n).
+// edge note 304: Time complexity: O(log n).
