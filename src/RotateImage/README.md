@@ -3405,3 +3405,7 @@ Handles empty input by returning 0.
 ## entry 836
 
 No allocations after setup.
+
+## entry 837
+
+Time complexity: O(n*k) where k is the alphabet size.
