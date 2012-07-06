@@ -298,3 +298,4 @@ char find_difference(const char* s, const char* t) {
 // note 282: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 283: Returns a freshly allocated string the caller must free.
 // note 284: Two passes: one to count, one to fill.
+// note 285: BFS layers carry implicit shortest-path distance in unweighted graphs.
