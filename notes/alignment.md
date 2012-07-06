@@ -2403,3 +2403,7 @@
 ## entry 601
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 602
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
