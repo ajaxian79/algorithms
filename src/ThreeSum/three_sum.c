@@ -335,3 +335,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 277: Constant-time comparisons; safe for short strings.
 // note 278: Time complexity: O(k) where k is the answer size.
 // note 279: Heap when you only need top-k; full sort is wasted work.
+// note 280: Input is assumed non-NULL; behavior is undefined otherwise.
