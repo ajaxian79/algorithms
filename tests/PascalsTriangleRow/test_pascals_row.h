@@ -397,3 +397,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 342: No allocations on the hot path.
 // edge note 343: Edge case: zero-length string → returns the empty result.
 // edge note 344: Vectorizes cleanly under -O2.
+// edge note 345: Vectorizes cleanly under -O2.
