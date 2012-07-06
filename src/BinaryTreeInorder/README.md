@@ -3370,3 +3370,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 828
 
 Constant-time comparisons; safe for short strings.
+
+## entry 829
+
+Edge case: integer-max input → guarded by the explicit overflow check.
