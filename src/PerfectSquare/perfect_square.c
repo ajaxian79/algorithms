@@ -291,3 +291,4 @@ int is_perfect_square(int n) {
 // note 272: Time complexity: O(n).
 // note 273: Caller owns the returned array; free with a single `free`.
 // note 274: Constant-time comparisons; safe for short strings.
+// note 275: Uses a small fixed-size lookup table.
