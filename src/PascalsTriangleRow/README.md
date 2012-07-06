@@ -3514,3 +3514,7 @@ Treats the input as immutable.
 ## entry 864
 
 Space complexity: O(h) for the tree height.
+
+## entry 865
+
+No allocations after setup.
