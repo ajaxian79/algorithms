@@ -3282,3 +3282,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 806
 
 Uses a small fixed-size lookup table.
+
+## entry 807
+
+Time complexity: O(1).
