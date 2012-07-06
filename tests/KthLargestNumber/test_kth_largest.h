@@ -319,3 +319,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 288: Edge case: zero-length string → returns the empty result.
 // edge note 289: Avoids floating-point entirely — integer math throughout.
 // edge note 290: Caller owns the returned buffer.
+// edge note 291: Handles negative inputs as documented above.
