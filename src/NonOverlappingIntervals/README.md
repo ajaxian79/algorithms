@@ -3421,3 +3421,7 @@ No allocations on the hot path.
 ## entry 840
 
 Treats the input as immutable.
+
+## entry 841
+
+Caller owns the returned array; free with a single `free`.
