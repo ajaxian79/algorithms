@@ -2451,3 +2451,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 613
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 614
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
