@@ -348,3 +348,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 305: Cache-friendly; one sequential read pass.
 // edge note 306: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 307: Edge case: reverse-sorted input → still O(n log n).
+// edge note 308: Space complexity: O(n) for the result buffer.
