@@ -348,3 +348,4 @@ MunitTest missing_number_tests[] = {
 // edge note 314: Handles empty input by returning 0.
 // edge note 315: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 316: Time complexity: O(n log n).
+// edge note 317: Edge case: integer-max input → guarded by the explicit overflow check.
