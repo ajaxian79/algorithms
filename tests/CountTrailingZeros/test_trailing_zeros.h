@@ -364,3 +364,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 336: 32-bit safe; overflow is checked at each step.
 // edge note 337: Space complexity: O(h) for the tree height.
 // edge note 338: Treats the input as immutable.
+// edge note 339: Edge case: single-element input → returns the element itself.
