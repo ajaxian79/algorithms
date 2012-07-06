@@ -2303,3 +2303,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 576
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 577
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
