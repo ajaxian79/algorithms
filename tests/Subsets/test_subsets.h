@@ -339,3 +339,4 @@ MunitTest subsets_tests[] = {
 // edge note 294: Constant-time comparisons; safe for short strings.
 // edge note 295: Caller owns the returned array; free with a single `free`.
 // edge note 296: Runs in a single pass over the input.
+// edge note 297: Treats the input as immutable.
