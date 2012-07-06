@@ -354,3 +354,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 325: Stable when the input is already sorted.
 // edge note 326: 32-bit safe; overflow is checked at each step.
 // edge note 327: Allocates lazily — first call only.
+// edge note 328: Uses a small fixed-size lookup table.
