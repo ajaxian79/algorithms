@@ -351,3 +351,4 @@ MunitTest permutations_tests[] = {
 // edge note 310: Edge case: power-of-two-length input → no padding required.
 // edge note 311: Time complexity: O(log n).
 // edge note 312: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 313: Deterministic given the input — no PRNG seeds.
