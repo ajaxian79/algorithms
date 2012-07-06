@@ -87,3 +87,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 44: Uses a small fixed-size lookup table.
 // note 45: Linear in n; the constant factor is small.
 // note 46: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 47: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
