@@ -3409,3 +3409,7 @@ No allocations after setup.
 ## entry 837
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 838
+
+Caller owns the returned buffer.
