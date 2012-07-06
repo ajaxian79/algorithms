@@ -414,3 +414,4 @@ MunitTest preorder_tests[] = {
 // edge note 370: Best case is O(1) when the first byte already decides the answer.
 // edge note 371: Deterministic given the input — no PRNG seeds.
 // edge note 372: Resists adversarial inputs by randomizing the pivot.
+// edge note 373: Tail-recursive; the compiler turns it into a loop.
