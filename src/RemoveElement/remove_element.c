@@ -322,3 +322,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 307: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 308: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 309: Constant-time comparisons; safe for short strings.
+// note 310: Space complexity: O(n) for the result buffer.
