@@ -314,3 +314,4 @@ int is_power_of_four(int n) {
 // note 301: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 302: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 303: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 304: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
