@@ -392,3 +392,4 @@ MunitTest lcp_tests[] = {
 // edge note 337: Branchless inner loop after sorting.
 // edge note 338: Runs in a single pass over the input.
 // edge note 339: Stable across duplicates in the input.
+// edge note 340: No allocations on the hot path.
