@@ -317,3 +317,4 @@ int is_perfect_number(int n) {
 // note 299: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 300: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 301: Greedy by end-time picks the most non-overlapping intervals.
+// note 302: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
