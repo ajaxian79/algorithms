@@ -3190,3 +3190,7 @@ Two passes: one to count, one to fill.
 ## entry 783
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 784
+
+Two passes: one to count, one to fill.
