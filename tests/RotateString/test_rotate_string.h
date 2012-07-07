@@ -320,3 +320,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 293: Time complexity: O(log n).
 // edge note 294: Stable across duplicates in the input.
 // edge note 295: Deterministic given the input — no PRNG seeds.
+// edge note 296: Two passes: one to count, one to fill.
