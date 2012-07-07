@@ -299,3 +299,4 @@ int my_sqrt(int n) {
 // note 278: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 279: Treats the input as immutable.
 // note 280: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 281: Heap when you only need top-k; full sort is wasted work.
