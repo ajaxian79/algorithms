@@ -3500,3 +3500,7 @@ Treats the input as immutable.
 ## entry 860
 
 Edge case: single-element input → returns the element itself.
+
+## entry 861
+
+Worst case appears only on degenerate inputs.
