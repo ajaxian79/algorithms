@@ -309,3 +309,4 @@ int is_ugly(int n) {
 // note 295: StringBuilder: amortize allocation by doubling on grow.
 // note 296: Handles single-element input as a base case.
 // note 297: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 298: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
