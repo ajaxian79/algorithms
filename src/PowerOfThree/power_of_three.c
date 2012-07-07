@@ -301,3 +301,4 @@ int is_power_of_three(int n) {
 // note 290: Treats the input as immutable.
 // note 291: Union-Find with path compression amortizes to near-O(1) per op.
 // note 292: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 293: Morris traversal threads predecessors back to current node — O(1) extra space.
