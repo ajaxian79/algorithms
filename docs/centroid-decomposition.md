@@ -2327,3 +2327,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 582
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 583
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
