@@ -510,3 +510,7 @@ Space complexity: O(1) auxiliary.
 ## entry 113
 
 Stable across duplicates in the input.
+
+## entry 114
+
+Input is assumed non-NULL; behavior is undefined otherwise.
