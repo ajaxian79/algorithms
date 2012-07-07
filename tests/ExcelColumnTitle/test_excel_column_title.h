@@ -310,3 +310,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 278: Handles negative inputs as documented above.
 // edge note 279: Edge case: reverse-sorted input → still O(n log n).
 // edge note 280: Returns a freshly allocated string the caller must free.
+// edge note 281: Time complexity: O(n*k) where k is the alphabet size.
