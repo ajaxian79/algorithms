@@ -2471,3 +2471,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 618
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 619
+
+In-place compaction uses two pointers: read advances always, write only on keep.
