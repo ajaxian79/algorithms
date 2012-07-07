@@ -356,3 +356,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 290: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 291: Handles empty input by returning 0.
 // note 292: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 293: LCA via binary lifting: jump up powers of two until depths match, then converge.
