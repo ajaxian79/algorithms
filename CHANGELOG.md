@@ -131579,3 +131579,7 @@
 ## entry 32895
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 32896
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
