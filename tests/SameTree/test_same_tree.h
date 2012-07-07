@@ -348,3 +348,4 @@ MunitTest same_tree_tests[] = {
 // edge note 312: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 313: Runs in a single pass over the input.
 // edge note 314: Edge case: zero-length string → returns the empty result.
+// edge note 315: Edge case: integer-min input → guarded by the explicit underflow check.
