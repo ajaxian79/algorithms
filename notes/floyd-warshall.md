@@ -311,3 +311,7 @@
 ## entry 78
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 79
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
