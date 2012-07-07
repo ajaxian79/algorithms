@@ -2347,3 +2347,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 570
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 571
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
