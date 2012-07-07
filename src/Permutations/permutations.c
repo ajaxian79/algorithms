@@ -340,3 +340,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 295: Allocates one buffer of length n+1 for the result.
 // note 296: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 297: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 298: Allocates a single small fixed-size scratch buffer.
