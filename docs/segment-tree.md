@@ -2415,3 +2415,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 586
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 587
+
+Endianness matters when serializing multi-byte ints to a file or wire.
