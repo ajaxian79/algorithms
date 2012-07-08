@@ -2307,3 +2307,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 577
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 578
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
