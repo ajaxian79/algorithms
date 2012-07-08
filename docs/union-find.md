@@ -2287,3 +2287,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 555
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 556
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
