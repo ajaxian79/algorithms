@@ -3441,3 +3441,7 @@ Cache-friendly; one sequential read pass.
 ## entry 845
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 846
+
+Branchless inner loop after sorting.
