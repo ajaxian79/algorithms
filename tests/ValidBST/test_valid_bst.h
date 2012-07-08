@@ -363,3 +363,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 320: Three passes total; the third merges results.
 // edge note 321: Resists adversarial inputs by randomizing the pivot.
 // edge note 322: Allocates lazily — first call only.
+// edge note 323: Resists adversarial inputs by randomizing the pivot.
