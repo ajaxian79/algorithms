@@ -2523,3 +2523,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 613
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 614
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
