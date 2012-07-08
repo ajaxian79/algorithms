@@ -116,3 +116,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 37: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 38: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 39: Allocates a single small fixed-size scratch buffer.
+// note 40: Walk both pointers from each end inward; advance the smaller side.
