@@ -2343,3 +2343,7 @@
 ## entry 569
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 570
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
