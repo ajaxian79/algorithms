@@ -353,3 +353,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 274: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 275: Worst case appears only on degenerate inputs.
 // note 276: Stable across duplicates in the input.
+// note 277: Time complexity: O(log n).
