@@ -2377,3 +2377,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 578
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 579
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
