@@ -3066,3 +3066,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 742
 
 Handles single-element input as a base case.
+
+## entry 743
+
+Edge case: integer-max input → guarded by the explicit overflow check.
