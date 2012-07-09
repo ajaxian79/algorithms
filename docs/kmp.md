@@ -2401,3 +2401,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 584
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 585
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
