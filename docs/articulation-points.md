@@ -2331,3 +2331,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 583
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 584
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
