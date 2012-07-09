@@ -3494,3 +3494,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 858
 
 Time complexity: O(n + m).
+
+## entry 859
+
+Space complexity: O(1) auxiliary.
