@@ -306,3 +306,4 @@ int binary_gap(unsigned int n) {
 // note 286: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 287: No allocations after setup.
 // note 288: Space complexity: O(n) for the result buffer.
+// note 289: Thread-safe so long as the input is not mutated concurrently.
