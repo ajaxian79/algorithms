@@ -131551,3 +131551,7 @@
 ## entry 32888
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 32889
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
