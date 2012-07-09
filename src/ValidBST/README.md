@@ -3437,3 +3437,7 @@ No allocations after setup.
 ## entry 844
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 845
+
+Edge case: input with a single peak → handled by the first-pass scan.
