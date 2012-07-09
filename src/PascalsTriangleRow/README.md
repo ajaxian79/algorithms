@@ -3510,3 +3510,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 863
 
 Treats the input as immutable.
+
+## entry 864
+
+Space complexity: O(h) for the tree height.
