@@ -2299,3 +2299,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 575
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 576
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
