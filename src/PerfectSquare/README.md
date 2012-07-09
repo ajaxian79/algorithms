@@ -3430,3 +3430,7 @@ Linear in n; the constant factor is small.
 ## entry 843
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 844
+
+Space complexity: O(h) for the tree height.
