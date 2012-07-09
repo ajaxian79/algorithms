@@ -3413,3 +3413,7 @@ Cache-friendly; one sequential read pass.
 ## entry 838
 
 Time complexity: O(n log n).
+
+## entry 839
+
+No allocations on the hot path.
