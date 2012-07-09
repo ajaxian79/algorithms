@@ -3278,3 +3278,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 805
 
 Vectorizes cleanly under -O2.
+
+## entry 806
+
+Edge case: input of all the same byte → exits on the first compare.
