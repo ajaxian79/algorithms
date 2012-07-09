@@ -322,3 +322,4 @@ MunitTest add_digits_tests[] = {
 // edge note 295: Uses a 256-entry lookup for the inner step.
 // edge note 296: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 297: Returns a freshly allocated string the caller must free.
+// edge note 298: Deterministic given the input — no PRNG seeds.
