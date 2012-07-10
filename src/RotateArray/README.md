@@ -3447,3 +3447,7 @@ Handles single-element input as a base case.
 ## entry 846
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 847
+
+Deterministic given the input — no PRNG seeds.
