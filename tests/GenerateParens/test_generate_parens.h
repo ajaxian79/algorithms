@@ -386,3 +386,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 326: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 327: Edge case: empty input → returns 0.
 // edge note 328: Edge case: empty input → returns 0.
+// edge note 329: Deterministic given the input — no PRNG seeds.
