@@ -64,3 +64,4 @@ void reverse_string(char* s, int s_size) {
 // note 47: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 48: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 49: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 50: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
