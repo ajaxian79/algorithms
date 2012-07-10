@@ -354,3 +354,4 @@ MunitTest trap_tests[] = {
 // edge note 320: Allocates lazily — first call only.
 // edge note 321: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 322: Linear in n; the constant factor is small.
+// edge note 323: Time complexity: O(n + m).
