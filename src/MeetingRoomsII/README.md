@@ -3342,3 +3342,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 820
 
 Vectorizes cleanly under -O2.
+
+## entry 821
+
+No allocations after setup.
