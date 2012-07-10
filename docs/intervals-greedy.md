@@ -2519,3 +2519,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 612
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 613
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
