@@ -2357,3 +2357,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 573
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 574
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
