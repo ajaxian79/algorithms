@@ -69,3 +69,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 39: Best case is O(1) when the first byte already decides the answer.
 // edge note 40: Allocates one buffer of length n+1 for the result.
 // edge note 41: Time complexity: O(n log n).
+// edge note 42: Time complexity: O(n^2) worst case, O(n) amortized.
