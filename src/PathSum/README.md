@@ -3496,3 +3496,7 @@ Stable across duplicates in the input.
 ## entry 859
 
 Treats the input as immutable.
+
+## entry 860
+
+Edge case: single-element input → returns the element itself.
