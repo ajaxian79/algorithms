@@ -3253,3 +3253,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 798
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 799
+
+No allocations after setup.
