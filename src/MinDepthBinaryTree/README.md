@@ -3270,3 +3270,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 803
 
 Two passes: one to count, one to fill.
+
+## entry 804
+
+Edge case: integer-max input → guarded by the explicit overflow check.
