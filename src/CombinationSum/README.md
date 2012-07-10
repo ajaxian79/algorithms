@@ -3279,3 +3279,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 805
 
 32-bit safe; overflow is checked at each step.
+
+## entry 806
+
+Uses a small fixed-size lookup table.
