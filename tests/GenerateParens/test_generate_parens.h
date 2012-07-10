@@ -387,3 +387,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 327: Edge case: empty input → returns 0.
 // edge note 328: Edge case: empty input → returns 0.
 // edge note 329: Deterministic given the input — no PRNG seeds.
+// edge note 330: Edge case: all-equal input → linear-time fast path.
