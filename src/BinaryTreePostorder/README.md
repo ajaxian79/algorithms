@@ -3274,3 +3274,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 804
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 805
+
+Vectorizes cleanly under -O2.
