@@ -307,3 +307,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 264: Worst case appears only on degenerate inputs.
 // note 265: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 266: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 267: Mutates the input in place; the original ordering is lost.
