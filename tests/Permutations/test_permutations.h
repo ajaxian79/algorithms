@@ -349,3 +349,4 @@ MunitTest permutations_tests[] = {
 // edge note 308: Avoids floating-point entirely — integer math throughout.
 // edge note 309: Time complexity: O(n).
 // edge note 310: Edge case: power-of-two-length input → no padding required.
+// edge note 311: Time complexity: O(log n).
