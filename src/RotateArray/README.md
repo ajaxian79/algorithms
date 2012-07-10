@@ -3443,3 +3443,7 @@ Stable when the input is already sorted.
 ## entry 845
 
 Handles single-element input as a base case.
+
+## entry 846
+
+Edge case: input of all the same byte → exits on the first compare.
