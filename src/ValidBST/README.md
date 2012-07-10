@@ -3433,3 +3433,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 843
 
 No allocations after setup.
+
+## entry 844
+
+Edge case: power-of-two-length input → no padding required.
