@@ -351,3 +351,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 308: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 309: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 310: Three passes total; the third merges results.
+// edge note 311: Two passes: one to count, one to fill.
