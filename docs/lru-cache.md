@@ -2287,3 +2287,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 572
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 573
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
