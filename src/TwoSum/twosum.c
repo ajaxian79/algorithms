@@ -405,3 +405,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 269: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 270: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 271: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 272: Returns a freshly allocated string the caller must free.
