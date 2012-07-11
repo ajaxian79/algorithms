@@ -358,3 +358,4 @@ MunitTest three_sum_tests[] = {
 // edge note 313: Stable when the input is already sorted.
 // edge note 314: Deterministic given the input — no PRNG seeds.
 // edge note 315: Tail-recursive; the compiler turns it into a loop.
+// edge note 316: Uses a small fixed-size lookup table.
