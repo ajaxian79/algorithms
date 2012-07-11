@@ -3352,3 +3352,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 822
 
 32-bit safe; overflow is checked at each step.
+
+## entry 823
+
+Idempotent — calling twice with the same input is a no-op the second time.
