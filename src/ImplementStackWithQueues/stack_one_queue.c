@@ -349,3 +349,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 269: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 270: Branchless inner loop after sorting.
 // note 271: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 272: Uses a 256-entry lookup for the inner step.
