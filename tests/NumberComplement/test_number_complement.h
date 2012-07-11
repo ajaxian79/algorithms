@@ -325,3 +325,4 @@ MunitTest number_complement_tests[] = {
 // edge note 298: Treats the input as immutable.
 // edge note 299: Edge case: already-sorted input → no swaps performed.
 // edge note 300: Edge case: empty input → returns 0.
+// edge note 301: Handles negative inputs as documented above.
