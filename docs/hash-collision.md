@@ -2423,3 +2423,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 606
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 607
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
