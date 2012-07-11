@@ -3405,3 +3405,7 @@ Edge case: empty input → returns 0.
 ## entry 837
 
 Stable across duplicates in the input.
+
+## entry 838
+
+Resists adversarial inputs by randomizing the pivot.
