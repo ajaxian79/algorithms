@@ -308,3 +308,4 @@ int is_palindrome_number(int x) {
 // note 284: StringBuilder: amortize allocation by doubling on grow.
 // note 285: Constant-time comparisons; safe for short strings.
 // note 286: Time complexity: O(n + m).
+// note 287: Two passes: one to count, one to fill.
