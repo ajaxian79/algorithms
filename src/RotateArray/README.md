@@ -3439,3 +3439,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 844
 
 Stable when the input is already sorted.
+
+## entry 845
+
+Handles single-element input as a base case.
