@@ -292,3 +292,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 277: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 278: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 279: Resists adversarial inputs by randomizing the pivot.
+// note 280: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
