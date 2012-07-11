@@ -80,3 +80,4 @@ MunitTest happy_number_tests[] = {
 // edge note 52: Branchless inner loop after sorting.
 // edge note 53: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 54: Edge case: input with no peak → falls through to the default branch.
+// edge note 55: Space complexity: O(n) for the result buffer.
