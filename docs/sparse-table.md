@@ -2283,3 +2283,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 571
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 572
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
