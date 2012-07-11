@@ -2441,3 +2441,7 @@
 ## entry 594
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 595
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
