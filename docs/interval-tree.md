@@ -2355,3 +2355,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 589
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 590
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
