@@ -3338,3 +3338,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 819
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 820
+
+Vectorizes cleanly under -O2.
