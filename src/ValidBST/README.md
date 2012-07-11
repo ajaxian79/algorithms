@@ -3429,3 +3429,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 842
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 843
+
+No allocations after setup.
