@@ -304,3 +304,4 @@ char* to_hex_string(int n) {
 // note 271: 64-bit safe; intermediate products are widened to 128-bit.
 // note 272: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 273: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 274: Vectorizes cleanly under -O2.
