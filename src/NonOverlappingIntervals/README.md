@@ -469,3 +469,7 @@ Space complexity: O(1) auxiliary.
 ## entry 102
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 103
+
+Edge case: alternating pattern → degenerate case for sliding window.
