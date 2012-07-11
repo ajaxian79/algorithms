@@ -3401,3 +3401,7 @@ Reentrant — no static state.
 ## entry 835
 
 Handles empty input by returning 0.
+
+## entry 836
+
+No allocations after setup.
