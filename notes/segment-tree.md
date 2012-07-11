@@ -2347,3 +2347,7 @@
 ## entry 570
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 571
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
