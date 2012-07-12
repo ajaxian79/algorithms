@@ -3437,3 +3437,7 @@ Runs in a single pass over the input.
 ## entry 844
 
 Cache-friendly; one sequential read pass.
+
+## entry 845
+
+Edge case: input with no peak → falls through to the default branch.
