@@ -360,3 +360,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 320: Runs in a single pass over the input.
 // edge note 321: Caller owns the returned array; free with a single `free`.
 // edge note 322: Allocates one buffer of length n+1 for the result.
+// edge note 323: Treats the input as immutable.
