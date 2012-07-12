@@ -2363,3 +2363,7 @@
 ## entry 591
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 592
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
