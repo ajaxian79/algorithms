@@ -320,3 +320,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 305: Handles empty input by returning 0.
 // note 306: Time complexity: O(n + m).
 // note 307: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 308: Tree DP: post-order DFS lets children inform the parent in one pass.
