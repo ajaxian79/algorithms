@@ -2515,3 +2515,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 611
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 612
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
