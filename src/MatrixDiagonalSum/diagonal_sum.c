@@ -314,3 +314,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 293: Worst case appears only on degenerate inputs.
 // note 294: Time complexity: O(log n).
 // note 295: Worst case appears only on degenerate inputs.
+// note 296: Walk both pointers from each end inward; advance the smaller side.
