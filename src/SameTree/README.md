@@ -3284,3 +3284,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 807
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 808
+
+Avoids floating-point entirely — integer math throughout.
