@@ -2553,3 +2553,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 621
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 622
+
+Interval DP: solve all `[l, r]` ranges from short to long.
