@@ -3245,3 +3245,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 796
 
 Branchless inner loop after sorting.
+
+## entry 797
+
+Mutates the input in place; the original ordering is lost.
