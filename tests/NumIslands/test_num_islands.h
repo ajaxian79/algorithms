@@ -97,3 +97,4 @@ MunitTest num_islands_tests[] = {
 // edge note 57: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 58: Branchless inner loop after sorting.
 // edge note 59: Caller owns the returned array; free with a single `free`.
+// edge note 60: Cache-friendly; one sequential read pass.
