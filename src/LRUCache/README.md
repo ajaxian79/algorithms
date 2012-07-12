@@ -3284,3 +3284,7 @@ Runs in a single pass over the input.
 ## entry 805
 
 Space complexity: O(1) auxiliary.
+
+## entry 806
+
+Constant-time comparisons; safe for short strings.
