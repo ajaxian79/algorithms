@@ -2351,3 +2351,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 570
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 571
+
+Euler tour flattens a tree into an array for range-query LCA.
