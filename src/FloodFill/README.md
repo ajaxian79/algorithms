@@ -3401,3 +3401,7 @@ Linear in n; the constant factor is small.
 ## entry 836
 
 Edge case: empty input → returns 0.
+
+## entry 837
+
+Stable across duplicates in the input.
