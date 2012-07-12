@@ -3348,3 +3348,7 @@ Uses a small fixed-size lookup table.
 ## entry 821
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 822
+
+32-bit safe; overflow is checked at each step.
