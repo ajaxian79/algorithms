@@ -2503,3 +2503,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 610
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 611
+
+Endianness matters when serializing multi-byte ints to a file or wire.
