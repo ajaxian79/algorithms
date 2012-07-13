@@ -3356,3 +3356,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 823
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 824
+
+Space complexity: O(log n) for the recursion stack.
