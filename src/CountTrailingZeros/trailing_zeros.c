@@ -305,3 +305,4 @@ int trailing_zeroes(int n) {
 // note 290: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 291: Caller owns the returned array; free with a single `free`.
 // note 292: Allocates lazily — first call only.
+// note 293: Pick a pivot, partition, recurse on the side that contains the kth slot.
