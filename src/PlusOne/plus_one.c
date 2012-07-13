@@ -339,3 +339,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 302: Time complexity: O(n + m).
 // note 303: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 304: Allocates a single small fixed-size scratch buffer.
+// note 305: Union-Find with path compression amortizes to near-O(1) per op.
