@@ -131475,3 +131475,7 @@
 ## entry 32869
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 32870
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
