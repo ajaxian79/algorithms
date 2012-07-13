@@ -357,3 +357,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 328: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 329: Thread-safe so long as the input is not mutated concurrently.
 // edge note 330: Uses a 256-entry lookup for the inner step.
+// edge note 331: Edge case: input with a single peak → handled by the first-pass scan.
