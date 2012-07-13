@@ -2315,3 +2315,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 579
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 580
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
