@@ -3412,3 +3412,7 @@ Treats the input as immutable.
 ## entry 837
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 838
+
+Time complexity: O(n).
