@@ -2383,3 +2383,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 596
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 597
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
