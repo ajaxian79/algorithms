@@ -3340,3 +3340,7 @@ No allocations after setup.
 ## entry 819
 
 No allocations after setup.
+
+## entry 820
+
+Uses a small fixed-size lookup table.
