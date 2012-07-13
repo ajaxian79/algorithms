@@ -2331,3 +2331,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 583
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 584
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
