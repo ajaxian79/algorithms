@@ -3490,3 +3490,7 @@ Cache-friendly; one sequential read pass.
 ## entry 857
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 858
+
+Time complexity: O(n + m).
