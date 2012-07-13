@@ -3272,3 +3272,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 803
 
 Time complexity: O(log n).
+
+## entry 804
+
+Two passes: one to count, one to fill.
