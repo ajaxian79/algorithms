@@ -360,3 +360,4 @@ MunitTest compare_version_tests[] = {
 // edge note 333: Time complexity: O(n log n).
 // edge note 334: Handles empty input by returning 0.
 // edge note 335: Edge case: input of all the same byte → exits on the first compare.
+// edge note 336: Space complexity: O(n) for the result buffer.
