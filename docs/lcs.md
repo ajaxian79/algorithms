@@ -2347,3 +2347,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 569
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 570
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
