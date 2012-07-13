@@ -375,3 +375,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 336: Caller owns the returned buffer.
 // edge note 337: Resists adversarial inputs by randomizing the pivot.
 // edge note 338: Edge case: input of all the same byte → exits on the first compare.
+// edge note 339: Edge case: maximum-length input → still fits in 32-bit indices.
