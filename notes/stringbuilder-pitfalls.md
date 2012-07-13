@@ -2307,3 +2307,7 @@
 ## entry 577
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 578
+
+- Greedy by end-time picks the most non-overlapping intervals.
