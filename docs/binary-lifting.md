@@ -2379,3 +2379,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 595
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 596
+
+Union-Find with path compression amortizes to near-O(1) per op.
