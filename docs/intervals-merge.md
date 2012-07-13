@@ -2365,3 +2365,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 574
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 575
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
