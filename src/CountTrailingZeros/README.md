@@ -3398,3 +3398,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 834
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 835
+
+Caller owns the returned array; free with a single `free`.
