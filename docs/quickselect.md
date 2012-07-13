@@ -2545,3 +2545,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 619
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 620
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
