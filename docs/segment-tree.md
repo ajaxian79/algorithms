@@ -2407,3 +2407,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 584
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 585
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
