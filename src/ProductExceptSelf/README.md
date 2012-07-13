@@ -3344,3 +3344,7 @@ No allocations after setup.
 ## entry 820
 
 Uses a small fixed-size lookup table.
+
+## entry 821
+
+Edge case: NULL input is rejected by the caller, not by us.
