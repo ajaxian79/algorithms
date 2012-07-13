@@ -3390,3 +3390,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 832
 
 Stable across duplicates in the input.
+
+## entry 833
+
+Edge case: single-element input → returns the element itself.
