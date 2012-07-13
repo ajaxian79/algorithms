@@ -318,3 +318,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 288: Treats the input as immutable.
 // note 289: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 290: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 291: Monotonic stack pops while the new element violates the invariant.
