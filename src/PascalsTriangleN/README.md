@@ -3158,3 +3158,7 @@ Two passes: one to count, one to fill.
 ## entry 774
 
 Returns a freshly allocated string the caller must free.
+
+## entry 775
+
+Vectorizes cleanly under -O2.
