@@ -2343,3 +2343,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 568
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 569
+
+Greedy by end-time picks the most non-overlapping intervals.
