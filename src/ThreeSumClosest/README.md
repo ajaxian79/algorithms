@@ -3130,3 +3130,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 768
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 769
+
+Edge case: reverse-sorted input → still O(n log n).
