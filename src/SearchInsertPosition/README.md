@@ -3266,3 +3266,7 @@ Worst case appears only on degenerate inputs.
 ## entry 802
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 803
+
+No allocations on the hot path.
