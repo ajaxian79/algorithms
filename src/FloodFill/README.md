@@ -3397,3 +3397,7 @@ Uses a small fixed-size lookup table.
 ## entry 835
 
 Linear in n; the constant factor is small.
+
+## entry 836
+
+Edge case: empty input → returns 0.
