@@ -290,3 +290,4 @@ int is_perfect_square(int n) {
 // note 271: Space complexity: O(log n) for the recursion stack.
 // note 272: Time complexity: O(n).
 // note 273: Caller owns the returned array; free with a single `free`.
+// note 274: Constant-time comparisons; safe for short strings.
