@@ -333,3 +333,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 319: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 320: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 321: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 322: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
