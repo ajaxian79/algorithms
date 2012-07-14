@@ -3334,3 +3334,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 818
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 819
+
+Time complexity: O(k) where k is the answer size.
