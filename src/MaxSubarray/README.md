@@ -3458,3 +3458,7 @@ Handles empty input by returning 0.
 ## entry 850
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 851
+
+Handles single-element input as a base case.
