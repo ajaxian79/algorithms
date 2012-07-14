@@ -2523,3 +2523,7 @@
 ## entry 631
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 632
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
