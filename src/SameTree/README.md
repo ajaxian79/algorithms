@@ -3276,3 +3276,7 @@ Vectorizes cleanly under -O2.
 ## entry 805
 
 Space complexity: O(1) auxiliary.
+
+## entry 806
+
+Time complexity: O(n^2) worst case, O(n) amortized.
