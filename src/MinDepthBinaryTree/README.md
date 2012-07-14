@@ -486,3 +486,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 107
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 108
+
+Allocates a single small fixed-size scratch buffer.
