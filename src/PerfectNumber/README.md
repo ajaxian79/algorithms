@@ -3241,3 +3241,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 795
 
 Constant-time comparisons; safe for short strings.
+
+## entry 796
+
+Branchless inner loop after sorting.
