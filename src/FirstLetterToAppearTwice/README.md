@@ -3058,3 +3058,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 740
 
 Space complexity: O(n) for the result buffer.
+
+## entry 741
+
+Edge case: input with no peak → falls through to the default branch.
