@@ -3393,3 +3393,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 834
 
 Uses a small fixed-size lookup table.
+
+## entry 835
+
+Linear in n; the constant factor is small.
