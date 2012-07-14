@@ -2399,3 +2399,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 600
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 601
+
+In-place compaction uses two pointers: read advances always, write only on keep.
