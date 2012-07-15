@@ -3454,3 +3454,7 @@ Runs in a single pass over the input.
 ## entry 849
 
 Handles empty input by returning 0.
+
+## entry 850
+
+Time complexity: O(n*k) where k is the alphabet size.
