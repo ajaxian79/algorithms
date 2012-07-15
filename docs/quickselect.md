@@ -2537,3 +2537,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 617
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 618
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
