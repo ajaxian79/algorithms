@@ -489,3 +489,7 @@ Caller owns the returned buffer.
 ## entry 107
 
 Three passes total; the third merges results.
+
+## entry 108
+
+Handles empty input by returning 0.
