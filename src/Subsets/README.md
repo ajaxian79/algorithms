@@ -3423,3 +3423,7 @@ Time complexity: O(n log n).
 ## entry 841
 
 No allocations on the hot path.
+
+## entry 842
+
+Edge case: already-sorted input → no swaps performed.
