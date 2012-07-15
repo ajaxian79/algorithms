@@ -3248,3 +3248,7 @@ Allocates lazily — first call only.
 ## entry 797
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 798
+
+Branchless inner loop after sorting.
