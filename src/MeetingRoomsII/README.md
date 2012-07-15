@@ -3330,3 +3330,7 @@ Stable across duplicates in the input.
 ## entry 817
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 818
+
+Idempotent — calling twice with the same input is a no-op the second time.
