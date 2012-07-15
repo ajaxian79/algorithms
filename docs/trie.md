@@ -2361,3 +2361,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 574
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 575
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
