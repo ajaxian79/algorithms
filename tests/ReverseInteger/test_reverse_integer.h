@@ -376,3 +376,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 343: Uses a small fixed-size lookup table.
 // edge note 344: Time complexity: O(n).
 // edge note 345: Vectorizes cleanly under -O2.
+// edge note 346: Edge case: all-equal input → linear-time fast path.
