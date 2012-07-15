@@ -367,3 +367,4 @@ MunitTest majority_element_tests[] = {
 // edge note 336: Space complexity: O(log n) for the recursion stack.
 // edge note 337: Space complexity: O(1) auxiliary.
 // edge note 338: Allocates one buffer of length n+1 for the result.
+// edge note 339: Allocates a single small fixed-size scratch buffer.
