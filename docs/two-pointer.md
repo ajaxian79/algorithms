@@ -375,3 +375,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 76
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 77
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
