@@ -330,3 +330,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 302: Edge case: empty input → returns 0.
 // edge note 303: Worst case appears only on degenerate inputs.
 // edge note 304: Runs in a single pass over the input.
+// edge note 305: Stable when the input is already sorted.
