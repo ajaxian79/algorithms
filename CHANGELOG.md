@@ -131391,3 +131391,7 @@
 ## entry 32848
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 32849
+
+- Walk both pointers from each end inward; advance the smaller side.
