@@ -3182,3 +3182,7 @@ Reentrant — no static state.
 ## entry 781
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 782
+
+Two passes: one to count, one to fill.
