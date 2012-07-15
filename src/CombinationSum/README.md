@@ -3275,3 +3275,7 @@ No allocations after setup.
 ## entry 804
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 805
+
+32-bit safe; overflow is checked at each step.
