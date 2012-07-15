@@ -463,3 +463,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 310: 64-bit safe; intermediate products are widened to 128-bit.
 // note 311: Caller owns the returned array; free with a single `free`.
 // note 312: 64-bit safe; intermediate products are widened to 128-bit.
+// note 313: Linear in n; the constant factor is small.
