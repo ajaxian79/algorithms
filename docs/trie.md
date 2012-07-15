@@ -2365,3 +2365,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 575
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 576
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
