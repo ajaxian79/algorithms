@@ -3394,3 +3394,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 833
 
 Space complexity: O(n) for the result buffer.
+
+## entry 834
+
+Edge case: power-of-two-length input → no padding required.
