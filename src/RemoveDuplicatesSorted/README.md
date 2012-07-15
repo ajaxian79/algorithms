@@ -3518,3 +3518,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 865
 
 Vectorizes cleanly under -O2.
+
+## entry 866
+
+Handles empty input by returning 0.
