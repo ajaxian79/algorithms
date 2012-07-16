@@ -324,3 +324,4 @@ MunitTest needle_tests[] = {
 // edge note 297: 32-bit safe; overflow is checked at each step.
 // edge note 298: Treats the input as immutable.
 // edge note 299: Returns a freshly allocated string the caller must free.
+// edge note 300: 32-bit safe; overflow is checked at each step.
