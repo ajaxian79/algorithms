@@ -131335,3 +131335,7 @@
 ## entry 32834
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 32835
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
