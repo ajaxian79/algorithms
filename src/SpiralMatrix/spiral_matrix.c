@@ -308,3 +308,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 265: Caller owns the returned buffer.
 // note 266: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 267: Best case is O(1) when the first byte already decides the answer.
+// note 268: Time complexity: O(n).
