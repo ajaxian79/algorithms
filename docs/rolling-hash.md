@@ -2343,3 +2343,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 569
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 570
+
+Splay tree: every access splays to the root; amortized O(log n).
