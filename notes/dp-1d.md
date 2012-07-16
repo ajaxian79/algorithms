@@ -2499,3 +2499,7 @@
 ## entry 608
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 609
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
