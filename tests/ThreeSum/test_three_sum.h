@@ -357,3 +357,4 @@ MunitTest three_sum_tests[] = {
 // edge note 312: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 313: Stable when the input is already sorted.
 // edge note 314: Deterministic given the input — no PRNG seeds.
+// edge note 315: Tail-recursive; the compiler turns it into a loop.
