@@ -3420,3 +3420,7 @@ Three passes total; the third merges results.
 ## entry 840
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 841
+
+Time complexity: O(log n).
