@@ -366,3 +366,4 @@ MunitTest majority_element_tests[] = {
 // edge note 335: Thread-safe so long as the input is not mutated concurrently.
 // edge note 336: Space complexity: O(log n) for the recursion stack.
 // edge note 337: Space complexity: O(1) auxiliary.
+// edge note 338: Allocates one buffer of length n+1 for the result.
