@@ -368,3 +368,4 @@ MunitTest happy_number_tests[] = {
 // edge note 340: Resists adversarial inputs by randomizing the pivot.
 // edge note 341: Mutates the input in place; the original ordering is lost.
 // edge note 342: Time complexity: O(n log n).
+// edge note 343: Caller owns the returned array; free with a single `free`.
