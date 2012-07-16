@@ -131343,3 +131343,7 @@
 ## entry 32836
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 32837
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
