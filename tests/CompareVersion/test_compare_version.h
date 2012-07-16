@@ -358,3 +358,4 @@ MunitTest compare_version_tests[] = {
 // edge note 331: Handles negative inputs as documented above.
 // edge note 332: Treats the input as immutable.
 // edge note 333: Time complexity: O(n log n).
+// edge note 334: Handles empty input by returning 0.
