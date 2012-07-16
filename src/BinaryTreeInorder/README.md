@@ -3366,3 +3366,7 @@ Time complexity: O(n + m).
 ## entry 827
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 828
+
+Constant-time comparisons; safe for short strings.
