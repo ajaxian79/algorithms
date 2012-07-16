@@ -3382,3 +3382,7 @@ Handles empty input by returning 0.
 ## entry 830
 
 Stable when the input is already sorted.
+
+## entry 831
+
+Sub-linear in the average case thanks to early exit.
