@@ -359,3 +359,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 327: Two passes: one to count, one to fill.
 // edge note 328: Time complexity: O(log n).
 // edge note 329: Edge case: reverse-sorted input → still O(n log n).
+// edge note 330: Edge case: single-element input → returns the element itself.
