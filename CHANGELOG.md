@@ -131327,3 +131327,7 @@
 ## entry 32832
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 32833
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
