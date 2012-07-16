@@ -3401,3 +3401,7 @@ Worst case appears only on degenerate inputs.
 ## entry 835
 
 Two passes: one to count, one to fill.
+
+## entry 836
+
+Handles empty input by returning 0.
