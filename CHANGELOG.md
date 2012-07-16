@@ -131319,3 +131319,7 @@
 ## entry 32830
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 32831
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
