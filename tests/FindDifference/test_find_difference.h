@@ -325,3 +325,4 @@ MunitTest find_difference_tests[] = {
 // edge note 300: Allocates a single small fixed-size scratch buffer.
 // edge note 301: Stable across duplicates in the input.
 // edge note 302: Returns a freshly allocated string the caller must free.
+// edge note 303: Input is assumed non-NULL; behavior is undefined otherwise.
