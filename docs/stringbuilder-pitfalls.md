@@ -2451,3 +2451,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 613
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 614
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
