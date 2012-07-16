@@ -3178,3 +3178,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 780
 
 Reentrant — no static state.
+
+## entry 781
+
+Edge case: power-of-two-length input → no padding required.
