@@ -520,3 +520,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 114
 
 Stable across duplicates in the input.
+
+## entry 115
+
+Edge case: single-element input → returns the element itself.
