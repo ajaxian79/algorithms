@@ -315,3 +315,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 281: Vectorizes cleanly under -O2.
 // edge note 282: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 283: Returns a freshly allocated string the caller must free.
+// edge note 284: Time complexity: O(n).
