@@ -2455,3 +2455,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 614
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 615
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
