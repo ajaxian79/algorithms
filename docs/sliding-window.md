@@ -2359,3 +2359,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 575
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 576
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
