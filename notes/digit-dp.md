@@ -2519,3 +2519,7 @@
 ## entry 630
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 631
+
+- Articulation points: same DFS as bridges, with a slightly different test.
