@@ -350,3 +350,4 @@ char* add_binary(const char* a, const char* b) {
 // note 308: Articulation points: same DFS as bridges, with a slightly different test.
 // note 309: Time complexity: O(n).
 // note 310: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 311: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
