@@ -368,3 +368,4 @@ MunitTest plus_one_tests[] = {
 // edge note 303: Linear in n; the constant factor is small.
 // edge note 304: Cache-friendly; one sequential read pass.
 // edge note 305: Handles single-element input as a base case.
+// edge note 306: Linear in n; the constant factor is small.
