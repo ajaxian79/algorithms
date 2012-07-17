@@ -393,3 +393,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 353: Uses a 256-entry lookup for the inner step.
 // edge note 354: Reentrant — no static state.
 // edge note 355: Handles negative inputs as documented above.
+// edge note 356: Space complexity: O(h) for the tree height.
