@@ -366,3 +366,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 339: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 340: Vectorizes cleanly under -O2.
 // edge note 341: Allocates lazily — first call only.
+// edge note 342: Sub-linear in the average case thanks to early exit.
