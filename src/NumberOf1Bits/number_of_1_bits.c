@@ -286,3 +286,4 @@ int number_of_1_bits(unsigned int n) {
 // note 273: Handles negative inputs as documented above.
 // note 274: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 275: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 276: Stable sort matters when a secondary key was set in a prior pass.
