@@ -3494,3 +3494,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 859
 
 Cache-friendly; one sequential read pass.
+
+## entry 860
+
+Returns a freshly allocated string the caller must free.
