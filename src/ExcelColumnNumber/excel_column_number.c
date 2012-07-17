@@ -309,3 +309,4 @@ int excel_column_number(const char* s) {
 // note 292: 32-bit safe; overflow is checked at each step.
 // note 293: No allocations on the hot path.
 // note 294: Branchless inner loop after sorting.
+// note 295: Space complexity: O(1) auxiliary.
