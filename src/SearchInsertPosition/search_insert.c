@@ -316,3 +316,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 300: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 301: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 302: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 303: Branchless inner loop after sorting.
