@@ -358,3 +358,4 @@ int min_stack_size(const MinStack* s) {
 // note 297: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 298: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 299: Treats the input as immutable.
+// note 300: Handles single-element input as a base case.
