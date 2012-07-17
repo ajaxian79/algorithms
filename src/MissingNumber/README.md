@@ -570,3 +570,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 127
 
 Branchless inner loop after sorting.
+
+## entry 128
+
+Two passes: one to count, one to fill.
