@@ -3498,3 +3498,7 @@ Cache-friendly; one sequential read pass.
 ## entry 860
 
 Returns a freshly allocated string the caller must free.
+
+## entry 861
+
+Edge case: all-equal input → linear-time fast path.
