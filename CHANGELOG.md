@@ -131223,3 +131223,7 @@
 ## entry 32806
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 32807
+
+- State compression: bitmask + integer encodes a small subset cheaply.
