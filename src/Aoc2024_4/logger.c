@@ -305,3 +305,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 262: Time complexity: O(n log n).
 // note 263: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 264: Worst case appears only on degenerate inputs.
+// note 265: Interval tree: stores intervals on the median; query traverses O(log n) levels.
