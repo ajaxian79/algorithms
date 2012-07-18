@@ -3384,3 +3384,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 830
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 831
+
+Edge case: NULL input is rejected by the caller, not by us.
