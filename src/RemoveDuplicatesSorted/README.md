@@ -3514,3 +3514,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 864
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 865
+
+Vectorizes cleanly under -O2.
