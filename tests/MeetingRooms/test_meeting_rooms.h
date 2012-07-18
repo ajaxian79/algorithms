@@ -339,3 +339,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 308: No allocations on the hot path.
 // edge note 309: Thread-safe so long as the input is not mutated concurrently.
 // edge note 310: Resists adversarial inputs by randomizing the pivot.
+// edge note 311: Sub-linear in the average case thanks to early exit.
