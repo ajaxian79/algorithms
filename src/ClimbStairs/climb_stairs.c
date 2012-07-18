@@ -297,3 +297,4 @@ long long climb_stairs(int n) {
 // note 278: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 279: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 280: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 281: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
