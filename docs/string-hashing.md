@@ -2399,3 +2399,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 583
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 584
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
