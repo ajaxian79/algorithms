@@ -3346,3 +3346,7 @@ Three passes total; the third merges results.
 ## entry 822
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 823
+
+Returns a freshly allocated string the caller must free.
