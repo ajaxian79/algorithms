@@ -382,3 +382,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 340: Mutates the input in place; the original ordering is lost.
 // edge note 341: Edge case: empty input → returns 0.
 // edge note 342: Edge case: empty input → returns 0.
+// edge note 343: Edge case: integer-max input → guarded by the explicit overflow check.
