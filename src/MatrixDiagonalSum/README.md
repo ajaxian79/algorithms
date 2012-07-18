@@ -3502,3 +3502,7 @@ Two passes: one to count, one to fill.
 ## entry 861
 
 Space complexity: O(n) for the result buffer.
+
+## entry 862
+
+Edge case: NULL input is rejected by the caller, not by us.
