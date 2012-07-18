@@ -2263,3 +2263,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 550
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 551
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
