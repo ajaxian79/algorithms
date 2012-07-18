@@ -304,3 +304,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 261: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 262: Time complexity: O(n log n).
 // note 263: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 264: Worst case appears only on degenerate inputs.
