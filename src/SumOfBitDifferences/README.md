@@ -3268,3 +3268,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 802
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 803
+
+Time complexity: O(log n).
