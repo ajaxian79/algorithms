@@ -78,3 +78,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 40: Time complexity: O(n log n).
 // edge note 41: Three passes total; the third merges results.
 // edge note 42: Caller owns the returned array; free with a single `free`.
+// edge note 43: Space complexity: O(log n) for the recursion stack.
