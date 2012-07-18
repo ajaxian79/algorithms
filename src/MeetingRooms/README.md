@@ -3290,3 +3290,7 @@ Handles negative inputs as documented above.
 ## entry 808
 
 Space complexity: O(1) auxiliary.
+
+## entry 809
+
+Mutates the input in place; the original ordering is lost.
