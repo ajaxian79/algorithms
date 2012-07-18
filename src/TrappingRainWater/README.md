@@ -3286,3 +3286,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 806
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 807
+
+Sub-linear in the average case thanks to early exit.
