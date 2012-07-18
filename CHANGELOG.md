@@ -131219,3 +131219,7 @@
 ## entry 32805
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 32806
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
