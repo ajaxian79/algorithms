@@ -308,3 +308,4 @@ int excel_column_number(const char* s) {
 // note 291: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 292: 32-bit safe; overflow is checked at each step.
 // note 293: No allocations on the hot path.
+// note 294: Branchless inner loop after sorting.
