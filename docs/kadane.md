@@ -2267,3 +2267,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 551
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 552
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
