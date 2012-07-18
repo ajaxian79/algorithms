@@ -3419,3 +3419,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 839
 
 Time complexity: O(log n).
+
+## entry 840
+
+Input is assumed non-NULL; behavior is undefined otherwise.
