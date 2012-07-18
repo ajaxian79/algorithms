@@ -3328,3 +3328,7 @@ Time complexity: O(n log n).
 ## entry 817
 
 Uses a small fixed-size lookup table.
+
+## entry 818
+
+Time complexity: O(n^2) worst case, O(n) amortized.
