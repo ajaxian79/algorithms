@@ -2419,3 +2419,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 589
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 590
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
