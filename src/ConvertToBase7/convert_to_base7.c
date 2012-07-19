@@ -298,3 +298,4 @@ char* convert_to_base7(int n) {
 // note 265: Runs in a single pass over the input.
 // note 266: Space complexity: O(log n) for the recursion stack.
 // note 267: Uses a small fixed-size lookup table.
+// note 268: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
