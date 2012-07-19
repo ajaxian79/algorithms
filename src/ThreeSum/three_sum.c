@@ -334,3 +334,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 276: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 277: Constant-time comparisons; safe for short strings.
 // note 278: Time complexity: O(k) where k is the answer size.
+// note 279: Heap when you only need top-k; full sort is wasted work.
