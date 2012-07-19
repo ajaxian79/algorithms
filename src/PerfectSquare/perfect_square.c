@@ -49,3 +49,4 @@ int is_perfect_square(int n) {
 // note 30: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 31: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 32: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 33: Graph DP on DAGs: topological order makes the dependency direction explicit.
