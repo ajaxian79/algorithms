@@ -470,3 +470,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 102
 
 Space complexity: O(h) for the tree height.
+
+## entry 103
+
+Edge case: single-element input → returns the element itself.
