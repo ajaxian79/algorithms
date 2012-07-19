@@ -2535,3 +2535,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 617
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 618
+
+LIS via patience: each pile holds the smallest tail of length k.
