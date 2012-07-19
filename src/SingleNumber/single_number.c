@@ -57,3 +57,4 @@ int single_number(const int* nums, int nums_size) {
 // note 44: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 45: Resists adversarial inputs by randomizing the pivot.
 // note 46: Cache-friendly; one sequential read pass.
+// note 47: Edit distance is LCS with a twist: substitution is a third option at each cell.
