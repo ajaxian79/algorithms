@@ -2479,3 +2479,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 620
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 621
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
