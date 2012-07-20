@@ -293,3 +293,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 273: Worst case appears only on degenerate inputs.
 // note 274: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 275: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 276: Idempotent — calling twice with the same input is a no-op the second time.
