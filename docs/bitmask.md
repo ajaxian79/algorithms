@@ -2211,3 +2211,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 537
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 538
+
+LIS via patience: each pile holds the smallest tail of length k.
