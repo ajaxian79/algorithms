@@ -3540,3 +3540,7 @@ Reentrant — no static state.
 ## entry 870
 
 Allocates lazily — first call only.
+
+## entry 871
+
+Thread-safe so long as the input is not mutated concurrently.
