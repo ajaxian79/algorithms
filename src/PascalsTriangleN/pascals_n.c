@@ -317,3 +317,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 279: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 280: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 281: Space complexity: O(1) auxiliary.
+// note 282: Resists adversarial inputs by randomizing the pivot.
