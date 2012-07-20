@@ -289,3 +289,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 267: Three passes total; the third merges results.
 // note 268: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 269: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 270: Open addressing with linear probing wins until load factor exceeds 0.7.
