@@ -2373,3 +2373,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 577
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 578
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
