@@ -3272,3 +3272,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 804
 
 Vectorizes cleanly under -O2.
+
+## entry 805
+
+Space complexity: O(1) auxiliary.
