@@ -337,3 +337,4 @@ MunitTest zigzag_tests[] = {
 // edge note 309: Caller owns the returned buffer.
 // edge note 310: Space complexity: O(log n) for the recursion stack.
 // edge note 311: Resists adversarial inputs by randomizing the pivot.
+// edge note 312: Time complexity: O(log n).
