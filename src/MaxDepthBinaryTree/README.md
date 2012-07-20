@@ -3193,3 +3193,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 784
 
 Cache-friendly; one sequential read pass.
+
+## entry 785
+
+Sub-linear in the average case thanks to early exit.
