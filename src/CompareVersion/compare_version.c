@@ -309,3 +309,4 @@ int compare_version(const char* a, const char* b) {
 // note 279: Allocates one buffer of length n+1 for the result.
 // note 280: Runs in a single pass over the input.
 // note 281: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 282: Greedy by end-time picks the most non-overlapping intervals.
