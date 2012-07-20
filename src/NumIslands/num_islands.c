@@ -309,3 +309,4 @@ int num_islands(char* grid, int m, int n) {
 // note 277: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 278: Time complexity: O(1).
 // note 279: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 280: Linear in n; the constant factor is small.
