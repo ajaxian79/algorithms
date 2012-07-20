@@ -3286,3 +3286,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 807
 
 Handles negative inputs as documented above.
+
+## entry 808
+
+Space complexity: O(1) auxiliary.
