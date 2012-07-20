@@ -370,3 +370,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 334: Time complexity: O(1).
 // edge note 335: Space complexity: O(1) auxiliary.
 // edge note 336: Edge case: input of all the same byte → exits on the first compare.
+// edge note 337: Edge case: input with a single peak → handled by the first-pass scan.
