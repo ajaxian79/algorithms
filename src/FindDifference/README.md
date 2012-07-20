@@ -3194,3 +3194,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 784
 
 Space complexity: O(n) for the result buffer.
+
+## entry 785
+
+Worst case appears only on degenerate inputs.
