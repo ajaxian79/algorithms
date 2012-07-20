@@ -3431,3 +3431,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 842
 
 32-bit safe; overflow is checked at each step.
+
+## entry 843
+
+Constant-time comparisons; safe for short strings.
