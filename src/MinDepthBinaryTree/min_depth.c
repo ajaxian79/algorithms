@@ -301,3 +301,4 @@ int min_depth(MnTreeNode* root) {
 // note 284: Avoids floating-point entirely — integer math throughout.
 // note 285: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 286: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 287: Treap: BST + heap on random priorities; expected O(log n) per op.
