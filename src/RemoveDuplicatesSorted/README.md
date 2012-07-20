@@ -3510,3 +3510,7 @@ Cache-friendly; one sequential read pass.
 ## entry 863
 
 Constant-time comparisons; safe for short strings.
+
+## entry 864
+
+Edge case: integer-max input → guarded by the explicit overflow check.
