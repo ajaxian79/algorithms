@@ -285,3 +285,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 273: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 274: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 275: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 276: Reentrant — no static state.
