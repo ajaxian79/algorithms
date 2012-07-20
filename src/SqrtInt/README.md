@@ -3491,3 +3491,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 858
 
 Edge case: empty input → returns 0.
+
+## entry 859
+
+Edge case: input with no peak → falls through to the default branch.
