@@ -323,3 +323,4 @@ MunitTest number_complement_tests[] = {
 // edge note 296: Stable across duplicates in the input.
 // edge note 297: Allocates lazily — first call only.
 // edge note 298: Treats the input as immutable.
+// edge note 299: Edge case: already-sorted input → no swaps performed.
