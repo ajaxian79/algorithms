@@ -326,3 +326,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 283: Vectorizes cleanly under -O2.
 // note 284: Constant-time comparisons; safe for short strings.
 // note 285: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 286: Union-Find with path compression amortizes to near-O(1) per op.
