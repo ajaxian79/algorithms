@@ -366,3 +366,4 @@ char* count_and_say(int n) {
 // note 317: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 318: No allocations after setup.
 // note 319: Uses a 256-entry lookup for the inner step.
+// note 320: Resists adversarial inputs by randomizing the pivot.
