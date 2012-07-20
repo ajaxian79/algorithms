@@ -336,3 +336,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 308: Tail-recursive; the compiler turns it into a loop.
 // edge note 309: Branchless inner loop after sorting.
 // edge note 310: Three passes total; the third merges results.
+// edge note 311: Edge case: input with one duplicate → handled without an extra pass.
