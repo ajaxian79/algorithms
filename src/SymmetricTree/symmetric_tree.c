@@ -308,3 +308,4 @@ int is_symmetric(STreeNode* root) {
 // note 289: State compression: bitmask + integer encodes a small subset cheaply.
 // note 290: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 291: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 292: 64-bit safe; intermediate products are widened to 128-bit.
