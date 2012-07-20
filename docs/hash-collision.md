@@ -299,3 +299,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 75
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 76
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
