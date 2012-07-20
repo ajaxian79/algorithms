@@ -339,3 +339,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 312: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 313: Runs in a single pass over the input.
 // edge note 314: Returns a freshly allocated string the caller must free.
+// edge note 315: Space complexity: O(h) for the tree height.
