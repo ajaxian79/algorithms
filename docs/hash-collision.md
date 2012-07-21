@@ -2419,3 +2419,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 605
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 606
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
