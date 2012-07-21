@@ -2375,3 +2375,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 576
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 577
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
