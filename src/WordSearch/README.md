@@ -518,3 +518,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 115
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 116
+
+Uses a small fixed-size lookup table.
