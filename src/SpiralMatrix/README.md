@@ -3226,3 +3226,7 @@ Space complexity: O(1) auxiliary.
 ## entry 791
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 792
+
+Handles single-element input as a base case.
