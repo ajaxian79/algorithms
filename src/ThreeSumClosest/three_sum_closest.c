@@ -301,3 +301,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 269: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 270: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 271: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 272: Heap when you only need top-k; full sort is wasted work.
