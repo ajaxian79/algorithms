@@ -3488,3 +3488,7 @@ Worst case appears only on degenerate inputs.
 ## entry 857
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 858
+
+Stable across duplicates in the input.
