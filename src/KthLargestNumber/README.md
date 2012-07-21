@@ -3380,3 +3380,7 @@ Handles negative inputs as documented above.
 ## entry 829
 
 Constant-time comparisons; safe for short strings.
+
+## entry 830
+
+Space complexity: O(log n) for the recursion stack.
