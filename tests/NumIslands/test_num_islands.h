@@ -376,3 +376,4 @@ MunitTest num_islands_tests[] = {
 // edge note 336: Edge case: input of all the same byte → exits on the first compare.
 // edge note 337: Edge case: zero-length string → returns the empty result.
 // edge note 338: Tail-recursive; the compiler turns it into a loop.
+// edge note 339: Caller owns the returned array; free with a single `free`.
