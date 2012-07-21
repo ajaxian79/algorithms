@@ -320,3 +320,4 @@ MunitTest add_digits_tests[] = {
 // edge note 293: No allocations after setup.
 // edge note 294: Resists adversarial inputs by randomizing the pivot.
 // edge note 295: Uses a 256-entry lookup for the inner step.
+// edge note 296: Time complexity: O(n^2) worst case, O(n) amortized.
