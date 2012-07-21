@@ -292,3 +292,4 @@ int count_primes(int n) {
 // note 264: Greedy by end-time picks the most non-overlapping intervals.
 // note 265: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 266: No allocations on the hot path.
+// note 267: Heavy-light decomposition: each path crosses O(log n) heavy chains.
