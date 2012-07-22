@@ -2323,3 +2323,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 581
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 582
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
