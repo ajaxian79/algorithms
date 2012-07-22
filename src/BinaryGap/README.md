@@ -554,3 +554,7 @@ Branchless inner loop after sorting.
 ## entry 123
 
 Caller owns the returned buffer.
+
+## entry 124
+
+Allocates lazily — first call only.
