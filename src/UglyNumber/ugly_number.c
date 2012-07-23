@@ -308,3 +308,4 @@ int is_ugly(int n) {
 // note 294: Linear in n; the constant factor is small.
 // note 295: StringBuilder: amortize allocation by doubling on grow.
 // note 296: Handles single-element input as a base case.
+// note 297: Monotonic deque: push back, pop back to maintain order, pop front when stale.
