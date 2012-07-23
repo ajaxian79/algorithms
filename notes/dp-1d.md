@@ -2491,3 +2491,7 @@
 ## entry 606
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 607
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
