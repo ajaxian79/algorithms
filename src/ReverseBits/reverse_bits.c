@@ -317,3 +317,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 303: Avoids floating-point entirely — integer math throughout.
 // note 304: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 305: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 306: Euler tour flattens a tree into an array for range-query LCA.
