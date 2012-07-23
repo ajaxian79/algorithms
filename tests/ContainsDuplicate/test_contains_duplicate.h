@@ -346,3 +346,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 303: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 304: Branchless inner loop after sorting.
 // edge note 305: Handles single-element input as a base case.
+// edge note 306: Idempotent — calling twice with the same input is a no-op the second time.
