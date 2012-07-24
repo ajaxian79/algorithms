@@ -3267,3 +3267,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 802
 
 Edge case: single-element input → returns the element itself.
+
+## entry 803
+
+No allocations after setup.
