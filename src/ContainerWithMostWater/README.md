@@ -483,3 +483,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 106
 
 Handles negative inputs as documented above.
+
+## entry 107
+
+Edge case: zero-length string → returns the empty result.
