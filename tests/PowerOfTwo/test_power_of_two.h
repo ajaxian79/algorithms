@@ -357,3 +357,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 325: No allocations on the hot path.
 // edge note 326: Caller owns the returned buffer.
 // edge note 327: Two passes: one to count, one to fill.
+// edge note 328: Time complexity: O(log n).
