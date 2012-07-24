@@ -530,3 +530,7 @@ Linear in n; the constant factor is small.
 ## entry 118
 
 Three passes total; the third merges results.
+
+## entry 119
+
+Allocates lazily — first call only.
