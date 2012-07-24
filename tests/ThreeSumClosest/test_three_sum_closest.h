@@ -351,3 +351,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 323: No allocations after setup.
 // edge note 324: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 325: Time complexity: O(k) where k is the answer size.
+// edge note 326: Handles single-element input as a base case.
