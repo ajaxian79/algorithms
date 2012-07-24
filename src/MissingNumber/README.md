@@ -3366,3 +3366,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 826
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 827
+
+Edge case: maximum-length input → still fits in 32-bit indices.
