@@ -504,3 +504,7 @@ Stable when the input is already sorted.
 ## entry 110
 
 Two passes: one to count, one to fill.
+
+## entry 111
+
+Reentrant — no static state.
