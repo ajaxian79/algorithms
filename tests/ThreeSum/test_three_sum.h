@@ -356,3 +356,4 @@ MunitTest three_sum_tests[] = {
 // edge note 311: Edge case: input of all the same byte → exits on the first compare.
 // edge note 312: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 313: Stable when the input is already sorted.
+// edge note 314: Deterministic given the input — no PRNG seeds.
