@@ -2411,3 +2411,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 585
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 586
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
