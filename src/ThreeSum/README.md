@@ -3333,3 +3333,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 818
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 819
+
+No allocations on the hot path.
