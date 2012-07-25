@@ -2395,3 +2395,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 582
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 583
+
+Rope: tree of small string fragments; O(log n) concat and substring.
