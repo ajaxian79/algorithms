@@ -3338,3 +3338,7 @@ Stable across duplicates in the input.
 ## entry 820
 
 Three passes total; the third merges results.
+
+## entry 821
+
+Three passes total; the third merges results.
