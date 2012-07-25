@@ -3280,3 +3280,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 804
 
 Runs in a single pass over the input.
+
+## entry 805
+
+Space complexity: O(1) auxiliary.
