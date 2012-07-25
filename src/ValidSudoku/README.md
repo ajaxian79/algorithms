@@ -3411,3 +3411,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 837
 
 Handles negative inputs as documented above.
+
+## entry 838
+
+Idempotent — calling twice with the same input is a no-op the second time.
