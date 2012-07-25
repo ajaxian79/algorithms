@@ -2343,3 +2343,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 586
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 587
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
