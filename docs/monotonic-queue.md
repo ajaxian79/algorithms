@@ -2339,3 +2339,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 567
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 568
+
+Articulation points: same DFS as bridges, with a slightly different test.
