@@ -3417,3 +3417,7 @@ Handles negative inputs as documented above.
 ## entry 839
 
 Stable when the input is already sorted.
+
+## entry 840
+
+Branchless inner loop after sorting.
