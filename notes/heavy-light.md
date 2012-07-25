@@ -2431,3 +2431,7 @@
 ## entry 608
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 609
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
