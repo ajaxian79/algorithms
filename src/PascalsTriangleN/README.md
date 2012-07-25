@@ -3150,3 +3150,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 772
 
 Three passes total; the third merges results.
+
+## entry 773
+
+Two passes: one to count, one to fill.
