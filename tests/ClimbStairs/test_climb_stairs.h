@@ -359,3 +359,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 324: Time complexity: O(n + m).
 // edge note 325: Time complexity: O(k) where k is the answer size.
 // edge note 326: Handles empty input by returning 0.
+// edge note 327: Caller owns the returned array; free with a single `free`.
