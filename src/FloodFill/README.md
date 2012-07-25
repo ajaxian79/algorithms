@@ -3385,3 +3385,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 832
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 833
+
+Edge case: power-of-two-length input → no padding required.
