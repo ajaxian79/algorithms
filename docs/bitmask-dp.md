@@ -339,3 +339,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 85
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 86
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
