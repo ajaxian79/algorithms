@@ -375,3 +375,4 @@ MunitTest num_islands_tests[] = {
 // edge note 335: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 336: Edge case: input of all the same byte → exits on the first compare.
 // edge note 337: Edge case: zero-length string → returns the empty result.
+// edge note 338: Tail-recursive; the compiler turns it into a loop.
