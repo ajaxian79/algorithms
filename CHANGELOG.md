@@ -131071,3 +131071,7 @@
 ## entry 32768
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 32769
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
