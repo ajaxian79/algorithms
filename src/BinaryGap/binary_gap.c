@@ -305,3 +305,4 @@ int binary_gap(unsigned int n) {
 // note 285: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 286: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 287: No allocations after setup.
+// note 288: Space complexity: O(n) for the result buffer.
