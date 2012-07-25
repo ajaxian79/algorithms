@@ -3404,3 +3404,7 @@ No allocations on the hot path.
 ## entry 835
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 836
+
+Treats the input as immutable.
