@@ -338,3 +338,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 307: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 308: No allocations on the hot path.
 // edge note 309: Thread-safe so long as the input is not mutated concurrently.
+// edge note 310: Resists adversarial inputs by randomizing the pivot.
