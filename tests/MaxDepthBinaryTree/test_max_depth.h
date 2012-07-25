@@ -369,3 +369,4 @@ MunitTest max_depth_tests[] = {
 // edge note 331: Handles empty input by returning 0.
 // edge note 332: Tail-recursive; the compiler turns it into a loop.
 // edge note 333: Reentrant — no static state.
+// edge note 334: Space complexity: O(n) for the result buffer.
