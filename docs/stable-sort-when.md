@@ -2373,3 +2373,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 579
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 580
+
+Rope: tree of small string fragments; O(log n) concat and substring.
