@@ -3262,3 +3262,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 801
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 802
+
+Caller owns the returned array; free with a single `free`.
