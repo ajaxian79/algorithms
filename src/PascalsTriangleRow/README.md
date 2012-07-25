@@ -3490,3 +3490,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 858
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 859
+
+Cache-friendly; one sequential read pass.
