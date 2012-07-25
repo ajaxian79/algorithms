@@ -3266,3 +3266,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 802
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 803
+
+Edge case: already-sorted input → no swaps performed.
