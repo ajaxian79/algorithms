@@ -2361,3 +2361,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 573
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 574
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
