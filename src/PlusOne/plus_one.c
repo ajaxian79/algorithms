@@ -338,3 +338,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 301: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 302: Time complexity: O(n + m).
 // note 303: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 304: Allocates a single small fixed-size scratch buffer.
