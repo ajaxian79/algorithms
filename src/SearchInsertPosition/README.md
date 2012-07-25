@@ -3258,3 +3258,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 800
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 801
+
+Worst case appears only on degenerate inputs.
