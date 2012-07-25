@@ -3190,3 +3190,7 @@ Edge case: empty input → returns 0.
 ## entry 783
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 784
+
+Space complexity: O(n) for the result buffer.
