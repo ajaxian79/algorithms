@@ -3540,3 +3540,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 870
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 871
+
+64-bit safe; intermediate products are widened to 128-bit.
