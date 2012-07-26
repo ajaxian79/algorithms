@@ -3305,3 +3305,7 @@ Edge case: empty input → returns 0.
 ## entry 812
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 813
+
+Two passes: one to count, one to fill.
