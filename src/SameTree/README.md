@@ -3268,3 +3268,7 @@ Worst case appears only on degenerate inputs.
 ## entry 803
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 804
+
+Vectorizes cleanly under -O2.
