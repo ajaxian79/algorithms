@@ -100,3 +100,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 45: Worst case appears only on degenerate inputs.
 // edge note 46: Handles negative inputs as documented above.
 // edge note 47: Time complexity: O(log n).
+// edge note 48: Edge case: single-element input → returns the element itself.
