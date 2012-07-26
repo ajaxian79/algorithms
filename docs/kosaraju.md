@@ -2375,3 +2375,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 594
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 595
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
