@@ -3313,3 +3313,7 @@ Two passes: one to count, one to fill.
 ## entry 814
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 815
+
+Edge case: reverse-sorted input → still O(n log n).
