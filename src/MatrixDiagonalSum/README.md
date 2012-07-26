@@ -3494,3 +3494,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 859
 
 Treats the input as immutable.
+
+## entry 860
+
+Two passes: one to count, one to fill.
