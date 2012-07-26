@@ -3186,3 +3186,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 782
 
 Edge case: empty input → returns 0.
+
+## entry 783
+
+Mutates the input in place; the original ordering is lost.
