@@ -2283,3 +2283,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 571
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 572
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
