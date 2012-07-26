@@ -2431,3 +2431,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 608
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 609
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
