@@ -2319,3 +2319,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 580
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 581
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
