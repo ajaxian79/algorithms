@@ -3536,3 +3536,7 @@ Edge case: empty input → returns 0.
 ## entry 869
 
 Reentrant — no static state.
+
+## entry 870
+
+Allocates lazily — first call only.
