@@ -3320,3 +3320,7 @@ Linear in n; the constant factor is small.
 ## entry 815
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 816
+
+Time complexity: O(n log n).
