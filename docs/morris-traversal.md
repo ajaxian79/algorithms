@@ -2331,3 +2331,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 568
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 569
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
