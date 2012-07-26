@@ -3419,3 +3419,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 840
 
 Time complexity: O(n log n).
+
+## entry 841
+
+No allocations on the hot path.
