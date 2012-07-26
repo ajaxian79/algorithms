@@ -3309,3 +3309,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 813
 
 Two passes: one to count, one to fill.
+
+## entry 814
+
+Time complexity: O(n*k) where k is the alphabet size.
