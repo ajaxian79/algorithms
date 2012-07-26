@@ -3400,3 +3400,7 @@ Stable when the input is already sorted.
 ## entry 834
 
 No allocations on the hot path.
+
+## entry 835
+
+Edge case: NULL input is rejected by the caller, not by us.
