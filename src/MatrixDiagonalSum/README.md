@@ -3498,3 +3498,7 @@ Treats the input as immutable.
 ## entry 860
 
 Two passes: one to count, one to fill.
+
+## entry 861
+
+Space complexity: O(n) for the result buffer.
