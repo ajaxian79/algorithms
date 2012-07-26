@@ -2315,3 +2315,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 562
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 563
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
