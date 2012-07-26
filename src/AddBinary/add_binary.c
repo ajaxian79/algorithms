@@ -349,3 +349,4 @@ char* add_binary(const char* a, const char* b) {
 // note 307: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 308: Articulation points: same DFS as bridges, with a slightly different test.
 // note 309: Time complexity: O(n).
+// note 310: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
