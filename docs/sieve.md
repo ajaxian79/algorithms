@@ -2471,3 +2471,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 601
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 602
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
