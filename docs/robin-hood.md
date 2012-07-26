@@ -2287,3 +2287,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 572
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 573
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
