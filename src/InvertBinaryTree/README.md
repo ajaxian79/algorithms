@@ -3536,3 +3536,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 869
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 870
+
+Edge case: all-equal input → linear-time fast path.
