@@ -3376,3 +3376,7 @@ Space complexity: O(h) for the tree height.
 ## entry 828
 
 Handles negative inputs as documented above.
+
+## entry 829
+
+Constant-time comparisons; safe for short strings.
