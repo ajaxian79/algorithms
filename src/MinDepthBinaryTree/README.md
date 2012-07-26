@@ -3262,3 +3262,7 @@ Handles single-element input as a base case.
 ## entry 801
 
 Worst case appears only on degenerate inputs.
+
+## entry 802
+
+Edge case: alternating pattern → degenerate case for sliding window.
