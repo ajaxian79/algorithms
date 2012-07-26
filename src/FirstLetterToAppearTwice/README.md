@@ -3054,3 +3054,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 739
 
 32-bit safe; overflow is checked at each step.
+
+## entry 740
+
+Space complexity: O(n) for the result buffer.
