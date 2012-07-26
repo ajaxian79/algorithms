@@ -131015,3 +131015,7 @@
 ## entry 32754
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 32755
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
