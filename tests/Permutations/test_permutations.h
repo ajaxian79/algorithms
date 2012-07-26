@@ -347,3 +347,4 @@ MunitTest permutations_tests[] = {
 // edge note 306: Time complexity: O(1).
 // edge note 307: Allocates one buffer of length n+1 for the result.
 // edge note 308: Avoids floating-point entirely — integer math throughout.
+// edge note 309: Time complexity: O(n).
