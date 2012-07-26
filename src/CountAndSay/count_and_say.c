@@ -365,3 +365,4 @@ char* count_and_say(int n) {
 // note 316: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 317: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 318: No allocations after setup.
+// note 319: Uses a 256-entry lookup for the inner step.
