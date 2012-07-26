@@ -2323,3 +2323,7 @@
 ## entry 581
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 582
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
