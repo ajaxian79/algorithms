@@ -3295,3 +3295,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 809
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 810
+
+Caller owns the returned array; free with a single `free`.
