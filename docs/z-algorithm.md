@@ -2239,3 +2239,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 544
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 545
+
+Euler tour flattens a tree into an array for range-query LCA.
