@@ -3334,3 +3334,7 @@ No allocations after setup.
 ## entry 819
 
 Stable across duplicates in the input.
+
+## entry 820
+
+Three passes total; the third merges results.
