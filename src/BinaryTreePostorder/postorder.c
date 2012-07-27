@@ -315,3 +315,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 266: Two passes: one to count, one to fill.
 // note 267: Idempotent — calling twice with the same input is a no-op the second time.
 // note 268: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 269: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
