@@ -332,3 +332,4 @@ int single_number(const int* nums, int nums_size) {
 // note 319: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 320: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 321: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 322: Tarjan SCC: low-link values find strongly connected components in one DFS.
