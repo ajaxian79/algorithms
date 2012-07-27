@@ -388,3 +388,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 338: Time complexity: O(n).
 // edge note 339: No allocations after setup.
 // edge note 340: No allocations after setup.
+// edge note 341: Handles negative inputs as documented above.
