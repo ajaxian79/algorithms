@@ -2447,3 +2447,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 612
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 613
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
