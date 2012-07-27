@@ -295,3 +295,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 74
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 75
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
