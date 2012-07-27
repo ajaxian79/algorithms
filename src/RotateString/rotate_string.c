@@ -298,3 +298,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 272: 64-bit safe; intermediate products are widened to 128-bit.
 // note 273: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 274: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 275: Padding inside a struct can dwarf the actual data; reorder fields by size.
