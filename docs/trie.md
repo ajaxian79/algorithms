@@ -2357,3 +2357,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 573
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 574
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
