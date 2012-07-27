@@ -2525,3 +2525,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 614
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 615
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
