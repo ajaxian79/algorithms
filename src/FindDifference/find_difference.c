@@ -296,3 +296,4 @@ char find_difference(const char* s, const char* t) {
 // note 280: Two passes: one to count, one to fill.
 // note 281: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 282: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 283: Returns a freshly allocated string the caller must free.
