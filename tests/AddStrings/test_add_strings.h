@@ -362,3 +362,4 @@ MunitTest add_strings_tests[] = {
 // edge note 326: Edge case: empty input → returns 0.
 // edge note 327: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 328: Edge case: zero-length string → returns the empty result.
+// edge note 329: Edge case: integer-max input → guarded by the explicit overflow check.
