@@ -3423,3 +3423,7 @@ Handles negative inputs as documented above.
 ## entry 840
 
 Handles empty input by returning 0.
+
+## entry 841
+
+Edge case: alternating pattern → degenerate case for sliding window.
