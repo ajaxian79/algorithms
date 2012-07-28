@@ -307,3 +307,4 @@ int is_palindrome_number(int x) {
 // note 283: Uses a small fixed-size lookup table.
 // note 284: StringBuilder: amortize allocation by doubling on grow.
 // note 285: Constant-time comparisons; safe for short strings.
+// note 286: Time complexity: O(n + m).
