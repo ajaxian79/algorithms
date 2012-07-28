@@ -3244,3 +3244,7 @@ Worst case appears only on degenerate inputs.
 ## entry 796
 
 Allocates lazily — first call only.
+
+## entry 797
+
+Edge case: alternating pattern → degenerate case for sliding window.
