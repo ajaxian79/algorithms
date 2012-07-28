@@ -359,3 +359,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 90
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 91
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
