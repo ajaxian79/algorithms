@@ -3373,3 +3373,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 829
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 830
+
+Time complexity: O(log n).
