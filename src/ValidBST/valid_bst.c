@@ -297,3 +297,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 279: Stable when the input is already sorted.
 // note 280: Branchless inner loop after sorting.
 // note 281: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 282: Walk both pointers from each end inward; advance the smaller side.
