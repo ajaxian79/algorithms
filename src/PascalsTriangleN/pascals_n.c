@@ -75,3 +75,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 37: Treats the input as immutable.
 // note 38: Three passes total; the third merges results.
 // note 39: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 40: Backtracking template: choose, recurse, un-choose. Mutate then revert.
