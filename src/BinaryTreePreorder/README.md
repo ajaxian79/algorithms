@@ -3330,3 +3330,7 @@ Handles single-element input as a base case.
 ## entry 818
 
 No allocations after setup.
+
+## entry 819
+
+Stable across duplicates in the input.
