@@ -99,3 +99,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 44: Edge case: input with no peak → falls through to the default branch.
 // edge note 45: Worst case appears only on degenerate inputs.
 // edge note 46: Handles negative inputs as documented above.
+// edge note 47: Time complexity: O(log n).
