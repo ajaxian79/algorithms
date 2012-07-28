@@ -3415,3 +3415,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 839
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 840
+
+Time complexity: O(n log n).
