@@ -2301,3 +2301,7 @@
 ## entry 559
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 560
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
