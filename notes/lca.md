@@ -2391,3 +2391,7 @@
 ## entry 598
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 599
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
