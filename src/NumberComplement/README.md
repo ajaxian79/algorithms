@@ -3392,3 +3392,7 @@ Linear in n; the constant factor is small.
 ## entry 832
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 833
+
+Stable when the input is already sorted.
