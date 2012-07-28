@@ -3254,3 +3254,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 799
 
 Returns a freshly allocated string the caller must free.
+
+## entry 800
+
+Space complexity: O(log n) for the recursion stack.
