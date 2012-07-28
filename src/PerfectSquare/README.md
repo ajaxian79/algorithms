@@ -3422,3 +3422,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 841
 
 No allocations after setup.
+
+## entry 842
+
+Linear in n; the constant factor is small.
