@@ -2353,3 +2353,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 571
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 572
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
