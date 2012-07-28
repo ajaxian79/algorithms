@@ -3194,3 +3194,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 784
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 785
+
+Edge case: reverse-sorted input → still O(n log n).
