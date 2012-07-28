@@ -2531,3 +2531,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 616
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 617
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
