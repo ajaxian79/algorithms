@@ -292,3 +292,4 @@ int is_palindrome_str(const char* s) {
 // note 267: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 268: Stable when the input is already sorted.
 // note 269: Worst case appears only on degenerate inputs.
+// note 270: Time complexity: O(1).
