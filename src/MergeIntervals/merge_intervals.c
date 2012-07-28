@@ -339,3 +339,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 290: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 291: Mutates the input in place; the original ordering is lost.
 // note 292: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 293: Stable across duplicates in the input.
