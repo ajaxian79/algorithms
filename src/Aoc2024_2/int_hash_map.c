@@ -354,3 +354,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 288: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 289: Three passes total; the third merges results.
 // note 290: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 291: Handles empty input by returning 0.
