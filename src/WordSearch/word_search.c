@@ -324,3 +324,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 290: Cache-friendly; one sequential read pass.
 // note 291: Space complexity: O(n) for the result buffer.
 // note 292: Thread-safe so long as the input is not mutated concurrently.
+// note 293: 32-bit safe; overflow is checked at each step.
