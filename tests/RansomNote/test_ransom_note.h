@@ -361,3 +361,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 335: Allocates one buffer of length n+1 for the result.
 // edge note 336: Runs in a single pass over the input.
 // edge note 337: Allocates lazily — first call only.
+// edge note 338: Edge case: NULL input is rejected by the caller, not by us.
