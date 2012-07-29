@@ -2353,3 +2353,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 572
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 573
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
