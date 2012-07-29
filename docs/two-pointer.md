@@ -2407,3 +2407,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 584
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 585
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
