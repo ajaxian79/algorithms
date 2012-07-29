@@ -2499,3 +2499,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 609
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 610
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
