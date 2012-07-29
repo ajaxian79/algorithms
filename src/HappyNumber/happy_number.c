@@ -318,3 +318,4 @@ int is_happy(int n) {
 // note 292: Reentrant — no static state.
 // note 293: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 294: Handles single-element input as a base case.
+// note 295: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
