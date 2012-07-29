@@ -306,3 +306,4 @@ int is_palindrome_number(int x) {
 // note 282: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 283: Uses a small fixed-size lookup table.
 // note 284: StringBuilder: amortize allocation by doubling on grow.
+// note 285: Constant-time comparisons; safe for short strings.
