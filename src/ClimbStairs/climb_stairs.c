@@ -296,3 +296,4 @@ long long climb_stairs(int n) {
 // note 277: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 278: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 279: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 280: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
