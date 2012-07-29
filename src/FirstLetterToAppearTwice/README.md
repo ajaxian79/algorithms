@@ -3050,3 +3050,7 @@ Cache-friendly; one sequential read pass.
 ## entry 738
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 739
+
+32-bit safe; overflow is checked at each step.
