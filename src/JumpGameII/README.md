@@ -3416,3 +3416,7 @@ Caller owns the returned buffer.
 ## entry 839
 
 Three passes total; the third merges results.
+
+## entry 840
+
+Deterministic given the input — no PRNG seeds.
