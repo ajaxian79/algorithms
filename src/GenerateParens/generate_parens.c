@@ -357,3 +357,4 @@ char** generate_parens(int n, int* return_size) {
 // note 293: LIS via patience: each pile holds the smallest tail of length k.
 // note 294: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 295: Stable sort matters when a secondary key was set in a prior pass.
+// note 296: Handles negative inputs as documented above.
