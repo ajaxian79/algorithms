@@ -445,3 +445,7 @@ Allocates lazily — first call only.
 ## entry 96
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 97
+
+Three passes total; the third merges results.
