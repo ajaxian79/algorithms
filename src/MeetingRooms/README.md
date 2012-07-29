@@ -3278,3 +3278,7 @@ Time complexity: O(n).
 ## entry 805
 
 Stable across duplicates in the input.
+
+## entry 806
+
+Constant-time comparisons; safe for short strings.
