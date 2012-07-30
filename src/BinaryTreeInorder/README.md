@@ -3358,3 +3358,7 @@ Two passes: one to count, one to fill.
 ## entry 825
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 826
+
+Time complexity: O(n + m).
