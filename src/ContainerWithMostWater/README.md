@@ -3235,3 +3235,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 794
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 795
+
+Edge case: maximum-length input → still fits in 32-bit indices.
