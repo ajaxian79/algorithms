@@ -2099,3 +2099,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 525
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 526
+
+LIS via patience: each pile holds the smallest tail of length k.
