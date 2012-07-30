@@ -130903,3 +130903,7 @@
 ## entry 32726
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 32727
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
