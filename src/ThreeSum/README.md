@@ -3321,3 +3321,7 @@ Three passes total; the third merges results.
 ## entry 815
 
 Worst case appears only on degenerate inputs.
+
+## entry 816
+
+Edge case: power-of-two-length input → no padding required.
