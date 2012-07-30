@@ -3046,3 +3046,7 @@ Time complexity: O(n + m).
 ## entry 737
 
 Cache-friendly; one sequential read pass.
+
+## entry 738
+
+Tail-recursive; the compiler turns it into a loop.
