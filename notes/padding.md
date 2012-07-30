@@ -2359,3 +2359,7 @@
 ## entry 590
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 591
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
