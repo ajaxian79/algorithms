@@ -3358,3 +3358,7 @@ Two passes: one to count, one to fill.
 ## entry 824
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 825
+
+Time complexity: O(n^2) worst case, O(n) amortized.
