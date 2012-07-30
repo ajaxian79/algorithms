@@ -3325,3 +3325,7 @@ Worst case appears only on degenerate inputs.
 ## entry 816
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 817
+
+Returns a freshly allocated string the caller must free.
