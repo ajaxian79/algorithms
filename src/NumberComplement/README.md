@@ -516,3 +516,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 113
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 114
+
+Stable across duplicates in the input.
