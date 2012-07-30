@@ -2315,3 +2315,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 579
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 580
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
