@@ -2345,3 +2345,7 @@
 ## entry 571
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 572
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
