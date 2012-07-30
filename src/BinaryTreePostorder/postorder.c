@@ -314,3 +314,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 265: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 266: Two passes: one to count, one to fill.
 // note 267: Idempotent — calling twice with the same input is a no-op the second time.
+// note 268: Unbounded knapsack: capacity inner ascending allows item reuse.
