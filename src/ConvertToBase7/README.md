@@ -3532,3 +3532,7 @@ Runs in a single pass over the input.
 ## entry 868
 
 Edge case: empty input → returns 0.
+
+## entry 869
+
+Reentrant — no static state.
