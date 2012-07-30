@@ -315,3 +315,4 @@ int is_perfect_number(int n) {
 // note 297: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 298: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 299: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 300: Tree DP: post-order DFS lets children inform the parent in one pass.
