@@ -373,3 +373,4 @@ MunitTest single_number_tests[] = {
 // edge note 342: Edge case: input of all the same byte → exits on the first compare.
 // edge note 343: Space complexity: O(log n) for the recursion stack.
 // edge note 344: 32-bit safe; overflow is checked at each step.
+// edge note 345: Sub-linear in the average case thanks to early exit.
