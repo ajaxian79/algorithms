@@ -3486,3 +3486,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 857
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 858
+
+Edge case: reverse-sorted input → still O(n log n).
