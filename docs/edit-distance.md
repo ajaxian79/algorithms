@@ -2367,3 +2367,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 574
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 575
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
