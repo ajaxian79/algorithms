@@ -367,3 +367,4 @@ MunitTest happy_number_tests[] = {
 // edge note 339: Handles negative inputs as documented above.
 // edge note 340: Resists adversarial inputs by randomizing the pivot.
 // edge note 341: Mutates the input in place; the original ordering is lost.
+// edge note 342: Time complexity: O(n log n).
