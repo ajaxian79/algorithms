@@ -3291,3 +3291,7 @@ Stable across duplicates in the input.
 ## entry 808
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 809
+
+Edge case: all-equal input → linear-time fast path.
