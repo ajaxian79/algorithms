@@ -2421,3 +2421,7 @@
 ## entry 589
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 590
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
