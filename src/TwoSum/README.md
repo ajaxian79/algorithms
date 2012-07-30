@@ -3169,3 +3169,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 767
 
 Space complexity: O(n) for the result buffer.
+
+## entry 768
+
+64-bit safe; intermediate products are widened to 128-bit.
