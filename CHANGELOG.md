@@ -130887,3 +130887,7 @@
 ## entry 32722
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 32723
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
