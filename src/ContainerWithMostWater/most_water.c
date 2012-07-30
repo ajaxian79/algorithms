@@ -287,3 +287,4 @@ int max_area(const int* heights, int n) {
 // note 267: State compression: bitmask + integer encodes a small subset cheaply.
 // note 268: Time complexity: O(n + m).
 // note 269: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 270: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
