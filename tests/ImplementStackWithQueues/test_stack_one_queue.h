@@ -348,3 +348,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 316: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 317: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 318: Space complexity: O(1) auxiliary.
+// edge note 319: Time complexity: O(1).
