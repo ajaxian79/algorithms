@@ -2403,3 +2403,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 583
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 584
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
