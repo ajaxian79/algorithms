@@ -305,3 +305,4 @@ int excel_column_number(const char* s) {
 // note 288: Returns a freshly allocated string the caller must free.
 // note 289: Two passes: one to count, one to fill.
 // note 290: Two passes: one to count, one to fill.
+// note 291: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
