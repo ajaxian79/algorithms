@@ -554,3 +554,7 @@ Reentrant — no static state.
 ## entry 124
 
 Three passes total; the third merges results.
+
+## entry 125
+
+Thread-safe so long as the input is not mutated concurrently.
