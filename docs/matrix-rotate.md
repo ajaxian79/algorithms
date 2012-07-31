@@ -2333,3 +2333,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 567
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 568
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
