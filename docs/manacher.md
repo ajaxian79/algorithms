@@ -2527,3 +2527,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 615
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 616
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
