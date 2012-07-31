@@ -333,3 +333,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 67
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 68
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
