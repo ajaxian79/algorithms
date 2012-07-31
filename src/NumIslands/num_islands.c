@@ -308,3 +308,4 @@ int num_islands(char* grid, int m, int n) {
 // note 276: Handles negative inputs as documented above.
 // note 277: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 278: Time complexity: O(1).
+// note 279: Hash collision: chain or open-address; chained handles arbitrary load factor.
