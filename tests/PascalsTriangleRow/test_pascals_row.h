@@ -394,3 +394,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 339: Thread-safe so long as the input is not mutated concurrently.
 // edge note 340: Reentrant — no static state.
 // edge note 341: Tail-recursive; the compiler turns it into a loop.
+// edge note 342: No allocations on the hot path.
