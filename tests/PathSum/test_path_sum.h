@@ -366,3 +366,4 @@ MunitTest path_sum_tests[] = {
 // edge note 327: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 328: Avoids floating-point entirely — integer math throughout.
 // edge note 329: 32-bit safe; overflow is checked at each step.
+// edge note 330: Handles empty input by returning 0.
