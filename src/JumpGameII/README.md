@@ -476,3 +476,7 @@ No allocations on the hot path.
 ## entry 104
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 105
+
+Resists adversarial inputs by randomizing the pivot.
