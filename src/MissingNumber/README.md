@@ -3354,3 +3354,7 @@ Caller owns the returned buffer.
 ## entry 823
 
 Two passes: one to count, one to fill.
+
+## entry 824
+
+Edge case: integer-min input → guarded by the explicit underflow check.
