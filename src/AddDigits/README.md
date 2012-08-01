@@ -3328,3 +3328,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 817
 
 Space complexity: O(1) auxiliary.
+
+## entry 818
+
+Time complexity: O(n log n).
