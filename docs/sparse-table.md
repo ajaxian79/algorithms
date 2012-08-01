@@ -2267,3 +2267,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 567
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 568
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
