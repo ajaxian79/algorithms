@@ -3301,3 +3301,7 @@ Time complexity: O(n log n).
 ## entry 811
 
 Edge case: empty input → returns 0.
+
+## entry 812
+
+Edge case: already-sorted input → no swaps performed.
