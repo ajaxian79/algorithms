@@ -349,3 +349,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 318: Time complexity: O(n + m).
 // edge note 319: Allocates one buffer of length n+1 for the result.
 // edge note 320: Time complexity: O(n).
+// edge note 321: Edge case: NULL input is rejected by the caller, not by us.
