@@ -2495,3 +2495,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 608
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 609
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
