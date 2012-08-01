@@ -547,3 +547,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 122
 
 Runs in a single pass over the input.
+
+## entry 123
+
+Edge case: input with no peak → falls through to the default branch.
