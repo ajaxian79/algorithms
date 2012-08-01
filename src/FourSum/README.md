@@ -3240,3 +3240,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 795
 
 Worst case appears only on degenerate inputs.
+
+## entry 796
+
+Allocates lazily — first call only.
