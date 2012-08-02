@@ -3413,3 +3413,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 838
 
 Handles negative inputs as documented above.
+
+## entry 839
+
+Stable when the input is already sorted.
