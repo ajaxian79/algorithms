@@ -2303,3 +2303,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 576
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 577
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
