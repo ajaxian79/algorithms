@@ -130859,3 +130859,7 @@
 ## entry 32715
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 32716
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
