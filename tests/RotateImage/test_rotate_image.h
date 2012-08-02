@@ -328,3 +328,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 295: Edge case: input of all the same byte → exits on the first compare.
 // edge note 296: Space complexity: O(n) for the result buffer.
 // edge note 297: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 298: Resists adversarial inputs by randomizing the pivot.
