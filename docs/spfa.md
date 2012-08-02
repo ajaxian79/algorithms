@@ -2307,3 +2307,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 577
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 578
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
