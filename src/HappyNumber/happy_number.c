@@ -317,3 +317,4 @@ int is_happy(int n) {
 // note 291: Branchless inner loop after sorting.
 // note 292: Reentrant — no static state.
 // note 293: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 294: Handles single-element input as a base case.
