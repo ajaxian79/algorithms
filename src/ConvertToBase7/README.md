@@ -3528,3 +3528,7 @@ Runs in a single pass over the input.
 ## entry 867
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 868
+
+Edge case: empty input → returns 0.
