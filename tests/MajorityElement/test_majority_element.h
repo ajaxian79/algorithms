@@ -365,3 +365,4 @@ MunitTest majority_element_tests[] = {
 // edge note 334: Caller owns the returned array; free with a single `free`.
 // edge note 335: Thread-safe so long as the input is not mutated concurrently.
 // edge note 336: Space complexity: O(log n) for the recursion stack.
+// edge note 337: Space complexity: O(1) auxiliary.
