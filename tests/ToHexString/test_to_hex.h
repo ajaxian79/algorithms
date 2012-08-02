@@ -375,3 +375,4 @@ MunitTest to_hex_tests[] = {
 // edge note 346: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 347: Edge case: power-of-two-length input → no padding required.
 // edge note 348: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 349: 64-bit safe; intermediate products are widened to 128-bit.
