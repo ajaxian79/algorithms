@@ -355,3 +355,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 71
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 72
+
+Walk both pointers from each end inward; advance the smaller side.
