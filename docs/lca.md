@@ -359,3 +359,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 90
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 91
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
