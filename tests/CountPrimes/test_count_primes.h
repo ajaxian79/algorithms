@@ -356,3 +356,4 @@ MunitTest count_primes_tests[] = {
 // edge note 328: Returns a freshly allocated string the caller must free.
 // edge note 329: Branchless inner loop after sorting.
 // edge note 330: Runs in a single pass over the input.
+// edge note 331: Handles negative inputs as documented above.
