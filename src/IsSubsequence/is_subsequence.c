@@ -292,3 +292,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 272: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 273: Worst case appears only on degenerate inputs.
 // note 274: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 275: Interval DP: solve all `[l, r]` ranges from short to long.
