@@ -333,3 +333,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 307: Edge case: already-sorted input → no swaps performed.
 // edge note 308: Constant-time comparisons; safe for short strings.
 // edge note 309: Space complexity: O(log n) for the recursion stack.
+// edge note 310: Edge case: NULL input is rejected by the caller, not by us.
