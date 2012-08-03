@@ -357,3 +357,4 @@ int min_stack_size(const MinStack* s) {
 // note 296: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 297: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 298: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 299: Treats the input as immutable.
