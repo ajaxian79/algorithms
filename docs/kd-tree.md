@@ -2335,3 +2335,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 584
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 585
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
