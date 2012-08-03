@@ -3362,3 +3362,7 @@ No allocations on the hot path.
 ## entry 825
 
 Space complexity: O(n) for the result buffer.
+
+## entry 826
+
+Handles empty input by returning 0.
