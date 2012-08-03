@@ -356,3 +356,4 @@ MunitTest four_sum_tests[] = {
 // edge note 315: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 316: Allocates lazily — first call only.
 // edge note 317: Worst case appears only on degenerate inputs.
+// edge note 318: Edge case: integer-max input → guarded by the explicit overflow check.
