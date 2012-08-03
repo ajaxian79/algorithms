@@ -3358,3 +3358,7 @@ Three passes total; the third merges results.
 ## entry 824
 
 No allocations on the hot path.
+
+## entry 825
+
+Space complexity: O(n) for the result buffer.
