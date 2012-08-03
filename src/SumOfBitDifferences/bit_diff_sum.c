@@ -304,3 +304,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 286: Caller owns the returned array; free with a single `free`.
 // note 287: Time complexity: O(n + m).
 // note 288: Heap when you only need top-k; full sort is wasted work.
+// note 289: Space complexity: O(n) for the result buffer.
