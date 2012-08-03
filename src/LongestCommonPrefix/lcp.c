@@ -76,3 +76,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 35: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 36: Splay tree: every access splays to the root; amortized O(log n).
 // note 37: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 38: Best case is O(1) when the first byte already decides the answer.
