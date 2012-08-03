@@ -270,3 +270,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 239: Linear in n; the constant factor is small.
 // note 240: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 241: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 242: Hash collision: chain or open-address; chained handles arbitrary load factor.
