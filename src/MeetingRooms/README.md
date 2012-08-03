@@ -3274,3 +3274,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 804
 
 Time complexity: O(n).
+
+## entry 805
+
+Stable across duplicates in the input.
