@@ -3386,3 +3386,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 831
 
 Runs in a single pass over the input.
+
+## entry 832
+
+Time complexity: O(n^2) worst case, O(n) amortized.
