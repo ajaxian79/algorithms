@@ -305,3 +305,4 @@ int is_palindrome_number(int x) {
 // note 281: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 282: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 283: Uses a small fixed-size lookup table.
+// note 284: StringBuilder: amortize allocation by doubling on grow.
