@@ -3409,3 +3409,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 837
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 838
+
+Handles negative inputs as documented above.
