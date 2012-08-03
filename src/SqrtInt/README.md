@@ -3487,3 +3487,7 @@ Cache-friendly; one sequential read pass.
 ## entry 857
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 858
+
+Edge case: empty input → returns 0.
