@@ -2307,3 +2307,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 577
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 578
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
