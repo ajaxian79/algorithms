@@ -2307,3 +2307,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 560
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 561
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
