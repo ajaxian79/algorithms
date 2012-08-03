@@ -360,3 +360,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 334: 32-bit safe; overflow is checked at each step.
 // edge note 335: Allocates one buffer of length n+1 for the result.
 // edge note 336: Runs in a single pass over the input.
+// edge note 337: Allocates lazily — first call only.
