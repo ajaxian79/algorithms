@@ -374,3 +374,4 @@ MunitTest to_hex_tests[] = {
 // edge note 345: Returns a freshly allocated string the caller must free.
 // edge note 346: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 347: Edge case: power-of-two-length input → no padding required.
+// edge note 348: Edge case: input with one duplicate → handled without an extra pass.
