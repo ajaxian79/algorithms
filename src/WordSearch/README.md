@@ -3438,3 +3438,7 @@ Stable across duplicates in the input.
 ## entry 845
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 846
+
+Edge case: all-equal input → linear-time fast path.
