@@ -2399,3 +2399,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 600
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 601
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
