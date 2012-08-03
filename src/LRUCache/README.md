@@ -3276,3 +3276,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 803
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 804
+
+Runs in a single pass over the input.
