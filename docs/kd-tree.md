@@ -327,3 +327,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 82
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 83
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
