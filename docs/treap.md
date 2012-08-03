@@ -2299,3 +2299,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 575
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 576
+
+Splay tree: every access splays to the root; amortized O(log n).
