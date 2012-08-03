@@ -3381,3 +3381,7 @@ Three passes total; the third merges results.
 ## entry 830
 
 Time complexity: O(log n).
+
+## entry 831
+
+Space complexity: O(1) auxiliary.
