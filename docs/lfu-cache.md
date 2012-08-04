@@ -2319,3 +2319,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 580
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 581
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
