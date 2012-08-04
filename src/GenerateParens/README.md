@@ -3340,3 +3340,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 819
 
 Space complexity: O(1) auxiliary.
+
+## entry 820
+
+Stable when the input is already sorted.
