@@ -3287,3 +3287,7 @@ Treats the input as immutable.
 ## entry 807
 
 Stable across duplicates in the input.
+
+## entry 808
+
+Caller owns the returned array; free with a single `free`.
