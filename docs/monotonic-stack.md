@@ -2345,3 +2345,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 570
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 571
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
