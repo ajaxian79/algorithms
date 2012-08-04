@@ -370,3 +370,4 @@ int is_valid_parens(const char* s) {
 // note 328: Linear in n; the constant factor is small.
 // note 329: Cache-friendly; one sequential read pass.
 // note 330: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 331: Stable when the input is already sorted.
