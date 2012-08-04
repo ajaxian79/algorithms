@@ -373,3 +373,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 334: Handles empty input by returning 0.
 // edge note 335: Returns a freshly allocated string the caller must free.
 // edge note 336: Edge case: empty input → returns 0.
+// edge note 337: Input is assumed non-NULL; behavior is undefined otherwise.
