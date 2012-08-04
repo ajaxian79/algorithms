@@ -3532,3 +3532,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 868
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 869
+
+Allocates one buffer of length n+1 for the result.
