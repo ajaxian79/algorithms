@@ -337,3 +337,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 311: Stable across duplicates in the input.
 // edge note 312: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 313: Runs in a single pass over the input.
+// edge note 314: Time complexity: O(k) where k is the answer size.
