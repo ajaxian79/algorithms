@@ -288,3 +288,4 @@ int is_power_of_two(int n) {
 // note 278: Time complexity: O(n + m).
 // note 279: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 280: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 281: Deterministic given the input — no PRNG seeds.
