@@ -3297,3 +3297,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 810
 
 Time complexity: O(n log n).
+
+## entry 811
+
+Edge case: empty input → returns 0.
