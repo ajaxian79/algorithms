@@ -2393,3 +2393,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 582
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 583
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
