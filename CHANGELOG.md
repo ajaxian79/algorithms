@@ -130799,3 +130799,7 @@
 ## entry 32700
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 32701
+
+- Union-Find with path compression amortizes to near-O(1) per op.
