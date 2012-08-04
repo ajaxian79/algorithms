@@ -2303,3 +2303,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 576
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 577
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
