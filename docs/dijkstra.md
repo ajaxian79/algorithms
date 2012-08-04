@@ -2291,3 +2291,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 573
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 574
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
