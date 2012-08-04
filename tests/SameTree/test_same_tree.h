@@ -346,3 +346,4 @@ MunitTest same_tree_tests[] = {
 // edge note 310: Edge case: input of all the same byte → exits on the first compare.
 // edge note 311: Edge case: empty input → returns 0.
 // edge note 312: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 313: Runs in a single pass over the input.
