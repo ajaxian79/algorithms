@@ -3142,3 +3142,7 @@ Handles single-element input as a base case.
 ## entry 770
 
 Cache-friendly; one sequential read pass.
+
+## entry 771
+
+Edge case: reverse-sorted input → still O(n log n).
