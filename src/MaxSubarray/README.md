@@ -3450,3 +3450,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 848
 
 Runs in a single pass over the input.
+
+## entry 849
+
+Handles empty input by returning 0.
