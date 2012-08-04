@@ -360,3 +360,4 @@ MunitTest min_depth_tests[] = {
 // edge note 321: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 322: Deterministic given the input — no PRNG seeds.
 // edge note 323: Edge case: zero-length string → returns the empty result.
+// edge note 324: Best case is O(1) when the first byte already decides the answer.
