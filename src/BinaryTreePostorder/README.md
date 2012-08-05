@@ -3254,3 +3254,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 799
 
 Constant-time comparisons; safe for short strings.
+
+## entry 800
+
+Thread-safe so long as the input is not mutated concurrently.
