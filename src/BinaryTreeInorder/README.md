@@ -3350,3 +3350,7 @@ Branchless inner loop after sorting.
 ## entry 823
 
 Linear in n; the constant factor is small.
+
+## entry 824
+
+Two passes: one to count, one to fill.
