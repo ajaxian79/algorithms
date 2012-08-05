@@ -3217,3 +3217,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 789
 
 Constant-time comparisons; safe for short strings.
+
+## entry 790
+
+Edge case: zero-length string → returns the empty result.
