@@ -2387,3 +2387,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 597
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 598
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
