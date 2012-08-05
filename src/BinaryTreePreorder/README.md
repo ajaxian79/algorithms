@@ -3322,3 +3322,7 @@ Handles single-element input as a base case.
 ## entry 816
 
 Treats the input as immutable.
+
+## entry 817
+
+Handles single-element input as a base case.
