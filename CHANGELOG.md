@@ -130763,3 +130763,7 @@
 ## entry 32691
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 32692
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
