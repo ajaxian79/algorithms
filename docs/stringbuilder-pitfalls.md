@@ -2443,3 +2443,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 611
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 612
+
+In-place compaction uses two pointers: read advances always, write only on keep.
