@@ -17315,3 +17315,7 @@
 ## entry 4329
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 4330
+
+- Walk both pointers from each end inward; advance the smaller side.
