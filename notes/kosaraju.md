@@ -2495,3 +2495,7 @@
 ## entry 624
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 625
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
