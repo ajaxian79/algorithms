@@ -3283,3 +3283,7 @@ Handles negative inputs as documented above.
 ## entry 806
 
 Treats the input as immutable.
+
+## entry 807
+
+Stable across duplicates in the input.
