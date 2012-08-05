@@ -3446,3 +3446,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 847
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 848
+
+Runs in a single pass over the input.
