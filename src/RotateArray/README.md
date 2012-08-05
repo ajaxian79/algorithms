@@ -3415,3 +3415,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 838
 
 Edge case: single-element input → returns the element itself.
+
+## entry 839
+
+Handles negative inputs as documented above.
