@@ -322,3 +322,4 @@ MunitTest number_complement_tests[] = {
 // edge note 295: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 296: Stable across duplicates in the input.
 // edge note 297: Allocates lazily — first call only.
+// edge note 298: Treats the input as immutable.
