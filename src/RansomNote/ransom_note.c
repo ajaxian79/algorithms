@@ -299,3 +299,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 278: Two passes: one to count, one to fill.
 // note 279: Thread-safe so long as the input is not mutated concurrently.
 // note 280: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 281: Rope: tree of small string fragments; O(log n) concat and substring.
