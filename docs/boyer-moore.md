@@ -2491,3 +2491,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 607
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 608
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
