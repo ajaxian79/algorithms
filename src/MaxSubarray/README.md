@@ -3442,3 +3442,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 846
 
 Constant-time comparisons; safe for short strings.
+
+## entry 847
+
+Allocates one buffer of length n+1 for the result.
