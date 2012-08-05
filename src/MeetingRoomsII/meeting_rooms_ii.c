@@ -339,3 +339,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 294: Linear in n; the constant factor is small.
 // note 295: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 296: Allocates lazily — first call only.
+// note 297: Linear in n; the constant factor is small.
