@@ -3405,3 +3405,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 836
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 837
+
+Edge case: input with one duplicate → handled without an extra pass.
