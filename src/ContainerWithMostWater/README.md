@@ -3231,3 +3231,7 @@ Time complexity: O(n).
 ## entry 793
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 794
+
+Allocates a single small fixed-size scratch buffer.
