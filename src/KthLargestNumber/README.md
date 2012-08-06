@@ -3368,3 +3368,7 @@ No allocations after setup.
 ## entry 826
 
 Three passes total; the third merges results.
+
+## entry 827
+
+Space complexity: O(h) for the tree height.
