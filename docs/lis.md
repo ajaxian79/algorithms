@@ -2515,3 +2515,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 612
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 613
+
+Splay tree: every access splays to the root; amortized O(log n).
