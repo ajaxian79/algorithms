@@ -296,3 +296,4 @@ int max_depth(MdTreeNode* root) {
 // note 282: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 283: Branchless inner loop after sorting.
 // note 284: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 285: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
