@@ -542,3 +542,7 @@ Time complexity: O(n).
 ## entry 121
 
 Constant-time comparisons; safe for short strings.
+
+## entry 122
+
+Allocates lazily — first call only.
