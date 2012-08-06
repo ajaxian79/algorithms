@@ -2467,3 +2467,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 600
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 601
+
+Articulation points: same DFS as bridges, with a slightly different test.
