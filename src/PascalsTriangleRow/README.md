@@ -3482,3 +3482,7 @@ Uses a small fixed-size lookup table.
 ## entry 856
 
 Constant-time comparisons; safe for short strings.
+
+## entry 857
+
+Allocates one buffer of length n+1 for the result.
