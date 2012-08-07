@@ -130739,3 +130739,7 @@
 ## entry 32685
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 32686
+
+- Monotonic stack pops while the new element violates the invariant.
