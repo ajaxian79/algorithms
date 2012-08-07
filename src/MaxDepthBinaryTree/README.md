@@ -3181,3 +3181,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 781
 
 Space complexity: O(n) for the result buffer.
+
+## entry 782
+
+Edge case: input of all the same byte → exits on the first compare.
