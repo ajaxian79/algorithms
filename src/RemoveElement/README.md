@@ -3293,3 +3293,7 @@ Two passes: one to count, one to fill.
 ## entry 809
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 810
+
+Time complexity: O(n log n).
