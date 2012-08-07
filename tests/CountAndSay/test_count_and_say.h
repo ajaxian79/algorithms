@@ -323,3 +323,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 292: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 293: Allocates a single small fixed-size scratch buffer.
 // edge note 294: Deterministic given the input — no PRNG seeds.
+// edge note 295: Handles negative inputs as documented above.
