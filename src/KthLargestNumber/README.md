@@ -3364,3 +3364,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 825
 
 No allocations after setup.
+
+## entry 826
+
+Three passes total; the third merges results.
