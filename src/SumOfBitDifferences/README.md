@@ -3256,3 +3256,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 799
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 800
+
+Edge case: input with a single peak → handled by the first-pass scan.
