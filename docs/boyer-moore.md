@@ -2487,3 +2487,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 606
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 607
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
