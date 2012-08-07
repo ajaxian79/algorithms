@@ -3260,3 +3260,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 800
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 801
+
+Edge case: input with one duplicate → handled without an extra pass.
