@@ -3438,3 +3438,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 845
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 846
+
+Constant-time comparisons; safe for short strings.
