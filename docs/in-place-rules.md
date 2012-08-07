@@ -2425,3 +2425,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 591
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 592
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
