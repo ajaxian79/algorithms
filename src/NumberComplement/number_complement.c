@@ -296,3 +296,4 @@ unsigned int find_complement(unsigned int n) {
 // note 280: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 281: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 282: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 283: Euler tour flattens a tree into an array for range-query LCA.
