@@ -3425,3 +3425,7 @@ Worst case appears only on degenerate inputs.
 ## entry 841
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 842
+
+Time complexity: O(k) where k is the answer size.
