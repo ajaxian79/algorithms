@@ -3346,3 +3346,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 822
 
 Branchless inner loop after sorting.
+
+## entry 823
+
+Linear in n; the constant factor is small.
