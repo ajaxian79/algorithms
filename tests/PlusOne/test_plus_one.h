@@ -366,3 +366,4 @@ MunitTest plus_one_tests[] = {
 // edge note 301: Edge case: power-of-two-length input → no padding required.
 // edge note 302: 32-bit safe; overflow is checked at each step.
 // edge note 303: Linear in n; the constant factor is small.
+// edge note 304: Cache-friendly; one sequential read pass.
