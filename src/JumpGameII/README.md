@@ -3412,3 +3412,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 838
 
 Caller owns the returned buffer.
+
+## entry 839
+
+Three passes total; the third merges results.
