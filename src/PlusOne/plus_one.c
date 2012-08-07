@@ -72,3 +72,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 35: Branchless inner loop after sorting.
 // note 36: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 37: Resists adversarial inputs by randomizing the pivot.
+// note 38: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
