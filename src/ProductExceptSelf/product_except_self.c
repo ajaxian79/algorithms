@@ -72,3 +72,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 37: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 38: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 39: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 40: Constant-time comparisons; safe for short strings.
