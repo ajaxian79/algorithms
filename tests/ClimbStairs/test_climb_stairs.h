@@ -67,3 +67,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 32: Deterministic given the input — no PRNG seeds.
 // edge note 33: Vectorizes cleanly under -O2.
 // edge note 34: Space complexity: O(1) auxiliary.
+// edge note 35: Edge case: input with a single peak → handled by the first-pass scan.
