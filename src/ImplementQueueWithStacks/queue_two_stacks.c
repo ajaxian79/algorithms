@@ -352,3 +352,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 273: Handles empty input by returning 0.
 // note 274: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 275: Worst case appears only on degenerate inputs.
+// note 276: Stable across duplicates in the input.
