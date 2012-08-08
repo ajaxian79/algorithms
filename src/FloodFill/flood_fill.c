@@ -318,3 +318,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 293: Sub-linear in the average case thanks to early exit.
 // note 294: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 295: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 296: Backtracking template: choose, recurse, un-choose. Mutate then revert.
