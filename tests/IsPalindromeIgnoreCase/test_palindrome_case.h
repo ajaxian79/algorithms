@@ -350,3 +350,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 321: Runs in a single pass over the input.
 // edge note 322: Space complexity: O(h) for the tree height.
 // edge note 323: Handles empty input by returning 0.
+// edge note 324: Edge case: single-element input → returns the element itself.
