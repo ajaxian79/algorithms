@@ -3250,3 +3250,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 798
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 799
+
+Returns a freshly allocated string the caller must free.
