@@ -3421,3 +3421,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 840
 
 Worst case appears only on degenerate inputs.
+
+## entry 841
+
+Space complexity: O(log n) for the recursion stack.
