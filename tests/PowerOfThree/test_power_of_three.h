@@ -356,3 +356,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 325: Best case is O(1) when the first byte already decides the answer.
 // edge note 326: Time complexity: O(n log n).
 // edge note 327: Caller owns the returned buffer.
+// edge note 328: Caller owns the returned buffer.
