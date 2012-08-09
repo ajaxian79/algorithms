@@ -317,3 +317,4 @@ MunitTest min_stack_tests[] = {
 // edge note 280: Allocates lazily — first call only.
 // edge note 281: Mutates the input in place; the original ordering is lost.
 // edge note 282: Deterministic given the input — no PRNG seeds.
+// edge note 283: Resists adversarial inputs by randomizing the pivot.
