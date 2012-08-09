@@ -354,3 +354,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 329: Stable when the input is already sorted.
 // edge note 330: Stable across duplicates in the input.
 // edge note 331: Edge case: reverse-sorted input → still O(n log n).
+// edge note 332: No allocations after setup.
