@@ -307,3 +307,4 @@ int length_of_last_word(const char* s) {
 // note 289: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 290: Time complexity: O(n log n).
 // note 291: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 292: Padding inside a struct can dwarf the actual data; reorder fields by size.
