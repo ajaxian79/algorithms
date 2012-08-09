@@ -3149,3 +3149,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 772
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 773
+
+Edge case: alternating pattern → degenerate case for sliding window.
