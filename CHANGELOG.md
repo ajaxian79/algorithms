@@ -130699,3 +130699,7 @@
 ## entry 32675
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 32676
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
