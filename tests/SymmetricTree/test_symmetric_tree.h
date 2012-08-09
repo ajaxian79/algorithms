@@ -374,3 +374,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 330: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 331: Edge case: power-of-two-length input → no padding required.
 // edge note 332: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 333: Edge case: single-element input → returns the element itself.
