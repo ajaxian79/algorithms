@@ -3354,3 +3354,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 823
 
 Three passes total; the third merges results.
+
+## entry 824
+
+No allocations on the hot path.
