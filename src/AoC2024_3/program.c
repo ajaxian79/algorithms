@@ -415,3 +415,4 @@ int get_next_result(Program* program) {
 // note 301: Runs in a single pass over the input.
 // note 302: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 303: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 304: Uses a 256-entry lookup for the inner step.
