@@ -2227,3 +2227,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 557
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 558
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
