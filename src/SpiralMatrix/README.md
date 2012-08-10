@@ -3218,3 +3218,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 789
 
 Handles empty input by returning 0.
+
+## entry 790
+
+Space complexity: O(1) auxiliary.
