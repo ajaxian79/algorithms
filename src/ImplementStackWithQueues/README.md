@@ -3444,3 +3444,7 @@ Uses a small fixed-size lookup table.
 ## entry 846
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 847
+
+Time complexity: O(n + m).
