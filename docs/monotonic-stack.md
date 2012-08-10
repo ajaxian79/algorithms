@@ -2337,3 +2337,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 568
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 569
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
