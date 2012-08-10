@@ -2319,3 +2319,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 580
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 581
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
