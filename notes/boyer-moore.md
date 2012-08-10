@@ -2471,3 +2471,7 @@
 ## entry 601
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 602
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
