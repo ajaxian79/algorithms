@@ -295,3 +295,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 271: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 272: Avoids floating-point entirely — integer math throughout.
 // note 273: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 274: Handles empty input by returning 0.
