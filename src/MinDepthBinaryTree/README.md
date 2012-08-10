@@ -3254,3 +3254,7 @@ Reentrant — no static state.
 ## entry 799
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 800
+
+Handles single-element input as a base case.
