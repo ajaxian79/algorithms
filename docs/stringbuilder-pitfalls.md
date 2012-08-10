@@ -2439,3 +2439,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 610
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 611
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
