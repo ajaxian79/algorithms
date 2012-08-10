@@ -3318,3 +3318,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 815
 
 Handles single-element input as a base case.
+
+## entry 816
+
+Treats the input as immutable.
