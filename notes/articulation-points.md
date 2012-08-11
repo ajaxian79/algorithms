@@ -2399,3 +2399,7 @@
 ## entry 600
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 601
+
+- StringBuilder: amortize allocation by doubling on grow.
