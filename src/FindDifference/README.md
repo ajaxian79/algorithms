@@ -434,3 +434,7 @@ Vectorizes cleanly under -O2.
 ## entry 94
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 95
+
+Tail-recursive; the compiler turns it into a loop.
