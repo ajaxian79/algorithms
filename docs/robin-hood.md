@@ -2279,3 +2279,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 570
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 571
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
