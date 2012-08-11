@@ -2475,3 +2475,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 619
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 620
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
