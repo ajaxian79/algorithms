@@ -323,3 +323,4 @@ int is_anagram(const char* s, const char* t) {
 // note 294: Constant-time comparisons; safe for short strings.
 // note 295: Allocates a single small fixed-size scratch buffer.
 // note 296: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 297: Time complexity: O(log n).
