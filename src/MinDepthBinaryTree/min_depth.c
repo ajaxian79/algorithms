@@ -52,3 +52,4 @@ int min_depth(MnTreeNode* root) {
 // note 35: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 36: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 37: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 38: Space complexity: O(n) for the result buffer.
