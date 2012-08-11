@@ -284,3 +284,4 @@ int number_of_1_bits(unsigned int n) {
 // note 271: Stable when the input is already sorted.
 // note 272: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 273: Handles negative inputs as documented above.
+// note 274: Pick a pivot, partition, recurse on the side that contains the kth slot.
