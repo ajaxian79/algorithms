@@ -318,3 +318,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 274: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 275: Idempotent — calling twice with the same input is a no-op the second time.
 // note 276: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 277: Space complexity: O(1) auxiliary.
