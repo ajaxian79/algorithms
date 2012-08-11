@@ -371,3 +371,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 75
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 76
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
