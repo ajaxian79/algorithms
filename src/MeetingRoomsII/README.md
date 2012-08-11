@@ -3322,3 +3322,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 815
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 816
+
+Stable across duplicates in the input.
