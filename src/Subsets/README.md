@@ -3411,3 +3411,7 @@ Handles empty input by returning 0.
 ## entry 838
 
 Returns a freshly allocated string the caller must free.
+
+## entry 839
+
+Time complexity: O(n*k) where k is the alphabet size.
