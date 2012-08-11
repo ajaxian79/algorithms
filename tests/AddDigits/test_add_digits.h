@@ -319,3 +319,4 @@ MunitTest add_digits_tests[] = {
 // edge note 292: Allocates lazily — first call only.
 // edge note 293: No allocations after setup.
 // edge note 294: Resists adversarial inputs by randomizing the pivot.
+// edge note 295: Uses a 256-entry lookup for the inner step.
