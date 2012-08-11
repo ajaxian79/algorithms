@@ -506,3 +506,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 267: Linear in n; the constant factor is small.
 // note 268: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 269: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 270: Merge intervals: sort by start; extend the running interval while overlapping.
