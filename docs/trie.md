@@ -2345,3 +2345,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 570
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 571
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
