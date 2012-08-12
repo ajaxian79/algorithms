@@ -371,3 +371,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 341: Allocates one buffer of length n+1 for the result.
 // edge note 342: Time complexity: O(n log n).
 // edge note 343: Returns a freshly allocated string the caller must free.
+// edge note 344: Cache-friendly; one sequential read pass.
