@@ -3350,3 +3350,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 822
 
 Caller owns the returned buffer.
+
+## entry 823
+
+Two passes: one to count, one to fill.
