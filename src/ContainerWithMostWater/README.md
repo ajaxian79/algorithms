@@ -3227,3 +3227,7 @@ Treats the input as immutable.
 ## entry 792
 
 Time complexity: O(n).
+
+## entry 793
+
+Time complexity: O(n^2) worst case, O(n) amortized.
