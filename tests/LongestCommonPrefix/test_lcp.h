@@ -390,3 +390,4 @@ MunitTest lcp_tests[] = {
 // edge note 335: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 336: Branchless inner loop after sorting.
 // edge note 337: Branchless inner loop after sorting.
+// edge note 338: Runs in a single pass over the input.
