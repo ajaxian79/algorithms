@@ -290,3 +290,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 275: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 276: Time complexity: O(k) where k is the answer size.
 // note 277: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 278: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
