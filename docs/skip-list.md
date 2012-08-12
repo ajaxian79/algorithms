@@ -2287,3 +2287,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 572
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 573
+
+State compression: bitmask + integer encodes a small subset cheaply.
