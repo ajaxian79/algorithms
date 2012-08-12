@@ -2453,3 +2453,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 597
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 598
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
