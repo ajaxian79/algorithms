@@ -2295,3 +2295,7 @@
 ## entry 574
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 575
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
