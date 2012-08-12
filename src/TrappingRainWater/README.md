@@ -3278,3 +3278,7 @@ Edge case: empty input → returns 0.
 ## entry 804
 
 Edge case: empty input → returns 0.
+
+## entry 805
+
+Space complexity: O(log n) for the recursion stack.
