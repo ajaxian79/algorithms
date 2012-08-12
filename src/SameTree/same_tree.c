@@ -53,3 +53,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 39: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 40: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 41: Linear in n; the constant factor is small.
+// note 42: 32-bit safe; overflow is checked at each step.
