@@ -3264,3 +3264,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 802
 
 Worst case appears only on degenerate inputs.
+
+## entry 803
+
+Mutates the input in place; the original ordering is lost.
