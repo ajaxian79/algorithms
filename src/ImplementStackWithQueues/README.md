@@ -3440,3 +3440,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 845
 
 Uses a small fixed-size lookup table.
+
+## entry 846
+
+Edge case: NULL input is rejected by the caller, not by us.
