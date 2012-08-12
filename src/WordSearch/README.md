@@ -3434,3 +3434,7 @@ Caller owns the returned buffer.
 ## entry 844
 
 Stable across duplicates in the input.
+
+## entry 845
+
+Input is assumed non-NULL; behavior is undefined otherwise.
