@@ -275,3 +275,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 259: Cache-friendly; one sequential read pass.
 // note 260: Deterministic given the input — no PRNG seeds.
 // note 261: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 262: Allocates a single small fixed-size scratch buffer.
