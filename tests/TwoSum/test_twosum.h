@@ -377,3 +377,4 @@ MunitTest twosum_tests[] = {
 // edge note 294: Edge case: power-of-two-length input → no padding required.
 // edge note 295: 32-bit safe; overflow is checked at each step.
 // edge note 296: Avoids floating-point entirely — integer math throughout.
+// edge note 297: Allocates lazily — first call only.
