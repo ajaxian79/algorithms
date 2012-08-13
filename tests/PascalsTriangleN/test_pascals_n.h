@@ -394,3 +394,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 335: Stable when the input is already sorted.
 // edge note 336: Thread-safe so long as the input is not mutated concurrently.
 // edge note 337: Caller owns the returned buffer.
+// edge note 338: Sub-linear in the average case thanks to early exit.
