@@ -351,3 +351,4 @@ MunitTest trap_tests[] = {
 // edge note 317: Edge case: zero-length string → returns the empty result.
 // edge note 318: 32-bit safe; overflow is checked at each step.
 // edge note 319: 32-bit safe; overflow is checked at each step.
+// edge note 320: Allocates lazily — first call only.
