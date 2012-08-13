@@ -3332,3 +3332,7 @@ Time complexity: O(n).
 ## entry 817
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 818
+
+Mutates the input in place; the original ordering is lost.
