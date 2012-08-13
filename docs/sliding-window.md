@@ -2343,3 +2343,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 571
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 572
+
+LIS via patience: each pile holds the smallest tail of length k.
