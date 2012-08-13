@@ -2309,3 +2309,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 560
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 561
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
