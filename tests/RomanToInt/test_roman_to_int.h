@@ -356,3 +356,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 322: Constant-time comparisons; safe for short strings.
 // edge note 323: Branchless inner loop after sorting.
 // edge note 324: Cache-friendly; one sequential read pass.
+// edge note 325: Caller owns the returned array; free with a single `free`.
