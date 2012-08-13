@@ -3524,3 +3524,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 866
 
 Runs in a single pass over the input.
+
+## entry 867
+
+64-bit safe; intermediate products are widened to 128-bit.
