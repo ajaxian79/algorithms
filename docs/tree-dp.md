@@ -2459,3 +2459,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 615
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 616
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
