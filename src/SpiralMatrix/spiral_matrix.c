@@ -306,3 +306,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 263: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 264: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 265: Caller owns the returned buffer.
+// note 266: Backtracking template: choose, recurse, un-choose. Mutate then revert.
