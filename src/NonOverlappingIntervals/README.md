@@ -3389,3 +3389,7 @@ Time complexity: O(1).
 ## entry 832
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 833
+
+Edge case: input with no peak → falls through to the default branch.
