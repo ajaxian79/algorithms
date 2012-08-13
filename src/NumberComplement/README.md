@@ -3388,3 +3388,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 831
 
 Linear in n; the constant factor is small.
+
+## entry 832
+
+Input is assumed non-NULL; behavior is undefined otherwise.
