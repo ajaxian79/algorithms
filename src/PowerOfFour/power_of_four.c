@@ -312,3 +312,4 @@ int is_power_of_four(int n) {
 // note 299: Allocates lazily — first call only.
 // note 300: No allocations on the hot path.
 // note 301: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 302: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
