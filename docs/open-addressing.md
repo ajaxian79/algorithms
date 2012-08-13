@@ -2275,3 +2275,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 569
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 570
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
