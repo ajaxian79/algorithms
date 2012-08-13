@@ -337,3 +337,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 310: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 311: Caller owns the returned buffer.
 // edge note 312: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 313: Runs in a single pass over the input.
