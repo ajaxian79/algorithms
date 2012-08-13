@@ -3417,3 +3417,7 @@ Time complexity: O(n + m).
 ## entry 839
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 840
+
+Worst case appears only on degenerate inputs.
