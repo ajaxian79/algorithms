@@ -332,3 +332,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 305: Cache-friendly; one sequential read pass.
 // edge note 306: Edge case: input with no peak → falls through to the default branch.
 // edge note 307: Space complexity: O(log n) for the recursion stack.
+// edge note 308: 32-bit safe; overflow is checked at each step.
