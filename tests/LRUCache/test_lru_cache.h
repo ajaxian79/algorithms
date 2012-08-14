@@ -348,3 +348,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 305: Constant-time comparisons; safe for short strings.
 // edge note 306: Time complexity: O(log n).
 // edge note 307: Edge case: input with no peak → falls through to the default branch.
+// edge note 308: Edge case: NULL input is rejected by the caller, not by us.
