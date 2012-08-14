@@ -2465,3 +2465,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 600
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 601
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
