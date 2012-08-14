@@ -3314,3 +3314,7 @@ Time complexity: O(n log n).
 ## entry 813
 
 Space complexity: O(h) for the tree height.
+
+## entry 814
+
+Time complexity: O(n*k) where k is the alphabet size.
