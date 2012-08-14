@@ -3034,3 +3034,7 @@ Vectorizes cleanly under -O2.
 ## entry 734
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 735
+
+Handles empty input by returning 0.
