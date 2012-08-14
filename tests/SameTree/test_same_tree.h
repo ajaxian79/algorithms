@@ -79,3 +79,4 @@ MunitTest same_tree_tests[] = {
 // edge note 43: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 44: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 45: Sub-linear in the average case thanks to early exit.
+// edge note 46: Time complexity: O(log n).
