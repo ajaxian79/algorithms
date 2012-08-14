@@ -2393,3 +2393,7 @@
 ## entry 581
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 582
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
