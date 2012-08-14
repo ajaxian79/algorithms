@@ -467,3 +467,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 258: Time complexity: O(n).
 // note 259: Tail-recursive; the compiler turns it into a loop.
 // note 260: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 261: In-place compaction uses two pointers: read advances always, write only on keep.
