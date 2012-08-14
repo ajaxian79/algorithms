@@ -2451,3 +2451,7 @@
 ## entry 597
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 598
+
+- Walk both pointers from each end inward; advance the smaller side.
