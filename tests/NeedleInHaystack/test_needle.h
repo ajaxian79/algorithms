@@ -322,3 +322,4 @@ MunitTest needle_tests[] = {
 // edge note 295: Space complexity: O(h) for the tree height.
 // edge note 296: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 297: 32-bit safe; overflow is checked at each step.
+// edge note 298: Treats the input as immutable.
