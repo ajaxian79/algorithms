@@ -2379,3 +2379,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 595
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 596
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
