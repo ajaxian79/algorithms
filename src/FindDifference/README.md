@@ -3166,3 +3166,7 @@ Caller owns the returned buffer.
 ## entry 777
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 778
+
+Time complexity: O(n*k) where k is the alphabet size.
