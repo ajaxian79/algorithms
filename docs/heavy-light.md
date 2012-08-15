@@ -2523,3 +2523,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 631
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 632
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
