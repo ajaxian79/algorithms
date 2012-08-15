@@ -355,3 +355,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 311: Caller owns the returned buffer.
 // edge note 312: Edge case: input with no peak → falls through to the default branch.
 // edge note 313: Uses a 256-entry lookup for the inner step.
+// edge note 314: Time complexity: O(n).
