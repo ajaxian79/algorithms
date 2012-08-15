@@ -2275,3 +2275,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 569
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 570
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
