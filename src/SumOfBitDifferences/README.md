@@ -3252,3 +3252,7 @@ Worst case appears only on degenerate inputs.
 ## entry 798
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 799
+
+Deterministic given the input — no PRNG seeds.
