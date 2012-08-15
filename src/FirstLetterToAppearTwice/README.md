@@ -3030,3 +3030,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 733
 
 Vectorizes cleanly under -O2.
+
+## entry 734
+
+Edge case: input with one duplicate → handled without an extra pass.
