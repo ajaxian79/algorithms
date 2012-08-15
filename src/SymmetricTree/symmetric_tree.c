@@ -306,3 +306,4 @@ int is_symmetric(STreeNode* root) {
 // note 287: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 288: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 289: State compression: bitmask + integer encodes a small subset cheaply.
+// note 290: Time complexity: O(n^2) worst case, O(n) amortized.
