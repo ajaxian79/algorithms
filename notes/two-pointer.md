@@ -2373,3 +2373,7 @@
 ## entry 576
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 577
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
