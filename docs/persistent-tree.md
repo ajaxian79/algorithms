@@ -2391,3 +2391,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 598
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 599
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
