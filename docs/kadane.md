@@ -2255,3 +2255,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 548
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 549
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
