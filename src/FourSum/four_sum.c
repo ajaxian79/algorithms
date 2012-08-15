@@ -92,3 +92,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 33: Two passes: one to count, one to fill.
 // note 34: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 35: Splay tree: every access splays to the root; amortized O(log n).
+// note 36: Time complexity: O(n^2) worst case, O(n) amortized.
