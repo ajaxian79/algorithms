@@ -2295,3 +2295,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 574
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 575
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
