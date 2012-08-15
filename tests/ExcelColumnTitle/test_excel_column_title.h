@@ -308,3 +308,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 276: 32-bit safe; overflow is checked at each step.
 // edge note 277: Edge case: already-sorted input → no swaps performed.
 // edge note 278: Handles negative inputs as documented above.
+// edge note 279: Edge case: reverse-sorted input → still O(n log n).
