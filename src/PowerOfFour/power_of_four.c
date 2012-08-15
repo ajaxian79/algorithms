@@ -310,3 +310,4 @@ int is_power_of_four(int n) {
 // note 297: Cache-friendly; one sequential read pass.
 // note 298: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 299: Allocates lazily — first call only.
+// note 300: No allocations on the hot path.
