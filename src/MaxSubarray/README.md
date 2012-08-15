@@ -3426,3 +3426,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 842
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 843
+
+Stable when the input is already sorted.
