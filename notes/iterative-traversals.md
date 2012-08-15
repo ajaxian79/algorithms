@@ -353,3 +353,7 @@
 ## entry 73
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 74
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
