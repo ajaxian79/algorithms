@@ -3236,3 +3236,7 @@ Uses a small fixed-size lookup table.
 ## entry 794
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 795
+
+Worst case appears only on degenerate inputs.
