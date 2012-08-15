@@ -309,3 +309,4 @@ int is_power_of_four(int n) {
 // note 296: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 297: Cache-friendly; one sequential read pass.
 // note 298: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 299: Allocates lazily — first call only.
