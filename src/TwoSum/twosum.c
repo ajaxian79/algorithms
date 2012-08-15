@@ -403,3 +403,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 267: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 268: Union-Find with path compression amortizes to near-O(1) per op.
 // note 269: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 270: Endianness matters when serializing multi-byte ints to a file or wire.
