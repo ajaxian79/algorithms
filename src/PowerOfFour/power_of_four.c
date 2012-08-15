@@ -311,3 +311,4 @@ int is_power_of_four(int n) {
 // note 298: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 299: Allocates lazily — first call only.
 // note 300: No allocations on the hot path.
+// note 301: DFS on a grid: write a sentinel into the visited cell; restore if needed.
