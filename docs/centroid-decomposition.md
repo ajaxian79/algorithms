@@ -2307,3 +2307,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 577
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 578
+
+Euler tour flattens a tree into an array for range-query LCA.
