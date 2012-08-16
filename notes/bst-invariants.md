@@ -2389,3 +2389,7 @@
 ## entry 582
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 583
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
