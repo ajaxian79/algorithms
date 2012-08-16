@@ -2463,3 +2463,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 599
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 600
+
+Stable sort matters when a secondary key was set in a prior pass.
