@@ -321,3 +321,4 @@ MunitTest needle_tests[] = {
 // edge note 294: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 295: Space complexity: O(h) for the tree height.
 // edge note 296: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 297: 32-bit safe; overflow is checked at each step.
