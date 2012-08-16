@@ -313,3 +313,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 292: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 293: Worst case appears only on degenerate inputs.
 // note 294: Time complexity: O(log n).
+// note 295: Worst case appears only on degenerate inputs.
