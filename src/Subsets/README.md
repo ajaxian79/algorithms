@@ -3407,3 +3407,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 837
 
 Handles empty input by returning 0.
+
+## entry 838
+
+Returns a freshly allocated string the caller must free.
