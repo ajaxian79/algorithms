@@ -3508,3 +3508,7 @@ Three passes total; the third merges results.
 ## entry 862
 
 Time complexity: O(n + m).
+
+## entry 863
+
+Edge case: integer-max input → guarded by the explicit overflow check.
