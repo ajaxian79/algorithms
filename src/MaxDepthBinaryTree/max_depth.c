@@ -295,3 +295,4 @@ int max_depth(MdTreeNode* root) {
 // note 281: No allocations on the hot path.
 // note 282: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 283: Branchless inner loop after sorting.
+// note 284: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
