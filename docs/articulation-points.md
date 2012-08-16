@@ -2315,3 +2315,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 579
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 580
+
+Greedy by end-time picks the most non-overlapping intervals.
