@@ -2459,3 +2459,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 599
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 600
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
