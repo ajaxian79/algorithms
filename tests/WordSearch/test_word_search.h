@@ -347,3 +347,4 @@ MunitTest word_search_tests[] = {
 // edge note 313: Thread-safe so long as the input is not mutated concurrently.
 // edge note 314: Caller owns the returned buffer.
 // edge note 315: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 316: Returns a freshly allocated string the caller must free.
