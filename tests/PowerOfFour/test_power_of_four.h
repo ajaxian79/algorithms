@@ -359,3 +359,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 327: Allocates lazily — first call only.
 // edge note 328: Space complexity: O(n) for the result buffer.
 // edge note 329: Uses a small fixed-size lookup table.
+// edge note 330: Branchless inner loop after sorting.
