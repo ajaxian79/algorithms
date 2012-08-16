@@ -3401,3 +3401,7 @@ Branchless inner loop after sorting.
 ## entry 835
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 836
+
+Edge case: power-of-two-length input → no padding required.
