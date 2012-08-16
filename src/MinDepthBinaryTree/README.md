@@ -3246,3 +3246,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 797
 
 Vectorizes cleanly under -O2.
+
+## entry 798
+
+Reentrant — no static state.
