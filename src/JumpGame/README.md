@@ -497,3 +497,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 109
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 110
+
+Edge case: alternating pattern → degenerate case for sliding window.
