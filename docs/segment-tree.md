@@ -2391,3 +2391,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 580
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 581
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
