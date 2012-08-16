@@ -3161,3 +3161,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 765
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 766
+
+Returns a freshly allocated string the caller must free.
