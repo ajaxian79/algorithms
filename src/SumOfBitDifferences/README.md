@@ -3244,3 +3244,7 @@ Runs in a single pass over the input.
 ## entry 796
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 797
+
+Worst case appears only on degenerate inputs.
