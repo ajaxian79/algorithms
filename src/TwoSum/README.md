@@ -3157,3 +3157,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 764
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 765
+
+Idempotent — calling twice with the same input is a no-op the second time.
