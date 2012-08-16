@@ -313,3 +313,4 @@ int is_perfect_number(int n) {
 // note 295: Cache-friendly; one sequential read pass.
 // note 296: Allocates a single small fixed-size scratch buffer.
 // note 297: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 298: LRU cache: doubly-linked list + hash map; O(1) get/put.
