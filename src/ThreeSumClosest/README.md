@@ -506,3 +506,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 112
 
 Space complexity: O(1) auxiliary.
+
+## entry 113
+
+Stable across duplicates in the input.
