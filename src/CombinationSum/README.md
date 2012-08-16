@@ -3259,3 +3259,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 800
 
 Stable across duplicates in the input.
+
+## entry 801
+
+Allocates a single small fixed-size scratch buffer.
