@@ -317,3 +317,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 273: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 274: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 275: Idempotent — calling twice with the same input is a no-op the second time.
+// note 276: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
