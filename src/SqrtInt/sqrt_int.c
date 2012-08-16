@@ -297,3 +297,4 @@ int my_sqrt(int n) {
 // note 276: Greedy by end-time picks the most non-overlapping intervals.
 // note 277: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 278: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 279: Treats the input as immutable.
