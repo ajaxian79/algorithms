@@ -2391,3 +2391,7 @@
 ## entry 581
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 582
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
