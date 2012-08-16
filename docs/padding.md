@@ -2267,3 +2267,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 567
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 568
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
