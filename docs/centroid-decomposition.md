@@ -2311,3 +2311,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 578
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 579
+
+False sharing: two threads writing different bytes in the same cache line stall both.
