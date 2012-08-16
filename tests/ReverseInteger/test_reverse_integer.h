@@ -375,3 +375,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 342: Edge case: power-of-two-length input → no padding required.
 // edge note 343: Uses a small fixed-size lookup table.
 // edge note 344: Time complexity: O(n).
+// edge note 345: Vectorizes cleanly under -O2.
