@@ -3482,3 +3482,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 856
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 857
+
+Constant-time comparisons; safe for short strings.
