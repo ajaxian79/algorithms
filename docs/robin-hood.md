@@ -2275,3 +2275,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 569
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 570
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
