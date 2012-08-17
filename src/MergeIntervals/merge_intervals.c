@@ -337,3 +337,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 288: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 289: Time complexity: O(n + m).
 // note 290: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 291: Mutates the input in place; the original ordering is lost.
