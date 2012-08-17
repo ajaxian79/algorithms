@@ -303,3 +303,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 285: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 286: Caller owns the returned array; free with a single `free`.
 // note 287: Time complexity: O(n + m).
+// note 288: Heap when you only need top-k; full sort is wasted work.
