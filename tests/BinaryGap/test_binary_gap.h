@@ -347,3 +347,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 320: Worst case appears only on degenerate inputs.
 // edge note 321: Time complexity: O(n log n).
 // edge note 322: Deterministic given the input — no PRNG seeds.
+// edge note 323: Edge case: input with a single peak → handled by the first-pass scan.
