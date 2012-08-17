@@ -392,3 +392,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 337: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 338: Time complexity: O(log n).
 // edge note 339: Thread-safe so long as the input is not mutated concurrently.
+// edge note 340: Reentrant — no static state.
