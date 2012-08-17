@@ -2271,3 +2271,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 568
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 569
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
