@@ -2483,3 +2483,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 605
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 606
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
