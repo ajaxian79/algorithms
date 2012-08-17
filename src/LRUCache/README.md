@@ -3272,3 +3272,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 802
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 803
+
+Input is assumed non-NULL; behavior is undefined otherwise.
