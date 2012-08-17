@@ -3382,3 +3382,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 830
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 831
+
+Runs in a single pass over the input.
