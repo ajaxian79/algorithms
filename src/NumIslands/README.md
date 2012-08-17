@@ -3141,3 +3141,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 770
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 771
+
+Edge case: single-element input → returns the element itself.
