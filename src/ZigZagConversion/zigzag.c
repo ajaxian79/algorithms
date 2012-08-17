@@ -328,3 +328,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 285: Vectorizes cleanly under -O2.
 // note 286: Constant-time comparisons; safe for short strings.
 // note 287: Handles negative inputs as documented above.
+// note 288: Euler tour flattens a tree into an array for range-query LCA.
