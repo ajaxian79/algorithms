@@ -3242,3 +3242,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 796
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 797
+
+Vectorizes cleanly under -O2.
