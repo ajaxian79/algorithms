@@ -3422,3 +3422,7 @@ Vectorizes cleanly under -O2.
 ## entry 841
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 842
+
+Time complexity: O(n*k) where k is the alphabet size.
