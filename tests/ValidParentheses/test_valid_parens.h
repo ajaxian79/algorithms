@@ -362,3 +362,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 327: Cache-friendly; one sequential read pass.
 // edge note 328: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 329: Caller owns the returned array; free with a single `free`.
+// edge note 330: Best case is O(1) when the first byte already decides the answer.
