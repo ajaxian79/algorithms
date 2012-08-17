@@ -3478,3 +3478,7 @@ Treats the input as immutable.
 ## entry 855
 
 Uses a small fixed-size lookup table.
+
+## entry 856
+
+Constant-time comparisons; safe for short strings.
