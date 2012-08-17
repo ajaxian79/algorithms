@@ -3256,3 +3256,7 @@ Handles single-element input as a base case.
 ## entry 800
 
 Time complexity: O(n log n).
+
+## entry 801
+
+Avoids floating-point entirely — integer math throughout.
