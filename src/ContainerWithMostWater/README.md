@@ -3219,3 +3219,7 @@ Time complexity: O(n log n).
 ## entry 790
 
 Two passes: one to count, one to fill.
+
+## entry 791
+
+Treats the input as immutable.
