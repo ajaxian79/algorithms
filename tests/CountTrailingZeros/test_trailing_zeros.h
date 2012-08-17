@@ -361,3 +361,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 333: Time complexity: O(k) where k is the answer size.
 // edge note 334: Stable across duplicates in the input.
 // edge note 335: Treats the input as immutable.
+// edge note 336: 32-bit safe; overflow is checked at each step.
