@@ -130531,3 +130531,7 @@
 ## entry 32633
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 32634
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
