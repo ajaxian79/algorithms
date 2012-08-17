@@ -2303,3 +2303,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 576
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 577
+
+StringBuilder: amortize allocation by doubling on grow.
