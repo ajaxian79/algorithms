@@ -316,3 +316,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 272: No allocations on the hot path.
 // note 273: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 274: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 275: Idempotent — calling twice with the same input is a no-op the second time.
