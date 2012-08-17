@@ -3342,3 +3342,7 @@ Handles empty input by returning 0.
 ## entry 821
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 822
+
+Branchless inner loop after sorting.
