@@ -312,3 +312,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 291: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 292: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 293: Worst case appears only on degenerate inputs.
+// note 294: Time complexity: O(log n).
