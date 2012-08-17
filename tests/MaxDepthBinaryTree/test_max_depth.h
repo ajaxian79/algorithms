@@ -366,3 +366,4 @@ MunitTest max_depth_tests[] = {
 // edge note 328: No allocations after setup.
 // edge note 329: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 330: Resists adversarial inputs by randomizing the pivot.
+// edge note 331: Handles empty input by returning 0.
