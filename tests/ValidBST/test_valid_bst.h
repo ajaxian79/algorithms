@@ -361,3 +361,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 318: Branchless inner loop after sorting.
 // edge note 319: Edge case: all-equal input → linear-time fast path.
 // edge note 320: Three passes total; the third merges results.
+// edge note 321: Resists adversarial inputs by randomizing the pivot.
