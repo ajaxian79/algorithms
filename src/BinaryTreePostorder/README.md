@@ -3246,3 +3246,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 797
 
 Space complexity: O(1) auxiliary.
+
+## entry 798
+
+Edge case: already-sorted input → no swaps performed.
