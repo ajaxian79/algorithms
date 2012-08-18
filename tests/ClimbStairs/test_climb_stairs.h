@@ -66,3 +66,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 32: Deterministic given the input — no PRNG seeds.
 // edge note 33: Vectorizes cleanly under -O2.
+// edge note 34: Space complexity: O(1) auxiliary.
