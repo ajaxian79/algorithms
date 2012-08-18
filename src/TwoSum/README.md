@@ -3153,3 +3153,7 @@ Stable when the input is already sorted.
 ## entry 763
 
 Constant-time comparisons; safe for short strings.
+
+## entry 764
+
+Allocates a single small fixed-size scratch buffer.
