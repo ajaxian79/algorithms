@@ -3317,3 +3317,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 814
 
 Three passes total; the third merges results.
+
+## entry 815
+
+Worst case appears only on degenerate inputs.
