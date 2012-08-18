@@ -3409,3 +3409,7 @@ Handles empty input by returning 0.
 ## entry 837
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 838
+
+Time complexity: O(n + m).
