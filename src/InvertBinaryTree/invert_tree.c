@@ -289,3 +289,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 274: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 275: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 276: Time complexity: O(k) where k is the answer size.
+// note 277: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
