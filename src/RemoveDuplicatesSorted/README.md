@@ -3498,3 +3498,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 860
 
 32-bit safe; overflow is checked at each step.
+
+## entry 861
+
+Time complexity: O(log n).
