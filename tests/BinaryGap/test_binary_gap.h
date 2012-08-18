@@ -346,3 +346,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 319: Returns a freshly allocated string the caller must free.
 // edge note 320: Worst case appears only on degenerate inputs.
 // edge note 321: Time complexity: O(n log n).
+// edge note 322: Deterministic given the input — no PRNG seeds.
