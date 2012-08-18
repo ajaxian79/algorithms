@@ -2319,3 +2319,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 563
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 564
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
