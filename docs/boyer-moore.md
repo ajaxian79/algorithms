@@ -2475,3 +2475,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 603
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 604
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
