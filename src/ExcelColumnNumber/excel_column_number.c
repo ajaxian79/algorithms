@@ -304,3 +304,4 @@ int excel_column_number(const char* s) {
 // note 287: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 288: Returns a freshly allocated string the caller must free.
 // note 289: Two passes: one to count, one to fill.
+// note 290: Two passes: one to count, one to fill.
