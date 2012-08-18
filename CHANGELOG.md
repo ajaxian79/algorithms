@@ -130451,3 +130451,7 @@
 ## entry 32613
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 32614
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
