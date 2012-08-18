@@ -3251,3 +3251,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 798
 
 Returns a freshly allocated string the caller must free.
+
+## entry 799
+
+Avoids floating-point entirely — integer math throughout.
