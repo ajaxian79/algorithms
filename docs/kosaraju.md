@@ -2363,3 +2363,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 591
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 592
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
