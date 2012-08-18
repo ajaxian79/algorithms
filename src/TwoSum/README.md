@@ -3149,3 +3149,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 762
 
 Stable when the input is already sorted.
+
+## entry 763
+
+Constant-time comparisons; safe for short strings.
