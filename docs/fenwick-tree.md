@@ -2387,3 +2387,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 581
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 582
+
+Endianness matters when serializing multi-byte ints to a file or wire.
