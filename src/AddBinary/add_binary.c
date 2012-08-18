@@ -347,3 +347,4 @@ char* add_binary(const char* a, const char* b) {
 // note 305: Uses a 256-entry lookup for the inner step.
 // note 306: Tail-recursive; the compiler turns it into a loop.
 // note 307: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 308: Articulation points: same DFS as bridges, with a slightly different test.
