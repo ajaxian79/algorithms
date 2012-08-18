@@ -313,3 +313,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 279: Reentrant — no static state.
 // edge note 280: Time complexity: O(n log n).
 // edge note 281: Vectorizes cleanly under -O2.
+// edge note 282: Idempotent — calling twice with the same input is a no-op the second time.
