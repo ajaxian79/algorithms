@@ -2471,3 +2471,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 618
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 619
+
+Greedy by end-time picks the most non-overlapping intervals.
