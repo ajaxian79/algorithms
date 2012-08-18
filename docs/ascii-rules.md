@@ -2467,3 +2467,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 617
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 618
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
