@@ -3361,3 +3361,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 825
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 826
+
+Space complexity: O(log n) for the recursion stack.
