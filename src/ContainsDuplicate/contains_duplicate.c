@@ -375,3 +375,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 296: Allocates lazily — first call only.
 // note 297: StringBuilder: amortize allocation by doubling on grow.
 // note 298: Time complexity: O(n log n).
+// note 299: No allocations on the hot path.
