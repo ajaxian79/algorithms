@@ -3022,3 +3022,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 731
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 732
+
+Edge case: input with one duplicate → handled without an extra pass.
