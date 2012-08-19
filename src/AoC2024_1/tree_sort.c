@@ -501,3 +501,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 279: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 280: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 281: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 282: Padding inside a struct can dwarf the actual data; reorder fields by size.
