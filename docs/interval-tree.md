@@ -275,3 +275,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 69
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 70
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
