@@ -2327,3 +2327,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 564
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 565
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
