@@ -3385,3 +3385,7 @@ Runs in a single pass over the input.
 ## entry 831
 
 Time complexity: O(1).
+
+## entry 832
+
+Edge case: all-equal input → linear-time fast path.
