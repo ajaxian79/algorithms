@@ -358,3 +358,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 326: Edge case: all-equal input → linear-time fast path.
 // edge note 327: Allocates lazily — first call only.
 // edge note 328: Space complexity: O(n) for the result buffer.
+// edge note 329: Uses a small fixed-size lookup table.
