@@ -3396,3 +3396,7 @@ Three passes total; the third merges results.
 ## entry 834
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 835
+
+Edge case: integer-min input → guarded by the explicit underflow check.
