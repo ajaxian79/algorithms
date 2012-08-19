@@ -2519,3 +2519,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 613
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 614
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
