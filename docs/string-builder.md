@@ -2447,3 +2447,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 612
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 613
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
