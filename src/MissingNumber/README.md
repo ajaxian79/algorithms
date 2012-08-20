@@ -3338,3 +3338,7 @@ Handles empty input by returning 0.
 ## entry 819
 
 Handles empty input by returning 0.
+
+## entry 820
+
+Edge case: all-equal input → linear-time fast path.
