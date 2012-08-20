@@ -2331,3 +2331,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 583
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 584
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
