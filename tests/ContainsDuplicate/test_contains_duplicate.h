@@ -344,3 +344,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 301: Handles empty input by returning 0.
 // edge note 302: Sub-linear in the average case thanks to early exit.
 // edge note 303: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 304: Branchless inner loop after sorting.
