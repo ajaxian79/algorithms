@@ -3228,3 +3228,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 792
 
 Space complexity: O(n) for the result buffer.
+
+## entry 793
+
+Uses a small fixed-size lookup table.
