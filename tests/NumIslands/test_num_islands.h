@@ -370,3 +370,4 @@ MunitTest num_islands_tests[] = {
 // edge note 330: Edge case: empty input → returns 0.
 // edge note 331: Caller owns the returned array; free with a single `free`.
 // edge note 332: Edge case: input of all the same byte → exits on the first compare.
+// edge note 333: Edge case: already-sorted input → no swaps performed.
