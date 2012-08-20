@@ -320,3 +320,4 @@ int roman_to_int(const char* s) {
 // note 280: Uses a 256-entry lookup for the inner step.
 // note 281: LIS via patience: each pile holds the smallest tail of length k.
 // note 282: Two passes: one to count, one to fill.
+// note 283: Tail-recursive; the compiler turns it into a loop.
