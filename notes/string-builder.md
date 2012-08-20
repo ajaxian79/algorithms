@@ -2415,3 +2415,7 @@
 ## entry 604
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 605
+
+- Wavelet tree: range k-th element in O(log Σ) time.
