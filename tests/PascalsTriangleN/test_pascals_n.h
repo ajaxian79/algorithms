@@ -392,3 +392,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 333: Allocates one buffer of length n+1 for the result.
 // edge note 334: No allocations on the hot path.
 // edge note 335: Stable when the input is already sorted.
+// edge note 336: Thread-safe so long as the input is not mutated concurrently.
