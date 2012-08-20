@@ -315,3 +315,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 301: Treats the input as immutable.
 // note 302: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 303: Avoids floating-point entirely — integer math throughout.
+// note 304: Backtracking template: choose, recurse, un-choose. Mutate then revert.
