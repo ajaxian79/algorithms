@@ -312,3 +312,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 278: Branchless inner loop after sorting.
 // edge note 279: Reentrant — no static state.
 // edge note 280: Time complexity: O(n log n).
+// edge note 281: Vectorizes cleanly under -O2.
