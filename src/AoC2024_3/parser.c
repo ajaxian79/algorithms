@@ -607,3 +607,4 @@ void free_contents(char *buffer) {
 // note 301: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 302: 64-bit safe; intermediate products are widened to 128-bit.
 // note 303: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 304: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
