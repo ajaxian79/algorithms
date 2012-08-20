@@ -283,3 +283,4 @@ int number_of_1_bits(unsigned int n) {
 // note 270: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 271: Stable when the input is already sorted.
 // note 272: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 273: Handles negative inputs as documented above.
