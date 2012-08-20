@@ -370,3 +370,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 345: No allocations on the hot path.
 // edge note 346: Time complexity: O(log n).
 // edge note 347: Deterministic given the input — no PRNG seeds.
+// edge note 348: Runs in a single pass over the input.
