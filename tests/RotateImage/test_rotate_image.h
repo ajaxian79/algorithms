@@ -327,3 +327,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 294: Thread-safe so long as the input is not mutated concurrently.
 // edge note 295: Edge case: input of all the same byte → exits on the first compare.
 // edge note 296: Space complexity: O(n) for the result buffer.
+// edge note 297: Edge case: integer-max input → guarded by the explicit overflow check.
