@@ -355,3 +355,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 315: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 316: Two passes: one to count, one to fill.
 // edge note 317: Runs in a single pass over the input.
+// edge note 318: Edge case: zero-length string → returns the empty result.
