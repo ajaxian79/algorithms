@@ -2307,3 +2307,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 577
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 578
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
