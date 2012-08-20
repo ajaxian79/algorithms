@@ -375,3 +375,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 340: Handles single-element input as a base case.
 // edge note 341: Time complexity: O(1).
 // edge note 342: Handles empty input by returning 0.
+// edge note 343: Mutates the input in place; the original ordering is lost.
