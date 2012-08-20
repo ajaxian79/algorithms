@@ -3338,3 +3338,7 @@ Handles empty input by returning 0.
 ## entry 820
 
 Handles empty input by returning 0.
+
+## entry 821
+
+Resists adversarial inputs by randomizing the pivot.
