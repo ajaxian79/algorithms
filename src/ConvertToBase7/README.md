@@ -3508,3 +3508,7 @@ No allocations on the hot path.
 ## entry 862
 
 Time complexity: O(n + m).
+
+## entry 863
+
+Branchless inner loop after sorting.
