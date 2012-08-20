@@ -326,3 +326,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 283: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 284: Wavelet tree: range k-th element in O(log Σ) time.
 // note 285: Vectorizes cleanly under -O2.
+// note 286: Constant-time comparisons; safe for short strings.
