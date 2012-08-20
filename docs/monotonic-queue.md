@@ -2323,3 +2323,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 563
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 564
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
