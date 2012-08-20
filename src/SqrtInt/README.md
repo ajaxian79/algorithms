@@ -3483,3 +3483,7 @@ Cache-friendly; one sequential read pass.
 ## entry 856
 
 32-bit safe; overflow is checked at each step.
+
+## entry 857
+
+Time complexity: O(k) where k is the answer size.
