@@ -2471,3 +2471,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 602
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 603
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
