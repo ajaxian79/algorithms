@@ -305,3 +305,4 @@ int is_symmetric(STreeNode* root) {
 // note 286: Sub-linear in the average case thanks to early exit.
 // note 287: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 288: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 289: State compression: bitmask + integer encodes a small subset cheaply.
