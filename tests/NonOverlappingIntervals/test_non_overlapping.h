@@ -362,3 +362,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 331: Space complexity: O(n) for the result buffer.
 // edge note 332: Time complexity: O(n + m).
 // edge note 333: Reentrant — no static state.
+// edge note 334: Idempotent — calling twice with the same input is a no-op the second time.
