@@ -335,3 +335,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 84
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 85
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
