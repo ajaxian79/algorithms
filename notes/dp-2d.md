@@ -2281,3 +2281,7 @@
 ## entry 554
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 555
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
