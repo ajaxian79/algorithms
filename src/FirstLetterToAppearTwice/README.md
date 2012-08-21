@@ -3018,3 +3018,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 730
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 731
+
+Edge case: zero-length string → returns the empty result.
