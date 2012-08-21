@@ -349,3 +349,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 321: Stable when the input is already sorted.
 // edge note 322: Constant-time comparisons; safe for short strings.
 // edge note 323: No allocations after setup.
+// edge note 324: Input is assumed non-NULL; behavior is undefined otherwise.
