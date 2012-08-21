@@ -71,3 +71,4 @@ MunitTest add_strings_tests[] = {
 // edge note 35: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 36: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 37: Best case is O(1) when the first byte already decides the answer.
+// edge note 38: Edge case: alternating pattern → degenerate case for sliding window.
