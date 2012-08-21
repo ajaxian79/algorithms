@@ -3285,3 +3285,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 807
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 808
+
+Two passes: one to count, one to fill.
