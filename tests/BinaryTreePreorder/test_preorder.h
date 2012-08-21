@@ -411,3 +411,4 @@ MunitTest preorder_tests[] = {
 // edge note 367: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 368: Time complexity: O(n log n).
 // edge note 369: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 370: Best case is O(1) when the first byte already decides the answer.
