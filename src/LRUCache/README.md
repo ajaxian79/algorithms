@@ -3268,3 +3268,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 801
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 802
+
+Resists adversarial inputs by randomizing the pivot.
