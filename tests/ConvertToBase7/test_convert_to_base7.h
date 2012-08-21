@@ -311,3 +311,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 282: Time complexity: O(n).
 // edge note 283: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 284: Two passes: one to count, one to fill.
+// edge note 285: Caller owns the returned array; free with a single `free`.
