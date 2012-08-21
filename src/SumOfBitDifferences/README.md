@@ -3240,3 +3240,7 @@ Time complexity: O(n + m).
 ## entry 795
 
 Runs in a single pass over the input.
+
+## entry 796
+
+Edge case: maximum-length input → still fits in 32-bit indices.
