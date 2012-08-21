@@ -2299,3 +2299,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 575
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 576
+
+Rope: tree of small string fragments; O(log n) concat and substring.
