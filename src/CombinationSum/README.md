@@ -3247,3 +3247,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 797
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 798
+
+Returns a freshly allocated string the caller must free.
