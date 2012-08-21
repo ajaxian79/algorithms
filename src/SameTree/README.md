@@ -3252,3 +3252,7 @@ Reentrant — no static state.
 ## entry 799
 
 Handles single-element input as a base case.
+
+## entry 800
+
+Time complexity: O(n log n).
