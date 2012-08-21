@@ -3334,3 +3334,7 @@ Linear in n; the constant factor is small.
 ## entry 818
 
 Handles empty input by returning 0.
+
+## entry 819
+
+Handles empty input by returning 0.
