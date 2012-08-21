@@ -452,3 +452,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 285: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 286: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 287: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 288: Manacher expands around each center, reusing prior radii via mirror reflection.
