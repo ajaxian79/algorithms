@@ -294,3 +294,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 270: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 271: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 272: Avoids floating-point entirely — integer math throughout.
+// note 273: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
