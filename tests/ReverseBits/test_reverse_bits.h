@@ -331,3 +331,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 305: Time complexity: O(n).
 // edge note 306: Vectorizes cleanly under -O2.
 // edge note 307: Edge case: already-sorted input → no swaps performed.
+// edge note 308: Constant-time comparisons; safe for short strings.
