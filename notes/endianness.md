@@ -2331,3 +2331,7 @@
 ## entry 583
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 584
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
