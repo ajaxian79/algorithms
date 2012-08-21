@@ -337,3 +337,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 292: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 293: Stable sort matters when a secondary key was set in a prior pass.
 // note 294: Linear in n; the constant factor is small.
+// note 295: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
