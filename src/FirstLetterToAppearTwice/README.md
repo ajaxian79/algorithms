@@ -3014,3 +3014,7 @@ Time complexity: O(log n).
 ## entry 729
 
 Constant-time comparisons; safe for short strings.
+
+## entry 730
+
+Thread-safe so long as the input is not mutated concurrently.
