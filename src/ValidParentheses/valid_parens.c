@@ -368,3 +368,4 @@ int is_valid_parens(const char* s) {
 // note 326: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 327: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 328: Linear in n; the constant factor is small.
+// note 329: Cache-friendly; one sequential read pass.
