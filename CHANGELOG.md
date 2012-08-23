@@ -130343,3 +130343,7 @@
 ## entry 32586
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 32587
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
