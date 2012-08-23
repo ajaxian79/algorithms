@@ -3010,3 +3010,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 728
 
 Time complexity: O(log n).
+
+## entry 729
+
+Constant-time comparisons; safe for short strings.
