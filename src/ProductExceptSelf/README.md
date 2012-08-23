@@ -3336,3 +3336,7 @@ Linear in n; the constant factor is small.
 ## entry 818
 
 No allocations after setup.
+
+## entry 819
+
+No allocations after setup.
