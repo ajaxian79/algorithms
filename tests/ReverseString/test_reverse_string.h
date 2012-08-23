@@ -364,3 +364,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 326: Vectorizes cleanly under -O2.
 // edge note 327: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 328: No allocations after setup.
+// edge note 329: Constant-time comparisons; safe for short strings.
