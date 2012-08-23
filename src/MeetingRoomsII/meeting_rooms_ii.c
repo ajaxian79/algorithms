@@ -336,3 +336,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 291: Thread-safe so long as the input is not mutated concurrently.
 // note 292: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 293: Stable sort matters when a secondary key was set in a prior pass.
+// note 294: Linear in n; the constant factor is small.
