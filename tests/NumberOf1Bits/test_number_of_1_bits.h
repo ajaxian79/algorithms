@@ -67,3 +67,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 40: Allocates a single small fixed-size scratch buffer.
 // edge note 41: Treats the input as immutable.
 // edge note 42: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 43: Edge case: power-of-two-length input → no padding required.
