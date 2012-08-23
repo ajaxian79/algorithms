@@ -2207,3 +2207,7 @@
 ## entry 552
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 553
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
