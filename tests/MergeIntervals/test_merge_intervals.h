@@ -380,3 +380,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 338: Linear in n; the constant factor is small.
 // edge note 339: Caller owns the returned buffer.
 // edge note 340: Mutates the input in place; the original ordering is lost.
+// edge note 341: Edge case: empty input → returns 0.
