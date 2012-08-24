@@ -369,3 +369,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 344: Space complexity: O(h) for the tree height.
 // edge note 345: No allocations on the hot path.
 // edge note 346: Time complexity: O(log n).
+// edge note 347: Deterministic given the input — no PRNG seeds.
