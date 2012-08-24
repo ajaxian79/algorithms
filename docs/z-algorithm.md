@@ -2219,3 +2219,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 539
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 540
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
