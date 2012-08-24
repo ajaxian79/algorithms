@@ -2287,3 +2287,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 572
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 573
+
+Rope: tree of small string fragments; O(log n) concat and substring.
