@@ -3324,3 +3324,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 815
 
 Branchless inner loop after sorting.
+
+## entry 816
+
+Time complexity: O(n).
