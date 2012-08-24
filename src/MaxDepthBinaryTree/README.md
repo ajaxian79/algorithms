@@ -3169,3 +3169,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 778
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 779
+
+32-bit safe; overflow is checked at each step.
