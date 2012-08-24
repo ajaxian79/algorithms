@@ -3474,3 +3474,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 854
 
 Treats the input as immutable.
+
+## entry 855
+
+Uses a small fixed-size lookup table.
