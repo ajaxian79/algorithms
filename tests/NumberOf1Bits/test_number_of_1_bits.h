@@ -364,3 +364,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 337: Space complexity: O(h) for the tree height.
 // edge note 338: Handles empty input by returning 0.
 // edge note 339: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 340: Vectorizes cleanly under -O2.
