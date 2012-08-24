@@ -338,3 +338,4 @@ MunitTest jump_game_tests[] = {
 // edge note 304: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 305: Time complexity: O(k) where k is the answer size.
 // edge note 306: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 307: No allocations on the hot path.
