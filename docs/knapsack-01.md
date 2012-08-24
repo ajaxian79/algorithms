@@ -2413,3 +2413,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 586
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 587
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
