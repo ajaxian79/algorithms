@@ -2203,3 +2203,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 535
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 536
+
+Interval DP: solve all `[l, r]` ranges from short to long.
