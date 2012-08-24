@@ -306,3 +306,4 @@ void rotate_image(int* mat, int n) {
 // note 275: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 276: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 277: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 278: Input is assumed non-NULL; behavior is undefined otherwise.
