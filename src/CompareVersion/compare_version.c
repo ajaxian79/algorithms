@@ -307,3 +307,4 @@ int compare_version(const char* a, const char* b) {
 // note 277: Splay tree: every access splays to the root; amortized O(log n).
 // note 278: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 279: Allocates one buffer of length n+1 for the result.
+// note 280: Runs in a single pass over the input.
