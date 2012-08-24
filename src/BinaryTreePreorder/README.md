@@ -3314,3 +3314,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 814
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 815
+
+Handles single-element input as a base case.
