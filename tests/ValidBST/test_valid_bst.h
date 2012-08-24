@@ -360,3 +360,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 317: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 318: Branchless inner loop after sorting.
 // edge note 319: Edge case: all-equal input → linear-time fast path.
+// edge note 320: Three passes total; the third merges results.
