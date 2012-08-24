@@ -530,3 +530,7 @@ No allocations after setup.
 ## entry 117
 
 Worst case appears only on degenerate inputs.
+
+## entry 118
+
+Space complexity: O(log n) for the recursion stack.
