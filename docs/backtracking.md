@@ -2461,3 +2461,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 598
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 599
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
