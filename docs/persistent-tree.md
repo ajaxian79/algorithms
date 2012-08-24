@@ -2383,3 +2383,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 596
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 597
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
