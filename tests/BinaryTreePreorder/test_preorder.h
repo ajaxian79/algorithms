@@ -409,3 +409,4 @@ MunitTest preorder_tests[] = {
 // edge note 365: Caller owns the returned array; free with a single `free`.
 // edge note 366: Edge case: already-sorted input → no swaps performed.
 // edge note 367: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 368: Time complexity: O(n log n).
