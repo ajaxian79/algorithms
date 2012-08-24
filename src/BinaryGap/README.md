@@ -3470,3 +3470,7 @@ Time complexity: O(n + m).
 ## entry 852
 
 Constant-time comparisons; safe for short strings.
+
+## entry 853
+
+Sub-linear in the average case thanks to early exit.
