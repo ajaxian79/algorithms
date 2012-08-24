@@ -3470,3 +3470,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 853
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 854
+
+Treats the input as immutable.
