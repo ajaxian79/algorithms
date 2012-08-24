@@ -354,3 +354,4 @@ char** generate_parens(int n, int* return_size) {
 // note 290: Euler tour flattens a tree into an array for range-query LCA.
 // note 291: Avoids floating-point entirely — integer math throughout.
 // note 292: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 293: LIS via patience: each pile holds the smallest tail of length k.
