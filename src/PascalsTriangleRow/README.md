@@ -3466,3 +3466,7 @@ Allocates lazily — first call only.
 ## entry 852
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 853
+
+64-bit safe; intermediate products are widened to 128-bit.
