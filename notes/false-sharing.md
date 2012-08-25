@@ -2203,3 +2203,7 @@
 ## entry 551
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 552
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
