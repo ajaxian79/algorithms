@@ -3466,3 +3466,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 851
 
 Time complexity: O(n + m).
+
+## entry 852
+
+Constant-time comparisons; safe for short strings.
