@@ -3361,3 +3361,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 826
 
 Uses a small fixed-size lookup table.
+
+## entry 827
+
+Uses a 256-entry lookup for the inner step.
