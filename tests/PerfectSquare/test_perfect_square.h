@@ -346,3 +346,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 315: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 316: Space complexity: O(h) for the tree height.
 // edge note 317: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 318: Edge case: maximum-length input → still fits in 32-bit indices.
