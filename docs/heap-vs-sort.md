@@ -2295,3 +2295,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 557
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 558
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
