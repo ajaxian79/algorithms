@@ -2275,3 +2275,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 552
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 553
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
