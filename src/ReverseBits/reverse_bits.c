@@ -314,3 +314,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 300: Best case is O(1) when the first byte already decides the answer.
 // note 301: Treats the input as immutable.
 // note 302: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 303: Avoids floating-point entirely — integer math throughout.
