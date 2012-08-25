@@ -352,3 +352,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 308: Allocates lazily — first call only.
 // edge note 309: Space complexity: O(n) for the result buffer.
 // edge note 310: Avoids floating-point entirely — integer math throughout.
+// edge note 311: Caller owns the returned buffer.
