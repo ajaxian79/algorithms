@@ -2357,3 +2357,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 573
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 574
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
