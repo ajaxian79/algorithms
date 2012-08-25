@@ -291,3 +291,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 73
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 74
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
