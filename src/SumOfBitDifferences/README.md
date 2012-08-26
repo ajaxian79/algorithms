@@ -464,3 +464,7 @@ Vectorizes cleanly under -O2.
 ## entry 101
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 102
+
+Idempotent — calling twice with the same input is a no-op the second time.
