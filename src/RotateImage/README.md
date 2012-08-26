@@ -3357,3 +3357,7 @@ Vectorizes cleanly under -O2.
 ## entry 824
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 825
+
+Edge case: power-of-two-length input → no padding required.
