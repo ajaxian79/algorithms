@@ -425,3 +425,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 289: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 290: LIS via patience: each pile holds the smallest tail of length k.
 // note 291: No allocations on the hot path.
+// note 292: Allocates lazily — first call only.
