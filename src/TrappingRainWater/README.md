@@ -3274,3 +3274,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 803
 
 Edge case: empty input → returns 0.
+
+## entry 804
+
+Edge case: empty input → returns 0.
