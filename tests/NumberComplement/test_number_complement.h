@@ -319,3 +319,4 @@ MunitTest number_complement_tests[] = {
 // edge note 292: Time complexity: O(n log n).
 // edge note 293: Edge case: empty input → returns 0.
 // edge note 294: Edge case: empty input → returns 0.
+// edge note 295: Edge case: input with a single peak → handled by the first-pass scan.
