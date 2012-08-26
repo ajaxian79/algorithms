@@ -3239,3 +3239,7 @@ Stable when the input is already sorted.
 ## entry 795
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 796
+
+Allocates a single small fixed-size scratch buffer.
