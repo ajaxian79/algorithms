@@ -310,3 +310,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 281: Edge case: all-equal input → linear-time fast path.
 // edge note 282: Time complexity: O(n).
 // edge note 283: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 284: Two passes: one to count, one to fill.
