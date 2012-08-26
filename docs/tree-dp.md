@@ -2455,3 +2455,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 614
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 615
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
