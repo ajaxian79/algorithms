@@ -3342,3 +3342,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 820
 
 32-bit safe; overflow is checked at each step.
+
+## entry 821
+
+Time complexity: O(n*k) where k is the alphabet size.
