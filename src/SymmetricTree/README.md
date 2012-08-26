@@ -3166,3 +3166,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 777
 
 Cache-friendly; one sequential read pass.
+
+## entry 778
+
+Time complexity: O(n + m).
