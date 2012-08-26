@@ -130215,3 +130215,7 @@
 ## entry 32554
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 32555
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
