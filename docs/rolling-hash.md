@@ -2315,3 +2315,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 562
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 563
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
