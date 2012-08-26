@@ -363,3 +363,4 @@ char* count_and_say(int n) {
 // note 314: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 315: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 316: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 317: BFS layers carry implicit shortest-path distance in unweighted graphs.
