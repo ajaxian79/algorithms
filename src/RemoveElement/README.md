@@ -3273,3 +3273,7 @@ Cache-friendly; one sequential read pass.
 ## entry 804
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 805
+
+Best case is O(1) when the first byte already decides the answer.
