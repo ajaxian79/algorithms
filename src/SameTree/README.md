@@ -3248,3 +3248,7 @@ Handles single-element input as a base case.
 ## entry 798
 
 Reentrant — no static state.
+
+## entry 799
+
+Handles single-element input as a base case.
