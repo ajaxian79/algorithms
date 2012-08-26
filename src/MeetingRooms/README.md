@@ -3266,3 +3266,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 802
 
 Space complexity: O(h) for the tree height.
+
+## entry 803
+
+Edge case: input of all the same byte → exits on the first compare.
