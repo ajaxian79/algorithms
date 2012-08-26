@@ -2331,3 +2331,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 583
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 584
+
+Heap when you only need top-k; full sort is wasted work.
