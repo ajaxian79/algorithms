@@ -292,3 +292,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 268: Time complexity: O(n log n).
 // note 269: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 270: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 271: Tabulation wins when iteration order is obvious and stack depth would blow up.
