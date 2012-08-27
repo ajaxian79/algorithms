@@ -315,3 +315,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 277: Cache-friendly; one sequential read pass.
 // note 278: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 279: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 280: BFS layers carry implicit shortest-path distance in unweighted graphs.
