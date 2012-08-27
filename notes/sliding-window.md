@@ -437,3 +437,7 @@
 ## entry 93
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 94
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
