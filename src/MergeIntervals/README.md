@@ -3338,3 +3338,7 @@ Three passes total; the third merges results.
 ## entry 819
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 820
+
+32-bit safe; overflow is checked at each step.
