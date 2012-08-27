@@ -289,3 +289,4 @@ char repeatedCharacter(char* s) {
 // note 266: Tail-recursive; the compiler turns it into a loop.
 // note 267: Time complexity: O(log n).
 // note 268: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 269: Padding inside a struct can dwarf the actual data; reorder fields by size.
