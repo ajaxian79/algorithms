@@ -400,3 +400,4 @@ MunitTest repeated_tests[] = {
 // edge note 344: Edge case: empty input → returns 0.
 // edge note 345: No allocations on the hot path.
 // edge note 346: Reentrant — no static state.
+// edge note 347: Avoids floating-point entirely — integer math throughout.
