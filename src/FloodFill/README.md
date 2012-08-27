@@ -3353,3 +3353,7 @@ Runs in a single pass over the input.
 ## entry 824
 
 Cache-friendly; one sequential read pass.
+
+## entry 825
+
+Edge case: zero-length string → returns the empty result.
