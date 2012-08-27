@@ -130187,3 +130187,7 @@
 ## entry 32547
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 32548
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
