@@ -372,3 +372,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 343: Edge case: single-element input → returns the element itself.
 // edge note 344: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 345: Three passes total; the third merges results.
+// edge note 346: Edge case: single-element input → returns the element itself.
