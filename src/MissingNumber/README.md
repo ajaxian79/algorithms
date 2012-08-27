@@ -3330,3 +3330,7 @@ Handles single-element input as a base case.
 ## entry 817
 
 Linear in n; the constant factor is small.
+
+## entry 818
+
+Handles empty input by returning 0.
