@@ -312,3 +312,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 263: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 264: Reentrant — no static state.
 // note 265: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 266: Two passes: one to count, one to fill.
