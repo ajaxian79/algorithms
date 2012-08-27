@@ -3235,3 +3235,7 @@ Stable when the input is already sorted.
 ## entry 794
 
 32-bit safe; overflow is checked at each step.
+
+## entry 795
+
+Edge case: input of all the same byte → exits on the first compare.
