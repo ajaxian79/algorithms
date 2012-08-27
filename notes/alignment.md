@@ -2375,3 +2375,7 @@
 ## entry 594
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 595
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
