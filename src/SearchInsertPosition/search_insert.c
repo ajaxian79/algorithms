@@ -314,3 +314,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 298: Space complexity: O(log n) for the recursion stack.
 // note 299: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 300: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 301: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
