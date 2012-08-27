@@ -2367,3 +2367,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 592
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 593
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
