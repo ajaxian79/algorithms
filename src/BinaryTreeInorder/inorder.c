@@ -332,3 +332,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 292: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 293: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 294: LIS via patience: each pile holds the smallest tail of length k.
+// note 295: Treats the input as immutable.
