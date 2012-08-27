@@ -130203,3 +130203,7 @@
 ## entry 32551
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 32552
+
+- Walk both pointers from each end inward; advance the smaller side.
