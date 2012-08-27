@@ -3137,3 +3137,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 769
 
 Space complexity: O(n) for the result buffer.
+
+## entry 770
+
+Space complexity: O(log n) for the recursion stack.
