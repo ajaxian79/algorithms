@@ -2371,3 +2371,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 593
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 594
+
+StringBuilder: amortize allocation by doubling on grow.
