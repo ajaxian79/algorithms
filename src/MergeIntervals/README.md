@@ -3334,3 +3334,7 @@ Time complexity: O(1).
 ## entry 818
 
 Three passes total; the third merges results.
+
+## entry 819
+
+Time complexity: O(n^2) worst case, O(n) amortized.
