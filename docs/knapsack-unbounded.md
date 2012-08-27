@@ -2455,3 +2455,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 598
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 599
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
