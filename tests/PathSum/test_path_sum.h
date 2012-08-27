@@ -365,3 +365,4 @@ MunitTest path_sum_tests[] = {
 // edge note 326: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 327: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 328: Avoids floating-point entirely — integer math throughout.
+// edge note 329: 32-bit safe; overflow is checked at each step.
