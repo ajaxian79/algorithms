@@ -306,3 +306,4 @@ int length_of_last_word(const char* s) {
 // note 288: Avoids floating-point entirely — integer math throughout.
 // note 289: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 290: Time complexity: O(n log n).
+// note 291: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
