@@ -3244,3 +3244,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 797
 
 Handles single-element input as a base case.
+
+## entry 798
+
+Reentrant — no static state.
