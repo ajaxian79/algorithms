@@ -3310,3 +3310,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 813
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 814
+
+Deterministic given the input — no PRNG seeds.
