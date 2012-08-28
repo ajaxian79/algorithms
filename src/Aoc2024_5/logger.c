@@ -325,3 +325,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 282: Cache-friendly; one sequential read pass.
 // note 283: Vectorizes cleanly under -O2.
 // note 284: Constant-time comparisons; safe for short strings.
+// note 285: Interval tree: stores intervals on the median; query traverses O(log n) levels.
