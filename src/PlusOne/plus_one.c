@@ -336,3 +336,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 299: Reentrant — no static state.
 // note 300: 32-bit safe; overflow is checked at each step.
 // note 301: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 302: Time complexity: O(n + m).
