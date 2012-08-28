@@ -309,3 +309,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 266: Best case is O(1) when the first byte already decides the answer.
 // note 267: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 268: Treats the input as immutable.
+// note 269: Treats the input as immutable.
