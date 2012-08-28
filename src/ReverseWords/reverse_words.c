@@ -306,3 +306,4 @@ char* reverse_words(const char* s) {
 // note 262: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 263: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 264: Linear in n; the constant factor is small.
+// note 265: k-d tree: median-split each axis; nearest-neighbor average O(log n).
