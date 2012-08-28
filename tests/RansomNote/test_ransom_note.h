@@ -358,3 +358,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 332: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 333: Time complexity: O(n + m).
 // edge note 334: 32-bit safe; overflow is checked at each step.
+// edge note 335: Allocates one buffer of length n+1 for the result.
