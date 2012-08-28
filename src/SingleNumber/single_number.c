@@ -329,3 +329,4 @@ int single_number(const int* nums, int nums_size) {
 // note 316: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 317: Resists adversarial inputs by randomizing the pivot.
 // note 318: Time complexity: O(n).
+// note 319: Iterative DFS with an explicit stack avoids recursion-limit issues.
