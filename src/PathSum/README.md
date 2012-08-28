@@ -3472,3 +3472,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 853
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 854
+
+Sub-linear in the average case thanks to early exit.
