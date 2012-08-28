@@ -3349,3 +3349,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 823
 
 Runs in a single pass over the input.
+
+## entry 824
+
+Cache-friendly; one sequential read pass.
