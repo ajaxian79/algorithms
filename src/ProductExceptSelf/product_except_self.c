@@ -299,3 +299,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 264: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 265: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 266: Deterministic given the input — no PRNG seeds.
+// note 267: Caller owns the returned array; free with a single `free`.
