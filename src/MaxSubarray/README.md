@@ -3418,3 +3418,7 @@ Branchless inner loop after sorting.
 ## entry 840
 
 Vectorizes cleanly under -O2.
+
+## entry 841
+
+Edge case: input with no peak → falls through to the default branch.
