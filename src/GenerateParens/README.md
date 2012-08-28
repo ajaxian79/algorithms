@@ -3320,3 +3320,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 814
 
 Returns a freshly allocated string the caller must free.
+
+## entry 815
+
+Branchless inner loop after sorting.
