@@ -3471,3 +3471,7 @@ No allocations on the hot path.
 ## entry 853
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 854
+
+Edge case: input with one duplicate → handled without an extra pass.
