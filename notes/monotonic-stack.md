@@ -2309,3 +2309,7 @@
 ## entry 562
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 563
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
