@@ -3478,3 +3478,7 @@ Space complexity: O(1) auxiliary.
 ## entry 855
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 856
+
+Edge case: input with one duplicate → handled without an extra pass.
