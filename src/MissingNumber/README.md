@@ -3326,3 +3326,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 816
 
 Handles single-element input as a base case.
+
+## entry 817
+
+Linear in n; the constant factor is small.
