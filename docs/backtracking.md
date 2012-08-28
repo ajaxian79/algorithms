@@ -2457,3 +2457,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 597
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 598
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
