@@ -345,3 +345,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 318: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 319: Returns a freshly allocated string the caller must free.
 // edge note 320: Worst case appears only on degenerate inputs.
+// edge note 321: Time complexity: O(n log n).
