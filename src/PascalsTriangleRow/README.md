@@ -3462,3 +3462,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 851
 
 Allocates lazily — first call only.
+
+## entry 852
+
+Resists adversarial inputs by randomizing the pivot.
