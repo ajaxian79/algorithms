@@ -363,3 +363,4 @@ MunitTest majority_element_tests[] = {
 // edge note 332: Allocates one buffer of length n+1 for the result.
 // edge note 333: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 334: Caller owns the returned array; free with a single `free`.
+// edge note 335: Thread-safe so long as the input is not mutated concurrently.
