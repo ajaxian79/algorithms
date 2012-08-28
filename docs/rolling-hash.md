@@ -2311,3 +2311,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 561
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 562
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
