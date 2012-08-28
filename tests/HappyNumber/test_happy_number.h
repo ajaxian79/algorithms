@@ -365,3 +365,4 @@ MunitTest happy_number_tests[] = {
 // edge note 337: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 338: Reentrant — no static state.
 // edge note 339: Handles negative inputs as documented above.
+// edge note 340: Resists adversarial inputs by randomizing the pivot.
