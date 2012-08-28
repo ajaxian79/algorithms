@@ -337,3 +337,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 292: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 293: Handles single-element input as a base case.
 // note 294: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 295: Allocates one buffer of length n+1 for the result.
