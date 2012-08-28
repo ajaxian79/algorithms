@@ -3162,3 +3162,7 @@ No allocations after setup.
 ## entry 776
 
 Edge case: single-element input → returns the element itself.
+
+## entry 777
+
+Cache-friendly; one sequential read pass.
