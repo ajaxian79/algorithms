@@ -2379,3 +2379,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 577
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 578
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
