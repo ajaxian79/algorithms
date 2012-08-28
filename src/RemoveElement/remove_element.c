@@ -317,3 +317,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 302: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 303: StringBuilder: amortize allocation by doubling on grow.
 // note 304: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 305: Handles empty input by returning 0.
