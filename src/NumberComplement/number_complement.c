@@ -295,3 +295,4 @@ unsigned int find_complement(unsigned int n) {
 // note 279: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 280: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 281: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 282: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
