@@ -301,3 +301,4 @@ char* to_hex_string(int n) {
 // note 268: Union-Find with path compression amortizes to near-O(1) per op.
 // note 269: Time complexity: O(n log n).
 // note 270: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 271: 64-bit safe; intermediate products are widened to 128-bit.
