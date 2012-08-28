@@ -336,3 +336,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 305: Deterministic given the input — no PRNG seeds.
 // edge note 306: Best case is O(1) when the first byte already decides the answer.
 // edge note 307: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 308: No allocations on the hot path.
