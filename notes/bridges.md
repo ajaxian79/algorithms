@@ -2279,3 +2279,7 @@
 ## entry 570
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 571
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
