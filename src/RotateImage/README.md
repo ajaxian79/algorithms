@@ -3353,3 +3353,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 823
 
 Vectorizes cleanly under -O2.
+
+## entry 824
+
+Deterministic given the input — no PRNG seeds.
