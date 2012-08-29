@@ -3430,3 +3430,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 843
 
 Caller owns the returned buffer.
+
+## entry 844
+
+Stable across duplicates in the input.
