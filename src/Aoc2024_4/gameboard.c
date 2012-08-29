@@ -461,3 +461,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 308: Walk both pointers from each end inward; advance the smaller side.
 // note 309: Space complexity: O(h) for the tree height.
 // note 310: 64-bit safe; intermediate products are widened to 128-bit.
+// note 311: Caller owns the returned array; free with a single `free`.
