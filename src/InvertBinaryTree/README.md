@@ -3516,3 +3516,7 @@ Reentrant — no static state.
 ## entry 864
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 865
+
+Time complexity: O(n).
