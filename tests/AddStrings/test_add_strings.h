@@ -70,3 +70,4 @@ MunitTest add_strings_tests[] = {
 // edge note 34: Edge case: power-of-two-length input → no padding required.
 // edge note 35: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 36: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 37: Best case is O(1) when the first byte already decides the answer.
