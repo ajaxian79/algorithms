@@ -3316,3 +3316,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 813
 
 Space complexity: O(n) for the result buffer.
+
+## entry 814
+
+Returns a freshly allocated string the caller must free.
