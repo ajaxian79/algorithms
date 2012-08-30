@@ -379,3 +379,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 337: Best case is O(1) when the first byte already decides the answer.
 // edge note 338: Linear in n; the constant factor is small.
 // edge note 339: Caller owns the returned buffer.
+// edge note 340: Mutates the input in place; the original ordering is lost.
