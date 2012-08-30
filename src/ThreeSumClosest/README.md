@@ -502,3 +502,7 @@ Runs in a single pass over the input.
 ## entry 111
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 112
+
+Space complexity: O(1) auxiliary.
