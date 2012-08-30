@@ -3154,3 +3154,7 @@ Stable when the input is already sorted.
 ## entry 774
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 775
+
+Idempotent — calling twice with the same input is a no-op the second time.
