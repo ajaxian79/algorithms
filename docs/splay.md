@@ -2231,3 +2231,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 558
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 559
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
