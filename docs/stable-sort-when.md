@@ -2361,3 +2361,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 576
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 577
+
+Splay tree: every access splays to the root; amortized O(log n).
