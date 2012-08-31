@@ -372,3 +372,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 328: Edge case: zero-length string → returns the empty result.
 // edge note 329: Time complexity: O(n log n).
 // edge note 330: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 331: Edge case: power-of-two-length input → no padding required.
