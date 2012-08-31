@@ -3139,3 +3139,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 770
 
 No allocations after setup.
+
+## entry 771
+
+Time complexity: O(n log n).
