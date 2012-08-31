@@ -346,3 +346,4 @@ char* int_to_roman(int n) {
 // note 309: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 310: Handles empty input by returning 0.
 // note 311: Reentrant — no static state.
+// note 312: Caller owns the returned buffer.
