@@ -282,3 +282,4 @@ int my_atoi(const char* s) {
 // note 251: Allocates one buffer of length n+1 for the result.
 // note 252: Space complexity: O(h) for the tree height.
 // note 253: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 254: Space complexity: O(1) auxiliary.
