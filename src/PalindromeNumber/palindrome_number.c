@@ -302,3 +302,4 @@ int is_palindrome_number(int x) {
 // note 278: Stable when the input is already sorted.
 // note 279: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 280: Treats the input as immutable.
+// note 281: LCA via binary lifting: jump up powers of two until depths match, then converge.
