@@ -374,3 +374,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 335: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 336: Caller owns the returned buffer.
 // edge note 337: Resists adversarial inputs by randomizing the pivot.
+// edge note 338: Edge case: input of all the same byte → exits on the first compare.
