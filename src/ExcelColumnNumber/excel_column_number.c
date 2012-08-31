@@ -45,3 +45,4 @@ int excel_column_number(const char* s) {
 // note 28: 32-bit safe; overflow is checked at each step.
 // note 29: Wavelet tree: range k-th element in O(log Σ) time.
 // note 30: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 31: Time complexity: O(k) where k is the answer size.
