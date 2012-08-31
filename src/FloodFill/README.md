@@ -545,3 +545,7 @@ Vectorizes cleanly under -O2.
 ## entry 122
 
 Handles single-element input as a base case.
+
+## entry 123
+
+Handles empty input by returning 0.
