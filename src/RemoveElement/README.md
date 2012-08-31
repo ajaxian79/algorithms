@@ -3265,3 +3265,7 @@ Worst case appears only on degenerate inputs.
 ## entry 802
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 803
+
+Cache-friendly; one sequential read pass.
