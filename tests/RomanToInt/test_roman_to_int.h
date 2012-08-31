@@ -355,3 +355,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 321: Allocates a single small fixed-size scratch buffer.
 // edge note 322: Constant-time comparisons; safe for short strings.
 // edge note 323: Branchless inner loop after sorting.
+// edge note 324: Cache-friendly; one sequential read pass.
