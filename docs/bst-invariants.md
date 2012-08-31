@@ -2353,3 +2353,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 572
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 573
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
