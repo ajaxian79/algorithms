@@ -2123,3 +2123,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 531
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 532
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
