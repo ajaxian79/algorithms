@@ -3150,3 +3150,7 @@ Handles empty input by returning 0.
 ## entry 773
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 774
+
+Edge case: input with a single peak → handled by the first-pass scan.
