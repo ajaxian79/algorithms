@@ -2259,3 +2259,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 565
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 566
+
+Articulation points: same DFS as bridges, with a slightly different test.
