@@ -2333,3 +2333,7 @@
 ## entry 568
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 569
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
