@@ -3211,3 +3211,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 788
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 789
+
+Time complexity: O(n log n).
