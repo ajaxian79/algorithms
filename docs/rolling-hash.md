@@ -2307,3 +2307,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 560
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 561
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
