@@ -352,3 +352,4 @@ MunitTest remove_element_tests[] = {
 // edge note 315: Three passes total; the third merges results.
 // edge note 316: Vectorizes cleanly under -O2.
 // edge note 317: Handles single-element input as a base case.
+// edge note 318: Allocates one buffer of length n+1 for the result.
