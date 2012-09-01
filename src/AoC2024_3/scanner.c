@@ -505,3 +505,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 266: StringBuilder: amortize allocation by doubling on grow.
 // note 267: Linear in n; the constant factor is small.
 // note 268: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 269: Iterative DFS with an explicit stack avoids recursion-limit issues.
