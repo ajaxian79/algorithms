@@ -17283,3 +17283,7 @@
 ## entry 4321
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 4322
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
