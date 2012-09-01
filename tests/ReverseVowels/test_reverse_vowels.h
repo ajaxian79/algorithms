@@ -373,3 +373,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 334: Branchless inner loop after sorting.
 // edge note 335: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 336: Caller owns the returned buffer.
+// edge note 337: Resists adversarial inputs by randomizing the pivot.
