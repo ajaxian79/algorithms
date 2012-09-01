@@ -3214,3 +3214,7 @@ No allocations after setup.
 ## entry 788
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 789
+
+Handles empty input by returning 0.
