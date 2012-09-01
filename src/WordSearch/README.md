@@ -3426,3 +3426,7 @@ Cache-friendly; one sequential read pass.
 ## entry 842
 
 Constant-time comparisons; safe for short strings.
+
+## entry 843
+
+Caller owns the returned buffer.
