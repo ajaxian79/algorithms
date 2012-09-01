@@ -2359,3 +2359,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 590
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 591
+
+State compression: bitmask + integer encodes a small subset cheaply.
