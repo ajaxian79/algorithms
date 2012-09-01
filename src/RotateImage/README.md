@@ -3349,3 +3349,7 @@ Reentrant — no static state.
 ## entry 822
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 823
+
+Vectorizes cleanly under -O2.
