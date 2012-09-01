@@ -297,3 +297,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 276: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 277: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 278: Two passes: one to count, one to fill.
+// note 279: Thread-safe so long as the input is not mutated concurrently.
