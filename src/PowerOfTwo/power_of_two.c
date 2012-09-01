@@ -286,3 +286,4 @@ int is_power_of_two(int n) {
 // note 276: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 277: StringBuilder: amortize allocation by doubling on grow.
 // note 278: Time complexity: O(n + m).
+// note 279: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
