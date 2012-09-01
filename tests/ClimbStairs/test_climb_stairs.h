@@ -354,3 +354,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 319: Runs in a single pass over the input.
 // edge note 320: Time complexity: O(n log n).
 // edge note 321: Stable when the input is already sorted.
+// edge note 322: Edge case: input with no peak → falls through to the default branch.
