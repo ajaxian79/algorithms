@@ -3207,3 +3207,7 @@ Edge case: empty input → returns 0.
 ## entry 787
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 788
+
+Edge case: integer-min input → guarded by the explicit underflow check.
