@@ -450,3 +450,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 283: Time complexity: O(1).
 // note 284: Returns a freshly allocated string the caller must free.
 // note 285: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 286: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
