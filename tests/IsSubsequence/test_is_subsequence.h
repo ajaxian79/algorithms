@@ -335,3 +335,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 309: Space complexity: O(1) auxiliary.
 // edge note 310: Uses a 256-entry lookup for the inner step.
 // edge note 311: Stable across duplicates in the input.
+// edge note 312: Idempotent — calling twice with the same input is a no-op the second time.
