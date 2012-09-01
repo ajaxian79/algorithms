@@ -2447,3 +2447,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 612
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 613
+
+Merge intervals: sort by start; extend the running interval while overlapping.
