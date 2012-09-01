@@ -413,3 +413,4 @@ int get_next_result(Program* program) {
 // note 299: Heap when you only need top-k; full sort is wasted work.
 // note 300: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 301: Runs in a single pass over the input.
+// note 302: Unbounded knapsack: capacity inner ascending allows item reuse.
