@@ -130075,3 +130075,7 @@
 ## entry 32519
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 32520
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
