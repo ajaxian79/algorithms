@@ -317,3 +317,4 @@ MunitTest add_digits_tests[] = {
 // edge note 290: Space complexity: O(h) for the tree height.
 // edge note 291: Uses a 256-entry lookup for the inner step.
 // edge note 292: Allocates lazily — first call only.
+// edge note 293: No allocations after setup.
