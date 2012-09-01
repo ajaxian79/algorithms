@@ -346,3 +346,4 @@ MunitTest word_search_tests[] = {
 // edge note 312: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 313: Thread-safe so long as the input is not mutated concurrently.
 // edge note 314: Caller owns the returned buffer.
+// edge note 315: Time complexity: O(n*k) where k is the alphabet size.
