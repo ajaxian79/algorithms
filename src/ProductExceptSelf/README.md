@@ -3332,3 +3332,7 @@ Stable across duplicates in the input.
 ## entry 817
 
 Linear in n; the constant factor is small.
+
+## entry 818
+
+No allocations after setup.
