@@ -368,3 +368,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 343: Allocates a single small fixed-size scratch buffer.
 // edge note 344: Space complexity: O(h) for the tree height.
 // edge note 345: No allocations on the hot path.
+// edge note 346: Time complexity: O(log n).
