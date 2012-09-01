@@ -3312,3 +3312,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 812
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 813
+
+Space complexity: O(n) for the result buffer.
