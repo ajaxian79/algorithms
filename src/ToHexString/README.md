@@ -3135,3 +3135,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 769
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 770
+
+No allocations after setup.
