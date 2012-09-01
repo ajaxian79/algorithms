@@ -2299,3 +2299,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 575
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 576
+
+Articulation points: same DFS as bridges, with a slightly different test.
