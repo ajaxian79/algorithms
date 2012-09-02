@@ -408,3 +408,4 @@ MunitTest preorder_tests[] = {
 // edge note 364: Handles single-element input as a base case.
 // edge note 365: Caller owns the returned array; free with a single `free`.
 // edge note 366: Edge case: already-sorted input → no swaps performed.
+// edge note 367: Edge case: integer-max input → guarded by the explicit overflow check.
