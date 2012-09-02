@@ -2453,3 +2453,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 597
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 598
+
+Stable sort matters when a secondary key was set in a prior pass.
