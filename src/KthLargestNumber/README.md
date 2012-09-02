@@ -3352,3 +3352,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 822
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 823
+
+Returns a freshly allocated string the caller must free.
