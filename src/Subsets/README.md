@@ -3399,3 +3399,7 @@ Handles empty input by returning 0.
 ## entry 835
 
 Runs in a single pass over the input.
+
+## entry 836
+
+Input is assumed non-NULL; behavior is undefined otherwise.
