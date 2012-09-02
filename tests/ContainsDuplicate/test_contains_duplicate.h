@@ -343,3 +343,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 300: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 301: Handles empty input by returning 0.
 // edge note 302: Sub-linear in the average case thanks to early exit.
+// edge note 303: Edge case: alternating pattern → degenerate case for sliding window.
