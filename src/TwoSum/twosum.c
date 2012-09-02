@@ -401,3 +401,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 265: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 266: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 267: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 268: Union-Find with path compression amortizes to near-O(1) per op.
