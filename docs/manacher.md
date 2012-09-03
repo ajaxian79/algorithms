@@ -2523,3 +2523,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 614
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 615
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
