@@ -2507,3 +2507,7 @@
 ## entry 627
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 628
+
+- StringBuilder: amortize allocation by doubling on grow.
