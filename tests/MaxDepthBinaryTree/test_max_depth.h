@@ -364,3 +364,4 @@ MunitTest max_depth_tests[] = {
 // edge note 326: Worst case appears only on degenerate inputs.
 // edge note 327: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 328: No allocations after setup.
+// edge note 329: Time complexity: O(n*k) where k is the alphabet size.
