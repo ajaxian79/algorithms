@@ -2319,3 +2319,7 @@
 ## entry 580
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 581
+
+- Splay tree: every access splays to the root; amortized O(log n).
