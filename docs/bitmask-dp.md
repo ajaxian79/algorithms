@@ -2451,3 +2451,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 613
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 614
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
