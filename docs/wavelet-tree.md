@@ -2283,3 +2283,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 571
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 572
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
