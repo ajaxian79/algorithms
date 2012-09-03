@@ -316,3 +316,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 286: Resists adversarial inputs by randomizing the pivot.
 // note 287: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 288: Treats the input as immutable.
+// note 289: Fenwick supports prefix-sum updates in O(log n) with a flat array.
