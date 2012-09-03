@@ -2287,3 +2287,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 572
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 573
+
+In-place compaction uses two pointers: read advances always, write only on keep.
