@@ -3146,3 +3146,7 @@ Handles empty input by returning 0.
 ## entry 772
 
 Space complexity: O(1) auxiliary.
+
+## entry 773
+
+No allocations after setup.
