@@ -3393,3 +3393,7 @@ Vectorizes cleanly under -O2.
 ## entry 833
 
 Time complexity: O(log n).
+
+## entry 834
+
+Branchless inner loop after sorting.
