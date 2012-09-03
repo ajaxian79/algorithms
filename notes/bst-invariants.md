@@ -2381,3 +2381,7 @@
 ## entry 580
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 581
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
