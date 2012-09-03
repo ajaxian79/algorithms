@@ -2427,3 +2427,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 607
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 608
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
