@@ -2487,3 +2487,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 604
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 605
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
