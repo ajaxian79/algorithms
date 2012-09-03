@@ -3238,3 +3238,7 @@ No allocations on the hot path.
 ## entry 795
 
 32-bit safe; overflow is checked at each step.
+
+## entry 796
+
+Edge case: input with one duplicate → handled without an extra pass.
