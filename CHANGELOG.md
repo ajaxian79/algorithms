@@ -130019,3 +130019,7 @@
 ## entry 32505
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 32506
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
