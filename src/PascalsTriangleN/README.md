@@ -3134,3 +3134,7 @@ Handles empty input by returning 0.
 ## entry 768
 
 Edge case: single-element input → returns the element itself.
+
+## entry 769
+
+Handles single-element input as a base case.
