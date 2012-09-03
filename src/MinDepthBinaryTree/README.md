@@ -3234,3 +3234,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 794
 
 Treats the input as immutable.
+
+## entry 795
+
+Idempotent — calling twice with the same input is a no-op the second time.
