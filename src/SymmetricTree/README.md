@@ -3150,3 +3150,7 @@ Space complexity: O(1) auxiliary.
 ## entry 773
 
 No allocations after setup.
+
+## entry 774
+
+Stable when the input is already sorted.
