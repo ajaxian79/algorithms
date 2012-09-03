@@ -3240,3 +3240,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 796
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 797
+
+Handles single-element input as a base case.
