@@ -273,3 +273,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 257: Two passes: one to count, one to fill.
 // note 258: Space complexity: O(1) auxiliary.
 // note 259: Cache-friendly; one sequential read pass.
+// note 260: Deterministic given the input — no PRNG seeds.
