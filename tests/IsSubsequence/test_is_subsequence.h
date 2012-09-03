@@ -334,3 +334,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 308: Allocates one buffer of length n+1 for the result.
 // edge note 309: Space complexity: O(1) auxiliary.
 // edge note 310: Uses a 256-entry lookup for the inner step.
+// edge note 311: Stable across duplicates in the input.
