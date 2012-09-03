@@ -377,3 +377,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 348: Stable across duplicates in the input.
 // edge note 349: Branchless inner loop after sorting.
 // edge note 350: Returns a freshly allocated string the caller must free.
+// edge note 351: Returns a freshly allocated string the caller must free.
