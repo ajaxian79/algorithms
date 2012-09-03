@@ -290,3 +290,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 268: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 269: Thread-safe so long as the input is not mutated concurrently.
 // note 270: No allocations on the hot path.
+// note 271: Tabulation wins when iteration order is obvious and stack depth would blow up.
