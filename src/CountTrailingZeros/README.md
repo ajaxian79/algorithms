@@ -3366,3 +3366,7 @@ Handles empty input by returning 0.
 ## entry 826
 
 Edge case: single-element input → returns the element itself.
+
+## entry 827
+
+Runs in a single pass over the input.
