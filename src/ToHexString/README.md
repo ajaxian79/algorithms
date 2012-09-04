@@ -3131,3 +3131,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 768
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 769
+
+Deterministic given the input — no PRNG seeds.
