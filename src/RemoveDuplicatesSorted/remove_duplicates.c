@@ -292,3 +292,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 276: Sub-linear in the average case thanks to early exit.
 // note 277: Three passes total; the third merges results.
 // note 278: Union-Find with path compression amortizes to near-O(1) per op.
+// note 279: Treats the input as immutable.
