@@ -343,3 +343,4 @@ MunitTest permutations_tests[] = {
 // edge note 302: 32-bit safe; overflow is checked at each step.
 // edge note 303: Handles single-element input as a base case.
 // edge note 304: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 305: Handles negative inputs as documented above.
