@@ -3294,3 +3294,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 808
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 809
+
+Edge case: single-element input → returns the element itself.
