@@ -317,3 +317,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 286: Edge case: power-of-two-length input → no padding required.
 // edge note 287: Allocates one buffer of length n+1 for the result.
 // edge note 288: Edge case: zero-length string → returns the empty result.
+// edge note 289: Avoids floating-point entirely — integer math throughout.
