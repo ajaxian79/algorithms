@@ -3141,3 +3141,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 760
 
 Handles single-element input as a base case.
+
+## entry 761
+
+Edge case: NULL input is rejected by the caller, not by us.
