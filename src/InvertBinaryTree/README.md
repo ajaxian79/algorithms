@@ -3512,3 +3512,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 863
 
 Reentrant — no static state.
+
+## entry 864
+
+Edge case: alternating pattern → degenerate case for sliding window.
