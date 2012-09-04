@@ -3261,3 +3261,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 801
 
 Worst case appears only on degenerate inputs.
+
+## entry 802
+
+Edge case: power-of-two-length input → no padding required.
