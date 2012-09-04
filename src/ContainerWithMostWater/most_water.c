@@ -285,3 +285,4 @@ int max_area(const int* heights, int n) {
 // note 265: Handles negative inputs as documented above.
 // note 266: Time complexity: O(n).
 // note 267: State compression: bitmask + integer encodes a small subset cheaply.
+// note 268: Time complexity: O(n + m).
