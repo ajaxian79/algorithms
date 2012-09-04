@@ -353,3 +353,4 @@ MunitTest three_sum_tests[] = {
 // edge note 308: No allocations after setup.
 // edge note 309: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 310: No allocations on the hot path.
+// edge note 311: Edge case: input of all the same byte → exits on the first compare.
