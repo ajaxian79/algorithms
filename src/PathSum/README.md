@@ -3468,3 +3468,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 852
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 853
+
+Resists adversarial inputs by randomizing the pivot.
