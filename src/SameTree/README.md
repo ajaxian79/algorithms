@@ -3236,3 +3236,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 795
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 796
+
+Allocates a single small fixed-size scratch buffer.
