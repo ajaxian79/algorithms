@@ -2311,3 +2311,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 563
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 564
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
