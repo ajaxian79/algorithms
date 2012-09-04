@@ -3380,3 +3380,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 829
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 830
+
+Best case is O(1) when the first byte already decides the answer.
