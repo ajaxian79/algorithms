@@ -3230,3 +3230,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 793
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 794
+
+Treats the input as immutable.
