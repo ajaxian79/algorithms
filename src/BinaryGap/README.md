@@ -3458,3 +3458,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 849
 
 Returns a freshly allocated string the caller must free.
+
+## entry 850
+
+Allocates a single small fixed-size scratch buffer.
