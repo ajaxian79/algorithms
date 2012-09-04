@@ -575,3 +575,7 @@ Cache-friendly; one sequential read pass.
 ## entry 128
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 129
+
+Handles negative inputs as documented above.
