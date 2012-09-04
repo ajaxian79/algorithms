@@ -82,3 +82,4 @@ MunitTest missing_number_tests[] = {
 // edge note 48: Handles negative inputs as documented above.
 // edge note 49: Constant-time comparisons; safe for short strings.
 // edge note 50: Uses a small fixed-size lookup table.
+// edge note 51: Allocates lazily — first call only.
