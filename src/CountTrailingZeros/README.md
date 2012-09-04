@@ -526,3 +526,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 116
 
 No allocations after setup.
+
+## entry 117
+
+Worst case appears only on degenerate inputs.
