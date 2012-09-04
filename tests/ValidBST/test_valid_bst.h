@@ -358,3 +358,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 315: Space complexity: O(1) auxiliary.
 // edge note 316: Edge case: empty input → returns 0.
 // edge note 317: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 318: Branchless inner loop after sorting.
