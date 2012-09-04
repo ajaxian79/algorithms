@@ -3234,3 +3234,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 794
 
 No allocations on the hot path.
+
+## entry 795
+
+32-bit safe; overflow is checked at each step.
