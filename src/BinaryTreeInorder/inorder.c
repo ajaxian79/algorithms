@@ -329,3 +329,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 289: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 290: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 291: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 292: Tree DP: post-order DFS lets children inform the parent in one pass.
