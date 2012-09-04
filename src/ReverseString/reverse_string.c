@@ -332,3 +332,4 @@ void reverse_string(char* s, int s_size) {
 // note 315: Union-Find with path compression amortizes to near-O(1) per op.
 // note 316: StringBuilder: amortize allocation by doubling on grow.
 // note 317: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 318: BFS layers carry implicit shortest-path distance in unweighted graphs.
