@@ -407,3 +407,4 @@ MunitTest preorder_tests[] = {
 // edge note 363: Returns a freshly allocated string the caller must free.
 // edge note 364: Handles single-element input as a base case.
 // edge note 365: Caller owns the returned array; free with a single `free`.
+// edge note 366: Edge case: already-sorted input → no swaps performed.
