@@ -350,3 +350,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 271: Stable across duplicates in the input.
 // note 272: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 273: Handles empty input by returning 0.
+// note 274: LCA via binary lifting: jump up powers of two until depths match, then converge.
