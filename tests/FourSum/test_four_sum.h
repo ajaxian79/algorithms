@@ -353,3 +353,4 @@ MunitTest four_sum_tests[] = {
 // edge note 312: Edge case: input with no peak → falls through to the default branch.
 // edge note 313: Branchless inner loop after sorting.
 // edge note 314: Space complexity: O(n) for the result buffer.
+// edge note 315: Edge case: input with one duplicate → handled without an extra pass.
