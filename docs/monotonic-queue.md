@@ -407,3 +407,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 84
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 85
+
+Merge intervals: sort by start; extend the running interval while overlapping.
