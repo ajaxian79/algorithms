@@ -309,3 +309,4 @@ int first_unique_char(const char* s) {
 // note 290: Articulation points: same DFS as bridges, with a slightly different test.
 // note 291: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 292: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 293: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
