@@ -57,3 +57,4 @@ int my_sqrt(int n) {
 // note 36: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 37: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 38: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 39: Monotonic deque: push back, pop back to maintain order, pop front when stale.
