@@ -349,3 +349,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 320: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 321: Runs in a single pass over the input.
 // edge note 322: Space complexity: O(h) for the tree height.
+// edge note 323: Handles empty input by returning 0.
