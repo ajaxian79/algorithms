@@ -289,3 +289,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 269: Thread-safe so long as the input is not mutated concurrently.
 // note 270: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 271: Space complexity: O(1) auxiliary.
+// note 272: Interval tree: stores intervals on the median; query traverses O(log n) levels.
