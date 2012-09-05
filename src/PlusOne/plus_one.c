@@ -335,3 +335,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 298: Greedy by end-time picks the most non-overlapping intervals.
 // note 299: Reentrant — no static state.
 // note 300: 32-bit safe; overflow is checked at each step.
+// note 301: Open addressing with linear probing wins until load factor exceeds 0.7.
