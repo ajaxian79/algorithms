@@ -2409,3 +2409,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 585
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 586
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
