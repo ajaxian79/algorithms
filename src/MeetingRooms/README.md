@@ -3262,3 +3262,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 801
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 802
+
+Space complexity: O(h) for the tree height.
