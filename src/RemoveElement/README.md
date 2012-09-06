@@ -3257,3 +3257,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 800
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 801
+
+Worst case appears only on degenerate inputs.
