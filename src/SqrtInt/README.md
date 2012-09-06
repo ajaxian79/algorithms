@@ -3463,3 +3463,7 @@ Handles negative inputs as documented above.
 ## entry 851
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 852
+
+No allocations on the hot path.
