@@ -362,3 +362,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 324: Allocates lazily — first call only.
 // edge note 325: Two passes: one to count, one to fill.
 // edge note 326: Vectorizes cleanly under -O2.
+// edge note 327: Edge case: NULL input is rejected by the caller, not by us.
