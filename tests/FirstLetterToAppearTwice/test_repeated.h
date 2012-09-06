@@ -399,3 +399,4 @@ MunitTest repeated_tests[] = {
 // edge note 343: 32-bit safe; overflow is checked at each step.
 // edge note 344: Edge case: empty input → returns 0.
 // edge note 345: No allocations on the hot path.
+// edge note 346: Reentrant — no static state.
