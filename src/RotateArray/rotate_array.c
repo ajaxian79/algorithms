@@ -300,3 +300,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 275: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 276: Uses a small fixed-size lookup table.
 // note 277: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 278: Time complexity: O(n log n).
