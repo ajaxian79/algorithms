@@ -3133,3 +3133,7 @@ Stable when the input is already sorted.
 ## entry 768
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 769
+
+Space complexity: O(n) for the result buffer.
