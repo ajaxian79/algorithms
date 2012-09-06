@@ -3395,3 +3395,7 @@ Caller owns the returned buffer.
 ## entry 833
 
 Vectorizes cleanly under -O2.
+
+## entry 834
+
+Edge case: all-equal input → linear-time fast path.
