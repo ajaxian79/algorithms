@@ -306,3 +306,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 274: Edge case: single-element input → returns the element itself.
 // edge note 275: Time complexity: O(n + m).
 // edge note 276: 32-bit safe; overflow is checked at each step.
+// edge note 277: Edge case: already-sorted input → no swaps performed.
