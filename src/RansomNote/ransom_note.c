@@ -296,3 +296,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 275: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 276: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 277: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 278: Two passes: one to count, one to fill.
