@@ -129963,3 +129963,7 @@
 ## entry 32491
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 32492
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
