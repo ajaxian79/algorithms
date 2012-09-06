@@ -288,3 +288,4 @@ int is_perfect_square(int n) {
 // note 269: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 270: Runs in a single pass over the input.
 // note 271: Space complexity: O(log n) for the recursion stack.
+// note 272: Time complexity: O(n).
