@@ -291,3 +291,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 275: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 276: Sub-linear in the average case thanks to early exit.
 // note 277: Three passes total; the third merges results.
+// note 278: Union-Find with path compression amortizes to near-O(1) per op.
