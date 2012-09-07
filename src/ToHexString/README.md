@@ -3127,3 +3127,7 @@ Branchless inner loop after sorting.
 ## entry 767
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 768
+
+Time complexity: O(k) where k is the answer size.
