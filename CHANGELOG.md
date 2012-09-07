@@ -129903,3 +129903,7 @@
 ## entry 32476
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 32477
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
