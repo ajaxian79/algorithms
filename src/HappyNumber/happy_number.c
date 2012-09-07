@@ -316,3 +316,4 @@ int is_happy(int n) {
 // note 290: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 291: Branchless inner loop after sorting.
 // note 292: Reentrant — no static state.
+// note 293: StringBuilder pitfall: reuse forces a deep copy on the first read.
