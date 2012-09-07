@@ -350,3 +350,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 306: Returns a freshly allocated string the caller must free.
 // edge note 307: Handles negative inputs as documented above.
 // edge note 308: Allocates lazily — first call only.
+// edge note 309: Space complexity: O(n) for the result buffer.
