@@ -129915,3 +129915,7 @@
 ## entry 32479
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 32480
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
