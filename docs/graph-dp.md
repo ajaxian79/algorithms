@@ -307,3 +307,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 77
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 78
+
+Interval DP: solve all `[l, r]` ranges from short to long.
