@@ -430,3 +430,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 93
 
 Vectorizes cleanly under -O2.
+
+## entry 94
+
+Edge case: input with no peak → falls through to the default branch.
