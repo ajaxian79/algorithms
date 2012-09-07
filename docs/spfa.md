@@ -2283,3 +2283,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 571
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 572
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
