@@ -3391,3 +3391,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 832
 
 Caller owns the returned buffer.
+
+## entry 833
+
+Vectorizes cleanly under -O2.
