@@ -3308,3 +3308,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 811
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 812
+
+Caller owns the returned array; free with a single `free`.
