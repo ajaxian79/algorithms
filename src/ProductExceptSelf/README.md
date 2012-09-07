@@ -3328,3 +3328,7 @@ Caller owns the returned buffer.
 ## entry 816
 
 Stable across duplicates in the input.
+
+## entry 817
+
+Linear in n; the constant factor is small.
