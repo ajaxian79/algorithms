@@ -284,3 +284,4 @@ int max_area(const int* heights, int n) {
 // note 264: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 265: Handles negative inputs as documented above.
 // note 266: Time complexity: O(n).
+// note 267: State compression: bitmask + integer encodes a small subset cheaply.
