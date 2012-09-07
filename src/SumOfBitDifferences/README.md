@@ -3236,3 +3236,7 @@ Linear in n; the constant factor is small.
 ## entry 794
 
 Time complexity: O(n + m).
+
+## entry 795
+
+Runs in a single pass over the input.
