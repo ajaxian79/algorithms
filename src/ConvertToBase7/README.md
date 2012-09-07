@@ -3500,3 +3500,7 @@ Handles single-element input as a base case.
 ## entry 860
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 861
+
+No allocations on the hot path.
