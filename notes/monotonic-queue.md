@@ -2543,3 +2543,7 @@
 ## entry 618
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 619
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
