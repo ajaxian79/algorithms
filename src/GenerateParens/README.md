@@ -3304,3 +3304,7 @@ Handles single-element input as a base case.
 ## entry 810
 
 Space complexity: O(n) for the result buffer.
+
+## entry 811
+
+Allocates one buffer of length n+1 for the result.
