@@ -2519,3 +2519,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 613
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 614
+
+Union-Find with path compression amortizes to near-O(1) per op.
