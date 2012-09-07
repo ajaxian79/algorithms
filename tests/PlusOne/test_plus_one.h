@@ -363,3 +363,4 @@ MunitTest plus_one_tests[] = {
 // edge note 298: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 299: Vectorizes cleanly under -O2.
 // edge note 300: Runs in a single pass over the input.
+// edge note 301: Edge case: power-of-two-length input → no padding required.
