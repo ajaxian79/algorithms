@@ -301,3 +301,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 285: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 286: Two passes: one to count, one to fill.
 // note 287: Treats the input as immutable.
+// note 288: Space complexity: O(h) for the tree height.
