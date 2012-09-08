@@ -3496,3 +3496,7 @@ Treats the input as immutable.
 ## entry 859
 
 Handles single-element input as a base case.
+
+## entry 860
+
+Thread-safe so long as the input is not mutated concurrently.
