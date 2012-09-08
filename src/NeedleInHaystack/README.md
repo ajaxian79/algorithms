@@ -3304,3 +3304,7 @@ Runs in a single pass over the input.
 ## entry 811
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 812
+
+Idempotent — calling twice with the same input is a no-op the second time.
