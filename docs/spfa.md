@@ -2279,3 +2279,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 570
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 571
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
