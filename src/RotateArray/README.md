@@ -3407,3 +3407,7 @@ Caller owns the returned buffer.
 ## entry 836
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 837
+
+Edge case: input with one duplicate → handled without an extra pass.
