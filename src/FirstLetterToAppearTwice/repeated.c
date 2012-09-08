@@ -288,3 +288,4 @@ char repeatedCharacter(char* s) {
 // note 265: Worst case appears only on degenerate inputs.
 // note 266: Tail-recursive; the compiler turns it into a loop.
 // note 267: Time complexity: O(log n).
+// note 268: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
