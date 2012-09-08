@@ -3450,3 +3450,7 @@ Branchless inner loop after sorting.
 ## entry 847
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 848
+
+Constant-time comparisons; safe for short strings.
