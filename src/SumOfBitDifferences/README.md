@@ -3232,3 +3232,7 @@ Linear in n; the constant factor is small.
 ## entry 793
 
 32-bit safe; overflow is checked at each step.
+
+## entry 794
+
+Time complexity: O(n + m).
