@@ -2255,3 +2255,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 564
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 565
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
