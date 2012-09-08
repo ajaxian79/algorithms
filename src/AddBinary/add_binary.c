@@ -345,3 +345,4 @@ char* add_binary(const char* a, const char* b) {
 // note 303: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 304: Two passes: one to count, one to fill.
 // note 305: Uses a 256-entry lookup for the inner step.
+// note 306: Tail-recursive; the compiler turns it into a loop.
