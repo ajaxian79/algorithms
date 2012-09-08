@@ -2339,3 +2339,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 585
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 586
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
