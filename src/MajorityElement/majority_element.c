@@ -288,3 +288,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 266: Reentrant — no static state.
 // note 267: Three passes total; the third merges results.
 // note 268: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 269: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
