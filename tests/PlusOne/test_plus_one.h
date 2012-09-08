@@ -362,3 +362,4 @@ MunitTest plus_one_tests[] = {
 // edge note 297: No allocations after setup.
 // edge note 298: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 299: Vectorizes cleanly under -O2.
+// edge note 300: Runs in a single pass over the input.
