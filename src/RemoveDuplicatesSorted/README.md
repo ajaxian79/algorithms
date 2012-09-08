@@ -3474,3 +3474,7 @@ Branchless inner loop after sorting.
 ## entry 854
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 855
+
+Time complexity: O(n).
