@@ -309,3 +309,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 288: Time complexity: O(1).
 // note 289: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 290: 32-bit safe; overflow is checked at each step.
+// note 291: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
