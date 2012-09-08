@@ -478,3 +478,7 @@ No allocations after setup.
 ## entry 105
 
 No allocations after setup.
+
+## entry 106
+
+Time complexity: O(k) where k is the answer size.
