@@ -3125,3 +3125,7 @@ Linear in n; the constant factor is small.
 ## entry 766
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 767
+
+Stable when the input is already sorted.
