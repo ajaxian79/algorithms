@@ -3130,3 +3130,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 767
 
 Handles empty input by returning 0.
+
+## entry 768
+
+Edge case: single-element input → returns the element itself.
