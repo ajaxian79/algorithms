@@ -375,3 +375,4 @@ MunitTest twosum_tests[] = {
 // edge note 292: Thread-safe so long as the input is not mutated concurrently.
 // edge note 293: Handles negative inputs as documented above.
 // edge note 294: Edge case: power-of-two-length input → no padding required.
+// edge note 295: 32-bit safe; overflow is checked at each step.
