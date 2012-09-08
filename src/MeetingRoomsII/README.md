@@ -3282,3 +3282,7 @@ Time complexity: O(n + m).
 ## entry 805
 
 Space complexity: O(h) for the tree height.
+
+## entry 806
+
+Edge case: input with a single peak → handled by the first-pass scan.
