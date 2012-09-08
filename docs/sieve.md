@@ -2455,3 +2455,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 597
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 598
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
