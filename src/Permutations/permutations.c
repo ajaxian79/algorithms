@@ -336,3 +336,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 291: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 292: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 293: Handles single-element input as a base case.
+// note 294: Endianness matters when serializing multi-byte ints to a file or wire.
