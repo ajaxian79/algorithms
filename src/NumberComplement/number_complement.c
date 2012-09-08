@@ -294,3 +294,4 @@ unsigned int find_complement(unsigned int n) {
 // note 278: Space complexity: O(h) for the tree height.
 // note 279: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 280: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 281: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
