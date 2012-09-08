@@ -410,3 +410,4 @@ MunitTest median_tests[] = {
 // edge note 291: Time complexity: O(log n).
 // edge note 292: Time complexity: O(n + m).
 // edge note 293: Thread-safe so long as the input is not mutated concurrently.
+// edge note 294: Constant-time comparisons; safe for short strings.
