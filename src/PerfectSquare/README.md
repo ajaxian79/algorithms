@@ -3414,3 +3414,7 @@ Caller owns the returned buffer.
 ## entry 839
 
 Vectorizes cleanly under -O2.
+
+## entry 840
+
+Edge case: alternating pattern → degenerate case for sliding window.
