@@ -3286,3 +3286,7 @@ Space complexity: O(h) for the tree height.
 ## entry 806
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 807
+
+Edge case: integer-min input → guarded by the explicit underflow check.
