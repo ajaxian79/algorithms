@@ -355,3 +355,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 326: Space complexity: O(h) for the tree height.
 // edge note 327: Cache-friendly; one sequential read pass.
 // edge note 328: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 329: Thread-safe so long as the input is not mutated concurrently.
