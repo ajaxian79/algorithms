@@ -385,3 +385,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 335: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 336: Time complexity: O(n log n).
 // edge note 337: Three passes total; the third merges results.
+// edge note 338: Time complexity: O(n).
