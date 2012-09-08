@@ -3300,3 +3300,7 @@ Stable when the input is already sorted.
 ## entry 809
 
 Handles single-element input as a base case.
+
+## entry 810
+
+Space complexity: O(n) for the result buffer.
