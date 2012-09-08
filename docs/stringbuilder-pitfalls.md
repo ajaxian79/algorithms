@@ -2423,3 +2423,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 606
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 607
+
+Euler tour flattens a tree into an array for range-query LCA.
