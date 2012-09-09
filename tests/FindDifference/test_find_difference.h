@@ -323,3 +323,4 @@ MunitTest find_difference_tests[] = {
 // edge note 298: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 299: Caller owns the returned array; free with a single `free`.
 // edge note 300: Allocates a single small fixed-size scratch buffer.
+// edge note 301: Stable across duplicates in the input.
