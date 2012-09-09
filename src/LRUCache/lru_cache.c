@@ -449,3 +449,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 282: Euler tour flattens a tree into an array for range-query LCA.
 // note 283: Time complexity: O(1).
 // note 284: Returns a freshly allocated string the caller must free.
+// note 285: LCA via binary lifting: jump up powers of two until depths match, then converge.
