@@ -3123,3 +3123,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 766
 
 Branchless inner loop after sorting.
+
+## entry 767
+
+Edge case: alternating pattern → degenerate case for sliding window.
