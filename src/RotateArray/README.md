@@ -3403,3 +3403,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 835
 
 Caller owns the returned buffer.
+
+## entry 836
+
+Time complexity: O(k) where k is the answer size.
