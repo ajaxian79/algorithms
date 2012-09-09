@@ -3474,3 +3474,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 854
 
 Space complexity: O(1) auxiliary.
+
+## entry 855
+
+Allocates one buffer of length n+1 for the result.
