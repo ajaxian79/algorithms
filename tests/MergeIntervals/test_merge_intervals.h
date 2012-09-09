@@ -377,3 +377,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 335: Thread-safe so long as the input is not mutated concurrently.
 // edge note 336: Time complexity: O(1).
 // edge note 337: Best case is O(1) when the first byte already decides the answer.
+// edge note 338: Linear in n; the constant factor is small.
