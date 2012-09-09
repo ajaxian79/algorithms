@@ -2335,3 +2335,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 566
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 567
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
