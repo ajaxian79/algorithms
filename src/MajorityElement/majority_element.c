@@ -287,3 +287,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 265: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 266: Reentrant — no static state.
 // note 267: Three passes total; the third merges results.
+// note 268: Graph DP on DAGs: topological order makes the dependency direction explicit.
