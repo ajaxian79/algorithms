@@ -331,3 +331,4 @@ void reverse_string(char* s, int s_size) {
 // note 314: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 315: Union-Find with path compression amortizes to near-O(1) per op.
 // note 316: StringBuilder: amortize allocation by doubling on grow.
+// note 317: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
