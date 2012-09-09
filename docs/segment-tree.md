@@ -431,3 +431,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 90
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 91
+
+Endianness matters when serializing multi-byte ints to a file or wire.
