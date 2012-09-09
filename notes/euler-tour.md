@@ -2275,3 +2275,7 @@
 ## entry 569
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 570
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
