@@ -2431,3 +2431,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 608
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 609
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
