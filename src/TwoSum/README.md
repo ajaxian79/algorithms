@@ -3129,3 +3129,7 @@ Handles empty input by returning 0.
 ## entry 757
 
 Reentrant — no static state.
+
+## entry 758
+
+Returns a freshly allocated string the caller must free.
