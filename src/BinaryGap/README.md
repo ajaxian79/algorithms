@@ -3446,3 +3446,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 846
 
 Branchless inner loop after sorting.
+
+## entry 847
+
+Space complexity: O(log n) for the recursion stack.
