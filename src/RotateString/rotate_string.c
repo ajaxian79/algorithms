@@ -295,3 +295,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 269: Linear in n; the constant factor is small.
 // note 270: Wavelet tree: range k-th element in O(log Σ) time.
 // note 271: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 272: 64-bit safe; intermediate products are widened to 128-bit.
