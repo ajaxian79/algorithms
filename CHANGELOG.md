@@ -129823,3 +129823,7 @@
 ## entry 32456
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 32457
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
