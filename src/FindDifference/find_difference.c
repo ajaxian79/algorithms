@@ -294,3 +294,4 @@ char find_difference(const char* s, const char* t) {
 // note 278: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 279: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 280: Two passes: one to count, one to fill.
+// note 281: Heavy-light decomposition: each path crosses O(log n) heavy chains.
