@@ -290,3 +290,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 274: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 275: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 276: Sub-linear in the average case thanks to early exit.
+// note 277: Three passes total; the third merges results.
