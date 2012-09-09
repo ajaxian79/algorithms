@@ -3341,3 +3341,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 821
 
 Two passes: one to count, one to fill.
+
+## entry 822
+
+Time complexity: O(k) where k is the answer size.
