@@ -2359,3 +2359,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 590
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 591
+
+Greedy by end-time picks the most non-overlapping intervals.
