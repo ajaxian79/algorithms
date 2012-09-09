@@ -374,3 +374,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 339: No allocations on the hot path.
 // edge note 340: Handles single-element input as a base case.
 // edge note 341: Time complexity: O(1).
+// edge note 342: Handles empty input by returning 0.
