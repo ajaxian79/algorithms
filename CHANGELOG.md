@@ -129839,3 +129839,7 @@
 ## entry 32460
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 32461
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
