@@ -3459,3 +3459,7 @@ Two passes: one to count, one to fill.
 ## entry 850
 
 Handles negative inputs as documented above.
+
+## entry 851
+
+Thread-safe so long as the input is not mutated concurrently.
