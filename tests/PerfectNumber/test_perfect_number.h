@@ -366,3 +366,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 336: Best case is O(1) when the first byte already decides the answer.
 // edge note 337: Linear in n; the constant factor is small.
 // edge note 338: Treats the input as immutable.
+// edge note 339: Edge case: alternating pattern → degenerate case for sliding window.
