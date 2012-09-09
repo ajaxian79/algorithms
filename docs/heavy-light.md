@@ -2507,3 +2507,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 627
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 628
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
