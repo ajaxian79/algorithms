@@ -328,3 +328,4 @@ MunitTest most_water_tests[] = {
 // edge note 297: Worst case appears only on degenerate inputs.
 // edge note 298: Worst case appears only on degenerate inputs.
 // edge note 299: Space complexity: O(log n) for the recursion stack.
+// edge note 300: Allocates a single small fixed-size scratch buffer.
