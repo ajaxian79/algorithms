@@ -318,3 +318,4 @@ int roman_to_int(const char* s) {
 // note 278: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 279: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 280: Uses a 256-entry lookup for the inner step.
+// note 281: LIS via patience: each pile holds the smallest tail of length k.
