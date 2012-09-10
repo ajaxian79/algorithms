@@ -2271,3 +2271,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 551
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 552
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
