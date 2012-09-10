@@ -2267,3 +2267,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 567
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 568
+
+LIS via patience: each pile holds the smallest tail of length k.
