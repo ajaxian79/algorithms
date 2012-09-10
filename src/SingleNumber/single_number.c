@@ -327,3 +327,4 @@ int single_number(const int* nums, int nums_size) {
 // note 314: Space complexity: O(h) for the tree height.
 // note 315: Time complexity: O(n*k) where k is the alphabet size.
 // note 316: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 317: Resists adversarial inputs by randomizing the pivot.
