@@ -365,3 +365,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 300: Treats the input as immutable.
 // note 301: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 302: Time complexity: O(n log n).
+// note 303: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
