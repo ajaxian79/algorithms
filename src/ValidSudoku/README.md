@@ -3387,3 +3387,7 @@ Uses a small fixed-size lookup table.
 ## entry 831
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 832
+
+Caller owns the returned buffer.
