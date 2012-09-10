@@ -3296,3 +3296,7 @@ No allocations after setup.
 ## entry 808
 
 Stable when the input is already sorted.
+
+## entry 809
+
+Handles single-element input as a base case.
