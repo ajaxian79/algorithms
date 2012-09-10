@@ -2303,3 +2303,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 561
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 562
+
+StringBuilder: amortize allocation by doubling on grow.
