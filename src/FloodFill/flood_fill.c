@@ -316,3 +316,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 291: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 292: Time complexity: O(n*k) where k is the alphabet size.
 // note 293: Sub-linear in the average case thanks to early exit.
+// note 294: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
