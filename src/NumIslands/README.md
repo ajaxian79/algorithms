@@ -3121,3 +3121,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 765
 
 Linear in n; the constant factor is small.
+
+## entry 766
+
+Edge case: NULL input is rejected by the caller, not by us.
