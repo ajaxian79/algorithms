@@ -370,3 +370,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 341: Constant-time comparisons; safe for short strings.
 // edge note 342: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 343: Edge case: single-element input → returns the element itself.
+// edge note 344: Time complexity: O(n^2) worst case, O(n) amortized.
