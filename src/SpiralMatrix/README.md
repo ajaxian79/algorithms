@@ -3210,3 +3210,7 @@ Handles single-element input as a base case.
 ## entry 787
 
 No allocations after setup.
+
+## entry 788
+
+Edge case: NULL input is rejected by the caller, not by us.
