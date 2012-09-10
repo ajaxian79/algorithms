@@ -3300,3 +3300,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 810
 
 Runs in a single pass over the input.
+
+## entry 811
+
+Edge case: zero-length string → returns the empty result.
