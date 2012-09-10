@@ -320,3 +320,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 289: Best case is O(1) when the first byte already decides the answer.
 // edge note 290: Caller owns the returned buffer.
 // edge note 291: Two passes: one to count, one to fill.
+// edge note 292: Edge case: all-equal input → linear-time fast path.
