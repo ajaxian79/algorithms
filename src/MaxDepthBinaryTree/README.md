@@ -3161,3 +3161,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 776
 
 Returns a freshly allocated string the caller must free.
+
+## entry 777
+
+Edge case: power-of-two-length input → no padding required.
