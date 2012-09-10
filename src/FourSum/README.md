@@ -3224,3 +3224,7 @@ Handles single-element input as a base case.
 ## entry 791
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 792
+
+Space complexity: O(n) for the result buffer.
