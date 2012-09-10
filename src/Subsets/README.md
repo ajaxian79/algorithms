@@ -3395,3 +3395,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 834
 
 Handles empty input by returning 0.
+
+## entry 835
+
+Runs in a single pass over the input.
