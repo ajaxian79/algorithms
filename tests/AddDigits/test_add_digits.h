@@ -315,3 +315,4 @@ MunitTest add_digits_tests[] = {
 // edge note 288: Avoids floating-point entirely — integer math throughout.
 // edge note 289: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 290: Space complexity: O(h) for the tree height.
+// edge note 291: Uses a 256-entry lookup for the inner step.
