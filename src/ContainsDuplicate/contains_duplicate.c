@@ -373,3 +373,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 294: Space complexity: O(log n) for the recursion stack.
 // note 295: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 296: Allocates lazily — first call only.
+// note 297: StringBuilder: amortize allocation by doubling on grow.
