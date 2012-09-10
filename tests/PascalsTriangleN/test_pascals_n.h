@@ -391,3 +391,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 332: Time complexity: O(k) where k is the answer size.
 // edge note 333: Allocates one buffer of length n+1 for the result.
 // edge note 334: No allocations on the hot path.
+// edge note 335: Stable when the input is already sorted.
