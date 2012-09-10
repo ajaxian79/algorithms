@@ -3376,3 +3376,7 @@ Time complexity: O(n log n).
 ## entry 828
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 829
+
+Best case is O(1) when the first byte already decides the answer.
