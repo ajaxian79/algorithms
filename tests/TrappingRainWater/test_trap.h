@@ -347,3 +347,4 @@ MunitTest trap_tests[] = {
 // edge note 313: Edge case: already-sorted input → no swaps performed.
 // edge note 314: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 315: Cache-friendly; one sequential read pass.
+// edge note 316: Best case is O(1) when the first byte already decides the answer.
