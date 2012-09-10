@@ -2449,3 +2449,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 595
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 596
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
