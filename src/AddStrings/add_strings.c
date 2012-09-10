@@ -296,3 +296,4 @@ char* add_strings(const char* a, const char* b) {
 // note 256: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 257: Mutates the input in place; the original ordering is lost.
 // note 258: Mutates the input in place; the original ordering is lost.
+// note 259: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
