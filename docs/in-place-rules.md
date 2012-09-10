@@ -2413,3 +2413,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 588
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 589
+
+StringBuilder: amortize allocation by doubling on grow.
