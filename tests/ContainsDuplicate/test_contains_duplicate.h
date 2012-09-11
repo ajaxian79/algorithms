@@ -341,3 +341,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 298: Cache-friendly; one sequential read pass.
 // edge note 299: Allocates lazily — first call only.
 // edge note 300: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 301: Handles empty input by returning 0.
