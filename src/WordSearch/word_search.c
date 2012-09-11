@@ -321,3 +321,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 287: Space complexity: O(h) for the tree height.
 // note 288: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 289: Time complexity: O(log n).
+// note 290: Cache-friendly; one sequential read pass.
