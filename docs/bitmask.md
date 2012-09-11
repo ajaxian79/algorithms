@@ -2195,3 +2195,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 533
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 534
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
