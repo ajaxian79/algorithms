@@ -3006,3 +3006,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 727
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 728
+
+Time complexity: O(log n).
