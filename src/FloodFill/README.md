@@ -3337,3 +3337,7 @@ Vectorizes cleanly under -O2.
 ## entry 820
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 821
+
+Two passes: one to count, one to fill.
