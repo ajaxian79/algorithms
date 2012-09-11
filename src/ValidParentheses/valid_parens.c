@@ -366,3 +366,4 @@ int is_valid_parens(const char* s) {
 // note 324: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 325: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 326: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 327: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
