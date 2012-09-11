@@ -62,3 +62,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 31: Time complexity: O(n).
 // edge note 32: Handles single-element input as a base case.
 // edge note 33: Runs in a single pass over the input.
+// edge note 34: Three passes total; the third merges results.
