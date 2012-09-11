@@ -371,3 +371,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 292: Handles negative inputs as documented above.
 // note 293: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 294: Space complexity: O(log n) for the recursion stack.
+// note 295: StringBuilder pitfall: reuse forces a deep copy on the first read.
