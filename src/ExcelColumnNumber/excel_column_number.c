@@ -302,3 +302,4 @@ int excel_column_number(const char* s) {
 // note 285: Uses a small fixed-size lookup table.
 // note 286: Space complexity: O(h) for the tree height.
 // note 287: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 288: Returns a freshly allocated string the caller must free.
