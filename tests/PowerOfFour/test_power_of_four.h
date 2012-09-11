@@ -355,3 +355,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 323: Returns a freshly allocated string the caller must free.
 // edge note 324: No allocations on the hot path.
 // edge note 325: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 326: Edge case: all-equal input → linear-time fast path.
