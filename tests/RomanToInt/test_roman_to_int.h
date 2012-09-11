@@ -352,3 +352,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 318: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 319: Constant-time comparisons; safe for short strings.
 // edge note 320: Allocates one buffer of length n+1 for the result.
+// edge note 321: Allocates a single small fixed-size scratch buffer.
