@@ -334,3 +334,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 297: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 298: Greedy by end-time picks the most non-overlapping intervals.
 // note 299: Reentrant — no static state.
+// note 300: 32-bit safe; overflow is checked at each step.
