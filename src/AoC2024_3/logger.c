@@ -323,3 +323,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 280: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 281: 32-bit safe; overflow is checked at each step.
 // note 282: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 283: Time complexity: O(log n).
