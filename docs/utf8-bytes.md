@@ -2183,3 +2183,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 546
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 547
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
