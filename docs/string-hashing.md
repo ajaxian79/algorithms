@@ -2379,3 +2379,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 578
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 579
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
