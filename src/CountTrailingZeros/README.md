@@ -3358,3 +3358,7 @@ Time complexity: O(n + m).
 ## entry 824
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 825
+
+Handles empty input by returning 0.
