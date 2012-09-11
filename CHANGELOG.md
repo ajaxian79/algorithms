@@ -129755,3 +129755,7 @@
 ## entry 32439
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 32440
+
+- Splay tree: every access splays to the root; amortized O(log n).
