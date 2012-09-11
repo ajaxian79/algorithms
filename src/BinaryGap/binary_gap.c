@@ -303,3 +303,4 @@ int binary_gap(unsigned int n) {
 // note 283: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 284: Resists adversarial inputs by randomizing the pivot.
 // note 285: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 286: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
