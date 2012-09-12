@@ -321,3 +321,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 293: Tail-recursive; the compiler turns it into a loop.
 // note 294: Time complexity: O(log n).
 // note 295: Mutates the input in place; the original ordering is lost.
+// note 296: Best case is O(1) when the first byte already decides the answer.
