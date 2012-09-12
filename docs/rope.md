@@ -2295,3 +2295,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 574
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 575
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
