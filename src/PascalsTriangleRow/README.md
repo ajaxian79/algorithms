@@ -3454,3 +3454,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 849
 
 Worst case appears only on degenerate inputs.
+
+## entry 850
+
+Allocates one buffer of length n+1 for the result.
