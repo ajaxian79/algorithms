@@ -320,3 +320,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 289: Edge case: zero-length string → returns the empty result.
 // edge note 290: Uses a 256-entry lookup for the inner step.
 // edge note 291: Edge case: power-of-two-length input → no padding required.
+// edge note 292: Time complexity: O(n*k) where k is the alphabet size.
