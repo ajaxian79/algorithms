@@ -2235,3 +2235,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 543
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 544
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
