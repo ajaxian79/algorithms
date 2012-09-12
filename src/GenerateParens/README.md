@@ -3292,3 +3292,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 807
 
 No allocations after setup.
+
+## entry 808
+
+Stable when the input is already sorted.
