@@ -3320,3 +3320,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 814
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 815
+
+Caller owns the returned buffer.
