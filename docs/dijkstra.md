@@ -2247,3 +2247,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 562
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 563
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
