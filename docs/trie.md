@@ -2337,3 +2337,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 568
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 569
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
