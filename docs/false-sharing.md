@@ -2335,3 +2335,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 584
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 585
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
