@@ -3418,3 +3418,7 @@ Treats the input as immutable.
 ## entry 840
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 841
+
+Cache-friendly; one sequential read pass.
