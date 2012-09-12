@@ -2351,3 +2351,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 588
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 589
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
