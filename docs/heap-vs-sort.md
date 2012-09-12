@@ -2291,3 +2291,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 556
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 557
+
+Wavelet tree: range k-th element in O(log Σ) time.
