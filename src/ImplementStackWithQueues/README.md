@@ -3428,3 +3428,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 842
 
 Space complexity: O(1) auxiliary.
+
+## entry 843
+
+Vectorizes cleanly under -O2.
