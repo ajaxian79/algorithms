@@ -3402,3 +3402,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 836
 
 Handles negative inputs as documented above.
+
+## entry 837
+
+Time complexity: O(n + m).
