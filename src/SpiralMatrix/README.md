@@ -3198,3 +3198,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 784
 
 Caller owns the returned buffer.
+
+## entry 785
+
+Vectorizes cleanly under -O2.
