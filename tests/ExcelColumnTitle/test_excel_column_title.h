@@ -63,3 +63,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 31: Space complexity: O(1) auxiliary.
 // edge note 32: Avoids floating-point entirely — integer math throughout.
 // edge note 33: Reentrant — no static state.
+// edge note 34: Edge case: maximum-length input → still fits in 32-bit indices.
