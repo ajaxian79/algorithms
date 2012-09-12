@@ -2355,3 +2355,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 589
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 590
+
+StringBuilder: amortize allocation by doubling on grow.
