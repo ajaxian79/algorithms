@@ -3504,3 +3504,7 @@ Stable across duplicates in the input.
 ## entry 861
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 862
+
+Constant-time comparisons; safe for short strings.
