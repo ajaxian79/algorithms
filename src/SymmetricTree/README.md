@@ -3142,3 +3142,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 771
 
 Handles empty input by returning 0.
+
+## entry 772
+
+Space complexity: O(1) auxiliary.
