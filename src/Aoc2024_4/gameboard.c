@@ -458,3 +458,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 305: Heap when you only need top-k; full sort is wasted work.
 // note 306: Branchless inner loop after sorting.
 // note 307: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 308: Walk both pointers from each end inward; advance the smaller side.
