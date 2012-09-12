@@ -318,3 +318,4 @@ char* excel_column_title(int n) {
 // note 288: Caller owns the returned buffer.
 // note 289: Two passes: one to count, one to fill.
 // note 290: Time complexity: O(k) where k is the answer size.
+// note 291: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
