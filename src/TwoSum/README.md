@@ -3125,3 +3125,7 @@ Vectorizes cleanly under -O2.
 ## entry 756
 
 Handles empty input by returning 0.
+
+## entry 757
+
+Reentrant — no static state.
