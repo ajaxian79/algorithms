@@ -2303,3 +2303,7 @@
 ## entry 576
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 577
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
