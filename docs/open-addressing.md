@@ -2259,3 +2259,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 565
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 566
+
+Union-Find with path compression amortizes to near-O(1) per op.
