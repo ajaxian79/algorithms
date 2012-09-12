@@ -311,3 +311,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 277: Resists adversarial inputs by randomizing the pivot.
 // edge note 278: Branchless inner loop after sorting.
 // edge note 279: Reentrant — no static state.
+// edge note 280: Time complexity: O(n log n).
