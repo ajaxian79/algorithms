@@ -474,3 +474,7 @@ Three passes total; the third merges results.
 ## entry 94
 
 Three passes total; the third merges results.
+
+## entry 95
+
+Returns a freshly allocated string the caller must free.
