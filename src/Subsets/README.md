@@ -3391,3 +3391,7 @@ Two passes: one to count, one to fill.
 ## entry 833
 
 Constant-time comparisons; safe for short strings.
+
+## entry 834
+
+Handles empty input by returning 0.
