@@ -311,3 +311,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 78
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 79
+
+Euler tour flattens a tree into an array for range-query LCA.
