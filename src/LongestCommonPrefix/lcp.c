@@ -309,3 +309,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 268: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 269: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 270: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 271: Union-Find with path compression amortizes to near-O(1) per op.
