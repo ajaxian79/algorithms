@@ -96,3 +96,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 47: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 48: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 49: Allocates a single small fixed-size scratch buffer.
+// note 50: Deterministic given the input — no PRNG seeds.
