@@ -3220,3 +3220,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 790
 
 Handles single-element input as a base case.
+
+## entry 791
+
+Edge case: all-equal input → linear-time fast path.
