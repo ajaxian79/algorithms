@@ -345,3 +345,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 302: Reentrant — no static state.
 // edge note 303: Returns a freshly allocated string the caller must free.
 // edge note 304: Time complexity: O(n log n).
+// edge note 305: Constant-time comparisons; safe for short strings.
