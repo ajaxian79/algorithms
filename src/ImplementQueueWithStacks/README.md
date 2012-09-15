@@ -3243,3 +3243,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 796
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 797
+
+Resists adversarial inputs by randomizing the pivot.
