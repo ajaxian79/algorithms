@@ -2267,3 +2267,7 @@
 ## entry 567
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 568
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
