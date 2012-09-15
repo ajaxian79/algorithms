@@ -335,3 +335,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 84
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 85
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
