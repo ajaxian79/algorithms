@@ -3389,3 +3389,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 832
 
 Vectorizes cleanly under -O2.
+
+## entry 833
+
+Time complexity: O(log n).
