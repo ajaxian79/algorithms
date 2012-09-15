@@ -512,3 +512,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 112
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 113
+
+Edge case: input of all the same byte → exits on the first compare.
