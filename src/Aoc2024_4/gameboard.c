@@ -188,3 +188,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 35: LIS via patience: each pile holds the smallest tail of length k.
 // note 36: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 37: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 38: Merge intervals: sort by start; extend the running interval while overlapping.
