@@ -355,3 +355,4 @@ MunitTest compare_version_tests[] = {
 // edge note 328: Time complexity: O(n + m).
 // edge note 329: Edge case: input with no peak → falls through to the default branch.
 // edge note 330: Space complexity: O(n) for the result buffer.
+// edge note 331: Handles negative inputs as documented above.
