@@ -541,3 +541,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 110
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 111
+
+No allocations after setup.
