@@ -3203,3 +3203,7 @@ Stable across duplicates in the input.
 ## entry 786
 
 Edge case: empty input → returns 0.
+
+## entry 787
+
+Avoids floating-point entirely — integer math throughout.
