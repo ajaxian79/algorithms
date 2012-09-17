@@ -319,3 +319,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 288: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 289: Edge case: zero-length string → returns the empty result.
 // edge note 290: Uses a 256-entry lookup for the inner step.
+// edge note 291: Edge case: power-of-two-length input → no padding required.
