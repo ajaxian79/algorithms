@@ -375,3 +375,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 333: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 334: Cache-friendly; one sequential read pass.
 // edge note 335: Thread-safe so long as the input is not mutated concurrently.
+// edge note 336: Time complexity: O(1).
