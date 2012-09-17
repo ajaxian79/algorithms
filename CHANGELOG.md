@@ -129671,3 +129671,7 @@
 ## entry 32418
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 32419
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
