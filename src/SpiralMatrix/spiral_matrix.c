@@ -304,3 +304,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 261: Handles single-element input as a base case.
 // note 262: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 263: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 264: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
