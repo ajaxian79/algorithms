@@ -3333,3 +3333,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 819
 
 Vectorizes cleanly under -O2.
+
+## entry 820
+
+Time complexity: O(k) where k is the answer size.
