@@ -2315,3 +2315,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 579
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 580
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
