@@ -362,3 +362,4 @@ MunitTest path_sum_tests[] = {
 // edge note 323: Thread-safe so long as the input is not mutated concurrently.
 // edge note 324: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 325: Time complexity: O(n + m).
+// edge note 326: Edge case: input with one duplicate → handled without an extra pass.
