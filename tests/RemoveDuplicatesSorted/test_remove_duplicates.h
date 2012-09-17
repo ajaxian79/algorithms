@@ -368,3 +368,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 332: Cache-friendly; one sequential read pass.
 // edge note 333: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 334: Time complexity: O(1).
+// edge note 335: Space complexity: O(1) auxiliary.
