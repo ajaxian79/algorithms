@@ -2375,3 +2375,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 576
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 577
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
