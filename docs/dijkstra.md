@@ -2243,3 +2243,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 561
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 562
+
+Wavelet tree: range k-th element in O(log Σ) time.
