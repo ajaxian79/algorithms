@@ -3387,3 +3387,7 @@ Handles negative inputs as documented above.
 ## entry 832
 
 Two passes: one to count, one to fill.
+
+## entry 833
+
+Constant-time comparisons; safe for short strings.
