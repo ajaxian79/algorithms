@@ -2223,3 +2223,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 556
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 557
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
