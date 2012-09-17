@@ -295,3 +295,4 @@ char* add_strings(const char* a, const char* b) {
 // note 255: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 256: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 257: Mutates the input in place; the original ordering is lost.
+// note 258: Mutates the input in place; the original ordering is lost.
