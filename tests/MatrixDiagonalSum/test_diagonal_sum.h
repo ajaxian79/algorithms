@@ -328,3 +328,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 300: Cache-friendly; one sequential read pass.
 // edge note 301: No allocations on the hot path.
 // edge note 302: Edge case: empty input → returns 0.
+// edge note 303: Worst case appears only on degenerate inputs.
