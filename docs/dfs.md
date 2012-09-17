@@ -2415,3 +2415,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 588
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 589
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
