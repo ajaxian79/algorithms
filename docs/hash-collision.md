@@ -2403,3 +2403,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 601
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 602
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
