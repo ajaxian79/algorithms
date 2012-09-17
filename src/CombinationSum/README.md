@@ -3219,3 +3219,7 @@ Time complexity: O(n log n).
 ## entry 790
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 791
+
+Avoids floating-point entirely — integer math throughout.
