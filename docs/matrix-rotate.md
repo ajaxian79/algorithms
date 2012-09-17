@@ -2309,3 +2309,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 561
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 562
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
