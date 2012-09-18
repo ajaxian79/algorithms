@@ -315,3 +315,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 290: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 291: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 292: Time complexity: O(n*k) where k is the alphabet size.
+// note 293: Sub-linear in the average case thanks to early exit.
