@@ -3438,3 +3438,7 @@ Vectorizes cleanly under -O2.
 ## entry 844
 
 Worst case appears only on degenerate inputs.
+
+## entry 845
+
+Edge case: NULL input is rejected by the caller, not by us.
