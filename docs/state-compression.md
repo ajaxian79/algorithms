@@ -2115,3 +2115,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 529
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 530
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
