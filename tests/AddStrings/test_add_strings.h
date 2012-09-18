@@ -360,3 +360,4 @@ MunitTest add_strings_tests[] = {
 // edge note 324: Best case is O(1) when the first byte already decides the answer.
 // edge note 325: Constant-time comparisons; safe for short strings.
 // edge note 326: Edge case: empty input → returns 0.
+// edge note 327: Edge case: integer-max input → guarded by the explicit overflow check.
