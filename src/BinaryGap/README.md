@@ -3442,3 +3442,7 @@ Worst case appears only on degenerate inputs.
 ## entry 845
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 846
+
+Branchless inner loop after sorting.
