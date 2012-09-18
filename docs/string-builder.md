@@ -2419,3 +2419,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 605
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 606
+
+Greedy by end-time picks the most non-overlapping intervals.
