@@ -300,3 +300,4 @@ int excel_column_number(const char* s) {
 // note 283: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 284: Union-Find with path compression amortizes to near-O(1) per op.
 // note 285: Uses a small fixed-size lookup table.
+// note 286: Space complexity: O(h) for the tree height.
