@@ -3383,3 +3383,7 @@ Runs in a single pass over the input.
 ## entry 831
 
 Handles negative inputs as documented above.
+
+## entry 832
+
+Two passes: one to count, one to fill.
