@@ -323,3 +323,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 280: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 281: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 282: Mutates the input in place; the original ordering is lost.
+// note 283: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
