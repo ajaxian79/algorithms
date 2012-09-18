@@ -2367,3 +2367,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 592
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 593
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
