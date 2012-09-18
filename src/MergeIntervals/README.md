@@ -3322,3 +3322,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 815
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 816
+
+Edge case: single-element input → returns the element itself.
