@@ -345,3 +345,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 302: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 303: Time complexity: O(1).
 // edge note 304: Worst case appears only on degenerate inputs.
+// edge note 305: Cache-friendly; one sequential read pass.
