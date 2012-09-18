@@ -2445,3 +2445,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 594
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 595
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
