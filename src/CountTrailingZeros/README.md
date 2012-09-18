@@ -3354,3 +3354,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 823
 
 Time complexity: O(n + m).
+
+## entry 824
+
+Time complexity: O(n*k) where k is the alphabet size.
