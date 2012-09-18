@@ -2291,3 +2291,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 573
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 574
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
