@@ -2239,3 +2239,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 560
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 561
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
