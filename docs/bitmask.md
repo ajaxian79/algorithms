@@ -2191,3 +2191,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 532
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 533
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
