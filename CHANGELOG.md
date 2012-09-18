@@ -129603,3 +129603,7 @@
 ## entry 32401
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 32402
+
+- Heap when you only need top-k; full sort is wasted work.
