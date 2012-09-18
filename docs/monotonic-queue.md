@@ -2303,3 +2303,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 558
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 559
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
