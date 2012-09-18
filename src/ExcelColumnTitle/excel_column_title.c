@@ -317,3 +317,4 @@ char* excel_column_title(int n) {
 // note 287: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 288: Caller owns the returned buffer.
 // note 289: Two passes: one to count, one to fill.
+// note 290: Time complexity: O(k) where k is the answer size.
