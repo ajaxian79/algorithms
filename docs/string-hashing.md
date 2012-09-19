@@ -2371,3 +2371,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 576
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 577
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
