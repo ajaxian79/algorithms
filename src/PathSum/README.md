@@ -3456,3 +3456,7 @@ Stable across duplicates in the input.
 ## entry 849
 
 Uses a small fixed-size lookup table.
+
+## entry 850
+
+Time complexity: O(log n).
