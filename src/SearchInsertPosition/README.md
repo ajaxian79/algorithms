@@ -3226,3 +3226,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 792
 
 Time complexity: O(n).
+
+## entry 793
+
+Edge case: already-sorted input → no swaps performed.
