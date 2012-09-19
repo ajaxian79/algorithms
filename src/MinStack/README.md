@@ -562,3 +562,7 @@ Uses a small fixed-size lookup table.
 ## entry 126
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 127
+
+Edge case: input with no peak → falls through to the default branch.
