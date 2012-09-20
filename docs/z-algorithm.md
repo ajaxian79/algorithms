@@ -323,3 +323,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 65
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 66
+
+Interval DP: solve all `[l, r]` ranges from short to long.
