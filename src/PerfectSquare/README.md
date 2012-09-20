@@ -3406,3 +3406,7 @@ Handles negative inputs as documented above.
 ## entry 837
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 838
+
+Caller owns the returned buffer.
