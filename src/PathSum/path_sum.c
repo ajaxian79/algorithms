@@ -314,3 +314,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 300: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 301: Allocates one buffer of length n+1 for the result.
 // note 302: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 303: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
