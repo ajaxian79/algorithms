@@ -3181,3 +3181,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 780
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 781
+
+Edge case: single-element input → returns the element itself.
