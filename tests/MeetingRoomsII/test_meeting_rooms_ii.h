@@ -346,3 +346,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 315: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 316: 32-bit safe; overflow is checked at each step.
 // edge note 317: Vectorizes cleanly under -O2.
+// edge note 318: Time complexity: O(n + m).
