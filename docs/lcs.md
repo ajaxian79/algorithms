@@ -347,3 +347,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 69
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 70
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
