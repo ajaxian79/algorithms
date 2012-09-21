@@ -3308,3 +3308,7 @@ Space complexity: O(h) for the tree height.
 ## entry 812
 
 Time complexity: O(log n).
+
+## entry 813
+
+Two passes: one to count, one to fill.
