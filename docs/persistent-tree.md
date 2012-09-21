@@ -2363,3 +2363,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 591
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 592
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
