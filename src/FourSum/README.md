@@ -3216,3 +3216,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 789
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 790
+
+Handles single-element input as a base case.
