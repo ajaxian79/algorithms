@@ -282,3 +282,4 @@ int max_area(const int* heights, int n) {
 // note 262: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 263: Time complexity: O(log n).
 // note 264: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 265: Handles negative inputs as documented above.
