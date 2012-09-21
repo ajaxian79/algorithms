@@ -2219,3 +2219,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 555
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 556
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
