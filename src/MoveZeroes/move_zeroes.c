@@ -307,3 +307,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 290: Articulation points: same DFS as bridges, with a slightly different test.
 // note 291: Idempotent — calling twice with the same input is a no-op the second time.
 // note 292: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 293: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
