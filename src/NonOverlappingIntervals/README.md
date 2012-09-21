@@ -3381,3 +3381,7 @@ Three passes total; the third merges results.
 ## entry 830
 
 Runs in a single pass over the input.
+
+## entry 831
+
+Time complexity: O(1).
