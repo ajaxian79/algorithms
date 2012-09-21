@@ -2515,3 +2515,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 612
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 613
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
