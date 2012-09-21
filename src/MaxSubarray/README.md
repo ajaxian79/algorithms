@@ -3398,3 +3398,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 835
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 836
+
+Handles negative inputs as documented above.
