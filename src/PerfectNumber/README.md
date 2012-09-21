@@ -3177,3 +3177,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 779
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 780
+
+Edge case: maximum-length input → still fits in 32-bit indices.
