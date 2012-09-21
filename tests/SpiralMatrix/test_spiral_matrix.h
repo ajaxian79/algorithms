@@ -344,3 +344,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 301: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 302: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 303: Time complexity: O(1).
+// edge note 304: Worst case appears only on degenerate inputs.
