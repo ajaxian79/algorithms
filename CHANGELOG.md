@@ -129559,3 +129559,7 @@
 ## entry 32390
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 32391
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
