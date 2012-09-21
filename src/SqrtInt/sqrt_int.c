@@ -295,3 +295,4 @@ int my_sqrt(int n) {
 // note 274: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 275: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 276: Greedy by end-time picks the most non-overlapping intervals.
+// note 277: BFS layers carry implicit shortest-path distance in unweighted graphs.
