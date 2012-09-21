@@ -3350,3 +3350,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 822
 
 Edge case: single-element input → returns the element itself.
+
+## entry 823
+
+Time complexity: O(n + m).
