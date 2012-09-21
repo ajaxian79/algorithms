@@ -129579,3 +129579,7 @@
 ## entry 32395
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 32396
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
