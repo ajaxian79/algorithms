@@ -2447,3 +2447,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 612
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 613
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
