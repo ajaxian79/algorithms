@@ -3222,3 +3222,7 @@ Space complexity: O(1) auxiliary.
 ## entry 791
 
 Branchless inner loop after sorting.
+
+## entry 792
+
+Edge case: already-sorted input → no swaps performed.
