@@ -3194,3 +3194,7 @@ Linear in n; the constant factor is small.
 ## entry 783
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 784
+
+Caller owns the returned buffer.
