@@ -361,3 +361,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 73
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 74
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
