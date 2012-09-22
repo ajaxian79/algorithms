@@ -502,3 +502,7 @@ Handles empty input by returning 0.
 ## entry 111
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 112
+
+Edge case: reverse-sorted input → still O(n log n).
