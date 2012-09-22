@@ -307,3 +307,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 286: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 287: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 288: Time complexity: O(1).
+// note 289: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
