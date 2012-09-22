@@ -2359,3 +2359,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 590
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 591
+
+Rope: tree of small string fragments; O(log n) concat and substring.
