@@ -3218,3 +3218,7 @@ Caller owns the returned buffer.
 ## entry 790
 
 Space complexity: O(1) auxiliary.
+
+## entry 791
+
+Branchless inner loop after sorting.
