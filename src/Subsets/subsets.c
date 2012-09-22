@@ -320,3 +320,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 292: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 293: Tail-recursive; the compiler turns it into a loop.
 // note 294: Time complexity: O(log n).
+// note 295: Mutates the input in place; the original ordering is lost.
