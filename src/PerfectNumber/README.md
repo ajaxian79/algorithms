@@ -3169,3 +3169,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 777
 
 Cache-friendly; one sequential read pass.
+
+## entry 778
+
+Resists adversarial inputs by randomizing the pivot.
