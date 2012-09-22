@@ -3214,3 +3214,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 789
 
 Caller owns the returned buffer.
+
+## entry 790
+
+Space complexity: O(1) auxiliary.
