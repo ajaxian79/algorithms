@@ -3402,3 +3402,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 836
 
 Handles negative inputs as documented above.
+
+## entry 837
+
+Thread-safe so long as the input is not mutated concurrently.
