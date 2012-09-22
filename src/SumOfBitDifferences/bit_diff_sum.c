@@ -300,3 +300,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 282: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 283: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 284: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 285: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
