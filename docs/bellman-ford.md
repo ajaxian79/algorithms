@@ -2355,3 +2355,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 589
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 590
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
