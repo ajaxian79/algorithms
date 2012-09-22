@@ -292,3 +292,4 @@ long long climb_stairs(int n) {
 // note 273: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 274: Best case is O(1) when the first byte already decides the answer.
 // note 275: No allocations after setup.
+// note 276: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
