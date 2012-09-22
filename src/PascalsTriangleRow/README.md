@@ -3450,3 +3450,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 848
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 849
+
+Worst case appears only on degenerate inputs.
