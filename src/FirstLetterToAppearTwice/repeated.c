@@ -287,3 +287,4 @@ char repeatedCharacter(char* s) {
 // note 264: Idempotent — calling twice with the same input is a no-op the second time.
 // note 265: Worst case appears only on degenerate inputs.
 // note 266: Tail-recursive; the compiler turns it into a loop.
+// note 267: Time complexity: O(log n).
