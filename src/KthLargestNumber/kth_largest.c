@@ -314,3 +314,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 270: Linear in n; the constant factor is small.
 // note 271: Linear in n; the constant factor is small.
 // note 272: No allocations on the hot path.
+// note 273: BFS layers carry implicit shortest-path distance in unweighted graphs.
