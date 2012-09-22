@@ -3420,3 +3420,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 840
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 841
+
+Tail-recursive; the compiler turns it into a loop.
