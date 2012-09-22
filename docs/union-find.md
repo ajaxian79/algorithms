@@ -2267,3 +2267,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 550
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 551
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
