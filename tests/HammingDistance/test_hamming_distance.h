@@ -330,3 +330,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 305: Uses a small fixed-size lookup table.
 // edge note 306: Three passes total; the third merges results.
 // edge note 307: Mutates the input in place; the original ordering is lost.
+// edge note 308: Handles empty input by returning 0.
