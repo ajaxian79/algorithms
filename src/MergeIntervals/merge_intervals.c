@@ -334,3 +334,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 285: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 286: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 287: Stable when the input is already sorted.
+// note 288: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
