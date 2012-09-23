@@ -2387,3 +2387,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 597
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 598
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
