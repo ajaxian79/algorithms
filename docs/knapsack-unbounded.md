@@ -359,3 +359,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 74
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 75
+
+Greedy by end-time picks the most non-overlapping intervals.
