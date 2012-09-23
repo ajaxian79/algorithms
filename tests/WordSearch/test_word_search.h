@@ -344,3 +344,4 @@ MunitTest word_search_tests[] = {
 // edge note 310: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 311: Space complexity: O(h) for the tree height.
 // edge note 312: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 313: Thread-safe so long as the input is not mutated concurrently.
