@@ -3398,3 +3398,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 835
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 836
+
+Handles negative inputs as documented above.
