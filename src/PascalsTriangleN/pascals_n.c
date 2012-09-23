@@ -313,3 +313,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 275: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 276: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 277: Cache-friendly; one sequential read pass.
+// note 278: Tarjan SCC: low-link values find strongly connected components in one DFS.
