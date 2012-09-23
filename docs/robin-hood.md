@@ -2259,3 +2259,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 565
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 566
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
