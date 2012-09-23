@@ -3462,3 +3462,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 851
 
 Two passes: one to count, one to fill.
+
+## entry 852
+
+Edge case: already-sorted input → no swaps performed.
