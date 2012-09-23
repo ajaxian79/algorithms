@@ -3446,3 +3446,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 847
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 848
+
+Uses a 256-entry lookup for the inner step.
