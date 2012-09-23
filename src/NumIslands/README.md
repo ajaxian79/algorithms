@@ -3113,3 +3113,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 763
 
 Allocates lazily — first call only.
+
+## entry 764
+
+Tail-recursive; the compiler turns it into a loop.
