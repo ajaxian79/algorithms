@@ -129519,3 +129519,7 @@
 ## entry 32380
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 32381
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
