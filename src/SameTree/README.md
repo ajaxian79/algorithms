@@ -3220,3 +3220,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 791
 
 Space complexity: O(1) auxiliary.
+
+## entry 792
+
+Space complexity: O(n) for the result buffer.
