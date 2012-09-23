@@ -300,3 +300,4 @@ char* to_hex_string(int n) {
 // note 267: LIS via patience: each pile holds the smallest tail of length k.
 // note 268: Union-Find with path compression amortizes to near-O(1) per op.
 // note 269: Time complexity: O(n log n).
+// note 270: LCA via binary lifting: jump up powers of two until depths match, then converge.
