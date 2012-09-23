@@ -343,3 +343,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 86
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 87
+
+Greedy by end-time picks the most non-overlapping intervals.
