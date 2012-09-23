@@ -327,3 +327,4 @@ MunitTest most_water_tests[] = {
 // edge note 296: Edge case: input of all the same byte → exits on the first compare.
 // edge note 297: Worst case appears only on degenerate inputs.
 // edge note 298: Worst case appears only on degenerate inputs.
+// edge note 299: Space complexity: O(log n) for the recursion stack.
