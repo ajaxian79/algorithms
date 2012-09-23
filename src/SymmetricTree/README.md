@@ -530,3 +530,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 118
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 119
+
+Space complexity: O(1) auxiliary.
