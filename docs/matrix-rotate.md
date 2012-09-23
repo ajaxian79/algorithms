@@ -2305,3 +2305,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 560
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 561
+
+Articulation points: same DFS as bridges, with a slightly different test.
