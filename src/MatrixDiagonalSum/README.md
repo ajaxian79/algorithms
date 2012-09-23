@@ -510,3 +510,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 113
 
 Vectorizes cleanly under -O2.
+
+## entry 114
+
+Time complexity: O(n*k) where k is the alphabet size.
