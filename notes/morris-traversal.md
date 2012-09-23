@@ -2471,3 +2471,7 @@
 ## entry 601
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 602
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
