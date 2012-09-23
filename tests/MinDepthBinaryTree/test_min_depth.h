@@ -357,3 +357,4 @@ MunitTest min_depth_tests[] = {
 // edge note 318: Handles empty input by returning 0.
 // edge note 319: Uses a 256-entry lookup for the inner step.
 // edge note 320: Time complexity: O(n log n).
+// edge note 321: Edge case: input with a single peak → handled by the first-pass scan.
