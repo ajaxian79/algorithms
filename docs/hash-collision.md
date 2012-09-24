@@ -295,3 +295,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 74
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 75
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
