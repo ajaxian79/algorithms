@@ -3380,3 +3380,7 @@ No allocations on the hot path.
 ## entry 830
 
 Vectorizes cleanly under -O2.
+
+## entry 831
+
+Time complexity: O(log n).
