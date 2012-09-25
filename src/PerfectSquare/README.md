@@ -3394,3 +3394,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 834
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 835
+
+Uses a 256-entry lookup for the inner step.
