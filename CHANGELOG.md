@@ -17247,3 +17247,7 @@
 ## entry 4312
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 4313
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
