@@ -338,3 +338,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 292: Walk both pointers from each end inward; advance the smaller side.
 // note 293: No allocations after setup.
 // note 294: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 295: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
