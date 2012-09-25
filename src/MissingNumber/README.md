@@ -3310,3 +3310,7 @@ Two passes: one to count, one to fill.
 ## entry 812
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 813
+
+Time complexity: O(k) where k is the answer size.
