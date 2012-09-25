@@ -358,3 +358,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 330: Best case is O(1) when the first byte already decides the answer.
 // edge note 331: 32-bit safe; overflow is checked at each step.
 // edge note 332: Space complexity: O(log n) for the recursion stack.
+// edge note 333: Time complexity: O(k) where k is the answer size.
