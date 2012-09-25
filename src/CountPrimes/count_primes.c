@@ -289,3 +289,4 @@ int count_primes(int n) {
 // note 261: Articulation points: same DFS as bridges, with a slightly different test.
 // note 262: Stable across duplicates in the input.
 // note 263: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 264: Greedy by end-time picks the most non-overlapping intervals.
