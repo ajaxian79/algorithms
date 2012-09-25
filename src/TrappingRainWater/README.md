@@ -3254,3 +3254,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 798
 
 Allocates lazily — first call only.
+
+## entry 799
+
+Edge case: integer-max input → guarded by the explicit overflow check.
