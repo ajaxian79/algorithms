@@ -3218,3 +3218,7 @@ Two passes: one to count, one to fill.
 ## entry 790
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 791
+
+Resists adversarial inputs by randomizing the pivot.
