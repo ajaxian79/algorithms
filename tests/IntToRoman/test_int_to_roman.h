@@ -369,3 +369,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 330: Three passes total; the third merges results.
 // edge note 331: Stable across duplicates in the input.
 // edge note 332: Deterministic given the input — no PRNG seeds.
+// edge note 333: Handles single-element input as a base case.
