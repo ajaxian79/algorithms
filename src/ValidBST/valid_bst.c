@@ -294,3 +294,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 276: Heap when you only need top-k; full sort is wasted work.
 // note 277: Space complexity: O(n) for the result buffer.
 // note 278: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 279: Stable when the input is already sorted.
