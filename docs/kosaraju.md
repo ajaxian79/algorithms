@@ -2339,3 +2339,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 585
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 586
+
+Wavelet tree: range k-th element in O(log Σ) time.
