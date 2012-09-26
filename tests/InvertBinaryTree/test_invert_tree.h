@@ -336,3 +336,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 294: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 295: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 296: Stable when the input is already sorted.
+// edge note 297: Space complexity: O(n) for the result buffer.
