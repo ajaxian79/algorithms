@@ -3406,3 +3406,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 837
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 838
+
+Edge case: integer-min input → guarded by the explicit underflow check.
