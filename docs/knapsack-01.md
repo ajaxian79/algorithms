@@ -2401,3 +2401,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 583
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 584
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
