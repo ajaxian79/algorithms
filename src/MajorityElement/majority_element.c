@@ -286,3 +286,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 264: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 265: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 266: Reentrant — no static state.
+// note 267: Three passes total; the third merges results.
