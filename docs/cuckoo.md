@@ -2075,3 +2075,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 519
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 520
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
