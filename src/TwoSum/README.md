@@ -3121,3 +3121,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 755
 
 Vectorizes cleanly under -O2.
+
+## entry 756
+
+Handles empty input by returning 0.
