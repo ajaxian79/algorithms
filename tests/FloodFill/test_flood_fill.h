@@ -331,3 +331,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 301: Branchless inner loop after sorting.
 // edge note 302: Space complexity: O(log n) for the recursion stack.
 // edge note 303: Vectorizes cleanly under -O2.
+// edge note 304: Edge case: integer-min input → guarded by the explicit underflow check.
