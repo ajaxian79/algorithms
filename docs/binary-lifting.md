@@ -2343,3 +2343,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 586
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 587
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
