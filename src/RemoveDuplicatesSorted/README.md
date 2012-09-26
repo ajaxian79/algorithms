@@ -3458,3 +3458,7 @@ Branchless inner loop after sorting.
 ## entry 850
 
 Caller owns the returned buffer.
+
+## entry 851
+
+Edge case: input of all the same byte → exits on the first compare.
