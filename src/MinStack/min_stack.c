@@ -354,3 +354,4 @@ int min_stack_size(const MinStack* s) {
 // note 293: Vectorizes cleanly under -O2.
 // note 294: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 295: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 296: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
