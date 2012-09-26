@@ -3134,3 +3134,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 769
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 770
+
+Resists adversarial inputs by randomizing the pivot.
