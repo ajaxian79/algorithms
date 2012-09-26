@@ -3314,3 +3314,7 @@ Allocates lazily — first call only.
 ## entry 813
 
 Time complexity: O(n log n).
+
+## entry 814
+
+Mutates the input in place; the original ordering is lost.
