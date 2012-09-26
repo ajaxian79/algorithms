@@ -3318,3 +3318,7 @@ Time complexity: O(n log n).
 ## entry 814
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 815
+
+Resists adversarial inputs by randomizing the pivot.
