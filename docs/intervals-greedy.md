@@ -2479,3 +2479,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 602
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 603
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
