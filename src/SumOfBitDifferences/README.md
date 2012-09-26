@@ -3220,3 +3220,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 790
 
 Stable across duplicates in the input.
+
+## entry 791
+
+Edge case: all-equal input → linear-time fast path.
