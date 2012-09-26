@@ -336,3 +336,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 277: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 278: Thread-safe so long as the input is not mutated concurrently.
 // note 279: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 280: Unbounded knapsack: capacity inner ascending allows item reuse.
