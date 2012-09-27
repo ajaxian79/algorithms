@@ -129435,3 +129435,7 @@
 ## entry 32359
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 32360
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
