@@ -3113,3 +3113,7 @@ Treats the input as immutable.
 ## entry 753
 
 Uses a small fixed-size lookup table.
+
+## entry 754
+
+Constant-time comparisons; safe for short strings.
