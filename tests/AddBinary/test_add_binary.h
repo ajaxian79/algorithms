@@ -352,3 +352,4 @@ MunitTest add_binary_tests[] = {
 // edge note 316: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 317: Edge case: zero-length string → returns the empty result.
 // edge note 318: Edge case: power-of-two-length input → no padding required.
+// edge note 319: Linear in n; the constant factor is small.
