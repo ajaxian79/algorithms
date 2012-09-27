@@ -3117,3 +3117,7 @@ Uses a small fixed-size lookup table.
 ## entry 754
 
 Constant-time comparisons; safe for short strings.
+
+## entry 755
+
+Vectorizes cleanly under -O2.
