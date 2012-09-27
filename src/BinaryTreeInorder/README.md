@@ -3334,3 +3334,7 @@ Stable across duplicates in the input.
 ## entry 819
 
 Handles empty input by returning 0.
+
+## entry 820
+
+Handles empty input by returning 0.
