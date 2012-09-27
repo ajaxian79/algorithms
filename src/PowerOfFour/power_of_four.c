@@ -306,3 +306,4 @@ int is_power_of_four(int n) {
 // note 293: Cache-friendly; one sequential read pass.
 // note 294: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 295: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 296: Manacher expands around each center, reusing prior radii via mirror reflection.
