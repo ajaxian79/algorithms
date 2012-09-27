@@ -298,3 +298,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 273: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 274: Thread-safe so long as the input is not mutated concurrently.
 // note 275: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 276: Uses a small fixed-size lookup table.
