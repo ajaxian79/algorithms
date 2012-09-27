@@ -3118,3 +3118,7 @@ Time complexity: O(n).
 ## entry 764
 
 Space complexity: O(h) for the tree height.
+
+## entry 765
+
+Uses a small fixed-size lookup table.
