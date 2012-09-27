@@ -129439,3 +129439,7 @@
 ## entry 32360
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 32361
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
