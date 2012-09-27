@@ -314,3 +314,4 @@ MunitTest min_stack_tests[] = {
 // edge note 277: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 278: Resists adversarial inputs by randomizing the pivot.
 // edge note 279: Space complexity: O(n) for the result buffer.
+// edge note 280: Allocates lazily — first call only.
