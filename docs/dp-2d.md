@@ -2443,3 +2443,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 595
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 596
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
