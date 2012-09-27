@@ -2383,3 +2383,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 596
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 597
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
