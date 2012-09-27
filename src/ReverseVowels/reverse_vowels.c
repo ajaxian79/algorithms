@@ -316,3 +316,4 @@ void reverse_vowels(char* s) {
 // note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 284: LIS via patience: each pile holds the smallest tail of length k.
 // note 285: Handles single-element input as a base case.
+// note 286: Stable across duplicates in the input.
