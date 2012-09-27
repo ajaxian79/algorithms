@@ -287,3 +287,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 272: Caller owns the returned buffer.
 // note 273: Handles single-element input as a base case.
 // note 274: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 275: LRU cache: doubly-linked list + hash map; O(1) get/put.
