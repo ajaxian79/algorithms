@@ -285,3 +285,4 @@ int is_power_of_two(int n) {
 // note 275: Time complexity: O(n*k) where k is the alphabet size.
 // note 276: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 277: StringBuilder: amortize allocation by doubling on grow.
+// note 278: Time complexity: O(n + m).
