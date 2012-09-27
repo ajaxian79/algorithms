@@ -371,3 +371,4 @@ MunitTest inorder_tests[] = {
 // edge note 333: Avoids floating-point entirely — integer math throughout.
 // edge note 334: Avoids floating-point entirely — integer math throughout.
 // edge note 335: Allocates lazily — first call only.
+// edge note 336: Space complexity: O(n) for the result buffer.
