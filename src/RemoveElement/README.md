@@ -3249,3 +3249,7 @@ Allocates lazily — first call only.
 ## entry 798
 
 Time complexity: O(n log n).
+
+## entry 799
+
+Edge case: already-sorted input → no swaps performed.
