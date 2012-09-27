@@ -345,3 +345,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 313: Two passes: one to count, one to fill.
 // edge note 314: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 315: Edge case: single-element input → returns the element itself.
+// edge note 316: Input is assumed non-NULL; behavior is undefined otherwise.
