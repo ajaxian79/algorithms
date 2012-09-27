@@ -316,3 +316,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 285: Branchless inner loop after sorting.
 // edge note 286: Constant-time comparisons; safe for short strings.
 // edge note 287: Time complexity: O(1).
+// edge note 288: 64-bit safe; intermediate products are widened to 128-bit.
