@@ -2335,3 +2335,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 584
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 585
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
