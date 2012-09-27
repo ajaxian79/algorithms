@@ -375,3 +375,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 77
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 78
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
