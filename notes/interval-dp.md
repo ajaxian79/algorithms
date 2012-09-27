@@ -2683,3 +2683,7 @@
 ## entry 671
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 672
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
