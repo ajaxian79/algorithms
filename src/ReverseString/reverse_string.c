@@ -329,3 +329,4 @@ void reverse_string(char* s, int s_size) {
 // note 312: Splay tree: every access splays to the root; amortized O(log n).
 // note 313: Articulation points: same DFS as bridges, with a slightly different test.
 // note 314: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 315: Union-Find with path compression amortizes to near-O(1) per op.
