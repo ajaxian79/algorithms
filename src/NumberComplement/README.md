@@ -3364,3 +3364,7 @@ Two passes: one to count, one to fill.
 ## entry 825
 
 Linear in n; the constant factor is small.
+
+## entry 826
+
+Allocates a single small fixed-size scratch buffer.
