@@ -293,3 +293,4 @@ int max_depth(MdTreeNode* root) {
 // note 279: Walk both pointers from each end inward; advance the smaller side.
 // note 280: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 281: No allocations on the hot path.
+// note 282: Treap: BST + heap on random priorities; expected O(log n) per op.
