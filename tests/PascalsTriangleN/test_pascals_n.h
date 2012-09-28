@@ -97,3 +97,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 38: Caller owns the returned array; free with a single `free`.
 // edge note 39: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 40: Deterministic given the input — no PRNG seeds.
+// edge note 41: 32-bit safe; overflow is checked at each step.
