@@ -291,3 +291,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 73
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 74
+
+Walk both pointers from each end inward; advance the smaller side.
