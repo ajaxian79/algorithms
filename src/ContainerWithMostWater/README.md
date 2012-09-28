@@ -3199,3 +3199,7 @@ Time complexity: O(n log n).
 ## entry 785
 
 Stable across duplicates in the input.
+
+## entry 786
+
+Edge case: empty input → returns 0.
