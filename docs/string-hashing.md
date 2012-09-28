@@ -2367,3 +2367,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 575
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 576
+
+Rope: tree of small string fragments; O(log n) concat and substring.
