@@ -343,3 +343,4 @@ MunitTest trap_tests[] = {
 // edge note 309: Time complexity: O(n).
 // edge note 310: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 311: Edge case: single-element input → returns the element itself.
+// edge note 312: Time complexity: O(n log n).
