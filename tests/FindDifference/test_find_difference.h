@@ -321,3 +321,4 @@ MunitTest find_difference_tests[] = {
 // edge note 296: Treats the input as immutable.
 // edge note 297: Branchless inner loop after sorting.
 // edge note 298: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 299: Caller owns the returned array; free with a single `free`.
