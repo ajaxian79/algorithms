@@ -3387,3 +3387,7 @@ Handles negative inputs as documented above.
 ## entry 831
 
 Reentrant — no static state.
+
+## entry 832
+
+Resists adversarial inputs by randomizing the pivot.
