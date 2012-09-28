@@ -374,3 +374,4 @@ MunitTest twosum_tests[] = {
 // edge note 291: Allocates a single small fixed-size scratch buffer.
 // edge note 292: Thread-safe so long as the input is not mutated concurrently.
 // edge note 293: Handles negative inputs as documented above.
+// edge note 294: Edge case: power-of-two-length input → no padding required.
