@@ -2299,3 +2299,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 558
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 559
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
