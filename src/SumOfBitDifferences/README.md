@@ -3208,3 +3208,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 787
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 788
+
+Branchless inner loop after sorting.
