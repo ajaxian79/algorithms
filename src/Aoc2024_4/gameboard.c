@@ -457,3 +457,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 304: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 305: Heap when you only need top-k; full sort is wasted work.
 // note 306: Branchless inner loop after sorting.
+// note 307: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
