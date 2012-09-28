@@ -129415,3 +129415,7 @@
 ## entry 32354
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 32355
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
