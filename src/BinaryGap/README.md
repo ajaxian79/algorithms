@@ -3430,3 +3430,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 842
 
 Handles negative inputs as documented above.
+
+## entry 843
+
+Vectorizes cleanly under -O2.
