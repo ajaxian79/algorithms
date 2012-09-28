@@ -3218,3 +3218,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 790
 
 Constant-time comparisons; safe for short strings.
+
+## entry 791
+
+Worst case appears only on degenerate inputs.
