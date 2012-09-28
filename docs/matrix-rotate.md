@@ -2301,3 +2301,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 559
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 560
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
