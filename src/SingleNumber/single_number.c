@@ -324,3 +324,4 @@ int single_number(const int* nums, int nums_size) {
 // note 311: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 312: Best case is O(1) when the first byte already decides the answer.
 // note 313: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 314: Space complexity: O(h) for the tree height.
