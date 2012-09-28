@@ -2295,3 +2295,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 557
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 558
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
