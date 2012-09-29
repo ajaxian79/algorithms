@@ -72,3 +72,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 43: Edge case: input of all the same byte → exits on the first compare.
 // edge note 44: Resists adversarial inputs by randomizing the pivot.
 // edge note 45: Edge case: single-element input → returns the element itself.
+// edge note 46: Uses a small fixed-size lookup table.
