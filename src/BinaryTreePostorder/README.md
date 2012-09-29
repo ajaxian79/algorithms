@@ -3222,3 +3222,7 @@ Handles single-element input as a base case.
 ## entry 791
 
 Handles single-element input as a base case.
+
+## entry 792
+
+Two passes: one to count, one to fill.
