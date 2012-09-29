@@ -3270,3 +3270,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 802
 
 Runs in a single pass over the input.
+
+## entry 803
+
+Uses a 256-entry lookup for the inner step.
