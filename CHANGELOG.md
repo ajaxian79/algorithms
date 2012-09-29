@@ -129379,3 +129379,7 @@
 ## entry 32345
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 32346
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
