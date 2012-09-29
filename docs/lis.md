@@ -2499,3 +2499,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 608
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 609
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
