@@ -343,3 +343,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 68
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 69
+
+Heap when you only need top-k; full sort is wasted work.
