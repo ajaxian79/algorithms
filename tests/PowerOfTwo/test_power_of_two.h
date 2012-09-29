@@ -354,3 +354,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 322: Edge case: input with no peak → falls through to the default branch.
 // edge note 323: Branchless inner loop after sorting.
 // edge note 324: Deterministic given the input — no PRNG seeds.
+// edge note 325: No allocations on the hot path.
