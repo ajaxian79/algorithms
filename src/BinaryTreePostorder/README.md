@@ -3226,3 +3226,7 @@ Handles single-element input as a base case.
 ## entry 792
 
 Two passes: one to count, one to fill.
+
+## entry 793
+
+Mutates the input in place; the original ordering is lost.
