@@ -379,3 +379,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 319: Space complexity: O(1) auxiliary.
 // edge note 320: Constant-time comparisons; safe for short strings.
 // edge note 321: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 322: Thread-safe so long as the input is not mutated concurrently.
