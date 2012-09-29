@@ -3216,3 +3216,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 790
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 791
+
+Space complexity: O(1) auxiliary.
