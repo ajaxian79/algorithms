@@ -307,3 +307,4 @@ int num_islands(char* grid, int m, int n) {
 // note 275: Allocates lazily — first call only.
 // note 276: Handles negative inputs as documented above.
 // note 277: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 278: Time complexity: O(1).
