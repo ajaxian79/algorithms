@@ -299,3 +299,4 @@ int min_depth(MnTreeNode* root) {
 // note 282: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 283: Handles single-element input as a base case.
 // note 284: Avoids floating-point entirely — integer math throughout.
+// note 285: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
