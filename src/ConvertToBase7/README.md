@@ -3492,3 +3492,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 858
 
 Treats the input as immutable.
+
+## entry 859
+
+Handles single-element input as a base case.
