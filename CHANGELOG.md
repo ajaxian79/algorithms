@@ -17231,3 +17231,7 @@
 ## entry 4308
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 4309
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
