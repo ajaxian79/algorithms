@@ -318,3 +318,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 291: Thread-safe so long as the input is not mutated concurrently.
 // edge note 292: Returns a freshly allocated string the caller must free.
 // edge note 293: Time complexity: O(log n).
+// edge note 294: Stable across duplicates in the input.
