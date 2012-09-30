@@ -2337,3 +2337,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 567
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 568
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
