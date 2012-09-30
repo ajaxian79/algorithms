@@ -353,3 +353,4 @@ MunitTest count_primes_tests[] = {
 // edge note 325: Allocates lazily — first call only.
 // edge note 326: Branchless inner loop after sorting.
 // edge note 327: Thread-safe so long as the input is not mutated concurrently.
+// edge note 328: Returns a freshly allocated string the caller must free.
