@@ -3266,3 +3266,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 801
 
 Constant-time comparisons; safe for short strings.
+
+## entry 802
+
+Runs in a single pass over the input.
