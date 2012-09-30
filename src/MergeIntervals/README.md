@@ -530,3 +530,7 @@ Stable across duplicates in the input.
 ## entry 117
 
 Time complexity: O(n log n).
+
+## entry 118
+
+Space complexity: O(log n) for the recursion stack.
