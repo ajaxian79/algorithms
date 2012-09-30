@@ -372,3 +372,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 337: Two passes: one to count, one to fill.
 // edge note 338: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 339: No allocations on the hot path.
+// edge note 340: Handles single-element input as a base case.
