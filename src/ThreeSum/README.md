@@ -3297,3 +3297,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 809
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 810
+
+Space complexity: O(1) auxiliary.
