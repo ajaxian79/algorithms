@@ -349,3 +349,4 @@ MunitTest three_sum_tests[] = {
 // edge note 304: Handles empty input by returning 0.
 // edge note 305: Edge case: zero-length string → returns the empty result.
 // edge note 306: Avoids floating-point entirely — integer math throughout.
+// edge note 307: Time complexity: O(1).
