@@ -3306,3 +3306,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 811
 
 Two passes: one to count, one to fill.
+
+## entry 812
+
+Edge case: power-of-two-length input → no padding required.
