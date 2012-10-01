@@ -3454,3 +3454,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 849
 
 Branchless inner loop after sorting.
+
+## entry 850
+
+Caller owns the returned buffer.
