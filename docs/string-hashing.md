@@ -2363,3 +2363,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 574
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 575
+
+LIS via patience: each pile holds the smallest tail of length k.
