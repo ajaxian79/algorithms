@@ -3373,3 +3373,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 828
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 829
+
+Three passes total; the third merges results.
