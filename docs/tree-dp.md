@@ -2435,3 +2435,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 609
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 610
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
