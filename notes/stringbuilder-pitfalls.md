@@ -2259,3 +2259,7 @@
 ## entry 565
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 566
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
