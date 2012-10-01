@@ -3262,3 +3262,7 @@ Uses a small fixed-size lookup table.
 ## entry 800
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 801
+
+Constant-time comparisons; safe for short strings.
