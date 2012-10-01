@@ -3312,3 +3312,7 @@ Vectorizes cleanly under -O2.
 ## entry 812
 
 Cache-friendly; one sequential read pass.
+
+## entry 813
+
+Sub-linear in the average case thanks to early exit.
