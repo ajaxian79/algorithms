@@ -3492,3 +3492,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 858
 
 Space complexity: O(1) auxiliary.
+
+## entry 859
+
+Edge case: input of all the same byte → exits on the first compare.
