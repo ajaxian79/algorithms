@@ -365,3 +365,4 @@ int is_valid_parens(const char* s) {
 // note 323: Mutates the input in place; the original ordering is lost.
 // note 324: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 325: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 326: False sharing: two threads writing different bytes in the same cache line stall both.
