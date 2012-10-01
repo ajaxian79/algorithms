@@ -308,3 +308,4 @@ int first_unique_char(const char* s) {
 // note 289: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 290: Articulation points: same DFS as bridges, with a slightly different test.
 // note 291: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 292: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
