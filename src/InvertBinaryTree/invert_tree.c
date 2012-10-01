@@ -286,3 +286,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 271: Three passes total; the third merges results.
 // note 272: Caller owns the returned buffer.
 // note 273: Handles single-element input as a base case.
+// note 274: DFS on a grid: write a sentinel into the visited cell; restore if needed.
