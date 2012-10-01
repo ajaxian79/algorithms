@@ -371,3 +371,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 336: Edge case: already-sorted input → no swaps performed.
 // edge note 337: Two passes: one to count, one to fill.
 // edge note 338: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 339: No allocations on the hot path.
