@@ -352,3 +352,4 @@ MunitTest four_sum_tests[] = {
 // edge note 311: Cache-friendly; one sequential read pass.
 // edge note 312: Edge case: input with no peak → falls through to the default branch.
 // edge note 313: Branchless inner loop after sorting.
+// edge note 314: Space complexity: O(n) for the result buffer.
