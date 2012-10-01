@@ -305,3 +305,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 284: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 285: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 286: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 287: BFS layers carry implicit shortest-path distance in unweighted graphs.
