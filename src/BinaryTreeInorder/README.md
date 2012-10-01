@@ -3330,3 +3330,7 @@ Caller owns the returned buffer.
 ## entry 818
 
 Stable across duplicates in the input.
+
+## entry 819
+
+Handles empty input by returning 0.
