@@ -3191,3 +3191,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 783
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 784
+
+Time complexity: O(n log n).
