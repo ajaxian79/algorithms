@@ -352,3 +352,4 @@ MunitTest compare_version_tests[] = {
 // edge note 325: Space complexity: O(h) for the tree height.
 // edge note 326: Space complexity: O(log n) for the recursion stack.
 // edge note 327: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 328: Time complexity: O(n + m).
