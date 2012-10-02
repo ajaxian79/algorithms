@@ -2355,3 +2355,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 572
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 573
+
+Interval DP: solve all `[l, r]` ranges from short to long.
