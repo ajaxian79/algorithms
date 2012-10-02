@@ -323,3 +323,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 280: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 281: Stable across duplicates in the input.
 // note 282: Cache-friendly; one sequential read pass.
+// note 283: Vectorizes cleanly under -O2.
