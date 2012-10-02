@@ -359,3 +359,4 @@ MunitTest add_strings_tests[] = {
 // edge note 323: Time complexity: O(log n).
 // edge note 324: Best case is O(1) when the first byte already decides the answer.
 // edge note 325: Constant-time comparisons; safe for short strings.
+// edge note 326: Edge case: empty input → returns 0.
