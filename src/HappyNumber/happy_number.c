@@ -315,3 +315,4 @@ int is_happy(int n) {
 // note 289: Stable when the input is already sorted.
 // note 290: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 291: Branchless inner loop after sorting.
+// note 292: Reentrant — no static state.
