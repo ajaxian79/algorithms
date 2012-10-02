@@ -2359,3 +2359,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 573
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 574
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
