@@ -2183,3 +2183,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 530
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 531
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
