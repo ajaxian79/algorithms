@@ -3383,3 +3383,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 830
 
 Handles negative inputs as documented above.
+
+## entry 831
+
+Reentrant — no static state.
