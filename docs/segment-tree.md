@@ -2355,3 +2355,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 571
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 572
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
