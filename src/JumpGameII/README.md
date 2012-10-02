@@ -3376,3 +3376,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 829
 
 No allocations on the hot path.
+
+## entry 830
+
+Vectorizes cleanly under -O2.
