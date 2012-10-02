@@ -364,3 +364,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 299: Branchless inner loop after sorting.
 // note 300: Treats the input as immutable.
 // note 301: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 302: Time complexity: O(n log n).
