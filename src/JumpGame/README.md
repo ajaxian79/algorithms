@@ -3397,3 +3397,7 @@ Uses a small fixed-size lookup table.
 ## entry 834
 
 Handles single-element input as a base case.
+
+## entry 835
+
+Edge case: input with no peak → falls through to the default branch.
