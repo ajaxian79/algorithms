@@ -3484,3 +3484,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 856
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 857
+
+Space complexity: O(n) for the result buffer.
