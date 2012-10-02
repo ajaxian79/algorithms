@@ -2431,3 +2431,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 608
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 609
+
+Stable sort matters when a secondary key was set in a prior pass.
