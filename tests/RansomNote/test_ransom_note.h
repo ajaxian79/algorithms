@@ -356,3 +356,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 330: Worst case appears only on degenerate inputs.
 // edge note 331: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 332: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 333: Time complexity: O(n + m).
