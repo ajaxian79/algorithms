@@ -2327,3 +2327,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 582
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 583
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
