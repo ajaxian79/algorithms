@@ -3109,3 +3109,7 @@ Treats the input as immutable.
 ## entry 762
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 763
+
+Allocates lazily — first call only.
