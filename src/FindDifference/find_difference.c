@@ -292,3 +292,4 @@ char find_difference(const char* s, const char* t) {
 // note 276: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 277: Treats the input as immutable.
 // note 278: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 279: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
