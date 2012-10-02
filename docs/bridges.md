@@ -2411,3 +2411,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 603
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 604
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
