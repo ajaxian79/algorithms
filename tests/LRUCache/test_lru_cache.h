@@ -343,3 +343,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 300: Deterministic given the input — no PRNG seeds.
 // edge note 301: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 302: Reentrant — no static state.
+// edge note 303: Returns a freshly allocated string the caller must free.
