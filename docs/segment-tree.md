@@ -2359,3 +2359,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 572
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 573
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
