@@ -371,3 +371,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 76
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 77
+
+Articulation points: same DFS as bridges, with a slightly different test.
