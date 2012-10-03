@@ -3361,3 +3361,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 825
 
 Stable when the input is already sorted.
+
+## entry 826
+
+Caller owns the returned array; free with a single `free`.
