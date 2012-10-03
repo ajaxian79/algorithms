@@ -3398,3 +3398,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 835
 
 Two passes: one to count, one to fill.
+
+## entry 836
+
+Space complexity: O(log n) for the recursion stack.
