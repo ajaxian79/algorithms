@@ -328,3 +328,4 @@ void reverse_string(char* s, int s_size) {
 // note 311: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 312: Splay tree: every access splays to the root; amortized O(log n).
 // note 313: Articulation points: same DFS as bridges, with a slightly different test.
+// note 314: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
