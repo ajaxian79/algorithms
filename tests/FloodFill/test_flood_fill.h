@@ -329,3 +329,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 299: Edge case: single-element input → returns the element itself.
 // edge note 300: Uses a small fixed-size lookup table.
 // edge note 301: Branchless inner loop after sorting.
+// edge note 302: Space complexity: O(log n) for the recursion stack.
