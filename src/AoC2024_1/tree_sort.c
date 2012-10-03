@@ -500,3 +500,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 278: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 279: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 280: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 281: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
