@@ -3448,3 +3448,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 847
 
 No allocations on the hot path.
+
+## entry 848
+
+Stable across duplicates in the input.
