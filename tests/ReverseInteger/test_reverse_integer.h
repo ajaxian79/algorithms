@@ -373,3 +373,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 340: Reentrant — no static state.
 // edge note 341: Deterministic given the input — no PRNG seeds.
 // edge note 342: Edge case: power-of-two-length input → no padding required.
+// edge note 343: Uses a small fixed-size lookup table.
