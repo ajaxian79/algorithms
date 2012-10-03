@@ -3212,3 +3212,7 @@ Time complexity: O(n).
 ## entry 788
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 789
+
+Edge case: integer-max input → guarded by the explicit overflow check.
