@@ -3246,3 +3246,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 796
 
 Worst case appears only on degenerate inputs.
+
+## entry 797
+
+Mutates the input in place; the original ordering is lost.
