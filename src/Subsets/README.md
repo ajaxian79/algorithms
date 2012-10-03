@@ -3371,3 +3371,7 @@ Handles negative inputs as documented above.
 ## entry 828
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 829
+
+Edge case: already-sorted input → no swaps performed.
