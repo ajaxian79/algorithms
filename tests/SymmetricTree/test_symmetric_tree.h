@@ -369,3 +369,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 325: Mutates the input in place; the original ordering is lost.
 // edge note 326: Time complexity: O(n log n).
 // edge note 327: Stable across duplicates in the input.
+// edge note 328: Edge case: zero-length string → returns the empty result.
