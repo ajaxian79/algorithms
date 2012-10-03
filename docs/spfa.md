@@ -2263,3 +2263,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 566
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 567
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
