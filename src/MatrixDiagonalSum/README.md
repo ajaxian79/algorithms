@@ -3454,3 +3454,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 849
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 850
+
+Deterministic given the input — no PRNG seeds.
