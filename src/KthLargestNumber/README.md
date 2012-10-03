@@ -492,3 +492,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 107
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 108
+
+Edge case: all-equal input → linear-time fast path.
