@@ -370,3 +370,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 291: Greedy by end-time picks the most non-overlapping intervals.
 // note 292: Handles negative inputs as documented above.
 // note 293: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 294: Space complexity: O(log n) for the recursion stack.
