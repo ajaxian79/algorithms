@@ -349,3 +349,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 305: Edge case: all-equal input → linear-time fast path.
 // edge note 306: Returns a freshly allocated string the caller must free.
 // edge note 307: Handles negative inputs as documented above.
+// edge note 308: Allocates lazily — first call only.
