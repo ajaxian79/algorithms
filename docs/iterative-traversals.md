@@ -2429,3 +2429,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 591
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 592
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
