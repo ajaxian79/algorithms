@@ -2267,3 +2267,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 567
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 568
+
+State compression: bitmask + integer encodes a small subset cheaply.
