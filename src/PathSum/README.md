@@ -3452,3 +3452,7 @@ No allocations on the hot path.
 ## entry 848
 
 Stable across duplicates in the input.
+
+## entry 849
+
+Uses a small fixed-size lookup table.
