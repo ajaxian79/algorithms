@@ -3258,3 +3258,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 799
 
 Uses a small fixed-size lookup table.
+
+## entry 800
+
+Caller owns the returned array; free with a single `free`.
