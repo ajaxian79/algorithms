@@ -2171,3 +2171,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 543
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 544
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
