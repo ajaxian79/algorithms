@@ -3309,3 +3309,7 @@ Stable when the input is already sorted.
 ## entry 813
 
 Two passes: one to count, one to fill.
+
+## entry 814
+
+Edge case: maximum-length input → still fits in 32-bit indices.
