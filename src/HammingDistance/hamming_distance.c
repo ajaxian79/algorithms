@@ -293,3 +293,4 @@ int hamming_distance(int x, int y) {
 // note 278: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 279: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 280: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 281: Handles negative inputs as documented above.
