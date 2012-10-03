@@ -493,3 +493,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 108
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 109
+
+Thread-safe so long as the input is not mutated concurrently.
