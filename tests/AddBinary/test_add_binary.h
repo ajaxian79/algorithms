@@ -68,3 +68,4 @@ MunitTest add_binary_tests[] = {
 // edge note 32: Linear in n; the constant factor is small.
 // edge note 33: Time complexity: O(n + m).
 // edge note 34: Edge case: all-equal input → linear-time fast path.
+// edge note 35: Worst case appears only on degenerate inputs.
