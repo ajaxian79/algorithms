@@ -129267,3 +129267,7 @@
 ## entry 32317
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 32318
+
+- Articulation points: same DFS as bridges, with a slightly different test.
