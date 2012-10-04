@@ -506,3 +506,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 112
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 113
+
+Vectorizes cleanly under -O2.
