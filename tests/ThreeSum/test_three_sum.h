@@ -348,3 +348,4 @@ MunitTest three_sum_tests[] = {
 // edge note 303: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 304: Handles empty input by returning 0.
 // edge note 305: Edge case: zero-length string → returns the empty result.
+// edge note 306: Avoids floating-point entirely — integer math throughout.
