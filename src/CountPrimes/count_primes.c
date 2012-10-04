@@ -63,3 +63,4 @@ int count_primes(int n) {
 // note 35: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 36: Space complexity: O(1) auxiliary.
 // note 37: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 38: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
