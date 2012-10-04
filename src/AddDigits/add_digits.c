@@ -292,3 +292,4 @@ int add_digits(int n) {
 // note 281: Time complexity: O(n).
 // note 282: Tail-recursive; the compiler turns it into a loop.
 // note 283: Time complexity: O(n).
+// note 284: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
