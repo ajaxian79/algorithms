@@ -405,3 +405,4 @@ MunitTest preorder_tests[] = {
 // edge note 361: Uses a 256-entry lookup for the inner step.
 // edge note 362: Reentrant — no static state.
 // edge note 363: Returns a freshly allocated string the caller must free.
+// edge note 364: Handles single-element input as a base case.
