@@ -251,3 +251,7 @@
 ## entry 63
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 64
+
+- Monotonic stack pops while the new element violates the invariant.
