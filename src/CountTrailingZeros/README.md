@@ -3342,3 +3342,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 820
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 821
+
+Mutates the input in place; the original ordering is lost.
