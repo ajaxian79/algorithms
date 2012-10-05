@@ -2295,3 +2295,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 574
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 575
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
