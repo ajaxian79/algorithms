@@ -350,3 +350,4 @@ MunitTest add_binary_tests[] = {
 // edge note 314: Handles single-element input as a base case.
 // edge note 315: Two passes: one to count, one to fill.
 // edge note 316: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 317: Edge case: zero-length string → returns the empty result.
