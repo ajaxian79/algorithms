@@ -3394,3 +3394,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 834
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 835
+
+Two passes: one to count, one to fill.
