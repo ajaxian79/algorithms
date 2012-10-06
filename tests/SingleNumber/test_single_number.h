@@ -75,3 +75,4 @@ MunitTest single_number_tests[] = {
 // edge note 44: Time complexity: O(n + m).
 // edge note 45: No allocations after setup.
 // edge note 46: Edge case: reverse-sorted input → still O(n log n).
+// edge note 47: Handles empty input by returning 0.
