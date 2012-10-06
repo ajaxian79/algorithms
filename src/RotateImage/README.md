@@ -3337,3 +3337,7 @@ Edge case: empty input → returns 0.
 ## entry 819
 
 Allocates lazily — first call only.
+
+## entry 820
+
+Cache-friendly; one sequential read pass.
