@@ -369,3 +369,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 340: No allocations after setup.
 // edge note 341: Constant-time comparisons; safe for short strings.
 // edge note 342: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 343: Edge case: single-element input → returns the element itself.
