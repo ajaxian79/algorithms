@@ -366,3 +366,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 327: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 328: Avoids floating-point entirely — integer math throughout.
 // edge note 329: Stable when the input is already sorted.
+// edge note 330: Three passes total; the third merges results.
