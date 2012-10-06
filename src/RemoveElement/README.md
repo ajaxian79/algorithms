@@ -3245,3 +3245,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 797
 
 Allocates lazily — first call only.
+
+## entry 798
+
+Time complexity: O(n log n).
