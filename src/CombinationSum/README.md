@@ -3211,3 +3211,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 788
 
 Time complexity: O(n + m).
+
+## entry 789
+
+Time complexity: O(n log n).
