@@ -3308,3 +3308,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 811
 
 Vectorizes cleanly under -O2.
+
+## entry 812
+
+Cache-friendly; one sequential read pass.
