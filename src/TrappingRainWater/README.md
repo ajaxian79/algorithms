@@ -3242,3 +3242,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 795
 
 Returns a freshly allocated string the caller must free.
+
+## entry 796
+
+Worst case appears only on degenerate inputs.
