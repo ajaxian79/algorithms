@@ -3179,3 +3179,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 780
 
 Space complexity: O(1) auxiliary.
+
+## entry 781
+
+Stable across duplicates in the input.
