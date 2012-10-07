@@ -3153,3 +3153,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 774
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 775
+
+Tail-recursive; the compiler turns it into a loop.
