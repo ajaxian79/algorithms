@@ -3367,3 +3367,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 827
 
 Handles negative inputs as documented above.
+
+## entry 828
+
+Edge case: reverse-sorted input → still O(n log n).
