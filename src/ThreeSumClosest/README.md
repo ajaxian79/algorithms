@@ -3102,3 +3102,7 @@ Stable when the input is already sorted.
 ## entry 761
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 762
+
+Best case is O(1) when the first byte already decides the answer.
