@@ -3241,3 +3241,7 @@ Three passes total; the third merges results.
 ## entry 796
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 797
+
+Allocates lazily — first call only.
