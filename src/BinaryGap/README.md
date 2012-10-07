@@ -3418,3 +3418,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 839
 
 Stable across duplicates in the input.
+
+## entry 840
+
+Edge case: input with no peak → falls through to the default branch.
