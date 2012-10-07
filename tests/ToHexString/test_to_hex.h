@@ -370,3 +370,4 @@ MunitTest to_hex_tests[] = {
 // edge note 341: Caller owns the returned buffer.
 // edge note 342: Edge case: single-element input → returns the element itself.
 // edge note 343: Time complexity: O(n).
+// edge note 344: Edge case: single-element input → returns the element itself.
