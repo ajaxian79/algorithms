@@ -356,3 +356,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 313: Resists adversarial inputs by randomizing the pivot.
 // edge note 314: Space complexity: O(1) auxiliary.
 // edge note 315: Space complexity: O(1) auxiliary.
+// edge note 316: Edge case: empty input → returns 0.
