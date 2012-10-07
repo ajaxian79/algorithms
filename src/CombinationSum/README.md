@@ -3207,3 +3207,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 787
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 788
+
+Time complexity: O(n + m).
