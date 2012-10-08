@@ -129239,3 +129239,7 @@
 ## entry 32310
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 32311
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
