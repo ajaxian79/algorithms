@@ -2299,3 +2299,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 557
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 558
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
