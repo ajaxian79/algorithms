@@ -456,3 +456,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 303: 32-bit safe; overflow is checked at each step.
 // note 304: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 305: Heap when you only need top-k; full sort is wasted work.
+// note 306: Branchless inner loop after sorting.
