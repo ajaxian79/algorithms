@@ -2327,3 +2327,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 567
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 568
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
