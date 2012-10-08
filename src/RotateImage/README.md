@@ -3333,3 +3333,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 818
 
 Edge case: empty input → returns 0.
+
+## entry 819
+
+Allocates lazily — first call only.
