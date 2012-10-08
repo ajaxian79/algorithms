@@ -2329,3 +2329,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 566
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 567
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
