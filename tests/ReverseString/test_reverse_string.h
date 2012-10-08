@@ -360,3 +360,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 322: Edge case: input with no peak → falls through to the default branch.
 // edge note 323: 32-bit safe; overflow is checked at each step.
 // edge note 324: Allocates lazily — first call only.
+// edge note 325: Two passes: one to count, one to fill.
