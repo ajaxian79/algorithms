@@ -2351,3 +2351,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 588
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 589
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
