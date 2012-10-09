@@ -298,3 +298,4 @@ char* to_hex_string(int n) {
 // note 265: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 266: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 267: LIS via patience: each pile holds the smallest tail of length k.
+// note 268: Union-Find with path compression amortizes to near-O(1) per op.
