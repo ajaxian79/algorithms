@@ -3379,3 +3379,7 @@ Cache-friendly; one sequential read pass.
 ## entry 829
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 830
+
+Handles negative inputs as documented above.
