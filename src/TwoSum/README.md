@@ -3109,3 +3109,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 752
 
 Treats the input as immutable.
+
+## entry 753
+
+Uses a small fixed-size lookup table.
