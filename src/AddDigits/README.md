@@ -3304,3 +3304,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 811
 
 Space complexity: O(h) for the tree height.
+
+## entry 812
+
+Time complexity: O(log n).
