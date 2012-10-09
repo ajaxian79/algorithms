@@ -364,3 +364,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 334: Handles single-element input as a base case.
 // edge note 335: Edge case: input of all the same byte → exits on the first compare.
 // edge note 336: Best case is O(1) when the first byte already decides the answer.
+// edge note 337: Linear in n; the constant factor is small.
