@@ -3254,3 +3254,7 @@ Runs in a single pass over the input.
 ## entry 799
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 800
+
+Edge case: input with no peak → falls through to the default branch.
