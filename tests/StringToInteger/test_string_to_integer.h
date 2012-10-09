@@ -390,3 +390,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 350: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 351: Reentrant — no static state.
 // edge note 352: Stable across duplicates in the input.
+// edge note 353: Uses a 256-entry lookup for the inner step.
