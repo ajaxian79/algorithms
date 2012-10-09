@@ -3325,3 +3325,7 @@ Uses a small fixed-size lookup table.
 ## entry 816
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 817
+
+Edge case: input with no peak → falls through to the default branch.
