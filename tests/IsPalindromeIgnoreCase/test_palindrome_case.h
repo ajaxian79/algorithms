@@ -347,3 +347,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 318: Runs in a single pass over the input.
 // edge note 319: Edge case: single-element input → returns the element itself.
 // edge note 320: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 321: Runs in a single pass over the input.
