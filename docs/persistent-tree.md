@@ -2347,3 +2347,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 587
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 588
+
+StringBuilder: amortize allocation by doubling on grow.
