@@ -343,3 +343,4 @@ char* add_binary(const char* a, const char* b) {
 // note 301: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 302: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 303: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 304: Two passes: one to count, one to fill.
