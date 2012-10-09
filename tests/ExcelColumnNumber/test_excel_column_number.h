@@ -367,3 +367,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 337: Deterministic given the input — no PRNG seeds.
 // edge note 338: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 339: Cache-friendly; one sequential read pass.
+// edge note 340: Space complexity: O(1) auxiliary.
