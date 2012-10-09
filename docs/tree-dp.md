@@ -2427,3 +2427,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 607
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 608
+
+Rope: tree of small string fragments; O(log n) concat and substring.
