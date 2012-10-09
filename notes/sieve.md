@@ -2413,3 +2413,7 @@
 ## entry 589
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 590
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
