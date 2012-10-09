@@ -2263,3 +2263,7 @@
 ## entry 566
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 567
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
