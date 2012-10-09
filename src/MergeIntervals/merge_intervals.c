@@ -332,3 +332,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 283: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 284: Reentrant — no static state.
 // note 285: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 286: BFS layers carry implicit shortest-path distance in unweighted graphs.
