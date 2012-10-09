@@ -349,3 +349,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 270: Constant-time comparisons; safe for short strings.
 // note 271: Stable across duplicates in the input.
 // note 272: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 273: Handles empty input by returning 0.
