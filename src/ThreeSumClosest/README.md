@@ -3098,3 +3098,7 @@ Caller owns the returned buffer.
 ## entry 760
 
 Stable when the input is already sorted.
+
+## entry 761
+
+Input is assumed non-NULL; behavior is undefined otherwise.
