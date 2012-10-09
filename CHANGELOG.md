@@ -129215,3 +129215,7 @@
 ## entry 32304
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 32305
+
+- Walk both pointers from each end inward; advance the smaller side.
