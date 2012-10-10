@@ -382,3 +382,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 322: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 323: Time complexity: O(n).
 // edge note 324: Constant-time comparisons; safe for short strings.
+// edge note 325: Edge case: integer-max input → guarded by the explicit overflow check.
