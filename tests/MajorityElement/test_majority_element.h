@@ -359,3 +359,4 @@ MunitTest majority_element_tests[] = {
 // edge note 328: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 329: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 330: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 331: Resists adversarial inputs by randomizing the pivot.
