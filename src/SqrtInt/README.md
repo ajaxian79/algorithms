@@ -3451,3 +3451,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 848
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 849
+
+Two passes: one to count, one to fill.
