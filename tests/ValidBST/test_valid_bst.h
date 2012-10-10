@@ -355,3 +355,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 312: Stable when the input is already sorted.
 // edge note 313: Resists adversarial inputs by randomizing the pivot.
 // edge note 314: Space complexity: O(1) auxiliary.
+// edge note 315: Space complexity: O(1) auxiliary.
