@@ -334,3 +334,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 303: Time complexity: O(k) where k is the answer size.
 // edge note 304: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 305: Deterministic given the input — no PRNG seeds.
+// edge note 306: Best case is O(1) when the first byte already decides the answer.
