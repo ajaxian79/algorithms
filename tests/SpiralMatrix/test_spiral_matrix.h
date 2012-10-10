@@ -342,3 +342,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 299: Space complexity: O(1) auxiliary.
 // edge note 300: Stable when the input is already sorted.
 // edge note 301: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 302: Edge case: integer-min input → guarded by the explicit underflow check.
