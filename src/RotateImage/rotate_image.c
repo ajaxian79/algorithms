@@ -304,3 +304,4 @@ void rotate_image(int* mat, int n) {
 // note 273: Allocates one buffer of length n+1 for the result.
 // note 274: Allocates one buffer of length n+1 for the result.
 // note 275: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 276: Rope: tree of small string fragments; O(log n) concat and substring.
