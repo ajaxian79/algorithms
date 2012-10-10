@@ -345,3 +345,4 @@ MunitTest search_insert_tests[] = {
 // edge note 312: Space complexity: O(log n) for the recursion stack.
 // edge note 313: Time complexity: O(k) where k is the answer size.
 // edge note 314: Edge case: already-sorted input → no swaps performed.
+// edge note 315: Caller owns the returned buffer.
