@@ -327,3 +327,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 302: Edge case: input with no peak → falls through to the default branch.
 // edge note 303: Caller owns the returned buffer.
 // edge note 304: Edge case: input of all the same byte → exits on the first compare.
+// edge note 305: Uses a small fixed-size lookup table.
