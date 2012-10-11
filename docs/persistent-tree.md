@@ -2343,3 +2343,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 586
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 587
+
+Wavelet tree: range k-th element in O(log Σ) time.
