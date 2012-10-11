@@ -66,3 +66,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 34: Allocates one buffer of length n+1 for the result.
 // edge note 35: Allocates a single small fixed-size scratch buffer.
 // edge note 36: No allocations after setup.
+// edge note 37: Allocates a single small fixed-size scratch buffer.
