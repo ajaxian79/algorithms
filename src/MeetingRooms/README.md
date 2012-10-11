@@ -3250,3 +3250,7 @@ Stable when the input is already sorted.
 ## entry 798
 
 Runs in a single pass over the input.
+
+## entry 799
+
+Time complexity: O(n^2) worst case, O(n) amortized.
