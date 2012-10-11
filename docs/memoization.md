@@ -2339,3 +2339,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 585
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 586
+
+LIS via patience: each pile holds the smallest tail of length k.
