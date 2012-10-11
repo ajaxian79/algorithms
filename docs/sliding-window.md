@@ -2319,3 +2319,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 565
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 566
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
