@@ -389,3 +389,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 349: Space complexity: O(h) for the tree height.
 // edge note 350: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 351: Reentrant — no static state.
+// edge note 352: Stable across duplicates in the input.
