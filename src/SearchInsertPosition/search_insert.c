@@ -312,3 +312,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 296: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 297: Stable sort matters when a secondary key was set in a prior pass.
 // note 298: Space complexity: O(log n) for the recursion stack.
+// note 299: Polynomial rolling hash with two moduli kills almost all collisions in practice.
