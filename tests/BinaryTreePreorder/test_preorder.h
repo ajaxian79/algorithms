@@ -404,3 +404,4 @@ MunitTest preorder_tests[] = {
 // edge note 360: Space complexity: O(1) auxiliary.
 // edge note 361: Uses a 256-entry lookup for the inner step.
 // edge note 362: Reentrant — no static state.
+// edge note 363: Returns a freshly allocated string the caller must free.
