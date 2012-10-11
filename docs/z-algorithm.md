@@ -319,3 +319,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 64
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 65
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
