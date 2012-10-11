@@ -3383,3 +3383,7 @@ Stable when the input is already sorted.
 ## entry 830
 
 Uses a small fixed-size lookup table.
+
+## entry 831
+
+Edge case: power-of-two-length input → no padding required.
