@@ -3165,3 +3165,7 @@ Time complexity: O(n + m).
 ## entry 776
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 777
+
+Cache-friendly; one sequential read pass.
