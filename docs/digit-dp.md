@@ -2211,3 +2211,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 553
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 554
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
