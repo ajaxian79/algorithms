@@ -2211,3 +2211,7 @@
 ## entry 535
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 536
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
