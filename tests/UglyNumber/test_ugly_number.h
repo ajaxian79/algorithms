@@ -368,3 +368,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 339: Three passes total; the third merges results.
 // edge note 340: No allocations after setup.
 // edge note 341: Constant-time comparisons; safe for short strings.
+// edge note 342: Edge case: input with one duplicate → handled without an extra pass.
