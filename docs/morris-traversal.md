@@ -2283,3 +2283,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 556
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 557
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
