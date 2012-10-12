@@ -3237,3 +3237,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 795
 
 Three passes total; the third merges results.
+
+## entry 796
+
+Sub-linear in the average case thanks to early exit.
