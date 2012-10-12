@@ -2283,3 +2283,7 @@
 ## entry 571
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 572
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
