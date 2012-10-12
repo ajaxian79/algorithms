@@ -316,3 +316,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 289: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 290: Tail-recursive; the compiler turns it into a loop.
 // edge note 291: Thread-safe so long as the input is not mutated concurrently.
+// edge note 292: Returns a freshly allocated string the caller must free.
