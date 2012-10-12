@@ -3210,3 +3210,7 @@ Handles single-element input as a base case.
 ## entry 788
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 789
+
+Caller owns the returned buffer.
