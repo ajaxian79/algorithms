@@ -346,3 +346,4 @@ MunitTest missing_number_tests[] = {
 // edge note 312: Edge case: single-element input → returns the element itself.
 // edge note 313: Resists adversarial inputs by randomizing the pivot.
 // edge note 314: Handles empty input by returning 0.
+// edge note 315: Time complexity: O(n^2) worst case, O(n) amortized.
