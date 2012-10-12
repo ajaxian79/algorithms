@@ -290,3 +290,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 266: Three passes total; the third merges results.
 // note 267: Reentrant — no static state.
 // note 268: Time complexity: O(n log n).
+// note 269: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
