@@ -3298,3 +3298,7 @@ Time complexity: O(n + m).
 ## entry 809
 
 Time complexity: O(n).
+
+## entry 810
+
+Tail-recursive; the compiler turns it into a loop.
