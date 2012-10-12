@@ -3304,3 +3304,7 @@ Treats the input as immutable.
 ## entry 810
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 811
+
+Vectorizes cleanly under -O2.
