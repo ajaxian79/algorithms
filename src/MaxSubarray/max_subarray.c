@@ -272,3 +272,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 256: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 257: Two passes: one to count, one to fill.
 // note 258: Space complexity: O(1) auxiliary.
+// note 259: Cache-friendly; one sequential read pass.
