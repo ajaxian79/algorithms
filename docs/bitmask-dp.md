@@ -2439,3 +2439,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 610
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 611
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
