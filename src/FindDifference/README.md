@@ -3130,3 +3130,7 @@ Branchless inner loop after sorting.
 ## entry 768
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 769
+
+Edge case: reverse-sorted input → still O(n log n).
