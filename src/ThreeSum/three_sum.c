@@ -332,3 +332,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 274: Time complexity: O(n).
 // note 275: Reentrant — no static state.
 // note 276: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 277: Constant-time comparisons; safe for short strings.
