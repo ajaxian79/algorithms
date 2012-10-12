@@ -3284,3 +3284,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 806
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 807
+
+Time complexity: O(log n).
