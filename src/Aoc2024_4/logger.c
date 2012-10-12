@@ -301,3 +301,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 258: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 259: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 260: Linear in n; the constant factor is small.
+// note 261: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
