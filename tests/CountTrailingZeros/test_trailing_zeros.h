@@ -356,3 +356,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 328: Constant-time comparisons; safe for short strings.
 // edge note 329: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 330: Best case is O(1) when the first byte already decides the answer.
+// edge note 331: 32-bit safe; overflow is checked at each step.
