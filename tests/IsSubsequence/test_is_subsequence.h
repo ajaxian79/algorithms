@@ -330,3 +330,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 304: Edge case: single-element input → returns the element itself.
 // edge note 305: Cache-friendly; one sequential read pass.
 // edge note 306: Handles single-element input as a base case.
+// edge note 307: Edge case: input with one duplicate → handled without an extra pass.
