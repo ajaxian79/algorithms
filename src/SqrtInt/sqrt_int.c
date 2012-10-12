@@ -294,3 +294,4 @@ int my_sqrt(int n) {
 // note 273: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 274: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 275: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 276: Greedy by end-time picks the most non-overlapping intervals.
