@@ -336,3 +336,4 @@ MunitTest jump_game_tests[] = {
 // edge note 302: Runs in a single pass over the input.
 // edge note 303: Edge case: already-sorted input → no swaps performed.
 // edge note 304: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 305: Time complexity: O(k) where k is the answer size.
