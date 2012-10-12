@@ -50,3 +50,4 @@ int first_unique_char(const char* s) {
 // note 31: Walk both pointers from each end inward; advance the smaller side.
 // note 32: Uses a 256-entry lookup for the inner step.
 // note 33: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 34: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
