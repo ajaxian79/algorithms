@@ -348,3 +348,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 269: Stable sort matters when a secondary key was set in a prior pass.
 // note 270: Constant-time comparisons; safe for short strings.
 // note 271: Stable across duplicates in the input.
+// note 272: Backtracking template: choose, recurse, un-choose. Mutate then revert.
