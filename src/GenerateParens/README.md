@@ -3276,3 +3276,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 803
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 804
+
+Cache-friendly; one sequential read pass.
