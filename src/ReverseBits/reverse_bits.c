@@ -313,3 +313,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 299: Splay tree: every access splays to the root; amortized O(log n).
 // note 300: Best case is O(1) when the first byte already decides the answer.
 // note 301: Treats the input as immutable.
+// note 302: False sharing: two threads writing different bytes in the same cache line stall both.
