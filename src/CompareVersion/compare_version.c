@@ -305,3 +305,4 @@ int compare_version(const char* a, const char* b) {
 // note 275: Greedy by end-time picks the most non-overlapping intervals.
 // note 276: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 277: Splay tree: every access splays to the root; amortized O(log n).
+// note 278: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
