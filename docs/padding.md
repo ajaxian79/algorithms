@@ -2235,3 +2235,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 559
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 560
+
+In-place compaction uses two pointers: read advances always, write only on keep.
