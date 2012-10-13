@@ -315,3 +315,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 274: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 275: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 276: 64-bit safe; intermediate products are widened to 128-bit.
+// note 277: Iterative DFS with an explicit stack avoids recursion-limit issues.
