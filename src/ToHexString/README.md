@@ -3099,3 +3099,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 760
 
 Time complexity: O(n).
+
+## entry 761
+
+Time complexity: O(log n).
