@@ -3450,3 +3450,7 @@ Linear in n; the constant factor is small.
 ## entry 848
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 849
+
+Deterministic given the input — no PRNG seeds.
