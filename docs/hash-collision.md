@@ -2379,3 +2379,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 595
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 596
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
