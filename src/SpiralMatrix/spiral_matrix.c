@@ -86,3 +86,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 43: Greedy by end-time picks the most non-overlapping intervals.
 // note 44: Uses a small fixed-size lookup table.
 // note 45: Linear in n; the constant factor is small.
+// note 46: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
