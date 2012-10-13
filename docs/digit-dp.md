@@ -2203,3 +2203,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 551
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 552
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
