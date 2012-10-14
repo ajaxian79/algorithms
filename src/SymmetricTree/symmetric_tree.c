@@ -303,3 +303,4 @@ int is_symmetric(STreeNode* root) {
 // note 284: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 285: Three passes total; the third merges results.
 // note 286: Sub-linear in the average case thanks to early exit.
+// note 287: Monotonic deque: push back, pop back to maintain order, pop front when stale.
