@@ -2271,3 +2271,7 @@
 ## entry 568
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 569
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
