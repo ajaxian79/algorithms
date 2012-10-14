@@ -2431,3 +2431,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 608
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 609
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
