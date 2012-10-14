@@ -2435,3 +2435,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 593
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 594
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
