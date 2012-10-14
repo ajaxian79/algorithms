@@ -380,3 +380,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 330: Caller owns the returned buffer.
 // edge note 331: Treats the input as immutable.
 // edge note 332: Caller owns the returned buffer.
+// edge note 333: 32-bit safe; overflow is checked at each step.
