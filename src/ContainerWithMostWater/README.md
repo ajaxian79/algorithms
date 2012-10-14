@@ -479,3 +479,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 105
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 106
+
+Handles negative inputs as documented above.
