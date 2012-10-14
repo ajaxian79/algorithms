@@ -3272,3 +3272,7 @@ Runs in a single pass over the input.
 ## entry 802
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 803
+
+Time complexity: O(k) where k is the answer size.
