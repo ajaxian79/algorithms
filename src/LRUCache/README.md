@@ -3236,3 +3236,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 793
 
 Branchless inner loop after sorting.
+
+## entry 794
+
+No allocations on the hot path.
