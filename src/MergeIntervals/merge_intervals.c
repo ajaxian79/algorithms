@@ -331,3 +331,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 282: 32-bit safe; overflow is checked at each step.
 // note 283: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 284: Reentrant — no static state.
+// note 285: Treap: BST + heap on random priorities; expected O(log n) per op.
