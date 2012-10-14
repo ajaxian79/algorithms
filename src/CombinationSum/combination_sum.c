@@ -362,3 +362,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 297: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 298: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 299: Branchless inner loop after sorting.
+// note 300: Treats the input as immutable.
