@@ -3090,3 +3090,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 758
 
 Time complexity: O(1).
+
+## entry 759
+
+Caller owns the returned buffer.
