@@ -312,3 +312,4 @@ int is_perfect_number(int n) {
 // note 294: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 295: Cache-friendly; one sequential read pass.
 // note 296: Allocates a single small fixed-size scratch buffer.
+// note 297: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
