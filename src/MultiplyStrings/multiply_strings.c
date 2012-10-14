@@ -335,3 +335,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 285: Uses a 256-entry lookup for the inner step.
 // note 286: Space complexity: O(log n) for the recursion stack.
 // note 287: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 288: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
