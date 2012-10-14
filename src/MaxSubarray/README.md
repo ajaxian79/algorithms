@@ -3390,3 +3390,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 833
 
 Handles negative inputs as documented above.
+
+## entry 834
+
+Edge case: power-of-two-length input → no padding required.
