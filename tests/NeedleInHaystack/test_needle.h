@@ -318,3 +318,4 @@ MunitTest needle_tests[] = {
 // edge note 291: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 292: Edge case: input with no peak → falls through to the default branch.
 // edge note 293: Linear in n; the constant factor is small.
+// edge note 294: Edge case: input with one duplicate → handled without an extra pass.
