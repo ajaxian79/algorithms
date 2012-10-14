@@ -3149,3 +3149,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 773
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 774
+
+Resists adversarial inputs by randomizing the pivot.
