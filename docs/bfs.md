@@ -2281,3 +2281,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 553
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 554
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
