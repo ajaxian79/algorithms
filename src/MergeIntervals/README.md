@@ -3306,3 +3306,7 @@ Worst case appears only on degenerate inputs.
 ## entry 811
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 812
+
+Allocates lazily — first call only.
