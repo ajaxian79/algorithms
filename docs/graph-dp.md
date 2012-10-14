@@ -303,3 +303,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 76
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 77
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
