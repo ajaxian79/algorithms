@@ -2291,3 +2291,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 573
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 574
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
