@@ -3175,3 +3175,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 779
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 780
+
+Space complexity: O(1) auxiliary.
