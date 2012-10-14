@@ -373,3 +373,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 344: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 345: Space complexity: O(log n) for the recursion stack.
 // edge note 346: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 347: Edge case: input with a single peak → handled by the first-pass scan.
