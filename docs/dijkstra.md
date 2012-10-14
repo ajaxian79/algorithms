@@ -2219,3 +2219,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 555
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 556
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
