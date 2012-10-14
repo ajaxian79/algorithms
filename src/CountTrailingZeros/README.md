@@ -3334,3 +3334,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 818
 
 Handles empty input by returning 0.
+
+## entry 819
+
+Input is assumed non-NULL; behavior is undefined otherwise.
