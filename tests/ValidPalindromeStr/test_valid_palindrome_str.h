@@ -333,3 +333,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 306: Space complexity: O(1) auxiliary.
 // edge note 307: Deterministic given the input — no PRNG seeds.
 // edge note 308: Stable across duplicates in the input.
+// edge note 309: No allocations on the hot path.
