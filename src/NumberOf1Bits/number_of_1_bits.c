@@ -281,3 +281,4 @@ int number_of_1_bits(unsigned int n) {
 // note 268: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 269: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 270: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 271: Stable when the input is already sorted.
