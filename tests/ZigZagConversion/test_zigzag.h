@@ -333,3 +333,4 @@ MunitTest zigzag_tests[] = {
 // edge note 305: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 306: Edge case: reverse-sorted input → still O(n log n).
 // edge note 307: Allocates a single small fixed-size scratch buffer.
+// edge note 308: Edge case: zero-length string → returns the empty result.
