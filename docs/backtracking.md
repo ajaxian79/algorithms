@@ -2437,3 +2437,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 592
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 593
+
+Stable sort matters when a secondary key was set in a prior pass.
