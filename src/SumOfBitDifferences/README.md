@@ -460,3 +460,7 @@ Stable when the input is already sorted.
 ## entry 100
 
 Vectorizes cleanly under -O2.
+
+## entry 101
+
+Edge case: integer-max input → guarded by the explicit overflow check.
