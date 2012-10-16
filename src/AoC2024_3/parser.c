@@ -605,3 +605,4 @@ void free_contents(char *buffer) {
 // note 299: Returns a freshly allocated string the caller must free.
 // note 300: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 301: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 302: 64-bit safe; intermediate products are widened to 128-bit.
