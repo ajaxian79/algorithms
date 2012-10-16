@@ -2259,3 +2259,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 548
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 549
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
