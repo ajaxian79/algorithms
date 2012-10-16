@@ -3300,3 +3300,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 809
 
 Treats the input as immutable.
+
+## entry 810
+
+Uses a 256-entry lookup for the inner step.
