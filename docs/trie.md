@@ -2313,3 +2313,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 562
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 563
+
+Euler tour flattens a tree into an array for range-query LCA.
