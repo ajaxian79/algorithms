@@ -3434,3 +3434,7 @@ No allocations after setup.
 ## entry 844
 
 Space complexity: O(h) for the tree height.
+
+## entry 845
+
+Time complexity: O(k) where k is the answer size.
