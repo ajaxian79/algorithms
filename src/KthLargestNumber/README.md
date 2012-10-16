@@ -3340,3 +3340,7 @@ Vectorizes cleanly under -O2.
 ## entry 819
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 820
+
+Edge case: NULL input is rejected by the caller, not by us.
