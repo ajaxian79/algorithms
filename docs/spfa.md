@@ -2255,3 +2255,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 564
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 565
+
+Walk both pointers from each end inward; advance the smaller side.
