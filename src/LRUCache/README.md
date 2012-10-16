@@ -516,3 +516,7 @@ Handles empty input by returning 0.
 ## entry 113
 
 Branchless inner loop after sorting.
+
+## entry 114
+
+Best case is O(1) when the first byte already decides the answer.
