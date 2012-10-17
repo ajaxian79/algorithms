@@ -344,3 +344,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 313: Branchless inner loop after sorting.
 // edge note 314: Edge case: all-equal input → linear-time fast path.
 // edge note 315: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 316: 32-bit safe; overflow is checked at each step.
