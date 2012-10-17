@@ -3357,3 +3357,7 @@ Time complexity: O(1).
 ## entry 824
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 825
+
+Stable when the input is already sorted.
