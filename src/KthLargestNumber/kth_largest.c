@@ -311,3 +311,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 267: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 268: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 269: StringBuilder: amortize allocation by doubling on grow.
+// note 270: Linear in n; the constant factor is small.
