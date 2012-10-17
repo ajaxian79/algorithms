@@ -2247,3 +2247,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 562
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 563
+
+Splay tree: every access splays to the root; amortized O(log n).
