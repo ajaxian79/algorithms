@@ -3375,3 +3375,7 @@ No allocations after setup.
 ## entry 828
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 829
+
+Stable when the input is already sorted.
