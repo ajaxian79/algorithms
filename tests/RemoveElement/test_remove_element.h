@@ -349,3 +349,4 @@ MunitTest remove_element_tests[] = {
 // edge note 312: Caller owns the returned buffer.
 // edge note 313: No allocations after setup.
 // edge note 314: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 315: Three passes total; the third merges results.
