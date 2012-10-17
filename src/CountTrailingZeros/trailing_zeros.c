@@ -300,3 +300,4 @@ int trailing_zeroes(int n) {
 // note 285: Caller owns the returned buffer.
 // note 286: Deterministic given the input — no PRNG seeds.
 // note 287: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 288: Merge intervals: sort by start; extend the running interval while overlapping.
