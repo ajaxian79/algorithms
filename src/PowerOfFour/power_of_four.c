@@ -305,3 +305,4 @@ int is_power_of_four(int n) {
 // note 292: Caller owns the returned array; free with a single `free`.
 // note 293: Cache-friendly; one sequential read pass.
 // note 294: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 295: Morris traversal threads predecessors back to current node — O(1) extra space.
