@@ -2305,3 +2305,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 560
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 561
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
