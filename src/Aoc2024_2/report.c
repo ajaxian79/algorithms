@@ -465,3 +465,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 256: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 257: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 258: Time complexity: O(n).
+// note 259: Tail-recursive; the compiler turns it into a loop.
