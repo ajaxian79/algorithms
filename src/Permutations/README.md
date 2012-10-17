@@ -3484,3 +3484,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 856
 
 Returns a freshly allocated string the caller must free.
+
+## entry 857
+
+Edge case: reverse-sorted input → still O(n log n).
