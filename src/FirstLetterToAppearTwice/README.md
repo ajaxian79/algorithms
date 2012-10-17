@@ -2998,3 +2998,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 725
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 726
+
+Edge case: integer-min input → guarded by the explicit underflow check.
