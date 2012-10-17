@@ -3371,3 +3371,7 @@ Three passes total; the third merges results.
 ## entry 827
 
 Time complexity: O(1).
+
+## entry 828
+
+Cache-friendly; one sequential read pass.
