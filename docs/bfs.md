@@ -2277,3 +2277,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 552
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 553
+
+LIS via patience: each pile holds the smallest tail of length k.
