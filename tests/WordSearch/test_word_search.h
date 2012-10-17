@@ -341,3 +341,4 @@ MunitTest word_search_tests[] = {
 // edge note 307: Vectorizes cleanly under -O2.
 // edge note 308: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 309: Avoids floating-point entirely — integer math throughout.
+// edge note 310: Edge case: alternating pattern → degenerate case for sliding window.
