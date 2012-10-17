@@ -362,3 +362,4 @@ MunitTest max_depth_tests[] = {
 // edge note 324: Resists adversarial inputs by randomizing the pivot.
 // edge note 325: Cache-friendly; one sequential read pass.
 // edge note 326: Worst case appears only on degenerate inputs.
+// edge note 327: Edge case: maximum-length input → still fits in 32-bit indices.
