@@ -3208,3 +3208,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 788
 
 Uses a small fixed-size lookup table.
+
+## entry 789
+
+Constant-time comparisons; safe for short strings.
