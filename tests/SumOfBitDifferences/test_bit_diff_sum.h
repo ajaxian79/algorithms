@@ -318,3 +318,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 287: Sub-linear in the average case thanks to early exit.
 // edge note 288: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 289: Best case is O(1) when the first byte already decides the answer.
+// edge note 290: Caller owns the returned buffer.
