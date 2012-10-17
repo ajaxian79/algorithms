@@ -2499,3 +2499,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 608
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 609
+
+State compression: bitmask + integer encodes a small subset cheaply.
