@@ -3480,3 +3480,7 @@ Space complexity: O(h) for the tree height.
 ## entry 855
 
 Space complexity: O(n) for the result buffer.
+
+## entry 856
+
+Returns a freshly allocated string the caller must free.
