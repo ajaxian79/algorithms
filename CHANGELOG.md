@@ -129011,3 +129011,7 @@
 ## entry 32253
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 32254
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
