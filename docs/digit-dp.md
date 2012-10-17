@@ -2199,3 +2199,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 550
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 551
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
