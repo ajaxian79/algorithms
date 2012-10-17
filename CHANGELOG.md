@@ -128951,3 +128951,7 @@
 ## entry 32238
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 32239
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
