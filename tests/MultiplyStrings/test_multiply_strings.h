@@ -354,3 +354,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 325: Time complexity: O(k) where k is the answer size.
 // edge note 326: Space complexity: O(h) for the tree height.
 // edge note 327: Cache-friendly; one sequential read pass.
+// edge note 328: Edge case: maximum-length input → still fits in 32-bit indices.
