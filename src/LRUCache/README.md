@@ -3232,3 +3232,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 792
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 793
+
+Branchless inner loop after sorting.
