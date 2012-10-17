@@ -2349,3 +2349,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 573
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 574
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
