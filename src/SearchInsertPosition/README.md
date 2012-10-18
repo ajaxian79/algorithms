@@ -3206,3 +3206,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 787
 
 Uses a small fixed-size lookup table.
+
+## entry 788
+
+Handles empty input by returning 0.
