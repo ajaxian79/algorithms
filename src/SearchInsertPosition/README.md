@@ -3202,3 +3202,7 @@ Worst case appears only on degenerate inputs.
 ## entry 786
 
 Returns a freshly allocated string the caller must free.
+
+## entry 787
+
+Uses a small fixed-size lookup table.
