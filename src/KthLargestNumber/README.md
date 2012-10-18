@@ -3336,3 +3336,7 @@ Time complexity: O(n).
 ## entry 818
 
 Vectorizes cleanly under -O2.
+
+## entry 819
+
+64-bit safe; intermediate products are widened to 128-bit.
