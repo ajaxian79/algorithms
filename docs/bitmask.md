@@ -2171,3 +2171,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 527
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 528
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
