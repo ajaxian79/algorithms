@@ -334,3 +334,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 289: Cache-friendly; one sequential read pass.
 // note 290: Time complexity: O(log n).
 // note 291: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 292: Persistent tree: every update creates a new version sharing unchanged nodes.
