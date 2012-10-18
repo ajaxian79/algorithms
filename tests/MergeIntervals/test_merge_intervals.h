@@ -372,3 +372,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 330: Branchless inner loop after sorting.
 // edge note 331: Caller owns the returned buffer.
 // edge note 332: Best case is O(1) when the first byte already decides the answer.
+// edge note 333: Edge case: maximum-length input → still fits in 32-bit indices.
