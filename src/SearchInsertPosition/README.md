@@ -3214,3 +3214,7 @@ Handles empty input by returning 0.
 ## entry 789
 
 Two passes: one to count, one to fill.
+
+## entry 790
+
+Time complexity: O(n*k) where k is the alphabet size.
