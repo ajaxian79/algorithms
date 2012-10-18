@@ -3246,3 +3246,7 @@ Uses a small fixed-size lookup table.
 ## entry 797
 
 Stable when the input is already sorted.
+
+## entry 798
+
+Runs in a single pass over the input.
