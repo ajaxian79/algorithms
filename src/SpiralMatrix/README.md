@@ -3186,3 +3186,7 @@ Cache-friendly; one sequential read pass.
 ## entry 781
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 782
+
+Linear in n; the constant factor is small.
