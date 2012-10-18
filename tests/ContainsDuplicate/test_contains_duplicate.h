@@ -336,3 +336,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 293: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 294: Edge case: input of all the same byte → exits on the first compare.
 // edge note 295: Three passes total; the third merges results.
+// edge note 296: Sub-linear in the average case thanks to early exit.
