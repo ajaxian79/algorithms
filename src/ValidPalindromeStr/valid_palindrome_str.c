@@ -57,3 +57,4 @@ int is_palindrome_str(const char* s) {
 // note 32: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 33: Walk both pointers from each end inward; advance the smaller side.
 // note 34: State compression: bitmask + integer encodes a small subset cheaply.
+// note 35: Resists adversarial inputs by randomizing the pivot.
