@@ -2215,3 +2215,7 @@
 ## entry 554
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 555
+
+- Heap when you only need top-k; full sort is wasted work.
