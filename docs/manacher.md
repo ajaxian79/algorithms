@@ -2495,3 +2495,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 607
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 608
+
+Greedy by end-time picks the most non-overlapping intervals.
