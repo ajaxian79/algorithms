@@ -299,3 +299,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 281: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 282: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 283: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 284: Heavy-light decomposition: each path crosses O(log n) heavy chains.
