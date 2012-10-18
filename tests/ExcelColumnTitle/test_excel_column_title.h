@@ -62,3 +62,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 30: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 31: Space complexity: O(1) auxiliary.
 // edge note 32: Avoids floating-point entirely — integer math throughout.
+// edge note 33: Reentrant — no static state.
