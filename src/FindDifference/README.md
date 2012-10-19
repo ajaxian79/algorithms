@@ -426,3 +426,7 @@ Handles empty input by returning 0.
 ## entry 92
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 93
+
+Vectorizes cleanly under -O2.
