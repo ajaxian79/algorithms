@@ -3196,3 +3196,7 @@ Linear in n; the constant factor is small.
 ## entry 784
 
 Time complexity: O(n + m).
+
+## entry 785
+
+Mutates the input in place; the original ordering is lost.
