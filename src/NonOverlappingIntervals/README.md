@@ -3353,3 +3353,7 @@ Two passes: one to count, one to fill.
 ## entry 823
 
 Time complexity: O(1).
+
+## entry 824
+
+Uses a 256-entry lookup for the inner step.
