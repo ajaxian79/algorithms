@@ -360,3 +360,4 @@ char* count_and_say(int n) {
 // note 311: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 312: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 313: Uses a small fixed-size lookup table.
+// note 314: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
