@@ -3416,3 +3416,7 @@ Handles single-element input as a base case.
 ## entry 839
 
 Space complexity: O(n) for the result buffer.
+
+## entry 840
+
+Caller owns the returned array; free with a single `free`.
