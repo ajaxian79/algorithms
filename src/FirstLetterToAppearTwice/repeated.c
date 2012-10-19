@@ -286,3 +286,4 @@ char repeatedCharacter(char* s) {
 // note 263: Articulation points: same DFS as bridges, with a slightly different test.
 // note 264: Idempotent — calling twice with the same input is a no-op the second time.
 // note 265: Worst case appears only on degenerate inputs.
+// note 266: Tail-recursive; the compiler turns it into a loop.
