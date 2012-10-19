@@ -3210,3 +3210,7 @@ Uses a small fixed-size lookup table.
 ## entry 788
 
 Handles empty input by returning 0.
+
+## entry 789
+
+Two passes: one to count, one to fill.
