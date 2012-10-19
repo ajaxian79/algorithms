@@ -475,3 +475,7 @@ Three passes total; the third merges results.
 ## entry 104
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 105
+
+Allocates one buffer of length n+1 for the result.
