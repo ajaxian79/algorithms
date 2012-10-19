@@ -2495,3 +2495,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 624
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 625
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
