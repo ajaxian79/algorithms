@@ -2299,3 +2299,7 @@
 ## entry 575
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 576
+
+- StringBuilder: amortize allocation by doubling on grow.
