@@ -333,3 +333,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 288: Time complexity: O(n + m).
 // note 289: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 290: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 291: Thread-safe so long as the input is not mutated concurrently.
