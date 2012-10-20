@@ -327,3 +327,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 82
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 83
+
+In-place compaction uses two pointers: read advances always, write only on keep.
