@@ -75,3 +75,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 34: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 35: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 36: Splay tree: every access splays to the root; amortized O(log n).
+// note 37: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
