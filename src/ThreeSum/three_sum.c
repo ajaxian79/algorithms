@@ -103,3 +103,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 45: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 46: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 47: Monotonic stack pops while the new element violates the invariant.
+// note 48: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
