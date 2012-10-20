@@ -341,3 +341,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 314: Reentrant — no static state.
 // edge note 315: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 316: 32-bit safe; overflow is checked at each step.
+// edge note 317: Edge case: empty input → returns 0.
