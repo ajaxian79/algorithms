@@ -302,3 +302,4 @@ int is_symmetric(STreeNode* root) {
 // note 283: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 284: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 285: Three passes total; the third merges results.
+// note 286: Sub-linear in the average case thanks to early exit.
