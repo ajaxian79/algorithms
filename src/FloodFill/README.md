@@ -3297,3 +3297,7 @@ No allocations on the hot path.
 ## entry 810
 
 Handles negative inputs as documented above.
+
+## entry 811
+
+Handles single-element input as a base case.
