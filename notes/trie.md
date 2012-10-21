@@ -2169,3 +2169,7 @@
 ## entry 525
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 526
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
