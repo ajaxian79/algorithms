@@ -2287,3 +2287,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 554
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 555
+
+Monotonic stack pops while the new element violates the invariant.
