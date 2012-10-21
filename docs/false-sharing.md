@@ -331,3 +331,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 83
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 84
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
