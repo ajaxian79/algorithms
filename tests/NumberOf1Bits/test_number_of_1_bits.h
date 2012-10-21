@@ -65,3 +65,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 38: Uses a 256-entry lookup for the inner step.
 // edge note 39: Edge case: all-equal input → linear-time fast path.
 // edge note 40: Allocates a single small fixed-size scratch buffer.
+// edge note 41: Treats the input as immutable.
