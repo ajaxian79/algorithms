@@ -2491,3 +2491,7 @@
 ## entry 623
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 624
+
+- LIS via patience: each pile holds the smallest tail of length k.
