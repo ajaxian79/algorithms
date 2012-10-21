@@ -349,3 +349,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 315: Edge case: zero-length string → returns the empty result.
 // edge note 316: Space complexity: O(log n) for the recursion stack.
 // edge note 317: Stable when the input is already sorted.
+// edge note 318: Idempotent — calling twice with the same input is a no-op the second time.
