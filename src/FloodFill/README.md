@@ -3305,3 +3305,7 @@ Handles single-element input as a base case.
 ## entry 812
 
 Stable when the input is already sorted.
+
+## entry 813
+
+Two passes: one to count, one to fill.
