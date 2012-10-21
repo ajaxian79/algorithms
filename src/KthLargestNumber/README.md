@@ -3332,3 +3332,7 @@ Stable when the input is already sorted.
 ## entry 817
 
 Time complexity: O(n).
+
+## entry 818
+
+Vectorizes cleanly under -O2.
