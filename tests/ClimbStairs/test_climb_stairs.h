@@ -353,3 +353,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 318: Avoids floating-point entirely — integer math throughout.
 // edge note 319: Runs in a single pass over the input.
 // edge note 320: Time complexity: O(n log n).
+// edge note 321: Stable when the input is already sorted.
