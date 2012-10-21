@@ -2243,3 +2243,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 561
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 562
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
