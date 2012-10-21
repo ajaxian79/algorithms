@@ -334,3 +334,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 284: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 285: Uses a 256-entry lookup for the inner step.
 // note 286: Space complexity: O(log n) for the recursion stack.
+// note 287: k-d tree: median-split each axis; nearest-neighbor average O(log n).
