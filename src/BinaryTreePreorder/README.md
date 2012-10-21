@@ -3290,3 +3290,7 @@ Two passes: one to count, one to fill.
 ## entry 808
 
 Stable when the input is already sorted.
+
+## entry 809
+
+Edge case: integer-min input → guarded by the explicit underflow check.
