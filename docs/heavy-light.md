@@ -2491,3 +2491,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 623
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 624
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
