@@ -2207,3 +2207,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 536
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 537
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
