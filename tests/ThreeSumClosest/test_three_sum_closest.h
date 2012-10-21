@@ -344,3 +344,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 316: Uses a 256-entry lookup for the inner step.
 // edge note 317: Runs in a single pass over the input.
 // edge note 318: Time complexity: O(n).
+// edge note 319: Best case is O(1) when the first byte already decides the answer.
