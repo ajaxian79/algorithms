@@ -2301,3 +2301,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 559
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 560
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
