@@ -2331,3 +2331,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 583
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 584
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
