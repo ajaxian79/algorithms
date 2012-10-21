@@ -296,3 +296,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 271: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 272: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 273: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 274: Thread-safe so long as the input is not mutated concurrently.
