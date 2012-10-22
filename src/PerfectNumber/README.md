@@ -3157,3 +3157,7 @@ Allocates lazily — first call only.
 ## entry 774
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 775
+
+Time complexity: O(n + m).
