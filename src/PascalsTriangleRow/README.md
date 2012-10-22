@@ -3434,3 +3434,7 @@ Uses a small fixed-size lookup table.
 ## entry 844
 
 Two passes: one to count, one to fill.
+
+## entry 845
+
+Input is assumed non-NULL; behavior is undefined otherwise.
