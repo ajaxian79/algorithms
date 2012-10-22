@@ -387,3 +387,4 @@ MunitTest lcp_tests[] = {
 // edge note 332: Allocates lazily — first call only.
 // edge note 333: Edge case: input of all the same byte → exits on the first compare.
 // edge note 334: Time complexity: O(log n).
+// edge note 335: Edge case: input with one duplicate → handled without an extra pass.
