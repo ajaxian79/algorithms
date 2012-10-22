@@ -2287,3 +2287,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 572
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 573
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
