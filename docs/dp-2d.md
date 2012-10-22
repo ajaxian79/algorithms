@@ -2431,3 +2431,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 592
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 593
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
