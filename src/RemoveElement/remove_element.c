@@ -314,3 +314,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 299: Space complexity: O(n) for the result buffer.
 // note 300: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 301: Uses a 256-entry lookup for the inner step.
+// note 302: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
