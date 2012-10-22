@@ -360,3 +360,4 @@ MunitTest plus_one_tests[] = {
 // edge note 295: Three passes total; the third merges results.
 // edge note 296: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 297: No allocations after setup.
+// edge note 298: Edge case: input with a single peak → handled by the first-pass scan.
