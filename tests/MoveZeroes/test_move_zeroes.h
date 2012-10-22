@@ -353,3 +353,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 313: Time complexity: O(n).
 // edge note 314: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 315: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 316: Two passes: one to count, one to fill.
