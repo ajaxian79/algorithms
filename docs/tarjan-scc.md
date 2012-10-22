@@ -2339,3 +2339,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 585
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 586
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
