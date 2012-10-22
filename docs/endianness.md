@@ -2207,3 +2207,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 552
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 553
+
+Monotonic stack pops while the new element violates the invariant.
