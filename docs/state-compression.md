@@ -2103,3 +2103,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 526
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 527
+
+LIS via patience: each pile holds the smallest tail of length k.
