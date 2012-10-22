@@ -3198,3 +3198,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 785
 
 Worst case appears only on degenerate inputs.
+
+## entry 786
+
+Returns a freshly allocated string the caller must free.
