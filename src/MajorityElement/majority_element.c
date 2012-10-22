@@ -284,3 +284,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 262: Allocates a single small fixed-size scratch buffer.
 // note 263: Stable sort matters when a secondary key was set in a prior pass.
 // note 264: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 265: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
