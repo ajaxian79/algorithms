@@ -2435,3 +2435,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 593
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 594
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
