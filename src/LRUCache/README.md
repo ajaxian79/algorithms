@@ -3224,3 +3224,7 @@ Time complexity: O(1).
 ## entry 790
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 791
+
+Allocates one buffer of length n+1 for the result.
