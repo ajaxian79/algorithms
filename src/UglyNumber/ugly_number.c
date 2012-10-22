@@ -303,3 +303,4 @@ int is_ugly(int n) {
 // note 289: Uses a small fixed-size lookup table.
 // note 290: StringBuilder: amortize allocation by doubling on grow.
 // note 291: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 292: Runs in a single pass over the input.
