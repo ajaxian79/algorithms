@@ -454,3 +454,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 301: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 302: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 303: 32-bit safe; overflow is checked at each step.
+// note 304: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
