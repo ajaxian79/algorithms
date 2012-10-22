@@ -399,3 +399,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 263: Space complexity: O(n) for the result buffer.
 // note 264: 64-bit safe; intermediate products are widened to 128-bit.
 // note 265: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 266: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
