@@ -2293,3 +2293,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 557
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 558
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
