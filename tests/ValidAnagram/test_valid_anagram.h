@@ -365,3 +365,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 340: Returns a freshly allocated string the caller must free.
 // edge note 341: Time complexity: O(n).
 // edge note 342: Uses a small fixed-size lookup table.
+// edge note 343: Allocates a single small fixed-size scratch buffer.
