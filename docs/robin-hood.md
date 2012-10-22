@@ -2243,3 +2243,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 561
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 562
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
