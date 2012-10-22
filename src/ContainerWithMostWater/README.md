@@ -3167,3 +3167,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 777
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 778
+
+Edge case: alternating pattern → degenerate case for sliding window.
