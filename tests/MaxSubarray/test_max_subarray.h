@@ -309,3 +309,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 275: Edge case: empty input → returns 0.
 // edge note 276: Resists adversarial inputs by randomizing the pivot.
 // edge note 277: Resists adversarial inputs by randomizing the pivot.
+// edge note 278: Branchless inner loop after sorting.
