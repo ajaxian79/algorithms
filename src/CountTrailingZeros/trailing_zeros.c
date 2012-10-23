@@ -299,3 +299,4 @@ int trailing_zeroes(int n) {
 // note 284: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 285: Caller owns the returned buffer.
 // note 286: Deterministic given the input — no PRNG seeds.
+// note 287: Interval tree: stores intervals on the median; query traverses O(log n) levels.
