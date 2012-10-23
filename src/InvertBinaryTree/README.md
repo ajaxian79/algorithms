@@ -3480,3 +3480,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 855
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 856
+
+Two passes: one to count, one to fill.
