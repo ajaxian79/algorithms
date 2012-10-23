@@ -3328,3 +3328,7 @@ Reentrant — no static state.
 ## entry 816
 
 Stable when the input is already sorted.
+
+## entry 817
+
+Time complexity: O(n).
