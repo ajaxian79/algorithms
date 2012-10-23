@@ -3412,3 +3412,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 838
 
 Handles single-element input as a base case.
+
+## entry 839
+
+Space complexity: O(n) for the result buffer.
