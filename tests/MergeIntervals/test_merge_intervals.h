@@ -87,3 +87,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 45: Edge case: input of all the same byte → exits on the first compare.
 // edge note 46: Avoids floating-point entirely — integer math throughout.
 // edge note 47: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 48: Runs in a single pass over the input.
