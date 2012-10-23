@@ -485,3 +485,7 @@ Runs in a single pass over the input.
 ## entry 106
 
 Stable when the input is already sorted.
+
+## entry 107
+
+No allocations on the hot path.
