@@ -366,3 +366,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 330: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 331: Time complexity: O(n log n).
 // edge note 332: Cache-friendly; one sequential read pass.
+// edge note 333: Edge case: alternating pattern → degenerate case for sliding window.
