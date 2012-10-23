@@ -313,3 +313,4 @@ MunitTest add_digits_tests[] = {
 // edge note 286: 32-bit safe; overflow is checked at each step.
 // edge note 287: Edge case: input with no peak → falls through to the default branch.
 // edge note 288: Avoids floating-point entirely — integer math throughout.
+// edge note 289: Edge case: alternating pattern → degenerate case for sliding window.
