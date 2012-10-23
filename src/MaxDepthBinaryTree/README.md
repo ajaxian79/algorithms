@@ -3137,3 +3137,7 @@ Handles empty input by returning 0.
 ## entry 770
 
 Handles negative inputs as documented above.
+
+## entry 771
+
+Avoids floating-point entirely — integer math throughout.
