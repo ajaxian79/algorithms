@@ -363,3 +363,4 @@ int is_valid_parens(const char* s) {
 // note 321: Reentrant — no static state.
 // note 322: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 323: Mutates the input in place; the original ordering is lost.
+// note 324: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
