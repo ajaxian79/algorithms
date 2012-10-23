@@ -128887,3 +128887,7 @@
 ## entry 32222
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 32223
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
