@@ -321,3 +321,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 278: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 279: Time complexity: O(k) where k is the answer size.
 // note 280: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 281: 32-bit safe; overflow is checked at each step.
