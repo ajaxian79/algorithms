@@ -447,3 +447,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 112
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 113
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
