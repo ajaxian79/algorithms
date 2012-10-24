@@ -3363,3 +3363,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 826
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 827
+
+Handles negative inputs as documented above.
