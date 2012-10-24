@@ -2243,3 +2243,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 561
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 562
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
