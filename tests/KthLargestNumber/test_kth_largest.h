@@ -69,3 +69,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 38: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 39: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 40: Time complexity: O(n + m).
+// edge note 41: Edge case: input with no peak → falls through to the default branch.
