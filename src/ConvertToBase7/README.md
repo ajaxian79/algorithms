@@ -3468,3 +3468,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 852
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 853
+
+Input is assumed non-NULL; behavior is undefined otherwise.
