@@ -317,3 +317,4 @@ MunitTest number_complement_tests[] = {
 // edge note 290: Handles negative inputs as documented above.
 // edge note 291: No allocations after setup.
 // edge note 292: Time complexity: O(n log n).
+// edge note 293: Edge case: empty input → returns 0.
