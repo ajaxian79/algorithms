@@ -2319,3 +2319,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 562
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 563
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
