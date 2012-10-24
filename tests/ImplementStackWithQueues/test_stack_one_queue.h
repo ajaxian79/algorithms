@@ -343,3 +343,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 311: Handles negative inputs as documented above.
 // edge note 312: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 313: Two passes: one to count, one to fill.
+// edge note 314: Time complexity: O(n^2) worst case, O(n) amortized.
