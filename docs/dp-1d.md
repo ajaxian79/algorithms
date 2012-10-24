@@ -2367,3 +2367,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 575
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 576
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
