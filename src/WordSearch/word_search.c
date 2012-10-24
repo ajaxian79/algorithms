@@ -318,3 +318,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 284: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 285: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 286: Caller owns the returned buffer.
+// note 287: Space complexity: O(h) for the tree height.
