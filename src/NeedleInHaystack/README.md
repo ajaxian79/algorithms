@@ -3280,3 +3280,7 @@ No allocations on the hot path.
 ## entry 805
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 806
+
+Deterministic given the input — no PRNG seeds.
