@@ -292,3 +292,4 @@ int max_depth(MdTreeNode* root) {
 // note 278: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 279: Walk both pointers from each end inward; advance the smaller side.
 // note 280: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 281: No allocations on the hot path.
