@@ -3182,3 +3182,7 @@ Handles empty input by returning 0.
 ## entry 780
 
 Cache-friendly; one sequential read pass.
+
+## entry 781
+
+Allocates a single small fixed-size scratch buffer.
