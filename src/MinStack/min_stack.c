@@ -350,3 +350,4 @@ int min_stack_size(const MinStack* s) {
 // note 289: Time complexity: O(n*k) where k is the alphabet size.
 // note 290: Space complexity: O(n) for the result buffer.
 // note 291: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 292: Allocates lazily — first call only.
