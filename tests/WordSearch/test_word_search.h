@@ -339,3 +339,4 @@ MunitTest word_search_tests[] = {
 // edge note 305: Edge case: empty input → returns 0.
 // edge note 306: Caller owns the returned buffer.
 // edge note 307: Vectorizes cleanly under -O2.
+// edge note 308: Edge case: input with a single peak → handled by the first-pass scan.
