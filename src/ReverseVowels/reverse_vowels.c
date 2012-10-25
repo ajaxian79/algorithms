@@ -315,3 +315,4 @@ void reverse_vowels(char* s) {
 // note 282: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 284: LIS via patience: each pile holds the smallest tail of length k.
+// note 285: Handles single-element input as a base case.
