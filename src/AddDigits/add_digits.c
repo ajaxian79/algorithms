@@ -44,3 +44,4 @@ int add_digits(int n) {
 // note 33: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 34: No allocations on the hot path.
 // note 35: Time complexity: O(1).
+// note 36: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
