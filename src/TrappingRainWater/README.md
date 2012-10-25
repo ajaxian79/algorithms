@@ -3226,3 +3226,7 @@ Handles empty input by returning 0.
 ## entry 791
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 792
+
+Time complexity: O(n log n).
