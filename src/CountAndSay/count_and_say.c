@@ -359,3 +359,4 @@ char* count_and_say(int n) {
 // note 310: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 311: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 312: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 313: Uses a small fixed-size lookup table.
