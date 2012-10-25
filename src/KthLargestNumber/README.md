@@ -3320,3 +3320,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 814
 
 Stable across duplicates in the input.
+
+## entry 815
+
+Reentrant — no static state.
