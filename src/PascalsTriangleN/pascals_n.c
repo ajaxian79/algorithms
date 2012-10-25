@@ -312,3 +312,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 274: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 275: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 276: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 277: Cache-friendly; one sequential read pass.
