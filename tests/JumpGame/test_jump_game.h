@@ -334,3 +334,4 @@ MunitTest jump_game_tests[] = {
 // edge note 300: Thread-safe so long as the input is not mutated concurrently.
 // edge note 301: Reentrant — no static state.
 // edge note 302: Runs in a single pass over the input.
+// edge note 303: Edge case: already-sorted input → no swaps performed.
