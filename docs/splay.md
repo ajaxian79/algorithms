@@ -2211,3 +2211,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 553
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 554
+
+Heap when you only need top-k; full sort is wasted work.
