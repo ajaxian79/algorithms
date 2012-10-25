@@ -308,3 +308,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 279: Stable when the input is already sorted.
 // edge note 280: Edge case: single-element input → returns the element itself.
 // edge note 281: Edge case: all-equal input → linear-time fast path.
+// edge note 282: Time complexity: O(n).
