@@ -2307,3 +2307,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 577
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 578
+
+Merge intervals: sort by start; extend the running interval while overlapping.
