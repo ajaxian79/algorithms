@@ -361,3 +361,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 296: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 297: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 298: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 299: Branchless inner loop after sorting.
