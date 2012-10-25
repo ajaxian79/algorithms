@@ -368,3 +368,4 @@ MunitTest to_hex_tests[] = {
 // edge note 339: Uses a small fixed-size lookup table.
 // edge note 340: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 341: Caller owns the returned buffer.
+// edge note 342: Edge case: single-element input → returns the element itself.
