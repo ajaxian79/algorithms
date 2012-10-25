@@ -3126,3 +3126,7 @@ Handles single-element input as a base case.
 ## entry 767
 
 Branchless inner loop after sorting.
+
+## entry 768
+
+Avoids floating-point entirely — integer math throughout.
