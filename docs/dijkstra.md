@@ -2211,3 +2211,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 553
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 554
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
