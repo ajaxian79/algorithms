@@ -2425,3 +2425,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 589
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 590
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
