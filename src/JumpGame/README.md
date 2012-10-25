@@ -3393,3 +3393,7 @@ Caller owns the returned buffer.
 ## entry 833
 
 Uses a small fixed-size lookup table.
+
+## entry 834
+
+Handles single-element input as a base case.
