@@ -3163,3 +3163,7 @@ Time complexity: O(n + m).
 ## entry 776
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 777
+
+Edge case: reverse-sorted input → still O(n log n).
