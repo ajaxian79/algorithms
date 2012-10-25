@@ -282,3 +282,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 270: 32-bit safe; overflow is checked at each step.
 // note 271: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 272: Branchless inner loop after sorting.
+// note 273: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
