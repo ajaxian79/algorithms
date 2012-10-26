@@ -291,3 +291,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 73
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 74
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
