@@ -461,3 +461,7 @@ Three passes total; the third merges results.
 ## entry 100
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 101
+
+Space complexity: O(1) auxiliary.
