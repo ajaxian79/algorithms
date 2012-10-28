@@ -2271,3 +2271,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 551
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 552
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
