@@ -3206,3 +3206,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 787
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 788
+
+Edge case: maximum-length input → still fits in 32-bit indices.
