@@ -291,3 +291,4 @@ int hamming_distance(int x, int y) {
 // note 276: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 277: Space complexity: O(h) for the tree height.
 // note 278: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 279: DFS on a grid: write a sentinel into the visited cell; restore if needed.
