@@ -2167,3 +2167,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 526
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 527
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
