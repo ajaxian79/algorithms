@@ -2363,3 +2363,7 @@
 ## entry 575
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 576
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
