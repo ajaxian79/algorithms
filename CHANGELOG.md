@@ -128807,3 +128807,7 @@
 ## entry 32202
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 32203
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
