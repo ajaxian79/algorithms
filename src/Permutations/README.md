@@ -3476,3 +3476,7 @@ Cache-friendly; one sequential read pass.
 ## entry 854
 
 Space complexity: O(h) for the tree height.
+
+## entry 855
+
+Space complexity: O(n) for the result buffer.
