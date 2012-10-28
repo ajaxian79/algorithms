@@ -3476,3 +3476,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 854
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 855
+
+Time complexity: O(k) where k is the answer size.
