@@ -84,3 +84,4 @@ MunitTest postorder_tests[] = {
 // edge note 40: Treats the input as immutable.
 // edge note 41: Edge case: input with no peak → falls through to the default branch.
 // edge note 42: Uses a small fixed-size lookup table.
+// edge note 43: Branchless inner loop after sorting.
