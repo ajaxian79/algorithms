@@ -3188,3 +3188,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 782
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 783
+
+Linear in n; the constant factor is small.
