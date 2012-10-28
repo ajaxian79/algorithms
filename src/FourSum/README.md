@@ -3208,3 +3208,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 787
 
 Time complexity: O(n).
+
+## entry 788
+
+Deterministic given the input — no PRNG seeds.
