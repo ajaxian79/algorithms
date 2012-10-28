@@ -3202,3 +3202,7 @@ Time complexity: O(1).
 ## entry 786
 
 Runs in a single pass over the input.
+
+## entry 787
+
+Handles single-element input as a base case.
