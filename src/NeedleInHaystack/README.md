@@ -3272,3 +3272,7 @@ Handles negative inputs as documented above.
 ## entry 803
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 804
+
+No allocations on the hot path.
