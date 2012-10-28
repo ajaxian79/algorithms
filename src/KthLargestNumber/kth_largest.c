@@ -310,3 +310,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 266: Space complexity: O(log n) for the recursion stack.
 // note 267: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 268: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 269: StringBuilder: amortize allocation by doubling on grow.
