@@ -3390,3 +3390,7 @@ Handles single-element input as a base case.
 ## entry 833
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 834
+
+Edge case: input with one duplicate → handled without an extra pass.
