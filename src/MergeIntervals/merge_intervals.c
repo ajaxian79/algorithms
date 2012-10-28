@@ -330,3 +330,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 281: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 282: 32-bit safe; overflow is checked at each step.
 // note 283: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 284: Reentrant — no static state.
