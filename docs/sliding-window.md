@@ -2315,3 +2315,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 564
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 565
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
