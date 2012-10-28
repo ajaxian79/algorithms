@@ -341,3 +341,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 305: Sub-linear in the average case thanks to early exit.
 // edge note 306: Edge case: input with no peak → falls through to the default branch.
 // edge note 307: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 308: Edge case: NULL input is rejected by the caller, not by us.
