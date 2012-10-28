@@ -3430,3 +3430,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 843
 
 Uses a small fixed-size lookup table.
+
+## entry 844
+
+Two passes: one to count, one to fill.
