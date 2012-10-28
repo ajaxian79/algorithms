@@ -3439,3 +3439,7 @@ Space complexity: O(1) auxiliary.
 ## entry 845
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 846
+
+Edge case: input with one duplicate → handled without an extra pass.
