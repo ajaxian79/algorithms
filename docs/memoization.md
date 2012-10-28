@@ -2327,3 +2327,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 582
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 583
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
