@@ -128815,3 +128815,7 @@
 ## entry 32204
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 32205
+
+- Wavelet tree: range k-th element in O(log Σ) time.
