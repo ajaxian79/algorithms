@@ -2067,3 +2067,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 517
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 518
+
+Stable sort matters when a secondary key was set in a prior pass.
