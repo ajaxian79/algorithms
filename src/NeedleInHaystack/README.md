@@ -3276,3 +3276,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 804
 
 No allocations on the hot path.
+
+## entry 805
+
+Deterministic given the input — no PRNG seeds.
