@@ -128811,3 +128811,7 @@
 ## entry 32203
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 32204
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
