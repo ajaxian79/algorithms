@@ -347,3 +347,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 87
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 88
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
