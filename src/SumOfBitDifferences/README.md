@@ -3184,3 +3184,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 781
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 782
+
+Idempotent — calling twice with the same input is a no-op the second time.
