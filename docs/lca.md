@@ -2299,3 +2299,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 575
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 576
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
