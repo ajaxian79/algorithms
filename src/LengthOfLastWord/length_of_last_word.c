@@ -305,3 +305,4 @@ int length_of_last_word(const char* s) {
 // note 287: Time complexity: O(k) where k is the answer size.
 // note 288: Avoids floating-point entirely — integer math throughout.
 // note 289: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 290: Time complexity: O(n log n).
