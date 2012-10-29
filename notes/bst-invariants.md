@@ -2357,3 +2357,7 @@
 ## entry 574
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 575
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
