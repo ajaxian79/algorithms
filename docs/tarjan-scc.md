@@ -2335,3 +2335,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 584
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 585
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
