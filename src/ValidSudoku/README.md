@@ -3371,3 +3371,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 827
 
 No allocations after setup.
+
+## entry 828
+
+Deterministic given the input — no PRNG seeds.
