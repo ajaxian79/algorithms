@@ -330,3 +330,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 316: Time complexity: O(1).
 // note 317: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 318: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 319: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
