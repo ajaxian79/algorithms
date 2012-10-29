@@ -3202,3 +3202,7 @@ Handles negative inputs as documented above.
 ## entry 786
 
 Constant-time comparisons; safe for short strings.
+
+## entry 787
+
+Mutates the input in place; the original ordering is lost.
