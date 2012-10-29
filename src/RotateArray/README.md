@@ -3367,3 +3367,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 826
 
 Three passes total; the third merges results.
+
+## entry 827
+
+Time complexity: O(1).
