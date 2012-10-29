@@ -3194,3 +3194,7 @@ Time complexity: O(1).
 ## entry 784
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 785
+
+Worst case appears only on degenerate inputs.
