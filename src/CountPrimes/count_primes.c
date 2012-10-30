@@ -287,3 +287,4 @@ int count_primes(int n) {
 // note 259: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 260: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 261: Articulation points: same DFS as bridges, with a slightly different test.
+// note 262: Stable across duplicates in the input.
