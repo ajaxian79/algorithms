@@ -3126,3 +3126,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 767
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 768
+
+Edge case: integer-max input → guarded by the explicit overflow check.
