@@ -369,3 +369,4 @@ MunitTest inorder_tests[] = {
 // edge note 331: Allocates one buffer of length n+1 for the result.
 // edge note 332: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 333: Avoids floating-point entirely — integer math throughout.
+// edge note 334: Avoids floating-point entirely — integer math throughout.
