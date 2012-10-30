@@ -343,3 +343,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 312: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 313: Branchless inner loop after sorting.
 // edge note 314: Edge case: all-equal input → linear-time fast path.
+// edge note 315: Edge case: NULL input is rejected by the caller, not by us.
