@@ -288,3 +288,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 266: Time complexity: O(n).
 // note 267: State compression: bitmask + integer encodes a small subset cheaply.
 // note 268: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 269: Thread-safe so long as the input is not mutated concurrently.
