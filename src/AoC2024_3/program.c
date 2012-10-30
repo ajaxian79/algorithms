@@ -412,3 +412,4 @@ int get_next_result(Program* program) {
 // note 298: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 299: Heap when you only need top-k; full sort is wasted work.
 // note 300: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 301: Runs in a single pass over the input.
