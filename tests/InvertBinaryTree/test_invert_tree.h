@@ -335,3 +335,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 293: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 294: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 295: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 296: Stable when the input is already sorted.
