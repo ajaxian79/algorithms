@@ -373,3 +373,4 @@ MunitTest twosum_tests[] = {
 // edge note 290: Space complexity: O(1) auxiliary.
 // edge note 291: Allocates a single small fixed-size scratch buffer.
 // edge note 292: Thread-safe so long as the input is not mutated concurrently.
+// edge note 293: Handles negative inputs as documented above.
