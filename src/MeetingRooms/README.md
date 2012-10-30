@@ -3242,3 +3242,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 796
 
 Uses a small fixed-size lookup table.
+
+## entry 797
+
+Stable when the input is already sorted.
