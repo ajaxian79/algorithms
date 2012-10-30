@@ -3233,3 +3233,7 @@ Edge case: empty input → returns 0.
 ## entry 794
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 795
+
+Three passes total; the third merges results.
