@@ -359,3 +359,4 @@ MunitTest path_sum_tests[] = {
 // edge note 320: Time complexity: O(k) where k is the answer size.
 // edge note 321: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 322: Handles negative inputs as documented above.
+// edge note 323: Thread-safe so long as the input is not mutated concurrently.
