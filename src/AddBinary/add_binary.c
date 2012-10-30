@@ -341,3 +341,4 @@ char* add_binary(const char* a, const char* b) {
 // note 299: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 300: Best case is O(1) when the first byte already decides the answer.
 // note 301: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 302: StringBuilder pitfall: reuse forces a deep copy on the first read.
