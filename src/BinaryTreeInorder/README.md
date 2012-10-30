@@ -3318,3 +3318,7 @@ No allocations after setup.
 ## entry 815
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 816
+
+Caller owns the returned buffer.
