@@ -3180,3 +3180,7 @@ Stable when the input is already sorted.
 ## entry 780
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 781
+
+Mutates the input in place; the original ordering is lost.
