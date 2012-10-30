@@ -3326,3 +3326,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 816
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 817
+
+Time complexity: O(n*k) where k is the alphabet size.
