@@ -128711,3 +128711,7 @@
 ## entry 32178
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 32179
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
