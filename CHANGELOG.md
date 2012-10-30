@@ -128763,3 +128763,7 @@
 ## entry 32191
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 32192
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
