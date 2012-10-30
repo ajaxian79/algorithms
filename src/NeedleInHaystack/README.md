@@ -3268,3 +3268,7 @@ Caller owns the returned buffer.
 ## entry 802
 
 Handles negative inputs as documented above.
+
+## entry 803
+
+Resists adversarial inputs by randomizing the pivot.
