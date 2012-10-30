@@ -2271,3 +2271,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 568
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 569
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
