@@ -2407,3 +2407,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 602
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 603
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
