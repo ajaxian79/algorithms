@@ -2491,3 +2491,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 606
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 607
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
