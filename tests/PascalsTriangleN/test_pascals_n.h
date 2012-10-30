@@ -389,3 +389,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 330: Deterministic given the input — no PRNG seeds.
 // edge note 331: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 332: Time complexity: O(k) where k is the answer size.
+// edge note 333: Allocates one buffer of length n+1 for the result.
