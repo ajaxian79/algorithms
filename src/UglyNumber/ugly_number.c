@@ -302,3 +302,4 @@ int is_ugly(int n) {
 // note 288: 32-bit safe; overflow is checked at each step.
 // note 289: Uses a small fixed-size lookup table.
 // note 290: StringBuilder: amortize allocation by doubling on grow.
+// note 291: Edit distance is LCS with a twist: substitution is a third option at each cell.
