@@ -3386,3 +3386,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 832
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 833
+
+Handles negative inputs as documented above.
