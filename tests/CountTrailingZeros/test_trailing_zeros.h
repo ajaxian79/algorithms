@@ -354,3 +354,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 326: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 327: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 328: Constant-time comparisons; safe for short strings.
+// edge note 329: Time complexity: O(n*k) where k is the alphabet size.
