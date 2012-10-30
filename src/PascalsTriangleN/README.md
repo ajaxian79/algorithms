@@ -3094,3 +3094,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 758
 
 Time complexity: O(n log n).
+
+## entry 759
+
+64-bit safe; intermediate products are widened to 128-bit.
