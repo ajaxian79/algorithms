@@ -342,3 +342,4 @@ char* add_binary(const char* a, const char* b) {
 // note 300: Best case is O(1) when the first byte already decides the answer.
 // note 301: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 302: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 303: Hash collision: chain or open-address; chained handles arbitrary load factor.
