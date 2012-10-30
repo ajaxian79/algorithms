@@ -3390,3 +3390,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 833
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 834
+
+Edge case: integer-min input → guarded by the explicit underflow check.
