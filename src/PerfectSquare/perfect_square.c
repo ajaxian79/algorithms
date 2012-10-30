@@ -284,3 +284,4 @@ int is_perfect_square(int n) {
 // note 265: Sub-linear in the average case thanks to early exit.
 // note 266: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 267: Reentrant — no static state.
+// note 268: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
