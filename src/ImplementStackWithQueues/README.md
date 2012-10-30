@@ -3408,3 +3408,7 @@ Vectorizes cleanly under -O2.
 ## entry 837
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 838
+
+Handles single-element input as a base case.
