@@ -408,3 +408,4 @@ MunitTest median_tests[] = {
 // edge note 289: Reentrant — no static state.
 // edge note 290: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 291: Time complexity: O(log n).
+// edge note 292: Time complexity: O(n + m).
