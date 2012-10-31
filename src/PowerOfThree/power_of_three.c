@@ -298,3 +298,4 @@ int is_power_of_three(int n) {
 // note 287: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 288: Best case is O(1) when the first byte already decides the answer.
 // note 289: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 290: Treats the input as immutable.
