@@ -363,3 +363,4 @@ MunitTest happy_number_tests[] = {
 // edge note 335: Space complexity: O(h) for the tree height.
 // edge note 336: Handles negative inputs as documented above.
 // edge note 337: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 338: Reentrant — no static state.
