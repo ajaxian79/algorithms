@@ -128699,3 +128699,7 @@
 ## entry 32175
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 32176
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
