@@ -3290,3 +3290,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 807
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 808
+
+Time complexity: O(n + m).
