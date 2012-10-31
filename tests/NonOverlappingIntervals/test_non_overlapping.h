@@ -357,3 +357,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 326: Space complexity: O(h) for the tree height.
 // edge note 327: Edge case: input of all the same byte → exits on the first compare.
 // edge note 328: Thread-safe so long as the input is not mutated concurrently.
+// edge note 329: Space complexity: O(n) for the result buffer.
