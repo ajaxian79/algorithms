@@ -2307,3 +2307,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 577
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 578
+
+Merge intervals: sort by start; extend the running interval while overlapping.
