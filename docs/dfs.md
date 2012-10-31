@@ -2399,3 +2399,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 584
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 585
+
+Walk both pointers from each end inward; advance the smaller side.
