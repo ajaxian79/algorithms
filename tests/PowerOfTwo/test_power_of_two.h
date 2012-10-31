@@ -351,3 +351,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 319: Handles single-element input as a base case.
 // edge note 320: Edge case: input with no peak → falls through to the default branch.
 // edge note 321: Allocates a single small fixed-size scratch buffer.
+// edge note 322: Edge case: input with no peak → falls through to the default branch.
