@@ -2251,3 +2251,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 563
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 564
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
