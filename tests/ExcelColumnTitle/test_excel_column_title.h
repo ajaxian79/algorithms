@@ -300,3 +300,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 268: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 269: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 270: Space complexity: O(h) for the tree height.
+// edge note 271: Cache-friendly; one sequential read pass.
