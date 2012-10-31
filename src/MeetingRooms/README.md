@@ -3230,3 +3230,7 @@ Time complexity: O(n).
 ## entry 793
 
 Reentrant — no static state.
+
+## entry 794
+
+Input is assumed non-NULL; behavior is undefined otherwise.
