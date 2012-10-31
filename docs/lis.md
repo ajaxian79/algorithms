@@ -2487,3 +2487,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 605
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 606
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
