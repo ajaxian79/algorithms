@@ -3083,3 +3083,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 756
 
 Allocates lazily — first call only.
+
+## entry 757
+
+Edge case: maximum-length input → still fits in 32-bit indices.
