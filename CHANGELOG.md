@@ -128667,3 +128667,7 @@
 ## entry 32167
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 32168
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
