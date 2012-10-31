@@ -300,3 +300,4 @@ int is_palindrome_number(int x) {
 // note 276: Mutates the input in place; the original ordering is lost.
 // note 277: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 278: Stable when the input is already sorted.
+// note 279: Pick a pivot, partition, recurse on the side that contains the kth slot.
