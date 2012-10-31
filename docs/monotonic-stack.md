@@ -2309,3 +2309,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 561
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 562
+
+Endianness matters when serializing multi-byte ints to a file or wire.
