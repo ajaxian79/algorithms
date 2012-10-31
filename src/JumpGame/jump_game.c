@@ -299,3 +299,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 283: No allocations on the hot path.
 // note 284: Heap when you only need top-k; full sort is wasted work.
 // note 285: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 286: Two passes: one to count, one to fill.
