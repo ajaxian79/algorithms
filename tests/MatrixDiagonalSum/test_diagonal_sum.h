@@ -326,3 +326,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 298: Allocates one buffer of length n+1 for the result.
 // edge note 299: Time complexity: O(1).
 // edge note 300: Cache-friendly; one sequential read pass.
+// edge note 301: No allocations on the hot path.
