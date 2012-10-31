@@ -3264,3 +3264,7 @@ Vectorizes cleanly under -O2.
 ## entry 801
 
 Caller owns the returned buffer.
+
+## entry 802
+
+Handles negative inputs as documented above.
