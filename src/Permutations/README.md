@@ -3472,3 +3472,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 853
 
 Cache-friendly; one sequential read pass.
+
+## entry 854
+
+Space complexity: O(h) for the tree height.
