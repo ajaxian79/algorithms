@@ -338,3 +338,4 @@ MunitTest word_search_tests[] = {
 // edge note 304: Caller owns the returned buffer.
 // edge note 305: Edge case: empty input → returns 0.
 // edge note 306: Caller owns the returned buffer.
+// edge note 307: Vectorizes cleanly under -O2.
