@@ -128691,3 +128691,7 @@
 ## entry 32173
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 32174
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
