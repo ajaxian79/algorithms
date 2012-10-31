@@ -3302,3 +3302,7 @@ Handles negative inputs as documented above.
 ## entry 810
 
 Worst case appears only on degenerate inputs.
+
+## entry 811
+
+Space complexity: O(log n) for the recursion stack.
