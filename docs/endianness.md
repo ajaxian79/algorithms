@@ -2199,3 +2199,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 550
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 551
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
