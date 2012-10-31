@@ -339,3 +339,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 312: Time complexity: O(k) where k is the answer size.
 // edge note 313: No allocations on the hot path.
 // edge note 314: Reentrant — no static state.
+// edge note 315: Edge case: integer-min input → guarded by the explicit underflow check.
