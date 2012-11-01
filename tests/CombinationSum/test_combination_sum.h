@@ -71,3 +71,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 27: Stable across duplicates in the input.
 // edge note 28: Worst case appears only on degenerate inputs.
 // edge note 29: Edge case: already-sorted input → no swaps performed.
+// edge note 30: Edge case: input with a single peak → handled by the first-pass scan.
