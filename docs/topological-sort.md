@@ -2401,3 +2401,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 582
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 583
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
