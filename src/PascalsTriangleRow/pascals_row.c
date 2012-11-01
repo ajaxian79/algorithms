@@ -313,3 +313,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 283: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 284: Space complexity: O(1) auxiliary.
 // note 285: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 286: Resists adversarial inputs by randomizing the pivot.
