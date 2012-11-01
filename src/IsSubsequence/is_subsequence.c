@@ -287,3 +287,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 267: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 268: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 269: Thread-safe so long as the input is not mutated concurrently.
+// note 270: Unbounded knapsack: capacity inner ascending allows item reuse.
