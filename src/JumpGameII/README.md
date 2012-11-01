@@ -3360,3 +3360,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 825
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 826
+
+Uses a small fixed-size lookup table.
