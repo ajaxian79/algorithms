@@ -335,3 +335,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 84
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 85
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
