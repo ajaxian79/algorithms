@@ -2419,3 +2419,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 588
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 589
+
+Monotonic stack pops while the new element violates the invariant.
