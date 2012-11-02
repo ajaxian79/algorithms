@@ -3229,3 +3229,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 793
 
 Edge case: empty input → returns 0.
+
+## entry 794
+
+Time complexity: O(k) where k is the answer size.
