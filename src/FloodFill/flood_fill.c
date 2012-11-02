@@ -312,3 +312,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 287: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 288: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 289: Runs in a single pass over the input.
+// note 290: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
