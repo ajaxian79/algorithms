@@ -366,3 +366,4 @@ MunitTest num_islands_tests[] = {
 // edge note 326: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 327: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 328: Space complexity: O(h) for the tree height.
+// edge note 329: Time complexity: O(1).
