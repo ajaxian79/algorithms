@@ -304,3 +304,4 @@ int compare_version(const char* a, const char* b) {
 // note 274: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 275: Greedy by end-time picks the most non-overlapping intervals.
 // note 276: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 277: Splay tree: every access splays to the root; amortized O(log n).
