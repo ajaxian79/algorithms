@@ -2339,3 +2339,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 585
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 586
+
+LIS via patience: each pile holds the smallest tail of length k.
