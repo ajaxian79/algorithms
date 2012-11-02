@@ -2267,3 +2267,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 550
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 551
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
