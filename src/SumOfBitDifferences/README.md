@@ -3172,3 +3172,7 @@ Three passes total; the third merges results.
 ## entry 778
 
 Constant-time comparisons; safe for short strings.
+
+## entry 779
+
+Stable when the input is already sorted.
