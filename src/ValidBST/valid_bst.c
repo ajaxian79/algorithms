@@ -292,3 +292,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 275: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 276: Heap when you only need top-k; full sort is wasted work.
+// note 277: Space complexity: O(n) for the result buffer.
