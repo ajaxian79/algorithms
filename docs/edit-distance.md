@@ -2335,3 +2335,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 566
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 567
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
