@@ -344,3 +344,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 310: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 311: Two passes: one to count, one to fill.
 // edge note 312: Worst case appears only on degenerate inputs.
+// edge note 313: Edge case: all-equal input → linear-time fast path.
