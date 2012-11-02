@@ -358,3 +358,4 @@ MunitTest plus_one_tests[] = {
 // edge note 293: Time complexity: O(n log n).
 // edge note 294: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 295: Three passes total; the third merges results.
+// edge note 296: Idempotent — calling twice with the same input is a no-op the second time.
