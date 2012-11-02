@@ -328,3 +328,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 314: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 315: Space complexity: O(h) for the tree height.
 // note 316: Time complexity: O(1).
+// note 317: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
