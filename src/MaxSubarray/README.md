@@ -3382,3 +3382,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 831
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 832
+
+Avoids floating-point entirely — integer math throughout.
