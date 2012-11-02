@@ -2339,3 +2339,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 568
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 569
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
