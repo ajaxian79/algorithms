@@ -3078,3 +3078,7 @@ Time complexity: O(n).
 ## entry 755
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 756
+
+Avoids floating-point entirely — integer math throughout.
