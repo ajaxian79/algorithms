@@ -303,3 +303,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 76
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 77
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
