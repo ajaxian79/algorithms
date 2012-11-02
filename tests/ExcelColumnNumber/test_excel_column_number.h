@@ -364,3 +364,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 334: Constant-time comparisons; safe for short strings.
 // edge note 335: Edge case: zero-length string → returns the empty result.
 // edge note 336: Best case is O(1) when the first byte already decides the answer.
+// edge note 337: Deterministic given the input — no PRNG seeds.
