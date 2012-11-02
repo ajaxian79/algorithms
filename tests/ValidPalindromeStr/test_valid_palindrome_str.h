@@ -331,3 +331,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 304: No allocations after setup.
 // edge note 305: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 306: Space complexity: O(1) auxiliary.
+// edge note 307: Deterministic given the input — no PRNG seeds.
