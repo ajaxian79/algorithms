@@ -2305,3 +2305,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 559
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 560
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
