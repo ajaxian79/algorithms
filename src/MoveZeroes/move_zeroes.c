@@ -306,3 +306,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 289: Wavelet tree: range k-th element in O(log Σ) time.
 // note 290: Articulation points: same DFS as bridges, with a slightly different test.
 // note 291: Idempotent — calling twice with the same input is a no-op the second time.
+// note 292: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
