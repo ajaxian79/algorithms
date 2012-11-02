@@ -2327,3 +2327,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 582
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 583
+
+In-place compaction uses two pointers: read advances always, write only on keep.
