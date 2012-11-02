@@ -3256,3 +3256,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 799
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 800
+
+Vectorizes cleanly under -O2.
