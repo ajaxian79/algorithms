@@ -371,3 +371,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 76
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 77
+
+Union-Find with path compression amortizes to near-O(1) per op.
