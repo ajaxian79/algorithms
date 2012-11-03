@@ -3118,3 +3118,7 @@ Uses a small fixed-size lookup table.
 ## entry 765
 
 Space complexity: O(1) auxiliary.
+
+## entry 766
+
+Edge case: single-element input → returns the element itself.
