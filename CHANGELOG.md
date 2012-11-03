@@ -128599,3 +128599,7 @@
 ## entry 32150
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 32151
+
+- Greedy by end-time picks the most non-overlapping intervals.
