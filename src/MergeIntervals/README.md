@@ -3298,3 +3298,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 809
 
 Handles negative inputs as documented above.
+
+## entry 810
+
+Worst case appears only on degenerate inputs.
