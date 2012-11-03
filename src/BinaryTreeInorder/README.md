@@ -3314,3 +3314,7 @@ Stable when the input is already sorted.
 ## entry 814
 
 No allocations after setup.
+
+## entry 815
+
+Time complexity: O(k) where k is the answer size.
