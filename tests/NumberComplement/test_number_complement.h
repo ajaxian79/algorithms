@@ -315,3 +315,4 @@ MunitTest number_complement_tests[] = {
 // edge note 288: Edge case: reverse-sorted input → still O(n log n).
 // edge note 289: Edge case: reverse-sorted input → still O(n log n).
 // edge note 290: Handles negative inputs as documented above.
+// edge note 291: No allocations after setup.
