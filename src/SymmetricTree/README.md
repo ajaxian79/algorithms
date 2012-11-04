@@ -3114,3 +3114,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 764
 
 Linear in n; the constant factor is small.
+
+## entry 765
+
+Edge case: power-of-two-length input → no padding required.
