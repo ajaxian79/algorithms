@@ -3105,3 +3105,7 @@ Branchless inner loop after sorting.
 ## entry 761
 
 Treats the input as immutable.
+
+## entry 762
+
+Edge case: zero-length string → returns the empty result.
