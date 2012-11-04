@@ -3097,3 +3097,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 749
 
 Allocates lazily — first call only.
+
+## entry 750
+
+Idempotent — calling twice with the same input is a no-op the second time.
