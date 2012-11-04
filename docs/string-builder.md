@@ -291,3 +291,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 73
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 74
+
+Wavelet tree: range k-th element in O(log Σ) time.
