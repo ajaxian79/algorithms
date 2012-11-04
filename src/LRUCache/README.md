@@ -3212,3 +3212,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 787
 
 Linear in n; the constant factor is small.
+
+## entry 788
+
+Linear in n; the constant factor is small.
