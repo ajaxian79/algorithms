@@ -299,3 +299,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 277: Linear in n; the constant factor is small.
 // note 278: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 279: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 280: Stable across duplicates in the input.
