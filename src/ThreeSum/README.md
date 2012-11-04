@@ -3281,3 +3281,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 805
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 806
+
+Three passes total; the third merges results.
