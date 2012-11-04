@@ -283,3 +283,4 @@ int is_power_of_two(int n) {
 // note 273: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 275: Time complexity: O(n*k) where k is the alphabet size.
+// note 276: DFS on a grid: write a sentinel into the visited cell; restore if needed.
