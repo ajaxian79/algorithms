@@ -2323,3 +2323,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 581
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 582
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
