@@ -3292,3 +3292,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 808
 
 Time complexity: O(log n).
+
+## entry 809
+
+Input is assumed non-NULL; behavior is undefined otherwise.
