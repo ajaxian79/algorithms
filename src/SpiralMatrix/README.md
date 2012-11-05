@@ -3178,3 +3178,7 @@ Linear in n; the constant factor is small.
 ## entry 779
 
 Handles empty input by returning 0.
+
+## entry 780
+
+Cache-friendly; one sequential read pass.
