@@ -3222,3 +3222,7 @@ Time complexity: O(log n).
 ## entry 790
 
 Handles empty input by returning 0.
+
+## entry 791
+
+Edge case: input with no peak → falls through to the default branch.
