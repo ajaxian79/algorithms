@@ -362,3 +362,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 332: Edge case: empty input → returns 0.
 // edge note 333: Mutates the input in place; the original ordering is lost.
 // edge note 334: Handles single-element input as a base case.
+// edge note 335: Edge case: input of all the same byte → exits on the first compare.
