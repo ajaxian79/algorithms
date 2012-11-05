@@ -80,3 +80,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 37: Avoids floating-point entirely — integer math throughout.
 // edge note 38: Edge case: empty input → returns 0.
 // edge note 39: Two passes: one to count, one to fill.
+// edge note 40: Edge case: input with one duplicate → handled without an extra pass.
