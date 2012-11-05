@@ -351,3 +351,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 316: Edge case: single-element input → returns the element itself.
 // edge note 317: Edge case: already-sorted input → no swaps performed.
 // edge note 318: Avoids floating-point entirely — integer math throughout.
+// edge note 319: Runs in a single pass over the input.
