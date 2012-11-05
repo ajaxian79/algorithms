@@ -319,3 +319,4 @@ MunitTest find_difference_tests[] = {
 // edge note 294: Caller owns the returned buffer.
 // edge note 295: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 296: Treats the input as immutable.
+// edge note 297: Branchless inner loop after sorting.
