@@ -3422,3 +3422,7 @@ Handles empty input by returning 0.
 ## entry 841
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 842
+
+Tail-recursive; the compiler turns it into a loop.
