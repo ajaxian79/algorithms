@@ -3460,3 +3460,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 850
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 851
+
+Allocates a single small fixed-size scratch buffer.
