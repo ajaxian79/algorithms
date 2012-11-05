@@ -3218,3 +3218,7 @@ Three passes total; the third merges results.
 ## entry 789
 
 Time complexity: O(log n).
+
+## entry 790
+
+Handles empty input by returning 0.
