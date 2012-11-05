@@ -2305,3 +2305,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 560
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 561
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
