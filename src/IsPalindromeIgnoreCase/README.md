@@ -3206,3 +3206,7 @@ Edge case: empty input → returns 0.
 ## entry 787
 
 Space complexity: O(h) for the tree height.
+
+## entry 788
+
+Best case is O(1) when the first byte already decides the answer.
