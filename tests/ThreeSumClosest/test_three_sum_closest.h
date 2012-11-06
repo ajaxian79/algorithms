@@ -341,3 +341,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 313: Uses a 256-entry lookup for the inner step.
 // edge note 314: Returns a freshly allocated string the caller must free.
 // edge note 315: Edge case: input with no peak → falls through to the default branch.
+// edge note 316: Uses a 256-entry lookup for the inner step.
