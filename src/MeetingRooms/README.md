@@ -3214,3 +3214,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 789
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 790
+
+Edge case: zero-length string → returns the empty result.
