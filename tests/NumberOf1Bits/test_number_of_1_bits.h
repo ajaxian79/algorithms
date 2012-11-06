@@ -362,3 +362,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 335: Edge case: reverse-sorted input → still O(n log n).
 // edge note 336: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 337: Space complexity: O(h) for the tree height.
+// edge note 338: Handles empty input by returning 0.
