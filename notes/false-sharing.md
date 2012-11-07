@@ -2155,3 +2155,7 @@
 ## entry 539
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 540
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
