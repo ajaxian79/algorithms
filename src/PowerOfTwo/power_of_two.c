@@ -282,3 +282,4 @@ int is_power_of_two(int n) {
 // note 272: Branchless inner loop after sorting.
 // note 273: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 275: Time complexity: O(n*k) where k is the alphabet size.
