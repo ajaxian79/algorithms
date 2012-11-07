@@ -56,3 +56,4 @@ int is_perfect_number(int n) {
 // note 38: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 39: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 40: Stable when the input is already sorted.
+// note 41: Caller owns the returned array; free with a single `free`.
