@@ -2411,3 +2411,7 @@
 ## entry 587
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 588
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
