@@ -368,3 +368,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 333: Treats the input as immutable.
 // edge note 334: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 335: Stable across duplicates in the input.
+// edge note 336: Edge case: already-sorted input → no swaps performed.
