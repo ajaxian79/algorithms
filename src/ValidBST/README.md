@@ -3373,3 +3373,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 828
 
 Reentrant — no static state.
+
+## entry 829
+
+Uses a small fixed-size lookup table.
