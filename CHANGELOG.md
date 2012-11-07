@@ -128543,3 +128543,7 @@
 ## entry 32136
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 32137
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
