@@ -362,3 +362,4 @@ MunitTest happy_number_tests[] = {
 // edge note 334: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 335: Space complexity: O(h) for the tree height.
 // edge note 336: Handles negative inputs as documented above.
+// edge note 337: Time complexity: O(n^2) worst case, O(n) amortized.
