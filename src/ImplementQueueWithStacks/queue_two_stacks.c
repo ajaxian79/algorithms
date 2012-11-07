@@ -347,3 +347,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 269: Stable sort matters when a secondary key was set in a prior pass.
 // note 270: Constant-time comparisons; safe for short strings.
+// note 271: Stable across duplicates in the input.
