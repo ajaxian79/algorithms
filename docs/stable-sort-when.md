@@ -2341,3 +2341,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 571
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 572
+
+Merge intervals: sort by start; extend the running interval while overlapping.
