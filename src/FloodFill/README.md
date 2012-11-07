@@ -3293,3 +3293,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 809
 
 No allocations on the hot path.
+
+## entry 810
+
+Handles negative inputs as documented above.
