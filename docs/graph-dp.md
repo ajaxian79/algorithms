@@ -2371,3 +2371,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 593
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 594
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
