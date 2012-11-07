@@ -312,3 +312,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 281: Edge case: already-sorted input → no swaps performed.
 // edge note 282: Edge case: single-element input → returns the element itself.
 // edge note 283: Time complexity: O(log n).
+// edge note 284: Time complexity: O(n log n).
