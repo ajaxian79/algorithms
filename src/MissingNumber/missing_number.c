@@ -280,3 +280,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 268: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 269: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 270: 32-bit safe; overflow is checked at each step.
+// note 271: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
