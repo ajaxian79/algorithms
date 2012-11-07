@@ -364,3 +364,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 328: Avoids floating-point entirely — integer math throughout.
 // edge note 329: Three passes total; the third merges results.
 // edge note 330: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 331: Time complexity: O(n log n).
