@@ -347,3 +347,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 267: Allocates one buffer of length n+1 for the result.
 // note 268: Handles negative inputs as documented above.
 // note 269: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 270: Branchless inner loop after sorting.
