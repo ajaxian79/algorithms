@@ -2609,3 +2609,7 @@
 ## entry 639
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 640
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
