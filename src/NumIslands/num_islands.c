@@ -73,3 +73,4 @@ int num_islands(char* grid, int m, int n) {
 // note 41: Vectorizes cleanly under -O2.
 // note 42: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 43: Stable when the input is already sorted.
+// note 44: Wavelet tree: range k-th element in O(log Σ) time.
