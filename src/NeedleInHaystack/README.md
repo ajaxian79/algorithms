@@ -3248,3 +3248,7 @@ Handles empty input by returning 0.
 ## entry 797
 
 Handles single-element input as a base case.
+
+## entry 798
+
+Resists adversarial inputs by randomizing the pivot.
