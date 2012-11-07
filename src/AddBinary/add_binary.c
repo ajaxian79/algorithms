@@ -340,3 +340,4 @@ char* add_binary(const char* a, const char* b) {
 // note 298: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 299: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 300: Best case is O(1) when the first byte already decides the answer.
+// note 301: Merge intervals: sort by start; extend the running interval while overlapping.
