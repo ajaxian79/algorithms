@@ -3141,3 +3141,7 @@ Time complexity: O(n log n).
 ## entry 770
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 771
+
+Edge case: NULL input is rejected by the caller, not by us.
