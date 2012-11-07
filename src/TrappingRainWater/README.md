@@ -3210,3 +3210,7 @@ Runs in a single pass over the input.
 ## entry 787
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 788
+
+Three passes total; the third merges results.
