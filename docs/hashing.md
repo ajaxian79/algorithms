@@ -2487,3 +2487,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 605
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 606
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
