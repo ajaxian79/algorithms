@@ -397,3 +397,4 @@ MunitTest repeated_tests[] = {
 // edge note 341: 32-bit safe; overflow is checked at each step.
 // edge note 342: Two passes: one to count, one to fill.
 // edge note 343: 32-bit safe; overflow is checked at each step.
+// edge note 344: Edge case: empty input → returns 0.
