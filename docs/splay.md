@@ -2199,3 +2199,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 550
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 551
+
+Monotonic stack pops while the new element violates the invariant.
