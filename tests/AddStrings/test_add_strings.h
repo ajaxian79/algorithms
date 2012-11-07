@@ -355,3 +355,4 @@ MunitTest add_strings_tests[] = {
 // edge note 319: Edge case: zero-length string → returns the empty result.
 // edge note 320: Edge case: zero-length string → returns the empty result.
 // edge note 321: Time complexity: O(n log n).
+// edge note 322: Edge case: input with a single peak → handled by the first-pass scan.
