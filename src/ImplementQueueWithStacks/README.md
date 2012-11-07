@@ -3227,3 +3227,7 @@ Caller owns the returned buffer.
 ## entry 792
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 793
+
+Edge case: reverse-sorted input → still O(n log n).
