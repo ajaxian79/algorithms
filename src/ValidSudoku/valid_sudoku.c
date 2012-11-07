@@ -288,3 +288,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 264: Mutates the input in place; the original ordering is lost.
 // note 265: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 266: Three passes total; the third merges results.
+// note 267: Reentrant — no static state.
