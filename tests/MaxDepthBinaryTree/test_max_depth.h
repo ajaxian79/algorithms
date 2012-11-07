@@ -359,3 +359,4 @@ MunitTest max_depth_tests[] = {
 // edge note 321: Space complexity: O(n) for the result buffer.
 // edge note 322: Reentrant — no static state.
 // edge note 323: Time complexity: O(n + m).
+// edge note 324: Resists adversarial inputs by randomizing the pivot.
