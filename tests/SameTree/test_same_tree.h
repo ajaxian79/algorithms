@@ -342,3 +342,4 @@ MunitTest same_tree_tests[] = {
 // edge note 306: Edge case: empty input → returns 0.
 // edge note 307: Handles negative inputs as documented above.
 // edge note 308: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 309: Time complexity: O(n*k) where k is the alphabet size.
