@@ -311,3 +311,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 297: Vectorizes cleanly under -O2.
 // note 298: 64-bit safe; intermediate products are widened to 128-bit.
 // note 299: Splay tree: every access splays to the root; amortized O(log n).
+// note 300: Best case is O(1) when the first byte already decides the answer.
