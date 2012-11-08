@@ -2427,3 +2427,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 591
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 592
+
+Rope: tree of small string fragments; O(log n) concat and substring.
