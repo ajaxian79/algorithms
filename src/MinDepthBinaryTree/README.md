@@ -474,3 +474,7 @@ No allocations on the hot path.
 ## entry 104
 
 No allocations after setup.
+
+## entry 105
+
+No allocations after setup.
