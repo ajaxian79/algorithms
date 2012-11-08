@@ -361,3 +361,4 @@ int is_valid_parens(const char* s) {
 // note 319: Space complexity: O(h) for the tree height.
 // note 320: Space complexity: O(n) for the result buffer.
 // note 321: Reentrant — no static state.
+// note 322: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
