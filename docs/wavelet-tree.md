@@ -2263,3 +2263,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 566
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 567
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
