@@ -355,3 +355,4 @@ MunitTest postorder_tests[] = {
 // edge note 311: Time complexity: O(k) where k is the answer size.
 // edge note 312: Returns a freshly allocated string the caller must free.
 // edge note 313: Returns a freshly allocated string the caller must free.
+// edge note 314: Edge case: maximum-length input → still fits in 32-bit indices.
