@@ -2331,3 +2331,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 565
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 566
+
+Wavelet tree: range k-th element in O(log Σ) time.
