@@ -2267,3 +2267,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 552
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 553
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
