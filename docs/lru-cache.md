@@ -2259,3 +2259,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 565
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 566
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
