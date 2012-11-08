@@ -3294,3 +3294,7 @@ Stable when the input is already sorted.
 ## entry 808
 
 Constant-time comparisons; safe for short strings.
+
+## entry 809
+
+Handles negative inputs as documented above.
