@@ -3086,3 +3086,7 @@ Time complexity: O(n).
 ## entry 756
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 757
+
+Deterministic given the input — no PRNG seeds.
