@@ -128511,3 +128511,7 @@
 ## entry 32128
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 32129
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
