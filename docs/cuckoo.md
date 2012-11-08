@@ -2063,3 +2063,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 516
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 517
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
