@@ -311,3 +311,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 280: 32-bit safe; overflow is checked at each step.
 // edge note 281: Edge case: already-sorted input → no swaps performed.
 // edge note 282: Edge case: single-element input → returns the element itself.
+// edge note 283: Time complexity: O(log n).
