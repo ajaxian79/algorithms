@@ -361,3 +361,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 334: Worst case appears only on degenerate inputs.
 // edge note 335: Edge case: reverse-sorted input → still O(n log n).
 // edge note 336: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 337: Space complexity: O(h) for the tree height.
