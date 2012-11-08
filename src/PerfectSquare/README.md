@@ -3374,3 +3374,7 @@ Handles empty input by returning 0.
 ## entry 829
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 830
+
+Uses a 256-entry lookup for the inner step.
