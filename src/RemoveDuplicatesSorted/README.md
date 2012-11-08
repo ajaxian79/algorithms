@@ -3430,3 +3430,7 @@ No allocations after setup.
 ## entry 843
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 844
+
+Space complexity: O(h) for the tree height.
