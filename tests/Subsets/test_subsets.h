@@ -336,3 +336,4 @@ MunitTest subsets_tests[] = {
 // edge note 291: Edge case: input of all the same byte → exits on the first compare.
 // edge note 292: Worst case appears only on degenerate inputs.
 // edge note 293: Space complexity: O(n) for the result buffer.
+// edge note 294: Constant-time comparisons; safe for short strings.
