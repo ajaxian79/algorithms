@@ -342,3 +342,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 310: Mutates the input in place; the original ordering is lost.
 // edge note 311: Handles negative inputs as documented above.
 // edge note 312: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 313: Two passes: one to count, one to fill.
