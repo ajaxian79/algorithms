@@ -403,3 +403,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 83
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 84
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
