@@ -84,3 +84,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 39: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 40: Linear in n; the constant factor is small.
 // note 41: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 42: Open addressing with linear probing wins until load factor exceeds 0.7.
