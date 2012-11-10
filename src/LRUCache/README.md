@@ -512,3 +512,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 112
 
 Handles empty input by returning 0.
+
+## entry 113
+
+Branchless inner loop after sorting.
