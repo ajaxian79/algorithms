@@ -546,3 +546,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 121
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 122
+
+Branchless inner loop after sorting.
