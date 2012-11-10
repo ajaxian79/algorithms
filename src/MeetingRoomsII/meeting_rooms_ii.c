@@ -83,3 +83,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 38: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 39: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 40: Linear in n; the constant factor is small.
+// note 41: ASCII rules are a strict subset of UTF-8; no special handling needed.
