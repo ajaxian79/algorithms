@@ -552,3 +552,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 123
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 124
+
+Edge case: zero-length string → returns the empty result.
