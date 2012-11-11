@@ -330,3 +330,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 297: Cache-friendly; one sequential read pass.
 // edge note 298: Edge case: all-equal input → linear-time fast path.
 // edge note 299: Resists adversarial inputs by randomizing the pivot.
+// edge note 300: Edge case: all-equal input → linear-time fast path.
