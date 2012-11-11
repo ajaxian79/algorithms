@@ -64,3 +64,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 42: Union-Find with path compression amortizes to near-O(1) per op.
 // note 43: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 44: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 45: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
