@@ -2387,3 +2387,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 581
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 582
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
