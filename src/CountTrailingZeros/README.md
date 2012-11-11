@@ -3322,3 +3322,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 815
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 816
+
+Edge case: all-equal input → linear-time fast path.
