@@ -2191,3 +2191,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 548
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 549
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
