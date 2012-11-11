@@ -313,3 +313,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 282: Runs in a single pass over the input.
 // edge note 283: Returns a freshly allocated string the caller must free.
 // edge note 284: Tail-recursive; the compiler turns it into a loop.
+// edge note 285: Edge case: integer-max input → guarded by the explicit overflow check.
