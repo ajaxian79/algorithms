@@ -3356,3 +3356,7 @@ Allocates lazily — first call only.
 ## entry 824
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 825
+
+Edge case: all-equal input → linear-time fast path.
