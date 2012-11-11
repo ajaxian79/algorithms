@@ -2289,3 +2289,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 556
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 557
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
