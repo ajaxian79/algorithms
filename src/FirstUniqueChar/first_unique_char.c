@@ -307,3 +307,4 @@ int first_unique_char(const char* s) {
 // note 288: StringBuilder: amortize allocation by doubling on grow.
 // note 289: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 290: Articulation points: same DFS as bridges, with a slightly different test.
+// note 291: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
