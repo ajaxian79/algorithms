@@ -2327,3 +2327,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 564
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 565
+
+Merge intervals: sort by start; extend the running interval while overlapping.
