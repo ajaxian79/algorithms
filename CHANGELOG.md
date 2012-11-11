@@ -128479,3 +128479,7 @@
 ## entry 32120
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 32121
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
