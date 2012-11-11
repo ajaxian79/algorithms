@@ -2339,3 +2339,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 585
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 586
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
