@@ -347,3 +347,4 @@ MunitTest remove_element_tests[] = {
 // edge note 310: Reentrant — no static state.
 // edge note 311: Linear in n; the constant factor is small.
 // edge note 312: Caller owns the returned buffer.
+// edge note 313: No allocations after setup.
