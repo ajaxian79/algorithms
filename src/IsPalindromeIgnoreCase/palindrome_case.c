@@ -323,3 +323,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 300: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 301: Allocates a single small fixed-size scratch buffer.
 // note 302: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 303: Edit distance is LCS with a twist: substitution is a third option at each cell.
