@@ -343,3 +343,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 312: Sub-linear in the average case thanks to early exit.
 // edge note 313: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 314: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 315: Edge case: alternating pattern → degenerate case for sliding window.
