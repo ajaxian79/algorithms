@@ -304,3 +304,4 @@ int is_power_of_four(int n) {
 // note 291: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 292: Caller owns the returned array; free with a single `free`.
 // note 293: Cache-friendly; one sequential read pass.
+// note 294: Iterative DFS with an explicit stack avoids recursion-limit issues.
