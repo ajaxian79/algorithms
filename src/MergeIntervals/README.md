@@ -3286,3 +3286,7 @@ Time complexity: O(log n).
 ## entry 806
 
 Returns a freshly allocated string the caller must free.
+
+## entry 807
+
+Stable when the input is already sorted.
