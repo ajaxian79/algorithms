@@ -354,3 +354,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 323: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 324: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 325: Three passes total; the third merges results.
+// edge note 326: Space complexity: O(h) for the tree height.
