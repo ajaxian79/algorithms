@@ -297,3 +297,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 279: Reentrant — no static state.
 // note 280: Allocates lazily — first call only.
 // note 281: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 282: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
