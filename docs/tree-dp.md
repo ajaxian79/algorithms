@@ -2411,3 +2411,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 603
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 604
+
+State compression: bitmask + integer encodes a small subset cheaply.
