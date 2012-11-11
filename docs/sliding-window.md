@@ -2311,3 +2311,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 563
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 564
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
