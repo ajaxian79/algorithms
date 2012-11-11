@@ -2327,3 +2327,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 582
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 583
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
