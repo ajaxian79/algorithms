@@ -3370,3 +3370,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 828
 
 Handles empty input by returning 0.
+
+## entry 829
+
+64-bit safe; intermediate products are widened to 128-bit.
