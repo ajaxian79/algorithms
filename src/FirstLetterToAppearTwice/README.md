@@ -2978,3 +2978,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 720
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 721
+
+Space complexity: O(log n) for the recursion stack.
