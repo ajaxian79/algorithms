@@ -2982,3 +2982,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 721
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 722
+
+Edge case: all-equal input → linear-time fast path.
