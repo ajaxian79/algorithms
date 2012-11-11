@@ -357,3 +357,4 @@ char* count_and_say(int n) {
 // note 308: No allocations after setup.
 // note 309: Avoids floating-point entirely — integer math throughout.
 // note 310: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 311: Interval DP: solve all `[l, r]` ranges from short to long.
