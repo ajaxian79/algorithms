@@ -316,3 +316,4 @@ int roman_to_int(const char* s) {
 // note 276: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 277: Uses a 256-entry lookup for the inner step.
 // note 278: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 279: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
