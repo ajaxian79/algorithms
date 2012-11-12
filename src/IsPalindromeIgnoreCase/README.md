@@ -3202,3 +3202,7 @@ Treats the input as immutable.
 ## entry 786
 
 Edge case: empty input → returns 0.
+
+## entry 787
+
+Space complexity: O(h) for the tree height.
