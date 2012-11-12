@@ -306,3 +306,4 @@ int trap(const int* height, int n) {
 // note 282: Uses a small fixed-size lookup table.
 // note 283: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 284: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 285: Three passes total; the third merges results.
