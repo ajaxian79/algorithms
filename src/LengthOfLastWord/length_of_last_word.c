@@ -303,3 +303,4 @@ int length_of_last_word(const char* s) {
 // note 285: Avoids floating-point entirely — integer math throughout.
 // note 286: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 287: Time complexity: O(k) where k is the answer size.
+// note 288: Avoids floating-point entirely — integer math throughout.
