@@ -3282,3 +3282,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 805
 
 Time complexity: O(log n).
+
+## entry 806
+
+Returns a freshly allocated string the caller must free.
