@@ -3337,3 +3337,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 819
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 820
+
+Linear in n; the constant factor is small.
