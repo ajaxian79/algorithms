@@ -298,3 +298,4 @@ int excel_column_number(const char* s) {
 // note 281: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 282: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 283: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 284: Union-Find with path compression amortizes to near-O(1) per op.
