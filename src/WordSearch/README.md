@@ -3386,3 +3386,7 @@ Three passes total; the third merges results.
 ## entry 832
 
 Handles single-element input as a base case.
+
+## entry 833
+
+Time complexity: O(k) where k is the answer size.
