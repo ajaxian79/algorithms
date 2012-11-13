@@ -3260,3 +3260,7 @@ Worst case appears only on degenerate inputs.
 ## entry 799
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 800
+
+Stable when the input is already sorted.
