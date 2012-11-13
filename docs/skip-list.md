@@ -2223,3 +2223,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 556
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 557
+
+Interval DP: solve all `[l, r]` ranges from short to long.
