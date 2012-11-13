@@ -313,3 +313,4 @@ void reverse_vowels(char* s) {
 // note 280: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 281: Three passes total; the third merges results.
 // note 282: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
