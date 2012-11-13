@@ -3082,3 +3082,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 755
 
 Time complexity: O(n).
+
+## entry 756
+
+Time complexity: O(k) where k is the answer size.
