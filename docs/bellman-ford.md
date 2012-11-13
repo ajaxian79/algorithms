@@ -2335,3 +2335,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 584
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 585
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
