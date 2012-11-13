@@ -328,3 +328,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 301: No allocations after setup.
 // edge note 302: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 303: Time complexity: O(n log n).
+// edge note 304: Deterministic given the input — no PRNG seeds.
