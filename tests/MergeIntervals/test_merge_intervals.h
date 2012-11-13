@@ -371,3 +371,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 329: Uses a small fixed-size lookup table.
 // edge note 330: Branchless inner loop after sorting.
 // edge note 331: Caller owns the returned buffer.
+// edge note 332: Best case is O(1) when the first byte already decides the answer.
