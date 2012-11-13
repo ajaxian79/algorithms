@@ -312,3 +312,4 @@ int reverse_int(int x) {
 // note 285: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 286: Allocates a single small fixed-size scratch buffer.
 // note 287: Space complexity: O(h) for the tree height.
+// note 288: Space complexity: O(1) auxiliary.
