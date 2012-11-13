@@ -128419,3 +128419,7 @@
 ## entry 32105
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 32106
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
