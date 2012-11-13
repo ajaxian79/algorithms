@@ -3168,3 +3168,7 @@ Caller owns the returned buffer.
 ## entry 777
 
 Three passes total; the third merges results.
+
+## entry 778
+
+Constant-time comparisons; safe for short strings.
