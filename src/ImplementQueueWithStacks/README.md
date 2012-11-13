@@ -3223,3 +3223,7 @@ Two passes: one to count, one to fill.
 ## entry 791
 
 Caller owns the returned buffer.
+
+## entry 792
+
+Time complexity: O(k) where k is the answer size.
