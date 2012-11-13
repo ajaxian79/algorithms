@@ -287,3 +287,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 265: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 266: Time complexity: O(n).
 // note 267: State compression: bitmask + integer encodes a small subset cheaply.
+// note 268: ASCII rules are a strict subset of UTF-8; no special handling needed.
