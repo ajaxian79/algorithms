@@ -2227,3 +2227,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 557
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 558
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
