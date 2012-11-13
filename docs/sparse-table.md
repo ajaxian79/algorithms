@@ -2239,3 +2239,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 560
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 561
+
+Articulation points: same DFS as bridges, with a slightly different test.
