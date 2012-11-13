@@ -3240,3 +3240,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 795
 
 Edge case: single-element input → returns the element itself.
+
+## entry 796
+
+Handles empty input by returning 0.
