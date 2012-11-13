@@ -3202,3 +3202,7 @@ Handles single-element input as a base case.
 ## entry 786
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 787
+
+Edge case: zero-length string → returns the empty result.
