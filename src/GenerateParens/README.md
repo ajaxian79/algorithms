@@ -3256,3 +3256,7 @@ Worst case appears only on degenerate inputs.
 ## entry 798
 
 32-bit safe; overflow is checked at each step.
+
+## entry 799
+
+Edge case: NULL input is rejected by the caller, not by us.
