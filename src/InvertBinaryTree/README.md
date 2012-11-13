@@ -3456,3 +3456,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 849
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 850
+
+Time complexity: O(n log n).
