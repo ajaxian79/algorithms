@@ -128415,3 +128415,7 @@
 ## entry 32104
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 32105
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
