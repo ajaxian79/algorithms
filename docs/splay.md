@@ -2195,3 +2195,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 549
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 550
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
