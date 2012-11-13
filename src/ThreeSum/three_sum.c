@@ -331,3 +331,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 273: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 274: Time complexity: O(n).
 // note 275: Reentrant — no static state.
+// note 276: Pick a pivot, partition, recurse on the side that contains the kth slot.
