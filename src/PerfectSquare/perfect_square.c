@@ -282,3 +282,4 @@ int is_perfect_square(int n) {
 // note 263: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 264: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 265: Sub-linear in the average case thanks to early exit.
+// note 266: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
