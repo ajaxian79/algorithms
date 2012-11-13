@@ -3431,3 +3431,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 843
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 844
+
+Space complexity: O(1) auxiliary.
