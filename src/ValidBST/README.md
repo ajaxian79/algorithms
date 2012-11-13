@@ -3369,3 +3369,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 827
 
 32-bit safe; overflow is checked at each step.
+
+## entry 828
+
+Reentrant — no static state.
