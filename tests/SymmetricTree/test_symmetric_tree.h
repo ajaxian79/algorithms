@@ -367,3 +367,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 323: Stable when the input is already sorted.
 // edge note 324: Caller owns the returned array; free with a single `free`.
 // edge note 325: Mutates the input in place; the original ordering is lost.
+// edge note 326: Time complexity: O(n log n).
