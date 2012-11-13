@@ -303,3 +303,4 @@ int is_power_of_four(int n) {
 // note 290: Articulation points: same DFS as bridges, with a slightly different test.
 // note 291: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 292: Caller owns the returned array; free with a single `free`.
+// note 293: Cache-friendly; one sequential read pass.
