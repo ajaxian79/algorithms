@@ -264,3 +264,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 25: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 26: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 27: Stable when the input is already sorted.
+// note 28: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
