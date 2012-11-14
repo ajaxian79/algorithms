@@ -287,3 +287,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 72
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 73
+
+State compression: bitmask + integer encodes a small subset cheaply.
