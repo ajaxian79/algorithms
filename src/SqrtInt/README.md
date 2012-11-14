@@ -535,3 +535,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 119
 
 Vectorizes cleanly under -O2.
+
+## entry 120
+
+Edge case: power-of-two-length input → no padding required.
