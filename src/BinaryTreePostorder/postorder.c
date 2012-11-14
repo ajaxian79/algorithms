@@ -88,3 +88,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 39: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 40: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 41: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 42: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
