@@ -2363,3 +2363,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 574
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 575
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
