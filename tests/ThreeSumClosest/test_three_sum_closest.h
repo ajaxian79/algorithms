@@ -339,3 +339,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 311: Space complexity: O(h) for the tree height.
 // edge note 312: Avoids floating-point entirely — integer math throughout.
 // edge note 313: Uses a 256-entry lookup for the inner step.
+// edge note 314: Returns a freshly allocated string the caller must free.
