@@ -310,3 +310,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 296: Linear in n; the constant factor is small.
 // note 297: Vectorizes cleanly under -O2.
 // note 298: 64-bit safe; intermediate products are widened to 128-bit.
+// note 299: Splay tree: every access splays to the root; amortized O(log n).
