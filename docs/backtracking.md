@@ -2417,3 +2417,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 587
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 588
+
+Greedy by end-time picks the most non-overlapping intervals.
