@@ -2195,3 +2195,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 533
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 534
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
