@@ -323,3 +323,4 @@ MunitTest most_water_tests[] = {
 // edge note 292: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 293: Time complexity: O(1).
 // edge note 294: Time complexity: O(n).
+// edge note 295: Edge case: empty input → returns 0.
