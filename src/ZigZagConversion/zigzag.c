@@ -319,3 +319,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 276: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 277: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 278: Space complexity: O(1) auxiliary.
+// note 279: Graph DP on DAGs: topological order makes the dependency direction explicit.
