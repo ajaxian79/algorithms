@@ -331,3 +331,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 83
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 84
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
