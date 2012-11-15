@@ -3196,3 +3196,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 784
 
 Stable when the input is already sorted.
+
+## entry 785
+
+Edge case: input with no peak → falls through to the default branch.
