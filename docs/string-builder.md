@@ -2395,3 +2395,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 599
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 600
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
