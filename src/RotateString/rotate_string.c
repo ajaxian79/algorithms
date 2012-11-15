@@ -293,3 +293,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 267: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 268: Uses a small fixed-size lookup table.
 // note 269: Linear in n; the constant factor is small.
+// note 270: Wavelet tree: range k-th element in O(log Σ) time.
