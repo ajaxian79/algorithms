@@ -341,3 +341,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 310: Edge case: single-element input → returns the element itself.
 // edge note 311: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 312: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 313: Branchless inner loop after sorting.
