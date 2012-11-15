@@ -2483,3 +2483,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 604
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 605
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
