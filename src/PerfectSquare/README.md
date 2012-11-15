@@ -3362,3 +3362,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 826
 
 Worst case appears only on degenerate inputs.
+
+## entry 827
+
+Edge case: single-element input → returns the element itself.
