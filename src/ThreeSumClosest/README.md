@@ -3070,3 +3070,7 @@ Handles empty input by returning 0.
 ## entry 753
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 754
+
+Time complexity: O(n).
