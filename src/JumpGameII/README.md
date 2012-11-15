@@ -3352,3 +3352,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 823
 
 Allocates lazily — first call only.
+
+## entry 824
+
+Mutates the input in place; the original ordering is lost.
