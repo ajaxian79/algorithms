@@ -71,3 +71,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 40: Edge case: power-of-two-length input → no padding required.
 // edge note 41: Edge case: reverse-sorted input → still O(n log n).
 // edge note 42: Deterministic given the input — no PRNG seeds.
+// edge note 43: Edge case: integer-min input → guarded by the explicit underflow check.
