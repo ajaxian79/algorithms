@@ -2451,3 +2451,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 597
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 598
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
