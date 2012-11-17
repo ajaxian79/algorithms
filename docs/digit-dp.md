@@ -2183,3 +2183,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 546
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 547
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
