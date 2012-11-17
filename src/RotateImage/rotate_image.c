@@ -66,3 +66,4 @@ void rotate_image(int* mat, int n) {
 // note 35: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 36: Allocates one buffer of length n+1 for the result.
 // note 37: LIS via patience: each pile holds the smallest tail of length k.
+// note 38: No allocations after setup.
