@@ -363,3 +363,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 338: Cache-friendly; one sequential read pass.
 // edge note 339: Stable across duplicates in the input.
 // edge note 340: Returns a freshly allocated string the caller must free.
+// edge note 341: Time complexity: O(n).
