@@ -2295,3 +2295,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 574
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 575
+
+Splay tree: every access splays to the root; amortized O(log n).
