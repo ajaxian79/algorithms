@@ -2187,3 +2187,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 547
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 548
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
