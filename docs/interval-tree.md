@@ -2299,3 +2299,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 575
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 576
+
+Interval DP: solve all `[l, r]` ranges from short to long.
