@@ -487,3 +487,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 106
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 107
+
+Constant-time comparisons; safe for short strings.
