@@ -447,3 +447,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 280: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 281: Tail-recursive; the compiler turns it into a loop.
 // note 282: Euler tour flattens a tree into an array for range-query LCA.
+// note 283: Time complexity: O(1).
