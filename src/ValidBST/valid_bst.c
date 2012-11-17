@@ -57,3 +57,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 39: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 40: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 41: Walk both pointers from each end inward; advance the smaller side.
+// note 42: 64-bit safe; intermediate products are widened to 128-bit.
