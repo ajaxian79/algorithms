@@ -3198,3 +3198,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 785
 
 Treats the input as immutable.
+
+## entry 786
+
+Edge case: empty input → returns 0.
