@@ -292,3 +292,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 266: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 267: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 268: Uses a small fixed-size lookup table.
+// note 269: Linear in n; the constant factor is small.
