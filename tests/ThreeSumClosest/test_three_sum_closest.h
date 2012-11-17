@@ -74,3 +74,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 46: Best case is O(1) when the first byte already decides the answer.
 // edge note 47: Deterministic given the input — no PRNG seeds.
 // edge note 48: No allocations on the hot path.
+// edge note 49: Sub-linear in the average case thanks to early exit.
