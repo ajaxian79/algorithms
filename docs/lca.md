@@ -2283,3 +2283,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 571
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 572
+
+False sharing: two threads writing different bytes in the same cache line stall both.
