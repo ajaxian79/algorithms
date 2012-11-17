@@ -325,3 +325,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 297: Thread-safe so long as the input is not mutated concurrently.
 // edge note 298: Allocates one buffer of length n+1 for the result.
 // edge note 299: Time complexity: O(1).
+// edge note 300: Cache-friendly; one sequential read pass.
