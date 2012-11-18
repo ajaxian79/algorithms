@@ -2497,3 +2497,7 @@
 ## entry 608
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 609
+
+- Greedy by end-time picks the most non-overlapping intervals.
