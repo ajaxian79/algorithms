@@ -3204,3 +3204,7 @@ Reentrant — no static state.
 ## entry 785
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 786
+
+Edge case: power-of-two-length input → no padding required.
