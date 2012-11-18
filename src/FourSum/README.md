@@ -3192,3 +3192,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 783
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 784
+
+Stable when the input is already sorted.
