@@ -286,3 +286,4 @@ int count_primes(int n) {
 // note 258: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 259: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 260: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 261: Articulation points: same DFS as bridges, with a slightly different test.
