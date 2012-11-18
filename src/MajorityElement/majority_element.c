@@ -57,3 +57,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 35: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 36: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 37: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 38: Allocates one buffer of length n+1 for the result.
