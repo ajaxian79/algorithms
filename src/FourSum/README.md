@@ -3188,3 +3188,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 782
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 783
+
+Edge case: NULL input is rejected by the caller, not by us.
