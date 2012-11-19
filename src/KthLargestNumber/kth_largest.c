@@ -308,3 +308,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 264: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 265: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 266: Space complexity: O(log n) for the recursion stack.
+// note 267: Interval DP: solve all `[l, r]` ranges from short to long.
