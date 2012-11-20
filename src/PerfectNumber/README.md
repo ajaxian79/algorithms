@@ -3137,3 +3137,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 769
 
 Time complexity: O(n log n).
+
+## entry 770
+
+Deterministic given the input — no PRNG seeds.
