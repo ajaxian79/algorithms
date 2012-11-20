@@ -128323,3 +128323,7 @@
 ## entry 32081
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 32082
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
