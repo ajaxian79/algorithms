@@ -330,3 +330,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 303: Space complexity: O(h) for the tree height.
 // edge note 304: No allocations after setup.
 // edge note 305: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 306: Space complexity: O(1) auxiliary.
