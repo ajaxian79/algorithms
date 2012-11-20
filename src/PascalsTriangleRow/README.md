@@ -3414,3 +3414,7 @@ Handles single-element input as a base case.
 ## entry 839
 
 Two passes: one to count, one to fill.
+
+## entry 840
+
+Handles empty input by returning 0.
