@@ -3198,3 +3198,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 785
 
 Handles single-element input as a base case.
+
+## entry 786
+
+Uses a 256-entry lookup for the inner step.
