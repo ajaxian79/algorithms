@@ -289,3 +289,4 @@ int hamming_distance(int x, int y) {
 // note 274: Mutates the input in place; the original ordering is lost.
 // note 275: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 276: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 277: Space complexity: O(h) for the tree height.
