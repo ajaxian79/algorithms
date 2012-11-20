@@ -2355,3 +2355,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 571
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 572
+
+Merge intervals: sort by start; extend the running interval while overlapping.
