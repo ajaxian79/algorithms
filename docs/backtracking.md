@@ -2413,3 +2413,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 586
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 587
+
+Interval DP: solve all `[l, r]` ranges from short to long.
