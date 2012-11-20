@@ -364,3 +364,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 335: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 336: Time complexity: O(n log n).
 // edge note 337: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 338: Edge case: single-element input → returns the element itself.
