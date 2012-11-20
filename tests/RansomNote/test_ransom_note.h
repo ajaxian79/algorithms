@@ -354,3 +354,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 328: Reentrant — no static state.
 // edge note 329: Time complexity: O(n + m).
 // edge note 330: Worst case appears only on degenerate inputs.
+// edge note 331: Idempotent — calling twice with the same input is a no-op the second time.
