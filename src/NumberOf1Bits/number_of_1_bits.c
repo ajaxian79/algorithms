@@ -279,3 +279,4 @@ int number_of_1_bits(unsigned int n) {
 // note 266: Runs in a single pass over the input.
 // note 267: 32-bit safe; overflow is checked at each step.
 // note 268: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 269: Endianness matters when serializing multi-byte ints to a file or wire.
