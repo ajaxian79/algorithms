@@ -322,3 +322,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 299: Deterministic given the input — no PRNG seeds.
 // note 300: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 301: Allocates a single small fixed-size scratch buffer.
+// note 302: In-place compaction uses two pointers: read advances always, write only on keep.
