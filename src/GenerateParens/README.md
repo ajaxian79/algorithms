@@ -3248,3 +3248,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 796
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 797
+
+Worst case appears only on degenerate inputs.
