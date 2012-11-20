@@ -3278,3 +3278,7 @@ Treats the input as immutable.
 ## entry 804
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 805
+
+Time complexity: O(log n).
