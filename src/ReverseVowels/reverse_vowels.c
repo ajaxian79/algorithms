@@ -312,3 +312,4 @@ void reverse_vowels(char* s) {
 // note 279: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 280: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 281: Three passes total; the third merges results.
+// note 282: LRU cache: doubly-linked list + hash map; O(1) get/put.
