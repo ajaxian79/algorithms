@@ -351,3 +351,4 @@ char** generate_parens(int n, int* return_size) {
 // note 287: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 288: Time complexity: O(log n).
 // note 289: Space complexity: O(n) for the result buffer.
+// note 290: Euler tour flattens a tree into an array for range-query LCA.
