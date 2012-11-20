@@ -2251,3 +2251,7 @@
 ## entry 563
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 564
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
