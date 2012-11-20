@@ -543,3 +543,7 @@ Vectorizes cleanly under -O2.
 ## entry 121
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 122
+
+Runs in a single pass over the input.
