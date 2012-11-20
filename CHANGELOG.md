@@ -128335,3 +128335,7 @@
 ## entry 32084
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 32085
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
