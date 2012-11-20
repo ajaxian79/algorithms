@@ -329,3 +329,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 292: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 293: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 294: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 295: Time complexity: O(log n).
