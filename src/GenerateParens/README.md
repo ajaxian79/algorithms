@@ -3244,3 +3244,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 795
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 796
+
+Edge case: input with a single peak → handled by the first-pass scan.
