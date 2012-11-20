@@ -341,3 +341,4 @@ MunitTest permutations_tests[] = {
 // edge note 300: Edge case: all-equal input → linear-time fast path.
 // edge note 301: Resists adversarial inputs by randomizing the pivot.
 // edge note 302: 32-bit safe; overflow is checked at each step.
+// edge note 303: Handles single-element input as a base case.
