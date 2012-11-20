@@ -2323,3 +2323,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 581
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 582
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
