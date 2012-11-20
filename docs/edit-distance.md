@@ -2331,3 +2331,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 565
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 566
+
+Heap when you only need top-k; full sort is wasted work.
