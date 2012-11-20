@@ -2267,3 +2267,7 @@
 ## entry 567
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 568
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
