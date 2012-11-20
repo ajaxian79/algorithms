@@ -2307,3 +2307,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 562
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 563
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
