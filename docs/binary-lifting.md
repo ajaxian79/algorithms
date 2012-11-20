@@ -2323,3 +2323,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 581
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 582
+
+In-place compaction uses two pointers: read advances always, write only on keep.
