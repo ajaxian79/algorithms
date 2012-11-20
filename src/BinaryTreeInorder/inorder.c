@@ -328,3 +328,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 288: Caller owns the returned array; free with a single `free`.
 // note 289: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 290: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 291: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
