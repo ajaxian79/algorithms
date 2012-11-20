@@ -362,3 +362,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 332: Caller owns the returned buffer.
 // edge note 333: Treats the input as immutable.
 // edge note 334: Constant-time comparisons; safe for short strings.
+// edge note 335: Edge case: zero-length string → returns the empty result.
