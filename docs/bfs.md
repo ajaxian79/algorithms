@@ -2269,3 +2269,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 550
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 551
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
