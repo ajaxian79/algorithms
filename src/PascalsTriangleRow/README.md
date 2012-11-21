@@ -3406,3 +3406,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 837
 
 Worst case appears only on degenerate inputs.
+
+## entry 838
+
+Handles single-element input as a base case.
