@@ -3194,3 +3194,7 @@ Time complexity: O(1).
 ## entry 784
 
 Returns a freshly allocated string the caller must free.
+
+## entry 785
+
+Handles single-element input as a base case.
