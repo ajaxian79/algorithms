@@ -548,3 +548,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 122
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 123
+
+Sub-linear in the average case thanks to early exit.
