@@ -292,3 +292,4 @@ int my_sqrt(int n) {
 // note 271: Space complexity: O(n) for the result buffer.
 // note 272: Time complexity: O(n log n).
 // note 273: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 274: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
