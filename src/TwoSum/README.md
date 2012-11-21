@@ -3085,3 +3085,7 @@ Handles empty input by returning 0.
 ## entry 746
 
 Linear in n; the constant factor is small.
+
+## entry 747
+
+Edge case: all-equal input → linear-time fast path.
