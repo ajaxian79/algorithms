@@ -3314,3 +3314,7 @@ Handles negative inputs as documented above.
 ## entry 813
 
 Time complexity: O(log n).
+
+## entry 814
+
+Edge case: integer-max input → guarded by the explicit overflow check.
