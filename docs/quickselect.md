@@ -2497,3 +2497,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 607
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 608
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
