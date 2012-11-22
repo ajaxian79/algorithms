@@ -2331,3 +2331,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 583
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 584
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
