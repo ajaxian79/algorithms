@@ -3110,3 +3110,7 @@ Time complexity: O(n).
 ## entry 763
 
 Caller owns the returned buffer.
+
+## entry 764
+
+Uses a small fixed-size lookup table.
