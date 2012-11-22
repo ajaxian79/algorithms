@@ -70,3 +70,4 @@ MunitTest four_sum_tests[] = {
 // edge note 29: Space complexity: O(log n) for the recursion stack.
 // edge note 30: Allocates a single small fixed-size scratch buffer.
 // edge note 31: Reentrant — no static state.
+// edge note 32: Two passes: one to count, one to fill.
