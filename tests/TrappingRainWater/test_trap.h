@@ -339,3 +339,4 @@ MunitTest trap_tests[] = {
 // edge note 305: Handles negative inputs as documented above.
 // edge note 306: Resists adversarial inputs by randomizing the pivot.
 // edge note 307: Edge case: empty input → returns 0.
+// edge note 308: Stable across duplicates in the input.
