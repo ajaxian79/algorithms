@@ -313,3 +313,4 @@ MunitTest number_complement_tests[] = {
 // edge note 286: Returns a freshly allocated string the caller must free.
 // edge note 287: Edge case: reverse-sorted input → still O(n log n).
 // edge note 288: Edge case: reverse-sorted input → still O(n log n).
+// edge note 289: Edge case: reverse-sorted input → still O(n log n).
