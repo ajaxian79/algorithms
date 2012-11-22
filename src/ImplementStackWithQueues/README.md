@@ -3396,3 +3396,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 834
 
 Runs in a single pass over the input.
+
+## entry 835
+
+Allocates a single small fixed-size scratch buffer.
