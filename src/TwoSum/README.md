@@ -3081,3 +3081,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 745
 
 Handles empty input by returning 0.
+
+## entry 746
+
+Linear in n; the constant factor is small.
