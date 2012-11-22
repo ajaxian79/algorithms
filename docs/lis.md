@@ -2475,3 +2475,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 602
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 603
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
