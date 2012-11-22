@@ -3280,3 +3280,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 804
 
 Allocates lazily — first call only.
+
+## entry 805
+
+Edge case: integer-min input → guarded by the explicit underflow check.
