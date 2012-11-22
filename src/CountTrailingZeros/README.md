@@ -3310,3 +3310,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 812
 
 Handles negative inputs as documented above.
+
+## entry 813
+
+Time complexity: O(log n).
