@@ -2335,3 +2335,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 567
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 568
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
