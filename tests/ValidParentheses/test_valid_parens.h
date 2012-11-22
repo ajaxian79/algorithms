@@ -360,3 +360,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 325: Time complexity: O(n log n).
 // edge note 326: Stable across duplicates in the input.
 // edge note 327: Cache-friendly; one sequential read pass.
+// edge note 328: 64-bit safe; intermediate products are widened to 128-bit.
