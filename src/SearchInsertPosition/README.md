@@ -3182,3 +3182,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 781
 
 Cache-friendly; one sequential read pass.
+
+## entry 782
+
+Edge case: integer-max input → guarded by the explicit overflow check.
