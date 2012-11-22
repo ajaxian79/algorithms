@@ -327,3 +327,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 301: Edge case: reverse-sorted input → still O(n log n).
 // edge note 302: Best case is O(1) when the first byte already decides the answer.
 // edge note 303: Allocates lazily — first call only.
+// edge note 304: 32-bit safe; overflow is checked at each step.
