@@ -3276,3 +3276,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 803
 
 Constant-time comparisons; safe for short strings.
+
+## entry 804
+
+Allocates lazily — first call only.
