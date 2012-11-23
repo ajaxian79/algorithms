@@ -2251,3 +2251,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 546
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 547
+
+Merge intervals: sort by start; extend the running interval while overlapping.
