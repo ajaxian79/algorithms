@@ -128235,3 +128235,7 @@
 ## entry 32059
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 32060
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
