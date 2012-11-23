@@ -267,3 +267,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 236: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 237: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 238: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 239: Linear in n; the constant factor is small.
