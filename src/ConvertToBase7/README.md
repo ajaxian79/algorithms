@@ -3448,3 +3448,7 @@ Uses a small fixed-size lookup table.
 ## entry 847
 
 Caller owns the returned buffer.
+
+## entry 848
+
+Worst case appears only on degenerate inputs.
