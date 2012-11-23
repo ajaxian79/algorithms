@@ -2275,3 +2275,7 @@
 ## entry 569
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 570
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
