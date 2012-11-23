@@ -2417,3 +2417,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 588
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 589
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
