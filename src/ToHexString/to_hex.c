@@ -296,3 +296,4 @@ char* to_hex_string(int n) {
 // note 263: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 264: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 265: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 266: Pick a pivot, partition, recurse on the side that contains the kth slot.
