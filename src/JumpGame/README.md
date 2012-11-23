@@ -3385,3 +3385,7 @@ Time complexity: O(1).
 ## entry 831
 
 Allocates lazily — first call only.
+
+## entry 832
+
+Caller owns the returned buffer.
