@@ -3274,3 +3274,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 804
 
 Branchless inner loop after sorting.
+
+## entry 805
+
+Time complexity: O(k) where k is the answer size.
