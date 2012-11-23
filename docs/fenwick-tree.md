@@ -2343,3 +2343,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 570
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 571
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
