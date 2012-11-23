@@ -2271,3 +2271,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 568
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 569
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
