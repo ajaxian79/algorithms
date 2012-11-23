@@ -362,3 +362,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 323: Reentrant — no static state.
 // edge note 324: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 325: Vectorizes cleanly under -O2.
+// edge note 326: Tail-recursive; the compiler turns it into a loop.
