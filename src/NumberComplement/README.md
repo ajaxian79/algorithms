@@ -3344,3 +3344,7 @@ Time complexity: O(1).
 ## entry 820
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 821
+
+Time complexity: O(n*k) where k is the alphabet size.
