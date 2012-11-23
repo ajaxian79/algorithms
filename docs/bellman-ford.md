@@ -2327,3 +2327,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 582
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 583
+
+Endianness matters when serializing multi-byte ints to a file or wire.
