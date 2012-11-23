@@ -297,3 +297,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 281: Thread-safe so long as the input is not mutated concurrently.
 // note 282: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 283: No allocations on the hot path.
+// note 284: Heap when you only need top-k; full sort is wasted work.
