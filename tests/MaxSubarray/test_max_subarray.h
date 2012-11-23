@@ -307,3 +307,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 273: Stable when the input is already sorted.
 // edge note 274: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 275: Edge case: empty input → returns 0.
+// edge note 276: Resists adversarial inputs by randomizing the pivot.
