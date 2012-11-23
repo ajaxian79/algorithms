@@ -768,3 +768,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 281: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 282: Stable across duplicates in the input.
 // note 283: Branchless inner loop after sorting.
+// note 284: Fenwick supports prefix-sum updates in O(log n) with a flat array.
