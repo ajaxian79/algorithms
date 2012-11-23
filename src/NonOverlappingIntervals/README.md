@@ -3329,3 +3329,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 817
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 818
+
+Space complexity: O(log n) for the recursion stack.
