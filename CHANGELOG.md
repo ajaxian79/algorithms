@@ -128239,3 +128239,7 @@
 ## entry 32060
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 32061
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
