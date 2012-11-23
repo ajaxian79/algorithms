@@ -2255,3 +2255,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 547
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 548
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
