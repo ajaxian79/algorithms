@@ -2267,3 +2267,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 567
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 568
+
+Greedy by end-time picks the most non-overlapping intervals.
