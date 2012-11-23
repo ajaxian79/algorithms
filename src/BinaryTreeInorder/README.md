@@ -3310,3 +3310,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 813
 
 Stable when the input is already sorted.
+
+## entry 814
+
+No allocations after setup.
