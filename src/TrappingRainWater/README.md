@@ -3206,3 +3206,7 @@ Runs in a single pass over the input.
 ## entry 786
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 787
+
+Edge case: integer-max input → guarded by the explicit overflow check.
