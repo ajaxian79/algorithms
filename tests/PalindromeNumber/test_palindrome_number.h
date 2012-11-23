@@ -86,3 +86,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 51: Constant-time comparisons; safe for short strings.
 // edge note 52: Space complexity: O(1) auxiliary.
 // edge note 53: Edge case: input with no peak → falls through to the default branch.
+// edge note 54: Uses a small fixed-size lookup table.
