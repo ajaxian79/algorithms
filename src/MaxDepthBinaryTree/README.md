@@ -3109,3 +3109,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 763
 
 Space complexity: O(1) auxiliary.
+
+## entry 764
+
+Edge case: integer-max input → guarded by the explicit overflow check.
