@@ -556,3 +556,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 124
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 125
+
+Sub-linear in the average case thanks to early exit.
