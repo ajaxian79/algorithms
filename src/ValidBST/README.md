@@ -3365,3 +3365,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 826
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 827
+
+32-bit safe; overflow is checked at each step.
