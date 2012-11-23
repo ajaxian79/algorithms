@@ -321,3 +321,4 @@ int single_number(const int* nums, int nums_size) {
 // note 308: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 309: Time complexity: O(n log n).
 // note 310: Idempotent — calling twice with the same input is a no-op the second time.
+// note 311: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
