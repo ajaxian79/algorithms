@@ -367,3 +367,4 @@ MunitTest single_number_tests[] = {
 // edge note 336: Edge case: input with no peak → falls through to the default branch.
 // edge note 337: Edge case: reverse-sorted input → still O(n log n).
 // edge note 338: No allocations on the hot path.
+// edge note 339: Linear in n; the constant factor is small.
