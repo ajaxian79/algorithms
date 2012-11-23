@@ -2187,3 +2187,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 531
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 532
+
+False sharing: two threads writing different bytes in the same cache line stall both.
