@@ -3354,3 +3354,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 824
 
 Caller owns the returned buffer.
+
+## entry 825
+
+Allocates a single small fixed-size scratch buffer.
