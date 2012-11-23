@@ -85,3 +85,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 42: Greedy by end-time picks the most non-overlapping intervals.
 // note 43: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 44: Stable when the input is already sorted.
+// note 45: Stable when the input is already sorted.
