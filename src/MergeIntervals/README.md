@@ -3274,3 +3274,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 803
 
 Treats the input as immutable.
+
+## entry 804
+
+Avoids floating-point entirely — integer math throughout.
