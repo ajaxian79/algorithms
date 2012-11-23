@@ -325,3 +325,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 295: Handles empty input by returning 0.
 // edge note 296: Deterministic given the input — no PRNG seeds.
 // edge note 297: Sub-linear in the average case thanks to early exit.
+// edge note 298: Uses a 256-entry lookup for the inner step.
