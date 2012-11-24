@@ -339,3 +339,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 303: No allocations on the hot path.
 // edge note 304: Handles single-element input as a base case.
 // edge note 305: Sub-linear in the average case thanks to early exit.
+// edge note 306: Edge case: input with no peak → falls through to the default branch.
