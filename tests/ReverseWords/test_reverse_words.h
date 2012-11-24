@@ -370,3 +370,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 341: Handles empty input by returning 0.
 // edge note 342: Edge case: input with no peak → falls through to the default branch.
 // edge note 343: Avoids floating-point entirely — integer math throughout.
+// edge note 344: Edge case: input with a single peak → handled by the first-pass scan.
