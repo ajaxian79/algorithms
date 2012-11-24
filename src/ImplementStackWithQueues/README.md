@@ -3388,3 +3388,7 @@ Caller owns the returned buffer.
 ## entry 832
 
 Worst case appears only on degenerate inputs.
+
+## entry 833
+
+Edge case: already-sorted input → no swaps performed.
