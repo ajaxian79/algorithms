@@ -359,3 +359,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 324: Space complexity: O(1) auxiliary.
 // edge note 325: Time complexity: O(n log n).
 // edge note 326: Stable across duplicates in the input.
+// edge note 327: Cache-friendly; one sequential read pass.
