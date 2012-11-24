@@ -333,3 +333,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 290: Mutates the input in place; the original ordering is lost.
 // edge note 291: Edge case: already-sorted input → no swaps performed.
 // edge note 292: Stable across duplicates in the input.
+// edge note 293: Idempotent — calling twice with the same input is a no-op the second time.
