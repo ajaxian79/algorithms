@@ -3448,3 +3448,7 @@ Runs in a single pass over the input.
 ## entry 847
 
 Cache-friendly; one sequential read pass.
+
+## entry 848
+
+Allocates one buffer of length n+1 for the result.
