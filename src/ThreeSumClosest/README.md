@@ -3066,3 +3066,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 752
 
 Handles empty input by returning 0.
+
+## entry 753
+
+Allocates a single small fixed-size scratch buffer.
