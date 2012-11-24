@@ -3129,3 +3129,7 @@ Allocates lazily — first call only.
 ## entry 767
 
 Time complexity: O(n).
+
+## entry 768
+
+Returns a freshly allocated string the caller must free.
