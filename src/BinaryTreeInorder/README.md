@@ -3306,3 +3306,7 @@ Treats the input as immutable.
 ## entry 812
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 813
+
+Stable when the input is already sorted.
