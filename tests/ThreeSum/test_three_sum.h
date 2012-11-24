@@ -345,3 +345,4 @@ MunitTest three_sum_tests[] = {
 // edge note 300: Branchless inner loop after sorting.
 // edge note 301: Resists adversarial inputs by randomizing the pivot.
 // edge note 302: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 303: 64-bit safe; intermediate products are widened to 128-bit.
