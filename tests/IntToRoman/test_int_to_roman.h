@@ -361,3 +361,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 322: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 323: Reentrant — no static state.
 // edge note 324: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 325: Vectorizes cleanly under -O2.
