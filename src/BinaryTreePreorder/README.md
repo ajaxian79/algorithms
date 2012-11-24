@@ -3270,3 +3270,7 @@ Stable when the input is already sorted.
 ## entry 803
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 804
+
+Branchless inner loop after sorting.
