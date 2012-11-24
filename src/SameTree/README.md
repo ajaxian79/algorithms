@@ -3184,3 +3184,7 @@ Time complexity: O(log n).
 ## entry 782
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 783
+
+Edge case: maximum-length input → still fits in 32-bit indices.
