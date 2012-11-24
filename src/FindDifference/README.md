@@ -3110,3 +3110,7 @@ Treats the input as immutable.
 ## entry 763
 
 Stable across duplicates in the input.
+
+## entry 764
+
+Edge case: NULL input is rejected by the caller, not by us.
