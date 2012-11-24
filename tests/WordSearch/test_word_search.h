@@ -336,3 +336,4 @@ MunitTest word_search_tests[] = {
 // edge note 302: Resists adversarial inputs by randomizing the pivot.
 // edge note 303: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 304: Caller owns the returned buffer.
+// edge note 305: Edge case: empty input → returns 0.
