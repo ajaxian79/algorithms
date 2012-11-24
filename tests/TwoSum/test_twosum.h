@@ -371,3 +371,4 @@ MunitTest twosum_tests[] = {
 // edge note 288: Reentrant — no static state.
 // edge note 289: Returns a freshly allocated string the caller must free.
 // edge note 290: Space complexity: O(1) auxiliary.
+// edge note 291: Allocates a single small fixed-size scratch buffer.
