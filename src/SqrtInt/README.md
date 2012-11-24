@@ -3427,3 +3427,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 842
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 843
+
+Uses a 256-entry lookup for the inner step.
