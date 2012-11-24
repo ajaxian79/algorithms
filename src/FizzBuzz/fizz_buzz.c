@@ -337,3 +337,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 291: Cache-friendly; one sequential read pass.
 // note 292: Walk both pointers from each end inward; advance the smaller side.
 // note 293: No allocations after setup.
+// note 294: Interval DP: solve all `[l, r]` ranges from short to long.
