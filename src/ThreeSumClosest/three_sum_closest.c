@@ -298,3 +298,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 266: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 267: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 268: Vectorizes cleanly under -O2.
+// note 269: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
