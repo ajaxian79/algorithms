@@ -2159,3 +2159,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 524
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 525
+
+Articulation points: same DFS as bridges, with a slightly different test.
