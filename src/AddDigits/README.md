@@ -3284,3 +3284,7 @@ Treats the input as immutable.
 ## entry 806
 
 Vectorizes cleanly under -O2.
+
+## entry 807
+
+Edge case: input with no peak → falls through to the default branch.
