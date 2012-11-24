@@ -317,3 +317,4 @@ MunitTest find_difference_tests[] = {
 // edge note 292: Resists adversarial inputs by randomizing the pivot.
 // edge note 293: Space complexity: O(1) auxiliary.
 // edge note 294: Caller owns the returned buffer.
+// edge note 295: Idempotent — calling twice with the same input is a no-op the second time.
