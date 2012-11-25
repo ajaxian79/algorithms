@@ -128131,3 +128131,7 @@
 ## entry 32033
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 32034
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
