@@ -3273,3 +3273,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 803
 
 Space complexity: O(n) for the result buffer.
+
+## entry 804
+
+Returns a freshly allocated string the caller must free.
