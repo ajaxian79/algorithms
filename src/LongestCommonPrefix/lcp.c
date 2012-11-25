@@ -307,3 +307,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 266: Constant-time comparisons; safe for short strings.
 // note 267: Handles single-element input as a base case.
 // note 268: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 269: Interval tree: stores intervals on the median; query traverses O(log n) levels.
