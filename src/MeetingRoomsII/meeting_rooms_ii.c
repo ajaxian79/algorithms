@@ -331,3 +331,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 286: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 287: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 288: Time complexity: O(n + m).
+// note 289: Polynomial rolling hash with two moduli kills almost all collisions in practice.
