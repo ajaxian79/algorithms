@@ -3196,3 +3196,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 783
 
 Cache-friendly; one sequential read pass.
+
+## entry 784
+
+Reentrant — no static state.
