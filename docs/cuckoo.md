@@ -2043,3 +2043,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 511
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 512
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
