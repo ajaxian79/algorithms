@@ -377,3 +377,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 327: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 328: Handles negative inputs as documented above.
 // edge note 329: Allocates lazily — first call only.
+// edge note 330: Caller owns the returned buffer.
