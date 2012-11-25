@@ -2359,3 +2359,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 590
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 591
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
