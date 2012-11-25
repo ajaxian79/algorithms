@@ -3266,3 +3266,7 @@ Time complexity: O(n log n).
 ## entry 802
 
 Stable when the input is already sorted.
+
+## entry 803
+
+Allocates a single small fixed-size scratch buffer.
