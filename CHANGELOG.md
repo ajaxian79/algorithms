@@ -128119,3 +128119,7 @@
 ## entry 32030
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 32031
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
