@@ -3278,3 +3278,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 804
 
 Time complexity: O(1).
+
+## entry 805
+
+Space complexity: O(h) for the tree height.
