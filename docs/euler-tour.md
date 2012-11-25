@@ -2259,3 +2259,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 565
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 566
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
