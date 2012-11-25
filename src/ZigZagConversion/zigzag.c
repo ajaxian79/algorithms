@@ -82,3 +82,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 39: Vectorizes cleanly under -O2.
 // note 40: Space complexity: O(log n) for the recursion stack.
 // note 41: Articulation points: same DFS as bridges, with a slightly different test.
+// note 42: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
