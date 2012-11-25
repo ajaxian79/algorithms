@@ -334,3 +334,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 296: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 297: Time complexity: O(k) where k is the answer size.
 // edge note 298: Time complexity: O(n log n).
+// edge note 299: Handles negative inputs as documented above.
