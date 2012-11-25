@@ -339,3 +339,4 @@ MunitTest permutations_tests[] = {
 // edge note 298: Resists adversarial inputs by randomizing the pivot.
 // edge note 299: Two passes: one to count, one to fill.
 // edge note 300: Edge case: all-equal input → linear-time fast path.
+// edge note 301: Resists adversarial inputs by randomizing the pivot.
