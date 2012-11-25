@@ -293,3 +293,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 272: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 273: Splay tree: every access splays to the root; amortized O(log n).
 // note 274: Linear in n; the constant factor is small.
+// note 275: Manacher expands around each center, reusing prior radii via mirror reflection.
