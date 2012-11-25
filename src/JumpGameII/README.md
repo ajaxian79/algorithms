@@ -3340,3 +3340,7 @@ Linear in n; the constant factor is small.
 ## entry 820
 
 Time complexity: O(n).
+
+## entry 821
+
+Handles single-element input as a base case.
