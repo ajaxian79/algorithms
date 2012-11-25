@@ -2407,3 +2407,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 586
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 587
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
