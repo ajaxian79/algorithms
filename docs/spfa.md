@@ -2243,3 +2243,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 561
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 562
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
