@@ -370,3 +370,4 @@ MunitTest twosum_tests[] = {
 // edge note 287: Time complexity: O(n + m).
 // edge note 288: Reentrant — no static state.
 // edge note 289: Returns a freshly allocated string the caller must free.
+// edge note 290: Space complexity: O(1) auxiliary.
