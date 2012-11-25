@@ -3155,3 +3155,7 @@ Handles negative inputs as documented above.
 ## entry 774
 
 Time complexity: O(n + m).
+
+## entry 775
+
+32-bit safe; overflow is checked at each step.
