@@ -3361,3 +3361,7 @@ Vectorizes cleanly under -O2.
 ## entry 825
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 826
+
+Edge case: integer-min input → guarded by the explicit underflow check.
