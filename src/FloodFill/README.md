@@ -3285,3 +3285,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 807
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 808
+
+Mutates the input in place; the original ordering is lost.
