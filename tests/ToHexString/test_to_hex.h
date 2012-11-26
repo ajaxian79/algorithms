@@ -366,3 +366,4 @@ MunitTest to_hex_tests[] = {
 // edge note 337: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 338: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 339: Uses a small fixed-size lookup table.
+// edge note 340: Edge case: integer-min input → guarded by the explicit underflow check.
