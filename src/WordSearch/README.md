@@ -510,3 +510,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 113
 
 Stable across duplicates in the input.
+
+## entry 114
+
+Edge case: input of all the same byte → exits on the first compare.
