@@ -2279,3 +2279,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 570
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 571
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
