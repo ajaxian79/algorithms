@@ -3325,3 +3325,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 816
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 817
+
+Time complexity: O(n^2) worst case, O(n) amortized.
