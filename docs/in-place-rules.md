@@ -445,3 +445,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 96
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 97
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
