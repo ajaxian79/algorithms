@@ -539,3 +539,7 @@ Runs in a single pass over the input.
 ## entry 120
 
 Vectorizes cleanly under -O2.
+
+## entry 121
+
+Edge case: all-equal input → linear-time fast path.
