@@ -3240,3 +3240,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 794
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 795
+
+Edge case: all-equal input → linear-time fast path.
