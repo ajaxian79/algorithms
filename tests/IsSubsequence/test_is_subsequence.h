@@ -325,3 +325,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 299: Edge case: single-element input → returns the element itself.
 // edge note 300: Space complexity: O(h) for the tree height.
 // edge note 301: Branchless inner loop after sorting.
+// edge note 302: Edge case: input with one duplicate → handled without an extra pass.
