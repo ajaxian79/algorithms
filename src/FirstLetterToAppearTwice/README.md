@@ -2974,3 +2974,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 719
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 720
+
+Edge case: already-sorted input → no swaps performed.
