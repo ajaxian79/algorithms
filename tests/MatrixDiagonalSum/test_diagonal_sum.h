@@ -323,3 +323,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 295: Time complexity: O(1).
 // edge note 296: Space complexity: O(h) for the tree height.
 // edge note 297: Thread-safe so long as the input is not mutated concurrently.
+// edge note 298: Allocates one buffer of length n+1 for the result.
