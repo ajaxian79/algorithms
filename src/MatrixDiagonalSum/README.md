@@ -3426,3 +3426,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 842
 
 32-bit safe; overflow is checked at each step.
+
+## entry 843
+
+Best case is O(1) when the first byte already decides the answer.
