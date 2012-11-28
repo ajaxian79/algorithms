@@ -2351,3 +2351,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 570
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 571
+
+Endianness matters when serializing multi-byte ints to a file or wire.
