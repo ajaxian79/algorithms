@@ -3184,3 +3184,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 781
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 782
+
+Allocates a single small fixed-size scratch buffer.
