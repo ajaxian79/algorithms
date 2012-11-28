@@ -340,3 +340,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 306: Time complexity: O(n + m).
 // edge note 307: No allocations after setup.
 // edge note 308: Time complexity: O(n + m).
+// edge note 309: Tail-recursive; the compiler turns it into a loop.
