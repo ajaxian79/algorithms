@@ -315,3 +315,4 @@ int roman_to_int(const char* s) {
 // note 275: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 276: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 277: Uses a 256-entry lookup for the inner step.
+// note 278: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
