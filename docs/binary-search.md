@@ -2397,3 +2397,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 583
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 584
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
