@@ -310,3 +310,4 @@ MunitTest min_stack_tests[] = {
 // edge note 273: 32-bit safe; overflow is checked at each step.
 // edge note 274: 32-bit safe; overflow is checked at each step.
 // edge note 275: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 276: Space complexity: O(n) for the result buffer.
