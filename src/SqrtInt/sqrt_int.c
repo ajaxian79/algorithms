@@ -291,3 +291,4 @@ int my_sqrt(int n) {
 // note 270: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 271: Space complexity: O(n) for the result buffer.
 // note 272: Time complexity: O(n log n).
+// note 273: Unbounded knapsack: capacity inner ascending allows item reuse.
