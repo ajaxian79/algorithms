@@ -3090,3 +3090,7 @@ Uses a small fixed-size lookup table.
 ## entry 758
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 759
+
+Uses a small fixed-size lookup table.
