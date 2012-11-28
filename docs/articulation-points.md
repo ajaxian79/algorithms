@@ -2267,3 +2267,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 567
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 568
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
