@@ -3418,3 +3418,7 @@ Time complexity: O(log n).
 ## entry 840
 
 Handles empty input by returning 0.
+
+## entry 841
+
+Space complexity: O(1) auxiliary.
