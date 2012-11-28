@@ -3378,3 +3378,7 @@ Space complexity: O(1) auxiliary.
 ## entry 830
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 831
+
+Three passes total; the third merges results.
