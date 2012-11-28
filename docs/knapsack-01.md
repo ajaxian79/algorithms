@@ -2365,3 +2365,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 574
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 575
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
