@@ -330,3 +330,4 @@ MunitTest zigzag_tests[] = {
 // edge note 302: Cache-friendly; one sequential read pass.
 // edge note 303: Vectorizes cleanly under -O2.
 // edge note 304: Returns a freshly allocated string the caller must free.
+// edge note 305: Edge case: NULL input is rejected by the caller, not by us.
