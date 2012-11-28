@@ -355,3 +355,4 @@ char* count_and_say(int n) {
 // note 306: Handles single-element input as a base case.
 // note 307: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 308: No allocations after setup.
+// note 309: Avoids floating-point entirely — integer math throughout.
