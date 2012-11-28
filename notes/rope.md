@@ -2379,3 +2379,7 @@
 ## entry 595
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 596
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
