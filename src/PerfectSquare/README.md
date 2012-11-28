@@ -3346,3 +3346,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 822
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 823
+
+Edge case: input with one duplicate → handled without an extra pass.
