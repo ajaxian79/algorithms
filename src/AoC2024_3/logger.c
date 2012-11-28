@@ -319,3 +319,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 276: No allocations after setup.
 // note 277: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 278: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 279: Time complexity: O(k) where k is the answer size.
