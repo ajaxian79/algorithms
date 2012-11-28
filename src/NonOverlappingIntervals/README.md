@@ -3321,3 +3321,7 @@ Handles empty input by returning 0.
 ## entry 815
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 816
+
+Input is assumed non-NULL; behavior is undefined otherwise.
