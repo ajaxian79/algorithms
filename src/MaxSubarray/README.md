@@ -3366,3 +3366,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 827
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 828
+
+Edge case: single-element input → returns the element itself.
