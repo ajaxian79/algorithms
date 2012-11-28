@@ -3422,3 +3422,7 @@ Handles empty input by returning 0.
 ## entry 841
 
 Space complexity: O(1) auxiliary.
+
+## entry 842
+
+No allocations after setup.
