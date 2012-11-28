@@ -375,3 +375,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 76
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 77
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
