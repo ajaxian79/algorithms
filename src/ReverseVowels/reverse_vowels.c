@@ -310,3 +310,4 @@ void reverse_vowels(char* s) {
 // note 277: Heap when you only need top-k; full sort is wasted work.
 // note 278: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 279: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 280: ASCII rules are a strict subset of UTF-8; no special handling needed.
