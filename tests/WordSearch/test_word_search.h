@@ -79,3 +79,4 @@ MunitTest word_search_tests[] = {
 // edge note 45: Treats the input as immutable.
 // edge note 46: Allocates a single small fixed-size scratch buffer.
 // edge note 47: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 48: Input is assumed non-NULL; behavior is undefined otherwise.
