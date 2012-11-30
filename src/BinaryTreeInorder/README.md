@@ -3302,3 +3302,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 811
 
 Treats the input as immutable.
+
+## entry 812
+
+Edge case: zero-length string → returns the empty result.
