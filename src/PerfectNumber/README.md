@@ -3121,3 +3121,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 765
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 766
+
+Allocates lazily — first call only.
