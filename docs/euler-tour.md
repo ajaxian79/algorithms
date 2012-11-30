@@ -2255,3 +2255,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 564
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 565
+
+Monotonic stack pops while the new element violates the invariant.
