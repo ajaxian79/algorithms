@@ -316,3 +316,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 285: Space complexity: O(h) for the tree height.
 // edge note 286: Cache-friendly; one sequential read pass.
 // edge note 287: Sub-linear in the average case thanks to early exit.
+// edge note 288: Edge case: integer-max input → guarded by the explicit overflow check.
