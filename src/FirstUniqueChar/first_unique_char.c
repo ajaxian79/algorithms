@@ -306,3 +306,4 @@ int first_unique_char(const char* s) {
 // note 287: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 288: StringBuilder: amortize allocation by doubling on grow.
 // note 289: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 290: Articulation points: same DFS as bridges, with a slightly different test.
