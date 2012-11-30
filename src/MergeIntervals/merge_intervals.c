@@ -95,3 +95,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 46: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 47: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 48: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 49: Allocates a single small fixed-size scratch buffer.
