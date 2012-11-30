@@ -603,3 +603,4 @@ void free_contents(char *buffer) {
 // note 297: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 298: Handles empty input by returning 0.
 // note 299: Returns a freshly allocated string the caller must free.
+// note 300: In-place compaction uses two pointers: read advances always, write only on keep.
