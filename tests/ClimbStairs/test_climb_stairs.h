@@ -349,3 +349,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 314: No allocations on the hot path.
 // edge note 315: Time complexity: O(k) where k is the answer size.
 // edge note 316: Edge case: single-element input → returns the element itself.
+// edge note 317: Edge case: already-sorted input → no swaps performed.
