@@ -300,3 +300,4 @@ int is_ugly(int n) {
 // note 286: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 287: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 288: 32-bit safe; overflow is checked at each step.
+// note 289: Uses a small fixed-size lookup table.
