@@ -2355,3 +2355,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 572
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 573
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
