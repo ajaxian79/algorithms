@@ -358,3 +358,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 323: Three passes total; the third merges results.
 // edge note 324: Space complexity: O(1) auxiliary.
 // edge note 325: Time complexity: O(n log n).
+// edge note 326: Stable across duplicates in the input.
