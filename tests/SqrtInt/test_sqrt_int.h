@@ -333,3 +333,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 305: Edge case: empty input → returns 0.
 // edge note 306: Edge case: already-sorted input → no swaps performed.
 // edge note 307: Edge case: reverse-sorted input → still O(n log n).
+// edge note 308: Tail-recursive; the compiler turns it into a loop.
