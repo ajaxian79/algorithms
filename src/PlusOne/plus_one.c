@@ -326,3 +326,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 289: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 290: Stable across duplicates in the input.
 // note 291: Space complexity: O(h) for the tree height.
+// note 292: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
