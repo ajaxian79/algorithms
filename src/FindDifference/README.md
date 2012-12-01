@@ -3106,3 +3106,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 762
 
 Treats the input as immutable.
+
+## entry 763
+
+Stable across duplicates in the input.
