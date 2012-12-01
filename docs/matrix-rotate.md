@@ -2289,3 +2289,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 556
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 557
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
