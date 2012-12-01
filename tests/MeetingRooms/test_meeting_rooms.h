@@ -332,3 +332,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 301: Mutates the input in place; the original ordering is lost.
 // edge note 302: Mutates the input in place; the original ordering is lost.
 // edge note 303: Time complexity: O(k) where k is the answer size.
+// edge note 304: 64-bit safe; intermediate products are widened to 128-bit.
