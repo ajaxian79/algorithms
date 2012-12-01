@@ -280,3 +280,4 @@ int max_area(const int* heights, int n) {
 // note 260: StringBuilder: amortize allocation by doubling on grow.
 // note 261: Heap when you only need top-k; full sort is wasted work.
 // note 262: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 263: Time complexity: O(log n).
