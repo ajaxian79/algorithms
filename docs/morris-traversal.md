@@ -2255,3 +2255,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 549
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 550
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
