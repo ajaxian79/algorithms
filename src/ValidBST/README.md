@@ -3357,3 +3357,7 @@ Space complexity: O(1) auxiliary.
 ## entry 824
 
 Vectorizes cleanly under -O2.
+
+## entry 825
+
+Deterministic given the input — no PRNG seeds.
