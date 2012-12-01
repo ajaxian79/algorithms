@@ -3162,3 +3162,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 775
 
 No allocations on the hot path.
+
+## entry 776
+
+Edge case: empty input → returns 0.
