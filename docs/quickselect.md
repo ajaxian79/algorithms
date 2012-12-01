@@ -2489,3 +2489,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 605
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 606
+
+LIS via patience: each pile holds the smallest tail of length k.
