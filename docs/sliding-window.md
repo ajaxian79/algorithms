@@ -2299,3 +2299,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 560
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 561
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
