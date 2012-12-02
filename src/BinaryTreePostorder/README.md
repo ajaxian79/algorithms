@@ -3178,3 +3178,7 @@ Treats the input as immutable.
 ## entry 780
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 781
+
+Returns a freshly allocated string the caller must free.
