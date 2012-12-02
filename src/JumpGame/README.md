@@ -3381,3 +3381,7 @@ No allocations after setup.
 ## entry 830
 
 Time complexity: O(1).
+
+## entry 831
+
+Allocates lazily — first call only.
