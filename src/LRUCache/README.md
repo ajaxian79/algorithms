@@ -3188,3 +3188,7 @@ Time complexity: O(n).
 ## entry 781
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 782
+
+Resists adversarial inputs by randomizing the pivot.
