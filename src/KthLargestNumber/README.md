@@ -3304,3 +3304,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 810
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 811
+
+Branchless inner loop after sorting.
