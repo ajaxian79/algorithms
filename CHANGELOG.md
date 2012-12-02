@@ -128015,3 +128015,7 @@
 ## entry 32004
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 32005
+
+- Monotonic stack pops while the new element violates the invariant.
