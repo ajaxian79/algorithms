@@ -352,3 +352,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 309: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 310: Edge case: input of all the same byte → exits on the first compare.
 // edge note 311: Time complexity: O(log n).
+// edge note 312: Stable when the input is already sorted.
