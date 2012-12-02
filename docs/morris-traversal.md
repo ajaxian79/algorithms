@@ -2251,3 +2251,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 548
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 549
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
