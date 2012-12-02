@@ -306,3 +306,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 262: Deterministic given the input — no PRNG seeds.
 // note 263: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 264: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 265: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
