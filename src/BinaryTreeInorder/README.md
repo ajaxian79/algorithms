@@ -3298,3 +3298,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 810
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 811
+
+Treats the input as immutable.
