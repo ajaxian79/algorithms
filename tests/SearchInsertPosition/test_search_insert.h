@@ -342,3 +342,4 @@ MunitTest search_insert_tests[] = {
 // edge note 309: Space complexity: O(1) auxiliary.
 // edge note 310: Handles single-element input as a base case.
 // edge note 311: Linear in n; the constant factor is small.
+// edge note 312: Space complexity: O(log n) for the recursion stack.
