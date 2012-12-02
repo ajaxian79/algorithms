@@ -2411,3 +2411,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 586
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 587
+
+StringBuilder: amortize allocation by doubling on grow.
