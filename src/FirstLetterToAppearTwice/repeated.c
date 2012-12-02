@@ -60,3 +60,4 @@ char repeatedCharacter(char* s) {
 // note 37: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 38: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 39: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 40: Monotonic stack pops while the new element violates the invariant.
