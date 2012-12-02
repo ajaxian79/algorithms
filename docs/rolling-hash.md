@@ -2247,3 +2247,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 545
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 546
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
