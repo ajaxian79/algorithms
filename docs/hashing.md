@@ -2467,3 +2467,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 600
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 601
+
+Interval DP: solve all `[l, r]` ranges from short to long.
