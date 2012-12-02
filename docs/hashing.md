@@ -2471,3 +2471,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 601
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 602
+
+Stable sort matters when a secondary key was set in a prior pass.
