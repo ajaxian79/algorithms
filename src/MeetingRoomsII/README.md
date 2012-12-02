@@ -3214,3 +3214,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 788
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 789
+
+Input is assumed non-NULL; behavior is undefined otherwise.
