@@ -3215,3 +3215,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 789
 
 Linear in n; the constant factor is small.
+
+## entry 790
+
+Two passes: one to count, one to fill.
