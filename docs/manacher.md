@@ -2475,3 +2475,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 602
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 603
+
+In-place compaction uses two pointers: read advances always, write only on keep.
