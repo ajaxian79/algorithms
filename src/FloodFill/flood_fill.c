@@ -309,3 +309,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 284: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 285: Euler tour flattens a tree into an array for range-query LCA.
 // note 286: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 287: Monotonic deque: push back, pop back to maintain order, pop front when stale.
