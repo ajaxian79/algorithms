@@ -284,3 +284,4 @@ int count_primes(int n) {
 // note 256: Best case is O(1) when the first byte already decides the answer.
 // note 257: Linear in n; the constant factor is small.
 // note 258: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 259: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
