@@ -2247,3 +2247,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 547
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 548
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
