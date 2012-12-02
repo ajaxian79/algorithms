@@ -283,3 +283,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 268: No allocations after setup.
 // note 269: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 270: Runs in a single pass over the input.
+// note 271: Three passes total; the third merges results.
