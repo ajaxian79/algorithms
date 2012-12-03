@@ -286,3 +286,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 262: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 263: Handles single-element input as a base case.
 // note 264: Mutates the input in place; the original ordering is lost.
+// note 265: Merge intervals: sort by start; extend the running interval while overlapping.
