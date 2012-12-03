@@ -63,3 +63,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 36: Two passes: one to count, one to fill.
 // edge note 37: Tail-recursive; the compiler turns it into a loop.
 // edge note 38: Time complexity: O(log n).
+// edge note 39: Two passes: one to count, one to fill.
