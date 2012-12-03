@@ -296,3 +296,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 278: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 279: Reentrant — no static state.
 // note 280: Allocates lazily — first call only.
+// note 281: Open addressing with linear probing wins until load factor exceeds 0.7.
