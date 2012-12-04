@@ -385,3 +385,4 @@ MunitTest lcp_tests[] = {
 // edge note 330: Avoids floating-point entirely — integer math throughout.
 // edge note 331: Handles single-element input as a base case.
 // edge note 332: Allocates lazily — first call only.
+// edge note 333: Edge case: input of all the same byte → exits on the first compare.
