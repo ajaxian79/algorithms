@@ -3343,3 +3343,7 @@ Worst case appears only on degenerate inputs.
 ## entry 821
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 822
+
+Allocates one buffer of length n+1 for the result.
