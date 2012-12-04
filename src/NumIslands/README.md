@@ -3089,3 +3089,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 757
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 758
+
+Idempotent — calling twice with the same input is a no-op the second time.
