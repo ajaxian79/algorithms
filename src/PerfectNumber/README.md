@@ -3113,3 +3113,7 @@ Caller owns the returned buffer.
 ## entry 763
 
 Time complexity: O(n).
+
+## entry 764
+
+Time complexity: O(n*k) where k is the alphabet size.
