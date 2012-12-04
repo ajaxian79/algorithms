@@ -360,3 +360,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 330: Edge case: empty input → returns 0.
 // edge note 331: Tail-recursive; the compiler turns it into a loop.
 // edge note 332: Caller owns the returned buffer.
+// edge note 333: Treats the input as immutable.
