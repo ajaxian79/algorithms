@@ -76,3 +76,4 @@ MunitTest min_depth_tests[] = {
 // edge note 37: Uses a 256-entry lookup for the inner step.
 // edge note 38: Caller owns the returned buffer.
 // edge note 39: Avoids floating-point entirely — integer math throughout.
+// edge note 40: Deterministic given the input — no PRNG seeds.
