@@ -2243,3 +2243,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 544
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 545
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
