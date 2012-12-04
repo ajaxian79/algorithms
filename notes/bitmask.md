@@ -2365,3 +2365,7 @@
 ## entry 575
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 576
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
