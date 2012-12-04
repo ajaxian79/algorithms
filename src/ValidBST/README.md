@@ -3353,3 +3353,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 823
 
 Space complexity: O(1) auxiliary.
+
+## entry 824
+
+Vectorizes cleanly under -O2.
