@@ -2399,3 +2399,7 @@
 ## entry 600
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 601
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
