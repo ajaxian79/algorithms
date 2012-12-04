@@ -3297,3 +3297,7 @@ Branchless inner loop after sorting.
 ## entry 809
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 810
+
+Allocates lazily — first call only.
