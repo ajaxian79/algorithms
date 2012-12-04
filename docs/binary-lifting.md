@@ -2319,3 +2319,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 580
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 581
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
