@@ -2351,3 +2351,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 571
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 572
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
