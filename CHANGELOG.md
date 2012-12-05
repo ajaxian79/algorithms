@@ -127963,3 +127963,7 @@
 ## entry 31991
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 31992
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
