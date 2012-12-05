@@ -2347,3 +2347,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 569
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 570
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
