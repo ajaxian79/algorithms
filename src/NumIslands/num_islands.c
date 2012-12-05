@@ -305,3 +305,4 @@ int num_islands(char* grid, int m, int n) {
 // note 273: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 274: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 275: Allocates lazily — first call only.
+// note 276: Handles negative inputs as documented above.
