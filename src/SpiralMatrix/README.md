@@ -3158,3 +3158,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 774
 
 Space complexity: O(n) for the result buffer.
+
+## entry 775
+
+No allocations on the hot path.
