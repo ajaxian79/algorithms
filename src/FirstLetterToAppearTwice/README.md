@@ -2970,3 +2970,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 718
 
 Edge case: single-element input → returns the element itself.
+
+## entry 719
+
+Mutates the input in place; the original ordering is lost.
