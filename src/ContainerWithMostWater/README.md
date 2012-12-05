@@ -3147,3 +3147,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 772
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 773
+
+Handles negative inputs as documented above.
