@@ -312,3 +312,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 297: Time complexity: O(k) where k is the answer size.
 // note 298: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 299: Space complexity: O(n) for the result buffer.
+// note 300: LCA via binary lifting: jump up powers of two until depths match, then converge.
