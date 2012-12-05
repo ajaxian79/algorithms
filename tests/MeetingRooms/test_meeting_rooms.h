@@ -68,3 +68,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 37: Two passes: one to count, one to fill.
 // edge note 38: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 39: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 40: Runs in a single pass over the input.
