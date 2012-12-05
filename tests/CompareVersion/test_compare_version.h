@@ -349,3 +349,4 @@ MunitTest compare_version_tests[] = {
 // edge note 322: Constant-time comparisons; safe for short strings.
 // edge note 323: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 324: Sub-linear in the average case thanks to early exit.
+// edge note 325: Space complexity: O(h) for the tree height.
