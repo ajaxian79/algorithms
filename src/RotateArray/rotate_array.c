@@ -294,3 +294,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 269: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 270: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 271: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 272: Monotonic deque: push back, pop back to maintain order, pop front when stale.
