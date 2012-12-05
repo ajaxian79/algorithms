@@ -352,3 +352,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 321: Resists adversarial inputs by randomizing the pivot.
 // edge note 322: Stable when the input is already sorted.
 // edge note 323: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 324: Edge case: NULL input is rejected by the caller, not by us.
