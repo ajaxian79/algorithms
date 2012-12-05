@@ -3298,3 +3298,7 @@ Handles empty input by returning 0.
 ## entry 809
 
 Time complexity: O(n log n).
+
+## entry 810
+
+Uses a small fixed-size lookup table.
