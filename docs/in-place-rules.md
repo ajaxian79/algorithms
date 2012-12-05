@@ -2393,3 +2393,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 583
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 584
+
+Merge intervals: sort by start; extend the running interval while overlapping.
