@@ -127995,3 +127995,7 @@
 ## entry 31999
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 32000
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
