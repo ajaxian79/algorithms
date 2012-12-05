@@ -2307,3 +2307,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 559
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 560
+
+Wavelet tree: range k-th element in O(log Σ) time.
