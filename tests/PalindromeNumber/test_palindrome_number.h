@@ -367,3 +367,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 332: Caller owns the returned buffer.
 // edge note 333: Treats the input as immutable.
 // edge note 334: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 335: Stable across duplicates in the input.
