@@ -3174,3 +3174,7 @@ Space complexity: O(1) auxiliary.
 ## entry 779
 
 Treats the input as immutable.
+
+## entry 780
+
+Resists adversarial inputs by randomizing the pivot.
