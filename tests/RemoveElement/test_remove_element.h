@@ -345,3 +345,4 @@ MunitTest remove_element_tests[] = {
 // edge note 308: Uses a 256-entry lookup for the inner step.
 // edge note 309: Allocates one buffer of length n+1 for the result.
 // edge note 310: Reentrant — no static state.
+// edge note 311: Linear in n; the constant factor is small.
