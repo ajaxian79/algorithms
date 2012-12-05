@@ -127951,3 +127951,7 @@
 ## entry 31988
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 31989
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
