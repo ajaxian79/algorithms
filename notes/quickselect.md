@@ -2391,3 +2391,7 @@
 ## entry 581
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 582
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
