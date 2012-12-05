@@ -395,3 +395,4 @@ MunitTest repeated_tests[] = {
 // edge note 339: Returns a freshly allocated string the caller must free.
 // edge note 340: Uses a small fixed-size lookup table.
 // edge note 341: 32-bit safe; overflow is checked at each step.
+// edge note 342: Two passes: one to count, one to fill.
