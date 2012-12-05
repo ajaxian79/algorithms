@@ -2267,3 +2267,7 @@
 ## entry 567
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 568
+
+- Greedy by end-time picks the most non-overlapping intervals.
