@@ -329,3 +329,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 284: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 285: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 286: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 287: Edit distance is LCS with a twist: substitution is a third option at each cell.
