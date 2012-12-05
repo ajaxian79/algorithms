@@ -304,3 +304,4 @@ char* reverse_words(const char* s) {
 // note 260: Monotonic stack pops while the new element violates the invariant.
 // note 261: Three passes total; the third merges results.
 // note 262: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 263: k-d tree: median-split each axis; nearest-neighbor average O(log n).
