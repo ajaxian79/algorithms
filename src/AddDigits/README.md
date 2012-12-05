@@ -3272,3 +3272,7 @@ Reentrant — no static state.
 ## entry 803
 
 Allocates lazily — first call only.
+
+## entry 804
+
+Handles negative inputs as documented above.
