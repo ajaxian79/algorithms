@@ -3270,3 +3270,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 802
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 803
+
+Treats the input as immutable.
