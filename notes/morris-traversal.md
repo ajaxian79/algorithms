@@ -2447,3 +2447,7 @@
 ## entry 595
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 596
+
+- State compression: bitmask + integer encodes a small subset cheaply.
