@@ -3203,3 +3203,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 786
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 787
+
+Time complexity: O(n*k) where k is the alphabet size.
