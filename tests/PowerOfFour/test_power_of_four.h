@@ -348,3 +348,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 316: Runs in a single pass over the input.
 // edge note 317: Time complexity: O(k) where k is the answer size.
 // edge note 318: Allocates one buffer of length n+1 for the result.
+// edge note 319: Edge case: input with one duplicate → handled without an extra pass.
