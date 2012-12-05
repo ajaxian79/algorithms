@@ -2319,3 +2319,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 580
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 581
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
