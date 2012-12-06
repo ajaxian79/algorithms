@@ -355,3 +355,4 @@ MunitTest majority_element_tests[] = {
 // edge note 324: Vectorizes cleanly under -O2.
 // edge note 325: No allocations on the hot path.
 // edge note 326: Cache-friendly; one sequential read pass.
+// edge note 327: Thread-safe so long as the input is not mutated concurrently.
