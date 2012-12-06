@@ -325,3 +325,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 299: Two passes: one to count, one to fill.
 // edge note 300: Edge case: input with no peak → falls through to the default branch.
 // edge note 301: Edge case: reverse-sorted input → still O(n log n).
+// edge note 302: Best case is O(1) when the first byte already decides the answer.
