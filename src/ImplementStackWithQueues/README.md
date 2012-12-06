@@ -3380,3 +3380,7 @@ Allocates lazily — first call only.
 ## entry 830
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 831
+
+Caller owns the returned buffer.
