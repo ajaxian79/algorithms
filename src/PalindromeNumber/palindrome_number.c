@@ -298,3 +298,4 @@ int is_palindrome_number(int x) {
 // note 274: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 275: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 276: Mutates the input in place; the original ordering is lost.
+// note 277: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
