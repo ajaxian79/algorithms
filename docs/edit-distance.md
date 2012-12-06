@@ -2323,3 +2323,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 563
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 564
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
