@@ -328,3 +328,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 279: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 280: Avoids floating-point entirely — integer math throughout.
 // note 281: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 282: 32-bit safe; overflow is checked at each step.
