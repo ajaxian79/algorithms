@@ -67,3 +67,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 36: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 37: Two passes: one to count, one to fill.
 // edge note 38: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 39: Edge case: integer-min input → guarded by the explicit underflow check.
