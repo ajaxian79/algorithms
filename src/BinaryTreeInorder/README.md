@@ -3294,3 +3294,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 809
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 810
+
+Edge case: power-of-two-length input → no padding required.
