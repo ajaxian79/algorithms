@@ -399,3 +399,4 @@ MunitTest preorder_tests[] = {
 // edge note 355: Time complexity: O(n + m).
 // edge note 356: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 357: Two passes: one to count, one to fill.
+// edge note 358: No allocations on the hot path.
