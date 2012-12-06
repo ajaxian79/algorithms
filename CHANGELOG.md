@@ -127899,3 +127899,7 @@
 ## entry 31975
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 31976
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
