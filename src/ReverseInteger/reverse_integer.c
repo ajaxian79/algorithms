@@ -311,3 +311,4 @@ int reverse_int(int x) {
 // note 284: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 285: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 286: Allocates a single small fixed-size scratch buffer.
+// note 287: Space complexity: O(h) for the tree height.
