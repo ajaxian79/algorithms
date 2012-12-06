@@ -3444,3 +3444,7 @@ No allocations after setup.
 ## entry 846
 
 Runs in a single pass over the input.
+
+## entry 847
+
+Cache-friendly; one sequential read pass.
