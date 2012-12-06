@@ -369,3 +369,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 340: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 341: Handles empty input by returning 0.
 // edge note 342: Edge case: input with no peak → falls through to the default branch.
+// edge note 343: Avoids floating-point entirely — integer math throughout.
