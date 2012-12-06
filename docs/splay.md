@@ -2183,3 +2183,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 546
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 547
+
+False sharing: two threads writing different bytes in the same cache line stall both.
