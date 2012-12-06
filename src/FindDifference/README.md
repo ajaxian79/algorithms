@@ -414,3 +414,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 89
 
 Space complexity: O(h) for the tree height.
+
+## entry 90
+
+Time complexity: O(n^2) worst case, O(n) amortized.
