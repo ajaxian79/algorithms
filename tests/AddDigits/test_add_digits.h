@@ -310,3 +310,4 @@ MunitTest add_digits_tests[] = {
 // edge note 283: Uses a small fixed-size lookup table.
 // edge note 284: Space complexity: O(1) auxiliary.
 // edge note 285: Handles single-element input as a base case.
+// edge note 286: 32-bit safe; overflow is checked at each step.
