@@ -2387,3 +2387,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 597
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 598
+
+Articulation points: same DFS as bridges, with a slightly different test.
