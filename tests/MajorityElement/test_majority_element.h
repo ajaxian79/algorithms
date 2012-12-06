@@ -356,3 +356,4 @@ MunitTest majority_element_tests[] = {
 // edge note 325: No allocations on the hot path.
 // edge note 326: Cache-friendly; one sequential read pass.
 // edge note 327: Thread-safe so long as the input is not mutated concurrently.
+// edge note 328: Edge case: integer-max input → guarded by the explicit overflow check.
