@@ -3143,3 +3143,7 @@ Handles single-element input as a base case.
 ## entry 771
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 772
+
+Best case is O(1) when the first byte already decides the answer.
