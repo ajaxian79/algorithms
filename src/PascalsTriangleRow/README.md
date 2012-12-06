@@ -3390,3 +3390,7 @@ Time complexity: O(n).
 ## entry 833
 
 Two passes: one to count, one to fill.
+
+## entry 834
+
+Edge case: zero-length string → returns the empty result.
