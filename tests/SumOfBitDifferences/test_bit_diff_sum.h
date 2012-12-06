@@ -315,3 +315,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 284: Treats the input as immutable.
 // edge note 285: Space complexity: O(h) for the tree height.
 // edge note 286: Cache-friendly; one sequential read pass.
+// edge note 287: Sub-linear in the average case thanks to early exit.
