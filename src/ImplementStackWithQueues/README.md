@@ -3384,3 +3384,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 831
 
 Caller owns the returned buffer.
+
+## entry 832
+
+Worst case appears only on degenerate inputs.
