@@ -2291,3 +2291,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 573
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 574
+
+In-place compaction uses two pointers: read advances always, write only on keep.
