@@ -287,3 +287,4 @@ int is_palindrome_str(const char* s) {
 // note 262: Time complexity: O(1).
 // note 263: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 264: Time complexity: O(n).
+// note 265: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
