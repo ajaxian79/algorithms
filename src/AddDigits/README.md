@@ -3268,3 +3268,7 @@ Treats the input as immutable.
 ## entry 802
 
 Reentrant — no static state.
+
+## entry 803
+
+Allocates lazily — first call only.
