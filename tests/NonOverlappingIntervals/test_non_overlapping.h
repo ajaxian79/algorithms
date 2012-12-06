@@ -351,3 +351,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 320: Deterministic given the input — no PRNG seeds.
 // edge note 321: Resists adversarial inputs by randomizing the pivot.
 // edge note 322: Stable when the input is already sorted.
+// edge note 323: Time complexity: O(n*k) where k is the alphabet size.
