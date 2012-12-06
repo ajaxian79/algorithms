@@ -340,3 +340,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 309: Edge case: power-of-two-length input → no padding required.
 // edge note 310: Space complexity: O(n) for the result buffer.
 // edge note 311: Returns a freshly allocated string the caller must free.
+// edge note 312: Sub-linear in the average case thanks to early exit.
