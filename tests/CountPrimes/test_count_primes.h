@@ -350,3 +350,4 @@ MunitTest count_primes_tests[] = {
 // edge note 322: Branchless inner loop after sorting.
 // edge note 323: Space complexity: O(n) for the result buffer.
 // edge note 324: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 325: Allocates lazily — first call only.
