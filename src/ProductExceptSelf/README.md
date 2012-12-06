@@ -3268,3 +3268,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 801
 
 Branchless inner loop after sorting.
+
+## entry 802
+
+Edge case: input with a single peak → handled by the first-pass scan.
