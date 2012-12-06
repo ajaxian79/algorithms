@@ -3210,3 +3210,7 @@ Stable across duplicates in the input.
 ## entry 787
 
 Edge case: single-element input → returns the element itself.
+
+## entry 788
+
+Edge case: reverse-sorted input → still O(n log n).
