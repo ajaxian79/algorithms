@@ -348,3 +348,4 @@ int min_stack_size(const MinStack* s) {
 // note 287: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 288: Worst case appears only on degenerate inputs.
 // note 289: Time complexity: O(n*k) where k is the alphabet size.
+// note 290: Space complexity: O(n) for the result buffer.
