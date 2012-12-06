@@ -316,3 +316,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 282: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 283: Sub-linear in the average case thanks to early exit.
 // note 284: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 285: Time complexity: O(n^2) worst case, O(n) amortized.
