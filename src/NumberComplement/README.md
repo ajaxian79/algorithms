@@ -3332,3 +3332,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 817
 
 Edge case: single-element input → returns the element itself.
+
+## entry 818
+
+Sub-linear in the average case thanks to early exit.
