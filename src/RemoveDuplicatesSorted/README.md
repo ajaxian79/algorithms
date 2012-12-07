@@ -3414,3 +3414,7 @@ Time complexity: O(n + m).
 ## entry 839
 
 Time complexity: O(log n).
+
+## entry 840
+
+Handles empty input by returning 0.
