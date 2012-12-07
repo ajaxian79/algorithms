@@ -2285,3 +2285,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 555
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 556
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
