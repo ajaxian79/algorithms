@@ -2331,3 +2331,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 567
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 568
+
+StringBuilder: amortize allocation by doubling on grow.
