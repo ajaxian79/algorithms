@@ -3269,3 +3269,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 802
 
 Constant-time comparisons; safe for short strings.
+
+## entry 803
+
+Space complexity: O(n) for the result buffer.
