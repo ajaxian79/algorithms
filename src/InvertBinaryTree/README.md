@@ -3440,3 +3440,7 @@ Branchless inner loop after sorting.
 ## entry 845
 
 No allocations after setup.
+
+## entry 846
+
+Runs in a single pass over the input.
