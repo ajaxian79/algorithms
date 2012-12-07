@@ -2323,3 +2323,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 581
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 582
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
