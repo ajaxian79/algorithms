@@ -2271,3 +2271,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 551
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 552
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
