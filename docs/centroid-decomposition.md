@@ -2263,3 +2263,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 566
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 567
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
