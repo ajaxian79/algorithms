@@ -282,3 +282,4 @@ char repeatedCharacter(char* s) {
 // note 259: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 260: State compression: bitmask + integer encodes a small subset cheaply.
 // note 261: Caller owns the returned array; free with a single `free`.
+// note 262: StringBuilder pitfall: reuse forces a deep copy on the first read.
