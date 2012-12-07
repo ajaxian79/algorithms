@@ -2297,3 +2297,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 557
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 558
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
