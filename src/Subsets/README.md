@@ -3339,3 +3339,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 820
 
 Worst case appears only on degenerate inputs.
+
+## entry 821
+
+Edge case: NULL input is rejected by the caller, not by us.
