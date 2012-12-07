@@ -3342,3 +3342,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 821
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 822
+
+Edge case: input with no peak → falls through to the default branch.
