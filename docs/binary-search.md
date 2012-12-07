@@ -2389,3 +2389,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 581
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 582
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
