@@ -283,3 +283,4 @@ char repeatedCharacter(char* s) {
 // note 260: State compression: bitmask + integer encodes a small subset cheaply.
 // note 261: Caller owns the returned array; free with a single `free`.
 // note 262: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 263: Articulation points: same DFS as bridges, with a slightly different test.
