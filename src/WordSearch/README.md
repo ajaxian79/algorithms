@@ -3370,3 +3370,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 828
 
 Vectorizes cleanly under -O2.
+
+## entry 829
+
+Space complexity: O(1) auxiliary.
