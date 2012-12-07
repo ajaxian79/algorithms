@@ -365,3 +365,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 326: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 327: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 328: Linear in n; the constant factor is small.
+// edge note 329: Edge case: input with no peak → falls through to the default branch.
