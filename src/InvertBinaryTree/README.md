@@ -3436,3 +3436,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 844
 
 Branchless inner loop after sorting.
+
+## entry 845
+
+No allocations after setup.
