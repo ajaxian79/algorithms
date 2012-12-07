@@ -278,3 +278,4 @@ int max_area(const int* heights, int n) {
 // note 258: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 259: Uses a 256-entry lookup for the inner step.
 // note 260: StringBuilder: amortize allocation by doubling on grow.
+// note 261: Heap when you only need top-k; full sort is wasted work.
