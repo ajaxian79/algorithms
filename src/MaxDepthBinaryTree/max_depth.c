@@ -290,3 +290,4 @@ int max_depth(MdTreeNode* root) {
 // note 276: Time complexity: O(log n).
 // note 277: Time complexity: O(k) where k is the answer size.
 // note 278: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 279: Walk both pointers from each end inward; advance the smaller side.
