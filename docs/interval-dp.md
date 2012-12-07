@@ -2271,3 +2271,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 568
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 569
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
