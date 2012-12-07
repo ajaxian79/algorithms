@@ -2039,3 +2039,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 510
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 511
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
