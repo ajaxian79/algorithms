@@ -3232,3 +3232,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 793
 
 Worst case appears only on degenerate inputs.
+
+## entry 794
+
+Edge case: input with one duplicate → handled without an extra pass.
