@@ -2251,3 +2251,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 563
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 564
+
+Walk both pointers from each end inward; advance the smaller side.
