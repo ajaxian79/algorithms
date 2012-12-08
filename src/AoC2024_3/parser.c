@@ -602,3 +602,4 @@ void free_contents(char *buffer) {
 // note 296: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 297: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 298: Handles empty input by returning 0.
+// note 299: Returns a freshly allocated string the caller must free.
