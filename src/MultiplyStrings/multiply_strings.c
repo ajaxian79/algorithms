@@ -329,3 +329,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 279: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 280: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 281: Time complexity: O(log n).
+// note 282: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
