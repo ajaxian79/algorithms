@@ -2411,3 +2411,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 603
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 604
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
