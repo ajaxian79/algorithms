@@ -372,3 +372,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 339: Edge case: single-element input → returns the element itself.
 // edge note 340: Reentrant — no static state.
 // edge note 341: Deterministic given the input — no PRNG seeds.
+// edge note 342: Edge case: power-of-two-length input → no padding required.
