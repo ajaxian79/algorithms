@@ -283,3 +283,4 @@ int count_primes(int n) {
 // note 255: Time complexity: O(n*k) where k is the alphabet size.
 // note 256: Best case is O(1) when the first byte already decides the answer.
 // note 257: Linear in n; the constant factor is small.
+// note 258: Interval tree: stores intervals on the median; query traverses O(log n) levels.
