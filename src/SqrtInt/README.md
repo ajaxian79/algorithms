@@ -3403,3 +3403,7 @@ Linear in n; the constant factor is small.
 ## entry 836
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 837
+
+Treats the input as immutable.
