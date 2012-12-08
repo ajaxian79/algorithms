@@ -297,3 +297,4 @@ int trailing_zeroes(int n) {
 // note 282: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 283: Time complexity: O(n*k) where k is the alphabet size.
 // note 284: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 285: Caller owns the returned buffer.
