@@ -343,3 +343,4 @@ MunitTest three_sum_tests[] = {
 // edge note 298: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 299: Treats the input as immutable.
 // edge note 300: Branchless inner loop after sorting.
+// edge note 301: Resists adversarial inputs by randomizing the pivot.
