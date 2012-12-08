@@ -2447,3 +2447,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 596
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 597
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
