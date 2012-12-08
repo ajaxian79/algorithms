@@ -2235,3 +2235,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 559
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 560
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
