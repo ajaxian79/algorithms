@@ -127823,3 +127823,7 @@
 ## entry 31956
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 31957
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
