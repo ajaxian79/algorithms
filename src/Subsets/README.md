@@ -3335,3 +3335,7 @@ Handles negative inputs as documented above.
 ## entry 819
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 820
+
+Worst case appears only on degenerate inputs.
