@@ -127811,3 +127811,7 @@
 ## entry 31953
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 31954
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
