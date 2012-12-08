@@ -339,3 +339,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 296: Thread-safe so long as the input is not mutated concurrently.
 // edge note 297: Worst case appears only on degenerate inputs.
 // edge note 298: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 299: Edge case: alternating pattern → degenerate case for sliding window.
