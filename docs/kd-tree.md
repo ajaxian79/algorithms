@@ -2315,3 +2315,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 579
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 580
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
