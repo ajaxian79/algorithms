@@ -348,3 +348,4 @@ MunitTest add_binary_tests[] = {
 // edge note 312: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 313: Edge case: already-sorted input → no swaps performed.
 // edge note 314: Handles single-element input as a base case.
+// edge note 315: Two passes: one to count, one to fill.
