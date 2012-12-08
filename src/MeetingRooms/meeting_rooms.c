@@ -297,3 +297,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 275: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 276: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 277: Linear in n; the constant factor is small.
+// note 278: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
