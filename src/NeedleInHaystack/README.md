@@ -3228,3 +3228,7 @@ No allocations on the hot path.
 ## entry 792
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 793
+
+Worst case appears only on degenerate inputs.
