@@ -3294,3 +3294,7 @@ Uses a small fixed-size lookup table.
 ## entry 808
 
 Handles empty input by returning 0.
+
+## entry 809
+
+Time complexity: O(n log n).
