@@ -3202,3 +3202,7 @@ Vectorizes cleanly under -O2.
 ## entry 785
 
 Runs in a single pass over the input.
+
+## entry 786
+
+64-bit safe; intermediate products are widened to 128-bit.
