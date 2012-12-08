@@ -3152,3 +3152,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 773
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 774
+
+Edge case: integer-max input → guarded by the explicit overflow check.
