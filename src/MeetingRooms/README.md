@@ -490,3 +490,7 @@ Space complexity: O(h) for the tree height.
 ## entry 108
 
 Space complexity: O(1) auxiliary.
+
+## entry 109
+
+Allocates a single small fixed-size scratch buffer.
