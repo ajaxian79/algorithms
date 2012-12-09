@@ -328,3 +328,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 295: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 296: Uses a small fixed-size lookup table.
 // edge note 297: Cache-friendly; one sequential read pass.
+// edge note 298: Edge case: all-equal input → linear-time fast path.
