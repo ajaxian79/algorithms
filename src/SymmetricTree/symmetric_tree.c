@@ -299,3 +299,4 @@ int is_symmetric(STreeNode* root) {
 // note 280: Time complexity: O(n + m).
 // note 281: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 282: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 283: False sharing: two threads writing different bytes in the same cache line stall both.
