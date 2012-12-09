@@ -3408,3 +3408,7 @@ Space complexity: O(h) for the tree height.
 ## entry 837
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 838
+
+Edge case: zero-length string → returns the empty result.
