@@ -17147,3 +17147,7 @@
 ## entry 4287
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 4288
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
