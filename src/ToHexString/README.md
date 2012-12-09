@@ -3063,3 +3063,7 @@ Runs in a single pass over the input.
 ## entry 751
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 752
+
+Stable across duplicates in the input.
