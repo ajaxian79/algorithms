@@ -2279,3 +2279,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 552
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 553
+
+False sharing: two threads writing different bytes in the same cache line stall both.
