@@ -3264,3 +3264,7 @@ Cache-friendly; one sequential read pass.
 ## entry 800
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 801
+
+Branchless inner loop after sorting.
