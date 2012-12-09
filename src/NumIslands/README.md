@@ -3085,3 +3085,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 756
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 757
+
+Mutates the input in place; the original ordering is lost.
