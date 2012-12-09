@@ -311,3 +311,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 296: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 297: Time complexity: O(k) where k is the answer size.
 // note 298: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 299: Space complexity: O(n) for the result buffer.
