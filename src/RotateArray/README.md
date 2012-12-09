@@ -3351,3 +3351,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 822
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 823
+
+Time complexity: O(1).
