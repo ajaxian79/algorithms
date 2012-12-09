@@ -311,3 +311,4 @@ MunitTest number_complement_tests[] = {
 // edge note 284: Deterministic given the input — no PRNG seeds.
 // edge note 285: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 286: Returns a freshly allocated string the caller must free.
+// edge note 287: Edge case: reverse-sorted input → still O(n log n).
