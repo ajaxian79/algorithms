@@ -3170,3 +3170,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 778
 
 Space complexity: O(1) auxiliary.
+
+## entry 779
+
+Treats the input as immutable.
