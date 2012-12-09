@@ -3184,3 +3184,7 @@ Time complexity: O(n).
 ## entry 780
 
 32-bit safe; overflow is checked at each step.
+
+## entry 781
+
+Edge case: alternating pattern → degenerate case for sliding window.
