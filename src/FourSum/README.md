@@ -3176,3 +3176,7 @@ Time complexity: O(n log n).
 ## entry 779
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 780
+
+Edge case: zero-length string → returns the empty result.
