@@ -2319,3 +2319,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 580
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 581
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
