@@ -3262,3 +3262,7 @@ Vectorizes cleanly under -O2.
 ## entry 800
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 801
+
+Allocates one buffer of length n+1 for the result.
