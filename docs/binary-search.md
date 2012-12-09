@@ -2385,3 +2385,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 580
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 581
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
