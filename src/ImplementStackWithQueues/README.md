@@ -3376,3 +3376,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 829
 
 Allocates lazily — first call only.
+
+## entry 830
+
+Deterministic given the input — no PRNG seeds.
