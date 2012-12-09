@@ -3059,3 +3059,7 @@ Time complexity: O(n log n).
 ## entry 750
 
 Runs in a single pass over the input.
+
+## entry 751
+
+Deterministic given the input — no PRNG seeds.
