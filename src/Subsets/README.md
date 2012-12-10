@@ -3331,3 +3331,7 @@ No allocations after setup.
 ## entry 818
 
 Handles negative inputs as documented above.
+
+## entry 819
+
+Edge case: integer-min input → guarded by the explicit underflow check.
