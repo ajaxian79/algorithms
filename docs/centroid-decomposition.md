@@ -2259,3 +2259,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 565
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 566
+
+State compression: bitmask + integer encodes a small subset cheaply.
