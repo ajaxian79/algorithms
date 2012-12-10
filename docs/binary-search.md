@@ -2381,3 +2381,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 579
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 580
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
