@@ -3428,3 +3428,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 842
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 843
+
+Edge case: NULL input is rejected by the caller, not by us.
