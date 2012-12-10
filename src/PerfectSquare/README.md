@@ -3338,3 +3338,7 @@ Handles negative inputs as documented above.
 ## entry 820
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 821
+
+Input is assumed non-NULL; behavior is undefined otherwise.
