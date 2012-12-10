@@ -342,3 +342,4 @@ MunitTest missing_number_tests[] = {
 // edge note 308: Caller owns the returned buffer.
 // edge note 309: Edge case: all-equal input → linear-time fast path.
 // edge note 310: Time complexity: O(log n).
+// edge note 311: Edge case: integer-min input → guarded by the explicit underflow check.
