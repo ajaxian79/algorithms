@@ -3444,3 +3444,7 @@ Branchless inner loop after sorting.
 ## entry 846
 
 Uses a small fixed-size lookup table.
+
+## entry 847
+
+Caller owns the returned buffer.
