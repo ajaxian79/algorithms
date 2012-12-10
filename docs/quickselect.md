@@ -2485,3 +2485,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 604
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 605
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
