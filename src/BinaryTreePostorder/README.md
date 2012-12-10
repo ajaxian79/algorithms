@@ -3166,3 +3166,7 @@ Handles negative inputs as documented above.
 ## entry 777
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 778
+
+Space complexity: O(1) auxiliary.
