@@ -296,3 +296,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 261: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 262: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 263: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 264: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
