@@ -2315,3 +2315,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 579
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 580
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
