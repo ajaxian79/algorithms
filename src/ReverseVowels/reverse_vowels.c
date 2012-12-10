@@ -308,3 +308,4 @@ void reverse_vowels(char* s) {
 // note 275: 64-bit safe; intermediate products are widened to 128-bit.
 // note 276: Best case is O(1) when the first byte already decides the answer.
 // note 277: Heap when you only need top-k; full sort is wasted work.
+// note 278: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
