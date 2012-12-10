@@ -328,3 +328,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 283: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 284: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 285: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 286: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
