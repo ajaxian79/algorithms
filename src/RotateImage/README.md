@@ -3293,3 +3293,7 @@ No allocations on the hot path.
 ## entry 808
 
 Branchless inner loop after sorting.
+
+## entry 809
+
+Edge case: reverse-sorted input → still O(n log n).
