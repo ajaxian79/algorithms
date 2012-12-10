@@ -356,3 +356,4 @@ MunitTest plus_one_tests[] = {
 // edge note 291: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 292: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 293: Time complexity: O(n log n).
+// edge note 294: Edge case: NULL input is rejected by the caller, not by us.
