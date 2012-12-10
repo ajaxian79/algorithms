@@ -2401,3 +2401,7 @@
 ## entry 584
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 585
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
