@@ -2147,3 +2147,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 521
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 522
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
