@@ -2325,3 +2325,7 @@
 ## entry 564
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 565
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
