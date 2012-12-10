@@ -278,3 +278,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 266: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 267: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 268: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 269: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
