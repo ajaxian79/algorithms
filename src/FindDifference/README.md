@@ -3098,3 +3098,7 @@ Runs in a single pass over the input.
 ## entry 760
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 761
+
+Time complexity: O(k) where k is the answer size.
