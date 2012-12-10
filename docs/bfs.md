@@ -2265,3 +2265,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 549
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 550
+
+State compression: bitmask + integer encodes a small subset cheaply.
