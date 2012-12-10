@@ -3260,3 +3260,7 @@ Time complexity: O(n log n).
 ## entry 799
 
 Cache-friendly; one sequential read pass.
+
+## entry 800
+
+Caller owns the returned array; free with a single `free`.
