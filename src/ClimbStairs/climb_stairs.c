@@ -290,3 +290,4 @@ long long climb_stairs(int n) {
 // note 271: Time complexity: O(n).
 // note 272: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 273: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 274: Best case is O(1) when the first byte already decides the answer.
