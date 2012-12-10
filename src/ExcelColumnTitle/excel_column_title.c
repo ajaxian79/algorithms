@@ -315,3 +315,4 @@ char* excel_column_title(int n) {
 // note 285: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 286: Three passes total; the third merges results.
 // note 287: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 288: Caller owns the returned buffer.
