@@ -3172,3 +3172,7 @@ Time complexity: O(log n).
 ## entry 779
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 780
+
+Linear in n; the constant factor is small.
