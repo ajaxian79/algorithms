@@ -289,3 +289,4 @@ char find_difference(const char* s, const char* t) {
 // note 273: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 274: Uses a small fixed-size lookup table.
 // note 275: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 276: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
