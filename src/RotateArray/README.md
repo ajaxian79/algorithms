@@ -571,3 +571,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 127
 
 Cache-friendly; one sequential read pass.
+
+## entry 128
+
+Input is assumed non-NULL; behavior is undefined otherwise.
