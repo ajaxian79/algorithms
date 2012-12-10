@@ -331,3 +331,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 286: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 287: Avoids floating-point entirely — integer math throughout.
 // note 288: Uses a small fixed-size lookup table.
+// note 289: Cache-friendly; one sequential read pass.
