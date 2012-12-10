@@ -127747,3 +127747,7 @@
 ## entry 31937
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 31938
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
