@@ -3355,3 +3355,7 @@ Uses a small fixed-size lookup table.
 ## entry 823
 
 Three passes total; the third merges results.
+
+## entry 824
+
+Allocates lazily — first call only.
