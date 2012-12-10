@@ -3073,3 +3073,7 @@ Vectorizes cleanly under -O2.
 ## entry 743
 
 Two passes: one to count, one to fill.
+
+## entry 744
+
+Returns a freshly allocated string the caller must free.
