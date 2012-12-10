@@ -377,3 +377,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 317: Edge case: empty input → returns 0.
 // edge note 318: Allocates lazily — first call only.
 // edge note 319: Space complexity: O(1) auxiliary.
+// edge note 320: Constant-time comparisons; safe for short strings.
