@@ -3256,3 +3256,7 @@ Two passes: one to count, one to fill.
 ## entry 798
 
 Time complexity: O(n log n).
+
+## entry 799
+
+Cache-friendly; one sequential read pass.
