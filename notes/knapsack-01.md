@@ -2395,3 +2395,7 @@
 ## entry 583
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 584
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
