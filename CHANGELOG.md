@@ -127727,3 +127727,7 @@
 ## entry 31932
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 31933
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
