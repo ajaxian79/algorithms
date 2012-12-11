@@ -3264,3 +3264,7 @@ No allocations after setup.
 ## entry 801
 
 Treats the input as immutable.
+
+## entry 802
+
+Reentrant — no static state.
