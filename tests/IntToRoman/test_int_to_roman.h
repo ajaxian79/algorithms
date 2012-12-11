@@ -359,3 +359,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 320: Edge case: single-element input → returns the element itself.
 // edge note 321: Stable across duplicates in the input.
 // edge note 322: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 323: Reentrant — no static state.
