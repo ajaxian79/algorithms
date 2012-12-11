@@ -2247,3 +2247,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 562
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 563
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
