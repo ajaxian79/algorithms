@@ -2231,3 +2231,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 558
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 559
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
