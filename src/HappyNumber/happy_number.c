@@ -312,3 +312,4 @@ int is_happy(int n) {
 // note 286: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 287: Reentrant — no static state.
 // note 288: Deterministic given the input — no PRNG seeds.
+// note 289: Stable when the input is already sorted.
