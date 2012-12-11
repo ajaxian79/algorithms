@@ -2285,3 +2285,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 554
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 555
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
