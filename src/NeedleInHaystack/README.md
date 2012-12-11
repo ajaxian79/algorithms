@@ -3224,3 +3224,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 791
 
 No allocations on the hot path.
+
+## entry 792
+
+Avoids floating-point entirely — integer math throughout.
