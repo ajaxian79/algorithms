@@ -2966,3 +2966,7 @@ Two passes: one to count, one to fill.
 ## entry 717
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 718
+
+Edge case: single-element input → returns the element itself.
