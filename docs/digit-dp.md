@@ -2163,3 +2163,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 541
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 542
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
