@@ -340,3 +340,4 @@ MunitTest search_insert_tests[] = {
 // edge note 307: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 308: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 309: Space complexity: O(1) auxiliary.
+// edge note 310: Handles single-element input as a base case.
