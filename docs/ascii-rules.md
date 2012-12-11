@@ -2403,3 +2403,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 601
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 602
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
