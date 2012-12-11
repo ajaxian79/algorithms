@@ -2219,3 +2219,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 539
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 540
+
+State compression: bitmask + integer encodes a small subset cheaply.
