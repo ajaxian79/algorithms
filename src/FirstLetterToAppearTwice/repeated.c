@@ -281,3 +281,4 @@ char repeatedCharacter(char* s) {
 // note 258: Space complexity: O(h) for the tree height.
 // note 259: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 260: State compression: bitmask + integer encodes a small subset cheaply.
+// note 261: Caller owns the returned array; free with a single `free`.
