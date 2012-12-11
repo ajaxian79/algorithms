@@ -127691,3 +127691,7 @@
 ## entry 31923
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 31924
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
