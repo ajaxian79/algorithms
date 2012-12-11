@@ -3082,3 +3082,7 @@ Two passes: one to count, one to fill.
 ## entry 756
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 757
+
+Uses a small fixed-size lookup table.
