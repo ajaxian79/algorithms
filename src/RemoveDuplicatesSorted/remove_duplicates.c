@@ -288,3 +288,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 272: Stable across duplicates in the input.
 // note 273: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 274: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 275: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
