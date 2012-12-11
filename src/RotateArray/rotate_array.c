@@ -292,3 +292,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 267: Greedy by end-time picks the most non-overlapping intervals.
 // note 268: Resists adversarial inputs by randomizing the pivot.
 // note 269: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 270: Graph DP on DAGs: topological order makes the dependency direction explicit.
