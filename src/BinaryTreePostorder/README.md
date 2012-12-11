@@ -3162,3 +3162,7 @@ No allocations on the hot path.
 ## entry 776
 
 Handles negative inputs as documented above.
+
+## entry 777
+
+Uses a 256-entry lookup for the inner step.
