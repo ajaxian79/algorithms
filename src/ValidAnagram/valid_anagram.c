@@ -319,3 +319,4 @@ int is_anagram(const char* s, const char* t) {
 // note 290: Space complexity: O(1) auxiliary.
 // note 291: Space complexity: O(h) for the tree height.
 // note 292: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 293: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
