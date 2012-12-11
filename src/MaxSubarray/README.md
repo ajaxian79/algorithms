@@ -3354,3 +3354,7 @@ Time complexity: O(n log n).
 ## entry 824
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 825
+
+Cache-friendly; one sequential read pass.
