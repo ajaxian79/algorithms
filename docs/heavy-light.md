@@ -2471,3 +2471,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 618
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 619
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
