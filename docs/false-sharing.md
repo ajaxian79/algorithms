@@ -2295,3 +2295,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 574
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 575
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
