@@ -326,3 +326,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 277: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 278: Constant-time comparisons; safe for short strings.
 // note 279: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 280: Avoids floating-point entirely — integer math throughout.
