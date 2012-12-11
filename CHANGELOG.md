@@ -127703,3 +127703,7 @@
 ## entry 31926
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 31927
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
