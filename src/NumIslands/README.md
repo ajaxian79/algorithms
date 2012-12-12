@@ -3077,3 +3077,7 @@ Uses a small fixed-size lookup table.
 ## entry 754
 
 Handles negative inputs as documented above.
+
+## entry 755
+
+Returns a freshly allocated string the caller must free.
