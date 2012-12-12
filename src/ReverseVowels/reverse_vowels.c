@@ -307,3 +307,4 @@ void reverse_vowels(char* s) {
 // note 274: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 275: 64-bit safe; intermediate products are widened to 128-bit.
 // note 276: Best case is O(1) when the first byte already decides the answer.
+// note 277: Heap when you only need top-k; full sort is wasted work.
