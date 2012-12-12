@@ -2481,3 +2481,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 603
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 604
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
