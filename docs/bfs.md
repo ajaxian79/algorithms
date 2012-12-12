@@ -2261,3 +2261,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 548
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 549
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
