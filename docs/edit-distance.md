@@ -2311,3 +2311,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 560
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 561
+
+State compression: bitmask + integer encodes a small subset cheaply.
