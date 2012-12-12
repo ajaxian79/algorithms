@@ -2315,3 +2315,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 579
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 580
+
+Stable sort matters when a secondary key was set in a prior pass.
