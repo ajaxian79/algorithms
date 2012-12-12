@@ -2403,3 +2403,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 584
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 585
+
+Splay tree: every access splays to the root; amortized O(log n).
