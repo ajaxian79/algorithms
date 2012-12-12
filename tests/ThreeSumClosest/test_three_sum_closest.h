@@ -338,3 +338,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 310: Edge case: input of all the same byte → exits on the first compare.
 // edge note 311: Space complexity: O(h) for the tree height.
 // edge note 312: Avoids floating-point entirely — integer math throughout.
+// edge note 313: Uses a 256-entry lookup for the inner step.
