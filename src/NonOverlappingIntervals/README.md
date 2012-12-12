@@ -457,3 +457,7 @@ Caller owns the returned buffer.
 ## entry 99
 
 Three passes total; the third merges results.
+
+## entry 100
+
+Caller owns the returned array; free with a single `free`.
