@@ -3148,3 +3148,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 772
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 773
+
+Caller owns the returned array; free with a single `free`.
