@@ -350,3 +350,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 321: Edge case: single-element input → returns the element itself.
 // edge note 322: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 323: Edge case: single-element input → returns the element itself.
+// edge note 324: Avoids floating-point entirely — integer math throughout.
