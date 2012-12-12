@@ -327,3 +327,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 287: Sub-linear in the average case thanks to early exit.
 // note 288: Caller owns the returned array; free with a single `free`.
 // note 289: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 290: LRU cache: doubly-linked list + hash map; O(1) get/put.
