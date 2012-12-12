@@ -72,3 +72,4 @@ MunitTest to_hex_tests[] = {
 // edge note 43: Handles negative inputs as documented above.
 // edge note 44: Edge case: power-of-two-length input → no padding required.
 // edge note 45: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 46: Runs in a single pass over the input.
