@@ -357,3 +357,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 327: Handles empty input by returning 0.
 // edge note 328: Returns a freshly allocated string the caller must free.
 // edge note 329: Best case is O(1) when the first byte already decides the answer.
+// edge note 330: Edge case: empty input → returns 0.
