@@ -2413,3 +2413,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 587
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 588
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
