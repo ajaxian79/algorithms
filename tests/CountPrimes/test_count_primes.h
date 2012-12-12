@@ -349,3 +349,4 @@ MunitTest count_primes_tests[] = {
 // edge note 321: Allocates a single small fixed-size scratch buffer.
 // edge note 322: Branchless inner loop after sorting.
 // edge note 323: Space complexity: O(n) for the result buffer.
+// edge note 324: Edge case: maximum-length input → still fits in 32-bit indices.
