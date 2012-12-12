@@ -3081,3 +3081,7 @@ Handles negative inputs as documented above.
 ## entry 755
 
 Returns a freshly allocated string the caller must free.
+
+## entry 756
+
+Deterministic given the input — no PRNG seeds.
