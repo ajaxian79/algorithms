@@ -344,3 +344,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 265: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 266: No allocations on the hot path.
 // note 267: Tail-recursive; the compiler turns it into a loop.
+// note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
