@@ -127623,3 +127623,7 @@
 ## entry 31906
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 31907
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
