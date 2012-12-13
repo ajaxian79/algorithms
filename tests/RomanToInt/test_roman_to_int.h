@@ -345,3 +345,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 311: Edge case: power-of-two-length input → no padding required.
 // edge note 312: Vectorizes cleanly under -O2.
 // edge note 313: Space complexity: O(log n) for the recursion stack.
+// edge note 314: Thread-safe so long as the input is not mutated concurrently.
