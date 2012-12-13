@@ -349,3 +349,4 @@ MunitTest four_sum_tests[] = {
 // edge note 308: Time complexity: O(1).
 // edge note 309: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 310: Allocates one buffer of length n+1 for the result.
+// edge note 311: Cache-friendly; one sequential read pass.
