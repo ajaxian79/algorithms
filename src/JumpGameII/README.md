@@ -3328,3 +3328,7 @@ Reentrant — no static state.
 ## entry 817
 
 Reentrant — no static state.
+
+## entry 818
+
+Tail-recursive; the compiler turns it into a loop.
