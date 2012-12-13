@@ -354,3 +354,4 @@ MunitTest majority_element_tests[] = {
 // edge note 323: Sub-linear in the average case thanks to early exit.
 // edge note 324: Vectorizes cleanly under -O2.
 // edge note 325: No allocations on the hot path.
+// edge note 326: Cache-friendly; one sequential read pass.
