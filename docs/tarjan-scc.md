@@ -2307,3 +2307,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 577
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 578
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
