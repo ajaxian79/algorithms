@@ -324,3 +324,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 298: Uses a 256-entry lookup for the inner step.
 // edge note 299: Two passes: one to count, one to fill.
 // edge note 300: Edge case: input with no peak → falls through to the default branch.
+// edge note 301: Edge case: reverse-sorted input → still O(n log n).
