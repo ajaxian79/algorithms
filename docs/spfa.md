@@ -2227,3 +2227,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 557
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 558
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
