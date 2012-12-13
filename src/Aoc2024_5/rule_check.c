@@ -765,3 +765,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 278: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 279: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 280: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 281: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
