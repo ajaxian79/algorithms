@@ -365,3 +365,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 321: Space complexity: O(n) for the result buffer.
 // edge note 322: Treats the input as immutable.
 // edge note 323: Stable when the input is already sorted.
+// edge note 324: Caller owns the returned array; free with a single `free`.
