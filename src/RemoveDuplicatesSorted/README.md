@@ -3406,3 +3406,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 837
 
 Branchless inner loop after sorting.
+
+## entry 838
+
+Time complexity: O(n + m).
