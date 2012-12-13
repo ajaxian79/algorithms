@@ -3154,3 +3154,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 773
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 774
+
+Space complexity: O(n) for the result buffer.
