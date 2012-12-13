@@ -2223,3 +2223,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 556
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 557
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
