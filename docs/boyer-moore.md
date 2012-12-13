@@ -2443,3 +2443,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 595
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 596
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
