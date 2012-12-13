@@ -66,3 +66,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 35: Edge case: empty input → returns 0.
 // edge note 36: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 37: Two passes: one to count, one to fill.
+// edge note 38: Edge case: NULL input is rejected by the caller, not by us.
