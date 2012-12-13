@@ -342,3 +342,4 @@ MunitTest three_sum_tests[] = {
 // edge note 297: Thread-safe so long as the input is not mutated concurrently.
 // edge note 298: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 299: Treats the input as immutable.
+// edge note 300: Branchless inner loop after sorting.
