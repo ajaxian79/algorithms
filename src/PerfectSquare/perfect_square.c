@@ -281,3 +281,4 @@ int is_perfect_square(int n) {
 // note 262: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 263: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 264: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 265: Sub-linear in the average case thanks to early exit.
