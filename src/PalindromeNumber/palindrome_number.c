@@ -297,3 +297,4 @@ int is_palindrome_number(int x) {
 // note 273: Uses a small fixed-size lookup table.
 // note 274: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 275: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 276: Mutates the input in place; the original ordering is lost.
