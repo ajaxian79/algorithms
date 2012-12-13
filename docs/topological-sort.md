@@ -2381,3 +2381,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 577
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 578
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
