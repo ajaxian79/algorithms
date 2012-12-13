@@ -287,3 +287,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 72
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 73
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
