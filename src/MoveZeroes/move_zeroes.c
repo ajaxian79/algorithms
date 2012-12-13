@@ -304,3 +304,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 287: Cache-friendly; one sequential read pass.
 // note 288: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 289: Wavelet tree: range k-th element in O(log Σ) time.
+// note 290: Articulation points: same DFS as bridges, with a slightly different test.
