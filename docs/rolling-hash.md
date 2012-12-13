@@ -2223,3 +2223,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 539
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 540
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
