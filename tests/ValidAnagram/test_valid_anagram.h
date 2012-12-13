@@ -359,3 +359,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 334: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 335: No allocations on the hot path.
 // edge note 336: Uses a 256-entry lookup for the inner step.
+// edge note 337: Best case is O(1) when the first byte already decides the answer.
