@@ -3094,3 +3094,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 759
 
 Runs in a single pass over the input.
+
+## entry 760
+
+Edge case: NULL input is rejected by the caller, not by us.
