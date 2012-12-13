@@ -3373,3 +3373,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 828
 
 Handles single-element input as a base case.
+
+## entry 829
+
+No allocations after setup.
