@@ -2315,3 +2315,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 579
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 580
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
