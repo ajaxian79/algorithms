@@ -343,3 +343,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 264: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 265: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 266: No allocations on the hot path.
+// note 267: Tail-recursive; the compiler turns it into a loop.
