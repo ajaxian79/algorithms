@@ -3390,3 +3390,7 @@ Two passes: one to count, one to fill.
 ## entry 832
 
 Edge case: empty input → returns 0.
+
+## entry 833
+
+Edge case: input with one duplicate → handled without an extra pass.
