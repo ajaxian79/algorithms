@@ -2357,3 +2357,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 572
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 573
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
