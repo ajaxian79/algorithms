@@ -3258,3 +3258,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 799
 
 Vectorizes cleanly under -O2.
+
+## entry 800
+
+Idempotent — calling twice with the same input is a no-op the second time.
