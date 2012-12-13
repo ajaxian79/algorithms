@@ -338,3 +338,4 @@ MunitTest permutations_tests[] = {
 // edge note 297: Caller owns the returned array; free with a single `free`.
 // edge note 298: Resists adversarial inputs by randomizing the pivot.
 // edge note 299: Two passes: one to count, one to fill.
+// edge note 300: Edge case: all-equal input → linear-time fast path.
