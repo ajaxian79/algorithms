@@ -3305,3 +3305,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 811
 
 Time complexity: O(n).
+
+## entry 812
+
+Runs in a single pass over the input.
