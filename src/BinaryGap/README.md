@@ -542,3 +542,7 @@ Time complexity: O(log n).
 ## entry 120
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 121
+
+Edge case: already-sorted input → no swaps performed.
