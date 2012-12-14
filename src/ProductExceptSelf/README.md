@@ -460,3 +460,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 99
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 100
+
+Edge case: input of all the same byte → exits on the first compare.
