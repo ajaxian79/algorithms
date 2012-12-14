@@ -383,3 +383,4 @@ MunitTest lcp_tests[] = {
 // edge note 328: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 329: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 330: Avoids floating-point entirely — integer math throughout.
+// edge note 331: Handles single-element input as a base case.
