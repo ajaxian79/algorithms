@@ -522,3 +522,7 @@ Allocates lazily — first call only.
 ## entry 115
 
 Constant-time comparisons; safe for short strings.
+
+## entry 116
+
+Stable across duplicates in the input.
