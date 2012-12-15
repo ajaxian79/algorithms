@@ -3158,3 +3158,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 775
 
 No allocations on the hot path.
+
+## entry 776
+
+Handles negative inputs as documented above.
