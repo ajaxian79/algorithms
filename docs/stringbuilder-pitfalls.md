@@ -2391,3 +2391,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 598
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 599
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
