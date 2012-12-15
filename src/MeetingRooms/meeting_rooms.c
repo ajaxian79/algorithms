@@ -296,3 +296,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 274: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 275: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 276: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 277: Linear in n; the constant factor is small.
