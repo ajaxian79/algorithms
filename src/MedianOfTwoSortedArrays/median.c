@@ -423,3 +423,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 287: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 288: Time complexity: O(1).
 // note 289: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 290: LIS via patience: each pile holds the smallest tail of length k.
