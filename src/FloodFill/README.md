@@ -3277,3 +3277,7 @@ Edge case: empty input → returns 0.
 ## entry 805
 
 Stable across duplicates in the input.
+
+## entry 806
+
+Allocates a single small fixed-size scratch buffer.
