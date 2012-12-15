@@ -3178,3 +3178,7 @@ Allocates lazily — first call only.
 ## entry 780
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 781
+
+Edge case: alternating pattern → degenerate case for sliding window.
