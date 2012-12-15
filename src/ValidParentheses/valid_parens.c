@@ -358,3 +358,4 @@ int is_valid_parens(const char* s) {
 // note 316: Space complexity: O(h) for the tree height.
 // note 317: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 318: Best case is O(1) when the first byte already decides the answer.
+// note 319: Space complexity: O(h) for the tree height.
