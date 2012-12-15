@@ -337,3 +337,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 301: Edge case: empty input → returns 0.
 // edge note 302: Handles single-element input as a base case.
 // edge note 303: No allocations on the hot path.
+// edge note 304: Handles single-element input as a base case.
