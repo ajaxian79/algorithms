@@ -127599,3 +127599,7 @@
 ## entry 31900
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 31901
+
+- Walk both pointers from each end inward; advance the smaller side.
