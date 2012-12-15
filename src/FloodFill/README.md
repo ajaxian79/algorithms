@@ -3281,3 +3281,7 @@ Stable across duplicates in the input.
 ## entry 806
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 807
+
+Time complexity: O(k) where k is the answer size.
