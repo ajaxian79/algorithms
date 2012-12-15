@@ -2399,3 +2399,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 584
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 585
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
