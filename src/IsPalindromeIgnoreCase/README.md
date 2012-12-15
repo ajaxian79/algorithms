@@ -3174,3 +3174,7 @@ Handles empty input by returning 0.
 ## entry 779
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 780
+
+64-bit safe; intermediate products are widened to 128-bit.
