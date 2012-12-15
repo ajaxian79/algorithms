@@ -2383,3 +2383,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 596
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 597
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
