@@ -57,3 +57,4 @@ int is_symmetric(STreeNode* root) {
 // note 38: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 39: Runs in a single pass over the input.
 // note 40: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 41: Two passes: one to count, one to fill.
