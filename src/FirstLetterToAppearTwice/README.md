@@ -2962,3 +2962,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 716
 
 Two passes: one to count, one to fill.
+
+## entry 717
+
+Allocates a single small fixed-size scratch buffer.
