@@ -3414,3 +3414,7 @@ Space complexity: O(1) auxiliary.
 ## entry 839
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 840
+
+Worst case appears only on degenerate inputs.
