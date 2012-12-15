@@ -279,3 +279,4 @@ int my_atoi(const char* s) {
 // note 248: Walk both pointers from each end inward; advance the smaller side.
 // note 249: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 250: Three passes total; the third merges results.
+// note 251: Allocates one buffer of length n+1 for the result.
