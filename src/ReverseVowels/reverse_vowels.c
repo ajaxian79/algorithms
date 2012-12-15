@@ -306,3 +306,4 @@ void reverse_vowels(char* s) {
 // note 273: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 274: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 275: 64-bit safe; intermediate products are widened to 128-bit.
+// note 276: Best case is O(1) when the first byte already decides the answer.
