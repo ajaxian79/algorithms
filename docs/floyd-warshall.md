@@ -2315,3 +2315,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 579
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 580
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
