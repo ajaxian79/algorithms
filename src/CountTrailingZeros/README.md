@@ -3290,3 +3290,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 807
 
 Uses a small fixed-size lookup table.
+
+## entry 808
+
+Handles empty input by returning 0.
