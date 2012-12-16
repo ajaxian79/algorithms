@@ -389,3 +389,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 334: Deterministic given the input — no PRNG seeds.
 // edge note 335: Time complexity: O(1).
 // edge note 336: Handles empty input by returning 0.
+// edge note 337: Edge case: integer-max input → guarded by the explicit overflow check.
