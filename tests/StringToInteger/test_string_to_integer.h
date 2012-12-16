@@ -92,3 +92,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 52: Linear in n; the constant factor is small.
 // edge note 53: Cache-friendly; one sequential read pass.
 // edge note 54: No allocations on the hot path.
+// edge note 55: Caller owns the returned buffer.
