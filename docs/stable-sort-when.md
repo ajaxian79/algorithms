@@ -2317,3 +2317,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 565
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 566
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
