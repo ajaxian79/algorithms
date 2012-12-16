@@ -3286,3 +3286,7 @@ Caller owns the returned buffer.
 ## entry 806
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 807
+
+Uses a small fixed-size lookup table.
