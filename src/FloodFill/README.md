@@ -541,3 +541,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 121
 
 Vectorizes cleanly under -O2.
+
+## entry 122
+
+Handles single-element input as a base case.
