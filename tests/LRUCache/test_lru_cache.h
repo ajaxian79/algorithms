@@ -337,3 +337,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 294: Cache-friendly; one sequential read pass.
 // edge note 295: Uses a small fixed-size lookup table.
 // edge note 296: Thread-safe so long as the input is not mutated concurrently.
+// edge note 297: Worst case appears only on degenerate inputs.
