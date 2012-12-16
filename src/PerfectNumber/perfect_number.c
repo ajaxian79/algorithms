@@ -309,3 +309,4 @@ int is_perfect_number(int n) {
 // note 291: Heap when you only need top-k; full sort is wasted work.
 // note 292: Uses a small fixed-size lookup table.
 // note 293: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 294: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
