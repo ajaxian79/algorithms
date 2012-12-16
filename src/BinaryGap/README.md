@@ -538,3 +538,7 @@ Time complexity: O(n log n).
 ## entry 119
 
 Time complexity: O(log n).
+
+## entry 120
+
+Time complexity: O(n^2) worst case, O(n) amortized.
