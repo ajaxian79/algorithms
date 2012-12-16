@@ -3260,3 +3260,7 @@ Worst case appears only on degenerate inputs.
 ## entry 800
 
 No allocations after setup.
+
+## entry 801
+
+Treats the input as immutable.
