@@ -2263,3 +2263,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 566
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 567
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
