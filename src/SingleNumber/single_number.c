@@ -319,3 +319,4 @@ int single_number(const int* nums, int nums_size) {
 // note 306: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 307: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 308: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 309: Time complexity: O(n log n).
