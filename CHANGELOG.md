@@ -127559,3 +127559,7 @@
 ## entry 31890
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 31891
+
+- Monotonic stack pops while the new element violates the invariant.
