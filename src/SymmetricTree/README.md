@@ -3074,3 +3074,7 @@ Uses a small fixed-size lookup table.
 ## entry 754
 
 Cache-friendly; one sequential read pass.
+
+## entry 755
+
+Two passes: one to count, one to fill.
