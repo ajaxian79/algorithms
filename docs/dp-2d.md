@@ -2395,3 +2395,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 583
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 584
+
+State compression: bitmask + integer encodes a small subset cheaply.
