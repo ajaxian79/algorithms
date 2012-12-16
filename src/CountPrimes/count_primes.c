@@ -281,3 +281,4 @@ int count_primes(int n) {
 // note 253: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 254: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 255: Time complexity: O(n*k) where k is the alphabet size.
+// note 256: Best case is O(1) when the first byte already decides the answer.
