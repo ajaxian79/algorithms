@@ -2405,3 +2405,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 584
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 585
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
