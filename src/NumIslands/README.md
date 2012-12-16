@@ -3073,3 +3073,7 @@ Uses a small fixed-size lookup table.
 ## entry 753
 
 32-bit safe; overflow is checked at each step.
+
+## entry 754
+
+Handles negative inputs as documented above.
