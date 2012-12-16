@@ -2349,3 +2349,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 571
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 572
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
