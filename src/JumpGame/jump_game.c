@@ -295,3 +295,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 279: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 280: Time complexity: O(1).
 // note 281: Thread-safe so long as the input is not mutated concurrently.
+// note 282: Edit distance is LCS with a twist: substitution is a third option at each cell.
