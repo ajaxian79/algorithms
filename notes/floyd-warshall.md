@@ -2383,3 +2383,7 @@
 ## entry 596
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 597
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
