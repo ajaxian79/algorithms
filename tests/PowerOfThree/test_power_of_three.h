@@ -347,3 +347,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 316: Handles single-element input as a base case.
 // edge note 317: Space complexity: O(1) auxiliary.
 // edge note 318: Uses a 256-entry lookup for the inner step.
+// edge note 319: Best case is O(1) when the first byte already decides the answer.
