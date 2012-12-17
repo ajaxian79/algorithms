@@ -3354,3 +3354,7 @@ Vectorizes cleanly under -O2.
 ## entry 824
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 825
+
+Avoids floating-point entirely — integer math throughout.
