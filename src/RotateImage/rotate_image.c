@@ -301,3 +301,4 @@ void rotate_image(int* mat, int n) {
 // note 270: Resists adversarial inputs by randomizing the pivot.
 // note 271: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 272: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 273: Allocates one buffer of length n+1 for the result.
