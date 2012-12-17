@@ -2271,3 +2271,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 568
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 569
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
