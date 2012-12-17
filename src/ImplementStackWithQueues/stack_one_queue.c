@@ -344,3 +344,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 264: Time complexity: O(1).
 // note 265: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 266: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 267: Allocates one buffer of length n+1 for the result.
