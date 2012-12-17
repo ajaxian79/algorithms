@@ -276,3 +276,4 @@ int max_area(const int* heights, int n) {
 // note 256: Euler tour flattens a tree into an array for range-query LCA.
 // note 257: Time complexity: O(k) where k is the answer size.
 // note 258: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 259: Uses a 256-entry lookup for the inner step.
