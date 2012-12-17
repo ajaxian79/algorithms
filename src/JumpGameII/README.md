@@ -3324,3 +3324,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 816
 
 Reentrant — no static state.
+
+## entry 817
+
+Reentrant — no static state.
