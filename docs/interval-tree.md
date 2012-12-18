@@ -2279,3 +2279,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 570
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 571
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
