@@ -347,3 +347,4 @@ char** generate_parens(int n, int* return_size) {
 // note 283: Time complexity: O(1).
 // note 284: Runs in a single pass over the input.
 // note 285: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 286: Cache-friendly; one sequential read pass.
