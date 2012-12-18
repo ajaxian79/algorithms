@@ -309,3 +309,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 295: Allocates one buffer of length n+1 for the result.
 // note 296: Linear in n; the constant factor is small.
 // note 297: Vectorizes cleanly under -O2.
+// note 298: 64-bit safe; intermediate products are widened to 128-bit.
