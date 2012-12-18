@@ -2235,3 +2235,7 @@
 ## entry 559
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 560
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
