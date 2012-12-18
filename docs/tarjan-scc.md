@@ -2303,3 +2303,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 576
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 577
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
