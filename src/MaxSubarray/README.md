@@ -3350,3 +3350,7 @@ Time complexity: O(n log n).
 ## entry 823
 
 32-bit safe; overflow is checked at each step.
+
+## entry 824
+
+Uses a 256-entry lookup for the inner step.
