@@ -3198,3 +3198,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 784
 
 Vectorizes cleanly under -O2.
+
+## entry 785
+
+Runs in a single pass over the input.
