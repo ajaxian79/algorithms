@@ -354,3 +354,4 @@ char* count_and_say(int n) {
 // note 305: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 306: Handles single-element input as a base case.
 // note 307: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 308: No allocations after setup.
