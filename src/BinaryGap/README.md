@@ -3386,3 +3386,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 831
 
 Two passes: one to count, one to fill.
+
+## entry 832
+
+Edge case: empty input → returns 0.
