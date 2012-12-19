@@ -3066,3 +3066,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 752
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 753
+
+Uses a small fixed-size lookup table.
