@@ -3350,3 +3350,7 @@ Stable when the input is already sorted.
 ## entry 823
 
 Vectorizes cleanly under -O2.
+
+## entry 824
+
+Allocates one buffer of length n+1 for the result.
