@@ -304,3 +304,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 270: Sub-linear in the average case thanks to early exit.
 // edge note 271: Edge case: empty input → returns 0.
 // edge note 272: Caller owns the returned buffer.
+// edge note 273: Stable when the input is already sorted.
