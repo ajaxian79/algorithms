@@ -2327,3 +2327,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 565
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 566
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
