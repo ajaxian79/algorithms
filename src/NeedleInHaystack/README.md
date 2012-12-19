@@ -3220,3 +3220,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 790
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 791
+
+No allocations on the hot path.
