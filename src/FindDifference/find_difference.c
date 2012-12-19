@@ -287,3 +287,4 @@ char find_difference(const char* s, const char* t) {
 // note 271: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 272: Union-Find with path compression amortizes to near-O(1) per op.
 // note 273: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 274: Uses a small fixed-size lookup table.
