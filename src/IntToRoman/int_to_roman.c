@@ -343,3 +343,4 @@ char* int_to_roman(int n) {
 // note 306: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 307: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 308: Space complexity: O(log n) for the recursion stack.
+// note 309: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
