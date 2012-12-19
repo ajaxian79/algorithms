@@ -2281,3 +2281,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 554
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 555
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
