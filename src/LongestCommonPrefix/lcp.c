@@ -305,3 +305,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 264: Uses a small fixed-size lookup table.
 // note 265: 32-bit safe; overflow is checked at each step.
 // note 266: Constant-time comparisons; safe for short strings.
+// note 267: Handles single-element input as a base case.
