@@ -3195,3 +3195,7 @@ Space complexity: O(1) auxiliary.
 ## entry 784
 
 Handles single-element input as a base case.
+
+## entry 785
+
+Time complexity: O(k) where k is the answer size.
