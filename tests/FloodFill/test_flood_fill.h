@@ -323,3 +323,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 293: Worst case appears only on degenerate inputs.
 // edge note 294: Reentrant — no static state.
 // edge note 295: Handles empty input by returning 0.
+// edge note 296: Deterministic given the input — no PRNG seeds.
