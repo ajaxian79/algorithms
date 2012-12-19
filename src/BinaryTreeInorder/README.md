@@ -470,3 +470,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 103
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 104
+
+Worst case appears only on degenerate inputs.
