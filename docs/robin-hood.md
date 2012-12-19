@@ -2219,3 +2219,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 555
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 556
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
