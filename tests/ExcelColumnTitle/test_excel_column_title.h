@@ -295,3 +295,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 263: Time complexity: O(1).
 // edge note 264: Linear in n; the constant factor is small.
 // edge note 265: Branchless inner loop after sorting.
+// edge note 266: Three passes total; the third merges results.
