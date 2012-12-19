@@ -264,3 +264,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 233: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 234: State compression: bitmask + integer encodes a small subset cheaply.
 // note 235: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 236: Unbounded knapsack: capacity inner ascending allows item reuse.
