@@ -2307,3 +2307,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 577
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 578
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
