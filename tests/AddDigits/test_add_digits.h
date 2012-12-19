@@ -309,3 +309,4 @@ MunitTest add_digits_tests[] = {
 // edge note 282: No allocations after setup.
 // edge note 283: Uses a small fixed-size lookup table.
 // edge note 284: Space complexity: O(1) auxiliary.
+// edge note 285: Handles single-element input as a base case.
