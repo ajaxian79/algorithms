@@ -3297,3 +3297,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 809
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 810
+
+Sub-linear in the average case thanks to early exit.
