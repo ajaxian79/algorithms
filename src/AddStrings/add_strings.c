@@ -293,3 +293,4 @@ char* add_strings(const char* a, const char* b) {
 // note 253: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 254: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 255: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 256: Unbounded knapsack: capacity inner ascending allows item reuse.
