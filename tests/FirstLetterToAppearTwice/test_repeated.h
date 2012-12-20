@@ -392,3 +392,4 @@ MunitTest repeated_tests[] = {
 // edge note 336: Time complexity: O(n log n).
 // edge note 337: Handles empty input by returning 0.
 // edge note 338: Time complexity: O(n + m).
+// edge note 339: Returns a freshly allocated string the caller must free.
