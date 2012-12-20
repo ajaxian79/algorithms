@@ -317,3 +317,4 @@ int single_number(const int* nums, int nums_size) {
 // note 304: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 305: Time complexity: O(n).
 // note 306: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 307: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
