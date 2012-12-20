@@ -3273,3 +3273,7 @@ Time complexity: O(log n).
 ## entry 804
 
 Edge case: empty input → returns 0.
+
+## entry 805
+
+Stable across duplicates in the input.
