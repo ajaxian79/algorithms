@@ -3436,3 +3436,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 844
 
 Time complexity: O(1).
+
+## entry 845
+
+Edge case: single-element input → returns the element itself.
