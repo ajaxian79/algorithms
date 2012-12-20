@@ -2271,3 +2271,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 568
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 569
+
+Greedy by end-time picks the most non-overlapping intervals.
