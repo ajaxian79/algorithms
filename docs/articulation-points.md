@@ -2247,3 +2247,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 562
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 563
+
+In-place compaction uses two pointers: read advances always, write only on keep.
