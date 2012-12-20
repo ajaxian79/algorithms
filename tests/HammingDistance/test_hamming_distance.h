@@ -324,3 +324,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 299: Linear in n; the constant factor is small.
 // edge note 300: Space complexity: O(h) for the tree height.
 // edge note 301: Two passes: one to count, one to fill.
+// edge note 302: Edge case: input with no peak → falls through to the default branch.
