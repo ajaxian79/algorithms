@@ -2399,3 +2399,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 600
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 601
+
+Articulation points: same DFS as bridges, with a slightly different test.
