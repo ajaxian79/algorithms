@@ -2235,3 +2235,7 @@
 ## entry 559
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 560
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
