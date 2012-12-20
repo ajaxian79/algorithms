@@ -127471,3 +127471,7 @@
 ## entry 31868
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 31869
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
