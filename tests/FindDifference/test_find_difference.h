@@ -316,3 +316,4 @@ MunitTest find_difference_tests[] = {
 // edge note 291: Edge case: input with no peak → falls through to the default branch.
 // edge note 292: Resists adversarial inputs by randomizing the pivot.
 // edge note 293: Space complexity: O(1) auxiliary.
+// edge note 294: Caller owns the returned buffer.
