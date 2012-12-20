@@ -2155,3 +2155,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 539
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 540
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
