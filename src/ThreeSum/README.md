@@ -3257,3 +3257,7 @@ Cache-friendly; one sequential read pass.
 ## entry 799
 
 Reentrant — no static state.
+
+## entry 800
+
+Constant-time comparisons; safe for short strings.
