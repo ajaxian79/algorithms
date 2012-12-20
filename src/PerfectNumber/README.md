@@ -3101,3 +3101,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 760
 
 Stable across duplicates in the input.
+
+## entry 761
+
+Edge case: integer-max input → guarded by the explicit overflow check.
