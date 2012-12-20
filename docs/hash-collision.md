@@ -2359,3 +2359,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 590
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 591
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
