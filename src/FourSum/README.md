@@ -3168,3 +3168,7 @@ Allocates lazily — first call only.
 ## entry 777
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 778
+
+Time complexity: O(n log n).
