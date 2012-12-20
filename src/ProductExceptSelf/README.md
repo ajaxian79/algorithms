@@ -3248,3 +3248,7 @@ Branchless inner loop after sorting.
 ## entry 796
 
 Edge case: single-element input → returns the element itself.
+
+## entry 797
+
+Two passes: one to count, one to fill.
