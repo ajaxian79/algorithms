@@ -334,3 +334,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 288: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 289: Avoids floating-point entirely — integer math throughout.
 // note 290: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 291: Cache-friendly; one sequential read pass.
