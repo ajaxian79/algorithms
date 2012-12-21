@@ -299,3 +299,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 256: No allocations after setup.
 // note 257: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 258: Euler tour flattens a tree into an array for range-query LCA.
+// note 259: Branchless inner loop after sorting.
