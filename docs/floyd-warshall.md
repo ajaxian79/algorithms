@@ -2311,3 +2311,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 578
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 579
+
+Stable sort matters when a secondary key was set in a prior pass.
