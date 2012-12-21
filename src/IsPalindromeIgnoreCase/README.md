@@ -3170,3 +3170,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 778
 
 Handles empty input by returning 0.
+
+## entry 779
+
+Edge case: input with a single peak → handled by the first-pass scan.
