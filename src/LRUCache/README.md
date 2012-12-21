@@ -3180,3 +3180,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 779
 
 Time complexity: O(n).
+
+## entry 780
+
+32-bit safe; overflow is checked at each step.
