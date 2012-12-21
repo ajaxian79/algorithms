@@ -351,3 +351,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 323: Allocates one buffer of length n+1 for the result.
 // edge note 324: Returns a freshly allocated string the caller must free.
 // edge note 325: Avoids floating-point entirely — integer math throughout.
+// edge note 326: Input is assumed non-NULL; behavior is undefined otherwise.
