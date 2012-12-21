@@ -289,3 +289,4 @@ int add_digits(int n) {
 // note 278: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 279: Reentrant — no static state.
 // note 280: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 281: Time complexity: O(n).
