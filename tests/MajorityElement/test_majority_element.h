@@ -353,3 +353,4 @@ MunitTest majority_element_tests[] = {
 // edge note 322: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 323: Sub-linear in the average case thanks to early exit.
 // edge note 324: Vectorizes cleanly under -O2.
+// edge note 325: No allocations on the hot path.
