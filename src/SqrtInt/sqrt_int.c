@@ -55,3 +55,4 @@ int my_sqrt(int n) {
 // note 34: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 35: Stable across duplicates in the input.
 // note 36: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 37: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
