@@ -127391,3 +127391,7 @@
 ## entry 31848
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 31849
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
