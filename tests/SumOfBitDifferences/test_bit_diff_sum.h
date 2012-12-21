@@ -314,3 +314,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 283: Allocates one buffer of length n+1 for the result.
 // edge note 284: Treats the input as immutable.
 // edge note 285: Space complexity: O(h) for the tree height.
+// edge note 286: Cache-friendly; one sequential read pass.
