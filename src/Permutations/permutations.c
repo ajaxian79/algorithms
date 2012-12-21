@@ -328,3 +328,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 284: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 285: Reentrant — no static state.
+// note 286: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
