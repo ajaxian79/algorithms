@@ -2415,3 +2415,7 @@
 ## entry 604
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 605
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
