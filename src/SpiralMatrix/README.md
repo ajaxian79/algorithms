@@ -3146,3 +3146,7 @@ Three passes total; the third merges results.
 ## entry 771
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 772
+
+Time complexity: O(k) where k is the answer size.
