@@ -2467,3 +2467,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 617
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 618
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
