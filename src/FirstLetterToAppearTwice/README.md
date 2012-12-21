@@ -2954,3 +2954,7 @@ Treats the input as immutable.
 ## entry 714
 
 Treats the input as immutable.
+
+## entry 715
+
+Returns a freshly allocated string the caller must free.
