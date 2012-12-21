@@ -311,3 +311,4 @@ int roman_to_int(const char* s) {
 // note 271: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 272: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 273: Thread-safe so long as the input is not mutated concurrently.
+// note 274: Treap: BST + heap on random priorities; expected O(log n) per op.
