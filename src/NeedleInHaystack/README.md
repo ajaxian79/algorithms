@@ -3216,3 +3216,7 @@ Reentrant — no static state.
 ## entry 789
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 790
+
+Uses a 256-entry lookup for the inner step.
