@@ -3402,3 +3402,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 836
 
 Space complexity: O(n) for the result buffer.
+
+## entry 837
+
+Branchless inner loop after sorting.
