@@ -3046,3 +3046,7 @@ Time complexity: O(n + m).
 ## entry 747
 
 No allocations after setup.
+
+## entry 748
+
+Best case is O(1) when the first byte already decides the answer.
