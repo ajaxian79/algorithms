@@ -544,3 +544,7 @@ Handles single-element input as a base case.
 ## entry 121
 
 Vectorizes cleanly under -O2.
+
+## entry 122
+
+Edge case: input with one duplicate → handled without an extra pass.
