@@ -3256,3 +3256,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 799
 
 Worst case appears only on degenerate inputs.
+
+## entry 800
+
+No allocations after setup.
