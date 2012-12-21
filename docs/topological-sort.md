@@ -2373,3 +2373,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 575
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 576
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
