@@ -2271,3 +2271,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 550
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 551
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
