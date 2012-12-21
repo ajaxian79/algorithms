@@ -82,3 +82,4 @@ MunitTest postorder_tests[] = {
 // edge note 38: 32-bit safe; overflow is checked at each step.
 // edge note 39: Edge case: power-of-two-length input → no padding required.
 // edge note 40: Treats the input as immutable.
+// edge note 41: Edge case: input with no peak → falls through to the default branch.
