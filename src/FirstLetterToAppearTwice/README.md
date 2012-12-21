@@ -2950,3 +2950,7 @@ Handles negative inputs as documented above.
 ## entry 713
 
 Treats the input as immutable.
+
+## entry 714
+
+Treats the input as immutable.
