@@ -3213,3 +3213,7 @@ Allocates lazily — first call only.
 ## entry 789
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 790
+
+Handles negative inputs as documented above.
