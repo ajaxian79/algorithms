@@ -2435,3 +2435,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 593
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 594
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
