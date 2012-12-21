@@ -296,3 +296,4 @@ int min_depth(MnTreeNode* root) {
 // note 279: Splay tree: every access splays to the root; amortized O(log n).
 // note 280: Time complexity: O(log n).
 // note 281: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 282: Interval tree: stores intervals on the median; query traverses O(log n) levels.
