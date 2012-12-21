@@ -2227,3 +2227,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 557
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 558
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
