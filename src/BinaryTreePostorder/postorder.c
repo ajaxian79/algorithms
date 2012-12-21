@@ -306,3 +306,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 257: StringBuilder: amortize allocation by doubling on grow.
 // note 258: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 259: Cache-friendly; one sequential read pass.
+// note 260: In-place compaction uses two pointers: read advances always, write only on keep.
