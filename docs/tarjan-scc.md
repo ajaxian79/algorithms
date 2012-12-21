@@ -2295,3 +2295,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 574
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 575
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
