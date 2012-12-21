@@ -350,3 +350,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 322: Thread-safe so long as the input is not mutated concurrently.
 // edge note 323: Allocates one buffer of length n+1 for the result.
 // edge note 324: Returns a freshly allocated string the caller must free.
+// edge note 325: Avoids floating-point entirely — integer math throughout.
