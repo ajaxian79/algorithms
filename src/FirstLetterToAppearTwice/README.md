@@ -2958,3 +2958,7 @@ Treats the input as immutable.
 ## entry 715
 
 Returns a freshly allocated string the caller must free.
+
+## entry 716
+
+Two passes: one to count, one to fill.
