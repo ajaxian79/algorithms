@@ -2123,3 +2123,7 @@
 ## entry 531
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 532
+
+- Wavelet tree: range k-th element in O(log Σ) time.
