@@ -2323,3 +2323,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 565
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 566
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
