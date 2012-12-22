@@ -3228,3 +3228,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 791
 
 Worst case appears only on degenerate inputs.
+
+## entry 792
+
+Space complexity: O(log n) for the recursion stack.
