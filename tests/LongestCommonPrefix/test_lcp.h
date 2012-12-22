@@ -381,3 +381,4 @@ MunitTest lcp_tests[] = {
 // edge note 326: No allocations after setup.
 // edge note 327: Space complexity: O(n) for the result buffer.
 // edge note 328: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 329: Edge case: input with a single peak → handled by the first-pass scan.
