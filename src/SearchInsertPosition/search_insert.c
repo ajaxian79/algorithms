@@ -308,3 +308,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 292: 64-bit safe; intermediate products are widened to 128-bit.
 // note 293: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 294: Handles empty input by returning 0.
+// note 295: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
