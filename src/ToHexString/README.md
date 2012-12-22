@@ -3047,3 +3047,7 @@ No allocations after setup.
 ## entry 747
 
 Branchless inner loop after sorting.
+
+## entry 748
+
+Best case is O(1) when the first byte already decides the answer.
