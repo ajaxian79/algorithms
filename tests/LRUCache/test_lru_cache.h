@@ -335,3 +335,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 292: Tail-recursive; the compiler turns it into a loop.
 // edge note 293: Allocates one buffer of length n+1 for the result.
 // edge note 294: Cache-friendly; one sequential read pass.
+// edge note 295: Uses a small fixed-size lookup table.
