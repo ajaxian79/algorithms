@@ -3288,3 +3288,7 @@ Time complexity: O(log n).
 ## entry 806
 
 Time complexity: O(n log n).
+
+## entry 807
+
+Sub-linear in the average case thanks to early exit.
