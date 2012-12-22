@@ -2271,3 +2271,7 @@
 ## entry 568
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 569
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
