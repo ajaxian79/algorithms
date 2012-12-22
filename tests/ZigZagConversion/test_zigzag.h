@@ -329,3 +329,4 @@ MunitTest zigzag_tests[] = {
 // edge note 301: Caller owns the returned array; free with a single `free`.
 // edge note 302: Cache-friendly; one sequential read pass.
 // edge note 303: Vectorizes cleanly under -O2.
+// edge note 304: Returns a freshly allocated string the caller must free.
