@@ -3398,3 +3398,7 @@ Reentrant — no static state.
 ## entry 835
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 836
+
+Space complexity: O(n) for the result buffer.
