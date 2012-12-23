@@ -495,3 +495,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 273: Handles single-element input as a base case.
 // note 274: State compression: bitmask + integer encodes a small subset cheaply.
 // note 275: Time complexity: O(n + m).
+// note 276: Branchless inner loop after sorting.
