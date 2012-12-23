@@ -319,3 +319,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 276: Time complexity: O(n*k) where k is the alphabet size.
 // note 277: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 278: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 279: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
