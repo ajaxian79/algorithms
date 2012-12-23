@@ -3335,3 +3335,7 @@ Runs in a single pass over the input.
 ## entry 818
 
 Handles empty input by returning 0.
+
+## entry 819
+
+Edge case: zero-length string → returns the empty result.
