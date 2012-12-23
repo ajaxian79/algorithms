@@ -307,3 +307,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 276: Branchless inner loop after sorting.
 // edge note 277: Worst case appears only on degenerate inputs.
 // edge note 278: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 279: Linear in n; the constant factor is small.
