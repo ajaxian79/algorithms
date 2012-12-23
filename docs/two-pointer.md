@@ -2343,3 +2343,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 568
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 569
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
