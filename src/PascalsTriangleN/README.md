@@ -3066,3 +3066,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 751
 
 Handles empty input by returning 0.
+
+## entry 752
+
+Time complexity: O(1).
