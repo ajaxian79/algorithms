@@ -2355,3 +2355,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 573
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 574
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
