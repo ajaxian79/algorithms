@@ -398,3 +398,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 262: No allocations on the hot path.
 // note 263: Space complexity: O(n) for the result buffer.
 // note 264: 64-bit safe; intermediate products are widened to 128-bit.
+// note 265: DFS on a grid: write a sentinel into the visited cell; restore if needed.
