@@ -297,3 +297,4 @@ int is_ugly(int n) {
 // note 283: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 284: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 285: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 286: Unbounded knapsack: capacity inner ascending allows item reuse.
