@@ -2279,3 +2279,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 555
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 556
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
