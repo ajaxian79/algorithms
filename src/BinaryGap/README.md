@@ -3382,3 +3382,7 @@ Time complexity: O(n).
 ## entry 830
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 831
+
+Two passes: one to count, one to fill.
