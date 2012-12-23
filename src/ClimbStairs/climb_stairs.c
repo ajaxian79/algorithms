@@ -289,3 +289,4 @@ long long climb_stairs(int n) {
 // note 270: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 271: Time complexity: O(n).
 // note 272: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 273: BFS layers carry implicit shortest-path distance in unweighted graphs.
