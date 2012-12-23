@@ -347,3 +347,4 @@ MunitTest add_binary_tests[] = {
 // edge note 311: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 312: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 313: Edge case: already-sorted input → no swaps performed.
+// edge note 314: Handles single-element input as a base case.
