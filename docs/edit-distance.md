@@ -2303,3 +2303,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 558
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 559
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
