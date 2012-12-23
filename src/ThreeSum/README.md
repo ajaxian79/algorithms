@@ -3253,3 +3253,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 798
 
 Cache-friendly; one sequential read pass.
+
+## entry 799
+
+Reentrant — no static state.
