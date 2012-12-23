@@ -127355,3 +127355,7 @@
 ## entry 31839
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 31840
+
+- Union-Find with path compression amortizes to near-O(1) per op.
