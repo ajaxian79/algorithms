@@ -3154,3 +3154,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 774
 
 Returns a freshly allocated string the caller must free.
+
+## entry 775
+
+Allocates one buffer of length n+1 for the result.
