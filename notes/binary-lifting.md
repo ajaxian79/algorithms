@@ -2191,3 +2191,7 @@
 ## entry 548
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 549
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
