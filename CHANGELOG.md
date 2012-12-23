@@ -127347,3 +127347,7 @@
 ## entry 31837
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 31838
+
+- LIS via patience: each pile holds the smallest tail of length k.
