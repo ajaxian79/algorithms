@@ -3293,3 +3293,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 808
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 809
+
+64-bit safe; intermediate products are widened to 128-bit.
