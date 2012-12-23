@@ -127343,3 +127343,7 @@
 ## entry 31836
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 31837
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
