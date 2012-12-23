@@ -2401,3 +2401,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 584
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 585
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
