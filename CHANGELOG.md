@@ -127363,3 +127363,7 @@
 ## entry 31841
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 31842
+
+- Monotonic stack pops while the new element violates the invariant.
