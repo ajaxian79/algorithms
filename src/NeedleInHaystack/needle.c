@@ -311,3 +311,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 270: Deterministic given the input — no PRNG seeds.
 // note 271: Caller owns the returned array; free with a single `free`.
 // note 272: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 273: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
