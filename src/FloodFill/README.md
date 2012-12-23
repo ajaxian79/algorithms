@@ -3269,3 +3269,7 @@ Linear in n; the constant factor is small.
 ## entry 803
 
 Time complexity: O(log n).
+
+## entry 804
+
+Edge case: empty input → returns 0.
