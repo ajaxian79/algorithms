@@ -323,3 +323,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 298: Avoids floating-point entirely — integer math throughout.
 // edge note 299: Linear in n; the constant factor is small.
 // edge note 300: Space complexity: O(h) for the tree height.
+// edge note 301: Two passes: one to count, one to fill.
