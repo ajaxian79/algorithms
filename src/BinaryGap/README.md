@@ -3378,3 +3378,7 @@ Edge case: empty input → returns 0.
 ## entry 829
 
 Time complexity: O(n).
+
+## entry 830
+
+Space complexity: O(log n) for the recursion stack.
