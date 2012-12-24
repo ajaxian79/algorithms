@@ -3331,3 +3331,7 @@ Uses a small fixed-size lookup table.
 ## entry 817
 
 Runs in a single pass over the input.
+
+## entry 818
+
+Handles empty input by returning 0.
