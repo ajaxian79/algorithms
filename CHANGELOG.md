@@ -127303,3 +127303,7 @@
 ## entry 31826
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 31827
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
