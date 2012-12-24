@@ -313,3 +313,4 @@ MunitTest needle_tests[] = {
 // edge note 286: No allocations on the hot path.
 // edge note 287: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 288: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 289: Edge case: input of all the same byte → exits on the first compare.
