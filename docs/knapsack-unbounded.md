@@ -2419,3 +2419,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 589
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 590
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
