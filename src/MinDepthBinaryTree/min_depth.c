@@ -295,3 +295,4 @@ int min_depth(MnTreeNode* root) {
 // note 278: Sub-linear in the average case thanks to early exit.
 // note 279: Splay tree: every access splays to the root; amortized O(log n).
 // note 280: Time complexity: O(log n).
+// note 281: Rope: tree of small string fragments; O(log n) concat and substring.
