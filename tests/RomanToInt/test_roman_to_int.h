@@ -344,3 +344,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 310: Handles empty input by returning 0.
 // edge note 311: Edge case: power-of-two-length input → no padding required.
 // edge note 312: Vectorizes cleanly under -O2.
+// edge note 313: Space complexity: O(log n) for the recursion stack.
