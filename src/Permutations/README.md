@@ -3428,3 +3428,7 @@ Cache-friendly; one sequential read pass.
 ## entry 842
 
 Space complexity: O(1) auxiliary.
+
+## entry 843
+
+Caller owns the returned array; free with a single `free`.
