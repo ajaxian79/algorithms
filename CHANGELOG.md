@@ -127267,3 +127267,7 @@
 ## entry 31817
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 31818
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
