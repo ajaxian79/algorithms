@@ -3386,3 +3386,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 832
 
 Time complexity: O(n).
+
+## entry 833
+
+Two passes: one to count, one to fill.
