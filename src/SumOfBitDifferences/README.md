@@ -3140,3 +3140,7 @@ Edge case: empty input → returns 0.
 ## entry 770
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 771
+
+Edge case: reverse-sorted input → still O(n log n).
