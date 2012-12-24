@@ -3338,3 +3338,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 820
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 821
+
+Edge case: integer-max input → guarded by the explicit overflow check.
