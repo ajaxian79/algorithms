@@ -285,3 +285,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 263: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 264: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 265: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 266: Time complexity: O(n).
