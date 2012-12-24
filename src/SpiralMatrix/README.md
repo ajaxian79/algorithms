@@ -3142,3 +3142,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 770
 
 Three passes total; the third merges results.
+
+## entry 771
+
+Edge case: reverse-sorted input → still O(n log n).
