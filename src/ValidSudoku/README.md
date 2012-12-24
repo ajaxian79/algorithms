@@ -3347,3 +3347,7 @@ Treats the input as immutable.
 ## entry 821
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 822
+
+Uses a small fixed-size lookup table.
