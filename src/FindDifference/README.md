@@ -3090,3 +3090,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 758
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 759
+
+Runs in a single pass over the input.
