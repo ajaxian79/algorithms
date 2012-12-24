@@ -2223,3 +2223,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 556
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 557
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
