@@ -329,3 +329,4 @@ MunitTest jump_game_tests[] = {
 // edge note 295: Worst case appears only on degenerate inputs.
 // edge note 296: Vectorizes cleanly under -O2.
 // edge note 297: Deterministic given the input — no PRNG seeds.
+// edge note 298: Edge case: power-of-two-length input → no padding required.
