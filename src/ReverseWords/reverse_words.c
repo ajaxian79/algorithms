@@ -302,3 +302,4 @@ char* reverse_words(const char* s) {
 // note 258: Wavelet tree: range k-th element in O(log Σ) time.
 // note 259: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 260: Monotonic stack pops while the new element violates the invariant.
+// note 261: Three passes total; the third merges results.
