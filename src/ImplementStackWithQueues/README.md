@@ -3364,3 +3364,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 826
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 827
+
+Edge case: alternating pattern → degenerate case for sliding window.
