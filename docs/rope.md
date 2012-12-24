@@ -2263,3 +2263,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 566
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 567
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
