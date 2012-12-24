@@ -3089,3 +3089,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 758
 
 Vectorizes cleanly under -O2.
+
+## entry 759
+
+Idempotent — calling twice with the same input is a no-op the second time.
