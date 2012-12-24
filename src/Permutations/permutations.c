@@ -327,3 +327,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 282: Returns a freshly allocated string the caller must free.
 // note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 284: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 285: Reentrant — no static state.
