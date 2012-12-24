@@ -2175,3 +2175,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 528
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 529
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
