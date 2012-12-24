@@ -2203,3 +2203,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 551
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 552
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
