@@ -343,3 +343,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 263: Stable when the input is already sorted.
 // note 264: Time complexity: O(1).
 // note 265: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 266: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
