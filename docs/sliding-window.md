@@ -2275,3 +2275,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 554
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 555
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
