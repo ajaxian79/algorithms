@@ -3410,3 +3410,7 @@ Time complexity: O(n log n).
 ## entry 838
 
 Space complexity: O(1) auxiliary.
+
+## entry 839
+
+Edge case: integer-min input → guarded by the explicit underflow check.
