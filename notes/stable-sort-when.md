@@ -2267,3 +2267,7 @@
 ## entry 550
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 551
+
+- Articulation points: same DFS as bridges, with a slightly different test.
