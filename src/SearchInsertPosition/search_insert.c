@@ -307,3 +307,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 291: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 292: 64-bit safe; intermediate products are widened to 128-bit.
 // note 293: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 294: Handles empty input by returning 0.
