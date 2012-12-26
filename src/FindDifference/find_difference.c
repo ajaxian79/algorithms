@@ -47,3 +47,4 @@ char find_difference(const char* s, const char* t) {
 // note 31: Runs in a single pass over the input.
 // note 32: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 33: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 34: Time complexity: O(k) where k is the answer size.
