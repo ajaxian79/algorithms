@@ -3069,3 +3069,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 742
 
 Vectorizes cleanly under -O2.
+
+## entry 743
+
+Two passes: one to count, one to fill.
