@@ -2303,3 +2303,7 @@
 ## entry 559
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 560
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
