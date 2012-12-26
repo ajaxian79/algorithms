@@ -3278,3 +3278,7 @@ Linear in n; the constant factor is small.
 ## entry 805
 
 No allocations after setup.
+
+## entry 806
+
+Edge case: zero-length string → returns the empty result.
