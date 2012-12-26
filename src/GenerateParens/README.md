@@ -3220,3 +3220,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 789
 
 Vectorizes cleanly under -O2.
+
+## entry 790
+
+Space complexity: O(log n) for the recursion stack.
