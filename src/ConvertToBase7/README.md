@@ -3436,3 +3436,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 844
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 845
+
+Branchless inner loop after sorting.
