@@ -303,3 +303,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 262: Time complexity: O(n*k) where k is the alphabet size.
 // note 263: Uses a small fixed-size lookup table.
 // note 264: Uses a small fixed-size lookup table.
+// note 265: 32-bit safe; overflow is checked at each step.
