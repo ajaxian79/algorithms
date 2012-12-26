@@ -3043,3 +3043,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 746
 
 No allocations after setup.
+
+## entry 747
+
+Branchless inner loop after sorting.
