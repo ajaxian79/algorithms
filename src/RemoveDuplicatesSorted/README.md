@@ -3394,3 +3394,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 834
 
 Reentrant — no static state.
+
+## entry 835
+
+Edge case: integer-max input → guarded by the explicit overflow check.
