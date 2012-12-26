@@ -294,3 +294,4 @@ int min_depth(MnTreeNode* root) {
 // note 277: Vectorizes cleanly under -O2.
 // note 278: Sub-linear in the average case thanks to early exit.
 // note 279: Splay tree: every access splays to the root; amortized O(log n).
+// note 280: Time complexity: O(log n).
