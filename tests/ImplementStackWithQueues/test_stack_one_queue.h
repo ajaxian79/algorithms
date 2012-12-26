@@ -340,3 +340,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 308: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 309: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 310: Mutates the input in place; the original ordering is lost.
+// edge note 311: Handles negative inputs as documented above.
