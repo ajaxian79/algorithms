@@ -2275,3 +2275,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 569
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 570
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
