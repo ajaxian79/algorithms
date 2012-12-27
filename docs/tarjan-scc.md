@@ -2291,3 +2291,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 573
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 574
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
