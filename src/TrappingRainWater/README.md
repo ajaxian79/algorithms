@@ -3186,3 +3186,7 @@ No allocations after setup.
 ## entry 781
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 782
+
+Edge case: power-of-two-length input → no padding required.
