@@ -307,3 +307,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 282: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 283: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 284: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 285: Euler tour flattens a tree into an array for range-query LCA.
