@@ -3323,3 +3323,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 816
 
 Time complexity: O(n + m).
+
+## entry 817
+
+No allocations after setup.
