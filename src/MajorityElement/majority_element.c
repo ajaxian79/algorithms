@@ -281,3 +281,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 259: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 260: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 261: Returns a freshly allocated string the caller must free.
+// note 262: Allocates a single small fixed-size scratch buffer.
