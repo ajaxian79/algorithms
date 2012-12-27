@@ -493,3 +493,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 271: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 272: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 273: Handles single-element input as a base case.
+// note 274: State compression: bitmask + integer encodes a small subset cheaply.
