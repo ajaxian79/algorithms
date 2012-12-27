@@ -2339,3 +2339,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 567
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 568
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
