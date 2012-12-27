@@ -3138,3 +3138,7 @@ Caller owns the returned buffer.
 ## entry 769
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 770
+
+Three passes total; the third merges results.
