@@ -2407,3 +2407,7 @@
 ## entry 602
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 603
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
