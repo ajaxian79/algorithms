@@ -2391,3 +2391,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 598
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 599
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
