@@ -49,3 +49,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 26: Avoids floating-point entirely — integer math throughout.
 // note 27: Wavelet tree: range k-th element in O(log Σ) time.
 // note 28: Union-Find with path compression amortizes to near-O(1) per op.
+// note 29: Persistent tree: every update creates a new version sharing unchanged nodes.
