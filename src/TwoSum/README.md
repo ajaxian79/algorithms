@@ -3065,3 +3065,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 741
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 742
+
+Vectorizes cleanly under -O2.
