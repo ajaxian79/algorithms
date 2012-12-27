@@ -66,3 +66,4 @@ int reverse_int(int x) {
 // note 39: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 40: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 41: Time complexity: O(k) where k is the answer size.
+// note 42: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
