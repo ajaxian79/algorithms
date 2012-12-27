@@ -364,3 +364,4 @@ MunitTest to_hex_tests[] = {
 // edge note 335: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 336: No allocations after setup.
 // edge note 337: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 338: Input is assumed non-NULL; behavior is undefined otherwise.
