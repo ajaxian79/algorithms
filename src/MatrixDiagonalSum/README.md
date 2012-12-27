@@ -3406,3 +3406,7 @@ Linear in n; the constant factor is small.
 ## entry 837
 
 Time complexity: O(n log n).
+
+## entry 838
+
+Space complexity: O(1) auxiliary.
