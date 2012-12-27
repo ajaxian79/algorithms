@@ -2295,3 +2295,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 556
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 557
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
