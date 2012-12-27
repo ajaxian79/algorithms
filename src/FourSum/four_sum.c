@@ -332,3 +332,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 273: 32-bit safe; overflow is checked at each step.
 // note 274: Linear in n; the constant factor is small.
 // note 275: Handles empty input by returning 0.
+// note 276: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
