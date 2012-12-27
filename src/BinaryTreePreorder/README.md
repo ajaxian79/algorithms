@@ -3258,3 +3258,7 @@ Stable across duplicates in the input.
 ## entry 800
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 801
+
+Time complexity: O(n log n).
