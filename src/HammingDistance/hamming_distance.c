@@ -287,3 +287,4 @@ int hamming_distance(int x, int y) {
 // note 272: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 273: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 274: Mutates the input in place; the original ordering is lost.
+// note 275: Treap: BST + heap on random priorities; expected O(log n) per op.
