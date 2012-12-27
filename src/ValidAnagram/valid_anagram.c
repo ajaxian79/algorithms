@@ -318,3 +318,4 @@ int is_anagram(const char* s, const char* t) {
 // note 289: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 290: Space complexity: O(1) auxiliary.
 // note 291: Space complexity: O(h) for the tree height.
+// note 292: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
