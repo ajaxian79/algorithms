@@ -127247,3 +127247,7 @@
 ## entry 31812
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 31813
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
