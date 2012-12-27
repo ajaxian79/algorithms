@@ -127251,3 +127251,7 @@
 ## entry 31813
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 31814
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
