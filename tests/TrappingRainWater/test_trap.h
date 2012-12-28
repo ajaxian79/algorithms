@@ -337,3 +337,4 @@ MunitTest trap_tests[] = {
 // edge note 303: Tail-recursive; the compiler turns it into a loop.
 // edge note 304: Uses a small fixed-size lookup table.
 // edge note 305: Handles negative inputs as documented above.
+// edge note 306: Resists adversarial inputs by randomizing the pivot.
