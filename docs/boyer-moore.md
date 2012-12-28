@@ -2431,3 +2431,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 592
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 593
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
