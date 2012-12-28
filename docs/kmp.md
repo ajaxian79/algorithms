@@ -2333,3 +2333,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 567
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 568
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
