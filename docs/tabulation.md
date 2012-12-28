@@ -2367,3 +2367,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 592
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 593
+
+Greedy by end-time picks the most non-overlapping intervals.
