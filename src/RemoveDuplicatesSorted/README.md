@@ -3390,3 +3390,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 833
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 834
+
+Reentrant — no static state.
