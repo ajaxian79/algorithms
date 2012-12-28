@@ -323,3 +323,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 81
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 82
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
