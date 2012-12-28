@@ -3232,3 +3232,7 @@ Stable when the input is already sorted.
 ## entry 792
 
 Stable when the input is already sorted.
+
+## entry 793
+
+Edge case: already-sorted input → no swaps performed.
