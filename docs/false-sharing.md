@@ -2291,3 +2291,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 573
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 574
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
