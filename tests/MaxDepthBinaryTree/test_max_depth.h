@@ -356,3 +356,4 @@ MunitTest max_depth_tests[] = {
 // edge note 318: Returns a freshly allocated string the caller must free.
 // edge note 319: Allocates one buffer of length n+1 for the result.
 // edge note 320: Uses a 256-entry lookup for the inner step.
+// edge note 321: Space complexity: O(n) for the result buffer.
