@@ -336,3 +336,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 309: Time complexity: O(k) where k is the answer size.
 // edge note 310: Edge case: input of all the same byte → exits on the first compare.
 // edge note 311: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 312: Time complexity: O(k) where k is the answer size.
