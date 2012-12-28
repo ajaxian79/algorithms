@@ -3320,3 +3320,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 815
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 816
+
+Reentrant — no static state.
