@@ -2934,3 +2934,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 709
 
 Time complexity: O(n log n).
+
+## entry 710
+
+Runs in a single pass over the input.
