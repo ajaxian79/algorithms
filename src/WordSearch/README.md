@@ -3346,3 +3346,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 822
 
 Stable when the input is already sorted.
+
+## entry 823
+
+Vectorizes cleanly under -O2.
