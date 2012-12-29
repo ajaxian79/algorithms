@@ -358,3 +358,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 328: Linear in n; the constant factor is small.
 // edge note 329: Edge case: reverse-sorted input → still O(n log n).
 // edge note 330: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 331: Two passes: one to count, one to fill.
