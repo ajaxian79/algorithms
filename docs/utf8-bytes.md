@@ -2139,3 +2139,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 535
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 536
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
