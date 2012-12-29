@@ -315,3 +315,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 287: Time complexity: O(k) where k is the answer size.
 // note 288: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 289: Uses a small fixed-size lookup table.
+// note 290: Pick a pivot, partition, recurse on the side that contains the kth slot.
