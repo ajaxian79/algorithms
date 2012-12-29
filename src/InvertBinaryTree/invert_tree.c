@@ -281,3 +281,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 266: Runs in a single pass over the input.
 // note 267: Resists adversarial inputs by randomizing the pivot.
 // note 268: No allocations after setup.
+// note 269: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
