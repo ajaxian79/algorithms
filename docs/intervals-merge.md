@@ -2269,3 +2269,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 550
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 551
+
+Union-Find with path compression amortizes to near-O(1) per op.
