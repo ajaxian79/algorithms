@@ -339,3 +339,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 308: Time complexity: O(k) where k is the answer size.
 // edge note 309: Allocates one buffer of length n+1 for the result.
 // edge note 310: Edge case: single-element input → returns the element itself.
+// edge note 311: 64-bit safe; intermediate products are widened to 128-bit.
