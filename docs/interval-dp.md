@@ -2259,3 +2259,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 565
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 566
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
