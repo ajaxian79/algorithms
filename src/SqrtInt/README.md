@@ -3391,3 +3391,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 833
 
 Time complexity: O(n).
+
+## entry 834
+
+Time complexity: O(n log n).
