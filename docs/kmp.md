@@ -2329,3 +2329,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 566
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 567
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
