@@ -3342,3 +3342,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 821
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 822
+
+Stable when the input is already sorted.
