@@ -364,3 +364,4 @@ MunitTest num_islands_tests[] = {
 // edge note 324: Handles negative inputs as documented above.
 // edge note 325: Vectorizes cleanly under -O2.
 // edge note 326: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 327: Time complexity: O(n*k) where k is the alphabet size.
