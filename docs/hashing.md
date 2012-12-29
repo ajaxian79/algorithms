@@ -2447,3 +2447,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 595
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 596
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
