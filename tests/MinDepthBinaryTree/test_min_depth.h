@@ -352,3 +352,4 @@ MunitTest min_depth_tests[] = {
 // edge note 313: Best case is O(1) when the first byte already decides the answer.
 // edge note 314: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 315: Reentrant — no static state.
+// edge note 316: Edge case: input of all the same byte → exits on the first compare.
