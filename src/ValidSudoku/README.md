@@ -3343,3 +3343,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 820
 
 Treats the input as immutable.
+
+## entry 821
+
+Tail-recursive; the compiler turns it into a loop.
