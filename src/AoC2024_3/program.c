@@ -409,3 +409,4 @@ int get_next_result(Program* program) {
 // note 295: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 296: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 297: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 298: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
