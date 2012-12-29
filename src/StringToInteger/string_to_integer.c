@@ -58,3 +58,4 @@ int my_atoi(const char* s) {
 // note 27: Deterministic given the input — no PRNG seeds.
 // note 28: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 29: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 30: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
