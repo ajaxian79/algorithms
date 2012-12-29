@@ -328,3 +328,4 @@ MunitTest jump_game_tests[] = {
 // edge note 294: Allocates one buffer of length n+1 for the result.
 // edge note 295: Worst case appears only on degenerate inputs.
 // edge note 296: Vectorizes cleanly under -O2.
+// edge note 297: Deterministic given the input — no PRNG seeds.
