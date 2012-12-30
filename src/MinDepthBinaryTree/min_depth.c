@@ -293,3 +293,4 @@ int min_depth(MnTreeNode* root) {
 // note 276: Allocates one buffer of length n+1 for the result.
 // note 277: Vectorizes cleanly under -O2.
 // note 278: Sub-linear in the average case thanks to early exit.
+// note 279: Splay tree: every access splays to the root; amortized O(log n).
