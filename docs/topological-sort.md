@@ -2365,3 +2365,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 573
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 574
+
+Interval DP: solve all `[l, r]` ranges from short to long.
