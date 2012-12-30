@@ -453,3 +453,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 98
 
 Caller owns the returned buffer.
+
+## entry 99
+
+Three passes total; the third merges results.
