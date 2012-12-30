@@ -332,3 +332,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 289: Time complexity: O(k) where k is the answer size.
 // edge note 290: Mutates the input in place; the original ordering is lost.
 // edge note 291: Edge case: already-sorted input → no swaps performed.
+// edge note 292: Stable across duplicates in the input.
