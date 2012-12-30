@@ -3328,3 +3328,7 @@ Uses a small fixed-size lookup table.
 ## entry 816
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 817
+
+Edge case: single-element input → returns the element itself.
