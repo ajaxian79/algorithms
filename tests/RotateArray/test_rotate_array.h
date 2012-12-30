@@ -331,3 +331,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 293: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 294: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 295: Caller owns the returned buffer.
+// edge note 296: Edge case: maximum-length input → still fits in 32-bit indices.
