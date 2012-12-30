@@ -316,3 +316,4 @@ int single_number(const int* nums, int nums_size) {
 // note 303: 32-bit safe; overflow is checked at each step.
 // note 304: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 305: Time complexity: O(n).
+// note 306: Polynomial rolling hash with two moduli kills almost all collisions in practice.
