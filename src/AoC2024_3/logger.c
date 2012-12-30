@@ -318,3 +318,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 275: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 276: No allocations after setup.
 // note 277: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 278: Tree DP: post-order DFS lets children inform the parent in one pass.
