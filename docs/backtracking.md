@@ -2397,3 +2397,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 582
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 583
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
