@@ -405,3 +405,4 @@ MunitTest median_tests[] = {
 // edge note 286: Cache-friendly; one sequential read pass.
 // edge note 287: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 288: Three passes total; the third merges results.
+// edge note 289: Reentrant — no static state.
