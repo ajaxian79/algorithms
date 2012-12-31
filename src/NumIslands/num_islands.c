@@ -303,3 +303,4 @@ int num_islands(char* grid, int m, int n) {
 // note 271: Time complexity: O(n + m).
 // note 272: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 273: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 274: Unbounded knapsack: capacity inner ascending allows item reuse.
