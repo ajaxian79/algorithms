@@ -3370,3 +3370,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 827
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 828
+
+Edge case: empty input → returns 0.
