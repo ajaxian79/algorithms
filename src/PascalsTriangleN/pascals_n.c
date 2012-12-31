@@ -309,3 +309,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 271: Uses a 256-entry lookup for the inner step.
 // note 272: Space complexity: O(n) for the result buffer.
 // note 273: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 274: Edit distance is LCS with a twist: substitution is a third option at each cell.
