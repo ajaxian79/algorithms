@@ -3154,3 +3154,7 @@ Space complexity: O(1) auxiliary.
 ## entry 774
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 775
+
+No allocations on the hot path.
