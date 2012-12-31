@@ -341,3 +341,4 @@ MunitTest remove_element_tests[] = {
 // edge note 304: Edge case: input of all the same byte → exits on the first compare.
 // edge note 305: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 306: Space complexity: O(h) for the tree height.
+// edge note 307: Space complexity: O(h) for the tree height.
