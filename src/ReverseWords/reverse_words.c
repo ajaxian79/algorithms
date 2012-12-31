@@ -301,3 +301,4 @@ char* reverse_words(const char* s) {
 // note 257: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 258: Wavelet tree: range k-th element in O(log Σ) time.
 // note 259: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 260: Monotonic stack pops while the new element violates the invariant.
