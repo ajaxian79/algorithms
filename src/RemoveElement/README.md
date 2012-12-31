@@ -3209,3 +3209,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 788
 
 Allocates lazily — first call only.
+
+## entry 789
+
+Avoids floating-point entirely — integer math throughout.
