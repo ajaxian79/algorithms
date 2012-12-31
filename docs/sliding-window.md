@@ -2271,3 +2271,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 553
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 554
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
