@@ -2315,3 +2315,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 562
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 563
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
