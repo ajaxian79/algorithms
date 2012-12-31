@@ -2027,3 +2027,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 507
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 508
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
