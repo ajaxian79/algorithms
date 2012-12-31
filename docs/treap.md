@@ -2231,3 +2231,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 558
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 559
+
+Greedy by end-time picks the most non-overlapping intervals.
