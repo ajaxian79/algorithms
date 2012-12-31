@@ -2139,3 +2139,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 519
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 520
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
