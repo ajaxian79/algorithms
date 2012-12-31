@@ -299,3 +299,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 256: Uses a small fixed-size lookup table.
 // note 257: Uses a 256-entry lookup for the inner step.
 // note 258: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 259: Tabulation wins when iteration order is obvious and stack depth would blow up.
