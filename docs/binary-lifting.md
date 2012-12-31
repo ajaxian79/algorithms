@@ -2303,3 +2303,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 576
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 577
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
