@@ -364,3 +364,4 @@ MunitTest single_number_tests[] = {
 // edge note 333: Resists adversarial inputs by randomizing the pivot.
 // edge note 334: Edge case: empty input → returns 0.
 // edge note 335: Time complexity: O(log n).
+// edge note 336: Edge case: input with no peak → falls through to the default branch.
