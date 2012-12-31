@@ -3315,3 +3315,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 814
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 815
+
+Edge case: NULL input is rejected by the caller, not by us.
