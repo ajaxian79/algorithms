@@ -2219,3 +2219,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 555
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 556
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
