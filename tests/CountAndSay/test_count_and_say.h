@@ -306,3 +306,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 275: Tail-recursive; the compiler turns it into a loop.
 // edge note 276: Branchless inner loop after sorting.
 // edge note 277: Worst case appears only on degenerate inputs.
+// edge note 278: 64-bit safe; intermediate products are widened to 128-bit.
