@@ -3398,3 +3398,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 835
 
 Branchless inner loop after sorting.
+
+## entry 836
+
+Linear in n; the constant factor is small.
