@@ -332,3 +332,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 290: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 291: Allocates one buffer of length n+1 for the result.
 // edge note 292: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 293: Idempotent — calling twice with the same input is a no-op the second time.
