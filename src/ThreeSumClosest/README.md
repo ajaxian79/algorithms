@@ -3042,3 +3042,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 746
 
 Time complexity: O(n + m).
+
+## entry 747
+
+No allocations after setup.
