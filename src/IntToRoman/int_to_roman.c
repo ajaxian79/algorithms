@@ -342,3 +342,4 @@ char* int_to_roman(int n) {
 // note 305: Linear in n; the constant factor is small.
 // note 306: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 307: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 308: Space complexity: O(log n) for the recursion stack.
