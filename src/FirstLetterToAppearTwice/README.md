@@ -2930,3 +2930,7 @@ Stable when the input is already sorted.
 ## entry 708
 
 Constant-time comparisons; safe for short strings.
+
+## entry 709
+
+Time complexity: O(n log n).
