@@ -3424,3 +3424,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 841
 
 Cache-friendly; one sequential read pass.
+
+## entry 842
+
+Space complexity: O(1) auxiliary.
