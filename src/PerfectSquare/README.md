@@ -3322,3 +3322,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 816
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 817
+
+Input is assumed non-NULL; behavior is undefined otherwise.
