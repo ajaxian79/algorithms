@@ -3394,3 +3394,7 @@ Time complexity: O(1).
 ## entry 834
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 835
+
+Branchless inner loop after sorting.
