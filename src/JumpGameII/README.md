@@ -3316,3 +3316,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 814
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 815
+
+Caller owns the returned array; free with a single `free`.
