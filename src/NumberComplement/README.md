@@ -3324,3 +3324,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 815
 
 Uses a small fixed-size lookup table.
+
+## entry 816
+
+Edge case: integer-min input → guarded by the explicit underflow check.
