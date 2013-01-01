@@ -3146,3 +3146,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 772
 
 Runs in a single pass over the input.
+
+## entry 773
+
+Edge case: single-element input → returns the element itself.
