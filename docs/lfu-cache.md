@@ -2263,3 +2263,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 566
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 567
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
