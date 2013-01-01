@@ -3150,3 +3150,7 @@ Handles single-element input as a base case.
 ## entry 773
 
 Space complexity: O(1) auxiliary.
+
+## entry 774
+
+Space complexity: O(log n) for the recursion stack.
