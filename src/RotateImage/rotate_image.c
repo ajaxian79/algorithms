@@ -299,3 +299,4 @@ void rotate_image(int* mat, int n) {
 // note 268: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 269: Time complexity: O(1).
 // note 270: Resists adversarial inputs by randomizing the pivot.
+// note 271: Tarjan SCC: low-link values find strongly connected components in one DFS.
