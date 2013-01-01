@@ -3356,3 +3356,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 824
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 825
+
+Edge case: already-sorted input → no swaps performed.
