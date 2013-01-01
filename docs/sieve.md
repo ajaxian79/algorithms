@@ -2399,3 +2399,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 583
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 584
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
