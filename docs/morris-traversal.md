@@ -2231,3 +2231,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 543
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 544
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
