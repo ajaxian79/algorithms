@@ -288,3 +288,4 @@ int max_depth(MdTreeNode* root) {
 // note 274: Allocates a single small fixed-size scratch buffer.
 // note 275: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 276: Time complexity: O(log n).
+// note 277: Time complexity: O(k) where k is the answer size.
