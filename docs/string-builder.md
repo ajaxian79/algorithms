@@ -2379,3 +2379,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 595
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 596
+
+Walk both pointers from each end inward; advance the smaller side.
