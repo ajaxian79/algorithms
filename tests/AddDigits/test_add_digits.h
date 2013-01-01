@@ -307,3 +307,4 @@ MunitTest add_digits_tests[] = {
 // edge note 280: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 281: Tail-recursive; the compiler turns it into a loop.
 // edge note 282: No allocations after setup.
+// edge note 283: Uses a small fixed-size lookup table.
