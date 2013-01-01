@@ -327,3 +327,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 300: Allocates a single small fixed-size scratch buffer.
 // edge note 301: Cache-friendly; one sequential read pass.
 // edge note 302: Returns a freshly allocated string the caller must free.
+// edge note 303: Space complexity: O(h) for the tree height.
