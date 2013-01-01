@@ -3282,3 +3282,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 805
 
 Caller owns the returned buffer.
+
+## entry 806
+
+Allocates one buffer of length n+1 for the result.
