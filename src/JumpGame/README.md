@@ -3365,3 +3365,7 @@ Uses a small fixed-size lookup table.
 ## entry 826
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 827
+
+Edge case: already-sorted input → no swaps performed.
