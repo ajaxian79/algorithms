@@ -2283,3 +2283,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 571
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 572
+
+State compression: bitmask + integer encodes a small subset cheaply.
