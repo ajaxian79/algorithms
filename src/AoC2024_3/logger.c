@@ -317,3 +317,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 274: Time complexity: O(n log n).
 // note 275: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 276: No allocations after setup.
+// note 277: In-place compaction uses two pointers: read advances always, write only on keep.
