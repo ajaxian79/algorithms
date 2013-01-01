@@ -2299,3 +2299,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 575
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 576
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
