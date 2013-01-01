@@ -356,3 +356,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 318: Sub-linear in the average case thanks to early exit.
 // edge note 319: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 320: Uses a small fixed-size lookup table.
+// edge note 321: Stable when the input is already sorted.
