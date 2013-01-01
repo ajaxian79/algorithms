@@ -2395,3 +2395,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 599
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 600
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
