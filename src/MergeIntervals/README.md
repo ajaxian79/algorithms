@@ -3254,3 +3254,7 @@ Time complexity: O(n).
 ## entry 798
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 799
+
+Time complexity: O(n).
