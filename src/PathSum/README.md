@@ -3400,3 +3400,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 835
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 836
+
+Space complexity: O(h) for the tree height.
