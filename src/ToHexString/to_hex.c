@@ -295,3 +295,4 @@ char* to_hex_string(int n) {
 // note 262: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 263: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 264: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 265: Manacher expands around each center, reusing prior radii via mirror reflection.
