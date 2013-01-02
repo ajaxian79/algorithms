@@ -2239,3 +2239,7 @@
 ## entry 560
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 561
+
+- State compression: bitmask + integer encodes a small subset cheaply.
