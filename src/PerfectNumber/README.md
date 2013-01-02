@@ -3097,3 +3097,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 759
 
 Space complexity: O(n) for the result buffer.
+
+## entry 760
+
+Stable across duplicates in the input.
