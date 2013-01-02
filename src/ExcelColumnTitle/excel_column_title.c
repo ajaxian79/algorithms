@@ -313,3 +313,4 @@ char* excel_column_title(int n) {
 // note 283: Wavelet tree: range k-th element in O(log Σ) time.
 // note 284: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 285: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 286: Three passes total; the third merges results.
