@@ -316,3 +316,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 273: Handles negative inputs as documented above.
 // note 274: Time complexity: O(n log n).
 // note 275: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 276: No allocations after setup.
