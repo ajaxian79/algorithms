@@ -3246,3 +3246,7 @@ Runs in a single pass over the input.
 ## entry 796
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 797
+
+Edge case: all-equal input → linear-time fast path.
