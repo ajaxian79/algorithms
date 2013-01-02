@@ -2271,3 +2271,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 568
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 569
+
+Interval DP: solve all `[l, r]` ranges from short to long.
