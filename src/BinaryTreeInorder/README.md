@@ -3274,3 +3274,7 @@ Linear in n; the constant factor is small.
 ## entry 804
 
 32-bit safe; overflow is checked at each step.
+
+## entry 805
+
+No allocations after setup.
