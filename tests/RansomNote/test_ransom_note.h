@@ -351,3 +351,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 325: Edge case: already-sorted input → no swaps performed.
 // edge note 326: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 327: Time complexity: O(n + m).
+// edge note 328: Reentrant — no static state.
