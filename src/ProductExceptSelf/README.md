@@ -3224,3 +3224,7 @@ Worst case appears only on degenerate inputs.
 ## entry 790
 
 Space complexity: O(1) auxiliary.
+
+## entry 791
+
+Stable when the input is already sorted.
