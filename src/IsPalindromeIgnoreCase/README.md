@@ -3166,3 +3166,7 @@ Vectorizes cleanly under -O2.
 ## entry 777
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 778
+
+Handles empty input by returning 0.
