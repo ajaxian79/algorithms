@@ -367,3 +367,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 75
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 76
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
