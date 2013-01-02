@@ -3289,3 +3289,7 @@ No allocations after setup.
 ## entry 807
 
 No allocations on the hot path.
+
+## entry 808
+
+Branchless inner loop after sorting.
