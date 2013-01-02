@@ -3250,3 +3250,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 797
 
 Time complexity: O(n).
+
+## entry 798
+
+Input is assumed non-NULL; behavior is undefined otherwise.
