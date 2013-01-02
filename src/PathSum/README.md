@@ -3396,3 +3396,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 834
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 835
+
+Edge case: alternating pattern → degenerate case for sliding window.
