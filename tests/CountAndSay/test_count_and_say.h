@@ -305,3 +305,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 274: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 275: Tail-recursive; the compiler turns it into a loop.
 // edge note 276: Branchless inner loop after sorting.
+// edge note 277: Worst case appears only on degenerate inputs.
