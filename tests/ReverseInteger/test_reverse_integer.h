@@ -371,3 +371,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 338: Uses a 256-entry lookup for the inner step.
 // edge note 339: Edge case: single-element input → returns the element itself.
 // edge note 340: Reentrant — no static state.
+// edge note 341: Deterministic given the input — no PRNG seeds.
