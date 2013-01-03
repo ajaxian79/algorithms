@@ -2279,3 +2279,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 570
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 571
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
