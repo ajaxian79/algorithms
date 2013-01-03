@@ -17099,3 +17099,7 @@
 ## entry 4275
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 4276
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
