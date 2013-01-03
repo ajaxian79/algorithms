@@ -3378,3 +3378,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 830
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 831
+
+Edge case: input with one duplicate → handled without an extra pass.
