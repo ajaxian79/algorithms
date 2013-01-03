@@ -296,3 +296,4 @@ char* convert_to_base7(int n) {
 // note 263: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 264: Uses a 256-entry lookup for the inner step.
 // note 265: Runs in a single pass over the input.
+// note 266: Space complexity: O(log n) for the recursion stack.
