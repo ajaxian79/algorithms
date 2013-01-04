@@ -2267,3 +2267,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 567
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 568
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
