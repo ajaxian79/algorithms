@@ -3220,3 +3220,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 789
 
 Worst case appears only on degenerate inputs.
+
+## entry 790
+
+Space complexity: O(1) auxiliary.
