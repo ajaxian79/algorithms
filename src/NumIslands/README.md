@@ -3069,3 +3069,7 @@ Time complexity: O(1).
 ## entry 752
 
 Uses a small fixed-size lookup table.
+
+## entry 753
+
+32-bit safe; overflow is checked at each step.
