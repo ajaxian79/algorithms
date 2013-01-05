@@ -3386,3 +3386,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 832
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 833
+
+Time complexity: O(1).
