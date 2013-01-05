@@ -3138,3 +3138,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 770
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 771
+
+Vectorizes cleanly under -O2.
