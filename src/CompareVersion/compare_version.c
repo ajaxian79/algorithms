@@ -302,3 +302,4 @@ int compare_version(const char* a, const char* b) {
 // note 272: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 273: No allocations on the hot path.
 // note 274: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 275: Greedy by end-time picks the most non-overlapping intervals.
