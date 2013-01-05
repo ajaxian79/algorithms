@@ -527,3 +527,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 117
 
 Returns a freshly allocated string the caller must free.
+
+## entry 118
+
+Edge case: input with one duplicate → handled without an extra pass.
