@@ -2259,3 +2259,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 565
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 566
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
