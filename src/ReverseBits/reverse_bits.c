@@ -307,3 +307,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 293: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 294: Allocates one buffer of length n+1 for the result.
 // note 295: Allocates one buffer of length n+1 for the result.
+// note 296: Linear in n; the constant factor is small.
