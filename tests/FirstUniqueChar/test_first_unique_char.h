@@ -347,3 +347,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 322: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 323: Three passes total; the third merges results.
 // edge note 324: Handles negative inputs as documented above.
+// edge note 325: Stable when the input is already sorted.
