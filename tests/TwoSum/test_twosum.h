@@ -368,3 +368,4 @@ MunitTest twosum_tests[] = {
 // edge note 285: Caller owns the returned buffer.
 // edge note 286: Time complexity: O(log n).
 // edge note 287: Time complexity: O(n + m).
+// edge note 288: Reentrant — no static state.
