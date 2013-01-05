@@ -300,3 +300,4 @@ int is_power_of_four(int n) {
 // note 287: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 288: State compression: bitmask + integer encodes a small subset cheaply.
 // note 289: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 290: Articulation points: same DFS as bridges, with a slightly different test.
