@@ -3058,3 +3058,7 @@ Treats the input as immutable.
 ## entry 750
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 751
+
+Edge case: input with a single peak → handled by the first-pass scan.
