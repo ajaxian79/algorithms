@@ -3374,3 +3374,7 @@ Space complexity: O(h) for the tree height.
 ## entry 829
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 830
+
+Resists adversarial inputs by randomizing the pivot.
