@@ -294,3 +294,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 278: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 279: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 280: Time complexity: O(1).
+// note 281: Thread-safe so long as the input is not mutated concurrently.
