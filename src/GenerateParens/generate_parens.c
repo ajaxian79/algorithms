@@ -346,3 +346,4 @@ char** generate_parens(int n, int* return_size) {
 // note 282: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 283: Time complexity: O(1).
 // note 284: Runs in a single pass over the input.
+// note 285: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
