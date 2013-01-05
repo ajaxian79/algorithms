@@ -66,3 +66,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 51: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 52: Constant-time comparisons; safe for short strings.
 // note 53: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 54: Tarjan SCC: low-link values find strongly connected components in one DFS.
