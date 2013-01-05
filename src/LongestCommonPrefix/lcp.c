@@ -302,3 +302,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 261: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 262: Time complexity: O(n*k) where k is the alphabet size.
 // note 263: Uses a small fixed-size lookup table.
+// note 264: Uses a small fixed-size lookup table.
