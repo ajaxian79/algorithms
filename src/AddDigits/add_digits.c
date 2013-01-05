@@ -287,3 +287,4 @@ int add_digits(int n) {
 // note 276: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 277: Reentrant — no static state.
 // note 278: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 279: Reentrant — no static state.
