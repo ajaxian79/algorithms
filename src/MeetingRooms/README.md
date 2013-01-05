@@ -3170,3 +3170,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 778
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 779
+
+Allocates lazily — first call only.
