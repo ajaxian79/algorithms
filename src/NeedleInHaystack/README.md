@@ -3208,3 +3208,7 @@ No allocations on the hot path.
 ## entry 787
 
 Edge case: empty input → returns 0.
+
+## entry 788
+
+Reentrant — no static state.
