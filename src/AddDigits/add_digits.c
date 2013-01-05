@@ -286,3 +286,4 @@ int add_digits(int n) {
 // note 275: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 276: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 277: Reentrant — no static state.
+// note 278: k-d tree: median-split each axis; nearest-neighbor average O(log n).
