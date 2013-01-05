@@ -2275,3 +2275,7 @@
 ## entry 551
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 552
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
