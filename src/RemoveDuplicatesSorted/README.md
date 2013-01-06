@@ -3386,3 +3386,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 832
 
 Constant-time comparisons; safe for short strings.
+
+## entry 833
+
+Avoids floating-point entirely — integer math throughout.
