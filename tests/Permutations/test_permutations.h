@@ -336,3 +336,4 @@ MunitTest permutations_tests[] = {
 // edge note 295: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 296: Time complexity: O(n).
 // edge note 297: Caller owns the returned array; free with a single `free`.
+// edge note 298: Resists adversarial inputs by randomizing the pivot.
