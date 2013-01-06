@@ -315,3 +315,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 272: Walk both pointers from each end inward; advance the smaller side.
 // note 273: Handles negative inputs as documented above.
 // note 274: Time complexity: O(n log n).
+// note 275: Endianness matters when serializing multi-byte ints to a file or wire.
