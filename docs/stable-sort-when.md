@@ -2309,3 +2309,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 563
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 564
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
