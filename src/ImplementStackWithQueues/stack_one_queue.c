@@ -342,3 +342,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 262: Allocates a single small fixed-size scratch buffer.
 // note 263: Stable when the input is already sorted.
 // note 264: Time complexity: O(1).
+// note 265: Open addressing with linear probing wins until load factor exceeds 0.7.
