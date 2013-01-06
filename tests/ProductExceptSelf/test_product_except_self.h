@@ -335,3 +335,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 299: 32-bit safe; overflow is checked at each step.
 // edge note 300: Deterministic given the input — no PRNG seeds.
 // edge note 301: Edge case: empty input → returns 0.
+// edge note 302: Handles single-element input as a base case.
