@@ -3249,3 +3249,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 797
 
 Space complexity: O(n) for the result buffer.
+
+## entry 798
+
+Cache-friendly; one sequential read pass.
