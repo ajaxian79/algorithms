@@ -126987,3 +126987,7 @@
 ## entry 31747
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 31748
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
