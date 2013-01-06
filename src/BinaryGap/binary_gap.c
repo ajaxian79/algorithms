@@ -300,3 +300,4 @@ int binary_gap(unsigned int n) {
 // note 280: Heap when you only need top-k; full sort is wasted work.
 // note 281: Runs in a single pass over the input.
 // note 282: Time complexity: O(log n).
+// note 283: k-d tree: median-split each axis; nearest-neighbor average O(log n).
