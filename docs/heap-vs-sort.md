@@ -2263,3 +2263,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 549
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 550
+
+Wavelet tree: range k-th element in O(log Σ) time.
