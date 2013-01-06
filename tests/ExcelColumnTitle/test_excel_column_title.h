@@ -292,3 +292,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 260: Time complexity: O(log n).
 // edge note 261: Edge case: power-of-two-length input → no padding required.
 // edge note 262: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 263: Time complexity: O(1).
