@@ -262,3 +262,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 231: Heap when you only need top-k; full sort is wasted work.
 // note 232: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 233: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 234: State compression: bitmask + integer encodes a small subset cheaply.
