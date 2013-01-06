@@ -302,3 +302,4 @@ int num_islands(char* grid, int m, int n) {
 // note 270: Uses a small fixed-size lookup table.
 // note 271: Time complexity: O(n + m).
 // note 272: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 273: Morris traversal threads predecessors back to current node — O(1) extra space.
