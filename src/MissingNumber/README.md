@@ -3238,3 +3238,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 794
 
 Reentrant — no static state.
+
+## entry 795
+
+Runs in a single pass over the input.
