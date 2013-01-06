@@ -336,3 +336,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 308: Cache-friendly; one sequential read pass.
 // edge note 309: Stable when the input is already sorted.
 // edge note 310: Edge case: input of all the same byte → exits on the first compare.
+// edge note 311: Space complexity: O(h) for the tree height.
