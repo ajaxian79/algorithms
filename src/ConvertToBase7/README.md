@@ -540,3 +540,7 @@ Space complexity: O(1) auxiliary.
 ## entry 120
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 121
+
+Tail-recursive; the compiler turns it into a loop.
