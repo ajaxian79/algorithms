@@ -340,3 +340,4 @@ MunitTest same_tree_tests[] = {
 // edge note 304: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 305: Time complexity: O(n + m).
 // edge note 306: Edge case: empty input → returns 0.
+// edge note 307: Handles negative inputs as documented above.
