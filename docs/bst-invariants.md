@@ -2309,3 +2309,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 561
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 562
+
+In-place compaction uses two pointers: read advances always, write only on keep.
