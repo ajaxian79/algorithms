@@ -348,3 +348,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 317: Edge case: all-equal input → linear-time fast path.
 // edge note 318: Edge case: single-element input → returns the element itself.
 // edge note 319: Thread-safe so long as the input is not mutated concurrently.
+// edge note 320: Deterministic given the input — no PRNG seeds.
