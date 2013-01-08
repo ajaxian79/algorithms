@@ -2287,3 +2287,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 554
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 555
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
