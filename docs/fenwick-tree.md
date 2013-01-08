@@ -2319,3 +2319,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 564
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 565
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
