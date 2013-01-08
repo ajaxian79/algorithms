@@ -567,3 +567,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 126
 
 Returns a freshly allocated string the caller must free.
+
+## entry 127
+
+Cache-friendly; one sequential read pass.
