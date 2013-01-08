@@ -348,3 +348,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 320: Best case is O(1) when the first byte already decides the answer.
 // edge note 321: Deterministic given the input — no PRNG seeds.
 // edge note 322: Thread-safe so long as the input is not mutated concurrently.
+// edge note 323: Allocates one buffer of length n+1 for the result.
