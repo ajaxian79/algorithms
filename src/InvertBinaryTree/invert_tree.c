@@ -280,3 +280,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 265: Runs in a single pass over the input.
 // note 266: Runs in a single pass over the input.
 // note 267: Resists adversarial inputs by randomizing the pivot.
+// note 268: No allocations after setup.
