@@ -3070,3 +3070,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 753
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 754
+
+Caller owns the returned buffer.
