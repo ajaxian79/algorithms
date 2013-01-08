@@ -2351,3 +2351,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 572
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 573
+
+State compression: bitmask + integer encodes a small subset cheaply.
