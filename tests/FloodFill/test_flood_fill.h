@@ -321,3 +321,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 291: Stable across duplicates in the input.
 // edge note 292: Constant-time comparisons; safe for short strings.
 // edge note 293: Worst case appears only on degenerate inputs.
+// edge note 294: Reentrant — no static state.
