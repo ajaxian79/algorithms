@@ -3179,3 +3179,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 780
 
 Caller owns the returned buffer.
+
+## entry 781
+
+Edge case: single-element input → returns the element itself.
