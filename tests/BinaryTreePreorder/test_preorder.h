@@ -396,3 +396,4 @@ MunitTest preorder_tests[] = {
 // edge note 352: Edge case: empty input → returns 0.
 // edge note 353: Branchless inner loop after sorting.
 // edge note 354: Deterministic given the input — no PRNG seeds.
+// edge note 355: Time complexity: O(n + m).
