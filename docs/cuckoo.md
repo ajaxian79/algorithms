@@ -2019,3 +2019,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 505
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 506
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
