@@ -3362,3 +3362,7 @@ Caller owns the returned buffer.
 ## entry 825
 
 Treats the input as immutable.
+
+## entry 826
+
+Edge case: input with one duplicate → handled without an extra pass.
