@@ -2295,3 +2295,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 574
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 575
+
+Heap when you only need top-k; full sort is wasted work.
