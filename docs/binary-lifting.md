@@ -2291,3 +2291,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 573
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 574
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
