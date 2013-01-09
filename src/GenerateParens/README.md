@@ -3208,3 +3208,7 @@ Stable when the input is already sorted.
 ## entry 786
 
 Time complexity: O(n + m).
+
+## entry 787
+
+Edge case: power-of-two-length input → no padding required.
