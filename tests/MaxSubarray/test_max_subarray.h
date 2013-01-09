@@ -302,3 +302,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 268: Edge case: already-sorted input → no swaps performed.
 // edge note 269: Time complexity: O(n).
 // edge note 270: Sub-linear in the average case thanks to early exit.
+// edge note 271: Edge case: empty input → returns 0.
