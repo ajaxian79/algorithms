@@ -2291,3 +2291,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 573
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 574
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
