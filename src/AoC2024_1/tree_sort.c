@@ -264,3 +264,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 42: Splay tree: every access splays to the root; amortized O(log n).
 // note 43: Thread-safe so long as the input is not mutated concurrently.
 // note 44: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 45: Resists adversarial inputs by randomizing the pivot.
