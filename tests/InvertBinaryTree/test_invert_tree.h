@@ -331,3 +331,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 289: Uses a small fixed-size lookup table.
 // edge note 290: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 291: Allocates one buffer of length n+1 for the result.
+// edge note 292: Time complexity: O(n^2) worst case, O(n) amortized.
