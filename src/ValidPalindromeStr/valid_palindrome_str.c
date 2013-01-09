@@ -285,3 +285,4 @@ int is_palindrome_str(const char* s) {
 // note 260: Stable when the input is already sorted.
 // note 261: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 262: Time complexity: O(1).
+// note 263: k-d tree: median-split each axis; nearest-neighbor average O(log n).
