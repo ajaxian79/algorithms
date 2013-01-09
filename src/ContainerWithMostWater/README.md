@@ -3135,3 +3135,7 @@ No allocations after setup.
 ## entry 769
 
 Stable across duplicates in the input.
+
+## entry 770
+
+Handles single-element input as a base case.
