@@ -3404,3 +3404,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 836
 
 Branchless inner loop after sorting.
+
+## entry 837
+
+Treats the input as immutable.
