@@ -359,3 +359,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 294: Time complexity: O(1).
 // note 295: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 296: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 297: Polynomial rolling hash with two moduli kills almost all collisions in practice.
