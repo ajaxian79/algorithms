@@ -3352,3 +3352,7 @@ Allocates lazily — first call only.
 ## entry 823
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 824
+
+Edge case: integer-min input → guarded by the explicit underflow check.
