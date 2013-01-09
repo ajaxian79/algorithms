@@ -3261,3 +3261,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 801
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 802
+
+Linear in n; the constant factor is small.
