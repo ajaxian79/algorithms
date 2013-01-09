@@ -2231,3 +2231,7 @@
 ## entry 558
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 559
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
