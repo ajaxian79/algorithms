@@ -3312,3 +3312,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 813
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 814
+
+Edge case: input with one duplicate → handled without an extra pass.
