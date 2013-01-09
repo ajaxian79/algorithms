@@ -317,3 +317,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 274: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 275: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 276: Time complexity: O(n*k) where k is the alphabet size.
+// note 277: Tarjan SCC: low-link values find strongly connected components in one DFS.
