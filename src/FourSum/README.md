@@ -3152,3 +3152,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 773
 
 Treats the input as immutable.
+
+## entry 774
+
+Time complexity: O(n*k) where k is the alphabet size.
