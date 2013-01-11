@@ -2343,3 +2343,7 @@
 ## entry 569
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 570
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
