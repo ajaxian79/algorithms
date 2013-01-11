@@ -354,3 +354,4 @@ MunitTest max_depth_tests[] = {
 // edge note 316: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 317: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 318: Returns a freshly allocated string the caller must free.
+// edge note 319: Allocates one buffer of length n+1 for the result.
