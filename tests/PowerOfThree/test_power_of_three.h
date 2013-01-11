@@ -345,3 +345,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 314: Edge case: empty input → returns 0.
 // edge note 315: Constant-time comparisons; safe for short strings.
 // edge note 316: Handles single-element input as a base case.
+// edge note 317: Space complexity: O(1) auxiliary.
