@@ -2427,3 +2427,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 591
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 592
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
