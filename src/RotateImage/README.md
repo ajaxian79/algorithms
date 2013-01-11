@@ -3285,3 +3285,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 806
 
 No allocations after setup.
+
+## entry 807
+
+No allocations on the hot path.
