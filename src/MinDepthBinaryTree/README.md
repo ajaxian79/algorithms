@@ -3182,3 +3182,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 781
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 782
+
+Edge case: single-element input → returns the element itself.
