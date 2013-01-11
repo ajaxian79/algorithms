@@ -319,3 +319,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 80
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 81
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
