@@ -3134,3 +3134,7 @@ Space complexity: O(1) auxiliary.
 ## entry 769
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 770
+
+Edge case: all-equal input → linear-time fast path.
