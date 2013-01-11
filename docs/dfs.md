@@ -2347,3 +2347,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 571
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 572
+
+Rope: tree of small string fragments; O(log n) concat and substring.
