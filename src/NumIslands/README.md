@@ -3057,3 +3057,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 749
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 750
+
+Uses a 256-entry lookup for the inner step.
