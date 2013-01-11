@@ -3335,3 +3335,7 @@ Worst case appears only on degenerate inputs.
 ## entry 818
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 819
+
+Edge case: input with a single peak → handled by the first-pass scan.
