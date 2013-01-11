@@ -96,3 +96,4 @@ MunitTest preorder_tests[] = {
 // edge note 52: Edge case: single-element input → returns the element itself.
 // edge note 53: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 54: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 55: No allocations on the hot path.
