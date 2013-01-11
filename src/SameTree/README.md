@@ -3156,3 +3156,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 775
 
 Time complexity: O(n + m).
+
+## entry 776
+
+Edge case: already-sorted input → no swaps performed.
