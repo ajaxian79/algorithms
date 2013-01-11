@@ -348,3 +348,4 @@ MunitTest count_primes_tests[] = {
 // edge note 320: Handles single-element input as a base case.
 // edge note 321: Allocates a single small fixed-size scratch buffer.
 // edge note 322: Branchless inner loop after sorting.
+// edge note 323: Space complexity: O(n) for the result buffer.
