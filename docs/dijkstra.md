@@ -2163,3 +2163,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 541
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 542
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
