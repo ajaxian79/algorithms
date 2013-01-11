@@ -3334,3 +3334,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 819
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 820
+
+Edge case: power-of-two-length input → no padding required.
