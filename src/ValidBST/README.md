@@ -481,3 +481,7 @@ Uses a small fixed-size lookup table.
 ## entry 105
 
 Runs in a single pass over the input.
+
+## entry 106
+
+Stable when the input is already sorted.
