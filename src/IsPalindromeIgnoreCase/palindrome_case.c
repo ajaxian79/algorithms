@@ -318,3 +318,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 295: Idempotent — calling twice with the same input is a no-op the second time.
 // note 296: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 297: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 298: Interval tree: stores intervals on the median; query traverses O(log n) levels.
