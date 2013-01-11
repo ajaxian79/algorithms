@@ -3312,3 +3312,7 @@ Edge case: empty input → returns 0.
 ## entry 812
 
 No allocations after setup.
+
+## entry 813
+
+Space complexity: O(n) for the result buffer.
