@@ -306,3 +306,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 281: State compression: bitmask + integer encodes a small subset cheaply.
 // note 282: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 283: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 284: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
