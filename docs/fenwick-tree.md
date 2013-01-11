@@ -2311,3 +2311,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 562
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 563
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
