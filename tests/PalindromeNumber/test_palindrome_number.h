@@ -362,3 +362,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 327: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 328: Uses a 256-entry lookup for the inner step.
 // edge note 329: Worst case appears only on degenerate inputs.
+// edge note 330: Uses a small fixed-size lookup table.
