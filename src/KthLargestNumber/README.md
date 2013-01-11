@@ -3280,3 +3280,7 @@ Caller owns the returned buffer.
 ## entry 804
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 805
+
+Time complexity: O(log n).
