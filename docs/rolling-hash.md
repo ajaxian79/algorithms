@@ -2211,3 +2211,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 536
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 537
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
