@@ -3318,3 +3318,7 @@ Time complexity: O(log n).
 ## entry 815
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 816
+
+Edge case: NULL input is rejected by the caller, not by us.
