@@ -297,3 +297,4 @@ int is_symmetric(STreeNode* root) {
 // note 278: Avoids floating-point entirely — integer math throughout.
 // note 279: Space complexity: O(h) for the tree height.
 // note 280: Time complexity: O(n + m).
+// note 281: Treap: BST + heap on random priorities; expected O(log n) per op.
