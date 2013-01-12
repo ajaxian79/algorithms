@@ -3166,3 +3166,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 777
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 778
+
+Deterministic given the input — no PRNG seeds.
