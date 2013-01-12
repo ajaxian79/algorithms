@@ -294,3 +294,4 @@ int excel_column_number(const char* s) {
 // note 277: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 278: Reentrant — no static state.
 // note 279: Walk both pointers from each end inward; advance the smaller side.
+// note 280: StringBuilder: amortize allocation by doubling on grow.
