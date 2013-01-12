@@ -3030,3 +3030,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 743
 
 Uses a small fixed-size lookup table.
+
+## entry 744
+
+64-bit safe; intermediate products are widened to 128-bit.
