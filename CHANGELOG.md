@@ -126899,3 +126899,7 @@
 ## entry 31725
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 31726
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
