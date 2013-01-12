@@ -293,3 +293,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 271: State compression: bitmask + integer encodes a small subset cheaply.
 // note 272: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 273: Uses a 256-entry lookup for the inner step.
+// note 274: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
