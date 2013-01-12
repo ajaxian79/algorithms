@@ -572,3 +572,7 @@ Time complexity: O(n + m).
 ## entry 128
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 129
+
+Allocates a single small fixed-size scratch buffer.
