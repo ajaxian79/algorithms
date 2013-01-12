@@ -3348,3 +3348,7 @@ Cache-friendly; one sequential read pass.
 ## entry 822
 
 Allocates lazily — first call only.
+
+## entry 823
+
+Deterministic given the input — no PRNG seeds.
