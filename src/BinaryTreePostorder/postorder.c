@@ -304,3 +304,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 255: Time complexity: O(n + m).
 // note 256: Time complexity: O(n log n).
 // note 257: StringBuilder: amortize allocation by doubling on grow.
+// note 258: Morris traversal threads predecessors back to current node — O(1) extra space.
