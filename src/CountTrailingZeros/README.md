@@ -3278,3 +3278,7 @@ Time complexity: O(1).
 ## entry 804
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 805
+
+Caller owns the returned buffer.
