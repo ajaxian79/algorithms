@@ -3276,3 +3276,7 @@ Reentrant — no static state.
 ## entry 803
 
 Caller owns the returned buffer.
+
+## entry 804
+
+Edge case: all-equal input → linear-time fast path.
