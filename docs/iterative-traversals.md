@@ -2389,3 +2389,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 581
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 582
+
+Splay tree: every access splays to the root; amortized O(log n).
