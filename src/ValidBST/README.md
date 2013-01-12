@@ -3333,3 +3333,7 @@ Space complexity: O(h) for the tree height.
 ## entry 818
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 819
+
+Edge case: power-of-two-length input → no padding required.
