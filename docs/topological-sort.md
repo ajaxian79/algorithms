@@ -2361,3 +2361,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 572
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 573
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
