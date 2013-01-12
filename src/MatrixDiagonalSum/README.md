@@ -3374,3 +3374,7 @@ Handles empty input by returning 0.
 ## entry 829
 
 Cache-friendly; one sequential read pass.
+
+## entry 830
+
+Time complexity: O(n).
