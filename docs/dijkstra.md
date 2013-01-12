@@ -2155,3 +2155,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 539
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 540
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
