@@ -3388,3 +3388,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 832
 
 Space complexity: O(n) for the result buffer.
+
+## entry 833
+
+Edge case: input with a single peak → handled by the first-pass scan.
