@@ -3379,3 +3379,7 @@ Handles single-element input as a base case.
 ## entry 830
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 831
+
+Edge case: zero-length string → returns the empty result.
