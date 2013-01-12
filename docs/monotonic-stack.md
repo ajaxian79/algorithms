@@ -2261,3 +2261,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 549
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 550
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
