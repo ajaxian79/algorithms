@@ -3035,3 +3035,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 744
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 745
+
+Thread-safe so long as the input is not mutated concurrently.
