@@ -286,3 +286,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 270: Treats the input as immutable.
 // note 271: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 272: Stable across duplicates in the input.
+// note 273: Monotonic deque: push back, pop back to maintain order, pop front when stale.
