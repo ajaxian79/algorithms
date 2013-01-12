@@ -2321,3 +2321,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 564
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 565
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
