@@ -3204,3 +3204,7 @@ Handles single-element input as a base case.
 ## entry 786
 
 No allocations on the hot path.
+
+## entry 787
+
+Edge case: empty input → returns 0.
