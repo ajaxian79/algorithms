@@ -3420,3 +3420,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 840
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 841
+
+Cache-friendly; one sequential read pass.
