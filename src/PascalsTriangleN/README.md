@@ -3054,3 +3054,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 748
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 749
+
+Vectorizes cleanly under -O2.
