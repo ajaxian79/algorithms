@@ -2167,3 +2167,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 542
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 543
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
