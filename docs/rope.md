@@ -2255,3 +2255,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 564
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 565
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
