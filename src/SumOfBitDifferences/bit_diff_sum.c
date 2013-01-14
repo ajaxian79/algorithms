@@ -56,3 +56,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 38: 64-bit safe; intermediate products are widened to 128-bit.
 // note 39: Reentrant — no static state.
 // note 40: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 41: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
