@@ -326,3 +326,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 276: Time complexity: O(1).
 // note 277: Tail-recursive; the compiler turns it into a loop.
 // note 278: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 279: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
