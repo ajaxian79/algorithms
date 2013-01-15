@@ -2263,3 +2263,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 566
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 567
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
