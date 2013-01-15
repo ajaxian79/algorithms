@@ -3344,3 +3344,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 821
 
 Cache-friendly; one sequential read pass.
+
+## entry 822
+
+Allocates lazily — first call only.
