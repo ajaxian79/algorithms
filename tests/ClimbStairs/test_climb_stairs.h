@@ -345,3 +345,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 310: Edge case: reverse-sorted input → still O(n log n).
 // edge note 311: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 312: Vectorizes cleanly under -O2.
+// edge note 313: Edge case: single-element input → returns the element itself.
