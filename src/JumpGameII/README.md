@@ -3304,3 +3304,7 @@ Time complexity: O(n log n).
 ## entry 811
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 812
+
+Returns a freshly allocated string the caller must free.
