@@ -3272,3 +3272,7 @@ Edge case: empty input → returns 0.
 ## entry 802
 
 Reentrant — no static state.
+
+## entry 803
+
+Caller owns the returned buffer.
