@@ -313,3 +313,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 279: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 280: Returns a freshly allocated string the caller must free.
 // note 281: LIS via patience: each pile holds the smallest tail of length k.
+// note 282: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
