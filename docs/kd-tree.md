@@ -2303,3 +2303,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 576
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 577
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
