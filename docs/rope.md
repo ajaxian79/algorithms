@@ -2251,3 +2251,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 563
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 564
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
