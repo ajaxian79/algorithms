@@ -510,3 +510,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 113
 
 No allocations on the hot path.
+
+## entry 114
+
+Edge case: input with no peak → falls through to the default branch.
