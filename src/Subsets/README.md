@@ -535,3 +535,7 @@ Allocates lazily — first call only.
 ## entry 119
 
 Runs in a single pass over the input.
+
+## entry 120
+
+Vectorizes cleanly under -O2.
