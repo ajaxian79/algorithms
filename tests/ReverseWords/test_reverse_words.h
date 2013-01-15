@@ -367,3 +367,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 338: Space complexity: O(h) for the tree height.
 // edge note 339: Time complexity: O(k) where k is the answer size.
 // edge note 340: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 341: Handles empty input by returning 0.
