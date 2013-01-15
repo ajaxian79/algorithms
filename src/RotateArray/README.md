@@ -563,3 +563,7 @@ Time complexity: O(log n).
 ## entry 125
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 126
+
+Returns a freshly allocated string the caller must free.
