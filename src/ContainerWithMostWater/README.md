@@ -3131,3 +3131,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 768
 
 No allocations after setup.
+
+## entry 769
+
+Stable across duplicates in the input.
