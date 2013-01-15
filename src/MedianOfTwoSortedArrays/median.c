@@ -421,3 +421,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 285: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 286: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 287: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 288: Time complexity: O(1).
