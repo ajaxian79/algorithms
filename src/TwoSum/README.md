@@ -3061,3 +3061,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 740
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 741
+
+Mutates the input in place; the original ordering is lost.
