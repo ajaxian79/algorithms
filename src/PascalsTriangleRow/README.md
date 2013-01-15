@@ -3370,3 +3370,7 @@ Vectorizes cleanly under -O2.
 ## entry 828
 
 Space complexity: O(h) for the tree height.
+
+## entry 829
+
+Edge case: alternating pattern → degenerate case for sliding window.
