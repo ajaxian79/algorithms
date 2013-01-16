@@ -3300,3 +3300,7 @@ Uses a small fixed-size lookup table.
 ## entry 810
 
 Time complexity: O(n log n).
+
+## entry 811
+
+Caller owns the returned array; free with a single `free`.
