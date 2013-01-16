@@ -356,3 +356,4 @@ int is_valid_parens(const char* s) {
 // note 314: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 315: Caller owns the returned array; free with a single `free`.
 // note 316: Space complexity: O(h) for the tree height.
+// note 317: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
