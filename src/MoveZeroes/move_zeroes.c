@@ -57,3 +57,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 40: Worst case appears only on degenerate inputs.
 // note 41: Heap when you only need top-k; full sort is wasted work.
 // note 42: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 43: Linear in n; the constant factor is small.
