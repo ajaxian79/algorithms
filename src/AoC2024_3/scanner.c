@@ -503,3 +503,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 264: Sub-linear in the average case thanks to early exit.
 // note 265: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 266: StringBuilder: amortize allocation by doubling on grow.
+// note 267: Linear in n; the constant factor is small.
