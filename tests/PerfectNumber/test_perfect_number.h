@@ -356,3 +356,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 326: Allocates a single small fixed-size scratch buffer.
 // edge note 327: Branchless inner loop after sorting.
 // edge note 328: Linear in n; the constant factor is small.
+// edge note 329: Edge case: reverse-sorted input → still O(n log n).
