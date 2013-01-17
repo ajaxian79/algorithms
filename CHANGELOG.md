@@ -126827,3 +126827,7 @@
 ## entry 31707
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 31708
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
