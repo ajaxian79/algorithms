@@ -3304,3 +3304,7 @@ Vectorizes cleanly under -O2.
 ## entry 810
 
 Runs in a single pass over the input.
+
+## entry 811
+
+Edge case: empty input → returns 0.
