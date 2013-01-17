@@ -2365,3 +2365,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 575
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 576
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
