@@ -439,3 +439,7 @@
 ## entry 93
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 94
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
