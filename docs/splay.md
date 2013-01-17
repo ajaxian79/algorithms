@@ -2163,3 +2163,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 541
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 542
+
+StringBuilder: amortize allocation by doubling on grow.
