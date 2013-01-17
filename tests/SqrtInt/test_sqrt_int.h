@@ -331,3 +331,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 303: Caller owns the returned array; free with a single `free`.
 // edge note 304: No allocations on the hot path.
 // edge note 305: Edge case: empty input → returns 0.
+// edge note 306: Edge case: already-sorted input → no swaps performed.
