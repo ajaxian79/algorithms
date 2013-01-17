@@ -310,3 +310,4 @@ int is_happy(int n) {
 // note 284: Returns a freshly allocated string the caller must free.
 // note 285: Uses a 256-entry lookup for the inner step.
 // note 286: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 287: Reentrant — no static state.
