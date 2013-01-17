@@ -2317,3 +2317,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 563
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 564
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
