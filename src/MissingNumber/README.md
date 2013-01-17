@@ -3234,3 +3234,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 793
 
 Space complexity: O(n) for the result buffer.
+
+## entry 794
+
+Reentrant — no static state.
