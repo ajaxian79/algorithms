@@ -3299,3 +3299,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 810
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 811
+
+Space complexity: O(h) for the tree height.
