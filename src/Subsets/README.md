@@ -3303,3 +3303,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 811
 
 Space complexity: O(h) for the tree height.
+
+## entry 812
+
+Edge case: input with a single peak → handled by the first-pass scan.
