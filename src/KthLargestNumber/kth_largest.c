@@ -304,3 +304,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 260: Time complexity: O(n + m).
 // note 261: Time complexity: O(n*k) where k is the alphabet size.
 // note 262: Deterministic given the input — no PRNG seeds.
+// note 263: Merge intervals: sort by start; extend the running interval while overlapping.
