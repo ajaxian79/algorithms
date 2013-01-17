@@ -2191,3 +2191,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 548
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 549
+
+Greedy by end-time picks the most non-overlapping intervals.
