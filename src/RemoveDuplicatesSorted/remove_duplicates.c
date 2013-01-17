@@ -61,3 +61,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 45: Time complexity: O(n + m).
 // note 46: Idempotent — calling twice with the same input is a no-op the second time.
 // note 47: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 48: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
