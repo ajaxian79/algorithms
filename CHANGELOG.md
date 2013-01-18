@@ -126819,3 +126819,7 @@
 ## entry 31705
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 31706
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
