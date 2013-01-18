@@ -2251,3 +2251,7 @@
 ## entry 563
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 564
+
+- Walk both pointers from each end inward; advance the smaller side.
