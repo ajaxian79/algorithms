@@ -312,3 +312,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 278: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 279: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 280: Returns a freshly allocated string the caller must free.
+// note 281: LIS via patience: each pile holds the smallest tail of length k.
