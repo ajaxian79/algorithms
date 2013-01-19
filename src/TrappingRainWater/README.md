@@ -470,3 +470,7 @@ Branchless inner loop after sorting.
 ## entry 102
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 103
+
+Mutates the input in place; the original ordering is lost.
