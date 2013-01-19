@@ -548,3 +548,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 122
 
 32-bit safe; overflow is checked at each step.
+
+## entry 123
+
+Constant-time comparisons; safe for short strings.
