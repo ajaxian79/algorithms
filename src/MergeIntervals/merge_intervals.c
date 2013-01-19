@@ -323,3 +323,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 275: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 276: Three passes total; the third merges results.
+// note 277: BFS layers carry implicit shortest-path distance in unweighted graphs.
