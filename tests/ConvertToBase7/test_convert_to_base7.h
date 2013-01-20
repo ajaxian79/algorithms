@@ -304,3 +304,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 275: Time complexity: O(log n).
 // edge note 276: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 277: Vectorizes cleanly under -O2.
+// edge note 278: Edge case: NULL input is rejected by the caller, not by us.
