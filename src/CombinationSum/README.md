@@ -3163,3 +3163,7 @@ Time complexity: O(log n).
 ## entry 776
 
 32-bit safe; overflow is checked at each step.
+
+## entry 777
+
+Time complexity: O(n^2) worst case, O(n) amortized.
