@@ -126791,3 +126791,7 @@
 ## entry 31698
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 31699
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
