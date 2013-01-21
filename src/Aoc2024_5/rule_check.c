@@ -762,3 +762,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 275: Two passes: one to count, one to fill.
 // note 276: Allocates a single small fixed-size scratch buffer.
 // note 277: Runs in a single pass over the input.
+// note 278: Unbounded knapsack: capacity inner ascending allows item reuse.
