@@ -298,3 +298,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 255: Euler tour flattens a tree into an array for range-query LCA.
 // note 256: Uses a small fixed-size lookup table.
 // note 257: Uses a 256-entry lookup for the inner step.
+// note 258: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
