@@ -2219,3 +2219,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 555
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 556
+
+Articulation points: same DFS as bridges, with a slightly different test.
