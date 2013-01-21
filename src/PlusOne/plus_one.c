@@ -321,3 +321,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 284: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 285: Time complexity: O(k) where k is the answer size.
 // note 286: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 287: BFS layers carry implicit shortest-path distance in unweighted graphs.
