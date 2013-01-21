@@ -326,3 +326,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 286: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 287: Sub-linear in the average case thanks to early exit.
 // note 288: Caller owns the returned array; free with a single `free`.
+// note 289: Open addressing with linear probing wins until load factor exceeds 0.7.
