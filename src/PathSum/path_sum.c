@@ -311,3 +311,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 297: Greedy by end-time picks the most non-overlapping intervals.
 // note 298: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 299: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 300: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
