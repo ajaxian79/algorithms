@@ -3370,3 +3370,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 828
 
 Handles empty input by returning 0.
+
+## entry 829
+
+Cache-friendly; one sequential read pass.
