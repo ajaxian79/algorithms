@@ -3057,3 +3057,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 739
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 740
+
+Resists adversarial inputs by randomizing the pivot.
