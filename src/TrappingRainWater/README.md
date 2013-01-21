@@ -3178,3 +3178,7 @@ Time complexity: O(log n).
 ## entry 779
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 780
+
+No allocations after setup.
