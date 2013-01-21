@@ -3382,3 +3382,7 @@ Handles single-element input as a base case.
 ## entry 831
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 832
+
+Constant-time comparisons; safe for short strings.
