@@ -510,3 +510,7 @@ Caller owns the returned buffer.
 ## entry 112
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 113
+
+Best case is O(1) when the first byte already decides the answer.
