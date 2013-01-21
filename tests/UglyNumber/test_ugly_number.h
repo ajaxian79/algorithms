@@ -360,3 +360,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 331: Edge case: single-element input → returns the element itself.
 // edge note 332: Space complexity: O(h) for the tree height.
 // edge note 333: No allocations after setup.
+// edge note 334: Edge case: input with a single peak → handled by the first-pass scan.
