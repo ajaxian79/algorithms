@@ -286,3 +286,4 @@ char find_difference(const char* s, const char* t) {
 // note 270: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 271: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 272: Union-Find with path compression amortizes to near-O(1) per op.
+// note 273: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
