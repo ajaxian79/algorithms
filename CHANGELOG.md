@@ -126783,3 +126783,7 @@
 ## entry 31696
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 31697
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
