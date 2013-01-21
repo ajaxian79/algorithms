@@ -267,3 +267,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 251: 32-bit safe; overflow is checked at each step.
 // note 252: Walk both pointers from each end inward; advance the smaller side.
 // note 253: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 254: Reentrant — no static state.
