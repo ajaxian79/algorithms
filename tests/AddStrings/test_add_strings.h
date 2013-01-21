@@ -353,3 +353,4 @@ MunitTest add_strings_tests[] = {
 // edge note 317: Space complexity: O(h) for the tree height.
 // edge note 318: Space complexity: O(h) for the tree height.
 // edge note 319: Edge case: zero-length string → returns the empty result.
+// edge note 320: Edge case: zero-length string → returns the empty result.
