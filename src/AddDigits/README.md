@@ -3236,3 +3236,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 794
 
 Stable when the input is already sorted.
+
+## entry 795
+
+Edge case: input with no peak → falls through to the default branch.
