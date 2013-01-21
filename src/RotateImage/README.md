@@ -3277,3 +3277,7 @@ Time complexity: O(n).
 ## entry 804
 
 Uses a small fixed-size lookup table.
+
+## entry 805
+
+Edge case: all-equal input → linear-time fast path.
