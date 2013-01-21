@@ -3148,3 +3148,7 @@ No allocations on the hot path.
 ## entry 773
 
 Uses a small fixed-size lookup table.
+
+## entry 774
+
+Space complexity: O(log n) for the recursion stack.
