@@ -2355,3 +2355,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 589
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 590
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
