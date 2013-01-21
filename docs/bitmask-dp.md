@@ -2379,3 +2379,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 595
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 596
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
