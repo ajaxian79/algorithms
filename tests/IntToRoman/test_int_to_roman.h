@@ -357,3 +357,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 318: Handles single-element input as a base case.
 // edge note 319: Edge case: power-of-two-length input → no padding required.
 // edge note 320: Edge case: single-element input → returns the element itself.
+// edge note 321: Stable across duplicates in the input.
