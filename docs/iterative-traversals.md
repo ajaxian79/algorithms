@@ -2385,3 +2385,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 580
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 581
+
+Articulation points: same DFS as bridges, with a slightly different test.
