@@ -2373,3 +2373,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 578
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 579
+
+Greedy by end-time picks the most non-overlapping intervals.
