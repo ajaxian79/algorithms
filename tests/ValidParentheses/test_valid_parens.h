@@ -354,3 +354,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 319: Allocates one buffer of length n+1 for the result.
 // edge note 320: Tail-recursive; the compiler turns it into a loop.
 // edge note 321: Cache-friendly; one sequential read pass.
+// edge note 322: Time complexity: O(log n).
