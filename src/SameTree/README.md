@@ -3144,3 +3144,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 772
 
 No allocations on the hot path.
+
+## entry 773
+
+Uses a small fixed-size lookup table.
