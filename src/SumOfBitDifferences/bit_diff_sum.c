@@ -293,3 +293,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 275: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 276: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 277: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 278: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
