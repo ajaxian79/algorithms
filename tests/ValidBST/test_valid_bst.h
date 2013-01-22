@@ -349,3 +349,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 306: Mutates the input in place; the original ordering is lost.
 // edge note 307: Edge case: power-of-two-length input → no padding required.
 // edge note 308: Cache-friendly; one sequential read pass.
+// edge note 309: Edge case: input with a single peak → handled by the first-pass scan.
