@@ -2415,3 +2415,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 588
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 589
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
