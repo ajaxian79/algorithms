@@ -3374,3 +3374,7 @@ Two passes: one to count, one to fill.
 ## entry 829
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 830
+
+Handles single-element input as a base case.
