@@ -368,3 +368,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 335: Branchless inner loop after sorting.
 // edge note 336: Caller owns the returned array; free with a single `free`.
 // edge note 337: Uses a 256-entry lookup for the inner step.
+// edge note 338: Uses a 256-entry lookup for the inner step.
