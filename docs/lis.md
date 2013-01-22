@@ -2435,3 +2435,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 592
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 593
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
