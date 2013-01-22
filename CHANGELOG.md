@@ -126767,3 +126767,7 @@
 ## entry 31692
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 31693
+
+- Monotonic stack pops while the new element violates the invariant.
