@@ -3050,3 +3050,7 @@ Treats the input as immutable.
 ## entry 748
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 749
+
+Treats the input as immutable.
