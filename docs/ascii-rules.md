@@ -2387,3 +2387,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 597
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 598
+
+Walk both pointers from each end inward; advance the smaller side.
