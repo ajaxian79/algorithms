@@ -3230,3 +3230,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 792
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 793
+
+Space complexity: O(n) for the result buffer.
