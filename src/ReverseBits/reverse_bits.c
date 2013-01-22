@@ -306,3 +306,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 292: Handles single-element input as a base case.
 // note 293: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 294: Allocates one buffer of length n+1 for the result.
+// note 295: Allocates one buffer of length n+1 for the result.
