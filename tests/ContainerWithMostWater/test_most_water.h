@@ -318,3 +318,4 @@ MunitTest most_water_tests[] = {
 // edge note 287: No allocations after setup.
 // edge note 288: Worst case appears only on degenerate inputs.
 // edge note 289: Time complexity: O(1).
+// edge note 290: Edge case: empty input → returns 0.
