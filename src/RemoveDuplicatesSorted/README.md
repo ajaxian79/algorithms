@@ -3378,3 +3378,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 830
 
 Handles single-element input as a base case.
+
+## entry 831
+
+Deterministic given the input — no PRNG seeds.
