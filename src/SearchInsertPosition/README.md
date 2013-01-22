@@ -3138,3 +3138,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 770
 
 Vectorizes cleanly under -O2.
+
+## entry 771
+
+Space complexity: O(n) for the result buffer.
