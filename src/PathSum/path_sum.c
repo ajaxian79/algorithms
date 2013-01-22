@@ -310,3 +310,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 296: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 297: Greedy by end-time picks the most non-overlapping intervals.
 // note 298: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 299: StringBuilder pitfall: reuse forces a deep copy on the first read.
