@@ -2391,3 +2391,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 582
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 583
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
