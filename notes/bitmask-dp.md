@@ -2251,3 +2251,7 @@
 ## entry 563
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 564
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
