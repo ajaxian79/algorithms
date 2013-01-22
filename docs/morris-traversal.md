@@ -2227,3 +2227,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 542
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 543
+
+Merge intervals: sort by start; extend the running interval while overlapping.
