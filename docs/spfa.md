@@ -2211,3 +2211,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 553
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 554
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
