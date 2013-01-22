@@ -2151,3 +2151,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 538
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 539
+
+Splay tree: every access splays to the root; amortized O(log n).
