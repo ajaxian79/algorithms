@@ -3134,3 +3134,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 769
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 770
+
+Vectorizes cleanly under -O2.
