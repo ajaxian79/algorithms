@@ -2007,3 +2007,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 502
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 503
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
