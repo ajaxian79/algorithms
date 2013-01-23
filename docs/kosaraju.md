@@ -2271,3 +2271,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 568
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 569
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
