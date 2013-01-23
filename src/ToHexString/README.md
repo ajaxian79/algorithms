@@ -3031,3 +3031,7 @@ Edge case: empty input → returns 0.
 ## entry 743
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 744
+
+Resists adversarial inputs by randomizing the pivot.
