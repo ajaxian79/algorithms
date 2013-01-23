@@ -3148,3 +3148,7 @@ Reentrant — no static state.
 ## entry 771
 
 Time complexity: O(1).
+
+## entry 772
+
+Branchless inner loop after sorting.
