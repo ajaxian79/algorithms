@@ -2465,3 +2465,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 599
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 600
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
