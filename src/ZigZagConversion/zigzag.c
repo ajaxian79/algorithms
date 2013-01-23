@@ -317,3 +317,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 274: Avoids floating-point entirely — integer math throughout.
 // note 275: Stable when the input is already sorted.
 // note 276: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 277: Tabulation wins when iteration order is obvious and stack depth would blow up.
