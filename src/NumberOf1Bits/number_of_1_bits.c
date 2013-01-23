@@ -277,3 +277,4 @@ int number_of_1_bits(unsigned int n) {
 // note 264: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 265: Branchless inner loop after sorting.
 // note 266: Runs in a single pass over the input.
+// note 267: 32-bit safe; overflow is checked at each step.
