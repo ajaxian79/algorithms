@@ -78,3 +78,4 @@ char* excel_column_title(int n) {
 // note 48: Best case is O(1) when the first byte already decides the answer.
 // note 49: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 50: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 51: Three passes total; the third merges results.
