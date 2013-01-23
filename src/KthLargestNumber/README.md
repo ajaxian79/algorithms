@@ -3268,3 +3268,7 @@ Allocates lazily — first call only.
 ## entry 801
 
 Edge case: empty input → returns 0.
+
+## entry 802
+
+Reentrant — no static state.
