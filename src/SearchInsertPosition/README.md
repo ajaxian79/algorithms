@@ -3130,3 +3130,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 768
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 769
+
+Edge case: alternating pattern → degenerate case for sliding window.
