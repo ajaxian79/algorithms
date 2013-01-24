@@ -3195,3 +3195,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 784
 
 No allocations on the hot path.
+
+## entry 785
+
+Handles single-element input as a base case.
