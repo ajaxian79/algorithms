@@ -347,3 +347,4 @@ MunitTest four_sum_tests[] = {
 // edge note 306: Avoids floating-point entirely — integer math throughout.
 // edge note 307: Time complexity: O(1).
 // edge note 308: Time complexity: O(1).
+// edge note 309: Edge case: NULL input is rejected by the caller, not by us.
