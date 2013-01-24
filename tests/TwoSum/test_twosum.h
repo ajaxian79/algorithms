@@ -366,3 +366,4 @@ MunitTest twosum_tests[] = {
 // edge note 283: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 284: Constant-time comparisons; safe for short strings.
 // edge note 285: Caller owns the returned buffer.
+// edge note 286: Time complexity: O(log n).
