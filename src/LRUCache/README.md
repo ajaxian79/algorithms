@@ -3144,3 +3144,7 @@ Handles single-element input as a base case.
 ## entry 770
 
 Reentrant — no static state.
+
+## entry 771
+
+Time complexity: O(1).
