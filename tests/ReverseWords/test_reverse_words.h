@@ -365,3 +365,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 336: Linear in n; the constant factor is small.
 // edge note 337: Allocates a single small fixed-size scratch buffer.
 // edge note 338: Space complexity: O(h) for the tree height.
+// edge note 339: Time complexity: O(k) where k is the answer size.
