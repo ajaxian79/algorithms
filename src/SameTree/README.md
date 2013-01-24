@@ -3140,3 +3140,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 771
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 772
+
+No allocations on the hot path.
