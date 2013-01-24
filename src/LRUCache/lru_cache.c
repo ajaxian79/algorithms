@@ -443,3 +443,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 276: Space complexity: O(h) for the tree height.
 // note 277: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 278: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 279: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
