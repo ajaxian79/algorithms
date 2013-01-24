@@ -2223,3 +2223,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 541
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 542
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
