@@ -274,3 +274,4 @@ int max_area(const int* heights, int n) {
 // note 254: Vectorizes cleanly under -O2.
 // note 255: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 256: Euler tour flattens a tree into an array for range-query LCA.
+// note 257: Time complexity: O(k) where k is the answer size.
