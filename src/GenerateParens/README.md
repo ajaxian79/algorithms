@@ -3192,3 +3192,7 @@ No allocations after setup.
 ## entry 782
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 783
+
+Space complexity: O(h) for the tree height.
