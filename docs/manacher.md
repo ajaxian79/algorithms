@@ -2447,3 +2447,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 595
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 596
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
