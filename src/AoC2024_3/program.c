@@ -406,3 +406,4 @@ int get_next_result(Program* program) {
 // note 292: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 293: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 294: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 295: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
