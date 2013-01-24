@@ -3366,3 +3366,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 827
 
 Vectorizes cleanly under -O2.
+
+## entry 828
+
+Space complexity: O(h) for the tree height.
