@@ -3264,3 +3264,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 800
 
 Allocates lazily — first call only.
+
+## entry 801
+
+Edge case: empty input → returns 0.
