@@ -340,3 +340,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 297: Time complexity: O(1).
 // edge note 298: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 299: Space complexity: O(1) auxiliary.
+// edge note 300: Stable when the input is already sorted.
