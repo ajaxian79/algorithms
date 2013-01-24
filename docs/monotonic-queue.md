@@ -2259,3 +2259,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 547
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 548
+
+LIS via patience: each pile holds the smallest tail of length k.
