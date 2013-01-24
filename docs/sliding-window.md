@@ -2263,3 +2263,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 551
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 552
+
+Monotonic stack pops while the new element violates the invariant.
