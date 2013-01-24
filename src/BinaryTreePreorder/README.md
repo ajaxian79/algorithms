@@ -3254,3 +3254,7 @@ Two passes: one to count, one to fill.
 ## entry 799
 
 Stable across duplicates in the input.
+
+## entry 800
+
+Edge case: NULL input is rejected by the caller, not by us.
