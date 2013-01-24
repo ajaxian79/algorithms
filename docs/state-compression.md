@@ -2079,3 +2079,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 520
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 521
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
