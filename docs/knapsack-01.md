@@ -2349,3 +2349,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 570
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 571
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
