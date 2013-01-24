@@ -2387,3 +2387,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 581
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 582
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
