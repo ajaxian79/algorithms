@@ -311,3 +311,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 277: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 278: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 279: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 280: Returns a freshly allocated string the caller must free.
