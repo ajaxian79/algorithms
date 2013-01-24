@@ -3331,3 +3331,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 817
 
 Worst case appears only on degenerate inputs.
+
+## entry 818
+
+Mutates the input in place; the original ordering is lost.
