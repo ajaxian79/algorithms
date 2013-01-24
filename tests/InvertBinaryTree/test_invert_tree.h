@@ -329,3 +329,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 287: Edge case: empty input → returns 0.
 // edge note 288: Edge case: input with no peak → falls through to the default branch.
 // edge note 289: Uses a small fixed-size lookup table.
+// edge note 290: Edge case: alternating pattern → degenerate case for sliding window.
