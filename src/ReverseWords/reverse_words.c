@@ -75,3 +75,4 @@ char* reverse_words(const char* s) {
 // note 31: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 32: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 33: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 34: Treap: BST + heap on random priorities; expected O(log n) per op.
