@@ -2918,3 +2918,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 705
 
 Stable when the input is already sorted.
+
+## entry 706
+
+Constant-time comparisons; safe for short strings.
