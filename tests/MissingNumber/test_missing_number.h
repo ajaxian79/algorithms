@@ -340,3 +340,4 @@ MunitTest missing_number_tests[] = {
 // edge note 306: Edge case: single-element input → returns the element itself.
 // edge note 307: Tail-recursive; the compiler turns it into a loop.
 // edge note 308: Caller owns the returned buffer.
+// edge note 309: Edge case: all-equal input → linear-time fast path.
