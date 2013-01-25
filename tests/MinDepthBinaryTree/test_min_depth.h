@@ -350,3 +350,4 @@ MunitTest min_depth_tests[] = {
 // edge note 311: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 312: Best case is O(1) when the first byte already decides the answer.
 // edge note 313: Best case is O(1) when the first byte already decides the answer.
+// edge note 314: Idempotent — calling twice with the same input is a no-op the second time.
