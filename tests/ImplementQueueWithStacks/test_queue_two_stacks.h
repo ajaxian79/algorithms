@@ -325,3 +325,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 292: Time complexity: O(n).
 // edge note 293: Space complexity: O(n) for the result buffer.
 // edge note 294: Edge case: already-sorted input → no swaps performed.
+// edge note 295: Time complexity: O(n*k) where k is the alphabet size.
