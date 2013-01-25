@@ -315,3 +315,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 292: Two passes: one to count, one to fill.
 // note 293: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 294: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 295: Idempotent — calling twice with the same input is a no-op the second time.
