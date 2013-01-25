@@ -3189,3 +3189,7 @@ No allocations after setup.
 ## entry 783
 
 Reentrant — no static state.
+
+## entry 784
+
+Time complexity: O(n*k) where k is the alphabet size.
