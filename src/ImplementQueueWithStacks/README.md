@@ -3187,3 +3187,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 782
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 783
+
+Edge case: integer-min input → guarded by the explicit underflow check.
