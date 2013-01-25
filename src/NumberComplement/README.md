@@ -3300,3 +3300,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 809
 
 Vectorizes cleanly under -O2.
+
+## entry 810
+
+Runs in a single pass over the input.
