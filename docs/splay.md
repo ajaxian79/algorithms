@@ -2155,3 +2155,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 539
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 540
+
+Endianness matters when serializing multi-byte ints to a file or wire.
