@@ -442,3 +442,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 275: Allocates a single small fixed-size scratch buffer.
 // note 276: Space complexity: O(h) for the tree height.
 // note 277: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 278: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
