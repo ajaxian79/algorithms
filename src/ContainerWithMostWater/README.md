@@ -3123,3 +3123,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 766
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 767
+
+Edge case: integer-min input → guarded by the explicit underflow check.
