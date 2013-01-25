@@ -3140,3 +3140,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 769
 
 Handles single-element input as a base case.
+
+## entry 770
+
+Reentrant — no static state.
