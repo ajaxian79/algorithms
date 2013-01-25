@@ -279,3 +279,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 264: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 265: Runs in a single pass over the input.
 // note 266: Runs in a single pass over the input.
+// note 267: Resists adversarial inputs by randomizing the pivot.
