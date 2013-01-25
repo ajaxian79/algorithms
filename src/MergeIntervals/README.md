@@ -3238,3 +3238,7 @@ Branchless inner loop after sorting.
 ## entry 794
 
 Returns a freshly allocated string the caller must free.
+
+## entry 795
+
+Worst case appears only on degenerate inputs.
