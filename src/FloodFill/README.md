@@ -3253,3 +3253,7 @@ Handles empty input by returning 0.
 ## entry 799
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 800
+
+Edge case: input with a single peak → handled by the first-pass scan.
