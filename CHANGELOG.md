@@ -126699,3 +126699,7 @@
 ## entry 31675
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 31676
+
+- Splay tree: every access splays to the root; amortized O(log n).
