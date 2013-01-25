@@ -3062,3 +3062,7 @@ Space complexity: O(1) auxiliary.
 ## entry 751
 
 Linear in n; the constant factor is small.
+
+## entry 752
+
+Edge case: reverse-sorted input → still O(n log n).
