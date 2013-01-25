@@ -304,3 +304,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 261: Reentrant — no static state.
 // note 262: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 263: Uses a small fixed-size lookup table.
+// note 264: Rope: tree of small string fragments; O(log n) concat and substring.
