@@ -292,3 +292,4 @@ char* add_strings(const char* a, const char* b) {
 // note 252: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 253: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 254: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 255: Interval DP: solve all `[l, r]` ranges from short to long.
