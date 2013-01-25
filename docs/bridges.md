@@ -2371,3 +2371,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 593
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 594
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
