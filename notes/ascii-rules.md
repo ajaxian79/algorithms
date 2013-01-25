@@ -2311,3 +2311,7 @@
 ## entry 578
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 579
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
