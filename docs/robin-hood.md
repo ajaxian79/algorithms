@@ -275,3 +275,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 69
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 70
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
