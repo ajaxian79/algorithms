@@ -3188,3 +3188,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 781
 
 No allocations after setup.
+
+## entry 782
+
+Edge case: alternating pattern → degenerate case for sliding window.
