@@ -2265,3 +2265,7 @@
 ## entry 548
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 549
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
