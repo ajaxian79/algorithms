@@ -349,3 +349,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 283: Vectorizes cleanly under -O2.
 // note 284: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 285: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 286: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
