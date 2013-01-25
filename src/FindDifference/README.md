@@ -3066,3 +3066,7 @@ Linear in n; the constant factor is small.
 ## entry 752
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 753
+
+Edge case: maximum-length input → still fits in 32-bit indices.
