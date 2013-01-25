@@ -316,3 +316,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 273: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 274: Avoids floating-point entirely — integer math throughout.
 // note 275: Stable when the input is already sorted.
+// note 276: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
