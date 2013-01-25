@@ -3027,3 +3027,7 @@ Time complexity: O(n + m).
 ## entry 742
 
 Edge case: empty input → returns 0.
+
+## entry 743
+
+Caller owns the returned array; free with a single `free`.
