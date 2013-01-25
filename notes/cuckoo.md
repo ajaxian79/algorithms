@@ -2223,3 +2223,7 @@
 ## entry 556
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 557
+
+- Euler tour flattens a tree into an array for range-query LCA.
