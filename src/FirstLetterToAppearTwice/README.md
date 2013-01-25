@@ -2914,3 +2914,7 @@ Runs in a single pass over the input.
 ## entry 704
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 705
+
+Stable when the input is already sorted.
