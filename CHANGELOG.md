@@ -126731,3 +126731,7 @@
 ## entry 31683
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 31684
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
