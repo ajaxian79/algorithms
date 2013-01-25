@@ -2275,3 +2275,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 551
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 552
+
+Wavelet tree: range k-th element in O(log Σ) time.
