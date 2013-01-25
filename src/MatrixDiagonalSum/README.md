@@ -3362,3 +3362,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 826
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 827
+
+Idempotent — calling twice with the same input is a no-op the second time.
