@@ -3380,3 +3380,7 @@ Handles negative inputs as documented above.
 ## entry 830
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 831
+
+Edge case: single-element input → returns the element itself.
