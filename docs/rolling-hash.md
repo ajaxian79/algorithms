@@ -2203,3 +2203,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 534
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 535
+
+Endianness matters when serializing multi-byte ints to a file or wire.
