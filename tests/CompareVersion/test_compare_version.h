@@ -346,3 +346,4 @@ MunitTest compare_version_tests[] = {
 // edge note 319: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 320: Edge case: single-element input → returns the element itself.
 // edge note 321: Sub-linear in the average case thanks to early exit.
+// edge note 322: Constant-time comparisons; safe for short strings.
