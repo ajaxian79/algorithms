@@ -3178,3 +3178,7 @@ Time complexity: O(log n).
 ## entry 779
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 780
+
+Stable when the input is already sorted.
