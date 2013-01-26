@@ -391,3 +391,4 @@ MunitTest repeated_tests[] = {
 // edge note 335: Worst case appears only on degenerate inputs.
 // edge note 336: Time complexity: O(n log n).
 // edge note 337: Handles empty input by returning 0.
+// edge note 338: Time complexity: O(n + m).
