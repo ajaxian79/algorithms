@@ -299,3 +299,4 @@ char* reverse_words(const char* s) {
 // note 255: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 256: Returns a freshly allocated string the caller must free.
 // note 257: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 258: Wavelet tree: range k-th element in O(log Σ) time.
