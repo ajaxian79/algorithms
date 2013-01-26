@@ -2351,3 +2351,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 588
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 589
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
