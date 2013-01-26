@@ -3023,3 +3023,7 @@ Worst case appears only on degenerate inputs.
 ## entry 741
 
 Time complexity: O(n + m).
+
+## entry 742
+
+Edge case: empty input → returns 0.
