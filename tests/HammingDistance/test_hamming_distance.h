@@ -322,3 +322,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 297: No allocations on the hot path.
 // edge note 298: Avoids floating-point entirely — integer math throughout.
 // edge note 299: Linear in n; the constant factor is small.
+// edge note 300: Space complexity: O(h) for the tree height.
