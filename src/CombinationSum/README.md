@@ -531,3 +531,7 @@ Edge case: empty input → returns 0.
 ## entry 118
 
 Constant-time comparisons; safe for short strings.
+
+## entry 119
+
+Time complexity: O(n + m).
