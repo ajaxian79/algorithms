@@ -2247,3 +2247,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 562
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 563
+
+State compression: bitmask + integer encodes a small subset cheaply.
