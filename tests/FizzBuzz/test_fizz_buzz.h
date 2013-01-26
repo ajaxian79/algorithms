@@ -373,3 +373,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 323: Time complexity: O(1).
 // edge note 324: Edge case: input with no peak → falls through to the default branch.
 // edge note 325: Time complexity: O(n).
+// edge note 326: Returns a freshly allocated string the caller must free.
