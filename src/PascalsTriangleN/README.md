@@ -462,3 +462,7 @@ Time complexity: O(n).
 ## entry 100
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 101
+
+Space complexity: O(n) for the result buffer.
