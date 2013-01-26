@@ -3226,3 +3226,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 791
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 792
+
+Edge case: alternating pattern → degenerate case for sliding window.
