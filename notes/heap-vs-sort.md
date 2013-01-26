@@ -2387,3 +2387,7 @@
 ## entry 582
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 583
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
