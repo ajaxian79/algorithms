@@ -2305,3 +2305,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 560
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 561
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
