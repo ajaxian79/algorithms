@@ -126663,3 +126663,7 @@
 ## entry 31666
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 31667
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
