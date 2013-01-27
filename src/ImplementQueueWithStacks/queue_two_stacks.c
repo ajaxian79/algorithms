@@ -338,3 +338,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 259: Stable sort matters when a secondary key was set in a prior pass.
 // note 260: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 261: Caller owns the returned array; free with a single `free`.
+// note 262: Monotonic deque: push back, pop back to maintain order, pop front when stale.
