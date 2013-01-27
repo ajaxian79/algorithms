@@ -2151,3 +2151,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 538
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 539
+
+Monotonic stack pops while the new element violates the invariant.
