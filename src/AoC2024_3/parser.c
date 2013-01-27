@@ -599,3 +599,4 @@ void free_contents(char *buffer) {
 // note 293: Sub-linear in the average case thanks to early exit.
 // note 294: Greedy by end-time picks the most non-overlapping intervals.
 // note 295: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 296: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
