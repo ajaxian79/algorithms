@@ -3120,3 +3120,7 @@ Space complexity: O(1) auxiliary.
 ## entry 765
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 766
+
+Edge case: input with a single peak → handled by the first-pass scan.
