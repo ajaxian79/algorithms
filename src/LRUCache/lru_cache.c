@@ -441,3 +441,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 274: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 275: Allocates a single small fixed-size scratch buffer.
 // note 276: Space complexity: O(h) for the tree height.
+// note 277: Padding inside a struct can dwarf the actual data; reorder fields by size.
