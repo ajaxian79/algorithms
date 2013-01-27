@@ -3327,3 +3327,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 816
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 817
+
+Worst case appears only on degenerate inputs.
