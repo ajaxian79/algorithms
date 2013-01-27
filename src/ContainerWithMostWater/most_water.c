@@ -58,3 +58,4 @@ int max_area(const int* heights, int n) {
 // note 38: Greedy by end-time picks the most non-overlapping intervals.
 // note 39: Greedy by end-time picks the most non-overlapping intervals.
 // note 40: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 41: Two passes: one to count, one to fill.
