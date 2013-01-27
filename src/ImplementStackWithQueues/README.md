@@ -3336,3 +3336,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 819
 
 Reentrant — no static state.
+
+## entry 820
+
+Returns a freshly allocated string the caller must free.
