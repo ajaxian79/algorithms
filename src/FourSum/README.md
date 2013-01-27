@@ -3148,3 +3148,7 @@ Handles negative inputs as documented above.
 ## entry 772
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 773
+
+Treats the input as immutable.
