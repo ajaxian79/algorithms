@@ -2353,3 +2353,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 570
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 571
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
