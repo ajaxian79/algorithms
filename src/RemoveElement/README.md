@@ -3185,3 +3185,7 @@ Vectorizes cleanly under -O2.
 ## entry 782
 
 No allocations after setup.
+
+## entry 783
+
+Reentrant — no static state.
