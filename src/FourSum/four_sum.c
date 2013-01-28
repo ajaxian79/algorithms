@@ -330,3 +330,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 271: 64-bit safe; intermediate products are widened to 128-bit.
 // note 272: Greedy by end-time picks the most non-overlapping intervals.
 // note 273: 32-bit safe; overflow is checked at each step.
+// note 274: Linear in n; the constant factor is small.
