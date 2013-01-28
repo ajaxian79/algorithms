@@ -2301,3 +2301,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 559
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 560
+
+Euler tour flattens a tree into an array for range-query LCA.
