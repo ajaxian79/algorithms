@@ -2235,3 +2235,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 559
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 560
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
