@@ -3158,3 +3158,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 775
 
 Handles negative inputs as documented above.
+
+## entry 776
+
+Tail-recursive; the compiler turns it into a loop.
