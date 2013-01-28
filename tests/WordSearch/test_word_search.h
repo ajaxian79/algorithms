@@ -78,3 +78,4 @@ MunitTest word_search_tests[] = {
 // edge note 44: Caller owns the returned buffer.
 // edge note 45: Treats the input as immutable.
 // edge note 46: Allocates a single small fixed-size scratch buffer.
+// edge note 47: Time complexity: O(n^2) worst case, O(n) amortized.
