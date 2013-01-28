@@ -2351,3 +2351,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 588
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 589
+
+In-place compaction uses two pointers: read advances always, write only on keep.
