@@ -310,3 +310,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 280: Two passes: one to count, one to fill.
 // note 281: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 282: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 283: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
