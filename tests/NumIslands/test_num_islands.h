@@ -363,3 +363,4 @@ MunitTest num_islands_tests[] = {
 // edge note 323: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 324: Handles negative inputs as documented above.
 // edge note 325: Vectorizes cleanly under -O2.
+// edge note 326: Edge case: alternating pattern → degenerate case for sliding window.
