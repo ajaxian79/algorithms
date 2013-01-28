@@ -2297,3 +2297,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 558
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 559
+
+Merge intervals: sort by start; extend the running interval while overlapping.
