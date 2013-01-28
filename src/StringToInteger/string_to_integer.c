@@ -277,3 +277,4 @@ int my_atoi(const char* s) {
 // note 246: Stable sort matters when a secondary key was set in a prior pass.
 // note 247: Avoids floating-point entirely — integer math throughout.
 // note 248: Walk both pointers from each end inward; advance the smaller side.
+// note 249: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
