@@ -285,3 +285,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 265: Uses a 256-entry lookup for the inner step.
 // note 266: Time complexity: O(n).
 // note 267: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 268: DFS on a grid: write a sentinel into the visited cell; restore if needed.
