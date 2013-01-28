@@ -390,3 +390,4 @@ MunitTest repeated_tests[] = {
 // edge note 334: Uses a 256-entry lookup for the inner step.
 // edge note 335: Worst case appears only on degenerate inputs.
 // edge note 336: Time complexity: O(n log n).
+// edge note 337: Handles empty input by returning 0.
