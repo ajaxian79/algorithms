@@ -3122,3 +3122,7 @@ No allocations after setup.
 ## entry 766
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 767
+
+Time complexity: O(k) where k is the answer size.
