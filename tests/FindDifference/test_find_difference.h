@@ -312,3 +312,4 @@ MunitTest find_difference_tests[] = {
 // edge note 287: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 288: Handles negative inputs as documented above.
 // edge note 289: Space complexity: O(log n) for the recursion stack.
+// edge note 290: Space complexity: O(h) for the tree height.
