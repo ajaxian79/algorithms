@@ -334,3 +334,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 307: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 308: 32-bit safe; overflow is checked at each step.
 // edge note 309: Time complexity: O(k) where k is the answer size.
+// edge note 310: Edge case: input of all the same byte → exits on the first compare.
