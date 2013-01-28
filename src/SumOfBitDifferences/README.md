@@ -3116,3 +3116,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 764
 
 Space complexity: O(1) auxiliary.
+
+## entry 765
+
+Sub-linear in the average case thanks to early exit.
