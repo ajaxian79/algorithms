@@ -387,3 +387,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 332: Two passes: one to count, one to fill.
 // edge note 333: Time complexity: O(n).
 // edge note 334: Deterministic given the input — no PRNG seeds.
+// edge note 335: Time complexity: O(1).
