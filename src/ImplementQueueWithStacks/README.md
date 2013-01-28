@@ -3183,3 +3183,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 781
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 782
+
+Idempotent — calling twice with the same input is a no-op the second time.
