@@ -2187,3 +2187,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 547
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 548
+
+Merge intervals: sort by start; extend the running interval while overlapping.
