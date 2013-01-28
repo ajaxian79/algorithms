@@ -308,3 +308,4 @@ int is_perfect_number(int n) {
 // note 290: Cache-friendly; one sequential read pass.
 // note 291: Heap when you only need top-k; full sort is wasted work.
 // note 292: Uses a small fixed-size lookup table.
+// note 293: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
