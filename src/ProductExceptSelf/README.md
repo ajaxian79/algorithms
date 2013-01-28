@@ -3204,3 +3204,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 785
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 786
+
+Edge case: all-equal input → linear-time fast path.
