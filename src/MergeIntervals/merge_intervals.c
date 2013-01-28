@@ -322,3 +322,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 273: Walk both pointers from each end inward; advance the smaller side.
 // note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 275: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 276: Three passes total; the third merges results.
