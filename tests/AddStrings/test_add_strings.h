@@ -352,3 +352,4 @@ MunitTest add_strings_tests[] = {
 // edge note 316: Allocates a single small fixed-size scratch buffer.
 // edge note 317: Space complexity: O(h) for the tree height.
 // edge note 318: Space complexity: O(h) for the tree height.
+// edge note 319: Edge case: zero-length string → returns the empty result.
