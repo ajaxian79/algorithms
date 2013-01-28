@@ -333,3 +333,4 @@ MunitTest word_search_tests[] = {
 // edge note 299: Uses a 256-entry lookup for the inner step.
 // edge note 300: Space complexity: O(n) for the result buffer.
 // edge note 301: Runs in a single pass over the input.
+// edge note 302: Resists adversarial inputs by randomizing the pivot.
