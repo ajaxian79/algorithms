@@ -354,3 +354,4 @@ MunitTest path_sum_tests[] = {
 // edge note 315: Handles single-element input as a base case.
 // edge note 316: Time complexity: O(k) where k is the answer size.
 // edge note 317: Allocates one buffer of length n+1 for the result.
+// edge note 318: Edge case: input of all the same byte → exits on the first compare.
