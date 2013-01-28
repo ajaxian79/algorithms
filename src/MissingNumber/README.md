@@ -3222,3 +3222,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 790
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 791
+
+Allocates one buffer of length n+1 for the result.
