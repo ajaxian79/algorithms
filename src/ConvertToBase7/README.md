@@ -3420,3 +3420,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 840
 
 Runs in a single pass over the input.
+
+## entry 841
+
+Edge case: input of all the same byte → exits on the first compare.
