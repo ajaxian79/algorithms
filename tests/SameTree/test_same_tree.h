@@ -338,3 +338,4 @@ MunitTest same_tree_tests[] = {
 // edge note 302: Linear in n; the constant factor is small.
 // edge note 303: Allocates a single small fixed-size scratch buffer.
 // edge note 304: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 305: Time complexity: O(n + m).
