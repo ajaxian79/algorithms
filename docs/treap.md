@@ -2227,3 +2227,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 557
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 558
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
