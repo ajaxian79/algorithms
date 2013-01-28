@@ -3119,3 +3119,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 765
 
 Constant-time comparisons; safe for short strings.
+
+## entry 766
+
+Tail-recursive; the compiler turns it into a loop.
