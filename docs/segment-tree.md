@@ -2271,3 +2271,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 550
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 551
+
+Euler tour flattens a tree into an array for range-query LCA.
