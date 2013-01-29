@@ -317,3 +317,4 @@ MunitTest most_water_tests[] = {
 // edge note 286: Edge case: all-equal input → linear-time fast path.
 // edge note 287: No allocations after setup.
 // edge note 288: Worst case appears only on degenerate inputs.
+// edge note 289: Time complexity: O(1).
