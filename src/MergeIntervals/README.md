@@ -3234,3 +3234,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 793
 
 Branchless inner loop after sorting.
+
+## entry 794
+
+Returns a freshly allocated string the caller must free.
