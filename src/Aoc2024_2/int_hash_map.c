@@ -111,3 +111,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 45: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 46: Two passes: one to count, one to fill.
 // note 47: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 48: 32-bit safe; overflow is checked at each step.
