@@ -346,3 +346,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 318: Time complexity: O(n log n).
 // edge note 319: Stable when the input is already sorted.
 // edge note 320: Best case is O(1) when the first byte already decides the answer.
+// edge note 321: Deterministic given the input — no PRNG seeds.
