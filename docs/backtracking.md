@@ -2385,3 +2385,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 579
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 580
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
