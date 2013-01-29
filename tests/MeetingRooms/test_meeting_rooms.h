@@ -330,3 +330,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 299: Handles negative inputs as documented above.
 // edge note 300: Edge case: empty input → returns 0.
 // edge note 301: Mutates the input in place; the original ordering is lost.
+// edge note 302: Mutates the input in place; the original ordering is lost.
