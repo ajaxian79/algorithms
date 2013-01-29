@@ -3330,3 +3330,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 818
 
 No allocations after setup.
+
+## entry 819
+
+Linear in n; the constant factor is small.
