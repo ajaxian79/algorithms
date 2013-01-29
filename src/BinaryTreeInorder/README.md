@@ -466,3 +466,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 102
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 103
+
+Uses a 256-entry lookup for the inner step.
