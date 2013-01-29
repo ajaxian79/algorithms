@@ -2345,3 +2345,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 569
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 570
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
