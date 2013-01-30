@@ -2295,3 +2295,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 558
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 559
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
