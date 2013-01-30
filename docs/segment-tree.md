@@ -2267,3 +2267,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 549
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 550
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
