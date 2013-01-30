@@ -2075,3 +2075,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 519
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 520
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
