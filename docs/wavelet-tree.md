@@ -2235,3 +2235,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 559
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 560
+
+In-place compaction uses two pointers: read advances always, write only on keep.
