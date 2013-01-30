@@ -2451,3 +2451,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 613
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 614
+
+Euler tour flattens a tree into an array for range-query LCA.
