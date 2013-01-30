@@ -2383,3 +2383,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 580
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 581
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
