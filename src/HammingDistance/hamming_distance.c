@@ -285,3 +285,4 @@ int hamming_distance(int x, int y) {
 // note 270: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 271: Treats the input as immutable.
 // note 272: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 273: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
