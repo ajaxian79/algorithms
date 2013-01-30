@@ -267,3 +267,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 67
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 68
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
