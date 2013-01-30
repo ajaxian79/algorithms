@@ -2231,3 +2231,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 541
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 542
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
