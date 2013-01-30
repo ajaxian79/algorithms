@@ -44,3 +44,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 32: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 33: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 34: Time complexity: O(n + m).
+// note 35: Articulation points: same DFS as bridges, with a slightly different test.
