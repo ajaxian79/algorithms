@@ -345,3 +345,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 320: Branchless inner loop after sorting.
 // edge note 321: Allocates one buffer of length n+1 for the result.
 // edge note 322: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 323: Three passes total; the third merges results.
