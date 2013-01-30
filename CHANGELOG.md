@@ -126603,3 +126603,7 @@
 ## entry 31651
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 31652
+
+- Articulation points: same DFS as bridges, with a slightly different test.
