@@ -3358,3 +3358,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 824
 
 Caller owns the returned buffer.
+
+## entry 825
+
+Treats the input as immutable.
