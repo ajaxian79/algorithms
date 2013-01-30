@@ -126591,3 +126591,7 @@
 ## entry 31648
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 31649
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
