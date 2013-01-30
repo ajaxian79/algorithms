@@ -286,3 +286,4 @@ long long climb_stairs(int n) {
 // note 267: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 268: Thread-safe so long as the input is not mutated concurrently.
 // note 269: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 270: LCA via binary lifting: jump up powers of two until depths match, then converge.
