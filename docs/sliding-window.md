@@ -2255,3 +2255,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 549
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 550
+
+Rope: tree of small string fragments; O(log n) concat and substring.
