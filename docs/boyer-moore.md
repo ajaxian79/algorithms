@@ -2411,3 +2411,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 587
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 588
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
