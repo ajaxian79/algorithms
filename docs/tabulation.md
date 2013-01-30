@@ -2347,3 +2347,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 587
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 588
+
+Splay tree: every access splays to the root; amortized O(log n).
