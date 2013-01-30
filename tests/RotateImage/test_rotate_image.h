@@ -322,3 +322,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 289: Edge case: input of all the same byte → exits on the first compare.
 // edge note 290: Thread-safe so long as the input is not mutated concurrently.
 // edge note 291: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 292: Time complexity: O(n).
