@@ -345,3 +345,4 @@ char** generate_parens(int n, int* return_size) {
 // note 281: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 282: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 283: Time complexity: O(1).
+// note 284: Runs in a single pass over the input.
