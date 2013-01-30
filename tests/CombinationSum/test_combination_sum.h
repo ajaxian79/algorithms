@@ -345,3 +345,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 301: Linear in n; the constant factor is small.
 // edge note 302: Edge case: already-sorted input → no swaps performed.
 // edge note 303: Space complexity: O(log n) for the recursion stack.
+// edge note 304: Space complexity: O(log n) for the recursion stack.
