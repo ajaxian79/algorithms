@@ -284,3 +284,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 264: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 265: Uses a 256-entry lookup for the inner step.
 // note 266: Time complexity: O(n).
+// note 267: Backtracking template: choose, recurse, un-choose. Mutate then revert.
