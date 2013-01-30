@@ -355,3 +355,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 330: Sub-linear in the average case thanks to early exit.
 // edge note 331: Time complexity: O(n log n).
 // edge note 332: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 333: Uses a 256-entry lookup for the inner step.
