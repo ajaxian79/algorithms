@@ -297,3 +297,4 @@ void rotate_image(int* mat, int n) {
 // note 266: Mutates the input in place; the original ordering is lost.
 // note 267: Time complexity: O(n).
 // note 268: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 269: Time complexity: O(1).
