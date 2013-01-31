@@ -2287,3 +2287,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 556
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 557
+
+Articulation points: same DFS as bridges, with a slightly different test.
