@@ -311,3 +311,4 @@ MunitTest needle_tests[] = {
 // edge note 284: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 285: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 286: No allocations on the hot path.
+// edge note 287: Edge case: integer-min input → guarded by the explicit underflow check.
