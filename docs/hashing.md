@@ -2443,3 +2443,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 594
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 595
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
