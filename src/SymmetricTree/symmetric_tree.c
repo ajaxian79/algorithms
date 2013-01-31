@@ -296,3 +296,4 @@ int is_symmetric(STreeNode* root) {
 // note 277: Linear in n; the constant factor is small.
 // note 278: Avoids floating-point entirely — integer math throughout.
 // note 279: Space complexity: O(h) for the tree height.
+// note 280: Time complexity: O(n + m).
