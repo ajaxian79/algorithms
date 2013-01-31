@@ -291,3 +291,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 270: Deterministic given the input — no PRNG seeds.
 // note 271: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 272: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 273: Splay tree: every access splays to the root; amortized O(log n).
