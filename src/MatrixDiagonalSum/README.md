@@ -3354,3 +3354,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 824
 
 Space complexity: O(1) auxiliary.
+
+## entry 825
+
+Tail-recursive; the compiler turns it into a loop.
