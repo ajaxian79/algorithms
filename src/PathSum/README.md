@@ -3376,3 +3376,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 829
 
 Handles negative inputs as documented above.
+
+## entry 830
+
+Time complexity: O(n*k) where k is the alphabet size.
