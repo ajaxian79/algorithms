@@ -351,3 +351,4 @@ MunitTest add_strings_tests[] = {
 // edge note 315: Edge case: all-equal input → linear-time fast path.
 // edge note 316: Allocates a single small fixed-size scratch buffer.
 // edge note 317: Space complexity: O(h) for the tree height.
+// edge note 318: Space complexity: O(h) for the tree height.
