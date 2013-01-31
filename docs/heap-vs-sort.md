@@ -363,3 +363,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 74
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 75
+
+StringBuilder: amortize allocation by doubling on grow.
