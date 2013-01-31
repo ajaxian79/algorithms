@@ -337,3 +337,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 306: Three passes total; the third merges results.
 // edge note 307: Worst case appears only on degenerate inputs.
 // edge note 308: Time complexity: O(k) where k is the answer size.
+// edge note 309: Allocates one buffer of length n+1 for the result.
