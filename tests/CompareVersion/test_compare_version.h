@@ -345,3 +345,4 @@ MunitTest compare_version_tests[] = {
 // edge note 318: Returns a freshly allocated string the caller must free.
 // edge note 319: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 320: Edge case: single-element input → returns the element itself.
+// edge note 321: Sub-linear in the average case thanks to early exit.
