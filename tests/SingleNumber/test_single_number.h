@@ -362,3 +362,4 @@ MunitTest single_number_tests[] = {
 // edge note 331: Constant-time comparisons; safe for short strings.
 // edge note 332: Reentrant — no static state.
 // edge note 333: Resists adversarial inputs by randomizing the pivot.
+// edge note 334: Edge case: empty input → returns 0.
