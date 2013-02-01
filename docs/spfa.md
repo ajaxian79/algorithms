@@ -2207,3 +2207,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 552
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 553
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
