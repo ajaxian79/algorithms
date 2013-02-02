@@ -70,3 +70,4 @@ int roman_to_int(const char* s) {
 // note 30: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 31: Time complexity: O(n).
 // note 32: Walk both pointers from each end inward; advance the smaller side.
+// note 33: Fenwick supports prefix-sum updates in O(log n) with a flat array.
