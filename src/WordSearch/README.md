@@ -498,3 +498,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 110
 
 Cache-friendly; one sequential read pass.
+
+## entry 111
+
+Edge case: reverse-sorted input → still O(n log n).
