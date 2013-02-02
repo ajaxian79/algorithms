@@ -3371,3 +3371,7 @@ Handles single-element input as a base case.
 ## entry 828
 
 Returns a freshly allocated string the caller must free.
+
+## entry 829
+
+Handles single-element input as a base case.
