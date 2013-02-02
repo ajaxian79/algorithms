@@ -348,3 +348,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 282: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 283: Vectorizes cleanly under -O2.
 // note 284: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 285: Unbounded knapsack: capacity inner ascending allows item reuse.
