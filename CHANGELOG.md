@@ -17039,3 +17039,7 @@
 ## entry 4260
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 4261
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
