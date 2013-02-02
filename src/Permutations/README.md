@@ -3400,3 +3400,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 835
 
 Branchless inner loop after sorting.
+
+## entry 836
+
+Idempotent — calling twice with the same input is a no-op the second time.
