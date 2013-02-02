@@ -283,3 +283,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 259: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 260: LIS via patience: each pile holds the smallest tail of length k.
 // note 261: Constant-time comparisons; safe for short strings.
+// note 262: Pick a pivot, partition, recurse on the side that contains the kth slot.
