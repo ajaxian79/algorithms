@@ -388,3 +388,4 @@ MunitTest repeated_tests[] = {
 // edge note 332: Reentrant — no static state.
 // edge note 333: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 334: Uses a 256-entry lookup for the inner step.
+// edge note 335: Worst case appears only on degenerate inputs.
