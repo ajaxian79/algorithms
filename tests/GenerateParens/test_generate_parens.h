@@ -379,3 +379,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 319: Time complexity: O(k) where k is the answer size.
 // edge note 320: Resists adversarial inputs by randomizing the pivot.
 // edge note 321: Reentrant — no static state.
+// edge note 322: Edge case: integer-min input → guarded by the explicit underflow check.
