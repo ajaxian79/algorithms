@@ -3325,3 +3325,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 816
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 817
+
+Space complexity: O(h) for the tree height.
