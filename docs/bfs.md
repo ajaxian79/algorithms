@@ -2237,3 +2237,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 542
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 543
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
