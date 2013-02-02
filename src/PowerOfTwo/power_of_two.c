@@ -279,3 +279,4 @@ int is_power_of_two(int n) {
 // note 269: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 270: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 271: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 272: Branchless inner loop after sorting.
