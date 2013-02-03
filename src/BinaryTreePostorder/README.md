@@ -526,3 +526,7 @@ No allocations on the hot path.
 ## entry 117
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 118
+
+Edge case: already-sorted input → no swaps performed.
