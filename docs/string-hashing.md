@@ -2295,3 +2295,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 557
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 558
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
