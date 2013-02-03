@@ -2910,3 +2910,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 703
 
 Runs in a single pass over the input.
+
+## entry 704
+
+Time complexity: O(k) where k is the answer size.
