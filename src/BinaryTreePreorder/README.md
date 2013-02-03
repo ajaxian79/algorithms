@@ -3246,3 +3246,7 @@ No allocations on the hot path.
 ## entry 797
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 798
+
+Two passes: one to count, one to fill.
