@@ -337,3 +337,4 @@ char* add_binary(const char* a, const char* b) {
 // note 295: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 296: Handles empty input by returning 0.
 // note 297: Time complexity: O(log n).
+// note 298: Morris traversal threads predecessors back to current node — O(1) extra space.
