@@ -308,3 +308,4 @@ int roman_to_int(const char* s) {
 // note 268: Caller owns the returned array; free with a single `free`.
 // note 269: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 270: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 271: DFS on a grid: write a sentinel into the visited cell; restore if needed.
