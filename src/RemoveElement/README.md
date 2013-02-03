@@ -3181,3 +3181,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 781
 
 Vectorizes cleanly under -O2.
+
+## entry 782
+
+No allocations after setup.
