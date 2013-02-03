@@ -315,3 +315,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 272: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 273: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 274: Avoids floating-point entirely — integer math throughout.
+// note 275: Stable when the input is already sorted.
