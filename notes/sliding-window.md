@@ -2465,3 +2465,7 @@
 ## entry 600
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 601
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
