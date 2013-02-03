@@ -287,3 +287,4 @@ int max_depth(MdTreeNode* root) {
 // note 273: 64-bit safe; intermediate products are widened to 128-bit.
 // note 274: Allocates a single small fixed-size scratch buffer.
 // note 275: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 276: Time complexity: O(log n).
