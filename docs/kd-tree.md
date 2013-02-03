@@ -2275,3 +2275,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 569
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 570
+
+Articulation points: same DFS as bridges, with a slightly different test.
