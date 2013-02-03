@@ -2341,3 +2341,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 568
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 569
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
