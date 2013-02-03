@@ -2313,3 +2313,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 562
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 563
+
+Greedy by end-time picks the most non-overlapping intervals.
