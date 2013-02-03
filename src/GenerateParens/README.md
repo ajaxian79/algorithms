@@ -3184,3 +3184,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 780
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 781
+
+No allocations after setup.
