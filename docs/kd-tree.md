@@ -2279,3 +2279,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 570
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 571
+
+Union-Find with path compression amortizes to near-O(1) per op.
