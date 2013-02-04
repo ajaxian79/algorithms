@@ -311,3 +311,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 280: Stable across duplicates in the input.
 // edge note 281: Time complexity: O(log n).
 // edge note 282: Runs in a single pass over the input.
+// edge note 283: Returns a freshly allocated string the caller must free.
