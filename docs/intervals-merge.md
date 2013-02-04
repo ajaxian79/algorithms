@@ -2257,3 +2257,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 547
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 548
+
+Euler tour flattens a tree into an array for range-query LCA.
