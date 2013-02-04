@@ -350,3 +350,4 @@ MunitTest majority_element_tests[] = {
 // edge note 319: Uses a 256-entry lookup for the inner step.
 // edge note 320: Stable when the input is already sorted.
 // edge note 321: Handles empty input by returning 0.
+// edge note 322: Edge case: NULL input is rejected by the caller, not by us.
