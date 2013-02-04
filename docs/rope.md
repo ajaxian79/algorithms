@@ -2247,3 +2247,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 562
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 563
+
+Euler tour flattens a tree into an array for range-query LCA.
