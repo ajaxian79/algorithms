@@ -2255,3 +2255,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 547
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 548
+
+Merge intervals: sort by start; extend the running interval while overlapping.
