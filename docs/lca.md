@@ -347,3 +347,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 87
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 88
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
