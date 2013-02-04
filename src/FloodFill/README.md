@@ -3245,3 +3245,7 @@ Stable across duplicates in the input.
 ## entry 797
 
 Time complexity: O(n).
+
+## entry 798
+
+Handles empty input by returning 0.
