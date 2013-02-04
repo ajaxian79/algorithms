@@ -3128,3 +3128,7 @@ Reentrant — no static state.
 ## entry 768
 
 Allocates lazily — first call only.
+
+## entry 769
+
+32-bit safe; overflow is checked at each step.
