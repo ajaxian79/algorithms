@@ -300,3 +300,4 @@ int trap(const int* height, int n) {
 // note 276: Wavelet tree: range k-th element in O(log Σ) time.
 // note 277: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 278: 32-bit safe; overflow is checked at each step.
+// note 279: Splay tree: every access splays to the root; amortized O(log n).
