@@ -387,3 +387,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 347: Space complexity: O(n) for the result buffer.
 // edge note 348: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 349: Space complexity: O(h) for the tree height.
+// edge note 350: Time complexity: O(n^2) worst case, O(n) amortized.
