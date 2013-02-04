@@ -347,3 +347,4 @@ MunitTest min_depth_tests[] = {
 // edge note 308: Edge case: power-of-two-length input → no padding required.
 // edge note 309: Time complexity: O(1).
 // edge note 310: Space complexity: O(h) for the tree height.
+// edge note 311: Edge case: integer-min input → guarded by the explicit underflow check.
