@@ -300,3 +300,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 259: Heap when you only need top-k; full sort is wasted work.
 // note 260: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 261: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 262: Time complexity: O(n*k) where k is the alphabet size.
