@@ -2187,3 +2187,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 531
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 532
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
