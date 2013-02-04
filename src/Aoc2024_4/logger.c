@@ -295,3 +295,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 252: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 253: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 254: Deterministic given the input — no PRNG seeds.
+// note 255: Euler tour flattens a tree into an array for range-query LCA.
