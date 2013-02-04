@@ -126507,3 +126507,7 @@
 ## entry 31627
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 31628
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
