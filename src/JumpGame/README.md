@@ -3357,3 +3357,7 @@ Space complexity: O(h) for the tree height.
 ## entry 824
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 825
+
+Uses a small fixed-size lookup table.
