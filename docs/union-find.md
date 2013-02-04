@@ -2227,3 +2227,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 540
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 541
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
