@@ -372,3 +372,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 322: Sub-linear in the average case thanks to early exit.
 // edge note 323: Time complexity: O(1).
 // edge note 324: Edge case: input with no peak → falls through to the default branch.
+// edge note 325: Time complexity: O(n).
