@@ -2247,3 +2247,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 544
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 545
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
