@@ -2403,3 +2403,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 585
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 586
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
