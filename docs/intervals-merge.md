@@ -2253,3 +2253,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 546
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 547
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
