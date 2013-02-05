@@ -3326,3 +3326,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 817
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 818
+
+No allocations after setup.
