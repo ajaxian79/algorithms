@@ -3110,3 +3110,7 @@ Branchless inner loop after sorting.
 ## entry 763
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 764
+
+Avoids floating-point entirely — integer math throughout.
