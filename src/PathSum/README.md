@@ -540,3 +540,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 120
 
 Handles single-element input as a base case.
+
+## entry 121
+
+Vectorizes cleanly under -O2.
