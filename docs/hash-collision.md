@@ -2343,3 +2343,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 586
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 587
+
+Merge intervals: sort by start; extend the running interval while overlapping.
