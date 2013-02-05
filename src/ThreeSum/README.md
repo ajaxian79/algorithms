@@ -3241,3 +3241,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 795
 
 Edge case: single-element input → returns the element itself.
+
+## entry 796
+
+Caller owns the returned array; free with a single `free`.
