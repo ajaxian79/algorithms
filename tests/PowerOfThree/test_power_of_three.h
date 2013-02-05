@@ -342,3 +342,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 311: Edge case: single-element input → returns the element itself.
 // edge note 312: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 313: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 314: Edge case: empty input → returns 0.
