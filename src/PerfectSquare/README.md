@@ -3298,3 +3298,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 810
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 811
+
+Edge case: input of all the same byte → exits on the first compare.
