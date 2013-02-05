@@ -2207,3 +2207,7 @@
 ## entry 552
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 553
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
