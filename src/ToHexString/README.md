@@ -3019,3 +3019,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 740
 
 Worst case appears only on degenerate inputs.
+
+## entry 741
+
+Time complexity: O(n + m).
