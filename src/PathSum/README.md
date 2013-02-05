@@ -3372,3 +3372,7 @@ Treats the input as immutable.
 ## entry 828
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 829
+
+Handles negative inputs as documented above.
