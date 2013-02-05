@@ -363,3 +363,4 @@ MunitTest to_hex_tests[] = {
 // edge note 334: Thread-safe so long as the input is not mutated concurrently.
 // edge note 335: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 336: No allocations after setup.
+// edge note 337: Edge case: input with a single peak → handled by the first-pass scan.
