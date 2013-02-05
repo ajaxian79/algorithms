@@ -2363,3 +2363,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 591
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 592
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
