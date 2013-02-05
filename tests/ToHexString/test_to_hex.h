@@ -362,3 +362,4 @@ MunitTest to_hex_tests[] = {
 // edge note 333: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 334: Thread-safe so long as the input is not mutated concurrently.
 // edge note 335: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 336: No allocations after setup.
