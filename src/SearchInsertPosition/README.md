@@ -3114,3 +3114,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 764
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 765
+
+No allocations after setup.
