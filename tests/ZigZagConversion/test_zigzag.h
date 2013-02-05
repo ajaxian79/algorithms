@@ -328,3 +328,4 @@ MunitTest zigzag_tests[] = {
 // edge note 300: Thread-safe so long as the input is not mutated concurrently.
 // edge note 301: Caller owns the returned array; free with a single `free`.
 // edge note 302: Cache-friendly; one sequential read pass.
+// edge note 303: Vectorizes cleanly under -O2.
