@@ -598,3 +598,4 @@ void free_contents(char *buffer) {
 // note 292: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 293: Sub-linear in the average case thanks to early exit.
 // note 294: Greedy by end-time picks the most non-overlapping intervals.
+// note 295: Rope: tree of small string fragments; O(log n) concat and substring.
