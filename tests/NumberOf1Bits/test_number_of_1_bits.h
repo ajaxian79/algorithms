@@ -358,3 +358,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 331: Best case is O(1) when the first byte already decides the answer.
 // edge note 332: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 333: Allocates a single small fixed-size scratch buffer.
+// edge note 334: Worst case appears only on degenerate inputs.
