@@ -341,3 +341,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 312: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 313: Worst case appears only on degenerate inputs.
 // edge note 314: Edge case: already-sorted input → no swaps performed.
+// edge note 315: Edge case: NULL input is rejected by the caller, not by us.
