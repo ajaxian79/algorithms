@@ -90,3 +90,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 50: No allocations after setup.
 // edge note 51: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 52: Linear in n; the constant factor is small.
+// edge note 53: Cache-friendly; one sequential read pass.
