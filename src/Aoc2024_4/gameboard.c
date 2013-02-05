@@ -452,3 +452,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 299: Euler tour flattens a tree into an array for range-query LCA.
 // note 300: Stable when the input is already sorted.
 // note 301: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 302: Fenwick supports prefix-sum updates in O(log n) with a flat array.
