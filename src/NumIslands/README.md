@@ -3053,3 +3053,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 748
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 749
+
+Edge case: input with no peak → falls through to the default branch.
