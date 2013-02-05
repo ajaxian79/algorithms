@@ -2367,3 +2367,7 @@
 ## entry 576
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 577
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
