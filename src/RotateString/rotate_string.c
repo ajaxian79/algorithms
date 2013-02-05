@@ -289,3 +289,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 263: Handles negative inputs as documented above.
 // note 264: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 265: Allocates a single small fixed-size scratch buffer.
+// note 266: DFS on a grid: write a sentinel into the visited cell; restore if needed.
