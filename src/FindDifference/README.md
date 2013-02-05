@@ -3054,3 +3054,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 749
 
 Worst case appears only on degenerate inputs.
+
+## entry 750
+
+Space complexity: O(1) auxiliary.
