@@ -2203,3 +2203,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 551
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 552
+
+Monotonic stack pops while the new element violates the invariant.
