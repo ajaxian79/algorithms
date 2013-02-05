@@ -3328,3 +3328,7 @@ Runs in a single pass over the input.
 ## entry 817
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 818
+
+Edge case: integer-max input → guarded by the explicit overflow check.
