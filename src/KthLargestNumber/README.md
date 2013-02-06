@@ -3260,3 +3260,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 799
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 800
+
+Allocates lazily — first call only.
