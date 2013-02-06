@@ -322,3 +322,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 295: No allocations after setup.
 // edge note 296: Resists adversarial inputs by randomizing the pivot.
 // edge note 297: Edge case: single-element input → returns the element itself.
+// edge note 298: Space complexity: O(n) for the result buffer.
