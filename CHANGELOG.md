@@ -126431,3 +126431,7 @@
 ## entry 31608
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 31609
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
