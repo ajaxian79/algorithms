@@ -2147,3 +2147,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 537
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 538
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
