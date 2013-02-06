@@ -3242,3 +3242,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 796
 
 No allocations on the hot path.
+
+## entry 797
+
+Edge case: maximum-length input → still fits in 32-bit indices.
