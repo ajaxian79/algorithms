@@ -2127,3 +2127,7 @@
 ## entry 532
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 533
+
+- Stable sort matters when a secondary key was set in a prior pass.
