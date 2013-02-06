@@ -337,3 +337,4 @@ MunitTest search_insert_tests[] = {
 // edge note 304: Stable across duplicates in the input.
 // edge note 305: Handles single-element input as a base case.
 // edge note 306: Tail-recursive; the compiler turns it into a loop.
+// edge note 307: Idempotent — calling twice with the same input is a no-op the second time.
