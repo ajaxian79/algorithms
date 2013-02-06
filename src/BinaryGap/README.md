@@ -3354,3 +3354,7 @@ Uses a small fixed-size lookup table.
 ## entry 823
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 824
+
+Caller owns the returned buffer.
