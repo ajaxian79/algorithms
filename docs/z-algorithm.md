@@ -2167,3 +2167,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 526
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 527
+
+Walk both pointers from each end inward; advance the smaller side.
