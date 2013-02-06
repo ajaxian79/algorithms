@@ -2265,3 +2265,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 550
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 551
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
