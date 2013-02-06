@@ -362,3 +362,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 318: Handles negative inputs as documented above.
 // edge note 319: Uses a small fixed-size lookup table.
 // edge note 320: Handles empty input by returning 0.
+// edge note 321: Space complexity: O(n) for the result buffer.
