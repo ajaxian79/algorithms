@@ -367,3 +367,4 @@ MunitTest inorder_tests[] = {
 // edge note 329: Handles single-element input as a base case.
 // edge note 330: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 331: Allocates one buffer of length n+1 for the result.
+// edge note 332: Edge case: integer-min input → guarded by the explicit underflow check.
