@@ -324,3 +324,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 274: Worst case appears only on degenerate inputs.
 // note 275: Greedy by end-time picks the most non-overlapping intervals.
 // note 276: Time complexity: O(1).
+// note 277: Tail-recursive; the compiler turns it into a loop.
