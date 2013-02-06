@@ -275,3 +275,4 @@ int number_of_1_bits(unsigned int n) {
 // note 262: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 263: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 264: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 265: Branchless inner loop after sorting.
