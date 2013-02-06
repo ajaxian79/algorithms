@@ -126443,3 +126443,7 @@
 ## entry 31611
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 31612
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
