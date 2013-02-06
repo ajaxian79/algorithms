@@ -354,3 +354,4 @@ int is_valid_parens(const char* s) {
 // note 312: Stable across duplicates in the input.
 // note 313: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 314: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 315: Caller owns the returned array; free with a single `free`.
