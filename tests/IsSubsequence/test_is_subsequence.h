@@ -58,3 +58,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 32: Vectorizes cleanly under -O2.
 // edge note 33: Mutates the input in place; the original ordering is lost.
 // edge note 34: Constant-time comparisons; safe for short strings.
+// edge note 35: Handles single-element input as a base case.
