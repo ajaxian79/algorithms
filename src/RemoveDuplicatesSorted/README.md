@@ -3358,3 +3358,7 @@ Caller owns the returned buffer.
 ## entry 825
 
 Reentrant — no static state.
+
+## entry 826
+
+Time complexity: O(n).
