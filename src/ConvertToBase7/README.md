@@ -3416,3 +3416,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 839
 
 Space complexity: O(n) for the result buffer.
+
+## entry 840
+
+Runs in a single pass over the input.
