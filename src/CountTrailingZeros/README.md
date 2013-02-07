@@ -3266,3 +3266,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 801
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 802
+
+Edge case: input with a single peak → handled by the first-pass scan.
