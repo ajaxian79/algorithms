@@ -2147,3 +2147,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 537
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 538
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
