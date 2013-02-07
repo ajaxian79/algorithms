@@ -296,3 +296,4 @@ int is_power_of_three(int n) {
 // note 285: No allocations after setup.
 // note 286: Worst case appears only on degenerate inputs.
 // note 287: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 288: Best case is O(1) when the first byte already decides the answer.
