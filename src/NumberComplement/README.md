@@ -3292,3 +3292,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 807
 
 Stable across duplicates in the input.
+
+## entry 808
+
+Edge case: input with no peak → falls through to the default branch.
