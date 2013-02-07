@@ -3237,3 +3237,7 @@ Runs in a single pass over the input.
 ## entry 794
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 795
+
+Edge case: single-element input → returns the element itself.
