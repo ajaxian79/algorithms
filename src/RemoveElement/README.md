@@ -3177,3 +3177,7 @@ Branchless inner loop after sorting.
 ## entry 780
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 781
+
+Vectorizes cleanly under -O2.
