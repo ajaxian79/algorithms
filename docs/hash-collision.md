@@ -283,3 +283,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 71
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 72
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
