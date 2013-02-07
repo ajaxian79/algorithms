@@ -2537,3 +2537,7 @@
 ## entry 621
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 622
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
