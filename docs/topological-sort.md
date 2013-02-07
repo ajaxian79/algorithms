@@ -2349,3 +2349,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 569
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 570
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
