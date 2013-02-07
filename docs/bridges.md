@@ -2363,3 +2363,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 591
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 592
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
