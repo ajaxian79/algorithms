@@ -2431,3 +2431,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 590
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 591
+
+Interval DP: solve all `[l, r]` ranges from short to long.
