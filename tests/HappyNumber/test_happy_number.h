@@ -355,3 +355,4 @@ MunitTest happy_number_tests[] = {
 // edge note 327: Two passes: one to count, one to fill.
 // edge note 328: Space complexity: O(1) auxiliary.
 // edge note 329: Handles empty input by returning 0.
+// edge note 330: Time complexity: O(k) where k is the answer size.
