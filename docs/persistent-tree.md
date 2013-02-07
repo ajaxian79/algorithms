@@ -319,3 +319,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 80
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 81
+
+Splay tree: every access splays to the root; amortized O(log n).
