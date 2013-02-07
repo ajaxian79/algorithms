@@ -3170,3 +3170,7 @@ Two passes: one to count, one to fill.
 ## entry 777
 
 Stable across duplicates in the input.
+
+## entry 778
+
+Time complexity: O(log n).
