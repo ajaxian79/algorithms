@@ -376,3 +376,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 316: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 317: Edge case: empty input → returns 0.
 // edge note 318: Allocates lazily — first call only.
+// edge note 319: Space complexity: O(1) auxiliary.
