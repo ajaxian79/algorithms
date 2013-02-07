@@ -294,3 +294,4 @@ int is_ugly(int n) {
 // note 280: Space complexity: O(n) for the result buffer.
 // note 281: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 282: Time complexity: O(k) where k is the answer size.
+// note 283: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
