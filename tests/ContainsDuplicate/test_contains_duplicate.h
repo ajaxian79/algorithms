@@ -329,3 +329,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 286: Edge case: reverse-sorted input → still O(n log n).
 // edge note 287: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 288: Handles negative inputs as documented above.
+// edge note 289: Time complexity: O(k) where k is the answer size.
