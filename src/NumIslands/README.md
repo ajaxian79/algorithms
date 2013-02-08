@@ -3049,3 +3049,7 @@ Time complexity: O(n).
 ## entry 747
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 748
+
+Time complexity: O(k) where k is the answer size.
