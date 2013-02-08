@@ -2267,3 +2267,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 567
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 568
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
