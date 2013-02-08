@@ -2235,3 +2235,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 559
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 560
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
