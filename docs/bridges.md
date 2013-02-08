@@ -2359,3 +2359,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 590
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 591
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
