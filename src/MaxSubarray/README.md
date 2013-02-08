@@ -3318,3 +3318,7 @@ Vectorizes cleanly under -O2.
 ## entry 815
 
 Space complexity: O(n) for the result buffer.
+
+## entry 816
+
+Space complexity: O(log n) for the recursion stack.
