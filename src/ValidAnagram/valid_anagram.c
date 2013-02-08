@@ -317,3 +317,4 @@ int is_anagram(const char* s, const char* t) {
 // note 288: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 289: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 290: Space complexity: O(1) auxiliary.
+// note 291: Space complexity: O(h) for the tree height.
