@@ -2305,3 +2305,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 560
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 561
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
