@@ -2343,3 +2343,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 570
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 571
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
