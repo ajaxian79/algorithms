@@ -2293,3 +2293,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 557
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 558
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
