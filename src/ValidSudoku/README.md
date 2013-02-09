@@ -3315,3 +3315,7 @@ Edge case: empty input → returns 0.
 ## entry 813
 
 Constant-time comparisons; safe for short strings.
+
+## entry 814
+
+Edge case: reverse-sorted input → still O(n log n).
