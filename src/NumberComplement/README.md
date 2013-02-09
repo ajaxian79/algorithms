@@ -3288,3 +3288,7 @@ Uses a small fixed-size lookup table.
 ## entry 806
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 807
+
+Stable across duplicates in the input.
