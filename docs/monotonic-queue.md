@@ -2243,3 +2243,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 543
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 544
+
+False sharing: two threads writing different bytes in the same cache line stall both.
