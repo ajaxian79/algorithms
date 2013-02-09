@@ -288,3 +288,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 262: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 263: Handles negative inputs as documented above.
 // note 264: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 265: Allocates a single small fixed-size scratch buffer.
