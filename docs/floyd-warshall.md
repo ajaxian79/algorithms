@@ -351,3 +351,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 88
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 89
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
