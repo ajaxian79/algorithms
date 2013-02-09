@@ -75,3 +75,4 @@ int is_valid_parens(const char* s) {
 // note 33: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 34: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 35: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 36: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
