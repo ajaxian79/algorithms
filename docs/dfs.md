@@ -2339,3 +2339,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 569
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 570
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
