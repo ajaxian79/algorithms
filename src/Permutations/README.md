@@ -3396,3 +3396,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 834
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 835
+
+Branchless inner loop after sorting.
