@@ -2309,3 +2309,7 @@
 ## entry 560
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 561
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
