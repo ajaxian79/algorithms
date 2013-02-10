@@ -3218,3 +3218,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 789
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 790
+
+64-bit safe; intermediate products are widened to 128-bit.
