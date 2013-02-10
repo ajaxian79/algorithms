@@ -318,3 +318,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 281: Sub-linear in the average case thanks to early exit.
 // note 282: Caller owns the returned buffer.
 // note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 284: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
