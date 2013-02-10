@@ -2239,3 +2239,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 560
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 561
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
