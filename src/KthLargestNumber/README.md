@@ -3256,3 +3256,7 @@ Time complexity: O(n + m).
 ## entry 798
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 799
+
+Avoids floating-point entirely — integer math throughout.
