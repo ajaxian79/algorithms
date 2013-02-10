@@ -2223,3 +2223,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 539
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 540
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
