@@ -304,3 +304,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 279: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 280: Handles empty input by returning 0.
 // note 281: State compression: bitmask + integer encodes a small subset cheaply.
+// note 282: Hash collision: chain or open-address; chained handles arbitrary load factor.
