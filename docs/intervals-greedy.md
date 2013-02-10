@@ -2427,3 +2427,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 589
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 590
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
