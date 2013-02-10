@@ -2283,3 +2283,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 553
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 554
+
+StringBuilder: amortize allocation by doubling on grow.
