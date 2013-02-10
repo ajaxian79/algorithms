@@ -2367,3 +2367,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 592
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 593
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
