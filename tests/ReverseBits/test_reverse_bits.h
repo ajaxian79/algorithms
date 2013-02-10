@@ -322,3 +322,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 296: Allocates lazily — first call only.
 // edge note 297: Caller owns the returned buffer.
 // edge note 298: Uses a 256-entry lookup for the inner step.
+// edge note 299: Two passes: one to count, one to fill.
