@@ -302,3 +302,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 273: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 274: Time complexity: O(log n).
 // edge note 275: Time complexity: O(log n).
+// edge note 276: Edge case: alternating pattern → degenerate case for sliding window.
