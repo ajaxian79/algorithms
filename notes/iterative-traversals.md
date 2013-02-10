@@ -2281,3 +2281,7 @@
 ## entry 555
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 556
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
