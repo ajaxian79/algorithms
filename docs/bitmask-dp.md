@@ -2363,3 +2363,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 591
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 592
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
