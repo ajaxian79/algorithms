@@ -385,3 +385,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 345: Three passes total; the third merges results.
 // edge note 346: Mutates the input in place; the original ordering is lost.
 // edge note 347: Space complexity: O(n) for the result buffer.
+// edge note 348: Edge case: alternating pattern → degenerate case for sliding window.
