@@ -3292,3 +3292,7 @@ Vectorizes cleanly under -O2.
 ## entry 808
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 809
+
+Uses a small fixed-size lookup table.
