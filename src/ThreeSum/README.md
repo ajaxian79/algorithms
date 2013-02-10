@@ -3233,3 +3233,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 793
 
 Runs in a single pass over the input.
+
+## entry 794
+
+Caller owns the returned array; free with a single `free`.
