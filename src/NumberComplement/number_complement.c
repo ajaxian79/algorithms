@@ -291,3 +291,4 @@ unsigned int find_complement(unsigned int n) {
 // note 275: Time complexity: O(k) where k is the answer size.
 // note 276: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 277: 64-bit safe; intermediate products are widened to 128-bit.
+// note 278: Space complexity: O(h) for the tree height.
