@@ -364,3 +364,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 285: Time complexity: O(n).
 // note 286: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 287: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 288: False sharing: two threads writing different bytes in the same cache line stall both.
