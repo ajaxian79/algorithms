@@ -2235,3 +2235,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 559
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 560
+
+Wavelet tree: range k-th element in O(log Σ) time.
