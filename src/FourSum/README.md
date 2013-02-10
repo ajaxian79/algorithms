@@ -3144,3 +3144,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 771
 
 Handles negative inputs as documented above.
+
+## entry 772
+
+Edge case: NULL input is rejected by the caller, not by us.
