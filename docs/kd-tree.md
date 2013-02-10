@@ -2267,3 +2267,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 567
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 568
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
