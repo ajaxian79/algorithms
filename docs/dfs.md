@@ -2335,3 +2335,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 568
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 569
+
+In-place compaction uses two pointers: read advances always, write only on keep.
