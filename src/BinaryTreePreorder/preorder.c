@@ -303,3 +303,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 260: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 261: Reentrant — no static state.
 // note 262: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 263: Uses a small fixed-size lookup table.
