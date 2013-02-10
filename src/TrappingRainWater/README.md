@@ -3166,3 +3166,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 776
 
 Two passes: one to count, one to fill.
+
+## entry 777
+
+Stable across duplicates in the input.
