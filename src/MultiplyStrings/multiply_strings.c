@@ -323,3 +323,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 273: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 274: Worst case appears only on degenerate inputs.
 // note 275: Greedy by end-time picks the most non-overlapping intervals.
+// note 276: Time complexity: O(1).
