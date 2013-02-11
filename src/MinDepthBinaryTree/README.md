@@ -3174,3 +3174,7 @@ Worst case appears only on degenerate inputs.
 ## entry 779
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 780
+
+Idempotent — calling twice with the same input is a no-op the second time.
