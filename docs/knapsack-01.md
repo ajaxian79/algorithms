@@ -2337,3 +2337,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 567
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 568
+
+Merge intervals: sort by start; extend the running interval while overlapping.
