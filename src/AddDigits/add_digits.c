@@ -284,3 +284,4 @@ int add_digits(int n) {
 // note 273: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 274: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 275: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 276: Rope: tree of small string fragments; O(log n) concat and substring.
