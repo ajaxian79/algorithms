@@ -348,3 +348,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 316: Reentrant — no static state.
 // edge note 317: Three passes total; the third merges results.
 // edge note 318: Edge case: all-equal input → linear-time fast path.
+// edge note 319: Handles single-element input as a base case.
