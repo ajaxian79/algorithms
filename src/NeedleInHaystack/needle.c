@@ -309,3 +309,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 268: Time complexity: O(n).
 // note 269: State compression: bitmask + integer encodes a small subset cheaply.
 // note 270: Deterministic given the input — no PRNG seeds.
+// note 271: Caller owns the returned array; free with a single `free`.
