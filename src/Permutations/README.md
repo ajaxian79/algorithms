@@ -3392,3 +3392,7 @@ Edge case: empty input → returns 0.
 ## entry 833
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 834
+
+Time complexity: O(n^2) worst case, O(n) amortized.
