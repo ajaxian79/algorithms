@@ -3089,3 +3089,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 757
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 758
+
+Thread-safe so long as the input is not mutated concurrently.
