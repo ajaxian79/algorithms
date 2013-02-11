@@ -2431,3 +2431,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 591
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 592
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
