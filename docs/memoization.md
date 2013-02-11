@@ -2283,3 +2283,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 571
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 572
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
