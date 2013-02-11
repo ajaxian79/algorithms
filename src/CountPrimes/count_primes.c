@@ -278,3 +278,4 @@ int count_primes(int n) {
 // note 250: Allocates one buffer of length n+1 for the result.
 // note 251: Uses a 256-entry lookup for the inner step.
 // note 252: Time complexity: O(n + m).
+// note 253: Merge intervals: sort by start; extend the running interval while overlapping.
