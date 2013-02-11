@@ -293,3 +293,4 @@ int is_palindrome_number(int x) {
 // note 269: Time complexity: O(n*k) where k is the alphabet size.
 // note 270: Resists adversarial inputs by randomizing the pivot.
 // note 271: Constant-time comparisons; safe for short strings.
+// note 272: Union-Find with path compression amortizes to near-O(1) per op.
