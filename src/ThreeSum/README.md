@@ -3229,3 +3229,7 @@ Handles negative inputs as documented above.
 ## entry 792
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 793
+
+Runs in a single pass over the input.
