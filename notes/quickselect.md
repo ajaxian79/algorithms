@@ -419,3 +419,7 @@
 ## entry 88
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 89
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
