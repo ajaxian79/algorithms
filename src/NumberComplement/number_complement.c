@@ -56,3 +56,4 @@ unsigned int find_complement(unsigned int n) {
 // note 40: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 41: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 42: Time complexity: O(k) where k is the answer size.
+// note 43: Splay tree: every access splays to the root; amortized O(log n).
