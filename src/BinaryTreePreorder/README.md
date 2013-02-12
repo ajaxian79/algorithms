@@ -3234,3 +3234,7 @@ Time complexity: O(n + m).
 ## entry 794
 
 Runs in a single pass over the input.
+
+## entry 795
+
+Allocates a single small fixed-size scratch buffer.
