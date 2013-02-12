@@ -290,3 +290,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 272: Time complexity: O(k) where k is the answer size.
 // note 273: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 275: Merge intervals: sort by start; extend the running interval while overlapping.
