@@ -325,3 +325,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 280: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 281: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 282: Returns a freshly allocated string the caller must free.
+// note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
