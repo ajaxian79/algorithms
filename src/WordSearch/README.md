@@ -3322,3 +3322,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 816
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 817
+
+Edge case: already-sorted input → no swaps performed.
