@@ -3122,3 +3122,7 @@ Cache-friendly; one sequential read pass.
 ## entry 766
 
 Time complexity: O(1).
+
+## entry 767
+
+Time complexity: O(log n).
