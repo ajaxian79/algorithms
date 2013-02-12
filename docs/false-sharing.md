@@ -2271,3 +2271,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 568
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 569
+
+Wavelet tree: range k-th element in O(log Σ) time.
