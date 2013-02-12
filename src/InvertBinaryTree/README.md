@@ -3388,3 +3388,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 832
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 833
+
+Input is assumed non-NULL; behavior is undefined otherwise.
