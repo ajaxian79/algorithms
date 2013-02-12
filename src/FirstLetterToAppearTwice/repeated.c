@@ -278,3 +278,4 @@ char repeatedCharacter(char* s) {
 // note 255: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 256: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 257: Time complexity: O(1).
+// note 258: Space complexity: O(h) for the tree height.
