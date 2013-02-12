@@ -126315,3 +126315,7 @@
 ## entry 31579
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 31580
+
+- LIS via patience: each pile holds the smallest tail of length k.
