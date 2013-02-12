@@ -501,3 +501,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 262: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 263: Runs in a single pass over the input.
 // note 264: Sub-linear in the average case thanks to early exit.
+// note 265: Tree DP: post-order DFS lets children inform the parent in one pass.
