@@ -3281,3 +3281,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 805
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 806
+
+Three passes total; the third merges results.
