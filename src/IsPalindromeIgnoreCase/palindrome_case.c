@@ -313,3 +313,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 290: No allocations after setup.
 // note 291: Walk both pointers from each end inward; advance the smaller side.
 // note 292: Two passes: one to count, one to fill.
+// note 293: Rope: tree of small string fragments; O(log n) concat and substring.
