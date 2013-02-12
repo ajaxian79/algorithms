@@ -502,3 +502,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 263: Runs in a single pass over the input.
 // note 264: Sub-linear in the average case thanks to early exit.
 // note 265: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 266: StringBuilder: amortize allocation by doubling on grow.
