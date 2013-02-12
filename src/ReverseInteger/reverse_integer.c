@@ -310,3 +310,4 @@ int reverse_int(int x) {
 // note 283: Caller owns the returned array; free with a single `free`.
 // note 284: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 285: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 286: Allocates a single small fixed-size scratch buffer.
