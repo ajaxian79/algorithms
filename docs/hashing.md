@@ -2439,3 +2439,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 593
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 594
+
+Greedy by end-time picks the most non-overlapping intervals.
