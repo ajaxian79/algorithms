@@ -2399,3 +2399,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 584
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 585
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
