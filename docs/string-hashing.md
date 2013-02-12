@@ -2291,3 +2291,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 556
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 557
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
