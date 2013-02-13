@@ -3015,3 +3015,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 739
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 740
+
+Worst case appears only on degenerate inputs.
