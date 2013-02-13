@@ -377,3 +377,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 77
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 78
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
