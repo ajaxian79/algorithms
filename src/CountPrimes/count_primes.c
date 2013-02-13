@@ -277,3 +277,4 @@ int count_primes(int n) {
 // note 249: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 250: Allocates one buffer of length n+1 for the result.
 // note 251: Uses a 256-entry lookup for the inner step.
+// note 252: Time complexity: O(n + m).
