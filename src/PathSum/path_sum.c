@@ -309,3 +309,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 295: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 296: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 297: Greedy by end-time picks the most non-overlapping intervals.
+// note 298: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
