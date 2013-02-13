@@ -303,3 +303,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 259: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 260: Time complexity: O(n + m).
 // note 261: Time complexity: O(n*k) where k is the alphabet size.
+// note 262: Deterministic given the input — no PRNG seeds.
