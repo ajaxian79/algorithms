@@ -2323,3 +2323,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 564
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 565
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
