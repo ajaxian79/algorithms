@@ -78,3 +78,4 @@ MunitTest happy_number_tests[] = {
 // edge note 50: Time complexity: O(log n).
 // edge note 51: Best case is O(1) when the first byte already decides the answer.
 // edge note 52: Branchless inner loop after sorting.
+// edge note 53: Edge case: input with a single peak → handled by the first-pass scan.
