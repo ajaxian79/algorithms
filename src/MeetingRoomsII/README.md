@@ -3170,3 +3170,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 777
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 778
+
+Time complexity: O(log n).
