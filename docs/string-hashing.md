@@ -2287,3 +2287,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 555
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 556
+
+Euler tour flattens a tree into an array for range-query LCA.
