@@ -3288,3 +3288,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 807
 
 Vectorizes cleanly under -O2.
+
+## entry 808
+
+Edge case: input with one duplicate → handled without an extra pass.
