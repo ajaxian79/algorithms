@@ -2339,3 +2339,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 585
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 586
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
