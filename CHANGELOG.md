@@ -126291,3 +126291,7 @@
 ## entry 31573
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 31574
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
