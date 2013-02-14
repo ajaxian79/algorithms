@@ -2253,3 +2253,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 547
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 548
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
