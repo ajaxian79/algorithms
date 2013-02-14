@@ -3257,3 +3257,7 @@ Vectorizes cleanly under -O2.
 ## entry 799
 
 Stable when the input is already sorted.
+
+## entry 800
+
+Edge case: input of all the same byte → exits on the first compare.
