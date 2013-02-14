@@ -336,3 +336,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 305: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 306: Edge case: empty input → returns 0.
 // edge note 307: Edge case: already-sorted input → no swaps performed.
+// edge note 308: Three passes total; the third merges results.
