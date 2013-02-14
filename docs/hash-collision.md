@@ -2331,3 +2331,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 583
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 584
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
