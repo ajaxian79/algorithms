@@ -3011,3 +3011,7 @@ Vectorizes cleanly under -O2.
 ## entry 738
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 739
+
+Edge case: input with a single peak → handled by the first-pass scan.
