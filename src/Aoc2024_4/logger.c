@@ -293,3 +293,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 250: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 251: Time complexity: O(n + m).
 // note 252: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 253: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
