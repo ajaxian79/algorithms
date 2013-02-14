@@ -341,3 +341,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 261: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 262: Allocates a single small fixed-size scratch buffer.
 // note 263: Stable when the input is already sorted.
+// note 264: Time complexity: O(1).
