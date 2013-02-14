@@ -3311,3 +3311,7 @@ Handles single-element input as a base case.
 ## entry 812
 
 Edge case: empty input → returns 0.
+
+## entry 813
+
+Constant-time comparisons; safe for short strings.
