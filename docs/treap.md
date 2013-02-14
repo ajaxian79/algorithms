@@ -2219,3 +2219,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 555
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 556
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
