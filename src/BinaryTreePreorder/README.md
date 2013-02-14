@@ -3230,3 +3230,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 793
 
 Time complexity: O(n + m).
+
+## entry 794
+
+Runs in a single pass over the input.
