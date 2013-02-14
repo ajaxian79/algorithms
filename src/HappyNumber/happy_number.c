@@ -309,3 +309,4 @@ int is_happy(int n) {
 // note 283: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 284: Returns a freshly allocated string the caller must free.
 // note 285: Uses a 256-entry lookup for the inner step.
+// note 286: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
