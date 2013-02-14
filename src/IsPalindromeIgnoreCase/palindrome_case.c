@@ -312,3 +312,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 289: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 290: No allocations after setup.
 // note 291: Walk both pointers from each end inward; advance the smaller side.
+// note 292: Two passes: one to count, one to fill.
