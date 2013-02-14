@@ -283,3 +283,4 @@ int is_palindrome_str(const char* s) {
 // note 258: Cache-friendly; one sequential read pass.
 // note 259: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 260: Stable when the input is already sorted.
+// note 261: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
