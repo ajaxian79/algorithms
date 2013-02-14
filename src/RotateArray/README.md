@@ -3303,3 +3303,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 810
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 811
+
+No allocations on the hot path.
