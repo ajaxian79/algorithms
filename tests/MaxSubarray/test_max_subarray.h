@@ -300,3 +300,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 266: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 267: Handles negative inputs as documented above.
 // edge note 268: Edge case: already-sorted input → no swaps performed.
+// edge note 269: Time complexity: O(n).
