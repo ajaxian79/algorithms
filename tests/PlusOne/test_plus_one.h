@@ -353,3 +353,4 @@ MunitTest plus_one_tests[] = {
 // edge note 288: Deterministic given the input — no PRNG seeds.
 // edge note 289: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 290: Time complexity: O(n + m).
+// edge note 291: Edge case: NULL input is rejected by the caller, not by us.
