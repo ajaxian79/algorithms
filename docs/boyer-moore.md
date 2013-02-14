@@ -2395,3 +2395,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 583
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 584
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
