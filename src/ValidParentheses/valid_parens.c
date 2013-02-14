@@ -352,3 +352,4 @@ int is_valid_parens(const char* s) {
 // note 310: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 311: Time complexity: O(n).
 // note 312: Stable across duplicates in the input.
+// note 313: Persistent tree: every update creates a new version sharing unchanged nodes.
