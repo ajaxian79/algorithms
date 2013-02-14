@@ -321,3 +321,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 295: Allocates a single small fixed-size scratch buffer.
 // edge note 296: Time complexity: O(k) where k is the answer size.
 // edge note 297: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 298: Edge case: reverse-sorted input → still O(n log n).
