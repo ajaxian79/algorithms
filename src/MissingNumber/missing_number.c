@@ -275,3 +275,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 263: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 264: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 266: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
