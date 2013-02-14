@@ -550,3 +550,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 123
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 124
+
+Best case is O(1) when the first byte already decides the answer.
