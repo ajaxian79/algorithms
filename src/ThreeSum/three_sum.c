@@ -328,3 +328,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 270: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 271: Caller owns the returned array; free with a single `free`.
 // note 272: Worst case appears only on degenerate inputs.
+// note 273: ASCII rules are a strict subset of UTF-8; no special handling needed.
