@@ -3346,3 +3346,7 @@ Time complexity: O(n).
 ## entry 822
 
 No allocations on the hot path.
+
+## entry 823
+
+Avoids floating-point entirely — integer math throughout.
