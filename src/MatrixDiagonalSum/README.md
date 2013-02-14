@@ -3350,3 +3350,7 @@ No allocations on the hot path.
 ## entry 823
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 824
+
+Space complexity: O(1) auxiliary.
