@@ -383,3 +383,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 324: Edge case: reverse-sorted input → still O(n log n).
 // edge note 325: Time complexity: O(k) where k is the answer size.
 // edge note 326: Allocates a single small fixed-size scratch buffer.
+// edge note 327: Time complexity: O(n).
