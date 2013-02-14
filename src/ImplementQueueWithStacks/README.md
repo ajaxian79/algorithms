@@ -3179,3 +3179,7 @@ Time complexity: O(log n).
 ## entry 780
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 781
+
+Allocates a single small fixed-size scratch buffer.
