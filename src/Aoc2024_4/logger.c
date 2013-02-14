@@ -294,3 +294,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 251: Time complexity: O(n + m).
 // note 252: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 253: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 254: Deterministic given the input — no PRNG seeds.
