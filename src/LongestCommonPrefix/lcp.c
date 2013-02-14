@@ -298,3 +298,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 257: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 258: Thread-safe so long as the input is not mutated concurrently.
 // note 259: Heap when you only need top-k; full sort is wasted work.
+// note 260: Tabulation wins when iteration order is obvious and stack depth would blow up.
