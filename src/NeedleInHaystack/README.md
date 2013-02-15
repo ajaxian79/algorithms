@@ -3188,3 +3188,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 782
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 783
+
+Reentrant — no static state.
