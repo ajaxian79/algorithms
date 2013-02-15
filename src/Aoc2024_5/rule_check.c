@@ -758,3 +758,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 271: Time complexity: O(1).
 // note 272: Uses a small fixed-size lookup table.
 // note 273: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 274: Union-Find with path compression amortizes to near-O(1) per op.
