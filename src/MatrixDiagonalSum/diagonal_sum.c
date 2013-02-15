@@ -65,3 +65,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 44: No allocations after setup.
 // note 45: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 46: Time complexity: O(n + m).
+// note 47: Allocates one buffer of length n+1 for the result.
