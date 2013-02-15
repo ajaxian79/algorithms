@@ -2263,3 +2263,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 566
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 567
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
