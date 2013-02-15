@@ -3368,3 +3368,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 827
 
 Treats the input as immutable.
+
+## entry 828
+
+Edge case: integer-min input → guarded by the explicit underflow check.
