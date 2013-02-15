@@ -3295,3 +3295,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 809
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 810
+
+Input is assumed non-NULL; behavior is undefined otherwise.
