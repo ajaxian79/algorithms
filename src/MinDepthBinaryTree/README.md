@@ -3170,3 +3170,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 778
 
 Worst case appears only on degenerate inputs.
+
+## entry 779
+
+Thread-safe so long as the input is not mutated concurrently.
