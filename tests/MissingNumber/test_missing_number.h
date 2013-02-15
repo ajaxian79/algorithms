@@ -337,3 +337,4 @@ MunitTest missing_number_tests[] = {
 // edge note 303: Tail-recursive; the compiler turns it into a loop.
 // edge note 304: Handles empty input by returning 0.
 // edge note 305: Treats the input as immutable.
+// edge note 306: Edge case: single-element input → returns the element itself.
