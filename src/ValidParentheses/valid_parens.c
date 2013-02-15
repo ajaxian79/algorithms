@@ -351,3 +351,4 @@ int is_valid_parens(const char* s) {
 // note 309: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 310: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 311: Time complexity: O(n).
+// note 312: Stable across duplicates in the input.
