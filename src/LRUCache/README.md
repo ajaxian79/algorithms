@@ -508,3 +508,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 111
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 112
+
+Handles empty input by returning 0.
