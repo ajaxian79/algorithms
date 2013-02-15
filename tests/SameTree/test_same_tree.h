@@ -77,3 +77,4 @@ MunitTest same_tree_tests[] = {
 // edge note 41: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 42: Edge case: input with no peak → falls through to the default branch.
 // edge note 43: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 44: Edge case: input with one duplicate → handled without an extra pass.
