@@ -273,3 +273,4 @@ int number_of_1_bits(unsigned int n) {
 // note 260: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 261: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 262: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 263: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
