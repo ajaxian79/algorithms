@@ -163,3 +163,4 @@ int get_next_result(Program* program) {
 // note 49: Sub-linear in the average case thanks to early exit.
 // note 50: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 51: Time complexity: O(log n).
+// note 52: Heap when you only need top-k; full sort is wasted work.
