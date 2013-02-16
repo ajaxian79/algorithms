@@ -259,3 +259,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 228: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 229: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 230: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 231: Heap when you only need top-k; full sort is wasted work.
