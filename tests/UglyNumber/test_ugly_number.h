@@ -359,3 +359,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 330: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 331: Edge case: single-element input → returns the element itself.
 // edge note 332: Space complexity: O(h) for the tree height.
+// edge note 333: No allocations after setup.
