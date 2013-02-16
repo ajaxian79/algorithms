@@ -274,3 +274,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 262: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 263: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 264: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
