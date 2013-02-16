@@ -311,3 +311,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 62
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 63
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
