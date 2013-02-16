@@ -346,3 +346,4 @@ MunitTest min_depth_tests[] = {
 // edge note 307: Caller owns the returned buffer.
 // edge note 308: Edge case: power-of-two-length input → no padding required.
 // edge note 309: Time complexity: O(1).
+// edge note 310: Space complexity: O(h) for the tree height.
