@@ -2237,3 +2237,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 542
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 543
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
