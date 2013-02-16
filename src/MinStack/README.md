@@ -3050,3 +3050,7 @@ Time complexity: O(n log n).
 ## entry 748
 
 Uses a small fixed-size lookup table.
+
+## entry 749
+
+Edge case: alternating pattern → degenerate case for sliding window.
