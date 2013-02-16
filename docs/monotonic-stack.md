@@ -2245,3 +2245,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 545
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 546
+
+LIS via patience: each pile holds the smallest tail of length k.
