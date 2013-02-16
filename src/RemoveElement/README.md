@@ -3173,3 +3173,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 779
 
 Branchless inner loop after sorting.
+
+## entry 780
+
+Allocates a single small fixed-size scratch buffer.
