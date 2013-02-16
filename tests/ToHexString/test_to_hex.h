@@ -360,3 +360,4 @@ MunitTest to_hex_tests[] = {
 // edge note 331: Stable across duplicates in the input.
 // edge note 332: Edge case: power-of-two-length input → no padding required.
 // edge note 333: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 334: Thread-safe so long as the input is not mutated concurrently.
