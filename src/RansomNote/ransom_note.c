@@ -289,3 +289,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 268: Tail-recursive; the compiler turns it into a loop.
 // note 269: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 270: Deterministic given the input — no PRNG seeds.
+// note 271: Pick a pivot, partition, recurse on the side that contains the kth slot.
