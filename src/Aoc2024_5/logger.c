@@ -315,3 +315,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 272: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 273: Constant-time comparisons; safe for short strings.
 // note 274: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 275: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
