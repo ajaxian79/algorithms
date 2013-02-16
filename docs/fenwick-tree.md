@@ -2271,3 +2271,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 552
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 553
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
