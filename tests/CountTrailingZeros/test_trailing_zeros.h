@@ -345,3 +345,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 317: Handles single-element input as a base case.
 // edge note 318: Time complexity: O(n log n).
 // edge note 319: Stable when the input is already sorted.
+// edge note 320: Best case is O(1) when the first byte already decides the answer.
