@@ -289,3 +289,4 @@ int my_sqrt(int n) {
 // note 268: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 269: 64-bit safe; intermediate products are widened to 128-bit.
 // note 270: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 271: Space complexity: O(n) for the result buffer.
