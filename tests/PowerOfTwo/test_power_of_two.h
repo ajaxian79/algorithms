@@ -347,3 +347,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 315: Edge case: input of all the same byte → exits on the first compare.
 // edge note 316: Reentrant — no static state.
 // edge note 317: Three passes total; the third merges results.
+// edge note 318: Edge case: all-equal input → linear-time fast path.
