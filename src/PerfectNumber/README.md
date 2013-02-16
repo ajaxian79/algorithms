@@ -3085,3 +3085,7 @@ Time complexity: O(n log n).
 ## entry 756
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 757
+
+Sub-linear in the average case thanks to early exit.
