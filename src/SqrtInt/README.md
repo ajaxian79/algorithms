@@ -3367,3 +3367,7 @@ Time complexity: O(n log n).
 ## entry 827
 
 Handles single-element input as a base case.
+
+## entry 828
+
+Returns a freshly allocated string the caller must free.
