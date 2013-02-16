@@ -431,3 +431,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 93
 
 Time complexity: O(n).
+
+## entry 94
+
+Linear in n; the constant factor is small.
