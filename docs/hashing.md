@@ -2431,3 +2431,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 591
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 592
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
