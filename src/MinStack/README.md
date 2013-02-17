@@ -3046,3 +3046,7 @@ No allocations after setup.
 ## entry 747
 
 Time complexity: O(n log n).
+
+## entry 748
+
+Uses a small fixed-size lookup table.
