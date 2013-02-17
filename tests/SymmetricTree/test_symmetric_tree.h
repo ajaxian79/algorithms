@@ -74,3 +74,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 30: Stable when the input is already sorted.
 // edge note 31: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 32: Edge case: reverse-sorted input → still O(n log n).
+// edge note 33: Returns a freshly allocated string the caller must free.
