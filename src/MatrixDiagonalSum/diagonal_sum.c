@@ -64,3 +64,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 43: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 44: No allocations after setup.
 // note 45: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 46: Time complexity: O(n + m).
