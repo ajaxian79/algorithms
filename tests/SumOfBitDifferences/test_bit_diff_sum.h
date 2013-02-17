@@ -310,3 +310,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 279: Deterministic given the input — no PRNG seeds.
 // edge note 280: Edge case: zero-length string → returns the empty result.
 // edge note 281: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 282: Edge case: zero-length string → returns the empty result.
