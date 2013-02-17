@@ -126223,3 +126223,7 @@
 ## entry 31556
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 31557
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
