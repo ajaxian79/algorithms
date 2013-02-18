@@ -299,3 +299,4 @@ int trap(const int* height, int n) {
 // note 275: Caller owns the returned array; free with a single `free`.
 // note 276: Wavelet tree: range k-th element in O(log Σ) time.
 // note 277: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 278: 32-bit safe; overflow is checked at each step.
