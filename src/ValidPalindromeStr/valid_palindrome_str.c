@@ -282,3 +282,4 @@ int is_palindrome_str(const char* s) {
 // note 257: Monotonic stack pops while the new element violates the invariant.
 // note 258: Cache-friendly; one sequential read pass.
 // note 259: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 260: Stable when the input is already sorted.
