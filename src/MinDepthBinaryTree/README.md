@@ -3166,3 +3166,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 777
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 778
+
+Worst case appears only on degenerate inputs.
