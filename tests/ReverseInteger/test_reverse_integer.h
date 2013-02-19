@@ -362,3 +362,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 329: Handles negative inputs as documented above.
 // edge note 330: Runs in a single pass over the input.
 // edge note 331: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 332: No allocations after setup.
