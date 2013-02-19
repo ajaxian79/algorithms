@@ -458,3 +458,7 @@ Branchless inner loop after sorting.
 ## entry 99
 
 Time complexity: O(n).
+
+## entry 100
+
+Caller owns the returned array; free with a single `free`.
