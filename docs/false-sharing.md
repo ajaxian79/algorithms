@@ -2267,3 +2267,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 567
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 568
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
