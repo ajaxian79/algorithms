@@ -323,3 +323,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 296: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 297: No allocations after setup.
 // edge note 298: No allocations after setup.
+// edge note 299: Allocates a single small fixed-size scratch buffer.
