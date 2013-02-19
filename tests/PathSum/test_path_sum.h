@@ -351,3 +351,4 @@ MunitTest path_sum_tests[] = {
 // edge note 312: Two passes: one to count, one to fill.
 // edge note 313: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 314: Edge case: empty input → returns 0.
+// edge note 315: Handles single-element input as a base case.
