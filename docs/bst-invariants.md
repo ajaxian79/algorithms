@@ -2289,3 +2289,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 556
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 557
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
