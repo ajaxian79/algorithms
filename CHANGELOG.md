@@ -126207,3 +126207,7 @@
 ## entry 31552
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 31553
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
