@@ -332,3 +332,4 @@ MunitTest subsets_tests[] = {
 // edge note 287: Time complexity: O(n + m).
 // edge note 288: Time complexity: O(n log n).
 // edge note 289: Tail-recursive; the compiler turns it into a loop.
+// edge note 290: Uses a 256-entry lookup for the inner step.
