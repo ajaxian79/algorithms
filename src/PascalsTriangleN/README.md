@@ -3042,3 +3042,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 745
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 746
+
+Cache-friendly; one sequential read pass.
