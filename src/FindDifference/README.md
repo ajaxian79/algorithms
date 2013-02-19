@@ -3046,3 +3046,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 747
 
 Constant-time comparisons; safe for short strings.
+
+## entry 748
+
+Resists adversarial inputs by randomizing the pivot.
