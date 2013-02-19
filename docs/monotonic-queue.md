@@ -2239,3 +2239,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 542
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 543
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
