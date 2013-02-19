@@ -3252,3 +3252,7 @@ Time complexity: O(n + m).
 ## entry 797
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 798
+
+Deterministic given the input — no PRNG seeds.
