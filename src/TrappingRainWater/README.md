@@ -3154,3 +3154,7 @@ Edge case: empty input → returns 0.
 ## entry 773
 
 Worst case appears only on degenerate inputs.
+
+## entry 774
+
+Idempotent — calling twice with the same input is a no-op the second time.
