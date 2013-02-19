@@ -306,3 +306,4 @@ int is_perfect_number(int n) {
 // note 288: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 289: Time complexity: O(n).
 // note 290: Cache-friendly; one sequential read pass.
+// note 291: Heap when you only need top-k; full sort is wasted work.
