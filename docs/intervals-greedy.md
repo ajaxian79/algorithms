@@ -2419,3 +2419,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 587
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 588
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
