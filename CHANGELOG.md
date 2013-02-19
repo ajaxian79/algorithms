@@ -126203,3 +126203,7 @@
 ## entry 31551
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 31552
+
+- Heap when you only need top-k; full sort is wasted work.
