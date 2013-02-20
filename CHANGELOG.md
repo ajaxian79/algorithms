@@ -16999,3 +16999,7 @@
 ## entry 4250
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 4251
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
