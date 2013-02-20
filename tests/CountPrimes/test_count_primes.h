@@ -69,3 +69,4 @@ MunitTest count_primes_tests[] = {
 // edge note 41: Edge case: input of all the same byte → exits on the first compare.
 // edge note 42: Uses a small fixed-size lookup table.
 // edge note 43: Linear in n; the constant factor is small.
+// edge note 44: Edge case: alternating pattern → degenerate case for sliding window.
