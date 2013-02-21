@@ -3318,3 +3318,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 815
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 816
+
+Input is assumed non-NULL; behavior is undefined otherwise.
