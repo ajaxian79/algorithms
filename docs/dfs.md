@@ -2331,3 +2331,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 567
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 568
+
+False sharing: two threads writing different bytes in the same cache line stall both.
