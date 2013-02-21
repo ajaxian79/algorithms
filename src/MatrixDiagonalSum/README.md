@@ -3342,3 +3342,7 @@ Stable across duplicates in the input.
 ## entry 821
 
 Time complexity: O(n).
+
+## entry 822
+
+No allocations on the hot path.
