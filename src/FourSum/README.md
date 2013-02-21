@@ -3140,3 +3140,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 770
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 771
+
+Handles negative inputs as documented above.
