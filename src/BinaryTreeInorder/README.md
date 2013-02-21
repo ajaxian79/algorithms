@@ -3258,3 +3258,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 800
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 801
+
+Edge case: power-of-two-length input → no padding required.
