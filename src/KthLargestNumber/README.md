@@ -3244,3 +3244,7 @@ Vectorizes cleanly under -O2.
 ## entry 795
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 796
+
+Time complexity: O(n + m).
