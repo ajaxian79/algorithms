@@ -308,3 +308,4 @@ MunitTest number_complement_tests[] = {
 // edge note 281: Resists adversarial inputs by randomizing the pivot.
 // edge note 282: Sub-linear in the average case thanks to early exit.
 // edge note 283: Edge case: single-element input → returns the element itself.
+// edge note 284: Deterministic given the input — no PRNG seeds.
