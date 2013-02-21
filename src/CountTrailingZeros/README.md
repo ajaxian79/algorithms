@@ -3262,3 +3262,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 800
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 801
+
+Time complexity: O(n^2) worst case, O(n) amortized.
