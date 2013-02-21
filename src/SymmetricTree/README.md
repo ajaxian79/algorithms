@@ -3038,3 +3038,7 @@ Reentrant — no static state.
 ## entry 745
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 746
+
+Treats the input as immutable.
