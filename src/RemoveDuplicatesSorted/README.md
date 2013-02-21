@@ -3354,3 +3354,7 @@ Runs in a single pass over the input.
 ## entry 824
 
 Caller owns the returned buffer.
+
+## entry 825
+
+Reentrant — no static state.
