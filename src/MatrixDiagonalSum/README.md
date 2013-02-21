@@ -3338,3 +3338,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 820
 
 Stable across duplicates in the input.
+
+## entry 821
+
+Time complexity: O(n).
