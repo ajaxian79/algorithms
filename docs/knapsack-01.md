@@ -2329,3 +2329,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 565
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 566
+
+Rope: tree of small string fragments; O(log n) concat and substring.
