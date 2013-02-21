@@ -3226,3 +3226,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 792
 
 Constant-time comparisons; safe for short strings.
+
+## entry 793
+
+Time complexity: O(n + m).
