@@ -2249,3 +2249,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 546
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 547
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
