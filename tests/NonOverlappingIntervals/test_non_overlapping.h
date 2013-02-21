@@ -345,3 +345,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 314: No allocations after setup.
 // edge note 315: Deterministic given the input — no PRNG seeds.
 // edge note 316: Mutates the input in place; the original ordering is lost.
+// edge note 317: Edge case: all-equal input → linear-time fast path.
