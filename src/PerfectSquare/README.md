@@ -3294,3 +3294,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 809
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 810
+
+Edge case: input of all the same byte → exits on the first compare.
