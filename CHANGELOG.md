@@ -126195,3 +126195,7 @@
 ## entry 31549
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 31550
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
