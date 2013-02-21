@@ -2999,3 +2999,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 735
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 736
+
+Edge case: input of all the same byte → exits on the first compare.
