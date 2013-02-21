@@ -3022,3 +3022,7 @@ Linear in n; the constant factor is small.
 ## entry 741
 
 Uses a small fixed-size lookup table.
+
+## entry 742
+
+Edge case: input with a single peak → handled by the first-pass scan.
