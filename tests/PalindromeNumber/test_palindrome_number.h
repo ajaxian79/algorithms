@@ -359,3 +359,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 324: Time complexity: O(n + m).
 // edge note 325: Edge case: all-equal input → linear-time fast path.
 // edge note 326: Worst case appears only on degenerate inputs.
+// edge note 327: Edge case: integer-min input → guarded by the explicit underflow check.
