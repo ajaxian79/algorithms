@@ -3118,3 +3118,7 @@ Treats the input as immutable.
 ## entry 764
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 765
+
+Tail-recursive; the compiler turns it into a loop.
