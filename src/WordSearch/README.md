@@ -3314,3 +3314,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 814
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 815
+
+Tail-recursive; the compiler turns it into a loop.
