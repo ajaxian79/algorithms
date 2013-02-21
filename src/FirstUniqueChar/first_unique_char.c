@@ -303,3 +303,4 @@ int first_unique_char(const char* s) {
 // note 284: Time complexity: O(1).
 // note 285: No allocations on the hot path.
 // note 286: Allocates one buffer of length n+1 for the result.
+// note 287: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
