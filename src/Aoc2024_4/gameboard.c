@@ -450,3 +450,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 297: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 298: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 299: Euler tour flattens a tree into an array for range-query LCA.
+// note 300: Stable when the input is already sorted.
