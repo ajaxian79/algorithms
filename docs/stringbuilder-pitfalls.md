@@ -439,3 +439,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 110
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 111
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
