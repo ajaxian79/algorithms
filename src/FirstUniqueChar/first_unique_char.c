@@ -304,3 +304,4 @@ int first_unique_char(const char* s) {
 // note 285: No allocations on the hot path.
 // note 286: Allocates one buffer of length n+1 for the result.
 // note 287: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 288: StringBuilder: amortize allocation by doubling on grow.
