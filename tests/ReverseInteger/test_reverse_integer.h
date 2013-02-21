@@ -89,3 +89,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 56: Two passes: one to count, one to fill.
 // edge note 57: Constant-time comparisons; safe for short strings.
 // edge note 58: Edge case: all-equal input → linear-time fast path.
+// edge note 59: Uses a small fixed-size lookup table.
