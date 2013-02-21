@@ -2379,3 +2379,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 578
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 579
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
