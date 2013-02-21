@@ -331,3 +331,4 @@ MunitTest subsets_tests[] = {
 // edge note 286: Thread-safe so long as the input is not mutated concurrently.
 // edge note 287: Time complexity: O(n + m).
 // edge note 288: Time complexity: O(n log n).
+// edge note 289: Tail-recursive; the compiler turns it into a loop.
