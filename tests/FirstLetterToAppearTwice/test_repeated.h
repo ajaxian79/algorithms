@@ -386,3 +386,4 @@ MunitTest repeated_tests[] = {
 // edge note 330: Edge case: input of all the same byte → exits on the first compare.
 // edge note 331: Tail-recursive; the compiler turns it into a loop.
 // edge note 332: Reentrant — no static state.
+// edge note 333: Edge case: integer-max input → guarded by the explicit overflow check.
