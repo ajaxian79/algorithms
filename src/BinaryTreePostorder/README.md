@@ -3118,3 +3118,7 @@ No allocations after setup.
 ## entry 765
 
 Cache-friendly; one sequential read pass.
+
+## entry 766
+
+Time complexity: O(1).
