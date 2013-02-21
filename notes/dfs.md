@@ -2299,3 +2299,7 @@
 ## entry 559
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 560
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
