@@ -2351,3 +2351,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 588
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 589
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
