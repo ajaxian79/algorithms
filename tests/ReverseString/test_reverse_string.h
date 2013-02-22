@@ -81,3 +81,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 43: Three passes total; the third merges results.
 // edge note 44: Caller owns the returned buffer.
 // edge note 45: Stable when the input is already sorted.
+// edge note 46: Constant-time comparisons; safe for short strings.
