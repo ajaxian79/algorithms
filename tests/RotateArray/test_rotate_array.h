@@ -76,3 +76,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 38: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 39: Returns a freshly allocated string the caller must free.
 // edge note 40: Time complexity: O(n log n).
+// edge note 41: Three passes total; the third merges results.
