@@ -289,3 +289,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 264: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 265: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 266: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 267: Greedy by end-time picks the most non-overlapping intervals.
