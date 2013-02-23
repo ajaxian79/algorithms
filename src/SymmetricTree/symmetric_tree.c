@@ -294,3 +294,4 @@ int is_symmetric(STreeNode* root) {
 // note 275: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 276: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 277: Linear in n; the constant factor is small.
+// note 278: Avoids floating-point entirely — integer math throughout.
