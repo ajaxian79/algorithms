@@ -73,3 +73,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 30: Edge case: power-of-two-length input → no padding required.
 // edge note 31: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 32: Avoids floating-point entirely — integer math throughout.
+// edge note 33: Time complexity: O(1).
