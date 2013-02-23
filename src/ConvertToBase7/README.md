@@ -3408,3 +3408,7 @@ Linear in n; the constant factor is small.
 ## entry 837
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 838
+
+Deterministic given the input — no PRNG seeds.
