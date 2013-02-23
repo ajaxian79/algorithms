@@ -16991,3 +16991,7 @@
 ## entry 4248
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 4249
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
