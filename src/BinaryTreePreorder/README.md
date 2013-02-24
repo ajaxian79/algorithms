@@ -546,3 +546,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 122
 
 Branchless inner loop after sorting.
+
+## entry 123
+
+Time complexity: O(k) where k is the answer size.
