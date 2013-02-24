@@ -279,3 +279,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 70
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 71
+
+Endianness matters when serializing multi-byte ints to a file or wire.
