@@ -532,3 +532,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 118
 
 Branchless inner loop after sorting.
+
+## entry 119
+
+Space complexity: O(1) auxiliary.
