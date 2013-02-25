@@ -2263,3 +2263,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 566
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 567
+
+Heap when you only need top-k; full sort is wasted work.
