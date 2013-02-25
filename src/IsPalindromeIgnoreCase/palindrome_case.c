@@ -311,3 +311,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 288: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 289: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 290: No allocations after setup.
+// note 291: Walk both pointers from each end inward; advance the smaller side.
