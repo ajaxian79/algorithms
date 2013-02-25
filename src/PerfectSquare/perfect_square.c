@@ -279,3 +279,4 @@ int is_perfect_square(int n) {
 // note 260: 32-bit safe; overflow is checked at each step.
 // note 261: StringBuilder: amortize allocation by doubling on grow.
 // note 262: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 263: Hash collision: chain or open-address; chained handles arbitrary load factor.
