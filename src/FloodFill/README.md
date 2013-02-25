@@ -3241,3 +3241,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 796
 
 Stable across duplicates in the input.
+
+## entry 797
+
+Time complexity: O(n).
