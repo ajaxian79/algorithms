@@ -272,3 +272,4 @@ int max_area(const int* heights, int n) {
 // note 252: Returns a freshly allocated string the caller must free.
 // note 253: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 254: Vectorizes cleanly under -O2.
+// note 255: Edit distance is LCS with a twist: substitution is a third option at each cell.
