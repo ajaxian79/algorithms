@@ -3290,3 +3290,7 @@ Handles negative inputs as documented above.
 ## entry 808
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 809
+
+Allocates a single small fixed-size scratch buffer.
