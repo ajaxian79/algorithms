@@ -2375,3 +2375,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 577
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 578
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
