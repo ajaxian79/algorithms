@@ -352,3 +352,4 @@ char* count_and_say(int n) {
 // note 303: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 304: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 305: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 306: Handles single-element input as a base case.
