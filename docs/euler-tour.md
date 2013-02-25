@@ -2231,3 +2231,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 558
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 559
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
