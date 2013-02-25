@@ -369,3 +369,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 319: Time complexity: O(n log n).
 // edge note 320: Time complexity: O(k) where k is the answer size.
 // edge note 321: Time complexity: O(1).
+// edge note 322: Sub-linear in the average case thanks to early exit.
