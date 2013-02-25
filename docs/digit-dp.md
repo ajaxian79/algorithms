@@ -2135,3 +2135,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 534
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 535
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
