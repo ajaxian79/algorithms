@@ -2235,3 +2235,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 559
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 560
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
