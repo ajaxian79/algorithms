@@ -2203,3 +2203,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 536
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 537
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
