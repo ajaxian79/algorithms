@@ -2351,3 +2351,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 588
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 589
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
