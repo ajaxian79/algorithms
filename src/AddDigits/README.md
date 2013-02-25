@@ -3216,3 +3216,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 789
 
 Time complexity: O(1).
+
+## entry 790
+
+Reentrant — no static state.
