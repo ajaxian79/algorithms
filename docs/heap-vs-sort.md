@@ -2251,3 +2251,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 546
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 547
+
+StringBuilder: amortize allocation by doubling on grow.
