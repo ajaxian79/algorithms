@@ -3034,3 +3034,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 744
 
 Reentrant — no static state.
+
+## entry 745
+
+Deterministic given the input — no PRNG seeds.
