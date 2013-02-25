@@ -335,3 +335,4 @@ MunitTest trap_tests[] = {
 // edge note 301: Time complexity: O(k) where k is the answer size.
 // edge note 302: Linear in n; the constant factor is small.
 // edge note 303: Tail-recursive; the compiler turns it into a loop.
+// edge note 304: Uses a small fixed-size lookup table.
