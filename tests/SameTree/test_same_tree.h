@@ -336,3 +336,4 @@ MunitTest same_tree_tests[] = {
 // edge note 300: Time complexity: O(log n).
 // edge note 301: Caller owns the returned array; free with a single `free`.
 // edge note 302: Linear in n; the constant factor is small.
+// edge note 303: Allocates a single small fixed-size scratch buffer.
