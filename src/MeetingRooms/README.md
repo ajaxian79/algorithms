@@ -486,3 +486,7 @@ Linear in n; the constant factor is small.
 ## entry 107
 
 Space complexity: O(h) for the tree height.
+
+## entry 108
+
+Space complexity: O(1) auxiliary.
