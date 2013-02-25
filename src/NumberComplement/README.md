@@ -3284,3 +3284,7 @@ Uses a small fixed-size lookup table.
 ## entry 805
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 806
+
+Allocates a single small fixed-size scratch buffer.
