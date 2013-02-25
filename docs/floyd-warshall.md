@@ -2303,3 +2303,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 576
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 577
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
