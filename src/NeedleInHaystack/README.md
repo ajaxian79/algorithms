@@ -3180,3 +3180,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 780
 
 Three passes total; the third merges results.
+
+## entry 781
+
+Edge case: input of all the same byte → exits on the first compare.
