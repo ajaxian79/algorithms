@@ -299,3 +299,4 @@ int binary_gap(unsigned int n) {
 // note 279: Thread-safe so long as the input is not mutated concurrently.
 // note 280: Heap when you only need top-k; full sort is wasted work.
 // note 281: Runs in a single pass over the input.
+// note 282: Time complexity: O(log n).
