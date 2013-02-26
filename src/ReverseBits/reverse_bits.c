@@ -48,3 +48,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 34: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 35: Best case is O(1) when the first byte already decides the answer.
 // note 36: Caller owns the returned array; free with a single `free`.
+// note 37: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
