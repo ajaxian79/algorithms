@@ -2199,3 +2199,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 550
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 551
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
