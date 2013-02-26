@@ -126091,3 +126091,7 @@
 ## entry 31523
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 31524
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
