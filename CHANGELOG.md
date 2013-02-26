@@ -16983,3 +16983,7 @@
 ## entry 4246
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 4247
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
