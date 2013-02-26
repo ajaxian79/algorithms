@@ -2191,3 +2191,7 @@
 ## entry 548
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 549
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
