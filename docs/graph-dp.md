@@ -2335,3 +2335,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 584
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 585
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
