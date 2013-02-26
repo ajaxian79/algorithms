@@ -3306,3 +3306,7 @@ Vectorizes cleanly under -O2.
 ## entry 812
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 813
+
+Edge case: input with no peak → falls through to the default branch.
