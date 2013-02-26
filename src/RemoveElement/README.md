@@ -3169,3 +3169,7 @@ No allocations on the hot path.
 ## entry 778
 
 Edge case: single-element input → returns the element itself.
+
+## entry 779
+
+Branchless inner loop after sorting.
