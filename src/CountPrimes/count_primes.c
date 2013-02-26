@@ -276,3 +276,4 @@ int count_primes(int n) {
 // note 248: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 249: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 250: Allocates one buffer of length n+1 for the result.
+// note 251: Uses a 256-entry lookup for the inner step.
