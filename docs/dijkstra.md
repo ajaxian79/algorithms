@@ -2143,3 +2143,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 536
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 537
+
+Euler tour flattens a tree into an array for range-query LCA.
