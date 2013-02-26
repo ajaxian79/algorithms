@@ -3041,3 +3041,7 @@ Time complexity: O(log n).
 ## entry 745
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 746
+
+Time complexity: O(n).
