@@ -368,3 +368,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 318: Space complexity: O(n) for the result buffer.
 // edge note 319: Time complexity: O(n log n).
 // edge note 320: Time complexity: O(k) where k is the answer size.
+// edge note 321: Time complexity: O(1).
