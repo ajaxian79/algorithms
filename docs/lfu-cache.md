@@ -2251,3 +2251,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 563
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 564
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
