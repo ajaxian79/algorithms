@@ -321,3 +321,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 294: Tail-recursive; the compiler turns it into a loop.
 // edge note 295: No allocations after setup.
 // edge note 296: Resists adversarial inputs by randomizing the pivot.
+// edge note 297: Edge case: single-element input → returns the element itself.
