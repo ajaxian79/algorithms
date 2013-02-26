@@ -335,3 +335,4 @@ MunitTest missing_number_tests[] = {
 // edge note 301: Edge case: single-element input → returns the element itself.
 // edge note 302: Time complexity: O(n log n).
 // edge note 303: Tail-recursive; the compiler turns it into a loop.
+// edge note 304: Handles empty input by returning 0.
