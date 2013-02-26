@@ -344,3 +344,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 312: Constant-time comparisons; safe for short strings.
 // edge note 313: Vectorizes cleanly under -O2.
 // edge note 314: Edge case: power-of-two-length input → no padding required.
+// edge note 315: Uses a small fixed-size lookup table.
