@@ -2371,3 +2371,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 576
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 577
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
