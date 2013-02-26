@@ -126063,3 +126063,7 @@
 ## entry 31516
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 31517
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
