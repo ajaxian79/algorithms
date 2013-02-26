@@ -355,3 +355,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 325: Sub-linear in the average case thanks to early exit.
 // edge note 326: Allocates a single small fixed-size scratch buffer.
 // edge note 327: Branchless inner loop after sorting.
+// edge note 328: Linear in n; the constant factor is small.
