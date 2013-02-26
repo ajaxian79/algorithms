@@ -3384,3 +3384,7 @@ Treats the input as immutable.
 ## entry 831
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 832
+
+Edge case: empty input → returns 0.
