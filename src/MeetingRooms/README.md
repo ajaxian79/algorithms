@@ -3150,3 +3150,7 @@ Handles negative inputs as documented above.
 ## entry 773
 
 Time complexity: O(n + m).
+
+## entry 774
+
+Edge case: single-element input → returns the element itself.
