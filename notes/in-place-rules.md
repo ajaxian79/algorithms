@@ -2299,3 +2299,7 @@
 ## entry 559
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 560
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
