@@ -3222,3 +3222,7 @@ Worst case appears only on degenerate inputs.
 ## entry 791
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 792
+
+Constant-time comparisons; safe for short strings.
