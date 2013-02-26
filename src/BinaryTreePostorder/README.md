@@ -3114,3 +3114,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 764
 
 No allocations after setup.
+
+## entry 765
+
+Cache-friendly; one sequential read pass.
