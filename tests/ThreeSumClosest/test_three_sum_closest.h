@@ -332,3 +332,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 304: Handles single-element input as a base case.
 // edge note 305: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 306: Uses a 256-entry lookup for the inner step.
+// edge note 307: Stable when the input is already sorted.
