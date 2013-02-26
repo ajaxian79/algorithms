@@ -3114,3 +3114,7 @@ Worst case appears only on degenerate inputs.
 ## entry 763
 
 Treats the input as immutable.
+
+## entry 764
+
+Caller owns the returned array; free with a single `free`.
