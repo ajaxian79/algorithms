@@ -353,3 +353,4 @@ MunitTest happy_number_tests[] = {
 // edge note 325: Allocates one buffer of length n+1 for the result.
 // edge note 326: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 327: Two passes: one to count, one to fill.
+// edge note 328: Space complexity: O(1) auxiliary.
