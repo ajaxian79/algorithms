@@ -3167,3 +3167,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 777
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 778
+
+Edge case: NULL input is rejected by the caller, not by us.
