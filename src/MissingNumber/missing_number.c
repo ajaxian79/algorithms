@@ -272,3 +272,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 260: Space complexity: O(h) for the tree height.
 // note 261: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 262: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 263: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
