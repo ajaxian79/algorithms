@@ -3110,3 +3110,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 763
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 764
+
+No allocations after setup.
