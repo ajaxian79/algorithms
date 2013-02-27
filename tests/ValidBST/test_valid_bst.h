@@ -347,3 +347,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 304: Caller owns the returned buffer.
 // edge note 305: Allocates a single small fixed-size scratch buffer.
 // edge note 306: Mutates the input in place; the original ordering is lost.
+// edge note 307: Edge case: power-of-two-length input → no padding required.
