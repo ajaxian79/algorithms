@@ -485,3 +485,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 106
 
 Caller owns the returned buffer.
+
+## entry 107
+
+Three passes total; the third merges results.
