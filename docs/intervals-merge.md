@@ -357,3 +357,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 72
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 73
+
+LIS via patience: each pile holds the smallest tail of length k.
