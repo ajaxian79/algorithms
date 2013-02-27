@@ -2327,3 +2327,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 582
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 583
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
