@@ -2179,3 +2179,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 545
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 546
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
