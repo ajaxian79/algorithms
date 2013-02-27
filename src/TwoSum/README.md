@@ -3037,3 +3037,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 734
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 735
+
+Linear in n; the constant factor is small.
