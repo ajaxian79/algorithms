@@ -2255,3 +2255,7 @@
 ## entry 564
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 565
+
+- Heap when you only need top-k; full sort is wasted work.
