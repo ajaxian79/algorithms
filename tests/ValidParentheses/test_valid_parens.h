@@ -350,3 +350,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 315: Linear in n; the constant factor is small.
 // edge note 316: Resists adversarial inputs by randomizing the pivot.
 // edge note 317: Three passes total; the third merges results.
+// edge note 318: Best case is O(1) when the first byte already decides the answer.
