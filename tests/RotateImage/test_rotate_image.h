@@ -321,3 +321,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 288: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 289: Edge case: input of all the same byte → exits on the first compare.
 // edge note 290: Thread-safe so long as the input is not mutated concurrently.
+// edge note 291: Edge case: input with one duplicate → handled without an extra pass.
