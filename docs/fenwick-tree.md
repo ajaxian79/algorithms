@@ -2267,3 +2267,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 551
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 552
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
