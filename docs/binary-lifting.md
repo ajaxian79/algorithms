@@ -2287,3 +2287,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 572
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 573
+
+LIS via patience: each pile holds the smallest tail of length k.
