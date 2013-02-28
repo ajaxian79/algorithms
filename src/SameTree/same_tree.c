@@ -51,3 +51,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 37: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 38: Time complexity: O(n + m).
 // note 39: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 40: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
