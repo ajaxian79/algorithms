@@ -345,3 +345,4 @@ MunitTest min_depth_tests[] = {
 // edge note 306: Reentrant — no static state.
 // edge note 307: Caller owns the returned buffer.
 // edge note 308: Edge case: power-of-two-length input → no padding required.
+// edge note 309: Time complexity: O(1).
