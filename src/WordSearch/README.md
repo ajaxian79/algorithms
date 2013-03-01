@@ -3302,3 +3302,7 @@ Space complexity: O(1) auxiliary.
 ## entry 811
 
 Vectorizes cleanly under -O2.
+
+## entry 812
+
+Time complexity: O(n*k) where k is the alphabet size.
