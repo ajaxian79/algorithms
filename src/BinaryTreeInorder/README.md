@@ -3254,3 +3254,7 @@ Caller owns the returned buffer.
 ## entry 799
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 800
+
+Edge case: integer-max input → guarded by the explicit overflow check.
