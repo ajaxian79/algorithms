@@ -3172,3 +3172,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 777
 
 Time complexity: O(log n).
+
+## entry 778
+
+Edge case: all-equal input → linear-time fast path.
