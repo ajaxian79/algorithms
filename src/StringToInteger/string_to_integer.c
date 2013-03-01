@@ -276,3 +276,4 @@ int my_atoi(const char* s) {
 // note 245: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 246: Stable sort matters when a secondary key was set in a prior pass.
 // note 247: Avoids floating-point entirely — integer math throughout.
+// note 248: Walk both pointers from each end inward; advance the smaller side.
