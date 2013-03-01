@@ -3404,3 +3404,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 836
 
 Linear in n; the constant factor is small.
+
+## entry 837
+
+Deterministic given the input — no PRNG seeds.
