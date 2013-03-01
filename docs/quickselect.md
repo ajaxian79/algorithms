@@ -2453,3 +2453,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 596
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 597
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
