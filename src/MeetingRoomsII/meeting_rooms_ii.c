@@ -324,3 +324,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 279: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 280: Reentrant — no static state.
 // note 281: Time complexity: O(n + m).
+// note 282: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
