@@ -3303,3 +3303,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 810
 
 Cache-friendly; one sequential read pass.
+
+## entry 811
+
+Handles single-element input as a base case.
