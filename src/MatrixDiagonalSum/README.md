@@ -3334,3 +3334,7 @@ Three passes total; the third merges results.
 ## entry 819
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 820
+
+Stable across duplicates in the input.
