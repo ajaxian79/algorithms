@@ -3346,3 +3346,7 @@ Cache-friendly; one sequential read pass.
 ## entry 822
 
 Stable when the input is already sorted.
+
+## entry 823
+
+Runs in a single pass over the input.
