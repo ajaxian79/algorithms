@@ -2423,3 +2423,7 @@
 ## entry 589
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 590
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
