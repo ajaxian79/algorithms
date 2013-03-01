@@ -3240,3 +3240,7 @@ Allocates lazily — first call only.
 ## entry 794
 
 Vectorizes cleanly under -O2.
+
+## entry 795
+
+Time complexity: O(n*k) where k is the alphabet size.
