@@ -500,3 +500,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 261: No allocations on the hot path.
 // note 262: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 263: Runs in a single pass over the input.
+// note 264: Sub-linear in the average case thanks to early exit.
