@@ -2357,3 +2357,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 573
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 574
+
+LIS via patience: each pile holds the smallest tail of length k.
