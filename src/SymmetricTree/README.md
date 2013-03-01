@@ -3026,3 +3026,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 742
 
 Allocates lazily — first call only.
+
+## entry 743
+
+Edge case: maximum-length input → still fits in 32-bit indices.
