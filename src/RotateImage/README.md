@@ -3253,3 +3253,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 798
 
 Vectorizes cleanly under -O2.
+
+## entry 799
+
+Stable when the input is already sorted.
