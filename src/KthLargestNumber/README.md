@@ -3236,3 +3236,7 @@ Edge case: empty input → returns 0.
 ## entry 793
 
 Allocates lazily — first call only.
+
+## entry 794
+
+Vectorizes cleanly under -O2.
