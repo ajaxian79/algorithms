@@ -377,3 +377,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 317: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 318: Mutates the input in place; the original ordering is lost.
 // edge note 319: Time complexity: O(k) where k is the answer size.
+// edge note 320: Resists adversarial inputs by randomizing the pivot.
