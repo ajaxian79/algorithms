@@ -3338,3 +3338,7 @@ Branchless inner loop after sorting.
 ## entry 820
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 821
+
+Cache-friendly; one sequential read pass.
