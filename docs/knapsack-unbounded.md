@@ -2391,3 +2391,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 582
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 583
+
+Rope: tree of small string fragments; O(log n) concat and substring.
