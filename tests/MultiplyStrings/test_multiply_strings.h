@@ -348,3 +348,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 319: Edge case: power-of-two-length input → no padding required.
 // edge note 320: Edge case: input of all the same byte → exits on the first compare.
 // edge note 321: Edge case: single-element input → returns the element itself.
+// edge note 322: Edge case: input with one duplicate → handled without an extra pass.
