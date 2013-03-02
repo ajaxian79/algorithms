@@ -125999,3 +125999,7 @@
 ## entry 31500
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 31501
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
