@@ -320,3 +320,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 293: Tail-recursive; the compiler turns it into a loop.
 // edge note 294: No allocations after setup.
 // edge note 295: Cache-friendly; one sequential read pass.
+// edge note 296: Time complexity: O(n^2) worst case, O(n) amortized.
