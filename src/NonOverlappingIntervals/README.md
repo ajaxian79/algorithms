@@ -3273,3 +3273,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 803
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 804
+
+Avoids floating-point entirely — integer math throughout.
