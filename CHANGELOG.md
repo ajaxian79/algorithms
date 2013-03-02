@@ -16979,3 +16979,7 @@
 ## entry 4245
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 4246
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
