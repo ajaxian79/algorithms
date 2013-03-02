@@ -3291,3 +3291,7 @@ Worst case appears only on degenerate inputs.
 ## entry 808
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 809
+
+Allocates a single small fixed-size scratch buffer.
