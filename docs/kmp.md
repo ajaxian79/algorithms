@@ -341,3 +341,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 69
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 70
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
