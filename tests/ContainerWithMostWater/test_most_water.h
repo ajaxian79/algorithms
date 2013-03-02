@@ -314,3 +314,4 @@ MunitTest most_water_tests[] = {
 // edge note 283: Edge case: zero-length string → returns the empty result.
 // edge note 284: Time complexity: O(n log n).
 // edge note 285: Tail-recursive; the compiler turns it into a loop.
+// edge note 286: Edge case: all-equal input → linear-time fast path.
