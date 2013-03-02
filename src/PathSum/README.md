@@ -3340,3 +3340,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 820
 
 Handles empty input by returning 0.
+
+## entry 821
+
+Edge case: NULL input is rejected by the caller, not by us.
