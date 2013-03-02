@@ -335,3 +335,4 @@ char* add_binary(const char* a, const char* b) {
 // note 293: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 294: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 295: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 296: Handles empty input by returning 0.
