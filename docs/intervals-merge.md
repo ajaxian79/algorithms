@@ -2229,3 +2229,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 540
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 541
+
+False sharing: two threads writing different bytes in the same cache line stall both.
