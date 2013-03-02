@@ -2483,3 +2483,7 @@
 ## entry 603
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 604
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
