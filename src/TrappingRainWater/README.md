@@ -3150,3 +3150,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 772
 
 Edge case: empty input → returns 0.
+
+## entry 773
+
+Worst case appears only on degenerate inputs.
