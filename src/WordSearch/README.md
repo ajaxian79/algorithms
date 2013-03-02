@@ -3298,3 +3298,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 810
 
 Space complexity: O(1) auxiliary.
+
+## entry 811
+
+Vectorizes cleanly under -O2.
