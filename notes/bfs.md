@@ -2305,3 +2305,7 @@
 ## entry 559
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 560
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
