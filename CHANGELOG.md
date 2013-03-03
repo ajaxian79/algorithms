@@ -125963,3 +125963,7 @@
 ## entry 31491
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 31492
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
