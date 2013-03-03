@@ -336,3 +336,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 305: Stable across duplicates in the input.
 // edge note 306: Three passes total; the third merges results.
 // edge note 307: Worst case appears only on degenerate inputs.
+// edge note 308: Time complexity: O(k) where k is the answer size.
