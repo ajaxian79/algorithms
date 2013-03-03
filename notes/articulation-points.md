@@ -2319,3 +2319,7 @@
 ## entry 580
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 581
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
