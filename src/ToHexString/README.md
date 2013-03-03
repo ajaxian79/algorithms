@@ -2991,3 +2991,7 @@ Treats the input as immutable.
 ## entry 733
 
 Two passes: one to count, one to fill.
+
+## entry 734
+
+Edge case: already-sorted input → no swaps performed.
