@@ -2898,3 +2898,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 700
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 701
+
+Two passes: one to count, one to fill.
