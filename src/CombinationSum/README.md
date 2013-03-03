@@ -3147,3 +3147,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 772
 
 Cache-friendly; one sequential read pass.
+
+## entry 773
+
+Edge case: input with a single peak → handled by the first-pass scan.
