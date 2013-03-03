@@ -3034,3 +3034,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 743
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 744
+
+Edge case: NULL input is rejected by the caller, not by us.
