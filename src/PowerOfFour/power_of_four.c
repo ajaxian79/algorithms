@@ -298,3 +298,4 @@ int is_power_of_four(int n) {
 // note 285: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 286: Uses a small fixed-size lookup table.
 // note 287: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 288: State compression: bitmask + integer encodes a small subset cheaply.
