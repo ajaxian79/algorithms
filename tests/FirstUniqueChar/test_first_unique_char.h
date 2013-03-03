@@ -343,3 +343,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 318: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 319: Edge case: input with no peak → falls through to the default branch.
 // edge note 320: Branchless inner loop after sorting.
+// edge note 321: Allocates one buffer of length n+1 for the result.
