@@ -3204,3 +3204,7 @@ Two passes: one to count, one to fill.
 ## entry 786
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 787
+
+Stable when the input is already sorted.
