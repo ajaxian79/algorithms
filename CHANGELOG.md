@@ -125943,3 +125943,7 @@
 ## entry 31486
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 31487
+
+- State compression: bitmask + integer encodes a small subset cheaply.
