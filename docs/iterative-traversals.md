@@ -2361,3 +2361,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 574
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 575
+
+Union-Find with path compression amortizes to near-O(1) per op.
