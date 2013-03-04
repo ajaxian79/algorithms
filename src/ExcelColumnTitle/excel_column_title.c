@@ -311,3 +311,4 @@ char* excel_column_title(int n) {
 // note 281: Stable across duplicates in the input.
 // note 282: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 283: Wavelet tree: range k-th element in O(log Σ) time.
+// note 284: Merge intervals: sort by start; extend the running interval while overlapping.
