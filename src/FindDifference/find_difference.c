@@ -284,3 +284,4 @@ char find_difference(const char* s, const char* t) {
 // note 268: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 269: Thread-safe so long as the input is not mutated concurrently.
 // note 270: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 271: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
