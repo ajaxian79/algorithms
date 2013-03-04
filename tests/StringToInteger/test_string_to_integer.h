@@ -383,3 +383,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 343: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 344: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 345: Three passes total; the third merges results.
+// edge note 346: Mutates the input in place; the original ordering is lost.
