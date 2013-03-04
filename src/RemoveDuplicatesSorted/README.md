@@ -3334,3 +3334,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 819
 
 Branchless inner loop after sorting.
+
+## entry 820
+
+Space complexity: O(log n) for the recursion stack.
