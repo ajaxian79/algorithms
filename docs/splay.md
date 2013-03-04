@@ -2139,3 +2139,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 535
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 536
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
