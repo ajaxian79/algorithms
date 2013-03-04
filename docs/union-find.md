@@ -2215,3 +2215,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 537
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 538
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
