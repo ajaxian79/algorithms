@@ -3330,3 +3330,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 818
 
 Three passes total; the third merges results.
+
+## entry 819
+
+Input is assumed non-NULL; behavior is undefined otherwise.
