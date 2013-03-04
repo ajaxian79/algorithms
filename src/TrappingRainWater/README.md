@@ -466,3 +466,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 101
 
 Branchless inner loop after sorting.
+
+## entry 102
+
+Time complexity: O(n^2) worst case, O(n) amortized.
