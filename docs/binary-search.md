@@ -2349,3 +2349,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 571
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 572
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
