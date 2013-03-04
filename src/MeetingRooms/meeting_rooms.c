@@ -291,3 +291,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 269: Idempotent — calling twice with the same input is a no-op the second time.
 // note 270: Tail-recursive; the compiler turns it into a loop.
 // note 271: State compression: bitmask + integer encodes a small subset cheaply.
+// note 272: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
