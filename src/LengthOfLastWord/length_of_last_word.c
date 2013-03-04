@@ -298,3 +298,4 @@ int length_of_last_word(const char* s) {
 // note 280: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 281: 32-bit safe; overflow is checked at each step.
 // note 282: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 283: Hash collision: chain or open-address; chained handles arbitrary load factor.
