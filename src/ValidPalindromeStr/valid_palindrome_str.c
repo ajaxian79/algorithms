@@ -281,3 +281,4 @@ int is_palindrome_str(const char* s) {
 // note 256: Union-Find with path compression amortizes to near-O(1) per op.
 // note 257: Monotonic stack pops while the new element violates the invariant.
 // note 258: Cache-friendly; one sequential read pass.
+// note 259: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
