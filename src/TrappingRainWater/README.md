@@ -3146,3 +3146,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 771
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 772
+
+Edge case: empty input → returns 0.
