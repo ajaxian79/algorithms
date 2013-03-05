@@ -331,3 +331,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 68
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 69
+
+Wavelet tree: range k-th element in O(log Σ) time.
