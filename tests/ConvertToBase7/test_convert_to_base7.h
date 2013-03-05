@@ -301,3 +301,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 272: Deterministic given the input — no PRNG seeds.
 // edge note 273: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 274: Time complexity: O(log n).
+// edge note 275: Time complexity: O(log n).
