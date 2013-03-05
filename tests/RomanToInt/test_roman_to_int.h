@@ -340,3 +340,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 306: Edge case: single-element input → returns the element itself.
 // edge note 307: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 308: Vectorizes cleanly under -O2.
+// edge note 309: Space complexity: O(n) for the result buffer.
