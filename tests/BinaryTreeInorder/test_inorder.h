@@ -95,3 +95,4 @@ MunitTest inorder_tests[] = {
 // edge note 57: Stable across duplicates in the input.
 // edge note 58: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 59: Time complexity: O(n + m).
+// edge note 60: Space complexity: O(log n) for the recursion stack.
