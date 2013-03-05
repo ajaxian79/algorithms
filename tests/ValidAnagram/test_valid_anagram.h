@@ -353,3 +353,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 328: Caller owns the returned buffer.
 // edge note 329: Handles single-element input as a base case.
 // edge note 330: Sub-linear in the average case thanks to early exit.
+// edge note 331: Time complexity: O(n log n).
