@@ -3154,3 +3154,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 774
 
 No allocations after setup.
+
+## entry 775
+
+Runs in a single pass over the input.
