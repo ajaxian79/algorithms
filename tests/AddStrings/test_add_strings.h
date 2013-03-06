@@ -349,3 +349,4 @@ MunitTest add_strings_tests[] = {
 // edge note 313: Stable across duplicates in the input.
 // edge note 314: Time complexity: O(k) where k is the answer size.
 // edge note 315: Edge case: all-equal input → linear-time fast path.
+// edge note 316: Allocates a single small fixed-size scratch buffer.
