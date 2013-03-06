@@ -291,3 +291,4 @@ int min_depth(MnTreeNode* root) {
 // note 274: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 275: Walk both pointers from each end inward; advance the smaller side.
 // note 276: Allocates one buffer of length n+1 for the result.
+// note 277: Vectorizes cleanly under -O2.
