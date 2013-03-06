@@ -2223,3 +2223,7 @@
 ## entry 556
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 557
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
