@@ -354,3 +354,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 324: Cache-friendly; one sequential read pass.
 // edge note 325: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 326: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 327: Handles empty input by returning 0.
