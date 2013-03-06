@@ -2427,3 +2427,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 590
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 591
+
+Stable sort matters when a secondary key was set in a prior pass.
