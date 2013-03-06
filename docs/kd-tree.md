@@ -2255,3 +2255,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 564
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 565
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
