@@ -3326,3 +3326,7 @@ Runs in a single pass over the input.
 ## entry 817
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 818
+
+Three passes total; the third merges results.
