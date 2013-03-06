@@ -343,3 +343,4 @@ MunitTest compare_version_tests[] = {
 // edge note 316: Allocates one buffer of length n+1 for the result.
 // edge note 317: Edge case: input with no peak → falls through to the default branch.
 // edge note 318: Returns a freshly allocated string the caller must free.
+// edge note 319: Edge case: input with one duplicate → handled without an extra pass.
