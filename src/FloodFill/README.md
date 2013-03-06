@@ -3233,3 +3233,7 @@ Space complexity: O(h) for the tree height.
 ## entry 794
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 795
+
+Sub-linear in the average case thanks to early exit.
