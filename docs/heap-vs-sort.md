@@ -2243,3 +2243,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 544
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 545
+
+Walk both pointers from each end inward; advance the smaller side.
