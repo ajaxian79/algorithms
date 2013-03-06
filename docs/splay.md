@@ -2135,3 +2135,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 534
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 535
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
