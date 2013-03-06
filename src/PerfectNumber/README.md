@@ -3077,3 +3077,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 754
 
 Edge case: single-element input → returns the element itself.
+
+## entry 755
+
+Time complexity: O(n log n).
