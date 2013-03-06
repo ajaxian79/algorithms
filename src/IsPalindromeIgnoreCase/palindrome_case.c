@@ -310,3 +310,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 287: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 288: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 289: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 290: No allocations after setup.
