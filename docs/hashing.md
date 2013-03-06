@@ -2423,3 +2423,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 589
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 590
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
