@@ -3200,3 +3200,7 @@ Handles negative inputs as documented above.
 ## entry 785
 
 Two passes: one to count, one to fill.
+
+## entry 786
+
+Sub-linear in the average case thanks to early exit.
