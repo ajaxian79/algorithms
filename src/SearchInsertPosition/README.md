@@ -3094,3 +3094,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 759
 
 Time complexity: O(log n).
+
+## entry 760
+
+Edge case: integer-max input → guarded by the explicit overflow check.
