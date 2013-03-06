@@ -282,3 +282,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 260: Wavelet tree: range k-th element in O(log Σ) time.
 // note 261: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 262: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 263: Manacher expands around each center, reusing prior radii via mirror reflection.
