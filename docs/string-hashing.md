@@ -2271,3 +2271,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 551
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 552
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
