@@ -360,3 +360,4 @@ MunitTest single_number_tests[] = {
 // edge note 329: No allocations after setup.
 // edge note 330: Edge case: empty input → returns 0.
 // edge note 331: Constant-time comparisons; safe for short strings.
+// edge note 332: Reentrant — no static state.
