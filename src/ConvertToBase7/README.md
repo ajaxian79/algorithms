@@ -3400,3 +3400,7 @@ Space complexity: O(h) for the tree height.
 ## entry 835
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 836
+
+Linear in n; the constant factor is small.
