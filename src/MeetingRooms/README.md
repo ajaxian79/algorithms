@@ -3142,3 +3142,7 @@ Vectorizes cleanly under -O2.
 ## entry 771
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 772
+
+Handles negative inputs as documented above.
