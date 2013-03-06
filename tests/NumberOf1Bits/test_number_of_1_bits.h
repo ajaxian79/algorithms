@@ -355,3 +355,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 328: Edge case: single-element input → returns the element itself.
 // edge note 329: Thread-safe so long as the input is not mutated concurrently.
 // edge note 330: Edge case: input with no peak → falls through to the default branch.
+// edge note 331: Best case is O(1) when the first byte already decides the answer.
