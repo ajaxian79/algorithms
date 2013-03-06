@@ -3380,3 +3380,7 @@ Time complexity: O(n).
 ## entry 830
 
 Treats the input as immutable.
+
+## entry 831
+
+Edge case: integer-max input → guarded by the explicit overflow check.
