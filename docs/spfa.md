@@ -2187,3 +2187,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 547
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 548
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
