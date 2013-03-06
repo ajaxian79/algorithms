@@ -3272,3 +3272,7 @@ Three passes total; the third merges results.
 ## entry 803
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 804
+
+Edge case: all-equal input → linear-time fast path.
