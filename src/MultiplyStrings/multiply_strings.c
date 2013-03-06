@@ -320,3 +320,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 270: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 271: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 272: Linear in n; the constant factor is small.
+// note 273: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
