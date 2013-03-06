@@ -3116,3 +3116,7 @@ Time complexity: O(n + m).
 ## entry 763
 
 No allocations on the hot path.
+
+## entry 764
+
+Edge case: integer-min input → guarded by the explicit underflow check.
