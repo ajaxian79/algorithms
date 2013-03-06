@@ -3158,3 +3158,7 @@ No allocations after setup.
 ## entry 775
 
 Runs in a single pass over the input.
+
+## entry 776
+
+Vectorizes cleanly under -O2.
