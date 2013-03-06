@@ -382,3 +382,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 342: Caller owns the returned buffer.
 // edge note 343: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 344: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 345: Three passes total; the third merges results.
