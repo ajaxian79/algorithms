@@ -3172,3 +3172,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 778
 
 Linear in n; the constant factor is small.
+
+## entry 779
+
+Edge case: input of all the same byte → exits on the first compare.
