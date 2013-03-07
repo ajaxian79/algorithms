@@ -3110,3 +3110,7 @@ Two passes: one to count, one to fill.
 ## entry 762
 
 Worst case appears only on degenerate inputs.
+
+## entry 763
+
+Treats the input as immutable.
