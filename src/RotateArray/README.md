@@ -3291,3 +3291,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 807
 
 Uses a small fixed-size lookup table.
+
+## entry 808
+
+Edge case: integer-max input → guarded by the explicit overflow check.
