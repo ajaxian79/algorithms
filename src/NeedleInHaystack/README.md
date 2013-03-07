@@ -3168,3 +3168,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 777
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 778
+
+Linear in n; the constant factor is small.
