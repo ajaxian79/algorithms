@@ -3168,3 +3168,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 776
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 777
+
+Time complexity: O(log n).
