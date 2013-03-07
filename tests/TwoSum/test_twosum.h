@@ -364,3 +364,4 @@ MunitTest twosum_tests[] = {
 // edge note 281: Edge case: power-of-two-length input → no padding required.
 // edge note 282: Time complexity: O(k) where k is the answer size.
 // edge note 283: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 284: Constant-time comparisons; safe for short strings.
