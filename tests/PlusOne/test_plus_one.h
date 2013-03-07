@@ -351,3 +351,4 @@ MunitTest plus_one_tests[] = {
 // edge note 286: Linear in n; the constant factor is small.
 // edge note 287: Time complexity: O(n log n).
 // edge note 288: Deterministic given the input — no PRNG seeds.
+// edge note 289: Edge case: input with one duplicate → handled without an extra pass.
