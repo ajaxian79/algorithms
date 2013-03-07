@@ -3250,3 +3250,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 798
 
 Caller owns the returned buffer.
+
+## entry 799
+
+Edge case: input of all the same byte → exits on the first compare.
