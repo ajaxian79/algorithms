@@ -125871,3 +125871,7 @@
 ## entry 31468
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 31469
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
