@@ -2231,3 +2231,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 558
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 559
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
