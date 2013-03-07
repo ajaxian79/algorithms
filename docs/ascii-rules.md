@@ -2367,3 +2367,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 592
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 593
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
