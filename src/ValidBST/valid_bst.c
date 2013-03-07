@@ -289,3 +289,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 271: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 272: Time complexity: O(k) where k is the answer size.
 // note 273: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
