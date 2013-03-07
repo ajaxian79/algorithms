@@ -3306,3 +3306,7 @@ Time complexity: O(n log n).
 ## entry 812
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 813
+
+Vectorizes cleanly under -O2.
