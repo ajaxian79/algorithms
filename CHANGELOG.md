@@ -125855,3 +125855,7 @@
 ## entry 31464
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 31465
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
