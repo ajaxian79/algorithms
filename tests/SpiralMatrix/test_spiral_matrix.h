@@ -335,3 +335,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 292: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 293: Space complexity: O(log n) for the recursion stack.
 // edge note 294: Sub-linear in the average case thanks to early exit.
+// edge note 295: Time complexity: O(n log n).
