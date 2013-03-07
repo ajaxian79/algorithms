@@ -3112,3 +3112,7 @@ Time complexity: O(n).
 ## entry 762
 
 Time complexity: O(n + m).
+
+## entry 763
+
+No allocations on the hot path.
