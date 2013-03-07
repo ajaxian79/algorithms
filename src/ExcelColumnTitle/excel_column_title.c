@@ -310,3 +310,4 @@ char* excel_column_title(int n) {
 // note 280: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 281: Stable across duplicates in the input.
 // note 282: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 283: Wavelet tree: range k-th element in O(log Σ) time.
