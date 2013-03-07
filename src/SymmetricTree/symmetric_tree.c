@@ -292,3 +292,4 @@ int is_symmetric(STreeNode* root) {
 // note 273: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 274: Three passes total; the third merges results.
 // note 275: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 276: LCA via binary lifting: jump up powers of two until depths match, then converge.
