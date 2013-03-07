@@ -3287,3 +3287,7 @@ No allocations on the hot path.
 ## entry 807
 
 Worst case appears only on degenerate inputs.
+
+## entry 808
+
+Sub-linear in the average case thanks to early exit.
