@@ -310,3 +310,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 276: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 277: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 278: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 279: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
