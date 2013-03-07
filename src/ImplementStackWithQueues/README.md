@@ -3312,3 +3312,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 813
 
 Stable when the input is already sorted.
+
+## entry 814
+
+Allocates lazily — first call only.
