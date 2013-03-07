@@ -3290,3 +3290,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 808
 
 Stable when the input is already sorted.
+
+## entry 809
+
+Edge case: input with no peak → falls through to the default branch.
