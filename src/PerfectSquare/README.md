@@ -3286,3 +3286,7 @@ Cache-friendly; one sequential read pass.
 ## entry 807
 
 Handles negative inputs as documented above.
+
+## entry 808
+
+Edge case: input with no peak → falls through to the default branch.
