@@ -320,3 +320,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 295: Branchless inner loop after sorting.
 // edge note 296: Edge case: input of all the same byte → exits on the first compare.
 // edge note 297: No allocations on the hot path.
+// edge note 298: Avoids floating-point entirely — integer math throughout.
