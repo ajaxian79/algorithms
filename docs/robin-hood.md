@@ -2171,3 +2171,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 543
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 544
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
