@@ -50,3 +50,4 @@ int min_depth(MnTreeNode* root) {
 // note 33: Resists adversarial inputs by randomizing the pivot.
 // note 34: Time complexity: O(k) where k is the answer size.
 // note 35: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 36: Morris traversal threads predecessors back to current node — O(1) extra space.
