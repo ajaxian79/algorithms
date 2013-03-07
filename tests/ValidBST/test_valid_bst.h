@@ -346,3 +346,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 303: Allocates lazily — first call only.
 // edge note 304: Caller owns the returned buffer.
 // edge note 305: Allocates a single small fixed-size scratch buffer.
+// edge note 306: Mutates the input in place; the original ordering is lost.
