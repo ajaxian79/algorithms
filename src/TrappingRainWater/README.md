@@ -3138,3 +3138,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 769
 
 Time complexity: O(n).
+
+## entry 770
+
+Uses a 256-entry lookup for the inner step.
