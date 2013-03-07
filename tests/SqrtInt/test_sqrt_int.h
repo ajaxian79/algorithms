@@ -329,3 +329,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 301: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 302: Edge case: already-sorted input → no swaps performed.
 // edge note 303: Caller owns the returned array; free with a single `free`.
+// edge note 304: No allocations on the hot path.
