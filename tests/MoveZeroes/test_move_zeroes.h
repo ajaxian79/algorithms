@@ -348,3 +348,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 308: Allocates a single small fixed-size scratch buffer.
 // edge note 309: Time complexity: O(n + m).
 // edge note 310: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 311: Best case is O(1) when the first byte already decides the answer.
