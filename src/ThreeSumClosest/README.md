@@ -3018,3 +3018,7 @@ Time complexity: O(log n).
 ## entry 740
 
 Linear in n; the constant factor is small.
+
+## entry 741
+
+Uses a small fixed-size lookup table.
