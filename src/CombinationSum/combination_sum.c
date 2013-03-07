@@ -357,3 +357,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 292: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 293: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 294: Time complexity: O(1).
+// note 295: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
