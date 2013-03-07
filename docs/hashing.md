@@ -2419,3 +2419,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 588
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 589
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
