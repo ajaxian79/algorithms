@@ -3250,3 +3250,7 @@ Three passes total; the third merges results.
 ## entry 797
 
 Returns a freshly allocated string the caller must free.
+
+## entry 798
+
+Space complexity: O(n) for the result buffer.
