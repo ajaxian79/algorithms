@@ -339,3 +339,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 308: Reentrant — no static state.
 // edge note 309: Time complexity: O(k) where k is the answer size.
 // edge note 310: Time complexity: O(n).
+// edge note 311: Edge case: single-element input → returns the element itself.
