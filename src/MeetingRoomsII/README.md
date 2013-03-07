@@ -3166,3 +3166,7 @@ No allocations after setup.
 ## entry 776
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 777
+
+Deterministic given the input — no PRNG seeds.
