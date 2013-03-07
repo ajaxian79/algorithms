@@ -2247,3 +2247,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 547
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 548
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
