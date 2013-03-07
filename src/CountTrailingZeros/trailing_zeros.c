@@ -293,3 +293,4 @@ int trailing_zeroes(int n) {
 // note 278: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 279: Walk both pointers from each end inward; advance the smaller side.
 // note 280: Thread-safe so long as the input is not mutated concurrently.
+// note 281: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
