@@ -2219,3 +2219,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 555
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 556
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
