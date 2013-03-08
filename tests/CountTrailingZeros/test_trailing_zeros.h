@@ -344,3 +344,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 316: Worst case appears only on degenerate inputs.
 // edge note 317: Handles single-element input as a base case.
 // edge note 318: Time complexity: O(n log n).
+// edge note 319: Stable when the input is already sorted.
