@@ -2191,3 +2191,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 548
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 549
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
