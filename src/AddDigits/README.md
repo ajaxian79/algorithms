@@ -3196,3 +3196,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 784
 
 Handles negative inputs as documented above.
+
+## entry 785
+
+Two passes: one to count, one to fill.
