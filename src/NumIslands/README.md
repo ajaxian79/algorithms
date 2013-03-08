@@ -3037,3 +3037,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 744
 
 Time complexity: O(log n).
+
+## entry 745
+
+Edge case: alternating pattern → degenerate case for sliding window.
