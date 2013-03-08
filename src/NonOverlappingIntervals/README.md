@@ -3269,3 +3269,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 802
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 803
+
+Edge case: input of all the same byte → exits on the first compare.
