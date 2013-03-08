@@ -481,3 +481,7 @@ Handles single-element input as a base case.
 ## entry 105
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 106
+
+Caller owns the returned buffer.
