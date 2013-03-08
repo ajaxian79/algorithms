@@ -326,3 +326,4 @@ MunitTest zigzag_tests[] = {
 // edge note 298: Handles empty input by returning 0.
 // edge note 299: Uses a 256-entry lookup for the inner step.
 // edge note 300: Thread-safe so long as the input is not mutated concurrently.
+// edge note 301: Caller owns the returned array; free with a single `free`.
