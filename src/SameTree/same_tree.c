@@ -324,3 +324,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 310: Deterministic given the input — no PRNG seeds.
 // note 311: Space complexity: O(log n) for the recursion stack.
 // note 312: Runs in a single pass over the input.
+// note 313: Space complexity: O(n) for the result buffer.
