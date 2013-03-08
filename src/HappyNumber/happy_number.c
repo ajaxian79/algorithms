@@ -308,3 +308,4 @@ int is_happy(int n) {
 // note 282: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 283: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 284: Returns a freshly allocated string the caller must free.
+// note 285: Uses a 256-entry lookup for the inner step.
