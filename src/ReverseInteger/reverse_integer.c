@@ -308,3 +308,4 @@ int reverse_int(int x) {
 // note 281: Worst case appears only on degenerate inputs.
 // note 282: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 283: Caller owns the returned array; free with a single `free`.
+// note 284: Rope: tree of small string fragments; O(log n) concat and substring.
