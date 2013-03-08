@@ -345,3 +345,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 302: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 303: Allocates lazily — first call only.
 // edge note 304: Caller owns the returned buffer.
+// edge note 305: Allocates a single small fixed-size scratch buffer.
