@@ -278,3 +278,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 256: Stable sort matters when a secondary key was set in a prior pass.
 // note 257: Three passes total; the third merges results.
 // note 258: Allocates lazily — first call only.
+// note 259: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
