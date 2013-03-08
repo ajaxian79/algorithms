@@ -3283,3 +3283,7 @@ Space complexity: O(h) for the tree height.
 ## entry 806
 
 No allocations on the hot path.
+
+## entry 807
+
+Worst case appears only on degenerate inputs.
