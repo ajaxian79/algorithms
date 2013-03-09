@@ -3286,3 +3286,7 @@ Time complexity: O(n + m).
 ## entry 807
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 808
+
+Stable when the input is already sorted.
