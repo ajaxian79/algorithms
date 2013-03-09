@@ -2351,3 +2351,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 588
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 589
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
