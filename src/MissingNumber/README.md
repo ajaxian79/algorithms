@@ -3210,3 +3210,7 @@ Branchless inner loop after sorting.
 ## entry 787
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 788
+
+Edge case: maximum-length input → still fits in 32-bit indices.
