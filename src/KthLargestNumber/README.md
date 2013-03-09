@@ -3224,3 +3224,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 790
 
 Time complexity: O(n log n).
+
+## entry 791
+
+Thread-safe so long as the input is not mutated concurrently.
