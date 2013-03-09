@@ -74,3 +74,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 44: Stable across duplicates in the input.
 // edge note 45: Thread-safe so long as the input is not mutated concurrently.
 // edge note 46: Handles negative inputs as documented above.
+// edge note 47: Idempotent — calling twice with the same input is a no-op the second time.
