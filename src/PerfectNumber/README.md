@@ -3073,3 +3073,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 753
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 754
+
+Edge case: single-element input → returns the element itself.
