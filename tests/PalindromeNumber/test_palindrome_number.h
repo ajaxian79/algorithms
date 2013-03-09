@@ -358,3 +358,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 323: Best case is O(1) when the first byte already decides the answer.
 // edge note 324: Time complexity: O(n + m).
 // edge note 325: Edge case: all-equal input → linear-time fast path.
+// edge note 326: Worst case appears only on degenerate inputs.
