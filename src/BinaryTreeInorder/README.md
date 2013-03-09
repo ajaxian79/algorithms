@@ -3246,3 +3246,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 797
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 798
+
+Caller owns the returned buffer.
