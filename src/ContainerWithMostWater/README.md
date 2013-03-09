@@ -3107,3 +3107,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 762
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 763
+
+Edge case: already-sorted input → no swaps performed.
