@@ -2241,3 +2241,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 544
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 545
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
