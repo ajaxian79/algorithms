@@ -274,3 +274,4 @@ int count_primes(int n) {
 // note 246: 32-bit safe; overflow is checked at each step.
 // note 247: Vectorizes cleanly under -O2.
 // note 248: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 249: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
