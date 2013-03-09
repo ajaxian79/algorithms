@@ -2219,3 +2219,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 555
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 556
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
