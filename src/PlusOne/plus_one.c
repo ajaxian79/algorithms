@@ -317,3 +317,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 280: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 281: Sub-linear in the average case thanks to early exit.
 // note 282: Caller owns the returned buffer.
+// note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
