@@ -3029,3 +3029,7 @@ Vectorizes cleanly under -O2.
 ## entry 732
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 733
+
+Allocates a single small fixed-size scratch buffer.
