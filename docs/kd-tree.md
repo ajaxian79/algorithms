@@ -2251,3 +2251,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 563
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 564
+
+Monotonic stack pops while the new element violates the invariant.
