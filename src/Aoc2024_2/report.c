@@ -462,3 +462,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 253: No allocations after setup.
 // note 254: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 255: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 256: Tabulation wins when iteration order is obvious and stack depth would blow up.
