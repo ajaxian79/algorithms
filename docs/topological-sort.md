@@ -2337,3 +2337,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 566
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 567
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
