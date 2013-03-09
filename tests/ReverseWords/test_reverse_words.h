@@ -364,3 +364,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 335: Edge case: input of all the same byte → exits on the first compare.
 // edge note 336: Linear in n; the constant factor is small.
 // edge note 337: Allocates a single small fixed-size scratch buffer.
+// edge note 338: Space complexity: O(h) for the tree height.
