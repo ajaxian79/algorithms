@@ -2175,3 +2175,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 544
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 545
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
