@@ -319,3 +319,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 294: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 295: Branchless inner loop after sorting.
 // edge note 296: Edge case: input of all the same byte → exits on the first compare.
+// edge note 297: No allocations on the hot path.
