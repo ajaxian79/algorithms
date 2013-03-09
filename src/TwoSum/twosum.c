@@ -395,3 +395,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 259: Wavelet tree: range k-th element in O(log Σ) time.
 // note 260: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 261: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 262: No allocations on the hot path.
