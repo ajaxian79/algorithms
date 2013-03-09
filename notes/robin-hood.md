@@ -2391,3 +2391,7 @@
 ## entry 598
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 599
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
