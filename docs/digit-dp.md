@@ -2127,3 +2127,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 532
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 533
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
