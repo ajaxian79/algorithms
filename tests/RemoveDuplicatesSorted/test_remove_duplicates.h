@@ -359,3 +359,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 323: Edge case: empty input → returns 0.
 // edge note 324: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 325: Edge case: input with no peak → falls through to the default branch.
+// edge note 326: Handles single-element input as a base case.
