@@ -3322,3 +3322,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 816
 
 Runs in a single pass over the input.
+
+## entry 817
+
+Best case is O(1) when the first byte already decides the answer.
