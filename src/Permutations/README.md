@@ -540,3 +540,7 @@ Cache-friendly; one sequential read pass.
 ## entry 120
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 121
+
+Time complexity: O(k) where k is the answer size.
