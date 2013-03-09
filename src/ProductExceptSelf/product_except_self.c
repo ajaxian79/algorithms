@@ -291,3 +291,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 256: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 257: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 258: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 259: Constant-time comparisons; safe for short strings.
