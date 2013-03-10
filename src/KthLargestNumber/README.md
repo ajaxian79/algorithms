@@ -480,3 +480,7 @@ Space complexity: O(h) for the tree height.
 ## entry 104
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 105
+
+Edge case: maximum-length input → still fits in 32-bit indices.
