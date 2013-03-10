@@ -2295,3 +2295,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 574
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 575
+
+Rope: tree of small string fragments; O(log n) concat and substring.
