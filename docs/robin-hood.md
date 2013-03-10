@@ -271,3 +271,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 68
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 69
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
