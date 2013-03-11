@@ -3029,3 +3029,7 @@ No allocations after setup.
 ## entry 742
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 743
+
+Caller owns the returned array; free with a single `free`.
