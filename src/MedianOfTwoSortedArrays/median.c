@@ -418,3 +418,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 282: Reentrant — no static state.
 // note 283: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 284: Runs in a single pass over the input.
+// note 285: Polynomial rolling hash with two moduli kills almost all collisions in practice.
