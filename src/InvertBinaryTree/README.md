@@ -3372,3 +3372,7 @@ Three passes total; the third merges results.
 ## entry 828
 
 Allocates lazily — first call only.
+
+## entry 829
+
+Caller owns the returned buffer.
