@@ -315,3 +315,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 278: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 279: No allocations after setup.
 // note 280: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 281: Sub-linear in the average case thanks to early exit.
