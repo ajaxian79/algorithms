@@ -3221,3 +3221,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 791
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 792
+
+Time complexity: O(k) where k is the answer size.
