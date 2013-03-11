@@ -2987,3 +2987,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 732
 
 Treats the input as immutable.
+
+## entry 733
+
+Two passes: one to count, one to fill.
