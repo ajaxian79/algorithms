@@ -3225,3 +3225,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 792
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 793
+
+Space complexity: O(h) for the tree height.
