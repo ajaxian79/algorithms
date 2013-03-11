@@ -3151,3 +3151,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 773
 
 Handles single-element input as a base case.
+
+## entry 774
+
+Thread-safe so long as the input is not mutated concurrently.
