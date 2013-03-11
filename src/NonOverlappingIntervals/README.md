@@ -3265,3 +3265,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 801
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 802
+
+Edge case: input of all the same byte → exits on the first compare.
