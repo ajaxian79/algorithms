@@ -328,3 +328,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 297: Uses a 256-entry lookup for the inner step.
 // edge note 298: Space complexity: O(1) auxiliary.
 // edge note 299: Handles negative inputs as documented above.
+// edge note 300: Edge case: empty input → returns 0.
