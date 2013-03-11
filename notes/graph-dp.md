@@ -2187,3 +2187,7 @@
 ## entry 547
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 548
+
+- Heap when you only need top-k; full sort is wasted work.
