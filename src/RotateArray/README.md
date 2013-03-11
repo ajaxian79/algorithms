@@ -3287,3 +3287,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 806
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 807
+
+Uses a small fixed-size lookup table.
