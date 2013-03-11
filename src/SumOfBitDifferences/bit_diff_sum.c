@@ -290,3 +290,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 272: Time complexity: O(1).
 // note 273: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 274: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 275: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
