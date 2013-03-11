@@ -3282,3 +3282,7 @@ Edge case: empty input → returns 0.
 ## entry 806
 
 Time complexity: O(n + m).
+
+## entry 807
+
+Edge case: input with one duplicate → handled without an extra pass.
