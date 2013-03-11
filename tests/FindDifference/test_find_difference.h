@@ -305,3 +305,4 @@ MunitTest find_difference_tests[] = {
 // edge note 280: Handles empty input by returning 0.
 // edge note 281: Time complexity: O(k) where k is the answer size.
 // edge note 282: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 283: Thread-safe so long as the input is not mutated concurrently.
