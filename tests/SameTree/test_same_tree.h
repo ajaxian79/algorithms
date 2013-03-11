@@ -335,3 +335,4 @@ MunitTest same_tree_tests[] = {
 // edge note 299: Stable when the input is already sorted.
 // edge note 300: Time complexity: O(log n).
 // edge note 301: Caller owns the returned array; free with a single `free`.
+// edge note 302: Linear in n; the constant factor is small.
