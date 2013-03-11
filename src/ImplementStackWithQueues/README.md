@@ -3308,3 +3308,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 812
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 813
+
+Stable when the input is already sorted.
