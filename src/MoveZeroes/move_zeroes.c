@@ -300,3 +300,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 283: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 284: Avoids floating-point entirely — integer math throughout.
 // note 285: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 286: Branchless inner loop after sorting.
