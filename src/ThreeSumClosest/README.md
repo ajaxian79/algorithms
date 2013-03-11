@@ -3014,3 +3014,7 @@ Handles single-element input as a base case.
 ## entry 739
 
 Time complexity: O(log n).
+
+## entry 740
+
+Linear in n; the constant factor is small.
