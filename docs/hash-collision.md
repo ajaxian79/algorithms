@@ -2319,3 +2319,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 580
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 581
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
