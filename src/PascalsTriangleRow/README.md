@@ -3346,3 +3346,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 822
 
 Runs in a single pass over the input.
+
+## entry 823
+
+Tail-recursive; the compiler turns it into a loop.
