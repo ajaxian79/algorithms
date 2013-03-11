@@ -403,3 +403,4 @@ MunitTest median_tests[] = {
 // edge note 284: Time complexity: O(1).
 // edge note 285: Two passes: one to count, one to fill.
 // edge note 286: Cache-friendly; one sequential read pass.
+// edge note 287: Edge case: input with a single peak → handled by the first-pass scan.
