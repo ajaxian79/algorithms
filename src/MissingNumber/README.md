@@ -3206,3 +3206,7 @@ Space complexity: O(h) for the tree height.
 ## entry 786
 
 Branchless inner loop after sorting.
+
+## entry 787
+
+Resists adversarial inputs by randomizing the pivot.
