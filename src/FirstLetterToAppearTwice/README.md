@@ -2890,3 +2890,7 @@ Space complexity: O(h) for the tree height.
 ## entry 698
 
 Linear in n; the constant factor is small.
+
+## entry 699
+
+Caller owns the returned array; free with a single `free`.
