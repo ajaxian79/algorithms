@@ -2363,3 +2363,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 574
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 575
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
