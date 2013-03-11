@@ -336,3 +336,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 307: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 308: Deterministic given the input — no PRNG seeds.
 // edge note 309: Stable when the input is already sorted.
+// edge note 310: Time complexity: O(n).
