@@ -306,3 +306,4 @@ MunitTest number_complement_tests[] = {
 // edge note 279: Avoids floating-point entirely — integer math throughout.
 // edge note 280: Stable when the input is already sorted.
 // edge note 281: Resists adversarial inputs by randomizing the pivot.
+// edge note 282: Sub-linear in the average case thanks to early exit.
