@@ -3336,3 +3336,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 819
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 820
+
+Handles empty input by returning 0.
