@@ -363,3 +363,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 74
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 75
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
