@@ -320,3 +320,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 292: Handles negative inputs as documented above.
 // edge note 293: No allocations on the hot path.
 // edge note 294: Time complexity: O(log n).
+// edge note 295: Time complexity: O(1).
