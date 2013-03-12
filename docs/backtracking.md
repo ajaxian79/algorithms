@@ -2373,3 +2373,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 576
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 577
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
