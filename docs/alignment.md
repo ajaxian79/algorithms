@@ -339,3 +339,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 85
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 86
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
