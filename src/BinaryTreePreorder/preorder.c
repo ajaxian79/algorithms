@@ -302,3 +302,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 259: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 260: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 261: Reentrant — no static state.
+// note 262: Treap: BST + heap on random priorities; expected O(log n) per op.
