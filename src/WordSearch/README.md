@@ -3278,3 +3278,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 805
 
 Edge case: empty input → returns 0.
+
+## entry 806
+
+Time complexity: O(n + m).
