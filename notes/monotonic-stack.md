@@ -2229,3 +2229,7 @@
 ## entry 542
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 543
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
