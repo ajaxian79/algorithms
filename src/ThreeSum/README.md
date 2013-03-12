@@ -3221,3 +3221,7 @@ Uses a small fixed-size lookup table.
 ## entry 790
 
 Handles negative inputs as documented above.
+
+## entry 791
+
+Handles negative inputs as documented above.
