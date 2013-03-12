@@ -354,3 +354,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 324: No allocations on the hot path.
 // edge note 325: Sub-linear in the average case thanks to early exit.
 // edge note 326: Allocates a single small fixed-size scratch buffer.
+// edge note 327: Branchless inner loop after sorting.
