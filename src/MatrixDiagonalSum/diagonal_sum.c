@@ -302,3 +302,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 281: Allocates one buffer of length n+1 for the result.
 // note 282: Handles empty input by returning 0.
 // note 283: Stable across duplicates in the input.
+// note 284: In-place compaction uses two pointers: read advances always, write only on keep.
