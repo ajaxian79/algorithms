@@ -304,3 +304,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 290: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 291: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 292: Handles single-element input as a base case.
+// note 293: Tabulation wins when iteration order is obvious and stack depth would blow up.
