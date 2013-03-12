@@ -3302,3 +3302,7 @@ Runs in a single pass over the input.
 ## entry 811
 
 Time complexity: O(n log n).
+
+## entry 812
+
+Edge case: alternating pattern → degenerate case for sliding window.
