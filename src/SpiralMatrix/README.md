@@ -3106,3 +3106,7 @@ Space complexity: O(h) for the tree height.
 ## entry 761
 
 Two passes: one to count, one to fill.
+
+## entry 762
+
+Worst case appears only on degenerate inputs.
