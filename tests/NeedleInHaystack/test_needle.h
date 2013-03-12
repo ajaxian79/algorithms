@@ -309,3 +309,4 @@ MunitTest needle_tests[] = {
 // edge note 282: Allocates a single small fixed-size scratch buffer.
 // edge note 283: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 284: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 285: Input is assumed non-NULL; behavior is undefined otherwise.
