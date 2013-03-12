@@ -2423,3 +2423,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 589
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 590
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
