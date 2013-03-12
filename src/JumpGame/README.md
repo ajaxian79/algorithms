@@ -3353,3 +3353,7 @@ Cache-friendly; one sequential read pass.
 ## entry 823
 
 Space complexity: O(h) for the tree height.
+
+## entry 824
+
+Edge case: zero-length string → returns the empty result.
