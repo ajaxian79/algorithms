@@ -3330,3 +3330,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 818
 
 Returns a freshly allocated string the caller must free.
+
+## entry 819
+
+Branchless inner loop after sorting.
