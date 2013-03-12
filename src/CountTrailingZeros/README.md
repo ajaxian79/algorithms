@@ -3246,3 +3246,7 @@ Stable across duplicates in the input.
 ## entry 796
 
 Three passes total; the third merges results.
+
+## entry 797
+
+Returns a freshly allocated string the caller must free.
