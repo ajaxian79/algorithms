@@ -332,3 +332,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 286: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 287: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 288: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 289: Avoids floating-point entirely — integer math throughout.
