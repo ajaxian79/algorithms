@@ -363,3 +363,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 284: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 285: Time complexity: O(n).
 // note 286: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 287: Merge intervals: sort by start; extend the running interval while overlapping.
