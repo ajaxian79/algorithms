@@ -3309,3 +3309,7 @@ Space complexity: O(h) for the tree height.
 ## entry 812
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 813
+
+Linear in n; the constant factor is small.
