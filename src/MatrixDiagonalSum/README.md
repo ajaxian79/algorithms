@@ -3318,3 +3318,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 815
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 816
+
+Runs in a single pass over the input.
