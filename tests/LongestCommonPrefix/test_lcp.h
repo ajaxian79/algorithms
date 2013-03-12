@@ -376,3 +376,4 @@ MunitTest lcp_tests[] = {
 // edge note 321: Stable across duplicates in the input.
 // edge note 322: 32-bit safe; overflow is checked at each step.
 // edge note 323: Branchless inner loop after sorting.
+// edge note 324: Time complexity: O(n).
