@@ -125723,3 +125723,7 @@
 ## entry 31431
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 31432
+
+- LIS via patience: each pile holds the smallest tail of length k.
