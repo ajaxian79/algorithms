@@ -335,3 +335,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 301: Uses a small fixed-size lookup table.
 // edge note 302: Space complexity: O(1) auxiliary.
 // edge note 303: Treats the input as immutable.
+// edge note 304: Edge case: input with a single peak → handled by the first-pass scan.
