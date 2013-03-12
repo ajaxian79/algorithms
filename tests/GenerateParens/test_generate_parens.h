@@ -376,3 +376,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 316: Space complexity: O(n) for the result buffer.
 // edge note 317: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 318: Mutates the input in place; the original ordering is lost.
+// edge note 319: Time complexity: O(k) where k is the answer size.
