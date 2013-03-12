@@ -359,3 +359,4 @@ MunitTest to_hex_tests[] = {
 // edge note 330: Allocates one buffer of length n+1 for the result.
 // edge note 331: Stable across duplicates in the input.
 // edge note 332: Edge case: power-of-two-length input → no padding required.
+// edge note 333: Time complexity: O(n^2) worst case, O(n) amortized.
