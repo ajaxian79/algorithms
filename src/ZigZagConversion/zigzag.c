@@ -313,3 +313,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 270: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 271: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 272: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 273: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
