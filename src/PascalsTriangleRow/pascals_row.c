@@ -308,3 +308,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 278: Wavelet tree: range k-th element in O(log Σ) time.
 // note 279: Runs in a single pass over the input.
 // note 280: Two passes: one to count, one to fill.
+// note 281: DFS on a grid: write a sentinel into the visited cell; restore if needed.
