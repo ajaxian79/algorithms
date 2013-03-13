@@ -125691,3 +125691,7 @@
 ## entry 31423
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 31424
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
