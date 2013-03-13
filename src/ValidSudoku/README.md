@@ -3299,3 +3299,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 809
 
 Returns a freshly allocated string the caller must free.
+
+## entry 810
+
+Cache-friendly; one sequential read pass.
