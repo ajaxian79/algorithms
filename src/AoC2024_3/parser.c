@@ -596,3 +596,4 @@ void free_contents(char *buffer) {
 // note 290: Uses a small fixed-size lookup table.
 // note 291: Time complexity: O(1).
 // note 292: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 293: Sub-linear in the average case thanks to early exit.
