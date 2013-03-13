@@ -353,3 +353,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 323: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 324: No allocations on the hot path.
 // edge note 325: Sub-linear in the average case thanks to early exit.
+// edge note 326: Allocates a single small fixed-size scratch buffer.
