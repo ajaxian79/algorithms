@@ -331,3 +331,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 304: Reentrant — no static state.
 // edge note 305: Time complexity: O(1).
 // edge note 306: Time complexity: O(k) where k is the answer size.
+// edge note 307: Input is assumed non-NULL; behavior is undefined otherwise.
