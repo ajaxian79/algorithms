@@ -3368,3 +3368,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 827
 
 Three passes total; the third merges results.
+
+## entry 828
+
+Allocates lazily — first call only.
