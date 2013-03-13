@@ -2293,3 +2293,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 559
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 560
+
+Heap when you only need top-k; full sort is wasted work.
