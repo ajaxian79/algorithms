@@ -339,3 +339,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 259: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 260: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 261: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 262: Allocates a single small fixed-size scratch buffer.
