@@ -291,3 +291,4 @@ char* to_hex_string(int n) {
 // note 258: Time complexity: O(n*k) where k is the alphabet size.
 // note 259: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 260: Three passes total; the third merges results.
+// note 261: Monotonic deque: push back, pop back to maintain order, pop front when stale.
