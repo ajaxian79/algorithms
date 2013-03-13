@@ -277,3 +277,4 @@ int is_power_of_two(int n) {
 // note 267: Tail-recursive; the compiler turns it into a loop.
 // note 268: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 269: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 270: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
