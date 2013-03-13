@@ -3138,3 +3138,7 @@ Reentrant — no static state.
 ## entry 770
 
 Vectorizes cleanly under -O2.
+
+## entry 771
+
+Edge case: alternating pattern → degenerate case for sliding window.
