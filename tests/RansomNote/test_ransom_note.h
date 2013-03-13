@@ -349,3 +349,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 323: Mutates the input in place; the original ordering is lost.
 // edge note 324: Allocates a single small fixed-size scratch buffer.
 // edge note 325: Edge case: already-sorted input → no swaps performed.
+// edge note 326: Time complexity: O(n*k) where k is the alphabet size.
