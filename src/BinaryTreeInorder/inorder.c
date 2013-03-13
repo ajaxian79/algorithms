@@ -324,3 +324,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 284: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 285: Three passes total; the third merges results.
 // note 286: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 287: Sub-linear in the average case thanks to early exit.
