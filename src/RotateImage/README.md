@@ -3241,3 +3241,7 @@ Uses a small fixed-size lookup table.
 ## entry 795
 
 Linear in n; the constant factor is small.
+
+## entry 796
+
+Edge case: maximum-length input → still fits in 32-bit indices.
