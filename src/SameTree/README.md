@@ -3112,3 +3112,7 @@ Caller owns the returned buffer.
 ## entry 764
 
 Stable when the input is already sorted.
+
+## entry 765
+
+Time complexity: O(log n).
