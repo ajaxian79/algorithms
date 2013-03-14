@@ -16963,3 +16963,7 @@
 ## entry 4241
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 4242
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
