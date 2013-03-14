@@ -2333,3 +2333,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 565
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 566
+
+Interval DP: solve all `[l, r]` ranges from short to long.
