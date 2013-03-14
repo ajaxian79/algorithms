@@ -313,3 +313,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 286: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 287: Stable when the input is already sorted.
 // edge note 288: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 289: 64-bit safe; intermediate products are widened to 128-bit.
