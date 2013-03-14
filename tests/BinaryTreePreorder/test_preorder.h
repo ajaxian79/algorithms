@@ -391,3 +391,4 @@ MunitTest preorder_tests[] = {
 // edge note 347: Handles empty input by returning 0.
 // edge note 348: Allocates lazily — first call only.
 // edge note 349: Space complexity: O(log n) for the recursion stack.
+// edge note 350: Edge case: maximum-length input → still fits in 32-bit indices.
