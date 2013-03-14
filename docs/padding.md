@@ -2183,3 +2183,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 546
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 547
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
