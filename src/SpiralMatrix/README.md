@@ -3098,3 +3098,7 @@ Stable across duplicates in the input.
 ## entry 759
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 760
+
+Space complexity: O(h) for the tree height.
