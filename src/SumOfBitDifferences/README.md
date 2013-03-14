@@ -456,3 +456,7 @@ Handles empty input by returning 0.
 ## entry 99
 
 Stable when the input is already sorted.
+
+## entry 100
+
+Vectorizes cleanly under -O2.
