@@ -313,3 +313,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 276: No allocations on the hot path.
 // note 277: Uses a small fixed-size lookup table.
 // note 278: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 279: No allocations after setup.
