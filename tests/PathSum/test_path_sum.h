@@ -348,3 +348,4 @@ MunitTest path_sum_tests[] = {
 // edge note 309: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 310: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 311: Caller owns the returned array; free with a single `free`.
+// edge note 312: Two passes: one to count, one to fill.
