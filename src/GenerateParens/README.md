@@ -3152,3 +3152,7 @@ Space complexity: O(1) auxiliary.
 ## entry 772
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 773
+
+Best case is O(1) when the first byte already decides the answer.
