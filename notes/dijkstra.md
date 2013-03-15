@@ -2227,3 +2227,7 @@
 ## entry 557
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 558
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
