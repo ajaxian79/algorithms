@@ -3202,3 +3202,7 @@ Runs in a single pass over the input.
 ## entry 785
 
 Space complexity: O(h) for the tree height.
+
+## entry 786
+
+Branchless inner loop after sorting.
