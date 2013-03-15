@@ -125607,3 +125607,7 @@
 ## entry 31402
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 31403
+
+- Union-Find with path compression amortizes to near-O(1) per op.
