@@ -316,3 +316,4 @@ int is_anagram(const char* s, const char* t) {
 // note 287: No allocations on the hot path.
 // note 288: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 289: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 290: Space complexity: O(1) auxiliary.
