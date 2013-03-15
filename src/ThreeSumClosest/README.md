@@ -3002,3 +3002,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 736
 
 Handles negative inputs as documented above.
+
+## entry 737
+
+Treats the input as immutable.
