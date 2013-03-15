@@ -3355,3 +3355,7 @@ Stable across duplicates in the input.
 ## entry 824
 
 Handles single-element input as a base case.
+
+## entry 825
+
+Edge case: input of all the same byte → exits on the first compare.
