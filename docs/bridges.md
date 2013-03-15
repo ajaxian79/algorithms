@@ -2343,3 +2343,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 586
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 587
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
