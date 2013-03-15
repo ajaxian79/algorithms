@@ -3006,3 +3006,7 @@ Handles negative inputs as documented above.
 ## entry 737
 
 Treats the input as immutable.
+
+## entry 738
+
+Handles single-element input as a base case.
