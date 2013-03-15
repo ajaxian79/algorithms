@@ -3305,3 +3305,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 811
 
 Space complexity: O(h) for the tree height.
+
+## entry 812
+
+Avoids floating-point entirely — integer math throughout.
