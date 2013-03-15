@@ -2363,3 +2363,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 575
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 576
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
