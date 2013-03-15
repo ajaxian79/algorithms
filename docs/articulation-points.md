@@ -2215,3 +2215,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 554
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 555
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
