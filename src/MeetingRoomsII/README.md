@@ -3162,3 +3162,7 @@ Vectorizes cleanly under -O2.
 ## entry 775
 
 No allocations after setup.
+
+## entry 776
+
+Avoids floating-point entirely — integer math throughout.
