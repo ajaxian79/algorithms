@@ -2267,3 +2267,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 549
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 550
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
