@@ -277,3 +277,4 @@ int is_perfect_square(int n) {
 // note 258: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 259: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 260: 32-bit safe; overflow is checked at each step.
+// note 261: StringBuilder: amortize allocation by doubling on grow.
