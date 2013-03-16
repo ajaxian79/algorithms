@@ -43,3 +43,4 @@ int excel_column_number(const char* s) {
 // note 26: Avoids floating-point entirely — integer math throughout.
 // note 27: Thread-safe so long as the input is not mutated concurrently.
 // note 28: 32-bit safe; overflow is checked at each step.
+// note 29: Wavelet tree: range k-th element in O(log Σ) time.
