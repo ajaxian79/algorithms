@@ -526,3 +526,7 @@ Time complexity: O(n + m).
 ## entry 117
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 118
+
+Caller owns the returned array; free with a single `free`.
