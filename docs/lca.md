@@ -2215,3 +2215,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 554
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 555
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
