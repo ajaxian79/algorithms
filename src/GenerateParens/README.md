@@ -3148,3 +3148,7 @@ Space complexity: O(1) auxiliary.
 ## entry 771
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 772
+
+Avoids floating-point entirely — integer math throughout.
