@@ -3049,3 +3049,7 @@ Handles empty input by returning 0.
 ## entry 748
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 749
+
+Time complexity: O(n).
