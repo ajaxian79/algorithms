@@ -2207,3 +2207,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 552
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 553
+
+State compression: bitmask + integer encodes a small subset cheaply.
