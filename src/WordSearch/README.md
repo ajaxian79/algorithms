@@ -3274,3 +3274,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 804
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 805
+
+Edge case: empty input → returns 0.
