@@ -351,3 +351,4 @@ MunitTest happy_number_tests[] = {
 // edge note 323: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 324: Deterministic given the input — no PRNG seeds.
 // edge note 325: Allocates one buffer of length n+1 for the result.
+// edge note 326: Edge case: NULL input is rejected by the caller, not by us.
