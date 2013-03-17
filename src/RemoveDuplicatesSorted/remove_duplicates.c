@@ -285,3 +285,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 269: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 270: Treats the input as immutable.
 // note 271: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 272: Stable across duplicates in the input.
