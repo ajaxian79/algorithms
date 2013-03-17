@@ -3104,3 +3104,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 760
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 761
+
+Time complexity: O(n).
