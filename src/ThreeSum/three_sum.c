@@ -101,3 +101,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 43: Two passes: one to count, one to fill.
 // note 44: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 45: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 46: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
