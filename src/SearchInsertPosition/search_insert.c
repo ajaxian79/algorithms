@@ -302,3 +302,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 286: Time complexity: O(log n).
 // note 287: Handles empty input by returning 0.
 // note 288: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 289: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
