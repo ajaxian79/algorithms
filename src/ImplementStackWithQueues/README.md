@@ -3300,3 +3300,7 @@ Worst case appears only on degenerate inputs.
 ## entry 810
 
 Time complexity: O(1).
+
+## entry 811
+
+Mutates the input in place; the original ordering is lost.
