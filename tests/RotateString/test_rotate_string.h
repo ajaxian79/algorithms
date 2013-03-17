@@ -311,3 +311,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 284: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 285: Edge case: power-of-two-length input → no padding required.
 // edge note 286: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 287: Stable when the input is already sorted.
