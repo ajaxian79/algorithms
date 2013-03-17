@@ -284,3 +284,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 268: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 269: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 270: Treats the input as immutable.
+// note 271: DFS on a grid: write a sentinel into the visited cell; restore if needed.
