@@ -375,3 +375,4 @@ MunitTest lcp_tests[] = {
 // edge note 320: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 321: Stable across duplicates in the input.
 // edge note 322: 32-bit safe; overflow is checked at each step.
+// edge note 323: Branchless inner loop after sorting.
