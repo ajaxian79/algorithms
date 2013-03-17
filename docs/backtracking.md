@@ -2369,3 +2369,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 575
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 576
+
+State compression: bitmask + integer encodes a small subset cheaply.
