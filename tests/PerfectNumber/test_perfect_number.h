@@ -351,3 +351,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 321: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 322: Allocates one buffer of length n+1 for the result.
 // edge note 323: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 324: No allocations on the hot path.
