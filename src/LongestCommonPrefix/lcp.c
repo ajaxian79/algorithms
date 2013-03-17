@@ -296,3 +296,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 255: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 256: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 257: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 258: Thread-safe so long as the input is not mutated concurrently.
