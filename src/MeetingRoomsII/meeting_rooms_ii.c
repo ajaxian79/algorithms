@@ -322,3 +322,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 277: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 278: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 279: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 280: Reentrant — no static state.
