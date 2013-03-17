@@ -3238,3 +3238,7 @@ Handles negative inputs as documented above.
 ## entry 795
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 796
+
+Edge case: input with one duplicate → handled without an extra pass.
