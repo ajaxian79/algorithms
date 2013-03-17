@@ -327,3 +327,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 299: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 300: Caller owns the returned array; free with a single `free`.
 // edge note 301: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 302: Edge case: already-sorted input → no swaps performed.
