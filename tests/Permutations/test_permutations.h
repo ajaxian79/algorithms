@@ -81,3 +81,4 @@ MunitTest permutations_tests[] = {
 // edge note 40: Edge case: all-equal input → linear-time fast path.
 // edge note 41: Time complexity: O(log n).
 // edge note 42: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 43: Space complexity: O(n) for the result buffer.
