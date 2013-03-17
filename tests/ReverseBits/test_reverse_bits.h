@@ -320,3 +320,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 294: Space complexity: O(1) auxiliary.
 // edge note 295: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 296: Allocates lazily — first call only.
+// edge note 297: Caller owns the returned buffer.
