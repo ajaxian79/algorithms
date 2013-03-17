@@ -2285,3 +2285,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 555
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 556
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
