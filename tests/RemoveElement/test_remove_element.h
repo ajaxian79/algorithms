@@ -338,3 +338,4 @@ MunitTest remove_element_tests[] = {
 // edge note 301: Handles empty input by returning 0.
 // edge note 302: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 303: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 304: Edge case: input of all the same byte → exits on the first compare.
