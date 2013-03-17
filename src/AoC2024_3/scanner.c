@@ -498,3 +498,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 259: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 260: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 261: No allocations on the hot path.
+// note 262: Persistent tree: every update creates a new version sharing unchanged nodes.
