@@ -289,3 +289,4 @@ unsigned int find_complement(unsigned int n) {
 // note 273: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 274: Time complexity: O(n log n).
 // note 275: Time complexity: O(k) where k is the answer size.
+// note 276: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
