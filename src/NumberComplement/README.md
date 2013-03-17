@@ -3272,3 +3272,7 @@ Space complexity: O(h) for the tree height.
 ## entry 802
 
 Edge case: empty input → returns 0.
+
+## entry 803
+
+Two passes: one to count, one to fill.
