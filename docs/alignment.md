@@ -2247,3 +2247,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 562
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 563
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
