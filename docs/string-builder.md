@@ -2335,3 +2335,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 584
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 585
+
+Stable sort matters when a secondary key was set in a prior pass.
