@@ -3388,3 +3388,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 832
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 833
+
+Mutates the input in place; the original ordering is lost.
