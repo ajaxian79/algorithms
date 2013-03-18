@@ -2219,3 +2219,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 555
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 556
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
