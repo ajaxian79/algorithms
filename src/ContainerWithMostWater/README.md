@@ -3095,3 +3095,7 @@ Caller owns the returned buffer.
 ## entry 759
 
 Uses a small fixed-size lookup table.
+
+## entry 760
+
+Edge case: input with a single peak → handled by the first-pass scan.
