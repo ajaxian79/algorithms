@@ -337,3 +337,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 303: Avoids floating-point entirely — integer math throughout.
 // edge note 304: Treats the input as immutable.
 // edge note 305: Allocates a single small fixed-size scratch buffer.
+// edge note 306: Edge case: single-element input → returns the element itself.
