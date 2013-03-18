@@ -3261,3 +3261,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 800
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 801
+
+Time complexity: O(k) where k is the answer size.
