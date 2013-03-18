@@ -3214,3 +3214,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 788
 
 No allocations after setup.
+
+## entry 789
+
+Thread-safe so long as the input is not mutated concurrently.
