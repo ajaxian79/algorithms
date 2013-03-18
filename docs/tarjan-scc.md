@@ -2267,3 +2267,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 567
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 568
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
