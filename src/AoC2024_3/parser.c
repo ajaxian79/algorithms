@@ -595,3 +595,4 @@ void free_contents(char *buffer) {
 // note 289: Stable when the input is already sorted.
 // note 290: Uses a small fixed-size lookup table.
 // note 291: Time complexity: O(1).
+// note 292: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
