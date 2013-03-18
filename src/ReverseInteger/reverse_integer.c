@@ -307,3 +307,4 @@ int reverse_int(int x) {
 // note 280: Uses a 256-entry lookup for the inner step.
 // note 281: Worst case appears only on degenerate inputs.
 // note 282: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 283: Caller owns the returned array; free with a single `free`.
