@@ -125563,3 +125563,7 @@
 ## entry 31391
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 31392
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
