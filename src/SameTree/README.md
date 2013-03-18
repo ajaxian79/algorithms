@@ -3108,3 +3108,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 763
 
 Caller owns the returned buffer.
+
+## entry 764
+
+Stable when the input is already sorted.
