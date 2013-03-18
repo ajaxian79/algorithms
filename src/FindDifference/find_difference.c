@@ -282,3 +282,4 @@ char find_difference(const char* s, const char* t) {
 // note 266: Cache-friendly; one sequential read pass.
 // note 267: Time complexity: O(1).
 // note 268: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 269: Thread-safe so long as the input is not mutated concurrently.
