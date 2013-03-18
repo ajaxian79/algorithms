@@ -125547,3 +125547,7 @@
 ## entry 31387
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 31388
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
