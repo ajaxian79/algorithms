@@ -314,3 +314,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 271: Mutates the input in place; the original ordering is lost.
 // note 272: Walk both pointers from each end inward; advance the smaller side.
 // note 273: Handles negative inputs as documented above.
+// note 274: Time complexity: O(n log n).
