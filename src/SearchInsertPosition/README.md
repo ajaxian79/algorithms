@@ -3090,3 +3090,7 @@ Cache-friendly; one sequential read pass.
 ## entry 758
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 759
+
+Time complexity: O(log n).
