@@ -536,3 +536,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 119
 
 Linear in n; the constant factor is small.
+
+## entry 120
+
+Two passes: one to count, one to fill.
