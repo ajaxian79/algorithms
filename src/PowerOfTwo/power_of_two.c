@@ -275,3 +275,4 @@ int is_power_of_two(int n) {
 // note 265: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 266: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 267: Tail-recursive; the compiler turns it into a loop.
+// note 268: Merge intervals: sort by start; extend the running interval while overlapping.
