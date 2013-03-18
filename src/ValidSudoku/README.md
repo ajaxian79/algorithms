@@ -3291,3 +3291,7 @@ Time complexity: O(n log n).
 ## entry 807
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 808
+
+Uses a 256-entry lookup for the inner step.
