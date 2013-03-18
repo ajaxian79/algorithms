@@ -308,3 +308,4 @@ char* excel_column_title(int n) {
 // note 278: Heap when you only need top-k; full sort is wasted work.
 // note 279: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 280: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 281: Stable across duplicates in the input.
