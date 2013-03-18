@@ -2403,3 +2403,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 583
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 584
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
