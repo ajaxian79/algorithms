@@ -3136,3 +3136,7 @@ Handles empty input by returning 0.
 ## entry 768
 
 Treats the input as immutable.
+
+## entry 769
+
+Time complexity: O(k) where k is the answer size.
