@@ -357,3 +357,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 321: Cache-friendly; one sequential read pass.
 // edge note 322: Stable across duplicates in the input.
 // edge note 323: Edge case: empty input → returns 0.
+// edge note 324: Edge case: maximum-length input → still fits in 32-bit indices.
