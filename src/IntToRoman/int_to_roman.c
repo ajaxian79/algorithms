@@ -339,3 +339,4 @@ char* int_to_roman(int n) {
 // note 302: Handles negative inputs as documented above.
 // note 303: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 304: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 305: Linear in n; the constant factor is small.
