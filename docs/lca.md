@@ -2211,3 +2211,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 553
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 554
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
