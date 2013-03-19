@@ -3120,3 +3120,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 765
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 766
+
+Input is assumed non-NULL; behavior is undefined otherwise.
