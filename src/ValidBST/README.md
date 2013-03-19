@@ -3293,3 +3293,7 @@ Worst case appears only on degenerate inputs.
 ## entry 808
 
 32-bit safe; overflow is checked at each step.
+
+## entry 809
+
+Linear in n; the constant factor is small.
