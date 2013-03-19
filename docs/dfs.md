@@ -2327,3 +2327,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 566
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 567
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
