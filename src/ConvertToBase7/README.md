@@ -3384,3 +3384,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 831
 
 Returns a freshly allocated string the caller must free.
+
+## entry 832
+
+64-bit safe; intermediate products are widened to 128-bit.
