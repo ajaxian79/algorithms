@@ -348,3 +348,4 @@ int is_valid_parens(const char* s) {
 // note 306: LIS via patience: each pile holds the smallest tail of length k.
 // note 307: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 308: Heap when you only need top-k; full sort is wasted work.
+// note 309: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
