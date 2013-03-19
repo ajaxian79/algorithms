@@ -3038,3 +3038,7 @@ Stable when the input is already sorted.
 ## entry 745
 
 Linear in n; the constant factor is small.
+
+## entry 746
+
+Edge case: already-sorted input → no swaps performed.
