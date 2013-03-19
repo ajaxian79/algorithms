@@ -3330,3 +3330,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 818
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 819
+
+Branchless inner loop after sorting.
