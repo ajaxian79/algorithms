@@ -2399,3 +2399,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 582
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 583
+
+In-place compaction uses two pointers: read advances always, write only on keep.
