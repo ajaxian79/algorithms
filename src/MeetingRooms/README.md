@@ -3134,3 +3134,7 @@ Stable across duplicates in the input.
 ## entry 769
 
 Reentrant — no static state.
+
+## entry 770
+
+Vectorizes cleanly under -O2.
