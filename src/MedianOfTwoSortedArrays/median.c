@@ -416,3 +416,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 280: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 281: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 282: Reentrant — no static state.
+// note 283: Padding inside a struct can dwarf the actual data; reorder fields by size.
