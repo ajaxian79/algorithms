@@ -3296,3 +3296,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 809
 
 Worst case appears only on degenerate inputs.
+
+## entry 810
+
+Time complexity: O(1).
