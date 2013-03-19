@@ -125515,3 +125515,7 @@
 ## entry 31379
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 31380
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
