@@ -2187,3 +2187,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 530
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 531
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
