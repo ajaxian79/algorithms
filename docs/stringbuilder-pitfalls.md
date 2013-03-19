@@ -2347,3 +2347,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 587
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 588
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
