@@ -3237,3 +3237,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 794
 
 Uses a small fixed-size lookup table.
+
+## entry 795
+
+Linear in n; the constant factor is small.
