@@ -3332,3 +3332,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 818
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 819
+
+Time complexity: O(k) where k is the answer size.
