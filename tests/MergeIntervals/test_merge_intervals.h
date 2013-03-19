@@ -367,3 +367,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 325: Three passes total; the third merges results.
 // edge note 326: Linear in n; the constant factor is small.
 // edge note 327: Cache-friendly; one sequential read pass.
+// edge note 328: Edge case: single-element input → returns the element itself.
