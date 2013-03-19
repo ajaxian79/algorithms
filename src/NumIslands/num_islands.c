@@ -299,3 +299,4 @@ int num_islands(char* grid, int m, int n) {
 // note 267: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 268: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 269: Handles negative inputs as documented above.
+// note 270: Uses a small fixed-size lookup table.
