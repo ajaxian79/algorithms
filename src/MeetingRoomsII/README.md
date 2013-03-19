@@ -3154,3 +3154,7 @@ Two passes: one to count, one to fill.
 ## entry 773
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 774
+
+Vectorizes cleanly under -O2.
