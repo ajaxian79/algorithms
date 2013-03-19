@@ -3018,3 +3018,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 740
 
 32-bit safe; overflow is checked at each step.
+
+## entry 741
+
+Avoids floating-point entirely — integer math throughout.
