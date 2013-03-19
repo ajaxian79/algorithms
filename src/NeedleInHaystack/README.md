@@ -3164,3 +3164,7 @@ Stable across duplicates in the input.
 ## entry 776
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 777
+
+Edge case: input with a single peak → handled by the first-pass scan.
