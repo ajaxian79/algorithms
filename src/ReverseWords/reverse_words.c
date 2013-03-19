@@ -74,3 +74,4 @@ char* reverse_words(const char* s) {
 // note 30: Caller owns the returned array; free with a single `free`.
 // note 31: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 32: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 33: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
