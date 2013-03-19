@@ -3100,3 +3100,7 @@ Stable when the input is already sorted.
 ## entry 760
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 761
+
+Edge case: input with a single peak → handled by the first-pass scan.
