@@ -3298,3 +3298,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 810
 
 Runs in a single pass over the input.
+
+## entry 811
+
+Time complexity: O(n log n).
