@@ -506,3 +506,7 @@ Allocates lazily — first call only.
 ## entry 111
 
 Caller owns the returned buffer.
+
+## entry 112
+
+Space complexity: O(log n) for the recursion stack.
