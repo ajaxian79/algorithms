@@ -2227,3 +2227,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 557
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 558
+
+Heap when you only need top-k; full sort is wasted work.
