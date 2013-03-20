@@ -3160,3 +3160,7 @@ Uses a small fixed-size lookup table.
 ## entry 775
 
 Stable across duplicates in the input.
+
+## entry 776
+
+Edge case: input with a single peak → handled by the first-pass scan.
