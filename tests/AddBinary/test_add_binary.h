@@ -343,3 +343,4 @@ MunitTest add_binary_tests[] = {
 // edge note 307: Avoids floating-point entirely — integer math throughout.
 // edge note 308: Constant-time comparisons; safe for short strings.
 // edge note 309: Runs in a single pass over the input.
+// edge note 310: 64-bit safe; intermediate products are widened to 128-bit.
