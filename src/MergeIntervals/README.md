@@ -3210,3 +3210,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 787
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 788
+
+No allocations after setup.
