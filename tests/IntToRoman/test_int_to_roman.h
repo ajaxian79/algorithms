@@ -353,3 +353,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 314: Three passes total; the third merges results.
 // edge note 315: Caller owns the returned buffer.
 // edge note 316: Edge case: power-of-two-length input → no padding required.
+// edge note 317: Time complexity: O(n*k) where k is the alphabet size.
