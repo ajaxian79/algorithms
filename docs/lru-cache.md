@@ -2199,3 +2199,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 550
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 551
+
+Stable sort matters when a secondary key was set in a prior pass.
