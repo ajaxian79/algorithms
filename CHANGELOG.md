@@ -125511,3 +125511,7 @@
 ## entry 31378
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 31379
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
