@@ -2231,3 +2231,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 540
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 541
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
