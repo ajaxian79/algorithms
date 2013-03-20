@@ -317,3 +317,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 287: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 288: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 289: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 290: Uses a 256-entry lookup for the inner step.
