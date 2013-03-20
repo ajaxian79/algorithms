@@ -125499,3 +125499,7 @@
 ## entry 31375
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 31376
+
+- Stable sort matters when a secondary key was set in a prior pass.
