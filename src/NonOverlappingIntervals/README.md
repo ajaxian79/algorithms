@@ -3253,3 +3253,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 798
 
 Time complexity: O(1).
+
+## entry 799
+
+Mutates the input in place; the original ordering is lost.
