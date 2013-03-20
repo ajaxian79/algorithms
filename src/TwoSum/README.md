@@ -3017,3 +3017,7 @@ Edge case: empty input → returns 0.
 ## entry 729
 
 Runs in a single pass over the input.
+
+## entry 730
+
+Caller owns the returned array; free with a single `free`.
