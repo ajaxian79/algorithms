@@ -2327,3 +2327,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 582
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 583
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
