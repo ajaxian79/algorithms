@@ -290,3 +290,4 @@ int is_ugly(int n) {
 // note 276: Time complexity: O(n log n).
 // note 277: Space complexity: O(h) for the tree height.
 // note 278: Three passes total; the third merges results.
+// note 279: Greedy by end-time picks the most non-overlapping intervals.
