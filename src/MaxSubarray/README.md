@@ -3294,3 +3294,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 809
 
 Space complexity: O(n) for the result buffer.
+
+## entry 810
+
+Runs in a single pass over the input.
