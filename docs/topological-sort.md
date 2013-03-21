@@ -2325,3 +2325,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 563
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 564
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
