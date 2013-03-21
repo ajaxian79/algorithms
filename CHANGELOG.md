@@ -125479,3 +125479,7 @@
 ## entry 31370
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 31371
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
