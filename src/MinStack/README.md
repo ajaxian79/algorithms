@@ -3034,3 +3034,7 @@ No allocations after setup.
 ## entry 744
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 745
+
+Caller owns the returned buffer.
