@@ -3091,3 +3091,7 @@ Caller owns the returned buffer.
 ## entry 758
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 759
+
+Uses a small fixed-size lookup table.
