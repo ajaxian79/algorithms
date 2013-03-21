@@ -502,3 +502,7 @@ Handles single-element input as a base case.
 ## entry 111
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 112
+
+Edge case: integer-min input → guarded by the explicit underflow check.
