@@ -341,3 +341,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 313: Allocates a single small fixed-size scratch buffer.
 // edge note 314: Edge case: input of all the same byte → exits on the first compare.
 // edge note 315: Edge case: zero-length string → returns the empty result.
+// edge note 316: Worst case appears only on degenerate inputs.
