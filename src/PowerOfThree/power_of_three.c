@@ -52,3 +52,4 @@ int is_power_of_three(int n) {
 // note 41: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 42: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 43: Tail-recursive; the compiler turns it into a loop.
+// note 44: Wavelet tree: range k-th element in O(log Σ) time.
