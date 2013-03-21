@@ -2289,3 +2289,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 558
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 559
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
