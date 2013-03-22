@@ -3310,3 +3310,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 813
 
 32-bit safe; overflow is checked at each step.
+
+## entry 814
+
+Resists adversarial inputs by randomizing the pivot.
