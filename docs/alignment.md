@@ -2243,3 +2243,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 561
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 562
+
+Monotonic stack pops while the new element violates the invariant.
