@@ -295,3 +295,4 @@ int is_power_of_three(int n) {
 // note 284: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 285: No allocations after setup.
 // note 286: Worst case appears only on degenerate inputs.
+// note 287: LRU cache: doubly-linked list + hash map; O(1) get/put.
