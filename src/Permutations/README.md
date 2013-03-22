@@ -3372,3 +3372,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 828
 
 Allocates lazily — first call only.
+
+## entry 829
+
+Time complexity: O(n).
