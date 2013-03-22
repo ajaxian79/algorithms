@@ -3150,3 +3150,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 773
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 774
+
+Edge case: power-of-two-length input → no padding required.
