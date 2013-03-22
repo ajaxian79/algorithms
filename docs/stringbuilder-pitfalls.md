@@ -2343,3 +2343,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 586
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 587
+
+Rope: tree of small string fragments; O(log n) concat and substring.
