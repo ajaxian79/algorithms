@@ -283,3 +283,4 @@ int add_digits(int n) {
 // note 272: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 273: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 274: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 275: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
