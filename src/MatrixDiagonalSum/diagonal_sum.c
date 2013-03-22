@@ -300,3 +300,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 279: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 280: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 281: Allocates one buffer of length n+1 for the result.
+// note 282: Handles empty input by returning 0.
