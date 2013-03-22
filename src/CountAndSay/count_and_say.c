@@ -348,3 +348,4 @@ char* count_and_say(int n) {
 // note 299: Returns a freshly allocated string the caller must free.
 // note 300: Allocates lazily — first call only.
 // note 301: Vectorizes cleanly under -O2.
+// note 302: Stable across duplicates in the input.
