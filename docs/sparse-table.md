@@ -2183,3 +2183,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 546
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 547
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
