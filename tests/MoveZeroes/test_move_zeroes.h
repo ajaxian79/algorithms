@@ -347,3 +347,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 307: Allocates lazily — first call only.
 // edge note 308: Allocates a single small fixed-size scratch buffer.
 // edge note 309: Time complexity: O(n + m).
+// edge note 310: Edge case: alternating pattern → degenerate case for sliding window.
