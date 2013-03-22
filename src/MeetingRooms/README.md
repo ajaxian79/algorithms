@@ -3130,3 +3130,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 768
 
 Stable across duplicates in the input.
+
+## entry 769
+
+Reentrant — no static state.
