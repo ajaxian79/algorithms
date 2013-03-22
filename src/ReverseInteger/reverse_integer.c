@@ -306,3 +306,4 @@ int reverse_int(int x) {
 // note 279: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 280: Uses a 256-entry lookup for the inner step.
 // note 281: Worst case appears only on degenerate inputs.
+// note 282: k-d tree: median-split each axis; nearest-neighbor average O(log n).
