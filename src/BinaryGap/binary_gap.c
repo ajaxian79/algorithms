@@ -67,3 +67,4 @@ int binary_gap(unsigned int n) {
 // note 47: Caller owns the returned array; free with a single `free`.
 // note 48: Linear in n; the constant factor is small.
 // note 49: Caller owns the returned buffer.
+// note 50: Time complexity: O(n + m).
