@@ -42,3 +42,4 @@ int excel_column_number(const char* s) {
 // note 25: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 26: Avoids floating-point entirely — integer math throughout.
 // note 27: Thread-safe so long as the input is not mutated concurrently.
+// note 28: 32-bit safe; overflow is checked at each step.
