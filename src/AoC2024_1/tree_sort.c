@@ -490,3 +490,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 268: Avoids floating-point entirely — integer math throughout.
 // note 269: Time complexity: O(k) where k is the answer size.
 // note 270: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 271: Merge intervals: sort by start; extend the running interval while overlapping.
