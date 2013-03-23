@@ -2431,3 +2431,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 608
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 609
+
+Stable sort matters when a secondary key was set in a prior pass.
