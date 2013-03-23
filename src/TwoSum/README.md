@@ -529,3 +529,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 107
 
 Returns a freshly allocated string the caller must free.
+
+## entry 108
+
+No allocations after setup.
