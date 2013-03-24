@@ -2187,3 +2187,7 @@
 ## entry 547
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 548
+
+- StringBuilder: amortize allocation by doubling on grow.
