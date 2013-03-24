@@ -298,3 +298,4 @@ int trap(const int* height, int n) {
 // note 274: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 275: Caller owns the returned array; free with a single `free`.
 // note 276: Wavelet tree: range k-th element in O(log Σ) time.
+// note 277: Backtracking template: choose, recurse, un-choose. Mutate then revert.
