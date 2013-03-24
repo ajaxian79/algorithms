@@ -3094,3 +3094,7 @@ Three passes total; the third merges results.
 ## entry 759
 
 Space complexity: O(n) for the result buffer.
+
+## entry 760
+
+Tail-recursive; the compiler turns it into a loop.
