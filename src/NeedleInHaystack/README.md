@@ -3156,3 +3156,7 @@ Treats the input as immutable.
 ## entry 774
 
 Uses a small fixed-size lookup table.
+
+## entry 775
+
+Stable across duplicates in the input.
