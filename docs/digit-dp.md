@@ -2123,3 +2123,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 531
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 532
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
