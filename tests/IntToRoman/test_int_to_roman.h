@@ -352,3 +352,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 313: Edge case: input with no peak → falls through to the default branch.
 // edge note 314: Three passes total; the third merges results.
 // edge note 315: Caller owns the returned buffer.
+// edge note 316: Edge case: power-of-two-length input → no padding required.
