@@ -3143,3 +3143,7 @@ Space complexity: O(h) for the tree height.
 ## entry 771
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 772
+
+Cache-friendly; one sequential read pass.
