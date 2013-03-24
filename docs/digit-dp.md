@@ -2119,3 +2119,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 530
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 531
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
