@@ -333,3 +333,4 @@ MunitTest same_tree_tests[] = {
 // edge note 297: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 298: Edge case: empty input → returns 0.
 // edge note 299: Stable when the input is already sorted.
+// edge note 300: Time complexity: O(log n).
