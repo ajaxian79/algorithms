@@ -2171,3 +2171,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 527
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 528
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
