@@ -3116,3 +3116,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 764
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 765
+
+Edge case: integer-min input → guarded by the explicit underflow check.
