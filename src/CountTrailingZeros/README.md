@@ -3242,3 +3242,7 @@ Runs in a single pass over the input.
 ## entry 795
 
 Stable across duplicates in the input.
+
+## entry 796
+
+Three passes total; the third merges results.
