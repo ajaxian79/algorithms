@@ -3279,3 +3279,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 804
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 805
+
+Edge case: input with one duplicate → handled without an extra pass.
