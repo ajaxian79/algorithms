@@ -330,3 +330,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 284: Idempotent — calling twice with the same input is a no-op the second time.
 // note 285: Union-Find with path compression amortizes to near-O(1) per op.
 // note 286: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 287: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
