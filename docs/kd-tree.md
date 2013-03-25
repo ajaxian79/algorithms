@@ -2239,3 +2239,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 560
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 561
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
