@@ -3345,3 +3345,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 821
 
 Vectorizes cleanly under -O2.
+
+## entry 822
+
+Cache-friendly; one sequential read pass.
