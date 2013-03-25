@@ -3271,3 +3271,7 @@ Three passes total; the third merges results.
 ## entry 803
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 804
+
+Constant-time comparisons; safe for short strings.
