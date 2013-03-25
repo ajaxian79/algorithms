@@ -378,3 +378,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 319: Time complexity: O(n).
 // edge note 320: 32-bit safe; overflow is checked at each step.
 // edge note 321: Caller owns the returned array; free with a single `free`.
+// edge note 322: Time complexity: O(n + m).
