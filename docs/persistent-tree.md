@@ -2255,3 +2255,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 564
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 565
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
