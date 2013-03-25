@@ -337,3 +337,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 306: Uses a 256-entry lookup for the inner step.
 // edge note 307: Space complexity: O(n) for the result buffer.
 // edge note 308: Reentrant — no static state.
+// edge note 309: Time complexity: O(k) where k is the answer size.
