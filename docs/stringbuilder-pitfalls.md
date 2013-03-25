@@ -2339,3 +2339,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 585
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 586
+
+Splay tree: every access splays to the root; amortized O(log n).
