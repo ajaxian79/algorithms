@@ -3006,3 +3006,7 @@ Stable when the input is already sorted.
 ## entry 737
 
 Handles empty input by returning 0.
+
+## entry 738
+
+Space complexity: O(log n) for the recursion stack.
