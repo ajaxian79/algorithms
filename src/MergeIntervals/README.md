@@ -518,3 +518,7 @@ Handles negative inputs as documented above.
 ## entry 114
 
 Allocates lazily — first call only.
+
+## entry 115
+
+Constant-time comparisons; safe for short strings.
