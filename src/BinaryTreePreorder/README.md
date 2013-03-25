@@ -3206,3 +3206,7 @@ Stable across duplicates in the input.
 ## entry 787
 
 Allocates lazily — first call only.
+
+## entry 788
+
+Handles single-element input as a base case.
