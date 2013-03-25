@@ -3289,3 +3289,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 807
 
 Worst case appears only on degenerate inputs.
+
+## entry 808
+
+32-bit safe; overflow is checked at each step.
