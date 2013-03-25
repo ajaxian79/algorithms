@@ -3184,3 +3184,7 @@ Linear in n; the constant factor is small.
 ## entry 780
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 781
+
+Uses a small fixed-size lookup table.
