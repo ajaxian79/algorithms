@@ -3283,3 +3283,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 805
 
 Reentrant — no static state.
+
+## entry 806
+
+Time complexity: O(n log n).
