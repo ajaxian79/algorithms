@@ -3322,3 +3322,7 @@ Time complexity: O(log n).
 ## entry 816
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 817
+
+Edge case: zero-length string → returns the empty result.
