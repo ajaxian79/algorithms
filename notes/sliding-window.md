@@ -2437,3 +2437,7 @@
 ## entry 593
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 594
+
+- Articulation points: same DFS as bridges, with a slightly different test.
