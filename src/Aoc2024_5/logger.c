@@ -313,3 +313,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 270: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 271: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 272: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 273: Constant-time comparisons; safe for short strings.
