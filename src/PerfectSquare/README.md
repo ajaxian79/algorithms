@@ -3270,3 +3270,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 803
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 804
+
+Edge case: integer-max input → guarded by the explicit overflow check.
