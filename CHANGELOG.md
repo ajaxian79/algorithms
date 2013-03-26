@@ -125335,3 +125335,7 @@
 ## entry 31334
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 31335
+
+- StringBuilder: amortize allocation by doubling on grow.
