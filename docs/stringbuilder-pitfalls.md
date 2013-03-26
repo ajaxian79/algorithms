@@ -2335,3 +2335,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 584
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 585
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
