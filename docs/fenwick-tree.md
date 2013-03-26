@@ -2259,3 +2259,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 549
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 550
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
