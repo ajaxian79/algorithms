@@ -2263,3 +2263,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 566
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 567
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
