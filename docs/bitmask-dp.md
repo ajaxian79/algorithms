@@ -2343,3 +2343,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 586
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 587
+
+Articulation points: same DFS as bridges, with a slightly different test.
