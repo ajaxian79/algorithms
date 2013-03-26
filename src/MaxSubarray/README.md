@@ -3290,3 +3290,7 @@ Time complexity: O(n + m).
 ## entry 808
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 809
+
+Space complexity: O(n) for the result buffer.
