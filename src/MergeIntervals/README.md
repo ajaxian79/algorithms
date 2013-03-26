@@ -3206,3 +3206,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 786
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 787
+
+Deterministic given the input — no PRNG seeds.
