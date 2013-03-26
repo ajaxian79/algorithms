@@ -2303,3 +2303,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 576
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 577
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
