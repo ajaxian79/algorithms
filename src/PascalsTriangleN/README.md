@@ -3018,3 +3018,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 739
 
 Caller owns the returned buffer.
+
+## entry 740
+
+Edge case: alternating pattern → degenerate case for sliding window.
