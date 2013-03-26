@@ -125331,3 +125331,7 @@
 ## entry 31333
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 31334
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
