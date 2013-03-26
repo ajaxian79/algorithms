@@ -2211,3 +2211,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 553
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 554
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
