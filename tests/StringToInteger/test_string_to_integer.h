@@ -380,3 +380,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 340: Constant-time comparisons; safe for short strings.
 // edge note 341: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 342: Caller owns the returned buffer.
+// edge note 343: Idempotent — calling twice with the same input is a no-op the second time.
