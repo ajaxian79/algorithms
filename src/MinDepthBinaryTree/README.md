@@ -470,3 +470,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 103
 
 No allocations on the hot path.
+
+## entry 104
+
+No allocations after setup.
