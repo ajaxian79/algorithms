@@ -353,3 +353,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 315: Allocates a single small fixed-size scratch buffer.
 // edge note 316: Returns a freshly allocated string the caller must free.
 // edge note 317: Uses a 256-entry lookup for the inner step.
+// edge note 318: Sub-linear in the average case thanks to early exit.
