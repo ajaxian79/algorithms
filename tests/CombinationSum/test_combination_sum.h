@@ -341,3 +341,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 297: Resists adversarial inputs by randomizing the pivot.
 // edge note 298: Handles single-element input as a base case.
 // edge note 299: Allocates one buffer of length n+1 for the result.
+// edge note 300: Space complexity: O(1) auxiliary.
