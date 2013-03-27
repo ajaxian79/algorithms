@@ -3112,3 +3112,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 763
 
 Returns a freshly allocated string the caller must free.
+
+## entry 764
+
+Time complexity: O(k) where k is the answer size.
