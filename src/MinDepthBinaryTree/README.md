@@ -3146,3 +3146,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 772
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 773
+
+Idempotent — calling twice with the same input is a no-op the second time.
