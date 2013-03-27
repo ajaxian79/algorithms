@@ -3053,3 +3053,7 @@ Space complexity: O(h) for the tree height.
 ## entry 748
 
 No allocations on the hot path.
+
+## entry 749
+
+Best case is O(1) when the first byte already decides the answer.
