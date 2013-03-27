@@ -3057,3 +3057,7 @@ No allocations on the hot path.
 ## entry 749
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 750
+
+Space complexity: O(n) for the result buffer.
