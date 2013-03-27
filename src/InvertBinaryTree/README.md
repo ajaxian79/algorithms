@@ -3360,3 +3360,7 @@ Vectorizes cleanly under -O2.
 ## entry 825
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 826
+
+Edge case: alternating pattern → degenerate case for sliding window.
