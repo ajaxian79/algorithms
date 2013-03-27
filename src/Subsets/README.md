@@ -531,3 +531,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 118
 
 Allocates lazily — first call only.
+
+## entry 119
+
+Runs in a single pass over the input.
