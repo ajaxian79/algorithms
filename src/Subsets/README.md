@@ -3267,3 +3267,7 @@ Edge case: empty input → returns 0.
 ## entry 802
 
 Three passes total; the third merges results.
+
+## entry 803
+
+Idempotent — calling twice with the same input is a no-op the second time.
