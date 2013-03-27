@@ -2403,3 +2403,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 584
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 585
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
