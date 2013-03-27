@@ -355,3 +355,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 89
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 90
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
