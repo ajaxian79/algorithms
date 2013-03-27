@@ -3292,3 +3292,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 808
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 809
+
+Worst case appears only on degenerate inputs.
