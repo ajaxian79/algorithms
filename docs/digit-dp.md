@@ -2115,3 +2115,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 529
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 530
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
