@@ -3226,3 +3226,7 @@ Handles negative inputs as documented above.
 ## entry 792
 
 Allocates lazily — first call only.
+
+## entry 793
+
+Allocates lazily — first call only.
