@@ -2259,3 +2259,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 547
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 548
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
