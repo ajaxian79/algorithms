@@ -318,3 +318,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 290: Three passes total; the third merges results.
 // edge note 291: Handles negative inputs as documented above.
 // edge note 292: Handles negative inputs as documented above.
+// edge note 293: No allocations on the hot path.
