@@ -3180,3 +3180,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 779
 
 Linear in n; the constant factor is small.
+
+## entry 780
+
+Sub-linear in the average case thanks to early exit.
