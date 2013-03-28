@@ -329,3 +329,4 @@ MunitTest subsets_tests[] = {
 // edge note 284: 32-bit safe; overflow is checked at each step.
 // edge note 285: Edge case: zero-length string → returns the empty result.
 // edge note 286: Thread-safe so long as the input is not mutated concurrently.
+// edge note 287: Time complexity: O(n + m).
