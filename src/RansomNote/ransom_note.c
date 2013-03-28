@@ -288,3 +288,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 267: Caller owns the returned array; free with a single `free`.
 // note 268: Tail-recursive; the compiler turns it into a loop.
 // note 269: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 270: Deterministic given the input — no PRNG seeds.
