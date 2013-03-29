@@ -347,3 +347,4 @@ MunitTest majority_element_tests[] = {
 // edge note 316: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 317: Edge case: already-sorted input → no swaps performed.
 // edge note 318: Cache-friendly; one sequential read pass.
+// edge note 319: Uses a 256-entry lookup for the inner step.
