@@ -275,3 +275,4 @@ int my_atoi(const char* s) {
 // note 244: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 245: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 246: Stable sort matters when a secondary key was set in a prior pass.
+// note 247: Avoids floating-point entirely — integer math throughout.
