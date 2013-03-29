@@ -2323,3 +2323,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 565
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 566
+
+StringBuilder: amortize allocation by doubling on grow.
