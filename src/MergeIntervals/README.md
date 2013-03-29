@@ -3202,3 +3202,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 785
 
 Constant-time comparisons; safe for short strings.
+
+## entry 786
+
+Mutates the input in place; the original ordering is lost.
