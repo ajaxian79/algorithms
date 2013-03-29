@@ -292,3 +292,4 @@ int is_palindrome_number(int x) {
 // note 268: No allocations on the hot path.
 // note 269: Time complexity: O(n*k) where k is the alphabet size.
 // note 270: Resists adversarial inputs by randomizing the pivot.
+// note 271: Constant-time comparisons; safe for short strings.
