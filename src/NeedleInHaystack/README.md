@@ -3148,3 +3148,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 772
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 773
+
+Treats the input as immutable.
