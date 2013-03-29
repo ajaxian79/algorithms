@@ -2237,3 +2237,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 543
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 544
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
