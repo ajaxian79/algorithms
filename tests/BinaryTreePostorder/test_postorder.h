@@ -351,3 +351,4 @@ MunitTest postorder_tests[] = {
 // edge note 307: Edge case: reverse-sorted input → still O(n log n).
 // edge note 308: Uses a 256-entry lookup for the inner step.
 // edge note 309: Edge case: empty input → returns 0.
+// edge note 310: Edge case: alternating pattern → degenerate case for sliding window.
