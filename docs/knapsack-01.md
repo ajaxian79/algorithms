@@ -2325,3 +2325,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 564
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 565
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
