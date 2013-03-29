@@ -289,3 +289,4 @@ int is_ugly(int n) {
 // note 275: Sub-linear in the average case thanks to early exit.
 // note 276: Time complexity: O(n log n).
 // note 277: Space complexity: O(h) for the tree height.
+// note 278: Three passes total; the third merges results.
