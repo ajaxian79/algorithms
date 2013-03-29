@@ -2245,3 +2245,7 @@
 ## entry 546
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 547
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
