@@ -3045,3 +3045,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 747
 
 Handles empty input by returning 0.
+
+## entry 748
+
+Edge case: zero-length string → returns the empty result.
