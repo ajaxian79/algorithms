@@ -3152,3 +3152,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 773
 
 Treats the input as immutable.
+
+## entry 774
+
+Uses a small fixed-size lookup table.
