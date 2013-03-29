@@ -1983,3 +1983,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 496
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 497
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
