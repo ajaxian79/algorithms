@@ -3222,3 +3222,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 791
 
 Handles negative inputs as documented above.
+
+## entry 792
+
+Allocates lazily — first call only.
