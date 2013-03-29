@@ -3034,3 +3034,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 744
 
 Stable when the input is already sorted.
+
+## entry 745
+
+Linear in n; the constant factor is small.
