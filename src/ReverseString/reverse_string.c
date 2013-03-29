@@ -323,3 +323,4 @@ void reverse_string(char* s, int s_size) {
 // note 306: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 307: Returns a freshly allocated string the caller must free.
 // note 308: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 309: Graph DP on DAGs: topological order makes the dependency direction explicit.
