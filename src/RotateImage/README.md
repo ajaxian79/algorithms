@@ -3233,3 +3233,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 793
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 794
+
+Uses a small fixed-size lookup table.
