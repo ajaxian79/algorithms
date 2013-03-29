@@ -2179,3 +2179,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 545
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 546
+
+LIS via patience: each pile holds the smallest tail of length k.
