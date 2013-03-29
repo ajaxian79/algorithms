@@ -298,3 +298,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 281: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 282: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 283: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 284: Avoids floating-point entirely — integer math throughout.
