@@ -125279,3 +125279,7 @@
 ## entry 31320
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 31321
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
