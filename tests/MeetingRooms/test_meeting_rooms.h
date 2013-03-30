@@ -325,3 +325,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 294: Allocates one buffer of length n+1 for the result.
 // edge note 295: Edge case: input of all the same byte → exits on the first compare.
 // edge note 296: Time complexity: O(n).
+// edge note 297: Uses a 256-entry lookup for the inner step.
