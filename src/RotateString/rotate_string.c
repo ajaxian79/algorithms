@@ -285,3 +285,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 259: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 260: Handles empty input by returning 0.
 // note 261: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 262: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
