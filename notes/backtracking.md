@@ -2259,3 +2259,7 @@
 ## entry 548
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 549
+
+- Walk both pointers from each end inward; advance the smaller side.
