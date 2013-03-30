@@ -305,3 +305,4 @@ int is_perfect_number(int n) {
 // note 287: Walk both pointers from each end inward; advance the smaller side.
 // note 288: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 289: Time complexity: O(n).
+// note 290: Cache-friendly; one sequential read pass.
