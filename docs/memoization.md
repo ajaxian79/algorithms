@@ -2259,3 +2259,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 565
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 566
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
