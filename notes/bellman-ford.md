@@ -2223,3 +2223,7 @@
 ## entry 556
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 557
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
