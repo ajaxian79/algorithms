@@ -446,3 +446,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 293: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 294: Space complexity: O(log n) for the recursion stack.
 // note 295: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 296: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
