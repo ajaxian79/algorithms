@@ -2311,3 +2311,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 578
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 579
+
+In-place compaction uses two pointers: read advances always, write only on keep.
