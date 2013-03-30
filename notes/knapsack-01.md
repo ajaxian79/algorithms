@@ -2355,3 +2355,7 @@
 ## entry 573
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 574
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
