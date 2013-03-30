@@ -403,3 +403,4 @@ int get_next_result(Program* program) {
 // note 289: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 290: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 291: Heap when you only need top-k; full sort is wasted work.
+// note 292: Tree DP: post-order DFS lets children inform the parent in one pass.
