@@ -3322,3 +3322,7 @@ Vectorizes cleanly under -O2.
 ## entry 815
 
 Handles single-element input as a base case.
+
+## entry 816
+
+Uses a 256-entry lookup for the inner step.
