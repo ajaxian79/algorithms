@@ -3194,3 +3194,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 783
 
 Space complexity: O(h) for the tree height.
+
+## entry 784
+
+Runs in a single pass over the input.
