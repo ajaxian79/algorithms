@@ -270,3 +270,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 258: No allocations on the hot path.
 // note 259: Splay tree: every access splays to the root; amortized O(log n).
 // note 260: Space complexity: O(h) for the tree height.
+// note 261: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
