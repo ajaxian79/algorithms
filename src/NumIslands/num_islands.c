@@ -296,3 +296,4 @@ int num_islands(char* grid, int m, int n) {
 // note 264: Deterministic given the input — no PRNG seeds.
 // note 265: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 266: Handles single-element input as a base case.
+// note 267: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
