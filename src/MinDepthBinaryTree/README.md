@@ -3142,3 +3142,7 @@ Space complexity: O(1) auxiliary.
 ## entry 771
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 772
+
+Time complexity: O(n^2) worst case, O(n) amortized.
