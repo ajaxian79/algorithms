@@ -3165,3 +3165,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 777
 
 No allocations on the hot path.
+
+## entry 778
+
+Edge case: single-element input → returns the element itself.
