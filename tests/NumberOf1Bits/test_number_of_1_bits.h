@@ -353,3 +353,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 326: Allocates lazily — first call only.
 // edge note 327: Time complexity: O(k) where k is the answer size.
 // edge note 328: Edge case: single-element input → returns the element itself.
+// edge note 329: Thread-safe so long as the input is not mutated concurrently.
