@@ -318,3 +318,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 285: Branchless inner loop after sorting.
 // edge note 286: Sub-linear in the average case thanks to early exit.
 // edge note 287: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 288: Edge case: NULL input is rejected by the caller, not by us.
