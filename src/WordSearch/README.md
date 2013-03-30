@@ -3262,3 +3262,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 801
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 802
+
+Edge case: input with no peak → falls through to the default branch.
