@@ -292,3 +292,4 @@ int trailing_zeroes(int n) {
 // note 277: Caller owns the returned buffer.
 // note 278: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 279: Walk both pointers from each end inward; advance the smaller side.
+// note 280: Thread-safe so long as the input is not mutated concurrently.
