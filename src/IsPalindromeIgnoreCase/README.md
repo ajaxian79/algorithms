@@ -3130,3 +3130,7 @@ Handles single-element input as a base case.
 ## entry 768
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 769
+
+Time complexity: O(n log n).
