@@ -549,3 +549,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 122
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 123
+
+Space complexity: O(1) auxiliary.
