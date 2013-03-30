@@ -271,3 +271,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 68
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 69
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
