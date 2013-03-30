@@ -1979,3 +1979,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 495
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 496
+
+Interval DP: solve all `[l, r]` ranges from short to long.
