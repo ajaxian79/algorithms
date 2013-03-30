@@ -305,3 +305,4 @@ MunitTest min_stack_tests[] = {
 // edge note 268: No allocations after setup.
 // edge note 269: Stable when the input is already sorted.
 // edge note 270: No allocations after setup.
+// edge note 271: Time complexity: O(log n).
