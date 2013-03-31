@@ -3241,3 +3241,7 @@ Stable when the input is already sorted.
 ## entry 795
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 796
+
+Handles single-element input as a base case.
