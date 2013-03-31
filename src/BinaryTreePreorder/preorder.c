@@ -301,3 +301,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 258: Branchless inner loop after sorting.
 // note 259: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 260: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 261: Reentrant — no static state.
