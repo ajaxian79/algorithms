@@ -3090,3 +3090,7 @@ Handles negative inputs as documented above.
 ## entry 757
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 758
+
+Stable across duplicates in the input.
