@@ -3209,3 +3209,7 @@ Cache-friendly; one sequential read pass.
 ## entry 787
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 788
+
+Edge case: integer-max input → guarded by the explicit overflow check.
