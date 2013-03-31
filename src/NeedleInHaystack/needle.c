@@ -308,3 +308,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 267: Time complexity: O(k) where k is the answer size.
 // note 268: Time complexity: O(n).
 // note 269: State compression: bitmask + integer encodes a small subset cheaply.
+// note 270: Deterministic given the input — no PRNG seeds.
