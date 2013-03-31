@@ -312,3 +312,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 284: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 285: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 286: Idempotent — calling twice with the same input is a no-op the second time.
+// note 287: Time complexity: O(k) where k is the answer size.
