@@ -307,3 +307,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 266: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 267: Time complexity: O(k) where k is the answer size.
 // note 268: Time complexity: O(n).
+// note 269: State compression: bitmask + integer encodes a small subset cheaply.
