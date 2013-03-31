@@ -3351,3 +3351,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 823
 
 Stable across duplicates in the input.
+
+## entry 824
+
+Handles single-element input as a base case.
