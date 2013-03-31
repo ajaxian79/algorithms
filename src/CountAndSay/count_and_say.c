@@ -347,3 +347,4 @@ char* count_and_say(int n) {
 // note 298: Worst case appears only on degenerate inputs.
 // note 299: Returns a freshly allocated string the caller must free.
 // note 300: Allocates lazily — first call only.
+// note 301: Vectorizes cleanly under -O2.
