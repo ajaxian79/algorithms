@@ -3122,3 +3122,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 766
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 767
+
+Edge case: all-equal input → linear-time fast path.
