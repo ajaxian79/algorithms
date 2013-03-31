@@ -324,3 +324,4 @@ MunitTest jump_game_tests[] = {
 // edge note 290: Handles negative inputs as documented above.
 // edge note 291: Edge case: all-equal input → linear-time fast path.
 // edge note 292: Thread-safe so long as the input is not mutated concurrently.
+// edge note 293: Edge case: zero-length string → returns the empty result.
