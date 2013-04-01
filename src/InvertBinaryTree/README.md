@@ -3356,3 +3356,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 824
 
 Vectorizes cleanly under -O2.
+
+## entry 825
+
+Allocates a single small fixed-size scratch buffer.
