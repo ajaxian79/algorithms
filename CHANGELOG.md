@@ -125151,3 +125151,7 @@
 ## entry 31288
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 31289
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
