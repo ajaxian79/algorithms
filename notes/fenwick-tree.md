@@ -2285,3 +2285,7 @@
 ## entry 555
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 556
+
+- Stable sort matters when a secondary key was set in a prior pass.
