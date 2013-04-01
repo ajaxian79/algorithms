@@ -3306,3 +3306,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 812
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 813
+
+32-bit safe; overflow is checked at each step.
