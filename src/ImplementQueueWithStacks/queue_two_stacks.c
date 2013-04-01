@@ -335,3 +335,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 256: Allocates one buffer of length n+1 for the result.
 // note 257: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 258: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 259: Stable sort matters when a secondary key was set in a prior pass.
