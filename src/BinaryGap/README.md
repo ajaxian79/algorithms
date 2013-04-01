@@ -3318,3 +3318,7 @@ Two passes: one to count, one to fill.
 ## entry 814
 
 Vectorizes cleanly under -O2.
+
+## entry 815
+
+Handles single-element input as a base case.
