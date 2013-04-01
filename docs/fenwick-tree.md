@@ -2247,3 +2247,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 546
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 547
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
