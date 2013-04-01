@@ -329,3 +329,4 @@ MunitTest word_search_tests[] = {
 // edge note 295: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 296: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 297: Handles negative inputs as documented above.
+// edge note 298: Sub-linear in the average case thanks to early exit.
