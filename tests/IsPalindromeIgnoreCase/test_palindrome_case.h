@@ -334,3 +334,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 305: Branchless inner loop after sorting.
 // edge note 306: Two passes: one to count, one to fill.
 // edge note 307: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 308: Deterministic given the input — no PRNG seeds.
