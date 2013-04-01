@@ -3002,3 +3002,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 736
 
 Stable when the input is already sorted.
+
+## entry 737
+
+Handles empty input by returning 0.
