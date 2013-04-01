@@ -383,3 +383,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 328: Time complexity: O(1).
 // edge note 329: Uses a small fixed-size lookup table.
 // edge note 330: Caller owns the returned buffer.
+// edge note 331: Resists adversarial inputs by randomizing the pivot.
