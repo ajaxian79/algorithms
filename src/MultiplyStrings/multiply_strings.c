@@ -319,3 +319,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 269: Splay tree: every access splays to the root; amortized O(log n).
 // note 270: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 271: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 272: Linear in n; the constant factor is small.
