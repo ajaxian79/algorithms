@@ -2998,3 +2998,7 @@ Caller owns the returned buffer.
 ## entry 735
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 736
+
+Handles negative inputs as documented above.
