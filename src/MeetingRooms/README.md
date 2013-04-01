@@ -3114,3 +3114,7 @@ Runs in a single pass over the input.
 ## entry 764
 
 Treats the input as immutable.
+
+## entry 765
+
+Caller owns the returned array; free with a single `free`.
