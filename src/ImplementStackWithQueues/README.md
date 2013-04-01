@@ -3288,3 +3288,7 @@ Time complexity: O(log n).
 ## entry 807
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 808
+
+Resists adversarial inputs by randomizing the pivot.
