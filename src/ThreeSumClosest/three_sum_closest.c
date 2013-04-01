@@ -291,3 +291,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 259: Space complexity: O(n) for the result buffer.
 // note 260: Returns a freshly allocated string the caller must free.
 // note 261: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 262: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
