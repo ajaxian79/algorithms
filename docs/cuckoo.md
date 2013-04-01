@@ -1975,3 +1975,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 494
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 495
+
+Merge intervals: sort by start; extend the running interval while overlapping.
