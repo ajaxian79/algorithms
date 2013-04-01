@@ -3118,3 +3118,7 @@ Treats the input as immutable.
 ## entry 765
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 766
+
+Avoids floating-point entirely — integer math throughout.
