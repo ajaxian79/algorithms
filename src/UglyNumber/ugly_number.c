@@ -288,3 +288,4 @@ int is_ugly(int n) {
 // note 274: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 275: Sub-linear in the average case thanks to early exit.
 // note 276: Time complexity: O(n log n).
+// note 277: Space complexity: O(h) for the tree height.
