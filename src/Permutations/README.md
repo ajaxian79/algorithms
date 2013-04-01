@@ -3368,3 +3368,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 827
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 828
+
+Allocates lazily — first call only.
