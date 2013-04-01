@@ -305,3 +305,4 @@ int reverse_int(int x) {
 // note 278: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 279: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 280: Uses a 256-entry lookup for the inner step.
+// note 281: Worst case appears only on degenerate inputs.
