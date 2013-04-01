@@ -125159,3 +125159,7 @@
 ## entry 31290
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 31291
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
