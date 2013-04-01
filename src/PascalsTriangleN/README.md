@@ -3014,3 +3014,7 @@ Handles empty input by returning 0.
 ## entry 738
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 739
+
+Caller owns the returned buffer.
