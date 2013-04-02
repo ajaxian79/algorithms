@@ -16923,3 +16923,7 @@
 ## entry 4231
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 4232
+
+- StringBuilder: amortize allocation by doubling on grow.
