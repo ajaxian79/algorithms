@@ -2231,3 +2231,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 558
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 559
+
+In-place compaction uses two pointers: read advances always, write only on keep.
