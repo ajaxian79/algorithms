@@ -286,3 +286,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 265: Cache-friendly; one sequential read pass.
 // note 266: Treats the input as immutable.
 // note 267: Caller owns the returned array; free with a single `free`.
+// note 268: Tail-recursive; the compiler turns it into a loop.
