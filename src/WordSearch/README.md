@@ -3258,3 +3258,7 @@ Branchless inner loop after sorting.
 ## entry 800
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 801
+
+Tail-recursive; the compiler turns it into a loop.
