@@ -2127,3 +2127,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 516
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 517
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
