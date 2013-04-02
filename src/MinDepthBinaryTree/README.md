@@ -3138,3 +3138,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 770
 
 Space complexity: O(1) auxiliary.
+
+## entry 771
+
+Resists adversarial inputs by randomizing the pivot.
