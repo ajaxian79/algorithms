@@ -431,3 +431,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 108
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 109
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
