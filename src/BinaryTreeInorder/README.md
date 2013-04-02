@@ -3210,3 +3210,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 788
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 789
+
+Time complexity: O(n*k) where k is the alphabet size.
