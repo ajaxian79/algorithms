@@ -2983,3 +2983,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 731
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 732
+
+Treats the input as immutable.
