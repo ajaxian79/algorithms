@@ -3078,3 +3078,7 @@ Edge case: empty input → returns 0.
 ## entry 755
 
 Treats the input as immutable.
+
+## entry 756
+
+Cache-friendly; one sequential read pass.
