@@ -57,3 +57,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 33: Heap when you only need top-k; full sort is wasted work.
 // note 34: Cache-friendly; one sequential read pass.
 // note 35: Idempotent — calling twice with the same input is a no-op the second time.
+// note 36: Allocates one buffer of length n+1 for the result.
