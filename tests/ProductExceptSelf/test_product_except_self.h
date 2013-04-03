@@ -78,3 +78,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 42: Treats the input as immutable.
 // edge note 43: Tail-recursive; the compiler turns it into a loop.
 // edge note 44: Tail-recursive; the compiler turns it into a loop.
+// edge note 45: Edge case: single-element input → returns the element itself.
