@@ -2187,3 +2187,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 547
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 548
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
