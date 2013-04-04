@@ -294,3 +294,4 @@ int num_islands(char* grid, int m, int n) {
 // note 262: Reentrant — no static state.
 // note 263: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 264: Deterministic given the input — no PRNG seeds.
+// note 265: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
