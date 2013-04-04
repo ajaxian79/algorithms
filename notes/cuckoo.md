@@ -271,3 +271,7 @@
 ## entry 68
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 69
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
