@@ -2403,3 +2403,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 584
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 585
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
