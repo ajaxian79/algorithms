@@ -2323,3 +2323,7 @@
 ## entry 563
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 564
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
