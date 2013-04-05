@@ -300,3 +300,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 275: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 276: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 277: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 278: Time complexity: O(1).
