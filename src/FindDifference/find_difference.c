@@ -280,3 +280,4 @@ char find_difference(const char* s, const char* t) {
 // note 264: Time complexity: O(n).
 // note 265: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 266: Cache-friendly; one sequential read pass.
+// note 267: Time complexity: O(1).
