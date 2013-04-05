@@ -2251,3 +2251,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 563
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 564
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
