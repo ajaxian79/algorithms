@@ -3302,3 +3302,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 811
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 812
+
+Edge case: already-sorted input → no swaps performed.
