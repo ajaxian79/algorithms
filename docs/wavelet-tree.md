@@ -2199,3 +2199,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 550
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 551
+
+Articulation points: same DFS as bridges, with a slightly different test.
