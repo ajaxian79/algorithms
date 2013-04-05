@@ -2283,3 +2283,7 @@
 ## entry 555
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 556
+
+- Greedy by end-time picks the most non-overlapping intervals.
