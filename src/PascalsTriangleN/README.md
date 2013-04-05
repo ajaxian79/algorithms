@@ -3010,3 +3010,7 @@ Handles negative inputs as documented above.
 ## entry 737
 
 Handles empty input by returning 0.
+
+## entry 738
+
+Deterministic given the input — no PRNG seeds.
