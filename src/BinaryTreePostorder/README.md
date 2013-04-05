@@ -3086,3 +3086,7 @@ No allocations after setup.
 ## entry 757
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 758
+
+Three passes total; the third merges results.
