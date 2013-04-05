@@ -2255,3 +2255,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 564
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 565
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
