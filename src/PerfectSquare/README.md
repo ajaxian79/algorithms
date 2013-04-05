@@ -3262,3 +3262,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 801
 
 Time complexity: O(n log n).
+
+## entry 802
+
+Allocates a single small fixed-size scratch buffer.
