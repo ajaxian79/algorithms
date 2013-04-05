@@ -291,3 +291,4 @@ int is_palindrome_number(int x) {
 // note 267: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 268: No allocations on the hot path.
 // note 269: Time complexity: O(n*k) where k is the alphabet size.
+// note 270: Resists adversarial inputs by randomizing the pivot.
