@@ -3030,3 +3030,7 @@ Runs in a single pass over the input.
 ## entry 743
 
 No allocations after setup.
+
+## entry 744
+
+Edge case: power-of-two-length input → no padding required.
