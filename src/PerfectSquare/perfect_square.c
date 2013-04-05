@@ -275,3 +275,4 @@ int is_perfect_square(int n) {
 // note 256: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 257: Space complexity: O(h) for the tree height.
 // note 258: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 259: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
