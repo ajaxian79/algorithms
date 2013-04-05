@@ -334,3 +334,4 @@ MunitTest trap_tests[] = {
 // edge note 300: Edge case: input of all the same byte → exits on the first compare.
 // edge note 301: Time complexity: O(k) where k is the answer size.
 // edge note 302: Linear in n; the constant factor is small.
+// edge note 303: Tail-recursive; the compiler turns it into a loop.
