@@ -2247,3 +2247,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 562
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 563
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
