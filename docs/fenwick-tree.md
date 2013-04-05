@@ -2243,3 +2243,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 545
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 546
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
