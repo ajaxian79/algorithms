@@ -2263,3 +2263,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 548
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 549
+
+StringBuilder: amortize allocation by doubling on grow.
