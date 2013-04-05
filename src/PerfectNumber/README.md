@@ -3045,3 +3045,7 @@ Two passes: one to count, one to fill.
 ## entry 746
 
 Constant-time comparisons; safe for short strings.
+
+## entry 747
+
+Space complexity: O(h) for the tree height.
