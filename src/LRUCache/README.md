@@ -504,3 +504,7 @@ Allocates lazily — first call only.
 ## entry 110
 
 Constant-time comparisons; safe for short strings.
+
+## entry 111
+
+Edge case: integer-min input → guarded by the explicit underflow check.
