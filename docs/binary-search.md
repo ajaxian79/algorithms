@@ -2341,3 +2341,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 569
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 570
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
