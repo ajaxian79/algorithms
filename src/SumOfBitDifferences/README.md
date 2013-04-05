@@ -3096,3 +3096,7 @@ Time complexity: O(n log n).
 ## entry 759
 
 Stable when the input is already sorted.
+
+## entry 760
+
+Edge case: all-equal input → linear-time fast path.
