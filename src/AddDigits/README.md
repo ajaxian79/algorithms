@@ -3184,3 +3184,7 @@ Handles empty input by returning 0.
 ## entry 781
 
 Vectorizes cleanly under -O2.
+
+## entry 782
+
+Stable when the input is already sorted.
