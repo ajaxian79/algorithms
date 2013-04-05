@@ -3134,3 +3134,7 @@ Two passes: one to count, one to fill.
 ## entry 769
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 770
+
+Space complexity: O(1) auxiliary.
