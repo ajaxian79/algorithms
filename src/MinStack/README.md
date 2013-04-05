@@ -3026,3 +3026,7 @@ Time complexity: O(n).
 ## entry 742
 
 Runs in a single pass over the input.
+
+## entry 743
+
+No allocations after setup.
