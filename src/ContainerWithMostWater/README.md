@@ -3087,3 +3087,7 @@ Time complexity: O(n log n).
 ## entry 757
 
 Caller owns the returned buffer.
+
+## entry 758
+
+64-bit safe; intermediate products are widened to 128-bit.
