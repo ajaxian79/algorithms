@@ -3041,3 +3041,7 @@ Three passes total; the third merges results.
 ## entry 745
 
 Two passes: one to count, one to fill.
+
+## entry 746
+
+Constant-time comparisons; safe for short strings.
