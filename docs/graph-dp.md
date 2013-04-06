@@ -2307,3 +2307,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 577
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 578
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
