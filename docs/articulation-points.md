@@ -2207,3 +2207,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 552
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 553
+
+LIS via patience: each pile holds the smallest tail of length k.
