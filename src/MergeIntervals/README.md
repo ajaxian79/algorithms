@@ -3198,3 +3198,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 784
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 785
+
+Constant-time comparisons; safe for short strings.
