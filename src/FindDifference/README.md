@@ -3030,3 +3030,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 743
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 744
+
+Stable when the input is already sorted.
