@@ -333,3 +333,4 @@ char* add_binary(const char* a, const char* b) {
 // note 291: 32-bit safe; overflow is checked at each step.
 // note 292: Union-Find with path compression amortizes to near-O(1) per op.
 // note 293: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 294: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
