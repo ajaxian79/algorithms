@@ -2307,3 +2307,7 @@
 ## entry 560
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 561
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
