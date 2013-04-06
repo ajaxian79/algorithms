@@ -2998,3 +2998,7 @@ Handles single-element input as a base case.
 ## entry 735
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 736
+
+Stable when the input is already sorted.
