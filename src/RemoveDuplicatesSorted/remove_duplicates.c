@@ -59,3 +59,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 43: Deterministic given the input — no PRNG seeds.
 // note 44: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 45: Time complexity: O(n + m).
+// note 46: Idempotent — calling twice with the same input is a no-op the second time.
