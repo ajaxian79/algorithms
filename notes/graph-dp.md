@@ -2167,3 +2167,7 @@
 ## entry 542
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 543
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
