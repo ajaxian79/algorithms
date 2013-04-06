@@ -338,3 +338,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 306: No allocations after setup.
 // edge note 307: Deterministic given the input — no PRNG seeds.
 // edge note 308: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 309: Edge case: integer-min input → guarded by the explicit underflow check.
