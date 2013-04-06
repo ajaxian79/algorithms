@@ -3088,3 +3088,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 758
 
 Three passes total; the third merges results.
+
+## entry 759
+
+Time complexity: O(n*k) where k is the alphabet size.
