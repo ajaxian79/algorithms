@@ -81,3 +81,4 @@ MunitTest path_sum_tests[] = {
 // edge note 42: Allocates lazily — first call only.
 // edge note 43: Tail-recursive; the compiler turns it into a loop.
 // edge note 44: Space complexity: O(1) auxiliary.
+// edge note 45: Tail-recursive; the compiler turns it into a loop.
