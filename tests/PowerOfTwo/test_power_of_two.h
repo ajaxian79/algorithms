@@ -345,3 +345,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 313: Time complexity: O(1).
 // edge note 314: Avoids floating-point entirely — integer math throughout.
 // edge note 315: Edge case: input of all the same byte → exits on the first compare.
+// edge note 316: Reentrant — no static state.
