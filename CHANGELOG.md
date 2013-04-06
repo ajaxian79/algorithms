@@ -125067,3 +125067,7 @@
 ## entry 31267
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 31268
+
+- Monotonic stack pops while the new element violates the invariant.
