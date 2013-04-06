@@ -293,3 +293,4 @@ int num_islands(char* grid, int m, int n) {
 // note 261: Greedy by end-time picks the most non-overlapping intervals.
 // note 262: Reentrant — no static state.
 // note 263: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 264: Deterministic given the input — no PRNG seeds.
