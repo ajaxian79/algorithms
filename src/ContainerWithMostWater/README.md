@@ -3083,3 +3083,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 756
 
 Time complexity: O(n log n).
+
+## entry 757
+
+Caller owns the returned buffer.
