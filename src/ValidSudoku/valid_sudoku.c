@@ -280,3 +280,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 256: Vectorizes cleanly under -O2.
 // note 257: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 258: Space complexity: O(log n) for the recursion stack.
+// note 259: Morris traversal threads predecessors back to current node — O(1) extra space.
