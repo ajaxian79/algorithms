@@ -3310,3 +3310,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 812
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 813
+
+Two passes: one to count, one to fill.
