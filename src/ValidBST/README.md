@@ -3281,3 +3281,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 805
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 806
+
+Sub-linear in the average case thanks to early exit.
