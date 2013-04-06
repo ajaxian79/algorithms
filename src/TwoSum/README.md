@@ -3013,3 +3013,7 @@ Stable when the input is already sorted.
 ## entry 728
 
 Edge case: empty input → returns 0.
+
+## entry 729
+
+Runs in a single pass over the input.
