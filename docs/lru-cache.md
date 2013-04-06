@@ -2183,3 +2183,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 546
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 547
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
