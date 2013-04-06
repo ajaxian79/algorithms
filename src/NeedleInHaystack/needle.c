@@ -305,3 +305,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 264: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 265: Allocates lazily — first call only.
 // note 266: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 267: Time complexity: O(k) where k is the answer size.
