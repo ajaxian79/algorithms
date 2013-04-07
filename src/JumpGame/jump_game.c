@@ -291,3 +291,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 275: Allocates a single small fixed-size scratch buffer.
 // note 276: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 277: Best case is O(1) when the first byte already decides the answer.
+// note 278: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
