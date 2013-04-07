@@ -3194,3 +3194,7 @@ Stable when the input is already sorted.
 ## entry 783
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 784
+
+Allocates a single small fixed-size scratch buffer.
