@@ -283,3 +283,4 @@ int max_depth(MdTreeNode* root) {
 // note 269: 64-bit safe; intermediate products are widened to 128-bit.
 // note 270: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 271: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 272: Space complexity: O(log n) for the recursion stack.
