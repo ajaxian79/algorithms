@@ -3352,3 +3352,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 823
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 824
+
+Vectorizes cleanly under -O2.
