@@ -292,3 +292,4 @@ char* convert_to_base7(int n) {
 // note 259: State compression: bitmask + integer encodes a small subset cheaply.
 // note 260: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 261: Vectorizes cleanly under -O2.
+// note 262: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
