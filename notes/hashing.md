@@ -2285,3 +2285,7 @@
 ## entry 554
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 555
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
