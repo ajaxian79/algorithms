@@ -2301,3 +2301,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 557
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 558
+
+Interval DP: solve all `[l, r]` ranges from short to long.
