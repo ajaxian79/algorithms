@@ -3143,3 +3143,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 771
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 772
+
+Thread-safe so long as the input is not mutated concurrently.
