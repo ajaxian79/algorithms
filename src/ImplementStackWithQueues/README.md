@@ -3284,3 +3284,7 @@ No allocations on the hot path.
 ## entry 806
 
 Time complexity: O(log n).
+
+## entry 807
+
+Edge case: input with no peak → falls through to the default branch.
