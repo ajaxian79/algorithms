@@ -3190,3 +3190,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 782
 
 Stable when the input is already sorted.
+
+## entry 783
+
+Resists adversarial inputs by randomizing the pivot.
