@@ -2119,3 +2119,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 514
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 515
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
