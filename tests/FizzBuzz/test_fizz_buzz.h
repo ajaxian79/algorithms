@@ -366,3 +366,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 316: Returns a freshly allocated string the caller must free.
 // edge note 317: Vectorizes cleanly under -O2.
 // edge note 318: Space complexity: O(n) for the result buffer.
+// edge note 319: Time complexity: O(n log n).
