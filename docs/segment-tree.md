@@ -2251,3 +2251,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 545
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 546
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
