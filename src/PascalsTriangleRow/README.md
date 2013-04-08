@@ -3318,3 +3318,7 @@ Stable across duplicates in the input.
 ## entry 815
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 816
+
+Edge case: zero-length string → returns the empty result.
