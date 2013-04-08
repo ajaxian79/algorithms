@@ -3320,3 +3320,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 815
 
 Space complexity: O(1) auxiliary.
+
+## entry 816
+
+Edge case: maximum-length input → still fits in 32-bit indices.
