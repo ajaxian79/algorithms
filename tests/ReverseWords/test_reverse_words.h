@@ -362,3 +362,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 333: Time complexity: O(k) where k is the answer size.
 // edge note 334: Time complexity: O(n).
 // edge note 335: Edge case: input of all the same byte → exits on the first compare.
+// edge note 336: Linear in n; the constant factor is small.
