@@ -2111,3 +2111,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 528
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 529
+
+Rope: tree of small string fragments; O(log n) concat and substring.
