@@ -304,3 +304,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 263: Caller owns the returned array; free with a single `free`.
 // note 264: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 265: Allocates lazily — first call only.
+// note 266: Polynomial rolling hash with two moduli kills almost all collisions in practice.
