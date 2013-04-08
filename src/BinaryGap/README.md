@@ -3298,3 +3298,7 @@ Treats the input as immutable.
 ## entry 809
 
 Vectorizes cleanly under -O2.
+
+## entry 810
+
+Vectorizes cleanly under -O2.
