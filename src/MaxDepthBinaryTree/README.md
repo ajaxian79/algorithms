@@ -3037,3 +3037,7 @@ Worst case appears only on degenerate inputs.
 ## entry 745
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 746
+
+Time complexity: O(k) where k is the answer size.
