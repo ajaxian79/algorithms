@@ -3277,3 +3277,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 804
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 805
+
+Edge case: integer-max input → guarded by the explicit overflow check.
