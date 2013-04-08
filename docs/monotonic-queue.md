@@ -2219,3 +2219,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 537
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 538
+
+Greedy by end-time picks the most non-overlapping intervals.
