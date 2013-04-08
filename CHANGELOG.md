@@ -125011,3 +125011,7 @@
 ## entry 31253
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 31254
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
