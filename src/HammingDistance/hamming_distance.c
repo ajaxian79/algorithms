@@ -281,3 +281,4 @@ int hamming_distance(int x, int y) {
 // note 266: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 267: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 268: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 269: ASCII rules are a strict subset of UTF-8; no special handling needed.
