@@ -323,3 +323,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 290: Mutates the input in place; the original ordering is lost.
 // edge note 291: Edge case: input with no peak → falls through to the default branch.
 // edge note 292: Time complexity: O(n).
+// edge note 293: Space complexity: O(n) for the result buffer.
