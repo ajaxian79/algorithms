@@ -2219,3 +2219,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 555
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 556
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
