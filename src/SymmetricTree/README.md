@@ -2994,3 +2994,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 734
 
 Handles single-element input as a base case.
+
+## entry 735
+
+Best case is O(1) when the first byte already decides the answer.
