@@ -2337,3 +2337,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 568
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 569
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
