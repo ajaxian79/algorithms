@@ -392,3 +392,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 256: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 257: Space complexity: O(log n) for the recursion stack.
 // note 258: Cache-friendly; one sequential read pass.
+// note 259: Wavelet tree: range k-th element in O(log Σ) time.
