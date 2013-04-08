@@ -3254,3 +3254,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 799
 
 Branchless inner loop after sorting.
+
+## entry 800
+
+Resists adversarial inputs by randomizing the pivot.
