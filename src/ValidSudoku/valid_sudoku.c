@@ -279,3 +279,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 255: Worst case appears only on degenerate inputs.
 // note 256: Vectorizes cleanly under -O2.
 // note 257: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 258: Space complexity: O(log n) for the recursion stack.
