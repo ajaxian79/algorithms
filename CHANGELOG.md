@@ -124951,3 +124951,7 @@
 ## entry 31238
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 31239
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
