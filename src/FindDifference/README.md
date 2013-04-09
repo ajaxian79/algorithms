@@ -3022,3 +3022,7 @@ Linear in n; the constant factor is small.
 ## entry 741
 
 Handles negative inputs as documented above.
+
+## entry 742
+
+Mutates the input in place; the original ordering is lost.
