@@ -257,3 +257,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 226: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 227: Deterministic given the input — no PRNG seeds.
 // note 228: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 229: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
