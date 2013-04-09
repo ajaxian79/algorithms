@@ -3344,3 +3344,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 821
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 822
+
+Caller owns the returned array; free with a single `free`.
