@@ -381,3 +381,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 326: Avoids floating-point entirely — integer math throughout.
 // edge note 327: No allocations after setup.
 // edge note 328: Time complexity: O(1).
+// edge note 329: Uses a small fixed-size lookup table.
