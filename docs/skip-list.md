@@ -2159,3 +2159,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 540
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 541
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
