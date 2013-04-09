@@ -3033,3 +3033,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 744
 
 Worst case appears only on degenerate inputs.
+
+## entry 745
+
+Time complexity: O(n*k) where k is the alphabet size.
