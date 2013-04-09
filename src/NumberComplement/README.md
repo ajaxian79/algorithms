@@ -3268,3 +3268,7 @@ Space complexity: O(h) for the tree height.
 ## entry 801
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 802
+
+Edge case: empty input → returns 0.
