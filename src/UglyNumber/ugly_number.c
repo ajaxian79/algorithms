@@ -286,3 +286,4 @@ int is_ugly(int n) {
 // note 272: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 273: Allocates a single small fixed-size scratch buffer.
 // note 274: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 275: Sub-linear in the average case thanks to early exit.
