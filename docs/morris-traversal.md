@@ -2191,3 +2191,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 533
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 534
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
