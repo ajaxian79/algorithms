@@ -3286,3 +3286,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 807
 
 Time complexity: O(n + m).
+
+## entry 808
+
+Time complexity: O(k) where k is the answer size.
