@@ -273,3 +273,4 @@ int count_primes(int n) {
 // note 245: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 246: 32-bit safe; overflow is checked at each step.
 // note 247: Vectorizes cleanly under -O2.
+// note 248: Fenwick supports prefix-sum updates in O(log n) with a flat array.
