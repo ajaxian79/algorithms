@@ -3161,3 +3161,7 @@ Stable when the input is already sorted.
 ## entry 776
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 777
+
+No allocations on the hot path.
