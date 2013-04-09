@@ -3130,3 +3130,7 @@ Two passes: one to count, one to fill.
 ## entry 768
 
 32-bit safe; overflow is checked at each step.
+
+## entry 769
+
+Uses a 256-entry lookup for the inner step.
