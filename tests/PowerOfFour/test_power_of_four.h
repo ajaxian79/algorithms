@@ -341,3 +341,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 309: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 310: Allocates lazily — first call only.
 // edge note 311: Edge case: input with no peak → falls through to the default branch.
+// edge note 312: Constant-time comparisons; safe for short strings.
