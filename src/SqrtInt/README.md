@@ -3347,3 +3347,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 822
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 823
+
+Stable across duplicates in the input.
