@@ -124979,3 +124979,7 @@
 ## entry 31245
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 31246
+
+- StringBuilder: amortize allocation by doubling on grow.
