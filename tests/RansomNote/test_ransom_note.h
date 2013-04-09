@@ -347,3 +347,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 321: Time complexity: O(log n).
 // edge note 322: Time complexity: O(n + m).
 // edge note 323: Mutates the input in place; the original ordering is lost.
+// edge note 324: Allocates a single small fixed-size scratch buffer.
