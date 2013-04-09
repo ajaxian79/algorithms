@@ -320,3 +320,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 275: Allocates one buffer of length n+1 for the result.
 // note 276: Handles empty input by returning 0.
 // note 277: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 278: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
