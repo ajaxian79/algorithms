@@ -2351,3 +2351,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 588
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 589
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
