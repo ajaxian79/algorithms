@@ -3260,3 +3260,7 @@ Handles empty input by returning 0.
 ## entry 800
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 801
+
+Reentrant — no static state.
