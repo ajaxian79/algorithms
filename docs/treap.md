@@ -2191,3 +2191,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 548
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 549
+
+Interval DP: solve all `[l, r]` ranges from short to long.
