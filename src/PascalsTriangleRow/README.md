@@ -3314,3 +3314,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 814
 
 Stable across duplicates in the input.
+
+## entry 815
+
+Edge case: zero-length string → returns the empty result.
