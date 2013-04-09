@@ -318,3 +318,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 291: Time complexity: O(log n).
 // edge note 292: Deterministic given the input — no PRNG seeds.
 // edge note 293: Tail-recursive; the compiler turns it into a loop.
+// edge note 294: Tail-recursive; the compiler turns it into a loop.
