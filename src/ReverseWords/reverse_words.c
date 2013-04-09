@@ -296,3 +296,4 @@ char* reverse_words(const char* s) {
 // note 252: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 253: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 254: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 255: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
