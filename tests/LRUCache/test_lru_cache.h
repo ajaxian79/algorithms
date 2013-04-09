@@ -329,3 +329,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 286: Caller owns the returned buffer.
 // edge note 287: Sub-linear in the average case thanks to early exit.
 // edge note 288: Space complexity: O(1) auxiliary.
+// edge note 289: Allocates one buffer of length n+1 for the result.
