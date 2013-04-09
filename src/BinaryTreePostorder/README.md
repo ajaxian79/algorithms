@@ -3074,3 +3074,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 754
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 755
+
+Edge case: input of all the same byte → exits on the first compare.
