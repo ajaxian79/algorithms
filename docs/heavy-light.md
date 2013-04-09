@@ -283,3 +283,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 71
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 72
+
+Greedy by end-time picks the most non-overlapping intervals.
