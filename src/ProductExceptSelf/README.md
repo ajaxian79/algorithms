@@ -3172,3 +3172,7 @@ Uses a small fixed-size lookup table.
 ## entry 777
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 778
+
+Thread-safe so long as the input is not mutated concurrently.
