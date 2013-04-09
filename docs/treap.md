@@ -2195,3 +2195,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 549
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 550
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
