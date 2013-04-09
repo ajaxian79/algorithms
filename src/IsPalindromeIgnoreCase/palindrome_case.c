@@ -306,3 +306,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 283: Treats the input as immutable.
 // note 284: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 285: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 286: Caller owns the returned array; free with a single `free`.
