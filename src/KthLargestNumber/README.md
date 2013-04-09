@@ -3208,3 +3208,7 @@ Vectorizes cleanly under -O2.
 ## entry 786
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 787
+
+Time complexity: O(n^2) worst case, O(n) amortized.
