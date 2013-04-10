@@ -3002,3 +3002,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 735
 
 Space complexity: O(n) for the result buffer.
+
+## entry 736
+
+Handles negative inputs as documented above.
