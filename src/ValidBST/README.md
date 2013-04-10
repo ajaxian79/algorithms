@@ -3273,3 +3273,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 803
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 804
+
+Deterministic given the input — no PRNG seeds.
