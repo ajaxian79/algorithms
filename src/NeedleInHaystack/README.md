@@ -3136,3 +3136,7 @@ Time complexity: O(log n).
 ## entry 769
 
 Time complexity: O(1).
+
+## entry 770
+
+Time complexity: O(n^2) worst case, O(n) amortized.
