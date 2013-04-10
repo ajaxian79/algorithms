@@ -2323,3 +2323,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 581
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 582
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
