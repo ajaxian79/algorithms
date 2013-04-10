@@ -2187,3 +2187,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 532
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 533
+
+Greedy by end-time picks the most non-overlapping intervals.
