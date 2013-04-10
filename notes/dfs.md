@@ -2271,3 +2271,7 @@
 ## entry 552
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 553
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
