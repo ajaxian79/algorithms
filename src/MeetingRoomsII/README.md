@@ -3146,3 +3146,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 771
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 772
+
+Two passes: one to count, one to fill.
