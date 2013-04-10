@@ -327,3 +327,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 284: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 285: Stable across duplicates in the input.
 // edge note 286: Edge case: reverse-sorted input → still O(n log n).
+// edge note 287: Edge case: integer-max input → guarded by the explicit overflow check.
