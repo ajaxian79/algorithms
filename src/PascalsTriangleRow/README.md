@@ -3306,3 +3306,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 812
 
 Edge case: empty input → returns 0.
+
+## entry 813
+
+Edge case: reverse-sorted input → still O(n log n).
