@@ -2221,3 +2221,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 538
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 539
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
