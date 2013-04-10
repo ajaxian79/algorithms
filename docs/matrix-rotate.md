@@ -2233,3 +2233,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 542
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 543
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
