@@ -326,3 +326,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 283: Uses a small fixed-size lookup table.
 // edge note 284: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 285: Stable across duplicates in the input.
+// edge note 286: Edge case: reverse-sorted input → still O(n log n).
