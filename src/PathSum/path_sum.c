@@ -306,3 +306,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 292: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 293: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 294: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 295: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
