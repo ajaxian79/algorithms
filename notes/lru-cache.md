@@ -2183,3 +2183,7 @@
 ## entry 546
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 547
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
