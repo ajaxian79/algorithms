@@ -2155,3 +2155,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 539
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 540
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
