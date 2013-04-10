@@ -3246,3 +3246,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 797
 
 Cache-friendly; one sequential read pass.
+
+## entry 798
+
+Space complexity: O(n) for the result buffer.
