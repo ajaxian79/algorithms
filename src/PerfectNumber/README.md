@@ -3037,3 +3037,7 @@ Caller owns the returned buffer.
 ## entry 744
 
 Three passes total; the third merges results.
+
+## entry 745
+
+Two passes: one to count, one to fill.
