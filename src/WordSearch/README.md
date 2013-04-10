@@ -3250,3 +3250,7 @@ Cache-friendly; one sequential read pass.
 ## entry 798
 
 Space complexity: O(n) for the result buffer.
+
+## entry 799
+
+Branchless inner loop after sorting.
