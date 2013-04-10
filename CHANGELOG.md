@@ -124943,3 +124943,7 @@
 ## entry 31236
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 31237
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
