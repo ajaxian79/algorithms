@@ -3269,3 +3269,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 802
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 803
+
+Edge case: alternating pattern → degenerate case for sliding window.
