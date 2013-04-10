@@ -3080,3 +3080,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 756
 
 Space complexity: O(1) auxiliary.
+
+## entry 757
+
+Space complexity: O(n) for the result buffer.
