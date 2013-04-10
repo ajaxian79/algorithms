@@ -290,3 +290,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 258: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 259: Space complexity: O(n) for the result buffer.
 // note 260: Returns a freshly allocated string the caller must free.
+// note 261: Tree DP: post-order DFS lets children inform the parent in one pass.
