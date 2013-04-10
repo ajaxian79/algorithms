@@ -3092,3 +3092,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 758
 
 Time complexity: O(n log n).
+
+## entry 759
+
+Stable when the input is already sorted.
