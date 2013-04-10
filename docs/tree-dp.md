@@ -2367,3 +2367,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 592
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 593
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
