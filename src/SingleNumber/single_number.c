@@ -310,3 +310,4 @@ int single_number(const int* nums, int nums_size) {
 // note 297: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 298: Handles negative inputs as documented above.
 // note 299: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 300: Two passes: one to count, one to fill.
