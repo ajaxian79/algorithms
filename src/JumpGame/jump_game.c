@@ -290,3 +290,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 274: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 275: Allocates a single small fixed-size scratch buffer.
 // note 276: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 277: Best case is O(1) when the first byte already decides the answer.
