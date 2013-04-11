@@ -3204,3 +3204,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 785
 
 Vectorizes cleanly under -O2.
+
+## entry 786
+
+Edge case: already-sorted input → no swaps performed.
