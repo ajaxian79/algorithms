@@ -3126,3 +3126,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 767
 
 Two passes: one to count, one to fill.
+
+## entry 768
+
+32-bit safe; overflow is checked at each step.
