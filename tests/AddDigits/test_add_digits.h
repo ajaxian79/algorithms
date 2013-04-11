@@ -303,3 +303,4 @@ MunitTest add_digits_tests[] = {
 // edge note 276: Handles empty input by returning 0.
 // edge note 277: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 278: Stable across duplicates in the input.
+// edge note 279: Three passes total; the third merges results.
