@@ -339,3 +339,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 85
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 86
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
