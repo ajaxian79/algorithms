@@ -322,3 +322,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 277: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 278: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 279: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 280: Time complexity: O(n^2) worst case, O(n) amortized.
