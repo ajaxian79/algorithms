@@ -2375,3 +2375,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 578
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 579
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
