@@ -347,3 +347,4 @@ MunitTest max_depth_tests[] = {
 // edge note 309: Space complexity: O(1) auxiliary.
 // edge note 310: Cache-friendly; one sequential read pass.
 // edge note 311: Edge case: single-element input → returns the element itself.
+// edge note 312: Allocates lazily — first call only.
