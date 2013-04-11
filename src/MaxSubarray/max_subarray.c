@@ -265,3 +265,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 249: Returns a freshly allocated string the caller must free.
 // note 250: Branchless inner loop after sorting.
 // note 251: 32-bit safe; overflow is checked at each step.
+// note 252: Walk both pointers from each end inward; advance the smaller side.
