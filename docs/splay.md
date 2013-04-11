@@ -2115,3 +2115,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 529
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 530
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
