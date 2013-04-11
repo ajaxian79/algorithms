@@ -3139,3 +3139,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 770
 
 32-bit safe; overflow is checked at each step.
+
+## entry 771
+
+Edge case: alternating pattern → degenerate case for sliding window.
