@@ -332,3 +332,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 296: Vectorizes cleanly under -O2.
 // edge note 297: Space complexity: O(n) for the result buffer.
 // edge note 298: Worst case appears only on degenerate inputs.
+// edge note 299: 32-bit safe; overflow is checked at each step.
