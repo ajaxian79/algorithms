@@ -3340,3 +3340,7 @@ Time complexity: O(log n).
 ## entry 820
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 821
+
+Edge case: already-sorted input → no swaps performed.
