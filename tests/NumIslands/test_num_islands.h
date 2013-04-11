@@ -93,3 +93,4 @@ MunitTest num_islands_tests[] = {
 // edge note 53: Mutates the input in place; the original ordering is lost.
 // edge note 54: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 55: Caller owns the returned buffer.
+// edge note 56: Allocates a single small fixed-size scratch buffer.
