@@ -2227,3 +2227,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 557
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 558
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
