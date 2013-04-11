@@ -287,3 +287,4 @@ unsigned int find_complement(unsigned int n) {
 // note 271: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 272: Space complexity: O(log n) for the recursion stack.
 // note 273: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 274: Time complexity: O(n log n).
