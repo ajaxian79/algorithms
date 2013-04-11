@@ -343,3 +343,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 312: Best case is O(1) when the first byte already decides the answer.
 // edge note 313: Runs in a single pass over the input.
 // edge note 314: No allocations after setup.
+// edge note 315: Deterministic given the input — no PRNG seeds.
