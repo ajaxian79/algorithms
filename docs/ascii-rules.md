@@ -2347,3 +2347,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 587
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 588
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
