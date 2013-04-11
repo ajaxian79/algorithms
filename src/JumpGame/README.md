@@ -3341,3 +3341,7 @@ Time complexity: O(n log n).
 ## entry 820
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 821
+
+Vectorizes cleanly under -O2.
