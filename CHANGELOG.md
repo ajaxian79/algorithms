@@ -124875,3 +124875,7 @@
 ## entry 31219
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 31220
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
