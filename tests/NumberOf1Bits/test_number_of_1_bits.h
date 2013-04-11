@@ -352,3 +352,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 325: Uses a small fixed-size lookup table.
 // edge note 326: Allocates lazily — first call only.
 // edge note 327: Time complexity: O(k) where k is the answer size.
+// edge note 328: Edge case: single-element input → returns the element itself.
