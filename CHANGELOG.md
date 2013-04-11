@@ -124867,3 +124867,7 @@
 ## entry 31217
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 31218
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
