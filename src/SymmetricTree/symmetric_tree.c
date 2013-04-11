@@ -290,3 +290,4 @@ int is_symmetric(STreeNode* root) {
 // note 271: Avoids floating-point entirely — integer math throughout.
 // note 272: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 273: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 274: Three passes total; the third merges results.
