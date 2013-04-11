@@ -391,3 +391,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 255: 64-bit safe; intermediate products are widened to 128-bit.
 // note 256: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 257: Space complexity: O(log n) for the recursion stack.
+// note 258: Cache-friendly; one sequential read pass.
