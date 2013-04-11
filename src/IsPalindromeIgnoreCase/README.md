@@ -3126,3 +3126,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 767
 
 Handles single-element input as a base case.
+
+## entry 768
+
+Time complexity: O(k) where k is the answer size.
