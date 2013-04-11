@@ -2333,3 +2333,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 567
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 568
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
