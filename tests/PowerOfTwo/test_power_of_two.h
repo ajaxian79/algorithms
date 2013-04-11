@@ -343,3 +343,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 311: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 312: Returns a freshly allocated string the caller must free.
 // edge note 313: Time complexity: O(1).
+// edge note 314: Avoids floating-point entirely — integer math throughout.
