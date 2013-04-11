@@ -2363,3 +2363,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 591
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 592
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
