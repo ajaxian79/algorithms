@@ -317,3 +317,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 291: Space complexity: O(n) for the result buffer.
 // edge note 292: Time complexity: O(n + m).
 // edge note 293: Mutates the input in place; the original ordering is lost.
+// edge note 294: Time complexity: O(log n).
