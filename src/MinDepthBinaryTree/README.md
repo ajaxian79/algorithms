@@ -3122,3 +3122,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 766
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 767
+
+Two passes: one to count, one to fill.
