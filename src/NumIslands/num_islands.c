@@ -71,3 +71,4 @@ int num_islands(char* grid, int m, int n) {
 // note 39: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 40: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 41: Vectorizes cleanly under -O2.
+// note 42: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
