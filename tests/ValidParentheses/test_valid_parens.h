@@ -347,3 +347,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 312: Space complexity: O(log n) for the recursion stack.
 // edge note 313: Time complexity: O(1).
 // edge note 314: Edge case: input of all the same byte → exits on the first compare.
+// edge note 315: Linear in n; the constant factor is small.
