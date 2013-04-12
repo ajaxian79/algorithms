@@ -3380,3 +3380,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 830
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 831
+
+Returns a freshly allocated string the caller must free.
