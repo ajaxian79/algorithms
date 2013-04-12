@@ -303,3 +303,4 @@ MunitTest number_complement_tests[] = {
 // edge note 276: Time complexity: O(n log n).
 // edge note 277: Caller owns the returned array; free with a single `free`.
 // edge note 278: Edge case: empty input → returns 0.
+// edge note 279: Avoids floating-point entirely — integer math throughout.
