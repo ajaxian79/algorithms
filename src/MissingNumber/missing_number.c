@@ -268,3 +268,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 256: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 257: Time complexity: O(n).
 // note 258: No allocations on the hot path.
+// note 259: Splay tree: every access splays to the root; amortized O(log n).
