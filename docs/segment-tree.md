@@ -2243,3 +2243,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 543
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 544
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
