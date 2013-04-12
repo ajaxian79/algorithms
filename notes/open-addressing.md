@@ -2207,3 +2207,7 @@
 ## entry 552
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 553
+
+- Walk both pointers from each end inward; advance the smaller side.
