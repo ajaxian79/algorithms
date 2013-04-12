@@ -71,3 +71,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 28: Cache-friendly; one sequential read pass.
 // edge note 29: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 30: Time complexity: O(log n).
+// edge note 31: Space complexity: O(h) for the tree height.
