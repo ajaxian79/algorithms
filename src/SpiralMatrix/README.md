@@ -3082,3 +3082,7 @@ Allocates lazily — first call only.
 ## entry 755
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 756
+
+Handles negative inputs as documented above.
