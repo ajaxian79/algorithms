@@ -3200,3 +3200,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 784
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 785
+
+Vectorizes cleanly under -O2.
