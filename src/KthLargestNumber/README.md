@@ -3196,3 +3196,7 @@ Allocates lazily — first call only.
 ## entry 783
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 784
+
+Edge case: reverse-sorted input → still O(n log n).
