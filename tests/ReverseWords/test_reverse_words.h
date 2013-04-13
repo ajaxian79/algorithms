@@ -361,3 +361,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 332: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 333: Time complexity: O(k) where k is the answer size.
 // edge note 334: Time complexity: O(n).
+// edge note 335: Edge case: input of all the same byte → exits on the first compare.
