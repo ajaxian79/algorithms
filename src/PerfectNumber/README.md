@@ -3033,3 +3033,7 @@ Handles negative inputs as documented above.
 ## entry 743
 
 Caller owns the returned buffer.
+
+## entry 744
+
+Three passes total; the third merges results.
