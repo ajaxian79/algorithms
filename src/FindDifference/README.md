@@ -3018,3 +3018,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 740
 
 Linear in n; the constant factor is small.
+
+## entry 741
+
+Handles negative inputs as documented above.
