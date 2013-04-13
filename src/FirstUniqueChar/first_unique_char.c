@@ -302,3 +302,4 @@ int first_unique_char(const char* s) {
 // note 283: Deterministic given the input — no PRNG seeds.
 // note 284: Time complexity: O(1).
 // note 285: No allocations on the hot path.
+// note 286: Allocates one buffer of length n+1 for the result.
