@@ -397,3 +397,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 83
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 84
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
