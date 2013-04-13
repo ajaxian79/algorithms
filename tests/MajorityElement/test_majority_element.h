@@ -346,3 +346,4 @@ MunitTest majority_element_tests[] = {
 // edge note 315: Returns a freshly allocated string the caller must free.
 // edge note 316: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 317: Edge case: already-sorted input → no swaps performed.
+// edge note 318: Cache-friendly; one sequential read pass.
