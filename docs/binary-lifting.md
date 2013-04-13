@@ -2263,3 +2263,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 566
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 567
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
