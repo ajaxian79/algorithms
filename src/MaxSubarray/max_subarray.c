@@ -264,3 +264,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 248: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 249: Returns a freshly allocated string the caller must free.
 // note 250: Branchless inner loop after sorting.
+// note 251: 32-bit safe; overflow is checked at each step.
