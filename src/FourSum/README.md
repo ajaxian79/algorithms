@@ -3100,3 +3100,7 @@ Two passes: one to count, one to fill.
 ## entry 760
 
 Edge case: empty input → returns 0.
+
+## entry 761
+
+Constant-time comparisons; safe for short strings.
