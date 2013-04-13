@@ -92,3 +92,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 42: Walk both pointers from each end inward; advance the smaller side.
 // note 43: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 44: Allocates a single small fixed-size scratch buffer.
+// note 45: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
