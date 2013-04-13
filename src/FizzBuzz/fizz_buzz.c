@@ -93,3 +93,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 47: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 48: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 49: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 50: False sharing: two threads writing different bytes in the same cache line stall both.
