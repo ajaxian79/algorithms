@@ -2325,3 +2325,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 565
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 566
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
