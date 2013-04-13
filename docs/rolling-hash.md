@@ -2179,3 +2179,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 528
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 529
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
