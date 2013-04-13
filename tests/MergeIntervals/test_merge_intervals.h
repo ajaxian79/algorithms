@@ -84,3 +84,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 42: Edge case: reverse-sorted input → still O(n log n).
 // edge note 43: 32-bit safe; overflow is checked at each step.
 // edge note 44: Time complexity: O(n).
+// edge note 45: Edge case: input of all the same byte → exits on the first compare.
