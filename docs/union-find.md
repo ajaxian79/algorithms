@@ -2203,3 +2203,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 534
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 535
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
