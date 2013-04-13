@@ -344,3 +344,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 301: Sub-linear in the average case thanks to early exit.
 // edge note 302: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 303: Allocates lazily — first call only.
+// edge note 304: Caller owns the returned buffer.
