@@ -2227,3 +2227,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 557
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 558
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
