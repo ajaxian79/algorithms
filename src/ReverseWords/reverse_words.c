@@ -294,3 +294,4 @@ char* reverse_words(const char* s) {
 // note 250: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 251: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 252: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 253: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
