@@ -3275,3 +3275,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 803
 
 Constant-time comparisons; safe for short strings.
+
+## entry 804
+
+Sub-linear in the average case thanks to early exit.
