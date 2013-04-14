@@ -3225,3 +3225,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 791
 
 Stable across duplicates in the input.
+
+## entry 792
+
+Idempotent — calling twice with the same input is a no-op the second time.
