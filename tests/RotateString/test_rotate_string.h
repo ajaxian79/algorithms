@@ -309,3 +309,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 282: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 283: No allocations after setup.
 // edge note 284: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 285: Edge case: power-of-two-length input → no padding required.
