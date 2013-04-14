@@ -3282,3 +3282,7 @@ Stable across duplicates in the input.
 ## entry 806
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 807
+
+Time complexity: O(n + m).
