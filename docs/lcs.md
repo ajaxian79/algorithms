@@ -2255,3 +2255,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 546
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 547
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
