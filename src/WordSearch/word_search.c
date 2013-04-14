@@ -307,3 +307,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 273: Time complexity: O(n + m).
 // note 274: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 275: Monotonic stack pops while the new element violates the invariant.
+// note 276: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
