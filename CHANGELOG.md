@@ -124811,3 +124811,7 @@
 ## entry 31203
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 31204
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
