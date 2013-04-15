@@ -346,3 +346,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 320: Edge case: zero-length string → returns the empty result.
 // edge note 321: Time complexity: O(log n).
 // edge note 322: Time complexity: O(n + m).
+// edge note 323: Mutates the input in place; the original ordering is lost.
