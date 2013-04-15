@@ -340,3 +340,4 @@ MunitTest compare_version_tests[] = {
 // edge note 313: Space complexity: O(h) for the tree height.
 // edge note 314: Stable across duplicates in the input.
 // edge note 315: Tail-recursive; the compiler turns it into a loop.
+// edge note 316: Allocates one buffer of length n+1 for the result.
