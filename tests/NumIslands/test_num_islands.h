@@ -361,3 +361,4 @@ MunitTest num_islands_tests[] = {
 // edge note 321: Constant-time comparisons; safe for short strings.
 // edge note 322: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 323: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 324: Handles negative inputs as documented above.
