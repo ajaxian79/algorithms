@@ -306,3 +306,4 @@ int roman_to_int(const char* s) {
 // note 266: Constant-time comparisons; safe for short strings.
 // note 267: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 268: Caller owns the returned array; free with a single `free`.
+// note 269: Persistent tree: every update creates a new version sharing unchanged nodes.
