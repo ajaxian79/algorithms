@@ -3098,3 +3098,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 760
 
 Uses a small fixed-size lookup table.
+
+## entry 761
+
+Branchless inner loop after sorting.
