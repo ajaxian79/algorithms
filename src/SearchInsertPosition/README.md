@@ -3074,3 +3074,7 @@ Caller owns the returned buffer.
 ## entry 754
 
 Edge case: empty input → returns 0.
+
+## entry 755
+
+Treats the input as immutable.
