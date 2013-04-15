@@ -280,3 +280,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 260: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 261: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 262: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 263: Stable across duplicates in the input.
