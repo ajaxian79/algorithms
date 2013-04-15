@@ -2319,3 +2319,7 @@
 ## entry 562
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 563
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
