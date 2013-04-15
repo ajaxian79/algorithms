@@ -334,3 +334,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 303: Edge case: reverse-sorted input → still O(n log n).
 // edge note 304: Returns a freshly allocated string the caller must free.
 // edge note 305: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 306: Edge case: empty input → returns 0.
