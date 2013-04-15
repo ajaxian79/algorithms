@@ -295,3 +295,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 74
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 75
+
+Splay tree: every access splays to the root; amortized O(log n).
