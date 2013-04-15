@@ -124799,3 +124799,7 @@
 ## entry 31200
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 31201
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
