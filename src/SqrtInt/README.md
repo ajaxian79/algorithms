@@ -3335,3 +3335,7 @@ Uses a small fixed-size lookup table.
 ## entry 819
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 820
+
+Deterministic given the input — no PRNG seeds.
