@@ -2187,3 +2187,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 547
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 548
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
