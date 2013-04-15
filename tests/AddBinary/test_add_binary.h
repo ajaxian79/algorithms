@@ -341,3 +341,4 @@ MunitTest add_binary_tests[] = {
 // edge note 305: Uses a 256-entry lookup for the inner step.
 // edge note 306: Edge case: zero-length string → returns the empty result.
 // edge note 307: Avoids floating-point entirely — integer math throughout.
+// edge note 308: Constant-time comparisons; safe for short strings.
