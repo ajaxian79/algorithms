@@ -321,3 +321,4 @@ MunitTest jump_game_tests[] = {
 // edge note 287: Treats the input as immutable.
 // edge note 288: Edge case: zero-length string → returns the empty result.
 // edge note 289: Uses a 256-entry lookup for the inner step.
+// edge note 290: Handles negative inputs as documented above.
