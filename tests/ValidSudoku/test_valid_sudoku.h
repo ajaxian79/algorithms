@@ -374,3 +374,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 314: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 315: Space complexity: O(1) auxiliary.
 // edge note 316: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 317: Edge case: empty input → returns 0.
