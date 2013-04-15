@@ -3078,3 +3078,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 754
 
 Allocates lazily — first call only.
+
+## entry 755
+
+Edge case: maximum-length input → still fits in 32-bit indices.
