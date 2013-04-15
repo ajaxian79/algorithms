@@ -2994,3 +2994,7 @@ No allocations after setup.
 ## entry 733
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 734
+
+Idempotent — calling twice with the same input is a no-op the second time.
