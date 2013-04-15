@@ -2343,3 +2343,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 586
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 587
+
+Heap when you only need top-k; full sort is wasted work.
