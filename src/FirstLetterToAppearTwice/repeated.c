@@ -274,3 +274,4 @@ char repeatedCharacter(char* s) {
 // note 251: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 252: Union-Find with path compression amortizes to near-O(1) per op.
 // note 253: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 254: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
