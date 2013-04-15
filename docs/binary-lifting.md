@@ -2259,3 +2259,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 565
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 566
+
+Wavelet tree: range k-th element in O(log Σ) time.
