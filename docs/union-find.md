@@ -2199,3 +2199,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 533
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 534
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
