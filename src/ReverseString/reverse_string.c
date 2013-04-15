@@ -320,3 +320,4 @@ void reverse_string(char* s, int s_size) {
 // note 303: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 304: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 305: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 306: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
