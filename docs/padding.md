@@ -2175,3 +2175,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 544
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 545
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
