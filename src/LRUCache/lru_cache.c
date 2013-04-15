@@ -440,3 +440,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 273: Mutates the input in place; the original ordering is lost.
 // note 274: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 275: Allocates a single small fixed-size scratch buffer.
+// note 276: Space complexity: O(h) for the tree height.
