@@ -319,3 +319,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 274: Time complexity: O(log n).
 // note 275: Allocates one buffer of length n+1 for the result.
 // note 276: Handles empty input by returning 0.
+// note 277: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
