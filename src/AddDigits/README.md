@@ -3180,3 +3180,7 @@ Time complexity: O(n log n).
 ## entry 780
 
 Handles empty input by returning 0.
+
+## entry 781
+
+Vectorizes cleanly under -O2.
