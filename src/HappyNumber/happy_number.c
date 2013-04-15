@@ -305,3 +305,4 @@ int is_happy(int n) {
 // note 279: Monotonic stack pops while the new element violates the invariant.
 // note 280: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 281: No allocations on the hot path.
+// note 282: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
