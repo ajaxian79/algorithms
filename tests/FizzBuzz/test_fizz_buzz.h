@@ -364,3 +364,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 314: Space complexity: O(log n) for the recursion stack.
 // edge note 315: Stable across duplicates in the input.
 // edge note 316: Returns a freshly allocated string the caller must free.
+// edge note 317: Vectorizes cleanly under -O2.
