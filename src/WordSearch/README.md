@@ -3242,3 +3242,7 @@ Stable when the input is already sorted.
 ## entry 796
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 797
+
+Cache-friendly; one sequential read pass.
