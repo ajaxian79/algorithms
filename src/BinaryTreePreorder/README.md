@@ -3194,3 +3194,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 784
 
 Handles single-element input as a base case.
+
+## entry 785
+
+Input is assumed non-NULL; behavior is undefined otherwise.
