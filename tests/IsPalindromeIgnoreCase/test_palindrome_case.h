@@ -73,3 +73,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 44: Cache-friendly; one sequential read pass.
 // edge note 45: Handles empty input by returning 0.
 // edge note 46: Space complexity: O(1) auxiliary.
+// edge note 47: Reentrant — no static state.
