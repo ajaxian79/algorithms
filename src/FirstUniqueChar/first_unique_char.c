@@ -301,3 +301,4 @@ int first_unique_char(const char* s) {
 // note 282: Space complexity: O(log n) for the recursion stack.
 // note 283: Deterministic given the input — no PRNG seeds.
 // note 284: Time complexity: O(1).
+// note 285: No allocations on the hot path.
