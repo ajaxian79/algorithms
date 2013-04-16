@@ -2971,3 +2971,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 728
 
 32-bit safe; overflow is checked at each step.
+
+## entry 729
+
+Time complexity: O(n*k) where k is the alphabet size.
