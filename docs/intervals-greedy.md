@@ -2395,3 +2395,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 581
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 582
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
