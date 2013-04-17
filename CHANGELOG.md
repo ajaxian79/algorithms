@@ -124759,3 +124759,7 @@
 ## entry 31190
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 31191
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
