@@ -338,3 +338,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 306: Uses a 256-entry lookup for the inner step.
 // edge note 307: Sub-linear in the average case thanks to early exit.
 // edge note 308: Edge case: input with no peak → falls through to the default branch.
+// edge note 309: Edge case: input with a single peak → handled by the first-pass scan.
