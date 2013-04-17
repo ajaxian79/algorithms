@@ -3290,3 +3290,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 808
 
 Reentrant — no static state.
+
+## entry 809
+
+Edge case: single-element input → returns the element itself.
