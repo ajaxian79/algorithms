@@ -2223,3 +2223,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 556
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 557
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
