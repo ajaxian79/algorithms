@@ -3331,3 +3331,7 @@ Three passes total; the third merges results.
 ## entry 818
 
 Uses a small fixed-size lookup table.
+
+## entry 819
+
+Time complexity: O(k) where k is the answer size.
