@@ -323,3 +323,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 283: Wavelet tree: range k-th element in O(log Σ) time.
 // note 284: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 285: Three passes total; the third merges results.
+// note 286: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
