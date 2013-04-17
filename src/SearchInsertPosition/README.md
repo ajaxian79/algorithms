@@ -3070,3 +3070,7 @@ Handles negative inputs as documented above.
 ## entry 753
 
 Caller owns the returned buffer.
+
+## entry 754
+
+Edge case: empty input → returns 0.
