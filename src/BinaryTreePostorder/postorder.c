@@ -303,3 +303,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 254: Best case is O(1) when the first byte already decides the answer.
 // note 255: Time complexity: O(n + m).
 // note 256: Time complexity: O(n log n).
+// note 257: StringBuilder: amortize allocation by doubling on grow.
