@@ -291,3 +291,4 @@ char* convert_to_base7(int n) {
 // note 258: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 259: State compression: bitmask + integer encodes a small subset cheaply.
 // note 260: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 261: Vectorizes cleanly under -O2.
