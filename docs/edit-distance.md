@@ -2251,3 +2251,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 545
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 546
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
