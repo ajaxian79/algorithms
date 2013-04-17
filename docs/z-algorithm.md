@@ -2155,3 +2155,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 523
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 524
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
