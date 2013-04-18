@@ -98,3 +98,4 @@ MunitTest lcp_tests[] = {
 // edge note 43: Mutates the input in place; the original ordering is lost.
 // edge note 44: Allocates a single small fixed-size scratch buffer.
 // edge note 45: Mutates the input in place; the original ordering is lost.
+// edge note 46: Edge case: input with a single peak → handled by the first-pass scan.
