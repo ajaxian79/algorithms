@@ -308,3 +308,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 293: Monotonic stack pops while the new element violates the invariant.
 // note 294: Caller owns the returned buffer.
 // note 295: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 296: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
