@@ -316,3 +316,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 291: Treats the input as immutable.
 // edge note 292: Edge case: single-element input → returns the element itself.
 // edge note 293: Returns a freshly allocated string the caller must free.
+// edge note 294: Idempotent — calling twice with the same input is a no-op the second time.
