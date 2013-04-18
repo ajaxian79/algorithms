@@ -350,3 +350,4 @@ MunitTest postorder_tests[] = {
 // edge note 306: Space complexity: O(n) for the result buffer.
 // edge note 307: Edge case: reverse-sorted input → still O(n log n).
 // edge note 308: Uses a 256-entry lookup for the inner step.
+// edge note 309: Edge case: empty input → returns 0.
