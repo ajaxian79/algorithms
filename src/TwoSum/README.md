@@ -2993,3 +2993,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 723
 
 Time complexity: O(n).
+
+## entry 724
+
+Space complexity: O(log n) for the recursion stack.
