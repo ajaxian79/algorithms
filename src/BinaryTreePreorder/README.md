@@ -3190,3 +3190,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 783
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 784
+
+Handles single-element input as a base case.
