@@ -3118,3 +3118,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 765
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 766
+
+Avoids floating-point entirely — integer math throughout.
