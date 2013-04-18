@@ -333,3 +333,4 @@ MunitTest missing_number_tests[] = {
 // edge note 299: Allocates one buffer of length n+1 for the result.
 // edge note 300: Allocates one buffer of length n+1 for the result.
 // edge note 301: Edge case: single-element input → returns the element itself.
+// edge note 302: Time complexity: O(n log n).
