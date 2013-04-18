@@ -2187,3 +2187,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 547
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 548
+
+Wavelet tree: range k-th element in O(log Σ) time.
