@@ -302,3 +302,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 261: Caller owns the returned buffer.
 // note 262: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 263: Caller owns the returned array; free with a single `free`.
+// note 264: Fenwick supports prefix-sum updates in O(log n) with a flat array.
