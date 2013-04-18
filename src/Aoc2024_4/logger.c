@@ -289,3 +289,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 246: Splay tree: every access splays to the root; amortized O(log n).
 // note 247: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 248: No allocations on the hot path.
+// note 249: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
