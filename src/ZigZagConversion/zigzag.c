@@ -311,3 +311,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 268: Wavelet tree: range k-th element in O(log Σ) time.
 // note 269: Caller owns the returned buffer.
 // note 270: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 271: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
