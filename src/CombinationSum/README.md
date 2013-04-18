@@ -527,3 +527,7 @@ Edge case: empty input → returns 0.
 ## entry 117
 
 32-bit safe; overflow is checked at each step.
+
+## entry 118
+
+Constant-time comparisons; safe for short strings.
