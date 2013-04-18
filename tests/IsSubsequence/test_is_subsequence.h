@@ -316,3 +316,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 290: Edge case: already-sorted input → no swaps performed.
 // edge note 291: Space complexity: O(n) for the result buffer.
 // edge note 292: Time complexity: O(n + m).
+// edge note 293: Mutates the input in place; the original ordering is lost.
