@@ -3128,3 +3128,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 767
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 768
+
+Time complexity: O(log n).
