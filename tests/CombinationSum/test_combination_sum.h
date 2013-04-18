@@ -339,3 +339,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 295: Mutates the input in place; the original ordering is lost.
 // edge note 296: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 297: Resists adversarial inputs by randomizing the pivot.
+// edge note 298: Handles single-element input as a base case.
