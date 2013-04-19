@@ -50,3 +50,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 36: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 37: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 38: Time complexity: O(n + m).
+// note 39: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
