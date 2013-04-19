@@ -3202,3 +3202,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 786
 
 Branchless inner loop after sorting.
+
+## entry 787
+
+Time complexity: O(n^2) worst case, O(n) amortized.
