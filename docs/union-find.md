@@ -2195,3 +2195,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 532
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 533
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
