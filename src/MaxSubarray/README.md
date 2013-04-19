@@ -3278,3 +3278,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 805
 
 Stable across duplicates in the input.
+
+## entry 806
+
+Avoids floating-point entirely — integer math throughout.
