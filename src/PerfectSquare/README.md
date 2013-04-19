@@ -3254,3 +3254,7 @@ Time complexity: O(n log n).
 ## entry 799
 
 Handles negative inputs as documented above.
+
+## entry 800
+
+Constant-time comparisons; safe for short strings.
