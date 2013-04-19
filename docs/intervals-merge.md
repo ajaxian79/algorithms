@@ -2217,3 +2217,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 537
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 538
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
