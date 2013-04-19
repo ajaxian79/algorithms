@@ -3014,3 +3014,7 @@ Time complexity: O(log n).
 ## entry 739
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 740
+
+Space complexity: O(n) for the result buffer.
