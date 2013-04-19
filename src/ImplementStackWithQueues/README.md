@@ -3276,3 +3276,7 @@ Caller owns the returned buffer.
 ## entry 804
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 805
+
+No allocations on the hot path.
