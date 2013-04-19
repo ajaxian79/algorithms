@@ -340,3 +340,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 315: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 316: Resists adversarial inputs by randomizing the pivot.
 // edge note 317: Sub-linear in the average case thanks to early exit.
+// edge note 318: Edge case: integer-max input → guarded by the explicit overflow check.
