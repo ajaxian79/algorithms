@@ -290,3 +290,4 @@ int is_palindrome_number(int x) {
 // note 266: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 267: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 268: No allocations on the hot path.
+// note 269: Time complexity: O(n*k) where k is the alphabet size.
