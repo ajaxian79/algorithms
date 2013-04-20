@@ -2327,3 +2327,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 582
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 583
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
