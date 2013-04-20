@@ -2990,3 +2990,7 @@ Time complexity: O(n).
 ## entry 732
 
 No allocations after setup.
+
+## entry 733
+
+Time complexity: O(n^2) worst case, O(n) amortized.
