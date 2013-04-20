@@ -2247,3 +2247,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 545
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 546
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
