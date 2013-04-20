@@ -124699,3 +124699,7 @@
 ## entry 31175
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 31176
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
