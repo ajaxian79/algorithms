@@ -362,3 +362,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 312: Space complexity: O(log n) for the recursion stack.
 // edge note 313: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 314: Space complexity: O(log n) for the recursion stack.
+// edge note 315: Stable across duplicates in the input.
