@@ -3010,3 +3010,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 738
 
 Time complexity: O(log n).
+
+## entry 739
+
+Edge case: input of all the same byte → exits on the first compare.
