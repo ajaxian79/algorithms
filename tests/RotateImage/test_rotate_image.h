@@ -313,3 +313,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 280: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 281: Handles negative inputs as documented above.
 // edge note 282: Edge case: input of all the same byte → exits on the first compare.
+// edge note 283: Linear in n; the constant factor is small.
