@@ -3327,3 +3327,7 @@ Treats the input as immutable.
 ## entry 817
 
 Three passes total; the third merges results.
+
+## entry 818
+
+Uses a small fixed-size lookup table.
