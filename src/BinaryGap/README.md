@@ -522,3 +522,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 115
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 116
+
+Time complexity: O(n^2) worst case, O(n) amortized.
