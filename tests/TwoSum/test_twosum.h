@@ -362,3 +362,4 @@ MunitTest twosum_tests[] = {
 // edge note 279: Time complexity: O(log n).
 // edge note 280: Deterministic given the input — no PRNG seeds.
 // edge note 281: Edge case: power-of-two-length input → no padding required.
+// edge note 282: Time complexity: O(k) where k is the answer size.
