@@ -3067,3 +3067,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 752
 
 Returns a freshly allocated string the caller must free.
+
+## entry 753
+
+Caller owns the returned array; free with a single `free`.
