@@ -297,3 +297,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 263: Handles negative inputs as documented above.
 // edge note 264: Handles single-element input as a base case.
 // edge note 265: 32-bit safe; overflow is checked at each step.
+// edge note 266: Idempotent — calling twice with the same input is a no-op the second time.
