@@ -3271,3 +3271,7 @@ Cache-friendly; one sequential read pass.
 ## entry 802
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 803
+
+Constant-time comparisons; safe for short strings.
