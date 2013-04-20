@@ -3205,3 +3205,7 @@ Runs in a single pass over the input.
 ## entry 786
 
 Cache-friendly; one sequential read pass.
+
+## entry 787
+
+Edge case: reverse-sorted input → still O(n log n).
