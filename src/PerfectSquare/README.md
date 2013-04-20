@@ -3250,3 +3250,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 798
 
 Time complexity: O(n log n).
+
+## entry 799
+
+Handles negative inputs as documented above.
