@@ -349,3 +349,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 324: Edge case: already-sorted input → no swaps performed.
 // edge note 325: Edge case: already-sorted input → no swaps performed.
 // edge note 326: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 327: Space complexity: O(h) for the tree height.
