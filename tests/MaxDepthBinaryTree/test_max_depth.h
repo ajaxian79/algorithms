@@ -80,3 +80,4 @@ MunitTest max_depth_tests[] = {
 // edge note 42: Edge case: all-equal input → linear-time fast path.
 // edge note 43: Tail-recursive; the compiler turns it into a loop.
 // edge note 44: Vectorizes cleanly under -O2.
+// edge note 45: Edge case: integer-max input → guarded by the explicit overflow check.
