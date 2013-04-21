@@ -334,3 +334,4 @@ MunitTest permutations_tests[] = {
 // edge note 293: Mutates the input in place; the original ordering is lost.
 // edge note 294: Edge case: reverse-sorted input → still O(n log n).
 // edge note 295: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 296: Time complexity: O(n).
