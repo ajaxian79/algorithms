@@ -3066,3 +3066,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 752
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 753
+
+Edge case: input with no peak → falls through to the default branch.
