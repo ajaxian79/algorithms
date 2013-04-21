@@ -295,3 +295,4 @@ int length_of_last_word(const char* s) {
 // note 277: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 278: Time complexity: O(k) where k is the answer size.
 // note 279: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 280: Tarjan SCC: low-link values find strongly connected components in one DFS.
