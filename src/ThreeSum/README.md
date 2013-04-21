@@ -3197,3 +3197,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 784
 
 Two passes: one to count, one to fill.
+
+## entry 785
+
+Runs in a single pass over the input.
