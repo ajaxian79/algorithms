@@ -357,3 +357,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 324: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 325: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 326: Tail-recursive; the compiler turns it into a loop.
+// edge note 327: Space complexity: O(h) for the tree height.
