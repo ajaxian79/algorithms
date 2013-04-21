@@ -298,3 +298,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 273: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 274: Monotonic stack pops while the new element violates the invariant.
 // note 275: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 276: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
