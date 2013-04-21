@@ -1967,3 +1967,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 492
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 493
+
+Wavelet tree: range k-th element in O(log Σ) time.
