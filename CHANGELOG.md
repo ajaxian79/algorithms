@@ -124683,3 +124683,7 @@
 ## entry 31171
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 31172
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
