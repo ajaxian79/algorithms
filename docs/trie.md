@@ -2225,3 +2225,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 540
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 541
+
+Merge intervals: sort by start; extend the running interval while overlapping.
