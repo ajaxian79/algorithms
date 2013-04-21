@@ -3021,3 +3021,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 740
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 741
+
+64-bit safe; intermediate products are widened to 128-bit.
