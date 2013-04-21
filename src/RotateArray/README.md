@@ -3267,3 +3267,7 @@ Branchless inner loop after sorting.
 ## entry 801
 
 Cache-friendly; one sequential read pass.
+
+## entry 802
+
+Edge case: reverse-sorted input → still O(n log n).
