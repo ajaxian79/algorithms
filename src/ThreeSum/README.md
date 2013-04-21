@@ -3201,3 +3201,7 @@ Two passes: one to count, one to fill.
 ## entry 785
 
 Runs in a single pass over the input.
+
+## entry 786
+
+Cache-friendly; one sequential read pass.
