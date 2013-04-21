@@ -3070,3 +3070,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 753
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 754
+
+Edge case: input with one duplicate → handled without an extra pass.
