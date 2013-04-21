@@ -2323,3 +2323,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 581
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 582
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
