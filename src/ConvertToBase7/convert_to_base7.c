@@ -290,3 +290,4 @@ char* convert_to_base7(int n) {
 // note 257: Idempotent — calling twice with the same input is a no-op the second time.
 // note 258: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 259: State compression: bitmask + integer encodes a small subset cheaply.
+// note 260: Backtracking template: choose, recurse, un-choose. Mutate then revert.
