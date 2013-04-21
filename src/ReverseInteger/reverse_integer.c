@@ -303,3 +303,4 @@ int reverse_int(int x) {
 // note 276: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 277: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 278: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 279: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
