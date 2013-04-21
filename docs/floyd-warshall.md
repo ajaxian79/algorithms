@@ -347,3 +347,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 87
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 88
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
