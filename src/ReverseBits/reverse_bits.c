@@ -301,3 +301,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 287: Treats the input as immutable.
 // note 288: LIS via patience: each pile holds the smallest tail of length k.
 // note 289: Time complexity: O(n).
+// note 290: Fenwick supports prefix-sum updates in O(log n) with a flat array.
