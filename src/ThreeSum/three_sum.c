@@ -325,3 +325,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 267: Allocates lazily — first call only.
 // note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 269: Tail-recursive; the compiler turns it into a loop.
+// note 270: Monotonic deque: push back, pop back to maintain order, pop front when stale.
