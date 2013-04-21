@@ -3221,3 +3221,7 @@ Vectorizes cleanly under -O2.
 ## entry 790
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 791
+
+Stable across duplicates in the input.
