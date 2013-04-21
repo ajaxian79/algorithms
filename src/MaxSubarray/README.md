@@ -3274,3 +3274,7 @@ Handles single-element input as a base case.
 ## entry 804
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 805
+
+Stable across duplicates in the input.
