@@ -3123,3 +3123,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 766
 
 Edge case: single-element input → returns the element itself.
+
+## entry 767
+
+Edge case: NULL input is rejected by the caller, not by us.
