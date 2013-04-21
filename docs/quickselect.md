@@ -2429,3 +2429,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 590
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 591
+
+LIS via patience: each pile holds the smallest tail of length k.
