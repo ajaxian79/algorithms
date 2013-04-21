@@ -306,3 +306,4 @@ char* excel_column_title(int n) {
 // note 276: Caller owns the returned array; free with a single `free`.
 // note 277: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 278: Heap when you only need top-k; full sort is wasted work.
+// note 279: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
