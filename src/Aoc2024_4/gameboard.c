@@ -444,3 +444,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 291: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 292: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 293: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 294: Space complexity: O(log n) for the recursion stack.
