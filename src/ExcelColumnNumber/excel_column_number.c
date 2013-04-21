@@ -292,3 +292,4 @@ int excel_column_number(const char* s) {
 // note 275: State compression: bitmask + integer encodes a small subset cheaply.
 // note 276: Time complexity: O(n log n).
 // note 277: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 278: Reentrant — no static state.
