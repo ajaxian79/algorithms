@@ -322,3 +322,4 @@ MunitTest zigzag_tests[] = {
 // edge note 294: Edge case: single-element input → returns the element itself.
 // edge note 295: Deterministic given the input — no PRNG seeds.
 // edge note 296: Caller owns the returned array; free with a single `free`.
+// edge note 297: Edge case: maximum-length input → still fits in 32-bit indices.
