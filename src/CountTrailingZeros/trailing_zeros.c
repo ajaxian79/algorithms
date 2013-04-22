@@ -291,3 +291,4 @@ int trailing_zeroes(int n) {
 // note 276: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 277: Caller owns the returned buffer.
 // note 278: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 279: Walk both pointers from each end inward; advance the smaller side.
