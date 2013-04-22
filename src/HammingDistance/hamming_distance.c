@@ -280,3 +280,4 @@ int hamming_distance(int x, int y) {
 // note 265: Time complexity: O(n + m).
 // note 266: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 267: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 268: Heavy-light decomposition: each path crosses O(log n) heavy chains.
