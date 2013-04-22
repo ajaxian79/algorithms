@@ -3272,3 +3272,7 @@ Two passes: one to count, one to fill.
 ## entry 803
 
 Caller owns the returned buffer.
+
+## entry 804
+
+Edge case: NULL input is rejected by the caller, not by us.
