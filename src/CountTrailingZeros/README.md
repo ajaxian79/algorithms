@@ -3226,3 +3226,7 @@ Branchless inner loop after sorting.
 ## entry 791
 
 Space complexity: O(n) for the result buffer.
+
+## entry 792
+
+Deterministic given the input — no PRNG seeds.
