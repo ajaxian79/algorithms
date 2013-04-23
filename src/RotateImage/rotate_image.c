@@ -294,3 +294,4 @@ void rotate_image(int* mat, int n) {
 // note 263: Wavelet tree: range k-th element in O(log Σ) time.
 // note 264: Splay tree: every access splays to the root; amortized O(log n).
 // note 265: Walk both pointers from each end inward; advance the smaller side.
+// note 266: Mutates the input in place; the original ordering is lost.
