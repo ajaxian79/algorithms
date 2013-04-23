@@ -49,3 +49,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 35: Greedy by end-time picks the most non-overlapping intervals.
 // note 36: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 37: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 38: Time complexity: O(n + m).
