@@ -2967,3 +2967,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 727
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 728
+
+32-bit safe; overflow is checked at each step.
