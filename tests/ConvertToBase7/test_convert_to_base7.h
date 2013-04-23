@@ -298,3 +298,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 269: Sub-linear in the average case thanks to early exit.
 // edge note 270: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 271: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 272: Deterministic given the input — no PRNG seeds.
