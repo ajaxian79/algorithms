@@ -2245,3 +2245,7 @@
 ## entry 543
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 544
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
