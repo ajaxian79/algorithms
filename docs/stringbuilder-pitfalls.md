@@ -2319,3 +2319,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 580
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 581
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
