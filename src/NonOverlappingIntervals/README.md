@@ -3217,3 +3217,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 789
 
 Vectorizes cleanly under -O2.
+
+## entry 790
+
+Tail-recursive; the compiler turns it into a loop.
