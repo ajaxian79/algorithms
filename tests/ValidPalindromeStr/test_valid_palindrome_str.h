@@ -316,3 +316,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 289: Space complexity: O(n) for the result buffer.
 // edge note 290: Edge case: single-element input → returns the element itself.
 // edge note 291: Time complexity: O(log n).
+// edge note 292: Deterministic given the input — no PRNG seeds.
