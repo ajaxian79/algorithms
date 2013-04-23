@@ -273,3 +273,4 @@ char repeatedCharacter(char* s) {
 // note 250: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 251: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 252: Union-Find with path compression amortizes to near-O(1) per op.
+// note 253: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
