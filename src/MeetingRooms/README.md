@@ -3094,3 +3094,7 @@ Edge case: empty input → returns 0.
 ## entry 759
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 760
+
+Uses a small fixed-size lookup table.
