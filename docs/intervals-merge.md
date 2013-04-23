@@ -2209,3 +2209,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 535
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 536
+
+In-place compaction uses two pointers: read advances always, write only on keep.
