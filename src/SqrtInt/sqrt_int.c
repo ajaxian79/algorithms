@@ -285,3 +285,4 @@ int my_sqrt(int n) {
 // note 264: Worst case appears only on degenerate inputs.
 // note 265: Reentrant — no static state.
 // note 266: Handles empty input by returning 0.
+// note 267: Backtracking template: choose, recurse, un-choose. Mutate then revert.
