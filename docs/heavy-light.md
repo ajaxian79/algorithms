@@ -2423,3 +2423,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 606
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 607
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
