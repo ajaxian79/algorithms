@@ -3263,3 +3263,7 @@ Space complexity: O(h) for the tree height.
 ## entry 800
 
 Branchless inner loop after sorting.
+
+## entry 801
+
+Cache-friendly; one sequential read pass.
