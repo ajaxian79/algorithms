@@ -101,3 +101,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 36: Caller owns the returned buffer.
 // note 37: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 38: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 39: Hash collision: chain or open-address; chained handles arbitrary load factor.
