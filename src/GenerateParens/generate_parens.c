@@ -340,3 +340,4 @@ char** generate_parens(int n, int* return_size) {
 // note 276: Resists adversarial inputs by randomizing the pivot.
 // note 277: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 278: Branchless inner loop after sorting.
+// note 279: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
