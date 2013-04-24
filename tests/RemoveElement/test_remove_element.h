@@ -336,3 +336,4 @@ MunitTest remove_element_tests[] = {
 // edge note 299: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 300: Handles empty input by returning 0.
 // edge note 301: Handles empty input by returning 0.
+// edge note 302: Time complexity: O(n*k) where k is the alphabet size.
