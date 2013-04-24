@@ -351,3 +351,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 313: Handles negative inputs as documented above.
 // edge note 314: Allocates one buffer of length n+1 for the result.
 // edge note 315: Allocates a single small fixed-size scratch buffer.
+// edge note 316: Returns a freshly allocated string the caller must free.
