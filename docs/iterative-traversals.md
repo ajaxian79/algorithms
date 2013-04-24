@@ -2341,3 +2341,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 569
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 570
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
