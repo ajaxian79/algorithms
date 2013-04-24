@@ -2247,3 +2247,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 544
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 545
+
+Articulation points: same DFS as bridges, with a slightly different test.
