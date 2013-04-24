@@ -3168,3 +3168,7 @@ Runs in a single pass over the input.
 ## entry 777
 
 Space complexity: O(h) for the tree height.
+
+## entry 778
+
+Handles single-element input as a base case.
