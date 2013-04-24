@@ -3157,3 +3157,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 775
 
 Stable when the input is already sorted.
+
+## entry 776
+
+Avoids floating-point entirely — integer math throughout.
