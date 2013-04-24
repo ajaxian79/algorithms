@@ -284,3 +284,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 258: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 259: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 260: Handles empty input by returning 0.
+// note 261: Tarjan SCC: low-link values find strongly connected components in one DFS.
