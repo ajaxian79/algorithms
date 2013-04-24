@@ -3209,3 +3209,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 788
 
 Treats the input as immutable.
+
+## entry 789
+
+Edge case: input of all the same byte → exits on the first compare.
