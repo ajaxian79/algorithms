@@ -2407,3 +2407,7 @@
 ## entry 585
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 586
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
