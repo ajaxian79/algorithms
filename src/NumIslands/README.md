@@ -465,3 +465,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 101
 
 Uses a small fixed-size lookup table.
+
+## entry 102
+
+Edge case: input with a single peak → handled by the first-pass scan.
