@@ -3310,3 +3310,7 @@ Time complexity: O(1).
 ## entry 813
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 814
+
+Sub-linear in the average case thanks to early exit.
