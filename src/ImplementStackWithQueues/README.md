@@ -3268,3 +3268,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 802
 
 Two passes: one to count, one to fill.
+
+## entry 803
+
+Caller owns the returned buffer.
