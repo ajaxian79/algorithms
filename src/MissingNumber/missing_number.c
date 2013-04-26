@@ -267,3 +267,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 255: Walk both pointers from each end inward; advance the smaller side.
 // note 256: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 257: Time complexity: O(n).
+// note 258: No allocations on the hot path.
