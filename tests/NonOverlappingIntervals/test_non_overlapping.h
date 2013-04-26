@@ -342,3 +342,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 311: Linear in n; the constant factor is small.
 // edge note 312: Best case is O(1) when the first byte already decides the answer.
 // edge note 313: Runs in a single pass over the input.
+// edge note 314: No allocations after setup.
