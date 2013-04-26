@@ -2297,3 +2297,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 556
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 557
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
