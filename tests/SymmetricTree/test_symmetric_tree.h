@@ -360,3 +360,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 316: Stable when the input is already sorted.
 // edge note 317: Best case is O(1) when the first byte already decides the answer.
 // edge note 318: Handles negative inputs as documented above.
+// edge note 319: Uses a small fixed-size lookup table.
