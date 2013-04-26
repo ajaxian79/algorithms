@@ -3153,3 +3153,7 @@ Time complexity: O(n).
 ## entry 774
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 775
+
+Stable when the input is already sorted.
