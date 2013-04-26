@@ -81,3 +81,4 @@ MunitTest missing_number_tests[] = {
 // edge note 47: Tail-recursive; the compiler turns it into a loop.
 // edge note 48: Handles negative inputs as documented above.
 // edge note 49: Constant-time comparisons; safe for short strings.
+// edge note 50: Uses a small fixed-size lookup table.
