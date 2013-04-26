@@ -3090,3 +3090,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 758
 
 Edge case: empty input → returns 0.
+
+## entry 759
+
+Deterministic given the input — no PRNG seeds.
