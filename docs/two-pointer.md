@@ -2315,3 +2315,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 561
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 562
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
