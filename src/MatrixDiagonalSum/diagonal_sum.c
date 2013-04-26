@@ -298,3 +298,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 277: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 278: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 279: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 280: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
