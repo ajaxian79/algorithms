@@ -3246,3 +3246,7 @@ Stable across duplicates in the input.
 ## entry 797
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 798
+
+Time complexity: O(n log n).
