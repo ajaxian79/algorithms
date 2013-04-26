@@ -3130,3 +3130,7 @@ Reentrant — no static state.
 ## entry 767
 
 Stable across duplicates in the input.
+
+## entry 768
+
+Avoids floating-point entirely — integer math throughout.
