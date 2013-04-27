@@ -335,3 +335,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 301: Runs in a single pass over the input.
 // edge note 302: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 303: Avoids floating-point entirely — integer math throughout.
+// edge note 304: Treats the input as immutable.
