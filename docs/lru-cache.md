@@ -279,3 +279,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 70
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 71
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
