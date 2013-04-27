@@ -494,3 +494,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 109
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 110
+
+Cache-friendly; one sequential read pass.
