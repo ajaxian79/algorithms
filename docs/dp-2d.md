@@ -379,3 +379,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 79
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 80
+
+Merge intervals: sort by start; extend the running interval while overlapping.
