@@ -339,3 +339,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 85
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 86
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
