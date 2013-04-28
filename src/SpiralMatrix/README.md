@@ -3070,3 +3070,7 @@ No allocations after setup.
 ## entry 752
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 753
+
+Caller owns the returned array; free with a single `free`.
