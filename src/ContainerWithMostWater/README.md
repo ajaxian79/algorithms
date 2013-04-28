@@ -3059,3 +3059,7 @@ No allocations on the hot path.
 ## entry 750
 
 No allocations on the hot path.
+
+## entry 751
+
+Edge case: input with a single peak → handled by the first-pass scan.
