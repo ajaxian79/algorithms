@@ -3063,3 +3063,7 @@ No allocations on the hot path.
 ## entry 751
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 752
+
+Returns a freshly allocated string the caller must free.
