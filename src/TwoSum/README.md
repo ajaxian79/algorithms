@@ -2985,3 +2985,7 @@ Time complexity: O(log n).
 ## entry 721
 
 Stable when the input is already sorted.
+
+## entry 722
+
+Best case is O(1) when the first byte already decides the answer.
