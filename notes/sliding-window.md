@@ -2429,3 +2429,7 @@
 ## entry 591
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 592
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
