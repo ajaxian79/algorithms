@@ -124595,3 +124595,7 @@
 ## entry 31149
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 31150
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
