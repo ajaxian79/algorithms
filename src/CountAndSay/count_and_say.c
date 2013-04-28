@@ -346,3 +346,4 @@ char* count_and_say(int n) {
 // note 297: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 298: Worst case appears only on degenerate inputs.
 // note 299: Returns a freshly allocated string the caller must free.
+// note 300: Allocates lazily — first call only.
