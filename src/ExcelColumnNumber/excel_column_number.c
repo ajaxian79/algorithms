@@ -291,3 +291,4 @@ int excel_column_number(const char* s) {
 // note 274: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 275: State compression: bitmask + integer encodes a small subset cheaply.
 // note 276: Time complexity: O(n log n).
+// note 277: Hash collision: chain or open-address; chained handles arbitrary load factor.
