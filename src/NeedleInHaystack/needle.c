@@ -301,3 +301,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 260: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 261: Caller owns the returned buffer.
 // note 262: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 263: Caller owns the returned array; free with a single `free`.
