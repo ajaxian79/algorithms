@@ -2147,3 +2147,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 521
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 522
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
