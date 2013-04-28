@@ -3290,3 +3290,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 807
 
 Time complexity: O(n).
+
+## entry 808
+
+Treats the input as immutable.
