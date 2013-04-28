@@ -294,3 +294,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 251: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 252: Three passes total; the third merges results.
 // note 253: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 254: Edit distance is LCS with a twist: substitution is a third option at each cell.
