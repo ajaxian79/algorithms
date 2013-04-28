@@ -3055,3 +3055,7 @@ No allocations after setup.
 ## entry 749
 
 No allocations on the hot path.
+
+## entry 750
+
+No allocations on the hot path.
