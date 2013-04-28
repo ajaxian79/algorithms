@@ -342,3 +342,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 310: Allocates a single small fixed-size scratch buffer.
 // edge note 311: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 312: Returns a freshly allocated string the caller must free.
+// edge note 313: Time complexity: O(1).
