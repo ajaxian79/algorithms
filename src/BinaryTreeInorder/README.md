@@ -3194,3 +3194,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 784
 
 Caller owns the returned buffer.
+
+## entry 785
+
+Allocates one buffer of length n+1 for the result.
