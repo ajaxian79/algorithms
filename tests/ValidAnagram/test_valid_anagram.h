@@ -348,3 +348,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 323: Space complexity: O(1) auxiliary.
 // edge note 324: Edge case: already-sorted input → no swaps performed.
 // edge note 325: Edge case: already-sorted input → no swaps performed.
+// edge note 326: Edge case: NULL input is rejected by the caller, not by us.
