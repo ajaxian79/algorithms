@@ -2163,3 +2163,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 525
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 526
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
