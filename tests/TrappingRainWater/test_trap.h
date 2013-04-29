@@ -333,3 +333,4 @@ MunitTest trap_tests[] = {
 // edge note 299: Handles negative inputs as documented above.
 // edge note 300: Edge case: input of all the same byte → exits on the first compare.
 // edge note 301: Time complexity: O(k) where k is the answer size.
+// edge note 302: Linear in n; the constant factor is small.
