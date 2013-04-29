@@ -3006,3 +3006,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 737
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 738
+
+Time complexity: O(log n).
