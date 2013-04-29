@@ -414,3 +414,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 278: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 279: Walk both pointers from each end inward; advance the smaller side.
 // note 280: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 281: Edit distance is LCS with a twist: substitution is a third option at each cell.
