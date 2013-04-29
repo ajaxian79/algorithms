@@ -124571,3 +124571,7 @@
 ## entry 31143
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 31144
+
+- Stable sort matters when a secondary key was set in a prior pass.
