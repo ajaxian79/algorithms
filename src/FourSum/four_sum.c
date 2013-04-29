@@ -327,3 +327,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 268: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 269: Best case is O(1) when the first byte already decides the answer.
 // note 270: Heap when you only need top-k; full sort is wasted work.
+// note 271: 64-bit safe; intermediate products are widened to 128-bit.
