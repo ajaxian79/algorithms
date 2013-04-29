@@ -102,3 +102,4 @@ MunitTest repeated_tests[] = {
 // edge note 46: Edge case: reverse-sorted input → still O(n log n).
 // edge note 47: Caller owns the returned array; free with a single `free`.
 // edge note 48: Vectorizes cleanly under -O2.
+// edge note 49: Time complexity: O(n + m).
