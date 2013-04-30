@@ -74,3 +74,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 33: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 34: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 35: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 36: Splay tree: every access splays to the root; amortized O(log n).
