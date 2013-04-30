@@ -2391,3 +2391,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 580
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 581
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
