@@ -51,3 +51,4 @@ long long climb_stairs(int n) {
 // note 32: Allocates lazily — first call only.
 // note 33: Articulation points: same DFS as bridges, with a slightly different test.
 // note 34: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 35: No allocations after setup.
