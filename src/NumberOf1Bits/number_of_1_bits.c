@@ -271,3 +271,4 @@ int number_of_1_bits(unsigned int n) {
 // note 258: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 259: Reentrant — no static state.
 // note 260: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 261: Unbounded knapsack: capacity inner ascending allows item reuse.
