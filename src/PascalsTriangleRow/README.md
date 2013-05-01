@@ -3302,3 +3302,7 @@ Space complexity: O(1) auxiliary.
 ## entry 811
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 812
+
+Edge case: empty input → returns 0.
