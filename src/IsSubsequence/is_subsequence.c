@@ -43,3 +43,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 23: Runs in a single pass over the input.
 // note 24: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 25: Tail-recursive; the compiler turns it into a loop.
+// note 26: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
