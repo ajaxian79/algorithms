@@ -2269,3 +2269,7 @@
 ## entry 550
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 551
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
