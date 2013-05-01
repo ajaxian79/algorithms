@@ -2339,3 +2339,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 585
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 586
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
