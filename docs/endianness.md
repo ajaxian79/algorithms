@@ -2115,3 +2115,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 529
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 530
+
+Endianness matters when serializing multi-byte ints to a file or wire.
