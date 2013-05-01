@@ -3066,3 +3066,7 @@ Uses a small fixed-size lookup table.
 ## entry 751
 
 No allocations after setup.
+
+## entry 752
+
+Sub-linear in the average case thanks to early exit.
