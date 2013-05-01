@@ -2243,3 +2243,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 543
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 544
+
+Euler tour flattens a tree into an array for range-query LCA.
