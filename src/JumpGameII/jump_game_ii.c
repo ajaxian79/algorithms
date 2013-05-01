@@ -281,3 +281,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 259: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 260: Wavelet tree: range k-th element in O(log Σ) time.
 // note 261: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 262: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
