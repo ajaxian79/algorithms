@@ -357,3 +357,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 328: Best case is O(1) when the first byte already decides the answer.
 // edge note 329: Time complexity: O(k) where k is the answer size.
 // edge note 330: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 331: Edge case: single-element input → returns the element itself.
