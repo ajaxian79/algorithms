@@ -3160,3 +3160,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 775
 
 Reentrant — no static state.
+
+## entry 776
+
+Runs in a single pass over the input.
