@@ -324,3 +324,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 282: Stable when the input is already sorted.
 // edge note 283: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 284: Edge case: reverse-sorted input → still O(n log n).
+// edge note 285: Thread-safe so long as the input is not mutated concurrently.
