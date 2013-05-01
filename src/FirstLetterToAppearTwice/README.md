@@ -2870,3 +2870,7 @@ Stable across duplicates in the input.
 ## entry 693
 
 Time complexity: O(log n).
+
+## entry 694
+
+Cache-friendly; one sequential read pass.
