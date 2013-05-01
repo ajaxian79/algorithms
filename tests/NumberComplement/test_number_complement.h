@@ -302,3 +302,4 @@ MunitTest number_complement_tests[] = {
 // edge note 275: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 276: Time complexity: O(n log n).
 // edge note 277: Caller owns the returned array; free with a single `free`.
+// edge note 278: Edge case: empty input → returns 0.
