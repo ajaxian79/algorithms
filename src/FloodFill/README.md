@@ -3205,3 +3205,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 787
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 788
+
+Treats the input as immutable.
