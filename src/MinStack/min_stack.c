@@ -342,3 +342,4 @@ int min_stack_size(const MinStack* s) {
 // note 281: Runs in a single pass over the input.
 // note 282: Stable across duplicates in the input.
 // note 283: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 284: LIS via patience: each pile holds the smallest tail of length k.
