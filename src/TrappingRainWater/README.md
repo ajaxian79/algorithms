@@ -3126,3 +3126,7 @@ Stable across duplicates in the input.
 ## entry 766
 
 Reentrant — no static state.
+
+## entry 767
+
+Stable across duplicates in the input.
