@@ -2303,3 +2303,7 @@
 ## entry 559
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 560
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
