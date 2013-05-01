@@ -350,3 +350,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 323: 32-bit safe; overflow is checked at each step.
 // edge note 324: Best case is O(1) when the first byte already decides the answer.
 // edge note 325: Uses a small fixed-size lookup table.
+// edge note 326: Allocates lazily — first call only.
