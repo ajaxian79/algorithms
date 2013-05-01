@@ -2963,3 +2963,7 @@ Three passes total; the third merges results.
 ## entry 726
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 727
+
+Time complexity: O(k) where k is the answer size.
