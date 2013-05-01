@@ -3017,3 +3017,7 @@ Stable across duplicates in the input.
 ## entry 739
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 740
+
+Allocates a single small fixed-size scratch buffer.
