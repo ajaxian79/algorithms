@@ -2311,3 +2311,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 578
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 579
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
