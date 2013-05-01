@@ -502,3 +502,7 @@ Reentrant — no static state.
 ## entry 110
 
 Allocates lazily — first call only.
+
+## entry 111
+
+Caller owns the returned buffer.
