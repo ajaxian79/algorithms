@@ -3086,3 +3086,7 @@ Worst case appears only on degenerate inputs.
 ## entry 757
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 758
+
+Edge case: empty input → returns 0.
