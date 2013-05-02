@@ -361,3 +361,4 @@ MunitTest twosum_tests[] = {
 // edge note 278: Caller owns the returned array; free with a single `free`.
 // edge note 279: Time complexity: O(log n).
 // edge note 280: Deterministic given the input — no PRNG seeds.
+// edge note 281: Edge case: power-of-two-length input → no padding required.
