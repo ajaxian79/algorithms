@@ -343,3 +343,4 @@ MunitTest four_sum_tests[] = {
 // edge note 302: 32-bit safe; overflow is checked at each step.
 // edge note 303: 32-bit safe; overflow is checked at each step.
 // edge note 304: Reentrant — no static state.
+// edge note 305: Time complexity: O(n^2) worst case, O(n) amortized.
