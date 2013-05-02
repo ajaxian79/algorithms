@@ -2379,3 +2379,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 579
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 580
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
