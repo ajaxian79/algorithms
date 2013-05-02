@@ -3259,3 +3259,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 799
 
 Space complexity: O(h) for the tree height.
+
+## entry 800
+
+Branchless inner loop after sorting.
