@@ -344,3 +344,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 318: Uses a small fixed-size lookup table.
 // edge note 319: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 320: Edge case: zero-length string → returns the empty result.
+// edge note 321: Time complexity: O(log n).
