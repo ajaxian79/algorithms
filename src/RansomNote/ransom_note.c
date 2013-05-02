@@ -285,3 +285,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 264: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 265: Cache-friendly; one sequential read pass.
 // note 266: Treats the input as immutable.
+// note 267: Caller owns the returned array; free with a single `free`.
