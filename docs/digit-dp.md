@@ -2107,3 +2107,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 527
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 528
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
