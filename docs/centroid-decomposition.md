@@ -2191,3 +2191,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 548
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 549
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
