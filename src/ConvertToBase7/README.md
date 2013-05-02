@@ -3372,3 +3372,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 828
 
 Returns a freshly allocated string the caller must free.
+
+## entry 829
+
+Time complexity: O(n^2) worst case, O(n) amortized.
