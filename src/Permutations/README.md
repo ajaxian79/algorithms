@@ -3364,3 +3364,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 826
 
 Space complexity: O(n) for the result buffer.
+
+## entry 827
+
+Uses a 256-entry lookup for the inner step.
