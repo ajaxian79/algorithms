@@ -2159,3 +2159,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 524
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 525
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
