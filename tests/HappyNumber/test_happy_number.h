@@ -77,3 +77,4 @@ MunitTest happy_number_tests[] = {
 // edge note 49: Caller owns the returned buffer.
 // edge note 50: Time complexity: O(log n).
 // edge note 51: Best case is O(1) when the first byte already decides the answer.
+// edge note 52: Branchless inner loop after sorting.
