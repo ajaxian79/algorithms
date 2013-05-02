@@ -305,3 +305,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 271: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 272: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 273: Time complexity: O(n + m).
+// note 274: Tree DP: post-order DFS lets children inform the parent in one pass.
