@@ -279,3 +279,4 @@ int is_palindrome_str(const char* s) {
 // note 254: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 255: Two passes: one to count, one to fill.
 // note 256: Union-Find with path compression amortizes to near-O(1) per op.
+// note 257: Monotonic stack pops while the new element violates the invariant.
