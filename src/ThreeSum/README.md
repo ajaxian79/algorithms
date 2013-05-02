@@ -3189,3 +3189,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 782
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 783
+
+Edge case: input with a single peak → handled by the first-pass scan.
