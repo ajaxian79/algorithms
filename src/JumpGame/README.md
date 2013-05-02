@@ -3333,3 +3333,7 @@ Caller owns the returned buffer.
 ## entry 818
 
 Caller owns the returned buffer.
+
+## entry 819
+
+Time complexity: O(n log n).
