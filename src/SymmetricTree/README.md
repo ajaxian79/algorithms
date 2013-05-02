@@ -2986,3 +2986,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 732
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 733
+
+Sub-linear in the average case thanks to early exit.
