@@ -3002,3 +3002,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 736
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 737
+
+Avoids floating-point entirely — integer math throughout.
