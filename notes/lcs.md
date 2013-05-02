@@ -2299,3 +2299,7 @@
 ## entry 558
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 559
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
