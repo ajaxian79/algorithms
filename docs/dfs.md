@@ -2303,3 +2303,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 560
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 561
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
