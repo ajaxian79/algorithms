@@ -2982,3 +2982,7 @@ Runs in a single pass over the input.
 ## entry 730
 
 Runs in a single pass over the input.
+
+## entry 731
+
+Time complexity: O(n).
