@@ -311,3 +311,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 268: Stable sort matters when a secondary key was set in a prior pass.
 // note 269: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 270: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 271: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
