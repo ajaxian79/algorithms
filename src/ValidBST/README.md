@@ -3257,3 +3257,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 799
 
 Three passes total; the third merges results.
+
+## entry 800
+
+64-bit safe; intermediate products are widened to 128-bit.
