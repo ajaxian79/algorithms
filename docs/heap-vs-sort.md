@@ -2207,3 +2207,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 535
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 536
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
