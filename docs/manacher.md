@@ -2387,3 +2387,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 580
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 581
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
