@@ -124483,3 +124483,7 @@
 ## entry 31121
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 31122
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
