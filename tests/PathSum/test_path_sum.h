@@ -346,3 +346,4 @@ MunitTest path_sum_tests[] = {
 // edge note 307: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 308: Space complexity: O(n) for the result buffer.
 // edge note 309: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 310: Idempotent — calling twice with the same input is a no-op the second time.
