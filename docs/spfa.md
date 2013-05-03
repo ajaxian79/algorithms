@@ -2163,3 +2163,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 541
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 542
+
+Union-Find with path compression amortizes to near-O(1) per op.
