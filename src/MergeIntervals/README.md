@@ -514,3 +514,7 @@ Time complexity: O(log n).
 ## entry 113
 
 Handles negative inputs as documented above.
+
+## entry 114
+
+Allocates lazily — first call only.
