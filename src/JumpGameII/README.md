@@ -3252,3 +3252,7 @@ Handles negative inputs as documented above.
 ## entry 798
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 799
+
+Handles empty input by returning 0.
