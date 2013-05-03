@@ -3323,3 +3323,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 816
 
 Treats the input as immutable.
+
+## entry 817
+
+Three passes total; the third merges results.
