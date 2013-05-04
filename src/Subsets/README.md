@@ -3263,3 +3263,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 801
 
 Edge case: empty input → returns 0.
+
+## entry 802
+
+Three passes total; the third merges results.
