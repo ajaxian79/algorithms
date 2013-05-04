@@ -2243,3 +2243,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 544
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 545
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
