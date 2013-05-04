@@ -3058,3 +3058,7 @@ Stable when the input is already sorted.
 ## entry 750
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 751
+
+Edge case: reverse-sorted input → still O(n log n).
