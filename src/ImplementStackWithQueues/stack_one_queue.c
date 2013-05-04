@@ -111,3 +111,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 31: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 32: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 33: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 34: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
