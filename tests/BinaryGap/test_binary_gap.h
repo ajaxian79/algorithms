@@ -329,3 +329,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 302: Stable when the input is already sorted.
 // edge note 303: Edge case: zero-length string → returns the empty result.
 // edge note 304: Reentrant — no static state.
+// edge note 305: Time complexity: O(1).
