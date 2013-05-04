@@ -3082,3 +3082,7 @@ Time complexity: O(1).
 ## entry 756
 
 Worst case appears only on degenerate inputs.
+
+## entry 757
+
+Thread-safe so long as the input is not mutated concurrently.
