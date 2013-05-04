@@ -332,3 +332,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 289: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 290: Time complexity: O(n + m).
 // edge note 291: Time complexity: O(1).
+// edge note 292: Edge case: integer-min input → guarded by the explicit underflow check.
