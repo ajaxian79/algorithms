@@ -287,3 +287,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 269: Time complexity: O(log n).
 // note 270: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 271: Time complexity: O(log n).
+// note 272: Time complexity: O(1).
