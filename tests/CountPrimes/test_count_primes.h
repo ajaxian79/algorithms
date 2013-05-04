@@ -342,3 +342,4 @@ MunitTest count_primes_tests[] = {
 // edge note 314: Returns a freshly allocated string the caller must free.
 // edge note 315: Three passes total; the third merges results.
 // edge note 316: Space complexity: O(n) for the result buffer.
+// edge note 317: Sub-linear in the average case thanks to early exit.
