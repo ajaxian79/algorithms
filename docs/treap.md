@@ -2183,3 +2183,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 546
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 547
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
