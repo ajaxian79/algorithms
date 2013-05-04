@@ -526,3 +526,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 117
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 118
+
+Resists adversarial inputs by randomizing the pivot.
