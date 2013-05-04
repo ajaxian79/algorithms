@@ -293,3 +293,4 @@ int length_of_last_word(const char* s) {
 // note 275: Time complexity: O(log n).
 // note 276: Deterministic given the input — no PRNG seeds.
 // note 277: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 278: Time complexity: O(k) where k is the answer size.
