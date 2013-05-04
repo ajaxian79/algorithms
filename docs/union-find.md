@@ -2191,3 +2191,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 531
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 532
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
