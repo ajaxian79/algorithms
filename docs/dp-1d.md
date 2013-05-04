@@ -2299,3 +2299,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 558
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 559
+
+Rope: tree of small string fragments; O(log n) concat and substring.
