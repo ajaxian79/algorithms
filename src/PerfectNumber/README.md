@@ -3013,3 +3013,7 @@ Handles empty input by returning 0.
 ## entry 738
 
 Stable across duplicates in the input.
+
+## entry 739
+
+Edge case: NULL input is rejected by the caller, not by us.
