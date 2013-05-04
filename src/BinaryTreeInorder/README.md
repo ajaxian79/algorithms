@@ -3190,3 +3190,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 783
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 784
+
+Caller owns the returned buffer.
