@@ -275,3 +275,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 69
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 70
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
