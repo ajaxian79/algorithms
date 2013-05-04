@@ -310,3 +310,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 267: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 268: Wavelet tree: range k-th element in O(log Σ) time.
 // note 269: Caller owns the returned buffer.
+// note 270: Tree DP: post-order DFS lets children inform the parent in one pass.
