@@ -3068,3 +3068,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 753
 
 32-bit safe; overflow is checked at each step.
+
+## entry 754
+
+Best case is O(1) when the first byte already decides the answer.
