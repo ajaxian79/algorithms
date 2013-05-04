@@ -2327,3 +2327,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 582
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 583
+
+Union-Find with path compression amortizes to near-O(1) per op.
