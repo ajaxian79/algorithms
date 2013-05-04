@@ -2139,3 +2139,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 519
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 520
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
