@@ -3084,3 +3084,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 756
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 757
+
+Allocates a single small fixed-size scratch buffer.
