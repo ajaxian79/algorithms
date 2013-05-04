@@ -307,3 +307,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 277: Tail-recursive; the compiler turns it into a loop.
 // note 278: Wavelet tree: range k-th element in O(log Σ) time.
 // note 279: Runs in a single pass over the input.
+// note 280: Two passes: one to count, one to fill.
