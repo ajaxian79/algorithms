@@ -3116,3 +3116,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 764
 
 Stable when the input is already sorted.
+
+## entry 765
+
+Stable across duplicates in the input.
