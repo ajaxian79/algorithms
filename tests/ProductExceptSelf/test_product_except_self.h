@@ -330,3 +330,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 294: Time complexity: O(n + m).
 // edge note 295: Space complexity: O(1) auxiliary.
 // edge note 296: Vectorizes cleanly under -O2.
+// edge note 297: Space complexity: O(n) for the result buffer.
