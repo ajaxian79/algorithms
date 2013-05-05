@@ -2123,3 +2123,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 531
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 532
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
