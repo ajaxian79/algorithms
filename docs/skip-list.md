@@ -307,3 +307,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 77
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 78
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
