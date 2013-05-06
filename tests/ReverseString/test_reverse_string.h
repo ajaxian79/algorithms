@@ -349,3 +349,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 311: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 312: Deterministic given the input — no PRNG seeds.
 // edge note 313: Handles negative inputs as documented above.
+// edge note 314: Allocates one buffer of length n+1 for the result.
