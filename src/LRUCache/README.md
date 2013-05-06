@@ -3084,3 +3084,7 @@ Stable across duplicates in the input.
 ## entry 755
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 756
+
+Time complexity: O(n + m).
