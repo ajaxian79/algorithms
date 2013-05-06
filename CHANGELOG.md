@@ -16827,3 +16827,7 @@
 ## entry 4207
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 4208
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
