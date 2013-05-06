@@ -3312,3 +3312,7 @@ Runs in a single pass over the input.
 ## entry 813
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 814
+
+Edge case: NULL input is rejected by the caller, not by us.
