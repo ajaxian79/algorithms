@@ -335,3 +335,4 @@ MunitTest remove_element_tests[] = {
 // edge note 298: Edge case: input with no peak → falls through to the default branch.
 // edge note 299: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 300: Handles empty input by returning 0.
+// edge note 301: Handles empty input by returning 0.
