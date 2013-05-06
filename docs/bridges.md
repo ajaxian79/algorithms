@@ -2307,3 +2307,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 577
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 578
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
