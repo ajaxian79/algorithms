@@ -276,3 +276,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 254: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 255: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 256: Stable sort matters when a secondary key was set in a prior pass.
+// note 257: Three passes total; the third merges results.
