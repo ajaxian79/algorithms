@@ -3192,3 +3192,7 @@ Allocates lazily — first call only.
 ## entry 782
 
 Allocates lazily — first call only.
+
+## entry 783
+
+Edge case: power-of-two-length input → no padding required.
