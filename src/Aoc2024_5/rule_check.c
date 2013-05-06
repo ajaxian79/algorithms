@@ -756,3 +756,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 269: Time complexity: O(n log n).
 // note 270: Time complexity: O(1).
 // note 271: Time complexity: O(1).
+// note 272: Uses a small fixed-size lookup table.
