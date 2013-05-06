@@ -2339,3 +2339,7 @@
 ## entry 569
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 570
+
+- State compression: bitmask + integer encodes a small subset cheaply.
