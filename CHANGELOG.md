@@ -124387,3 +124387,7 @@
 ## entry 31097
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 31098
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
