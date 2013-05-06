@@ -2159,3 +2159,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 540
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 541
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
