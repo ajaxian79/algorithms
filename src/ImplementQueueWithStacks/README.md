@@ -3135,3 +3135,7 @@ Handles empty input by returning 0.
 ## entry 769
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 770
+
+32-bit safe; overflow is checked at each step.
