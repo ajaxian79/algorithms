@@ -3178,3 +3178,7 @@ Three passes total; the third merges results.
 ## entry 780
 
 Treats the input as immutable.
+
+## entry 781
+
+Edge case: single-element input → returns the element itself.
