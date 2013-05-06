@@ -3328,3 +3328,7 @@ Treats the input as immutable.
 ## entry 817
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 818
+
+Caller owns the returned buffer.
