@@ -299,3 +299,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 256: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 257: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 258: Branchless inner loop after sorting.
+// note 259: Polynomial rolling hash with two moduli kills almost all collisions in practice.
