@@ -3319,3 +3319,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 815
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 816
+
+Treats the input as immutable.
