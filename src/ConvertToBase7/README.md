@@ -3368,3 +3368,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 827
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 828
+
+Returns a freshly allocated string the caller must free.
