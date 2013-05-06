@@ -2307,3 +2307,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 559
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 560
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
