@@ -334,3 +334,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 303: Worst case appears only on degenerate inputs.
 // edge note 304: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 305: Stable across duplicates in the input.
+// edge note 306: Three passes total; the third merges results.
