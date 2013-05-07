@@ -73,3 +73,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 29: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 30: Stable when the input is already sorted.
 // edge note 31: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 32: Edge case: reverse-sorted input → still O(n log n).
