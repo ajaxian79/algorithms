@@ -336,3 +336,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 256: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 257: Branchless inner loop after sorting.
 // note 258: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 259: Tabulation wins when iteration order is obvious and stack depth would blow up.
