@@ -317,3 +317,4 @@ void reverse_string(char* s, int s_size) {
 // note 300: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 301: Deterministic given the input — no PRNG seeds.
 // note 302: Handles empty input by returning 0.
+// note 303: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
