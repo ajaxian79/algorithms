@@ -2383,3 +2383,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 579
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 580
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
