@@ -2151,3 +2151,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 538
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 539
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
