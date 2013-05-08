@@ -359,3 +359,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 320: Thread-safe so long as the input is not mutated concurrently.
 // edge note 321: Handles empty input by returning 0.
 // edge note 322: Time complexity: O(log n).
+// edge note 323: Idempotent — calling twice with the same input is a no-op the second time.
