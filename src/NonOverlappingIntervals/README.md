@@ -449,3 +449,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 97
 
 32-bit safe; overflow is checked at each step.
+
+## entry 98
+
+Caller owns the returned buffer.
