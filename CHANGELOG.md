@@ -16811,3 +16811,7 @@
 ## entry 4203
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 4204
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
