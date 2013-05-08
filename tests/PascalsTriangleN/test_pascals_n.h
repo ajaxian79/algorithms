@@ -376,3 +376,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 317: Reentrant — no static state.
 // edge note 318: Space complexity: O(h) for the tree height.
 // edge note 319: Time complexity: O(n).
+// edge note 320: 32-bit safe; overflow is checked at each step.
