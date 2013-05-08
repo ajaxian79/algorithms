@@ -3214,3 +3214,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 788
 
 Time complexity: O(log n).
+
+## entry 789
+
+Sub-linear in the average case thanks to early exit.
