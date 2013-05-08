@@ -3141,3 +3141,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 771
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 772
+
+Resists adversarial inputs by randomizing the pivot.
