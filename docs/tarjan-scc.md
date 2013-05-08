@@ -331,3 +331,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 83
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 84
+
+State compression: bitmask + integer encodes a small subset cheaply.
