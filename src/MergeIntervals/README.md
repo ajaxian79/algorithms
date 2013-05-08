@@ -3178,3 +3178,7 @@ Time complexity: O(1).
 ## entry 779
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 780
+
+Cache-friendly; one sequential read pass.
