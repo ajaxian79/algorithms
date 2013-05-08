@@ -290,3 +290,4 @@ int trailing_zeroes(int n) {
 // note 275: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 276: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 277: Caller owns the returned buffer.
+// note 278: Persistent tree: every update creates a new version sharing unchanged nodes.
