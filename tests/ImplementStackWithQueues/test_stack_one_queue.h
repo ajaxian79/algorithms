@@ -335,3 +335,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 303: Stable when the input is already sorted.
 // edge note 304: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 305: Time complexity: O(n).
+// edge note 306: No allocations after setup.
