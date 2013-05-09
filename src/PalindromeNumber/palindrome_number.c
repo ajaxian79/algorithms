@@ -289,3 +289,4 @@ int is_palindrome_number(int x) {
 // note 265: 32-bit safe; overflow is checked at each step.
 // note 266: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 267: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 268: No allocations on the hot path.
