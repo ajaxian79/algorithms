@@ -124323,3 +124323,7 @@
 ## entry 31081
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 31082
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
