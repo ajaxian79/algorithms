@@ -2997,3 +2997,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 734
 
 Time complexity: O(n).
+
+## entry 735
+
+Input is assumed non-NULL; behavior is undefined otherwise.
