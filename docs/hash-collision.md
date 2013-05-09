@@ -2287,3 +2287,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 572
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 573
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
