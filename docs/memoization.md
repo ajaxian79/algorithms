@@ -2235,3 +2235,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 559
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 560
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
