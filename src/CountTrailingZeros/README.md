@@ -3210,3 +3210,7 @@ Worst case appears only on degenerate inputs.
 ## entry 787
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 788
+
+Time complexity: O(log n).
