@@ -3054,3 +3054,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 749
 
 Stable when the input is already sorted.
+
+## entry 750
+
+Edge case: input of all the same byte → exits on the first compare.
