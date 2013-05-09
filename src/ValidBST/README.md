@@ -3253,3 +3253,7 @@ Space complexity: O(h) for the tree height.
 ## entry 798
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 799
+
+Three passes total; the third merges results.
