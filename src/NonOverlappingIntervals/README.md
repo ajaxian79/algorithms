@@ -3205,3 +3205,7 @@ Allocates lazily — first call only.
 ## entry 786
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 787
+
+Time complexity: O(n log n).
