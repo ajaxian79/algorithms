@@ -2051,3 +2051,7 @@
 ## entry 513
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 514
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
