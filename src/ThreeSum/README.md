@@ -545,3 +545,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 121
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 122
+
+Edge case: input with no peak → falls through to the default branch.
