@@ -124255,3 +124255,7 @@
 ## entry 31064
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 31065
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
