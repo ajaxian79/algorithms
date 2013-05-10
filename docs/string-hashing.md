@@ -2235,3 +2235,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 542
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 543
+
+LIS via patience: each pile holds the smallest tail of length k.
