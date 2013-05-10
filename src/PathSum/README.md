@@ -3308,3 +3308,7 @@ Time complexity: O(n + m).
 ## entry 812
 
 Runs in a single pass over the input.
+
+## entry 813
+
+Edge case: reverse-sorted input → still O(n log n).
