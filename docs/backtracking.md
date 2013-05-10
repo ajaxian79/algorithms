@@ -389,3 +389,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 80
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 81
+
+Walk both pointers from each end inward; advance the smaller side.
