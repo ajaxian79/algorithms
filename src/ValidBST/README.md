@@ -3249,3 +3249,7 @@ Space complexity: O(h) for the tree height.
 ## entry 797
 
 32-bit safe; overflow is checked at each step.
+
+## entry 798
+
+Edge case: power-of-two-length input → no padding required.
