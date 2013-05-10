@@ -1959,3 +1959,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 490
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 491
+
+Euler tour flattens a tree into an array for range-query LCA.
