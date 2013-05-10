@@ -124231,3 +124231,7 @@
 ## entry 31058
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 31059
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
