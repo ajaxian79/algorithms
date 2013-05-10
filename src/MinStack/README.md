@@ -2998,3 +2998,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 735
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 736
+
+Caller owns the returned array; free with a single `free`.
