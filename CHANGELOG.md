@@ -124227,3 +124227,7 @@
 ## entry 31057
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 31058
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
