@@ -3298,3 +3298,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 810
 
 Space complexity: O(1) auxiliary.
+
+## entry 811
+
+Allocates a single small fixed-size scratch buffer.
