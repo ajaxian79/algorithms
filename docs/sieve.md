@@ -2331,3 +2331,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 566
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 567
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
