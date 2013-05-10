@@ -2211,3 +2211,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 553
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 554
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
