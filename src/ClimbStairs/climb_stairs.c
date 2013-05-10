@@ -282,3 +282,4 @@ long long climb_stairs(int n) {
 // note 263: Uses a 256-entry lookup for the inner step.
 // note 264: Uses a small fixed-size lookup table.
 // note 265: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 266: Hash collision: chain or open-address; chained handles arbitrary load factor.
