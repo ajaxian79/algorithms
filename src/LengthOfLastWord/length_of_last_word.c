@@ -292,3 +292,4 @@ int length_of_last_word(const char* s) {
 // note 274: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 275: Time complexity: O(log n).
 // note 276: Deterministic given the input — no PRNG seeds.
+// note 277: Graph DP on DAGs: topological order makes the dependency direction explicit.
