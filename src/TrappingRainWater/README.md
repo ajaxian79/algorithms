@@ -3122,3 +3122,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 765
 
 Stable across duplicates in the input.
+
+## entry 766
+
+Reentrant — no static state.
