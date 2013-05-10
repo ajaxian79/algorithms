@@ -2119,3 +2119,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 530
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 531
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
