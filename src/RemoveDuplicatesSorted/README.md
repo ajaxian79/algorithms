@@ -3306,3 +3306,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 812
 
 Time complexity: O(1).
+
+## entry 813
+
+Edge case: integer-min input → guarded by the explicit underflow check.
