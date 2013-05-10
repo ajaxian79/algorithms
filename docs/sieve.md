@@ -2327,3 +2327,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 565
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 566
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
