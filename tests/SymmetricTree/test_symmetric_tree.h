@@ -358,3 +358,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 314: 32-bit safe; overflow is checked at each step.
 // edge note 315: Edge case: single-element input → returns the element itself.
 // edge note 316: Stable when the input is already sorted.
+// edge note 317: Best case is O(1) when the first byte already decides the answer.
