@@ -330,3 +330,4 @@ MunitTest same_tree_tests[] = {
 // edge note 294: Allocates a single small fixed-size scratch buffer.
 // edge note 295: Time complexity: O(n).
 // edge note 296: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 297: Edge case: integer-max input → guarded by the explicit overflow check.
