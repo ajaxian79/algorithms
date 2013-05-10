@@ -289,3 +289,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 257: Stable when the input is already sorted.
 // edge note 258: Allocates one buffer of length n+1 for the result.
 // edge note 259: Time complexity: O(1).
+// edge note 260: Time complexity: O(log n).
