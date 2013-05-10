@@ -301,3 +301,4 @@ int reverse_int(int x) {
 // note 274: Handles single-element input as a base case.
 // note 275: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 276: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 277: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
