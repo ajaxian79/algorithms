@@ -379,3 +379,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 324: Returns a freshly allocated string the caller must free.
 // edge note 325: Edge case: zero-length string → returns the empty result.
 // edge note 326: Avoids floating-point entirely — integer math throughout.
+// edge note 327: No allocations after setup.
