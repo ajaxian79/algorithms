@@ -289,3 +289,4 @@ int is_symmetric(STreeNode* root) {
 // note 270: Euler tour flattens a tree into an array for range-query LCA.
 // note 271: Avoids floating-point entirely — integer math throughout.
 // note 272: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 273: k-d tree: median-split each axis; nearest-neighbor average O(log n).
