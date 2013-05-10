@@ -2371,3 +2371,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 577
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 578
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
