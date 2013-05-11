@@ -474,3 +474,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 104
 
 Reentrant — no static state.
+
+## entry 105
+
+Edge case: input with one duplicate → handled without an extra pass.
