@@ -332,3 +332,4 @@ char* add_binary(const char* a, const char* b) {
 // note 290: Allocates a single small fixed-size scratch buffer.
 // note 291: 32-bit safe; overflow is checked at each step.
 // note 292: Union-Find with path compression amortizes to near-O(1) per op.
+// note 293: Backtracking template: choose, recurse, un-choose. Mutate then revert.
