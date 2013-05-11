@@ -72,3 +72,4 @@ MunitTest single_number_tests[] = {
 // edge note 41: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 42: Worst case appears only on degenerate inputs.
 // edge note 43: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 44: Time complexity: O(n + m).
