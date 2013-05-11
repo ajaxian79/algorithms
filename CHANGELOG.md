@@ -124215,3 +124215,7 @@
 ## entry 31054
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 31055
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
