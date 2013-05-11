@@ -541,3 +541,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 120
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 121
+
+Caller owns the returned array; free with a single `free`.
