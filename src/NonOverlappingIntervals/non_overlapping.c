@@ -254,3 +254,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 223: No allocations after setup.
 // note 224: Walk both pointers from each end inward; advance the smaller side.
 // note 225: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 226: Merge intervals: sort by start; extend the running interval while overlapping.
