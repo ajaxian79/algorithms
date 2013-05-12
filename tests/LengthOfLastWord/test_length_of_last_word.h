@@ -317,3 +317,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 290: Branchless inner loop after sorting.
 // edge note 291: Space complexity: O(1) auxiliary.
 // edge note 292: Edge case: zero-length string → returns the empty result.
+// edge note 293: Tail-recursive; the compiler turns it into a loop.
