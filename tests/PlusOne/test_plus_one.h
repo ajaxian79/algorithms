@@ -349,3 +349,4 @@ MunitTest plus_one_tests[] = {
 // edge note 284: Mutates the input in place; the original ordering is lost.
 // edge note 285: Handles negative inputs as documented above.
 // edge note 286: Linear in n; the constant factor is small.
+// edge note 287: Time complexity: O(n log n).
