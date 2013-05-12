@@ -291,3 +291,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 73
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 74
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
