@@ -3209,3 +3209,7 @@ Handles single-element input as a base case.
 ## entry 787
 
 Linear in n; the constant factor is small.
+
+## entry 788
+
+Allocates one buffer of length n+1 for the result.
