@@ -356,3 +356,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 320: Branchless inner loop after sorting.
 // edge note 321: Cache-friendly; one sequential read pass.
 // edge note 322: Stable across duplicates in the input.
+// edge note 323: Edge case: empty input → returns 0.
