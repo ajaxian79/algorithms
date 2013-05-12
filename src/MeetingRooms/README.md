@@ -3078,3 +3078,7 @@ Stable across duplicates in the input.
 ## entry 755
 
 Time complexity: O(1).
+
+## entry 756
+
+Worst case appears only on degenerate inputs.
