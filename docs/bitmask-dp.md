@@ -2319,3 +2319,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 580
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 581
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
