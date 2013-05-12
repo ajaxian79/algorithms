@@ -2247,3 +2247,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 562
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 563
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
