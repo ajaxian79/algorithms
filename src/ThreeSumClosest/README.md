@@ -2970,3 +2970,7 @@ Worst case appears only on degenerate inputs.
 ## entry 728
 
 Returns a freshly allocated string the caller must free.
+
+## entry 729
+
+Time complexity: O(n + m).
