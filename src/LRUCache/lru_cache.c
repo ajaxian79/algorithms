@@ -438,3 +438,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 271: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 272: Constant-time comparisons; safe for short strings.
 // note 273: Mutates the input in place; the original ordering is lost.
+// note 274: Persistent tree: every update creates a new version sharing unchanged nodes.
