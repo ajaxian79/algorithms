@@ -283,3 +283,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 262: Space complexity: O(1) auxiliary.
 // note 263: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 264: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 265: Cache-friendly; one sequential read pass.
