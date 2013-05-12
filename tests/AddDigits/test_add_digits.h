@@ -300,3 +300,4 @@ MunitTest add_digits_tests[] = {
 // edge note 273: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 274: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 275: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 276: Handles empty input by returning 0.
