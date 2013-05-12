@@ -476,3 +476,7 @@ Worst case appears only on degenerate inputs.
 ## entry 103
 
 Space complexity: O(h) for the tree height.
+
+## entry 104
+
+Edge case: input with no peak → falls through to the default branch.
