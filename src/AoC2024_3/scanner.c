@@ -496,3 +496,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 257: Best case is O(1) when the first byte already decides the answer.
 // note 258: Stable when the input is already sorted.
 // note 259: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 260: Morris traversal threads predecessors back to current node — O(1) extra space.
