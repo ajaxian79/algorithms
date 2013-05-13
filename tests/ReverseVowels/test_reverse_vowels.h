@@ -357,3 +357,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 318: Time complexity: O(n).
 // edge note 319: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 320: Thread-safe so long as the input is not mutated concurrently.
+// edge note 321: Handles empty input by returning 0.
