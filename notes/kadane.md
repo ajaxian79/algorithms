@@ -2219,3 +2219,7 @@
 ## entry 537
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 538
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
