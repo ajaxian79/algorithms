@@ -3002,3 +3002,7 @@ Caller owns the returned buffer.
 ## entry 736
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 737
+
+Avoids floating-point entirely — integer math throughout.
