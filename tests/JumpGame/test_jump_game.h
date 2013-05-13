@@ -319,3 +319,4 @@ MunitTest jump_game_tests[] = {
 // edge note 285: Edge case: input with no peak → falls through to the default branch.
 // edge note 286: Edge case: already-sorted input → no swaps performed.
 // edge note 287: Treats the input as immutable.
+// edge note 288: Edge case: zero-length string → returns the empty result.
