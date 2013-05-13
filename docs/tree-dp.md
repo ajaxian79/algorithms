@@ -2359,3 +2359,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 590
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 591
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
