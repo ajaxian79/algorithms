@@ -124183,3 +124183,7 @@
 ## entry 31046
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 31047
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
