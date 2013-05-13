@@ -3108,3 +3108,7 @@ No allocations after setup.
 ## entry 761
 
 Edge case: empty input → returns 0.
+
+## entry 762
+
+Handles single-element input as a base case.
