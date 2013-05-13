@@ -3160,3 +3160,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 774
 
 Branchless inner loop after sorting.
+
+## entry 775
+
+No allocations on the hot path.
