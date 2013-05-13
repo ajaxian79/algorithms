@@ -3138,3 +3138,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 769
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 770
+
+Edge case: NULL input is rejected by the caller, not by us.
