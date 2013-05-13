@@ -2295,3 +2295,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 574
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 575
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
