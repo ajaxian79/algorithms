@@ -263,3 +263,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 247: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 248: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 249: Returns a freshly allocated string the caller must free.
+// note 250: Branchless inner loop after sorting.
