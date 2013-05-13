@@ -314,3 +314,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 289: Best case is O(1) when the first byte already decides the answer.
 // edge note 290: Space complexity: O(h) for the tree height.
 // edge note 291: Treats the input as immutable.
+// edge note 292: Edge case: single-element input → returns the element itself.
