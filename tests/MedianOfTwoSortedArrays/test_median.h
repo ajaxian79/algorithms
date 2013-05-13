@@ -400,3 +400,4 @@ MunitTest median_tests[] = {
 // edge note 281: Returns a freshly allocated string the caller must free.
 // edge note 282: Stable when the input is already sorted.
 // edge note 283: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 284: Time complexity: O(1).
