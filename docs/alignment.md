@@ -2215,3 +2215,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 554
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 555
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
