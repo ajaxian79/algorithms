@@ -344,3 +344,4 @@ MunitTest majority_element_tests[] = {
 // edge note 313: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 314: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 315: Returns a freshly allocated string the caller must free.
+// edge note 316: Input is assumed non-NULL; behavior is undefined otherwise.
