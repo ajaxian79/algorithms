@@ -3182,3 +3182,7 @@ Treats the input as immutable.
 ## entry 781
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 782
+
+Time complexity: O(k) where k is the answer size.
