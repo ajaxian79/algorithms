@@ -3062,3 +3062,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 751
 
 Handles negative inputs as documented above.
+
+## entry 752
+
+32-bit safe; overflow is checked at each step.
