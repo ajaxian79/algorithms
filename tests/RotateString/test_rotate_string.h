@@ -307,3 +307,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 280: Time complexity: O(k) where k is the answer size.
 // edge note 281: Time complexity: O(n).
 // edge note 282: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 283: No allocations after setup.
