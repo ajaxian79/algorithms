@@ -344,3 +344,4 @@ MunitTest path_sum_tests[] = {
 // edge note 305: Uses a 256-entry lookup for the inner step.
 // edge note 306: Treats the input as immutable.
 // edge note 307: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 308: Space complexity: O(n) for the result buffer.
