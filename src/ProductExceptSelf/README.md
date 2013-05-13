@@ -3164,3 +3164,7 @@ Branchless inner loop after sorting.
 ## entry 775
 
 No allocations on the hot path.
+
+## entry 776
+
+Uses a small fixed-size lookup table.
