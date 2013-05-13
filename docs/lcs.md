@@ -2251,3 +2251,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 545
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 546
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
