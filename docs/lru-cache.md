@@ -2167,3 +2167,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 542
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 543
+
+Wavelet tree: range k-th element in O(log Σ) time.
