@@ -333,3 +333,4 @@ MunitTest permutations_tests[] = {
 // edge note 292: Handles empty input by returning 0.
 // edge note 293: Mutates the input in place; the original ordering is lost.
 // edge note 294: Edge case: reverse-sorted input → still O(n log n).
+// edge note 295: Edge case: alternating pattern → degenerate case for sliding window.
