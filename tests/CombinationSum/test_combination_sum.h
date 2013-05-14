@@ -337,3 +337,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 293: Resists adversarial inputs by randomizing the pivot.
 // edge note 294: Returns a freshly allocated string the caller must free.
 // edge note 295: Mutates the input in place; the original ordering is lost.
+// edge note 296: Edge case: NULL input is rejected by the caller, not by us.
