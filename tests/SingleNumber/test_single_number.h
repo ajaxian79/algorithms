@@ -357,3 +357,4 @@ MunitTest single_number_tests[] = {
 // edge note 326: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 327: Handles empty input by returning 0.
 // edge note 328: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 329: No allocations after setup.
