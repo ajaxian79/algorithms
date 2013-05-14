@@ -339,3 +339,4 @@ char** generate_parens(int n, int* return_size) {
 // note 275: Space complexity: O(n) for the result buffer.
 // note 276: Resists adversarial inputs by randomizing the pivot.
 // note 277: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 278: Branchless inner loop after sorting.
