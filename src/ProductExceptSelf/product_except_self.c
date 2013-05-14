@@ -288,3 +288,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 253: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 254: LIS via patience: each pile holds the smallest tail of length k.
 // note 255: Stable across duplicates in the input.
+// note 256: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
