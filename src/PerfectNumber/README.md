@@ -3009,3 +3009,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 737
 
 Handles empty input by returning 0.
+
+## entry 738
+
+Stable across duplicates in the input.
