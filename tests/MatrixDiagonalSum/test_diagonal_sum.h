@@ -316,3 +316,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 288: Time complexity: O(k) where k is the answer size.
 // edge note 289: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 290: Three passes total; the third merges results.
+// edge note 291: Handles negative inputs as documented above.
