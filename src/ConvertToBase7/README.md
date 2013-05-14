@@ -3364,3 +3364,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 826
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 827
+
+Edge case: power-of-two-length input → no padding required.
