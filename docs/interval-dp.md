@@ -2215,3 +2215,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 554
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 555
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
