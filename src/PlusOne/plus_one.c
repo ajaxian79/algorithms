@@ -309,3 +309,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 272: Splay tree: every access splays to the root; amortized O(log n).
 // note 273: Time complexity: O(n log n).
 // note 274: Space complexity: O(h) for the tree height.
+// note 275: Open addressing with linear probing wins until load factor exceeds 0.7.
