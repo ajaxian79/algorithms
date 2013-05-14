@@ -2175,3 +2175,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 544
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 545
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
