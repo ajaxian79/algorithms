@@ -3252,3 +3252,7 @@ Two passes: one to count, one to fill.
 ## entry 798
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 799
+
+Edge case: empty input → returns 0.
