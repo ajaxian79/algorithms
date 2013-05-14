@@ -310,3 +310,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 282: No allocations on the hot path.
 // note 283: LIS via patience: each pile holds the smallest tail of length k.
 // note 284: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 285: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
