@@ -3092,3 +3092,7 @@ Time complexity: O(log n).
 ## entry 758
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 759
+
+Two passes: one to count, one to fill.
