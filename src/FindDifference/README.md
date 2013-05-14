@@ -2998,3 +2998,7 @@ Handles negative inputs as documented above.
 ## entry 735
 
 Caller owns the returned buffer.
+
+## entry 736
+
+Edge case: integer-max input → guarded by the explicit overflow check.
