@@ -2986,3 +2986,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 732
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 733
+
+Time complexity: O(k) where k is the answer size.
