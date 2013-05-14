@@ -2243,3 +2243,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 561
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 562
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
