@@ -423,3 +423,7 @@ Caller owns the returned buffer.
 ## entry 91
 
 Linear in n; the constant factor is small.
+
+## entry 92
+
+Idempotent — calling twice with the same input is a no-op the second time.
