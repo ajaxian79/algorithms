@@ -2207,3 +2207,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 552
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 553
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
