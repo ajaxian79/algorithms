@@ -16791,3 +16791,7 @@
 ## entry 4198
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 4199
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
