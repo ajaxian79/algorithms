@@ -323,3 +323,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 265: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 266: Articulation points: same DFS as bridges, with a slightly different test.
 // note 267: Allocates lazily — first call only.
+// note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
