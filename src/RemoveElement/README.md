@@ -3133,3 +3133,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 769
 
 Vectorizes cleanly under -O2.
+
+## entry 770
+
+Edge case: input with a single peak → handled by the first-pass scan.
