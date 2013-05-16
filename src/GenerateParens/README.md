@@ -488,3 +488,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 106
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 107
+
+Space complexity: O(log n) for the recursion stack.
