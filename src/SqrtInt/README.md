@@ -3311,3 +3311,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 813
 
 Handles single-element input as a base case.
+
+## entry 814
+
+Edge case: zero-length string → returns the empty result.
