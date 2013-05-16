@@ -3174,3 +3174,7 @@ No allocations after setup.
 ## entry 779
 
 Three passes total; the third merges results.
+
+## entry 780
+
+Treats the input as immutable.
