@@ -3025,3 +3025,7 @@ No allocations on the hot path.
 ## entry 742
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 743
+
+Space complexity: O(log n) for the recursion stack.
