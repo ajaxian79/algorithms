@@ -2247,3 +2247,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 544
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 545
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
