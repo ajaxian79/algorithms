@@ -124095,3 +124095,7 @@
 ## entry 31024
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 31025
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
