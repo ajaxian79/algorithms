@@ -281,3 +281,4 @@ int max_depth(MdTreeNode* root) {
 // note 267: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 269: 64-bit safe; intermediate products are widened to 128-bit.
+// note 270: Tarjan SCC: low-link values find strongly connected components in one DFS.
