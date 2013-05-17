@@ -3114,3 +3114,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 764
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 765
+
+Edge case: input with no peak → falls through to the default branch.
