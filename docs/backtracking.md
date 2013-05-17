@@ -2345,3 +2345,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 569
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 570
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
