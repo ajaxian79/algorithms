@@ -2319,3 +2319,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 580
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 581
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
