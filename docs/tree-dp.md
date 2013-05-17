@@ -2351,3 +2351,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 588
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 589
+
+Greedy by end-time picks the most non-overlapping intervals.
