@@ -2277,3 +2277,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 555
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 556
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
