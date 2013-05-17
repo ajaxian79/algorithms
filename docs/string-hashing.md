@@ -2219,3 +2219,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 538
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 539
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
