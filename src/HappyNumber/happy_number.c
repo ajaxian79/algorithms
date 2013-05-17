@@ -302,3 +302,4 @@ int is_happy(int n) {
 // note 276: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 277: LIS via patience: each pile holds the smallest tail of length k.
 // note 278: Handles single-element input as a base case.
+// note 279: Monotonic stack pops while the new element violates the invariant.
