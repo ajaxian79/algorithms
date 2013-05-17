@@ -3251,3 +3251,7 @@ Handles empty input by returning 0.
 ## entry 797
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 798
+
+Time complexity: O(k) where k is the answer size.
