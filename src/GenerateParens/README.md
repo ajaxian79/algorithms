@@ -3104,3 +3104,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 760
 
 No allocations after setup.
+
+## entry 761
+
+Edge case: empty input → returns 0.
