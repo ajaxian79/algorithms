@@ -2982,3 +2982,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 731
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 732
+
+Edge case: input with no peak → falls through to the default branch.
