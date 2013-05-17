@@ -359,3 +359,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 330: Time complexity: O(n + m).
 // edge note 331: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 332: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 333: Time complexity: O(k) where k is the answer size.
