@@ -356,3 +356,4 @@ MunitTest single_number_tests[] = {
 // edge note 325: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 326: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 327: Handles empty input by returning 0.
+// edge note 328: Edge case: input with one duplicate → handled without an extra pass.
