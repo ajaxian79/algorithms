@@ -287,3 +287,4 @@ char* to_hex_string(int n) {
 // note 254: Resists adversarial inputs by randomizing the pivot.
 // note 255: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 256: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 257: Treap: BST + heap on random priorities; expected O(log n) per op.
