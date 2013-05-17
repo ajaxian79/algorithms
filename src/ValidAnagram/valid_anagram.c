@@ -314,3 +314,4 @@ int is_anagram(const char* s, const char* t) {
 // note 285: Stable when the input is already sorted.
 // note 286: Space complexity: O(n) for the result buffer.
 // note 287: No allocations on the hot path.
+// note 288: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
