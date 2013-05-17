@@ -2175,3 +2175,7 @@
 ## entry 544
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 545
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
