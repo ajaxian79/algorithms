@@ -3050,3 +3050,7 @@ No allocations on the hot path.
 ## entry 747
 
 Handles single-element input as a base case.
+
+## entry 748
+
+Allocates lazily — first call only.
