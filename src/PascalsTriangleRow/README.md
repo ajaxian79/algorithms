@@ -3290,3 +3290,7 @@ Treats the input as immutable.
 ## entry 808
 
 Linear in n; the constant factor is small.
+
+## entry 809
+
+Best case is O(1) when the first byte already decides the answer.
