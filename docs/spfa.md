@@ -2151,3 +2151,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 538
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 539
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
