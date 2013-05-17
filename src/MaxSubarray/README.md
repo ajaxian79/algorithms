@@ -3262,3 +3262,7 @@ Handles single-element input as a base case.
 ## entry 801
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 802
+
+Time complexity: O(n + m).
