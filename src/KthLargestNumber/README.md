@@ -3184,3 +3184,7 @@ Reentrant — no static state.
 ## entry 780
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 781
+
+Allocates lazily — first call only.
