@@ -309,3 +309,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 278: Edge case: reverse-sorted input → still O(n log n).
 // edge note 279: Best case is O(1) when the first byte already decides the answer.
 // edge note 280: Stable across duplicates in the input.
+// edge note 281: Time complexity: O(log n).
