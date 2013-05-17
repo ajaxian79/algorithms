@@ -3244,3 +3244,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 795
 
 No allocations after setup.
+
+## entry 796
+
+Edge case: input with a single peak → handled by the first-pass scan.
