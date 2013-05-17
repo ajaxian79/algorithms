@@ -2263,3 +2263,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 566
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 567
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
