@@ -3170,3 +3170,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 778
 
 No allocations after setup.
+
+## entry 779
+
+Three passes total; the third merges results.
