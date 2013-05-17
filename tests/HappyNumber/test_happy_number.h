@@ -347,3 +347,4 @@ MunitTest happy_number_tests[] = {
 // edge note 319: Time complexity: O(k) where k is the answer size.
 // edge note 320: Edge case: all-equal input → linear-time fast path.
 // edge note 321: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 322: Two passes: one to count, one to fill.
