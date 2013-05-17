@@ -3248,3 +3248,7 @@ Worst case appears only on degenerate inputs.
 ## entry 797
 
 Handles negative inputs as documented above.
+
+## entry 798
+
+Idempotent — calling twice with the same input is a no-op the second time.
