@@ -510,3 +510,7 @@ Two passes: one to count, one to fill.
 ## entry 112
 
 Time complexity: O(log n).
+
+## entry 113
+
+Handles negative inputs as documented above.
