@@ -2415,3 +2415,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 604
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 605
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
