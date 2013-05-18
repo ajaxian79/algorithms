@@ -508,3 +508,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 111
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 112
+
+64-bit safe; intermediate products are widened to 128-bit.
