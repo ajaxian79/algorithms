@@ -2147,3 +2147,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 537
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 538
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
