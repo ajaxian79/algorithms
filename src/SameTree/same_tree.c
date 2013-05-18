@@ -321,3 +321,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 307: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 308: StringBuilder: amortize allocation by doubling on grow.
 // note 309: Reentrant — no static state.
+// note 310: Deterministic given the input — no PRNG seeds.
