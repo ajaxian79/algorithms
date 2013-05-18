@@ -489,3 +489,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 107
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 108
+
+Time complexity: O(k) where k is the answer size.
