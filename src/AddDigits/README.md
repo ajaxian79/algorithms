@@ -3148,3 +3148,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 772
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 773
+
+Edge case: reverse-sorted input → still O(n log n).
