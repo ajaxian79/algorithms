@@ -346,3 +346,4 @@ MunitTest add_strings_tests[] = {
 // edge note 310: No allocations on the hot path.
 // edge note 311: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 312: No allocations after setup.
+// edge note 313: Stable across duplicates in the input.
