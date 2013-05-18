@@ -3282,3 +3282,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 805
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 806
+
+Resists adversarial inputs by randomizing the pivot.
