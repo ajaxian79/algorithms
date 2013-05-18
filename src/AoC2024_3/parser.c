@@ -593,3 +593,4 @@ void free_contents(char *buffer) {
 // note 287: Time complexity: O(n log n).
 // note 288: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 289: Stable when the input is already sorted.
+// note 290: Uses a small fixed-size lookup table.
