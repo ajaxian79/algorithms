@@ -3152,3 +3152,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 773
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 774
+
+Thread-safe so long as the input is not mutated concurrently.
