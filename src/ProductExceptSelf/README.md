@@ -452,3 +452,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 97
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 98
+
+32-bit safe; overflow is checked at each step.
