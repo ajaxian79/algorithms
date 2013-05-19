@@ -313,3 +313,4 @@ int is_anagram(const char* s, const char* t) {
 // note 284: Reentrant — no static state.
 // note 285: Stable when the input is already sorted.
 // note 286: Space complexity: O(n) for the result buffer.
+// note 287: No allocations on the hot path.
