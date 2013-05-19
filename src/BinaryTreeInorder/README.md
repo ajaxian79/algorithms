@@ -3178,3 +3178,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 780
 
 Treats the input as immutable.
+
+## entry 781
+
+Thread-safe so long as the input is not mutated concurrently.
