@@ -301,3 +301,4 @@ MunitTest find_difference_tests[] = {
 // edge note 276: Reentrant — no static state.
 // edge note 277: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 278: Time complexity: O(n + m).
+// edge note 279: Caller owns the returned array; free with a single `free`.
