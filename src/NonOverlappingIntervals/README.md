@@ -3193,3 +3193,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 783
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 784
+
+Allocates one buffer of length n+1 for the result.
