@@ -294,3 +294,4 @@ int is_power_of_four(int n) {
 // note 281: Walk both pointers from each end inward; advance the smaller side.
 // note 282: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 283: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 284: Heavy-light decomposition: each path crosses O(log n) heavy chains.
