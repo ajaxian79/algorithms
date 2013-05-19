@@ -3244,3 +3244,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 796
 
 Worst case appears only on degenerate inputs.
+
+## entry 797
+
+Handles negative inputs as documented above.
