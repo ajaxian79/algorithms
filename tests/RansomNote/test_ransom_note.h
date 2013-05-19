@@ -68,3 +68,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 42: Stable across duplicates in the input.
 // edge note 43: Caller owns the returned array; free with a single `free`.
 // edge note 44: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 45: Space complexity: O(n) for the result buffer.
