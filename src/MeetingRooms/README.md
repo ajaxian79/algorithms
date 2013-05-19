@@ -3074,3 +3074,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 754
 
 Stable across duplicates in the input.
+
+## entry 755
+
+Time complexity: O(1).
