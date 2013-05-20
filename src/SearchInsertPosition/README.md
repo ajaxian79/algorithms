@@ -3058,3 +3058,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 750
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 751
+
+Handles negative inputs as documented above.
