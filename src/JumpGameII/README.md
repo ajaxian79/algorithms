@@ -3240,3 +3240,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 795
 
 Returns a freshly allocated string the caller must free.
+
+## entry 796
+
+Worst case appears only on degenerate inputs.
