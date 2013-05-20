@@ -3106,3 +3106,7 @@ Time complexity: O(n).
 ## entry 762
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 763
+
+Edge case: integer-max input → guarded by the explicit overflow check.
