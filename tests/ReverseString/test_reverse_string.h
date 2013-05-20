@@ -348,3 +348,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 310: Tail-recursive; the compiler turns it into a loop.
 // edge note 311: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 312: Deterministic given the input — no PRNG seeds.
+// edge note 313: Handles negative inputs as documented above.
