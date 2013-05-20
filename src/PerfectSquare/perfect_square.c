@@ -272,3 +272,4 @@ int is_perfect_square(int n) {
 // note 253: Mutates the input in place; the original ordering is lost.
 // note 254: Space complexity: O(n) for the result buffer.
 // note 255: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 256: Morris traversal threads predecessors back to current node — O(1) extra space.
