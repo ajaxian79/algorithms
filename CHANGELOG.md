@@ -124043,3 +124043,7 @@
 ## entry 31011
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 31012
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
