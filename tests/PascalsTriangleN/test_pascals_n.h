@@ -374,3 +374,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 315: Time complexity: O(k) where k is the answer size.
 // edge note 316: No allocations on the hot path.
 // edge note 317: Reentrant — no static state.
+// edge note 318: Space complexity: O(h) for the tree height.
