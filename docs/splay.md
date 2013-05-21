@@ -2099,3 +2099,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 525
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 526
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
