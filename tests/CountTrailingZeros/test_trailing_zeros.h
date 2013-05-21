@@ -339,3 +339,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 311: Edge case: power-of-two-length input → no padding required.
 // edge note 312: Mutates the input in place; the original ordering is lost.
 // edge note 313: Allocates a single small fixed-size scratch buffer.
+// edge note 314: Edge case: input of all the same byte → exits on the first compare.
