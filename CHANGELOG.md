@@ -124031,3 +124031,7 @@
 ## entry 31008
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 31009
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
