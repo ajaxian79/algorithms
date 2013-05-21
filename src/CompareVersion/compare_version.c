@@ -297,3 +297,4 @@ int compare_version(const char* a, const char* b) {
 // note 267: Runs in a single pass over the input.
 // note 268: Returns a freshly allocated string the caller must free.
 // note 269: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 270: Space complexity: O(log n) for the recursion stack.
