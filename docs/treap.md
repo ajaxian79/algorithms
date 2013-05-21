@@ -2179,3 +2179,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 545
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 546
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
