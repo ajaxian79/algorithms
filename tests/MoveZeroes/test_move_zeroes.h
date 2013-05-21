@@ -345,3 +345,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 305: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 306: Avoids floating-point entirely — integer math throughout.
 // edge note 307: Allocates lazily — first call only.
+// edge note 308: Allocates a single small fixed-size scratch buffer.
