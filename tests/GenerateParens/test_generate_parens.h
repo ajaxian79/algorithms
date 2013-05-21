@@ -374,3 +374,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 314: Edge case: reverse-sorted input → still O(n log n).
 // edge note 315: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 316: Space complexity: O(n) for the result buffer.
+// edge note 317: Edge case: input with one duplicate → handled without an extra pass.
