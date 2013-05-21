@@ -2201,3 +2201,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 533
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 534
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
