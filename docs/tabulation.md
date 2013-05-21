@@ -2295,3 +2295,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 574
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 575
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
