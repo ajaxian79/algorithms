@@ -352,3 +352,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 287: No allocations after setup.
 // note 288: Stable sort matters when a secondary key was set in a prior pass.
 // note 289: Stable across duplicates in the input.
+// note 290: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
