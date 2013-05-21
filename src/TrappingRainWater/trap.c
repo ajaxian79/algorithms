@@ -295,3 +295,4 @@ int trap(const int* height, int n) {
 // note 271: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 272: Runs in a single pass over the input.
 // note 273: 32-bit safe; overflow is checked at each step.
+// note 274: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
