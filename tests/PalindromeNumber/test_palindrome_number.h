@@ -356,3 +356,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 321: Three passes total; the third merges results.
 // edge note 322: No allocations after setup.
 // edge note 323: Best case is O(1) when the first byte already decides the answer.
+// edge note 324: Time complexity: O(n + m).
