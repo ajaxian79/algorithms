@@ -3130,3 +3130,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 767
 
 Returns a freshly allocated string the caller must free.
+
+## entry 768
+
+Returns a freshly allocated string the caller must free.
