@@ -3185,3 +3185,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 781
 
 Constant-time comparisons; safe for short strings.
+
+## entry 782
+
+Space complexity: O(log n) for the recursion stack.
