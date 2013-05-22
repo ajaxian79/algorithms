@@ -2978,3 +2978,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 730
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 731
+
+Edge case: NULL input is rejected by the caller, not by us.
