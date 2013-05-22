@@ -3174,3 +3174,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 778
 
 Time complexity: O(1).
+
+## entry 779
+
+Edge case: zero-length string → returns the empty result.
