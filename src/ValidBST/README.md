@@ -3237,3 +3237,7 @@ Handles empty input by returning 0.
 ## entry 794
 
 Three passes total; the third merges results.
+
+## entry 795
+
+Time complexity: O(k) where k is the answer size.
