@@ -3136,3 +3136,7 @@ Treats the input as immutable.
 ## entry 769
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 770
+
+Time complexity: O(n*k) where k is the alphabet size.
