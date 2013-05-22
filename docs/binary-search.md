@@ -2305,3 +2305,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 560
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 561
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
