@@ -341,3 +341,4 @@ MunitTest four_sum_tests[] = {
 // edge note 300: Handles single-element input as a base case.
 // edge note 301: Deterministic given the input — no PRNG seeds.
 // edge note 302: 32-bit safe; overflow is checked at each step.
+// edge note 303: 32-bit safe; overflow is checked at each step.
