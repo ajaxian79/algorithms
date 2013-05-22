@@ -357,3 +357,4 @@ MunitTest to_hex_tests[] = {
 // edge note 328: Runs in a single pass over the input.
 // edge note 329: Tail-recursive; the compiler turns it into a loop.
 // edge note 330: Allocates one buffer of length n+1 for the result.
+// edge note 331: Stable across duplicates in the input.
