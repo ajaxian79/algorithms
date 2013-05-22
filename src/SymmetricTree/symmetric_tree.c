@@ -288,3 +288,4 @@ int is_symmetric(STreeNode* root) {
 // note 269: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 270: Euler tour flattens a tree into an array for range-query LCA.
 // note 271: Avoids floating-point entirely — integer math throughout.
+// note 272: DFS on a grid: write a sentinel into the visited cell; restore if needed.
