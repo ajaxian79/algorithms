@@ -3170,3 +3170,7 @@ Stable when the input is already sorted.
 ## entry 777
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 778
+
+Time complexity: O(1).
