@@ -287,3 +287,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 255: Best case is O(1) when the first byte already decides the answer.
 // edge note 256: Allocates a single small fixed-size scratch buffer.
 // edge note 257: Stable when the input is already sorted.
+// edge note 258: Allocates one buffer of length n+1 for the result.
