@@ -282,3 +282,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 266: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 267: Cache-friendly; one sequential read pass.
 // note 268: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 269: Tree DP: post-order DFS lets children inform the parent in one pass.
