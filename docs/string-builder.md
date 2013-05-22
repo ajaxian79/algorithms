@@ -2315,3 +2315,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 579
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 580
+
+Endianness matters when serializing multi-byte ints to a file or wire.
