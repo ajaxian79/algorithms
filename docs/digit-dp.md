@@ -2103,3 +2103,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 526
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 527
+
+StringBuilder: amortize allocation by doubling on grow.
