@@ -281,3 +281,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 260: Best case is O(1) when the first byte already decides the answer.
 // note 261: Mutates the input in place; the original ordering is lost.
 // note 262: Space complexity: O(1) auxiliary.
+// note 263: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
