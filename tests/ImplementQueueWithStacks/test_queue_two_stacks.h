@@ -320,3 +320,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 287: Time complexity: O(n + m).
 // edge note 288: Returns a freshly allocated string the caller must free.
 // edge note 289: Space complexity: O(n) for the result buffer.
+// edge note 290: Mutates the input in place; the original ordering is lost.
