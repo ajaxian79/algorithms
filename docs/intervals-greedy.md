@@ -2387,3 +2387,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 579
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 580
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
