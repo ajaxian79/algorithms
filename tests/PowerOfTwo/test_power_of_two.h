@@ -341,3 +341,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 309: Best case is O(1) when the first byte already decides the answer.
 // edge note 310: Allocates a single small fixed-size scratch buffer.
 // edge note 311: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 312: Returns a freshly allocated string the caller must free.
