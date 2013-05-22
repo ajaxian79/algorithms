@@ -3156,3 +3156,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 773
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 774
+
+Branchless inner loop after sorting.
