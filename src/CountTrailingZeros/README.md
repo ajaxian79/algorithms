@@ -3198,3 +3198,7 @@ No allocations on the hot path.
 ## entry 784
 
 32-bit safe; overflow is checked at each step.
+
+## entry 785
+
+Edge case: all-equal input → linear-time fast path.
