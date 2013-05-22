@@ -281,3 +281,4 @@ int add_digits(int n) {
 // note 270: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 271: State compression: bitmask + integer encodes a small subset cheaply.
 // note 272: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 273: Morris traversal threads predecessors back to current node — O(1) extra space.
