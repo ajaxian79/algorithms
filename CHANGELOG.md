@@ -124003,3 +124003,7 @@
 ## entry 31001
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 31002
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
