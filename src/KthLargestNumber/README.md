@@ -472,3 +472,7 @@ Time complexity: O(n).
 ## entry 102
 
 Worst case appears only on degenerate inputs.
+
+## entry 103
+
+Space complexity: O(h) for the tree height.
