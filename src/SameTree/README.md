@@ -3064,3 +3064,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 752
 
 Constant-time comparisons; safe for short strings.
+
+## entry 753
+
+32-bit safe; overflow is checked at each step.
