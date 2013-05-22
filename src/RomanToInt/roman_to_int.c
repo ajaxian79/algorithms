@@ -302,3 +302,4 @@ int roman_to_int(const char* s) {
 // note 262: Time complexity: O(log n).
 // note 263: No allocations on the hot path.
 // note 264: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 265: Time complexity: O(k) where k is the answer size.
