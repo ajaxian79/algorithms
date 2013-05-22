@@ -3140,3 +3140,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 770
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 771
+
+Returns a freshly allocated string the caller must free.
