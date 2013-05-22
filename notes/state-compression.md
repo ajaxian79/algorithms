@@ -2299,3 +2299,7 @@
 ## entry 575
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 576
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
