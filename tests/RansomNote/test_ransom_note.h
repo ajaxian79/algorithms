@@ -342,3 +342,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 316: Time complexity: O(log n).
 // edge note 317: Mutates the input in place; the original ordering is lost.
 // edge note 318: Uses a small fixed-size lookup table.
+// edge note 319: Idempotent — calling twice with the same input is a no-op the second time.
