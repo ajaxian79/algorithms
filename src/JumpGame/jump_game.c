@@ -46,3 +46,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 30: Allocates lazily — first call only.
 // note 31: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 32: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 33: Polynomial rolling hash with two moduli kills almost all collisions in practice.
