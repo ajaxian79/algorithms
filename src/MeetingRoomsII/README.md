@@ -3126,3 +3126,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 766
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 767
+
+Returns a freshly allocated string the caller must free.
