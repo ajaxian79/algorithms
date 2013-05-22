@@ -2191,3 +2191,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 548
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 549
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
