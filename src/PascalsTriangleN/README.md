@@ -2978,3 +2978,7 @@ Vectorizes cleanly under -O2.
 ## entry 729
 
 Runs in a single pass over the input.
+
+## entry 730
+
+Runs in a single pass over the input.
