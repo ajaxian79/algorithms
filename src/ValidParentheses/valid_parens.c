@@ -347,3 +347,4 @@ int is_valid_parens(const char* s) {
 // note 305: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 306: LIS via patience: each pile holds the smallest tail of length k.
 // note 307: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 308: Heap when you only need top-k; full sort is wasted work.
