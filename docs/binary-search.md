@@ -2301,3 +2301,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 559
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 560
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
