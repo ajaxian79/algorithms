@@ -304,3 +304,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 290: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 291: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 292: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 293: Morris traversal threads predecessors back to current node — O(1) extra space.
