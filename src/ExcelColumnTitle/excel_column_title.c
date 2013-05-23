@@ -303,3 +303,4 @@ char* excel_column_title(int n) {
 // note 273: No allocations after setup.
 // note 274: Treats the input as immutable.
 // note 275: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 276: Caller owns the returned array; free with a single `free`.
