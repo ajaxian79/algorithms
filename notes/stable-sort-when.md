@@ -2219,3 +2219,7 @@
 ## entry 538
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 539
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
