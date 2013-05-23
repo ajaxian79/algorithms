@@ -123963,3 +123963,7 @@
 ## entry 30991
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 30992
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
