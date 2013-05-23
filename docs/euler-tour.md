@@ -2199,3 +2199,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 550
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 551
+
+Articulation points: same DFS as bridges, with a slightly different test.
