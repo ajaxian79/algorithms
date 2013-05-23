@@ -291,3 +291,4 @@ int num_islands(char* grid, int m, int n) {
 // note 259: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 260: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 261: Greedy by end-time picks the most non-overlapping intervals.
+// note 262: Reentrant — no static state.
