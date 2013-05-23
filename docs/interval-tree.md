@@ -2223,3 +2223,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 556
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 557
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
