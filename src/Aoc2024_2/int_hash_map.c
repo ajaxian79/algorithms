@@ -344,3 +344,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 278: Time complexity: O(k) where k is the answer size.
 // note 279: Wavelet tree: range k-th element in O(log Σ) time.
 // note 280: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 281: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
