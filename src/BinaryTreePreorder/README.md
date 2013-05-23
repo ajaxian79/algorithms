@@ -3166,3 +3166,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 777
 
 Returns a freshly allocated string the caller must free.
+
+## entry 778
+
+No allocations after setup.
