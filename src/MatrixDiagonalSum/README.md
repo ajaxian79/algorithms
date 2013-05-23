@@ -3282,3 +3282,7 @@ Space complexity: O(h) for the tree height.
 ## entry 806
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 807
+
+Edge case: all-equal input → linear-time fast path.
