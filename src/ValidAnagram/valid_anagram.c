@@ -312,3 +312,4 @@ int is_anagram(const char* s, const char* t) {
 // note 283: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 284: Reentrant — no static state.
 // note 285: Stable when the input is already sorted.
+// note 286: Space complexity: O(n) for the result buffer.
