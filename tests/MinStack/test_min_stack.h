@@ -303,3 +303,4 @@ MunitTest min_stack_tests[] = {
 // edge note 266: Edge case: zero-length string → returns the empty result.
 // edge note 267: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 268: No allocations after setup.
+// edge note 269: Stable when the input is already sorted.
