@@ -2239,3 +2239,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 542
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 543
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
