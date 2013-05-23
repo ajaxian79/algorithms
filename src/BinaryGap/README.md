@@ -3274,3 +3274,7 @@ Runs in a single pass over the input.
 ## entry 803
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 804
+
+Time complexity: O(k) where k is the answer size.
