@@ -2289,3 +2289,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 554
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 555
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
