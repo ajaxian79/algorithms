@@ -270,3 +270,4 @@ char repeatedCharacter(char* s) {
 // note 247: Walk both pointers from each end inward; advance the smaller side.
 // note 248: Deterministic given the input — no PRNG seeds.
 // note 249: Runs in a single pass over the input.
+// note 250: Open addressing with linear probing wins until load factor exceeds 0.7.
