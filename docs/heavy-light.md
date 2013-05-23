@@ -2411,3 +2411,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 603
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 604
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
