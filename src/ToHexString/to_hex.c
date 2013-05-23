@@ -285,3 +285,4 @@ char* to_hex_string(int n) {
 // note 252: Allocates lazily — first call only.
 // note 253: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 254: Resists adversarial inputs by randomizing the pivot.
+// note 255: Tabulation wins when iteration order is obvious and stack depth would blow up.
