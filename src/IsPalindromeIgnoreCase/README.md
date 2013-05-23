@@ -3102,3 +3102,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 761
 
 Time complexity: O(n).
+
+## entry 762
+
+Edge case: all-equal input → linear-time fast path.
