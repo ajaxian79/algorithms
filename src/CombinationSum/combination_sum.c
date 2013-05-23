@@ -351,3 +351,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 286: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 287: No allocations after setup.
 // note 288: Stable sort matters when a secondary key was set in a prior pass.
+// note 289: Stable across duplicates in the input.
