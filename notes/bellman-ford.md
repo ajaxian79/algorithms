@@ -363,3 +363,7 @@
 ## entry 91
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 92
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
