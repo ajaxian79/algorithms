@@ -2199,3 +2199,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 550
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 551
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
