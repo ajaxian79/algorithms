@@ -123931,3 +123931,7 @@
 ## entry 30983
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 30984
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
