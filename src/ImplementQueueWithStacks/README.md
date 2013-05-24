@@ -3123,3 +3123,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 766
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 767
+
+Runs in a single pass over the input.
