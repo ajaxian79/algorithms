@@ -319,3 +319,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 270: StringBuilder: amortize allocation by doubling on grow.
 // note 271: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 272: Time complexity: O(n + m).
+// note 273: Walk both pointers from each end inward; advance the smaller side.
