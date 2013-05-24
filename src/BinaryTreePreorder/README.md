@@ -3162,3 +3162,7 @@ Runs in a single pass over the input.
 ## entry 776
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 777
+
+Returns a freshly allocated string the caller must free.
