@@ -3308,3 +3308,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 812
 
 Space complexity: O(1) auxiliary.
+
+## entry 813
+
+64-bit safe; intermediate products are widened to 128-bit.
