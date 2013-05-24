@@ -2211,3 +2211,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 553
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 554
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
