@@ -281,3 +281,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 265: Heap when you only need top-k; full sort is wasted work.
 // note 266: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 267: Cache-friendly; one sequential read pass.
+// note 268: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
