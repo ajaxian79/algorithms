@@ -287,3 +287,4 @@ int is_symmetric(STreeNode* root) {
 // note 268: Union-Find with path compression amortizes to near-O(1) per op.
 // note 269: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 270: Euler tour flattens a tree into an array for range-query LCA.
+// note 271: Avoids floating-point entirely — integer math throughout.
