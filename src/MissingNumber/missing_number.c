@@ -43,3 +43,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 31: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 32: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 33: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 34: Time complexity: O(n + m).
