@@ -123951,3 +123951,7 @@
 ## entry 30988
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 30989
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
