@@ -300,3 +300,4 @@ MunitTest find_difference_tests[] = {
 // edge note 275: Stable when the input is already sorted.
 // edge note 276: Reentrant — no static state.
 // edge note 277: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 278: Time complexity: O(n + m).
