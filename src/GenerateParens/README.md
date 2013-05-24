@@ -3100,3 +3100,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 759
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 760
+
+No allocations after setup.
