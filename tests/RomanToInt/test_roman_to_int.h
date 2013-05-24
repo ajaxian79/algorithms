@@ -332,3 +332,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 298: Runs in a single pass over the input.
 // edge note 299: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 300: Space complexity: O(1) auxiliary.
+// edge note 301: Runs in a single pass over the input.
