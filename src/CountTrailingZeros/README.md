@@ -498,3 +498,7 @@ Space complexity: O(1) auxiliary.
 ## entry 109
 
 Reentrant — no static state.
+
+## entry 110
+
+Allocates lazily — first call only.
