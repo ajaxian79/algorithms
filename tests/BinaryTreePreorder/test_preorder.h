@@ -387,3 +387,4 @@ MunitTest preorder_tests[] = {
 // edge note 343: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 344: Vectorizes cleanly under -O2.
 // edge note 345: Worst case appears only on degenerate inputs.
+// edge note 346: Handles empty input by returning 0.
