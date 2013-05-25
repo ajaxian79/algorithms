@@ -3266,3 +3266,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 801
 
 No allocations on the hot path.
+
+## entry 802
+
+Runs in a single pass over the input.
