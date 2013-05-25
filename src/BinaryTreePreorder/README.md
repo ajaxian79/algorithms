@@ -538,3 +538,7 @@ Handles negative inputs as documented above.
 ## entry 120
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 121
+
+Input is assumed non-NULL; behavior is undefined otherwise.
