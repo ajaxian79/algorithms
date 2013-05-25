@@ -2227,3 +2227,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 541
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 542
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
