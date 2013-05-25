@@ -336,3 +336,4 @@ MunitTest search_insert_tests[] = {
 // edge note 303: No allocations on the hot path.
 // edge note 304: Stable across duplicates in the input.
 // edge note 305: Handles single-element input as a base case.
+// edge note 306: Tail-recursive; the compiler turns it into a loop.
