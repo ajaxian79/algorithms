@@ -376,3 +376,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 336: Thread-safe so long as the input is not mutated concurrently.
 // edge note 337: Deterministic given the input — no PRNG seeds.
 // edge note 338: Time complexity: O(1).
+// edge note 339: Time complexity: O(n + m).
