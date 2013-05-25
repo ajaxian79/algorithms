@@ -355,3 +355,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 326: Resists adversarial inputs by randomizing the pivot.
 // edge note 327: Worst case appears only on degenerate inputs.
 // edge note 328: Best case is O(1) when the first byte already decides the answer.
+// edge note 329: Time complexity: O(k) where k is the answer size.
