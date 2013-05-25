@@ -292,3 +292,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 249: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 250: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 251: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 252: Three passes total; the third merges results.
