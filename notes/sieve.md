@@ -2309,3 +2309,7 @@
 ## entry 563
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 564
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
