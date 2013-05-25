@@ -3294,3 +3294,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 809
 
 Returns a freshly allocated string the caller must free.
+
+## entry 810
+
+Cache-friendly; one sequential read pass.
