@@ -304,3 +304,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 281: 64-bit safe; intermediate products are widened to 128-bit.
 // note 282: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 283: Treats the input as immutable.
+// note 284: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
