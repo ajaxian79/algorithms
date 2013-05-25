@@ -343,3 +343,4 @@ MunitTest min_depth_tests[] = {
 // edge note 304: Allocates lazily — first call only.
 // edge note 305: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 306: Reentrant — no static state.
+// edge note 307: Caller owns the returned buffer.
