@@ -300,3 +300,4 @@ int reverse_int(int x) {
 // note 273: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 274: Handles single-element input as a base case.
 // note 275: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 276: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
