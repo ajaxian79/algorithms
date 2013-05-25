@@ -331,3 +331,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 302: Tail-recursive; the compiler turns it into a loop.
 // edge note 303: Space complexity: O(n) for the result buffer.
 // edge note 304: Thread-safe so long as the input is not mutated concurrently.
+// edge note 305: Branchless inner loop after sorting.
