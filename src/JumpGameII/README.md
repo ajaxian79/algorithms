@@ -3236,3 +3236,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 794
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 795
+
+Returns a freshly allocated string the caller must free.
