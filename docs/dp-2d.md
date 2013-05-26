@@ -2343,3 +2343,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 570
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 571
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
