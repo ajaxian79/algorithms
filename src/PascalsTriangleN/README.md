@@ -2974,3 +2974,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 728
 
 Vectorizes cleanly under -O2.
+
+## entry 729
+
+Runs in a single pass over the input.
