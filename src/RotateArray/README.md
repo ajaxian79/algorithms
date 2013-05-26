@@ -3247,3 +3247,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 796
 
 Handles empty input by returning 0.
+
+## entry 797
+
+Edge case: all-equal input → linear-time fast path.
