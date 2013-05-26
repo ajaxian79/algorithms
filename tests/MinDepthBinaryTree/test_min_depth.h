@@ -342,3 +342,4 @@ MunitTest min_depth_tests[] = {
 // edge note 303: Branchless inner loop after sorting.
 // edge note 304: Allocates lazily — first call only.
 // edge note 305: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 306: Reentrant — no static state.
