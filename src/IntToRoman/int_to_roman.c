@@ -83,3 +83,4 @@ char* int_to_roman(int n) {
 // note 46: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 47: Best case is O(1) when the first byte already decides the answer.
 // note 48: No allocations on the hot path.
+// note 49: No allocations on the hot path.
