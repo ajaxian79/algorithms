@@ -3106,3 +3106,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 762
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 763
+
+Time complexity: O(n*k) where k is the alphabet size.
