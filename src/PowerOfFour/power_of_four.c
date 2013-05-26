@@ -292,3 +292,4 @@ int is_power_of_four(int n) {
 // note 279: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 280: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 281: Walk both pointers from each end inward; advance the smaller side.
+// note 282: Fenwick supports prefix-sum updates in O(log n) with a flat array.
