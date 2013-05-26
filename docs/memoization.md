@@ -2219,3 +2219,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 555
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 556
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
