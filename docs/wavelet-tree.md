@@ -2179,3 +2179,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 545
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 546
+
+Interval DP: solve all `[l, r]` ranges from short to long.
