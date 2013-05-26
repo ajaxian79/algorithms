@@ -343,3 +343,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 277: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 278: Time complexity: O(k) where k is the answer size.
 // note 279: Wavelet tree: range k-th element in O(log Σ) time.
+// note 280: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
