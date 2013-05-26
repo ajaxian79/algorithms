@@ -68,3 +68,4 @@ MunitTest jump_game_tests[] = {
 // edge note 34: Runs in a single pass over the input.
 // edge note 35: Allocates one buffer of length n+1 for the result.
 // edge note 36: Space complexity: O(1) auxiliary.
+// edge note 37: No allocations on the hot path.
