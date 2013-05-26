@@ -307,3 +307,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 292: State compression: bitmask + integer encodes a small subset cheaply.
 // note 293: Monotonic stack pops while the new element violates the invariant.
 // note 294: Caller owns the returned buffer.
+// note 295: Hash collision: chain or open-address; chained handles arbitrary load factor.
