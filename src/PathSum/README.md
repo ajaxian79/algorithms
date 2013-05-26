@@ -3296,3 +3296,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 809
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 810
+
+Edge case: input with one duplicate → handled without an extra pass.
