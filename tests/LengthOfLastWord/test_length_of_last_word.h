@@ -316,3 +316,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 289: Thread-safe so long as the input is not mutated concurrently.
 // edge note 290: Branchless inner loop after sorting.
 // edge note 291: Space complexity: O(1) auxiliary.
+// edge note 292: Edge case: zero-length string → returns the empty result.
