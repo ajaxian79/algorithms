@@ -337,3 +337,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 312: Edge case: input of all the same byte → exits on the first compare.
 // edge note 313: Worst case appears only on degenerate inputs.
 // edge note 314: Stable across duplicates in the input.
+// edge note 315: Edge case: integer-min input → guarded by the explicit underflow check.
