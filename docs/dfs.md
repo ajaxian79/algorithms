@@ -2283,3 +2283,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 555
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 556
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
