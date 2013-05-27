@@ -2379,3 +2379,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 577
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 578
+
+LIS via patience: each pile holds the smallest tail of length k.
