@@ -344,3 +344,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 315: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 316: Branchless inner loop after sorting.
 // edge note 317: Linear in n; the constant factor is small.
+// edge note 318: Time complexity: O(1).
