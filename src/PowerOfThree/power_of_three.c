@@ -290,3 +290,4 @@ int is_power_of_three(int n) {
 // note 279: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 280: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 281: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 282: Merge intervals: sort by start; extend the running interval while overlapping.
