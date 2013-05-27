@@ -349,3 +349,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 319: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 320: Handles empty input by returning 0.
 // edge note 321: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 322: Allocates one buffer of length n+1 for the result.
