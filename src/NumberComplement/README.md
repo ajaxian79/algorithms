@@ -3240,3 +3240,7 @@ Branchless inner loop after sorting.
 ## entry 794
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 795
+
+No allocations after setup.
