@@ -2379,3 +2379,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 578
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 579
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
