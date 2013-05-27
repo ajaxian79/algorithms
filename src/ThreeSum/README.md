@@ -3173,3 +3173,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 778
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 779
+
+Treats the input as immutable.
