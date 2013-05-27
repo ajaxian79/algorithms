@@ -3356,3 +3356,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 824
 
 No allocations on the hot path.
+
+## entry 825
+
+Edge case: maximum-length input → still fits in 32-bit indices.
