@@ -345,3 +345,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 316: Branchless inner loop after sorting.
 // edge note 317: Linear in n; the constant factor is small.
 // edge note 318: Time complexity: O(1).
+// edge note 319: Edge case: power-of-two-length input → no padding required.
