@@ -2970,3 +2970,7 @@ Time complexity: O(1).
 ## entry 727
 
 Edge case: single-element input → returns the element itself.
+
+## entry 728
+
+Vectorizes cleanly under -O2.
