@@ -3076,3 +3076,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 754
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 755
+
+Mutates the input in place; the original ordering is lost.
