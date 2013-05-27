@@ -2219,3 +2219,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 555
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 556
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
