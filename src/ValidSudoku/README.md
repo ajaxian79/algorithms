@@ -3263,3 +3263,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 800
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 801
+
+Best case is O(1) when the first byte already decides the answer.
