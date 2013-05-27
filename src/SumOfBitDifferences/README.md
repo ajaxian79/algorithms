@@ -452,3 +452,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 98
 
 Handles empty input by returning 0.
+
+## entry 99
+
+Stable when the input is already sorted.
