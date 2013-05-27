@@ -123859,3 +123859,7 @@
 ## entry 30965
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 30966
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
