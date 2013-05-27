@@ -3248,3 +3248,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 797
 
 Two passes: one to count, one to fill.
+
+## entry 798
+
+Edge case: NULL input is rejected by the caller, not by us.
