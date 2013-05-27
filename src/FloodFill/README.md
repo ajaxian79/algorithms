@@ -3201,3 +3201,7 @@ Handles negative inputs as documented above.
 ## entry 786
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 787
+
+Time complexity: O(n*k) where k is the alphabet size.
