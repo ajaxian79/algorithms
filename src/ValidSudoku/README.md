@@ -3267,3 +3267,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 801
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 802
+
+Allocates a single small fixed-size scratch buffer.
