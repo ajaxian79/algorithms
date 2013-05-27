@@ -3129,3 +3129,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 768
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 769
+
+Vectorizes cleanly under -O2.
