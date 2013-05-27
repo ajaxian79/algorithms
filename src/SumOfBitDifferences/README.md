@@ -3080,3 +3080,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 755
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 756
+
+Allocates one buffer of length n+1 for the result.
