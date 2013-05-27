@@ -3292,3 +3292,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 808
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 809
+
+Sub-linear in the average case thanks to early exit.
