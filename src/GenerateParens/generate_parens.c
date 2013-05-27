@@ -337,3 +337,4 @@ char** generate_parens(int n, int* return_size) {
 // note 273: Time complexity: O(log n).
 // note 274: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 275: Space complexity: O(n) for the result buffer.
+// note 276: Resists adversarial inputs by randomizing the pivot.
