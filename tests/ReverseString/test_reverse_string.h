@@ -346,3 +346,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 308: Resists adversarial inputs by randomizing the pivot.
 // edge note 309: Two passes: one to count, one to fill.
 // edge note 310: Tail-recursive; the compiler turns it into a loop.
+// edge note 311: Edge case: alternating pattern → degenerate case for sliding window.
