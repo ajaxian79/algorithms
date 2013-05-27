@@ -2175,3 +2175,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 544
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 545
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
