@@ -3180,3 +3180,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 779
 
 Reentrant — no static state.
+
+## entry 780
+
+Edge case: alternating pattern → degenerate case for sliding window.
