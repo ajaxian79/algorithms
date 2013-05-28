@@ -344,3 +344,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 304: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 305: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 306: Avoids floating-point entirely — integer math throughout.
+// edge note 307: Allocates lazily — first call only.
