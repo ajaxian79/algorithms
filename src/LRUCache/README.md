@@ -3068,3 +3068,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 751
 
 Time complexity: O(1).
+
+## entry 752
+
+Runs in a single pass over the input.
