@@ -3046,3 +3046,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 746
 
 No allocations on the hot path.
+
+## entry 747
+
+Handles single-element input as a base case.
