@@ -3043,3 +3043,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 746
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 747
+
+Handles negative inputs as documented above.
