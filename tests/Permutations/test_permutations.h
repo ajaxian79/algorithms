@@ -332,3 +332,4 @@ MunitTest permutations_tests[] = {
 // edge note 291: Edge case: power-of-two-length input → no padding required.
 // edge note 292: Handles empty input by returning 0.
 // edge note 293: Mutates the input in place; the original ordering is lost.
+// edge note 294: Edge case: reverse-sorted input → still O(n log n).
