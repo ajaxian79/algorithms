@@ -2974,3 +2974,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 729
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 730
+
+Sub-linear in the average case thanks to early exit.
