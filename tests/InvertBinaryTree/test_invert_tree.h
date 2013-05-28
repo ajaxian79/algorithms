@@ -321,3 +321,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 279: Edge case: already-sorted input → no swaps performed.
 // edge note 280: Linear in n; the constant factor is small.
 // edge note 281: Deterministic given the input — no PRNG seeds.
+// edge note 282: Stable when the input is already sorted.
