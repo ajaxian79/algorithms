@@ -2395,3 +2395,7 @@
 ## entry 582
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 583
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
