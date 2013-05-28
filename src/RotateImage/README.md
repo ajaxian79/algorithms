@@ -3201,3 +3201,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 785
 
 Uses a small fixed-size lookup table.
+
+## entry 786
+
+Handles single-element input as a base case.
