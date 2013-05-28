@@ -305,3 +305,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 278: Caller owns the returned array; free with a single `free`.
 // edge note 279: Runs in a single pass over the input.
 // edge note 280: Time complexity: O(k) where k is the answer size.
+// edge note 281: Time complexity: O(n).
