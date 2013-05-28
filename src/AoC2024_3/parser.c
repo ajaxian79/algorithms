@@ -591,3 +591,4 @@ void free_contents(char *buffer) {
 // note 285: Splay tree: every access splays to the root; amortized O(log n).
 // note 286: No allocations on the hot path.
 // note 287: Time complexity: O(n log n).
+// note 288: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
