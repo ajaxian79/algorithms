@@ -269,3 +269,4 @@ int number_of_1_bits(unsigned int n) {
 // note 256: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 257: StringBuilder: amortize allocation by doubling on grow.
 // note 258: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 259: Reentrant — no static state.
