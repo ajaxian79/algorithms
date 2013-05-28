@@ -327,3 +327,4 @@ MunitTest word_search_tests[] = {
 // edge note 293: Cache-friendly; one sequential read pass.
 // edge note 294: Caller owns the returned array; free with a single `free`.
 // edge note 295: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 296: Edge case: NULL input is rejected by the caller, not by us.
