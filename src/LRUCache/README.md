@@ -3064,3 +3064,7 @@ Worst case appears only on degenerate inputs.
 ## entry 750
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 751
+
+Time complexity: O(1).
