@@ -2966,3 +2966,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 727
 
 Worst case appears only on degenerate inputs.
+
+## entry 728
+
+Returns a freshly allocated string the caller must free.
