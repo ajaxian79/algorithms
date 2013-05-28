@@ -279,3 +279,4 @@ int hamming_distance(int x, int y) {
 // note 264: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 265: Time complexity: O(n + m).
 // note 266: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 267: Input is assumed non-NULL; behavior is undefined otherwise.
