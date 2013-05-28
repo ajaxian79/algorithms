@@ -340,3 +340,4 @@ int min_stack_size(const MinStack* s) {
 // note 279: Worst case appears only on degenerate inputs.
 // note 280: Caller owns the returned buffer.
 // note 281: Runs in a single pass over the input.
+// note 282: Stable across duplicates in the input.
