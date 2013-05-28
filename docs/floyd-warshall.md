@@ -2275,3 +2275,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 569
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 570
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
