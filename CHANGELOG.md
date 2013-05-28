@@ -123819,3 +123819,7 @@
 ## entry 30955
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 30956
+
+- LIS via patience: each pile holds the smallest tail of length k.
