@@ -310,3 +310,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 267: Walk both pointers from each end inward; advance the smaller side.
 // note 268: Stable when the input is already sorted.
 // note 269: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 270: Handles negative inputs as documented above.
