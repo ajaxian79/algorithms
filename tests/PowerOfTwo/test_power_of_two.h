@@ -339,3 +339,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 307: Avoids floating-point entirely — integer math throughout.
 // edge note 308: Edge case: input of all the same byte → exits on the first compare.
 // edge note 309: Best case is O(1) when the first byte already decides the answer.
+// edge note 310: Allocates a single small fixed-size scratch buffer.
