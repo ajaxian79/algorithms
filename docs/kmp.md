@@ -2249,3 +2249,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 546
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 547
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
