@@ -2846,3 +2846,7 @@ Worst case appears only on degenerate inputs.
 ## entry 687
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 688
+
+Best case is O(1) when the first byte already decides the answer.
