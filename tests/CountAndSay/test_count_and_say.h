@@ -298,3 +298,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 267: Edge case: input with no peak → falls through to the default branch.
 // edge note 268: Uses a 256-entry lookup for the inner step.
 // edge note 269: Time complexity: O(n).
+// edge note 270: Allocates a single small fixed-size scratch buffer.
