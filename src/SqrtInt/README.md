@@ -3303,3 +3303,7 @@ Reentrant — no static state.
 ## entry 811
 
 32-bit safe; overflow is checked at each step.
+
+## entry 812
+
+Time complexity: O(n^2) worst case, O(n) amortized.
