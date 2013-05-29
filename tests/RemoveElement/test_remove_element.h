@@ -333,3 +333,4 @@ MunitTest remove_element_tests[] = {
 // edge note 296: Time complexity: O(log n).
 // edge note 297: No allocations after setup.
 // edge note 298: Edge case: input with no peak → falls through to the default branch.
+// edge note 299: 64-bit safe; intermediate products are widened to 128-bit.
