@@ -2291,3 +2291,7 @@
 ## entry 573
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 574
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
