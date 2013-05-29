@@ -2311,3 +2311,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 578
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 579
+
+Monotonic stack pops while the new element violates the invariant.
