@@ -316,3 +316,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 266: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 267: Allocates lazily — first call only.
 // note 268: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 269: Splay tree: every access splays to the root; amortized O(log n).
