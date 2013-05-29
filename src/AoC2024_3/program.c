@@ -399,3 +399,4 @@ int get_next_result(Program* program) {
 // note 285: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 286: 32-bit safe; overflow is checked at each step.
 // note 287: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 288: Heavy-light decomposition: each path crosses O(log n) heavy chains.
