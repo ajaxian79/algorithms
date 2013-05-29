@@ -318,3 +318,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 285: Reentrant — no static state.
 // edge note 286: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 287: Time complexity: O(n + m).
+// edge note 288: Returns a freshly allocated string the caller must free.
