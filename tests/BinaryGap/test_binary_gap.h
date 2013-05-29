@@ -325,3 +325,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 298: Stable when the input is already sorted.
 // edge note 299: 32-bit safe; overflow is checked at each step.
 // edge note 300: Deterministic given the input — no PRNG seeds.
+// edge note 301: Time complexity: O(1).
