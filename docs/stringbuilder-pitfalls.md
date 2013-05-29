@@ -427,3 +427,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 107
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 108
+
+StringBuilder: amortize allocation by doubling on grow.
