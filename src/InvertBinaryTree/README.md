@@ -3304,3 +3304,7 @@ Stable when the input is already sorted.
 ## entry 811
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 812
+
+Space complexity: O(1) auxiliary.
