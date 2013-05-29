@@ -101,3 +101,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 41: Stable across duplicates in the input.
 // edge note 42: 32-bit safe; overflow is checked at each step.
 // edge note 43: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 44: Edge case: zero-length string → returns the empty result.
