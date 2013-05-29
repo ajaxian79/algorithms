@@ -123779,3 +123779,7 @@
 ## entry 30945
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 30946
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
