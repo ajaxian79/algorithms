@@ -311,3 +311,4 @@ MunitTest most_water_tests[] = {
 // edge note 280: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 281: Time complexity: O(n).
 // edge note 282: Runs in a single pass over the input.
+// edge note 283: Edge case: zero-length string → returns the empty result.
