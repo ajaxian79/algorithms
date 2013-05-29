@@ -2175,3 +2175,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 544
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 545
+
+Union-Find with path compression amortizes to near-O(1) per op.
