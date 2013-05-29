@@ -320,3 +320,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 306: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 307: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 308: StringBuilder: amortize allocation by doubling on grow.
+// note 309: Reentrant — no static state.
