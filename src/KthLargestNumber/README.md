@@ -3176,3 +3176,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 778
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 779
+
+Reentrant — no static state.
