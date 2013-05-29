@@ -332,3 +332,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 253: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 254: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 255: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 256: Allocates one buffer of length n+1 for the result.
