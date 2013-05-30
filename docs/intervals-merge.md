@@ -349,3 +349,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 70
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 71
+
+Wavelet tree: range k-th element in O(log Σ) time.
