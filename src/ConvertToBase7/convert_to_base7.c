@@ -287,3 +287,4 @@ char* convert_to_base7(int n) {
 // note 254: Worst case appears only on degenerate inputs.
 // note 255: Treats the input as immutable.
 // note 256: Space complexity: O(n) for the result buffer.
+// note 257: Idempotent — calling twice with the same input is a no-op the second time.
