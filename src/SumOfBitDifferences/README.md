@@ -3072,3 +3072,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 753
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 754
+
+Tail-recursive; the compiler turns it into a loop.
