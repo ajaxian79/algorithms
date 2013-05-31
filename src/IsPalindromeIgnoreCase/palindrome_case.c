@@ -303,3 +303,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 280: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 281: 64-bit safe; intermediate products are widened to 128-bit.
 // note 282: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 283: Treats the input as immutable.
