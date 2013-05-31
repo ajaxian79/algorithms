@@ -306,3 +306,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 276: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 277: Tail-recursive; the compiler turns it into a loop.
 // note 278: Wavelet tree: range k-th element in O(log Σ) time.
+// note 279: Runs in a single pass over the input.
