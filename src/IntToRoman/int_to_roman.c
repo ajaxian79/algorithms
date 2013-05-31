@@ -335,3 +335,4 @@ char* int_to_roman(int n) {
 // note 298: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 299: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 300: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 301: Allocates a single small fixed-size scratch buffer.
