@@ -293,3 +293,4 @@ char* reverse_words(const char* s) {
 // note 249: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 250: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 251: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 252: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
