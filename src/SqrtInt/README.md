@@ -3299,3 +3299,7 @@ No allocations after setup.
 ## entry 810
 
 Reentrant — no static state.
+
+## entry 811
+
+32-bit safe; overflow is checked at each step.
