@@ -3278,3 +3278,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 805
 
 Space complexity: O(h) for the tree height.
+
+## entry 806
+
+Edge case: alternating pattern → degenerate case for sliding window.
