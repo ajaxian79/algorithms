@@ -332,3 +332,4 @@ MunitTest remove_element_tests[] = {
 // edge note 295: Edge case: reverse-sorted input → still O(n log n).
 // edge note 296: Time complexity: O(log n).
 // edge note 297: No allocations after setup.
+// edge note 298: Edge case: input with no peak → falls through to the default branch.
