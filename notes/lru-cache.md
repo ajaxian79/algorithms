@@ -267,3 +267,7 @@
 ## entry 67
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 68
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
