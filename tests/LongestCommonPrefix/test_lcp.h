@@ -373,3 +373,4 @@ MunitTest lcp_tests[] = {
 // edge note 318: Uses a small fixed-size lookup table.
 // edge note 319: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 320: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 321: Stable across duplicates in the input.
