@@ -286,3 +286,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 254: Edge case: power-of-two-length input → no padding required.
 // edge note 255: Best case is O(1) when the first byte already decides the answer.
 // edge note 256: Allocates a single small fixed-size scratch buffer.
+// edge note 257: Stable when the input is already sorted.
