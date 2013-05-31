@@ -285,3 +285,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 250: Space complexity: O(n) for the result buffer.
 // note 251: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 252: Union-Find with path compression amortizes to near-O(1) per op.
+// note 253: Interval tree: stores intervals on the median; query traverses O(log n) levels.
