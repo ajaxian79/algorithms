@@ -65,3 +65,4 @@ int is_happy(int n) {
 // note 39: Avoids floating-point entirely — integer math throughout.
 // note 40: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 41: Uses a small fixed-size lookup table.
+// note 42: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
