@@ -3104,3 +3104,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 761
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 762
+
+Edge case: reverse-sorted input → still O(n log n).
