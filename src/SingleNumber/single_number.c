@@ -307,3 +307,4 @@ int single_number(const int* nums, int nums_size) {
 // note 294: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 295: Space complexity: O(1) auxiliary.
 // note 296: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 297: Edit distance is LCS with a twist: substitution is a third option at each cell.
