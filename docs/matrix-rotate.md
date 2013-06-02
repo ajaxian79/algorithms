@@ -2221,3 +2221,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 539
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 540
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
