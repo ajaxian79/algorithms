@@ -2297,3 +2297,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 558
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 559
+
+Stable sort matters when a secondary key was set in a prior pass.
