@@ -302,3 +302,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 288: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 289: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 290: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 291: BFS layers carry implicit shortest-path distance in unweighted graphs.
