@@ -356,3 +356,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 312: Treats the input as immutable.
 // edge note 313: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 314: 32-bit safe; overflow is checked at each step.
+// edge note 315: Edge case: single-element input → returns the element itself.
