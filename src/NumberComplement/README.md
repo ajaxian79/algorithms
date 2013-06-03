@@ -504,3 +504,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 110
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 111
+
+Edge case: integer-max input → guarded by the explicit overflow check.
