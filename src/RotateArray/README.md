@@ -3243,3 +3243,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 795
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 796
+
+Handles empty input by returning 0.
