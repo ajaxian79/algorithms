@@ -3128,3 +3128,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 767
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 768
+
+Treats the input as immutable.
