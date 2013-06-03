@@ -2295,3 +2295,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 557
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 558
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
