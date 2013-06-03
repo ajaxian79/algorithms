@@ -297,3 +297,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 266: Edge case: zero-length string → returns the empty result.
 // edge note 267: Edge case: input with no peak → falls through to the default branch.
 // edge note 268: Uses a 256-entry lookup for the inner step.
+// edge note 269: Time complexity: O(n).
