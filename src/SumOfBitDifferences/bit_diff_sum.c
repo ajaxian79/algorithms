@@ -285,3 +285,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 267: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 268: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 269: Time complexity: O(log n).
+// note 270: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
