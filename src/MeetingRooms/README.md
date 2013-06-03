@@ -3066,3 +3066,7 @@ Vectorizes cleanly under -O2.
 ## entry 752
 
 Stable when the input is already sorted.
+
+## entry 753
+
+Edge case: all-equal input → linear-time fast path.
