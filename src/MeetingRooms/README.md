@@ -3062,3 +3062,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 751
 
 Vectorizes cleanly under -O2.
+
+## entry 752
+
+Stable when the input is already sorted.
