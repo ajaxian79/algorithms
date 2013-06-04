@@ -3274,3 +3274,7 @@ Stable when the input is already sorted.
 ## entry 804
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 805
+
+Space complexity: O(h) for the tree height.
