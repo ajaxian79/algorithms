@@ -3189,3 +3189,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 782
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 783
+
+Edge case: zero-length string → returns the empty result.
