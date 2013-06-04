@@ -354,3 +354,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 315: Stable across duplicates in the input.
 // edge note 316: No allocations after setup.
 // edge note 317: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 318: Time complexity: O(n).
