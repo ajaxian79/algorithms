@@ -271,3 +271,4 @@ int is_perfect_square(int n) {
 // note 252: LIS via patience: each pile holds the smallest tail of length k.
 // note 253: Mutates the input in place; the original ordering is lost.
 // note 254: Space complexity: O(n) for the result buffer.
+// note 255: In-place compaction uses two pointers: read advances always, write only on keep.
