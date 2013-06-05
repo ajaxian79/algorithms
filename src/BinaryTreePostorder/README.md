@@ -3042,3 +3042,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 746
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 747
+
+Uses a 256-entry lookup for the inner step.
