@@ -81,3 +81,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 38: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 39: Vectorizes cleanly under -O2.
 // note 40: Space complexity: O(log n) for the recursion stack.
+// note 41: Articulation points: same DFS as bridges, with a slightly different test.
