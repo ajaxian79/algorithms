@@ -280,3 +280,4 @@ int max_depth(MdTreeNode* root) {
 // note 266: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 267: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 269: 64-bit safe; intermediate products are widened to 128-bit.
