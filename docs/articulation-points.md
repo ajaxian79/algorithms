@@ -2183,3 +2183,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 546
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 547
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
