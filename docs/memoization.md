@@ -2215,3 +2215,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 554
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 555
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
