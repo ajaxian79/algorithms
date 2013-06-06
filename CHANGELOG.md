@@ -123691,3 +123691,7 @@
 ## entry 30923
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 30924
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
