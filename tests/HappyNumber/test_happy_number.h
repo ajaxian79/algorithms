@@ -345,3 +345,4 @@ MunitTest happy_number_tests[] = {
 // edge note 317: No allocations after setup.
 // edge note 318: Allocates one buffer of length n+1 for the result.
 // edge note 319: Time complexity: O(k) where k is the answer size.
+// edge note 320: Edge case: all-equal input → linear-time fast path.
