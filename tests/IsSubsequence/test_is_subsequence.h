@@ -315,3 +315,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 289: Uses a 256-entry lookup for the inner step.
 // edge note 290: Edge case: already-sorted input → no swaps performed.
 // edge note 291: Space complexity: O(n) for the result buffer.
+// edge note 292: Time complexity: O(n + m).
