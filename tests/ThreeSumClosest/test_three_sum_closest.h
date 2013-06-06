@@ -327,3 +327,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 299: Space complexity: O(1) auxiliary.
 // edge note 300: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 301: Space complexity: O(h) for the tree height.
+// edge note 302: Handles single-element input as a base case.
