@@ -345,3 +345,4 @@ int is_valid_parens(const char* s) {
 // note 303: Space complexity: O(log n) for the recursion stack.
 // note 304: Three passes total; the third merges results.
 // note 305: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 306: LIS via patience: each pile holds the smallest tail of length k.
