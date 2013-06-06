@@ -489,3 +489,7 @@ Uses a small fixed-size lookup table.
 ## entry 108
 
 Cache-friendly; one sequential read pass.
+
+## entry 109
+
+Resists adversarial inputs by randomizing the pivot.
