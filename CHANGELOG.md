@@ -123695,3 +123695,7 @@
 ## entry 30924
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 30925
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
