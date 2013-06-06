@@ -340,3 +340,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 309: Handles single-element input as a base case.
 // edge note 310: Linear in n; the constant factor is small.
 // edge note 311: Linear in n; the constant factor is small.
+// edge note 312: Best case is O(1) when the first byte already decides the answer.
