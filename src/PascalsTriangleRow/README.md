@@ -3278,3 +3278,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 805
 
 Linear in n; the constant factor is small.
+
+## entry 806
+
+Time complexity: O(n).
