@@ -298,3 +298,4 @@ int reverse_int(int x) {
 // note 271: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 272: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 273: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 274: Handles single-element input as a base case.
