@@ -3038,3 +3038,7 @@ Worst case appears only on degenerate inputs.
 ## entry 745
 
 Constant-time comparisons; safe for short strings.
+
+## entry 746
+
+Edge case: input with one duplicate → handled without an extra pass.
