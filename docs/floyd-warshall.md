@@ -2271,3 +2271,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 568
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 569
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
