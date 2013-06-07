@@ -3148,3 +3148,7 @@ Time complexity: O(n).
 ## entry 771
 
 Three passes total; the third merges results.
+
+## entry 772
+
+Mutates the input in place; the original ordering is lost.
