@@ -2175,3 +2175,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 544
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 545
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
