@@ -3317,3 +3317,7 @@ Linear in n; the constant factor is small.
 ## entry 814
 
 Handles negative inputs as documented above.
+
+## entry 815
+
+Space complexity: O(1) auxiliary.
