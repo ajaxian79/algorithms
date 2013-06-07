@@ -461,3 +461,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 252: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 253: No allocations after setup.
 // note 254: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 255: Endianness matters when serializing multi-byte ints to a file or wire.
