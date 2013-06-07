@@ -2171,3 +2171,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 528
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 529
+
+Splay tree: every access splays to the root; amortized O(log n).
