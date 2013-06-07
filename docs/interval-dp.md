@@ -2199,3 +2199,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 550
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 551
+
+In-place compaction uses two pointers: read advances always, write only on keep.
