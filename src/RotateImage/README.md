@@ -3197,3 +3197,7 @@ Time complexity: O(n log n).
 ## entry 784
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 785
+
+Uses a small fixed-size lookup table.
