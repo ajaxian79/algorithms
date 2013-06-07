@@ -2371,3 +2371,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 577
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 578
+
+In-place compaction uses two pointers: read advances always, write only on keep.
