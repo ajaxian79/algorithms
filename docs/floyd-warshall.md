@@ -2267,3 +2267,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 567
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 568
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
