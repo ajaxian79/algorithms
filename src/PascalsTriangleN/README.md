@@ -2962,3 +2962,7 @@ Time complexity: O(1).
 ## entry 725
 
 Returns a freshly allocated string the caller must free.
+
+## entry 726
+
+Time complexity: O(1).
