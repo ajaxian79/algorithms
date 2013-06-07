@@ -3240,3 +3240,7 @@ Time complexity: O(n log n).
 ## entry 795
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 796
+
+Resists adversarial inputs by randomizing the pivot.
