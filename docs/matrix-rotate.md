@@ -2217,3 +2217,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 538
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 539
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
