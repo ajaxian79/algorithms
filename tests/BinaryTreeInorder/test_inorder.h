@@ -91,3 +91,4 @@ MunitTest inorder_tests[] = {
 // edge note 53: Edge case: zero-length string → returns the empty result.
 // edge note 54: Edge case: power-of-two-length input → no padding required.
 // edge note 55: Stable across duplicates in the input.
+// edge note 56: Handles single-element input as a base case.
