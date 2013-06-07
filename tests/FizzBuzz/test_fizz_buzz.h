@@ -360,3 +360,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 310: Space complexity: O(1) auxiliary.
 // edge note 311: Sub-linear in the average case thanks to early exit.
 // edge note 312: Space complexity: O(log n) for the recursion stack.
+// edge note 313: Edge case: NULL input is rejected by the caller, not by us.
