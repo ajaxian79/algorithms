@@ -345,3 +345,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 307: Uses a 256-entry lookup for the inner step.
 // edge note 308: Resists adversarial inputs by randomizing the pivot.
 // edge note 309: Two passes: one to count, one to fill.
+// edge note 310: Tail-recursive; the compiler turns it into a loop.
