@@ -3115,3 +3115,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 764
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 765
+
+Edge case: zero-length string → returns the empty result.
