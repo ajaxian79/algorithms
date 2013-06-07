@@ -3118,3 +3118,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 764
 
 Edge case: single-element input → returns the element itself.
+
+## entry 765
+
+Space complexity: O(n) for the result buffer.
