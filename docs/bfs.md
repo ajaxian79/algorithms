@@ -2213,3 +2213,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 536
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 537
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
