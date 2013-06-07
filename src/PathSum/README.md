@@ -3288,3 +3288,7 @@ Handles negative inputs as documented above.
 ## entry 807
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 808
+
+Time complexity: O(n*k) where k is the alphabet size.
