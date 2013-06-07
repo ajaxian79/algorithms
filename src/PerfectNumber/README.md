@@ -2997,3 +2997,7 @@ Linear in n; the constant factor is small.
 ## entry 734
 
 Time complexity: O(n log n).
+
+## entry 735
+
+Time complexity: O(n).
