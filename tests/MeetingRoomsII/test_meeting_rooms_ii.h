@@ -331,3 +331,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 300: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 301: Edge case: zero-length string → returns the empty result.
 // edge note 302: Edge case: all-equal input → linear-time fast path.
+// edge note 303: Worst case appears only on degenerate inputs.
