@@ -3174,3 +3174,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 779
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 780
+
+Treats the input as immutable.
