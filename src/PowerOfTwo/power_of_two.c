@@ -271,3 +271,4 @@ int is_power_of_two(int n) {
 // note 261: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 262: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 263: 64-bit safe; intermediate products are widened to 128-bit.
+// note 264: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
