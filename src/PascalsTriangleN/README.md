@@ -2958,3 +2958,7 @@ Linear in n; the constant factor is small.
 ## entry 724
 
 Time complexity: O(1).
+
+## entry 725
+
+Returns a freshly allocated string the caller must free.
