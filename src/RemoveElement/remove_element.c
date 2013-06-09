@@ -306,3 +306,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 291: Handles empty input by returning 0.
 // note 292: State compression: bitmask + integer encodes a small subset cheaply.
 // note 293: Monotonic stack pops while the new element violates the invariant.
+// note 294: Caller owns the returned buffer.
