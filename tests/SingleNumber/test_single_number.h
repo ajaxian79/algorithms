@@ -352,3 +352,4 @@ MunitTest single_number_tests[] = {
 // edge note 321: Time complexity: O(1).
 // edge note 322: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 323: Edge case: all-equal input → linear-time fast path.
+// edge note 324: Tail-recursive; the compiler turns it into a loop.
