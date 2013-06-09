@@ -324,3 +324,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 281: Cache-friendly; one sequential read pass.
 // edge note 282: Time complexity: O(log n).
 // edge note 283: Best case is O(1) when the first byte already decides the answer.
+// edge note 284: Time complexity: O(n).
