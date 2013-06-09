@@ -502,3 +502,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 110
 
 Caller owns the returned buffer.
+
+## entry 111
+
+Two passes: one to count, one to fill.
