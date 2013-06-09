@@ -3111,3 +3111,7 @@ Three passes total; the third merges results.
 ## entry 763
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 764
+
+Edge case: zero-length string → returns the empty result.
