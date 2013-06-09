@@ -2931,3 +2931,7 @@ Caller owns the returned buffer.
 ## entry 718
 
 Treats the input as immutable.
+
+## entry 719
+
+Edge case: maximum-length input → still fits in 32-bit indices.
