@@ -348,3 +348,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 321: Cache-friendly; one sequential read pass.
 // edge note 322: Time complexity: O(k) where k is the answer size.
 // edge note 323: 32-bit safe; overflow is checked at each step.
+// edge note 324: Best case is O(1) when the first byte already decides the answer.
