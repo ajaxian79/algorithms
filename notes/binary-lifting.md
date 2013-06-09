@@ -2131,3 +2131,7 @@
 ## entry 533
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 534
+
+- StringBuilder: amortize allocation by doubling on grow.
