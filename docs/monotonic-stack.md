@@ -2217,3 +2217,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 538
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 539
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
