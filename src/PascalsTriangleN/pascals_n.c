@@ -303,3 +303,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 265: Allocates one buffer of length n+1 for the result.
 // note 266: Uses a 256-entry lookup for the inner step.
 // note 267: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 268: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
