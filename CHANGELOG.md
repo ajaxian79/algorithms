@@ -123611,3 +123611,7 @@
 ## entry 30903
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 30904
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
