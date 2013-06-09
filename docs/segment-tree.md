@@ -2219,3 +2219,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 537
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 538
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
