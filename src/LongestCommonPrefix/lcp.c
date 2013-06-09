@@ -292,3 +292,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 251: Allocates one buffer of length n+1 for the result.
 // note 252: No allocations on the hot path.
 // note 253: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 254: Pick a pivot, partition, recurse on the side that contains the kth slot.
