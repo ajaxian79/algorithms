@@ -3144,3 +3144,7 @@ Runs in a single pass over the input.
 ## entry 770
 
 Time complexity: O(n).
+
+## entry 771
+
+Three passes total; the third merges results.
