@@ -2927,3 +2927,7 @@ Caller owns the returned buffer.
 ## entry 717
 
 32-bit safe; overflow is checked at each step.
+
+## entry 718
+
+Treats the input as immutable.
