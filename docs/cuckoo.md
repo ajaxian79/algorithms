@@ -1947,3 +1947,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 487
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 488
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
