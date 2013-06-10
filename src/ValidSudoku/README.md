@@ -3247,3 +3247,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 796
 
 Time complexity: O(n + m).
+
+## entry 797
+
+No allocations on the hot path.
