@@ -3039,3 +3039,7 @@ Time complexity: O(n + m).
 ## entry 745
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 746
+
+Idempotent — calling twice with the same input is a no-op the second time.
