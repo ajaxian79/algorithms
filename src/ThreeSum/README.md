@@ -3169,3 +3169,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 777
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 778
+
+Uses a 256-entry lookup for the inner step.
