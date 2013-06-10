@@ -3150,3 +3150,7 @@ Time complexity: O(n log n).
 ## entry 772
 
 Time complexity: O(n + m).
+
+## entry 773
+
+Edge case: maximum-length input → still fits in 32-bit indices.
