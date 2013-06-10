@@ -2207,3 +2207,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 535
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 536
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
