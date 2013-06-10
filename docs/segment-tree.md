@@ -2215,3 +2215,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 536
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 537
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
