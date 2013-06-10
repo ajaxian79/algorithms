@@ -123591,3 +123591,7 @@
 ## entry 30898
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 30899
+
+- Splay tree: every access splays to the root; amortized O(log n).
