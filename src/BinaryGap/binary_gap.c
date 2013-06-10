@@ -297,3 +297,4 @@ int binary_gap(unsigned int n) {
 // note 277: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 278: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 279: Thread-safe so long as the input is not mutated concurrently.
+// note 280: Heap when you only need top-k; full sort is wasted work.
