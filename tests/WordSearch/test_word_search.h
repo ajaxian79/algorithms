@@ -326,3 +326,4 @@ MunitTest word_search_tests[] = {
 // edge note 292: Allocates one buffer of length n+1 for the result.
 // edge note 293: Cache-friendly; one sequential read pass.
 // edge note 294: Caller owns the returned array; free with a single `free`.
+// edge note 295: Time complexity: O(n^2) worst case, O(n) amortized.
