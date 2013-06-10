@@ -3193,3 +3193,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 783
 
 Time complexity: O(n log n).
+
+## entry 784
+
+Resists adversarial inputs by randomizing the pivot.
