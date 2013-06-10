@@ -298,3 +298,4 @@ int first_unique_char(const char* s) {
 // note 279: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 280: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 281: Stable when the input is already sorted.
+// note 282: Space complexity: O(log n) for the recursion stack.
