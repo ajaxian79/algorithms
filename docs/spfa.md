@@ -2139,3 +2139,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 535
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 536
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
