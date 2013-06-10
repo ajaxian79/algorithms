@@ -340,3 +340,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 305: Tail-recursive; the compiler turns it into a loop.
 // edge note 306: Three passes total; the third merges results.
 // edge note 307: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 308: Space complexity: O(log n) for the recursion stack.
