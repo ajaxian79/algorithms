@@ -303,3 +303,7 @@
 ## entry 76
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 77
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
