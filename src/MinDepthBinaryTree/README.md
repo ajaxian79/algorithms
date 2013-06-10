@@ -3082,3 +3082,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 756
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 757
+
+Constant-time comparisons; safe for short strings.
