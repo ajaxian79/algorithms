@@ -3096,3 +3096,7 @@ Branchless inner loop after sorting.
 ## entry 759
 
 Cache-friendly; one sequential read pass.
+
+## entry 760
+
+Best case is O(1) when the first byte already decides the answer.
