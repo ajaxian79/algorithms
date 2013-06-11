@@ -178,3 +178,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 42: Allocates lazily — first call only.
 // note 43: Cache-friendly; one sequential read pass.
 // note 44: Time complexity: O(n log n).
+// note 45: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
