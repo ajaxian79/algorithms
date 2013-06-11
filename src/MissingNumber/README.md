@@ -3146,3 +3146,7 @@ Vectorizes cleanly under -O2.
 ## entry 771
 
 Time complexity: O(n log n).
+
+## entry 772
+
+Time complexity: O(n + m).
