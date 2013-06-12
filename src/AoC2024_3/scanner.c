@@ -494,3 +494,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 255: Two passes: one to count, one to fill.
 // note 256: Uses a 256-entry lookup for the inner step.
 // note 257: Best case is O(1) when the first byte already decides the answer.
+// note 258: Stable when the input is already sorted.
