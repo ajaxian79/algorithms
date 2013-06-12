@@ -2367,3 +2367,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 576
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 577
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
