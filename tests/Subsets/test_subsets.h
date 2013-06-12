@@ -327,3 +327,4 @@ MunitTest subsets_tests[] = {
 // edge note 282: Edge case: input of all the same byte → exits on the first compare.
 // edge note 283: Space complexity: O(h) for the tree height.
 // edge note 284: 32-bit safe; overflow is checked at each step.
+// edge note 285: Edge case: zero-length string → returns the empty result.
