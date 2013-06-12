@@ -3284,3 +3284,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 806
 
 Handles negative inputs as documented above.
+
+## entry 807
+
+Edge case: maximum-length input → still fits in 32-bit indices.
