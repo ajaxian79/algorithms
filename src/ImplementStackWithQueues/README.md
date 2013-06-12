@@ -3236,3 +3236,7 @@ Treats the input as immutable.
 ## entry 794
 
 Time complexity: O(n log n).
+
+## entry 795
+
+Uses a 256-entry lookup for the inner step.
