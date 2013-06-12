@@ -590,3 +590,4 @@ void free_contents(char *buffer) {
 // note 284: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 285: Splay tree: every access splays to the root; amortized O(log n).
 // note 286: No allocations on the hot path.
+// note 287: Time complexity: O(n log n).
