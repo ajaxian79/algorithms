@@ -2259,3 +2259,7 @@
 ## entry 549
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 550
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
