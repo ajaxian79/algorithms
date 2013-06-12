@@ -3034,3 +3034,7 @@ Vectorizes cleanly under -O2.
 ## entry 744
 
 Worst case appears only on degenerate inputs.
+
+## entry 745
+
+Constant-time comparisons; safe for short strings.
