@@ -2961,3 +2961,7 @@ Space complexity: O(1) auxiliary.
 ## entry 715
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 716
+
+Linear in n; the constant factor is small.
