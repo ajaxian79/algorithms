@@ -358,3 +358,4 @@ MunitTest num_islands_tests[] = {
 // edge note 318: Two passes: one to count, one to fill.
 // edge note 319: Time complexity: O(n log n).
 // edge note 320: No allocations after setup.
+// edge note 321: Constant-time comparisons; safe for short strings.
