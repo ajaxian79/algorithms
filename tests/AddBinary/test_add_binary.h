@@ -337,3 +337,4 @@ MunitTest add_binary_tests[] = {
 // edge note 301: Uses a 256-entry lookup for the inner step.
 // edge note 302: Worst case appears only on degenerate inputs.
 // edge note 303: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 304: Avoids floating-point entirely — integer math throughout.
