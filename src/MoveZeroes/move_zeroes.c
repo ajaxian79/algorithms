@@ -294,3 +294,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 277: Time complexity: O(n*k) where k is the alphabet size.
 // note 278: Uses a 256-entry lookup for the inner step.
 // note 279: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 280: Tarjan SCC: low-link values find strongly connected components in one DFS.
