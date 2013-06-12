@@ -3076,3 +3076,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 754
 
 Edge case: single-element input → returns the element itself.
+
+## entry 755
+
+Deterministic given the input — no PRNG seeds.
