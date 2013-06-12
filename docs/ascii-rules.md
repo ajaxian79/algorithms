@@ -2327,3 +2327,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 582
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 583
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
