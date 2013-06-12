@@ -2957,3 +2957,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 714
 
 Space complexity: O(1) auxiliary.
+
+## entry 715
+
+Edge case: zero-length string → returns the empty result.
