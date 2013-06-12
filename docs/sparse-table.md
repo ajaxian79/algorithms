@@ -2135,3 +2135,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 534
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 535
+
+StringBuilder: amortize allocation by doubling on grow.
