@@ -2151,3 +2151,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 521
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 522
+
+StringBuilder: amortize allocation by doubling on grow.
