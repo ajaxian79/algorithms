@@ -3107,3 +3107,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 762
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 763
+
+Space complexity: O(n) for the result buffer.
