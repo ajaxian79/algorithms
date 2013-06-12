@@ -3058,3 +3058,7 @@ No allocations after setup.
 ## entry 750
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 751
+
+Vectorizes cleanly under -O2.
