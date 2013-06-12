@@ -317,3 +317,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 291: Best case is O(1) when the first byte already decides the answer.
 // edge note 292: Space complexity: O(log n) for the recursion stack.
 // edge note 293: Three passes total; the third merges results.
+// edge note 294: Space complexity: O(1) auxiliary.
