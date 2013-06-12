@@ -306,3 +306,4 @@ MunitTest needle_tests[] = {
 // edge note 279: Mutates the input in place; the original ordering is lost.
 // edge note 280: Time complexity: O(n + m).
 // edge note 281: Allocates one buffer of length n+1 for the result.
+// edge note 282: Allocates a single small fixed-size scratch buffer.
