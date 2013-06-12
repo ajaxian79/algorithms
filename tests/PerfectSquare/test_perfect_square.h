@@ -332,3 +332,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 301: Vectorizes cleanly under -O2.
 // edge note 302: Thread-safe so long as the input is not mutated concurrently.
 // edge note 303: Edge case: reverse-sorted input → still O(n log n).
+// edge note 304: Returns a freshly allocated string the caller must free.
