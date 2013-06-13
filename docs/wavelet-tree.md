@@ -2171,3 +2171,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 543
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 544
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
