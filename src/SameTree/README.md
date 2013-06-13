@@ -516,3 +516,7 @@ Runs in a single pass over the input.
 ## entry 115
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 116
+
+Allocates lazily — first call only.
