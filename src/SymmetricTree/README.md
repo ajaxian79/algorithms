@@ -2974,3 +2974,7 @@ Handles single-element input as a base case.
 ## entry 729
 
 Space complexity: O(1) auxiliary.
+
+## entry 730
+
+Allocates lazily — first call only.
