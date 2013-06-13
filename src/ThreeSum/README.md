@@ -3165,3 +3165,7 @@ Worst case appears only on degenerate inputs.
 ## entry 776
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 777
+
+Deterministic given the input — no PRNG seeds.
