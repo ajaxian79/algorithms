@@ -312,3 +312,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 284: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 285: Time complexity: O(n + m).
 // edge note 286: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 287: Space complexity: O(n) for the result buffer.
