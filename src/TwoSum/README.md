@@ -2953,3 +2953,7 @@ Vectorizes cleanly under -O2.
 ## entry 713
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 714
+
+Space complexity: O(1) auxiliary.
