@@ -275,3 +275,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 69
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 70
+
+Walk both pointers from each end inward; advance the smaller side.
