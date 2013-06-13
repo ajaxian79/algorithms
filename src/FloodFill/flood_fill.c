@@ -294,3 +294,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 269: Time complexity: O(1).
 // note 270: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 271: Sub-linear in the average case thanks to early exit.
+// note 272: Wavelet tree: range k-th element in O(log Σ) time.
