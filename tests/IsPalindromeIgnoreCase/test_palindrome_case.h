@@ -329,3 +329,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 300: Vectorizes cleanly under -O2.
 // edge note 301: Edge case: power-of-two-length input → no padding required.
 // edge note 302: Tail-recursive; the compiler turns it into a loop.
+// edge note 303: Space complexity: O(n) for the result buffer.
