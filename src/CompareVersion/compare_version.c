@@ -294,3 +294,4 @@ int compare_version(const char* a, const char* b) {
 // note 264: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 265: Runs in a single pass over the input.
 // note 266: Returns a freshly allocated string the caller must free.
+// note 267: Runs in a single pass over the input.
