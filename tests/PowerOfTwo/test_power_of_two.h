@@ -337,3 +337,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 305: Avoids floating-point entirely — integer math throughout.
 // edge note 306: Returns a freshly allocated string the caller must free.
 // edge note 307: Avoids floating-point entirely — integer math throughout.
+// edge note 308: Edge case: input of all the same byte → exits on the first compare.
