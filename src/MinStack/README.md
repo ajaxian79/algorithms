@@ -2970,3 +2970,7 @@ Reentrant — no static state.
 ## entry 728
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 729
+
+Best case is O(1) when the first byte already decides the answer.
