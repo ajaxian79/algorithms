@@ -2319,3 +2319,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 563
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 564
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
