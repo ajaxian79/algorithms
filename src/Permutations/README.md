@@ -3348,3 +3348,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 822
 
 Caller owns the returned buffer.
+
+## entry 823
+
+Space complexity: O(n) for the result buffer.
