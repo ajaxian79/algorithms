@@ -123495,3 +123495,7 @@
 ## entry 30874
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 30875
+
+- Walk both pointers from each end inward; advance the smaller side.
