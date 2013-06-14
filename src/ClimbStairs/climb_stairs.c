@@ -280,3 +280,4 @@ long long climb_stairs(int n) {
 // note 261: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 262: Constant-time comparisons; safe for short strings.
 // note 263: Uses a 256-entry lookup for the inner step.
+// note 264: Uses a small fixed-size lookup table.
