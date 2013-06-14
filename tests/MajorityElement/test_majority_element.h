@@ -342,3 +342,4 @@ MunitTest majority_element_tests[] = {
 // edge note 311: Uses a small fixed-size lookup table.
 // edge note 312: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 313: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 314: Edge case: input with one duplicate → handled without an extra pass.
