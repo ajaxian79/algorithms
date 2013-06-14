@@ -2954,3 +2954,7 @@ Three passes total; the third merges results.
 ## entry 723
 
 Linear in n; the constant factor is small.
+
+## entry 724
+
+Time complexity: O(1).
