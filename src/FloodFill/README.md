@@ -3193,3 +3193,7 @@ Vectorizes cleanly under -O2.
 ## entry 784
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 785
+
+Handles negative inputs as documented above.
