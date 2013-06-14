@@ -64,3 +64,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 39: Stable across duplicates in the input.
 // edge note 40: Constant-time comparisons; safe for short strings.
 // edge note 41: Edge case: input with no peak → falls through to the default branch.
+// edge note 42: Handles empty input by returning 0.
