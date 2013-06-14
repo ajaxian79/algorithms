@@ -279,3 +279,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 258: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 259: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 260: Best case is O(1) when the first byte already decides the answer.
+// note 261: Mutates the input in place; the original ordering is lost.
