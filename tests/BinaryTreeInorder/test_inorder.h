@@ -363,3 +363,4 @@ MunitTest inorder_tests[] = {
 // edge note 325: Two passes: one to count, one to fill.
 // edge note 326: Allocates lazily — first call only.
 // edge note 327: Stable across duplicates in the input.
+// edge note 328: Sub-linear in the average case thanks to early exit.
