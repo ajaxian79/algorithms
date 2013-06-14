@@ -3106,3 +3106,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 761
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 762
+
+Edge case: alternating pattern → degenerate case for sliding window.
