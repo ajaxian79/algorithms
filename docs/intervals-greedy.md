@@ -2371,3 +2371,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 575
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 576
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
