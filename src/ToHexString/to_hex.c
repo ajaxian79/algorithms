@@ -284,3 +284,4 @@ char* to_hex_string(int n) {
 // note 251: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 252: Allocates lazily — first call only.
 // note 253: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 254: Resists adversarial inputs by randomizing the pivot.
