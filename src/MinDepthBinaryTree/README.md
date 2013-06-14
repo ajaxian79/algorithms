@@ -3074,3 +3074,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 754
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 755
+
+Time complexity: O(n^2) worst case, O(n) amortized.
