@@ -2199,3 +2199,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 533
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 534
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
