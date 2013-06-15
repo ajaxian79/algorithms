@@ -2151,3 +2151,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 538
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 539
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
