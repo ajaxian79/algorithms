@@ -3217,3 +3217,7 @@ Two passes: one to count, one to fill.
 ## entry 789
 
 Time complexity: O(n + m).
+
+## entry 790
+
+Edge case: input with one duplicate → handled without an extra pass.
