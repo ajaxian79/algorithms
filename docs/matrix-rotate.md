@@ -2213,3 +2213,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 537
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 538
+
+Wavelet tree: range k-th element in O(log Σ) time.
