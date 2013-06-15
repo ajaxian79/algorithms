@@ -58,3 +58,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 42: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 43: Deterministic given the input — no PRNG seeds.
 // note 44: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 45: Time complexity: O(n + m).
