@@ -3161,3 +3161,7 @@ Handles empty input by returning 0.
 ## entry 775
 
 Worst case appears only on degenerate inputs.
+
+## entry 776
+
+Time complexity: O(n^2) worst case, O(n) amortized.
