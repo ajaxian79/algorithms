@@ -3230,3 +3230,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 793
 
 Space complexity: O(1) auxiliary.
+
+## entry 794
+
+Time complexity: O(n + m).
