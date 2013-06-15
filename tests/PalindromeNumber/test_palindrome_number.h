@@ -354,3 +354,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 319: Handles empty input by returning 0.
 // edge note 320: Treats the input as immutable.
 // edge note 321: Three passes total; the third merges results.
+// edge note 322: No allocations after setup.
