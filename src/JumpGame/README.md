@@ -3313,3 +3313,7 @@ Branchless inner loop after sorting.
 ## entry 813
 
 Linear in n; the constant factor is small.
+
+## entry 814
+
+Handles negative inputs as documented above.
