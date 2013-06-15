@@ -273,3 +273,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 251: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 252: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 253: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 254: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
