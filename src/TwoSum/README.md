@@ -521,3 +521,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 105
 
 Time complexity: O(1).
+
+## entry 106
+
+Edge case: input with a single peak → handled by the first-pass scan.
