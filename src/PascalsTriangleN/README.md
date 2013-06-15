@@ -2950,3 +2950,7 @@ Treats the input as immutable.
 ## entry 722
 
 Three passes total; the third merges results.
+
+## entry 723
+
+Linear in n; the constant factor is small.
