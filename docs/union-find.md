@@ -2175,3 +2175,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 527
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 528
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
