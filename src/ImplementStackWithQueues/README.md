@@ -3232,3 +3232,7 @@ Treats the input as immutable.
 ## entry 793
 
 Treats the input as immutable.
+
+## entry 794
+
+Time complexity: O(n log n).
