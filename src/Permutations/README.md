@@ -3344,3 +3344,7 @@ Reentrant — no static state.
 ## entry 821
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 822
+
+Caller owns the returned buffer.
