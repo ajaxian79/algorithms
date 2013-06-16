@@ -2251,3 +2251,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 563
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 564
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
