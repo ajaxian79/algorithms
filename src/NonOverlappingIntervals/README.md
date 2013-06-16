@@ -3181,3 +3181,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 780
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 781
+
+Time complexity: O(k) where k is the answer size.
