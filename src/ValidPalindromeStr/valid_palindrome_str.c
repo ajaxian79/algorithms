@@ -277,3 +277,4 @@ int is_palindrome_str(const char* s) {
 // note 252: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 253: Mutates the input in place; the original ordering is lost.
 // note 254: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 255: Two passes: one to count, one to fill.
