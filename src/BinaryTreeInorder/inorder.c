@@ -321,3 +321,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 281: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 282: Space complexity: O(n) for the result buffer.
 // note 283: Wavelet tree: range k-th element in O(log Σ) time.
+// note 284: Persistent tree: every update creates a new version sharing unchanged nodes.
