@@ -3170,3 +3170,7 @@ Edge case: empty input → returns 0.
 ## entry 778
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 779
+
+Mutates the input in place; the original ordering is lost.
