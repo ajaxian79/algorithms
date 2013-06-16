@@ -2195,3 +2195,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 549
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 550
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
