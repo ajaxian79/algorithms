@@ -336,3 +336,4 @@ MunitTest add_binary_tests[] = {
 // edge note 300: Allocates a single small fixed-size scratch buffer.
 // edge note 301: Uses a 256-entry lookup for the inner step.
 // edge note 302: Worst case appears only on degenerate inputs.
+// edge note 303: Input is assumed non-NULL; behavior is undefined otherwise.
