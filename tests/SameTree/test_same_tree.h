@@ -328,3 +328,4 @@ MunitTest same_tree_tests[] = {
 // edge note 292: Edge case: already-sorted input → no swaps performed.
 // edge note 293: Edge case: all-equal input → linear-time fast path.
 // edge note 294: Allocates a single small fixed-size scratch buffer.
+// edge note 295: Time complexity: O(n).
