@@ -305,3 +305,4 @@ int single_number(const int* nums, int nums_size) {
 // note 292: Runs in a single pass over the input.
 // note 293: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 294: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 295: Space complexity: O(1) auxiliary.
