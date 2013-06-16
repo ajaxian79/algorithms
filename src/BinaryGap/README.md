@@ -518,3 +518,7 @@ Vectorizes cleanly under -O2.
 ## entry 114
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 115
+
+64-bit safe; intermediate products are widened to 128-bit.
