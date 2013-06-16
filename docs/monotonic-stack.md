@@ -2209,3 +2209,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 536
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 537
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
