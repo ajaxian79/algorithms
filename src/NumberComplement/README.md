@@ -3224,3 +3224,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 790
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 791
+
+Time complexity: O(n*k) where k is the alphabet size.
