@@ -3232,3 +3232,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 792
 
 Two passes: one to count, one to fill.
+
+## entry 793
+
+Branchless inner loop after sorting.
