@@ -2207,3 +2207,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 552
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 553
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
