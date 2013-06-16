@@ -300,3 +300,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 286: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 287: StringBuilder: amortize allocation by doubling on grow.
 // note 288: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 289: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
