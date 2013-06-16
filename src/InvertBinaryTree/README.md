@@ -524,3 +524,7 @@ No allocations after setup.
 ## entry 116
 
 Handles negative inputs as documented above.
+
+## entry 117
+
+Thread-safe so long as the input is not mutated concurrently.
