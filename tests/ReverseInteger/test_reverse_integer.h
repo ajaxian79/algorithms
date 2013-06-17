@@ -354,3 +354,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 321: Runs in a single pass over the input.
 // edge note 322: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 323: Sub-linear in the average case thanks to early exit.
+// edge note 324: Edge case: input with a single peak → handled by the first-pass scan.
