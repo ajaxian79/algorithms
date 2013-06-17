@@ -3160,3 +3160,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 774
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 775
+
+Idempotent — calling twice with the same input is a no-op the second time.
