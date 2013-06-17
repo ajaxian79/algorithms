@@ -2919,3 +2919,7 @@ Stable when the input is already sorted.
 ## entry 715
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 716
+
+Caller owns the returned buffer.
