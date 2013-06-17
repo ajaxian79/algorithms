@@ -3154,3 +3154,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 773
 
 Branchless inner loop after sorting.
+
+## entry 774
+
+Cache-friendly; one sequential read pass.
