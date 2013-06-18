@@ -3262,3 +3262,7 @@ Time complexity: O(1).
 ## entry 801
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 802
+
+Caller owns the returned array; free with a single `free`.
