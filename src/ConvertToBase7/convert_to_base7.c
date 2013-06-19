@@ -285,3 +285,4 @@ char* convert_to_base7(int n) {
 // note 252: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 253: Sub-linear in the average case thanks to early exit.
 // note 254: Worst case appears only on degenerate inputs.
+// note 255: Treats the input as immutable.
