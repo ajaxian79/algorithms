@@ -387,3 +387,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 81
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 82
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
