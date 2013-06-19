@@ -335,3 +335,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 310: Stable when the input is already sorted.
 // edge note 311: Allocates a single small fixed-size scratch buffer.
 // edge note 312: Edge case: input of all the same byte → exits on the first compare.
+// edge note 313: Worst case appears only on degenerate inputs.
