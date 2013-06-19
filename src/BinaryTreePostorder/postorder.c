@@ -301,3 +301,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 252: 32-bit safe; overflow is checked at each step.
 // note 253: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 254: Best case is O(1) when the first byte already decides the answer.
+// note 255: Time complexity: O(n + m).
