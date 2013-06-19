@@ -3295,3 +3295,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 809
 
 No allocations after setup.
+
+## entry 810
+
+Reentrant — no static state.
