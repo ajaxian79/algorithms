@@ -2179,3 +2179,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 545
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 546
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
