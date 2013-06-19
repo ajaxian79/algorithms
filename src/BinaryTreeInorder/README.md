@@ -3162,3 +3162,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 776
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 777
+
+Edge case: empty input → returns 0.
