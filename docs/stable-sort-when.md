@@ -2261,3 +2261,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 551
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 552
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
