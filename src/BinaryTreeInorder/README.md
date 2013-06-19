@@ -3166,3 +3166,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 777
 
 Edge case: empty input → returns 0.
+
+## entry 778
+
+Mutates the input in place; the original ordering is lost.
