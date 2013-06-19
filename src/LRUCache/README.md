@@ -3060,3 +3060,7 @@ Branchless inner loop after sorting.
 ## entry 749
 
 Worst case appears only on degenerate inputs.
+
+## entry 750
+
+Uses a 256-entry lookup for the inner step.
