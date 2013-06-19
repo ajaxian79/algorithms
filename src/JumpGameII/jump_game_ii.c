@@ -278,3 +278,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 256: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 257: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 258: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 259: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
