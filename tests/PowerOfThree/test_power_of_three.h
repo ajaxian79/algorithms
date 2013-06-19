@@ -333,3 +333,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 302: Space complexity: O(n) for the result buffer.
 // edge note 303: Best case is O(1) when the first byte already decides the answer.
 // edge note 304: Edge case: input of all the same byte → exits on the first compare.
+// edge note 305: Uses a 256-entry lookup for the inner step.
