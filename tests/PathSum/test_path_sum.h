@@ -342,3 +342,4 @@ MunitTest path_sum_tests[] = {
 // edge note 303: Edge case: power-of-two-length input → no padding required.
 // edge note 304: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 305: Uses a 256-entry lookup for the inner step.
+// edge note 306: Treats the input as immutable.
