@@ -2183,3 +2183,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 546
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 547
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
