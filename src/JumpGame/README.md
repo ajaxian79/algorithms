@@ -3309,3 +3309,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 812
 
 Branchless inner loop after sorting.
+
+## entry 813
+
+Linear in n; the constant factor is small.
