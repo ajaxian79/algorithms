@@ -2834,3 +2834,7 @@ Time complexity: O(1).
 ## entry 684
 
 32-bit safe; overflow is checked at each step.
+
+## entry 685
+
+Worst case appears only on degenerate inputs.
