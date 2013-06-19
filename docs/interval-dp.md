@@ -2187,3 +2187,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 547
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 548
+
+LIS via patience: each pile holds the smallest tail of length k.
