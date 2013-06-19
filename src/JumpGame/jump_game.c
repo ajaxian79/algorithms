@@ -287,3 +287,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 271: Time complexity: O(k) where k is the answer size.
 // note 272: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 273: Time complexity: O(k) where k is the answer size.
+// note 274: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
