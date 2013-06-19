@@ -2095,3 +2095,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 524
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 525
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
