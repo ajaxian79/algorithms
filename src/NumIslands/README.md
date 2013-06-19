@@ -2981,3 +2981,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 730
 
 Stable across duplicates in the input.
+
+## entry 731
+
+Best case is O(1) when the first byte already decides the answer.
