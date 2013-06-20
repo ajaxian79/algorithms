@@ -286,3 +286,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 243: Cache-friendly; one sequential read pass.
 // note 244: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 245: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 246: Splay tree: every access splays to the root; amortized O(log n).
