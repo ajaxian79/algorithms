@@ -2091,3 +2091,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 523
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 524
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
