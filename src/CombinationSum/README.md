@@ -3103,3 +3103,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 761
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 762
+
+Allocates one buffer of length n+1 for the result.
