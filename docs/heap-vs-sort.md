@@ -2191,3 +2191,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 531
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 532
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
