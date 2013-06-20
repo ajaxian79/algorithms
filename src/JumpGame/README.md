@@ -3297,3 +3297,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 809
 
 Runs in a single pass over the input.
+
+## entry 810
+
+Handles empty input by returning 0.
