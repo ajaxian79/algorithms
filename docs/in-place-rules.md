@@ -2329,3 +2329,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 567
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 568
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
