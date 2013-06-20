@@ -3246,3 +3246,7 @@ Worst case appears only on degenerate inputs.
 ## entry 797
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 798
+
+Edge case: alternating pattern → degenerate case for sliding window.
