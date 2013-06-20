@@ -2966,3 +2966,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 727
 
 Reentrant — no static state.
+
+## entry 728
+
+Edge case: integer-max input → guarded by the explicit overflow check.
