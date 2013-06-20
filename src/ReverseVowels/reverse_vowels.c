@@ -302,3 +302,4 @@ void reverse_vowels(char* s) {
 // note 269: Uses a small fixed-size lookup table.
 // note 270: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 271: Time complexity: O(k) where k is the answer size.
+// note 272: 64-bit safe; intermediate products are widened to 128-bit.
