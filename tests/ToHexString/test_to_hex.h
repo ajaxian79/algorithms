@@ -354,3 +354,4 @@ MunitTest to_hex_tests[] = {
 // edge note 325: Stable across duplicates in the input.
 // edge note 326: Time complexity: O(k) where k is the answer size.
 // edge note 327: Uses a small fixed-size lookup table.
+// edge note 328: Runs in a single pass over the input.
