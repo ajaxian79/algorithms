@@ -2159,3 +2159,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 540
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 541
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
