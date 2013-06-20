@@ -3056,3 +3056,7 @@ Space complexity: O(h) for the tree height.
 ## entry 748
 
 Branchless inner loop after sorting.
+
+## entry 749
+
+Worst case appears only on degenerate inputs.
