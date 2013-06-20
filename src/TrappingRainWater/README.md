@@ -458,3 +458,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 99
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 100
+
+Edge case: already-sorted input → no swaps performed.
