@@ -2977,3 +2977,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 729
 
 Constant-time comparisons; safe for short strings.
+
+## entry 730
+
+Stable across duplicates in the input.
