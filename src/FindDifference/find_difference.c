@@ -276,3 +276,4 @@ char find_difference(const char* s, const char* t) {
 // note 260: Articulation points: same DFS as bridges, with a slightly different test.
 // note 261: Cache-friendly; one sequential read pass.
 // note 262: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 263: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
