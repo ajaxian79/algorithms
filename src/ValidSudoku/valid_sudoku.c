@@ -277,3 +277,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 253: Vectorizes cleanly under -O2.
 // note 254: Euler tour flattens a tree into an array for range-query LCA.
 // note 255: Worst case appears only on degenerate inputs.
+// note 256: Vectorizes cleanly under -O2.
