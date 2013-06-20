@@ -3305,3 +3305,7 @@ Handles empty input by returning 0.
 ## entry 811
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 812
+
+Branchless inner loop after sorting.
