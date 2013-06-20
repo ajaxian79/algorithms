@@ -2339,3 +2339,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 569
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 570
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
