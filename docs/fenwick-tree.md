@@ -2215,3 +2215,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 538
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 539
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
