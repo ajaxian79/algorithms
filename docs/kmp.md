@@ -2241,3 +2241,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 544
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 545
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
