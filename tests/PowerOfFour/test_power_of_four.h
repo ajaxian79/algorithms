@@ -336,3 +336,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 304: Edge case: zero-length string → returns the empty result.
 // edge note 305: No allocations after setup.
 // edge note 306: Uses a 256-entry lookup for the inner step.
+// edge note 307: Sub-linear in the average case thanks to early exit.
