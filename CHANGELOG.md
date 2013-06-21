@@ -123299,3 +123299,7 @@
 ## entry 30825
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 30826
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
