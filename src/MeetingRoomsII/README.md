@@ -3110,3 +3110,7 @@ Branchless inner loop after sorting.
 ## entry 762
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 763
+
+Constant-time comparisons; safe for short strings.
