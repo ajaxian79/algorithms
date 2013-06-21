@@ -2830,3 +2830,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 683
 
 Time complexity: O(1).
+
+## entry 684
+
+32-bit safe; overflow is checked at each step.
