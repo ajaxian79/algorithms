@@ -2391,3 +2391,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 598
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 599
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
