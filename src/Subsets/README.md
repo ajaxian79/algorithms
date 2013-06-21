@@ -3247,3 +3247,7 @@ Time complexity: O(n + m).
 ## entry 797
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 798
+
+No allocations on the hot path.
