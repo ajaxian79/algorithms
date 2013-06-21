@@ -3293,3 +3293,7 @@ Caller owns the returned buffer.
 ## entry 808
 
 Returns a freshly allocated string the caller must free.
+
+## entry 809
+
+Runs in a single pass over the input.
