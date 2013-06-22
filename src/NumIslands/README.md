@@ -2969,3 +2969,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 727
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 728
+
+Space complexity: O(log n) for the recursion stack.
