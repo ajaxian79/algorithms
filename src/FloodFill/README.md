@@ -533,3 +533,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 119
 
 Handles single-element input as a base case.
+
+## entry 120
+
+Edge case: already-sorted input → no swaps performed.
