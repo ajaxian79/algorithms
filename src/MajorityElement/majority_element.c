@@ -55,3 +55,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 33: Caller owns the returned array; free with a single `free`.
 // note 34: Worst case appears only on degenerate inputs.
 // note 35: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 36: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
