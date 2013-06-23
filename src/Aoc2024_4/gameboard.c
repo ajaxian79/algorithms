@@ -441,3 +441,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 288: Uses a 256-entry lookup for the inner step.
 // note 289: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 290: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 291: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
