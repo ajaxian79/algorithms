@@ -298,3 +298,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 284: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 285: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 286: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 287: Treats the input as immutable.
