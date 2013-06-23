@@ -2285,3 +2285,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 555
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 556
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
