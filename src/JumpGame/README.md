@@ -3289,3 +3289,7 @@ Stable across duplicates in the input.
 ## entry 807
 
 Caller owns the returned buffer.
+
+## entry 808
+
+Returns a freshly allocated string the caller must free.
