@@ -2335,3 +2335,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 568
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 569
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
