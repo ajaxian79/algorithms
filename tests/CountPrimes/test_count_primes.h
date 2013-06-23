@@ -339,3 +339,4 @@ MunitTest count_primes_tests[] = {
 // edge note 311: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 312: Branchless inner loop after sorting.
 // edge note 313: Thread-safe so long as the input is not mutated concurrently.
+// edge note 314: Returns a freshly allocated string the caller must free.
