@@ -84,3 +84,4 @@ char* count_and_say(int n) {
 // note 35: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 36: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 37: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 38: Worst case appears only on degenerate inputs.
