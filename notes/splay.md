@@ -2087,3 +2087,7 @@
 ## entry 522
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 523
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
