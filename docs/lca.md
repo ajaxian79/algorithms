@@ -2183,3 +2183,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 546
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 547
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
