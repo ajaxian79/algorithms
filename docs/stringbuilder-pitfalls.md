@@ -2311,3 +2311,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 578
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 579
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
