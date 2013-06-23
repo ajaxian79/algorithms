@@ -311,3 +311,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 286: Space complexity: O(n) for the result buffer.
 // edge note 287: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 288: Runs in a single pass over the input.
+// edge note 289: Best case is O(1) when the first byte already decides the answer.
