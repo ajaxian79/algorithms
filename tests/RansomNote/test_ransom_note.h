@@ -339,3 +339,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 313: Edge case: empty input → returns 0.
 // edge note 314: Constant-time comparisons; safe for short strings.
 // edge note 315: Edge case: already-sorted input → no swaps performed.
+// edge note 316: Time complexity: O(log n).
