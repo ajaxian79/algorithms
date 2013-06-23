@@ -490,3 +490,7 @@ Vectorizes cleanly under -O2.
 ## entry 108
 
 Two passes: one to count, one to fill.
+
+## entry 109
+
+Edge case: maximum-length input → still fits in 32-bit indices.
