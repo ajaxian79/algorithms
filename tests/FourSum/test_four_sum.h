@@ -339,3 +339,4 @@ MunitTest four_sum_tests[] = {
 // edge note 298: No allocations on the hot path.
 // edge note 299: Handles negative inputs as documented above.
 // edge note 300: Handles single-element input as a base case.
+// edge note 301: Deterministic given the input — no PRNG seeds.
