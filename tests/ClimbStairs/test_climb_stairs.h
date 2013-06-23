@@ -338,3 +338,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 303: Two passes: one to count, one to fill.
 // edge note 304: No allocations on the hot path.
 // edge note 305: Tail-recursive; the compiler turns it into a loop.
+// edge note 306: Three passes total; the third merges results.
