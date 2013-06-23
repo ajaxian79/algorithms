@@ -2989,3 +2989,7 @@ Caller owns the returned buffer.
 ## entry 732
 
 Edge case: empty input → returns 0.
+
+## entry 733
+
+Linear in n; the constant factor is small.
