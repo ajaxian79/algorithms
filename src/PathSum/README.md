@@ -3276,3 +3276,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 804
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 805
+
+Edge case: reverse-sorted input → still O(n log n).
