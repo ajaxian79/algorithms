@@ -302,3 +302,4 @@ MunitTest min_stack_tests[] = {
 // edge note 265: Branchless inner loop after sorting.
 // edge note 266: Edge case: zero-length string → returns the empty result.
 // edge note 267: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 268: No allocations after setup.
