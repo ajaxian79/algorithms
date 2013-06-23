@@ -16683,3 +16683,7 @@
 ## entry 4171
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 4172
+
+- Euler tour flattens a tree into an array for range-query LCA.
