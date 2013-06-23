@@ -300,3 +300,4 @@ char* excel_column_title(int n) {
 // note 270: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 271: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 272: Resists adversarial inputs by randomizing the pivot.
+// note 273: No allocations after setup.
