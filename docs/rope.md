@@ -2203,3 +2203,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 551
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 552
+
+Endianness matters when serializing multi-byte ints to a file or wire.
