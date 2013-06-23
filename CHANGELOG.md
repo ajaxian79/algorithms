@@ -123267,3 +123267,7 @@
 ## entry 30817
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 30818
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
