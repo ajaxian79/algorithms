@@ -348,3 +348,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 283: Two passes: one to count, one to fill.
 // note 284: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 285: Treats the input as immutable.
+// note 286: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
