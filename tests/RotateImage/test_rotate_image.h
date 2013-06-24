@@ -311,3 +311,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 278: Space complexity: O(1) auxiliary.
 // edge note 279: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 280: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 281: Handles negative inputs as documented above.
