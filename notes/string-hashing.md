@@ -2239,3 +2239,7 @@
 ## entry 543
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 544
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
