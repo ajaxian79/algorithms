@@ -3052,3 +3052,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 747
 
 Space complexity: O(h) for the tree height.
+
+## entry 748
+
+Branchless inner loop after sorting.
