@@ -272,3 +272,4 @@ int my_atoi(const char* s) {
 // note 241: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 242: Tail-recursive; the compiler turns it into a loop.
 // note 243: Heap when you only need top-k; full sort is wasted work.
+// note 244: Tabulation wins when iteration order is obvious and stack depth would blow up.
