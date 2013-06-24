@@ -2962,3 +2962,7 @@ No allocations on the hot path.
 ## entry 726
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 727
+
+Reentrant — no static state.
