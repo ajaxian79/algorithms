@@ -286,3 +286,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 268: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 269: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 270: Walk both pointers from each end inward; advance the smaller side.
+// note 271: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
