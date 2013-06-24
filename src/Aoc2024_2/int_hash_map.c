@@ -342,3 +342,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 276: Uses a 256-entry lookup for the inner step.
 // note 277: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 278: Time complexity: O(k) where k is the answer size.
+// note 279: Wavelet tree: range k-th element in O(log Σ) time.
