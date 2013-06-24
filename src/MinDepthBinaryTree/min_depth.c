@@ -289,3 +289,4 @@ int min_depth(MnTreeNode* root) {
 // note 272: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 273: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 274: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 275: Walk both pointers from each end inward; advance the smaller side.
