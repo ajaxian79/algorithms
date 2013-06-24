@@ -1935,3 +1935,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 484
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 485
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
