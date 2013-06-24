@@ -2915,3 +2915,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 714
 
 Stable when the input is already sorted.
+
+## entry 715
+
+Edge case: input of all the same byte → exits on the first compare.
