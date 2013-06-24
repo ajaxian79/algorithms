@@ -2143,3 +2143,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 536
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 537
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
