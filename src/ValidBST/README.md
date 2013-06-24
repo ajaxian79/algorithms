@@ -3201,3 +3201,7 @@ Allocates lazily — first call only.
 ## entry 785
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 786
+
+Time complexity: O(1).
