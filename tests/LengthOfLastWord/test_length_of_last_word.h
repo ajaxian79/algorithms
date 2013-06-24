@@ -315,3 +315,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 288: Edge case: reverse-sorted input → still O(n log n).
 // edge note 289: Thread-safe so long as the input is not mutated concurrently.
 // edge note 290: Branchless inner loop after sorting.
+// edge note 291: Space complexity: O(1) auxiliary.
