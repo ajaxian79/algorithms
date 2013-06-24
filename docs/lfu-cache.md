@@ -2183,3 +2183,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 546
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 547
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
