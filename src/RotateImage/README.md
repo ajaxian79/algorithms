@@ -3181,3 +3181,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 780
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 781
+
+Edge case: input with no peak → falls through to the default branch.
