@@ -3220,3 +3220,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 790
 
 Reentrant — no static state.
+
+## entry 791
+
+32-bit safe; overflow is checked at each step.
