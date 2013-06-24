@@ -3136,3 +3136,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 768
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 769
+
+Runs in a single pass over the input.
