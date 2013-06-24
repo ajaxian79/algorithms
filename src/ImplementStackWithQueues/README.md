@@ -3228,3 +3228,7 @@ Treats the input as immutable.
 ## entry 792
 
 32-bit safe; overflow is checked at each step.
+
+## entry 793
+
+Treats the input as immutable.
