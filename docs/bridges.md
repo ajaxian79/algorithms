@@ -2275,3 +2275,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 569
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 570
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
