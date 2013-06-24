@@ -123231,3 +123231,7 @@
 ## entry 30808
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 30809
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
