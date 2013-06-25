@@ -454,3 +454,7 @@ Vectorizes cleanly under -O2.
 ## entry 98
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 99
+
+64-bit safe; intermediate products are widened to 128-bit.
