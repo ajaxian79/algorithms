@@ -3262,3 +3262,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 800
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 801
+
+No allocations on the hot path.
