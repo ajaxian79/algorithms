@@ -285,3 +285,4 @@ int is_symmetric(STreeNode* root) {
 // note 266: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 267: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 268: Union-Find with path compression amortizes to near-O(1) per op.
+// note 269: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
