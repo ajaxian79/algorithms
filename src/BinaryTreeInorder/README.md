@@ -3158,3 +3158,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 775
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 776
+
+Avoids floating-point entirely — integer math throughout.
