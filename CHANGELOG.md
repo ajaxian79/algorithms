@@ -123227,3 +123227,7 @@
 ## entry 30807
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 30808
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
