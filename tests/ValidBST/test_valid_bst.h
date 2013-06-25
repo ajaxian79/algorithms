@@ -341,3 +341,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 298: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 299: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 300: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 301: Sub-linear in the average case thanks to early exit.
