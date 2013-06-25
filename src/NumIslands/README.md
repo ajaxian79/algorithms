@@ -2965,3 +2965,7 @@ Two passes: one to count, one to fill.
 ## entry 726
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 727
+
+Time complexity: O(n^2) worst case, O(n) amortized.
