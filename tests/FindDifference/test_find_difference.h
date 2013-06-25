@@ -298,3 +298,4 @@ MunitTest find_difference_tests[] = {
 // edge note 273: Edge case: input with no peak → falls through to the default branch.
 // edge note 274: Edge case: power-of-two-length input → no padding required.
 // edge note 275: Stable when the input is already sorted.
+// edge note 276: Reentrant — no static state.
