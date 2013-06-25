@@ -3116,3 +3116,7 @@ Worst case appears only on degenerate inputs.
 ## entry 764
 
 Edge case: single-element input → returns the element itself.
+
+## entry 765
+
+Edge case: integer-max input → guarded by the explicit overflow check.
