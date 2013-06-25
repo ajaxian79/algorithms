@@ -2201,3 +2201,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 534
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 535
+
+Monotonic stack pops while the new element violates the invariant.
