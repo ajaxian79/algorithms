@@ -3177,3 +3177,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 779
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 780
+
+Edge case: input of all the same byte → exits on the first compare.
