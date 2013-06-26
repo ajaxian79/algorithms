@@ -261,3 +261,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 245: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 246: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 247: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 248: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
