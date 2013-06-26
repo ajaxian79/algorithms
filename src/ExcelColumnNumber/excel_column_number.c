@@ -289,3 +289,4 @@ int excel_column_number(const char* s) {
 // note 272: Returns a freshly allocated string the caller must free.
 // note 273: Caller owns the returned array; free with a single `free`.
 // note 274: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 275: State compression: bitmask + integer encodes a small subset cheaply.
