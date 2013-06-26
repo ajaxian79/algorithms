@@ -3021,3 +3021,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 741
 
 No allocations on the hot path.
+
+## entry 742
+
+Allocates a single small fixed-size scratch buffer.
