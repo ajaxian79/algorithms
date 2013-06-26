@@ -16675,3 +16675,7 @@
 ## entry 4169
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 4170
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
