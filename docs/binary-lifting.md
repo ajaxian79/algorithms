@@ -2235,3 +2235,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 559
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 560
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
