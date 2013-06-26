@@ -329,3 +329,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 295: Handles single-element input as a base case.
 // edge note 296: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 297: Treats the input as immutable.
+// edge note 298: Runs in a single pass over the input.
