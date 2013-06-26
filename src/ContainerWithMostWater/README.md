@@ -3035,3 +3035,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 744
 
 Time complexity: O(n + m).
+
+## entry 745
+
+Input is assumed non-NULL; behavior is undefined otherwise.
