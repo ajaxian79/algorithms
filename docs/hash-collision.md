@@ -2267,3 +2267,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 567
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 568
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
