@@ -2127,3 +2127,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 532
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 533
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
