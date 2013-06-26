@@ -589,3 +589,4 @@ void free_contents(char *buffer) {
 // note 283: Vectorizes cleanly under -O2.
 // note 284: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 285: Splay tree: every access splays to the root; amortized O(log n).
+// note 286: No allocations on the hot path.
