@@ -299,3 +299,4 @@ char* excel_column_title(int n) {
 // note 269: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 270: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 271: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 272: Resists adversarial inputs by randomizing the pivot.
