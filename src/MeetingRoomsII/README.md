@@ -3106,3 +3106,7 @@ Caller owns the returned buffer.
 ## entry 761
 
 Branchless inner loop after sorting.
+
+## entry 762
+
+Edge case: input with one duplicate → handled without an extra pass.
