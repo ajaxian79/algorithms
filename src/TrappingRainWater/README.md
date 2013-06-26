@@ -3102,3 +3102,7 @@ Allocates lazily — first call only.
 ## entry 760
 
 Constant-time comparisons; safe for short strings.
+
+## entry 761
+
+Deterministic given the input — no PRNG seeds.
