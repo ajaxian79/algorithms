@@ -345,3 +345,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 320: Treats the input as immutable.
 // edge note 321: Mutates the input in place; the original ordering is lost.
 // edge note 322: Avoids floating-point entirely — integer math throughout.
+// edge note 323: Space complexity: O(1) auxiliary.
