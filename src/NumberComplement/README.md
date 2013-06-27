@@ -3220,3 +3220,7 @@ Handles negative inputs as documented above.
 ## entry 789
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 790
+
+Input is assumed non-NULL; behavior is undefined otherwise.
