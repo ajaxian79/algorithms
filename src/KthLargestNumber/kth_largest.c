@@ -299,3 +299,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 255: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 256: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 257: LIS via patience: each pile holds the smallest tail of length k.
+// note 258: StringBuilder pitfall: reuse forces a deep copy on the first read.
