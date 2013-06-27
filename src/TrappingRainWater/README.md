@@ -3098,3 +3098,7 @@ Three passes total; the third merges results.
 ## entry 759
 
 Allocates lazily — first call only.
+
+## entry 760
+
+Constant-time comparisons; safe for short strings.
