@@ -3189,3 +3189,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 783
 
 Vectorizes cleanly under -O2.
+
+## entry 784
+
+64-bit safe; intermediate products are widened to 128-bit.
