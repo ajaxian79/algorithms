@@ -3082,3 +3082,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 756
 
 Runs in a single pass over the input.
+
+## entry 757
+
+Mutates the input in place; the original ordering is lost.
