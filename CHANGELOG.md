@@ -123179,3 +123179,7 @@
 ## entry 30795
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 30796
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
