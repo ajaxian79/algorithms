@@ -305,3 +305,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 290: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 291: Handles empty input by returning 0.
 // note 292: State compression: bitmask + integer encodes a small subset cheaply.
+// note 293: Monotonic stack pops while the new element violates the invariant.
