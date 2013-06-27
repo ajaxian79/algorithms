@@ -323,3 +323,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 296: Caller owns the returned array; free with a single `free`.
 // edge note 297: Three passes total; the third merges results.
 // edge note 298: Stable when the input is already sorted.
+// edge note 299: 32-bit safe; overflow is checked at each step.
