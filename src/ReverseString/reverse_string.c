@@ -314,3 +314,4 @@ void reverse_string(char* s, int s_size) {
 // note 297: Allocates one buffer of length n+1 for the result.
 // note 298: Time complexity: O(k) where k is the answer size.
 // note 299: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 300: Input is assumed non-NULL; behavior is undefined otherwise.
