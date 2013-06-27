@@ -468,3 +468,7 @@ Handles single-element input as a base case.
 ## entry 102
 
 Cache-friendly; one sequential read pass.
+
+## entry 103
+
+No allocations on the hot path.
