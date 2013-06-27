@@ -3092,3 +3092,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 758
 
 Branchless inner loop after sorting.
+
+## entry 759
+
+Cache-friendly; one sequential read pass.
