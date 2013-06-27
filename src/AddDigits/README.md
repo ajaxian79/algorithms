@@ -3112,3 +3112,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 763
 
 Worst case appears only on degenerate inputs.
+
+## entry 764
+
+Edge case: single-element input → returns the element itself.
