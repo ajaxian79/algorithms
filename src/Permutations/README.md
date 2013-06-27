@@ -3340,3 +3340,7 @@ Three passes total; the third merges results.
 ## entry 820
 
 Reentrant — no static state.
+
+## entry 821
+
+Idempotent — calling twice with the same input is a no-op the second time.
