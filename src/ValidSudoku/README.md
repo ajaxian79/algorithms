@@ -3239,3 +3239,7 @@ Two passes: one to count, one to fill.
 ## entry 794
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 795
+
+Thread-safe so long as the input is not mutated concurrently.
