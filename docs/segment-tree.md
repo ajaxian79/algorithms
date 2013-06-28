@@ -2203,3 +2203,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 533
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 534
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
