@@ -3260,3 +3260,7 @@ Edge case: empty input → returns 0.
 ## entry 800
 
 Uses a small fixed-size lookup table.
+
+## entry 801
+
+Space complexity: O(h) for the tree height.
