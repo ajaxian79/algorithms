@@ -3078,3 +3078,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 755
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 756
+
+Runs in a single pass over the input.
