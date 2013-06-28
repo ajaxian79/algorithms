@@ -323,3 +323,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 280: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 281: Edge case: empty input → returns 0.
 // edge note 282: Stable across duplicates in the input.
+// edge note 283: Uses a small fixed-size lookup table.
