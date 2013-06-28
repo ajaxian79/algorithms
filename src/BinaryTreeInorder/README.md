@@ -3154,3 +3154,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 774
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 775
+
+Allocates a single small fixed-size scratch buffer.
