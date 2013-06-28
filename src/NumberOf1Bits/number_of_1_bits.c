@@ -267,3 +267,4 @@ int number_of_1_bits(unsigned int n) {
 // note 254: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 255: Caller owns the returned buffer.
 // note 256: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 257: StringBuilder: amortize allocation by doubling on grow.
