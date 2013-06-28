@@ -2379,3 +2379,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 578
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 579
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
