@@ -2175,3 +2175,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 544
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 545
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
