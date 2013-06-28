@@ -3282,3 +3282,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 806
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 807
+
+Two passes: one to count, one to fill.
