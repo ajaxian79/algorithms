@@ -123131,3 +123131,7 @@
 ## entry 30783
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 30784
+
+- Heap when you only need top-k; full sort is wasted work.
