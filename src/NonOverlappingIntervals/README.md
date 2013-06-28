@@ -3177,3 +3177,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 779
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 780
+
+Edge case: input with one duplicate → handled without an extra pass.
