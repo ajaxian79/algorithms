@@ -2233,3 +2233,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 542
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 543
+
+In-place compaction uses two pointers: read advances always, write only on keep.
