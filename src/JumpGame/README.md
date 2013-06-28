@@ -3285,3 +3285,7 @@ Caller owns the returned buffer.
 ## entry 806
 
 Stable across duplicates in the input.
+
+## entry 807
+
+Caller owns the returned buffer.
