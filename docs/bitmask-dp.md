@@ -2299,3 +2299,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 575
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 576
+
+Merge intervals: sort by start; extend the running interval while overlapping.
