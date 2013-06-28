@@ -3072,3 +3072,7 @@ Time complexity: O(n).
 ## entry 753
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 754
+
+Edge case: single-element input → returns the element itself.
