@@ -3096,3 +3096,7 @@ Handles single-element input as a base case.
 ## entry 758
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 759
+
+Edge case: already-sorted input → no swaps performed.
