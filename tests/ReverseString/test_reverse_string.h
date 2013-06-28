@@ -342,3 +342,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 304: Avoids floating-point entirely — integer math throughout.
 // edge note 305: Linear in n; the constant factor is small.
 // edge note 306: Thread-safe so long as the input is not mutated concurrently.
+// edge note 307: Uses a 256-entry lookup for the inner step.
