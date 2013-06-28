@@ -2179,3 +2179,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 545
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 546
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
