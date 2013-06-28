@@ -295,3 +295,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 266: Time complexity: O(n + m).
 // edge note 267: Edge case: reverse-sorted input → still O(n log n).
 // edge note 268: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 269: Sub-linear in the average case thanks to early exit.
