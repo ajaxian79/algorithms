@@ -534,3 +534,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 119
 
 Handles negative inputs as documented above.
+
+## entry 120
+
+Sub-linear in the average case thanks to early exit.
