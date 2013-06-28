@@ -371,3 +371,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 311: Tail-recursive; the compiler turns it into a loop.
 // edge note 312: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 313: Time complexity: O(n log n).
+// edge note 314: Input is assumed non-NULL; behavior is undefined otherwise.
