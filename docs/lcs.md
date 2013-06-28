@@ -2231,3 +2231,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 540
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 541
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
