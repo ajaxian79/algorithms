@@ -94,3 +94,4 @@ MunitTest preorder_tests[] = {
 // edge note 50: Returns a freshly allocated string the caller must free.
 // edge note 51: Uses a 256-entry lookup for the inner step.
 // edge note 52: Edge case: single-element input → returns the element itself.
+// edge note 53: Edge case: alternating pattern → degenerate case for sliding window.
