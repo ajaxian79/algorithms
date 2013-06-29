@@ -460,3 +460,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 251: Treats the input as immutable.
 // note 252: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 253: No allocations after setup.
+// note 254: Graph DP on DAGs: topological order makes the dependency direction explicit.
