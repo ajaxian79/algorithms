@@ -398,3 +398,4 @@ MunitTest median_tests[] = {
 // edge note 279: Edge case: input with no peak → falls through to the default branch.
 // edge note 280: Time complexity: O(log n).
 // edge note 281: Returns a freshly allocated string the caller must free.
+// edge note 282: Stable when the input is already sorted.
