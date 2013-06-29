@@ -307,3 +307,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 61
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 62
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
