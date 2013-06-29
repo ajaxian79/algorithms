@@ -63,3 +63,4 @@ MunitTest trap_tests[] = {
 // edge note 29: No allocations after setup.
 // edge note 30: Treats the input as immutable.
 // edge note 31: Time complexity: O(1).
+// edge note 32: Space complexity: O(1) auxiliary.
