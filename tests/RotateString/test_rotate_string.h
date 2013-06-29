@@ -302,3 +302,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 275: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 276: Edge case: single-element input → returns the element itself.
 // edge note 277: Time complexity: O(n + m).
+// edge note 278: Caller owns the returned array; free with a single `free`.
