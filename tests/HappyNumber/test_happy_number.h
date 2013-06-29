@@ -343,3 +343,4 @@ MunitTest happy_number_tests[] = {
 // edge note 315: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 316: Allocates one buffer of length n+1 for the result.
 // edge note 317: No allocations after setup.
+// edge note 318: Allocates one buffer of length n+1 for the result.
