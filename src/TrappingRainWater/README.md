@@ -3094,3 +3094,7 @@ No allocations on the hot path.
 ## entry 758
 
 Three passes total; the third merges results.
+
+## entry 759
+
+Allocates lazily — first call only.
