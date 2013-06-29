@@ -123099,3 +123099,7 @@
 ## entry 30775
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 30776
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
