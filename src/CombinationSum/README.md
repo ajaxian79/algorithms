@@ -523,3 +523,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 116
 
 Edge case: empty input → returns 0.
+
+## entry 117
+
+32-bit safe; overflow is checked at each step.
