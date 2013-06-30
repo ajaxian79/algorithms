@@ -2175,3 +2175,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 544
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 545
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
