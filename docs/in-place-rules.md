@@ -2325,3 +2325,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 566
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 567
+
+In-place compaction uses two pointers: read advances always, write only on keep.
