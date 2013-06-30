@@ -291,3 +291,4 @@ int is_power_of_four(int n) {
 // note 278: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 279: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 280: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 281: Walk both pointers from each end inward; advance the smaller side.
