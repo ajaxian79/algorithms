@@ -316,3 +316,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 283: Allocates lazily — first call only.
 // edge note 284: Thread-safe so long as the input is not mutated concurrently.
 // edge note 285: Reentrant — no static state.
+// edge note 286: Edge case: NULL input is rejected by the caller, not by us.
