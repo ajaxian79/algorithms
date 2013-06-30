@@ -1927,3 +1927,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 482
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 483
+
+Greedy by end-time picks the most non-overlapping intervals.
