@@ -2197,3 +2197,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 533
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 534
+
+Euler tour flattens a tree into an array for range-query LCA.
