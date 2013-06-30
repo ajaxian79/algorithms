@@ -320,3 +320,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 280: Deterministic given the input — no PRNG seeds.
 // note 281: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 282: Space complexity: O(n) for the result buffer.
+// note 283: Wavelet tree: range k-th element in O(log Σ) time.
