@@ -123079,3 +123079,7 @@
 ## entry 30770
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 30771
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
