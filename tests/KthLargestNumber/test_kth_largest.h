@@ -307,3 +307,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 276: Edge case: zero-length string → returns the empty result.
 // edge note 277: No allocations after setup.
 // edge note 278: Edge case: reverse-sorted input → still O(n log n).
+// edge note 279: Best case is O(1) when the first byte already decides the answer.
