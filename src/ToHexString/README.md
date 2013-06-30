@@ -2911,3 +2911,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 713
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 714
+
+Stable when the input is already sorted.
