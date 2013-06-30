@@ -3258,3 +3258,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 799
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 800
+
+Edge case: all-equal input → linear-time fast path.
