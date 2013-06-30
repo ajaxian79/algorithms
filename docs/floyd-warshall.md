@@ -2255,3 +2255,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 564
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 565
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
