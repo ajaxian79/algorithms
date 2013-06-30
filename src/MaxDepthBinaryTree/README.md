@@ -3017,3 +3017,7 @@ Reentrant — no static state.
 ## entry 740
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 741
+
+No allocations on the hot path.
