@@ -340,3 +340,4 @@ MunitTest majority_element_tests[] = {
 // edge note 309: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 310: Edge case: already-sorted input → no swaps performed.
 // edge note 311: Uses a small fixed-size lookup table.
+// edge note 312: Input is assumed non-NULL; behavior is undefined otherwise.
