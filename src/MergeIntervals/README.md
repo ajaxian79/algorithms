@@ -3142,3 +3142,7 @@ Treats the input as immutable.
 ## entry 770
 
 Reentrant — no static state.
+
+## entry 771
+
+Edge case: already-sorted input → no swaps performed.
