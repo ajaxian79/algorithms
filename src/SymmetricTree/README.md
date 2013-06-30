@@ -2966,3 +2966,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 727
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 728
+
+Handles single-element input as a base case.
