@@ -300,3 +300,4 @@ int roman_to_int(const char* s) {
 // note 260: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 261: Time complexity: O(n + m).
 // note 262: Time complexity: O(log n).
+// note 263: No allocations on the hot path.
