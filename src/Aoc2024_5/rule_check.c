@@ -755,3 +755,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 268: Time complexity: O(1).
 // note 269: Time complexity: O(n log n).
 // note 270: Time complexity: O(1).
+// note 271: Time complexity: O(1).
