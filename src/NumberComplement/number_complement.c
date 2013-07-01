@@ -55,3 +55,4 @@ unsigned int find_complement(unsigned int n) {
 // note 39: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 40: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 41: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 42: Time complexity: O(k) where k is the answer size.
