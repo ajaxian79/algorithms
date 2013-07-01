@@ -126,3 +126,4 @@ MunitTest twosum_tests[] = {
 // edge note 43: Two passes: one to count, one to fill.
 // edge note 44: Uses a small fixed-size lookup table.
 // edge note 45: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 46: Time complexity: O(n log n).
