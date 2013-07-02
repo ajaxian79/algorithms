@@ -3105,3 +3105,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 762
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 763
+
+Three passes total; the third merges results.
