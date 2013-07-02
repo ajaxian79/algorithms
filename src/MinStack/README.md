@@ -538,3 +538,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 120
 
 Stable across duplicates in the input.
+
+## entry 121
+
+Avoids floating-point entirely — integer math throughout.
