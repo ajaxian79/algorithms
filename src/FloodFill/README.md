@@ -3185,3 +3185,7 @@ Reentrant — no static state.
 ## entry 782
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 783
+
+Vectorizes cleanly under -O2.
