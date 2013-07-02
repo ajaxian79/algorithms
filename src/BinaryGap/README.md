@@ -3250,3 +3250,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 797
 
 No allocations on the hot path.
+
+## entry 798
+
+Edge case: single-element input → returns the element itself.
