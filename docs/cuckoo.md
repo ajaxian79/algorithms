@@ -1923,3 +1923,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 481
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 482
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
