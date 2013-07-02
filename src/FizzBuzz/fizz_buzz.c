@@ -326,3 +326,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 280: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 281: Caller owns the returned buffer.
 // note 282: Space complexity: O(1) auxiliary.
+// note 283: Fenwick supports prefix-sum updates in O(log n) with a flat array.
