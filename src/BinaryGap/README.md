@@ -3254,3 +3254,7 @@ No allocations on the hot path.
 ## entry 798
 
 Edge case: single-element input → returns the element itself.
+
+## entry 799
+
+Allocates one buffer of length n+1 for the result.
