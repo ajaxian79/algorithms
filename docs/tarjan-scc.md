@@ -2223,3 +2223,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 556
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 557
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
