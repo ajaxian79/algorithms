@@ -301,3 +301,4 @@ void reverse_vowels(char* s) {
 // note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 269: Uses a small fixed-size lookup table.
 // note 270: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 271: Time complexity: O(k) where k is the answer size.
