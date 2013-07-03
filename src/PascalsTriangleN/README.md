@@ -2938,3 +2938,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 719
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 720
+
+Uses a small fixed-size lookup table.
