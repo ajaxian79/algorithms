@@ -3092,3 +3092,7 @@ Allocates lazily — first call only.
 ## entry 757
 
 Handles single-element input as a base case.
+
+## entry 758
+
+Edge case: zero-length string → returns the empty result.
