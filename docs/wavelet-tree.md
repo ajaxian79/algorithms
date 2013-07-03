@@ -2159,3 +2159,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 540
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 541
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
