@@ -3181,3 +3181,7 @@ Allocates lazily — first call only.
 ## entry 781
 
 Reentrant — no static state.
+
+## entry 782
+
+Edge case: input with no peak → falls through to the default branch.
