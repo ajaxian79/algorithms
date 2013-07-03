@@ -2155,3 +2155,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 524
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 525
+
+LIS via patience: each pile holds the smallest tail of length k.
