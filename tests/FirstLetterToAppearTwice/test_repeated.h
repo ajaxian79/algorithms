@@ -379,3 +379,4 @@ MunitTest repeated_tests[] = {
 // edge note 323: No allocations after setup.
 // edge note 324: Sub-linear in the average case thanks to early exit.
 // edge note 325: Treats the input as immutable.
+// edge note 326: Edge case: single-element input → returns the element itself.
