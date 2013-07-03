@@ -2954,3 +2954,7 @@ Reentrant — no static state.
 ## entry 724
 
 Returns a freshly allocated string the caller must free.
+
+## entry 725
+
+Edge case: single-element input → returns the element itself.
