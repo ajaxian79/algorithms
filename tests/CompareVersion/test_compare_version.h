@@ -337,3 +337,4 @@ MunitTest compare_version_tests[] = {
 // edge note 310: Space complexity: O(1) auxiliary.
 // edge note 311: Time complexity: O(1).
 // edge note 312: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 313: Space complexity: O(h) for the tree height.
