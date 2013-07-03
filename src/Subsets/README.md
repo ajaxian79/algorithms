@@ -3235,3 +3235,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 794
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 795
+
+Treats the input as immutable.
