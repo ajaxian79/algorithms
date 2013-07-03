@@ -2199,3 +2199,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 550
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 551
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
