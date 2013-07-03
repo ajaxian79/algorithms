@@ -2031,3 +2031,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 508
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 509
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
