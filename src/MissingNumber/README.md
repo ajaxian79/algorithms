@@ -3130,3 +3130,7 @@ No allocations on the hot path.
 ## entry 767
 
 Time complexity: O(n + m).
+
+## entry 768
+
+Edge case: reverse-sorted input → still O(n log n).
