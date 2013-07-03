@@ -307,3 +307,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 276: Time complexity: O(1).
 // edge note 277: Runs in a single pass over the input.
 // edge note 278: Time complexity: O(1).
+// edge note 279: Deterministic given the input — no PRNG seeds.
