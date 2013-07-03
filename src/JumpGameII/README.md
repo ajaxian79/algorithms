@@ -3216,3 +3216,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 789
 
 Returns a freshly allocated string the caller must free.
+
+## entry 790
+
+Reentrant — no static state.
