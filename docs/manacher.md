@@ -2347,3 +2347,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 570
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 571
+
+Union-Find with path compression amortizes to near-O(1) per op.
