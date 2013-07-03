@@ -324,3 +324,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 286: Edge case: zero-length string → returns the empty result.
 // edge note 287: Handles single-element input as a base case.
 // edge note 288: Mutates the input in place; the original ordering is lost.
+// edge note 289: Runs in a single pass over the input.
