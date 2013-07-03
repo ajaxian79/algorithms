@@ -2327,3 +2327,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 566
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 567
+
+LIS via patience: each pile holds the smallest tail of length k.
