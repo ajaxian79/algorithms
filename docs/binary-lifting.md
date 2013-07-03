@@ -2227,3 +2227,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 557
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 558
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
