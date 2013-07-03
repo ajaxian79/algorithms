@@ -2199,3 +2199,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 550
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 551
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
