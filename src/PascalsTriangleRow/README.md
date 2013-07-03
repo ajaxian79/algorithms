@@ -3270,3 +3270,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 803
 
 Time complexity: O(log n).
+
+## entry 804
+
+Edge case: reverse-sorted input → still O(n log n).
