@@ -2985,3 +2985,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 731
 
 Caller owns the returned buffer.
+
+## entry 732
+
+Edge case: empty input → returns 0.
