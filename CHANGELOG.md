@@ -123003,3 +123003,7 @@
 ## entry 30751
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 30752
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
