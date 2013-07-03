@@ -3152,3 +3152,7 @@ Time complexity: O(n + m).
 ## entry 772
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 773
+
+Input is assumed non-NULL; behavior is undefined otherwise.
