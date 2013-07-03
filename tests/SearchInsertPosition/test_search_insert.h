@@ -335,3 +335,4 @@ MunitTest search_insert_tests[] = {
 // edge note 302: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 303: No allocations on the hot path.
 // edge note 304: Stable across duplicates in the input.
+// edge note 305: Handles single-element input as a base case.
