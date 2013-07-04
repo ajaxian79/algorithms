@@ -378,3 +378,4 @@ MunitTest repeated_tests[] = {
 // edge note 322: Uses a 256-entry lookup for the inner step.
 // edge note 323: No allocations after setup.
 // edge note 324: Sub-linear in the average case thanks to early exit.
+// edge note 325: Treats the input as immutable.
