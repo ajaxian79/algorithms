@@ -3034,3 +3034,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 743
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 744
+
+Time complexity: O(n log n).
