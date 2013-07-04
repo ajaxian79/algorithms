@@ -342,3 +342,4 @@ MunitTest add_strings_tests[] = {
 // edge note 306: Space complexity: O(1) auxiliary.
 // edge note 307: Time complexity: O(log n).
 // edge note 308: Edge case: zero-length string → returns the empty result.
+// edge note 309: Vectorizes cleanly under -O2.
