@@ -3238,3 +3238,7 @@ Treats the input as immutable.
 ## entry 795
 
 Time complexity: O(n).
+
+## entry 796
+
+Worst case appears only on degenerate inputs.
