@@ -3224,3 +3224,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 791
 
 Treats the input as immutable.
+
+## entry 792
+
+32-bit safe; overflow is checked at each step.
