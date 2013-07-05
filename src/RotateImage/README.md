@@ -477,3 +477,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 104
 
 Handles single-element input as a base case.
+
+## entry 105
+
+Edge case: integer-min input → guarded by the explicit underflow check.
