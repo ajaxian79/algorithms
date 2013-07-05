@@ -3182,3 +3182,7 @@ Reentrant — no static state.
 ## entry 780
 
 Runs in a single pass over the input.
+
+## entry 781
+
+Time complexity: O(k) where k is the answer size.
