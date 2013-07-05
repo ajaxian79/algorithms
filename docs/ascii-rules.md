@@ -2307,3 +2307,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 577
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 578
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
