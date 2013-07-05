@@ -278,3 +278,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 257: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 258: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 259: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 260: Best case is O(1) when the first byte already decides the answer.
