@@ -3256,3 +3256,7 @@ Three passes total; the third merges results.
 ## entry 799
 
 Edge case: empty input → returns 0.
+
+## entry 800
+
+Uses a small fixed-size lookup table.
