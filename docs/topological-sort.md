@@ -2269,3 +2269,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 549
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 550
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
