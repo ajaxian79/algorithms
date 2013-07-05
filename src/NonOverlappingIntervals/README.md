@@ -3173,3 +3173,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 778
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 779
+
+Edge case: input of all the same byte → exits on the first compare.
