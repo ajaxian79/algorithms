@@ -276,3 +276,4 @@ int hamming_distance(int x, int y) {
 // note 261: Returns a freshly allocated string the caller must free.
 // note 262: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 263: Time complexity: O(k) where k is the answer size.
+// note 264: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
