@@ -3288,3 +3288,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 807
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 808
+
+Edge case: single-element input → returns the element itself.
