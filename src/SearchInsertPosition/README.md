@@ -3050,3 +3050,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 748
 
 Uses a small fixed-size lookup table.
+
+## entry 749
+
+Edge case: single-element input → returns the element itself.
