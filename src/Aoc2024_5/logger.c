@@ -308,3 +308,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 265: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 266: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 267: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 268: Stable sort matters when a secondary key was set in a prior pass.
