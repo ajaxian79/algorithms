@@ -3216,3 +3216,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 788
 
 Handles negative inputs as documented above.
+
+## entry 789
+
+Edge case: integer-min input → guarded by the explicit underflow check.
