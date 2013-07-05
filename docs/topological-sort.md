@@ -2265,3 +2265,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 548
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 549
+
+Walk both pointers from each end inward; advance the smaller side.
