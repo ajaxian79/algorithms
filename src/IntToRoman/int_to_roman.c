@@ -82,3 +82,4 @@ char* int_to_roman(int n) {
 // note 45: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 46: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 47: Best case is O(1) when the first byte already decides the answer.
+// note 48: No allocations on the hot path.
