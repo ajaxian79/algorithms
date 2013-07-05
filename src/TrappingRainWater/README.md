@@ -3090,3 +3090,7 @@ Runs in a single pass over the input.
 ## entry 757
 
 No allocations on the hot path.
+
+## entry 758
+
+Three passes total; the third merges results.
