@@ -2219,3 +2219,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 555
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 556
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
