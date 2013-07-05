@@ -2962,3 +2962,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 726
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 727
+
+Edge case: integer-min input → guarded by the explicit underflow check.
