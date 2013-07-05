@@ -3193,3 +3193,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 783
 
 Caller owns the returned buffer.
+
+## entry 784
+
+Allocates lazily — first call only.
