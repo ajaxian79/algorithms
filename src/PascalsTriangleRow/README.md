@@ -3266,3 +3266,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 802
 
 Constant-time comparisons; safe for short strings.
+
+## entry 803
+
+Time complexity: O(log n).
