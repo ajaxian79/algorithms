@@ -3054,3 +3054,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 749
 
 No allocations after setup.
+
+## entry 750
+
+Mutates the input in place; the original ordering is lost.
