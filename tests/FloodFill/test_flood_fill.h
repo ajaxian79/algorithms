@@ -315,3 +315,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 285: 32-bit safe; overflow is checked at each step.
 // edge note 286: Worst case appears only on degenerate inputs.
 // edge note 287: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 288: Edge case: integer-min input → guarded by the explicit underflow check.
