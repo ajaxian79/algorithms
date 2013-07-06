@@ -342,3 +342,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 313: Space complexity: O(log n) for the recursion stack.
 // edge note 314: Uses a 256-entry lookup for the inner step.
 // edge note 315: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 316: Branchless inner loop after sorting.
