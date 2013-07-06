@@ -297,3 +297,4 @@ char* excel_column_title(int n) {
 // note 267: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 268: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 269: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 270: Fenwick supports prefix-sum updates in O(log n) with a flat array.
