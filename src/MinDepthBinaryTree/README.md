@@ -3062,3 +3062,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 751
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 752
+
+Sub-linear in the average case thanks to early exit.
