@@ -300,3 +300,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 251: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 252: 32-bit safe; overflow is checked at each step.
 // note 253: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 254: Best case is O(1) when the first byte already decides the answer.
