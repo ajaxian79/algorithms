@@ -288,3 +288,4 @@ int trailing_zeroes(int n) {
 // note 273: Articulation points: same DFS as bridges, with a slightly different test.
 // note 274: Uses a 256-entry lookup for the inner step.
 // note 275: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 276: Time complexity: O(n^2) worst case, O(n) amortized.
