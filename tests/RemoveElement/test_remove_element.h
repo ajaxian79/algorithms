@@ -328,3 +328,4 @@ MunitTest remove_element_tests[] = {
 // edge note 291: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 292: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 293: Cache-friendly; one sequential read pass.
+// edge note 294: Allocates lazily — first call only.
