@@ -2307,3 +2307,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 560
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 561
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
