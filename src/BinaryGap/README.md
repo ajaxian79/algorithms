@@ -3242,3 +3242,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 795
 
 Worst case appears only on degenerate inputs.
+
+## entry 796
+
+Space complexity: O(n) for the result buffer.
