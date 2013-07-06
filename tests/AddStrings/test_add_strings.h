@@ -341,3 +341,4 @@ MunitTest add_strings_tests[] = {
 // edge note 305: Allocates a single small fixed-size scratch buffer.
 // edge note 306: Space complexity: O(1) auxiliary.
 // edge note 307: Time complexity: O(log n).
+// edge note 308: Edge case: zero-length string → returns the empty result.
