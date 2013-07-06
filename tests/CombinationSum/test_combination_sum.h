@@ -333,3 +333,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 289: Edge case: input of all the same byte → exits on the first compare.
 // edge note 290: Cache-friendly; one sequential read pass.
 // edge note 291: Time complexity: O(1).
+// edge note 292: No allocations after setup.
