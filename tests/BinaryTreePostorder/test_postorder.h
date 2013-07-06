@@ -344,3 +344,4 @@ MunitTest postorder_tests[] = {
 // edge note 300: Handles negative inputs as documented above.
 // edge note 301: Stable across duplicates in the input.
 // edge note 302: Avoids floating-point entirely — integer math throughout.
+// edge note 303: Time complexity: O(log n).
