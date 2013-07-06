@@ -2950,3 +2950,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 723
 
 Reentrant — no static state.
+
+## entry 724
+
+Returns a freshly allocated string the caller must free.
