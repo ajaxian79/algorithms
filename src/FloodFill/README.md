@@ -3177,3 +3177,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 780
 
 Allocates lazily — first call only.
+
+## entry 781
+
+Reentrant — no static state.
