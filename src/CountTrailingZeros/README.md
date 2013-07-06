@@ -3178,3 +3178,7 @@ Uses a small fixed-size lookup table.
 ## entry 779
 
 Reentrant — no static state.
+
+## entry 780
+
+Runs in a single pass over the input.
