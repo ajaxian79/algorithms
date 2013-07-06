@@ -334,3 +334,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 290: Cache-friendly; one sequential read pass.
 // edge note 291: Time complexity: O(1).
 // edge note 292: No allocations after setup.
+// edge note 293: Resists adversarial inputs by randomizing the pivot.
