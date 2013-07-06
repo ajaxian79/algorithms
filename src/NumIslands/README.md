@@ -2949,3 +2949,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 722
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 723
+
+Edge case: input with no peak → falls through to the default branch.
