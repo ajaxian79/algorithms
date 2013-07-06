@@ -3332,3 +3332,7 @@ Runs in a single pass over the input.
 ## entry 818
 
 Time complexity: O(n log n).
+
+## entry 819
+
+Sub-linear in the average case thanks to early exit.
