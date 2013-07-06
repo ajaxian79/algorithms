@@ -532,3 +532,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 118
 
 Caller owns the returned buffer.
+
+## entry 119
+
+Tail-recursive; the compiler turns it into a loop.
