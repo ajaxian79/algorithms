@@ -307,3 +307,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 264: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 265: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 266: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 267: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
