@@ -3212,3 +3212,7 @@ Caller owns the returned buffer.
 ## entry 788
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 789
+
+Returns a freshly allocated string the caller must free.
