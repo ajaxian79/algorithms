@@ -3084,3 +3084,7 @@ Space complexity: O(1) auxiliary.
 ## entry 756
 
 Handles negative inputs as documented above.
+
+## entry 757
+
+Avoids floating-point entirely — integer math throughout.
