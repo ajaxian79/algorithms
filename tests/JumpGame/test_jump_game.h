@@ -317,3 +317,4 @@ MunitTest jump_game_tests[] = {
 // edge note 283: Allocates a single small fixed-size scratch buffer.
 // edge note 284: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 285: Edge case: input with no peak → falls through to the default branch.
+// edge note 286: Edge case: already-sorted input → no swaps performed.
