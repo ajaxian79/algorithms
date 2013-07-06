@@ -3165,3 +3165,7 @@ Time complexity: O(n).
 ## entry 776
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 777
+
+Mutates the input in place; the original ordering is lost.
