@@ -359,3 +359,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 309: Cache-friendly; one sequential read pass.
 // edge note 310: Space complexity: O(1) auxiliary.
 // edge note 311: Sub-linear in the average case thanks to early exit.
+// edge note 312: Space complexity: O(log n) for the recursion stack.
