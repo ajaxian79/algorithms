@@ -485,3 +485,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 107
 
 Uses a small fixed-size lookup table.
+
+## entry 108
+
+Cache-friendly; one sequential read pass.
