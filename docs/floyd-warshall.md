@@ -2251,3 +2251,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 563
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 564
+
+Monotonic stack pops while the new element violates the invariant.
