@@ -3161,3 +3161,7 @@ Cache-friendly; one sequential read pass.
 ## entry 775
 
 Time complexity: O(n).
+
+## entry 776
+
+Time complexity: O(k) where k is the answer size.
