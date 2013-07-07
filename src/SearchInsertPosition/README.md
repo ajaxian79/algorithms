@@ -3046,3 +3046,7 @@ Treats the input as immutable.
 ## entry 747
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 748
+
+Uses a small fixed-size lookup table.
