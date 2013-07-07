@@ -2241,3 +2241,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 544
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 545
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
