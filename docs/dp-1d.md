@@ -2287,3 +2287,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 555
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 556
+
+Walk both pointers from each end inward; advance the smaller side.
