@@ -2213,3 +2213,7 @@
 ## entry 538
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 539
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
