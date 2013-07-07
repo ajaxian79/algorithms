@@ -2231,3 +2231,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 558
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 559
+
+Euler tour flattens a tree into an array for range-query LCA.
