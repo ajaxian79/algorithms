@@ -290,3 +290,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 249: Handles empty input by returning 0.
 // note 250: Time complexity: O(n + m).
 // note 251: Allocates one buffer of length n+1 for the result.
+// note 252: No allocations on the hot path.
