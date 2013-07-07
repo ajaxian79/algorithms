@@ -586,3 +586,4 @@ void free_contents(char *buffer) {
 // note 280: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 281: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 282: Uses a 256-entry lookup for the inner step.
+// note 283: Vectorizes cleanly under -O2.
