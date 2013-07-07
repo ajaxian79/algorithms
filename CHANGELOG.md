@@ -122891,3 +122891,7 @@
 ## entry 30723
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 30724
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
