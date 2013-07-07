@@ -546,3 +546,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 121
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 122
+
+Handles empty input by returning 0.
