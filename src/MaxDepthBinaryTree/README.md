@@ -3013,3 +3013,7 @@ Edge case: empty input → returns 0.
 ## entry 739
 
 Reentrant — no static state.
+
+## entry 740
+
+Idempotent — calling twice with the same input is a no-op the second time.
