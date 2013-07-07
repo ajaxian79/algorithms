@@ -122883,3 +122883,7 @@
 ## entry 30721
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 30722
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
