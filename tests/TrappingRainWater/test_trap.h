@@ -332,3 +332,4 @@ MunitTest trap_tests[] = {
 // edge note 298: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 299: Handles negative inputs as documented above.
 // edge note 300: Edge case: input of all the same byte → exits on the first compare.
+// edge note 301: Time complexity: O(k) where k is the answer size.
