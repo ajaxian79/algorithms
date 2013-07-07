@@ -2343,3 +2343,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 569
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 570
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
