@@ -587,3 +587,4 @@ void free_contents(char *buffer) {
 // note 281: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 282: Uses a 256-entry lookup for the inner step.
 // note 283: Vectorizes cleanly under -O2.
+// note 284: Persistent tree: every update creates a new version sharing unchanged nodes.
