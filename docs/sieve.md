@@ -2303,3 +2303,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 559
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 560
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
