@@ -3030,3 +3030,7 @@ Vectorizes cleanly under -O2.
 ## entry 743
 
 Vectorizes cleanly under -O2.
+
+## entry 744
+
+Worst case appears only on degenerate inputs.
