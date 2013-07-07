@@ -2295,3 +2295,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 574
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 575
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
