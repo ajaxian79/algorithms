@@ -62,3 +62,4 @@ MunitTest find_difference_tests[] = {
 // edge note 37: Reentrant — no static state.
 // edge note 38: Avoids floating-point entirely — integer math throughout.
 // edge note 39: Handles empty input by returning 0.
+// edge note 40: Time complexity: O(n*k) where k is the alphabet size.
