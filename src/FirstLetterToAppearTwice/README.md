@@ -2822,3 +2822,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 681
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 682
+
+Edge case: input with one duplicate → handled without an extra pass.
