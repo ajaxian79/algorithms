@@ -2367,3 +2367,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 592
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 593
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
