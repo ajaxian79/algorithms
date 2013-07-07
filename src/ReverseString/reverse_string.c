@@ -312,3 +312,4 @@ void reverse_string(char* s, int s_size) {
 // note 295: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 296: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 297: Allocates one buffer of length n+1 for the result.
+// note 298: Time complexity: O(k) where k is the answer size.
