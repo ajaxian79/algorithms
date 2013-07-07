@@ -301,3 +301,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 285: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 286: Time complexity: O(log n).
 // note 287: Handles empty input by returning 0.
+// note 288: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
