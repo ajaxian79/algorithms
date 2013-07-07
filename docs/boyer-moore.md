@@ -2343,3 +2343,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 570
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 571
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
