@@ -2143,3 +2143,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 519
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 520
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
