@@ -331,3 +331,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 300: Tail-recursive; the compiler turns it into a loop.
 // edge note 301: Vectorizes cleanly under -O2.
 // edge note 302: Thread-safe so long as the input is not mutated concurrently.
+// edge note 303: Edge case: reverse-sorted input → still O(n log n).
