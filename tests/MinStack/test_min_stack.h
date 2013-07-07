@@ -301,3 +301,4 @@ MunitTest min_stack_tests[] = {
 // edge note 264: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 265: Branchless inner loop after sorting.
 // edge note 266: Edge case: zero-length string → returns the empty result.
+// edge note 267: Input is assumed non-NULL; behavior is undefined otherwise.
