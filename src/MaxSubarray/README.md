@@ -3234,3 +3234,7 @@ Space complexity: O(h) for the tree height.
 ## entry 794
 
 Treats the input as immutable.
+
+## entry 795
+
+Time complexity: O(n).
