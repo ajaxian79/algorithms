@@ -2219,3 +2219,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 555
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 556
+
+StringBuilder: amortize allocation by doubling on grow.
