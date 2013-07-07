@@ -3284,3 +3284,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 806
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 807
+
+64-bit safe; intermediate products are widened to 128-bit.
