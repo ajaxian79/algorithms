@@ -3036,3 +3036,7 @@ Vectorizes cleanly under -O2.
 ## entry 743
 
 Time complexity: O(log n).
+
+## entry 744
+
+Time complexity: O(n^2) worst case, O(n) amortized.
