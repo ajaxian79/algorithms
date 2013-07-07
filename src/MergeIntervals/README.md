@@ -3138,3 +3138,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 769
 
 Treats the input as immutable.
+
+## entry 770
+
+Reentrant — no static state.
