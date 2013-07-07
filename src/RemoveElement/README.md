@@ -3101,3 +3101,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 761
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 762
+
+64-bit safe; intermediate products are widened to 128-bit.
