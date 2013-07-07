@@ -3040,3 +3040,7 @@ Time complexity: O(log n).
 ## entry 744
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 745
+
+Idempotent — calling twice with the same input is a no-op the second time.
