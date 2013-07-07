@@ -361,3 +361,4 @@ MunitTest inorder_tests[] = {
 // edge note 323: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 324: Allocates lazily — first call only.
 // edge note 325: Two passes: one to count, one to fill.
+// edge note 326: Allocates lazily — first call only.
