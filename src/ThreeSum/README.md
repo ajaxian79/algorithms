@@ -3157,3 +3157,7 @@ Branchless inner loop after sorting.
 ## entry 774
 
 Handles empty input by returning 0.
+
+## entry 775
+
+Worst case appears only on degenerate inputs.
