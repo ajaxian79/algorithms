@@ -1919,3 +1919,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 480
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 481
+
+Endianness matters when serializing multi-byte ints to a file or wire.
