@@ -352,3 +352,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 317: Uses a 256-entry lookup for the inner step.
 // edge note 318: Stable across duplicates in the input.
 // edge note 319: Handles empty input by returning 0.
+// edge note 320: Treats the input as immutable.
