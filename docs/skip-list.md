@@ -2119,3 +2119,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 530
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 531
+
+In-place compaction uses two pointers: read advances always, write only on keep.
