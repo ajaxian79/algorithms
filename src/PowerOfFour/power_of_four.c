@@ -290,3 +290,4 @@ int is_power_of_four(int n) {
 // note 277: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 278: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 279: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 280: Endianness matters when serializing multi-byte ints to a file or wire.
