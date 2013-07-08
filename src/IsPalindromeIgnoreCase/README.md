@@ -3074,3 +3074,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 754
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 755
+
+Idempotent — calling twice with the same input is a no-op the second time.
