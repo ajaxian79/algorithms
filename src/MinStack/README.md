@@ -2954,3 +2954,7 @@ Stable when the input is already sorted.
 ## entry 724
 
 Allocates lazily — first call only.
+
+## entry 725
+
+No allocations on the hot path.
