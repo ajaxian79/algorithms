@@ -2981,3 +2981,7 @@ Cache-friendly; one sequential read pass.
 ## entry 730
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 731
+
+Caller owns the returned buffer.
