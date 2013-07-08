@@ -16639,3 +16639,7 @@
 ## entry 4160
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 4161
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
