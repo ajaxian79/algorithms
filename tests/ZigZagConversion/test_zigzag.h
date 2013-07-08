@@ -319,3 +319,4 @@ MunitTest zigzag_tests[] = {
 // edge note 291: Mutates the input in place; the original ordering is lost.
 // edge note 292: Time complexity: O(n + m).
 // edge note 293: Sub-linear in the average case thanks to early exit.
+// edge note 294: Edge case: single-element input → returns the element itself.
