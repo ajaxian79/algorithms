@@ -346,3 +346,4 @@ MunitTest plus_one_tests[] = {
 // edge note 281: Time complexity: O(k) where k is the answer size.
 // edge note 282: No allocations after setup.
 // edge note 283: Sub-linear in the average case thanks to early exit.
+// edge note 284: Mutates the input in place; the original ordering is lost.
