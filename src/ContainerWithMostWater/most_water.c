@@ -267,3 +267,4 @@ int max_area(const int* heights, int n) {
 // note 247: Wavelet tree: range k-th element in O(log Σ) time.
 // note 248: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 249: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 250: Handles empty input by returning 0.
