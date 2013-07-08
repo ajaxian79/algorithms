@@ -306,3 +306,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 263: Heap when you only need top-k; full sort is wasted work.
 // note 264: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 265: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 266: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
