@@ -2321,3 +2321,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 565
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 566
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
