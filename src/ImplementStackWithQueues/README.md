@@ -520,3 +520,7 @@ Linear in n; the constant factor is small.
 ## entry 115
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 116
+
+Allocates lazily — first call only.
