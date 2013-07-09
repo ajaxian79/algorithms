@@ -3202,3 +3202,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 786
 
 Treats the input as immutable.
+
+## entry 787
+
+Two passes: one to count, one to fill.
