@@ -67,3 +67,4 @@ MunitTest count_primes_tests[] = {
 // edge note 39: Cache-friendly; one sequential read pass.
 // edge note 40: Edge case: already-sorted input → no swaps performed.
 // edge note 41: Edge case: input of all the same byte → exits on the first compare.
+// edge note 42: Uses a small fixed-size lookup table.
