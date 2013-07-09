@@ -2339,3 +2339,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 568
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 569
+
+Endianness matters when serializing multi-byte ints to a file or wire.
