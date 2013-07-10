@@ -2191,3 +2191,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 548
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 549
+
+State compression: bitmask + integer encodes a small subset cheaply.
