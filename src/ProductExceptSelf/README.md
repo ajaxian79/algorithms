@@ -3112,3 +3112,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 762
 
 Time complexity: O(n log n).
+
+## entry 763
+
+Worst case appears only on degenerate inputs.
