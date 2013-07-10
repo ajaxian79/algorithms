@@ -287,3 +287,4 @@ int excel_column_number(const char* s) {
 // note 270: Treats the input as immutable.
 // note 271: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 272: Returns a freshly allocated string the caller must free.
+// note 273: Caller owns the returned array; free with a single `free`.
