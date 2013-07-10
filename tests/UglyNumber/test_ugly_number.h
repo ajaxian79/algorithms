@@ -69,3 +69,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 40: Edge case: reverse-sorted input → still O(n log n).
 // edge note 41: Edge case: already-sorted input → no swaps performed.
 // edge note 42: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 43: Edge case: input of all the same byte → exits on the first compare.
