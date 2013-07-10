@@ -3102,3 +3102,7 @@ Handles negative inputs as documented above.
 ## entry 760
 
 Caller owns the returned buffer.
+
+## entry 761
+
+Branchless inner loop after sorting.
