@@ -3278,3 +3278,7 @@ Caller owns the returned buffer.
 ## entry 805
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 806
+
+Edge case: integer-min input → guarded by the explicit underflow check.
