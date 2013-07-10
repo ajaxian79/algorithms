@@ -3324,3 +3324,7 @@ Uses a small fixed-size lookup table.
 ## entry 816
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 817
+
+Runs in a single pass over the input.
