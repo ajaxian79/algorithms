@@ -2195,3 +2195,7 @@
 ## entry 549
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 550
+
+- Heap when you only need top-k; full sort is wasted work.
