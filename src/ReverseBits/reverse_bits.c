@@ -296,3 +296,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 282: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 283: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 284: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 285: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
