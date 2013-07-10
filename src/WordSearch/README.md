@@ -3194,3 +3194,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 784
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 785
+
+Edge case: alternating pattern → degenerate case for sliding window.
