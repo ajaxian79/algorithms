@@ -3262,3 +3262,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 801
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 802
+
+Constant-time comparisons; safe for short strings.
