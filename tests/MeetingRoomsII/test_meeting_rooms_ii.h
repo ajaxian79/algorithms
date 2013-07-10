@@ -330,3 +330,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 299: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 300: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 301: Edge case: zero-length string → returns the empty result.
+// edge note 302: Edge case: all-equal input → linear-time fast path.
