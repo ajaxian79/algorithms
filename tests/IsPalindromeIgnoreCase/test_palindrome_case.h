@@ -325,3 +325,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 296: Linear in n; the constant factor is small.
 // edge note 297: Edge case: empty input → returns 0.
 // edge note 298: Linear in n; the constant factor is small.
+// edge note 299: Stable when the input is already sorted.
