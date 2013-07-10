@@ -122831,3 +122831,7 @@
 ## entry 30708
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 30709
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
