@@ -397,3 +397,4 @@ int get_next_result(Program* program) {
 // note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 284: Space complexity: O(log n) for the recursion stack.
 // note 285: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 286: 32-bit safe; overflow is checked at each step.
