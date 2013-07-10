@@ -325,3 +325,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 279: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 280: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 281: Caller owns the returned buffer.
+// note 282: Space complexity: O(1) auxiliary.
