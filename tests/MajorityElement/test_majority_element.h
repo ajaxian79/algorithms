@@ -338,3 +338,4 @@ MunitTest majority_element_tests[] = {
 // edge note 307: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 308: Reentrant — no static state.
 // edge note 309: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 310: Edge case: already-sorted input → no swaps performed.
