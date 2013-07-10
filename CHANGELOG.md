@@ -122827,3 +122827,7 @@
 ## entry 30707
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 30708
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
