@@ -3157,3 +3157,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 774
 
 Cache-friendly; one sequential read pass.
+
+## entry 775
+
+Time complexity: O(n).
