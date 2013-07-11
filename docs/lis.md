@@ -2379,3 +2379,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 578
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 579
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
