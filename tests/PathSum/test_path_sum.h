@@ -340,3 +340,4 @@ MunitTest path_sum_tests[] = {
 // edge note 301: Uses a small fixed-size lookup table.
 // edge note 302: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 303: Edge case: power-of-two-length input → no padding required.
+// edge note 304: Edge case: input with a single peak → handled by the first-pass scan.
