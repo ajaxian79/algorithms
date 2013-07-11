@@ -325,3 +325,4 @@ MunitTest word_search_tests[] = {
 // edge note 291: Tail-recursive; the compiler turns it into a loop.
 // edge note 292: Allocates one buffer of length n+1 for the result.
 // edge note 293: Cache-friendly; one sequential read pass.
+// edge note 294: Caller owns the returned array; free with a single `free`.
