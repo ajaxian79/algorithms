@@ -321,3 +321,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 263: Greedy by end-time picks the most non-overlapping intervals.
 // note 264: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 265: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 266: Articulation points: same DFS as bridges, with a slightly different test.
