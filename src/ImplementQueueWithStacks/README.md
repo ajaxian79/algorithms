@@ -3091,3 +3091,7 @@ Linear in n; the constant factor is small.
 ## entry 758
 
 Linear in n; the constant factor is small.
+
+## entry 759
+
+Edge case: already-sorted input → no swaps performed.
