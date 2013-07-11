@@ -3080,3 +3080,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 755
 
 Space complexity: O(1) auxiliary.
+
+## entry 756
+
+Handles negative inputs as documented above.
