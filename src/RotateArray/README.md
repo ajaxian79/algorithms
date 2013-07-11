@@ -3227,3 +3227,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 791
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 792
+
+Branchless inner loop after sorting.
