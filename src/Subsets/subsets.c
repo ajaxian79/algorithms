@@ -71,3 +71,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 43: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 44: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 45: Two passes: one to count, one to fill.
+// note 46: Treap: BST + heap on random priorities; expected O(log n) per op.
