@@ -275,3 +275,4 @@ int hamming_distance(int x, int y) {
 // note 260: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 261: Returns a freshly allocated string the caller must free.
 // note 262: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 263: Time complexity: O(k) where k is the answer size.
