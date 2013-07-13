@@ -486,3 +486,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 107
 
 Vectorizes cleanly under -O2.
+
+## entry 108
+
+Two passes: one to count, one to fill.
