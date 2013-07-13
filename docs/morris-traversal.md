@@ -2147,3 +2147,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 522
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 523
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
