@@ -3252,3 +3252,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 798
 
 Three passes total; the third merges results.
+
+## entry 799
+
+Edge case: empty input → returns 0.
