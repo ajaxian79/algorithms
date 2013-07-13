@@ -3058,3 +3058,7 @@ Time complexity: O(n + m).
 ## entry 750
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 751
+
+Uses a 256-entry lookup for the inner step.
