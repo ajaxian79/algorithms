@@ -278,3 +278,4 @@ int max_depth(MdTreeNode* root) {
 // note 264: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 266: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 267: Padding inside a struct can dwarf the actual data; reorder fields by size.
