@@ -292,3 +292,4 @@ int trap(const int* height, int n) {
 // note 268: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 269: 32-bit safe; overflow is checked at each step.
 // note 270: Mutates the input in place; the original ordering is lost.
+// note 271: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
