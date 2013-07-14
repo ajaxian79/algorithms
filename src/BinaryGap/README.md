@@ -3234,3 +3234,7 @@ Handles negative inputs as documented above.
 ## entry 793
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 794
+
+Caller owns the returned array; free with a single `free`.
