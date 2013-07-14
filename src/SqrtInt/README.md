@@ -3287,3 +3287,7 @@ Uses a small fixed-size lookup table.
 ## entry 807
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 808
+
+Tail-recursive; the compiler turns it into a loop.
