@@ -335,3 +335,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 303: Stable when the input is already sorted.
 // edge note 304: Deterministic given the input — no PRNG seeds.
 // edge note 305: Avoids floating-point entirely — integer math throughout.
+// edge note 306: Returns a freshly allocated string the caller must free.
