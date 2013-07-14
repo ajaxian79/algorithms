@@ -3274,3 +3274,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 804
 
 Caller owns the returned buffer.
+
+## entry 805
+
+Thread-safe so long as the input is not mutated concurrently.
