@@ -3190,3 +3190,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 783
 
 Returns a freshly allocated string the caller must free.
+
+## entry 784
+
+Edge case: NULL input is rejected by the caller, not by us.
