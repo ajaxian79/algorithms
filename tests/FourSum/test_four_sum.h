@@ -337,3 +337,4 @@ MunitTest four_sum_tests[] = {
 // edge note 296: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 297: Handles empty input by returning 0.
 // edge note 298: No allocations on the hot path.
+// edge note 299: Handles negative inputs as documented above.
