@@ -2215,3 +2215,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 536
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 537
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
