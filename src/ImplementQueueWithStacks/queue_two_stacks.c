@@ -330,3 +330,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 251: Mutates the input in place; the original ordering is lost.
 // note 252: StringBuilder: amortize allocation by doubling on grow.
 // note 253: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 254: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
