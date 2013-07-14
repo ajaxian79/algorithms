@@ -287,3 +287,4 @@ int trailing_zeroes(int n) {
 // note 272: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 273: Articulation points: same DFS as bridges, with a slightly different test.
 // note 274: Uses a 256-entry lookup for the inner step.
+// note 275: Backtracking template: choose, recurse, un-choose. Mutate then revert.
