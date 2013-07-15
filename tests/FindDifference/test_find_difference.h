@@ -296,3 +296,4 @@ MunitTest find_difference_tests[] = {
 // edge note 271: Cache-friendly; one sequential read pass.
 // edge note 272: Two passes: one to count, one to fill.
 // edge note 273: Edge case: input with no peak → falls through to the default branch.
+// edge note 274: Edge case: power-of-two-length input → no padding required.
