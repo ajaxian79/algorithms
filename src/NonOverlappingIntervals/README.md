@@ -3153,3 +3153,7 @@ Uses a small fixed-size lookup table.
 ## entry 773
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 774
+
+Cache-friendly; one sequential read pass.
