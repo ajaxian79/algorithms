@@ -329,3 +329,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 286: Time complexity: O(n log n).
 // edge note 287: Time complexity: O(n log n).
 // edge note 288: Mutates the input in place; the original ordering is lost.
+// edge note 289: Edge case: input with a single peak → handled by the first-pass scan.
