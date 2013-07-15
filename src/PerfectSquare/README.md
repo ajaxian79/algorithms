@@ -3218,3 +3218,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 790
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 791
+
+Best case is O(1) when the first byte already decides the answer.
