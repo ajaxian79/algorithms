@@ -2313,3 +2313,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 563
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 564
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
