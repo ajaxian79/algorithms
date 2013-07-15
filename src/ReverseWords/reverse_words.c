@@ -290,3 +290,4 @@ char* reverse_words(const char* s) {
 // note 246: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 247: Heap when you only need top-k; full sort is wasted work.
 // note 248: State compression: bitmask + integer encodes a small subset cheaply.
+// note 249: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
