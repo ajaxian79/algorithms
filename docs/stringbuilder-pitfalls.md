@@ -2303,3 +2303,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 576
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 577
+
+State compression: bitmask + integer encodes a small subset cheaply.
