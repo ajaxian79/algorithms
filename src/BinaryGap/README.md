@@ -3230,3 +3230,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 792
 
 Handles negative inputs as documented above.
+
+## entry 793
+
+Edge case: input of all the same byte → exits on the first compare.
