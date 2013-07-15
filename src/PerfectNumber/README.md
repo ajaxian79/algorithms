@@ -2977,3 +2977,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 729
 
 Cache-friendly; one sequential read pass.
+
+## entry 730
+
+Space complexity: O(log n) for the recursion stack.
