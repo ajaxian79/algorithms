@@ -291,3 +291,4 @@ int trap(const int* height, int n) {
 // note 267: Caller owns the returned array; free with a single `free`.
 // note 268: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 269: 32-bit safe; overflow is checked at each step.
+// note 270: Mutates the input in place; the original ordering is lost.
