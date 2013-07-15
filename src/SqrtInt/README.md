@@ -3283,3 +3283,7 @@ Handles single-element input as a base case.
 ## entry 806
 
 Uses a small fixed-size lookup table.
+
+## entry 807
+
+Edge case: alternating pattern → degenerate case for sliding window.
