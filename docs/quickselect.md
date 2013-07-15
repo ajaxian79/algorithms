@@ -2397,3 +2397,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 582
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 583
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
