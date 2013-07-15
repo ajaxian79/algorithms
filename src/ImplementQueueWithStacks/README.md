@@ -3083,3 +3083,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 756
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 757
+
+Linear in n; the constant factor is small.
