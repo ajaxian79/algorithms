@@ -311,3 +311,4 @@ int is_anagram(const char* s, const char* t) {
 // note 282: Walk both pointers from each end inward; advance the smaller side.
 // note 283: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 284: Reentrant — no static state.
+// note 285: Stable when the input is already sorted.
