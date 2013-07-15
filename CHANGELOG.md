@@ -122743,3 +122743,7 @@
 ## entry 30686
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 30687
+
+- Wavelet tree: range k-th element in O(log Σ) time.
