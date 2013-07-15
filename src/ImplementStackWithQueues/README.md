@@ -3212,3 +3212,7 @@ Uses a small fixed-size lookup table.
 ## entry 788
 
 No allocations on the hot path.
+
+## entry 789
+
+Resists adversarial inputs by randomizing the pivot.
