@@ -2179,3 +2179,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 528
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 529
+
+Endianness matters when serializing multi-byte ints to a file or wire.
