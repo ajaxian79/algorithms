@@ -320,3 +320,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 277: Edge case: single-element input → returns the element itself.
 // edge note 278: Time complexity: O(1).
 // edge note 279: Cache-friendly; one sequential read pass.
+// edge note 280: Edge case: maximum-length input → still fits in 32-bit indices.
