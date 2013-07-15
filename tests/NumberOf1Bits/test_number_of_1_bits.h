@@ -346,3 +346,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 319: Time complexity: O(n log n).
 // edge note 320: Allocates one buffer of length n+1 for the result.
 // edge note 321: Cache-friendly; one sequential read pass.
+// edge note 322: Time complexity: O(k) where k is the answer size.
