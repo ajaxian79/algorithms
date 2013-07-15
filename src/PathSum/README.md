@@ -3248,3 +3248,7 @@ Handles empty input by returning 0.
 ## entry 797
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 798
+
+Three passes total; the third merges results.
