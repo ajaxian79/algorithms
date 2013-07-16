@@ -3018,3 +3018,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 739
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 740
+
+Space complexity: O(1) auxiliary.
