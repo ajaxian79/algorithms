@@ -59,3 +59,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 32: Two passes: one to count, one to fill.
 // edge note 33: Handles single-element input as a base case.
 // edge note 34: Returns a freshly allocated string the caller must free.
+// edge note 35: Uses a 256-entry lookup for the inner step.
