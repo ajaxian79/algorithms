@@ -529,3 +529,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 118
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 119
+
+Handles single-element input as a base case.
