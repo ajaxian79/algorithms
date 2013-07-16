@@ -122727,3 +122727,7 @@
 ## entry 30682
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 30683
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
