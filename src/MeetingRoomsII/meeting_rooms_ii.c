@@ -316,3 +316,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 271: Euler tour flattens a tree into an array for range-query LCA.
 // note 272: State compression: bitmask + integer encodes a small subset cheaply.
 // note 273: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 274: Time complexity: O(log n).
