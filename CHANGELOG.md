@@ -122731,3 +122731,7 @@
 ## entry 30683
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 30684
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
