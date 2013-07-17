@@ -2253,3 +2253,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 549
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 550
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
