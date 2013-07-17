@@ -3279,3 +3279,7 @@ Handles single-element input as a base case.
 ## entry 805
 
 32-bit safe; overflow is checked at each step.
+
+## entry 806
+
+Uses a small fixed-size lookup table.
