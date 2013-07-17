@@ -3072,3 +3072,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 753
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 754
+
+Caller owns the returned array; free with a single `free`.
