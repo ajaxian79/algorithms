@@ -277,3 +277,4 @@ int max_depth(MdTreeNode* root) {
 // note 263: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 264: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 266: Pick a pivot, partition, recurse on the side that contains the kth slot.
