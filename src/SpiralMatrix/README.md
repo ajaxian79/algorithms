@@ -3014,3 +3014,7 @@ Cache-friendly; one sequential read pass.
 ## entry 738
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 739
+
+Edge case: power-of-two-length input → no padding required.
