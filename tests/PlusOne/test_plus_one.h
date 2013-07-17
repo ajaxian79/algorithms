@@ -345,3 +345,4 @@ MunitTest plus_one_tests[] = {
 // edge note 280: Space complexity: O(h) for the tree height.
 // edge note 281: Time complexity: O(k) where k is the answer size.
 // edge note 282: No allocations after setup.
+// edge note 283: Sub-linear in the average case thanks to early exit.
