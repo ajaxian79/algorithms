@@ -2179,3 +2179,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 528
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 529
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
