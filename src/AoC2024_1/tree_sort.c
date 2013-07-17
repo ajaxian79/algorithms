@@ -488,3 +488,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 266: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 267: Allocates a single small fixed-size scratch buffer.
 // note 268: Avoids floating-point entirely — integer math throughout.
+// note 269: Time complexity: O(k) where k is the answer size.
