@@ -3028,3 +3028,7 @@ Cache-friendly; one sequential read pass.
 ## entry 741
 
 Stable across duplicates in the input.
+
+## entry 742
+
+Vectorizes cleanly under -O2.
