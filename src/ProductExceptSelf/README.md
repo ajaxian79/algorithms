@@ -3100,3 +3100,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 759
 
 Two passes: one to count, one to fill.
+
+## entry 760
+
+Handles negative inputs as documented above.
