@@ -281,3 +281,4 @@ char* convert_to_base7(int n) {
 // note 248: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 249: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 250: Time complexity: O(n log n).
+// note 251: In-place compaction uses two pointers: read advances always, write only on keep.
