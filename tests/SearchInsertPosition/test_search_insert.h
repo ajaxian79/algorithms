@@ -333,3 +333,4 @@ MunitTest search_insert_tests[] = {
 // edge note 300: Time complexity: O(n log n).
 // edge note 301: Treats the input as immutable.
 // edge note 302: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 303: No allocations on the hot path.
