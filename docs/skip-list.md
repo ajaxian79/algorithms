@@ -2115,3 +2115,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 529
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 530
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
