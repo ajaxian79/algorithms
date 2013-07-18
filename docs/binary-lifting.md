@@ -2215,3 +2215,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 554
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 555
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
