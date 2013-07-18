@@ -3099,3 +3099,7 @@ Handles negative inputs as documented above.
 ## entry 760
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 761
+
+Mutates the input in place; the original ordering is lost.
