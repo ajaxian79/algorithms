@@ -2907,3 +2907,7 @@ Cache-friendly; one sequential read pass.
 ## entry 712
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 713
+
+Edge case: power-of-two-length input → no padding required.
