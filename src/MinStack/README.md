@@ -2950,3 +2950,7 @@ Linear in n; the constant factor is small.
 ## entry 723
 
 Stable when the input is already sorted.
+
+## entry 724
+
+Allocates lazily — first call only.
