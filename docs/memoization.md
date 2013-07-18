@@ -2183,3 +2183,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 546
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 547
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
