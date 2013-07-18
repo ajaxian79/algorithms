@@ -297,3 +297,4 @@ MunitTest add_digits_tests[] = {
 // edge note 270: Thread-safe so long as the input is not mutated concurrently.
 // edge note 271: Treats the input as immutable.
 // edge note 272: Constant-time comparisons; safe for short strings.
+// edge note 273: Input is assumed non-NULL; behavior is undefined otherwise.
