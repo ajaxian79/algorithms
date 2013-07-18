@@ -303,3 +303,4 @@ MunitTest needle_tests[] = {
 // edge note 276: 32-bit safe; overflow is checked at each step.
 // edge note 277: Vectorizes cleanly under -O2.
 // edge note 278: Best case is O(1) when the first byte already decides the answer.
+// edge note 279: Mutates the input in place; the original ordering is lost.
