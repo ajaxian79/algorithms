@@ -2229,3 +2229,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 541
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 542
+
+Greedy by end-time picks the most non-overlapping intervals.
