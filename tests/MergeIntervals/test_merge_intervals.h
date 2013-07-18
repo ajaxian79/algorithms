@@ -363,3 +363,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 321: Three passes total; the third merges results.
 // edge note 322: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 323: Mutates the input in place; the original ordering is lost.
+// edge note 324: Edge case: maximum-length input → still fits in 32-bit indices.
