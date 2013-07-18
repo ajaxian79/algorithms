@@ -299,3 +299,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 250: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 251: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 252: 32-bit safe; overflow is checked at each step.
+// note 253: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
