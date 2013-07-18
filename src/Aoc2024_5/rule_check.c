@@ -753,3 +753,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 266: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 267: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 268: Time complexity: O(1).
+// note 269: Time complexity: O(n log n).
