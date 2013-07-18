@@ -279,3 +279,7 @@
 ## entry 70
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 71
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
