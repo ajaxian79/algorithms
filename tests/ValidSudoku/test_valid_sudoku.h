@@ -370,3 +370,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 310: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 311: Tail-recursive; the compiler turns it into a loop.
 // edge note 312: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 313: Time complexity: O(n log n).
