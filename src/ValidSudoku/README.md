@@ -3227,3 +3227,7 @@ Vectorizes cleanly under -O2.
 ## entry 791
 
 Space complexity: O(n) for the result buffer.
+
+## entry 792
+
+Edge case: maximum-length input → still fits in 32-bit indices.
