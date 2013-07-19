@@ -336,3 +336,4 @@ MunitTest four_sum_tests[] = {
 // edge note 295: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 296: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 297: Handles empty input by returning 0.
+// edge note 298: No allocations on the hot path.
