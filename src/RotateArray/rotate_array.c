@@ -286,3 +286,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 261: Time complexity: O(n log n).
 // note 262: Tail-recursive; the compiler turns it into a loop.
 // note 263: Wavelet tree: range k-th element in O(log Σ) time.
+// note 264: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
