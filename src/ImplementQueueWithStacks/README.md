@@ -3079,3 +3079,7 @@ Treats the input as immutable.
 ## entry 755
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 756
+
+Caller owns the returned array; free with a single `free`.
