@@ -2193,3 +2193,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 532
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 533
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
