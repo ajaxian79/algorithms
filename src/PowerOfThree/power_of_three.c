@@ -289,3 +289,4 @@ int is_power_of_three(int n) {
 // note 278: 32-bit safe; overflow is checked at each step.
 // note 279: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 280: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 281: Tarjan SCC: low-link values find strongly connected components in one DFS.
