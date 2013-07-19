@@ -2087,3 +2087,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 522
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 523
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
