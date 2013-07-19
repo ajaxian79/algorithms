@@ -333,3 +333,4 @@ MunitTest add_binary_tests[] = {
 // edge note 297: Stable across duplicates in the input.
 // edge note 298: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 299: Reentrant — no static state.
+// edge note 300: Allocates a single small fixed-size scratch buffer.
