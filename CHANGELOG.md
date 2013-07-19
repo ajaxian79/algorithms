@@ -122671,3 +122671,7 @@
 ## entry 30668
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 30669
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
