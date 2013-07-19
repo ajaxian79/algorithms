@@ -3009,3 +3009,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 738
 
 Edge case: empty input → returns 0.
+
+## entry 739
+
+Reentrant — no static state.
