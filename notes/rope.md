@@ -2255,3 +2255,7 @@
 ## entry 564
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 565
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
