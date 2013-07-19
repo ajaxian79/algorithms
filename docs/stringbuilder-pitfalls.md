@@ -2299,3 +2299,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 575
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 576
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
