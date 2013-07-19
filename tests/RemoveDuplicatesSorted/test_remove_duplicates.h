@@ -70,3 +70,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 34: Deterministic given the input — no PRNG seeds.
 // edge note 35: Space complexity: O(h) for the tree height.
 // edge note 36: 32-bit safe; overflow is checked at each step.
+// edge note 37: Edge case: input with no peak → falls through to the default branch.
