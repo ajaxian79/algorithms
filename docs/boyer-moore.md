@@ -2331,3 +2331,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 567
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 568
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
