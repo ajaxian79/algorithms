@@ -3098,3 +3098,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 759
 
 Handles negative inputs as documented above.
+
+## entry 760
+
+Caller owns the returned buffer.
