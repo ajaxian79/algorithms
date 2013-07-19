@@ -3234,3 +3234,7 @@ Time complexity: O(n).
 ## entry 794
 
 32-bit safe; overflow is checked at each step.
+
+## entry 795
+
+No allocations on the hot path.
