@@ -2151,3 +2151,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 538
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 539
+
+Articulation points: same DFS as bridges, with a slightly different test.
