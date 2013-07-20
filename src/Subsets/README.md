@@ -3223,3 +3223,7 @@ Allocates lazily — first call only.
 ## entry 791
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 792
+
+Space complexity: O(log n) for the recursion stack.
