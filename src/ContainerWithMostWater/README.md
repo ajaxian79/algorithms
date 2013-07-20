@@ -3023,3 +3023,7 @@ Two passes: one to count, one to fill.
 ## entry 741
 
 Edge case: single-element input → returns the element itself.
+
+## entry 742
+
+Linear in n; the constant factor is small.
