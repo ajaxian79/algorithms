@@ -2131,3 +2131,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 517
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 518
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
