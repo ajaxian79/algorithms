@@ -265,3 +265,4 @@ int number_of_1_bits(unsigned int n) {
 // note 252: Caller owns the returned array; free with a single `free`.
 // note 253: Wavelet tree: range k-th element in O(log Σ) time.
 // note 254: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 255: Caller owns the returned buffer.
