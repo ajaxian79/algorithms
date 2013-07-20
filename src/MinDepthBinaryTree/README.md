@@ -3046,3 +3046,7 @@ Space complexity: O(1) auxiliary.
 ## entry 747
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 748
+
+Time complexity: O(log n).
