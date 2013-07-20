@@ -450,3 +450,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 97
 
 Vectorizes cleanly under -O2.
+
+## entry 98
+
+Tail-recursive; the compiler turns it into a loop.
