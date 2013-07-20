@@ -3024,3 +3024,7 @@ Branchless inner loop after sorting.
 ## entry 740
 
 Cache-friendly; one sequential read pass.
+
+## entry 741
+
+Stable across duplicates in the input.
