@@ -2087,3 +2087,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 506
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 507
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
