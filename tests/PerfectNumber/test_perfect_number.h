@@ -346,3 +346,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 316: Linear in n; the constant factor is small.
 // edge note 317: No allocations after setup.
 // edge note 318: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 319: Edge case: maximum-length input → still fits in 32-bit indices.
