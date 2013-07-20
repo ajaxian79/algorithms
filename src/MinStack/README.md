@@ -2946,3 +2946,7 @@ Three passes total; the third merges results.
 ## entry 722
 
 Linear in n; the constant factor is small.
+
+## entry 723
+
+Stable when the input is already sorted.
