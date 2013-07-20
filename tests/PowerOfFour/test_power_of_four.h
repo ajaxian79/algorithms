@@ -335,3 +335,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 303: Space complexity: O(log n) for the recursion stack.
 // edge note 304: Edge case: zero-length string → returns the empty result.
 // edge note 305: No allocations after setup.
+// edge note 306: Uses a 256-entry lookup for the inner step.
