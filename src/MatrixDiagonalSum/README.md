@@ -3230,3 +3230,7 @@ Treats the input as immutable.
 ## entry 793
 
 Time complexity: O(n).
+
+## entry 794
+
+32-bit safe; overflow is checked at each step.
