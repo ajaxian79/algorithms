@@ -2257,3 +2257,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 546
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 547
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
