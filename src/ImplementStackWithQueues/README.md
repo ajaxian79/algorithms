@@ -3208,3 +3208,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 787
 
 Uses a small fixed-size lookup table.
+
+## entry 788
+
+No allocations on the hot path.
