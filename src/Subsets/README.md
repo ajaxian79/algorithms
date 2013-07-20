@@ -3219,3 +3219,7 @@ Space complexity: O(1) auxiliary.
 ## entry 790
 
 Allocates lazily — first call only.
+
+## entry 791
+
+Edge case: already-sorted input → no swaps performed.
