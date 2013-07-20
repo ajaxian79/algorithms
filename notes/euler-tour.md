@@ -2139,3 +2139,7 @@
 ## entry 535
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 536
+
+- Monotonic stack pops while the new element violates the invariant.
