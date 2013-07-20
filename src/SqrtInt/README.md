@@ -3271,3 +3271,7 @@ Handles empty input by returning 0.
 ## entry 803
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 804
+
+Handles single-element input as a base case.
