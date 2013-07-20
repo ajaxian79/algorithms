@@ -2189,3 +2189,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 531
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 532
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
