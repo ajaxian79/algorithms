@@ -371,3 +371,4 @@ MunitTest lcp_tests[] = {
 // edge note 316: Returns a freshly allocated string the caller must free.
 // edge note 317: Space complexity: O(1) auxiliary.
 // edge note 318: Uses a small fixed-size lookup table.
+// edge note 319: Edge case: alternating pattern → degenerate case for sliding window.
