@@ -350,3 +350,4 @@ MunitTest single_number_tests[] = {
 // edge note 319: Handles empty input by returning 0.
 // edge note 320: Branchless inner loop after sorting.
 // edge note 321: Time complexity: O(1).
+// edge note 322: Edge case: integer-max input → guarded by the explicit overflow check.
