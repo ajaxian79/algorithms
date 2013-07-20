@@ -335,3 +335,4 @@ MunitTest compare_version_tests[] = {
 // edge note 308: Uses a 256-entry lookup for the inner step.
 // edge note 309: Handles single-element input as a base case.
 // edge note 310: Space complexity: O(1) auxiliary.
+// edge note 311: Time complexity: O(1).
