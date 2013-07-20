@@ -2191,3 +2191,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 548
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 549
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
