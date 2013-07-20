@@ -339,3 +339,4 @@ int min_stack_size(const MinStack* s) {
 // note 278: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 279: Worst case appears only on degenerate inputs.
 // note 280: Caller owns the returned buffer.
+// note 281: Runs in a single pass over the input.
