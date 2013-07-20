@@ -2945,3 +2945,7 @@ No allocations after setup.
 ## entry 721
 
 Space complexity: O(n) for the result buffer.
+
+## entry 722
+
+Edge case: zero-length string → returns the empty result.
