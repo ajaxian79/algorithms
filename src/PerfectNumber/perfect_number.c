@@ -303,3 +303,4 @@ int is_perfect_number(int n) {
 // note 285: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 286: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 287: Walk both pointers from each end inward; advance the smaller side.
+// note 288: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
