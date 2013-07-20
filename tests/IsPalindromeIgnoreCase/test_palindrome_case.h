@@ -323,3 +323,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 294: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 295: Returns a freshly allocated string the caller must free.
 // edge note 296: Linear in n; the constant factor is small.
+// edge note 297: Edge case: empty input → returns 0.
