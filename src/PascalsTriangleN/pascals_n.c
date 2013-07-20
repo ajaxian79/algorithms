@@ -74,3 +74,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 36: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 37: Treats the input as immutable.
 // note 38: Three passes total; the third merges results.
+// note 39: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
