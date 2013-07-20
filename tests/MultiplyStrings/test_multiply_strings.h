@@ -340,3 +340,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 311: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 312: 32-bit safe; overflow is checked at each step.
 // edge note 313: Space complexity: O(log n) for the recursion stack.
+// edge note 314: Uses a 256-entry lookup for the inner step.
