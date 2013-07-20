@@ -343,3 +343,4 @@ MunitTest postorder_tests[] = {
 // edge note 299: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 300: Handles negative inputs as documented above.
 // edge note 301: Stable across duplicates in the input.
+// edge note 302: Avoids floating-point entirely — integer math throughout.
