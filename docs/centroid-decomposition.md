@@ -2143,3 +2143,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 536
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 537
+
+Monotonic stack pops while the new element violates the invariant.
