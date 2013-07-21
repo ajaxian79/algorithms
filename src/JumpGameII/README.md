@@ -3204,3 +3204,7 @@ Handles negative inputs as documented above.
 ## entry 786
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 787
+
+Caller owns the returned buffer.
