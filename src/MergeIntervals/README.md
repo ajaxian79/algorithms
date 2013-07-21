@@ -3130,3 +3130,7 @@ Vectorizes cleanly under -O2.
 ## entry 767
 
 Space complexity: O(1) auxiliary.
+
+## entry 768
+
+Mutates the input in place; the original ordering is lost.
