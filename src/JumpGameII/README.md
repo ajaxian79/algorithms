@@ -3200,3 +3200,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 785
 
 Handles negative inputs as documented above.
+
+## entry 786
+
+Edge case: already-sorted input → no swaps performed.
