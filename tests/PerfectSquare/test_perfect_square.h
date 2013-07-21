@@ -329,3 +329,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 298: Vectorizes cleanly under -O2.
 // edge note 299: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 300: Tail-recursive; the compiler turns it into a loop.
+// edge note 301: Vectorizes cleanly under -O2.
