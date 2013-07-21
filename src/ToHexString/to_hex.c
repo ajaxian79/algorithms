@@ -283,3 +283,4 @@ char* to_hex_string(int n) {
 // note 250: State compression: bitmask + integer encodes a small subset cheaply.
 // note 251: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 252: Allocates lazily — first call only.
+// note 253: LCA via binary lifting: jump up powers of two until depths match, then converge.
