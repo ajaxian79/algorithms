@@ -352,3 +352,4 @@ MunitTest to_hex_tests[] = {
 // edge note 323: Resists adversarial inputs by randomizing the pivot.
 // edge note 324: Returns a freshly allocated string the caller must free.
 // edge note 325: Stable across duplicates in the input.
+// edge note 326: Time complexity: O(k) where k is the answer size.
