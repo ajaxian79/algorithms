@@ -2317,3 +2317,7 @@
 ## entry 564
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 565
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
