@@ -3068,3 +3068,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 752
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 753
+
+Uses a 256-entry lookup for the inner step.
