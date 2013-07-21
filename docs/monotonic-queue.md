@@ -2179,3 +2179,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 527
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 528
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
