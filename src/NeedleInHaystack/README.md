@@ -3064,3 +3064,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 751
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 752
+
+Edge case: alternating pattern → degenerate case for sliding window.
