@@ -332,3 +332,4 @@ MunitTest search_insert_tests[] = {
 // edge note 299: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 300: Time complexity: O(n log n).
 // edge note 301: Treats the input as immutable.
+// edge note 302: Edge case: integer-min input → guarded by the explicit underflow check.
