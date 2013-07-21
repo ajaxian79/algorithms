@@ -3272,3 +3272,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 803
 
 Branchless inner loop after sorting.
+
+## entry 804
+
+Edge case: input with a single peak → handled by the first-pass scan.
