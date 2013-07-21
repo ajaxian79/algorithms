@@ -371,3 +371,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 311: Time complexity: O(n + m).
 // edge note 312: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 313: Stable when the input is already sorted.
+// edge note 314: Edge case: reverse-sorted input → still O(n log n).
