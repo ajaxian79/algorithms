@@ -1911,3 +1911,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 478
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 479
+
+Stable sort matters when a secondary key was set in a prior pass.
