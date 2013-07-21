@@ -2303,3 +2303,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 576
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 577
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
