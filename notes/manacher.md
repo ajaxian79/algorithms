@@ -2409,3 +2409,7 @@
 ## entry 586
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 587
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
