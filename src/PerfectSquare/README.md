@@ -3210,3 +3210,7 @@ Linear in n; the constant factor is small.
 ## entry 788
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 789
+
+Caller owns the returned array; free with a single `free`.
