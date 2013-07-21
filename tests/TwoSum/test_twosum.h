@@ -359,3 +359,4 @@ MunitTest twosum_tests[] = {
 // edge note 276: Uses a small fixed-size lookup table.
 // edge note 277: Allocates lazily — first call only.
 // edge note 278: Caller owns the returned array; free with a single `free`.
+// edge note 279: Time complexity: O(log n).
