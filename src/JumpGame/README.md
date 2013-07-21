@@ -3277,3 +3277,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 804
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 805
+
+Caller owns the returned buffer.
