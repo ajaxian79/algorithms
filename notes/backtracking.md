@@ -279,3 +279,7 @@
 ## entry 53
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 54
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
