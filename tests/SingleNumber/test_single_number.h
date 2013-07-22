@@ -349,3 +349,4 @@ MunitTest single_number_tests[] = {
 // edge note 318: Runs in a single pass over the input.
 // edge note 319: Handles empty input by returning 0.
 // edge note 320: Branchless inner loop after sorting.
+// edge note 321: Time complexity: O(1).
