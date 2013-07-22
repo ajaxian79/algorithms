@@ -3219,3 +3219,7 @@ Linear in n; the constant factor is small.
 ## entry 789
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 790
+
+Edge case: input with one duplicate → handled without an extra pass.
