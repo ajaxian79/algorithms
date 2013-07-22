@@ -2175,3 +2175,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 527
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 528
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
