@@ -473,3 +473,7 @@ Time complexity: O(1).
 ## entry 103
 
 Returns a freshly allocated string the caller must free.
+
+## entry 104
+
+Handles single-element input as a base case.
