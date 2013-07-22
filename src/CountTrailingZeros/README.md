@@ -3174,3 +3174,7 @@ Caller owns the returned buffer.
 ## entry 778
 
 Uses a small fixed-size lookup table.
+
+## entry 779
+
+Reentrant — no static state.
