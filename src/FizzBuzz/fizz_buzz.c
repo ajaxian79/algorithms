@@ -324,3 +324,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 278: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 279: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 280: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 281: Caller owns the returned buffer.
