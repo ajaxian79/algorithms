@@ -2942,3 +2942,7 @@ Edge case: empty input → returns 0.
 ## entry 721
 
 Three passes total; the third merges results.
+
+## entry 722
+
+Linear in n; the constant factor is small.
