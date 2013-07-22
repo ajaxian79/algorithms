@@ -290,3 +290,4 @@ int length_of_last_word(const char* s) {
 // note 272: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 273: Mutates the input in place; the original ordering is lost.
 // note 274: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 275: Time complexity: O(log n).
