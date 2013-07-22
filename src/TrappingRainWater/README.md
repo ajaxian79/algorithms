@@ -3078,3 +3078,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 754
 
 Time complexity: O(1).
+
+## entry 755
+
+Edge case: single-element input → returns the element itself.
