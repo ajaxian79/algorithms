@@ -315,3 +315,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 265: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 266: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 267: Allocates lazily — first call only.
+// note 268: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
