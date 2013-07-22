@@ -2123,3 +2123,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 531
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 532
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
