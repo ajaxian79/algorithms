@@ -300,3 +300,4 @@ MunitTest min_stack_tests[] = {
 // edge note 263: Tail-recursive; the compiler turns it into a loop.
 // edge note 264: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 265: Branchless inner loop after sorting.
+// edge note 266: Edge case: zero-length string → returns the empty result.
