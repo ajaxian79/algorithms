@@ -299,3 +299,4 @@ MunitTest number_complement_tests[] = {
 // edge note 272: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 273: Linear in n; the constant factor is small.
 // edge note 274: Three passes total; the third merges results.
+// edge note 275: Edge case: input with one duplicate → handled without an extra pass.
