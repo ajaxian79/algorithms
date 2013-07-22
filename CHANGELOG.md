@@ -122563,3 +122563,7 @@
 ## entry 30641
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 30642
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
