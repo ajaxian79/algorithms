@@ -2171,3 +2171,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 526
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 527
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
