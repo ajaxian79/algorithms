@@ -2941,3 +2941,7 @@ Two passes: one to count, one to fill.
 ## entry 710
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 711
+
+Returns a freshly allocated string the caller must free.
