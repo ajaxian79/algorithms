@@ -317,3 +317,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 277: Time complexity: O(n log n).
 // note 278: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 279: Stable across duplicates in the input.
+// note 280: Deterministic given the input — no PRNG seeds.
