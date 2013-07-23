@@ -349,3 +349,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 70
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 71
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
