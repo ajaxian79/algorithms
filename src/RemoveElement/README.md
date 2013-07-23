@@ -3089,3 +3089,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 758
 
 Stable when the input is already sorted.
+
+## entry 759
+
+Space complexity: O(n) for the result buffer.
