@@ -265,3 +265,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 253: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 254: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 255: Walk both pointers from each end inward; advance the smaller side.
+// note 256: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
