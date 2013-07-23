@@ -3204,3 +3204,7 @@ Time complexity: O(1).
 ## entry 786
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 787
+
+Uses a small fixed-size lookup table.
