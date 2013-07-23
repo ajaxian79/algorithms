@@ -2315,3 +2315,7 @@
 ## entry 579
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 580
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
