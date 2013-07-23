@@ -2309,3 +2309,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 562
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 563
+
+Interval DP: solve all `[l, r]` ranges from short to long.
