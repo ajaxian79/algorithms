@@ -459,3 +459,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 250: Space complexity: O(h) for the tree height.
 // note 251: Treats the input as immutable.
 // note 252: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 253: No allocations after setup.
