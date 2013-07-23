@@ -2351,3 +2351,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 570
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 571
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
