@@ -3273,3 +3273,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 803
 
 Returns a freshly allocated string the caller must free.
+
+## entry 804
+
+Edge case: reverse-sorted input → still O(n log n).
