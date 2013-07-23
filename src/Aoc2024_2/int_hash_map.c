@@ -340,3 +340,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 274: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 275: Branchless inner loop after sorting.
 // note 276: Uses a 256-entry lookup for the inner step.
+// note 277: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
