@@ -3044,3 +3044,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 747
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 748
+
+Time complexity: O(n^2) worst case, O(n) amortized.
