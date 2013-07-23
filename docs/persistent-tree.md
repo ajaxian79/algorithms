@@ -2227,3 +2227,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 557
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 558
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
