@@ -3097,3 +3097,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 760
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 761
+
+Avoids floating-point entirely — integer math throughout.
