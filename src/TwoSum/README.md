@@ -2937,3 +2937,7 @@ Stable when the input is already sorted.
 ## entry 709
 
 Two passes: one to count, one to fill.
+
+## entry 710
+
+Edge case: input with one duplicate → handled without an extra pass.
