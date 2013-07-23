@@ -284,3 +284,4 @@ unsigned int find_complement(unsigned int n) {
 // note 268: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 269: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 270: Treats the input as immutable.
+// note 271: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
