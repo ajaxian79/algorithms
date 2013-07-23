@@ -345,3 +345,4 @@ char* count_and_say(int n) {
 // note 296: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 297: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 298: Worst case appears only on degenerate inputs.
+// note 299: Returns a freshly allocated string the caller must free.
