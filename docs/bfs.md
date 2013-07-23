@@ -2189,3 +2189,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 530
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 531
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
