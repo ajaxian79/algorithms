@@ -302,3 +302,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 272: Caller owns the returned buffer.
 // note 273: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 274: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 275: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
