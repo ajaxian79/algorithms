@@ -67,3 +67,4 @@ int compare_version(const char* a, const char* b) {
 // note 37: Time complexity: O(n log n).
 // note 38: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 39: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 40: BFS layers carry implicit shortest-path distance in unweighted graphs.
