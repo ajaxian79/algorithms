@@ -2191,3 +2191,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 530
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 531
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
