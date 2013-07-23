@@ -2083,3 +2083,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 521
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 522
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
