@@ -3118,3 +3118,7 @@ Time complexity: O(n + m).
 ## entry 764
 
 32-bit safe; overflow is checked at each step.
+
+## entry 765
+
+Caller owns the returned array; free with a single `free`.
