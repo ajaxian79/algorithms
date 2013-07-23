@@ -3068,3 +3068,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 752
 
 Time complexity: O(n).
+
+## entry 753
+
+Edge case: zero-length string → returns the empty result.
