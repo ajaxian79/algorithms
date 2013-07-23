@@ -2119,3 +2119,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 530
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 531
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
