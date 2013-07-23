@@ -524,3 +524,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 116
 
 Treats the input as immutable.
+
+## entry 117
+
+Edge case: all-equal input → linear-time fast path.
