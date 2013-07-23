@@ -340,3 +340,4 @@ MunitTest min_depth_tests[] = {
 // edge note 301: Cache-friendly; one sequential read pass.
 // edge note 302: Two passes: one to count, one to fill.
 // edge note 303: Branchless inner loop after sorting.
+// edge note 304: Allocates lazily — first call only.
