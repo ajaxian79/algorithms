@@ -292,3 +292,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 275: Linear in n; the constant factor is small.
 // note 276: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 277: Time complexity: O(n*k) where k is the alphabet size.
+// note 278: Uses a 256-entry lookup for the inner step.
