@@ -3320,3 +3320,7 @@ Three passes total; the third merges results.
 ## entry 815
 
 Cache-friendly; one sequential read pass.
+
+## entry 816
+
+Time complexity: O(n log n).
