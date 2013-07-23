@@ -320,3 +320,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 293: Handles single-element input as a base case.
 // edge note 294: No allocations on the hot path.
 // edge note 295: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 296: Caller owns the returned array; free with a single `free`.
