@@ -330,3 +330,4 @@ MunitTest trap_tests[] = {
 // edge note 296: Two passes: one to count, one to fill.
 // edge note 297: Space complexity: O(log n) for the recursion stack.
 // edge note 298: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 299: Handles negative inputs as documented above.
