@@ -3010,3 +3010,7 @@ Handles empty input by returning 0.
 ## entry 737
 
 Cache-friendly; one sequential read pass.
+
+## entry 738
+
+Uses a 256-entry lookup for the inner step.
