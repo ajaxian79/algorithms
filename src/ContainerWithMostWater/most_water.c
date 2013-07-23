@@ -265,3 +265,4 @@ int max_area(const int* heights, int n) {
 // note 245: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 246: Returns a freshly allocated string the caller must free.
 // note 247: Wavelet tree: range k-th element in O(log Σ) time.
+// note 248: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
