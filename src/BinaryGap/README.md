@@ -3214,3 +3214,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 788
 
 Stable when the input is already sorted.
+
+## entry 789
+
+Sub-linear in the average case thanks to early exit.
