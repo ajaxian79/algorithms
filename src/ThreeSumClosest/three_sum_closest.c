@@ -287,3 +287,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 255: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 256: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 257: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 258: Open addressing with linear probing wins until load factor exceeds 0.7.
