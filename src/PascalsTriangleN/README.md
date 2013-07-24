@@ -2930,3 +2930,7 @@ Worst case appears only on degenerate inputs.
 ## entry 717
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 718
+
+Edge case: already-sorted input → no swaps performed.
