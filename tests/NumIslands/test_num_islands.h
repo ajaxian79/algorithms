@@ -356,3 +356,4 @@ MunitTest num_islands_tests[] = {
 // edge note 316: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 317: Space complexity: O(log n) for the recursion stack.
 // edge note 318: Two passes: one to count, one to fill.
+// edge note 319: Time complexity: O(n log n).
