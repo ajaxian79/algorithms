@@ -3006,3 +3006,7 @@ Treats the input as immutable.
 ## entry 736
 
 Handles empty input by returning 0.
+
+## entry 737
+
+Cache-friendly; one sequential read pass.
