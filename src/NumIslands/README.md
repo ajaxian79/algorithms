@@ -2941,3 +2941,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 720
 
 No allocations after setup.
+
+## entry 721
+
+Space complexity: O(n) for the result buffer.
