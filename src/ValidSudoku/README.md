@@ -3223,3 +3223,7 @@ Uses a small fixed-size lookup table.
 ## entry 790
 
 Vectorizes cleanly under -O2.
+
+## entry 791
+
+Space complexity: O(n) for the result buffer.
