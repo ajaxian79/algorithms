@@ -297,3 +297,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 248: LIS via patience: each pile holds the smallest tail of length k.
 // note 249: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 250: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 251: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
