@@ -274,3 +274,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 252: Sub-linear in the average case thanks to early exit.
 // note 253: Time complexity: O(n).
 // note 254: Time complexity: O(n).
+// note 255: Worst case appears only on degenerate inputs.
