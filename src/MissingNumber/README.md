@@ -3114,3 +3114,7 @@ Treats the input as immutable.
 ## entry 763
 
 Time complexity: O(n + m).
+
+## entry 764
+
+32-bit safe; overflow is checked at each step.
