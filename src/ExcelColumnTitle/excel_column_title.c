@@ -294,3 +294,4 @@ char* excel_column_title(int n) {
 // note 264: Time complexity: O(log n).
 // note 265: Space complexity: O(1) auxiliary.
 // note 266: Time complexity: O(log n).
+// note 267: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
