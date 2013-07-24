@@ -307,3 +307,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 274: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 275: Worst case appears only on degenerate inputs.
 // edge note 276: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 277: No allocations after setup.
