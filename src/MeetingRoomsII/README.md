@@ -3094,3 +3094,7 @@ Treats the input as immutable.
 ## entry 758
 
 Returns a freshly allocated string the caller must free.
+
+## entry 759
+
+Handles negative inputs as documented above.
