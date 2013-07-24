@@ -2223,3 +2223,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 556
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 557
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
