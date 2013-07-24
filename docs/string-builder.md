@@ -2295,3 +2295,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 574
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 575
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
