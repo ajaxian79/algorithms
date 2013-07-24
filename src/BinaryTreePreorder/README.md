@@ -3146,3 +3146,7 @@ Caller owns the returned buffer.
 ## entry 772
 
 Handles empty input by returning 0.
+
+## entry 773
+
+Edge case: alternating pattern → degenerate case for sliding window.
