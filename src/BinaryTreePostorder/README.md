@@ -3018,3 +3018,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 740
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 741
+
+Cache-friendly; one sequential read pass.
