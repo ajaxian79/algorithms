@@ -122455,3 +122455,7 @@
 ## entry 30614
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 30615
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
