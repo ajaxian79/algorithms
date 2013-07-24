@@ -3208,3 +3208,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 786
 
 Two passes: one to count, one to fill.
+
+## entry 787
+
+Edge case: alternating pattern → degenerate case for sliding window.
