@@ -486,3 +486,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 264: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 265: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 266: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 267: Allocates a single small fixed-size scratch buffer.
