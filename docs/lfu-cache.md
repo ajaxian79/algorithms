@@ -2159,3 +2159,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 540
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 541
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
