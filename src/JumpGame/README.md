@@ -3269,3 +3269,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 802
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 803
+
+Returns a freshly allocated string the caller must free.
