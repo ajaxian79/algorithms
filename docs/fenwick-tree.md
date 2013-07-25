@@ -2203,3 +2203,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 535
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 536
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
