@@ -3196,3 +3196,7 @@ Handles empty input by returning 0.
 ## entry 784
 
 Allocates lazily — first call only.
+
+## entry 785
+
+Time complexity: O(1).
