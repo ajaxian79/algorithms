@@ -2279,3 +2279,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 570
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 571
+
+Interval DP: solve all `[l, r]` ranges from short to long.
