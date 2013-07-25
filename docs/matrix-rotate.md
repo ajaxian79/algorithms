@@ -2181,3 +2181,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 529
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 530
+
+Endianness matters when serializing multi-byte ints to a file or wire.
