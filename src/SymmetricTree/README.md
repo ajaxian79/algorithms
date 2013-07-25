@@ -2958,3 +2958,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 725
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 726
+
+Allocates one buffer of length n+1 for the result.
