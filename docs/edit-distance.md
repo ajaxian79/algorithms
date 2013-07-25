@@ -2203,3 +2203,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 533
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 534
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
