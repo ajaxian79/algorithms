@@ -351,3 +351,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 88
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 89
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
