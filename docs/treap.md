@@ -2139,3 +2139,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 535
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 536
+
+Heap when you only need top-k; full sort is wasted work.
