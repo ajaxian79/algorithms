@@ -2933,3 +2933,7 @@ Time complexity: O(1).
 ## entry 708
 
 Stable when the input is already sorted.
+
+## entry 709
+
+Two passes: one to count, one to fill.
