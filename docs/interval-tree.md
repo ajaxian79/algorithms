@@ -2191,3 +2191,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 548
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 549
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
