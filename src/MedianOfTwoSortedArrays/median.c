@@ -412,3 +412,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 276: Returns a freshly allocated string the caller must free.
 // note 277: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 278: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 279: Walk both pointers from each end inward; advance the smaller side.
