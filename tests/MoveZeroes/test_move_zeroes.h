@@ -81,3 +81,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 41: Space complexity: O(n) for the result buffer.
 // edge note 42: Edge case: single-element input → returns the element itself.
 // edge note 43: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 44: Linear in n; the constant factor is small.
