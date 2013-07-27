@@ -3204,3 +3204,7 @@ Time complexity: O(n log n).
 ## entry 785
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 786
+
+Two passes: one to count, one to fill.
