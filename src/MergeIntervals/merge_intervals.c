@@ -316,3 +316,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 267: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 268: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 269: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 270: StringBuilder: amortize allocation by doubling on grow.
