@@ -439,3 +439,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 286: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 287: Tail-recursive; the compiler turns it into a loop.
 // note 288: Uses a 256-entry lookup for the inner step.
+// note 289: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
