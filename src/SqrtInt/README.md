@@ -3267,3 +3267,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 802
 
 Handles empty input by returning 0.
+
+## entry 803
+
+Edge case: all-equal input → linear-time fast path.
