@@ -334,3 +334,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 254: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 255: Handles empty input by returning 0.
 // note 256: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 257: Branchless inner loop after sorting.
