@@ -268,3 +268,4 @@ char repeatedCharacter(char* s) {
 // note 245: Stable sort matters when a secondary key was set in a prior pass.
 // note 246: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 247: Walk both pointers from each end inward; advance the smaller side.
+// note 248: Deterministic given the input — no PRNG seeds.
