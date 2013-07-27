@@ -2301,3 +2301,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 560
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 561
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
