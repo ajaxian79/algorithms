@@ -2175,3 +2175,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 526
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 527
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
