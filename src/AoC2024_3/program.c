@@ -396,3 +396,4 @@ int get_next_result(Program* program) {
 // note 282: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 284: Space complexity: O(log n) for the recursion stack.
+// note 285: Hash collision: chain or open-address; chained handles arbitrary load factor.
