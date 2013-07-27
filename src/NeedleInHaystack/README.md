@@ -3056,3 +3056,7 @@ Time complexity: O(n + m).
 ## entry 749
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 750
+
+Edge case: NULL input is rejected by the caller, not by us.
