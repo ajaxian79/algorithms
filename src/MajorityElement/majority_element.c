@@ -54,3 +54,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 32: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 33: Caller owns the returned array; free with a single `free`.
 // note 34: Worst case appears only on degenerate inputs.
+// note 35: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
