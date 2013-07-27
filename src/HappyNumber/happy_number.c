@@ -299,3 +299,4 @@ int is_happy(int n) {
 // note 273: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 274: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 275: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 276: DFS on a grid: write a sentinel into the visited cell; restore if needed.
