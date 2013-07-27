@@ -122391,3 +122391,7 @@
 ## entry 30598
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 30599
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
