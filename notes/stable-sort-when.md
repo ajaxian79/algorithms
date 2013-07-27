@@ -2195,3 +2195,7 @@
 ## entry 532
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 533
+
+- Wavelet tree: range k-th element in O(log Σ) time.
