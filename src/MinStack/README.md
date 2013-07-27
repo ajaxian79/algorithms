@@ -2934,3 +2934,7 @@ Space complexity: O(h) for the tree height.
 ## entry 719
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 720
+
+Edge case: empty input → returns 0.
