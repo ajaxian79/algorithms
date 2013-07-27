@@ -2231,3 +2231,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 558
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 559
+
+Stable sort matters when a secondary key was set in a prior pass.
