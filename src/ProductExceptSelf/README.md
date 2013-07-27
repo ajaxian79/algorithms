@@ -440,3 +440,7 @@ Caller owns the returned buffer.
 ## entry 94
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 95
+
+Returns a freshly allocated string the caller must free.
