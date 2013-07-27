@@ -3254,3 +3254,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 799
 
 Space complexity: O(h) for the tree height.
+
+## entry 800
+
+Allocates a single small fixed-size scratch buffer.
