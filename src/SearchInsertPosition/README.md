@@ -3042,3 +3042,7 @@ Time complexity: O(n log n).
 ## entry 746
 
 Treats the input as immutable.
+
+## entry 747
+
+Avoids floating-point entirely — integer math throughout.
