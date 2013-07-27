@@ -3219,3 +3219,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 789
 
 Uses a small fixed-size lookup table.
+
+## entry 790
+
+Vectorizes cleanly under -O2.
