@@ -395,3 +395,4 @@ int get_next_result(Program* program) {
 // note 281: Time complexity: O(n + m).
 // note 282: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 283: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 284: Space complexity: O(log n) for the recursion stack.
