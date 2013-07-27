@@ -516,3 +516,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 114
 
 Linear in n; the constant factor is small.
+
+## entry 115
+
+Edge case: all-equal input → linear-time fast path.
