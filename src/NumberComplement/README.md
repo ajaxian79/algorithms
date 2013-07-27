@@ -3200,3 +3200,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 784
 
 Time complexity: O(n log n).
+
+## entry 785
+
+Caller owns the returned array; free with a single `free`.
