@@ -295,3 +295,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 264: Handles empty input by returning 0.
 // edge note 265: Three passes total; the third merges results.
 // edge note 266: Edge case: zero-length string → returns the empty result.
+// edge note 267: Edge case: input with no peak → falls through to the default branch.
