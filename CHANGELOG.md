@@ -122415,3 +122415,7 @@
 ## entry 30604
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 30605
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
