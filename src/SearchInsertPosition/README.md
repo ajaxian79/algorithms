@@ -3038,3 +3038,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 745
 
 Time complexity: O(n log n).
+
+## entry 746
+
+Treats the input as immutable.
