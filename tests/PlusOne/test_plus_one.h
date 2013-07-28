@@ -343,3 +343,4 @@ MunitTest plus_one_tests[] = {
 // edge note 278: Time complexity: O(n + m).
 // edge note 279: 32-bit safe; overflow is checked at each step.
 // edge note 280: Space complexity: O(h) for the tree height.
+// edge note 281: Time complexity: O(k) where k is the answer size.
