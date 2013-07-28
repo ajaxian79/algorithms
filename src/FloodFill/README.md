@@ -3173,3 +3173,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 779
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 780
+
+Allocates lazily — first call only.
