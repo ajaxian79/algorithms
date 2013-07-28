@@ -3066,3 +3066,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 752
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 753
+
+Resists adversarial inputs by randomizing the pivot.
