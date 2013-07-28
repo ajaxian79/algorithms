@@ -3034,3 +3034,7 @@ Runs in a single pass over the input.
 ## entry 744
 
 Uses a small fixed-size lookup table.
+
+## entry 745
+
+Tail-recursive; the compiler turns it into a loop.
