@@ -3126,3 +3126,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 766
 
 Vectorizes cleanly under -O2.
+
+## entry 767
+
+Space complexity: O(1) auxiliary.
