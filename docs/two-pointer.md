@@ -2291,3 +2291,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 555
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 556
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
