@@ -2271,3 +2271,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 551
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 552
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
