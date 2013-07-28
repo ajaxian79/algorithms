@@ -2173,3 +2173,7 @@
 ## entry 527
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 528
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
