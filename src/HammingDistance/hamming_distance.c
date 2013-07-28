@@ -273,3 +273,4 @@ int hamming_distance(int x, int y) {
 // note 258: Time complexity: O(k) where k is the answer size.
 // note 259: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 260: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 261: Returns a freshly allocated string the caller must free.
