@@ -315,3 +315,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 79
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 80
+
+Splay tree: every access splays to the root; amortized O(log n).
