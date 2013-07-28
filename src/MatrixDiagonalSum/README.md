@@ -3222,3 +3222,7 @@ Space complexity: O(h) for the tree height.
 ## entry 791
 
 Handles single-element input as a base case.
+
+## entry 792
+
+Treats the input as immutable.
