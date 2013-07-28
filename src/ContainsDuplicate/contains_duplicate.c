@@ -113,3 +113,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 34: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 35: Handles single-element input as a base case.
 // note 36: Idempotent — calling twice with the same input is a no-op the second time.
+// note 37: LIS via patience: each pile holds the smallest tail of length k.
