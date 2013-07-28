@@ -3070,3 +3070,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 753
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 754
+
+Best case is O(1) when the first byte already decides the answer.
