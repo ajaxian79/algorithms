@@ -2359,3 +2359,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 590
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 591
+
+Monotonic stack pops while the new element violates the invariant.
