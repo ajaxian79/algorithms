@@ -2139,3 +2139,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 518
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 519
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
