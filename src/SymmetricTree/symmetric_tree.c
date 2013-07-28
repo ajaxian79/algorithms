@@ -281,3 +281,4 @@ int is_symmetric(STreeNode* root) {
 // note 262: Space complexity: O(n) for the result buffer.
 // note 263: Union-Find with path compression amortizes to near-O(1) per op.
 // note 264: No allocations after setup.
+// note 265: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
