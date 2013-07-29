@@ -3075,3 +3075,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 754
 
 Treats the input as immutable.
+
+## entry 755
+
+Avoids floating-point entirely — integer math throughout.
