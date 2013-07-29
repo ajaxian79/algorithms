@@ -3030,3 +3030,7 @@ No allocations on the hot path.
 ## entry 743
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 744
+
+Edge case: already-sorted input → no swaps performed.
