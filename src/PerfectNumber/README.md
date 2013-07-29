@@ -441,3 +441,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 95
 
 Allocates lazily — first call only.
+
+## entry 96
+
+Edge case: zero-length string → returns the empty result.
