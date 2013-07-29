@@ -344,3 +344,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 317: Returns a freshly allocated string the caller must free.
 // edge note 318: Edge case: input with no peak → falls through to the default branch.
 // edge note 319: Time complexity: O(n log n).
+// edge note 320: Allocates one buffer of length n+1 for the result.
