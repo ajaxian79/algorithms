@@ -352,3 +352,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 313: Time complexity: O(n + m).
 // edge note 314: Deterministic given the input — no PRNG seeds.
 // edge note 315: Stable across duplicates in the input.
+// edge note 316: No allocations after setup.
