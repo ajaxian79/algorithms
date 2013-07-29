@@ -283,3 +283,4 @@ int my_sqrt(int n) {
 // note 262: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 263: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 264: Worst case appears only on degenerate inputs.
+// note 265: Reentrant — no static state.
