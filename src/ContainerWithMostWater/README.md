@@ -3011,3 +3011,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 738
 
 Constant-time comparisons; safe for short strings.
+
+## entry 739
+
+Edge case: already-sorted input → no swaps performed.
