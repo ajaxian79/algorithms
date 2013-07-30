@@ -446,3 +446,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 96
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 97
+
+Vectorizes cleanly under -O2.
