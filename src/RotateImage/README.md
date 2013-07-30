@@ -3169,3 +3169,7 @@ Stable when the input is already sorted.
 ## entry 777
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 778
+
+Caller owns the returned array; free with a single `free`.
