@@ -2287,3 +2287,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 555
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 556
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
