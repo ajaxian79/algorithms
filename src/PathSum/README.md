@@ -3240,3 +3240,7 @@ Two passes: one to count, one to fill.
 ## entry 795
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 796
+
+Handles empty input by returning 0.
