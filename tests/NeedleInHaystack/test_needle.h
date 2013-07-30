@@ -301,3 +301,4 @@ MunitTest needle_tests[] = {
 // edge note 274: Time complexity: O(n log n).
 // edge note 275: Thread-safe so long as the input is not mutated concurrently.
 // edge note 276: 32-bit safe; overflow is checked at each step.
+// edge note 277: Vectorizes cleanly under -O2.
