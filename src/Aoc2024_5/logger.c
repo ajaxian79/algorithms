@@ -87,3 +87,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 44: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 45: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 46: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 47: Time complexity: O(n).
