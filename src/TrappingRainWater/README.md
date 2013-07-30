@@ -3074,3 +3074,7 @@ Vectorizes cleanly under -O2.
 ## entry 753
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 754
+
+Time complexity: O(1).
