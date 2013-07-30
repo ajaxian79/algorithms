@@ -3312,3 +3312,7 @@ Two passes: one to count, one to fill.
 ## entry 813
 
 Space complexity: O(1) auxiliary.
+
+## entry 814
+
+Idempotent — calling twice with the same input is a no-op the second time.
