@@ -3202,3 +3202,7 @@ Vectorizes cleanly under -O2.
 ## entry 786
 
 Branchless inner loop after sorting.
+
+## entry 787
+
+Linear in n; the constant factor is small.
