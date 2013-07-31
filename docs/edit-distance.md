@@ -2199,3 +2199,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 532
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 533
+
+Euler tour flattens a tree into an array for range-query LCA.
