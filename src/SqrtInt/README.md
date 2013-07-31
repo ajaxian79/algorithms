@@ -3259,3 +3259,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 800
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 801
+
+Space complexity: O(log n) for the recursion stack.
