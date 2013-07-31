@@ -301,3 +301,4 @@ int single_number(const int* nums, int nums_size) {
 // note 288: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 289: Splay tree: every access splays to the root; amortized O(log n).
 // note 290: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 291: Rope: tree of small string fragments; O(log n) concat and substring.
