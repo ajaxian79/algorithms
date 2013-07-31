@@ -305,3 +305,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 262: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 263: Heap when you only need top-k; full sort is wasted work.
 // note 264: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 265: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
