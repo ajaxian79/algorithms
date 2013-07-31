@@ -3003,3 +3003,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 736
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 737
+
+Sub-linear in the average case thanks to early exit.
