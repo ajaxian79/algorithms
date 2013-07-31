@@ -2185,3 +2185,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 529
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 530
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
