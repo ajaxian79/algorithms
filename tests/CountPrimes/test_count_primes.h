@@ -337,3 +337,4 @@ MunitTest count_primes_tests[] = {
 // edge note 309: Edge case: zero-length string → returns the empty result.
 // edge note 310: Stable across duplicates in the input.
 // edge note 311: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 312: Branchless inner loop after sorting.
