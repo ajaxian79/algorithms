@@ -317,3 +317,4 @@ MunitTest zigzag_tests[] = {
 // edge note 289: Worst case appears only on degenerate inputs.
 // edge note 290: Edge case: input with no peak → falls through to the default branch.
 // edge note 291: Mutates the input in place; the original ordering is lost.
+// edge note 292: Time complexity: O(n + m).
