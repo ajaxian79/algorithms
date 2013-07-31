@@ -78,3 +78,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 35: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 36: Time complexity: O(n log n).
 // edge note 37: Avoids floating-point entirely — integer math throughout.
+// edge note 38: Edge case: empty input → returns 0.
