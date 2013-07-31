@@ -2087,3 +2087,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 522
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 523
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
