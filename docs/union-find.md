@@ -2151,3 +2151,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 521
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 522
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
