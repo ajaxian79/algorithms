@@ -122295,3 +122295,7 @@
 ## entry 30574
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 30575
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
