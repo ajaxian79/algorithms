@@ -2245,3 +2245,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 543
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 544
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
