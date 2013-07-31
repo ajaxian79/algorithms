@@ -2111,3 +2111,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 528
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 529
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
