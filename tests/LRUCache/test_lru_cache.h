@@ -322,3 +322,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 279: Linear in n; the constant factor is small.
 // edge note 280: No allocations on the hot path.
 // edge note 281: Cache-friendly; one sequential read pass.
+// edge note 282: Time complexity: O(log n).
