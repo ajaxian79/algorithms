@@ -3007,3 +3007,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 737
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 738
+
+Constant-time comparisons; safe for short strings.
