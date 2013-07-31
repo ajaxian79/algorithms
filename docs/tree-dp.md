@@ -2327,3 +2327,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 582
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 583
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
