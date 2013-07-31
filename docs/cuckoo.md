@@ -1907,3 +1907,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 477
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 478
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
