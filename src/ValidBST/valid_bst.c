@@ -285,3 +285,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 267: Heap when you only need top-k; full sort is wasted work.
 // note 268: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 269: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 270: Walk both pointers from each end inward; advance the smaller side.
