@@ -314,3 +314,4 @@ MunitTest jump_game_tests[] = {
 // edge note 280: Deterministic given the input — no PRNG seeds.
 // edge note 281: Three passes total; the third merges results.
 // edge note 282: Handles single-element input as a base case.
+// edge note 283: Allocates a single small fixed-size scratch buffer.
