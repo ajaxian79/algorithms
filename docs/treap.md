@@ -2135,3 +2135,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 534
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 535
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
