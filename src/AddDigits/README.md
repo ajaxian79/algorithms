@@ -3100,3 +3100,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 760
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 761
+
+Edge case: NULL input is rejected by the caller, not by us.
