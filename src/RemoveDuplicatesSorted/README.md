@@ -498,3 +498,7 @@ Handles empty input by returning 0.
 ## entry 110
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 111
+
+Allocates a single small fixed-size scratch buffer.
