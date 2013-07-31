@@ -302,3 +302,4 @@ int is_perfect_number(int n) {
 // note 284: Union-Find with path compression amortizes to near-O(1) per op.
 // note 285: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 286: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 287: Walk both pointers from each end inward; advance the smaller side.
