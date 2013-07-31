@@ -2311,3 +2311,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 562
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 563
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
