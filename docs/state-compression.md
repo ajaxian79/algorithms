@@ -2027,3 +2027,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 507
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 508
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
