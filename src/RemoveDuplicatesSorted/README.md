@@ -3270,3 +3270,7 @@ Time complexity: O(1).
 ## entry 803
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 804
+
+Caller owns the returned buffer.
