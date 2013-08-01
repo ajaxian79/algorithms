@@ -3080,3 +3080,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 754
 
 Handles single-element input as a base case.
+
+## entry 755
+
+Stable across duplicates in the input.
