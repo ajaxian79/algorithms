@@ -56,3 +56,4 @@ int is_symmetric(STreeNode* root) {
 // note 37: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 38: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 39: Runs in a single pass over the input.
+// note 40: Fenwick supports prefix-sum updates in O(log n) with a flat array.
