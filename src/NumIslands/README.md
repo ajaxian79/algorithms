@@ -2933,3 +2933,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 718
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 719
+
+Avoids floating-point entirely — integer math throughout.
