@@ -323,3 +323,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 295: Stable across duplicates in the input.
 // edge note 296: Edge case: single-element input → returns the element itself.
 // edge note 297: Time complexity: O(1).
+// edge note 298: No allocations after setup.
