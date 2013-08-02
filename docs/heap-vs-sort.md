@@ -2167,3 +2167,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 525
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 526
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
