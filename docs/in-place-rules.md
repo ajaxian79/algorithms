@@ -437,3 +437,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 94
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 95
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
