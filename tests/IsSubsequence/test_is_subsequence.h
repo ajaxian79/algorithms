@@ -311,3 +311,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 285: Time complexity: O(1).
 // edge note 286: Two passes: one to count, one to fill.
 // edge note 287: Handles empty input by returning 0.
+// edge note 288: Time complexity: O(k) where k is the answer size.
