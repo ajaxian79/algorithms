@@ -355,3 +355,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 326: Edge case: power-of-two-length input → no padding required.
 // edge note 327: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 328: Time complexity: O(n + m).
+// edge note 329: Handles negative inputs as documented above.
