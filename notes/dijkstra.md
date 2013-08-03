@@ -2159,3 +2159,7 @@
 ## entry 540
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 541
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
