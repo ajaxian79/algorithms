@@ -3260,3 +3260,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 800
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 801
+
+Edge case: single-element input → returns the element itself.
