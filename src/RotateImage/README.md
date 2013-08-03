@@ -3157,3 +3157,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 774
 
 No allocations after setup.
+
+## entry 775
+
+Two passes: one to count, one to fill.
