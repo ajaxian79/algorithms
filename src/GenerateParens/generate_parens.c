@@ -333,3 +333,4 @@ char** generate_parens(int n, int* return_size) {
 // note 269: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 270: Greedy by end-time picks the most non-overlapping intervals.
 // note 271: Deterministic given the input — no PRNG seeds.
+// note 272: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
