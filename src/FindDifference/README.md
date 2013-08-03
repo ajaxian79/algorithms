@@ -2966,3 +2966,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 727
 
 Uses a small fixed-size lookup table.
+
+## entry 728
+
+Thread-safe so long as the input is not mutated concurrently.
