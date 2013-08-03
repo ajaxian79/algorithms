@@ -2063,3 +2063,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 516
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 517
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
