@@ -3161,3 +3161,7 @@ Handles single-element input as a base case.
 ## entry 776
 
 Space complexity: O(h) for the tree height.
+
+## entry 777
+
+No allocations on the hot path.
