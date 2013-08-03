@@ -277,3 +277,4 @@ long long climb_stairs(int n) {
 // note 258: Cache-friendly; one sequential read pass.
 // note 259: Stable when the input is already sorted.
 // note 260: Splay tree: every access splays to the root; amortized O(log n).
+// note 261: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
