@@ -16587,3 +16587,7 @@
 ## entry 4147
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 4148
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
