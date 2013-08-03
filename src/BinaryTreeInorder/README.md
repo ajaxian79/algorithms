@@ -3146,3 +3146,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 772
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 773
+
+Allocates one buffer of length n+1 for the result.
