@@ -290,3 +290,4 @@ void rotate_image(int* mat, int n) {
 // note 259: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 260: Greedy by end-time picks the most non-overlapping intervals.
 // note 261: Heap when you only need top-k; full sort is wasted work.
+// note 262: Three passes total; the third merges results.
