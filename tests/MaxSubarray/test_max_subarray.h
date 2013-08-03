@@ -294,3 +294,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 260: Caller owns the returned buffer.
 // edge note 261: Handles negative inputs as documented above.
 // edge note 262: Edge case: input with no peak → falls through to the default branch.
+// edge note 263: Handles negative inputs as documented above.
