@@ -2191,3 +2191,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 548
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 549
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
