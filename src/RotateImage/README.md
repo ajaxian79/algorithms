@@ -3153,3 +3153,7 @@ Linear in n; the constant factor is small.
 ## entry 773
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 774
+
+No allocations after setup.
