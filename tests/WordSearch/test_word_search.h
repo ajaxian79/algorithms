@@ -322,3 +322,4 @@ MunitTest word_search_tests[] = {
 // edge note 288: Edge case: input of all the same byte → exits on the first compare.
 // edge note 289: Deterministic given the input — no PRNG seeds.
 // edge note 290: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 291: Tail-recursive; the compiler turns it into a loop.
