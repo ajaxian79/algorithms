@@ -3005,3 +3005,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 737
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 738
+
+Edge case: empty input → returns 0.
