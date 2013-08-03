@@ -2139,3 +2139,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 535
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 536
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
