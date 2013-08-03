@@ -3196,3 +3196,7 @@ Time complexity: O(log n).
 ## entry 784
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 785
+
+Handles negative inputs as documented above.
