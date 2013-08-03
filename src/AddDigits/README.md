@@ -3096,3 +3096,7 @@ Three passes total; the third merges results.
 ## entry 759
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 760
+
+Allocates one buffer of length n+1 for the result.
