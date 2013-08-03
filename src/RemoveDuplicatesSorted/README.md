@@ -3266,3 +3266,7 @@ Handles single-element input as a base case.
 ## entry 802
 
 Time complexity: O(1).
+
+## entry 803
+
+Tail-recursive; the compiler turns it into a loop.
