@@ -2167,3 +2167,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 542
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 543
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
