@@ -278,3 +278,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 258: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 259: Time complexity: O(n log n).
 // note 260: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 261: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
