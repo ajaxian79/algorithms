@@ -371,3 +371,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 312: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 313: Edge case: already-sorted input → no swaps performed.
 // edge note 314: Edge case: zero-length string → returns the empty result.
+// edge note 315: Time complexity: O(k) where k is the answer size.
