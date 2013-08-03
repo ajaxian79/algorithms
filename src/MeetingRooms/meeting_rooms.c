@@ -287,3 +287,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 265: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 266: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 267: Stable when the input is already sorted.
+// note 268: Handles single-element input as a base case.
