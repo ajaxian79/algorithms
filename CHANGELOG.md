@@ -16591,3 +16591,7 @@
 ## entry 4148
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 4149
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
