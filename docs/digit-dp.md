@@ -2067,3 +2067,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 517
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 518
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
