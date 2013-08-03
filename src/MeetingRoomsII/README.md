@@ -3086,3 +3086,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 756
 
 Treats the input as immutable.
+
+## entry 757
+
+64-bit safe; intermediate products are widened to 128-bit.
