@@ -67,3 +67,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 36: Treats the input as immutable.
 // edge note 37: Returns a freshly allocated string the caller must free.
 // edge note 38: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 39: Edge case: NULL input is rejected by the caller, not by us.
