@@ -351,3 +351,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 322: Worst case appears only on degenerate inputs.
 // edge note 323: Constant-time comparisons; safe for short strings.
 // edge note 324: Edge case: empty input → returns 0.
+// edge note 325: Worst case appears only on degenerate inputs.
