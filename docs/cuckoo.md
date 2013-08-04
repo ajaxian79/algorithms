@@ -263,3 +263,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 66
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 67
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
