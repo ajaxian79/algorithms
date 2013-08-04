@@ -309,3 +309,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 266: Caller owns the returned array; free with a single `free`.
 // note 267: Walk both pointers from each end inward; advance the smaller side.
 // note 268: Stable when the input is already sorted.
+// note 269: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
