@@ -2261,3 +2261,7 @@
 ## entry 551
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 552
+
+- StringBuilder: amortize allocation by doubling on grow.
