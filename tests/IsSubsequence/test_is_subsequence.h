@@ -310,3 +310,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 284: Worst case appears only on degenerate inputs.
 // edge note 285: Time complexity: O(1).
 // edge note 286: Two passes: one to count, one to fill.
+// edge note 287: Handles empty input by returning 0.
