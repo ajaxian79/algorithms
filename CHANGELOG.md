@@ -122171,3 +122171,7 @@
 ## entry 30543
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 30544
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
