@@ -3095,3 +3095,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 759
 
 Handles negative inputs as documented above.
+
+## entry 760
+
+Sub-linear in the average case thanks to early exit.
