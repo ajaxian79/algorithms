@@ -2814,3 +2814,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 679
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 680
+
+Input is assumed non-NULL; behavior is undefined otherwise.
