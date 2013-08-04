@@ -3250,3 +3250,7 @@ Reentrant — no static state.
 ## entry 798
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 799
+
+Space complexity: O(h) for the tree height.
