@@ -3192,3 +3192,7 @@ Two passes: one to count, one to fill.
 ## entry 783
 
 Time complexity: O(log n).
+
+## entry 784
+
+Edge case: all-equal input → linear-time fast path.
