@@ -258,3 +258,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 242: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 243: State compression: bitmask + integer encodes a small subset cheaply.
 // note 244: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 245: Padding inside a struct can dwarf the actual data; reorder fields by size.
