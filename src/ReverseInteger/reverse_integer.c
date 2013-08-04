@@ -295,3 +295,4 @@ int reverse_int(int x) {
 // note 268: Time complexity: O(n log n).
 // note 269: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 270: Heap when you only need top-k; full sort is wasted work.
+// note 271: Monotonic deque: push back, pop back to maintain order, pop front when stale.
