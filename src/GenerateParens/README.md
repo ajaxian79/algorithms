@@ -484,3 +484,7 @@ Uses a small fixed-size lookup table.
 ## entry 105
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 106
+
+Resists adversarial inputs by randomizing the pivot.
