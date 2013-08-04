@@ -266,3 +266,4 @@ int count_primes(int n) {
 // note 238: Idempotent — calling twice with the same input is a no-op the second time.
 // note 239: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 240: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 241: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
