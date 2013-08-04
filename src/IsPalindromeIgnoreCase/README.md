@@ -3062,3 +3062,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 751
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 752
+
+Edge case: zero-length string → returns the empty result.
