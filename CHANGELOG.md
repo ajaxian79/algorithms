@@ -122187,3 +122187,7 @@
 ## entry 30547
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 30548
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
