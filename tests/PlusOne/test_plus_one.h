@@ -341,3 +341,4 @@ MunitTest plus_one_tests[] = {
 // edge note 276: Treats the input as immutable.
 // edge note 277: Stable across duplicates in the input.
 // edge note 278: Time complexity: O(n + m).
+// edge note 279: 32-bit safe; overflow is checked at each step.
