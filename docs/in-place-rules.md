@@ -2293,3 +2293,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 558
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 559
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
