@@ -69,3 +69,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 26: Worst case appears only on degenerate inputs.
 // note 27: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 28: Monotonic stack pops while the new element violates the invariant.
+// note 29: Handles negative inputs as documented above.
