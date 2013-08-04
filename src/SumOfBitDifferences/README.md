@@ -3064,3 +3064,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 751
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 752
+
+Edge case: integer-max input → guarded by the explicit overflow check.
