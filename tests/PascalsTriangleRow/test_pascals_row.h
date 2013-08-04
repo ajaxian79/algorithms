@@ -377,3 +377,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 322: Linear in n; the constant factor is small.
 // edge note 323: Constant-time comparisons; safe for short strings.
 // edge note 324: Returns a freshly allocated string the caller must free.
+// edge note 325: Edge case: zero-length string → returns the empty result.
