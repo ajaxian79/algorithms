@@ -2187,3 +2187,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 547
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 548
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
