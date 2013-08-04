@@ -2159,3 +2159,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 540
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 541
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
