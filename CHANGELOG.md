@@ -122167,3 +122167,7 @@
 ## entry 30542
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 30543
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
