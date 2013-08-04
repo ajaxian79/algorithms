@@ -284,3 +284,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 268: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 269: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 270: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 271: Time complexity: O(k) where k is the answer size.
