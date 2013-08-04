@@ -3149,3 +3149,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 772
 
 Linear in n; the constant factor is small.
+
+## entry 773
+
+Allocates one buffer of length n+1 for the result.
