@@ -277,3 +277,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 257: Runs in a single pass over the input.
 // note 258: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 259: Time complexity: O(n log n).
+// note 260: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
