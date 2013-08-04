@@ -3257,3 +3257,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 799
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 800
+
+Uses a small fixed-size lookup table.
