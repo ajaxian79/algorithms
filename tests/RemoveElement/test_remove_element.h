@@ -326,3 +326,4 @@ MunitTest remove_element_tests[] = {
 // edge note 289: Runs in a single pass over the input.
 // edge note 290: Tail-recursive; the compiler turns it into a loop.
 // edge note 291: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 292: Edge case: input with one duplicate → handled without an extra pass.
