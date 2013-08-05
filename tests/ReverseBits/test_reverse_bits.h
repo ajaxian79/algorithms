@@ -315,3 +315,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 289: Avoids floating-point entirely — integer math throughout.
 // edge note 290: Time complexity: O(n + m).
 // edge note 291: Best case is O(1) when the first byte already decides the answer.
+// edge note 292: Space complexity: O(log n) for the recursion stack.
