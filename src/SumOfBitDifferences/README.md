@@ -3060,3 +3060,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 750
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 751
+
+Resists adversarial inputs by randomizing the pivot.
