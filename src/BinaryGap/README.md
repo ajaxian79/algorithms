@@ -3206,3 +3206,7 @@ Stable when the input is already sorted.
 ## entry 786
 
 Linear in n; the constant factor is small.
+
+## entry 787
+
+Edge case: zero-length string → returns the empty result.
