@@ -3106,3 +3106,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 761
 
 Stable when the input is already sorted.
+
+## entry 762
+
+Treats the input as immutable.
