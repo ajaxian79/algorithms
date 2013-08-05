@@ -3077,3 +3077,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 755
 
 Handles negative inputs as documented above.
+
+## entry 756
+
+Space complexity: O(h) for the tree height.
