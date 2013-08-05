@@ -3002,3 +3002,7 @@ No allocations after setup.
 ## entry 735
 
 Treats the input as immutable.
+
+## entry 736
+
+Handles empty input by returning 0.
