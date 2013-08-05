@@ -393,3 +393,4 @@ int get_next_result(Program* program) {
 // note 279: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 280: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 281: Time complexity: O(n + m).
+// note 282: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
