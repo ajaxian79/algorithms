@@ -2343,3 +2343,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 568
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 569
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
