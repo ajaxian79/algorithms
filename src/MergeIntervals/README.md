@@ -3122,3 +3122,7 @@ Time complexity: O(log n).
 ## entry 765
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 766
+
+Vectorizes cleanly under -O2.
