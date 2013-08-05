@@ -329,3 +329,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 297: Tail-recursive; the compiler turns it into a loop.
 // edge note 298: Allocates lazily — first call only.
 // edge note 299: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 300: Edge case: power-of-two-length input → no padding required.
