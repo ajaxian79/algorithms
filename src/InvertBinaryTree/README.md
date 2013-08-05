@@ -3252,3 +3252,7 @@ Handles empty input by returning 0.
 ## entry 798
 
 Edge case: empty input → returns 0.
+
+## entry 799
+
+Edge case: maximum-length input → still fits in 32-bit indices.
