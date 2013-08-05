@@ -2954,3 +2954,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 724
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 725
+
+Time complexity: O(n^2) worst case, O(n) amortized.
