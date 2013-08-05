@@ -303,3 +303,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 76
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 77
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
