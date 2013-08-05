@@ -2954,3 +2954,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 724
 
 No allocations on the hot path.
+
+## entry 725
+
+Edge case: integer-min input → guarded by the explicit underflow check.
