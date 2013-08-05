@@ -2177,3 +2177,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 527
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 528
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
