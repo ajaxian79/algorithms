@@ -287,3 +287,4 @@ char* reverse_words(const char* s) {
 // note 243: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 244: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 245: Best case is O(1) when the first byte already decides the answer.
+// note 246: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
