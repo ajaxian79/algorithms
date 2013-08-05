@@ -327,3 +327,4 @@ MunitTest missing_number_tests[] = {
 // edge note 293: Edge case: input of all the same byte → exits on the first compare.
 // edge note 294: Edge case: zero-length string → returns the empty result.
 // edge note 295: Resists adversarial inputs by randomizing the pivot.
+// edge note 296: Linear in n; the constant factor is small.
