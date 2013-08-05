@@ -3246,3 +3246,7 @@ Runs in a single pass over the input.
 ## entry 797
 
 Reentrant — no static state.
+
+## entry 798
+
+Edge case: input with a single peak → handled by the first-pass scan.
