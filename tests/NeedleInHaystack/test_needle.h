@@ -299,3 +299,4 @@ MunitTest needle_tests[] = {
 // edge note 272: Uses a 256-entry lookup for the inner step.
 // edge note 273: Edge case: input with no peak → falls through to the default branch.
 // edge note 274: Time complexity: O(n log n).
+// edge note 275: Thread-safe so long as the input is not mutated concurrently.
