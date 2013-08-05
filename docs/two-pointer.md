@@ -2283,3 +2283,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 553
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 554
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
