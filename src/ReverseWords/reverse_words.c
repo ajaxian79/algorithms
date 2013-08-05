@@ -286,3 +286,4 @@ char* reverse_words(const char* s) {
 // note 242: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 243: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 244: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 245: Best case is O(1) when the first byte already decides the answer.
