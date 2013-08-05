@@ -2285,3 +2285,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 554
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 555
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
