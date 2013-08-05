@@ -3215,3 +3215,7 @@ Space complexity: O(1) auxiliary.
 ## entry 789
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 790
+
+Allocates lazily — first call only.
