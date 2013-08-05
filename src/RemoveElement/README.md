@@ -3081,3 +3081,7 @@ Handles negative inputs as documented above.
 ## entry 756
 
 Space complexity: O(h) for the tree height.
+
+## entry 757
+
+Edge case: input of all the same byte → exits on the first compare.
