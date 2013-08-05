@@ -3056,3 +3056,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 749
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 750
+
+Deterministic given the input — no PRNG seeds.
