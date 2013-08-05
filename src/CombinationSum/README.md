@@ -3091,3 +3091,7 @@ Worst case appears only on degenerate inputs.
 ## entry 758
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 759
+
+Handles negative inputs as documented above.
