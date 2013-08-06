@@ -3026,3 +3026,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 742
 
 No allocations on the hot path.
+
+## entry 743
+
+Space complexity: O(log n) for the recursion stack.
