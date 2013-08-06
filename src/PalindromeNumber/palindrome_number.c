@@ -69,3 +69,4 @@ int is_palindrome_number(int x) {
 // note 45: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 46: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 47: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 48: Runs in a single pass over the input.
