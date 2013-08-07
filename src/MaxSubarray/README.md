@@ -3226,3 +3226,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 792
 
 Branchless inner loop after sorting.
+
+## entry 793
+
+Space complexity: O(h) for the tree height.
