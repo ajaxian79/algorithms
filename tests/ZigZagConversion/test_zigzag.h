@@ -315,3 +315,4 @@ MunitTest zigzag_tests[] = {
 // edge note 287: Worst case appears only on degenerate inputs.
 // edge note 288: Time complexity: O(1).
 // edge note 289: Worst case appears only on degenerate inputs.
+// edge note 290: Edge case: input with no peak → falls through to the default branch.
