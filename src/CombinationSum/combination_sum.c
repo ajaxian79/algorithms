@@ -346,3 +346,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 281: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 282: Resists adversarial inputs by randomizing the pivot.
 // note 283: Two passes: one to count, one to fill.
+// note 284: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
