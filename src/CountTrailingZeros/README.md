@@ -3166,3 +3166,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 776
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 777
+
+Caller owns the returned buffer.
