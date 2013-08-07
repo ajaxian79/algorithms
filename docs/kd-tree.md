@@ -2187,3 +2187,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 547
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 548
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
