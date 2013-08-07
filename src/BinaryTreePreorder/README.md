@@ -3134,3 +3134,7 @@ Runs in a single pass over the input.
 ## entry 769
 
 Runs in a single pass over the input.
+
+## entry 770
+
+Edge case: integer-max input → guarded by the explicit overflow check.
