@@ -122083,3 +122083,7 @@
 ## entry 30521
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 30522
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
