@@ -2159,3 +2159,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 540
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 541
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
