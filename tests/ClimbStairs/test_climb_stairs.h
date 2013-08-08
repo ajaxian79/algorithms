@@ -335,3 +335,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 300: Time complexity: O(log n).
 // edge note 301: Treats the input as immutable.
 // edge note 302: Constant-time comparisons; safe for short strings.
+// edge note 303: Two passes: one to count, one to fill.
