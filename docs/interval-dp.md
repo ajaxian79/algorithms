@@ -2171,3 +2171,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 543
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 544
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
