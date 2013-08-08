@@ -323,3 +323,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 295: Caller owns the returned array; free with a single `free`.
 // edge note 296: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 297: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 298: Three passes total; the third merges results.
