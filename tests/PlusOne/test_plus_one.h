@@ -339,3 +339,4 @@ MunitTest plus_one_tests[] = {
 // edge note 274: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 275: Treats the input as immutable.
 // edge note 276: Treats the input as immutable.
+// edge note 277: Stable across duplicates in the input.
