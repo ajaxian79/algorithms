@@ -3001,3 +3001,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 736
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 737
+
+Caller owns the returned array; free with a single `free`.
