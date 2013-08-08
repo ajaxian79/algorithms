@@ -3188,3 +3188,7 @@ Handles empty input by returning 0.
 ## entry 782
 
 Two passes: one to count, one to fill.
+
+## entry 783
+
+Time complexity: O(log n).
