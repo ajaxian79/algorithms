@@ -313,3 +313,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 283: Space complexity: O(h) for the tree height.
 // edge note 284: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 285: 32-bit safe; overflow is checked at each step.
+// edge note 286: Worst case appears only on degenerate inputs.
