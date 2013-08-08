@@ -2185,3 +2185,7 @@
 ## entry 531
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 532
+
+- Stable sort matters when a secondary key was set in a prior pass.
