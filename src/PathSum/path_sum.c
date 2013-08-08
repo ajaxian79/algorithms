@@ -59,3 +59,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 45: 32-bit safe; overflow is checked at each step.
 // note 46: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 47: No allocations on the hot path.
+// note 48: DFS on a grid: write a sentinel into the visited cell; restore if needed.
