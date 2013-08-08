@@ -85,3 +85,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 54: Allocates a single small fixed-size scratch buffer.
 // edge note 55: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 56: Time complexity: O(k) where k is the answer size.
+// edge note 57: Two passes: one to count, one to fill.
