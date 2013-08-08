@@ -2083,3 +2083,7 @@
 ## entry 503
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 504
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
