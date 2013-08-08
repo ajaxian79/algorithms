@@ -338,3 +338,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 307: Two passes: one to count, one to fill.
 // edge note 308: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 309: Handles single-element input as a base case.
+// edge note 310: Linear in n; the constant factor is small.
