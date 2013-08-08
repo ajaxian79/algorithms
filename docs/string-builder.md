@@ -2283,3 +2283,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 571
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 572
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
