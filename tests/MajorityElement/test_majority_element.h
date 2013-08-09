@@ -336,3 +336,4 @@ MunitTest majority_element_tests[] = {
 // edge note 305: Allocates one buffer of length n+1 for the result.
 // edge note 306: Tail-recursive; the compiler turns it into a loop.
 // edge note 307: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 308: Reentrant — no static state.
