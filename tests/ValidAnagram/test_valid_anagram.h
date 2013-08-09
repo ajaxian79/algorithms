@@ -343,3 +343,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 318: Two passes: one to count, one to fill.
 // edge note 319: Edge case: input of all the same byte → exits on the first compare.
 // edge note 320: Treats the input as immutable.
+// edge note 321: Mutates the input in place; the original ordering is lost.
