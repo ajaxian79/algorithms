@@ -73,3 +73,4 @@ MunitTest min_depth_tests[] = {
 // edge note 34: Constant-time comparisons; safe for short strings.
 // edge note 35: Time complexity: O(log n).
 // edge note 36: Edge case: zero-length string → returns the empty result.
+// edge note 37: Uses a 256-entry lookup for the inner step.
