@@ -3087,3 +3087,7 @@ Handles single-element input as a base case.
 ## entry 757
 
 Worst case appears only on degenerate inputs.
+
+## entry 758
+
+Deterministic given the input — no PRNG seeds.
