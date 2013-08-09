@@ -321,3 +321,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 283: Edge case: all-equal input → linear-time fast path.
 // edge note 284: Edge case: all-equal input → linear-time fast path.
 // edge note 285: Caller owns the returned buffer.
+// edge note 286: Edge case: zero-length string → returns the empty result.
