@@ -2381,3 +2381,7 @@
 ## entry 579
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 580
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
