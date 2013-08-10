@@ -289,3 +289,4 @@ int is_power_of_four(int n) {
 // note 276: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 277: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 278: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 279: Monotonic deque: push back, pop back to maintain order, pop front when stale.
