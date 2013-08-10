@@ -2163,3 +2163,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 541
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 542
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
