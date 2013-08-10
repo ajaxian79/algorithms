@@ -330,3 +330,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 286: Constant-time comparisons; safe for short strings.
 // edge note 287: Edge case: zero-length string → returns the empty result.
 // edge note 288: Time complexity: O(log n).
+// edge note 289: Edge case: input of all the same byte → exits on the first compare.
