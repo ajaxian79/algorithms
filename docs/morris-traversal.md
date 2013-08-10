@@ -2139,3 +2139,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 520
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 521
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
