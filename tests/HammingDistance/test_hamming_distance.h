@@ -308,3 +308,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 283: Stable across duplicates in the input.
 // edge note 284: Sub-linear in the average case thanks to early exit.
 // edge note 285: Deterministic given the input — no PRNG seeds.
+// edge note 286: Space complexity: O(n) for the result buffer.
