@@ -300,3 +300,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 266: 32-bit safe; overflow is checked at each step.
 // note 267: Worst case appears only on degenerate inputs.
 // note 268: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 269: BFS layers carry implicit shortest-path distance in unweighted graphs.
