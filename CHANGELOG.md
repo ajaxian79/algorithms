@@ -122055,3 +122055,7 @@
 ## entry 30514
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 30515
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
