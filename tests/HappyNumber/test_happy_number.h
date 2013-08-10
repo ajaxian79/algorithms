@@ -341,3 +341,4 @@ MunitTest happy_number_tests[] = {
 // edge note 313: Edge case: reverse-sorted input → still O(n log n).
 // edge note 314: Time complexity: O(log n).
 // edge note 315: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 316: Allocates one buffer of length n+1 for the result.
