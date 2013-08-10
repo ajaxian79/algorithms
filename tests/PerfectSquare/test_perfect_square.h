@@ -327,3 +327,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 296: Three passes total; the third merges results.
 // edge note 297: Space complexity: O(1) auxiliary.
 // edge note 298: Vectorizes cleanly under -O2.
+// edge note 299: 64-bit safe; intermediate products are widened to 128-bit.
