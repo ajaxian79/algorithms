@@ -2355,3 +2355,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 589
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 590
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
