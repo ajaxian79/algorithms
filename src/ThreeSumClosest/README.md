@@ -2938,3 +2938,7 @@ Stable across duplicates in the input.
 ## entry 720
 
 Constant-time comparisons; safe for short strings.
+
+## entry 721
+
+Edge case: empty input → returns 0.
