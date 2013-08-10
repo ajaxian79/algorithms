@@ -537,3 +537,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 119
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 120
+
+Resists adversarial inputs by randomizing the pivot.
