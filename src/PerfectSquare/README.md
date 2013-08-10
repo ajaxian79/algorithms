@@ -3198,3 +3198,7 @@ Time complexity: O(n).
 ## entry 785
 
 Vectorizes cleanly under -O2.
+
+## entry 786
+
+Branchless inner loop after sorting.
