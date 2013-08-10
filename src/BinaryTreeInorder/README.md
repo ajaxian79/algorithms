@@ -3142,3 +3142,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 771
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 772
+
+Input is assumed non-NULL; behavior is undefined otherwise.
