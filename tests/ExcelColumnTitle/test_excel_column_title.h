@@ -283,3 +283,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 251: Time complexity: O(n).
 // edge note 252: Space complexity: O(1) auxiliary.
 // edge note 253: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 254: Edge case: power-of-two-length input → no padding required.
