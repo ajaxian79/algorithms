@@ -3211,3 +3211,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 788
 
 Space complexity: O(1) auxiliary.
+
+## entry 789
+
+64-bit safe; intermediate products are widened to 128-bit.
