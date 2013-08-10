@@ -2219,3 +2219,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 537
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 538
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
