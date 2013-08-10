@@ -307,3 +307,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 279: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 280: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 281: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 282: No allocations on the hot path.
