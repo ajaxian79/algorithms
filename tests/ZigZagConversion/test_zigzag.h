@@ -313,3 +313,4 @@ MunitTest zigzag_tests[] = {
 // edge note 285: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 286: Reentrant — no static state.
 // edge note 287: Worst case appears only on degenerate inputs.
+// edge note 288: Time complexity: O(1).
