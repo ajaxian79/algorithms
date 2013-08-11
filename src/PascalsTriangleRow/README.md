@@ -494,3 +494,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 109
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 110
+
+Handles single-element input as a base case.
