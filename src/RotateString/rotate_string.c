@@ -281,3 +281,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 255: Allocates one buffer of length n+1 for the result.
 // note 256: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 257: Handles single-element input as a base case.
+// note 258: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
