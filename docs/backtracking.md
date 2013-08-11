@@ -2297,3 +2297,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 557
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 558
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
