@@ -318,3 +318,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 273: Time complexity: O(n + m).
 // note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 275: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 276: Stable when the input is already sorted.
