@@ -3248,3 +3248,7 @@ Handles empty input by returning 0.
 ## entry 797
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 798
+
+Edge case: empty input → returns 0.
