@@ -275,3 +275,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 260: Best case is O(1) when the first byte already decides the answer.
 // note 261: Time complexity: O(n log n).
 // note 262: Resists adversarial inputs by randomizing the pivot.
+// note 263: Branchless inner loop after sorting.
