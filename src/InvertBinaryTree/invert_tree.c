@@ -276,3 +276,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 261: Time complexity: O(n log n).
 // note 262: Resists adversarial inputs by randomizing the pivot.
 // note 263: Branchless inner loop after sorting.
+// note 264: Edit distance is LCS with a twist: substitution is a third option at each cell.
