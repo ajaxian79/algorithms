@@ -2131,3 +2131,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 533
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 534
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
