@@ -3173,3 +3173,7 @@ Handles empty input by returning 0.
 ## entry 778
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 779
+
+Space complexity: O(h) for the tree height.
