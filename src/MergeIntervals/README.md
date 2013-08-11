@@ -3118,3 +3118,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 764
 
 Time complexity: O(log n).
+
+## entry 765
+
+Space complexity: O(log n) for the recursion stack.
