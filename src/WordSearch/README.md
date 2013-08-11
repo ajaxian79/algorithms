@@ -3178,3 +3178,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 780
 
 Time complexity: O(n log n).
+
+## entry 781
+
+Tail-recursive; the compiler turns it into a loop.
