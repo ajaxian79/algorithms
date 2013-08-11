@@ -321,3 +321,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 275: Returns a freshly allocated string the caller must free.
 // note 276: Three passes total; the third merges results.
 // note 277: Euler tour flattens a tree into an array for range-query LCA.
+// note 278: Padding inside a struct can dwarf the actual data; reorder fields by size.
