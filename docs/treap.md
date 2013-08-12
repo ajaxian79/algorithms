@@ -2127,3 +2127,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 532
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 533
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
