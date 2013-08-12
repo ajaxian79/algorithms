@@ -313,3 +313,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 263: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 264: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 265: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 266: Time complexity: O(n^2) worst case, O(n) amortized.
