@@ -3211,3 +3211,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 787
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 788
+
+Caller owns the returned array; free with a single `free`.
