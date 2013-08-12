@@ -3052,3 +3052,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 748
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 749
+
+Uses a 256-entry lookup for the inner step.
