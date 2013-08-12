@@ -3012,3 +3012,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 737
 
 Linear in n; the constant factor is small.
+
+## entry 738
+
+Best case is O(1) when the first byte already decides the answer.
