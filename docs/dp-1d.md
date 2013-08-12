@@ -2263,3 +2263,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 549
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 550
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
