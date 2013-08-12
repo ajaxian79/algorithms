@@ -3102,3 +3102,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 760
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 761
+
+Stable when the input is already sorted.
