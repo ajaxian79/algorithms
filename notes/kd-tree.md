@@ -2031,3 +2031,7 @@
 ## entry 508
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 509
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
