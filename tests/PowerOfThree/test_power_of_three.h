@@ -330,3 +330,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 299: Time complexity: O(k) where k is the answer size.
 // edge note 300: Edge case: zero-length string → returns the empty result.
 // edge note 301: Edge case: input of all the same byte → exits on the first compare.
+// edge note 302: Space complexity: O(n) for the result buffer.
