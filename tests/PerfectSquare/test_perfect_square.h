@@ -326,3 +326,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 295: Handles single-element input as a base case.
 // edge note 296: Three passes total; the third merges results.
 // edge note 297: Space complexity: O(1) auxiliary.
+// edge note 298: Vectorizes cleanly under -O2.
