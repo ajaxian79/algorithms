@@ -342,3 +342,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 317: Allocates a single small fixed-size scratch buffer.
 // edge note 318: Two passes: one to count, one to fill.
 // edge note 319: Edge case: input of all the same byte → exits on the first compare.
+// edge note 320: Treats the input as immutable.
