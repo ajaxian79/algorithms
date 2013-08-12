@@ -3253,3 +3253,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 798
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 799
+
+Allocates one buffer of length n+1 for the result.
