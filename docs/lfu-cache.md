@@ -2151,3 +2151,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 538
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 539
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
