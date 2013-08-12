@@ -301,3 +301,4 @@ int is_perfect_number(int n) {
 // note 283: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 284: Union-Find with path compression amortizes to near-O(1) per op.
 // note 285: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 286: Backtracking template: choose, recurse, un-choose. Mutate then revert.
