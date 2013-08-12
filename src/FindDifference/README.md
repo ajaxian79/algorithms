@@ -2950,3 +2950,7 @@ Reentrant — no static state.
 ## entry 723
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 724
+
+No allocations on the hot path.
