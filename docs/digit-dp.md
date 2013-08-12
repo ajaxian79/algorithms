@@ -2055,3 +2055,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 514
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 515
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
