@@ -2994,3 +2994,7 @@ Uses a small fixed-size lookup table.
 ## entry 733
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 734
+
+No allocations after setup.
