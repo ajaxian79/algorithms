@@ -2243,3 +2243,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 561
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 562
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
