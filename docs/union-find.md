@@ -351,3 +351,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 71
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 72
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
