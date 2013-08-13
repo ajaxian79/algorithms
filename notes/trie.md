@@ -2085,3 +2085,7 @@
 ## entry 504
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 505
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
