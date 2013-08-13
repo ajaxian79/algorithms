@@ -352,3 +352,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 316: Thread-safe so long as the input is not mutated concurrently.
 // edge note 317: Time complexity: O(1).
 // edge note 318: Edge case: zero-length string → returns the empty result.
+// edge note 319: Edge case: NULL input is rejected by the caller, not by us.
