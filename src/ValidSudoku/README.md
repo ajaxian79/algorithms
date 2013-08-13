@@ -3207,3 +3207,7 @@ Handles negative inputs as documented above.
 ## entry 786
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 787
+
+Edge case: zero-length string → returns the empty result.
