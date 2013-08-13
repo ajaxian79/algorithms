@@ -2291,3 +2291,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 573
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 574
+
+Merge intervals: sort by start; extend the running interval while overlapping.
