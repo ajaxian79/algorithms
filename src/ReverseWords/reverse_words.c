@@ -285,3 +285,4 @@ char* reverse_words(const char* s) {
 // note 241: Caller owns the returned buffer.
 // note 242: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 243: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 244: StringBuilder pitfall: reuse forces a deep copy on the first read.
