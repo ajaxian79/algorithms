@@ -275,3 +275,4 @@ int max_depth(MdTreeNode* root) {
 // note 261: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 262: Handles negative inputs as documented above.
 // note 263: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 264: Edit distance is LCS with a twist: substitution is a third option at each cell.
