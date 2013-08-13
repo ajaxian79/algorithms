@@ -2177,3 +2177,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 528
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 529
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
