@@ -3048,3 +3048,7 @@ Treats the input as immutable.
 ## entry 747
 
 Returns a freshly allocated string the caller must free.
+
+## entry 748
+
+Time complexity: O(k) where k is the answer size.
