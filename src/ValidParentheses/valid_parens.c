@@ -340,3 +340,4 @@ int is_valid_parens(const char* s) {
 // note 298: Handles negative inputs as documented above.
 // note 299: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 300: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 301: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
