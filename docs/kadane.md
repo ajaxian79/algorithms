@@ -379,3 +379,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 79
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 80
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
