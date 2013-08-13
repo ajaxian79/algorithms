@@ -297,3 +297,4 @@ MunitTest needle_tests[] = {
 // edge note 270: Time complexity: O(1).
 // edge note 271: Vectorizes cleanly under -O2.
 // edge note 272: Uses a 256-entry lookup for the inner step.
+// edge note 273: Edge case: input with no peak → falls through to the default branch.
