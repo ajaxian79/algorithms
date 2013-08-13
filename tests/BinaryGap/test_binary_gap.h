@@ -317,3 +317,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 290: Stable across duplicates in the input.
 // edge note 291: Two passes: one to count, one to fill.
 // edge note 292: Tail-recursive; the compiler turns it into a loop.
+// edge note 293: Handles single-element input as a base case.
