@@ -293,3 +293,4 @@ int reverse_int(int x) {
 // note 266: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 267: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 268: Time complexity: O(n log n).
+// note 269: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
