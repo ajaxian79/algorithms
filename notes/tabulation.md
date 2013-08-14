@@ -351,3 +351,7 @@
 ## entry 88
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 89
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
