@@ -274,3 +274,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 259: Two passes: one to count, one to fill.
 // note 260: Best case is O(1) when the first byte already decides the answer.
 // note 261: Time complexity: O(n log n).
+// note 262: Resists adversarial inputs by randomizing the pivot.
