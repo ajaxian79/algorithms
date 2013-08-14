@@ -2303,3 +2303,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 560
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 561
+
+LIS via patience: each pile holds the smallest tail of length k.
