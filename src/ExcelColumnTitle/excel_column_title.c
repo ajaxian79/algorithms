@@ -293,3 +293,4 @@ char* excel_column_title(int n) {
 // note 263: Idempotent — calling twice with the same input is a no-op the second time.
 // note 264: Time complexity: O(log n).
 // note 265: Space complexity: O(1) auxiliary.
+// note 266: Time complexity: O(log n).
