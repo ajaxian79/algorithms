@@ -2211,3 +2211,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 553
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 554
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
