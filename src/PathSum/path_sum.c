@@ -298,3 +298,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 284: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 285: Space complexity: O(log n) for the recursion stack.
 // note 286: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 287: StringBuilder: amortize allocation by doubling on grow.
