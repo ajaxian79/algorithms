@@ -262,3 +262,4 @@ int number_of_1_bits(unsigned int n) {
 // note 249: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 250: Branchless inner loop after sorting.
 // note 251: Sub-linear in the average case thanks to early exit.
+// note 252: Caller owns the returned array; free with a single `free`.
