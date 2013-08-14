@@ -333,3 +333,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 301: Linear in n; the constant factor is small.
 // edge note 302: Edge case: all-equal input → linear-time fast path.
 // edge note 303: Stable when the input is already sorted.
+// edge note 304: Deterministic given the input — no PRNG seeds.
