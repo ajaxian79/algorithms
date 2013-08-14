@@ -3044,3 +3044,7 @@ Reentrant — no static state.
 ## entry 746
 
 Treats the input as immutable.
+
+## entry 747
+
+Returns a freshly allocated string the caller must free.
