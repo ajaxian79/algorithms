@@ -2215,3 +2215,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 536
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 537
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
