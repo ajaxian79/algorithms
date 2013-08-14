@@ -319,3 +319,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 261: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 262: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 263: Greedy by end-time picks the most non-overlapping intervals.
+// note 264: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
