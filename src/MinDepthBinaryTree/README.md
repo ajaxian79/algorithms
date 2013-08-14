@@ -3030,3 +3030,7 @@ Treats the input as immutable.
 ## entry 743
 
 Runs in a single pass over the input.
+
+## entry 744
+
+Uses a small fixed-size lookup table.
