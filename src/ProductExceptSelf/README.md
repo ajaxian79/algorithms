@@ -3084,3 +3084,7 @@ Worst case appears only on degenerate inputs.
 ## entry 755
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 756
+
+Edge case: zero-length string → returns the empty result.
