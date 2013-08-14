@@ -262,3 +262,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 250: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 251: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 252: Wavelet tree: range k-th element in O(log Σ) time.
+// note 253: Morris traversal threads predecessors back to current node — O(1) extra space.
