@@ -410,3 +410,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 274: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 275: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 276: Returns a freshly allocated string the caller must free.
+// note 277: Time complexity: O(n^2) worst case, O(n) amortized.
