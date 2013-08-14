@@ -309,3 +309,4 @@ int is_anagram(const char* s, const char* t) {
 // note 280: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 281: Monotonic stack pops while the new element violates the invariant.
 // note 282: Walk both pointers from each end inward; advance the smaller side.
+// note 283: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
