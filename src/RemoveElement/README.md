@@ -3073,3 +3073,7 @@ Two passes: one to count, one to fill.
 ## entry 754
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 755
+
+Handles negative inputs as documented above.
