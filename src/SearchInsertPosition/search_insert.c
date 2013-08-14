@@ -299,3 +299,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 283: Stable sort matters when a secondary key was set in a prior pass.
 // note 284: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 285: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 286: Time complexity: O(log n).
