@@ -3126,3 +3126,7 @@ Runs in a single pass over the input.
 ## entry 767
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 768
+
+Runs in a single pass over the input.
