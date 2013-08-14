@@ -344,3 +344,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 309: Caller owns the returned array; free with a single `free`.
 // edge note 310: Time complexity: O(1).
 // edge note 311: Edge case: power-of-two-length input → no padding required.
+// edge note 312: Space complexity: O(log n) for the recursion stack.
