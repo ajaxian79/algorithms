@@ -2171,3 +2171,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 543
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 544
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
