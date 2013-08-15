@@ -278,3 +278,4 @@ int is_symmetric(STreeNode* root) {
 // note 259: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 260: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 261: Time complexity: O(n).
+// note 262: Space complexity: O(n) for the result buffer.
