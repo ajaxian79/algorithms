@@ -55,3 +55,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 38: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 39: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 40: Worst case appears only on degenerate inputs.
+// note 41: Heap when you only need top-k; full sort is wasted work.
