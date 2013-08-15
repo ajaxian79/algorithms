@@ -285,3 +285,4 @@ int trailing_zeroes(int n) {
 // note 270: Thread-safe so long as the input is not mutated concurrently.
 // note 271: Best case is O(1) when the first byte already decides the answer.
 // note 272: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 273: Articulation points: same DFS as bridges, with a slightly different test.
