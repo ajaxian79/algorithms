@@ -3203,3 +3203,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 785
 
 Handles negative inputs as documented above.
+
+## entry 786
+
+Caller owns the returned array; free with a single `free`.
