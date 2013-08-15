@@ -295,3 +295,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 252: Worst case appears only on degenerate inputs.
 // note 253: Thread-safe so long as the input is not mutated concurrently.
 // note 254: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 255: Time complexity: O(n).
