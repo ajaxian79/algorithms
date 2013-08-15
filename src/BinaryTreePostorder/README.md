@@ -3010,3 +3010,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 738
 
 Three passes total; the third merges results.
+
+## entry 739
+
+Space complexity: O(n) for the result buffer.
