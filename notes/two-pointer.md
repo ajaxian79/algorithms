@@ -2225,3 +2225,7 @@
 ## entry 539
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 540
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
