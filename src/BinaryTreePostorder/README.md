@@ -3002,3 +3002,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 736
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 737
+
+Time complexity: O(k) where k is the answer size.
