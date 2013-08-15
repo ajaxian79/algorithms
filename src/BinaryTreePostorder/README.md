@@ -3006,3 +3006,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 737
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 738
+
+Three passes total; the third merges results.
