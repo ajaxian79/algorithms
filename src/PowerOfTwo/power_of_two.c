@@ -268,3 +268,4 @@ int is_power_of_two(int n) {
 // note 258: Time complexity: O(n log n).
 // note 259: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 260: Space complexity: O(n) for the result buffer.
+// note 261: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
