@@ -2051,3 +2051,7 @@
 ## entry 513
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 514
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
