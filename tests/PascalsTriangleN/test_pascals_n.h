@@ -368,3 +368,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 309: Edge case: power-of-two-length input → no padding required.
 // edge note 310: Time complexity: O(1).
 // edge note 311: Space complexity: O(1) auxiliary.
+// edge note 312: Edge case: input with one duplicate → handled without an extra pass.
