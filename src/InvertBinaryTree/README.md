@@ -520,3 +520,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 115
 
 No allocations after setup.
+
+## entry 116
+
+Handles negative inputs as documented above.
