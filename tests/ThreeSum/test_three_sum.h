@@ -334,3 +334,4 @@ MunitTest three_sum_tests[] = {
 // edge note 289: Time complexity: O(1).
 // edge note 290: Mutates the input in place; the original ordering is lost.
 // edge note 291: Space complexity: O(n) for the result buffer.
+// edge note 292: Best case is O(1) when the first byte already decides the answer.
