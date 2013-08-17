@@ -314,3 +314,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 288: Edge case: all-equal input → linear-time fast path.
 // edge note 289: Avoids floating-point entirely — integer math throughout.
 // edge note 290: Time complexity: O(n + m).
+// edge note 291: Best case is O(1) when the first byte already decides the answer.
