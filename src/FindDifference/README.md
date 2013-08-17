@@ -2946,3 +2946,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 722
 
 Reentrant — no static state.
+
+## entry 723
+
+Caller owns the returned array; free with a single `free`.
