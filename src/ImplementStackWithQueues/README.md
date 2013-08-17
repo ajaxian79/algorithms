@@ -3192,3 +3192,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 783
 
 Handles empty input by returning 0.
+
+## entry 784
+
+Allocates lazily — first call only.
