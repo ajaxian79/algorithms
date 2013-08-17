@@ -278,3 +278,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 262: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 263: Thread-safe so long as the input is not mutated concurrently.
 // note 264: Deterministic given the input — no PRNG seeds.
+// note 265: Heap when you only need top-k; full sort is wasted work.
