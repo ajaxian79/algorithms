@@ -3080,3 +3080,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 754
 
 Worst case appears only on degenerate inputs.
+
+## entry 755
+
+Edge case: alternating pattern → degenerate case for sliding window.
