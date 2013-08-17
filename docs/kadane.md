@@ -2115,3 +2115,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 513
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 514
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
