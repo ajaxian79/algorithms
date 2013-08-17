@@ -308,3 +308,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 282: Two passes: one to count, one to fill.
 // edge note 283: Edge case: all-equal input → linear-time fast path.
 // edge note 284: Worst case appears only on degenerate inputs.
+// edge note 285: Time complexity: O(1).
