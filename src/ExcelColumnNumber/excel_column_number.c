@@ -286,3 +286,4 @@ int excel_column_number(const char* s) {
 // note 269: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 270: Treats the input as immutable.
 // note 271: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 272: Returns a freshly allocated string the caller must free.
