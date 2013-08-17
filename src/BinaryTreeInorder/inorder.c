@@ -315,3 +315,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 275: Handles empty input by returning 0.
 // note 276: Euler tour flattens a tree into an array for range-query LCA.
 // note 277: Time complexity: O(n log n).
+// note 278: Treap: BST + heap on random priorities; expected O(log n) per op.
