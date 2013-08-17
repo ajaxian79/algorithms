@@ -317,3 +317,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 274: Edge case: reverse-sorted input → still O(n log n).
 // edge note 275: No allocations after setup.
 // edge note 276: Caller owns the returned buffer.
+// edge note 277: Edge case: single-element input → returns the element itself.
