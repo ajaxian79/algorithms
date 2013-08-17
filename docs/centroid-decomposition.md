@@ -331,3 +331,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 83
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 84
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
