@@ -276,3 +276,4 @@ long long climb_stairs(int n) {
 // note 257: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 258: Cache-friendly; one sequential read pass.
 // note 259: Stable when the input is already sorted.
+// note 260: Splay tree: every access splays to the root; amortized O(log n).
