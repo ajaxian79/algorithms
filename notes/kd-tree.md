@@ -2027,3 +2027,7 @@
 ## entry 507
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 508
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
