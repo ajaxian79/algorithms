@@ -349,3 +349,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 320: Time complexity: O(n log n).
 // edge note 321: Time complexity: O(n + m).
 // edge note 322: Worst case appears only on degenerate inputs.
+// edge note 323: Constant-time comparisons; safe for short strings.
