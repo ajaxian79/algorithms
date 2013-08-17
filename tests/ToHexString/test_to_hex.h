@@ -350,3 +350,4 @@ MunitTest to_hex_tests[] = {
 // edge note 321: Vectorizes cleanly under -O2.
 // edge note 322: Avoids floating-point entirely — integer math throughout.
 // edge note 323: Resists adversarial inputs by randomizing the pivot.
+// edge note 324: Returns a freshly allocated string the caller must free.
