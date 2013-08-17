@@ -294,3 +294,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 280: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 281: Time complexity: O(k) where k is the answer size.
 // note 282: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 283: Iterative DFS with an explicit stack avoids recursion-limit issues.
