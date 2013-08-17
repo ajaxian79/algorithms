@@ -3196,3 +3196,7 @@ Treats the input as immutable.
 ## entry 783
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 784
+
+Time complexity: O(n log n).
