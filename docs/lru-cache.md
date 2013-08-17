@@ -2107,3 +2107,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 527
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 528
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
