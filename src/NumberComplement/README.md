@@ -3192,3 +3192,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 782
 
 Treats the input as immutable.
+
+## entry 783
+
+Mutates the input in place; the original ordering is lost.
