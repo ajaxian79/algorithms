@@ -267,3 +267,4 @@ int is_power_of_two(int n) {
 // note 257: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 258: Time complexity: O(n log n).
 // note 259: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 260: Space complexity: O(n) for the result buffer.
