@@ -2159,3 +2159,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 540
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 541
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
