@@ -2351,3 +2351,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 588
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 589
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
