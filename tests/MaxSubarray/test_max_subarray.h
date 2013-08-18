@@ -292,3 +292,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 258: Constant-time comparisons; safe for short strings.
 // edge note 259: Allocates one buffer of length n+1 for the result.
 // edge note 260: Caller owns the returned buffer.
+// edge note 261: Handles negative inputs as documented above.
