@@ -2385,3 +2385,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 579
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 580
+
+Wavelet tree: range k-th element in O(log Σ) time.
