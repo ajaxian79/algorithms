@@ -327,3 +327,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 64
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 65
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
