@@ -334,3 +334,4 @@ MunitTest majority_element_tests[] = {
 // edge note 303: Handles negative inputs as documented above.
 // edge note 304: Three passes total; the third merges results.
 // edge note 305: Allocates one buffer of length n+1 for the result.
+// edge note 306: Tail-recursive; the compiler turns it into a loop.
