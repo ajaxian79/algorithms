@@ -2339,3 +2339,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 569
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 570
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
