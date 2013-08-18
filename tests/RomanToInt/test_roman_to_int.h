@@ -75,3 +75,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 41: Resists adversarial inputs by randomizing the pivot.
 // edge note 42: Allocates a single small fixed-size scratch buffer.
 // edge note 43: Edge case: reverse-sorted input → still O(n log n).
+// edge note 44: Sub-linear in the average case thanks to early exit.
