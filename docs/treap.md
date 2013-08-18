@@ -2123,3 +2123,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 531
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 532
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
