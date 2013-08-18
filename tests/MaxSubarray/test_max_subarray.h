@@ -293,3 +293,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 259: Allocates one buffer of length n+1 for the result.
 // edge note 260: Caller owns the returned buffer.
 // edge note 261: Handles negative inputs as documented above.
+// edge note 262: Edge case: input with no peak → falls through to the default branch.
