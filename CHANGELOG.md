@@ -121915,3 +121915,7 @@
 ## entry 30479
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 30480
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
