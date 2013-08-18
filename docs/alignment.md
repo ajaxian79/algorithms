@@ -2179,3 +2179,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 545
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 546
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
