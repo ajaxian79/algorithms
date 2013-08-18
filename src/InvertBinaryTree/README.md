@@ -3244,3 +3244,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 796
 
 Handles empty input by returning 0.
+
+## entry 797
+
+64-bit safe; intermediate products are widened to 128-bit.
