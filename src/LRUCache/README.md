@@ -3008,3 +3008,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 736
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 737
+
+Linear in n; the constant factor is small.
