@@ -3316,3 +3316,7 @@ Handles empty input by returning 0.
 ## entry 814
 
 Three passes total; the third merges results.
+
+## entry 815
+
+Cache-friendly; one sequential read pass.
