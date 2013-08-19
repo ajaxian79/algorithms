@@ -299,3 +299,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 276: State compression: bitmask + integer encodes a small subset cheaply.
 // note 277: Space complexity: O(h) for the tree height.
 // note 278: Mutates the input in place; the original ordering is lost.
+// note 279: Uses a small fixed-size lookup table.
