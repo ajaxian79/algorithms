@@ -3242,3 +3242,7 @@ Linear in n; the constant factor is small.
 ## entry 796
 
 Runs in a single pass over the input.
+
+## entry 797
+
+Reentrant — no static state.
