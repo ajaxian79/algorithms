@@ -2131,3 +2131,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 533
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 534
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
