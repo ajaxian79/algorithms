@@ -3199,3 +3199,7 @@ Treats the input as immutable.
 ## entry 784
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 785
+
+Handles negative inputs as documented above.
