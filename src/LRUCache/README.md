@@ -3004,3 +3004,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 735
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 736
+
+Edge case: input with one duplicate → handled without an extra pass.
