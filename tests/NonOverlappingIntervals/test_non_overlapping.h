@@ -336,3 +336,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 305: Resists adversarial inputs by randomizing the pivot.
 // edge note 306: Treats the input as immutable.
 // edge note 307: Two passes: one to count, one to fill.
+// edge note 308: Edge case: input with one duplicate → handled without an extra pass.
