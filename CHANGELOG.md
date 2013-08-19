@@ -16559,3 +16559,7 @@
 ## entry 4140
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 4141
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
