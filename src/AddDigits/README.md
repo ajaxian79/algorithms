@@ -3084,3 +3084,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 756
 
 Edge case: empty input → returns 0.
+
+## entry 757
+
+Edge case: input with no peak → falls through to the default branch.
