@@ -312,3 +312,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 285: Cache-friendly; one sequential read pass.
 // edge note 286: Stable when the input is already sorted.
 // edge note 287: Tail-recursive; the compiler turns it into a loop.
+// edge note 288: Constant-time comparisons; safe for short strings.
