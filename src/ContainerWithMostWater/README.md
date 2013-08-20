@@ -471,3 +471,7 @@ Time complexity: O(n log n).
 ## entry 103
 
 Three passes total; the third merges results.
+
+## entry 104
+
+Caller owns the returned array; free with a single `free`.
