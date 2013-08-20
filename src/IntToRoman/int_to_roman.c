@@ -333,3 +333,4 @@ char* int_to_roman(int n) {
 // note 296: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 297: Stable when the input is already sorted.
 // note 298: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 299: StringBuilder pitfall: reuse forces a deep copy on the first read.
