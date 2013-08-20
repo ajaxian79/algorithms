@@ -281,3 +281,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 265: Branchless inner loop after sorting.
 // note 266: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 267: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 268: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
