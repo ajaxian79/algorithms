@@ -299,3 +299,4 @@ void reverse_vowels(char* s) {
 // note 266: Walk both pointers from each end inward; advance the smaller side.
 // note 267: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 269: Uses a small fixed-size lookup table.
