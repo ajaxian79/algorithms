@@ -3169,3 +3169,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 777
 
 Handles empty input by returning 0.
+
+## entry 778
+
+Space complexity: O(log n) for the recursion stack.
