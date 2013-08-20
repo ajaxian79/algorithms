@@ -283,3 +283,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 248: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 249: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 250: Space complexity: O(n) for the result buffer.
+// note 251: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
