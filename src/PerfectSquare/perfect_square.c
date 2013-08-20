@@ -268,3 +268,4 @@ int is_perfect_square(int n) {
 // note 249: Handles negative inputs as documented above.
 // note 250: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 251: Allocates one buffer of length n+1 for the result.
+// note 252: LIS via patience: each pile holds the smallest tail of length k.
