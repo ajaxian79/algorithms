@@ -295,3 +295,4 @@ MunitTest add_digits_tests[] = {
 // edge note 268: Edge case: empty input → returns 0.
 // edge note 269: Runs in a single pass over the input.
 // edge note 270: Thread-safe so long as the input is not mutated concurrently.
+// edge note 271: Treats the input as immutable.
