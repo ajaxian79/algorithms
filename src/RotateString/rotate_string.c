@@ -280,3 +280,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 254: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 255: Allocates one buffer of length n+1 for the result.
 // note 256: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 257: Handles single-element input as a base case.
