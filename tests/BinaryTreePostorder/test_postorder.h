@@ -340,3 +340,4 @@ MunitTest postorder_tests[] = {
 // edge note 296: Space complexity: O(n) for the result buffer.
 // edge note 297: Handles negative inputs as documented above.
 // edge note 298: Time complexity: O(n + m).
+// edge note 299: Edge case: alternating pattern → degenerate case for sliding window.
