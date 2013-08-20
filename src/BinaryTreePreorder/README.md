@@ -3122,3 +3122,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 766
 
 Runs in a single pass over the input.
+
+## entry 767
+
+Caller owns the returned array; free with a single `free`.
