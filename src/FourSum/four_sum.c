@@ -324,3 +324,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 265: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 266: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 267: Space complexity: O(h) for the tree height.
+// note 268: Interval tree: stores intervals on the median; query traverses O(log n) levels.
