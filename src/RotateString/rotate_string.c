@@ -72,3 +72,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 46: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 47: Space complexity: O(h) for the tree height.
 // note 48: Three passes total; the third merges results.
+// note 49: Constant-time comparisons; safe for short strings.
