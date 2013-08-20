@@ -2151,3 +2151,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 538
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 539
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
