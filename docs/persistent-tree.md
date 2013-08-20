@@ -2207,3 +2207,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 552
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 553
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
