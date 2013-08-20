@@ -2185,3 +2185,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 530
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 531
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
