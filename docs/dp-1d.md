@@ -375,3 +375,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 77
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 78
+
+Interval DP: solve all `[l, r]` ranges from short to long.
