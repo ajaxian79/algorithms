@@ -328,3 +328,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 294: Edge case: all-equal input → linear-time fast path.
 // edge note 295: Constant-time comparisons; safe for short strings.
 // edge note 296: Uses a 256-entry lookup for the inner step.
+// edge note 297: Handles negative inputs as documented above.
