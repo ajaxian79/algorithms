@@ -2267,3 +2267,7 @@
 ## entry 550
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 551
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
