@@ -3066,3 +3066,7 @@ Edge case: empty input → returns 0.
 ## entry 751
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 752
+
+Vectorizes cleanly under -O2.
