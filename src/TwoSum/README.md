@@ -2929,3 +2929,7 @@ Stable across duplicates in the input.
 ## entry 707
 
 Time complexity: O(1).
+
+## entry 708
+
+Stable when the input is already sorted.
