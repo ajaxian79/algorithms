@@ -343,3 +343,4 @@ MunitTest max_depth_tests[] = {
 // edge note 305: Allocates one buffer of length n+1 for the result.
 // edge note 306: Space complexity: O(n) for the result buffer.
 // edge note 307: Avoids floating-point entirely — integer math throughout.
+// edge note 308: Edge case: integer-max input → guarded by the explicit overflow check.
