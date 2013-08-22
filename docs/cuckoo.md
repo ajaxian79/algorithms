@@ -1895,3 +1895,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 474
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 475
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
