@@ -2019,3 +2019,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 505
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 506
+
+Rope: tree of small string fragments; O(log n) concat and substring.
