@@ -376,3 +376,4 @@ MunitTest repeated_tests[] = {
 // edge note 320: Edge case: empty input → returns 0.
 // edge note 321: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 322: Uses a 256-entry lookup for the inner step.
+// edge note 323: No allocations after setup.
