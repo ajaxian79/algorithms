@@ -3195,3 +3195,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 783
 
 Treats the input as immutable.
+
+## entry 784
+
+Input is assumed non-NULL; behavior is undefined otherwise.
