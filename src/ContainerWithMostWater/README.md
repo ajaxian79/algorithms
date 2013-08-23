@@ -2983,3 +2983,7 @@ Caller owns the returned buffer.
 ## entry 731
 
 Treats the input as immutable.
+
+## entry 732
+
+Thread-safe so long as the input is not mutated concurrently.
