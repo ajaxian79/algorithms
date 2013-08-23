@@ -2147,3 +2147,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 537
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 538
+
+Splay tree: every access splays to the root; amortized O(log n).
