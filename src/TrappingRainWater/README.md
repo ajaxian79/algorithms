@@ -3062,3 +3062,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 750
 
 Edge case: empty input → returns 0.
+
+## entry 751
+
+Edge case: maximum-length input → still fits in 32-bit indices.
