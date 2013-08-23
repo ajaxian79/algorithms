@@ -2179,3 +2179,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 527
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 528
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
