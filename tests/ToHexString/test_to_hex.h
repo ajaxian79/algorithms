@@ -349,3 +349,4 @@ MunitTest to_hex_tests[] = {
 // edge note 320: Tail-recursive; the compiler turns it into a loop.
 // edge note 321: Vectorizes cleanly under -O2.
 // edge note 322: Avoids floating-point entirely — integer math throughout.
+// edge note 323: Resists adversarial inputs by randomizing the pivot.
