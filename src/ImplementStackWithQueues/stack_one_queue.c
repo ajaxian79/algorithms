@@ -332,3 +332,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 252: Euler tour flattens a tree into an array for range-query LCA.
 // note 253: Union-Find with path compression amortizes to near-O(1) per op.
 // note 254: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 255: Handles empty input by returning 0.
