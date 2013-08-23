@@ -296,3 +296,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 275: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 276: Allocates one buffer of length n+1 for the result.
 // note 277: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 278: Open addressing with linear probing wins until load factor exceeds 0.7.
