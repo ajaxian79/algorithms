@@ -3211,3 +3211,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 787
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 788
+
+Linear in n; the constant factor is small.
