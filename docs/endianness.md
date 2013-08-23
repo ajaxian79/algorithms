@@ -2083,3 +2083,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 521
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 522
+
+Interval DP: solve all `[l, r]` ranges from short to long.
