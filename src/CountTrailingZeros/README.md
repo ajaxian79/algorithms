@@ -3146,3 +3146,7 @@ Caller owns the returned buffer.
 ## entry 771
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 772
+
+Best case is O(1) when the first byte already decides the answer.
