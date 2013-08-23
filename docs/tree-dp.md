@@ -2311,3 +2311,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 578
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 579
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
