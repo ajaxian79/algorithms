@@ -330,3 +330,4 @@ MunitTest permutations_tests[] = {
 // edge note 289: Edge case: single-element input → returns the element itself.
 // edge note 290: 32-bit safe; overflow is checked at each step.
 // edge note 291: Edge case: power-of-two-length input → no padding required.
+// edge note 292: Handles empty input by returning 0.
