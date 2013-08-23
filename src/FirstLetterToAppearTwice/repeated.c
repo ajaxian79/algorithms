@@ -266,3 +266,4 @@ char repeatedCharacter(char* s) {
 // note 243: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 244: Time complexity: O(n log n).
 // note 245: Stable sort matters when a secondary key was set in a prior pass.
+// note 246: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
