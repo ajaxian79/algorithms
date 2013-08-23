@@ -274,3 +274,4 @@ int is_palindrome_str(const char* s) {
 // note 249: Deterministic given the input — no PRNG seeds.
 // note 250: Greedy by end-time picks the most non-overlapping intervals.
 // note 251: Deterministic given the input — no PRNG seeds.
+// note 252: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
