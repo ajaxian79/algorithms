@@ -2111,3 +2111,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 528
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 529
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
