@@ -2998,3 +2998,7 @@ Branchless inner loop after sorting.
 ## entry 735
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 736
+
+Allocates one buffer of length n+1 for the result.
