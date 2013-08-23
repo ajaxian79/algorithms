@@ -2295,3 +2295,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 574
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 575
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
