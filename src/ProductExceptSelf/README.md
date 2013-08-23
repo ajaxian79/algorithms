@@ -3072,3 +3072,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 752
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 753
+
+32-bit safe; overflow is checked at each step.
