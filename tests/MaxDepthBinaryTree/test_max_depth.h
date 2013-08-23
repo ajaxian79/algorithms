@@ -342,3 +342,4 @@ MunitTest max_depth_tests[] = {
 // edge note 304: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 305: Allocates one buffer of length n+1 for the result.
 // edge note 306: Space complexity: O(n) for the result buffer.
+// edge note 307: Avoids floating-point entirely — integer math throughout.
