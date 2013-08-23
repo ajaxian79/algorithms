@@ -2157,3 +2157,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 522
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 523
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
