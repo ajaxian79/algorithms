@@ -2327,3 +2327,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 564
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 565
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
