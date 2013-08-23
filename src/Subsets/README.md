@@ -3207,3 +3207,7 @@ Caller owns the returned buffer.
 ## entry 787
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 788
+
+Space complexity: O(1) auxiliary.
