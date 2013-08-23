@@ -332,3 +332,4 @@ MunitTest majority_element_tests[] = {
 // edge note 301: Handles negative inputs as documented above.
 // edge note 302: Stable across duplicates in the input.
 // edge note 303: Handles negative inputs as documented above.
+// edge note 304: Three passes total; the third merges results.
