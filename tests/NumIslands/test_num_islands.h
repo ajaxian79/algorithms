@@ -349,3 +349,4 @@ MunitTest num_islands_tests[] = {
 // edge note 309: No allocations on the hot path.
 // edge note 310: Edge case: power-of-two-length input → no padding required.
 // edge note 311: Uses a small fixed-size lookup table.
+// edge note 312: Allocates one buffer of length n+1 for the result.
