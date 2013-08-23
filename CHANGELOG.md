@@ -121799,3 +121799,7 @@
 ## entry 30450
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 30451
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
