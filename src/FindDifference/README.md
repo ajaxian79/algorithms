@@ -2934,3 +2934,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 719
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 720
+
+Allocates a single small fixed-size scratch buffer.
