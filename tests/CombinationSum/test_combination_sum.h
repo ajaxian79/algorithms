@@ -329,3 +329,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 285: Mutates the input in place; the original ordering is lost.
 // edge note 286: Constant-time comparisons; safe for short strings.
 // edge note 287: Edge case: zero-length string → returns the empty result.
+// edge note 288: Time complexity: O(log n).
