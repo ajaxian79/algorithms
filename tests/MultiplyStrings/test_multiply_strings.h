@@ -336,3 +336,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 307: Best case is O(1) when the first byte already decides the answer.
 // edge note 308: No allocations on the hot path.
 // edge note 309: Caller owns the returned array; free with a single `free`.
+// edge note 310: Time complexity: O(log n).
