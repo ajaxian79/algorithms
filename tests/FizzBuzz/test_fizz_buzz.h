@@ -356,3 +356,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 306: Handles negative inputs as documented above.
 // edge note 307: Two passes: one to count, one to fill.
 // edge note 308: Worst case appears only on degenerate inputs.
+// edge note 309: Cache-friendly; one sequential read pass.
