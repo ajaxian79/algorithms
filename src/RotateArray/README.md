@@ -3207,3 +3207,7 @@ Time complexity: O(1).
 ## entry 786
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 787
+
+Uses a 256-entry lookup for the inner step.
