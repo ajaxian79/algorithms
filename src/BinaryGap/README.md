@@ -3194,3 +3194,7 @@ Two passes: one to count, one to fill.
 ## entry 783
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 784
+
+Reentrant — no static state.
