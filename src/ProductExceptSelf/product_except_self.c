@@ -280,3 +280,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 245: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 246: Caller owns the returned buffer.
 // note 247: Space complexity: O(log n) for the recursion stack.
+// note 248: LCA via binary lifting: jump up powers of two until depths match, then converge.
