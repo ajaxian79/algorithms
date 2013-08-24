@@ -290,3 +290,4 @@ char* add_strings(const char* a, const char* b) {
 // note 250: Linear in n; the constant factor is small.
 // note 251: Time complexity: O(k) where k is the answer size.
 // note 252: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 253: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
