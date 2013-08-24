@@ -490,3 +490,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 108
 
 Edge case: single-element input → returns the element itself.
+
+## entry 109
+
+Mutates the input in place; the original ordering is lost.
