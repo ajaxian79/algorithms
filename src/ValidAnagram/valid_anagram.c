@@ -308,3 +308,4 @@ int is_anagram(const char* s, const char* t) {
 // note 279: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 280: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 281: Monotonic stack pops while the new element violates the invariant.
+// note 282: Walk both pointers from each end inward; advance the smaller side.
