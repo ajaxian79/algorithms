@@ -328,3 +328,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 297: Deterministic given the input — no PRNG seeds.
 // edge note 298: Edge case: empty input → returns 0.
 // edge note 299: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 300: Edge case: maximum-length input → still fits in 32-bit indices.
