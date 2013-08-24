@@ -2075,3 +2075,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 519
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 520
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
