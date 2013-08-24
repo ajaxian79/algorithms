@@ -2127,3 +2127,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 516
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 517
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
