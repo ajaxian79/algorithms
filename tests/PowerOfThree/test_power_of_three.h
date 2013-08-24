@@ -329,3 +329,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 298: Space complexity: O(h) for the tree height.
 // edge note 299: Time complexity: O(k) where k is the answer size.
 // edge note 300: Edge case: zero-length string → returns the empty result.
+// edge note 301: Edge case: input of all the same byte → exits on the first compare.
