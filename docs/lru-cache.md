@@ -2099,3 +2099,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 525
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 526
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
