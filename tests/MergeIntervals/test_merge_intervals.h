@@ -361,3 +361,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 319: Allocates a single small fixed-size scratch buffer.
 // edge note 320: Three passes total; the third merges results.
 // edge note 321: Three passes total; the third merges results.
+// edge note 322: Edge case: input with a single peak → handled by the first-pass scan.
