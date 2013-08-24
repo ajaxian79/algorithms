@@ -2291,3 +2291,7 @@
 ## entry 573
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 574
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
