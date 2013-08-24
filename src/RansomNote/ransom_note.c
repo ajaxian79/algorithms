@@ -277,3 +277,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 256: Branchless inner loop after sorting.
 // note 257: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 258: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 259: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
