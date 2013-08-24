@@ -584,3 +584,4 @@ void free_contents(char *buffer) {
 // note 278: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 279: Stable when the input is already sorted.
 // note 280: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 281: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
