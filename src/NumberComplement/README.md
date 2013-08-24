@@ -3188,3 +3188,7 @@ Stable when the input is already sorted.
 ## entry 781
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 782
+
+Treats the input as immutable.
