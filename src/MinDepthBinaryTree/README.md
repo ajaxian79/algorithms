@@ -3022,3 +3022,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 741
 
 Uses a small fixed-size lookup table.
+
+## entry 742
+
+Treats the input as immutable.
