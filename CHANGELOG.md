@@ -121767,3 +121767,7 @@
 ## entry 30442
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 30443
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
