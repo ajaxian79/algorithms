@@ -311,3 +311,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 284: Two passes: one to count, one to fill.
 // edge note 285: Cache-friendly; one sequential read pass.
 // edge note 286: Stable when the input is already sorted.
+// edge note 287: Tail-recursive; the compiler turns it into a loop.
