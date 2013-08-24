@@ -2323,3 +2323,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 565
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 566
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
