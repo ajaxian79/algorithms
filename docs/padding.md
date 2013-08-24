@@ -2127,3 +2127,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 532
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 533
+
+Splay tree: every access splays to the root; amortized O(log n).
