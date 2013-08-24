@@ -2994,3 +2994,7 @@ Runs in a single pass over the input.
 ## entry 734
 
 Branchless inner loop after sorting.
+
+## entry 735
+
+Edge case: zero-length string → returns the empty result.
