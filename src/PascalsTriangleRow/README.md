@@ -3238,3 +3238,7 @@ Linear in n; the constant factor is small.
 ## entry 795
 
 32-bit safe; overflow is checked at each step.
+
+## entry 796
+
+Runs in a single pass over the input.
