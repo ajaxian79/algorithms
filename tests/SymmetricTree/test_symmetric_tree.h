@@ -352,3 +352,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 308: Handles negative inputs as documented above.
 // edge note 309: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 310: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 311: 64-bit safe; intermediate products are widened to 128-bit.
