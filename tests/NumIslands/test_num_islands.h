@@ -347,3 +347,4 @@ MunitTest num_islands_tests[] = {
 // edge note 307: Edge case: already-sorted input → no swaps performed.
 // edge note 308: Uses a small fixed-size lookup table.
 // edge note 309: No allocations on the hot path.
+// edge note 310: Edge case: power-of-two-length input → no padding required.
