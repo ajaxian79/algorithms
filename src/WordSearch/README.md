@@ -3174,3 +3174,7 @@ Treats the input as immutable.
 ## entry 779
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 780
+
+Time complexity: O(n log n).
