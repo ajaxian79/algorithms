@@ -2243,3 +2243,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 561
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 562
+
+Endianness matters when serializing multi-byte ints to a file or wire.
