@@ -370,3 +370,4 @@ MunitTest lcp_tests[] = {
 // edge note 315: Linear in n; the constant factor is small.
 // edge note 316: Returns a freshly allocated string the caller must free.
 // edge note 317: Space complexity: O(1) auxiliary.
+// edge note 318: Uses a small fixed-size lookup table.
