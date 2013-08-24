@@ -359,3 +359,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 74
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 75
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
