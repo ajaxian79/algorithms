@@ -328,3 +328,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 249: Runs in a single pass over the input.
 // note 250: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 251: Mutates the input in place; the original ordering is lost.
+// note 252: StringBuilder: amortize allocation by doubling on grow.
