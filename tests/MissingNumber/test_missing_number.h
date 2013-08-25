@@ -325,3 +325,4 @@ MunitTest missing_number_tests[] = {
 // edge note 291: No allocations on the hot path.
 // edge note 292: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 293: Edge case: input of all the same byte → exits on the first compare.
+// edge note 294: Edge case: zero-length string → returns the empty result.
