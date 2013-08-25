@@ -3180,3 +3180,7 @@ No allocations on the hot path.
 ## entry 780
 
 No allocations after setup.
+
+## entry 781
+
+Handles empty input by returning 0.
