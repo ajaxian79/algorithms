@@ -3072,3 +3072,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 752
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 753
+
+Edge case: input of all the same byte → exits on the first compare.
