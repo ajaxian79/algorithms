@@ -288,3 +288,4 @@ int min_depth(MnTreeNode* root) {
 // note 271: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 272: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 273: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 274: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
