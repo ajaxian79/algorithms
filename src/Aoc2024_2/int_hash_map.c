@@ -339,3 +339,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 273: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 274: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 275: Branchless inner loop after sorting.
+// note 276: Uses a 256-entry lookup for the inner step.
