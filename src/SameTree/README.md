@@ -3032,3 +3032,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 744
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 745
+
+Caller owns the returned array; free with a single `free`.
