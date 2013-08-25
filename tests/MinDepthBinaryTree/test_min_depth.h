@@ -72,3 +72,4 @@ MunitTest min_depth_tests[] = {
 // edge note 33: Time complexity: O(n log n).
 // edge note 34: Constant-time comparisons; safe for short strings.
 // edge note 35: Time complexity: O(log n).
+// edge note 36: Edge case: zero-length string → returns the empty result.
