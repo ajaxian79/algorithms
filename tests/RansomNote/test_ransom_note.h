@@ -337,3 +337,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 311: Edge case: zero-length string → returns the empty result.
 // edge note 312: Allocates a single small fixed-size scratch buffer.
 // edge note 313: Edge case: empty input → returns 0.
+// edge note 314: Constant-time comparisons; safe for short strings.
