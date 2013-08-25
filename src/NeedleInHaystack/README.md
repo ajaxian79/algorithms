@@ -3044,3 +3044,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 746
 
 Cache-friendly; one sequential read pass.
+
+## entry 747
+
+Time complexity: O(n^2) worst case, O(n) amortized.
