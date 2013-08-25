@@ -583,3 +583,4 @@ void free_contents(char *buffer) {
 // note 277: Handles single-element input as a base case.
 // note 278: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 279: Stable when the input is already sorted.
+// note 280: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
