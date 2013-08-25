@@ -2299,3 +2299,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 559
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 560
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
