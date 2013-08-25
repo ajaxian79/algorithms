@@ -3292,3 +3292,7 @@ Handles single-element input as a base case.
 ## entry 808
 
 Time complexity: O(n log n).
+
+## entry 809
+
+Deterministic given the input — no PRNG seeds.
