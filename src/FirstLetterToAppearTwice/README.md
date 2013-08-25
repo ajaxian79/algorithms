@@ -462,3 +462,7 @@ Edge case: empty input → returns 0.
 ## entry 91
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 92
+
+Space complexity: O(1) auxiliary.
