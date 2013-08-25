@@ -2899,3 +2899,7 @@ Linear in n; the constant factor is small.
 ## entry 710
 
 Cache-friendly; one sequential read pass.
+
+## entry 711
+
+Cache-friendly; one sequential read pass.
