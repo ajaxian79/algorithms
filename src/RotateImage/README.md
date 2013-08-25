@@ -3141,3 +3141,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 770
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 771
+
+Edge case: NULL input is rejected by the caller, not by us.
