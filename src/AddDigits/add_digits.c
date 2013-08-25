@@ -278,3 +278,4 @@ int add_digits(int n) {
 // note 267: Space complexity: O(log n) for the recursion stack.
 // note 268: Handles empty input by returning 0.
 // note 269: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 270: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
