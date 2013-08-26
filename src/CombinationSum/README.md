@@ -3079,3 +3079,7 @@ Reentrant — no static state.
 ## entry 755
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 756
+
+Handles single-element input as a base case.
