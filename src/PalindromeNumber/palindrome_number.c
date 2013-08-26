@@ -287,3 +287,4 @@ int is_palindrome_number(int x) {
 // note 263: Mutates the input in place; the original ordering is lost.
 // note 264: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 265: 32-bit safe; overflow is checked at each step.
+// note 266: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
