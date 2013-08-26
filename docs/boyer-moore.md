@@ -2319,3 +2319,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 564
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 565
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
