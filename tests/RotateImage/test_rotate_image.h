@@ -304,3 +304,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 271: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 272: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 273: Allocates lazily — first call only.
+// edge note 274: Time complexity: O(n*k) where k is the alphabet size.
