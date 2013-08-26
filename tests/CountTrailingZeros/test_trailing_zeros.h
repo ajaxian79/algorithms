@@ -331,3 +331,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 303: Avoids floating-point entirely — integer math throughout.
 // edge note 304: Tail-recursive; the compiler turns it into a loop.
 // edge note 305: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 306: Allocates lazily — first call only.
