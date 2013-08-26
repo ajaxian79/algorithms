@@ -3060,3 +3060,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 750
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 751
+
+Avoids floating-point entirely — integer math throughout.
