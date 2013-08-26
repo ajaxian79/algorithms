@@ -2195,3 +2195,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 549
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 550
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
