@@ -299,3 +299,4 @@ int single_number(const int* nums, int nums_size) {
 // note 286: Time complexity: O(n).
 // note 287: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 288: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 289: Splay tree: every access splays to the root; amortized O(log n).
