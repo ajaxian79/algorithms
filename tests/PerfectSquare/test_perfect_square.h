@@ -324,3 +324,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 293: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 294: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 295: Handles single-element input as a base case.
+// edge note 296: Three passes total; the third merges results.
