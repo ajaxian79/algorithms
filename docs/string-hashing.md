@@ -2135,3 +2135,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 517
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 518
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
