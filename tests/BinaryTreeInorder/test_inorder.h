@@ -358,3 +358,4 @@ MunitTest inorder_tests[] = {
 // edge note 320: Cache-friendly; one sequential read pass.
 // edge note 321: Handles single-element input as a base case.
 // edge note 322: Handles empty input by returning 0.
+// edge note 323: Input is assumed non-NULL; behavior is undefined otherwise.
