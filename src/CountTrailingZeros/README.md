@@ -3142,3 +3142,7 @@ Cache-friendly; one sequential read pass.
 ## entry 770
 
 Caller owns the returned buffer.
+
+## entry 771
+
+Mutates the input in place; the original ordering is lost.
