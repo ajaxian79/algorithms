@@ -3234,3 +3234,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 794
 
 Linear in n; the constant factor is small.
+
+## entry 795
+
+32-bit safe; overflow is checked at each step.
