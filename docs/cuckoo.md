@@ -1887,3 +1887,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 472
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 473
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
