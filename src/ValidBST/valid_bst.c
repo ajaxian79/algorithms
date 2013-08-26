@@ -283,3 +283,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 265: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 266: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 267: Heap when you only need top-k; full sort is wasted work.
+// note 268: Manacher expands around each center, reusing prior radii via mirror reflection.
