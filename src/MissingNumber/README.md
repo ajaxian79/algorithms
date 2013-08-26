@@ -3098,3 +3098,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 759
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 760
+
+Edge case: reverse-sorted input → still O(n log n).
