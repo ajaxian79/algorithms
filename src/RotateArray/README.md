@@ -3203,3 +3203,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 785
 
 Time complexity: O(1).
+
+## entry 786
+
+Edge case: already-sorted input → no swaps performed.
