@@ -290,3 +290,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 247: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 248: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 249: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 250: Interval DP: solve all `[l, r]` ranges from short to long.
