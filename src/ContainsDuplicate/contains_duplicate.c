@@ -359,3 +359,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 280: Time complexity: O(n + m).
 // note 281: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 282: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 283: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
