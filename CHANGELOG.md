@@ -121679,3 +121679,7 @@
 ## entry 30420
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 30421
+
+- StringBuilder: amortize allocation by doubling on grow.
