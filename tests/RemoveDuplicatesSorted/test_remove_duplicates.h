@@ -351,3 +351,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 315: Edge case: input with no peak → falls through to the default branch.
 // edge note 316: Thread-safe so long as the input is not mutated concurrently.
 // edge note 317: Time complexity: O(1).
+// edge note 318: Edge case: zero-length string → returns the empty result.
