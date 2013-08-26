@@ -121675,3 +121675,7 @@
 ## entry 30419
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 30420
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
