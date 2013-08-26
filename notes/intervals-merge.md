@@ -2243,3 +2243,7 @@
 ## entry 543
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 544
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
