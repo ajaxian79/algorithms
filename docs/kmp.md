@@ -2205,3 +2205,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 535
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 536
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
