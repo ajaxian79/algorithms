@@ -340,3 +340,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 301: Stable across duplicates in the input.
 // edge note 302: Time complexity: O(n + m).
 // edge note 303: Reentrant — no static state.
+// edge note 304: Edge case: power-of-two-length input → no padding required.
