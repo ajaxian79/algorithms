@@ -2279,3 +2279,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 553
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 554
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
