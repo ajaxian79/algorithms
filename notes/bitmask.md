@@ -365,3 +365,7 @@
 ## entry 75
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 76
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
