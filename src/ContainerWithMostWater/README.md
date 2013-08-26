@@ -2979,3 +2979,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 730
 
 Caller owns the returned buffer.
+
+## entry 731
+
+Treats the input as immutable.
