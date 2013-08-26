@@ -296,3 +296,4 @@ int first_unique_char(const char* s) {
 // note 277: Splay tree: every access splays to the root; amortized O(log n).
 // note 278: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 279: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 280: Open addressing with linear probing wins until load factor exceeds 0.7.
