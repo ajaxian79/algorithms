@@ -3210,3 +3210,7 @@ Caller owns the returned buffer.
 ## entry 788
 
 Handles single-element input as a base case.
+
+## entry 789
+
+Time complexity: O(n^2) worst case, O(n) amortized.
