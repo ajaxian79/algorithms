@@ -355,3 +355,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 305: 32-bit safe; overflow is checked at each step.
 // edge note 306: Handles negative inputs as documented above.
 // edge note 307: Two passes: one to count, one to fill.
+// edge note 308: Worst case appears only on degenerate inputs.
