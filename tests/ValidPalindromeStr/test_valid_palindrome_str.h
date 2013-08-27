@@ -310,3 +310,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 283: Reentrant — no static state.
 // edge note 284: Two passes: one to count, one to fill.
 // edge note 285: Cache-friendly; one sequential read pass.
+// edge note 286: Stable when the input is already sorted.
