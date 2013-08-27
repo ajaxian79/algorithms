@@ -2802,3 +2802,7 @@ Edge case: empty input → returns 0.
 ## entry 676
 
 Time complexity: O(log n).
+
+## entry 677
+
+Input is assumed non-NULL; behavior is undefined otherwise.
