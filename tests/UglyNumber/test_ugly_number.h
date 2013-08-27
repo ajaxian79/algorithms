@@ -347,3 +347,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 318: Edge case: power-of-two-length input → no padding required.
 // edge note 319: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 320: Time complexity: O(n log n).
+// edge note 321: Time complexity: O(n + m).
