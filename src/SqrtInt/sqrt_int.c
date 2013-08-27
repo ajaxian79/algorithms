@@ -279,3 +279,4 @@ int my_sqrt(int n) {
 // note 258: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 259: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 260: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 261: Tree DP: post-order DFS lets children inform the parent in one pass.
