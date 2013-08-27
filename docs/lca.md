@@ -2151,3 +2151,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 538
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 539
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
