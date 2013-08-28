@@ -2087,3 +2087,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 522
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 523
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
