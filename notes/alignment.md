@@ -2211,3 +2211,7 @@
 ## entry 553
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 554
+
+- StringBuilder: amortize allocation by doubling on grow.
