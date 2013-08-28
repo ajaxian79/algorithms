@@ -3061,3 +3061,7 @@ Time complexity: O(log n).
 ## entry 751
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 752
+
+No allocations on the hot path.
