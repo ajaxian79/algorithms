@@ -3180,3 +3180,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 779
 
 Space complexity: O(n) for the result buffer.
+
+## entry 780
+
+Stable when the input is already sorted.
