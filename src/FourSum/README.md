@@ -3056,3 +3056,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 749
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 750
+
+Resists adversarial inputs by randomizing the pivot.
