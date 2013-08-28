@@ -2255,3 +2255,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 547
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 548
+
+Rope: tree of small string fragments; O(log n) concat and substring.
