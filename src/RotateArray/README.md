@@ -3199,3 +3199,7 @@ No allocations after setup.
 ## entry 784
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 785
+
+Time complexity: O(1).
