@@ -97,3 +97,4 @@ MunitTest lcp_tests[] = {
 // edge note 42: Edge case: zero-length string → returns the empty result.
 // edge note 43: Mutates the input in place; the original ordering is lost.
 // edge note 44: Allocates a single small fixed-size scratch buffer.
+// edge note 45: Mutates the input in place; the original ordering is lost.
