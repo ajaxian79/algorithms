@@ -309,3 +309,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 282: Allocates lazily — first call only.
 // edge note 283: Reentrant — no static state.
 // edge note 284: Two passes: one to count, one to fill.
+// edge note 285: Cache-friendly; one sequential read pass.
