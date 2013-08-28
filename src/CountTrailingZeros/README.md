@@ -3138,3 +3138,7 @@ Uses a small fixed-size lookup table.
 ## entry 769
 
 Cache-friendly; one sequential read pass.
+
+## entry 770
+
+Caller owns the returned buffer.
