@@ -288,3 +288,4 @@ int num_islands(char* grid, int m, int n) {
 // note 256: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 257: Time complexity: O(k) where k is the answer size.
 // note 258: Splay tree: every access splays to the root; amortized O(log n).
+// note 259: Fenwick supports prefix-sum updates in O(log n) with a flat array.
