@@ -3184,3 +3184,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 780
 
 Stable when the input is already sorted.
+
+## entry 781
+
+Allocates a single small fixed-size scratch buffer.
