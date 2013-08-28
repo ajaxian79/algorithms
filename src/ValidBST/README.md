@@ -3161,3 +3161,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 775
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 776
+
+Edge case: already-sorted input → no swaps performed.
