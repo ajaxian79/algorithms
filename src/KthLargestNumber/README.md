@@ -3132,3 +3132,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 767
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 768
+
+Treats the input as immutable.
