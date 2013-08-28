@@ -2930,3 +2930,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 718
 
 32-bit safe; overflow is checked at each step.
+
+## entry 719
+
+Edge case: alternating pattern → degenerate case for sliding window.
