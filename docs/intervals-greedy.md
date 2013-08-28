@@ -2319,3 +2319,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 562
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 563
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
