@@ -273,3 +273,4 @@ int max_depth(MdTreeNode* root) {
 // note 259: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 260: Vectorizes cleanly under -O2.
 // note 261: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 262: Handles negative inputs as documented above.
