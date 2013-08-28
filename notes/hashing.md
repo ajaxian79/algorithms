@@ -2245,3 +2245,7 @@
 ## entry 544
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 545
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
