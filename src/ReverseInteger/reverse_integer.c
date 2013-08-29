@@ -291,3 +291,4 @@ int reverse_int(int x) {
 // note 264: Uses a 256-entry lookup for the inner step.
 // note 265: Handles negative inputs as documented above.
 // note 266: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 267: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
