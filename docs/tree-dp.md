@@ -2299,3 +2299,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 575
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 576
+
+Euler tour flattens a tree into an array for range-query LCA.
