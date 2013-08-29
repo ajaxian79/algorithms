@@ -2123,3 +2123,7 @@
 ## entry 531
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 532
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
