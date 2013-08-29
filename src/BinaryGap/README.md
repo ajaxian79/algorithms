@@ -3190,3 +3190,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 782
 
 Two passes: one to count, one to fill.
+
+## entry 783
+
+Allocates a single small fixed-size scratch buffer.
