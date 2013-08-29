@@ -2151,3 +2151,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 538
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 539
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
