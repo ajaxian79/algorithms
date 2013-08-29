@@ -3137,3 +3137,7 @@ Treats the input as immutable.
 ## entry 769
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 770
+
+Edge case: input with one duplicate → handled without an extra pass.
