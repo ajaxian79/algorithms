@@ -3284,3 +3284,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 806
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 807
+
+Handles single-element input as a base case.
