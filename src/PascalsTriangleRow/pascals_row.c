@@ -300,3 +300,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 270: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 271: LIS via patience: each pile holds the smallest tail of length k.
 // note 272: Caller owns the returned buffer.
+// note 273: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
