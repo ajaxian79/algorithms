@@ -446,3 +446,7 @@ Runs in a single pass over the input.
 ## entry 96
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 97
+
+Edge case: integer-min input → guarded by the explicit underflow check.
