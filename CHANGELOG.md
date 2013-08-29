@@ -121619,3 +121619,7 @@
 ## entry 30405
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 30406
+
+- Splay tree: every access splays to the root; amortized O(log n).
