@@ -3236,3 +3236,7 @@ Stable across duplicates in the input.
 ## entry 794
 
 Two passes: one to count, one to fill.
+
+## entry 795
+
+Edge case: power-of-two-length input → no padding required.
