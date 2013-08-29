@@ -2217,3 +2217,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 536
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 537
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
