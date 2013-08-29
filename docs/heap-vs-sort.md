@@ -2147,3 +2147,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 520
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 521
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
