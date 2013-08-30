@@ -458,3 +458,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 90
 
 Edge case: empty input → returns 0.
+
+## entry 91
+
+Edge case: alternating pattern → degenerate case for sliding window.
