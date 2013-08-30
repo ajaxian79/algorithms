@@ -2039,3 +2039,7 @@
 ## entry 510
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 511
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
