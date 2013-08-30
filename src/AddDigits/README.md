@@ -532,3 +532,7 @@ Reentrant — no static state.
 ## entry 118
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 119
+
+64-bit safe; intermediate products are widened to 128-bit.
