@@ -2203,3 +2203,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 536
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 537
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
