@@ -3046,3 +3046,7 @@ Space complexity: O(1) auxiliary.
 ## entry 746
 
 Handles single-element input as a base case.
+
+## entry 747
+
+Resists adversarial inputs by randomizing the pivot.
