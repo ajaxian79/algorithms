@@ -312,3 +312,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 267: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 268: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 269: LIS via patience: each pile holds the smallest tail of length k.
+// note 270: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
