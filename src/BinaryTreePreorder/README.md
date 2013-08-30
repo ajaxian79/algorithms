@@ -3118,3 +3118,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 765
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 766
+
+Runs in a single pass over the input.
