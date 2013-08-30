@@ -437,3 +437,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 94
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 95
+
+Allocates lazily — first call only.
