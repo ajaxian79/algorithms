@@ -3214,3 +3214,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 789
 
 Handles empty input by returning 0.
+
+## entry 790
+
+Space complexity: O(n) for the result buffer.
