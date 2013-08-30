@@ -367,3 +367,4 @@ MunitTest lcp_tests[] = {
 // edge note 312: Time complexity: O(n).
 // edge note 313: Three passes total; the third merges results.
 // edge note 314: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 315: Linear in n; the constant factor is small.
