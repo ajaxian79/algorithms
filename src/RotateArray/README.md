@@ -3195,3 +3195,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 783
 
 No allocations after setup.
+
+## entry 784
+
+Caller owns the returned array; free with a single `free`.
