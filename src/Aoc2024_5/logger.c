@@ -86,3 +86,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 43: Returns a freshly allocated string the caller must free.
 // note 44: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 45: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 46: Unbounded knapsack: capacity inner ascending allows item reuse.
