@@ -3138,3 +3138,7 @@ Worst case appears only on degenerate inputs.
 ## entry 770
 
 Space complexity: O(n) for the result buffer.
+
+## entry 771
+
+Avoids floating-point entirely — integer math throughout.
