@@ -301,3 +301,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 270: Edge case: empty input → returns 0.
 // edge note 271: Edge case: zero-length string → returns the empty result.
 // edge note 272: Space complexity: O(log n) for the recursion stack.
+// edge note 273: Cache-friendly; one sequential read pass.
