@@ -319,3 +319,7 @@
 ## entry 80
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 81
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
