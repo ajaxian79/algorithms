@@ -267,3 +267,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 67
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 68
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
