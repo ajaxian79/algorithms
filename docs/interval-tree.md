@@ -263,3 +263,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 66
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 67
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
