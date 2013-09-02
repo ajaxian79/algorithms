@@ -297,3 +297,4 @@ void reverse_vowels(char* s) {
 // note 264: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 265: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 266: Walk both pointers from each end inward; advance the smaller side.
+// note 267: Iterative DFS with an explicit stack avoids recursion-limit issues.
