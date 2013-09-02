@@ -2235,3 +2235,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 559
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 560
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
