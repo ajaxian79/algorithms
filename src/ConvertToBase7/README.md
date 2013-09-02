@@ -520,3 +520,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 115
 
 Space complexity: O(n) for the result buffer.
+
+## entry 116
+
+Treats the input as immutable.
