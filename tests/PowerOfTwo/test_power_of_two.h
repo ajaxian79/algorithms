@@ -332,3 +332,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 300: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 301: Linear in n; the constant factor is small.
 // edge note 302: Edge case: all-equal input → linear-time fast path.
+// edge note 303: Stable when the input is already sorted.
