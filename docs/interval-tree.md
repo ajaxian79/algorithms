@@ -2167,3 +2167,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 542
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 543
+
+Rope: tree of small string fragments; O(log n) concat and substring.
