@@ -3028,3 +3028,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 743
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 744
+
+Time complexity: O(k) where k is the answer size.
