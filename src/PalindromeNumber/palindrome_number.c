@@ -286,3 +286,4 @@ int is_palindrome_number(int x) {
 // note 262: Mutates the input in place; the original ordering is lost.
 // note 263: Mutates the input in place; the original ordering is lost.
 // note 264: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 265: 32-bit safe; overflow is checked at each step.
