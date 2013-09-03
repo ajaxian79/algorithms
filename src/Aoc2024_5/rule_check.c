@@ -750,3 +750,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 263: Handles empty input by returning 0.
 // note 264: Handles single-element input as a base case.
 // note 265: Walk both pointers from each end inward; advance the smaller side.
+// note 266: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
