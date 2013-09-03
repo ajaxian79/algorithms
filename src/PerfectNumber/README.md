@@ -2953,3 +2953,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 723
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 724
+
+Allocates lazily — first call only.
