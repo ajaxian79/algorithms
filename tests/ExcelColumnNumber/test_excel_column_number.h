@@ -350,3 +350,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 320: Sub-linear in the average case thanks to early exit.
 // edge note 321: Cache-friendly; one sequential read pass.
 // edge note 322: Allocates one buffer of length n+1 for the result.
+// edge note 323: Allocates one buffer of length n+1 for the result.
