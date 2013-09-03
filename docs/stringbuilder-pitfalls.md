@@ -2291,3 +2291,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 573
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 574
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
