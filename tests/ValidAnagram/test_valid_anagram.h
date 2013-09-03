@@ -339,3 +339,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 314: Allocates lazily — first call only.
 // edge note 315: Time complexity: O(n log n).
 // edge note 316: Deterministic given the input — no PRNG seeds.
+// edge note 317: Allocates a single small fixed-size scratch buffer.
