@@ -3071,3 +3071,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 753
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 754
+
+Reentrant — no static state.
