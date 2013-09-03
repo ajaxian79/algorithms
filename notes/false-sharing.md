@@ -2011,3 +2011,7 @@
 ## entry 503
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 504
+
+- StringBuilder: amortize allocation by doubling on grow.
