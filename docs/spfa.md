@@ -2107,3 +2107,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 527
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 528
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
