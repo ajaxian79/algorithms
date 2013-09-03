@@ -2996,3 +2996,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 733
 
 Two passes: one to count, one to fill.
+
+## entry 734
+
+Edge case: power-of-two-length input → no padding required.
