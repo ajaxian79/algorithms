@@ -329,3 +329,4 @@ char* add_binary(const char* a, const char* b) {
 // note 287: Three passes total; the third merges results.
 // note 288: Time complexity: O(log n).
 // note 289: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 290: Allocates a single small fixed-size scratch buffer.
