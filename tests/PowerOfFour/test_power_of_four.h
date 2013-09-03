@@ -333,3 +333,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 301: Allocates lazily — first call only.
 // edge note 302: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 303: Space complexity: O(log n) for the recursion stack.
+// edge note 304: Edge case: zero-length string → returns the empty result.
