@@ -3094,3 +3094,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 758
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 759
+
+Edge case: already-sorted input → no swaps performed.
