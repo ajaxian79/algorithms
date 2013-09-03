@@ -345,3 +345,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 280: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 281: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 282: Resists adversarial inputs by randomizing the pivot.
+// note 283: Two passes: one to count, one to fill.
