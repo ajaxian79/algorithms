@@ -3232,3 +3232,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 793
 
 Stable across duplicates in the input.
+
+## entry 794
+
+Two passes: one to count, one to fill.
