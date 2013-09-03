@@ -3102,3 +3102,7 @@ Treats the input as immutable.
 ## entry 760
 
 Vectorizes cleanly under -O2.
+
+## entry 761
+
+Space complexity: O(n) for the result buffer.
