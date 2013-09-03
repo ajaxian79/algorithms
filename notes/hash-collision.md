@@ -2171,3 +2171,7 @@
 ## entry 543
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 544
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
