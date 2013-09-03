@@ -277,3 +277,4 @@ int add_digits(int n) {
 // note 266: 64-bit safe; intermediate products are widened to 128-bit.
 // note 267: Space complexity: O(log n) for the recursion stack.
 // note 268: Handles empty input by returning 0.
+// note 269: Interval DP: solve all `[l, r]` ranges from short to long.
