@@ -2099,3 +2099,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 525
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 526
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
