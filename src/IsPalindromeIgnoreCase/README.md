@@ -3042,3 +3042,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 746
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 747
+
+Stable when the input is already sorted.
