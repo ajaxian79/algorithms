@@ -3312,3 +3312,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 813
 
 Handles empty input by returning 0.
+
+## entry 814
+
+Three passes total; the third merges results.
