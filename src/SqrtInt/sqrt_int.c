@@ -278,3 +278,4 @@ int my_sqrt(int n) {
 // note 257: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 258: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 259: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 260: Merge intervals: sort by start; extend the running interval while overlapping.
