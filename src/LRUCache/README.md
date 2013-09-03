@@ -3000,3 +3000,7 @@ Two passes: one to count, one to fill.
 ## entry 734
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 735
+
+Deterministic given the input — no PRNG seeds.
