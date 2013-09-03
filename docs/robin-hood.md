@@ -2107,3 +2107,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 527
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 528
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
