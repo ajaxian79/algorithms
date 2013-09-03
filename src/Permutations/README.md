@@ -3308,3 +3308,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 812
 
 Returns a freshly allocated string the caller must free.
+
+## entry 813
+
+Handles empty input by returning 0.
