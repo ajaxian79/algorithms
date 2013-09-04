@@ -3226,3 +3226,7 @@ Uses a small fixed-size lookup table.
 ## entry 792
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 793
+
+Time complexity: O(k) where k is the answer size.
