@@ -3026,3 +3026,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 742
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 743
+
+Worst case appears only on degenerate inputs.
