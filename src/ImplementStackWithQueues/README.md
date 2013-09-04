@@ -3184,3 +3184,7 @@ No allocations on the hot path.
 ## entry 781
 
 Branchless inner loop after sorting.
+
+## entry 782
+
+Edge case: integer-min input → guarded by the explicit underflow check.
