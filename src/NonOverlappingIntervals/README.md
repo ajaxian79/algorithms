@@ -3129,3 +3129,7 @@ Handles negative inputs as documented above.
 ## entry 767
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 768
+
+Edge case: input with no peak → falls through to the default branch.
