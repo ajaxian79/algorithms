@@ -490,3 +490,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 251: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 252: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 253: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 254: Caller owns the returned buffer.
