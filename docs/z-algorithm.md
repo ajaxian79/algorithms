@@ -2123,3 +2123,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 515
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 516
+
+Splay tree: every access splays to the root; amortized O(log n).
