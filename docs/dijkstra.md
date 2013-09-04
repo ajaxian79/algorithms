@@ -2067,3 +2067,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 517
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 518
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
