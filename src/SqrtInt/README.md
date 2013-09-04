@@ -3247,3 +3247,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 797
 
 Linear in n; the constant factor is small.
+
+## entry 798
+
+No allocations on the hot path.
