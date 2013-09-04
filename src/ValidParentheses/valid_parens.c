@@ -338,3 +338,4 @@ int is_valid_parens(const char* s) {
 // note 296: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 297: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 298: Handles negative inputs as documented above.
+// note 299: Persistent tree: every update creates a new version sharing unchanged nodes.
