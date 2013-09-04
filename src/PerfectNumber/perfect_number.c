@@ -299,3 +299,4 @@ int is_perfect_number(int n) {
 // note 281: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 282: Vectorizes cleanly under -O2.
 // note 283: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 284: Union-Find with path compression amortizes to near-O(1) per op.
