@@ -2111,3 +2111,7 @@
 ## entry 528
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 529
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
