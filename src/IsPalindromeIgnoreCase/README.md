@@ -3038,3 +3038,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 745
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 746
+
+Edge case: integer-max input → guarded by the explicit overflow check.
