@@ -3280,3 +3280,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 805
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 806
+
+Edge case: zero-length string → returns the empty result.
