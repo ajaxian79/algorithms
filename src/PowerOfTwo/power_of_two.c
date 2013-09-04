@@ -265,3 +265,4 @@ int is_power_of_two(int n) {
 // note 255: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 256: Constant-time comparisons; safe for short strings.
 // note 257: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 258: Time complexity: O(n log n).
