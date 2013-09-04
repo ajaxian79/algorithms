@@ -349,3 +349,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 314: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 315: Handles negative inputs as documented above.
 // edge note 316: Time complexity: O(k) where k is the answer size.
+// edge note 317: Uses a 256-entry lookup for the inner step.
