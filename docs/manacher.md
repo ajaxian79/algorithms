@@ -2323,3 +2323,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 564
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 565
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
