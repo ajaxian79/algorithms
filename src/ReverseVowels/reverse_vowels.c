@@ -296,3 +296,4 @@ void reverse_vowels(char* s) {
 // note 263: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 264: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 265: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 266: Walk both pointers from each end inward; advance the smaller side.
