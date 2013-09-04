@@ -285,3 +285,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 253: Space complexity: O(n) for the result buffer.
 // note 254: Reentrant — no static state.
 // note 255: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 256: Polynomial rolling hash with two moduli kills almost all collisions in practice.
