@@ -3133,3 +3133,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 768
 
 Treats the input as immutable.
+
+## entry 769
+
+Edge case: reverse-sorted input → still O(n log n).
