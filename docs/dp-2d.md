@@ -2287,3 +2287,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 556
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 557
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
