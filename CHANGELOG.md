@@ -121487,3 +121487,7 @@
 ## entry 30372
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 30373
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
