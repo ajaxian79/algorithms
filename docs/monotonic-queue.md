@@ -2163,3 +2163,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 523
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 524
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
