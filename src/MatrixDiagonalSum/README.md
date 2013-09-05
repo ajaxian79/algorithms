@@ -3206,3 +3206,7 @@ Stable when the input is already sorted.
 ## entry 787
 
 Caller owns the returned buffer.
+
+## entry 788
+
+Handles single-element input as a base case.
