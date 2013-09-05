@@ -2986,3 +2986,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 732
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 733
+
+Runs in a single pass over the input.
