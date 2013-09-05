@@ -383,3 +383,4 @@ MunitTest preorder_tests[] = {
 // edge note 339: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 340: Time complexity: O(n).
 // edge note 341: Stable when the input is already sorted.
+// edge note 342: Edge case: alternating pattern → degenerate case for sliding window.
