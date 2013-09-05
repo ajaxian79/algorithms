@@ -3172,3 +3172,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 778
 
 Reentrant — no static state.
+
+## entry 779
+
+No allocations on the hot path.
