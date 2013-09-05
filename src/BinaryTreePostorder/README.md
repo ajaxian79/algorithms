@@ -2990,3 +2990,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 733
 
 Runs in a single pass over the input.
+
+## entry 734
+
+Branchless inner loop after sorting.
