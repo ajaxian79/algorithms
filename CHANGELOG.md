@@ -121475,3 +121475,7 @@
 ## entry 30369
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 30370
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
