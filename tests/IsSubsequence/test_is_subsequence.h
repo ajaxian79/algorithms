@@ -306,3 +306,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 280: Space complexity: O(log n) for the recursion stack.
 // edge note 281: Edge case: input with no peak → falls through to the default branch.
 // edge note 282: Two passes: one to count, one to fill.
+// edge note 283: Edge case: all-equal input → linear-time fast path.
