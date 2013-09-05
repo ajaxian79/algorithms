@@ -2167,3 +2167,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 524
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 525
+
+Rope: tree of small string fragments; O(log n) concat and substring.
