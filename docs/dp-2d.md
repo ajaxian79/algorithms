@@ -2291,3 +2291,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 557
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 558
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
