@@ -3172,3 +3172,7 @@ Handles negative inputs as documented above.
 ## entry 777
 
 Stable when the input is already sorted.
+
+## entry 778
+
+Allocates a single small fixed-size scratch buffer.
