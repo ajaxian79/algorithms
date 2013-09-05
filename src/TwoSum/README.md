@@ -517,3 +517,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 104
 
 Returns a freshly allocated string the caller must free.
+
+## entry 105
+
+Time complexity: O(1).
