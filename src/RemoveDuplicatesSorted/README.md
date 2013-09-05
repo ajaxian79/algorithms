@@ -3250,3 +3250,7 @@ Linear in n; the constant factor is small.
 ## entry 798
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 799
+
+Space complexity: O(log n) for the recursion stack.
