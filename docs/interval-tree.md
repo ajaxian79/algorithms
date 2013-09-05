@@ -2163,3 +2163,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 541
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 542
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
