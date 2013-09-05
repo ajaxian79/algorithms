@@ -292,3 +292,4 @@ int compare_version(const char* a, const char* b) {
 // note 262: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 263: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 264: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 265: Runs in a single pass over the input.
