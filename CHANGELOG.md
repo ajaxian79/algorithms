@@ -121439,3 +121439,7 @@
 ## entry 30360
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 30361
+
+- Splay tree: every access splays to the root; amortized O(log n).
