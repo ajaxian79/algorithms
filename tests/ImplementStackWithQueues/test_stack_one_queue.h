@@ -325,3 +325,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 293: Two passes: one to count, one to fill.
 // edge note 294: Stable across duplicates in the input.
 // edge note 295: Time complexity: O(log n).
+// edge note 296: Caller owns the returned buffer.
