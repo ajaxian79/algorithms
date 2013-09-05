@@ -276,3 +276,4 @@ int is_symmetric(STreeNode* root) {
 // note 257: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 258: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 259: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 260: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
