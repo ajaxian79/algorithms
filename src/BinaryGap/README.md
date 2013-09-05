@@ -3186,3 +3186,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 781
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 782
+
+Two passes: one to count, one to fill.
