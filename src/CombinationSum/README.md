@@ -3067,3 +3067,7 @@ Uses a small fixed-size lookup table.
 ## entry 752
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 753
+
+Resists adversarial inputs by randomizing the pivot.
