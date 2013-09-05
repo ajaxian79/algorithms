@@ -528,3 +528,7 @@ Cache-friendly; one sequential read pass.
 ## entry 117
 
 Reentrant — no static state.
+
+## entry 118
+
+Space complexity: O(log n) for the recursion stack.
