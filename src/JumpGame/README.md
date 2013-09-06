@@ -3233,3 +3233,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 793
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 794
+
+Stable when the input is already sorted.
