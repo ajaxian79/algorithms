@@ -442,3 +442,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 95
 
 Runs in a single pass over the input.
+
+## entry 96
+
+Input is assumed non-NULL; behavior is undefined otherwise.
