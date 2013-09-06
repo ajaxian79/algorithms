@@ -3180,3 +3180,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 780
 
 No allocations on the hot path.
+
+## entry 781
+
+Branchless inner loop after sorting.
