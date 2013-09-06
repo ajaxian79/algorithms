@@ -3168,3 +3168,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 776
 
 Handles negative inputs as documented above.
+
+## entry 777
+
+Stable when the input is already sorted.
