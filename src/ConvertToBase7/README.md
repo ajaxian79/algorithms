@@ -3276,3 +3276,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 804
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 805
+
+Avoids floating-point entirely — integer math throughout.
