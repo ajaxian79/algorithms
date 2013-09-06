@@ -296,3 +296,4 @@ int is_happy(int n) {
 // note 270: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 271: Articulation points: same DFS as bridges, with a slightly different test.
 // note 272: Runs in a single pass over the input.
+// note 273: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
