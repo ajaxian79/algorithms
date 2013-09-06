@@ -2267,3 +2267,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 567
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 568
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
