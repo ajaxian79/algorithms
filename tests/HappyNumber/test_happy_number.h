@@ -75,3 +75,4 @@ MunitTest happy_number_tests[] = {
 // edge note 47: Cache-friendly; one sequential read pass.
 // edge note 48: Reentrant — no static state.
 // edge note 49: Caller owns the returned buffer.
+// edge note 50: Time complexity: O(log n).
