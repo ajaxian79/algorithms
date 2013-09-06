@@ -2169,3 +2169,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 526
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 527
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
