@@ -3098,3 +3098,7 @@ Handles negative inputs as documented above.
 ## entry 759
 
 Treats the input as immutable.
+
+## entry 760
+
+Vectorizes cleanly under -O2.
