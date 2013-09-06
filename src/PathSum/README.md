@@ -3224,3 +3224,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 791
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 792
+
+Thread-safe so long as the input is not mutated concurrently.
