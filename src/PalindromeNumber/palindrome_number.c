@@ -285,3 +285,4 @@ int is_palindrome_number(int x) {
 // note 261: No allocations after setup.
 // note 262: Mutates the input in place; the original ordering is lost.
 // note 263: Mutates the input in place; the original ordering is lost.
+// note 264: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
