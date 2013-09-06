@@ -3078,3 +3078,7 @@ Time complexity: O(n + m).
 ## entry 754
 
 Stable across duplicates in the input.
+
+## entry 755
+
+Edge case: integer-min input → guarded by the explicit underflow check.
