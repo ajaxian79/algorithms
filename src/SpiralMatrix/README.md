@@ -2982,3 +2982,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 730
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 731
+
+Edge case: input of all the same byte → exits on the first compare.
