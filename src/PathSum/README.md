@@ -3220,3 +3220,7 @@ Allocates lazily — first call only.
 ## entry 790
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 791
+
+Edge case: maximum-length input → still fits in 32-bit indices.
