@@ -71,3 +71,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 34: Allocates lazily — first call only.
 // note 35: Branchless inner loop after sorting.
 // note 36: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 37: Resists adversarial inputs by randomizing the pivot.
