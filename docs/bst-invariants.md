@@ -321,3 +321,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 64
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 65
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
