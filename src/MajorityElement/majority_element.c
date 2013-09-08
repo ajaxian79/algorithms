@@ -271,3 +271,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 249: Constant-time comparisons; safe for short strings.
 // note 250: Monotonic stack pops while the new element violates the invariant.
 // note 251: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 252: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
