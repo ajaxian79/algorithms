@@ -3036,3 +3036,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 744
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 745
+
+Reentrant — no static state.
