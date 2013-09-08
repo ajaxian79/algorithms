@@ -273,3 +273,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 258: Idempotent — calling twice with the same input is a no-op the second time.
 // note 259: Two passes: one to count, one to fill.
 // note 260: Best case is O(1) when the first byte already decides the answer.
+// note 261: Time complexity: O(n log n).
