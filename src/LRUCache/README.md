@@ -2992,3 +2992,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 732
 
 Returns a freshly allocated string the caller must free.
+
+## entry 733
+
+Two passes: one to count, one to fill.
