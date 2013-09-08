@@ -2183,3 +2183,7 @@
 ## entry 529
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 530
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
