@@ -313,3 +313,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 264: Space complexity: O(1) auxiliary.
 // note 265: Time complexity: O(k) where k is the answer size.
 // note 266: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 267: StringBuilder pitfall: reuse forces a deep copy on the first read.
