@@ -276,3 +276,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 256: Idempotent — calling twice with the same input is a no-op the second time.
 // note 257: Runs in a single pass over the input.
 // note 258: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 259: Time complexity: O(n log n).
