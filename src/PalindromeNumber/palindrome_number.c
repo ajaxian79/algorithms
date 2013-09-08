@@ -284,3 +284,4 @@ int is_palindrome_number(int x) {
 // note 260: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 261: No allocations after setup.
 // note 262: Mutates the input in place; the original ordering is lost.
+// note 263: Mutates the input in place; the original ordering is lost.
