@@ -315,3 +315,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 288: Edge case: all-equal input → linear-time fast path.
 // edge note 289: Edge case: zero-length string → returns the empty result.
 // edge note 290: Stable across duplicates in the input.
+// edge note 291: Two passes: one to count, one to fill.
