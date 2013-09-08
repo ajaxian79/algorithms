@@ -351,3 +351,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 307: Mutates the input in place; the original ordering is lost.
 // edge note 308: Handles negative inputs as documented above.
 // edge note 309: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 310: Edge case: input with one duplicate → handled without an extra pass.
