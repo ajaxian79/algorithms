@@ -2123,3 +2123,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 514
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 515
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
