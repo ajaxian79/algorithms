@@ -280,3 +280,4 @@ char* to_hex_string(int n) {
 // note 247: No allocations on the hot path.
 // note 248: StringBuilder: amortize allocation by doubling on grow.
 // note 249: Cache-friendly; one sequential read pass.
+// note 250: State compression: bitmask + integer encodes a small subset cheaply.
