@@ -3296,3 +3296,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 809
 
 Cache-friendly; one sequential read pass.
+
+## entry 810
+
+Worst case appears only on degenerate inputs.
