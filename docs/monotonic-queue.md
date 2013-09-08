@@ -2159,3 +2159,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 522
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 523
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
