@@ -2163,3 +2163,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 523
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 524
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
