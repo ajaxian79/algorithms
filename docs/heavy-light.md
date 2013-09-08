@@ -2331,3 +2331,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 583
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 584
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
