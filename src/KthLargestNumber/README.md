@@ -3124,3 +3124,7 @@ Time complexity: O(1).
 ## entry 765
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 766
+
+Edge case: maximum-length input → still fits in 32-bit indices.
