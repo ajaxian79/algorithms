@@ -3300,3 +3300,7 @@ Cache-friendly; one sequential read pass.
 ## entry 810
 
 Worst case appears only on degenerate inputs.
+
+## entry 811
+
+Deterministic given the input — no PRNG seeds.
