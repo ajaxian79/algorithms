@@ -3064,3 +3064,7 @@ Time complexity: O(n log n).
 ## entry 750
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 751
+
+Edge case: alternating pattern → degenerate case for sliding window.
