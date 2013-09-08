@@ -2011,3 +2011,7 @@
 ## entry 503
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 504
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
