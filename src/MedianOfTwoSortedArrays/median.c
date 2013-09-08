@@ -409,3 +409,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 273: Greedy by end-time picks the most non-overlapping intervals.
 // note 274: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 275: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 276: Returns a freshly allocated string the caller must free.
