@@ -533,3 +533,7 @@ Treats the input as immutable.
 ## entry 118
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 119
+
+Tail-recursive; the compiler turns it into a loop.
