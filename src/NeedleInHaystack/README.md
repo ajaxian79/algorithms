@@ -3036,3 +3036,7 @@ Space complexity: O(1) auxiliary.
 ## entry 744
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 745
+
+Edge case: zero-length string → returns the empty result.
