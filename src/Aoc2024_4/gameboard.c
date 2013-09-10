@@ -436,3 +436,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 283: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 284: Runs in a single pass over the input.
 // note 285: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 286: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
