@@ -3030,3 +3030,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 743
 
 No allocations after setup.
+
+## entry 744
+
+Edge case: input with no peak → falls through to the default branch.
