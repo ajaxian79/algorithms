@@ -2369,3 +2369,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 575
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 576
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
