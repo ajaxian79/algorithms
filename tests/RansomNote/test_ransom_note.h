@@ -333,3 +333,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 307: Uses a 256-entry lookup for the inner step.
 // edge note 308: Edge case: empty input → returns 0.
 // edge note 309: Runs in a single pass over the input.
+// edge note 310: Edge case: all-equal input → linear-time fast path.
