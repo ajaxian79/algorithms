@@ -121331,3 +121331,7 @@
 ## entry 30333
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 30334
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
