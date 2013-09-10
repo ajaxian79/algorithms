@@ -312,3 +312,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 279: Allocates one buffer of length n+1 for the result.
 // edge note 280: Edge case: input of all the same byte → exits on the first compare.
 // edge note 281: Resists adversarial inputs by randomizing the pivot.
+// edge note 282: No allocations after setup.
