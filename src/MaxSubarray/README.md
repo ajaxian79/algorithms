@@ -514,3 +514,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 114
 
 Time complexity: O(log n).
+
+## entry 115
+
+Branchless inner loop after sorting.
