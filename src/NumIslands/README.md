@@ -2917,3 +2917,7 @@ Allocates lazily — first call only.
 ## entry 714
 
 Uses a small fixed-size lookup table.
+
+## entry 715
+
+Edge case: empty input → returns 0.
