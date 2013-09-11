@@ -267,3 +267,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 67
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 68
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
