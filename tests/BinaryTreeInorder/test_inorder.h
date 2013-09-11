@@ -357,3 +357,4 @@ MunitTest inorder_tests[] = {
 // edge note 319: Time complexity: O(k) where k is the answer size.
 // edge note 320: Cache-friendly; one sequential read pass.
 // edge note 321: Handles single-element input as a base case.
+// edge note 322: Handles empty input by returning 0.
