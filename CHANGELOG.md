@@ -121327,3 +121327,7 @@
 ## entry 30332
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 30333
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
