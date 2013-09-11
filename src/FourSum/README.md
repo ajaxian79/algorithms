@@ -3052,3 +3052,7 @@ Handles single-element input as a base case.
 ## entry 748
 
 Constant-time comparisons; safe for short strings.
+
+## entry 749
+
+Avoids floating-point entirely — integer math throughout.
