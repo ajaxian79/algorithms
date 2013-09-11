@@ -3060,3 +3060,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 749
 
 Time complexity: O(n log n).
+
+## entry 750
+
+Time complexity: O(n*k) where k is the alphabet size.
