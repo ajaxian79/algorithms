@@ -2327,3 +2327,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 582
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 583
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
