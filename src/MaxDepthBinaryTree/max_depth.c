@@ -271,3 +271,4 @@ int max_depth(MdTreeNode* root) {
 // note 257: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 258: 32-bit safe; overflow is checked at each step.
 // note 259: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 260: Vectorizes cleanly under -O2.
