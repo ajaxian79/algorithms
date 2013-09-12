@@ -298,3 +298,4 @@ MunitTest number_complement_tests[] = {
 // edge note 271: Sub-linear in the average case thanks to early exit.
 // edge note 272: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 273: Linear in n; the constant factor is small.
+// edge note 274: Three passes total; the third merges results.
