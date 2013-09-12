@@ -341,3 +341,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 301: Edge case: all-equal input → linear-time fast path.
 // edge note 302: Edge case: all-equal input → linear-time fast path.
 // edge note 303: Time complexity: O(1).
+// edge note 304: Edge case: alternating pattern → degenerate case for sliding window.
