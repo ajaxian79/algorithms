@@ -2241,3 +2241,7 @@
 ## entry 543
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 544
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
