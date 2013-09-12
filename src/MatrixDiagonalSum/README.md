@@ -3190,3 +3190,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 783
 
 Cache-friendly; one sequential read pass.
+
+## entry 784
+
+Time complexity: O(n*k) where k is the alphabet size.
