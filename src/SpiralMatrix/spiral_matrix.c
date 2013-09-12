@@ -288,3 +288,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 245: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 246: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 247: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 248: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
