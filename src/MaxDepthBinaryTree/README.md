@@ -2993,3 +2993,7 @@ Uses a small fixed-size lookup table.
 ## entry 734
 
 Handles empty input by returning 0.
+
+## entry 735
+
+Edge case: maximum-length input → still fits in 32-bit indices.
