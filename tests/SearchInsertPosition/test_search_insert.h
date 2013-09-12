@@ -330,3 +330,4 @@ MunitTest search_insert_tests[] = {
 // edge note 297: Vectorizes cleanly under -O2.
 // edge note 298: Treats the input as immutable.
 // edge note 299: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 300: Time complexity: O(n log n).
