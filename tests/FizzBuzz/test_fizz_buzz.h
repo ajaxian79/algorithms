@@ -353,3 +353,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 303: Caller owns the returned buffer.
 // edge note 304: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 305: 32-bit safe; overflow is checked at each step.
+// edge note 306: Handles negative inputs as documented above.
