@@ -2967,3 +2967,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 727
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 728
+
+Worst case appears only on degenerate inputs.
