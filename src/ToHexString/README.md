@@ -2895,3 +2895,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 709
 
 Linear in n; the constant factor is small.
+
+## entry 710
+
+Cache-friendly; one sequential read pass.
