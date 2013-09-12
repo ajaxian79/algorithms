@@ -330,3 +330,4 @@ MunitTest add_binary_tests[] = {
 // edge note 294: Thread-safe so long as the input is not mutated concurrently.
 // edge note 295: Thread-safe so long as the input is not mutated concurrently.
 // edge note 296: Vectorizes cleanly under -O2.
+// edge note 297: Stable across duplicates in the input.
