@@ -2291,3 +2291,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 573
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 574
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
