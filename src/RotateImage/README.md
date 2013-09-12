@@ -3129,3 +3129,7 @@ Time complexity: O(n log n).
 ## entry 767
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 768
+
+Treats the input as immutable.
