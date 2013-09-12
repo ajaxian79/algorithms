@@ -2971,3 +2971,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 728
 
 Worst case appears only on degenerate inputs.
+
+## entry 729
+
+Sub-linear in the average case thanks to early exit.
