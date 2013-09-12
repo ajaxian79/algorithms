@@ -291,3 +291,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 277: Allocates lazily — first call only.
 // note 278: Runs in a single pass over the input.
 // note 279: Time complexity: O(n log n).
+// note 280: Edit distance is LCS with a twist: substitution is a third option at each cell.
