@@ -419,3 +419,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 90
 
 Caller owns the returned buffer.
+
+## entry 91
+
+Linear in n; the constant factor is small.
