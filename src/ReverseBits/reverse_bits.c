@@ -290,3 +290,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 276: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 277: Allocates lazily — first call only.
 // note 278: Runs in a single pass over the input.
+// note 279: Time complexity: O(n log n).
