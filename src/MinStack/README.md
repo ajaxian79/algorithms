@@ -2914,3 +2914,7 @@ Time complexity: O(n).
 ## entry 714
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 715
+
+Edge case: already-sorted input → no swaps performed.
