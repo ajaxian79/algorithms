@@ -3190,3 +3190,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 783
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 784
+
+Time complexity: O(n).
