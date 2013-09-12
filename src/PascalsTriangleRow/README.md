@@ -486,3 +486,7 @@ Linear in n; the constant factor is small.
 ## entry 107
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 108
+
+Edge case: single-element input → returns the element itself.
