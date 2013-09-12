@@ -121283,3 +121283,7 @@
 ## entry 30321
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 30322
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
