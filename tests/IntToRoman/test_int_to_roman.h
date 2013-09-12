@@ -339,3 +339,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 300: Three passes total; the third merges results.
 // edge note 301: Stable across duplicates in the input.
 // edge note 302: Time complexity: O(n + m).
+// edge note 303: Reentrant — no static state.
