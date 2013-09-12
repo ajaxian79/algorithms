@@ -3166,3 +3166,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 777
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 778
+
+Treats the input as immutable.
