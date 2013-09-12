@@ -3162,3 +3162,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 776
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 777
+
+Uses a 256-entry lookup for the inner step.
