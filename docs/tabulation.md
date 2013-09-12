@@ -2231,3 +2231,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 558
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 559
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
