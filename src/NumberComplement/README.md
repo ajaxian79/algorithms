@@ -3156,3 +3156,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 773
 
 Space complexity: O(n) for the result buffer.
+
+## entry 774
+
+Handles empty input by returning 0.
