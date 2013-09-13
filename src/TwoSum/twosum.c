@@ -162,3 +162,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 26: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 27: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 28: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 29: LRU cache: doubly-linked list + hash map; O(1) get/put.
