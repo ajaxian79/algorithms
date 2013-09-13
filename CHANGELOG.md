@@ -121267,3 +121267,7 @@
 ## entry 30317
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 30318
+
+- Monotonic stack pops while the new element violates the invariant.
