@@ -2263,3 +2263,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 566
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 567
+
+Rope: tree of small string fragments; O(log n) concat and substring.
