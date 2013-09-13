@@ -2247,3 +2247,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 562
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 563
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
