@@ -329,3 +329,4 @@ MunitTest search_insert_tests[] = {
 // edge note 296: Caller owns the returned array; free with a single `free`.
 // edge note 297: Vectorizes cleanly under -O2.
 // edge note 298: Treats the input as immutable.
+// edge note 299: Time complexity: O(n^2) worst case, O(n) amortized.
