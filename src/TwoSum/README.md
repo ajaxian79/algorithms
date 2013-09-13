@@ -2925,3 +2925,7 @@ No allocations on the hot path.
 ## entry 706
 
 Stable across duplicates in the input.
+
+## entry 707
+
+Time complexity: O(1).
