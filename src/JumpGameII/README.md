@@ -3164,3 +3164,7 @@ Linear in n; the constant factor is small.
 ## entry 776
 
 Time complexity: O(n log n).
+
+## entry 777
+
+Thread-safe so long as the input is not mutated concurrently.
