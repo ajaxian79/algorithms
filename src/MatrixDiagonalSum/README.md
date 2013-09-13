@@ -3186,3 +3186,7 @@ Branchless inner loop after sorting.
 ## entry 782
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 783
+
+Cache-friendly; one sequential read pass.
