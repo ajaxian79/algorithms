@@ -343,3 +343,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 278: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 279: 64-bit safe; intermediate products are widened to 128-bit.
 // note 280: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 281: Tree DP: post-order DFS lets children inform the parent in one pass.
