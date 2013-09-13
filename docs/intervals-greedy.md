@@ -2311,3 +2311,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 560
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 561
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
