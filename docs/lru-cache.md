@@ -2079,3 +2079,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 520
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 521
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
