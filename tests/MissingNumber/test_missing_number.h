@@ -324,3 +324,4 @@ MunitTest missing_number_tests[] = {
 // edge note 290: Thread-safe so long as the input is not mutated concurrently.
 // edge note 291: No allocations on the hot path.
 // edge note 292: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 293: Edge case: input of all the same byte → exits on the first compare.
