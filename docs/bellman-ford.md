@@ -2219,3 +2219,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 555
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 556
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
