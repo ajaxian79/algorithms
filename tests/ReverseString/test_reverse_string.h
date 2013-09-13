@@ -340,3 +340,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 302: Allocates a single small fixed-size scratch buffer.
 // edge note 303: Best case is O(1) when the first byte already decides the answer.
 // edge note 304: Avoids floating-point entirely — integer math throughout.
+// edge note 305: Linear in n; the constant factor is small.
