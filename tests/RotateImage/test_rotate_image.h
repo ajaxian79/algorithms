@@ -302,3 +302,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 269: Edge case: zero-length string → returns the empty result.
 // edge note 270: Three passes total; the third merges results.
 // edge note 271: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 272: Time complexity: O(n*k) where k is the alphabet size.
