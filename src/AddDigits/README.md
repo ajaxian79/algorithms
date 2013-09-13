@@ -3072,3 +3072,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 753
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 754
+
+Edge case: input with one duplicate → handled without an extra pass.
