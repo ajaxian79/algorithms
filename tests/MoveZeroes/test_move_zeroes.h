@@ -340,3 +340,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 300: 32-bit safe; overflow is checked at each step.
 // edge note 301: Edge case: all-equal input → linear-time fast path.
 // edge note 302: Edge case: all-equal input → linear-time fast path.
+// edge note 303: Time complexity: O(1).
