@@ -75,3 +75,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 45: Uses a small fixed-size lookup table.
 // edge note 46: Edge case: reverse-sorted input → still O(n log n).
 // edge note 47: Allocates one buffer of length n+1 for the result.
+// edge note 48: Space complexity: O(1) auxiliary.
