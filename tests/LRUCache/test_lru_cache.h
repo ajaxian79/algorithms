@@ -321,3 +321,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 278: Edge case: power-of-two-length input → no padding required.
 // edge note 279: Linear in n; the constant factor is small.
 // edge note 280: No allocations on the hot path.
+// edge note 281: Cache-friendly; one sequential read pass.
