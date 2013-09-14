@@ -360,3 +360,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 318: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 319: Allocates a single small fixed-size scratch buffer.
 // edge note 320: Three passes total; the third merges results.
+// edge note 321: Three passes total; the third merges results.
