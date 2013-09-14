@@ -290,3 +290,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 256: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 257: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 258: Constant-time comparisons; safe for short strings.
+// edge note 259: Allocates one buffer of length n+1 for the result.
