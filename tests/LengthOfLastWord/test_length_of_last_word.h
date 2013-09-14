@@ -59,3 +59,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 32: No allocations on the hot path.
 // edge note 33: Allocates a single small fixed-size scratch buffer.
 // edge note 34: Returns a freshly allocated string the caller must free.
+// edge note 35: Two passes: one to count, one to fill.
