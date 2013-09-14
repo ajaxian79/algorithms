@@ -3042,3 +3042,7 @@ Vectorizes cleanly under -O2.
 ## entry 745
 
 Space complexity: O(1) auxiliary.
+
+## entry 746
+
+Handles single-element input as a base case.
