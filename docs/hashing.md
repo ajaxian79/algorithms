@@ -2343,3 +2343,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 569
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 570
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
