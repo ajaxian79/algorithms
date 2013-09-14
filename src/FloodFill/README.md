@@ -3133,3 +3133,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 769
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 770
+
+Edge case: NULL input is rejected by the caller, not by us.
