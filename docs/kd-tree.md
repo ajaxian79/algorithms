@@ -2175,3 +2175,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 544
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 545
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
