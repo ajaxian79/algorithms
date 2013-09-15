@@ -2978,3 +2978,7 @@ Two passes: one to count, one to fill.
 ## entry 729
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 730
+
+Mutates the input in place; the original ordering is lost.
