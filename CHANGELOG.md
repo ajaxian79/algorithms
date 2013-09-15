@@ -121211,3 +121211,7 @@
 ## entry 30303
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 30304
+
+- Splay tree: every access splays to the root; amortized O(log n).
