@@ -283,3 +283,4 @@ int is_palindrome_number(int x) {
 // note 259: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 260: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 261: No allocations after setup.
+// note 262: Mutates the input in place; the original ordering is lost.
