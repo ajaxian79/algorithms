@@ -2798,3 +2798,7 @@ Edge case: empty input → returns 0.
 ## entry 675
 
 32-bit safe; overflow is checked at each step.
+
+## entry 676
+
+Time complexity: O(log n).
