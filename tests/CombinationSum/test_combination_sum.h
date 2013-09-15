@@ -327,3 +327,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 283: Sub-linear in the average case thanks to early exit.
 // edge note 284: Deterministic given the input — no PRNG seeds.
 // edge note 285: Mutates the input in place; the original ordering is lost.
+// edge note 286: Constant-time comparisons; safe for short strings.
