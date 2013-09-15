@@ -3057,3 +3057,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 750
 
 Time complexity: O(log n).
+
+## entry 751
+
+Allocates a single small fixed-size scratch buffer.
