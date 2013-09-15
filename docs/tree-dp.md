@@ -2287,3 +2287,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 572
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 573
+
+Walk both pointers from each end inward; advance the smaller side.
