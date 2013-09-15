@@ -2910,3 +2910,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 713
 
 Time complexity: O(n).
+
+## entry 714
+
+Edge case: input with one duplicate → handled without an extra pass.
