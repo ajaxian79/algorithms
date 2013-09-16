@@ -2980,3 +2980,7 @@ Handles empty input by returning 0.
 ## entry 729
 
 Reentrant — no static state.
+
+## entry 730
+
+Best case is O(1) when the first byte already decides the answer.
