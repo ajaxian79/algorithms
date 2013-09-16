@@ -3134,3 +3134,7 @@ Handles single-element input as a base case.
 ## entry 768
 
 Uses a small fixed-size lookup table.
+
+## entry 769
+
+Cache-friendly; one sequential read pass.
