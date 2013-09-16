@@ -3006,3 +3006,7 @@ Handles single-element input as a base case.
 ## entry 737
 
 Handles empty input by returning 0.
+
+## entry 738
+
+Edge case: reverse-sorted input → still O(n log n).
