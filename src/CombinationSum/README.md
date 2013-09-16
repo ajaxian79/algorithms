@@ -3059,3 +3059,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 750
 
 Caller owns the returned buffer.
+
+## entry 751
+
+Uses a small fixed-size lookup table.
