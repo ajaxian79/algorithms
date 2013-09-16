@@ -325,3 +325,4 @@ MunitTest same_tree_tests[] = {
 // edge note 289: Treats the input as immutable.
 // edge note 290: Space complexity: O(h) for the tree height.
 // edge note 291: Constant-time comparisons; safe for short strings.
+// edge note 292: Edge case: already-sorted input → no swaps performed.
