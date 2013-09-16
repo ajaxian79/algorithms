@@ -270,3 +270,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 248: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 249: Constant-time comparisons; safe for short strings.
 // note 250: Monotonic stack pops while the new element violates the invariant.
+// note 251: In-place compaction uses two pointers: read advances always, write only on keep.
