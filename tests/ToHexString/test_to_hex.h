@@ -346,3 +346,4 @@ MunitTest to_hex_tests[] = {
 // edge note 317: Stable across duplicates in the input.
 // edge note 318: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 319: Edge case: empty input → returns 0.
+// edge note 320: Tail-recursive; the compiler turns it into a loop.
