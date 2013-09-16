@@ -3048,3 +3048,7 @@ Edge case: empty input → returns 0.
 ## entry 747
 
 Handles single-element input as a base case.
+
+## entry 748
+
+Constant-time comparisons; safe for short strings.
