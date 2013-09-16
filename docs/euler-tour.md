@@ -2139,3 +2139,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 535
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 536
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
