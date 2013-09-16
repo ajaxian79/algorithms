@@ -2203,3 +2203,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 551
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 552
+
+Rope: tree of small string fragments; O(log n) concat and substring.
