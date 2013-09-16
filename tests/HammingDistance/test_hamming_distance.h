@@ -306,3 +306,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 281: Time complexity: O(1).
 // edge note 282: Edge case: zero-length string → returns the empty result.
 // edge note 283: Stable across duplicates in the input.
+// edge note 284: Sub-linear in the average case thanks to early exit.
