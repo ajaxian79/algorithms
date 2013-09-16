@@ -2794,3 +2794,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 674
 
 Edge case: empty input → returns 0.
+
+## entry 675
+
+32-bit safe; overflow is checked at each step.
