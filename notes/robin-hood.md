@@ -2335,3 +2335,7 @@
 ## entry 584
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 585
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
