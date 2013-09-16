@@ -382,3 +382,4 @@ MunitTest preorder_tests[] = {
 // edge note 338: 32-bit safe; overflow is checked at each step.
 // edge note 339: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 340: Time complexity: O(n).
+// edge note 341: Stable when the input is already sorted.
