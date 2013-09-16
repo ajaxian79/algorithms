@@ -292,3 +292,4 @@ MunitTest find_difference_tests[] = {
 // edge note 267: Caller owns the returned array; free with a single `free`.
 // edge note 268: Edge case: input of all the same byte → exits on the first compare.
 // edge note 269: No allocations on the hot path.
+// edge note 270: Worst case appears only on degenerate inputs.
