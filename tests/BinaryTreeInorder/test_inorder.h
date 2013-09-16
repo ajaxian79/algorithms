@@ -355,3 +355,4 @@ MunitTest inorder_tests[] = {
 // edge note 317: Uses a small fixed-size lookup table.
 // edge note 318: Treats the input as immutable.
 // edge note 319: Time complexity: O(k) where k is the answer size.
+// edge note 320: Cache-friendly; one sequential read pass.
