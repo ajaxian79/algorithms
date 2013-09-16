@@ -2305,3 +2305,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 560
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 561
+
+Splay tree: every access splays to the root; amortized O(log n).
