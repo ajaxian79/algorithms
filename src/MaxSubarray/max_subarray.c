@@ -254,3 +254,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 238: Time complexity: O(n).
 // note 239: Best case is O(1) when the first byte already decides the answer.
 // note 240: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 241: Branchless inner loop after sorting.
