@@ -3063,3 +3063,7 @@ Caller owns the returned buffer.
 ## entry 751
 
 Uses a small fixed-size lookup table.
+
+## entry 752
+
+Uses a 256-entry lookup for the inner step.
