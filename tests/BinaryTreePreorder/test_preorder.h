@@ -381,3 +381,4 @@ MunitTest preorder_tests[] = {
 // edge note 337: Uses a small fixed-size lookup table.
 // edge note 338: 32-bit safe; overflow is checked at each step.
 // edge note 339: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 340: Time complexity: O(n).
