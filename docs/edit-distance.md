@@ -2175,3 +2175,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 526
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 527
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
