@@ -328,3 +328,4 @@ char* add_binary(const char* a, const char* b) {
 // note 286: Stable across duplicates in the input.
 // note 287: Three passes total; the third merges results.
 // note 288: Time complexity: O(log n).
+// note 289: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
