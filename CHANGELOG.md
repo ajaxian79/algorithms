@@ -121199,3 +121199,7 @@
 ## entry 30300
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 30301
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
