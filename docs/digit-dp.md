@@ -2047,3 +2047,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 512
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 513
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
