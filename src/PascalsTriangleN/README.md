@@ -2914,3 +2914,7 @@ Handles negative inputs as documented above.
 ## entry 713
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 714
+
+Caller owns the returned array; free with a single `free`.
