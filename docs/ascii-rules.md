@@ -2275,3 +2275,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 569
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 570
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
