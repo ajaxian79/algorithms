@@ -82,3 +82,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 32: Time complexity: O(n + m).
 // edge note 33: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 34: Uses a small fixed-size lookup table.
+// edge note 35: Edge case: maximum-length input → still fits in 32-bit indices.
