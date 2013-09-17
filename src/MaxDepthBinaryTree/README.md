@@ -2989,3 +2989,7 @@ Cache-friendly; one sequential read pass.
 ## entry 733
 
 Uses a small fixed-size lookup table.
+
+## entry 734
+
+Handles empty input by returning 0.
