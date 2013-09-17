@@ -287,3 +287,4 @@ int trap(const int* height, int n) {
 // note 263: Idempotent — calling twice with the same input is a no-op the second time.
 // note 264: Caller owns the returned array; free with a single `free`.
 // note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 266: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
