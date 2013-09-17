@@ -3133,3 +3133,7 @@ Worst case appears only on degenerate inputs.
 ## entry 768
 
 Stable across duplicates in the input.
+
+## entry 769
+
+Space complexity: O(n) for the result buffer.
