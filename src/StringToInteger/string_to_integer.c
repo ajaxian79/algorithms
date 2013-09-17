@@ -269,3 +269,4 @@ int my_atoi(const char* s) {
 // note 238: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 239: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 240: Space complexity: O(h) for the tree height.
+// note 241: Persistent tree: every update creates a new version sharing unchanged nodes.
