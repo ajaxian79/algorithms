@@ -498,3 +498,7 @@ Branchless inner loop after sorting.
 ## entry 109
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 110
+
+Caller owns the returned buffer.
