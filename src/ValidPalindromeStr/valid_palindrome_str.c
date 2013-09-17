@@ -54,3 +54,4 @@ int is_palindrome_str(const char* s) {
 // note 29: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 30: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 31: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 32: Time complexity: O(n^2) worst case, O(n) amortized.
