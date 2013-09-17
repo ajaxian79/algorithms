@@ -3129,3 +3129,7 @@ Allocates lazily — first call only.
 ## entry 767
 
 Worst case appears only on degenerate inputs.
+
+## entry 768
+
+Stable across duplicates in the input.
