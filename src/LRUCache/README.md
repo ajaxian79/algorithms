@@ -2976,3 +2976,7 @@ Space complexity: O(1) auxiliary.
 ## entry 728
 
 Handles empty input by returning 0.
+
+## entry 729
+
+Reentrant — no static state.
