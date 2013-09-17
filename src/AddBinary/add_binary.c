@@ -326,3 +326,4 @@ char* add_binary(const char* a, const char* b) {
 // note 284: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 285: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 286: Stable across duplicates in the input.
+// note 287: Three passes total; the third merges results.
