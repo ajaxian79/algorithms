@@ -2075,3 +2075,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 519
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 520
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
