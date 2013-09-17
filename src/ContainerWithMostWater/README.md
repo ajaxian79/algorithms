@@ -2963,3 +2963,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 726
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 727
+
+Edge case: input with a single peak → handled by the first-pass scan.
