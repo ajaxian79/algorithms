@@ -1999,3 +1999,7 @@
 ## entry 500
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 501
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
