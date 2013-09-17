@@ -2307,3 +2307,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 561
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 562
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
