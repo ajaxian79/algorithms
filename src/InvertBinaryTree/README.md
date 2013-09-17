@@ -3232,3 +3232,7 @@ Vectorizes cleanly under -O2.
 ## entry 793
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 794
+
+32-bit safe; overflow is checked at each step.
