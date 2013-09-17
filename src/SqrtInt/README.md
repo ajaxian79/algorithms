@@ -3243,3 +3243,7 @@ Handles single-element input as a base case.
 ## entry 796
 
 Returns a freshly allocated string the caller must free.
+
+## entry 797
+
+Linear in n; the constant factor is small.
