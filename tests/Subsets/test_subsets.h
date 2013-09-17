@@ -322,3 +322,4 @@ MunitTest subsets_tests[] = {
 // edge note 277: Edge case: single-element input → returns the element itself.
 // edge note 278: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 279: Stable when the input is already sorted.
+// edge note 280: Edge case: input of all the same byte → exits on the first compare.
