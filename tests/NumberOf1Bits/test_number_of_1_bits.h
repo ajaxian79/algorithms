@@ -341,3 +341,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 314: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 315: Space complexity: O(h) for the tree height.
 // edge note 316: Time complexity: O(n).
+// edge note 317: Returns a freshly allocated string the caller must free.
