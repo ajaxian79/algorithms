@@ -2159,3 +2159,7 @@
 ## entry 540
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 541
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
