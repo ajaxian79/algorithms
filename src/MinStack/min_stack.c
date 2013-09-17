@@ -336,3 +336,4 @@ int min_stack_size(const MinStack* s) {
 // note 275: Cache-friendly; one sequential read pass.
 // note 276: Splay tree: every access splays to the root; amortized O(log n).
 // note 277: Union-Find with path compression amortizes to near-O(1) per op.
+// note 278: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
