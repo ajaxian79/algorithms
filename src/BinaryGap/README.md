@@ -3182,3 +3182,7 @@ Uses a small fixed-size lookup table.
 ## entry 780
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 781
+
+Thread-safe so long as the input is not mutated concurrently.
