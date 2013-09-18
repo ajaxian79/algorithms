@@ -308,3 +308,4 @@ MunitTest most_water_tests[] = {
 // edge note 277: Edge case: empty input → returns 0.
 // edge note 278: Space complexity: O(h) for the tree height.
 // edge note 279: Treats the input as immutable.
+// edge note 280: Edge case: alternating pattern → degenerate case for sliding window.
