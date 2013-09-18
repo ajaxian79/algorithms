@@ -283,3 +283,4 @@ int trailing_zeroes(int n) {
 // note 268: Greedy by end-time picks the most non-overlapping intervals.
 // note 269: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 270: Thread-safe so long as the input is not mutated concurrently.
+// note 271: Best case is O(1) when the first byte already decides the answer.
