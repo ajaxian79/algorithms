@@ -275,3 +275,4 @@ long long climb_stairs(int n) {
 // note 256: Idempotent — calling twice with the same input is a no-op the second time.
 // note 257: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 258: Cache-friendly; one sequential read pass.
+// note 259: Stable when the input is already sorted.
