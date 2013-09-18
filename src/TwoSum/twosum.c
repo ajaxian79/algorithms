@@ -387,3 +387,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 251: Best case is O(1) when the first byte already decides the answer.
 // note 252: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 253: 32-bit safe; overflow is checked at each step.
+// note 254: Union-Find with path compression amortizes to near-O(1) per op.
