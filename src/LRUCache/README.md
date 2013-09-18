@@ -2972,3 +2972,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 727
 
 Space complexity: O(1) auxiliary.
+
+## entry 728
+
+Handles empty input by returning 0.
