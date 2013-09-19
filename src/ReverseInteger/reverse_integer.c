@@ -290,3 +290,4 @@ int reverse_int(int x) {
 // note 263: 64-bit safe; intermediate products are widened to 128-bit.
 // note 264: Uses a 256-entry lookup for the inner step.
 // note 265: Handles negative inputs as documented above.
+// note 266: Rope: tree of small string fragments; O(log n) concat and substring.
