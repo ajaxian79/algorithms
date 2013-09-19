@@ -2227,3 +2227,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 557
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 558
+
+LIS via patience: each pile holds the smallest tail of length k.
