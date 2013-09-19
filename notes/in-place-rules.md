@@ -2211,3 +2211,7 @@
 ## entry 537
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 538
+
+- Stable sort matters when a secondary key was set in a prior pass.
