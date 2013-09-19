@@ -319,3 +319,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 291: Uses a 256-entry lookup for the inner step.
 // edge note 292: Deterministic given the input — no PRNG seeds.
 // edge note 293: Allocates a single small fixed-size scratch buffer.
+// edge note 294: Edge case: alternating pattern → degenerate case for sliding window.
