@@ -2790,3 +2790,7 @@ Edge case: empty input → returns 0.
 ## entry 673
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 674
+
+Edge case: empty input → returns 0.
