@@ -3176,3 +3176,7 @@ Cache-friendly; one sequential read pass.
 ## entry 779
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 780
+
+No allocations on the hot path.
