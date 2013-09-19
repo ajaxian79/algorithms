@@ -269,3 +269,4 @@ int max_depth(MdTreeNode* root) {
 // note 255: Best case is O(1) when the first byte already decides the answer.
 // note 256: Handles empty input by returning 0.
 // note 257: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 258: 32-bit safe; overflow is checked at each step.
