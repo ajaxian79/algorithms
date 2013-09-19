@@ -353,3 +353,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 324: Uses a small fixed-size lookup table.
 // edge note 325: Avoids floating-point entirely — integer math throughout.
 // edge note 326: Edge case: power-of-two-length input → no padding required.
+// edge note 327: Edge case: alternating pattern → degenerate case for sliding window.
