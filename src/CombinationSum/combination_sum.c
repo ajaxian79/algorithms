@@ -342,3 +342,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 277: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 278: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 279: 64-bit safe; intermediate products are widened to 128-bit.
+// note 280: ASCII rules are a strict subset of UTF-8; no special handling needed.
