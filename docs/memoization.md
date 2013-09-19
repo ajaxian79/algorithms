@@ -2159,3 +2159,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 540
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 541
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
