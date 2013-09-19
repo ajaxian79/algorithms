@@ -3038,3 +3038,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 744
 
 Vectorizes cleanly under -O2.
+
+## entry 745
+
+Space complexity: O(1) auxiliary.
