@@ -2067,3 +2067,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 517
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 518
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
