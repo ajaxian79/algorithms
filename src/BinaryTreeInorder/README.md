@@ -3130,3 +3130,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 768
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 769
+
+Worst case appears only on degenerate inputs.
