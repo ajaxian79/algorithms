@@ -512,3 +512,7 @@ Reentrant — no static state.
 ## entry 113
 
 Space complexity: O(n) for the result buffer.
+
+## entry 114
+
+Linear in n; the constant factor is small.
