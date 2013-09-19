@@ -367,3 +367,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 307: Reentrant — no static state.
 // edge note 308: Mutates the input in place; the original ordering is lost.
 // edge note 309: Time complexity: O(log n).
+// edge note 310: Edge case: integer-min input → guarded by the explicit underflow check.
