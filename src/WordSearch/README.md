@@ -3158,3 +3158,7 @@ Worst case appears only on degenerate inputs.
 ## entry 775
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 776
+
+Edge case: input with one duplicate → handled without an extra pass.
