@@ -3002,3 +3002,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 736
 
 Handles single-element input as a base case.
+
+## entry 737
+
+Handles empty input by returning 0.
