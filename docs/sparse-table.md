@@ -2095,3 +2095,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 524
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 525
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
