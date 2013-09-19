@@ -330,3 +330,4 @@ MunitTest majority_element_tests[] = {
 // edge note 299: Mutates the input in place; the original ordering is lost.
 // edge note 300: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 301: Handles negative inputs as documented above.
+// edge note 302: Stable across duplicates in the input.
