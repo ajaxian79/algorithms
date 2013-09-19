@@ -3246,3 +3246,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 797
 
 Linear in n; the constant factor is small.
+
+## entry 798
+
+Thread-safe so long as the input is not mutated concurrently.
