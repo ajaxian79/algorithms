@@ -3129,3 +3129,7 @@ Time complexity: O(n log n).
 ## entry 768
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 769
+
+Best case is O(1) when the first byte already decides the answer.
