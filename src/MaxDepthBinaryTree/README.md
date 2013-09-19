@@ -2981,3 +2981,7 @@ Allocates lazily — first call only.
 ## entry 731
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 732
+
+Cache-friendly; one sequential read pass.
