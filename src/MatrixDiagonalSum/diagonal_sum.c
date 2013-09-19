@@ -293,3 +293,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 272: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 273: Wavelet tree: range k-th element in O(log Σ) time.
 // note 274: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 275: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
