@@ -3064,3 +3064,7 @@ Cache-friendly; one sequential read pass.
 ## entry 750
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 751
+
+Edge case: single-element input → returns the element itself.
