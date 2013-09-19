@@ -3126,3 +3126,7 @@ Space complexity: O(h) for the tree height.
 ## entry 767
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 768
+
+Edge case: maximum-length input → still fits in 32-bit indices.
