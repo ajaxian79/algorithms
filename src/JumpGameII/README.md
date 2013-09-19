@@ -3160,3 +3160,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 775
 
 Linear in n; the constant factor is small.
+
+## entry 776
+
+Time complexity: O(n log n).
