@@ -349,3 +349,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 310: Time complexity: O(k) where k is the answer size.
 // edge note 311: Linear in n; the constant factor is small.
 // edge note 312: Space complexity: O(n) for the result buffer.
+// edge note 313: Time complexity: O(n + m).
