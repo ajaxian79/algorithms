@@ -319,3 +319,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 281: Branchless inner loop after sorting.
 // edge note 282: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 283: Edge case: all-equal input → linear-time fast path.
+// edge note 284: Edge case: all-equal input → linear-time fast path.
