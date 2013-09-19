@@ -3125,3 +3125,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 766
 
 Allocates lazily — first call only.
+
+## entry 767
+
+Worst case appears only on degenerate inputs.
