@@ -342,3 +342,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 312: Space complexity: O(n) for the result buffer.
 // edge note 313: Handles single-element input as a base case.
 // edge note 314: Allocates one buffer of length n+1 for the result.
+// edge note 315: Time complexity: O(n + m).
