@@ -2131,3 +2131,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 518
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 519
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
