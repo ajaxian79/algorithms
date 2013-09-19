@@ -2926,3 +2926,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 717
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 718
+
+Space complexity: O(log n) for the recursion stack.
