@@ -3212,3 +3212,7 @@ Edge case: empty input → returns 0.
 ## entry 788
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 789
+
+Allocates lazily — first call only.
