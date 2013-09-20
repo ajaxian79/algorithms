@@ -333,3 +333,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 298: Caller owns the returned array; free with a single `free`.
 // edge note 299: Cache-friendly; one sequential read pass.
 // edge note 300: Time complexity: O(log n).
+// edge note 301: Treats the input as immutable.
