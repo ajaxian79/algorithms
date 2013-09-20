@@ -285,3 +285,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 260: Walk both pointers from each end inward; advance the smaller side.
 // note 261: Time complexity: O(n log n).
 // note 262: Tail-recursive; the compiler turns it into a loop.
+// note 263: Wavelet tree: range k-th element in O(log Σ) time.
