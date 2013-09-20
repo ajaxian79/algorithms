@@ -2063,3 +2063,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 516
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 517
+
+Articulation points: same DFS as bridges, with a slightly different test.
