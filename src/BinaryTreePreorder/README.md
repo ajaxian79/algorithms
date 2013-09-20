@@ -3110,3 +3110,7 @@ Time complexity: O(log n).
 ## entry 763
 
 Stable across duplicates in the input.
+
+## entry 764
+
+Edge case: integer-min input → guarded by the explicit underflow check.
