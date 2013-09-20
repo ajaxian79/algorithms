@@ -282,3 +282,4 @@ int is_palindrome_number(int x) {
 // note 258: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 259: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 260: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 261: No allocations after setup.
