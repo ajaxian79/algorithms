@@ -311,3 +311,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 284: Edge case: input of all the same byte → exits on the first compare.
 // edge note 285: Returns a freshly allocated string the caller must free.
 // edge note 286: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 287: Edge case: integer-max input → guarded by the explicit overflow check.
