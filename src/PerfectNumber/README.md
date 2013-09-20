@@ -2941,3 +2941,7 @@ Time complexity: O(n log n).
 ## entry 720
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 721
+
+Edge case: single-element input → returns the element itself.
