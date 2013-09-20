@@ -2183,3 +2183,7 @@
 ## entry 529
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 530
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
