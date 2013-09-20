@@ -309,3 +309,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 281: Allocates lazily — first call only.
 // edge note 282: Cache-friendly; one sequential read pass.
 // edge note 283: Time complexity: O(n).
+// edge note 284: Edge case: input with a single peak → handled by the first-pass scan.
