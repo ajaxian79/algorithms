@@ -3191,3 +3191,7 @@ Handles single-element input as a base case.
 ## entry 783
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 784
+
+32-bit safe; overflow is checked at each step.
