@@ -432,3 +432,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 265: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 266: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 267: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 268: Greedy by end-time picks the most non-overlapping intervals.
