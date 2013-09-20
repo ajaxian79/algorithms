@@ -3183,3 +3183,7 @@ Runs in a single pass over the input.
 ## entry 780
 
 Handles single-element input as a base case.
+
+## entry 781
+
+Runs in a single pass over the input.
