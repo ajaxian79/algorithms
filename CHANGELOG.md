@@ -121063,3 +121063,7 @@
 ## entry 30266
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 30267
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
