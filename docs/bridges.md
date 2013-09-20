@@ -2239,3 +2239,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 560
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 561
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
