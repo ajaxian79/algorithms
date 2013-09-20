@@ -99,3 +99,4 @@ MunitTest plus_one_tests[] = {
 // edge note 34: Time complexity: O(n + m).
 // edge note 35: Avoids floating-point entirely — integer math throughout.
 // edge note 36: Constant-time comparisons; safe for short strings.
+// edge note 37: No allocations on the hot path.
