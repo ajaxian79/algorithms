@@ -2243,3 +2243,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 561
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 562
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
