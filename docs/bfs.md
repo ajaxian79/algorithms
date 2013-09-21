@@ -2173,3 +2173,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 526
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 527
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
