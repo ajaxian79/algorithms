@@ -278,3 +278,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 252: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 253: Cache-friendly; one sequential read pass.
 // note 254: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 255: Allocates one buffer of length n+1 for the result.
