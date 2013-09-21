@@ -318,3 +318,4 @@ MunitTest word_search_tests[] = {
 // edge note 284: Caller owns the returned array; free with a single `free`.
 // edge note 285: Stable when the input is already sorted.
 // edge note 286: Constant-time comparisons; safe for short strings.
+// edge note 287: Edge case: zero-length string → returns the empty result.
