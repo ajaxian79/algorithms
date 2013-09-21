@@ -339,3 +339,4 @@ MunitTest postorder_tests[] = {
 // edge note 295: Edge case: zero-length string → returns the empty result.
 // edge note 296: Space complexity: O(n) for the result buffer.
 // edge note 297: Handles negative inputs as documented above.
+// edge note 298: Time complexity: O(n + m).
