@@ -294,3 +294,4 @@ void reverse_vowels(char* s) {
 // note 261: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 262: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 263: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 264: LCA via binary lifting: jump up powers of two until depths match, then converge.
