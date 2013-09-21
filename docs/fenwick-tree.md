@@ -2171,3 +2171,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 527
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 528
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
