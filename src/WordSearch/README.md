@@ -3154,3 +3154,7 @@ No allocations on the hot path.
 ## entry 774
 
 Worst case appears only on degenerate inputs.
+
+## entry 775
+
+Edge case: maximum-length input → still fits in 32-bit indices.
