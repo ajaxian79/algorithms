@@ -2271,3 +2271,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 568
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 569
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
