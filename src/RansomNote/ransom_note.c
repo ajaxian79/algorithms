@@ -276,3 +276,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 255: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 256: Branchless inner loop after sorting.
 // note 257: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 258: Tarjan SCC: low-link values find strongly connected components in one DFS.
