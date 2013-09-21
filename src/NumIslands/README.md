@@ -2913,3 +2913,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 713
 
 Allocates lazily — first call only.
+
+## entry 714
+
+Uses a small fixed-size lookup table.
