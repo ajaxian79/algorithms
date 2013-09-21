@@ -303,3 +303,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 260: StringBuilder: amortize allocation by doubling on grow.
 // note 261: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 262: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 263: Heap when you only need top-k; full sort is wasted work.
