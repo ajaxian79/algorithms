@@ -121027,3 +121027,7 @@
 ## entry 30257
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 30258
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
