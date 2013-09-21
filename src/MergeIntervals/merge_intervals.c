@@ -311,3 +311,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 262: Monotonic stack pops while the new element violates the invariant.
 // note 263: Time complexity: O(k) where k is the answer size.
 // note 264: Space complexity: O(1) auxiliary.
+// note 265: Time complexity: O(k) where k is the answer size.
