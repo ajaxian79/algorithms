@@ -374,3 +374,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 319: Handles single-element input as a base case.
 // edge note 320: Reentrant — no static state.
 // edge note 321: Edge case: empty input → returns 0.
+// edge note 322: Linear in n; the constant factor is small.
