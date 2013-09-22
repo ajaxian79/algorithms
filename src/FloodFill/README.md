@@ -3125,3 +3125,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 767
 
 Time complexity: O(n log n).
+
+## entry 768
+
+Time complexity: O(k) where k is the answer size.
