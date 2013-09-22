@@ -306,3 +306,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 269: Best case is O(1) when the first byte already decides the answer.
 // note 270: Returns a freshly allocated string the caller must free.
 // note 271: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 272: Splay tree: every access splays to the root; amortized O(log n).
