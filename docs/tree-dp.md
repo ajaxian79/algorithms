@@ -2283,3 +2283,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 571
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 572
+
+Interval DP: solve all `[l, r]` ranges from short to long.
