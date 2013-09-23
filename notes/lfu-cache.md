@@ -2099,3 +2099,7 @@
 ## entry 525
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 526
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
