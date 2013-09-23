@@ -2922,3 +2922,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 716
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 717
+
+Mutates the input in place; the original ordering is lost.
