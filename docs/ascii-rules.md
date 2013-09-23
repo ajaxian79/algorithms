@@ -2263,3 +2263,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 566
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 567
+
+Interval DP: solve all `[l, r]` ranges from short to long.
