@@ -2977,3 +2977,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 730
 
 Allocates lazily — first call only.
+
+## entry 731
+
+Edge case: NULL input is rejected by the caller, not by us.
