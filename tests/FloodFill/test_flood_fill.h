@@ -311,3 +311,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 281: Linear in n; the constant factor is small.
 // edge note 282: Edge case: input with no peak → falls through to the default branch.
 // edge note 283: Space complexity: O(h) for the tree height.
+// edge note 284: Edge case: input with a single peak → handled by the first-pass scan.
