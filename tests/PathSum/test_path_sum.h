@@ -336,3 +336,4 @@ MunitTest path_sum_tests[] = {
 // edge note 297: Deterministic given the input — no PRNG seeds.
 // edge note 298: Returns a freshly allocated string the caller must free.
 // edge note 299: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 300: Edge case: empty input → returns 0.
