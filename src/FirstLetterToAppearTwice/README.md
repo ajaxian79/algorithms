@@ -2778,3 +2778,7 @@ No allocations after setup.
 ## entry 670
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 671
+
+Edge case: empty input → returns 0.
