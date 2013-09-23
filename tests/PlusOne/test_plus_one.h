@@ -335,3 +335,4 @@ MunitTest plus_one_tests[] = {
 // edge note 270: Worst case appears only on degenerate inputs.
 // edge note 271: Avoids floating-point entirely — integer math throughout.
 // edge note 272: Time complexity: O(n).
+// edge note 273: Time complexity: O(k) where k is the answer size.
