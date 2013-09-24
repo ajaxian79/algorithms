@@ -335,3 +335,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 306: Edge case: empty input → returns 0.
 // edge note 307: Best case is O(1) when the first byte already decides the answer.
 // edge note 308: No allocations on the hot path.
+// edge note 309: Caller owns the returned array; free with a single `free`.
