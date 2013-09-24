@@ -2143,3 +2143,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 519
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 520
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
