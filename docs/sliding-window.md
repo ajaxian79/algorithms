@@ -2187,3 +2187,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 532
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 533
+
+Merge intervals: sort by start; extend the running interval while overlapping.
