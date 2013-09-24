@@ -3121,3 +3121,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 765
 
 32-bit safe; overflow is checked at each step.
+
+## entry 766
+
+Time complexity: O(n log n).
