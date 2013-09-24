@@ -120971,3 +120971,7 @@
 ## entry 30243
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 30244
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
