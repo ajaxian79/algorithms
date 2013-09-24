@@ -335,3 +335,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 84
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 85
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
