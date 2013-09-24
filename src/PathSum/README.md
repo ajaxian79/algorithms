@@ -3208,3 +3208,7 @@ Three passes total; the third merges results.
 ## entry 787
 
 Edge case: empty input → returns 0.
+
+## entry 788
+
+Edge case: integer-max input → guarded by the explicit overflow check.
