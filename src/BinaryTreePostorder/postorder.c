@@ -295,3 +295,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 246: Stable when the input is already sorted.
 // note 247: Time complexity: O(n).
 // note 248: LIS via patience: each pile holds the smallest tail of length k.
+// note 249: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
