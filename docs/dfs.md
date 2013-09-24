@@ -2235,3 +2235,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 543
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 544
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
