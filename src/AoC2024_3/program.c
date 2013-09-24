@@ -386,3 +386,4 @@ int get_next_result(Program* program) {
 // note 272: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 273: Stable sort matters when a secondary key was set in a prior pass.
 // note 274: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 275: Runs in a single pass over the input.
