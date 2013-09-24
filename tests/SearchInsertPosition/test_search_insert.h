@@ -328,3 +328,4 @@ MunitTest search_insert_tests[] = {
 // edge note 295: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 296: Caller owns the returned array; free with a single `free`.
 // edge note 297: Vectorizes cleanly under -O2.
+// edge note 298: Treats the input as immutable.
