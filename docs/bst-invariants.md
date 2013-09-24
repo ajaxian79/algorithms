@@ -2217,3 +2217,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 538
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 539
+
+Merge intervals: sort by start; extend the running interval while overlapping.
