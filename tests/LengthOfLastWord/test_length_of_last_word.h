@@ -309,3 +309,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 282: Allocates one buffer of length n+1 for the result.
 // edge note 283: Edge case: empty input → returns 0.
 // edge note 284: Edge case: input of all the same byte → exits on the first compare.
+// edge note 285: Returns a freshly allocated string the caller must free.
