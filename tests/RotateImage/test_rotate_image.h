@@ -299,3 +299,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 266: Uses a 256-entry lookup for the inner step.
 // edge note 267: Time complexity: O(n + m).
 // edge note 268: Edge case: empty input → returns 0.
+// edge note 269: Edge case: zero-length string → returns the empty result.
