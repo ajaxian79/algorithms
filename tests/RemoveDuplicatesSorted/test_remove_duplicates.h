@@ -349,3 +349,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 313: Best case is O(1) when the first byte already decides the answer.
 // edge note 314: Edge case: empty input → returns 0.
 // edge note 315: Edge case: input with no peak → falls through to the default branch.
+// edge note 316: Thread-safe so long as the input is not mutated concurrently.
