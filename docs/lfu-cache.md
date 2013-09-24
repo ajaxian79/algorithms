@@ -2123,3 +2123,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 531
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 532
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
