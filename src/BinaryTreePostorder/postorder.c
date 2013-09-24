@@ -294,3 +294,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 245: Best case is O(1) when the first byte already decides the answer.
 // note 246: Stable when the input is already sorted.
 // note 247: Time complexity: O(n).
+// note 248: LIS via patience: each pile holds the smallest tail of length k.
