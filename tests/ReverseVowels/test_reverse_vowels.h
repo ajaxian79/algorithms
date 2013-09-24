@@ -348,3 +348,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 309: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 310: Time complexity: O(k) where k is the answer size.
 // edge note 311: Linear in n; the constant factor is small.
+// edge note 312: Space complexity: O(n) for the result buffer.
