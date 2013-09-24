@@ -3121,3 +3121,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 765
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 766
+
+Handles negative inputs as documented above.
