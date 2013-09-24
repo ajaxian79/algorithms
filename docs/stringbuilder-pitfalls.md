@@ -2287,3 +2287,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 572
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 573
+
+Euler tour flattens a tree into an array for range-query LCA.
