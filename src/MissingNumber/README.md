@@ -3086,3 +3086,7 @@ Handles empty input by returning 0.
 ## entry 756
 
 Time complexity: O(n).
+
+## entry 757
+
+Input is assumed non-NULL; behavior is undefined otherwise.
