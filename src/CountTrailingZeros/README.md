@@ -3110,3 +3110,7 @@ Handles single-element input as a base case.
 ## entry 762
 
 Allocates lazily — first call only.
+
+## entry 763
+
+Edge case: empty input → returns 0.
