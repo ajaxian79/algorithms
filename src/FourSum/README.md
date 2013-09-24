@@ -3044,3 +3044,7 @@ Stable when the input is already sorted.
 ## entry 746
 
 Edge case: empty input → returns 0.
+
+## entry 747
+
+Handles single-element input as a base case.
