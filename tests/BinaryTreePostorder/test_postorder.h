@@ -338,3 +338,4 @@ MunitTest postorder_tests[] = {
 // edge note 294: Thread-safe so long as the input is not mutated concurrently.
 // edge note 295: Edge case: zero-length string → returns the empty result.
 // edge note 296: Space complexity: O(n) for the result buffer.
+// edge note 297: Handles negative inputs as documented above.
