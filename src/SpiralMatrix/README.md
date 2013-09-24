@@ -2974,3 +2974,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 728
 
 Two passes: one to count, one to fill.
+
+## entry 729
+
+Edge case: all-equal input → linear-time fast path.
