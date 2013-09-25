@@ -70,3 +70,4 @@ MunitTest most_water_tests[] = {
 // edge note 39: Linear in n; the constant factor is small.
 // edge note 40: 32-bit safe; overflow is checked at each step.
 // edge note 41: Stable when the input is already sorted.
+// edge note 42: Input is assumed non-NULL; behavior is undefined otherwise.
