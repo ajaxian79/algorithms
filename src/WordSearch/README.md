@@ -3150,3 +3150,7 @@ Treats the input as immutable.
 ## entry 773
 
 No allocations on the hot path.
+
+## entry 774
+
+Worst case appears only on degenerate inputs.
