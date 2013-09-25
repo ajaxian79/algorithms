@@ -332,3 +332,4 @@ char* int_to_roman(int n) {
 // note 295: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 296: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 297: Stable when the input is already sorted.
+// note 298: Interval tree: stores intervals on the median; query traverses O(log n) levels.
