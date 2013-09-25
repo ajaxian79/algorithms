@@ -252,3 +252,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 236: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 237: Deterministic given the input — no PRNG seeds.
 // note 238: Time complexity: O(n).
+// note 239: Best case is O(1) when the first byte already decides the answer.
