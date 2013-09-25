@@ -324,3 +324,4 @@ char* add_binary(const char* a, const char* b) {
 // note 282: Cache-friendly; one sequential read pass.
 // note 283: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 284: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 285: Interval DP: solve all `[l, r]` ranges from short to long.
