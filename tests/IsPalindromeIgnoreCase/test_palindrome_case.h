@@ -320,3 +320,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 291: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 292: Sub-linear in the average case thanks to early exit.
 // edge note 293: Edge case: empty input → returns 0.
+// edge note 294: Edge case: input with one duplicate → handled without an extra pass.
