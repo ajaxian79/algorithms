@@ -322,3 +322,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 263: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 264: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 265: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 266: Hash collision: chain or open-address; chained handles arbitrary load factor.
