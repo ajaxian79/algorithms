@@ -3172,3 +3172,7 @@ Treats the input as immutable.
 ## entry 778
 
 Cache-friendly; one sequential read pass.
+
+## entry 779
+
+Space complexity: O(log n) for the recursion stack.
