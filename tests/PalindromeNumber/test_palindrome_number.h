@@ -346,3 +346,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 311: Edge case: single-element input → returns the element itself.
 // edge note 312: Edge case: empty input → returns 0.
 // edge note 313: Uses a small fixed-size lookup table.
+// edge note 314: Edge case: integer-min input → guarded by the explicit underflow check.
