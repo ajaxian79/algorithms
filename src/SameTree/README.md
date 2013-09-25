@@ -3016,3 +3016,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 740
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 741
+
+Time complexity: O(k) where k is the answer size.
