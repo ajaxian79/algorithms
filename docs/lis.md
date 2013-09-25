@@ -2347,3 +2347,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 570
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 571
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
