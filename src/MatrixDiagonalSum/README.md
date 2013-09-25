@@ -3178,3 +3178,7 @@ Handles single-element input as a base case.
 ## entry 780
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 781
+
+Branchless inner loop after sorting.
