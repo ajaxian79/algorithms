@@ -2293,3 +2293,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 557
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 558
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
