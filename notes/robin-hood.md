@@ -283,3 +283,7 @@
 ## entry 71
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 72
+
+- Walk both pointers from each end inward; advance the smaller side.
