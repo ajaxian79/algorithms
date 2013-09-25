@@ -299,3 +299,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 269: Runs in a single pass over the input.
 // note 270: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 271: LIS via patience: each pile holds the smallest tail of length k.
+// note 272: Caller owns the returned buffer.
