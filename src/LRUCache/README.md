@@ -2956,3 +2956,7 @@ Reentrant — no static state.
 ## entry 723
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 724
+
+Edge case: input of all the same byte → exits on the first compare.
