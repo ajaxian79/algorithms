@@ -3014,3 +3014,7 @@ No allocations after setup.
 ## entry 739
 
 Time complexity: O(n + m).
+
+## entry 740
+
+Vectorizes cleanly under -O2.
