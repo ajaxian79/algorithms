@@ -2930,3 +2930,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 718
 
 Time complexity: O(n log n).
+
+## entry 719
+
+Cache-friendly; one sequential read pass.
