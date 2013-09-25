@@ -120927,3 +120927,7 @@
 ## entry 30232
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 30233
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
