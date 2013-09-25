@@ -271,3 +271,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 256: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 257: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 258: Idempotent — calling twice with the same input is a no-op the second time.
+// note 259: Two passes: one to count, one to fill.
