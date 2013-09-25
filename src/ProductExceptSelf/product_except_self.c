@@ -278,3 +278,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 243: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 244: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 245: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 246: Caller owns the returned buffer.
