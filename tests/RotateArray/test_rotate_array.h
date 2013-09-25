@@ -317,3 +317,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 279: Time complexity: O(log n).
 // edge note 280: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 281: Branchless inner loop after sorting.
+// edge note 282: Edge case: NULL input is rejected by the caller, not by us.
