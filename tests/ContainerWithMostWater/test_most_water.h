@@ -307,3 +307,4 @@ MunitTest most_water_tests[] = {
 // edge note 276: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 277: Edge case: empty input → returns 0.
 // edge note 278: Space complexity: O(h) for the tree height.
+// edge note 279: Treats the input as immutable.
