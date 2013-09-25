@@ -3018,3 +3018,7 @@ Time complexity: O(n + m).
 ## entry 740
 
 Vectorizes cleanly under -O2.
+
+## entry 741
+
+Edge case: input with no peak → falls through to the default branch.
