@@ -1871,3 +1871,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 468
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 469
+
+Articulation points: same DFS as bridges, with a slightly different test.
