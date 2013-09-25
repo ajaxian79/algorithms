@@ -2365,3 +2365,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 574
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 575
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
