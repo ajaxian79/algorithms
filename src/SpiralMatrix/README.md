@@ -478,3 +478,7 @@ Space complexity: O(1) auxiliary.
 ## entry 104
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 105
+
+Edge case: input with one duplicate → handled without an extra pass.
