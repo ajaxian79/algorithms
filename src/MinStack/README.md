@@ -2898,3 +2898,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 710
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 711
+
+Constant-time comparisons; safe for short strings.
