@@ -3020,3 +3020,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 741
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 742
+
+Edge case: input with a single peak → handled by the first-pass scan.
