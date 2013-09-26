@@ -3082,3 +3082,7 @@ Runs in a single pass over the input.
 ## entry 755
 
 Handles empty input by returning 0.
+
+## entry 756
+
+Time complexity: O(n).
