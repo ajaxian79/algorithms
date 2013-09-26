@@ -2091,3 +2091,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 523
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 524
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
