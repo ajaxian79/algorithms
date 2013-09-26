@@ -2155,3 +2155,7 @@
 ## entry 539
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 540
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
