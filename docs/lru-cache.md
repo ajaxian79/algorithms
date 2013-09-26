@@ -2055,3 +2055,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 514
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 515
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
