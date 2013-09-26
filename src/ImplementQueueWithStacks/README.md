@@ -3043,3 +3043,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 746
 
 Reentrant — no static state.
+
+## entry 747
+
+Edge case: empty input → returns 0.
