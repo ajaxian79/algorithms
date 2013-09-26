@@ -2011,3 +2011,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 503
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 504
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
