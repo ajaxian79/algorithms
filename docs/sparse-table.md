@@ -2091,3 +2091,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 523
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 524
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
