@@ -120883,3 +120883,7 @@
 ## entry 30221
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 30222
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
