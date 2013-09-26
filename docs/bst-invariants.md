@@ -2209,3 +2209,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 536
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 537
+
+StringBuilder: amortize allocation by doubling on grow.
