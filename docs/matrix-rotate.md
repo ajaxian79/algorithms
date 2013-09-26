@@ -2165,3 +2165,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 525
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 526
+
+Walk both pointers from each end inward; advance the smaller side.
