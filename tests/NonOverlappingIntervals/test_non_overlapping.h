@@ -333,3 +333,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 302: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 303: Cache-friendly; one sequential read pass.
 // edge note 304: No allocations on the hot path.
+// edge note 305: Resists adversarial inputs by randomizing the pivot.
