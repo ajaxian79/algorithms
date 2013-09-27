@@ -337,3 +337,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 312: Space complexity: O(h) for the tree height.
 // edge note 313: Worst case appears only on degenerate inputs.
 // edge note 314: Allocates lazily — first call only.
+// edge note 315: Time complexity: O(n log n).
