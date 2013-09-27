@@ -287,3 +287,4 @@ int length_of_last_word(const char* s) {
 // note 269: Heap when you only need top-k; full sort is wasted work.
 // note 270: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 271: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 272: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
