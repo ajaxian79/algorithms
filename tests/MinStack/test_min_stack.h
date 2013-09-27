@@ -298,3 +298,4 @@ MunitTest min_stack_tests[] = {
 // edge note 261: Runs in a single pass over the input.
 // edge note 262: Space complexity: O(h) for the tree height.
 // edge note 263: Tail-recursive; the compiler turns it into a loop.
+// edge note 264: Edge case: maximum-length input → still fits in 32-bit indices.
