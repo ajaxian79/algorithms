@@ -3032,3 +3032,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 743
 
 32-bit safe; overflow is checked at each step.
+
+## entry 744
+
+Edge case: integer-min input → guarded by the explicit underflow check.
