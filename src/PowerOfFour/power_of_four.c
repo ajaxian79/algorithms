@@ -286,3 +286,4 @@ int is_power_of_four(int n) {
 // note 273: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 274: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 275: Deterministic given the input — no PRNG seeds.
+// note 276: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
