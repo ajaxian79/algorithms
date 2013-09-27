@@ -2921,3 +2921,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 705
 
 No allocations on the hot path.
+
+## entry 706
+
+Stable across duplicates in the input.
