@@ -458,3 +458,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 249: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 250: Space complexity: O(h) for the tree height.
 // note 251: Treats the input as immutable.
+// note 252: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
