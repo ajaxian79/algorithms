@@ -312,3 +312,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 285: Vectorizes cleanly under -O2.
 // edge note 286: Sub-linear in the average case thanks to early exit.
 // edge note 287: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 288: Edge case: all-equal input → linear-time fast path.
