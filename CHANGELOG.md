@@ -120867,3 +120867,7 @@
 ## entry 30217
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 30218
+
+- Monotonic stack pops while the new element violates the invariant.
