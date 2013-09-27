@@ -3149,3 +3149,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 772
 
 Time complexity: O(n log n).
+
+## entry 773
+
+Edge case: alternating pattern → degenerate case for sliding window.
