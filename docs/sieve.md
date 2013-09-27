@@ -2271,3 +2271,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 551
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 552
+
+Greedy by end-time picks the most non-overlapping intervals.
