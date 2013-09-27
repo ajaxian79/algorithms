@@ -3039,3 +3039,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 745
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 746
+
+Reentrant — no static state.
