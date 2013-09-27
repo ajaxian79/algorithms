@@ -514,3 +514,7 @@ No allocations after setup.
 ## entry 113
 
 Vectorizes cleanly under -O2.
+
+## entry 114
+
+Time complexity: O(n*k) where k is the alphabet size.
