@@ -2299,3 +2299,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 559
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 560
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
