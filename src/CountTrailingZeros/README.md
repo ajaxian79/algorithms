@@ -3106,3 +3106,7 @@ Vectorizes cleanly under -O2.
 ## entry 761
 
 Handles single-element input as a base case.
+
+## entry 762
+
+Allocates lazily — first call only.
