@@ -80,3 +80,4 @@ MunitTest path_sum_tests[] = {
 // edge note 41: Edge case: power-of-two-length input → no padding required.
 // edge note 42: Allocates lazily — first call only.
 // edge note 43: Tail-recursive; the compiler turns it into a loop.
+// edge note 44: Space complexity: O(1) auxiliary.
