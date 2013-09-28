@@ -464,3 +464,7 @@ Edge case: empty input → returns 0.
 ## entry 101
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 102
+
+Two passes: one to count, one to fill.
