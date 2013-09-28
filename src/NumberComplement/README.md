@@ -3152,3 +3152,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 772
 
 32-bit safe; overflow is checked at each step.
+
+## entry 773
+
+Space complexity: O(n) for the result buffer.
