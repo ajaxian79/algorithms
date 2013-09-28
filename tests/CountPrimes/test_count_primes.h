@@ -335,3 +335,4 @@ MunitTest count_primes_tests[] = {
 // edge note 307: 32-bit safe; overflow is checked at each step.
 // edge note 308: Stable across duplicates in the input.
 // edge note 309: Edge case: zero-length string → returns the empty result.
+// edge note 310: Stable across duplicates in the input.
