@@ -2914,3 +2914,7 @@ Uses a small fixed-size lookup table.
 ## entry 714
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 715
+
+Best case is O(1) when the first byte already decides the answer.
