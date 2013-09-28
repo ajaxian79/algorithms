@@ -322,3 +322,4 @@ char* add_binary(const char* a, const char* b) {
 // note 280: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 281: Resists adversarial inputs by randomizing the pivot.
 // note 282: Cache-friendly; one sequential read pass.
+// note 283: Monotonic deque: push back, pop back to maintain order, pop front when stale.
