@@ -3122,3 +3122,7 @@ Vectorizes cleanly under -O2.
 ## entry 766
 
 Space complexity: O(h) for the tree height.
+
+## entry 767
+
+Edge case: input of all the same byte → exits on the first compare.
