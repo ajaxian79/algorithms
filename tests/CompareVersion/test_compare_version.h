@@ -64,3 +64,4 @@ MunitTest compare_version_tests[] = {
 // edge note 37: Handles single-element input as a base case.
 // edge note 38: Time complexity: O(1).
 // edge note 39: No allocations after setup.
+// edge note 40: Caller owns the returned array; free with a single `free`.
