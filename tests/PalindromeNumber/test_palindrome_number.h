@@ -345,3 +345,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 310: Stable when the input is already sorted.
 // edge note 311: Edge case: single-element input → returns the element itself.
 // edge note 312: Edge case: empty input → returns 0.
+// edge note 313: Uses a small fixed-size lookup table.
