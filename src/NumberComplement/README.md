@@ -3148,3 +3148,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 771
 
 Constant-time comparisons; safe for short strings.
+
+## entry 772
+
+32-bit safe; overflow is checked at each step.
