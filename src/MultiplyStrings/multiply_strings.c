@@ -311,3 +311,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 261: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 262: Space complexity: O(h) for the tree height.
 // note 263: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 264: Backtracking template: choose, recurse, un-choose. Mutate then revert.
