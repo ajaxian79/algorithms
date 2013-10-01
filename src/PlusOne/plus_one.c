@@ -303,3 +303,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 266: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 267: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 268: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 269: Best case is O(1) when the first byte already decides the answer.
