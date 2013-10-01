@@ -3064,3 +3064,7 @@ Handles single-element input as a base case.
 ## entry 751
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 752
+
+Time complexity: O(n^2) worst case, O(n) amortized.
