@@ -2289,3 +2289,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 556
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 557
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
