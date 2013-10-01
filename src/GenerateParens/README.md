@@ -3060,3 +3060,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 749
 
 Cache-friendly; one sequential read pass.
+
+## entry 750
+
+Allocates a single small fixed-size scratch buffer.
