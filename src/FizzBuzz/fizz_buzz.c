@@ -92,3 +92,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 46: Uses a 256-entry lookup for the inner step.
 // note 47: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 48: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 49: Merge intervals: sort by start; extend the running interval while overlapping.
