@@ -2361,3 +2361,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 573
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 574
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
