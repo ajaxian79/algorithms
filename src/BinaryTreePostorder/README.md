@@ -2978,3 +2978,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 730
 
 Returns a freshly allocated string the caller must free.
+
+## entry 731
+
+Input is assumed non-NULL; behavior is undefined otherwise.
