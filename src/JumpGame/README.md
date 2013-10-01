@@ -3221,3 +3221,7 @@ Time complexity: O(log n).
 ## entry 790
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 791
+
+Edge case: zero-length string → returns the empty result.
