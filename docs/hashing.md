@@ -2327,3 +2327,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 565
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 566
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
