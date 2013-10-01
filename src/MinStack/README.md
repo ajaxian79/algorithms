@@ -2894,3 +2894,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 709
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 710
+
+Edge case: all-equal input → linear-time fast path.
