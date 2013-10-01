@@ -2223,3 +2223,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 556
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 557
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
