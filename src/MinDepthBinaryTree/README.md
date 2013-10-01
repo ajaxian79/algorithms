@@ -3014,3 +3014,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 739
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 740
+
+Time complexity: O(n^2) worst case, O(n) amortized.
