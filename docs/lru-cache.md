@@ -2051,3 +2051,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 513
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 514
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
