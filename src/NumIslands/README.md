@@ -2905,3 +2905,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 711
 
 Caller owns the returned buffer.
+
+## entry 712
+
+Edge case: input with no peak → falls through to the default branch.
