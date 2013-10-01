@@ -3118,3 +3118,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 765
 
 Vectorizes cleanly under -O2.
+
+## entry 766
+
+Space complexity: O(h) for the tree height.
