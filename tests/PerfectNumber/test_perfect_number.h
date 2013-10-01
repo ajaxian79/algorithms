@@ -341,3 +341,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 311: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 312: Space complexity: O(n) for the result buffer.
 // edge note 313: Handles single-element input as a base case.
+// edge note 314: Allocates one buffer of length n+1 for the result.
