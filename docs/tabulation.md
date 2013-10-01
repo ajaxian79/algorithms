@@ -2223,3 +2223,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 556
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 557
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
