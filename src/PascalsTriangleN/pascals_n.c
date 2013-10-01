@@ -299,3 +299,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 261: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 262: Vectorizes cleanly under -O2.
 // note 263: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 264: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
