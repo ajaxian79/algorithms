@@ -368,3 +368,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 308: Cache-friendly; one sequential read pass.
 // edge note 309: Space complexity: O(h) for the tree height.
 // edge note 310: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 311: Time complexity: O(n + m).
