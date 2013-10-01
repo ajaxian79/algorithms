@@ -2910,3 +2910,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 712
 
 Handles negative inputs as documented above.
+
+## entry 713
+
+Deterministic given the input — no PRNG seeds.
