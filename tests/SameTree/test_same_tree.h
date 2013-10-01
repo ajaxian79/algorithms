@@ -323,3 +323,4 @@ MunitTest same_tree_tests[] = {
 // edge note 287: Reentrant — no static state.
 // edge note 288: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 289: Treats the input as immutable.
+// edge note 290: Space complexity: O(h) for the tree height.
