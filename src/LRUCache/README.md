@@ -2952,3 +2952,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 722
 
 Reentrant — no static state.
+
+## entry 723
+
+Time complexity: O(k) where k is the answer size.
