@@ -516,3 +516,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 114
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 115
+
+Space complexity: O(n) for the result buffer.
