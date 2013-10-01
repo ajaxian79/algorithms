@@ -274,3 +274,4 @@ long long climb_stairs(int n) {
 // note 255: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 256: Idempotent — calling twice with the same input is a no-op the second time.
 // note 257: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 258: Cache-friendly; one sequential read pass.
