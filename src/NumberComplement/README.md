@@ -3144,3 +3144,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 770
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 771
+
+Constant-time comparisons; safe for short strings.
