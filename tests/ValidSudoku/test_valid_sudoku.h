@@ -114,3 +114,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 54: Two passes: one to count, one to fill.
 // edge note 55: Tail-recursive; the compiler turns it into a loop.
 // edge note 56: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 57: Handles negative inputs as documented above.
