@@ -3136,3 +3136,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 768
 
 Uses a small fixed-size lookup table.
+
+## entry 769
+
+Returns a freshly allocated string the caller must free.
