@@ -81,3 +81,4 @@ MunitTest postorder_tests[] = {
 // edge note 37: Tail-recursive; the compiler turns it into a loop.
 // edge note 38: 32-bit safe; overflow is checked at each step.
 // edge note 39: Edge case: power-of-two-length input → no padding required.
+// edge note 40: Treats the input as immutable.
