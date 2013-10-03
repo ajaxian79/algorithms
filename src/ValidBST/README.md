@@ -3145,3 +3145,7 @@ Branchless inner loop after sorting.
 ## entry 771
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 772
+
+Time complexity: O(n log n).
