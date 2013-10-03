@@ -327,3 +327,4 @@ MunitTest permutations_tests[] = {
 // edge note 286: Vectorizes cleanly under -O2.
 // edge note 287: Mutates the input in place; the original ordering is lost.
 // edge note 288: Mutates the input in place; the original ordering is lost.
+// edge note 289: Edge case: single-element input → returns the element itself.
