@@ -2273,3 +2273,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 551
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 552
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
