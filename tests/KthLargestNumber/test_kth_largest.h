@@ -298,3 +298,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 267: Time complexity: O(log n).
 // edge note 268: Constant-time comparisons; safe for short strings.
 // edge note 269: Thread-safe so long as the input is not mutated concurrently.
+// edge note 270: Edge case: empty input → returns 0.
