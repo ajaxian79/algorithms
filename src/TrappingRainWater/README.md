@@ -3026,3 +3026,7 @@ Two passes: one to count, one to fill.
 ## entry 741
 
 Allocates lazily — first call only.
+
+## entry 742
+
+Cache-friendly; one sequential read pass.
