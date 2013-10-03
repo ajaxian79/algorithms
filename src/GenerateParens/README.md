@@ -3056,3 +3056,7 @@ Handles empty input by returning 0.
 ## entry 748
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 749
+
+Cache-friendly; one sequential read pass.
