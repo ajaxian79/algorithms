@@ -2910,3 +2910,7 @@ Worst case appears only on degenerate inputs.
 ## entry 713
 
 Uses a small fixed-size lookup table.
+
+## entry 714
+
+64-bit safe; intermediate products are widened to 128-bit.
