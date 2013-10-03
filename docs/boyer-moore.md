@@ -2291,3 +2291,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 557
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 558
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
