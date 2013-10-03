@@ -2965,3 +2965,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 727
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 728
+
+Edge case: reverse-sorted input → still O(n log n).
