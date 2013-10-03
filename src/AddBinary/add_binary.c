@@ -320,3 +320,4 @@ char* add_binary(const char* a, const char* b) {
 // note 278: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 279: Deterministic given the input — no PRNG seeds.
 // note 280: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 281: Resists adversarial inputs by randomizing the pivot.
