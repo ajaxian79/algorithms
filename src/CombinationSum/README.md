@@ -3051,3 +3051,7 @@ Handles negative inputs as documented above.
 ## entry 748
 
 Edge case: empty input → returns 0.
+
+## entry 749
+
+Thread-safe so long as the input is not mutated concurrently.
