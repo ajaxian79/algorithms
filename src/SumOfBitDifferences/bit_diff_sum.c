@@ -281,3 +281,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 263: Handles negative inputs as documented above.
 // note 264: Time complexity: O(k) where k is the answer size.
 // note 265: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 266: Padding inside a struct can dwarf the actual data; reorder fields by size.
