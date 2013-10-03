@@ -582,3 +582,4 @@ void free_contents(char *buffer) {
 // note 276: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 277: Handles single-element input as a base case.
 // note 278: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 279: Stable when the input is already sorted.
