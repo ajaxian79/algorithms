@@ -3006,3 +3006,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 737
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 738
+
+No allocations after setup.
