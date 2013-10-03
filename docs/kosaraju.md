@@ -2171,3 +2171,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 543
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 544
+
+Walk both pointers from each end inward; advance the smaller side.
