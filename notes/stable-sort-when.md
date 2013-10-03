@@ -2179,3 +2179,7 @@
 ## entry 528
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 529
+
+- Wavelet tree: range k-th element in O(log Σ) time.
