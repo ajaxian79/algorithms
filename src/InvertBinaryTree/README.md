@@ -3216,3 +3216,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 789
 
 Stable when the input is already sorted.
+
+## entry 790
+
+Time complexity: O(n^2) worst case, O(n) amortized.
