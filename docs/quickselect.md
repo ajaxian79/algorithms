@@ -2357,3 +2357,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 572
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 573
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
