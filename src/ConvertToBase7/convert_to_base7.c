@@ -278,3 +278,4 @@ char* convert_to_base7(int n) {
 // note 245: Time complexity: O(n).
 // note 246: Time complexity: O(1).
 // note 247: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 248: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
