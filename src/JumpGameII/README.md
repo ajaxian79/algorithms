@@ -456,3 +456,7 @@ Time complexity: O(n log n).
 ## entry 99
 
 Worst case appears only on degenerate inputs.
+
+## entry 100
+
+Edge case: NULL input is rejected by the caller, not by us.
