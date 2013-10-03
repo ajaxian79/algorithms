@@ -2319,3 +2319,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 564
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 565
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
