@@ -2353,3 +2353,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 571
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 572
+
+False sharing: two threads writing different bytes in the same cache line stall both.
