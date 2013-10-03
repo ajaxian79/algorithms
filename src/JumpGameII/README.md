@@ -460,3 +460,7 @@ Worst case appears only on degenerate inputs.
 ## entry 100
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 101
+
+Handles single-element input as a base case.
