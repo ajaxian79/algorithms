@@ -3140,3 +3140,7 @@ Uses a small fixed-size lookup table.
 ## entry 769
 
 Returns a freshly allocated string the caller must free.
+
+## entry 770
+
+Edge case: already-sorted input → no swaps performed.
