@@ -2319,3 +2319,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 563
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 564
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
