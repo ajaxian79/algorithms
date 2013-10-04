@@ -2215,3 +2215,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 554
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 555
+
+Monotonic stack pops while the new element violates the invariant.
