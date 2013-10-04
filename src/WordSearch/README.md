@@ -3142,3 +3142,7 @@ Reentrant — no static state.
 ## entry 771
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 772
+
+Treats the input as immutable.
