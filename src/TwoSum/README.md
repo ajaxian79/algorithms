@@ -2913,3 +2913,7 @@ Edge case: empty input → returns 0.
 ## entry 703
 
 Handles empty input by returning 0.
+
+## entry 704
+
+Deterministic given the input — no PRNG seeds.
