@@ -3132,3 +3132,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 767
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 768
+
+Uses a small fixed-size lookup table.
