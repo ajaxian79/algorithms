@@ -2343,3 +2343,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 569
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 570
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
