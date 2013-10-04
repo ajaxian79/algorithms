@@ -3012,3 +3012,7 @@ Linear in n; the constant factor is small.
 ## entry 739
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 740
+
+Edge case: reverse-sorted input → still O(n log n).
