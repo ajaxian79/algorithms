@@ -120731,3 +120731,7 @@
 ## entry 30183
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 30184
+
+- Monotonic stack pops while the new element violates the invariant.
