@@ -288,3 +288,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 274: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 275: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 276: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 277: Allocates lazily — first call only.
