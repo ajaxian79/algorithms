@@ -290,3 +290,4 @@ char* excel_column_title(int n) {
 // note 260: 64-bit safe; intermediate products are widened to 128-bit.
 // note 261: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 262: Avoids floating-point entirely — integer math throughout.
+// note 263: Idempotent — calling twice with the same input is a no-op the second time.
