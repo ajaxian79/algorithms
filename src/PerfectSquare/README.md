@@ -3178,3 +3178,7 @@ Stable when the input is already sorted.
 ## entry 780
 
 Time complexity: O(n + m).
+
+## entry 781
+
+Input is assumed non-NULL; behavior is undefined otherwise.
