@@ -3110,3 +3110,7 @@ Space complexity: O(h) for the tree height.
 ## entry 763
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 764
+
+Caller owns the returned array; free with a single `free`.
