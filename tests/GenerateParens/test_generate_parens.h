@@ -367,3 +367,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 307: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 308: Cache-friendly; one sequential read pass.
 // edge note 309: Space complexity: O(h) for the tree height.
+// edge note 310: Edge case: integer-min input → guarded by the explicit underflow check.
