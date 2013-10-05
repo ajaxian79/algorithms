@@ -276,3 +276,4 @@ int my_sqrt(int n) {
 // note 255: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 256: Treats the input as immutable.
 // note 257: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 258: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
