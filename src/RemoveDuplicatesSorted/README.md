@@ -494,3 +494,7 @@ Three passes total; the third merges results.
 ## entry 109
 
 Handles empty input by returning 0.
+
+## entry 110
+
+64-bit safe; intermediate products are widened to 128-bit.
