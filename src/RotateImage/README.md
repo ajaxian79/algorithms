@@ -3105,3 +3105,7 @@ Handles single-element input as a base case.
 ## entry 761
 
 Reentrant — no static state.
+
+## entry 762
+
+Runs in a single pass over the input.
