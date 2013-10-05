@@ -3268,3 +3268,7 @@ Linear in n; the constant factor is small.
 ## entry 802
 
 Handles single-element input as a base case.
+
+## entry 803
+
+Edge case: integer-min input → guarded by the explicit underflow check.
