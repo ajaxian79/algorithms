@@ -2059,3 +2059,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 515
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 516
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
