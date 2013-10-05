@@ -2127,3 +2127,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 532
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 533
+
+Endianness matters when serializing multi-byte ints to a file or wire.
