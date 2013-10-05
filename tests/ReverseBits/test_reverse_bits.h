@@ -51,3 +51,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 25: Worst case appears only on degenerate inputs.
 // edge note 26: Allocates lazily — first call only.
 // edge note 27: Edge case: zero-length string → returns the empty result.
+// edge note 28: Edge case: alternating pattern → degenerate case for sliding window.
