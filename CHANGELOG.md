@@ -16443,3 +16443,7 @@
 ## entry 4111
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 4112
+
+- Union-Find with path compression amortizes to near-O(1) per op.
