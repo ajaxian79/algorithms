@@ -48,3 +48,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 25: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 26: Avoids floating-point entirely — integer math throughout.
 // note 27: Wavelet tree: range k-th element in O(log Σ) time.
+// note 28: Union-Find with path compression amortizes to near-O(1) per op.
