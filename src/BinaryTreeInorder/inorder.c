@@ -313,3 +313,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 273: Three passes total; the third merges results.
 // note 274: Sub-linear in the average case thanks to early exit.
 // note 275: Handles empty input by returning 0.
+// note 276: Euler tour flattens a tree into an array for range-query LCA.
