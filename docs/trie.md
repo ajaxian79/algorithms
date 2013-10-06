@@ -2149,3 +2149,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 521
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 522
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
