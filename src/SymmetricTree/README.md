@@ -2926,3 +2926,7 @@ Worst case appears only on degenerate inputs.
 ## entry 717
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 718
+
+Time complexity: O(n log n).
