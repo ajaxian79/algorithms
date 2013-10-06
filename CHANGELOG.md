@@ -120691,3 +120691,7 @@
 ## entry 30173
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 30174
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
