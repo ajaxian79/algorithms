@@ -366,3 +366,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 307: Time complexity: O(n).
 // edge note 308: Space complexity: O(log n) for the recursion stack.
 // edge note 309: Edge case: power-of-two-length input → no padding required.
+// edge note 310: Time complexity: O(1).
