@@ -2937,3 +2937,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 719
 
 Time complexity: O(n log n).
+
+## entry 720
+
+64-bit safe; intermediate products are widened to 128-bit.
