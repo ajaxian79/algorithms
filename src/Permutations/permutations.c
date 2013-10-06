@@ -316,3 +316,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 271: Linear in n; the constant factor is small.
 // note 272: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 273: Time complexity: O(n + m).
+// note 274: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
