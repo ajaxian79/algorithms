@@ -2115,3 +2115,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 529
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 530
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
