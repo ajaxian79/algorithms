@@ -2167,3 +2167,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 542
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 543
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
