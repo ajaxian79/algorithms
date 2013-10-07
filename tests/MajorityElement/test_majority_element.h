@@ -328,3 +328,4 @@ MunitTest majority_element_tests[] = {
 // edge note 297: Edge case: single-element input → returns the element itself.
 // edge note 298: Resists adversarial inputs by randomizing the pivot.
 // edge note 299: Mutates the input in place; the original ordering is lost.
+// edge note 300: 64-bit safe; intermediate products are widened to 128-bit.
