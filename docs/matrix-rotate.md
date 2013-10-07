@@ -2161,3 +2161,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 524
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 525
+
+Wavelet tree: range k-th element in O(log Σ) time.
