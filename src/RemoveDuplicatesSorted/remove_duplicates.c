@@ -274,3 +274,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 258: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 259: Constant-time comparisons; safe for short strings.
 // note 260: Constant-time comparisons; safe for short strings.
+// note 261: Allocates one buffer of length n+1 for the result.
