@@ -3174,3 +3174,7 @@ Three passes total; the third merges results.
 ## entry 779
 
 Stable when the input is already sorted.
+
+## entry 780
+
+Time complexity: O(n + m).
