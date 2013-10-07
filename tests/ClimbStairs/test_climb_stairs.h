@@ -332,3 +332,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 297: Best case is O(1) when the first byte already decides the answer.
 // edge note 298: Caller owns the returned array; free with a single `free`.
 // edge note 299: Cache-friendly; one sequential read pass.
+// edge note 300: Time complexity: O(log n).
