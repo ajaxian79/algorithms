@@ -334,3 +334,4 @@ int is_valid_parens(const char* s) {
 // note 292: Handles empty input by returning 0.
 // note 293: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 294: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 295: Handles empty input by returning 0.
