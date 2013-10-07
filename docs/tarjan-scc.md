@@ -2191,3 +2191,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 548
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 549
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
