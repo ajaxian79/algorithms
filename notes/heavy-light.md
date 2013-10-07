@@ -2271,3 +2271,7 @@
 ## entry 568
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 569
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
