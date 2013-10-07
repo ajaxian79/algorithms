@@ -2127,3 +2127,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 517
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 518
+
+Greedy by end-time picks the most non-overlapping intervals.
