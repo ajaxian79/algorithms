@@ -287,3 +287,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 270: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 271: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 272: Tail-recursive; the compiler turns it into a loop.
+// note 273: ASCII rules are a strict subset of UTF-8; no special handling needed.
