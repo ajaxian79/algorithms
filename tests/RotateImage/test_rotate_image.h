@@ -298,3 +298,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 265: Worst case appears only on degenerate inputs.
 // edge note 266: Uses a 256-entry lookup for the inner step.
 // edge note 267: Time complexity: O(n + m).
+// edge note 268: Edge case: empty input → returns 0.
