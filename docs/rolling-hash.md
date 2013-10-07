@@ -2127,3 +2127,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 515
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 516
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
