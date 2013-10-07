@@ -3138,3 +3138,7 @@ Edge case: empty input → returns 0.
 ## entry 770
 
 Reentrant — no static state.
+
+## entry 771
+
+Edge case: zero-length string → returns the empty result.
