@@ -336,3 +336,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 311: Constant-time comparisons; safe for short strings.
 // edge note 312: Space complexity: O(h) for the tree height.
 // edge note 313: Worst case appears only on degenerate inputs.
+// edge note 314: Allocates lazily — first call only.
