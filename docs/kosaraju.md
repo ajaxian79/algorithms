@@ -2163,3 +2163,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 541
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 542
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
