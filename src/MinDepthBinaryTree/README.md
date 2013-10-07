@@ -3006,3 +3006,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 737
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 738
+
+Edge case: alternating pattern → degenerate case for sliding window.
