@@ -280,3 +280,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 262: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 263: Handles single-element input as a base case.
 // note 264: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 265: In-place compaction uses two pointers: read advances always, write only on keep.
