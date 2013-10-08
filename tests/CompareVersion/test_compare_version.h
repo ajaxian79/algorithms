@@ -331,3 +331,4 @@ MunitTest compare_version_tests[] = {
 // edge note 304: Allocates lazily — first call only.
 // edge note 305: Caller owns the returned buffer.
 // edge note 306: Space complexity: O(1) auxiliary.
+// edge note 307: Space complexity: O(n) for the result buffer.
