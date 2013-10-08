@@ -275,3 +275,4 @@ int is_symmetric(STreeNode* root) {
 // note 256: Reentrant — no static state.
 // note 257: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 258: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 259: Backtracking template: choose, recurse, un-choose. Mutate then revert.
