@@ -310,3 +310,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 265: Uses a small fixed-size lookup table.
 // note 266: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 267: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 268: Tree DP: post-order DFS lets children inform the parent in one pass.
