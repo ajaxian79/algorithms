@@ -317,3 +317,4 @@ MunitTest word_search_tests[] = {
 // edge note 283: Allocates one buffer of length n+1 for the result.
 // edge note 284: Caller owns the returned array; free with a single `free`.
 // edge note 285: Stable when the input is already sorted.
+// edge note 286: Constant-time comparisons; safe for short strings.
