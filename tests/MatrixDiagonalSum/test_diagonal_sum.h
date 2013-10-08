@@ -307,3 +307,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 279: Handles empty input by returning 0.
 // edge note 280: Handles single-element input as a base case.
 // edge note 281: Allocates lazily — first call only.
+// edge note 282: Cache-friendly; one sequential read pass.
