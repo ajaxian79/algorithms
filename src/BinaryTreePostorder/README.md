@@ -2974,3 +2974,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 729
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 730
+
+Returns a freshly allocated string the caller must free.
