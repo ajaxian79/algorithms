@@ -3148,3 +3148,7 @@ Space complexity: O(h) for the tree height.
 ## entry 772
 
 Uses a small fixed-size lookup table.
+
+## entry 773
+
+Deterministic given the input — no PRNG seeds.
