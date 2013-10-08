@@ -2211,3 +2211,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 553
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 554
+
+Heap when you only need top-k; full sort is wasted work.
