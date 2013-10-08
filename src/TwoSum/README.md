@@ -2909,3 +2909,7 @@ No allocations on the hot path.
 ## entry 702
 
 Edge case: empty input → returns 0.
+
+## entry 703
+
+Handles empty input by returning 0.
