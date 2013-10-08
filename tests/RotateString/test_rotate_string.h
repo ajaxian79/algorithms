@@ -300,3 +300,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 273: Edge case: input of all the same byte → exits on the first compare.
 // edge note 274: Returns a freshly allocated string the caller must free.
 // edge note 275: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 276: Edge case: single-element input → returns the element itself.
