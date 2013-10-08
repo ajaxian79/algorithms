@@ -54,3 +54,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 36: Walk both pointers from each end inward; advance the smaller side.
 // note 37: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 38: 64-bit safe; intermediate products are widened to 128-bit.
+// note 39: Reentrant — no static state.
