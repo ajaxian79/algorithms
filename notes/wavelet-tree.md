@@ -2099,3 +2099,7 @@
 ## entry 525
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 526
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
