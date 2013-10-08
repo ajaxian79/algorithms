@@ -3101,3 +3101,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 760
 
 Handles single-element input as a base case.
+
+## entry 761
+
+Reentrant — no static state.
