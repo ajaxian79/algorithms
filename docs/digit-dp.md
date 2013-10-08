@@ -2039,3 +2039,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 510
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 511
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
