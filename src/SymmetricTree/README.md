@@ -2922,3 +2922,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 716
 
 Worst case appears only on degenerate inputs.
+
+## entry 717
+
+Edge case: input of all the same byte → exits on the first compare.
