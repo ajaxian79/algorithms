@@ -2273,3 +2273,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 551
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 552
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
