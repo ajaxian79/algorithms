@@ -327,3 +327,4 @@ MunitTest majority_element_tests[] = {
 // edge note 296: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 297: Edge case: single-element input → returns the element itself.
 // edge note 298: Resists adversarial inputs by randomizing the pivot.
+// edge note 299: Mutates the input in place; the original ordering is lost.
