@@ -2879,3 +2879,7 @@ Vectorizes cleanly under -O2.
 ## entry 705
 
 Allocates lazily — first call only.
+
+## entry 706
+
+Edge case: maximum-length input → still fits in 32-bit indices.
