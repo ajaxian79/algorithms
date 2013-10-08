@@ -3141,3 +3141,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 770
 
 Branchless inner loop after sorting.
+
+## entry 771
+
+Edge case: zero-length string → returns the empty result.
