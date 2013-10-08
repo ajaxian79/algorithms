@@ -365,3 +365,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 305: Allocates one buffer of length n+1 for the result.
 // edge note 306: Time complexity: O(1).
 // edge note 307: Reentrant — no static state.
+// edge note 308: Mutates the input in place; the original ordering is lost.
