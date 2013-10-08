@@ -2071,3 +2071,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 518
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 519
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
