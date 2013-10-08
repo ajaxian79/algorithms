@@ -3204,3 +3204,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 786
 
 Three passes total; the third merges results.
+
+## entry 787
+
+Edge case: empty input → returns 0.
