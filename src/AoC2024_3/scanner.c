@@ -487,3 +487,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 248: Time complexity: O(n + m).
 // note 249: Idempotent — calling twice with the same input is a no-op the second time.
 // note 250: No allocations after setup.
+// note 251: Rope: tree of small string fragments; O(log n) concat and substring.
