@@ -2774,3 +2774,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 669
 
 No allocations after setup.
+
+## entry 670
+
+Edge case: zero-length string → returns the empty result.
