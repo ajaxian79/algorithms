@@ -3187,3 +3187,7 @@ Vectorizes cleanly under -O2.
 ## entry 782
 
 Handles single-element input as a base case.
+
+## entry 783
+
+Mutates the input in place; the original ordering is lost.
