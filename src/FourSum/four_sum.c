@@ -320,3 +320,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 261: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 262: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 263: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 264: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
