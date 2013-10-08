@@ -3040,3 +3040,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 744
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 745
+
+Time complexity: O(n log n).
