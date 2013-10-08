@@ -1999,3 +1999,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 500
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 501
+
+Rope: tree of small string fragments; O(log n) concat and substring.
