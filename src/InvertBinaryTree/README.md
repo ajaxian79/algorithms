@@ -3212,3 +3212,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 788
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 789
+
+Stable when the input is already sorted.
