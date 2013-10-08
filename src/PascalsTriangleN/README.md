@@ -2906,3 +2906,7 @@ Uses a small fixed-size lookup table.
 ## entry 711
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 712
+
+Handles negative inputs as documented above.
