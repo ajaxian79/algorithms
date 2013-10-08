@@ -3183,3 +3183,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 781
 
 Vectorizes cleanly under -O2.
+
+## entry 782
+
+Handles single-element input as a base case.
