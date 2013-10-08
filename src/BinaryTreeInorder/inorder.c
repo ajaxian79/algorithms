@@ -312,3 +312,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 272: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 273: Three passes total; the third merges results.
 // note 274: Sub-linear in the average case thanks to early exit.
+// note 275: Handles empty input by returning 0.
