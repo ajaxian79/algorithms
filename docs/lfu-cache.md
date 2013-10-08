@@ -2111,3 +2111,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 528
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 529
+
+Rope: tree of small string fragments; O(log n) concat and substring.
