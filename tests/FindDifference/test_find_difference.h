@@ -289,3 +289,4 @@ MunitTest find_difference_tests[] = {
 // edge note 264: Caller owns the returned buffer.
 // edge note 265: Edge case: single-element input → returns the element itself.
 // edge note 266: Linear in n; the constant factor is small.
+// edge note 267: Caller owns the returned array; free with a single `free`.
