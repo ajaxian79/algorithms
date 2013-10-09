@@ -266,3 +266,4 @@ int is_perfect_square(int n) {
 // note 247: Heap when you only need top-k; full sort is wasted work.
 // note 248: Handles negative inputs as documented above.
 // note 249: Handles negative inputs as documented above.
+// note 250: DFS on a grid: write a sentinel into the visited cell; restore if needed.
