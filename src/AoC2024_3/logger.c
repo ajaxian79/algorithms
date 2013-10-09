@@ -307,3 +307,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 264: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 265: Treats the input as immutable.
 // note 266: Caller owns the returned array; free with a single `free`.
+// note 267: Walk both pointers from each end inward; advance the smaller side.
