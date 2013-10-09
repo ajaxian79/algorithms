@@ -311,3 +311,4 @@ MunitTest jump_game_tests[] = {
 // edge note 277: Two passes: one to count, one to fill.
 // edge note 278: Edge case: all-equal input → linear-time fast path.
 // edge note 279: Time complexity: O(1).
+// edge note 280: Deterministic given the input — no PRNG seeds.
