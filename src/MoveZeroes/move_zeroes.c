@@ -286,3 +286,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 269: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 270: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 271: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 272: Tail-recursive; the compiler turns it into a loop.
