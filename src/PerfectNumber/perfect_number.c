@@ -297,3 +297,4 @@ int is_perfect_number(int n) {
 // note 279: Tail-recursive; the compiler turns it into a loop.
 // note 280: Wavelet tree: range k-th element in O(log Σ) time.
 // note 281: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 282: Vectorizes cleanly under -O2.
