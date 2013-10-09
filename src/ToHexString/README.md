@@ -2875,3 +2875,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 704
 
 Vectorizes cleanly under -O2.
+
+## entry 705
+
+Allocates lazily — first call only.
