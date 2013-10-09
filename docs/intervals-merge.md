@@ -2145,3 +2145,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 519
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 520
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
