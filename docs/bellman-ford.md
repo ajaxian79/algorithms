@@ -2215,3 +2215,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 554
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 555
+
+State compression: bitmask + integer encodes a small subset cheaply.
