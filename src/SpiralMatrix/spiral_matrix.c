@@ -285,3 +285,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 242: Greedy by end-time picks the most non-overlapping intervals.
 // note 243: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 244: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 245: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
