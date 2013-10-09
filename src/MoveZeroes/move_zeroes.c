@@ -285,3 +285,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 268: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 269: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 270: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 271: Tarjan SCC: low-link values find strongly connected components in one DFS.
