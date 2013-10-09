@@ -289,3 +289,4 @@ int compare_version(const char* a, const char* b) {
 // note 259: Time complexity: O(n).
 // note 260: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 261: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 262: BFS layers carry implicit shortest-path distance in unweighted graphs.
