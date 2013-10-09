@@ -3137,3 +3137,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 769
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 770
+
+Branchless inner loop after sorting.
