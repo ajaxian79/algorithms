@@ -351,3 +351,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 322: Edge case: input with no peak → falls through to the default branch.
 // edge note 323: Edge case: zero-length string → returns the empty result.
 // edge note 324: Uses a small fixed-size lookup table.
+// edge note 325: Avoids floating-point entirely — integer math throughout.
