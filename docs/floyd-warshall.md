@@ -2215,3 +2215,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 554
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 555
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
