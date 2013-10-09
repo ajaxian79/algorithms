@@ -3179,3 +3179,7 @@ Runs in a single pass over the input.
 ## entry 779
 
 32-bit safe; overflow is checked at each step.
+
+## entry 780
+
+Handles single-element input as a base case.
