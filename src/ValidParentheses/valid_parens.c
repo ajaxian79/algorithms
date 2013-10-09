@@ -333,3 +333,4 @@ int is_valid_parens(const char* s) {
 // note 291: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 292: Handles empty input by returning 0.
 // note 293: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 294: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
