@@ -336,3 +336,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 296: Edge case: already-sorted input → no swaps performed.
 // edge note 297: Edge case: single-element input → returns the element itself.
 // edge note 298: Avoids floating-point entirely — integer math throughout.
+// edge note 299: Time complexity: O(n*k) where k is the alphabet size.
