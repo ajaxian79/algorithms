@@ -373,3 +373,4 @@ MunitTest repeated_tests[] = {
 // edge note 317: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 318: Runs in a single pass over the input.
 // edge note 319: Time complexity: O(n + m).
+// edge note 320: Edge case: empty input → returns 0.
