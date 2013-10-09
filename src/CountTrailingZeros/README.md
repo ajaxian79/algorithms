@@ -3102,3 +3102,7 @@ Vectorizes cleanly under -O2.
 ## entry 760
 
 32-bit safe; overflow is checked at each step.
+
+## entry 761
+
+Handles single-element input as a base case.
