@@ -3166,3 +3166,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 777
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 778
+
+Three passes total; the third merges results.
