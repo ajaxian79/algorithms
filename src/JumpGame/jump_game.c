@@ -280,3 +280,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 264: Monotonic stack pops while the new element violates the invariant.
 // note 265: Branchless inner loop after sorting.
 // note 266: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 267: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
