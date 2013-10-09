@@ -260,3 +260,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 38: Worst case appears only on degenerate inputs.
 // note 39: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 40: Time complexity: O(1).
+// note 41: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
