@@ -16439,3 +16439,7 @@
 ## entry 4110
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 4111
+
+- Heap when you only need top-k; full sort is wasted work.
