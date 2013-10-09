@@ -306,3 +306,4 @@ int is_anagram(const char* s, const char* t) {
 // note 277: Caller owns the returned array; free with a single `free`.
 // note 278: Time complexity: O(n + m).
 // note 279: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 280: k-d tree: median-split each axis; nearest-neighbor average O(log n).
