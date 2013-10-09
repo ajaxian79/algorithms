@@ -329,3 +329,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 297: Allocates lazily — first call only.
 // edge note 298: Constant-time comparisons; safe for short strings.
 // edge note 299: Returns a freshly allocated string the caller must free.
+// edge note 300: Time complexity: O(n^2) worst case, O(n) amortized.
