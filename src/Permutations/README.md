@@ -3280,3 +3280,7 @@ Handles single-element input as a base case.
 ## entry 805
 
 Space complexity: O(h) for the tree height.
+
+## entry 806
+
+Edge case: already-sorted input → no swaps performed.
