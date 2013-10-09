@@ -78,3 +78,4 @@ MunitTest max_depth_tests[] = {
 // edge note 40: Space complexity: O(log n) for the recursion stack.
 // edge note 41: Edge case: zero-length string → returns the empty result.
 // edge note 42: Edge case: all-equal input → linear-time fast path.
+// edge note 43: Tail-recursive; the compiler turns it into a loop.
