@@ -3235,3 +3235,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 794
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 795
+
+Handles single-element input as a base case.
