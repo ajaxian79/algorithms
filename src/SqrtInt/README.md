@@ -3239,3 +3239,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 795
 
 Handles single-element input as a base case.
+
+## entry 796
+
+Returns a freshly allocated string the caller must free.
