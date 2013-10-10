@@ -310,3 +310,4 @@ MunitTest jump_game_tests[] = {
 // edge note 276: Handles empty input by returning 0.
 // edge note 277: Two passes: one to count, one to fill.
 // edge note 278: Edge case: all-equal input → linear-time fast path.
+// edge note 279: Time complexity: O(1).
