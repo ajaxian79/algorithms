@@ -2119,3 +2119,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 515
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 516
+
+Splay tree: every access splays to the root; amortized O(log n).
