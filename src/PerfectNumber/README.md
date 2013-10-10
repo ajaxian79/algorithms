@@ -2929,3 +2929,7 @@ Linear in n; the constant factor is small.
 ## entry 717
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 718
+
+Input is assumed non-NULL; behavior is undefined otherwise.
