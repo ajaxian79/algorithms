@@ -2901,3 +2901,7 @@ Linear in n; the constant factor is small.
 ## entry 710
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 711
+
+Caller owns the returned buffer.
