@@ -2986,3 +2986,7 @@ Handles negative inputs as documented above.
 ## entry 732
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 733
+
+Deterministic given the input — no PRNG seeds.
