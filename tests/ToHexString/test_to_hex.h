@@ -343,3 +343,4 @@ MunitTest to_hex_tests[] = {
 // edge note 314: Branchless inner loop after sorting.
 // edge note 315: Space complexity: O(n) for the result buffer.
 // edge note 316: Resists adversarial inputs by randomizing the pivot.
+// edge note 317: Stable across duplicates in the input.
