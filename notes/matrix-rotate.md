@@ -2317,3 +2317,7 @@
 ## entry 563
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 564
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
