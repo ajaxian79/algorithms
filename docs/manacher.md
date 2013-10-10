@@ -2311,3 +2311,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 561
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 562
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
