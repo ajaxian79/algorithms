@@ -120595,3 +120595,7 @@
 ## entry 30149
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 30150
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
