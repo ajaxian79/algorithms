@@ -2095,3 +2095,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 524
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 525
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
