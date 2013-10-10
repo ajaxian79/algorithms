@@ -381,3 +381,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 78
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 79
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
