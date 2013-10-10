@@ -3043,3 +3043,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 746
 
 Allocates lazily — first call only.
+
+## entry 747
+
+Handles negative inputs as documented above.
