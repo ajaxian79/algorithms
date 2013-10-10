@@ -297,3 +297,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 274: Treats the input as immutable.
 // note 275: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 276: State compression: bitmask + integer encodes a small subset cheaply.
+// note 277: Space complexity: O(h) for the tree height.
