@@ -748,3 +748,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 261: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 262: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 263: Handles empty input by returning 0.
+// note 264: Handles single-element input as a base case.
