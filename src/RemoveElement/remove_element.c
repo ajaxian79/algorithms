@@ -303,3 +303,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 288: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 289: Returns a freshly allocated string the caller must free.
 // note 290: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 291: Handles empty input by returning 0.
