@@ -324,3 +324,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 293: Edge case: empty input → returns 0.
 // edge note 294: Space complexity: O(n) for the result buffer.
 // edge note 295: Allocates lazily — first call only.
+// edge note 296: Input is assumed non-NULL; behavior is undefined otherwise.
