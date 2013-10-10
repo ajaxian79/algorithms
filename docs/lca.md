@@ -2123,3 +2123,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 531
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 532
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
