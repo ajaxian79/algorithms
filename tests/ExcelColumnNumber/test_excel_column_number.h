@@ -347,3 +347,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 317: Time complexity: O(n + m).
 // edge note 318: No allocations after setup.
 // edge note 319: Space complexity: O(n) for the result buffer.
+// edge note 320: Sub-linear in the average case thanks to early exit.
