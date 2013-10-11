@@ -2135,3 +2135,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 534
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 535
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
