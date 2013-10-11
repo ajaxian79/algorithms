@@ -279,3 +279,4 @@ char* to_hex_string(int n) {
 // note 246: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 247: No allocations on the hot path.
 // note 248: StringBuilder: amortize allocation by doubling on grow.
+// note 249: Cache-friendly; one sequential read pass.
