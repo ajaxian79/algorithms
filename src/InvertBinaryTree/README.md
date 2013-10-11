@@ -3208,3 +3208,7 @@ Allocates lazily — first call only.
 ## entry 787
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 788
+
+Allocates a single small fixed-size scratch buffer.
