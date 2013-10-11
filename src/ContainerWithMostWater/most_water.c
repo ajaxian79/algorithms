@@ -263,3 +263,4 @@ int max_area(const int* heights, int n) {
 // note 243: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 244: Mutates the input in place; the original ordering is lost.
 // note 245: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 246: Returns a freshly allocated string the caller must free.
