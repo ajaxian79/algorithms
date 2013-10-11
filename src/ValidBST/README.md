@@ -3133,3 +3133,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 768
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 769
+
+Allocates a single small fixed-size scratch buffer.
