@@ -326,3 +326,4 @@ MunitTest trap_tests[] = {
 // edge note 292: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 293: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 294: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 295: Edge case: NULL input is rejected by the caller, not by us.
