@@ -120551,3 +120551,7 @@
 ## entry 30138
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 30139
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
