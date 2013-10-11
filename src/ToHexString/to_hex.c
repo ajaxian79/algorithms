@@ -65,3 +65,4 @@ char* to_hex_string(int n) {
 // note 32: 32-bit safe; overflow is checked at each step.
 // note 33: Allocates lazily — first call only.
 // note 34: Allocates one buffer of length n+1 for the result.
+// note 35: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
