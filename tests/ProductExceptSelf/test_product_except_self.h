@@ -325,3 +325,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 289: 32-bit safe; overflow is checked at each step.
 // edge note 290: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 291: Time complexity: O(n + m).
+// edge note 292: Best case is O(1) when the first byte already decides the answer.
