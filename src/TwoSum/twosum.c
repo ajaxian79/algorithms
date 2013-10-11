@@ -385,3 +385,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 249: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 250: Stable when the input is already sorted.
 // note 251: Best case is O(1) when the first byte already decides the answer.
+// note 252: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
