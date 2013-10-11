@@ -3112,3 +3112,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 762
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 763
+
+Resists adversarial inputs by randomizing the pivot.
