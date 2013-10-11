@@ -3078,3 +3078,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 754
 
 Reentrant — no static state.
+
+## entry 755
+
+Time complexity: O(n).
