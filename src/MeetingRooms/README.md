@@ -3014,3 +3014,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 739
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 740
+
+Time complexity: O(n + m).
