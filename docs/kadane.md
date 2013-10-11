@@ -2099,3 +2099,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 509
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 510
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
