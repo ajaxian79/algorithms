@@ -3213,3 +3213,7 @@ Vectorizes cleanly under -O2.
 ## entry 788
 
 Runs in a single pass over the input.
+
+## entry 789
+
+Time complexity: O(log n).
