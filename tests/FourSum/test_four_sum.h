@@ -333,3 +333,4 @@ MunitTest four_sum_tests[] = {
 // edge note 292: No allocations on the hot path.
 // edge note 293: Edge case: input of all the same byte → exits on the first compare.
 // edge note 294: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 295: 64-bit safe; intermediate products are widened to 128-bit.
