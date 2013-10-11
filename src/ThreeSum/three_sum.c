@@ -314,3 +314,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 256: Reentrant — no static state.
 // note 257: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 258: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 259: Three passes total; the third merges results.
