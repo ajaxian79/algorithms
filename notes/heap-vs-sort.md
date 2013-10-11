@@ -2251,3 +2251,7 @@
 ## entry 548
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 549
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
