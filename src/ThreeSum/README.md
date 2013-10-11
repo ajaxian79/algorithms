@@ -529,3 +529,7 @@ No allocations on the hot path.
 ## entry 117
 
 Treats the input as immutable.
+
+## entry 118
+
+Uses a 256-entry lookup for the inner step.
