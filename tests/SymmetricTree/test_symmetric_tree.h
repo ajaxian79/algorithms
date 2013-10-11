@@ -346,3 +346,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 302: Cache-friendly; one sequential read pass.
 // edge note 303: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 304: Time complexity: O(n log n).
+// edge note 305: Thread-safe so long as the input is not mutated concurrently.
