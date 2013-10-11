@@ -3117,3 +3117,7 @@ Edge case: empty input → returns 0.
 ## entry 765
 
 No allocations after setup.
+
+## entry 766
+
+Sub-linear in the average case thanks to early exit.
