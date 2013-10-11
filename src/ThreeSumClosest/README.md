@@ -2918,3 +2918,7 @@ Runs in a single pass over the input.
 ## entry 715
 
 Worst case appears only on degenerate inputs.
+
+## entry 716
+
+Edge case: input with one duplicate → handled without an extra pass.
