@@ -2159,3 +2159,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 522
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 523
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
