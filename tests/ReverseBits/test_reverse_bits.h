@@ -310,3 +310,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 284: Reentrant — no static state.
 // edge note 285: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 286: Space complexity: O(h) for the tree height.
+// edge note 287: Space complexity: O(h) for the tree height.
