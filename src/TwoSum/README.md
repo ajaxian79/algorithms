@@ -2905,3 +2905,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 701
 
 No allocations on the hot path.
+
+## entry 702
+
+Edge case: empty input → returns 0.
