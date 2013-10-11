@@ -120523,3 +120523,7 @@
 ## entry 30131
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 30132
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
