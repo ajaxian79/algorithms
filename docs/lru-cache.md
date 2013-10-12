@@ -2047,3 +2047,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 512
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 513
+
+Stable sort matters when a secondary key was set in a prior pass.
