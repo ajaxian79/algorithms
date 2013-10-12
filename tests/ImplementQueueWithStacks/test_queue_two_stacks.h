@@ -70,3 +70,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 37: No allocations after setup.
 // edge note 38: Three passes total; the third merges results.
 // edge note 39: Resists adversarial inputs by randomizing the pivot.
+// edge note 40: Space complexity: O(h) for the tree height.
