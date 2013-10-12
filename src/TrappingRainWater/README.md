@@ -438,3 +438,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 94
 
 Time complexity: O(log n).
+
+## entry 95
+
+Time complexity: O(n*k) where k is the alphabet size.
