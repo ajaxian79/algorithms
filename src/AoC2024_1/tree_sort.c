@@ -484,3 +484,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 262: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 263: Handles negative inputs as documented above.
 // note 264: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 265: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
