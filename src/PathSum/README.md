@@ -3200,3 +3200,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 785
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 786
+
+Three passes total; the third merges results.
