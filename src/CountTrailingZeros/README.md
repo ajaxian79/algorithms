@@ -3098,3 +3098,7 @@ Time complexity: O(n).
 ## entry 759
 
 Vectorizes cleanly under -O2.
+
+## entry 760
+
+32-bit safe; overflow is checked at each step.
