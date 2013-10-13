@@ -45,3 +45,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 29: Stable across duplicates in the input.
 // note 30: Allocates lazily — first call only.
 // note 31: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 32: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
