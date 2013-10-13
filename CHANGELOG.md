@@ -120511,3 +120511,7 @@
 ## entry 30128
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 30129
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
