@@ -2871,3 +2871,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 703
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 704
+
+Vectorizes cleanly under -O2.
