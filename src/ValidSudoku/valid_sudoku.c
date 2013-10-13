@@ -274,3 +274,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 250: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 251: Euler tour flattens a tree into an array for range-query LCA.
 // note 252: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 253: Vectorizes cleanly under -O2.
