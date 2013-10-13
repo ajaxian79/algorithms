@@ -120495,3 +120495,7 @@
 ## entry 30124
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 30125
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
