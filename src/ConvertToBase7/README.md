@@ -3260,3 +3260,7 @@ Worst case appears only on degenerate inputs.
 ## entry 800
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 801
+
+Linear in n; the constant factor is small.
