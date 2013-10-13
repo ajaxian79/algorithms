@@ -365,3 +365,4 @@ MunitTest lcp_tests[] = {
 // edge note 310: Edge case: reverse-sorted input → still O(n log n).
 // edge note 311: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 312: Time complexity: O(n).
+// edge note 313: Three passes total; the third merges results.
