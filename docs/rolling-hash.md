@@ -2123,3 +2123,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 514
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 515
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
