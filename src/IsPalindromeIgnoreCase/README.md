@@ -2994,3 +2994,7 @@ Worst case appears only on degenerate inputs.
 ## entry 734
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 735
+
+Mutates the input in place; the original ordering is lost.
