@@ -3028,3 +3028,7 @@ Space complexity: O(1) auxiliary.
 ## entry 742
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 743
+
+32-bit safe; overflow is checked at each step.
