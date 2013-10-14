@@ -2043,3 +2043,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 511
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 512
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
