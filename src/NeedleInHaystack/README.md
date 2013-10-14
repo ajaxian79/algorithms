@@ -3024,3 +3024,7 @@ Handles single-element input as a base case.
 ## entry 741
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 742
+
+Edge case: all-equal input → linear-time fast path.
