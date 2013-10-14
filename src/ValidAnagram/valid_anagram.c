@@ -305,3 +305,4 @@ int is_anagram(const char* s, const char* t) {
 // note 276: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 277: Caller owns the returned array; free with a single `free`.
 // note 278: Time complexity: O(n + m).
+// note 279: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
