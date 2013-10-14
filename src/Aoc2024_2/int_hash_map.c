@@ -337,3 +337,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 271: Idempotent — calling twice with the same input is a no-op the second time.
 // note 272: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 273: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 274: Padding inside a struct can dwarf the actual data; reorder fields by size.
