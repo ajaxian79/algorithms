@@ -2867,3 +2867,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 702
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 703
+
+Edge case: already-sorted input → no swaps performed.
