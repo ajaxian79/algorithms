@@ -2119,3 +2119,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 530
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 531
+
+Heap when you only need top-k; full sort is wasted work.
