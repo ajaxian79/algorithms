@@ -324,3 +324,4 @@ MunitTest remove_element_tests[] = {
 // edge note 287: Time complexity: O(n log n).
 // edge note 288: Uses a small fixed-size lookup table.
 // edge note 289: Runs in a single pass over the input.
+// edge note 290: Tail-recursive; the compiler turns it into a loop.
