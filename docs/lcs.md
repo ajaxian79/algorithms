@@ -2199,3 +2199,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 532
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 533
+
+Walk both pointers from each end inward; advance the smaller side.
