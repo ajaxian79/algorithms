@@ -2111,3 +2111,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 528
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 529
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
