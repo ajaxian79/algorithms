@@ -3134,3 +3134,7 @@ Edge case: empty input → returns 0.
 ## entry 769
 
 32-bit safe; overflow is checked at each step.
+
+## entry 770
+
+Reentrant — no static state.
