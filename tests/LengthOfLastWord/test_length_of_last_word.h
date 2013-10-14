@@ -307,3 +307,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 280: Vectorizes cleanly under -O2.
 // edge note 281: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 282: Allocates one buffer of length n+1 for the result.
+// edge note 283: Edge case: empty input → returns 0.
