@@ -2107,3 +2107,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 527
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 528
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
