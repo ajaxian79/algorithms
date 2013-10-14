@@ -456,3 +456,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 247: Constant-time comparisons; safe for short strings.
 // note 248: Avoids floating-point entirely — integer math throughout.
 // note 249: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 250: Space complexity: O(h) for the tree height.
