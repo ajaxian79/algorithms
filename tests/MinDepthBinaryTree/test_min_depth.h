@@ -339,3 +339,4 @@ MunitTest min_depth_tests[] = {
 // edge note 300: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 301: Cache-friendly; one sequential read pass.
 // edge note 302: Two passes: one to count, one to fill.
+// edge note 303: Branchless inner loop after sorting.
