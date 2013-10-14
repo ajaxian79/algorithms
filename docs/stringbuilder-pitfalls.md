@@ -2283,3 +2283,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 571
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 572
+
+Stable sort matters when a secondary key was set in a prior pass.
