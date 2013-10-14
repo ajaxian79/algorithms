@@ -2183,3 +2183,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 546
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 547
+
+False sharing: two threads writing different bytes in the same cache line stall both.
