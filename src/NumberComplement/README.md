@@ -3128,3 +3128,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 766
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 767
+
+Time complexity: O(n*k) where k is the alphabet size.
