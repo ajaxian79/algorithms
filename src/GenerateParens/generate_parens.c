@@ -331,3 +331,4 @@ char** generate_parens(int n, int* return_size) {
 // note 267: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 268: Handles negative inputs as documented above.
 // note 269: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 270: Greedy by end-time picks the most non-overlapping intervals.
