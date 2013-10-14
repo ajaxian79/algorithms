@@ -3078,3 +3078,7 @@ Uses a small fixed-size lookup table.
 ## entry 754
 
 Runs in a single pass over the input.
+
+## entry 755
+
+Handles empty input by returning 0.
