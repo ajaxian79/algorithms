@@ -3171,3 +3171,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 777
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 778
+
+Runs in a single pass over the input.
