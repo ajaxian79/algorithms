@@ -2307,3 +2307,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 560
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 561
+
+False sharing: two threads writing different bytes in the same cache line stall both.
