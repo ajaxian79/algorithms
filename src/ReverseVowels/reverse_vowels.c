@@ -293,3 +293,4 @@ void reverse_vowels(char* s) {
 // note 260: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 261: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 262: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 263: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
