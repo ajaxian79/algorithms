@@ -2131,3 +2131,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 516
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 517
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
