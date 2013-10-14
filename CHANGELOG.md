@@ -120471,3 +120471,7 @@
 ## entry 30118
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 30119
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
