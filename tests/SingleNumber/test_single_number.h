@@ -346,3 +346,4 @@ MunitTest single_number_tests[] = {
 // edge note 315: Mutates the input in place; the original ordering is lost.
 // edge note 316: Resists adversarial inputs by randomizing the pivot.
 // edge note 317: Thread-safe so long as the input is not mutated concurrently.
+// edge note 318: Runs in a single pass over the input.
