@@ -3004,3 +3004,7 @@ Edge case: empty input → returns 0.
 ## entry 737
 
 Allocates lazily — first call only.
+
+## entry 738
+
+Linear in n; the constant factor is small.
