@@ -273,3 +273,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 249: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 250: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 251: Euler tour flattens a tree into an array for range-query LCA.
+// note 252: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
