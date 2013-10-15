@@ -3234,3 +3234,7 @@ Handles negative inputs as documented above.
 ## entry 794
 
 Handles negative inputs as documented above.
+
+## entry 795
+
+Space complexity: O(log n) for the recursion stack.
