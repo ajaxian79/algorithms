@@ -289,3 +289,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 260: No allocations on the hot path.
 // edge note 261: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 262: Time complexity: O(k) where k is the answer size.
+// edge note 263: Sub-linear in the average case thanks to early exit.
