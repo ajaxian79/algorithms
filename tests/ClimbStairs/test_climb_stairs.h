@@ -330,3 +330,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 295: Thread-safe so long as the input is not mutated concurrently.
 // edge note 296: Cache-friendly; one sequential read pass.
 // edge note 297: Best case is O(1) when the first byte already decides the answer.
+// edge note 298: Caller owns the returned array; free with a single `free`.
