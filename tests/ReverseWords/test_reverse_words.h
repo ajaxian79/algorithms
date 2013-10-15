@@ -349,3 +349,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 320: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 321: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 322: Edge case: input with no peak → falls through to the default branch.
+// edge note 323: Edge case: zero-length string → returns the empty result.
