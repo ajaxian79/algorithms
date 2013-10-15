@@ -2143,3 +2143,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 536
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 537
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
