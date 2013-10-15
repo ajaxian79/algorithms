@@ -2099,3 +2099,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 525
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 526
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
