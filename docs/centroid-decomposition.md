@@ -2095,3 +2095,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 524
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 525
+
+Interval DP: solve all `[l, r]` ranges from short to long.
