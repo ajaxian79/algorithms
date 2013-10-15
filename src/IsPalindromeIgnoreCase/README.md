@@ -2990,3 +2990,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 733
 
 Worst case appears only on degenerate inputs.
+
+## entry 734
+
+Caller owns the returned array; free with a single `free`.
