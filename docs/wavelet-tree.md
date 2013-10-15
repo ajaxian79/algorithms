@@ -2115,3 +2115,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 529
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 530
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
