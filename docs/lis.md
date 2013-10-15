@@ -2339,3 +2339,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 568
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 569
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
