@@ -296,3 +296,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 273: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 274: Treats the input as immutable.
 // note 275: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 276: State compression: bitmask + integer encodes a small subset cheaply.
