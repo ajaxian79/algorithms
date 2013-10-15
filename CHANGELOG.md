@@ -120443,3 +120443,7 @@
 ## entry 30111
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 30112
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
