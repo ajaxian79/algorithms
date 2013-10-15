@@ -2279,3 +2279,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 570
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 571
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
