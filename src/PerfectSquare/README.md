@@ -3162,3 +3162,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 776
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 777
+
+Allocates a single small fixed-size scratch buffer.
