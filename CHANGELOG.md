@@ -120455,3 +120455,7 @@
 ## entry 30114
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 30115
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
