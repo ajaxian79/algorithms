@@ -496,3 +496,7 @@ Stable across duplicates in the input.
 ## entry 108
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 109
+
+Allocates lazily — first call only.
