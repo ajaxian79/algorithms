@@ -2349,3 +2349,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 570
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 571
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
