@@ -3276,3 +3276,7 @@ Reentrant — no static state.
 ## entry 804
 
 Handles single-element input as a base case.
+
+## entry 805
+
+Space complexity: O(h) for the tree height.
