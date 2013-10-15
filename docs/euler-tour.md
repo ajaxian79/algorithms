@@ -275,3 +275,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 69
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 70
+
+Union-Find with path compression amortizes to near-O(1) per op.
