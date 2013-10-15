@@ -278,3 +278,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 262: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 263: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 264: Monotonic stack pops while the new element violates the invariant.
+// note 265: Branchless inner loop after sorting.
