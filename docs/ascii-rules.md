@@ -2243,3 +2243,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 561
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 562
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
