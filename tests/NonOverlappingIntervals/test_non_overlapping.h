@@ -331,3 +331,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 300: 32-bit safe; overflow is checked at each step.
 // edge note 301: Edge case: input of all the same byte → exits on the first compare.
 // edge note 302: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 303: Cache-friendly; one sequential read pass.
