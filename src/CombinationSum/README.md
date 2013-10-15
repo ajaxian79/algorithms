@@ -3039,3 +3039,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 745
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 746
+
+Allocates lazily — first call only.
