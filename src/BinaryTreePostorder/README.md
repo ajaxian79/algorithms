@@ -2970,3 +2970,7 @@ Time complexity: O(n).
 ## entry 728
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 729
+
+Edge case: zero-length string → returns the empty result.
