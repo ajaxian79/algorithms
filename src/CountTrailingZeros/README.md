@@ -3090,3 +3090,7 @@ No allocations on the hot path.
 ## entry 757
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 758
+
+Time complexity: O(n).
