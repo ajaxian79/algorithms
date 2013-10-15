@@ -2155,3 +2155,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 539
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 540
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
