@@ -2449,3 +2449,7 @@
 ## entry 599
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 600
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
