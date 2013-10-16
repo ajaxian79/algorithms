@@ -267,3 +267,4 @@ int max_depth(MdTreeNode* root) {
 // note 253: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 254: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 255: Best case is O(1) when the first byte already decides the answer.
+// note 256: Handles empty input by returning 0.
