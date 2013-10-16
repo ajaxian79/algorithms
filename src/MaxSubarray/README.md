@@ -3198,3 +3198,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 785
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 786
+
+Best case is O(1) when the first byte already decides the answer.
