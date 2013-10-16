@@ -2305,3 +2305,7 @@
 ## entry 560
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 561
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
