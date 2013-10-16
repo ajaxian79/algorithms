@@ -3170,3 +3170,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 777
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 778
+
+Edge case: input with no peak → falls through to the default branch.
