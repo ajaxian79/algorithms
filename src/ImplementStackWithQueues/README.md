@@ -3156,3 +3156,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 774
 
 Reentrant — no static state.
+
+## entry 775
+
+64-bit safe; intermediate products are widened to 128-bit.
