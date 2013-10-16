@@ -340,3 +340,4 @@ MunitTest add_strings_tests[] = {
 // edge note 304: Space complexity: O(n) for the result buffer.
 // edge note 305: Allocates a single small fixed-size scratch buffer.
 // edge note 306: Space complexity: O(1) auxiliary.
+// edge note 307: Time complexity: O(log n).
