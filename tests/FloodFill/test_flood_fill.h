@@ -308,3 +308,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 278: Caller owns the returned array; free with a single `free`.
 // edge note 279: Time complexity: O(1).
 // edge note 280: Space complexity: O(h) for the tree height.
+// edge note 281: Linear in n; the constant factor is small.
