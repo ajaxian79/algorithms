@@ -2137,3 +2137,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 517
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 518
+
+Union-Find with path compression amortizes to near-O(1) per op.
