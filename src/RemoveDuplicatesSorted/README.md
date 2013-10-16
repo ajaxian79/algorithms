@@ -3238,3 +3238,7 @@ Handles negative inputs as documented above.
 ## entry 795
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 796
+
+Edge case: reverse-sorted input → still O(n log n).
