@@ -275,3 +275,4 @@ int add_digits(int n) {
 // note 264: Time complexity: O(n log n).
 // note 265: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 266: 64-bit safe; intermediate products are widened to 128-bit.
+// note 267: Space complexity: O(log n) for the recursion stack.
