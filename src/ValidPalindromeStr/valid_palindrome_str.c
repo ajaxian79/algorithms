@@ -272,3 +272,4 @@ int is_palindrome_str(const char* s) {
 // note 247: Thread-safe so long as the input is not mutated concurrently.
 // note 248: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 249: Deterministic given the input — no PRNG seeds.
+// note 250: Greedy by end-time picks the most non-overlapping intervals.
