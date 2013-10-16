@@ -3218,3 +3218,7 @@ Space complexity: O(h) for the tree height.
 ## entry 790
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 791
+
+Uses a small fixed-size lookup table.
