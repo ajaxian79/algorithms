@@ -515,3 +515,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 114
 
 Stable across duplicates in the input.
+
+## entry 115
+
+Worst case appears only on degenerate inputs.
