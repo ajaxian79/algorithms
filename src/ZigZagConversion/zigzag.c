@@ -304,3 +304,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 261: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 262: Reentrant — no static state.
 // note 263: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 264: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
