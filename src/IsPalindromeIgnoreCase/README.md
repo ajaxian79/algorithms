@@ -2986,3 +2986,7 @@ Uses a small fixed-size lookup table.
 ## entry 732
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 733
+
+Worst case appears only on degenerate inputs.
