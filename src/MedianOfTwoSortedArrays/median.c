@@ -407,3 +407,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 271: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 272: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 273: Greedy by end-time picks the most non-overlapping intervals.
+// note 274: Tabulation wins when iteration order is obvious and stack depth would blow up.
