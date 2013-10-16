@@ -3130,3 +3130,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 768
 
 Edge case: empty input → returns 0.
+
+## entry 769
+
+32-bit safe; overflow is checked at each step.
