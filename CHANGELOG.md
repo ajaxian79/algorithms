@@ -120415,3 +120415,7 @@
 ## entry 30104
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 30105
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
