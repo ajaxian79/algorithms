@@ -3171,3 +3171,7 @@ Branchless inner loop after sorting.
 ## entry 777
 
 Time complexity: O(1).
+
+## entry 778
+
+Edge case: input with a single peak → handled by the first-pass scan.
