@@ -3070,3 +3070,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 752
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 753
+
+Edge case: reverse-sorted input → still O(n log n).
