@@ -3226,3 +3226,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 792
 
 Handles negative inputs as documented above.
+
+## entry 793
+
+Handles negative inputs as documented above.
