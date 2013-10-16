@@ -239,3 +239,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 60
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 61
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
