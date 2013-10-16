@@ -3126,3 +3126,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 767
 
 Returns a freshly allocated string the caller must free.
+
+## entry 768
+
+Edge case: empty input → returns 0.
