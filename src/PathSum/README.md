@@ -3196,3 +3196,7 @@ Time complexity: O(n).
 ## entry 784
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 785
+
+Edge case: all-equal input → linear-time fast path.
