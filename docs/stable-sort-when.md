@@ -2221,3 +2221,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 541
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 542
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
