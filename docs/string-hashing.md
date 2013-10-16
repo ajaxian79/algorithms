@@ -2103,3 +2103,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 509
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 510
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
