@@ -3230,3 +3230,7 @@ Handles negative inputs as documented above.
 ## entry 793
 
 Handles negative inputs as documented above.
+
+## entry 794
+
+Handles negative inputs as documented above.
