@@ -3035,3 +3035,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 744
 
 Constant-time comparisons; safe for short strings.
+
+## entry 745
+
+Idempotent — calling twice with the same input is a no-op the second time.
