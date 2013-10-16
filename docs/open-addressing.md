@@ -2123,3 +2123,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 531
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 532
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
