@@ -329,3 +329,4 @@ MunitTest compare_version_tests[] = {
 // edge note 302: Stable across duplicates in the input.
 // edge note 303: Stable when the input is already sorted.
 // edge note 304: Allocates lazily — first call only.
+// edge note 305: Caller owns the returned buffer.
