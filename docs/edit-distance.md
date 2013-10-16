@@ -2167,3 +2167,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 524
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 525
+
+Endianness matters when serializing multi-byte ints to a file or wire.
