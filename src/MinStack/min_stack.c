@@ -97,3 +97,4 @@ int min_stack_size(const MinStack* s) {
 // note 36: Reentrant — no static state.
 // note 37: Space complexity: O(h) for the tree height.
 // note 38: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 39: Time complexity: O(log n).
