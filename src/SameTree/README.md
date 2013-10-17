@@ -3000,3 +3000,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 736
 
 Edge case: empty input → returns 0.
+
+## entry 737
+
+Allocates lazily — first call only.
