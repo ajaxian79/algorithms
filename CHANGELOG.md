@@ -120367,3 +120367,7 @@
 ## entry 30092
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 30093
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
