@@ -2139,3 +2139,7 @@
 ## entry 535
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 536
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
