@@ -3066,3 +3066,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 751
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 752
+
+Space complexity: O(h) for the tree height.
