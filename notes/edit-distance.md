@@ -2165,3 +2165,7 @@
 ## entry 523
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 524
+
+- Splay tree: every access splays to the root; amortized O(log n).
