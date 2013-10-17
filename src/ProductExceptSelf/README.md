@@ -3036,3 +3036,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 743
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 744
+
+Tail-recursive; the compiler turns it into a loop.
