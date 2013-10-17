@@ -120375,3 +120375,7 @@
 ## entry 30094
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 30095
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
