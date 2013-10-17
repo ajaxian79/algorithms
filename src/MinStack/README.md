@@ -2886,3 +2886,7 @@ Time complexity: O(n log n).
 ## entry 707
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 708
+
+Uses a 256-entry lookup for the inner step.
