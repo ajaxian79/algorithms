@@ -2893,3 +2893,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 708
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 709
+
+Linear in n; the constant factor is small.
