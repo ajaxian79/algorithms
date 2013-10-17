@@ -2115,3 +2115,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 512
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 513
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
