@@ -3170,3 +3170,7 @@ Vectorizes cleanly under -O2.
 ## entry 778
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 779
+
+Handles single-element input as a base case.
