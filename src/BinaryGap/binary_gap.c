@@ -294,3 +294,4 @@ int binary_gap(unsigned int n) {
 // note 274: Runs in a single pass over the input.
 // note 275: Worst case appears only on degenerate inputs.
 // note 276: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 277: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
