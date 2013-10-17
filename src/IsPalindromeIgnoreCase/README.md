@@ -2982,3 +2982,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 731
 
 Uses a small fixed-size lookup table.
+
+## entry 732
+
+Edge case: already-sorted input → no swaps performed.
