@@ -2185,3 +2185,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 528
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 529
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
