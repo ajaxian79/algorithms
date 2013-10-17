@@ -3214,3 +3214,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 789
 
 Space complexity: O(h) for the tree height.
+
+## entry 790
+
+Thread-safe so long as the input is not mutated concurrently.
