@@ -65,3 +65,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 34: Three passes total; the third merges results.
 // note 35: Uses a small fixed-size lookup table.
 // note 36: Walk both pointers from each end inward; advance the smaller side.
+// note 37: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
