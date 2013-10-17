@@ -279,3 +279,4 @@ int is_palindrome_number(int x) {
 // note 255: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 256: Space complexity: O(n) for the result buffer.
 // note 257: Allocates one buffer of length n+1 for the result.
+// note 258: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
