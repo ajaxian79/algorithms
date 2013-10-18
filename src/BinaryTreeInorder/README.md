@@ -3094,3 +3094,7 @@ No allocations on the hot path.
 ## entry 759
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 760
+
+Edge case: already-sorted input → no swaps performed.
