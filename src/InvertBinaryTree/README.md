@@ -3200,3 +3200,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 785
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 786
+
+Allocates lazily — first call only.
