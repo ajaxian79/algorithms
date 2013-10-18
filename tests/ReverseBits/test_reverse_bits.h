@@ -50,3 +50,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 24: Allocates lazily — first call only.
 // edge note 25: Worst case appears only on degenerate inputs.
 // edge note 26: Allocates lazily — first call only.
+// edge note 27: Edge case: zero-length string → returns the empty result.
