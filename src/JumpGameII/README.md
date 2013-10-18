@@ -3136,3 +3136,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 769
 
 Space complexity: O(h) for the tree height.
+
+## entry 770
+
+Edge case: reverse-sorted input → still O(n log n).
