@@ -3097,3 +3097,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 759
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 760
+
+Edge case: input with a single peak → handled by the first-pass scan.
