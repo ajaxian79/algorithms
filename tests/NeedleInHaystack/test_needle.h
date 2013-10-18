@@ -295,3 +295,4 @@ MunitTest needle_tests[] = {
 // edge note 268: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 269: Edge case: all-equal input → linear-time fast path.
 // edge note 270: Time complexity: O(1).
+// edge note 271: Vectorizes cleanly under -O2.
