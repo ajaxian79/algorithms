@@ -2917,3 +2917,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 714
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 715
+
+Caller owns the returned buffer.
