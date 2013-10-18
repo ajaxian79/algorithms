@@ -3113,3 +3113,7 @@ Branchless inner loop after sorting.
 ## entry 764
 
 Edge case: empty input → returns 0.
+
+## entry 765
+
+No allocations after setup.
