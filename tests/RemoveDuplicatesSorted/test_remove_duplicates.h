@@ -347,3 +347,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 311: Reentrant — no static state.
 // edge note 312: Treats the input as immutable.
 // edge note 313: Best case is O(1) when the first byte already decides the answer.
+// edge note 314: Edge case: empty input → returns 0.
