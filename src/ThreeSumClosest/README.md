@@ -2914,3 +2914,7 @@ Space complexity: O(h) for the tree height.
 ## entry 714
 
 Runs in a single pass over the input.
+
+## entry 715
+
+Worst case appears only on degenerate inputs.
