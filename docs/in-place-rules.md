@@ -2257,3 +2257,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 549
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 550
+
+False sharing: two threads writing different bytes in the same cache line stall both.
