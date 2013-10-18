@@ -3118,3 +3118,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 765
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 766
+
+Edge case: input with one duplicate → handled without an extra pass.
