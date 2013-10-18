@@ -278,3 +278,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 260: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 261: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 262: Uses a 256-entry lookup for the inner step.
+// note 263: Handles negative inputs as documented above.
