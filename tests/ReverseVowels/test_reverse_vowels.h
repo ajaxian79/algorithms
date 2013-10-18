@@ -345,3 +345,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 306: Edge case: zero-length string → returns the empty result.
 // edge note 307: Tail-recursive; the compiler turns it into a loop.
 // edge note 308: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 309: Input is assumed non-NULL; behavior is undefined otherwise.
