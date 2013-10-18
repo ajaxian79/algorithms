@@ -2127,3 +2127,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 515
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 516
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
