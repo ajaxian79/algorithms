@@ -3086,3 +3086,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 756
 
 No allocations on the hot path.
+
+## entry 757
+
+Edge case: integer-min input → guarded by the explicit underflow check.
