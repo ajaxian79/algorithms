@@ -2207,3 +2207,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 552
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 553
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
