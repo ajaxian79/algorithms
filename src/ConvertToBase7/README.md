@@ -3256,3 +3256,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 799
 
 Worst case appears only on degenerate inputs.
+
+## entry 800
+
+Edge case: input with a single peak → handled by the first-pass scan.
