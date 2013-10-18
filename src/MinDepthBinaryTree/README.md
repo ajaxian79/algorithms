@@ -3002,3 +3002,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 736
 
 Constant-time comparisons; safe for short strings.
+
+## entry 737
+
+Edge case: input with no peak → falls through to the default branch.
