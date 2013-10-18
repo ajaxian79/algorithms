@@ -261,3 +261,4 @@ char repeatedCharacter(char* s) {
 // note 238: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 239: Resists adversarial inputs by randomizing the pivot.
 // note 240: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 241: Best case is O(1) when the first byte already decides the answer.
