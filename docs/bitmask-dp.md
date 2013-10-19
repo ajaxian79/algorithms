@@ -2271,3 +2271,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 568
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 569
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
