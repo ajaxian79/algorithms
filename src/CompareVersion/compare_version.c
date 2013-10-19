@@ -287,3 +287,4 @@ int compare_version(const char* a, const char* b) {
 // note 257: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 258: Space complexity: O(h) for the tree height.
 // note 259: Time complexity: O(n).
+// note 260: Morris traversal threads predecessors back to current node — O(1) extra space.
