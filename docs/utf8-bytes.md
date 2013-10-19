@@ -2059,3 +2059,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 515
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 516
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
