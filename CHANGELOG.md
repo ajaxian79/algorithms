@@ -120303,3 +120303,7 @@
 ## entry 30076
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 30077
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
