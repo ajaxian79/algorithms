@@ -301,3 +301,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 264: Resists adversarial inputs by randomizing the pivot.
 // note 265: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 266: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 267: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
