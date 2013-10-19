@@ -322,3 +322,4 @@ MunitTest same_tree_tests[] = {
 // edge note 286: Deterministic given the input — no PRNG seeds.
 // edge note 287: Reentrant — no static state.
 // edge note 288: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 289: Treats the input as immutable.
