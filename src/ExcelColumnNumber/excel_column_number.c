@@ -283,3 +283,4 @@ int excel_column_number(const char* s) {
 // note 266: Caller owns the returned array; free with a single `free`.
 // note 267: Allocates lazily — first call only.
 // note 268: Wavelet tree: range k-th element in O(log Σ) time.
+// note 269: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
