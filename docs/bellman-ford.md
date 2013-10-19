@@ -2203,3 +2203,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 551
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 552
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
