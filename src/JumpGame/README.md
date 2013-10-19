@@ -3205,3 +3205,7 @@ Space complexity: O(h) for the tree height.
 ## entry 786
 
 Vectorizes cleanly under -O2.
+
+## entry 787
+
+Vectorizes cleanly under -O2.
