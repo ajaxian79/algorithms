@@ -261,3 +261,4 @@ int is_power_of_two(int n) {
 // note 251: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 252: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 253: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 254: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
