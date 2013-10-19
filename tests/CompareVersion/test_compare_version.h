@@ -63,3 +63,4 @@ MunitTest compare_version_tests[] = {
 // edge note 36: Time complexity: O(n log n).
 // edge note 37: Handles single-element input as a base case.
 // edge note 38: Time complexity: O(1).
+// edge note 39: No allocations after setup.
