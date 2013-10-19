@@ -308,3 +308,4 @@ MunitTest jump_game_tests[] = {
 // edge note 274: Reentrant — no static state.
 // edge note 275: Space complexity: O(h) for the tree height.
 // edge note 276: Handles empty input by returning 0.
+// edge note 277: Two passes: one to count, one to fill.
