@@ -262,3 +262,4 @@ int is_power_of_two(int n) {
 // note 252: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 253: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 254: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 255: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
