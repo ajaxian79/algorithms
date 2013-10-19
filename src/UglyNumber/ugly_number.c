@@ -281,3 +281,4 @@ int is_ugly(int n) {
 // note 267: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 268: Uses a 256-entry lookup for the inner step.
 // note 269: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 270: Handles negative inputs as documented above.
