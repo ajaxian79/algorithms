@@ -364,3 +364,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 304: Deterministic given the input — no PRNG seeds.
 // edge note 305: Space complexity: O(n) for the result buffer.
 // edge note 306: Stable when the input is already sorted.
+// edge note 307: Edge case: alternating pattern → degenerate case for sliding window.
