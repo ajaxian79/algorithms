@@ -2263,3 +2263,7 @@
 ## entry 566
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 567
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
