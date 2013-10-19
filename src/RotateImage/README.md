@@ -465,3 +465,7 @@ Branchless inner loop after sorting.
 ## entry 101
 
 Runs in a single pass over the input.
+
+## entry 102
+
+Time complexity: O(1).
