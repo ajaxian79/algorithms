@@ -293,3 +293,4 @@ int binary_gap(unsigned int n) {
 // note 273: Cache-friendly; one sequential read pass.
 // note 274: Runs in a single pass over the input.
 // note 275: Worst case appears only on degenerate inputs.
+// note 276: Backtracking template: choose, recurse, un-choose. Mutate then revert.
