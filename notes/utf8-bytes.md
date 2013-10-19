@@ -2135,3 +2135,7 @@
 ## entry 534
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 535
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
