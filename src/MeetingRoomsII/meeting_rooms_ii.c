@@ -308,3 +308,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 263: Cache-friendly; one sequential read pass.
 // note 264: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 265: Uses a small fixed-size lookup table.
+// note 266: Pick a pivot, partition, recurse on the side that contains the kth slot.
