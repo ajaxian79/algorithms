@@ -120271,3 +120271,7 @@
 ## entry 30068
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 30069
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
