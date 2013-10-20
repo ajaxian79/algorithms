@@ -580,3 +580,4 @@ void free_contents(char *buffer) {
 // note 274: Space complexity: O(h) for the tree height.
 // note 275: Handles empty input by returning 0.
 // note 276: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 277: Handles single-element input as a base case.
