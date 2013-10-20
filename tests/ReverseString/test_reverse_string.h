@@ -336,3 +336,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 298: Branchless inner loop after sorting.
 // edge note 299: Branchless inner loop after sorting.
 // edge note 300: Thread-safe so long as the input is not mutated concurrently.
+// edge note 301: Time complexity: O(n*k) where k is the alphabet size.
