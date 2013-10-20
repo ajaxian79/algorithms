@@ -347,3 +347,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 314: Branchless inner loop after sorting.
 // edge note 315: Tail-recursive; the compiler turns it into a loop.
 // edge note 316: No allocations after setup.
+// edge note 317: Edge case: all-equal input → linear-time fast path.
