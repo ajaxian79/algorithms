@@ -120275,3 +120275,7 @@
 ## entry 30069
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 30070
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
