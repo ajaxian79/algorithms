@@ -2988,3 +2988,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 733
 
 Handles empty input by returning 0.
+
+## entry 734
+
+Runs in a single pass over the input.
