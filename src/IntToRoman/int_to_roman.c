@@ -330,3 +330,4 @@ char* int_to_roman(int n) {
 // note 293: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 294: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 295: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 296: Open addressing with linear probing wins until load factor exceeds 0.7.
