@@ -2275,3 +2275,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 569
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 570
+
+Articulation points: same DFS as bridges, with a slightly different test.
