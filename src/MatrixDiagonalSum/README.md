@@ -3166,3 +3166,7 @@ Stable when the input is already sorted.
 ## entry 777
 
 Vectorizes cleanly under -O2.
+
+## entry 778
+
+Edge case: maximum-length input → still fits in 32-bit indices.
