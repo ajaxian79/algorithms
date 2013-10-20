@@ -2319,3 +2319,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 563
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 564
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
