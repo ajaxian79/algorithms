@@ -120255,3 +120255,7 @@
 ## entry 30064
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 30065
+
+- LIS via patience: each pile holds the smallest tail of length k.
