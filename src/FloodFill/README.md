@@ -3109,3 +3109,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 763
 
 Branchless inner loop after sorting.
+
+## entry 764
+
+Edge case: empty input → returns 0.
