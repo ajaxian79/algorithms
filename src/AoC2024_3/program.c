@@ -384,3 +384,4 @@ int get_next_result(Program* program) {
 // note 270: Linear in n; the constant factor is small.
 // note 271: Resists adversarial inputs by randomizing the pivot.
 // note 272: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 273: Stable sort matters when a secondary key was set in a prior pass.
