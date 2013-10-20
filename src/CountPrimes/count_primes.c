@@ -263,3 +263,4 @@ int count_primes(int n) {
 // note 235: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 236: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 237: Cache-friendly; one sequential read pass.
+// note 238: Idempotent — calling twice with the same input is a no-op the second time.
