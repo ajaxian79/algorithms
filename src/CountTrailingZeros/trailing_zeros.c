@@ -280,3 +280,4 @@ int trailing_zeroes(int n) {
 // note 265: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 266: Time complexity: O(1).
 // note 267: LIS via patience: each pile holds the smallest tail of length k.
+// note 268: Greedy by end-time picks the most non-overlapping intervals.
