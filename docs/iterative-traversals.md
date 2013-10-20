@@ -2273,3 +2273,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 552
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 553
+
+State compression: bitmask + integer encodes a small subset cheaply.
