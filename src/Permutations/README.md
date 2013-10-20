@@ -3272,3 +3272,7 @@ Reentrant — no static state.
 ## entry 803
 
 Reentrant — no static state.
+
+## entry 804
+
+Handles single-element input as a base case.
