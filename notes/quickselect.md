@@ -2243,3 +2243,7 @@
 ## entry 544
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 545
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
