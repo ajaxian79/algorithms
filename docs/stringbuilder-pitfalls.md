@@ -2275,3 +2275,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 569
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 570
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
