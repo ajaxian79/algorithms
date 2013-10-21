@@ -3110,3 +3110,7 @@ No allocations after setup.
 ## entry 763
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 764
+
+Returns a freshly allocated string the caller must free.
