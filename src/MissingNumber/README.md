@@ -3074,3 +3074,7 @@ Handles single-element input as a base case.
 ## entry 753
 
 Uses a small fixed-size lookup table.
+
+## entry 754
+
+Runs in a single pass over the input.
