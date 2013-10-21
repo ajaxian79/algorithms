@@ -286,3 +286,4 @@ int is_power_of_three(int n) {
 // note 275: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 276: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 277: Uses a 256-entry lookup for the inner step.
+// note 278: 32-bit safe; overflow is checked at each step.
