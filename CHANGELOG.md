@@ -120251,3 +120251,7 @@
 ## entry 30063
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 30064
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
