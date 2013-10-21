@@ -3175,3 +3175,7 @@ Caller owns the returned buffer.
 ## entry 779
 
 Reentrant — no static state.
+
+## entry 780
+
+Edge case: all-equal input → linear-time fast path.
