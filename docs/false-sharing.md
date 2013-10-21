@@ -2175,3 +2175,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 544
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 545
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
