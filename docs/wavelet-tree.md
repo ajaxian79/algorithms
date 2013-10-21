@@ -2111,3 +2111,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 528
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 529
+
+Splay tree: every access splays to the root; amortized O(log n).
