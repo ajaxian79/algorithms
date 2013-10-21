@@ -2970,3 +2970,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 728
 
 Reentrant — no static state.
+
+## entry 729
+
+Avoids floating-point entirely — integer math throughout.
