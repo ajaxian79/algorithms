@@ -293,3 +293,4 @@ MunitTest add_digits_tests[] = {
 // edge note 266: Time complexity: O(1).
 // edge note 267: Thread-safe so long as the input is not mutated concurrently.
 // edge note 268: Edge case: empty input → returns 0.
+// edge note 269: Runs in a single pass over the input.
