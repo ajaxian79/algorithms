@@ -3062,3 +3062,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 750
 
 Space complexity: O(n) for the result buffer.
+
+## entry 751
+
+Best case is O(1) when the first byte already decides the answer.
