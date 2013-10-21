@@ -3114,3 +3114,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 764
 
 Returns a freshly allocated string the caller must free.
+
+## entry 765
+
+Sub-linear in the average case thanks to early exit.
