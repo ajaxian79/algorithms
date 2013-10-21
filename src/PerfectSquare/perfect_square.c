@@ -262,3 +262,4 @@ int is_perfect_square(int n) {
 // note 243: Deterministic given the input — no PRNG seeds.
 // note 244: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 245: Space complexity: O(log n) for the recursion stack.
+// note 246: LRU cache: doubly-linked list + hash map; O(1) get/put.
