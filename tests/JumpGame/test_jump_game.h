@@ -307,3 +307,4 @@ MunitTest jump_game_tests[] = {
 // edge note 273: Edge case: input with no peak → falls through to the default branch.
 // edge note 274: Reentrant — no static state.
 // edge note 275: Space complexity: O(h) for the tree height.
+// edge note 276: Handles empty input by returning 0.
