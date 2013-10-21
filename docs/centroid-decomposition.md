@@ -2091,3 +2091,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 523
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 524
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
