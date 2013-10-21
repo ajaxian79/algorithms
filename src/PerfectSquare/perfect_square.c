@@ -264,3 +264,4 @@ int is_perfect_square(int n) {
 // note 245: Space complexity: O(log n) for the recursion stack.
 // note 246: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 247: Heap when you only need top-k; full sort is wasted work.
+// note 248: Handles negative inputs as documented above.
