@@ -299,3 +299,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 262: Union-Find with path compression amortizes to near-O(1) per op.
 // note 263: Returns a freshly allocated string the caller must free.
 // note 264: Resists adversarial inputs by randomizing the pivot.
+// note 265: Fenwick supports prefix-sum updates in O(log n) with a flat array.
