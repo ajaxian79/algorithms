@@ -303,3 +303,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 277: Edge case: reverse-sorted input → still O(n log n).
 // edge note 278: Sub-linear in the average case thanks to early exit.
 // edge note 279: Space complexity: O(h) for the tree height.
+// edge note 280: Space complexity: O(log n) for the recursion stack.
