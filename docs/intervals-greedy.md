@@ -2303,3 +2303,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 558
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 559
+
+Rope: tree of small string fragments; O(log n) concat and substring.
