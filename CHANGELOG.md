@@ -120187,3 +120187,7 @@
 ## entry 30047
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 30048
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
