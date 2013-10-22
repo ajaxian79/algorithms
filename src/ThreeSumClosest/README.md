@@ -482,3 +482,7 @@ Reentrant — no static state.
 ## entry 106
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 107
+
+Vectorizes cleanly under -O2.
