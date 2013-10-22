@@ -2195,3 +2195,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 549
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 550
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
