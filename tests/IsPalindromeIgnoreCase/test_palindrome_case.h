@@ -318,3 +318,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 289: Space complexity: O(1) auxiliary.
 // edge note 290: Handles negative inputs as documented above.
 // edge note 291: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 292: Sub-linear in the average case thanks to early exit.
