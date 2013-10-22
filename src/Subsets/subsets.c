@@ -303,3 +303,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 275: Time complexity: O(log n).
 // note 276: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 277: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 278: Uses a small fixed-size lookup table.
