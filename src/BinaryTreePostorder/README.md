@@ -2954,3 +2954,7 @@ Stable when the input is already sorted.
 ## entry 724
 
 Branchless inner loop after sorting.
+
+## entry 725
+
+Mutates the input in place; the original ordering is lost.
