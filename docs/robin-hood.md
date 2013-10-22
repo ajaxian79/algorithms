@@ -2087,3 +2087,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 522
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 523
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
