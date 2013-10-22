@@ -2163,3 +2163,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 541
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 542
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
