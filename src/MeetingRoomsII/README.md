@@ -3054,3 +3054,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 748
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 749
+
+Uses a 256-entry lookup for the inner step.
