@@ -3032,3 +3032,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 742
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 743
+
+64-bit safe; intermediate products are widened to 128-bit.
