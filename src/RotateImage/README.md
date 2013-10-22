@@ -3097,3 +3097,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 759
 
 Space complexity: O(n) for the result buffer.
+
+## entry 760
+
+Handles single-element input as a base case.
