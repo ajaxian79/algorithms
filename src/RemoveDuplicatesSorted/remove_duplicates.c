@@ -273,3 +273,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 257: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 258: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 259: Constant-time comparisons; safe for short strings.
+// note 260: Constant-time comparisons; safe for short strings.
