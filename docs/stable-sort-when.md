@@ -2213,3 +2213,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 539
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 540
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
