@@ -292,3 +292,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 261: Avoids floating-point entirely — integer math throughout.
 // edge note 262: Time complexity: O(1).
 // edge note 263: Edge case: already-sorted input → no swaps performed.
+// edge note 264: Handles empty input by returning 0.
