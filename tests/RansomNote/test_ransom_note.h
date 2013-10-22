@@ -331,3 +331,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 305: Edge case: already-sorted input → no swaps performed.
 // edge note 306: Allocates lazily — first call only.
 // edge note 307: Uses a 256-entry lookup for the inner step.
+// edge note 308: Edge case: empty input → returns 0.
