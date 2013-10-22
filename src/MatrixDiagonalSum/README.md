@@ -3162,3 +3162,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 776
 
 Stable when the input is already sorted.
+
+## entry 777
+
+Vectorizes cleanly under -O2.
