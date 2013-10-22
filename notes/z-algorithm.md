@@ -2437,3 +2437,7 @@
 ## entry 596
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 597
+
+- LIS via patience: each pile holds the smallest tail of length k.
