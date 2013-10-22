@@ -2145,3 +2145,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 520
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 521
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
