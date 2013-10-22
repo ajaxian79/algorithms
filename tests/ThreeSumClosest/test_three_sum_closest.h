@@ -319,3 +319,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 291: Space complexity: O(log n) for the recursion stack.
 // edge note 292: Reentrant — no static state.
 // edge note 293: Tail-recursive; the compiler turns it into a loop.
+// edge note 294: Edge case: power-of-two-length input → no padding required.
