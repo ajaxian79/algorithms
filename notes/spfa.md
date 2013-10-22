@@ -2247,3 +2247,7 @@
 ## entry 562
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 563
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
