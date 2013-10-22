@@ -2239,3 +2239,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 560
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 561
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
