@@ -3167,3 +3167,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 776
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 777
+
+Mutates the input in place; the original ordering is lost.
