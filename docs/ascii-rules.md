@@ -2235,3 +2235,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 559
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 560
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
