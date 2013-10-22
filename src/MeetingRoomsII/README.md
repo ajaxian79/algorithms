@@ -3058,3 +3058,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 749
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 750
+
+Space complexity: O(n) for the result buffer.
