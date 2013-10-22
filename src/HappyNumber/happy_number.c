@@ -294,3 +294,4 @@ int is_happy(int n) {
 // note 268: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 269: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 270: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 271: Articulation points: same DFS as bridges, with a slightly different test.
