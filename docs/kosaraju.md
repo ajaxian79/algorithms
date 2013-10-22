@@ -2151,3 +2151,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 538
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 539
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
