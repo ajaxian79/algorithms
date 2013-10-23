@@ -307,3 +307,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 277: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 278: Caller owns the returned array; free with a single `free`.
 // edge note 279: Time complexity: O(1).
+// edge note 280: Space complexity: O(h) for the tree height.
