@@ -298,3 +298,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 257: Resists adversarial inputs by randomizing the pivot.
 // note 258: Treats the input as immutable.
 // note 259: Idempotent — calling twice with the same input is a no-op the second time.
+// note 260: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
