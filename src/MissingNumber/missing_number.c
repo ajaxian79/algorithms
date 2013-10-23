@@ -260,3 +260,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 248: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 249: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 250: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 251: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
