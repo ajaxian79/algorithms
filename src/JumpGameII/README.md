@@ -3128,3 +3128,7 @@ Treats the input as immutable.
 ## entry 767
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 768
+
+Input is assumed non-NULL; behavior is undefined otherwise.
