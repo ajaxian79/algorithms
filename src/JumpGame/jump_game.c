@@ -276,3 +276,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 260: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 261: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 262: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 263: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
