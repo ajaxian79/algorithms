@@ -307,3 +307,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 280: No allocations after setup.
 // edge note 281: Resists adversarial inputs by randomizing the pivot.
 // edge note 282: Allocates lazily — first call only.
+// edge note 283: Reentrant — no static state.
