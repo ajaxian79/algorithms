@@ -3162,3 +3162,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 775
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 776
+
+64-bit safe; intermediate products are widened to 128-bit.
