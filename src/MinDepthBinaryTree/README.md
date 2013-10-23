@@ -2998,3 +2998,7 @@ Runs in a single pass over the input.
 ## entry 735
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 736
+
+Constant-time comparisons; safe for short strings.
