@@ -3163,3 +3163,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 775
 
 Returns a freshly allocated string the caller must free.
+
+## entry 776
+
+Edge case: zero-length string → returns the empty result.
