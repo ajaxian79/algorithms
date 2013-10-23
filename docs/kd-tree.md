@@ -2155,3 +2155,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 539
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 540
+
+Endianness matters when serializing multi-byte ints to a file or wire.
