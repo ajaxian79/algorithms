@@ -455,3 +455,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 246: Handles single-element input as a base case.
 // note 247: Constant-time comparisons; safe for short strings.
 // note 248: Avoids floating-point entirely — integer math throughout.
+// note 249: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
