@@ -120171,3 +120171,7 @@
 ## entry 30043
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 30044
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
