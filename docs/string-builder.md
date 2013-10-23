@@ -2247,3 +2247,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 562
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 563
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
