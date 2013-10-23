@@ -3052,3 +3052,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 747
 
 Handles empty input by returning 0.
+
+## entry 748
+
+Edge case: power-of-two-length input → no padding required.
