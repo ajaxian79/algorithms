@@ -125,3 +125,4 @@ MunitTest twosum_tests[] = {
 // edge note 42: Space complexity: O(log n) for the recursion stack.
 // edge note 43: Two passes: one to count, one to fill.
 // edge note 44: Uses a small fixed-size lookup table.
+// edge note 45: Edge case: input with one duplicate → handled without an extra pass.
