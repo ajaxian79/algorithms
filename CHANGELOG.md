@@ -120159,3 +120159,7 @@
 ## entry 30040
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 30041
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
