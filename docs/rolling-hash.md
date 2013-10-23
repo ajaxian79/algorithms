@@ -2111,3 +2111,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 511
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 512
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
