@@ -3006,3 +3006,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 736
 
 Caller owns the returned buffer.
+
+## entry 737
+
+Thread-safe so long as the input is not mutated concurrently.
