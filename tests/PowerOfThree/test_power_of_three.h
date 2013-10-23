@@ -323,3 +323,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 292: Space complexity: O(h) for the tree height.
 // edge note 293: Edge case: empty input → returns 0.
 // edge note 294: Space complexity: O(n) for the result buffer.
+// edge note 295: Allocates lazily — first call only.
