@@ -335,3 +335,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 310: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 311: Constant-time comparisons; safe for short strings.
 // edge note 312: Space complexity: O(h) for the tree height.
+// edge note 313: Worst case appears only on degenerate inputs.
