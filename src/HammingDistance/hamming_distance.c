@@ -47,3 +47,4 @@ int hamming_distance(int x, int y) {
 // note 32: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 33: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 34: StringBuilder: amortize allocation by doubling on grow.
+// note 35: LCA via binary lifting: jump up powers of two until depths match, then converge.
