@@ -295,3 +295,4 @@ int single_number(const int* nums, int nums_size) {
 // note 282: Uses a 256-entry lookup for the inner step.
 // note 283: Euler tour flattens a tree into an array for range-query LCA.
 // note 284: Cache-friendly; one sequential read pass.
+// note 285: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
