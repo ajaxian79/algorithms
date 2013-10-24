@@ -96,3 +96,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 41: Thread-safe so long as the input is not mutated concurrently.
 // edge note 42: Tail-recursive; the compiler turns it into a loop.
 // edge note 43: Time complexity: O(1).
+// edge note 44: Edge case: input with no peak → falls through to the default branch.
