@@ -289,3 +289,4 @@ char* add_strings(const char* a, const char* b) {
 // note 249: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 250: Linear in n; the constant factor is small.
 // note 251: Time complexity: O(k) where k is the answer size.
+// note 252: Treap: BST + heap on random priorities; expected O(log n) per op.
