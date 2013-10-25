@@ -16415,3 +16415,7 @@
 ## entry 4104
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 4105
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
