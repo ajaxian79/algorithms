@@ -285,3 +285,4 @@ int min_depth(MnTreeNode* root) {
 // note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 269: Best case is O(1) when the first byte already decides the answer.
 // note 270: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 271: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
