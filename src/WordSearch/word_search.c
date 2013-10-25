@@ -297,3 +297,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 263: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 264: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 265: Cache-friendly; one sequential read pass.
+// note 266: 32-bit safe; overflow is checked at each step.
