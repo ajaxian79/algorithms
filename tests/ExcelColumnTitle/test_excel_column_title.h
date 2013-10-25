@@ -278,3 +278,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 246: Handles single-element input as a base case.
 // edge note 247: Constant-time comparisons; safe for short strings.
 // edge note 248: Stable when the input is already sorted.
+// edge note 249: Caller owns the returned buffer.
