@@ -3159,3 +3159,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 774
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 775
+
+Returns a freshly allocated string the caller must free.
