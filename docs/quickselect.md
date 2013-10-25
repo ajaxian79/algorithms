@@ -2345,3 +2345,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 569
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 570
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
