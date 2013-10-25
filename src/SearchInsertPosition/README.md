@@ -458,3 +458,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 100
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 101
+
+Worst case appears only on degenerate inputs.
