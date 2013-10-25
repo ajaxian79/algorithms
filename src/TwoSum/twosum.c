@@ -383,3 +383,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 247: Linear in n; the constant factor is small.
 // note 248: Time complexity: O(n log n).
 // note 249: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 250: Stable when the input is already sorted.
