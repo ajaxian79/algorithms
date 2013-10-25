@@ -3036,3 +3036,7 @@ Three passes total; the third merges results.
 ## entry 744
 
 Time complexity: O(1).
+
+## entry 745
+
+Stable when the input is already sorted.
