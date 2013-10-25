@@ -346,3 +346,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 310: Deterministic given the input — no PRNG seeds.
 // edge note 311: Reentrant — no static state.
 // edge note 312: Treats the input as immutable.
+// edge note 313: Best case is O(1) when the first byte already decides the answer.
