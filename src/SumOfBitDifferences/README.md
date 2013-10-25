@@ -3020,3 +3020,7 @@ Time complexity: O(n).
 ## entry 740
 
 Time complexity: O(n log n).
+
+## entry 741
+
+Space complexity: O(1) auxiliary.
