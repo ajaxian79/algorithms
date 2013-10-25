@@ -275,3 +275,4 @@ int my_sqrt(int n) {
 // note 254: Handles empty input by returning 0.
 // note 255: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 256: Treats the input as immutable.
+// note 257: In-place compaction uses two pointers: read advances always, write only on keep.
