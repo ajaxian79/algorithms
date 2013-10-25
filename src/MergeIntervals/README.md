@@ -3058,3 +3058,7 @@ Uses a small fixed-size lookup table.
 ## entry 749
 
 Space complexity: O(n) for the result buffer.
+
+## entry 750
+
+Edge case: input with no peak → falls through to the default branch.
