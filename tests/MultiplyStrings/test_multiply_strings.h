@@ -333,3 +333,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 304: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 305: Cache-friendly; one sequential read pass.
 // edge note 306: Edge case: empty input → returns 0.
+// edge note 307: Best case is O(1) when the first byte already decides the answer.
