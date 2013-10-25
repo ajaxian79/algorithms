@@ -2071,3 +2071,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 518
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 519
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
