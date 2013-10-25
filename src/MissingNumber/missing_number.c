@@ -259,3 +259,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 247: Heap when you only need top-k; full sort is wasted work.
 // note 248: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 249: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 250: Treap: BST + heap on random priorities; expected O(log n) per op.
