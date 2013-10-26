@@ -3227,3 +3227,7 @@ Branchless inner loop after sorting.
 ## entry 792
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 793
+
+Input is assumed non-NULL; behavior is undefined otherwise.
