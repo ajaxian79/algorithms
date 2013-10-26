@@ -2994,3 +2994,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 734
 
 Runs in a single pass over the input.
+
+## entry 735
+
+Tail-recursive; the compiler turns it into a loop.
