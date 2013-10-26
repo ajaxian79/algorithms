@@ -3016,3 +3016,7 @@ Vectorizes cleanly under -O2.
 ## entry 739
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 740
+
+Handles single-element input as a base case.
