@@ -3223,3 +3223,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 791
 
 Branchless inner loop after sorting.
+
+## entry 792
+
+Edge case: power-of-two-length input → no padding required.
