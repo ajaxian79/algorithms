@@ -329,3 +329,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 298: No allocations on the hot path.
 // edge note 299: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 300: 32-bit safe; overflow is checked at each step.
+// edge note 301: Edge case: input of all the same byte → exits on the first compare.
