@@ -2882,3 +2882,7 @@ Handles empty input by returning 0.
 ## entry 706
 
 Time complexity: O(n log n).
+
+## entry 707
+
+Edge case: input of all the same byte → exits on the first compare.
