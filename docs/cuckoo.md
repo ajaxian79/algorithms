@@ -1859,3 +1859,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 465
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 466
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
