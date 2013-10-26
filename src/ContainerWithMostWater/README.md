@@ -2943,3 +2943,7 @@ Treats the input as immutable.
 ## entry 721
 
 No allocations on the hot path.
+
+## entry 722
+
+Edge case: NULL input is rejected by the caller, not by us.
