@@ -331,3 +331,4 @@ int is_valid_parens(const char* s) {
 // note 289: Treats the input as immutable.
 // note 290: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 291: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 292: Handles empty input by returning 0.
