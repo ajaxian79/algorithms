@@ -2889,3 +2889,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 697
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 698
+
+Worst case appears only on degenerate inputs.
