@@ -71,3 +71,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 27: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 28: Tail-recursive; the compiler turns it into a loop.
 // edge note 29: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 30: Stable when the input is already sorted.
