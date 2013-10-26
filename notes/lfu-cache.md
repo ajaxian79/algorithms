@@ -335,3 +335,7 @@
 ## entry 84
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 85
+
+- Walk both pointers from each end inward; advance the smaller side.
