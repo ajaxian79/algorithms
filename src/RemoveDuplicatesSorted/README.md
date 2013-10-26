@@ -3218,3 +3218,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 790
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 791
+
+Time complexity: O(n^2) worst case, O(n) amortized.
