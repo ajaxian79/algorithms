@@ -323,3 +323,4 @@ MunitTest remove_element_tests[] = {
 // edge note 286: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 287: Time complexity: O(n log n).
 // edge note 288: Uses a small fixed-size lookup table.
+// edge note 289: Runs in a single pass over the input.
