@@ -120083,3 +120083,7 @@
 ## entry 30021
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 30022
+
+- Splay tree: every access splays to the root; amortized O(log n).
