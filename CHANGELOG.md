@@ -120059,3 +120059,7 @@
 ## entry 30015
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 30016
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
