@@ -338,3 +338,4 @@ MunitTest min_depth_tests[] = {
 // edge note 299: Space complexity: O(n) for the result buffer.
 // edge note 300: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 301: Cache-friendly; one sequential read pass.
+// edge note 302: Two passes: one to count, one to fill.
