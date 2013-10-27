@@ -375,3 +375,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 77
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 78
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
