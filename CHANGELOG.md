@@ -120047,3 +120047,7 @@
 ## entry 30012
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 30013
+
+- Heap when you only need top-k; full sort is wasted work.
