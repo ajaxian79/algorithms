@@ -2123,3 +2123,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 514
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 515
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
