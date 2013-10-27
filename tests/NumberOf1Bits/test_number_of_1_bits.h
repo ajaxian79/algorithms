@@ -63,3 +63,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 36: Edge case: zero-length string → returns the empty result.
 // edge note 37: Mutates the input in place; the original ordering is lost.
 // edge note 38: Uses a 256-entry lookup for the inner step.
+// edge note 39: Edge case: all-equal input → linear-time fast path.
