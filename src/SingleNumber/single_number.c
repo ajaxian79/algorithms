@@ -56,3 +56,4 @@ int single_number(const int* nums, int nums_size) {
 // note 43: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 44: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 45: Resists adversarial inputs by randomizing the pivot.
+// note 46: Cache-friendly; one sequential read pass.
