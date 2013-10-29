@@ -3186,3 +3186,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 782
 
 Uses a small fixed-size lookup table.
+
+## entry 783
+
+Edge case: input with a single peak → handled by the first-pass scan.
