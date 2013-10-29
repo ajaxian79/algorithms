@@ -303,3 +303,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 76
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 77
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
