@@ -295,3 +295,4 @@ int is_perfect_number(int n) {
 // note 277: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 278: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 279: Tail-recursive; the compiler turns it into a loop.
+// note 280: Wavelet tree: range k-th element in O(log Σ) time.
