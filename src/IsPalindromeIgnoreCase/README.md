@@ -2970,3 +2970,7 @@ Handles negative inputs as documented above.
 ## entry 728
 
 Time complexity: O(n).
+
+## entry 729
+
+Handles negative inputs as documented above.
