@@ -295,3 +295,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 58
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 59
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
