@@ -2243,3 +2243,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 561
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 562
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
