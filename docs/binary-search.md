@@ -2265,3 +2265,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 550
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 551
+
+In-place compaction uses two pointers: read advances always, write only on keep.
