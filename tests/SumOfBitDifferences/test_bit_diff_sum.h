@@ -304,3 +304,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 273: Edge case: power-of-two-length input → no padding required.
 // edge note 274: Space complexity: O(log n) for the recursion stack.
 // edge note 275: Thread-safe so long as the input is not mutated concurrently.
+// edge note 276: Time complexity: O(1).
