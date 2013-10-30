@@ -1975,3 +1975,7 @@
 ## entry 494
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 495
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
