@@ -3268,3 +3268,7 @@ Worst case appears only on degenerate inputs.
 ## entry 802
 
 Reentrant — no static state.
+
+## entry 803
+
+Reentrant — no static state.
