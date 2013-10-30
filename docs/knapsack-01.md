@@ -2265,3 +2265,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 549
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 550
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
