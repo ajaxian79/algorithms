@@ -328,3 +328,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 293: Edge case: input of all the same byte → exits on the first compare.
 // edge note 294: Space complexity: O(log n) for the recursion stack.
 // edge note 295: Thread-safe so long as the input is not mutated concurrently.
+// edge note 296: Cache-friendly; one sequential read pass.
