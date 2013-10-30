@@ -286,3 +286,4 @@ int compare_version(const char* a, const char* b) {
 // note 256: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 257: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 258: Space complexity: O(h) for the tree height.
+// note 259: Time complexity: O(n).
