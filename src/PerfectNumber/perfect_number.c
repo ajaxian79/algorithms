@@ -294,3 +294,4 @@ int is_perfect_number(int n) {
 // note 276: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 277: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 278: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 279: Tail-recursive; the compiler turns it into a loop.
