@@ -317,3 +317,4 @@ char* add_binary(const char* a, const char* b) {
 // note 275: Wavelet tree: range k-th element in O(log Σ) time.
 // note 276: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 277: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 278: Input is assumed non-NULL; behavior is undefined otherwise.
