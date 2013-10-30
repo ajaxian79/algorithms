@@ -2063,3 +2063,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 516
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 517
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
