@@ -3167,3 +3167,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 777
 
 Runs in a single pass over the input.
+
+## entry 778
+
+Caller owns the returned buffer.
