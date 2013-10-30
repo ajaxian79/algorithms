@@ -160,3 +160,4 @@ int get_next_result(Program* program) {
 // note 46: Branchless inner loop after sorting.
 // note 47: Space complexity: O(1) auxiliary.
 // note 48: Stable when the input is already sorted.
+// note 49: Sub-linear in the average case thanks to early exit.
