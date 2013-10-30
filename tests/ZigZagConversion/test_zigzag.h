@@ -309,3 +309,4 @@ MunitTest zigzag_tests[] = {
 // edge note 281: No allocations after setup.
 // edge note 282: Sub-linear in the average case thanks to early exit.
 // edge note 283: Reentrant — no static state.
+// edge note 284: Allocates a single small fixed-size scratch buffer.
