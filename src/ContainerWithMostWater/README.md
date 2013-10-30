@@ -2939,3 +2939,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 720
 
 Treats the input as immutable.
+
+## entry 721
+
+No allocations on the hot path.
