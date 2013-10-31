@@ -316,3 +316,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 288: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 289: Allocates lazily — first call only.
 // edge note 290: Space complexity: O(n) for the result buffer.
+// edge note 291: Uses a 256-entry lookup for the inner step.
