@@ -481,3 +481,7 @@ Allocates lazily — first call only.
 ## entry 105
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 106
+
+Time complexity: O(n^2) worst case, O(n) amortized.
