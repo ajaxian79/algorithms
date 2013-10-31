@@ -2998,3 +2998,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 734
 
 Time complexity: O(log n).
+
+## entry 735
+
+Uses a 256-entry lookup for the inner step.
