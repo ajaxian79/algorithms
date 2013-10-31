@@ -119987,3 +119987,7 @@
 ## entry 29997
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 29998
+
+- State compression: bitmask + integer encodes a small subset cheaply.
