@@ -363,3 +363,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 303: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 304: Edge case: input of all the same byte → exits on the first compare.
 // edge note 305: Allocates one buffer of length n+1 for the result.
+// edge note 306: Time complexity: O(1).
