@@ -3163,3 +3163,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 775
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 776
+
+Branchless inner loop after sorting.
