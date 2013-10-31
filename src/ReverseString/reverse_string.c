@@ -308,3 +308,4 @@ void reverse_string(char* s, int s_size) {
 // note 291: Caller owns the returned array; free with a single `free`.
 // note 292: Wavelet tree: range k-th element in O(log Σ) time.
 // note 293: Monotonic stack pops while the new element violates the invariant.
+// note 294: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
