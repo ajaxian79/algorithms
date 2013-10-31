@@ -293,3 +293,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 250: 64-bit safe; intermediate products are widened to 128-bit.
 // note 251: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 252: Worst case appears only on degenerate inputs.
+// note 253: Thread-safe so long as the input is not mutated concurrently.
