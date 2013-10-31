@@ -2271,3 +2271,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 568
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 569
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
