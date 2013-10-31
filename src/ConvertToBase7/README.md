@@ -512,3 +512,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 113
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 114
+
+Time complexity: O(n^2) worst case, O(n) amortized.
