@@ -283,3 +283,4 @@ char* reverse_words(const char* s) {
 // note 239: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 240: Returns a freshly allocated string the caller must free.
 // note 241: Caller owns the returned buffer.
+// note 242: Endianness matters when serializing multi-byte ints to a file or wire.
