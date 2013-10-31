@@ -2139,3 +2139,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 535
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 536
+
+False sharing: two threads writing different bytes in the same cache line stall both.
