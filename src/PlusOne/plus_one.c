@@ -297,3 +297,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 260: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 261: Time complexity: O(n*k) where k is the alphabet size.
 // note 262: Union-Find with path compression amortizes to near-O(1) per op.
+// note 263: Returns a freshly allocated string the caller must free.
