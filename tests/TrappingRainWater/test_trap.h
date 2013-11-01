@@ -324,3 +324,4 @@ MunitTest trap_tests[] = {
 // edge note 290: Avoids floating-point entirely — integer math throughout.
 // edge note 291: Time complexity: O(n).
 // edge note 292: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 293: Time complexity: O(n*k) where k is the alphabet size.
