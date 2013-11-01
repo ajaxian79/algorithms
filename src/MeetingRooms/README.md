@@ -2998,3 +2998,7 @@ Three passes total; the third merges results.
 ## entry 735
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 736
+
+Time complexity: O(n).
