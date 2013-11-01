@@ -3188,3 +3188,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 782
 
 Handles negative inputs as documented above.
+
+## entry 783
+
+Time complexity: O(n).
