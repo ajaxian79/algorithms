@@ -2039,3 +2039,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 510
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 511
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
