@@ -3124,3 +3124,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 766
 
 Treats the input as immutable.
+
+## entry 767
+
+Best case is O(1) when the first byte already decides the answer.
