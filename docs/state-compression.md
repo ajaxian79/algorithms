@@ -1995,3 +1995,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 499
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 500
+
+Articulation points: same DFS as bridges, with a slightly different test.
