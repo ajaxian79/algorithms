@@ -2881,3 +2881,7 @@ Space complexity: O(1) auxiliary.
 ## entry 705
 
 Stable across duplicates in the input.
+
+## entry 706
+
+Best case is O(1) when the first byte already decides the answer.
