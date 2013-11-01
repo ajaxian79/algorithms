@@ -2103,3 +2103,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 510
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 511
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
