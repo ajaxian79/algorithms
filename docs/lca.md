@@ -335,3 +335,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 84
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 85
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
