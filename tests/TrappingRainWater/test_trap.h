@@ -62,3 +62,4 @@ MunitTest trap_tests[] = {
 // edge note 28: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 29: No allocations after setup.
 // edge note 30: Treats the input as immutable.
+// edge note 31: Time complexity: O(1).
