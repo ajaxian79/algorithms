@@ -277,3 +277,4 @@ char* to_hex_string(int n) {
 // note 244: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 245: Resists adversarial inputs by randomizing the pivot.
 // note 246: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 247: No allocations on the hot path.
