@@ -2249,3 +2249,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 547
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 548
+
+Heap when you only need top-k; full sort is wasted work.
