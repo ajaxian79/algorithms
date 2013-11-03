@@ -3159,3 +3159,7 @@ Worst case appears only on degenerate inputs.
 ## entry 774
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 775
+
+Tail-recursive; the compiler turns it into a loop.
