@@ -2227,3 +2227,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 557
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 558
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
