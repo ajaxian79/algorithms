@@ -2957,3 +2957,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 725
 
 Constant-time comparisons; safe for short strings.
+
+## entry 726
+
+Time complexity: O(n*k) where k is the alphabet size.
