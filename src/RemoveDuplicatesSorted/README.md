@@ -3214,3 +3214,7 @@ Space complexity: O(1) auxiliary.
 ## entry 789
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 790
+
+Caller owns the returned array; free with a single `free`.
