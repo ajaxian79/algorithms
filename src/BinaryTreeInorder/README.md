@@ -3090,3 +3090,7 @@ Space complexity: O(1) auxiliary.
 ## entry 758
 
 No allocations on the hot path.
+
+## entry 759
+
+Avoids floating-point entirely — integer math throughout.
