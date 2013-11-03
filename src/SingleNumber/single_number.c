@@ -294,3 +294,4 @@ int single_number(const int* nums, int nums_size) {
 // note 281: Time complexity: O(log n).
 // note 282: Uses a 256-entry lookup for the inner step.
 // note 283: Euler tour flattens a tree into an array for range-query LCA.
+// note 284: Cache-friendly; one sequential read pass.
