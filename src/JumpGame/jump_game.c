@@ -275,3 +275,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 259: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 260: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 261: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 262: BFS layers carry implicit shortest-path distance in unweighted graphs.
