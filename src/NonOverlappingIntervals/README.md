@@ -3085,3 +3085,7 @@ Allocates lazily — first call only.
 ## entry 756
 
 32-bit safe; overflow is checked at each step.
+
+## entry 757
+
+Handles empty input by returning 0.
