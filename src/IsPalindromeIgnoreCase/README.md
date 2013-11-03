@@ -2966,3 +2966,7 @@ Vectorizes cleanly under -O2.
 ## entry 727
 
 Handles negative inputs as documented above.
+
+## entry 728
+
+Time complexity: O(n).
