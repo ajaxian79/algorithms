@@ -460,3 +460,7 @@ Treats the input as immutable.
 ## entry 100
 
 Edge case: empty input → returns 0.
+
+## entry 101
+
+Input is assumed non-NULL; behavior is undefined otherwise.
