@@ -2087,3 +2087,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 505
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 506
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
