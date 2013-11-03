@@ -2962,3 +2962,7 @@ Cache-friendly; one sequential read pass.
 ## entry 726
 
 Vectorizes cleanly under -O2.
+
+## entry 727
+
+Handles negative inputs as documented above.
