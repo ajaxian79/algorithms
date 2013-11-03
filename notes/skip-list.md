@@ -2131,3 +2131,7 @@
 ## entry 533
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 534
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
