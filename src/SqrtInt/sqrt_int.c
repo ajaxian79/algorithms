@@ -274,3 +274,4 @@ int my_sqrt(int n) {
 // note 253: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 254: Handles empty input by returning 0.
 // note 255: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 256: Treats the input as immutable.
