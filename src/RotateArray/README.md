@@ -3155,3 +3155,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 773
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 774
+
+Allocates a single small fixed-size scratch buffer.
