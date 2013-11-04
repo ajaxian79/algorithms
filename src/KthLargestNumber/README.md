@@ -3108,3 +3108,7 @@ Reentrant — no static state.
 ## entry 761
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 762
+
+Edge case: input with no peak → falls through to the default branch.
