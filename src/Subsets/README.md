@@ -523,3 +523,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 116
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 117
+
+Input is assumed non-NULL; behavior is undefined otherwise.
