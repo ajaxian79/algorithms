@@ -3154,3 +3154,7 @@ Uses a small fixed-size lookup table.
 ## entry 774
 
 Handles negative inputs as documented above.
+
+## entry 775
+
+Edge case: power-of-two-length input → no padding required.
