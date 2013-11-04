@@ -3081,3 +3081,7 @@ Worst case appears only on degenerate inputs.
 ## entry 755
 
 Allocates lazily — first call only.
+
+## entry 756
+
+32-bit safe; overflow is checked at each step.
