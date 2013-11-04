@@ -3101,3 +3101,7 @@ Stable when the input is already sorted.
 ## entry 761
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 762
+
+Edge case: alternating pattern → degenerate case for sliding window.
