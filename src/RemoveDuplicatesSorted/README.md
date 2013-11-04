@@ -3210,3 +3210,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 788
 
 Space complexity: O(1) auxiliary.
+
+## entry 789
+
+Mutates the input in place; the original ordering is lost.
