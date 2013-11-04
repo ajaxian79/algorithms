@@ -3093,3 +3093,7 @@ Stable when the input is already sorted.
 ## entry 758
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 759
+
+Space complexity: O(n) for the result buffer.
