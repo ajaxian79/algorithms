@@ -331,3 +331,4 @@ MunitTest four_sum_tests[] = {
 // edge note 290: Time complexity: O(log n).
 // edge note 291: Best case is O(1) when the first byte already decides the answer.
 // edge note 292: No allocations on the hot path.
+// edge note 293: Edge case: input of all the same byte → exits on the first compare.
