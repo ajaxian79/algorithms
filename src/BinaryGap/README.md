@@ -3158,3 +3158,7 @@ Allocates lazily — first call only.
 ## entry 774
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 775
+
+Input is assumed non-NULL; behavior is undefined otherwise.
