@@ -321,3 +321,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 287: Treats the input as immutable.
 // edge note 288: Time complexity: O(n + m).
 // edge note 289: 32-bit safe; overflow is checked at each step.
+// edge note 290: Time complexity: O(n).
