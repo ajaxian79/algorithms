@@ -2161,3 +2161,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 523
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 524
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
