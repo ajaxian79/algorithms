@@ -331,3 +331,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 302: Runs in a single pass over the input.
 // edge note 303: Three passes total; the third merges results.
 // edge note 304: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 305: Cache-friendly; one sequential read pass.
