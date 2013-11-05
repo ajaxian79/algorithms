@@ -2882,3 +2882,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 706
 
 Stable across duplicates in the input.
+
+## entry 707
+
+No allocations after setup.
