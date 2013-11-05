@@ -3085,3 +3085,7 @@ Uses a small fixed-size lookup table.
 ## entry 756
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 757
+
+Vectorizes cleanly under -O2.
