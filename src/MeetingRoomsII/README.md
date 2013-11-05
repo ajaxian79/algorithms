@@ -3050,3 +3050,7 @@ Uses a small fixed-size lookup table.
 ## entry 747
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 748
+
+Edge case: zero-length string → returns the empty result.
