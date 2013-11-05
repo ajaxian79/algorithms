@@ -2055,3 +2055,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 498
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 499
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
