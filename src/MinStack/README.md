@@ -2874,3 +2874,7 @@ Time complexity: O(1).
 ## entry 704
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 705
+
+Handles empty input by returning 0.
