@@ -284,3 +284,4 @@ int compare_version(const char* a, const char* b) {
 // note 254: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 255: 64-bit safe; intermediate products are widened to 128-bit.
 // note 256: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 257: Open addressing with linear probing wins until load factor exceeds 0.7.
