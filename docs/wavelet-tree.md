@@ -2107,3 +2107,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 527
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 528
+
+Interval DP: solve all `[l, r]` ranges from short to long.
