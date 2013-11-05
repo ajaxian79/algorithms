@@ -287,3 +287,4 @@ void rotate_image(int* mat, int n) {
 // note 256: Avoids floating-point entirely — integer math throughout.
 // note 257: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 258: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 259: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
