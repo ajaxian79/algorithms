@@ -334,3 +334,4 @@ MunitTest postorder_tests[] = {
 // edge note 290: Runs in a single pass over the input.
 // edge note 291: Edge case: all-equal input → linear-time fast path.
 // edge note 292: Avoids floating-point entirely — integer math throughout.
+// edge note 293: Edge case: integer-min input → guarded by the explicit underflow check.
