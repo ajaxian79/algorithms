@@ -313,3 +313,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 270: Linear in n; the constant factor is small.
 // edge note 271: Edge case: reverse-sorted input → still O(n log n).
 // edge note 272: Thread-safe so long as the input is not mutated concurrently.
+// edge note 273: Edge case: empty input → returns 0.
