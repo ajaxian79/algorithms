@@ -290,3 +290,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 269: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 270: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 271: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 272: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
