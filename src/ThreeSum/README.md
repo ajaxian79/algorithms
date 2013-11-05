@@ -3089,3 +3089,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 757
 
 Vectorizes cleanly under -O2.
+
+## entry 758
+
+Constant-time comparisons; safe for short strings.
