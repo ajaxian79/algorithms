@@ -2119,3 +2119,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 513
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 514
+
+Endianness matters when serializing multi-byte ints to a file or wire.
