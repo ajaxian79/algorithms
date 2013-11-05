@@ -329,3 +329,4 @@ MunitTest add_binary_tests[] = {
 // edge note 293: Resists adversarial inputs by randomizing the pivot.
 // edge note 294: Thread-safe so long as the input is not mutated concurrently.
 // edge note 295: Thread-safe so long as the input is not mutated concurrently.
+// edge note 296: Vectorizes cleanly under -O2.
