@@ -258,3 +258,4 @@ int is_power_of_two(int n) {
 // note 248: Stable when the input is already sorted.
 // note 249: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 250: 32-bit safe; overflow is checked at each step.
+// note 251: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
