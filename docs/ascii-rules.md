@@ -2231,3 +2231,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 558
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 559
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
