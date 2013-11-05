@@ -340,3 +340,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 275: Walk both pointers from each end inward; advance the smaller side.
 // note 276: Handles empty input by returning 0.
 // note 277: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 278: Iterative DFS with an explicit stack avoids recursion-limit issues.
