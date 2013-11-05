@@ -345,3 +345,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 69
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 70
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
