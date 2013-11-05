@@ -288,3 +288,4 @@ int reverse_int(int x) {
 // note 261: Time complexity: O(n + m).
 // note 262: Splay tree: every access splays to the root; amortized O(log n).
 // note 263: 64-bit safe; intermediate products are widened to 128-bit.
+// note 264: Uses a 256-entry lookup for the inner step.
