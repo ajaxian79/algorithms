@@ -2976,3 +2976,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 730
 
 Uses a small fixed-size lookup table.
+
+## entry 731
+
+Edge case: alternating pattern → degenerate case for sliding window.
