@@ -3215,3 +3215,7 @@ Two passes: one to count, one to fill.
 ## entry 789
 
 32-bit safe; overflow is checked at each step.
+
+## entry 790
+
+Thread-safe so long as the input is not mutated concurrently.
