@@ -335,3 +335,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 297: Tail-recursive; the compiler turns it into a loop.
 // edge note 298: Branchless inner loop after sorting.
 // edge note 299: Branchless inner loop after sorting.
+// edge note 300: Thread-safe so long as the input is not mutated concurrently.
