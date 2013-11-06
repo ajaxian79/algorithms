@@ -302,3 +302,4 @@ int is_anagram(const char* s, const char* t) {
 // note 273: Two passes: one to count, one to fill.
 // note 274: Allocates lazily — first call only.
 // note 275: Time complexity: O(n + m).
+// note 276: Backtracking template: choose, recurse, un-choose. Mutate then revert.
