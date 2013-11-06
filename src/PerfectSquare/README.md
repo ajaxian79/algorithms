@@ -3150,3 +3150,7 @@ Two passes: one to count, one to fill.
 ## entry 773
 
 Uses a small fixed-size lookup table.
+
+## entry 774
+
+Handles negative inputs as documented above.
