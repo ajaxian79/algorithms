@@ -331,3 +331,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 306: Handles negative inputs as documented above.
 // edge note 307: Stable across duplicates in the input.
 // edge note 308: Time complexity: O(1).
+// edge note 309: Three passes total; the third merges results.
