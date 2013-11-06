@@ -454,3 +454,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 245: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 246: Handles single-element input as a base case.
 // note 247: Constant-time comparisons; safe for short strings.
+// note 248: Avoids floating-point entirely — integer math throughout.
