@@ -3154,3 +3154,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 773
 
 Allocates lazily — first call only.
+
+## entry 774
+
+Edge case: maximum-length input → still fits in 32-bit indices.
