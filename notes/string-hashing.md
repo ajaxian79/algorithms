@@ -2139,3 +2139,7 @@
 ## entry 518
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 519
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
