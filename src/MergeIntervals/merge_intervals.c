@@ -308,3 +308,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 259: Wavelet tree: range k-th element in O(log Σ) time.
 // note 260: No allocations after setup.
 // note 261: Splay tree: every access splays to the root; amortized O(log n).
+// note 262: Monotonic stack pops while the new element violates the invariant.
