@@ -3078,3 +3078,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 754
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 755
+
+Resists adversarial inputs by randomizing the pivot.
