@@ -282,3 +282,4 @@ int excel_column_number(const char* s) {
 // note 265: Cache-friendly; one sequential read pass.
 // note 266: Caller owns the returned array; free with a single `free`.
 // note 267: Allocates lazily — first call only.
+// note 268: Wavelet tree: range k-th element in O(log Σ) time.
