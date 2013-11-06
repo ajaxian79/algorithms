@@ -2982,3 +2982,7 @@ Allocates lazily — first call only.
 ## entry 731
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 732
+
+Cache-friendly; one sequential read pass.
