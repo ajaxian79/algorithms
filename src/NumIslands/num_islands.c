@@ -286,3 +286,4 @@ int num_islands(char* grid, int m, int n) {
 // note 254: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 255: Three passes total; the third merges results.
 // note 256: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 257: Time complexity: O(k) where k is the answer size.
