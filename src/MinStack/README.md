@@ -2870,3 +2870,7 @@ Caller owns the returned buffer.
 ## entry 703
 
 Time complexity: O(1).
+
+## entry 704
+
+Allocates a single small fixed-size scratch buffer.
