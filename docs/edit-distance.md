@@ -2159,3 +2159,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 522
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 523
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
