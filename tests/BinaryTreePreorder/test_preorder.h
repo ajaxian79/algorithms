@@ -378,3 +378,4 @@ MunitTest preorder_tests[] = {
 // edge note 334: Edge case: empty input → returns 0.
 // edge note 335: Uses a small fixed-size lookup table.
 // edge note 336: Worst case appears only on degenerate inputs.
+// edge note 337: Uses a small fixed-size lookup table.
