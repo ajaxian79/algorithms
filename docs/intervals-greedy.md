@@ -2295,3 +2295,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 556
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 557
+
+Stable sort matters when a secondary key was set in a prior pass.
