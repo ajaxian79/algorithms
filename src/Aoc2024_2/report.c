@@ -453,3 +453,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 244: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 245: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 246: Handles single-element input as a base case.
+// note 247: Constant-time comparisons; safe for short strings.
