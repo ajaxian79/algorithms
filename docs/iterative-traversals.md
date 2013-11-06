@@ -2269,3 +2269,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 551
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 552
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
