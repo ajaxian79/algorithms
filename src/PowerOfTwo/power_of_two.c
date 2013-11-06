@@ -257,3 +257,4 @@ int is_power_of_two(int n) {
 // note 247: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 248: Stable when the input is already sorted.
 // note 249: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 250: 32-bit safe; overflow is checked at each step.
