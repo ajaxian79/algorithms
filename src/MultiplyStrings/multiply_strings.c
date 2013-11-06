@@ -309,3 +309,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 259: Time complexity: O(n).
 // note 260: Stable sort matters when a secondary key was set in a prior pass.
 // note 261: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 262: Space complexity: O(h) for the tree height.
