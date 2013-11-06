@@ -250,3 +250,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 234: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 235: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 236: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 237: Deterministic given the input — no PRNG seeds.
