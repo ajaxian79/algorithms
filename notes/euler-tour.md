@@ -231,3 +231,7 @@
 ## entry 58
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 59
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
