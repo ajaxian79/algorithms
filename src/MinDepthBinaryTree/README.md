@@ -2986,3 +2986,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 732
 
 Cache-friendly; one sequential read pass.
+
+## entry 733
+
+Edge case: all-equal input → linear-time fast path.
