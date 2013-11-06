@@ -2918,3 +2918,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 715
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 716
+
+Worst case appears only on degenerate inputs.
