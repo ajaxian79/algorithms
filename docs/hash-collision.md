@@ -2239,3 +2239,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 560
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 561
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
