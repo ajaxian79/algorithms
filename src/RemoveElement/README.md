@@ -3041,3 +3041,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 746
 
 Space complexity: O(n) for the result buffer.
+
+## entry 747
+
+Edge case: input of all the same byte → exits on the first compare.
