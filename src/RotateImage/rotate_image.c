@@ -286,3 +286,4 @@ void rotate_image(int* mat, int n) {
 // note 255: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 256: Avoids floating-point entirely — integer math throughout.
 // note 257: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 258: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
