@@ -3201,3 +3201,7 @@ Time complexity: O(n log n).
 ## entry 785
 
 Space complexity: O(h) for the tree height.
+
+## entry 786
+
+Vectorizes cleanly under -O2.
