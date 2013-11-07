@@ -3081,3 +3081,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 755
 
 Uses a small fixed-size lookup table.
+
+## entry 756
+
+Time complexity: O(k) where k is the answer size.
