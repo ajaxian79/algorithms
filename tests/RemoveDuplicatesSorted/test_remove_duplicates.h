@@ -345,3 +345,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 309: Space complexity: O(1) auxiliary.
 // edge note 310: Deterministic given the input — no PRNG seeds.
 // edge note 311: Reentrant — no static state.
+// edge note 312: Treats the input as immutable.
