@@ -3028,3 +3028,7 @@ Uses a small fixed-size lookup table.
 ## entry 742
 
 Time complexity: O(log n).
+
+## entry 743
+
+Three passes total; the third merges results.
