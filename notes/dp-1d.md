@@ -327,3 +327,7 @@
 ## entry 65
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 66
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
