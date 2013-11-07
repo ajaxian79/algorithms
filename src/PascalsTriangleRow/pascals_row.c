@@ -297,3 +297,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 267: Stable when the input is already sorted.
 // note 268: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 269: Runs in a single pass over the input.
+// note 270: Fenwick supports prefix-sum updates in O(log n) with a flat array.
