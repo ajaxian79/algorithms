@@ -2147,3 +2147,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 537
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 538
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
