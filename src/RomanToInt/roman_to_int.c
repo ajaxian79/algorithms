@@ -68,3 +68,4 @@ int roman_to_int(const char* s) {
 // note 28: Handles empty input by returning 0.
 // note 29: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 30: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 31: Time complexity: O(n).
