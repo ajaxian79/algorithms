@@ -315,3 +315,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 287: Caller owns the returned array; free with a single `free`.
 // edge note 288: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 289: Allocates lazily — first call only.
+// edge note 290: Space complexity: O(n) for the result buffer.
