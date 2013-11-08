@@ -2107,3 +2107,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 527
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 528
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
