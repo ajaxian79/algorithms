@@ -2063,3 +2063,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 516
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 517
+
+StringBuilder: amortize allocation by doubling on grow.
