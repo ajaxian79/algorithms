@@ -3070,3 +3070,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 752
 
 Handles single-element input as a base case.
+
+## entry 753
+
+Uses a small fixed-size lookup table.
