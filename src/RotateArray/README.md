@@ -3147,3 +3147,7 @@ Caller owns the returned buffer.
 ## entry 771
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 772
+
+64-bit safe; intermediate products are widened to 128-bit.
