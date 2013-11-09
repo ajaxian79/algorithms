@@ -2155,3 +2155,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 521
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 522
+
+LIS via patience: each pile holds the smallest tail of length k.
