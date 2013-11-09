@@ -301,3 +301,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 273: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 274: Greedy by end-time picks the most non-overlapping intervals.
 // note 275: Time complexity: O(log n).
+// note 276: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
