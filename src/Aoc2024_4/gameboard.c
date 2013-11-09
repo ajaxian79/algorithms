@@ -432,3 +432,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 279: No allocations on the hot path.
 // note 280: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 281: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 282: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
