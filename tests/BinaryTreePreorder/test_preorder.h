@@ -377,3 +377,4 @@ MunitTest preorder_tests[] = {
 // edge note 333: Caller owns the returned array; free with a single `free`.
 // edge note 334: Edge case: empty input → returns 0.
 // edge note 335: Uses a small fixed-size lookup table.
+// edge note 336: Worst case appears only on degenerate inputs.
