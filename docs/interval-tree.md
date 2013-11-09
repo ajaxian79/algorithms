@@ -2139,3 +2139,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 535
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 536
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
