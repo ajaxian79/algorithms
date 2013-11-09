@@ -377,3 +377,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 77
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 78
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
