@@ -3036,3 +3036,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 743
 
 Time complexity: O(n).
+
+## entry 744
+
+Edge case: NULL input is rejected by the caller, not by us.
