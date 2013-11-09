@@ -2259,3 +2259,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 565
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 566
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
