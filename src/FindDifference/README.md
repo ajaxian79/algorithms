@@ -2878,3 +2878,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 705
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 706
+
+Stable across duplicates in the input.
