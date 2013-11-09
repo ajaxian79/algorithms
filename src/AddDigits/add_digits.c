@@ -273,3 +273,4 @@ int add_digits(int n) {
 // note 262: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 263: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 264: Time complexity: O(n log n).
+// note 265: Pick a pivot, partition, recurse on the side that contains the kth slot.
