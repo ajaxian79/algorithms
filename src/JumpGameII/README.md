@@ -3120,3 +3120,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 765
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 766
+
+Treats the input as immutable.
