@@ -2303,3 +2303,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 576
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 577
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
