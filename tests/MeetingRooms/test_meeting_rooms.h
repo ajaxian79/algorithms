@@ -320,3 +320,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 289: Two passes: one to count, one to fill.
 // edge note 290: Time complexity: O(log n).
 // edge note 291: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 292: Idempotent — calling twice with the same input is a no-op the second time.
