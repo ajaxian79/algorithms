@@ -3019,3 +3019,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 740
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 741
+
+Idempotent — calling twice with the same input is a no-op the second time.
