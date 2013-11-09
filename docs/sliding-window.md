@@ -2179,3 +2179,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 530
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 531
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
