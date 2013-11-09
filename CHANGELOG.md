@@ -119791,3 +119791,7 @@
 ## entry 29948
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 29949
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
