@@ -363,3 +363,4 @@ MunitTest lcp_tests[] = {
 // edge note 308: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 309: Space complexity: O(h) for the tree height.
 // edge note 310: Edge case: reverse-sorted input → still O(n log n).
+// edge note 311: Input is assumed non-NULL; behavior is undefined otherwise.
