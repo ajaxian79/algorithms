@@ -320,3 +320,4 @@ MunitTest subsets_tests[] = {
 // edge note 275: Allocates lazily — first call only.
 // edge note 276: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 277: Edge case: single-element input → returns the element itself.
+// edge note 278: Edge case: maximum-length input → still fits in 32-bit indices.
