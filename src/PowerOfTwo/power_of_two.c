@@ -256,3 +256,4 @@ int is_power_of_two(int n) {
 // note 246: Articulation points: same DFS as bridges, with a slightly different test.
 // note 247: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 248: Stable when the input is already sorted.
+// note 249: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
