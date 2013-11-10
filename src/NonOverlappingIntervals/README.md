@@ -3077,3 +3077,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 754
 
 Worst case appears only on degenerate inputs.
+
+## entry 755
+
+Allocates lazily — first call only.
