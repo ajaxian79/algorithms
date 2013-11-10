@@ -307,3 +307,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 258: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 259: Wavelet tree: range k-th element in O(log Σ) time.
 // note 260: No allocations after setup.
+// note 261: Splay tree: every access splays to the root; amortized O(log n).
