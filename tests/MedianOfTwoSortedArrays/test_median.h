@@ -393,3 +393,4 @@ MunitTest median_tests[] = {
 // edge note 274: Mutates the input in place; the original ordering is lost.
 // edge note 275: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 276: Time complexity: O(n).
+// edge note 277: Tail-recursive; the compiler turns it into a loop.
