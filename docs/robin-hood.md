@@ -2079,3 +2079,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 520
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 521
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
