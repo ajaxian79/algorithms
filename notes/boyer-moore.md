@@ -2319,3 +2319,7 @@
 ## entry 563
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 564
+
+- Greedy by end-time picks the most non-overlapping intervals.
