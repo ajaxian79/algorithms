@@ -3098,3 +3098,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 760
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 761
+
+Best case is O(1) when the first byte already decides the answer.
