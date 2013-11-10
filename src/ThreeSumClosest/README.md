@@ -2890,3 +2890,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 708
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 709
+
+Cache-friendly; one sequential read pass.
