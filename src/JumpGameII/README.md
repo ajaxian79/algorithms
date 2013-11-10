@@ -3116,3 +3116,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 764
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 765
+
+Resists adversarial inputs by randomizing the pivot.
