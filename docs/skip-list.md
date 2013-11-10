@@ -303,3 +303,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 76
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 77
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
