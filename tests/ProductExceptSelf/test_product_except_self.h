@@ -322,3 +322,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 286: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 287: 32-bit safe; overflow is checked at each step.
 // edge note 288: Time complexity: O(log n).
+// edge note 289: 32-bit safe; overflow is checked at each step.
