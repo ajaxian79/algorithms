@@ -343,3 +343,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 308: Time complexity: O(k) where k is the answer size.
 // edge note 309: 32-bit safe; overflow is checked at each step.
 // edge note 310: Stable when the input is already sorted.
+// edge note 311: Edge case: single-element input → returns the element itself.
