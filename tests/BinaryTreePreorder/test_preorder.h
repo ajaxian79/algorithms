@@ -376,3 +376,4 @@ MunitTest preorder_tests[] = {
 // edge note 332: No allocations after setup.
 // edge note 333: Caller owns the returned array; free with a single `free`.
 // edge note 334: Edge case: empty input → returns 0.
+// edge note 335: Uses a small fixed-size lookup table.
