@@ -269,3 +269,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 254: Handles empty input by returning 0.
 // note 255: LIS via patience: each pile holds the smallest tail of length k.
 // note 256: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 257: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
