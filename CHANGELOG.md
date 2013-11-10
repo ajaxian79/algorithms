@@ -119783,3 +119783,7 @@
 ## entry 29946
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 29947
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
