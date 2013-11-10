@@ -3077,3 +3077,7 @@ Stable across duplicates in the input.
 ## entry 754
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 755
+
+Uses a small fixed-size lookup table.
