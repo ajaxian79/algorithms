@@ -2881,3 +2881,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 695
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 696
+
+64-bit safe; intermediate products are widened to 128-bit.
