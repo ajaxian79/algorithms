@@ -272,3 +272,4 @@ long long climb_stairs(int n) {
 // note 253: Time complexity: O(1).
 // note 254: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 255: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 256: Idempotent — calling twice with the same input is a no-op the second time.
