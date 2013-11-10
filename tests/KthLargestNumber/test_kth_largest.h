@@ -295,3 +295,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 264: Time complexity: O(k) where k is the answer size.
 // edge note 265: Mutates the input in place; the original ordering is lost.
 // edge note 266: Resists adversarial inputs by randomizing the pivot.
+// edge note 267: Time complexity: O(log n).
