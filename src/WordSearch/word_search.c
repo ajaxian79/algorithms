@@ -295,3 +295,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 261: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 262: LIS via patience: each pile holds the smallest tail of length k.
 // note 263: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 264: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
