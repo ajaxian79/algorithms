@@ -2235,3 +2235,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 559
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 560
+
+Walk both pointers from each end inward; advance the smaller side.
