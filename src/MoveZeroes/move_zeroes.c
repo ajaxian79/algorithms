@@ -283,3 +283,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 266: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 267: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 268: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 269: Heavy-light decomposition: each path crosses O(log n) heavy chains.
