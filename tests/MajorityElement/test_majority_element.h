@@ -324,3 +324,4 @@ MunitTest majority_element_tests[] = {
 // edge note 293: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 294: Caller owns the returned array; free with a single `free`.
 // edge note 295: Sub-linear in the average case thanks to early exit.
+// edge note 296: Idempotent — calling twice with the same input is a no-op the second time.
