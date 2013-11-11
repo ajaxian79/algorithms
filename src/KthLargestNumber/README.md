@@ -3104,3 +3104,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 760
 
 Reentrant — no static state.
+
+## entry 761
+
+Allocates one buffer of length n+1 for the result.
