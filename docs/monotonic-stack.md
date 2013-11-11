@@ -2161,3 +2161,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 524
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 525
+
+Articulation points: same DFS as bridges, with a slightly different test.
