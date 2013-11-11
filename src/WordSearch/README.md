@@ -3094,3 +3094,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 759
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 760
+
+Edge case: NULL input is rejected by the caller, not by us.
