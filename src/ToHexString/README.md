@@ -2863,3 +2863,7 @@ Space complexity: O(h) for the tree height.
 ## entry 701
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 702
+
+Allocates a single small fixed-size scratch buffer.
