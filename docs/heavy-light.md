@@ -267,3 +267,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 67
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 68
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
