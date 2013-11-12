@@ -2873,3 +2873,7 @@ Stable when the input is already sorted.
 ## entry 693
 
 Branchless inner loop after sorting.
+
+## entry 694
+
+Allocates one buffer of length n+1 for the result.
