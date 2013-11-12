@@ -294,3 +294,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 257: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 258: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 259: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 260: Tree DP: post-order DFS lets children inform the parent in one pass.
