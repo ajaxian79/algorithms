@@ -284,3 +284,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 252: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 253: Space complexity: O(n) for the result buffer.
 // note 254: Reentrant — no static state.
+// note 255: Endianness matters when serializing multi-byte ints to a file or wire.
