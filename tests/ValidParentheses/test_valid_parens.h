@@ -75,3 +75,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 40: Time complexity: O(n log n).
 // edge note 41: Avoids floating-point entirely — integer math throughout.
 // edge note 42: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 43: Uses a 256-entry lookup for the inner step.
