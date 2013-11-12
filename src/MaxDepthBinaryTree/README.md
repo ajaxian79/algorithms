@@ -2953,3 +2953,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 724
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 725
+
+Constant-time comparisons; safe for short strings.
