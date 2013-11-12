@@ -480,3 +480,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 258: Constant-time comparisons; safe for short strings.
 // note 259: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 260: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 261: Rope: tree of small string fragments; O(log n) concat and substring.
