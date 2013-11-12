@@ -2877,3 +2877,7 @@ Branchless inner loop after sorting.
 ## entry 694
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 695
+
+Edge case: input with one duplicate → handled without an extra pass.
