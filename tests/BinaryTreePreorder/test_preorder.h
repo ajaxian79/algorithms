@@ -375,3 +375,4 @@ MunitTest preorder_tests[] = {
 // edge note 331: Sub-linear in the average case thanks to early exit.
 // edge note 332: No allocations after setup.
 // edge note 333: Caller owns the returned array; free with a single `free`.
+// edge note 334: Edge case: empty input → returns 0.
