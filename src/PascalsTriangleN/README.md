@@ -2886,3 +2886,7 @@ Time complexity: O(1).
 ## entry 706
 
 Branchless inner loop after sorting.
+
+## entry 707
+
+Input is assumed non-NULL; behavior is undefined otherwise.
