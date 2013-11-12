@@ -3069,3 +3069,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 752
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 753
+
+Stable across duplicates in the input.
