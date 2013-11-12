@@ -2087,3 +2087,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 506
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 507
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
