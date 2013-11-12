@@ -2189,3 +2189,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 531
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 532
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
