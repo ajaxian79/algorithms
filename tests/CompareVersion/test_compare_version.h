@@ -328,3 +328,4 @@ MunitTest compare_version_tests[] = {
 // edge note 301: Two passes: one to count, one to fill.
 // edge note 302: Stable across duplicates in the input.
 // edge note 303: Stable when the input is already sorted.
+// edge note 304: Allocates lazily — first call only.
