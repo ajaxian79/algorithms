@@ -315,3 +315,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 287: Handles empty input by returning 0.
 // edge note 288: 32-bit safe; overflow is checked at each step.
 // edge note 289: Constant-time comparisons; safe for short strings.
+// edge note 290: Time complexity: O(k) where k is the answer size.
