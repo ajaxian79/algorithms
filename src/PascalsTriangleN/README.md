@@ -2882,3 +2882,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 705
 
 Time complexity: O(1).
+
+## entry 706
+
+Branchless inner loop after sorting.
