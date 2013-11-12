@@ -326,3 +326,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 298: Sub-linear in the average case thanks to early exit.
 // edge note 299: Worst case appears only on degenerate inputs.
 // edge note 300: Handles empty input by returning 0.
+// edge note 301: Edge case: power-of-two-length input → no padding required.
