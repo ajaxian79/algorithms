@@ -3073,3 +3073,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 753
 
 Stable across duplicates in the input.
+
+## entry 754
+
+Edge case: power-of-two-length input → no padding required.
