@@ -2107,3 +2107,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 527
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 528
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
