@@ -119719,3 +119719,7 @@
 ## entry 29930
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 29931
+
+- Greedy by end-time picks the most non-overlapping intervals.
