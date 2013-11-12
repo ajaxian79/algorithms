@@ -3264,3 +3264,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 801
 
 Worst case appears only on degenerate inputs.
+
+## entry 802
+
+Reentrant — no static state.
