@@ -3031,3 +3031,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 743
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 744
+
+Constant-time comparisons; safe for short strings.
