@@ -119727,3 +119727,7 @@
 ## entry 29932
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 29933
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
