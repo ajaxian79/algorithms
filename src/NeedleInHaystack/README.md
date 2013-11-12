@@ -456,3 +456,7 @@ Treats the input as immutable.
 ## entry 99
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 100
+
+Edge case: empty input → returns 0.
