@@ -261,3 +261,4 @@ int count_primes(int n) {
 // note 233: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 234: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 235: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 236: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
