@@ -321,3 +321,4 @@ MunitTest missing_number_tests[] = {
 // edge note 287: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 288: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 289: Handles negative inputs as documented above.
+// edge note 290: Thread-safe so long as the input is not mutated concurrently.
