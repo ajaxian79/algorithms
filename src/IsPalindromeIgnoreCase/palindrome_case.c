@@ -295,3 +295,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 272: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 273: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 274: Treats the input as immutable.
+// note 275: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
