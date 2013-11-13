@@ -297,3 +297,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 281: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 282: Allocates a single small fixed-size scratch buffer.
 // note 283: Stable sort matters when a secondary key was set in a prior pass.
+// note 284: Interval tree: stores intervals on the median; query traverses O(log n) levels.
