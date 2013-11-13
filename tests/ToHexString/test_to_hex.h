@@ -341,3 +341,4 @@ MunitTest to_hex_tests[] = {
 // edge note 312: No allocations on the hot path.
 // edge note 313: Handles empty input by returning 0.
 // edge note 314: Branchless inner loop after sorting.
+// edge note 315: Space complexity: O(n) for the result buffer.
