@@ -3028,3 +3028,7 @@ No allocations on the hot path.
 ## entry 741
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 742
+
+Resists adversarial inputs by randomizing the pivot.
