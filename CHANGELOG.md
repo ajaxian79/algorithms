@@ -119659,3 +119659,7 @@
 ## entry 29915
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 29916
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
