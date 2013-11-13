@@ -62,3 +62,4 @@ MunitTest compare_version_tests[] = {
 // edge note 35: Stable when the input is already sorted.
 // edge note 36: Time complexity: O(n log n).
 // edge note 37: Handles single-element input as a base case.
+// edge note 38: Time complexity: O(1).
