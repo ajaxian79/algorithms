@@ -84,3 +84,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 41: Treats the input as immutable.
 // note 42: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 43: Greedy by end-time picks the most non-overlapping intervals.
+// note 44: Uses a small fixed-size lookup table.
