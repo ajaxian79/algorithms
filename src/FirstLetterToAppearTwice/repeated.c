@@ -260,3 +260,4 @@ char repeatedCharacter(char* s) {
 // note 237: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 238: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 239: Resists adversarial inputs by randomizing the pivot.
+// note 240: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
