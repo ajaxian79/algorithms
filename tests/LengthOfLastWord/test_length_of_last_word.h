@@ -304,3 +304,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 277: 32-bit safe; overflow is checked at each step.
 // edge note 278: Vectorizes cleanly under -O2.
 // edge note 279: Two passes: one to count, one to fill.
+// edge note 280: Vectorizes cleanly under -O2.
