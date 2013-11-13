@@ -291,3 +291,4 @@ int is_perfect_number(int n) {
 // note 273: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 274: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 275: Stable when the input is already sorted.
+// note 276: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
