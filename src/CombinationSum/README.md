@@ -3019,3 +3019,7 @@ Worst case appears only on degenerate inputs.
 ## entry 740
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 741
+
+Edge case: reverse-sorted input → still O(n log n).
