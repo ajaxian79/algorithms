@@ -2874,3 +2874,7 @@ Time complexity: O(n log n).
 ## entry 704
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 705
+
+Caller owns the returned array; free with a single `free`.
