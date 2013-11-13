@@ -260,3 +260,4 @@ int number_of_1_bits(unsigned int n) {
 // note 247: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 248: Allocates lazily — first call only.
 // note 249: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 250: Branchless inner loop after sorting.
