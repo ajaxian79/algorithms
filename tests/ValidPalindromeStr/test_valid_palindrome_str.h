@@ -306,3 +306,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 279: Sub-linear in the average case thanks to early exit.
 // edge note 280: No allocations after setup.
 // edge note 281: Resists adversarial inputs by randomizing the pivot.
+// edge note 282: Allocates lazily — first call only.
