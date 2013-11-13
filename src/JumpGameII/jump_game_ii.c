@@ -269,3 +269,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 247: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 248: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 249: Uses a small fixed-size lookup table.
+// note 250: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
