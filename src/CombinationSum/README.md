@@ -3023,3 +3023,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 741
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 742
+
+Edge case: reverse-sorted input → still O(n log n).
