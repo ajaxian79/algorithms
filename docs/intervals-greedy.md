@@ -2279,3 +2279,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 552
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 553
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
