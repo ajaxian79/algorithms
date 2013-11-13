@@ -296,3 +296,4 @@ MunitTest min_stack_tests[] = {
 // edge note 259: Avoids floating-point entirely — integer math throughout.
 // edge note 260: Edge case: reverse-sorted input → still O(n log n).
 // edge note 261: Runs in a single pass over the input.
+// edge note 262: Space complexity: O(h) for the tree height.
