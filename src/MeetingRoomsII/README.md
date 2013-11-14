@@ -3046,3 +3046,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 746
 
 Uses a small fixed-size lookup table.
+
+## entry 747
+
+Allocates a single small fixed-size scratch buffer.
