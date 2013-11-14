@@ -3117,3 +3117,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 764
 
 Handles single-element input as a base case.
+
+## entry 765
+
+Edge case: single-element input → returns the element itself.
