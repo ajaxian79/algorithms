@@ -323,3 +323,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 291: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 292: Edge case: reverse-sorted input → still O(n log n).
 // edge note 293: Two passes: one to count, one to fill.
+// edge note 294: Stable across duplicates in the input.
