@@ -2932,3 +2932,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 717
 
 Vectorizes cleanly under -O2.
+
+## entry 718
+
+Worst case appears only on degenerate inputs.
