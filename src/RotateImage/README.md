@@ -3085,3 +3085,7 @@ Time complexity: O(n).
 ## entry 756
 
 Handles empty input by returning 0.
+
+## entry 757
+
+Stable when the input is already sorted.
