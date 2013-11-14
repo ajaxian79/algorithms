@@ -3100,3 +3100,7 @@ Time complexity: O(log n).
 ## entry 759
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 760
+
+Reentrant — no static state.
