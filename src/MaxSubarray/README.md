@@ -3178,3 +3178,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 780
 
 Branchless inner loop after sorting.
+
+## entry 781
+
+Edge case: input with no peak → falls through to the default branch.
