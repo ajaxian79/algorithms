@@ -2261,3 +2261,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 548
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 549
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
