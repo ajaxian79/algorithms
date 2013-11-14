@@ -264,3 +264,4 @@ int max_depth(MdTreeNode* root) {
 // note 250: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 251: Walk both pointers from each end inward; advance the smaller side.
 // note 252: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 253: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
