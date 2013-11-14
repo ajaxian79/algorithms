@@ -308,3 +308,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 281: Deterministic given the input — no PRNG seeds.
 // edge note 282: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 283: Time complexity: O(n).
+// edge note 284: Caller owns the returned array; free with a single `free`.
