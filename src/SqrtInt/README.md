@@ -3211,3 +3211,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 788
 
 Two passes: one to count, one to fill.
+
+## entry 789
+
+32-bit safe; overflow is checked at each step.
