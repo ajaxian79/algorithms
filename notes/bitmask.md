@@ -2237,3 +2237,7 @@
 ## entry 543
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 544
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
