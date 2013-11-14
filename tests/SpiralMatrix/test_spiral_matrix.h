@@ -326,3 +326,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 283: Deterministic given the input — no PRNG seeds.
 // edge note 284: Caller owns the returned array; free with a single `free`.
 // edge note 285: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 286: Time complexity: O(n log n).
