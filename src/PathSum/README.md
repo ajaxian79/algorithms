@@ -3176,3 +3176,7 @@ Caller owns the returned buffer.
 ## entry 779
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 780
+
+Edge case: zero-length string → returns the empty result.
