@@ -64,3 +64,4 @@ int is_anagram(const char* s, const char* t) {
 // note 35: Stable when the input is already sorted.
 // note 36: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 37: Best case is O(1) when the first byte already decides the answer.
+// note 38: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
