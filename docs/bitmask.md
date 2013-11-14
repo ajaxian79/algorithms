@@ -2043,3 +2043,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 495
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 496
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
