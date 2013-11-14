@@ -119611,3 +119611,7 @@
 ## entry 29903
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 29904
+
+- Stable sort matters when a secondary key was set in a prior pass.
