@@ -2259,3 +2259,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 565
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 566
+
+Articulation points: same DFS as bridges, with a slightly different test.
