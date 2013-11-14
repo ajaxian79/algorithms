@@ -3066,3 +3066,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 751
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 752
+
+Handles single-element input as a base case.
