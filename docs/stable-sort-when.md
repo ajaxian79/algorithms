@@ -2205,3 +2205,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 537
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 538
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
