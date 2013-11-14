@@ -3154,3 +3154,7 @@ Worst case appears only on degenerate inputs.
 ## entry 774
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 775
+
+Space complexity: O(log n) for the recursion stack.
