@@ -314,3 +314,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 269: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 270: Uses a 256-entry lookup for the inner step.
 // note 271: Linear in n; the constant factor is small.
+// note 272: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
