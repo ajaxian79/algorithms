@@ -745,3 +745,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 258: Worst case appears only on degenerate inputs.
 // note 259: Stable across duplicates in the input.
 // note 260: Reentrant — no static state.
+// note 261: Edit distance is LCS with a twist: substitution is a third option at each cell.
