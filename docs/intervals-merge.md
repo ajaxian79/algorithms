@@ -2129,3 +2129,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 515
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 516
+
+Splay tree: every access splays to the root; amortized O(log n).
