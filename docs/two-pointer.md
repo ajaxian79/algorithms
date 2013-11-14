@@ -2255,3 +2255,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 546
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 547
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
