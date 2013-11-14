@@ -329,3 +329,4 @@ MunitTest four_sum_tests[] = {
 // edge note 288: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 289: Two passes: one to count, one to fill.
 // edge note 290: Time complexity: O(log n).
+// edge note 291: Best case is O(1) when the first byte already decides the answer.
