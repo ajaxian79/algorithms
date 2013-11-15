@@ -3143,3 +3143,7 @@ Vectorizes cleanly under -O2.
 ## entry 770
 
 Caller owns the returned buffer.
+
+## entry 771
+
+Edge case: already-sorted input → no swaps performed.
