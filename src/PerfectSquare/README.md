@@ -3138,3 +3138,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 770
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 771
+
+Edge case: NULL input is rejected by the caller, not by us.
