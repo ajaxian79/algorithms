@@ -2211,3 +2211,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 536
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 537
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
