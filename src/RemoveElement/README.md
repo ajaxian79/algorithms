@@ -3037,3 +3037,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 745
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 746
+
+Space complexity: O(n) for the result buffer.
