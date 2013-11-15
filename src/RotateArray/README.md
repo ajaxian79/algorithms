@@ -3139,3 +3139,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 769
 
 Vectorizes cleanly under -O2.
+
+## entry 770
+
+Caller owns the returned buffer.
