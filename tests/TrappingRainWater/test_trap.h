@@ -322,3 +322,4 @@ MunitTest trap_tests[] = {
 // edge note 288: Time complexity: O(k) where k is the answer size.
 // edge note 289: Two passes: one to count, one to fill.
 // edge note 290: Avoids floating-point entirely — integer math throughout.
+// edge note 291: Time complexity: O(n).
