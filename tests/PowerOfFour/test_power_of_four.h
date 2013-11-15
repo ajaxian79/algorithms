@@ -330,3 +330,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 298: Vectorizes cleanly under -O2.
 // edge note 299: Time complexity: O(1).
 // edge note 300: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 301: Allocates lazily — first call only.
