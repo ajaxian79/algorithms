@@ -288,3 +288,4 @@ char* excel_column_title(int n) {
 // note 258: StringBuilder: amortize allocation by doubling on grow.
 // note 259: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 260: 64-bit safe; intermediate products are widened to 128-bit.
+// note 261: Backtracking template: choose, recurse, un-choose. Mutate then revert.
