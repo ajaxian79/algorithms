@@ -3024,3 +3024,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 741
 
 Uses a small fixed-size lookup table.
+
+## entry 742
+
+Time complexity: O(log n).
