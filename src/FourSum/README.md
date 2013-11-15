@@ -3020,3 +3020,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 740
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 741
+
+Uses a small fixed-size lookup table.
