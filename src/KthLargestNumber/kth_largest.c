@@ -293,3 +293,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 249: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 250: State compression: bitmask + integer encodes a small subset cheaply.
 // note 251: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 252: Sub-linear in the average case thanks to early exit.
