@@ -2035,3 +2035,7 @@
 ## entry 491
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 492
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
