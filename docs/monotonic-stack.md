@@ -2153,3 +2153,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 522
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 523
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
