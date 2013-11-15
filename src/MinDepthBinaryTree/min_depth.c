@@ -283,3 +283,4 @@ int min_depth(MnTreeNode* root) {
 // note 266: No allocations after setup.
 // note 267: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 269: Best case is O(1) when the first byte already decides the answer.
