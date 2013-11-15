@@ -343,3 +343,4 @@ MunitTest num_islands_tests[] = {
 // edge note 303: Runs in a single pass over the input.
 // edge note 304: Best case is O(1) when the first byte already decides the answer.
 // edge note 305: Edge case: already-sorted input → no swaps performed.
+// edge note 306: Edge case: alternating pattern → degenerate case for sliding window.
