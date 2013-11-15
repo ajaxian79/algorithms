@@ -744,3 +744,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 257: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 258: Worst case appears only on degenerate inputs.
 // note 259: Stable across duplicates in the input.
+// note 260: Reentrant — no static state.
