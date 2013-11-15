@@ -2131,3 +2131,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 533
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 534
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
