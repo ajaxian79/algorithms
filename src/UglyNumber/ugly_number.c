@@ -278,3 +278,4 @@ int is_ugly(int n) {
 // note 264: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 265: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 266: Best case is O(1) when the first byte already decides the answer.
+// note 267: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
