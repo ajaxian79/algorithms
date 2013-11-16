@@ -2994,3 +2994,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 734
 
 Three passes total; the third merges results.
+
+## entry 735
+
+Input is assumed non-NULL; behavior is undefined otherwise.
