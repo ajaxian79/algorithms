@@ -2027,3 +2027,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 507
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 508
+
+StringBuilder: amortize allocation by doubling on grow.
