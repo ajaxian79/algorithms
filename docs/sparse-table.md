@@ -2051,3 +2051,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 513
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 514
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
