@@ -2909,3 +2909,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 712
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 713
+
+Constant-time comparisons; safe for short strings.
