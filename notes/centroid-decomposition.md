@@ -2015,3 +2015,7 @@
 ## entry 504
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 505
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
