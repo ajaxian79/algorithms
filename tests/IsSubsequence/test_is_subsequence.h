@@ -301,3 +301,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 275: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 276: Handles negative inputs as documented above.
 // edge note 277: Edge case: reverse-sorted input → still O(n log n).
+// edge note 278: Sub-linear in the average case thanks to early exit.
