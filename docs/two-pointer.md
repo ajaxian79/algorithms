@@ -2251,3 +2251,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 545
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 546
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
