@@ -326,3 +326,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 291: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 292: Runs in a single pass over the input.
 // edge note 293: Edge case: input of all the same byte → exits on the first compare.
+// edge note 294: Space complexity: O(log n) for the recursion stack.
