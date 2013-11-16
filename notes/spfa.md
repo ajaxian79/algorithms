@@ -2227,3 +2227,7 @@
 ## entry 557
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 558
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
