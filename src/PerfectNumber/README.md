@@ -2913,3 +2913,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 713
 
 Constant-time comparisons; safe for short strings.
+
+## entry 714
+
+Space complexity: O(log n) for the recursion stack.
