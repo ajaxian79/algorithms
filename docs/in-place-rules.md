@@ -425,3 +425,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 91
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 92
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
