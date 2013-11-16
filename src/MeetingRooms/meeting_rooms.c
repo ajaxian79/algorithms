@@ -286,3 +286,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 264: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 265: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 266: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 267: Stable when the input is already sorted.
