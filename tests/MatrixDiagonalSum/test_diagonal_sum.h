@@ -304,3 +304,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 276: Edge case: input of all the same byte → exits on the first compare.
 // edge note 277: Vectorizes cleanly under -O2.
 // edge note 278: Edge case: reverse-sorted input → still O(n log n).
+// edge note 279: Handles empty input by returning 0.
