@@ -363,3 +363,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 304: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 305: Time complexity: O(n).
 // edge note 306: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 307: Time complexity: O(n).
