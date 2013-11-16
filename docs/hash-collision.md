@@ -2231,3 +2231,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 558
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 559
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
