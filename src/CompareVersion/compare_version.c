@@ -283,3 +283,4 @@ int compare_version(const char* a, const char* b) {
 // note 253: Space complexity: O(1) auxiliary.
 // note 254: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 255: 64-bit safe; intermediate products are widened to 128-bit.
+// note 256: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
