@@ -3078,3 +3078,7 @@ Stable across duplicates in the input.
 ## entry 755
 
 Time complexity: O(n log n).
+
+## entry 756
+
+Edge case: input with one duplicate → handled without an extra pass.
