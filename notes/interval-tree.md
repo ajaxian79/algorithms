@@ -2115,3 +2115,7 @@
 ## entry 529
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 530
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
