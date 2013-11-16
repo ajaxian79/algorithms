@@ -3194,3 +3194,7 @@ Handles single-element input as a base case.
 ## entry 784
 
 Edge case: empty input → returns 0.
+
+## entry 785
+
+Space complexity: O(1) auxiliary.
