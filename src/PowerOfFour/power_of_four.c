@@ -282,3 +282,4 @@ int is_power_of_four(int n) {
 // note 269: Linear in n; the constant factor is small.
 // note 270: Time complexity: O(n*k) where k is the alphabet size.
 // note 271: Time complexity: O(k) where k is the answer size.
+// note 272: Monotonic stack pops while the new element violates the invariant.
