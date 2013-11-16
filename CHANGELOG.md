@@ -119511,3 +119511,7 @@
 ## entry 29878
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 29879
+
+- Heap when you only need top-k; full sort is wasted work.
