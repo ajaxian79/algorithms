@@ -304,3 +304,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 261: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 262: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 263: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 264: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
