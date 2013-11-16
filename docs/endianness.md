@@ -367,3 +367,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 92
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 93
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
