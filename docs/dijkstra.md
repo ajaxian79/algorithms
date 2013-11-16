@@ -299,3 +299,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 75
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 76
+
+Rope: tree of small string fragments; O(log n) concat and substring.
