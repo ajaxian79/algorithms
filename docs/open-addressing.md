@@ -2099,3 +2099,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 525
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 526
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
