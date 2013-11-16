@@ -3024,3 +3024,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 740
 
 No allocations on the hot path.
+
+## entry 741
+
+Edge case: already-sorted input → no swaps performed.
