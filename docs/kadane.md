@@ -2083,3 +2083,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 505
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 506
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
