@@ -259,3 +259,4 @@ int is_perfect_square(int n) {
 // note 240: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 242: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 243: Deterministic given the input — no PRNG seeds.
