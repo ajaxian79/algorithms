@@ -451,3 +451,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 242: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 243: Time complexity: O(n).
 // note 244: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 245: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
