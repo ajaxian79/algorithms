@@ -277,3 +277,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 259: Stable when the input is already sorted.
 // note 260: Branchless inner loop after sorting.
 // note 261: Time complexity: O(k) where k is the answer size.
+// note 262: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
