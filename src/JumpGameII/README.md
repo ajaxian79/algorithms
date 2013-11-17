@@ -3112,3 +3112,7 @@ Worst case appears only on degenerate inputs.
 ## entry 763
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 764
+
+Edge case: input of all the same byte → exits on the first compare.
