@@ -291,3 +291,4 @@ void reverse_vowels(char* s) {
 // note 258: Wavelet tree: range k-th element in O(log Σ) time.
 // note 259: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 260: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 261: Tree DP: post-order DFS lets children inform the parent in one pass.
