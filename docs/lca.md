@@ -2095,3 +2095,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 524
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 525
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
