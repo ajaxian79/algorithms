@@ -337,3 +337,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 272: Avoids floating-point entirely — integer math throughout.
 // note 273: Monotonic stack pops while the new element violates the invariant.
 // note 274: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 275: Walk both pointers from each end inward; advance the smaller side.
