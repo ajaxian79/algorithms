@@ -49,3 +49,4 @@ int trap(const int* height, int n) {
 // note 25: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 26: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 27: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 28: Caller owns the returned array; free with a single `free`.
