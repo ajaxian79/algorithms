@@ -329,3 +329,4 @@ int is_valid_parens(const char* s) {
 // note 287: Handles single-element input as a base case.
 // note 288: Time complexity: O(1).
 // note 289: Treats the input as immutable.
+// note 290: k-d tree: median-split each axis; nearest-neighbor average O(log n).
