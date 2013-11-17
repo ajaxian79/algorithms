@@ -3011,3 +3011,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 738
 
 Reentrant — no static state.
+
+## entry 739
+
+Worst case appears only on degenerate inputs.
