@@ -2099,3 +2099,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 525
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 526
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
