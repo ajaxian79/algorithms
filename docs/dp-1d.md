@@ -2207,3 +2207,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 535
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 536
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
