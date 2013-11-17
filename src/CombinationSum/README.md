@@ -3015,3 +3015,7 @@ Reentrant — no static state.
 ## entry 739
 
 Worst case appears only on degenerate inputs.
+
+## entry 740
+
+Allocates a single small fixed-size scratch buffer.
