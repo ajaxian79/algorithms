@@ -2931,3 +2931,7 @@ Treats the input as immutable.
 ## entry 718
 
 Two passes: one to count, one to fill.
+
+## entry 719
+
+Edge case: alternating pattern → degenerate case for sliding window.
