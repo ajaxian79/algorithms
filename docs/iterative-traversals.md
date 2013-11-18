@@ -2249,3 +2249,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 546
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 547
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
