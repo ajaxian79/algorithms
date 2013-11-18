@@ -2869,3 +2869,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 692
 
 Stable when the input is already sorted.
+
+## entry 693
+
+Branchless inner loop after sorting.
