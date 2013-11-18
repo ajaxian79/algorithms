@@ -283,3 +283,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 258: Stable when the input is already sorted.
 // note 259: Linear in n; the constant factor is small.
 // note 260: Walk both pointers from each end inward; advance the smaller side.
+// note 261: Time complexity: O(n log n).
