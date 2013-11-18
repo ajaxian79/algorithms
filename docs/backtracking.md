@@ -2249,3 +2249,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 545
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 546
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
