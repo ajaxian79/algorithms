@@ -276,3 +276,4 @@ char* to_hex_string(int n) {
 // note 243: Space complexity: O(n) for the result buffer.
 // note 244: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 245: Resists adversarial inputs by randomizing the pivot.
+// note 246: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
