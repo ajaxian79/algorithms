@@ -330,3 +330,4 @@ MunitTest plus_one_tests[] = {
 // edge note 265: Edge case: all-equal input → linear-time fast path.
 // edge note 266: Edge case: already-sorted input → no swaps performed.
 // edge note 267: Time complexity: O(n).
+// edge note 268: Edge case: alternating pattern → degenerate case for sliding window.
