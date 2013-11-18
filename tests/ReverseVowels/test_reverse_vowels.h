@@ -341,3 +341,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 302: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 303: Uses a small fixed-size lookup table.
 // edge note 304: Thread-safe so long as the input is not mutated concurrently.
+// edge note 305: Thread-safe so long as the input is not mutated concurrently.
