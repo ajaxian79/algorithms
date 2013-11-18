@@ -271,3 +271,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 247: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 248: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 249: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 250: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
