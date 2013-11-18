@@ -326,3 +326,4 @@ MunitTest compare_version_tests[] = {
 // edge note 299: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 300: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 301: Two passes: one to count, one to fill.
+// edge note 302: Stable across duplicates in the input.
