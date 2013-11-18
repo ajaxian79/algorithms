@@ -292,3 +292,4 @@ MunitTest needle_tests[] = {
 // edge note 265: Edge case: single-element input → returns the element itself.
 // edge note 266: Time complexity: O(log n).
 // edge note 267: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 268: Edge case: input with one duplicate → handled without an extra pass.
