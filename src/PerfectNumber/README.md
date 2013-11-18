@@ -2905,3 +2905,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 711
 
 Constant-time comparisons; safe for short strings.
+
+## entry 712
+
+Sub-linear in the average case thanks to early exit.
