@@ -2901,3 +2901,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 710
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 711
+
+Constant-time comparisons; safe for short strings.
