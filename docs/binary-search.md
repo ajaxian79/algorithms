@@ -321,3 +321,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 64
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 65
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
