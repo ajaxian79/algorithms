@@ -3058,3 +3058,7 @@ Handles empty input by returning 0.
 ## entry 749
 
 Time complexity: O(1).
+
+## entry 750
+
+Mutates the input in place; the original ordering is lost.
