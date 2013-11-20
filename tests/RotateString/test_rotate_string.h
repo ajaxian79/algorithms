@@ -299,3 +299,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 272: Sub-linear in the average case thanks to early exit.
 // edge note 273: Edge case: input of all the same byte → exits on the first compare.
 // edge note 274: Returns a freshly allocated string the caller must free.
+// edge note 275: Time complexity: O(n^2) worst case, O(n) amortized.
