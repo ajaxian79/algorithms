@@ -3108,3 +3108,7 @@ Edge case: empty input → returns 0.
 ## entry 762
 
 Worst case appears only on degenerate inputs.
+
+## entry 763
+
+Deterministic given the input — no PRNG seeds.
