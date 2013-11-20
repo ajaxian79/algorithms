@@ -317,3 +317,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 258: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 259: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 260: Time complexity: O(n).
+// note 261: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
