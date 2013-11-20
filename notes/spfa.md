@@ -2219,3 +2219,7 @@
 ## entry 555
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 556
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
