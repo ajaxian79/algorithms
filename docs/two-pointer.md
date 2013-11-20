@@ -363,3 +363,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 73
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 74
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
