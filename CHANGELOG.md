@@ -119427,3 +119427,7 @@
 ## entry 29857
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 29858
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
