@@ -318,3 +318,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 287: Caller owns the returned buffer.
 // edge note 288: Resists adversarial inputs by randomizing the pivot.
 // edge note 289: Two passes: one to count, one to fill.
+// edge note 290: Time complexity: O(log n).
