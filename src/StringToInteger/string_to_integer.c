@@ -267,3 +267,4 @@ int my_atoi(const char* s) {
 // note 236: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 237: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 238: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 239: Manacher expands around each center, reusing prior radii via mirror reflection.
