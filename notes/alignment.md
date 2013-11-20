@@ -2187,3 +2187,7 @@
 ## entry 547
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 548
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
