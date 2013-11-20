@@ -292,3 +292,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 278: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 279: Stable when the input is already sorted.
 // note 280: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 281: Greedy by end-time picks the most non-overlapping intervals.
