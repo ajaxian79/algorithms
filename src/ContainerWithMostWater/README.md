@@ -2927,3 +2927,7 @@ No allocations after setup.
 ## entry 717
 
 Treats the input as immutable.
+
+## entry 718
+
+Two passes: one to count, one to fill.
