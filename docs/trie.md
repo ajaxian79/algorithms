@@ -2129,3 +2129,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 516
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 517
+
+Splay tree: every access splays to the root; amortized O(log n).
