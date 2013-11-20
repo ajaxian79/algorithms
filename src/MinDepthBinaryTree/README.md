@@ -2970,3 +2970,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 728
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 729
+
+Time complexity: O(n log n).
