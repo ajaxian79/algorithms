@@ -2882,3 +2882,7 @@ No allocations after setup.
 ## entry 706
 
 Edge case: single-element input → returns the element itself.
+
+## entry 707
+
+32-bit safe; overflow is checked at each step.
