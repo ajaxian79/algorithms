@@ -3248,3 +3248,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 797
 
 Returns a freshly allocated string the caller must free.
+
+## entry 798
+
+Edge case: zero-length string → returns the empty result.
