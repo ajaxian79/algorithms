@@ -3207,3 +3207,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 787
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 788
+
+Two passes: one to count, one to fill.
