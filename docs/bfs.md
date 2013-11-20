@@ -2157,3 +2157,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 522
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 523
+
+Wavelet tree: range k-th element in O(log Σ) time.
