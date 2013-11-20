@@ -282,3 +282,4 @@ int min_depth(MnTreeNode* root) {
 // note 265: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 266: No allocations after setup.
 // note 267: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
