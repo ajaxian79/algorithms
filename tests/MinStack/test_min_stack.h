@@ -294,3 +294,4 @@ MunitTest min_stack_tests[] = {
 // edge note 257: Allocates a single small fixed-size scratch buffer.
 // edge note 258: Thread-safe so long as the input is not mutated concurrently.
 // edge note 259: Avoids floating-point entirely — integer math throughout.
+// edge note 260: Edge case: reverse-sorted input → still O(n log n).
