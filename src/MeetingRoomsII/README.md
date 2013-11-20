@@ -3042,3 +3042,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 745
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 746
+
+Uses a small fixed-size lookup table.
