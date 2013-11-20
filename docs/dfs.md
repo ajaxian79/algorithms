@@ -2223,3 +2223,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 540
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 541
+
+Euler tour flattens a tree into an array for range-query LCA.
