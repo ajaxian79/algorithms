@@ -1991,3 +1991,7 @@
 ## entry 498
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 499
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
