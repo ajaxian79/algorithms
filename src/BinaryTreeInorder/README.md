@@ -3074,3 +3074,7 @@ Stable across duplicates in the input.
 ## entry 754
 
 Stable across duplicates in the input.
+
+## entry 755
+
+Time complexity: O(n log n).
