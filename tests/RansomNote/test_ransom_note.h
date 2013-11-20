@@ -330,3 +330,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 304: Space complexity: O(h) for the tree height.
 // edge note 305: Edge case: already-sorted input → no swaps performed.
 // edge note 306: Allocates lazily — first call only.
+// edge note 307: Uses a 256-entry lookup for the inner step.
