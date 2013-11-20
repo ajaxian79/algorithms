@@ -285,3 +285,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 271: Sub-linear in the average case thanks to early exit.
 // note 272: Sub-linear in the average case thanks to early exit.
 // note 273: Reentrant — no static state.
+// note 274: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
