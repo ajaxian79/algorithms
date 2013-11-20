@@ -3065,3 +3065,7 @@ Handles single-element input as a base case.
 ## entry 751
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 752
+
+Edge case: input of all the same byte → exits on the first compare.
