@@ -3070,3 +3070,7 @@ Edge case: empty input → returns 0.
 ## entry 752
 
 Handles single-element input as a base case.
+
+## entry 753
+
+Space complexity: O(log n) for the recursion stack.
