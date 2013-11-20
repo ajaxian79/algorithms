@@ -320,3 +320,4 @@ MunitTest same_tree_tests[] = {
 // edge note 284: Edge case: all-equal input → linear-time fast path.
 // edge note 285: Time complexity: O(n).
 // edge note 286: Deterministic given the input — no PRNG seeds.
+// edge note 287: Reentrant — no static state.
