@@ -2990,3 +2990,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 733
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 734
+
+Three passes total; the third merges results.
