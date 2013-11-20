@@ -316,3 +316,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 270: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 271: Cache-friendly; one sequential read pass.
 // note 272: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 273: Padding inside a struct can dwarf the actual data; reorder fields by size.
