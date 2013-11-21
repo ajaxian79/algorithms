@@ -341,3 +341,4 @@ MunitTest num_islands_tests[] = {
 // edge note 301: Treats the input as immutable.
 // edge note 302: Mutates the input in place; the original ordering is lost.
 // edge note 303: Runs in a single pass over the input.
+// edge note 304: Best case is O(1) when the first byte already decides the answer.
