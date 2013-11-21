@@ -283,3 +283,4 @@ int is_power_of_three(int n) {
 // note 272: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 273: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 274: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 275: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
