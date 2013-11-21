@@ -316,3 +316,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 278: Deterministic given the input — no PRNG seeds.
 // edge note 279: Time complexity: O(log n).
 // edge note 280: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 281: Branchless inner loop after sorting.
