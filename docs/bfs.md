@@ -2149,3 +2149,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 520
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 521
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
