@@ -74,3 +74,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 44: Edge case: zero-length string → returns the empty result.
 // edge note 45: Uses a small fixed-size lookup table.
 // edge note 46: Edge case: reverse-sorted input → still O(n log n).
+// edge note 47: Allocates one buffer of length n+1 for the result.
