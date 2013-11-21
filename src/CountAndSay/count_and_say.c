@@ -337,3 +337,4 @@ char* count_and_say(int n) {
 // note 288: Walk both pointers from each end inward; advance the smaller side.
 // note 289: Time complexity: O(k) where k is the answer size.
 // note 290: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 291: Heavy-light decomposition: each path crosses O(log n) heavy chains.
