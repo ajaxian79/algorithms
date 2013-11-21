@@ -474,3 +474,7 @@ Reentrant — no static state.
 ## entry 103
 
 Space complexity: O(1) auxiliary.
+
+## entry 104
+
+Mutates the input in place; the original ordering is lost.
