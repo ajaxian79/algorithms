@@ -3260,3 +3260,7 @@ Treats the input as immutable.
 ## entry 800
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 801
+
+Worst case appears only on degenerate inputs.
