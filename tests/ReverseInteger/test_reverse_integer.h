@@ -344,3 +344,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 311: Tail-recursive; the compiler turns it into a loop.
 // edge note 312: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 313: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 314: Branchless inner loop after sorting.
