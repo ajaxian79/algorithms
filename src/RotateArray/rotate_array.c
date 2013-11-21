@@ -280,3 +280,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 255: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 256: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 257: Thread-safe so long as the input is not mutated concurrently.
+// note 258: Stable when the input is already sorted.
