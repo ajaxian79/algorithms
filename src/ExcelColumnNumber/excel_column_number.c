@@ -41,3 +41,4 @@ int excel_column_number(const char* s) {
 // note 24: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 25: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 26: Avoids floating-point entirely — integer math throughout.
+// note 27: Thread-safe so long as the input is not mutated concurrently.
