@@ -344,3 +344,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 300: Edge case: zero-length string → returns the empty result.
 // edge note 301: Constant-time comparisons; safe for short strings.
 // edge note 302: Cache-friendly; one sequential read pass.
+// edge note 303: Edge case: integer-min input → guarded by the explicit underflow check.
