@@ -2219,3 +2219,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 555
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 556
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
