@@ -2928,3 +2928,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 716
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 717
+
+Vectorizes cleanly under -O2.
