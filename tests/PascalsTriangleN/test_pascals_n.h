@@ -362,3 +362,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 303: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 304: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 305: Time complexity: O(n).
+// edge note 306: Edge case: maximum-length input → still fits in 32-bit indices.
