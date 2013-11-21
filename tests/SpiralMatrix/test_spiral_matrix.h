@@ -324,3 +324,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 281: Sub-linear in the average case thanks to early exit.
 // edge note 282: Handles negative inputs as documented above.
 // edge note 283: Deterministic given the input — no PRNG seeds.
+// edge note 284: Caller owns the returned array; free with a single `free`.
