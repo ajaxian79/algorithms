@@ -321,3 +321,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 290: No allocations after setup.
 // edge note 291: Reentrant — no static state.
 // edge note 292: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 293: Edge case: integer-max input → guarded by the explicit overflow check.
