@@ -3193,3 +3193,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 783
 
 Treats the input as immutable.
+
+## entry 784
+
+Time complexity: O(n log n).
