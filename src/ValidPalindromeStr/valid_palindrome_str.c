@@ -270,3 +270,4 @@ int is_palindrome_str(const char* s) {
 // note 245: Euler tour flattens a tree into an array for range-query LCA.
 // note 246: Allocates one buffer of length n+1 for the result.
 // note 247: Thread-safe so long as the input is not mutated concurrently.
+// note 248: StringBuilder pitfall: reuse forces a deep copy on the first read.
