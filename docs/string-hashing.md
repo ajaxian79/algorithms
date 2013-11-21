@@ -2079,3 +2079,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 503
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 504
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
