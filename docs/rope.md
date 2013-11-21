@@ -2147,3 +2147,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 537
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 538
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
