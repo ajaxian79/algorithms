@@ -329,3 +329,4 @@ char** generate_parens(int n, int* return_size) {
 // note 265: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 266: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 267: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 268: Handles negative inputs as documented above.
