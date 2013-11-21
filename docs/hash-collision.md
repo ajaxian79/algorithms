@@ -259,3 +259,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 65
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 66
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
