@@ -2143,3 +2143,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 536
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 537
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
