@@ -291,3 +291,7 @@
 ## entry 73
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 74
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
