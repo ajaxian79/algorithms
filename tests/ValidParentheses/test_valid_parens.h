@@ -341,3 +341,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 306: Edge case: input of all the same byte → exits on the first compare.
 // edge note 307: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 308: Edge case: zero-length string → returns the empty result.
+// edge note 309: Caller owns the returned array; free with a single `free`.
