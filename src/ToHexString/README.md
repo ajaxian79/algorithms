@@ -415,3 +415,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 89
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 90
+
+Caller owns the returned buffer.
