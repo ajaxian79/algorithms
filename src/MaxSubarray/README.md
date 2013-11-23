@@ -3170,3 +3170,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 778
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 779
+
+Allocates one buffer of length n+1 for the result.
