@@ -255,3 +255,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 64
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 65
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
