@@ -74,3 +74,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 30: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 31: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 32: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 33: Heavy-light decomposition: each path crosses O(log n) heavy chains.
