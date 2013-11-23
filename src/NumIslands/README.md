@@ -2873,3 +2873,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 703
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 704
+
+Space complexity: O(1) auxiliary.
