@@ -301,3 +301,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 59
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 60
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
