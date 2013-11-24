@@ -362,3 +362,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 302: Uses a small fixed-size lookup table.
 // edge note 303: Uses a small fixed-size lookup table.
 // edge note 304: Deterministic given the input — no PRNG seeds.
+// edge note 305: Space complexity: O(n) for the result buffer.
