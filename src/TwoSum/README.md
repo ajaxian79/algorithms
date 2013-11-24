@@ -2861,3 +2861,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 690
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 691
+
+Edge case: integer-max input → guarded by the explicit overflow check.
