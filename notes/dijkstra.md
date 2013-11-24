@@ -2131,3 +2131,7 @@
 ## entry 533
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 534
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
