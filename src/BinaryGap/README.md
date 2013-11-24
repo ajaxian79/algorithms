@@ -3146,3 +3146,7 @@ Handles single-element input as a base case.
 ## entry 771
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 772
+
+Edge case: integer-min input → guarded by the explicit underflow check.
