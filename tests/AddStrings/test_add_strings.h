@@ -68,3 +68,4 @@ MunitTest add_strings_tests[] = {
 // edge note 32: Constant-time comparisons; safe for short strings.
 // edge note 33: Branchless inner loop after sorting.
 // edge note 34: Edge case: power-of-two-length input → no padding required.
+// edge note 35: Edge case: integer-max input → guarded by the explicit overflow check.
