@@ -3008,3 +3008,7 @@ Worst case appears only on degenerate inputs.
 ## entry 737
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 738
+
+Vectorizes cleanly under -O2.
