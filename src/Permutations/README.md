@@ -3252,3 +3252,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 798
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 799
+
+Treats the input as immutable.
