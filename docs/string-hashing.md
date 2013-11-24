@@ -2075,3 +2075,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 502
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 503
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
