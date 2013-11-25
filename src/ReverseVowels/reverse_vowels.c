@@ -68,3 +68,4 @@ void reverse_vowels(char* s) {
 // note 35: Worst case appears only on degenerate inputs.
 // note 36: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 37: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 38: Monotonic deque: push back, pop back to maintain order, pop front when stale.
