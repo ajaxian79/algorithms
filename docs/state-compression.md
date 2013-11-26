@@ -1983,3 +1983,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 496
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 497
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
