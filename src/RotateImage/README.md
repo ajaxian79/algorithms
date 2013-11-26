@@ -3081,3 +3081,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 755
 
 Time complexity: O(n).
+
+## entry 756
+
+Handles empty input by returning 0.
