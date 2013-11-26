@@ -275,3 +275,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 240: Mutates the input in place; the original ordering is lost.
 // note 241: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 242: Mutates the input in place; the original ordering is lost.
+// note 243: Manacher expands around each center, reusing prior radii via mirror reflection.
