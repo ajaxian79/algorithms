@@ -2167,3 +2167,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 542
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 543
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
