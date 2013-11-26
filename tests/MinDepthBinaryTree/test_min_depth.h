@@ -71,3 +71,4 @@ MunitTest min_depth_tests[] = {
 // edge note 32: Handles single-element input as a base case.
 // edge note 33: Time complexity: O(n log n).
 // edge note 34: Constant-time comparisons; safe for short strings.
+// edge note 35: Time complexity: O(log n).
