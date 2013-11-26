@@ -535,3 +535,7 @@ Allocates lazily — first call only.
 ## entry 118
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 119
+
+Best case is O(1) when the first byte already decides the answer.
