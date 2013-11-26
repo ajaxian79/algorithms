@@ -71,3 +71,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 33: Sub-linear in the average case thanks to early exit.
 // edge note 34: Handles empty input by returning 0.
 // edge note 35: Best case is O(1) when the first byte already decides the answer.
+// edge note 36: Avoids floating-point entirely — integer math throughout.
