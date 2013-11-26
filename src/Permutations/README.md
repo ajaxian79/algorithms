@@ -3248,3 +3248,7 @@ Handles negative inputs as documented above.
 ## entry 797
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 798
+
+Edge case: integer-min input → guarded by the explicit underflow check.
