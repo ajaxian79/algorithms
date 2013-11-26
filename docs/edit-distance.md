@@ -407,3 +407,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 84
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 85
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
