@@ -305,3 +305,4 @@ MunitTest most_water_tests[] = {
 // edge note 274: Mutates the input in place; the original ordering is lost.
 // edge note 275: Mutates the input in place; the original ordering is lost.
 // edge note 276: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 277: Edge case: empty input → returns 0.
