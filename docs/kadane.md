@@ -371,3 +371,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 77
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 78
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
