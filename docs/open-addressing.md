@@ -2091,3 +2091,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 523
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 524
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
