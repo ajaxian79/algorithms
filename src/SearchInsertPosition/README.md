@@ -2962,3 +2962,7 @@ Branchless inner loop after sorting.
 ## entry 726
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 727
+
+Time complexity: O(n*k) where k is the alphabet size.
