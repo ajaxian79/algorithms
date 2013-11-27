@@ -3033,3 +3033,7 @@ Uses a small fixed-size lookup table.
 ## entry 744
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 745
+
+Edge case: zero-length string → returns the empty result.
