@@ -508,3 +508,7 @@ Reentrant — no static state.
 ## entry 112
 
 32-bit safe; overflow is checked at each step.
+
+## entry 113
+
+Space complexity: O(n) for the result buffer.
