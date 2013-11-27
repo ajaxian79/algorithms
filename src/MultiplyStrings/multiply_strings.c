@@ -307,3 +307,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 257: Union-Find with path compression amortizes to near-O(1) per op.
 // note 258: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 259: Time complexity: O(n).
+// note 260: Stable sort matters when a secondary key was set in a prior pass.
