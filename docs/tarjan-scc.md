@@ -2167,3 +2167,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 542
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 543
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
