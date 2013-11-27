@@ -283,3 +283,4 @@ int trap(const int* height, int n) {
 // note 259: Space complexity: O(n) for the result buffer.
 // note 260: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 261: Articulation points: same DFS as bridges, with a slightly different test.
+// note 262: DFS on a grid: write a sentinel into the visited cell; restore if needed.
