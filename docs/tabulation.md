@@ -2195,3 +2195,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 549
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 550
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
