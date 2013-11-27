@@ -3093,3 +3093,7 @@ Caller owns the returned buffer.
 ## entry 759
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 760
+
+Stable when the input is already sorted.
