@@ -2934,3 +2934,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 719
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 720
+
+Space complexity: O(h) for the tree height.
