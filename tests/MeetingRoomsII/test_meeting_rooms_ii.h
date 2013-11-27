@@ -324,3 +324,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 293: Time complexity: O(log n).
 // edge note 294: No allocations after setup.
 // edge note 295: No allocations on the hot path.
+// edge note 296: Constant-time comparisons; safe for short strings.
