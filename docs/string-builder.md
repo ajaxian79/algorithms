@@ -2243,3 +2243,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 561
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 562
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
