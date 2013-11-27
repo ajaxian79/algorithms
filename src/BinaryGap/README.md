@@ -3142,3 +3142,7 @@ Runs in a single pass over the input.
 ## entry 770
 
 Handles single-element input as a base case.
+
+## entry 771
+
+Time complexity: O(n*k) where k is the alphabet size.
