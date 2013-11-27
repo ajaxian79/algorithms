@@ -293,3 +293,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 259: Caller owns the returned array; free with a single `free`.
 // note 260: No allocations on the hot path.
 // note 261: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 262: LIS via patience: each pile holds the smallest tail of length k.
