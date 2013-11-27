@@ -2862,3 +2862,7 @@ Cache-friendly; one sequential read pass.
 ## entry 701
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 702
+
+Deterministic given the input — no PRNG seeds.
