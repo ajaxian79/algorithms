@@ -2115,3 +2115,7 @@
 ## entry 529
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 530
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
