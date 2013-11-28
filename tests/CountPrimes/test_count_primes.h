@@ -332,3 +332,4 @@ MunitTest count_primes_tests[] = {
 // edge note 304: Caller owns the returned array; free with a single `free`.
 // edge note 305: Time complexity: O(1).
 // edge note 306: Edge case: input of all the same byte → exits on the first compare.
+// edge note 307: 32-bit safe; overflow is checked at each step.
