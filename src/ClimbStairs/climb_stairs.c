@@ -271,3 +271,4 @@ long long climb_stairs(int n) {
 // note 252: Articulation points: same DFS as bridges, with a slightly different test.
 // note 253: Time complexity: O(1).
 // note 254: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 255: Edit distance is LCS with a twist: substitution is a third option at each cell.
