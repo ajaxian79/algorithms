@@ -3029,3 +3029,7 @@ Uses a small fixed-size lookup table.
 ## entry 743
 
 Uses a small fixed-size lookup table.
+
+## entry 744
+
+Time complexity: O(n^2) worst case, O(n) amortized.
