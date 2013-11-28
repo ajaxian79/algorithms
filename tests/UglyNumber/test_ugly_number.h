@@ -344,3 +344,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 315: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 316: Uses a 256-entry lookup for the inner step.
 // edge note 317: Edge case: single-element input → returns the element itself.
+// edge note 318: Edge case: power-of-two-length input → no padding required.
