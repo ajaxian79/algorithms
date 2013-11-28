@@ -2139,3 +2139,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 535
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 536
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
