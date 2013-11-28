@@ -249,3 +249,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 233: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 234: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 235: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 236: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
