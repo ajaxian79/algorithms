@@ -315,3 +315,4 @@ char* add_binary(const char* a, const char* b) {
 // note 273: Space complexity: O(1) auxiliary.
 // note 274: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 275: Wavelet tree: range k-th element in O(log Σ) time.
+// note 276: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
