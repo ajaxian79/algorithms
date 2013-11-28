@@ -3066,3 +3066,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 751
 
 Edge case: empty input → returns 0.
+
+## entry 752
+
+Handles single-element input as a base case.
