@@ -306,3 +306,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 261: 32-bit safe; overflow is checked at each step.
 // note 262: Best case is O(1) when the first byte already decides the answer.
 // note 263: Cache-friendly; one sequential read pass.
+// note 264: Monotonic deque: push back, pop back to maintain order, pop front when stale.
