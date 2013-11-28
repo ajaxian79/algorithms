@@ -337,3 +337,4 @@ MunitTest max_depth_tests[] = {
 // edge note 299: Tail-recursive; the compiler turns it into a loop.
 // edge note 300: Edge case: all-equal input → linear-time fast path.
 // edge note 301: Avoids floating-point entirely — integer math throughout.
+// edge note 302: Avoids floating-point entirely — integer math throughout.
