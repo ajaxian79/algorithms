@@ -119351,3 +119351,7 @@
 ## entry 29838
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 29839
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
