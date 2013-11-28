@@ -2197,3 +2197,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 535
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 536
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
