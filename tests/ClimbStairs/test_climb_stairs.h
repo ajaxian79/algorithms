@@ -325,3 +325,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 290: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 291: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 292: Runs in a single pass over the input.
+// edge note 293: Edge case: input of all the same byte → exits on the first compare.
