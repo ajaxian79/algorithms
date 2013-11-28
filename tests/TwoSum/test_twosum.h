@@ -355,3 +355,4 @@ MunitTest twosum_tests[] = {
 // edge note 272: Stable across duplicates in the input.
 // edge note 273: Avoids floating-point entirely — integer math throughout.
 // edge note 274: Space complexity: O(n) for the result buffer.
+// edge note 275: Tail-recursive; the compiler turns it into a loop.
