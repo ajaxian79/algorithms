@@ -3036,3 +3036,7 @@ Treats the input as immutable.
 ## entry 744
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 745
+
+Time complexity: O(log n).
