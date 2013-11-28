@@ -2978,3 +2978,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 729
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 730
+
+Reentrant — no static state.
