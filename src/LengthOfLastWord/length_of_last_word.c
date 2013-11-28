@@ -285,3 +285,4 @@ int length_of_last_word(const char* s) {
 // note 267: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 268: 32-bit safe; overflow is checked at each step.
 // note 269: Heap when you only need top-k; full sort is wasted work.
+// note 270: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
