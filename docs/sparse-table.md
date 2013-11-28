@@ -2043,3 +2043,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 511
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 512
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
