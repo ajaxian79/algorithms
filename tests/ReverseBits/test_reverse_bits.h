@@ -307,3 +307,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 281: Stable when the input is already sorted.
 // edge note 282: Allocates a single small fixed-size scratch buffer.
 // edge note 283: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 284: Reentrant — no static state.
