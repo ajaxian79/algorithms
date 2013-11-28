@@ -2906,3 +2906,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 712
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 713
+
+Avoids floating-point entirely — integer math throughout.
