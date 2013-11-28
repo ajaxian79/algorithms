@@ -3050,3 +3050,7 @@ Stable when the input is already sorted.
 ## entry 747
 
 Caller owns the returned buffer.
+
+## entry 748
+
+Handles empty input by returning 0.
