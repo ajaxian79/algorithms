@@ -16351,3 +16351,7 @@
 ## entry 4088
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 4089
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
