@@ -2215,3 +2215,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 554
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 555
+
+Articulation points: same DFS as bridges, with a slightly different test.
