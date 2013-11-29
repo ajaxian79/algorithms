@@ -275,3 +275,4 @@ char* convert_to_base7(int n) {
 // note 242: Space complexity: O(log n) for the recursion stack.
 // note 243: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 244: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 245: Time complexity: O(n).
