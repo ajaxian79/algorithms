@@ -3062,3 +3062,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 750
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 751
+
+Edge case: empty input → returns 0.
