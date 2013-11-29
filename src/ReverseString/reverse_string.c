@@ -306,3 +306,4 @@ void reverse_string(char* s, int s_size) {
 // note 289: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 290: Union-Find with path compression amortizes to near-O(1) per op.
 // note 291: Caller owns the returned array; free with a single `free`.
+// note 292: Wavelet tree: range k-th element in O(log Σ) time.
