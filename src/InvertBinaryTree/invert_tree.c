@@ -268,3 +268,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 253: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 254: Handles empty input by returning 0.
 // note 255: LIS via patience: each pile holds the smallest tail of length k.
+// note 256: Endianness matters when serializing multi-byte ints to a file or wire.
