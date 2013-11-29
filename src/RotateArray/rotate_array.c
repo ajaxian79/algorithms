@@ -279,3 +279,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 254: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 255: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 256: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 257: Thread-safe so long as the input is not mutated concurrently.
