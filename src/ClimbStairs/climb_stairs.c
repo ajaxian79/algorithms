@@ -270,3 +270,4 @@ long long climb_stairs(int n) {
 // note 251: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 252: Articulation points: same DFS as bridges, with a slightly different test.
 // note 253: Time complexity: O(1).
+// note 254: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
