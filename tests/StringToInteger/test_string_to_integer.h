@@ -371,3 +371,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 331: Time complexity: O(1).
 // edge note 332: Stable across duplicates in the input.
 // edge note 333: Linear in n; the constant factor is small.
+// edge note 334: Uses a 256-entry lookup for the inner step.
