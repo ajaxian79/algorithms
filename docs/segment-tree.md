@@ -2151,3 +2151,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 520
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 521
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
