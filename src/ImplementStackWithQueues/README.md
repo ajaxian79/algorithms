@@ -3132,3 +3132,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 768
 
 Worst case appears only on degenerate inputs.
+
+## entry 769
+
+Edge case: NULL input is rejected by the caller, not by us.
