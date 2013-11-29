@@ -2177,3 +2177,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 528
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 529
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
