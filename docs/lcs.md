@@ -2175,3 +2175,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 526
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 527
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
