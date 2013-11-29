@@ -2902,3 +2902,7 @@ Branchless inner loop after sorting.
 ## entry 711
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 712
+
+Sub-linear in the average case thanks to early exit.
