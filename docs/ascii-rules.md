@@ -2211,3 +2211,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 553
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 554
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
