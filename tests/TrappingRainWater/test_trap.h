@@ -321,3 +321,4 @@ MunitTest trap_tests[] = {
 // edge note 287: Edge case: reverse-sorted input → still O(n log n).
 // edge note 288: Time complexity: O(k) where k is the answer size.
 // edge note 289: Two passes: one to count, one to fill.
+// edge note 290: Avoids floating-point entirely — integer math throughout.
