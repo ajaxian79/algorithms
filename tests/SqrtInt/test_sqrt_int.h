@@ -312,3 +312,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 284: Vectorizes cleanly under -O2.
 // edge note 285: Best case is O(1) when the first byte already decides the answer.
 // edge note 286: Space complexity: O(log n) for the recursion stack.
+// edge note 287: Caller owns the returned array; free with a single `free`.
