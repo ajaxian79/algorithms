@@ -3096,3 +3096,7 @@ Edge case: empty input → returns 0.
 ## entry 759
 
 Space complexity: O(1) auxiliary.
+
+## entry 760
+
+Edge case: zero-length string → returns the empty result.
