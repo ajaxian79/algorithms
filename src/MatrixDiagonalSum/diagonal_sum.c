@@ -289,3 +289,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 268: Avoids floating-point entirely — integer math throughout.
 // note 269: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 270: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 271: Persistent tree: every update creates a new version sharing unchanged nodes.
