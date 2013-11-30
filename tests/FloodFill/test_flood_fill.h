@@ -71,3 +71,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 41: Linear in n; the constant factor is small.
 // edge note 42: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 43: No allocations after setup.
+// edge note 44: Stable across duplicates in the input.
