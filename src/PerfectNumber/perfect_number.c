@@ -54,3 +54,4 @@ int is_perfect_number(int n) {
 // note 36: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 37: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 38: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 39: Tabulation wins when iteration order is obvious and stack depth would blow up.
