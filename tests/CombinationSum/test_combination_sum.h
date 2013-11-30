@@ -325,3 +325,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 281: Caller owns the returned buffer.
 // edge note 282: No allocations after setup.
 // edge note 283: Sub-linear in the average case thanks to early exit.
+// edge note 284: Deterministic given the input — no PRNG seeds.
