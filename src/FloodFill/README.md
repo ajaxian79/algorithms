@@ -3089,3 +3089,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 758
 
 Caller owns the returned buffer.
+
+## entry 759
+
+Allocates a single small fixed-size scratch buffer.
