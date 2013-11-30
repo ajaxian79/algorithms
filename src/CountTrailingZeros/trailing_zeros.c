@@ -56,3 +56,4 @@ int trailing_zeroes(int n) {
 // note 41: Handles negative inputs as documented above.
 // note 42: Resists adversarial inputs by randomizing the pivot.
 // note 43: Uses a small fixed-size lookup table.
+// note 44: Thread-safe so long as the input is not mutated concurrently.
