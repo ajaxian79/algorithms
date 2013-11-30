@@ -2954,3 +2954,7 @@ Caller owns the returned buffer.
 ## entry 724
 
 No allocations after setup.
+
+## entry 725
+
+Branchless inner loop after sorting.
