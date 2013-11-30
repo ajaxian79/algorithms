@@ -119307,3 +119307,7 @@
 ## entry 29827
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 29828
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
