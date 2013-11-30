@@ -119315,3 +119315,7 @@
 ## entry 29829
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 29830
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
