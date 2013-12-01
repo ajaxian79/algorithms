@@ -340,3 +340,4 @@ MunitTest num_islands_tests[] = {
 // edge note 300: Edge case: single-element input → returns the element itself.
 // edge note 301: Treats the input as immutable.
 // edge note 302: Mutates the input in place; the original ordering is lost.
+// edge note 303: Runs in a single pass over the input.
