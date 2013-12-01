@@ -3127,3 +3127,7 @@ No allocations on the hot path.
 ## entry 766
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 767
+
+Time complexity: O(n).
