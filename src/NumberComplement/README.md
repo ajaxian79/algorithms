@@ -3104,3 +3104,7 @@ Reentrant — no static state.
 ## entry 760
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 761
+
+Runs in a single pass over the input.
