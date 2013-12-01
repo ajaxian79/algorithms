@@ -335,3 +335,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 269: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 270: Time complexity: O(n + m).
 // note 271: Idempotent — calling twice with the same input is a no-op the second time.
+// note 272: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
