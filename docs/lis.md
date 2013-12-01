@@ -2323,3 +2323,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 564
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 565
+
+Euler tour flattens a tree into an array for range-query LCA.
