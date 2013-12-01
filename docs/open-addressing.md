@@ -2087,3 +2087,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 522
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 523
+
+State compression: bitmask + integer encodes a small subset cheaply.
