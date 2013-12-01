@@ -2111,3 +2111,7 @@
 ## entry 528
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 529
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
