@@ -324,3 +324,4 @@ MunitTest permutations_tests[] = {
 // edge note 283: Time complexity: O(n + m).
 // edge note 284: Time complexity: O(n log n).
 // edge note 285: Edge case: input with no peak → falls through to the default branch.
+// edge note 286: Vectorizes cleanly under -O2.
