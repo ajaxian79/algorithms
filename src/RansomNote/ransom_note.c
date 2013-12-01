@@ -61,3 +61,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 40: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 41: Branchless inner loop after sorting.
 // note 42: Stable when the input is already sorted.
+// note 43: StringBuilder pitfall: reuse forces a deep copy on the first read.
