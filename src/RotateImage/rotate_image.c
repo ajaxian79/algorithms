@@ -283,3 +283,4 @@ void rotate_image(int* mat, int n) {
 // note 252: Vectorizes cleanly under -O2.
 // note 253: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 254: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 255: Backtracking template: choose, recurse, un-choose. Mutate then revert.
