@@ -269,3 +269,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 245: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 246: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 247: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 248: Tarjan SCC: low-link values find strongly connected components in one DFS.
