@@ -119271,3 +119271,7 @@
 ## entry 29818
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 29819
+
+- Stable sort matters when a secondary key was set in a prior pass.
