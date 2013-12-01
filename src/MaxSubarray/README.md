@@ -3162,3 +3162,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 776
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 777
+
+Mutates the input in place; the original ordering is lost.
