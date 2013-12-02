@@ -2271,3 +2271,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 550
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 551
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
