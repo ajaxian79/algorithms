@@ -343,3 +343,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 299: Best case is O(1) when the first byte already decides the answer.
 // edge note 300: Edge case: zero-length string → returns the empty result.
 // edge note 301: Constant-time comparisons; safe for short strings.
+// edge note 302: Cache-friendly; one sequential read pass.
