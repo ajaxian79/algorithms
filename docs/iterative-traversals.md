@@ -2245,3 +2245,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 545
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 546
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
