@@ -2263,3 +2263,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 566
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 567
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
