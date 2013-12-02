@@ -3158,3 +3158,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 775
 
 Constant-time comparisons; safe for short strings.
+
+## entry 776
+
+Edge case: input of all the same byte → exits on the first compare.
