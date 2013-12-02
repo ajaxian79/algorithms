@@ -2923,3 +2923,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 716
 
 No allocations after setup.
+
+## entry 717
+
+Treats the input as immutable.
