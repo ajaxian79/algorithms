@@ -47,3 +47,4 @@ int is_perfect_square(int n) {
 // note 28: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 29: LIS via patience: each pile holds the smallest tail of length k.
 // note 30: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 31: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
