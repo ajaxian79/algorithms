@@ -2215,3 +2215,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 554
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 555
+
+Stable sort matters when a secondary key was set in a prior pass.
