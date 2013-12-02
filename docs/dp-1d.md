@@ -2199,3 +2199,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 533
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 534
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
