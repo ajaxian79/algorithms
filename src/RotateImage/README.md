@@ -3073,3 +3073,7 @@ Caller owns the returned buffer.
 ## entry 753
 
 Space complexity: O(1) auxiliary.
+
+## entry 754
+
+Edge case: input with a single peak → handled by the first-pass scan.
