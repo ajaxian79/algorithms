@@ -3154,3 +3154,7 @@ Handles empty input by returning 0.
 ## entry 774
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 775
+
+Constant-time comparisons; safe for short strings.
