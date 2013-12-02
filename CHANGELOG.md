@@ -119227,3 +119227,7 @@
 ## entry 29807
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 29808
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
