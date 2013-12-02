@@ -2191,3 +2191,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 548
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 549
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
