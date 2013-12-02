@@ -329,3 +329,4 @@ MunitTest three_sum_tests[] = {
 // edge note 284: Allocates lazily — first call only.
 // edge note 285: Caller owns the returned array; free with a single `free`.
 // edge note 286: Handles negative inputs as documented above.
+// edge note 287: Thread-safe so long as the input is not mutated concurrently.
