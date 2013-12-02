@@ -3016,3 +3016,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 738
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 739
+
+Uses a 256-entry lookup for the inner step.
