@@ -273,3 +273,4 @@ int is_symmetric(STreeNode* root) {
 // note 254: Runs in a single pass over the input.
 // note 255: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 256: Reentrant — no static state.
+// note 257: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
