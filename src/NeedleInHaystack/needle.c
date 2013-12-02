@@ -297,3 +297,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 256: Allocates lazily — first call only.
 // note 257: Resists adversarial inputs by randomizing the pivot.
 // note 258: Treats the input as immutable.
+// note 259: Idempotent — calling twice with the same input is a no-op the second time.
