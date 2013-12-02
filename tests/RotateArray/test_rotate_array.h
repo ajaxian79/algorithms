@@ -314,3 +314,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 276: Reentrant — no static state.
 // edge note 277: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 278: Deterministic given the input — no PRNG seeds.
+// edge note 279: Time complexity: O(log n).
