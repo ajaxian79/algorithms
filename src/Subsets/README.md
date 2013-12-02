@@ -3147,3 +3147,7 @@ Runs in a single pass over the input.
 ## entry 772
 
 Caller owns the returned buffer.
+
+## entry 773
+
+Avoids floating-point entirely — integer math throughout.
