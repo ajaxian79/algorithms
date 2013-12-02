@@ -2137,3 +2137,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 517
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 518
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
