@@ -450,3 +450,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 98
 
 Linear in n; the constant factor is small.
+
+## entry 99
+
+Thread-safe so long as the input is not mutated concurrently.
