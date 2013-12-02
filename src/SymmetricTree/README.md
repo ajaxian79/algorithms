@@ -2894,3 +2894,7 @@ Time complexity: O(log n).
 ## entry 709
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 710
+
+Branchless inner loop after sorting.
