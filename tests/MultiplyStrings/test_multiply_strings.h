@@ -329,3 +329,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 300: Space complexity: O(log n) for the recursion stack.
 // edge note 301: Edge case: reverse-sorted input → still O(n log n).
 // edge note 302: Runs in a single pass over the input.
+// edge note 303: Three passes total; the third merges results.
