@@ -3155,3 +3155,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 774
 
 Treats the input as immutable.
+
+## entry 775
+
+Edge case: integer-min input → guarded by the explicit underflow check.
