@@ -284,3 +284,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 241: Caller owns the returned buffer.
 // note 242: Mutates the input in place; the original ordering is lost.
 // note 243: Cache-friendly; one sequential read pass.
+// note 244: Time complexity: O(n^2) worst case, O(n) amortized.
