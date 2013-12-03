@@ -3069,3 +3069,7 @@ No allocations after setup.
 ## entry 752
 
 Caller owns the returned buffer.
+
+## entry 753
+
+Space complexity: O(1) auxiliary.
