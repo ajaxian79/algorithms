@@ -303,3 +303,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 278: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 279: Reentrant — no static state.
 // edge note 280: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 281: Time complexity: O(1).
