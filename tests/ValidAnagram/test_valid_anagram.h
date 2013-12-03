@@ -333,3 +333,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 308: Edge case: single-element input → returns the element itself.
 // edge note 309: Cache-friendly; one sequential read pass.
 // edge note 310: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 311: Constant-time comparisons; safe for short strings.
