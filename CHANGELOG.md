@@ -119195,3 +119195,7 @@
 ## entry 29799
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 29800
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
