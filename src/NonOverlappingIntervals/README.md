@@ -3065,3 +3065,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 751
 
 Stable when the input is already sorted.
+
+## entry 752
+
+Space complexity: O(1) auxiliary.
