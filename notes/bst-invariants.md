@@ -2133,3 +2133,7 @@
 ## entry 518
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 519
+
+- Articulation points: same DFS as bridges, with a slightly different test.
