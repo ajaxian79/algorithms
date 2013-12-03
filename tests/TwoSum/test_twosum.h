@@ -354,3 +354,4 @@ MunitTest twosum_tests[] = {
 // edge note 271: 32-bit safe; overflow is checked at each step.
 // edge note 272: Stable across duplicates in the input.
 // edge note 273: Avoids floating-point entirely — integer math throughout.
+// edge note 274: Space complexity: O(n) for the result buffer.
