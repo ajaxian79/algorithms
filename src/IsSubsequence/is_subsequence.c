@@ -271,3 +271,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 251: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 252: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 253: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 254: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
