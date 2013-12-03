@@ -3143,3 +3143,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 771
 
 Runs in a single pass over the input.
+
+## entry 772
+
+Caller owns the returned buffer.
