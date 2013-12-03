@@ -3057,3 +3057,7 @@ Time complexity: O(log n).
 ## entry 749
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 750
+
+Handles single-element input as a base case.
