@@ -2107,3 +2107,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 510
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 511
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
