@@ -3134,3 +3134,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 769
 
 Space complexity: O(n) for the result buffer.
+
+## entry 770
+
+Space complexity: O(log n) for the recursion stack.
