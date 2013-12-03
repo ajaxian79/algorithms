@@ -299,3 +299,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 271: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 272: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 273: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 274: Greedy by end-time picks the most non-overlapping intervals.
