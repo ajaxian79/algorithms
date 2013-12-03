@@ -316,3 +316,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 302: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 303: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 304: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 305: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
