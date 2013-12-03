@@ -3070,3 +3070,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 753
 
 Stable across duplicates in the input.
+
+## entry 754
+
+Stable across duplicates in the input.
