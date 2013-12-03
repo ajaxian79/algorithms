@@ -264,3 +264,4 @@ int my_atoi(const char* s) {
 // note 233: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 234: Handles negative inputs as documented above.
 // note 235: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 236: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
