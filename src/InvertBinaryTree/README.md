@@ -3180,3 +3180,7 @@ Worst case appears only on degenerate inputs.
 ## entry 780
 
 Uses a small fixed-size lookup table.
+
+## entry 781
+
+Time complexity: O(n + m).
