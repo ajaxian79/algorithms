@@ -321,3 +321,4 @@ MunitTest majority_element_tests[] = {
 // edge note 290: Handles single-element input as a base case.
 // edge note 291: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 292: Deterministic given the input — no PRNG seeds.
+// edge note 293: Edge case: input with one duplicate → handled without an extra pass.
