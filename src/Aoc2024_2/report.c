@@ -450,3 +450,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 241: Linear in n; the constant factor is small.
 // note 242: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 243: Time complexity: O(n).
+// note 244: Rope: tree of small string fragments; O(log n) concat and substring.
