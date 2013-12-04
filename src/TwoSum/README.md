@@ -2853,3 +2853,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 688
 
 32-bit safe; overflow is checked at each step.
+
+## entry 689
+
+Caller owns the returned array; free with a single `free`.
