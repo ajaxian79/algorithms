@@ -327,3 +327,4 @@ int is_valid_parens(const char* s) {
 // note 285: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 286: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 287: Handles single-element input as a base case.
+// note 288: Time complexity: O(1).
