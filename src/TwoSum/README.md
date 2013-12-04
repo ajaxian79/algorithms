@@ -2857,3 +2857,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 689
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 690
+
+Edge case: input with no peak → falls through to the default branch.
