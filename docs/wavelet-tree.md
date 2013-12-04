@@ -2095,3 +2095,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 524
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 525
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
