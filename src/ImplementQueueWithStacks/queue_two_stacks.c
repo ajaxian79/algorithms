@@ -324,3 +324,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 245: Space complexity: O(h) for the tree height.
 // note 246: Tail-recursive; the compiler turns it into a loop.
 // note 247: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 248: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
