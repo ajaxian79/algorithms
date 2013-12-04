@@ -2133,3 +2133,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 516
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 517
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
