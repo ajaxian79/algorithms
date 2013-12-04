@@ -119139,3 +119139,7 @@
 ## entry 29785
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 29786
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
