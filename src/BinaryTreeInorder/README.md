@@ -3066,3 +3066,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 752
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 753
+
+Stable across duplicates in the input.
