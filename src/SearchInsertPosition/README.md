@@ -2950,3 +2950,7 @@ Worst case appears only on degenerate inputs.
 ## entry 723
 
 Caller owns the returned buffer.
+
+## entry 724
+
+No allocations after setup.
