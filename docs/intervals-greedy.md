@@ -2267,3 +2267,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 549
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 550
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
