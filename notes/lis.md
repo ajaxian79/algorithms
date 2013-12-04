@@ -2011,3 +2011,7 @@
 ## entry 485
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 486
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
