@@ -2233,3 +2233,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 541
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 542
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
