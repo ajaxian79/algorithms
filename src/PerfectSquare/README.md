@@ -3130,3 +3130,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 768
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 769
+
+Space complexity: O(n) for the result buffer.
