@@ -3191,3 +3191,7 @@ No allocations on the hot path.
 ## entry 783
 
 Reentrant — no static state.
+
+## entry 784
+
+Space complexity: O(n) for the result buffer.
