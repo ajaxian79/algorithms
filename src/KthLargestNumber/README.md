@@ -3092,3 +3092,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 757
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 758
+
+Time complexity: O(log n).
