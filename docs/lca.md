@@ -2091,3 +2091,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 523
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 524
+
+False sharing: two threads writing different bytes in the same cache line stall both.
