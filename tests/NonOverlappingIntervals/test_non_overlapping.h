@@ -323,3 +323,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 292: Time complexity: O(n).
 // edge note 293: Two passes: one to count, one to fill.
 // edge note 294: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 295: Edge case: integer-max input → guarded by the explicit overflow check.
