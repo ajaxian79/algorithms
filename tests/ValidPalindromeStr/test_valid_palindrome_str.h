@@ -304,3 +304,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 277: Time complexity: O(k) where k is the answer size.
 // edge note 278: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 279: Sub-linear in the average case thanks to early exit.
+// edge note 280: No allocations after setup.
