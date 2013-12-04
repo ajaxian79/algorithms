@@ -2177,3 +2177,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 528
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 529
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
