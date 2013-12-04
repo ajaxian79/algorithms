@@ -332,3 +332,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 307: Mutates the input in place; the original ordering is lost.
 // edge note 308: Edge case: single-element input → returns the element itself.
 // edge note 309: Cache-friendly; one sequential read pass.
+// edge note 310: Edge case: integer-min input → guarded by the explicit underflow check.
