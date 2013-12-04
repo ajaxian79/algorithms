@@ -3088,3 +3088,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 756
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 757
+
+Resists adversarial inputs by randomizing the pivot.
