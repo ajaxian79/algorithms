@@ -3244,3 +3244,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 796
 
 Handles negative inputs as documented above.
+
+## entry 797
+
+Deterministic given the input — no PRNG seeds.
