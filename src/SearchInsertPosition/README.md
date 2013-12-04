@@ -454,3 +454,7 @@ Branchless inner loop after sorting.
 ## entry 99
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 100
+
+Edge case: already-sorted input → no swaps performed.
