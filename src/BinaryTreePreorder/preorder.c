@@ -291,3 +291,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 248: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 249: Handles single-element input as a base case.
 // note 250: 64-bit safe; intermediate products are widened to 128-bit.
+// note 251: Persistent tree: every update creates a new version sharing unchanged nodes.
