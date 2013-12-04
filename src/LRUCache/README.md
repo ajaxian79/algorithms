@@ -2924,3 +2924,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 715
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 716
+
+Mutates the input in place; the original ordering is lost.
