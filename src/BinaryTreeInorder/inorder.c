@@ -310,3 +310,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 270: Thread-safe so long as the input is not mutated concurrently.
 // note 271: Time complexity: O(n log n).
 // note 272: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 273: Three passes total; the third merges results.
