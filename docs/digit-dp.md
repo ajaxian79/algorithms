@@ -2019,3 +2019,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 505
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 506
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
