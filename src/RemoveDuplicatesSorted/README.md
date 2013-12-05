@@ -490,3 +490,7 @@ Time complexity: O(n log n).
 ## entry 108
 
 Three passes total; the third merges results.
+
+## entry 109
+
+Handles empty input by returning 0.
