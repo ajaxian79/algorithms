@@ -3187,3 +3187,7 @@ Handles negative inputs as documented above.
 ## entry 782
 
 No allocations on the hot path.
+
+## entry 783
+
+Reentrant — no static state.
