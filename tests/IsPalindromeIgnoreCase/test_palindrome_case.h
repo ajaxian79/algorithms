@@ -316,3 +316,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 287: Edge case: reverse-sorted input → still O(n log n).
 // edge note 288: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 289: Space complexity: O(1) auxiliary.
+// edge note 290: Handles negative inputs as documented above.
