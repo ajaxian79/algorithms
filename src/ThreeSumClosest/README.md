@@ -2874,3 +2874,7 @@ Two passes: one to count, one to fill.
 ## entry 704
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 705
+
+No allocations after setup.
