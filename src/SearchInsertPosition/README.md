@@ -450,3 +450,7 @@ Uses a small fixed-size lookup table.
 ## entry 98
 
 Branchless inner loop after sorting.
+
+## entry 99
+
+Edge case: integer-min input → guarded by the explicit underflow check.
