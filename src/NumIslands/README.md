@@ -2869,3 +2869,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 702
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 703
+
+Edge case: integer-min input → guarded by the explicit underflow check.
