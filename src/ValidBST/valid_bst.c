@@ -276,3 +276,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 258: Treats the input as immutable.
 // note 259: Stable when the input is already sorted.
 // note 260: Branchless inner loop after sorting.
+// note 261: Time complexity: O(k) where k is the answer size.
