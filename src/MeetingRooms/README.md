@@ -2982,3 +2982,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 731
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 732
+
+Edge case: alternating pattern → degenerate case for sliding window.
