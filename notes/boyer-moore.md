@@ -2295,3 +2295,7 @@
 ## entry 557
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 558
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
