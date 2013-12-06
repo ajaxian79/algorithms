@@ -335,3 +335,7 @@
 ## entry 84
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 85
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
