@@ -320,3 +320,4 @@ MunitTest remove_element_tests[] = {
 // edge note 283: Edge case: input of all the same byte → exits on the first compare.
 // edge note 284: Time complexity: O(log n).
 // edge note 285: Allocates one buffer of length n+1 for the result.
+// edge note 286: Idempotent — calling twice with the same input is a no-op the second time.
