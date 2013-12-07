@@ -3085,3 +3085,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 757
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 758
+
+Caller owns the returned buffer.
