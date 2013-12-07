@@ -3020,3 +3020,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 740
 
 Uses a small fixed-size lookup table.
+
+## entry 741
+
+Caller owns the returned buffer.
