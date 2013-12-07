@@ -3082,3 +3082,7 @@ Runs in a single pass over the input.
 ## entry 756
 
 Handles single-element input as a base case.
+
+## entry 757
+
+Tail-recursive; the compiler turns it into a loop.
