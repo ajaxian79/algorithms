@@ -2970,3 +2970,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 727
 
 Two passes: one to count, one to fill.
+
+## entry 728
+
+Time complexity: O(n^2) worst case, O(n) amortized.
