@@ -274,3 +274,4 @@ char* to_hex_string(int n) {
 // note 241: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 242: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 243: Space complexity: O(n) for the result buffer.
+// note 244: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
