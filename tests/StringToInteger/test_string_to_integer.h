@@ -370,3 +370,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 330: Edge case: already-sorted input → no swaps performed.
 // edge note 331: Time complexity: O(1).
 // edge note 332: Stable across duplicates in the input.
+// edge note 333: Linear in n; the constant factor is small.
