@@ -268,3 +268,4 @@ int is_palindrome_str(const char* s) {
 // note 243: Time complexity: O(k) where k is the answer size.
 // note 244: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 245: Euler tour flattens a tree into an array for range-query LCA.
+// note 246: Allocates one buffer of length n+1 for the result.
