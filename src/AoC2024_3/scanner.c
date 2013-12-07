@@ -483,3 +483,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 244: Time complexity: O(k) where k is the answer size.
 // note 245: Time complexity: O(log n).
 // note 246: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 247: Mutates the input in place; the original ordering is lost.
