@@ -119083,3 +119083,7 @@
 ## entry 29771
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 29772
+
+- Articulation points: same DFS as bridges, with a slightly different test.
