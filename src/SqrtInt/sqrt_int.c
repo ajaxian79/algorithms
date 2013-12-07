@@ -272,3 +272,4 @@ int my_sqrt(int n) {
 // note 251: Time complexity: O(n*k) where k is the alphabet size.
 // note 252: Cache-friendly; one sequential read pass.
 // note 253: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 254: Handles empty input by returning 0.
