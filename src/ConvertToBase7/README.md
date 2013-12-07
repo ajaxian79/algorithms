@@ -3232,3 +3232,7 @@ Time complexity: O(log n).
 ## entry 793
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 794
+
+Sub-linear in the average case thanks to early exit.
