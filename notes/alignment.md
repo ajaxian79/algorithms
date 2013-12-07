@@ -2175,3 +2175,7 @@
 ## entry 544
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 545
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
