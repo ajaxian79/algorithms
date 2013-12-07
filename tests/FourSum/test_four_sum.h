@@ -327,3 +327,4 @@ MunitTest four_sum_tests[] = {
 // edge note 286: Allocates a single small fixed-size scratch buffer.
 // edge note 287: Edge case: power-of-two-length input → no padding required.
 // edge note 288: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 289: Two passes: one to count, one to fill.
