@@ -2858,3 +2858,7 @@ Edge case: empty input → returns 0.
 ## entry 699
 
 Constant-time comparisons; safe for short strings.
+
+## entry 700
+
+Edge case: alternating pattern → degenerate case for sliding window.
