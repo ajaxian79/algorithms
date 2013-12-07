@@ -2325,3 +2325,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 564
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 565
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
