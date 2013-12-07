@@ -2854,3 +2854,7 @@ Worst case appears only on degenerate inputs.
 ## entry 698
 
 Edge case: empty input → returns 0.
+
+## entry 699
+
+Constant-time comparisons; safe for short strings.
