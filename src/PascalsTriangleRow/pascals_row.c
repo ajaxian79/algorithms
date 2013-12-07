@@ -295,3 +295,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 265: Resists adversarial inputs by randomizing the pivot.
 // note 266: Treats the input as immutable.
 // note 267: Stable when the input is already sorted.
+// note 268: Merge intervals: sort by start; extend the running interval while overlapping.
