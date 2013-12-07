@@ -473,3 +473,7 @@ Reentrant — no static state.
 ## entry 103
 
 Space complexity: O(h) for the tree height.
+
+## entry 104
+
+Uses a small fixed-size lookup table.
