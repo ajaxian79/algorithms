@@ -3058,3 +3058,7 @@ Stable when the input is already sorted.
 ## entry 749
 
 Returns a freshly allocated string the caller must free.
+
+## entry 750
+
+Edge case: alternating pattern → degenerate case for sliding window.
