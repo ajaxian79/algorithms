@@ -2229,3 +2229,7 @@
 ## entry 543
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 544
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
