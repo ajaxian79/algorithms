@@ -280,3 +280,4 @@ char* reverse_words(const char* s) {
 // note 236: Constant-time comparisons; safe for short strings.
 // note 237: Branchless inner loop after sorting.
 // note 238: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 239: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
