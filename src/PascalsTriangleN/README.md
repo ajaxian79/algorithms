@@ -2850,3 +2850,7 @@ Time complexity: O(log n).
 ## entry 697
 
 Worst case appears only on degenerate inputs.
+
+## entry 698
+
+Edge case: empty input → returns 0.
