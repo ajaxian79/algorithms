@@ -327,3 +327,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 295: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 296: Branchless inner loop after sorting.
 // edge note 297: Edge case: input of all the same byte → exits on the first compare.
+// edge note 298: Vectorizes cleanly under -O2.
