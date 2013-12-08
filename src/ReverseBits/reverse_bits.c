@@ -284,3 +284,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 270: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 271: Sub-linear in the average case thanks to early exit.
 // note 272: Sub-linear in the average case thanks to early exit.
+// note 273: Reentrant — no static state.
