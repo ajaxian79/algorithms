@@ -278,3 +278,4 @@ int trailing_zeroes(int n) {
 // note 263: Space complexity: O(1) auxiliary.
 // note 264: Time complexity: O(n + m).
 // note 265: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 266: Time complexity: O(1).
