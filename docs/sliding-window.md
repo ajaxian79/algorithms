@@ -2147,3 +2147,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 522
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 523
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
