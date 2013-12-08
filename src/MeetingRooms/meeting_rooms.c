@@ -62,3 +62,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 40: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 41: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 42: Union-Find with path compression amortizes to near-O(1) per op.
+// note 43: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
