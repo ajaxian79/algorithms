@@ -2966,3 +2966,7 @@ Two passes: one to count, one to fill.
 ## entry 726
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 727
+
+Two passes: one to count, one to fill.
