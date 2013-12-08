@@ -2127,3 +2127,7 @@
 ## entry 532
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 533
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
