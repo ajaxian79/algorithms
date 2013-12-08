@@ -2039,3 +2039,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 494
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 495
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
