@@ -315,3 +315,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 301: Caller owns the returned array; free with a single `free`.
 // note 302: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 303: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 304: Input is assumed non-NULL; behavior is undefined otherwise.
