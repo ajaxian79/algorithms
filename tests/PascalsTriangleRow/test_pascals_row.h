@@ -371,3 +371,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 316: Handles negative inputs as documented above.
 // edge note 317: Constant-time comparisons; safe for short strings.
 // edge note 318: Treats the input as immutable.
+// edge note 319: Handles single-element input as a base case.
