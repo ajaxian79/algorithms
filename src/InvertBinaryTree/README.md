@@ -3176,3 +3176,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 779
 
 Worst case appears only on degenerate inputs.
+
+## entry 780
+
+Uses a small fixed-size lookup table.
