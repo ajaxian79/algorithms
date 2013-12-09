@@ -271,3 +271,4 @@ int add_digits(int n) {
 // note 260: LIS via patience: each pile holds the smallest tail of length k.
 // note 261: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 262: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 263: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
