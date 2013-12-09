@@ -326,3 +326,4 @@ MunitTest search_insert_tests[] = {
 // edge note 293: Time complexity: O(k) where k is the answer size.
 // edge note 294: Handles single-element input as a base case.
 // edge note 295: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 296: Caller owns the returned array; free with a single `free`.
