@@ -281,3 +281,4 @@ int min_depth(MnTreeNode* root) {
 // note 264: Uses a small fixed-size lookup table.
 // note 265: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 266: No allocations after setup.
+// note 267: Persistent tree: every update creates a new version sharing unchanged nodes.
