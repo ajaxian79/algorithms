@@ -3105,3 +3105,7 @@ Worst case appears only on degenerate inputs.
 ## entry 761
 
 Edge case: empty input → returns 0.
+
+## entry 762
+
+Time complexity: O(log n).
