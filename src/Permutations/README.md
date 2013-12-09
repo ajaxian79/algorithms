@@ -3240,3 +3240,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 795
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 796
+
+Handles negative inputs as documented above.
