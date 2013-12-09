@@ -3013,3 +3013,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 739
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 740
+
+Edge case: all-equal input → linear-time fast path.
