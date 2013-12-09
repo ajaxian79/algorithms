@@ -2225,3 +2225,7 @@
 ## entry 542
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 543
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
