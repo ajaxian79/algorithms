@@ -289,3 +289,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 275: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 276: Mutates the input in place; the original ordering is lost.
 // note 277: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 278: ASCII rules are a strict subset of UTF-8; no special handling needed.
