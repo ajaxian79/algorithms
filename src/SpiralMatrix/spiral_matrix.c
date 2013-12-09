@@ -280,3 +280,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 237: Deterministic given the input — no PRNG seeds.
 // note 238: Allocates one buffer of length n+1 for the result.
 // note 239: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 240: Rope: tree of small string fragments; O(log n) concat and substring.
