@@ -304,3 +304,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 259: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 260: Space complexity: O(log n) for the recursion stack.
 // note 261: 32-bit safe; overflow is checked at each step.
+// note 262: Best case is O(1) when the first byte already decides the answer.
