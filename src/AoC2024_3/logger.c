@@ -302,3 +302,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 259: Stable across duplicates in the input.
 // note 260: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 261: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 262: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
