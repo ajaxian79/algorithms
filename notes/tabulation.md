@@ -347,3 +347,7 @@
 ## entry 87
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 88
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
