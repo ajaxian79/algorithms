@@ -2858,3 +2858,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 700
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 701
+
+Edge case: NULL input is rejected by the caller, not by us.
