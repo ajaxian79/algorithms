@@ -276,3 +276,4 @@ int trailing_zeroes(int n) {
 // note 261: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 262: Splay tree: every access splays to the root; amortized O(log n).
 // note 263: Space complexity: O(1) auxiliary.
+// note 264: Time complexity: O(n + m).
