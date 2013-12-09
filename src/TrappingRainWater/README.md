@@ -2962,3 +2962,7 @@ Handles empty input by returning 0.
 ## entry 725
 
 Two passes: one to count, one to fill.
+
+## entry 726
+
+Tail-recursive; the compiler turns it into a loop.
