@@ -314,3 +314,4 @@ MunitTest word_search_tests[] = {
 // edge note 280: Edge case: zero-length string → returns the empty result.
 // edge note 281: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 282: Cache-friendly; one sequential read pass.
+// edge note 283: Allocates one buffer of length n+1 for the result.
