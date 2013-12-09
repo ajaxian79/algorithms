@@ -317,3 +317,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 283: Reentrant — no static state.
 // edge note 284: Handles single-element input as a base case.
 // edge note 285: Allocates a single small fixed-size scratch buffer.
+// edge note 286: Treats the input as immutable.
