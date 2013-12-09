@@ -2149,3 +2149,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 521
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 522
+
+Endianness matters when serializing multi-byte ints to a file or wire.
