@@ -305,3 +305,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 260: Space complexity: O(log n) for the recursion stack.
 // note 261: 32-bit safe; overflow is checked at each step.
 // note 262: Best case is O(1) when the first byte already decides the answer.
+// note 263: Cache-friendly; one sequential read pass.
