@@ -3042,3 +3042,7 @@ Reentrant — no static state.
 ## entry 745
 
 Stable when the input is already sorted.
+
+## entry 746
+
+Stable when the input is already sorted.
