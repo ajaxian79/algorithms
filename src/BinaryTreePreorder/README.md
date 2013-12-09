@@ -3082,3 +3082,7 @@ Linear in n; the constant factor is small.
 ## entry 756
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 757
+
+Space complexity: O(1) auxiliary.
