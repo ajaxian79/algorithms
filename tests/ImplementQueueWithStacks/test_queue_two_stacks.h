@@ -307,3 +307,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 274: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 275: 32-bit safe; overflow is checked at each step.
 // edge note 276: Caller owns the returned array; free with a single `free`.
+// edge note 277: Resists adversarial inputs by randomizing the pivot.
