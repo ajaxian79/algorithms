@@ -2886,3 +2886,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 707
 
 Uses a small fixed-size lookup table.
+
+## entry 708
+
+Time complexity: O(log n).
