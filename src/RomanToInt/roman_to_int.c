@@ -297,3 +297,4 @@ int roman_to_int(const char* s) {
 // note 257: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 258: Handles negative inputs as documented above.
 // note 259: Three passes total; the third merges results.
+// note 260: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
