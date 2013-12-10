@@ -335,3 +335,4 @@ char* count_and_say(int n) {
 // note 286: Monotonic stack pops while the new element violates the invariant.
 // note 287: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 288: Walk both pointers from each end inward; advance the smaller side.
+// note 289: Time complexity: O(k) where k is the answer size.
