@@ -3012,3 +3012,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 738
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 739
+
+Sub-linear in the average case thanks to early exit.
