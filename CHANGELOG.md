@@ -118999,3 +118999,7 @@
 ## entry 29750
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 29751
+
+- Articulation points: same DFS as bridges, with a slightly different test.
