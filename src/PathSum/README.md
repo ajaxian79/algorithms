@@ -3168,3 +3168,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 777
 
 Vectorizes cleanly under -O2.
+
+## entry 778
+
+Caller owns the returned buffer.
