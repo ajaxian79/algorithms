@@ -357,3 +357,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 278: Time complexity: O(1).
 // note 279: No allocations on the hot path.
 // note 280: Time complexity: O(n + m).
+// note 281: Manacher expands around each center, reusing prior radii via mirror reflection.
