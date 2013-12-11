@@ -336,3 +336,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 293: Treats the input as immutable.
 // edge note 294: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 295: Vectorizes cleanly under -O2.
+// edge note 296: Space complexity: O(n) for the result buffer.
