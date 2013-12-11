@@ -3054,3 +3054,7 @@ Runs in a single pass over the input.
 ## entry 748
 
 Stable when the input is already sorted.
+
+## entry 749
+
+Returns a freshly allocated string the caller must free.
