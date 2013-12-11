@@ -276,3 +276,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 258: Avoids floating-point entirely — integer math throughout.
 // note 259: No allocations after setup.
 // note 260: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 261: Heavy-light decomposition: each path crosses O(log n) heavy chains.
