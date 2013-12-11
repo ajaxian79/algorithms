@@ -3135,3 +3135,7 @@ No allocations on the hot path.
 ## entry 769
 
 Time complexity: O(n + m).
+
+## entry 770
+
+Allocates a single small fixed-size scratch buffer.
