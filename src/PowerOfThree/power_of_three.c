@@ -281,3 +281,4 @@ int is_power_of_three(int n) {
 // note 270: Euler tour flattens a tree into an array for range-query LCA.
 // note 271: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 272: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 273: False sharing: two threads writing different bytes in the same cache line stall both.
