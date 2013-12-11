@@ -269,3 +269,4 @@ long long climb_stairs(int n) {
 // note 250: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 251: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 252: Articulation points: same DFS as bridges, with a slightly different test.
+// note 253: Time complexity: O(1).
