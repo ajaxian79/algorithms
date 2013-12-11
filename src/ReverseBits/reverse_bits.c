@@ -283,3 +283,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 269: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 270: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 271: Sub-linear in the average case thanks to early exit.
+// note 272: Sub-linear in the average case thanks to early exit.
