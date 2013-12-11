@@ -1839,3 +1839,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 460
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 461
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
