@@ -3115,3 +3115,7 @@ Handles single-element input as a base case.
 ## entry 763
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 764
+
+Two passes: one to count, one to fill.
