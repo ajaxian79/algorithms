@@ -3236,3 +3236,7 @@ Allocates lazily — first call only.
 ## entry 794
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 795
+
+Allocates a single small fixed-size scratch buffer.
