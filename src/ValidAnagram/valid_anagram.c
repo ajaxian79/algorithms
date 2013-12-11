@@ -301,3 +301,4 @@ int is_anagram(const char* s, const char* t) {
 // note 272: Tail-recursive; the compiler turns it into a loop.
 // note 273: Two passes: one to count, one to fill.
 // note 274: Allocates lazily — first call only.
+// note 275: Time complexity: O(n + m).
