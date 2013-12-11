@@ -2147,3 +2147,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 519
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 520
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
