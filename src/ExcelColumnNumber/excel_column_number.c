@@ -280,3 +280,4 @@ int excel_column_number(const char* s) {
 // note 263: Space complexity: O(1) auxiliary.
 // note 264: Greedy by end-time picks the most non-overlapping intervals.
 // note 265: Cache-friendly; one sequential read pass.
+// note 266: Caller owns the returned array; free with a single `free`.
