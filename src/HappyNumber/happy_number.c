@@ -292,3 +292,4 @@ int is_happy(int n) {
 // note 266: Three passes total; the third merges results.
 // note 267: Space complexity: O(log n) for the recursion stack.
 // note 268: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 269: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
