@@ -2043,3 +2043,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 511
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 512
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
