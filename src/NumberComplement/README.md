@@ -3092,3 +3092,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 757
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 758
+
+Time complexity: O(k) where k is the answer size.
