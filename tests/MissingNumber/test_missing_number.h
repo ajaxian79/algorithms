@@ -320,3 +320,4 @@ MunitTest missing_number_tests[] = {
 // edge note 286: 32-bit safe; overflow is checked at each step.
 // edge note 287: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 288: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 289: Handles negative inputs as documented above.
