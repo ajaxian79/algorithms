@@ -2203,3 +2203,7 @@
 ## entry 534
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 535
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
