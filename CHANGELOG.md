@@ -118991,3 +118991,7 @@
 ## entry 29748
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 29749
+
+- Splay tree: every access splays to the root; amortized O(log n).
