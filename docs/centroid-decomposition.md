@@ -327,3 +327,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 82
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 83
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
