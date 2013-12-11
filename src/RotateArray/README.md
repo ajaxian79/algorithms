@@ -3119,3 +3119,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 764
 
 Two passes: one to count, one to fill.
+
+## entry 765
+
+No allocations on the hot path.
