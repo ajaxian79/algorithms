@@ -2865,3 +2865,7 @@ Time complexity: O(n + m).
 ## entry 701
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 702
+
+Uses a 256-entry lookup for the inner step.
