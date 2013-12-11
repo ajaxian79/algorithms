@@ -2958,3 +2958,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 724
 
 Handles empty input by returning 0.
+
+## entry 725
+
+Two passes: one to count, one to fill.
