@@ -2103,3 +2103,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 509
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 510
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
