@@ -2247,3 +2247,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 546
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 547
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
