@@ -2233,3 +2233,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 543
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 544
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
