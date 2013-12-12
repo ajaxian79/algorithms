@@ -341,3 +341,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 312: Returns a freshly allocated string the caller must free.
 // edge note 313: Edge case: input with no peak → falls through to the default branch.
 // edge note 314: Treats the input as immutable.
+// edge note 315: Idempotent — calling twice with the same input is a no-op the second time.
