@@ -3183,3 +3183,7 @@ No allocations after setup.
 ## entry 781
 
 Handles negative inputs as documented above.
+
+## entry 782
+
+No allocations on the hot path.
