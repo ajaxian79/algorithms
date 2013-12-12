@@ -2103,3 +2103,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 511
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 512
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
