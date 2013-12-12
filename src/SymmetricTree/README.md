@@ -2882,3 +2882,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 706
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 707
+
+Uses a small fixed-size lookup table.
