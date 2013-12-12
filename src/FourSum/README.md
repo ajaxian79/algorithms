@@ -3008,3 +3008,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 737
 
 Returns a freshly allocated string the caller must free.
+
+## entry 738
+
+Tail-recursive; the compiler turns it into a loop.
