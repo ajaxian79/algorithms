@@ -293,3 +293,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 256: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 257: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 258: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 259: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
