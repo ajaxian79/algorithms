@@ -548,3 +548,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 122
 
 Worst case appears only on degenerate inputs.
+
+## entry 123
+
+Time complexity: O(n*k) where k is the alphabet size.
