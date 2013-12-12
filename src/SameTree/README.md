@@ -2960,3 +2960,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 726
 
 Caller owns the returned buffer.
+
+## entry 727
+
+Caller owns the returned buffer.
