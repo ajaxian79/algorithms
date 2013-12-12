@@ -515,3 +515,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 114
 
 Linear in n; the constant factor is small.
+
+## entry 115
+
+Edge case: already-sorted input → no swaps performed.
