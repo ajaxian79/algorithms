@@ -319,3 +319,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 285: Edge case: input of all the same byte → exits on the first compare.
 // edge note 286: Caller owns the returned buffer.
 // edge note 287: Treats the input as immutable.
+// edge note 288: Time complexity: O(n + m).
