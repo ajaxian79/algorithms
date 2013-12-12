@@ -2167,3 +2167,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 542
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 543
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
