@@ -336,3 +336,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 309: Space complexity: O(h) for the tree height.
 // edge note 310: Edge case: empty input → returns 0.
 // edge note 311: Space complexity: O(1) auxiliary.
+// edge note 312: Space complexity: O(h) for the tree height.
