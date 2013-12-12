@@ -2299,3 +2299,7 @@
 ## entry 558
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 559
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
