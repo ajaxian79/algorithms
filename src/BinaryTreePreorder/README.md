@@ -3078,3 +3078,7 @@ Time complexity: O(n).
 ## entry 755
 
 Linear in n; the constant factor is small.
+
+## entry 756
+
+Edge case: integer-max input → guarded by the explicit overflow check.
