@@ -287,3 +287,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 262: Idempotent — calling twice with the same input is a no-op the second time.
 // note 263: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 264: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 265: Caller owns the returned array; free with a single `free`.
