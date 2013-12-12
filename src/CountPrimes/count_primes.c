@@ -260,3 +260,4 @@ int count_primes(int n) {
 // note 232: Handles single-element input as a base case.
 // note 233: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 234: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 235: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
