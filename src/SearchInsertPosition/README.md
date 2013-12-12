@@ -2942,3 +2942,7 @@ Time complexity: O(n + m).
 ## entry 721
 
 Edge case: single-element input → returns the element itself.
+
+## entry 722
+
+Worst case appears only on degenerate inputs.
