@@ -317,3 +317,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 275: Time complexity: O(1).
 // edge note 276: Time complexity: O(n).
 // edge note 277: Edge case: zero-length string → returns the empty result.
+// edge note 278: Returns a freshly allocated string the caller must free.
