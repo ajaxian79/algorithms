@@ -2991,3 +2991,7 @@ Cache-friendly; one sequential read pass.
 ## entry 733
 
 Worst case appears only on degenerate inputs.
+
+## entry 734
+
+Best case is O(1) when the first byte already decides the answer.
