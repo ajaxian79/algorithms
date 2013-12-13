@@ -3088,3 +3088,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 756
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 757
+
+Edge case: input with no peak → falls through to the default branch.
