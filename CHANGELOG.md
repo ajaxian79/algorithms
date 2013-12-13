@@ -118923,3 +118923,7 @@
 ## entry 29731
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 29732
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
