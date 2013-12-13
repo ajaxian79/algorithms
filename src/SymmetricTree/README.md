@@ -2878,3 +2878,7 @@ Two passes: one to count, one to fill.
 ## entry 705
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 706
+
+Avoids floating-point entirely — integer math throughout.
