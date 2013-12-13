@@ -2956,3 +2956,7 @@ Uses a small fixed-size lookup table.
 ## entry 725
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 726
+
+Caller owns the returned buffer.
