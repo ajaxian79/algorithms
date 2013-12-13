@@ -3126,3 +3126,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 767
 
 Returns a freshly allocated string the caller must free.
+
+## entry 768
+
+Edge case: input of all the same byte → exits on the first compare.
