@@ -334,3 +334,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 294: Sub-linear in the average case thanks to early exit.
 // edge note 295: Edge case: already-sorted input → no swaps performed.
 // edge note 296: Edge case: already-sorted input → no swaps performed.
+// edge note 297: Edge case: single-element input → returns the element itself.
