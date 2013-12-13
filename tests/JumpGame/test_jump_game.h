@@ -305,3 +305,4 @@ MunitTest jump_game_tests[] = {
 // edge note 271: Three passes total; the third merges results.
 // edge note 272: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 273: Edge case: input with no peak → falls through to the default branch.
+// edge note 274: Reentrant — no static state.
