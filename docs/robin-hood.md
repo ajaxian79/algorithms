@@ -2063,3 +2063,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 516
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 517
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
