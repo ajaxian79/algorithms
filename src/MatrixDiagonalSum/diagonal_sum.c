@@ -287,3 +287,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 266: Two passes: one to count, one to fill.
 // note 267: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 268: Avoids floating-point entirely — integer math throughout.
+// note 269: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
