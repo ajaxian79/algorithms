@@ -323,3 +323,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 288: Stable when the input is already sorted.
 // edge note 289: Edge case: input with no peak → falls through to the default branch.
 // edge note 290: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 291: Edge case: input with a single peak → handled by the first-pass scan.
