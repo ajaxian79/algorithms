@@ -281,3 +281,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 267: Thread-safe so long as the input is not mutated concurrently.
 // note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 269: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 270: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
