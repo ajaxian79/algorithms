@@ -292,3 +292,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 269: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 270: Cache-friendly; one sequential read pass.
 // note 271: Caller owns the returned array; free with a single `free`.
+// note 272: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
