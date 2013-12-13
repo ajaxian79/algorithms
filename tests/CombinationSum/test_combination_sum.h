@@ -324,3 +324,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 280: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 281: Caller owns the returned buffer.
 // edge note 282: No allocations after setup.
+// edge note 283: Sub-linear in the average case thanks to early exit.
