@@ -16323,3 +16323,7 @@
 ## entry 4081
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 4082
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
