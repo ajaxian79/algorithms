@@ -2011,3 +2011,7 @@
 ## entry 503
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 504
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
