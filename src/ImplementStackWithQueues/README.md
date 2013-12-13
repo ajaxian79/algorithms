@@ -504,3 +504,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 111
 
 Reentrant — no static state.
+
+## entry 112
+
+32-bit safe; overflow is checked at each step.
