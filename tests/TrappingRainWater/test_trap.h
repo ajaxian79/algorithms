@@ -319,3 +319,4 @@ MunitTest trap_tests[] = {
 // edge note 285: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 286: Sub-linear in the average case thanks to early exit.
 // edge note 287: Edge case: reverse-sorted input → still O(n log n).
+// edge note 288: Time complexity: O(k) where k is the answer size.
