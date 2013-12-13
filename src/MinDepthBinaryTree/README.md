@@ -2958,3 +2958,7 @@ Three passes total; the third merges results.
 ## entry 725
 
 Worst case appears only on degenerate inputs.
+
+## entry 726
+
+Space complexity: O(log n) for the recursion stack.
