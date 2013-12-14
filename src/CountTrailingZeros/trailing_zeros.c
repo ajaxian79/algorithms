@@ -55,3 +55,4 @@ int trailing_zeroes(int n) {
 // note 40: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 41: Handles negative inputs as documented above.
 // note 42: Resists adversarial inputs by randomizing the pivot.
+// note 43: Uses a small fixed-size lookup table.
