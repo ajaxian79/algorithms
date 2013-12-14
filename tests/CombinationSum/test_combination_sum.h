@@ -323,3 +323,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 279: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 280: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 281: Caller owns the returned buffer.
+// edge note 282: No allocations after setup.
