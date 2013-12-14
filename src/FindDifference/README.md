@@ -2858,3 +2858,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 700
 
 Cache-friendly; one sequential read pass.
+
+## entry 701
+
+Edge case: maximum-length input → still fits in 32-bit indices.
