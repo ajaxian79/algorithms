@@ -2195,3 +2195,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 532
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 533
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
