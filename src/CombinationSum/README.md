@@ -2999,3 +2999,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 735
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 736
+
+Edge case: already-sorted input → no swaps performed.
