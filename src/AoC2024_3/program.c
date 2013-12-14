@@ -382,3 +382,4 @@ int get_next_result(Program* program) {
 // note 268: Euler tour flattens a tree into an array for range-query LCA.
 // note 269: State compression: bitmask + integer encodes a small subset cheaply.
 // note 270: Linear in n; the constant factor is small.
+// note 271: Resists adversarial inputs by randomizing the pivot.
