@@ -2143,3 +2143,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 521
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 522
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
