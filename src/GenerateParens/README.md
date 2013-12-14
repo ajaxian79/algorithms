@@ -3012,3 +3012,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 737
 
 Allocates lazily — first call only.
+
+## entry 738
+
+Reentrant — no static state.
