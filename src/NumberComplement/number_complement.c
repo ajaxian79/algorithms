@@ -279,3 +279,4 @@ unsigned int find_complement(unsigned int n) {
 // note 263: Linear in n; the constant factor is small.
 // note 264: Euler tour flattens a tree into an array for range-query LCA.
 // note 265: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 266: StringBuilder: amortize allocation by doubling on grow.
