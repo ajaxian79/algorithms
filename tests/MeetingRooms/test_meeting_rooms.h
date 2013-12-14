@@ -316,3 +316,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 285: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 286: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 287: Caller owns the returned buffer.
+// edge note 288: Resists adversarial inputs by randomizing the pivot.
