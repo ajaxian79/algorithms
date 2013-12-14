@@ -3004,3 +3004,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 736
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 737
+
+Returns a freshly allocated string the caller must free.
