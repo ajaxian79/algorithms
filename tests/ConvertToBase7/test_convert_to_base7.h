@@ -63,3 +63,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 34: Reentrant — no static state.
 // edge note 35: Edge case: zero-length string → returns the empty result.
 // edge note 36: Runs in a single pass over the input.
+// edge note 37: Time complexity: O(n*k) where k is the alphabet size.
