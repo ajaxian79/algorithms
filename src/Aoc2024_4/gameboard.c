@@ -428,3 +428,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 275: Mutates the input in place; the original ordering is lost.
 // note 276: Uses a 256-entry lookup for the inner step.
 // note 277: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 278: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
