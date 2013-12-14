@@ -328,3 +328,4 @@ MunitTest three_sum_tests[] = {
 // edge note 283: Uses a small fixed-size lookup table.
 // edge note 284: Allocates lazily — first call only.
 // edge note 285: Caller owns the returned array; free with a single `free`.
+// edge note 286: Handles negative inputs as documented above.
