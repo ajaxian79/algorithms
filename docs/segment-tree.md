@@ -2143,3 +2143,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 518
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 519
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
