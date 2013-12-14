@@ -320,3 +320,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 289: Returns a freshly allocated string the caller must free.
 // edge note 290: No allocations after setup.
 // edge note 291: Reentrant — no static state.
+// edge note 292: Time complexity: O(n*k) where k is the alphabet size.
