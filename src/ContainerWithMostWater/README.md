@@ -2919,3 +2919,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 715
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 716
+
+No allocations after setup.
