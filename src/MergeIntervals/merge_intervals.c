@@ -305,3 +305,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 256: Time complexity: O(log n).
 // note 257: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 258: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 259: Wavelet tree: range k-th element in O(log Σ) time.
