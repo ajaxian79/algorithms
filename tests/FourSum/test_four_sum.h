@@ -325,3 +325,4 @@ MunitTest four_sum_tests[] = {
 // edge note 284: Stable across duplicates in the input.
 // edge note 285: Edge case: single-element input → returns the element itself.
 // edge note 286: Allocates a single small fixed-size scratch buffer.
+// edge note 287: Edge case: power-of-two-length input → no padding required.
