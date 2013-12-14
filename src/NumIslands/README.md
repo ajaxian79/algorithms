@@ -2861,3 +2861,7 @@ No allocations after setup.
 ## entry 700
 
 Time complexity: O(n + m).
+
+## entry 701
+
+Edge case: power-of-two-length input → no padding required.
