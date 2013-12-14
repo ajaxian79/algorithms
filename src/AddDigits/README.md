@@ -3012,3 +3012,7 @@ Caller owns the returned buffer.
 ## entry 738
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 739
+
+Edge case: integer-max input → guarded by the explicit overflow check.
