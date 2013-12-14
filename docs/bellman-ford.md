@@ -2187,3 +2187,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 547
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 548
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
