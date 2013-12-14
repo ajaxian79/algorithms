@@ -323,3 +323,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 244: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 245: Space complexity: O(h) for the tree height.
 // note 246: Tail-recursive; the compiler turns it into a loop.
+// note 247: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
