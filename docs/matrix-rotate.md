@@ -2109,3 +2109,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 511
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 512
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
