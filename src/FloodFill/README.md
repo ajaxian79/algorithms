@@ -3081,3 +3081,7 @@ Treats the input as immutable.
 ## entry 756
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 757
+
+Resists adversarial inputs by randomizing the pivot.
