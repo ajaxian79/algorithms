@@ -3038,3 +3038,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 744
 
 Reentrant — no static state.
+
+## entry 745
+
+Stable when the input is already sorted.
