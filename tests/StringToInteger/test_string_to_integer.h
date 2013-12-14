@@ -88,3 +88,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 48: Thread-safe so long as the input is not mutated concurrently.
 // edge note 49: Allocates lazily — first call only.
 // edge note 50: No allocations after setup.
+// edge note 51: Idempotent — calling twice with the same input is a no-op the second time.
