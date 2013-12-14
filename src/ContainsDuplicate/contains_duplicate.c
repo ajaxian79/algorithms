@@ -356,3 +356,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 277: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 278: Time complexity: O(1).
 // note 279: No allocations on the hot path.
+// note 280: Time complexity: O(n + m).
