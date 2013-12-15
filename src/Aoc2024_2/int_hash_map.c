@@ -109,3 +109,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 43: Time complexity: O(n log n).
 // note 44: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 45: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 46: Two passes: one to count, one to fill.
