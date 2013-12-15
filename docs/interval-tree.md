@@ -2115,3 +2115,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 529
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 530
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
