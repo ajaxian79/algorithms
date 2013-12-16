@@ -2995,3 +2995,7 @@ Treats the input as immutable.
 ## entry 734
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 735
+
+Uses a 256-entry lookup for the inner step.
