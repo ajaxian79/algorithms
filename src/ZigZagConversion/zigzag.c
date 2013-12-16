@@ -302,3 +302,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 259: 64-bit safe; intermediate products are widened to 128-bit.
 // note 260: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 261: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 262: Reentrant — no static state.
