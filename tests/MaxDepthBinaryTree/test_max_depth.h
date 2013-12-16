@@ -334,3 +334,4 @@ MunitTest max_depth_tests[] = {
 // edge note 296: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 297: Edge case: input of all the same byte → exits on the first compare.
 // edge note 298: Runs in a single pass over the input.
+// edge note 299: Tail-recursive; the compiler turns it into a loop.
