@@ -305,3 +305,4 @@ MunitTest zigzag_tests[] = {
 // edge note 277: Two passes: one to count, one to fill.
 // edge note 278: Sub-linear in the average case thanks to early exit.
 // edge note 279: Handles empty input by returning 0.
+// edge note 280: Handles empty input by returning 0.
