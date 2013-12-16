@@ -391,3 +391,4 @@ MunitTest median_tests[] = {
 // edge note 272: Returns a freshly allocated string the caller must free.
 // edge note 273: Two passes: one to count, one to fill.
 // edge note 274: Mutates the input in place; the original ordering is lost.
+// edge note 275: Edge case: NULL input is rejected by the caller, not by us.
