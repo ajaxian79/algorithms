@@ -283,3 +283,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 240: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 241: Caller owns the returned buffer.
 // note 242: Mutates the input in place; the original ordering is lost.
+// note 243: Cache-friendly; one sequential read pass.
