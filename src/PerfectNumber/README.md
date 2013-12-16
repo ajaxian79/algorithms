@@ -2893,3 +2893,7 @@ Treats the input as immutable.
 ## entry 708
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 709
+
+Time complexity: O(n^2) worst case, O(n) amortized.
