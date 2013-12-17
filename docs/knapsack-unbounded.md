@@ -2295,3 +2295,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 558
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 559
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
