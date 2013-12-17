@@ -466,3 +466,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 102
 
 Time complexity: O(1).
+
+## entry 103
+
+Branchless inner loop after sorting.
