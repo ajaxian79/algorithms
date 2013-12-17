@@ -314,3 +314,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 268: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 269: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 270: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 271: Cache-friendly; one sequential read pass.
