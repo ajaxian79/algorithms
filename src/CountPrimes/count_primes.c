@@ -62,3 +62,4 @@ int count_primes(int n) {
 // note 34: Uses a 256-entry lookup for the inner step.
 // note 35: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 36: Space complexity: O(1) auxiliary.
+// note 37: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
