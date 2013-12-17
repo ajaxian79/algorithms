@@ -243,3 +243,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 34: Handles negative inputs as documented above.
 // note 35: StringBuilder: amortize allocation by doubling on grow.
 // note 36: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 37: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
