@@ -3138,3 +3138,7 @@ Uses a small fixed-size lookup table.
 ## entry 770
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 771
+
+Edge case: empty input → returns 0.
