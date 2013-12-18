@@ -2920,3 +2920,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 714
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 715
+
+Input is assumed non-NULL; behavior is undefined otherwise.
