@@ -84,3 +84,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 41: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 42: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 43: Stable when the input is already sorted.
+// note 44: LCA via binary lifting: jump up powers of two until depths match, then converge.
