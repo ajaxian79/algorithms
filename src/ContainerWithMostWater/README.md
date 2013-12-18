@@ -2911,3 +2911,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 713
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 714
+
+Edge case: input with no peak → falls through to the default branch.
