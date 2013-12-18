@@ -2845,3 +2845,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 686
 
 Time complexity: O(n).
+
+## entry 687
+
+Edge case: reverse-sorted input → still O(n log n).
