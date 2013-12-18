@@ -2915,3 +2915,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 714
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 715
+
+Deterministic given the input — no PRNG seeds.
