@@ -343,3 +343,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 310: Caller owns the returned array; free with a single `free`.
 // edge note 311: Tail-recursive; the compiler turns it into a loop.
 // edge note 312: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 313: Edge case: alternating pattern → degenerate case for sliding window.
