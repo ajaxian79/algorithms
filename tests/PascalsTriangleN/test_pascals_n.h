@@ -358,3 +358,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 299: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 300: Edge case: power-of-two-length input → no padding required.
 // edge note 301: Edge case: already-sorted input → no swaps performed.
+// edge note 302: Caller owns the returned array; free with a single `free`.
