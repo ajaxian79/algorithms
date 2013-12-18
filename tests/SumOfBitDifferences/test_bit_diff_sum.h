@@ -301,3 +301,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 270: Sub-linear in the average case thanks to early exit.
 // edge note 271: Allocates a single small fixed-size scratch buffer.
 // edge note 272: Edge case: input with no peak → falls through to the default branch.
+// edge note 273: Edge case: power-of-two-length input → no padding required.
