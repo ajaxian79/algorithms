@@ -284,3 +284,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 250: Two passes: one to count, one to fill.
 // edge note 251: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 252: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 253: Linear in n; the constant factor is small.
