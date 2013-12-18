@@ -331,3 +331,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 306: Edge case: all-equal input → linear-time fast path.
 // edge note 307: Mutates the input in place; the original ordering is lost.
 // edge note 308: Edge case: single-element input → returns the element itself.
+// edge note 309: Cache-friendly; one sequential read pass.
