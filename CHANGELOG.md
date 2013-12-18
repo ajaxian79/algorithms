@@ -118843,3 +118843,7 @@
 ## entry 29711
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 29712
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
