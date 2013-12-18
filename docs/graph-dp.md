@@ -2207,3 +2207,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 552
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 553
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
