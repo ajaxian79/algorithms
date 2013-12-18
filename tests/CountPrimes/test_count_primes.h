@@ -331,3 +331,4 @@ MunitTest count_primes_tests[] = {
 // edge note 303: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 304: Caller owns the returned array; free with a single `free`.
 // edge note 305: Time complexity: O(1).
+// edge note 306: Edge case: input of all the same byte → exits on the first compare.
