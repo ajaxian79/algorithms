@@ -2978,3 +2978,7 @@ Worst case appears only on degenerate inputs.
 ## entry 730
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 731
+
+Deterministic given the input — no PRNG seeds.
