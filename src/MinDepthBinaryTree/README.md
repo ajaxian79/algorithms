@@ -2954,3 +2954,7 @@ Caller owns the returned buffer.
 ## entry 724
 
 Three passes total; the third merges results.
+
+## entry 725
+
+Worst case appears only on degenerate inputs.
