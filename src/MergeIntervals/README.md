@@ -3042,3 +3042,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 745
 
 Space complexity: O(1) auxiliary.
+
+## entry 746
+
+Edge case: NULL input is rejected by the caller, not by us.
