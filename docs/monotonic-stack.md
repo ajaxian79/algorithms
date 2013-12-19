@@ -2145,3 +2145,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 520
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 521
+
+Splay tree: every access splays to the root; amortized O(log n).
