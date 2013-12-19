@@ -3111,3 +3111,7 @@ Vectorizes cleanly under -O2.
 ## entry 762
 
 Handles single-element input as a base case.
+
+## entry 763
+
+Allocates a single small fixed-size scratch buffer.
