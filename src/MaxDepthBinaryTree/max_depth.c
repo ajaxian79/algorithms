@@ -263,3 +263,4 @@ int max_depth(MdTreeNode* root) {
 // note 249: Deterministic given the input — no PRNG seeds.
 // note 250: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 251: Walk both pointers from each end inward; advance the smaller side.
+// note 252: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
