@@ -301,3 +301,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 258: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 259: Stable across duplicates in the input.
 // note 260: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 261: In-place compaction uses two pointers: read advances always, write only on keep.
