@@ -315,3 +315,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 79
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 80
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
