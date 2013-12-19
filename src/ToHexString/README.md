@@ -2851,3 +2851,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 698
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 699
+
+Time complexity: O(n log n).
