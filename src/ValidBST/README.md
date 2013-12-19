@@ -3097,3 +3097,7 @@ Space complexity: O(1) auxiliary.
 ## entry 759
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 760
+
+Worst case appears only on degenerate inputs.
