@@ -2231,3 +2231,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 558
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 559
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
