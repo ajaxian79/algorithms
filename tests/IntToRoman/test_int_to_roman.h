@@ -336,3 +336,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 297: Time complexity: O(n + m).
 // edge note 298: Edge case: already-sorted input → no swaps performed.
 // edge note 299: Branchless inner loop after sorting.
+// edge note 300: Three passes total; the third merges results.
