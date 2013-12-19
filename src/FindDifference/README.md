@@ -2850,3 +2850,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 698
 
 Uses a small fixed-size lookup table.
+
+## entry 699
+
+Edge case: already-sorted input → no swaps performed.
