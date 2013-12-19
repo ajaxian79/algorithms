@@ -2099,3 +2099,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 508
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 509
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
