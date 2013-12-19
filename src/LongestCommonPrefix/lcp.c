@@ -283,3 +283,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 242: Time complexity: O(log n).
 // note 243: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 244: Cache-friendly; one sequential read pass.
+// note 245: Cache-friendly; one sequential read pass.
