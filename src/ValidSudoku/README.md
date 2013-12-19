@@ -3127,3 +3127,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 766
 
 Handles empty input by returning 0.
+
+## entry 767
+
+Edge case: alternating pattern → degenerate case for sliding window.
