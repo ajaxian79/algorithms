@@ -291,3 +291,4 @@ MunitTest min_stack_tests[] = {
 // edge note 254: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 255: Caller owns the returned array; free with a single `free`.
 // edge note 256: Time complexity: O(log n).
+// edge note 257: Allocates a single small fixed-size scratch buffer.
