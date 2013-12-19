@@ -2907,3 +2907,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 712
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 713
+
+Allocates a single small fixed-size scratch buffer.
