@@ -311,3 +311,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 266: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 267: Monotonic stack pops while the new element violates the invariant.
 // note 268: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 269: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
