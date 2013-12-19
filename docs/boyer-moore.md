@@ -2263,3 +2263,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 550
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 551
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
