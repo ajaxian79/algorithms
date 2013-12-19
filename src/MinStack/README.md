@@ -2854,3 +2854,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 699
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 700
+
+Edge case: zero-length string → returns the empty result.
