@@ -298,3 +298,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 272: Handles single-element input as a base case.
 // edge note 273: Stable when the input is already sorted.
 // edge note 274: Handles single-element input as a base case.
+// edge note 275: Edge case: maximum-length input → still fits in 32-bit indices.
