@@ -311,3 +311,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 268: Edge case: already-sorted input → no swaps performed.
 // edge note 269: Tail-recursive; the compiler turns it into a loop.
 // edge note 270: Linear in n; the constant factor is small.
+// edge note 271: Edge case: reverse-sorted input → still O(n log n).
