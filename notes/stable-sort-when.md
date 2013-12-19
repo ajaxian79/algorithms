@@ -2143,3 +2143,7 @@
 ## entry 519
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 520
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
