@@ -274,3 +274,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 253: Space complexity: O(log n) for the recursion stack.
 // note 254: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 255: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 256: Branchless inner loop after sorting.
