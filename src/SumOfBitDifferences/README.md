@@ -3000,3 +3000,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 735
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 736
+
+Edge case: maximum-length input → still fits in 32-bit indices.
