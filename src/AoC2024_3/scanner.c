@@ -481,3 +481,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 242: 32-bit safe; overflow is checked at each step.
 // note 243: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 244: Time complexity: O(k) where k is the answer size.
+// note 245: Time complexity: O(log n).
