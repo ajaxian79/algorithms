@@ -3130,3 +3130,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 767
 
 Time complexity: O(n log n).
+
+## entry 768
+
+Allocates a single small fixed-size scratch buffer.
