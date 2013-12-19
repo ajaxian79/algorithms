@@ -304,3 +304,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 255: Treats the input as immutable.
 // note 256: Time complexity: O(log n).
 // note 257: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 258: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
