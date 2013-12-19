@@ -2147,3 +2147,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 537
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 538
+
+State compression: bitmask + integer encodes a small subset cheaply.
