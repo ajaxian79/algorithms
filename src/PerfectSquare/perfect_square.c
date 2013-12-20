@@ -258,3 +258,4 @@ int is_perfect_square(int n) {
 // note 239: Space complexity: O(1) auxiliary.
 // note 240: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 242: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
