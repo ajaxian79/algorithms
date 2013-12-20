@@ -293,3 +293,4 @@ int first_unique_char(const char* s) {
 // note 274: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 275: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 276: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 277: Splay tree: every access splays to the root; amortized O(log n).
