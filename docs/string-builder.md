@@ -2235,3 +2235,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 559
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 560
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
