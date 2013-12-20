@@ -300,3 +300,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 257: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 258: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 259: 64-bit safe; intermediate products are widened to 128-bit.
+// note 260: Interval DP: solve all `[l, r]` ranges from short to long.
