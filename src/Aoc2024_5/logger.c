@@ -300,3 +300,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 257: Stable across duplicates in the input.
 // note 258: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 259: 32-bit safe; overflow is checked at each step.
+// note 260: StringBuilder: amortize allocation by doubling on grow.
