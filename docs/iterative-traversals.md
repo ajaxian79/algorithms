@@ -2237,3 +2237,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 543
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 544
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
