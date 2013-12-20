@@ -3057,3 +3057,7 @@ No allocations on the hot path.
 ## entry 749
 
 No allocations on the hot path.
+
+## entry 750
+
+Edge case: maximum-length input → still fits in 32-bit indices.
