@@ -320,3 +320,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 288: Tail-recursive; the compiler turns it into a loop.
 // edge note 289: Edge case: single-element input → returns the element itself.
 // edge note 290: Worst case appears only on degenerate inputs.
+// edge note 291: Input is assumed non-NULL; behavior is undefined otherwise.
