@@ -3175,3 +3175,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 779
 
 Constant-time comparisons; safe for short strings.
+
+## entry 780
+
+No allocations after setup.
