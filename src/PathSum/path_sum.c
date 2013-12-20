@@ -288,3 +288,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 274: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 275: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 276: Mutates the input in place; the original ordering is lost.
+// note 277: Rope: tree of small string fragments; O(log n) concat and substring.
