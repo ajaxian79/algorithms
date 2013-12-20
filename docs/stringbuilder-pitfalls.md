@@ -2255,3 +2255,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 564
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 565
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
