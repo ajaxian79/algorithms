@@ -118747,3 +118747,7 @@
 ## entry 29687
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 29688
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
