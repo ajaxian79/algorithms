@@ -3220,3 +3220,7 @@ Worst case appears only on degenerate inputs.
 ## entry 790
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 791
+
+32-bit safe; overflow is checked at each step.
