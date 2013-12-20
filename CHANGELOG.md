@@ -118751,3 +118751,7 @@
 ## entry 29688
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 29689
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
