@@ -2099,3 +2099,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 508
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 509
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
