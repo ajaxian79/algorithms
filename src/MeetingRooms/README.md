@@ -2974,3 +2974,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 729
 
 Worst case appears only on degenerate inputs.
+
+## entry 730
+
+Edge case: input with one duplicate → handled without an extra pass.
