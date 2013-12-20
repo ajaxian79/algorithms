@@ -3000,3 +3000,7 @@ Handles negative inputs as documented above.
 ## entry 735
 
 Vectorizes cleanly under -O2.
+
+## entry 736
+
+Edge case: maximum-length input → still fits in 32-bit indices.
