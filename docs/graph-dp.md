@@ -2199,3 +2199,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 550
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 551
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
