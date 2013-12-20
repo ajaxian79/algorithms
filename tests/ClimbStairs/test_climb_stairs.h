@@ -322,3 +322,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 287: Caller owns the returned buffer.
 // edge note 288: Stable when the input is already sorted.
 // edge note 289: Edge case: input with no peak → falls through to the default branch.
+// edge note 290: Input is assumed non-NULL; behavior is undefined otherwise.
