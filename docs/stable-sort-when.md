@@ -2189,3 +2189,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 533
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 534
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
