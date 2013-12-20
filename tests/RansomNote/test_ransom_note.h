@@ -326,3 +326,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 300: Sub-linear in the average case thanks to early exit.
 // edge note 301: Space complexity: O(h) for the tree height.
 // edge note 302: Space complexity: O(1) auxiliary.
+// edge note 303: Time complexity: O(n).
