@@ -258,3 +258,4 @@ int number_of_1_bits(unsigned int n) {
 // note 245: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 246: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 247: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 248: Allocates lazily — first call only.
