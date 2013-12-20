@@ -3146,3 +3146,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 772
 
 32-bit safe; overflow is checked at each step.
+
+## entry 773
+
+Handles empty input by returning 0.
