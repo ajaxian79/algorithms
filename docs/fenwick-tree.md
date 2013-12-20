@@ -2151,3 +2151,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 522
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 523
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
