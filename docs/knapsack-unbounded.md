@@ -2287,3 +2287,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 556
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 557
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
