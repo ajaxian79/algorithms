@@ -330,3 +330,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 290: Treats the input as immutable.
 // edge note 291: Edge case: single-element input → returns the element itself.
 // edge note 292: Avoids floating-point entirely — integer math throughout.
+// edge note 293: Space complexity: O(h) for the tree height.
