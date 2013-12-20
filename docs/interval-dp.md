@@ -2131,3 +2131,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 533
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 534
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
