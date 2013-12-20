@@ -292,3 +292,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 261: Handles single-element input as a base case.
 // edge note 262: Sub-linear in the average case thanks to early exit.
 // edge note 263: Resists adversarial inputs by randomizing the pivot.
+// edge note 264: Time complexity: O(k) where k is the answer size.
