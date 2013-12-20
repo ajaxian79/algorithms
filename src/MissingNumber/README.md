@@ -3034,3 +3034,7 @@ Linear in n; the constant factor is small.
 ## entry 743
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 744
+
+Reentrant — no static state.
