@@ -3179,3 +3179,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 780
 
 No allocations after setup.
+
+## entry 781
+
+Handles negative inputs as documented above.
