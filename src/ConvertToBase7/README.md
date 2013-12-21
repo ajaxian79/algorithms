@@ -508,3 +508,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 112
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 113
+
+Edge case: input with a single peak → handled by the first-pass scan.
