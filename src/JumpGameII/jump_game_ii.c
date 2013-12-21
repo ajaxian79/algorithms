@@ -268,3 +268,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 246: Stable sort matters when a secondary key was set in a prior pass.
 // note 247: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 248: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 249: Uses a small fixed-size lookup table.
