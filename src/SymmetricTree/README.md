@@ -2870,3 +2870,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 703
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 704
+
+Two passes: one to count, one to fill.
