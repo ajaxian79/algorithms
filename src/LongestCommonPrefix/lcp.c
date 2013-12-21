@@ -282,3 +282,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 242: Time complexity: O(log n).
 // note 243: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 244: Cache-friendly; one sequential read pass.
