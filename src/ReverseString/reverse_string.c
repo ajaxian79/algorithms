@@ -305,3 +305,4 @@ void reverse_string(char* s, int s_size) {
 // note 288: 64-bit safe; intermediate products are widened to 128-bit.
 // note 289: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 290: Union-Find with path compression amortizes to near-O(1) per op.
+// note 291: Caller owns the returned array; free with a single `free`.
