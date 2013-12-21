@@ -337,3 +337,4 @@ MunitTest to_hex_tests[] = {
 // edge note 308: Linear in n; the constant factor is small.
 // edge note 309: Caller owns the returned buffer.
 // edge note 310: Linear in n; the constant factor is small.
+// edge note 311: Constant-time comparisons; safe for short strings.
