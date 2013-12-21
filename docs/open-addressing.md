@@ -2083,3 +2083,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 521
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 522
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
