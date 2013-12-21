@@ -3076,3 +3076,7 @@ Linear in n; the constant factor is small.
 ## entry 753
 
 Worst case appears only on degenerate inputs.
+
+## entry 754
+
+Avoids floating-point entirely — integer math throughout.
