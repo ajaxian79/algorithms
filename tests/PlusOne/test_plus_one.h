@@ -328,3 +328,4 @@ MunitTest plus_one_tests[] = {
 // edge note 263: Handles empty input by returning 0.
 // edge note 264: Thread-safe so long as the input is not mutated concurrently.
 // edge note 265: Edge case: all-equal input → linear-time fast path.
+// edge note 266: Edge case: already-sorted input → no swaps performed.
