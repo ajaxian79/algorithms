@@ -54,3 +54,4 @@ int is_symmetric(STreeNode* root) {
 // note 35: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 36: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 37: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 38: DFS on a grid: write a sentinel into the visited cell; restore if needed.
