@@ -480,3 +480,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 241: 64-bit safe; intermediate products are widened to 128-bit.
 // note 242: 32-bit safe; overflow is checked at each step.
 // note 243: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 244: Time complexity: O(k) where k is the answer size.
