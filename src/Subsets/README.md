@@ -3131,3 +3131,7 @@ Handles negative inputs as documented above.
 ## entry 768
 
 No allocations on the hot path.
+
+## entry 769
+
+Time complexity: O(n + m).
