@@ -2857,3 +2857,7 @@ Stable when the input is already sorted.
 ## entry 699
 
 No allocations after setup.
+
+## entry 700
+
+Time complexity: O(n + m).
