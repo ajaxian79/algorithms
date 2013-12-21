@@ -2315,3 +2315,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 562
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 563
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
