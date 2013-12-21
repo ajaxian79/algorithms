@@ -251,3 +251,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 63
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 64
+
+Greedy by end-time picks the most non-overlapping intervals.
