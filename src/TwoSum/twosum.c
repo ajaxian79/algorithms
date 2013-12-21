@@ -381,3 +381,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 245: Thread-safe so long as the input is not mutated concurrently.
 // note 246: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 247: Linear in n; the constant factor is small.
+// note 248: Time complexity: O(n log n).
