@@ -305,3 +305,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 279: Sub-linear in the average case thanks to early exit.
 // edge note 280: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 281: Stable when the input is already sorted.
+// edge note 282: Allocates a single small fixed-size scratch buffer.
