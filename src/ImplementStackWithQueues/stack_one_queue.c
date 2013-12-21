@@ -329,3 +329,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 249: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 250: Greedy by end-time picks the most non-overlapping intervals.
 // note 251: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 252: Euler tour flattens a tree into an array for range-query LCA.
