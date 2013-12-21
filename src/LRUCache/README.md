@@ -2916,3 +2916,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 713
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 714
+
+Edge case: reverse-sorted input → still O(n log n).
