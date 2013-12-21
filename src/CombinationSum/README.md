@@ -2991,3 +2991,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 733
 
 Treats the input as immutable.
+
+## entry 734
+
+Tail-recursive; the compiler turns it into a loop.
