@@ -2119,3 +2119,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 530
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 531
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
