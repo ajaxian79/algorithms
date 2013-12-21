@@ -3120,3 +3120,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 765
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 766
+
+Input is assumed non-NULL; behavior is undefined otherwise.
