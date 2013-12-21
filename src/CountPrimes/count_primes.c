@@ -259,3 +259,4 @@ int count_primes(int n) {
 // note 231: Cache-friendly; one sequential read pass.
 // note 232: Handles single-element input as a base case.
 // note 233: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 234: Open addressing with linear probing wins until load factor exceeds 0.7.
