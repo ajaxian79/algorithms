@@ -257,3 +257,4 @@ int is_perfect_square(int n) {
 // note 238: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 239: Space complexity: O(1) auxiliary.
 // note 240: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
