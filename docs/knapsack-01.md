@@ -2249,3 +2249,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 545
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 546
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
