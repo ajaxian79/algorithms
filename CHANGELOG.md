@@ -118735,3 +118735,7 @@
 ## entry 29684
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 29685
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
