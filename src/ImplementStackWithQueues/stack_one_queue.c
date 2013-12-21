@@ -328,3 +328,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 248: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 249: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 250: Greedy by end-time picks the most non-overlapping intervals.
+// note 251: LCA via binary lifting: jump up powers of two until depths match, then converge.
