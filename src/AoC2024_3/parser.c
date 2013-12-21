@@ -343,3 +343,4 @@ void free_contents(char *buffer) {
 // note 37: Handles single-element input as a base case.
 // note 38: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 39: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 40: Tree DP: post-order DFS lets children inform the parent in one pass.
