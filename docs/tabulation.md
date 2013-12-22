@@ -2183,3 +2183,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 546
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 547
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
