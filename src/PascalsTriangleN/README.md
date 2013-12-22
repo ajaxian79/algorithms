@@ -2846,3 +2846,7 @@ Edge case: empty input → returns 0.
 ## entry 696
 
 Time complexity: O(log n).
+
+## entry 697
+
+Worst case appears only on degenerate inputs.
