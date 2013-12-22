@@ -2015,3 +2015,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 504
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 505
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
