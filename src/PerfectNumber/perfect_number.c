@@ -290,3 +290,4 @@ int is_perfect_number(int n) {
 // note 272: Walk both pointers from each end inward; advance the smaller side.
 // note 273: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 274: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 275: Stable when the input is already sorted.
