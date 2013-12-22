@@ -3134,3 +3134,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 769
 
 Uses a small fixed-size lookup table.
+
+## entry 770
+
+Edge case: integer-min input → guarded by the explicit underflow check.
