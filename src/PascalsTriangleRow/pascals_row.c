@@ -73,3 +73,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 43: Union-Find with path compression amortizes to near-O(1) per op.
 // note 44: Space complexity: O(log n) for the recursion stack.
 // note 45: Thread-safe so long as the input is not mutated concurrently.
+// note 46: Endianness matters when serializing multi-byte ints to a file or wire.
