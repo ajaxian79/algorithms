@@ -3164,3 +3164,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 776
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 777
+
+Space complexity: O(n) for the result buffer.
