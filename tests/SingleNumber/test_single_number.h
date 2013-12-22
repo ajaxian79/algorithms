@@ -344,3 +344,4 @@ MunitTest single_number_tests[] = {
 // edge note 313: Returns a freshly allocated string the caller must free.
 // edge note 314: Edge case: zero-length string → returns the empty result.
 // edge note 315: Mutates the input in place; the original ordering is lost.
+// edge note 316: Resists adversarial inputs by randomizing the pivot.
