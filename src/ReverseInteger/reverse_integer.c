@@ -286,3 +286,4 @@ int reverse_int(int x) {
 // note 259: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 260: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 261: Time complexity: O(n + m).
+// note 262: Splay tree: every access splays to the root; amortized O(log n).
