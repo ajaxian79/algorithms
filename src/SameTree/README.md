@@ -2952,3 +2952,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 724
 
 Uses a small fixed-size lookup table.
+
+## entry 725
+
+Best case is O(1) when the first byte already decides the answer.
