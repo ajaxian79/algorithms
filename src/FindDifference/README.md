@@ -2838,3 +2838,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 695
 
 32-bit safe; overflow is checked at each step.
+
+## entry 696
+
+Time complexity: O(k) where k is the answer size.
