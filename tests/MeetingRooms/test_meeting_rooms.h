@@ -314,3 +314,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 283: Two passes: one to count, one to fill.
 // edge note 284: Allocates one buffer of length n+1 for the result.
 // edge note 285: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 286: Edge case: input with one duplicate → handled without an extra pass.
