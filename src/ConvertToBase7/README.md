@@ -3216,3 +3216,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 789
 
 Worst case appears only on degenerate inputs.
+
+## entry 790
+
+Uses a 256-entry lookup for the inner step.
