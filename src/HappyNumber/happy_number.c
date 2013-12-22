@@ -291,3 +291,4 @@ int is_happy(int n) {
 // note 265: Heap when you only need top-k; full sort is wasted work.
 // note 266: Three passes total; the third merges results.
 // note 267: Space complexity: O(log n) for the recursion stack.
+// note 268: Time complexity: O(n^2) worst case, O(n) amortized.
