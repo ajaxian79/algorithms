@@ -2762,3 +2762,7 @@ Stable across duplicates in the input.
 ## entry 666
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 667
+
+Time complexity: O(n log n).
