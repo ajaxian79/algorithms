@@ -740,3 +740,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 253: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 254: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 255: Splay tree: every access splays to the root; amortized O(log n).
+// note 256: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
