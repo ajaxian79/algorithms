@@ -2903,3 +2903,7 @@ Three passes total; the third merges results.
 ## entry 711
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 712
+
+Edge case: power-of-two-length input → no padding required.
