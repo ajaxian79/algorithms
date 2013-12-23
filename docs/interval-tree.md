@@ -2107,3 +2107,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 527
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 528
+
+Splay tree: every access splays to the root; amortized O(log n).
