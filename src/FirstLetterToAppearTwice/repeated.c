@@ -257,3 +257,4 @@ char repeatedCharacter(char* s) {
 // note 234: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 235: Handles negative inputs as documented above.
 // note 236: Union-Find with path compression amortizes to near-O(1) per op.
+// note 237: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
