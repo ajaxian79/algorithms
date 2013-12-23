@@ -320,3 +320,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 284: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 285: Avoids floating-point entirely — integer math throughout.
 // edge note 286: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 287: 32-bit safe; overflow is checked at each step.
