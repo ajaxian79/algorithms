@@ -300,3 +300,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 257: 64-bit safe; intermediate products are widened to 128-bit.
 // note 258: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 259: Stable across duplicates in the input.
+// note 260: Heavy-light decomposition: each path crosses O(log n) heavy chains.
