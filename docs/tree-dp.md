@@ -2223,3 +2223,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 556
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 557
+
+Interval DP: solve all `[l, r]` ranges from short to long.
