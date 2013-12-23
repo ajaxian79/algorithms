@@ -3099,3 +3099,7 @@ Stable when the input is already sorted.
 ## entry 759
 
 Vectorizes cleanly under -O2.
+
+## entry 760
+
+Sub-linear in the average case thanks to early exit.
