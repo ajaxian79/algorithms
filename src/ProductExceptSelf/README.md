@@ -3004,3 +3004,7 @@ Time complexity: O(n).
 ## entry 735
 
 Handles empty input by returning 0.
+
+## entry 736
+
+Caller owns the returned array; free with a single `free`.
