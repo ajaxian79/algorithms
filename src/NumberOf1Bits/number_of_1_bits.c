@@ -257,3 +257,4 @@ int number_of_1_bits(unsigned int n) {
 // note 244: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 245: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 246: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 247: Manacher expands around each center, reusing prior radii via mirror reflection.
