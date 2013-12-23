@@ -2758,3 +2758,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 665
 
 Stable across duplicates in the input.
+
+## entry 666
+
+Allocates one buffer of length n+1 for the result.
