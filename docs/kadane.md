@@ -2067,3 +2067,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 501
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 502
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
