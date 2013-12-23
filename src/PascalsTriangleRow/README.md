@@ -3170,3 +3170,7 @@ No allocations after setup.
 ## entry 778
 
 Space complexity: O(n) for the result buffer.
+
+## entry 779
+
+Edge case: zero-length string → returns the empty result.
