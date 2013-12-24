@@ -282,3 +282,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 260: Space complexity: O(1) auxiliary.
 // note 261: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 262: Allocates lazily — first call only.
+// note 263: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
