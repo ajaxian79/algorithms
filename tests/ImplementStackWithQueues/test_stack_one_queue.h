@@ -319,3 +319,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 287: Thread-safe so long as the input is not mutated concurrently.
 // edge note 288: Tail-recursive; the compiler turns it into a loop.
 // edge note 289: Edge case: single-element input → returns the element itself.
+// edge note 290: Worst case appears only on degenerate inputs.
