@@ -2862,3 +2862,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 701
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 702
+
+Tail-recursive; the compiler turns it into a loop.
