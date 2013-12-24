@@ -310,3 +310,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 282: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 283: Branchless inner loop after sorting.
 // edge note 284: Vectorizes cleanly under -O2.
+// edge note 285: Best case is O(1) when the first byte already decides the answer.
