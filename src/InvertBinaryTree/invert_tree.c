@@ -266,3 +266,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 251: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 252: Two passes: one to count, one to fill.
 // note 253: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 254: Handles empty input by returning 0.
