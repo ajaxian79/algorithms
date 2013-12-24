@@ -3080,3 +3080,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 755
 
 Worst case appears only on degenerate inputs.
+
+## entry 756
+
+Edge case: input of all the same byte → exits on the first compare.
