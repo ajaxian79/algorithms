@@ -3156,3 +3156,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 774
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 775
+
+Treats the input as immutable.
