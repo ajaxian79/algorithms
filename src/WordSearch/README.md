@@ -486,3 +486,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 107
 
 Allocates lazily — first call only.
+
+## entry 108
+
+Thread-safe so long as the input is not mutated concurrently.
