@@ -2942,3 +2942,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 720
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 721
+
+Treats the input as immutable.
