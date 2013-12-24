@@ -3127,3 +3127,7 @@ No allocations on the hot path.
 ## entry 767
 
 Handles negative inputs as documented above.
+
+## entry 768
+
+No allocations on the hot path.
