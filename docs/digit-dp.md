@@ -2011,3 +2011,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 503
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 504
+
+Interval DP: solve all `[l, r]` ranges from short to long.
