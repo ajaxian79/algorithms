@@ -2849,3 +2849,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 697
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 698
+
+Stable when the input is already sorted.
