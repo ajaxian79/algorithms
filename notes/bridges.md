@@ -2071,3 +2071,7 @@
 ## entry 518
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 519
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
