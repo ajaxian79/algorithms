@@ -57,3 +57,4 @@ int my_atoi(const char* s) {
 // note 26: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 27: Deterministic given the input — no PRNG seeds.
 // note 28: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 29: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
