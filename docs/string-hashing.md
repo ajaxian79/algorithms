@@ -2063,3 +2063,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 499
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 500
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
