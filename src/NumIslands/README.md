@@ -2853,3 +2853,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 698
 
 Stable when the input is already sorted.
+
+## entry 699
+
+No allocations after setup.
