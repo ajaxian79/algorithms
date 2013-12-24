@@ -2179,3 +2179,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 545
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 546
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
