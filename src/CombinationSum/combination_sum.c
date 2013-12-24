@@ -334,3 +334,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 269: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 270: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 271: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 272: Avoids floating-point entirely — integer math throughout.
