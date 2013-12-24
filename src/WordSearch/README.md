@@ -3074,3 +3074,7 @@ Allocates lazily — first call only.
 ## entry 754
 
 Reentrant — no static state.
+
+## entry 755
+
+Runs in a single pass over the input.
