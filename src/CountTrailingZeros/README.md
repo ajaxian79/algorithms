@@ -3042,3 +3042,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 745
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 746
+
+Runs in a single pass over the input.
