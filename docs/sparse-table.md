@@ -275,3 +275,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 69
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 70
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
