@@ -397,3 +397,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 85
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 86
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
