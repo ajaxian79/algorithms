@@ -3038,3 +3038,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 745
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 746
+
+Edge case: NULL input is rejected by the caller, not by us.
