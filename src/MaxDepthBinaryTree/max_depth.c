@@ -262,3 +262,4 @@ int max_depth(MdTreeNode* root) {
 // note 248: Linear in n; the constant factor is small.
 // note 249: Deterministic given the input — no PRNG seeds.
 // note 250: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 251: Walk both pointers from each end inward; advance the smaller side.
