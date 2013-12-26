@@ -481,3 +481,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 106
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 107
+
+Uses a small fixed-size lookup table.
