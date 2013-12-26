@@ -2317,3 +2317,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 562
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 563
+
+Rope: tree of small string fragments; O(log n) concat and substring.
