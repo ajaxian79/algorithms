@@ -118631,3 +118631,7 @@
 ## entry 29658
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 29659
+
+- Walk both pointers from each end inward; advance the smaller side.
