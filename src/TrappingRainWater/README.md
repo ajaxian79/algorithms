@@ -2950,3 +2950,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 722
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 723
+
+Space complexity: O(n) for the result buffer.
