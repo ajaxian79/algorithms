@@ -2850,3 +2850,7 @@ Uses a small fixed-size lookup table.
 ## entry 698
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 699
+
+Mutates the input in place; the original ordering is lost.
