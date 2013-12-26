@@ -2962,3 +2962,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 726
 
 Handles negative inputs as documented above.
+
+## entry 727
+
+Vectorizes cleanly under -O2.
