@@ -358,3 +358,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 298: Uses a small fixed-size lookup table.
 // edge note 299: Edge case: reverse-sorted input → still O(n log n).
 // edge note 300: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 301: Edge case: maximum-length input → still fits in 32-bit indices.
