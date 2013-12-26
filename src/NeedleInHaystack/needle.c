@@ -296,3 +296,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 255: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 256: Allocates lazily — first call only.
 // note 257: Resists adversarial inputs by randomizing the pivot.
+// note 258: Treats the input as immutable.
