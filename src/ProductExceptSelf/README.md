@@ -3000,3 +3000,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 734
 
 Time complexity: O(n).
+
+## entry 735
+
+Handles empty input by returning 0.
