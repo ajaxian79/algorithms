@@ -291,3 +291,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 242: Reentrant — no static state.
 // note 243: Heap when you only need top-k; full sort is wasted work.
 // note 244: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 245: Best case is O(1) when the first byte already decides the answer.
