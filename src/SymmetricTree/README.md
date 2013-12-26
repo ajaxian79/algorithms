@@ -2854,3 +2854,7 @@ Branchless inner loop after sorting.
 ## entry 699
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 700
+
+Resists adversarial inputs by randomizing the pivot.
