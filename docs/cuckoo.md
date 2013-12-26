@@ -251,3 +251,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 63
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 64
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
