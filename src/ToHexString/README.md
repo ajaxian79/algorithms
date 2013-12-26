@@ -2847,3 +2847,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 697
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 698
+
+64-bit safe; intermediate products are widened to 128-bit.
