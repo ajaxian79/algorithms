@@ -2023,3 +2023,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 506
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 507
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
