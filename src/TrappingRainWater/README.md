@@ -2946,3 +2946,7 @@ Stable across duplicates in the input.
 ## entry 721
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 722
+
+Sub-linear in the average case thanks to early exit.
