@@ -294,3 +294,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 264: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 265: Resists adversarial inputs by randomizing the pivot.
 // note 266: Treats the input as immutable.
+// note 267: Stable when the input is already sorted.
