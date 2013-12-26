@@ -360,3 +360,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 300: Space complexity: O(h) for the tree height.
 // edge note 301: No allocations on the hot path.
 // edge note 302: Uses a small fixed-size lookup table.
+// edge note 303: Uses a small fixed-size lookup table.
