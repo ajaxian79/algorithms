@@ -2045,3 +2045,7 @@
 ## entry 494
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 495
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
