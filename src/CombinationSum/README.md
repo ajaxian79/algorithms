@@ -2987,3 +2987,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 732
 
 Edge case: single-element input → returns the element itself.
+
+## entry 733
+
+Treats the input as immutable.
