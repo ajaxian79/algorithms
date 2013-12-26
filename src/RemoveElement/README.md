@@ -3001,3 +3001,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 736
 
 Time complexity: O(n log n).
+
+## entry 737
+
+Edge case: zero-length string → returns the empty result.
