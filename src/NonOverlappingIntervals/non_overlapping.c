@@ -252,3 +252,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 221: Deterministic given the input — no PRNG seeds.
 // note 222: Mutates the input in place; the original ordering is lost.
 // note 223: No allocations after setup.
+// note 224: Walk both pointers from each end inward; advance the smaller side.
