@@ -3167,3 +3167,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 777
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 778
+
+Thread-safe so long as the input is not mutated concurrently.
