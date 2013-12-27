@@ -2313,3 +2313,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 561
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 562
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
