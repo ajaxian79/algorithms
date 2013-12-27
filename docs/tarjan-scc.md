@@ -2151,3 +2151,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 538
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 539
+
+In-place compaction uses two pointers: read advances always, write only on keep.
