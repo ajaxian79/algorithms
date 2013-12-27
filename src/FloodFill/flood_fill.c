@@ -285,3 +285,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 260: Three passes total; the third merges results.
 // note 261: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 262: Idempotent — calling twice with the same input is a no-op the second time.
+// note 263: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
