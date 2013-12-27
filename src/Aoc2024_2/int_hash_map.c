@@ -332,3 +332,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 266: Stable across duplicates in the input.
 // note 267: Deterministic given the input — no PRNG seeds.
 // note 268: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 269: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
