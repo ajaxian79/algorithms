@@ -312,3 +312,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 274: Uses a small fixed-size lookup table.
 // edge note 275: 32-bit safe; overflow is checked at each step.
 // edge note 276: Reentrant — no static state.
+// edge note 277: Edge case: input with one duplicate → handled without an extra pass.
