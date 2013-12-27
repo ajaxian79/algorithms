@@ -2942,3 +2942,7 @@ Three passes total; the third merges results.
 ## entry 720
 
 Stable across duplicates in the input.
+
+## entry 721
+
+Edge case: already-sorted input → no swaps performed.
