@@ -3160,3 +3160,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 775
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 776
+
+Mutates the input in place; the original ordering is lost.
