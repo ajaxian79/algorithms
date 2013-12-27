@@ -2221,3 +2221,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 540
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 541
+
+Walk both pointers from each end inward; advance the smaller side.
