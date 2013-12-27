@@ -2161,3 +2161,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 524
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 525
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
