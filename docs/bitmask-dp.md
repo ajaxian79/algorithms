@@ -315,3 +315,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 79
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 80
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
