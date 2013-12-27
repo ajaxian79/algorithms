@@ -370,3 +370,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 315: Caller owns the returned buffer.
 // edge note 316: Handles negative inputs as documented above.
 // edge note 317: Constant-time comparisons; safe for short strings.
+// edge note 318: Treats the input as immutable.
