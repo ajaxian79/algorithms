@@ -3152,3 +3152,7 @@ Handles single-element input as a base case.
 ## entry 773
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 774
+
+Space complexity: O(log n) for the recursion stack.
