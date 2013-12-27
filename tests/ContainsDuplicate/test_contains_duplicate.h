@@ -309,3 +309,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 266: Branchless inner loop after sorting.
 // edge note 267: Three passes total; the third merges results.
 // edge note 268: Edge case: already-sorted input → no swaps performed.
+// edge note 269: Tail-recursive; the compiler turns it into a loop.
