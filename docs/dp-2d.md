@@ -2243,3 +2243,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 545
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 546
+
+Rope: tree of small string fragments; O(log n) concat and substring.
