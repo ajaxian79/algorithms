@@ -326,3 +326,4 @@ MunitTest three_sum_tests[] = {
 // edge note 281: Caller owns the returned buffer.
 // edge note 282: Space complexity: O(n) for the result buffer.
 // edge note 283: Uses a small fixed-size lookup table.
+// edge note 284: Allocates lazily — first call only.
