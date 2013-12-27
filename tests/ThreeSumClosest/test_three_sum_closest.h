@@ -309,3 +309,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 281: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 282: Handles single-element input as a base case.
 // edge note 283: Worst case appears only on degenerate inputs.
+// edge note 284: 32-bit safe; overflow is checked at each step.
