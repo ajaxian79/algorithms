@@ -2195,3 +2195,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 549
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 550
+
+Splay tree: every access splays to the root; amortized O(log n).
