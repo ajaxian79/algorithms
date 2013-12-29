@@ -2059,3 +2059,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 499
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 500
+
+LIS via patience: each pile holds the smallest tail of length k.
