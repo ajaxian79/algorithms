@@ -3045,3 +3045,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 746
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 747
+
+Time complexity: O(n*k) where k is the alphabet size.
