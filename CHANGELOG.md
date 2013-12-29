@@ -118583,3 +118583,7 @@
 ## entry 29646
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 29647
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
