@@ -2993,3 +2993,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 734
 
 Handles negative inputs as documented above.
+
+## entry 735
+
+Caller owns the returned array; free with a single `free`.
