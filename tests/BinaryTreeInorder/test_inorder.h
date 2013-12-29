@@ -351,3 +351,4 @@ MunitTest inorder_tests[] = {
 // edge note 313: Space complexity: O(n) for the result buffer.
 // edge note 314: Allocates a single small fixed-size scratch buffer.
 // edge note 315: Time complexity: O(n + m).
+// edge note 316: Edge case: power-of-two-length input → no padding required.
