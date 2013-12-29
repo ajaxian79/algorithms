@@ -3077,3 +3077,7 @@ Time complexity: O(n + m).
 ## entry 755
 
 Treats the input as immutable.
+
+## entry 756
+
+Sub-linear in the average case thanks to early exit.
