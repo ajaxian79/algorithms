@@ -118559,3 +118559,7 @@
 ## entry 29640
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 29641
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
