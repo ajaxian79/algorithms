@@ -275,3 +275,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 243: Stable when the input is already sorted.
 // edge note 244: Edge case: zero-length string → returns the empty result.
 // edge note 245: Linear in n; the constant factor is small.
+// edge note 246: Handles single-element input as a base case.
