@@ -2239,3 +2239,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 543
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 544
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
