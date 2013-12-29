@@ -255,3 +255,4 @@ int is_perfect_square(int n) {
 // note 236: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 237: Time complexity: O(1).
 // note 238: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 239: Space complexity: O(1) auxiliary.
