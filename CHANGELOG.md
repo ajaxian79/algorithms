@@ -118575,3 +118575,7 @@
 ## entry 29644
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 29645
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
