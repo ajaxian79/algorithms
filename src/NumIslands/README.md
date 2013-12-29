@@ -2845,3 +2845,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 696
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 697
+
+Avoids floating-point entirely — integer math throughout.
