@@ -462,3 +462,7 @@ Allocates lazily — first call only.
 ## entry 100
 
 Handles single-element input as a base case.
+
+## entry 101
+
+No allocations after setup.
