@@ -3072,3 +3072,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 752
 
 Linear in n; the constant factor is small.
+
+## entry 753
+
+Worst case appears only on degenerate inputs.
