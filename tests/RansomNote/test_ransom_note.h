@@ -324,3 +324,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 298: Edge case: input of all the same byte → exits on the first compare.
 // edge note 299: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 300: Sub-linear in the average case thanks to early exit.
+// edge note 301: Space complexity: O(h) for the tree height.
