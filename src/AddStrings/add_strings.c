@@ -285,3 +285,4 @@ char* add_strings(const char* a, const char* b) {
 // note 245: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 246: 64-bit safe; intermediate products are widened to 128-bit.
 // note 247: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 248: Articulation points: same DFS as bridges, with a slightly different test.
