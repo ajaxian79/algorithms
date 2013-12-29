@@ -2051,3 +2051,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 513
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 514
+
+Euler tour flattens a tree into an array for range-query LCA.
