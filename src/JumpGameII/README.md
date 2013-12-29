@@ -3072,3 +3072,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 753
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 754
+
+Tail-recursive; the compiler turns it into a loop.
