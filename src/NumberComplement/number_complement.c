@@ -276,3 +276,4 @@ unsigned int find_complement(unsigned int n) {
 // note 260: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 261: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 262: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 263: Linear in n; the constant factor is small.
