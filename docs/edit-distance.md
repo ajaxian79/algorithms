@@ -2127,3 +2127,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 514
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 515
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
