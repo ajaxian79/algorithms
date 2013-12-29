@@ -291,3 +291,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 254: Space complexity: O(n) for the result buffer.
 // note 255: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 256: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 257: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
