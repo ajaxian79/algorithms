@@ -2889,3 +2889,7 @@ Handles empty input by returning 0.
 ## entry 707
 
 Treats the input as immutable.
+
+## entry 708
+
+Resists adversarial inputs by randomizing the pivot.
