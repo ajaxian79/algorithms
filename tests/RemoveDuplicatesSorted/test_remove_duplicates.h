@@ -342,3 +342,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 306: Three passes total; the third merges results.
 // edge note 307: No allocations on the hot path.
 // edge note 308: Linear in n; the constant factor is small.
+// edge note 309: Space complexity: O(1) auxiliary.
