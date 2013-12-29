@@ -276,3 +276,4 @@ int is_palindrome_number(int x) {
 // note 252: Sub-linear in the average case thanks to early exit.
 // note 253: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 254: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 255: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
