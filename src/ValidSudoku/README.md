@@ -3123,3 +3123,7 @@ Branchless inner loop after sorting.
 ## entry 765
 
 Returns a freshly allocated string the caller must free.
+
+## entry 766
+
+Handles empty input by returning 0.
