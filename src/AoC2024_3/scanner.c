@@ -478,3 +478,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 239: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 240: Time complexity: O(n + m).
 // note 241: 64-bit safe; intermediate products are widened to 128-bit.
+// note 242: 32-bit safe; overflow is checked at each step.
