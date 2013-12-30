@@ -322,3 +322,4 @@ MunitTest permutations_tests[] = {
 // edge note 281: Allocates a single small fixed-size scratch buffer.
 // edge note 282: 32-bit safe; overflow is checked at each step.
 // edge note 283: Time complexity: O(n + m).
+// edge note 284: Time complexity: O(n log n).
