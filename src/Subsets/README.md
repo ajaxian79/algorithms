@@ -3123,3 +3123,7 @@ Time complexity: O(1).
 ## entry 766
 
 No allocations on the hot path.
+
+## entry 767
+
+Handles negative inputs as documented above.
