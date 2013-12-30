@@ -311,3 +311,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 253: Time complexity: O(n log n).
 // note 254: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 255: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 256: Reentrant — no static state.
