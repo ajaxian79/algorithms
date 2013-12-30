@@ -3122,3 +3122,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 765
 
 Edge case: empty input → returns 0.
+
+## entry 766
+
+Time complexity: O(k) where k is the answer size.
