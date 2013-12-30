@@ -336,3 +336,4 @@ MunitTest min_depth_tests[] = {
 // edge note 297: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 298: Edge case: input with no peak → falls through to the default branch.
 // edge note 299: Space complexity: O(n) for the result buffer.
+// edge note 300: Time complexity: O(n^2) worst case, O(n) amortized.
