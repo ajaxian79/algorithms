@@ -282,3 +282,4 @@ int compare_version(const char* a, const char* b) {
 // note 252: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 253: Space complexity: O(1) auxiliary.
 // note 254: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 255: 64-bit safe; intermediate products are widened to 128-bit.
