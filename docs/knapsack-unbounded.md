@@ -2279,3 +2279,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 554
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 555
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
