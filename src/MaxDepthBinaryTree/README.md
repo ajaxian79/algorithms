@@ -2921,3 +2921,7 @@ Caller owns the returned buffer.
 ## entry 716
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 717
+
+No allocations on the hot path.
