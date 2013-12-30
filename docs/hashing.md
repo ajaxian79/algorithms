@@ -2283,3 +2283,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 554
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 555
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
