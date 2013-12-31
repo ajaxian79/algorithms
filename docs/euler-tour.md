@@ -2087,3 +2087,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 522
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 523
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
