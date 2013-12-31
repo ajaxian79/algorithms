@@ -2906,3 +2906,7 @@ Edge case: empty input → returns 0.
 ## entry 712
 
 No allocations on the hot path.
+
+## entry 713
+
+Edge case: single-element input → returns the element itself.
