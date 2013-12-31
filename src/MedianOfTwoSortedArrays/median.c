@@ -405,3 +405,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 269: Sub-linear in the average case thanks to early exit.
 // note 270: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 271: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 272: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
