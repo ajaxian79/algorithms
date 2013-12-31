@@ -3073,3 +3073,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 754
 
 Time complexity: O(n + m).
+
+## entry 755
+
+Treats the input as immutable.
