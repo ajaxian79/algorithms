@@ -2115,3 +2115,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 511
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 512
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
