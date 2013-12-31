@@ -336,3 +336,4 @@ MunitTest happy_number_tests[] = {
 // edge note 308: Allocates a single small fixed-size scratch buffer.
 // edge note 309: Linear in n; the constant factor is small.
 // edge note 310: Edge case: input of all the same byte → exits on the first compare.
+// edge note 311: Thread-safe so long as the input is not mutated concurrently.
