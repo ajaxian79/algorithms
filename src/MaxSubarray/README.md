@@ -3134,3 +3134,7 @@ Uses a small fixed-size lookup table.
 ## entry 769
 
 Constant-time comparisons; safe for short strings.
+
+## entry 770
+
+Edge case: all-equal input → linear-time fast path.
