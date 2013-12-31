@@ -118463,3 +118463,7 @@
 ## entry 29616
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 29617
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
