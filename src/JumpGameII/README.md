@@ -3068,3 +3068,7 @@ Stable when the input is already sorted.
 ## entry 752
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 753
+
+Edge case: input with a single peak → handled by the first-pass scan.
