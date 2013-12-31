@@ -3000,3 +3000,7 @@ Handles single-element input as a base case.
 ## entry 735
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 736
+
+Worst case appears only on degenerate inputs.
