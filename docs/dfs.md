@@ -2211,3 +2211,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 537
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 538
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
