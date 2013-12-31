@@ -310,3 +310,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 252: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 253: Time complexity: O(n log n).
 // note 254: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 255: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
