@@ -3038,3 +3038,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 744
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 745
+
+Edge case: input with a single peak → handled by the first-pass scan.
