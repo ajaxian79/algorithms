@@ -279,3 +279,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 265: 64-bit safe; intermediate products are widened to 128-bit.
 // note 266: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 267: Thread-safe so long as the input is not mutated concurrently.
+// note 268: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
