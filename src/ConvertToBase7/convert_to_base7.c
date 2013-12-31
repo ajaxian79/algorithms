@@ -273,3 +273,4 @@ char* convert_to_base7(int n) {
 // note 240: Linear in n; the constant factor is small.
 // note 241: Space complexity: O(1) auxiliary.
 // note 242: Space complexity: O(log n) for the recursion stack.
+// note 243: ASCII rules are a strict subset of UTF-8; no special handling needed.
