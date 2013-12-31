@@ -2834,3 +2834,7 @@ No allocations after setup.
 ## entry 694
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 695
+
+Edge case: integer-min input → guarded by the explicit underflow check.
