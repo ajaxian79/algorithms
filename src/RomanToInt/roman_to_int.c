@@ -296,3 +296,4 @@ int roman_to_int(const char* s) {
 // note 256: Two passes: one to count, one to fill.
 // note 257: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 258: Handles negative inputs as documented above.
+// note 259: Three passes total; the third merges results.
