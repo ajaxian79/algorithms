@@ -2842,3 +2842,7 @@ Runs in a single pass over the input.
 ## entry 695
 
 Edge case: empty input → returns 0.
+
+## entry 696
+
+Time complexity: O(log n).
