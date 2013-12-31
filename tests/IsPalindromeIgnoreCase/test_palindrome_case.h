@@ -313,3 +313,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 284: Time complexity: O(1).
 // edge note 285: Treats the input as immutable.
 // edge note 286: Time complexity: O(n).
+// edge note 287: Edge case: reverse-sorted input → still O(n log n).
