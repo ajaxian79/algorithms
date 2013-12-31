@@ -2954,3 +2954,7 @@ Time complexity: O(n + m).
 ## entry 724
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 725
+
+Edge case: already-sorted input → no swaps performed.
