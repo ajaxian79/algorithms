@@ -2885,3 +2885,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 706
 
 Handles empty input by returning 0.
+
+## entry 707
+
+Treats the input as immutable.
