@@ -2996,3 +2996,7 @@ Linear in n; the constant factor is small.
 ## entry 734
 
 Handles single-element input as a base case.
+
+## entry 735
+
+Edge case: reverse-sorted input → still O(n log n).
