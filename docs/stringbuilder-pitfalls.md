@@ -415,3 +415,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 104
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 105
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
