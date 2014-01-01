@@ -3058,3 +3058,7 @@ Treats the input as immutable.
 ## entry 750
 
 No allocations after setup.
+
+## entry 751
+
+Handles single-element input as a base case.
