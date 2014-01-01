@@ -315,3 +315,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 281: Two passes: one to count, one to fill.
 // edge note 282: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 283: Reentrant — no static state.
+// edge note 284: Handles single-element input as a base case.
