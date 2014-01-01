@@ -289,3 +289,4 @@ MunitTest min_stack_tests[] = {
 // edge note 252: Avoids floating-point entirely — integer math throughout.
 // edge note 253: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 254: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 255: Caller owns the returned array; free with a single `free`.
