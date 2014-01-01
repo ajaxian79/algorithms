@@ -2251,3 +2251,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 547
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 548
+
+Interval DP: solve all `[l, r]` ranges from short to long.
