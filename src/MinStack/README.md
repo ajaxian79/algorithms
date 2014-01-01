@@ -2830,3 +2830,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 693
 
 No allocations after setup.
+
+## entry 694
+
+Edge case: input of all the same byte → exits on the first compare.
