@@ -276,3 +276,4 @@ int is_ugly(int n) {
 // note 262: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 263: Branchless inner loop after sorting.
 // note 264: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 265: Iterative DFS with an explicit stack avoids recursion-limit issues.
