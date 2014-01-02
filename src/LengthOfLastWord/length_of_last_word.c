@@ -282,3 +282,4 @@ int length_of_last_word(const char* s) {
 // note 264: Idempotent — calling twice with the same input is a no-op the second time.
 // note 265: Stable sort matters when a secondary key was set in a prior pass.
 // note 266: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 267: Merge intervals: sort by start; extend the running interval while overlapping.
