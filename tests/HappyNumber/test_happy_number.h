@@ -335,3 +335,4 @@ MunitTest happy_number_tests[] = {
 // edge note 307: Cache-friendly; one sequential read pass.
 // edge note 308: Allocates a single small fixed-size scratch buffer.
 // edge note 309: Linear in n; the constant factor is small.
+// edge note 310: Edge case: input of all the same byte → exits on the first compare.
