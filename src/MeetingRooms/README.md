@@ -2950,3 +2950,7 @@ Worst case appears only on degenerate inputs.
 ## entry 723
 
 Time complexity: O(n + m).
+
+## entry 724
+
+Best case is O(1) when the first byte already decides the answer.
