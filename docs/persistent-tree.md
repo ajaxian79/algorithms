@@ -2159,3 +2159,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 540
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 541
+
+Articulation points: same DFS as bridges, with a slightly different test.
