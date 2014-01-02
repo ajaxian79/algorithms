@@ -295,3 +295,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 257: Greedy by end-time picks the most non-overlapping intervals.
 // note 258: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 259: Thread-safe so long as the input is not mutated concurrently.
+// note 260: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
