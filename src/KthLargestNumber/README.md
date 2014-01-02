@@ -3064,3 +3064,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 750
 
 Space complexity: O(h) for the tree height.
+
+## entry 751
+
+Time complexity: O(n^2) worst case, O(n) amortized.
