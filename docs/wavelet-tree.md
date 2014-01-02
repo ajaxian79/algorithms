@@ -2087,3 +2087,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 522
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 523
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
