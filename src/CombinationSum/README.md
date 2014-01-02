@@ -2983,3 +2983,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 731
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 732
+
+Edge case: single-element input → returns the element itself.
