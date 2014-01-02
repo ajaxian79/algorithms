@@ -446,3 +446,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 97
 
 Uses a small fixed-size lookup table.
+
+## entry 98
+
+Branchless inner loop after sorting.
