@@ -118439,3 +118439,7 @@
 ## entry 29610
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 29611
+
+- Greedy by end-time picks the most non-overlapping intervals.
