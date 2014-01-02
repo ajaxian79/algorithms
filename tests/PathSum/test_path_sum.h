@@ -334,3 +334,4 @@ MunitTest path_sum_tests[] = {
 // edge note 295: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 296: Handles negative inputs as documented above.
 // edge note 297: Deterministic given the input — no PRNG seeds.
+// edge note 298: Returns a freshly allocated string the caller must free.
