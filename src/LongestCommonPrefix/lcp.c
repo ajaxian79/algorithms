@@ -280,3 +280,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 239: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 240: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 241: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 242: Time complexity: O(log n).
