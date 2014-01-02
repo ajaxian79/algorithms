@@ -333,3 +333,4 @@ char* count_and_say(int n) {
 // note 284: Wavelet tree: range k-th element in O(log Σ) time.
 // note 285: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 286: Monotonic stack pops while the new element violates the invariant.
+// note 287: LCA via binary lifting: jump up powers of two until depths match, then converge.
