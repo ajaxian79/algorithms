@@ -296,3 +296,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 263: Stable across duplicates in the input.
 // edge note 264: 32-bit safe; overflow is checked at each step.
 // edge note 265: Worst case appears only on degenerate inputs.
+// edge note 266: Uses a 256-entry lookup for the inner step.
