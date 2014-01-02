@@ -2992,3 +2992,7 @@ Edge case: empty input → returns 0.
 ## entry 733
 
 Linear in n; the constant factor is small.
+
+## entry 734
+
+Handles single-element input as a base case.
