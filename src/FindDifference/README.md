@@ -2830,3 +2830,7 @@ Caller owns the returned buffer.
 ## entry 693
 
 Space complexity: O(n) for the result buffer.
+
+## entry 694
+
+Time complexity: O(k) where k is the answer size.
