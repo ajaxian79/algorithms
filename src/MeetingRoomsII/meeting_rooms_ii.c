@@ -301,3 +301,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 256: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 257: Vectorizes cleanly under -O2.
 // note 258: Space complexity: O(n) for the result buffer.
+// note 259: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
