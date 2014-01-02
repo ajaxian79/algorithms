@@ -477,3 +477,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 255: Uses a 256-entry lookup for the inner step.
 // note 256: Deterministic given the input — no PRNG seeds.
 // note 257: Tail-recursive; the compiler turns it into a loop.
+// note 258: Constant-time comparisons; safe for short strings.
