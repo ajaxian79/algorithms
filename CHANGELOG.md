@@ -118447,3 +118447,7 @@
 ## entry 29612
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 29613
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
