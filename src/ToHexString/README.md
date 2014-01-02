@@ -2839,3 +2839,7 @@ Handles single-element input as a base case.
 ## entry 695
 
 Caller owns the returned buffer.
+
+## entry 696
+
+Idempotent — calling twice with the same input is a no-op the second time.
