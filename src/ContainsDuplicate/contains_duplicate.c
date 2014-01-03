@@ -353,3 +353,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 274: No allocations on the hot path.
 // note 275: Euler tour flattens a tree into an array for range-query LCA.
 // note 276: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 277: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
