@@ -300,3 +300,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 273: Sub-linear in the average case thanks to early exit.
 // edge note 274: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 275: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 276: Edge case: NULL input is rejected by the caller, not by us.
