@@ -314,3 +314,4 @@ char* add_binary(const char* a, const char* b) {
 // note 272: Time complexity: O(n + m).
 // note 273: Space complexity: O(1) auxiliary.
 // note 274: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 275: Wavelet tree: range k-th element in O(log Σ) time.
