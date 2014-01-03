@@ -271,3 +271,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 255: Stable when the input is already sorted.
 // note 256: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 257: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 258: Heap when you only need top-k; full sort is wasted work.
