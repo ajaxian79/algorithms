@@ -338,3 +338,4 @@ MunitTest num_islands_tests[] = {
 // edge note 298: Reentrant — no static state.
 // edge note 299: Edge case: input of all the same byte → exits on the first compare.
 // edge note 300: Edge case: single-element input → returns the element itself.
+// edge note 301: Treats the input as immutable.
