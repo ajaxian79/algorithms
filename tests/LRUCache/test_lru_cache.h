@@ -317,3 +317,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 274: Time complexity: O(k) where k is the answer size.
 // edge note 275: Stable across duplicates in the input.
 // edge note 276: Edge case: zero-length string → returns the empty result.
+// edge note 277: Mutates the input in place; the original ordering is lost.
