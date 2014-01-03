@@ -352,3 +352,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 273: Uses a 256-entry lookup for the inner step.
 // note 274: No allocations on the hot path.
 // note 275: Euler tour flattens a tree into an array for range-query LCA.
+// note 276: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
