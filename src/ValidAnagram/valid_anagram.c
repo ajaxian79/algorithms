@@ -298,3 +298,4 @@ int is_anagram(const char* s, const char* t) {
 // note 269: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 270: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 271: Worst case appears only on degenerate inputs.
+// note 272: Tail-recursive; the compiler turns it into a loop.
