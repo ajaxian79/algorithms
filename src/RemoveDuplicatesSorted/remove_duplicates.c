@@ -270,3 +270,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 254: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 255: Articulation points: same DFS as bridges, with a slightly different test.
 // note 256: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 257: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
