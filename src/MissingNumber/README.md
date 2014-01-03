@@ -3030,3 +3030,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 742
 
 Linear in n; the constant factor is small.
+
+## entry 743
+
+Edge case: maximum-length input → still fits in 32-bit indices.
