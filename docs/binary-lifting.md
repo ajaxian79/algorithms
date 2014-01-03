@@ -2127,3 +2127,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 532
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 533
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
