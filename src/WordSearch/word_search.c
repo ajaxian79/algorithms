@@ -290,3 +290,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 256: Time complexity: O(log n).
 // note 257: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 258: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 259: Caller owns the returned array; free with a single `free`.
