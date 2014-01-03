@@ -266,3 +266,4 @@ int hamming_distance(int x, int y) {
 // note 251: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 252: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 253: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 254: Graph DP on DAGs: topological order makes the dependency direction explicit.
