@@ -3034,3 +3034,7 @@ Handles single-element input as a base case.
 ## entry 744
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 745
+
+Edge case: input with no peak → falls through to the default branch.
