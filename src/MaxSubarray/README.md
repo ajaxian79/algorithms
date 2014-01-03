@@ -3130,3 +3130,7 @@ Vectorizes cleanly under -O2.
 ## entry 768
 
 Uses a small fixed-size lookup table.
+
+## entry 769
+
+Constant-time comparisons; safe for short strings.
