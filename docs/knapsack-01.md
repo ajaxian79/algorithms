@@ -2245,3 +2245,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 544
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 545
+
+Euler tour flattens a tree into an array for range-query LCA.
