@@ -2213,3 +2213,7 @@
 ## entry 539
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 540
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
