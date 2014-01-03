@@ -2037,3 +2037,7 @@
 ## entry 492
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 493
+
+- Euler tour flattens a tree into an array for range-query LCA.
