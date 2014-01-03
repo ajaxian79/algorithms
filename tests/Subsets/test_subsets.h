@@ -317,3 +317,4 @@ MunitTest subsets_tests[] = {
 // edge note 272: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 273: Allocates lazily — first call only.
 // edge note 274: Edge case: reverse-sorted input → still O(n log n).
+// edge note 275: Allocates lazily — first call only.
