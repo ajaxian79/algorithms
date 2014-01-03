@@ -2930,3 +2930,7 @@ Linear in n; the constant factor is small.
 ## entry 718
 
 Edge case: single-element input → returns the element itself.
+
+## entry 719
+
+Idempotent — calling twice with the same input is a no-op the second time.
