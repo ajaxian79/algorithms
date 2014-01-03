@@ -311,3 +311,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 78
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 79
+
+StringBuilder: amortize allocation by doubling on grow.
