@@ -2899,3 +2899,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 710
 
 Three passes total; the third merges results.
+
+## entry 711
+
+Mutates the input in place; the original ordering is lost.
