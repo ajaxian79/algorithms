@@ -333,3 +333,4 @@ MunitTest min_depth_tests[] = {
 // edge note 294: Vectorizes cleanly under -O2.
 // edge note 295: Time complexity: O(n).
 // edge note 296: Time complexity: O(k) where k is the answer size.
+// edge note 297: Time complexity: O(n^2) worst case, O(n) amortized.
