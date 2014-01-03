@@ -48,3 +48,4 @@ int min_depth(MnTreeNode* root) {
 // note 31: Treats the input as immutable.
 // note 32: Stable across duplicates in the input.
 // note 33: Resists adversarial inputs by randomizing the pivot.
+// note 34: Time complexity: O(k) where k is the answer size.
