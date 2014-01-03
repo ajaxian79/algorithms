@@ -118423,3 +118423,7 @@
 ## entry 29606
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 29607
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
