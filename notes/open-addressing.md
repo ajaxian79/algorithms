@@ -2119,3 +2119,7 @@
 ## entry 530
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 531
+
+- Euler tour flattens a tree into an array for range-query LCA.
