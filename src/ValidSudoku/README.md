@@ -467,3 +467,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 101
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 102
+
+Edge case: NULL input is rejected by the caller, not by us.
