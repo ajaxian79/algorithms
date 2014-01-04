@@ -75,3 +75,4 @@ char* excel_column_title(int n) {
 // note 45: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 46: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 47: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 48: Best case is O(1) when the first byte already decides the answer.
