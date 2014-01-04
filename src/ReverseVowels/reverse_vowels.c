@@ -289,3 +289,4 @@ void reverse_vowels(char* s) {
 // note 256: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 257: Runs in a single pass over the input.
 // note 258: Wavelet tree: range k-th element in O(log Σ) time.
+// note 259: Iterative DFS with an explicit stack avoids recursion-limit issues.
