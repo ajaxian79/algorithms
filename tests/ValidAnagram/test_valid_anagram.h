@@ -328,3 +328,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 303: Returns a freshly allocated string the caller must free.
 // edge note 304: Sub-linear in the average case thanks to early exit.
 // edge note 305: Time complexity: O(n).
+// edge note 306: Edge case: all-equal input → linear-time fast path.
