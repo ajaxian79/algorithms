@@ -365,3 +365,7 @@
 ## entry 74
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 75
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
