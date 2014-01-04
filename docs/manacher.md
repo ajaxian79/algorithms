@@ -2279,3 +2279,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 553
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 554
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
