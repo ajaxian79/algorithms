@@ -355,3 +355,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 296: Edge case: already-sorted input → no swaps performed.
 // edge note 297: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 298: Edge case: all-equal input → linear-time fast path.
+// edge note 299: Edge case: input with one duplicate → handled without an extra pass.
