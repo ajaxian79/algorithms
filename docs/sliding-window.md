@@ -355,3 +355,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 74
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 75
+
+Merge intervals: sort by start; extend the running interval while overlapping.
