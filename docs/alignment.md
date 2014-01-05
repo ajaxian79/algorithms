@@ -2151,3 +2151,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 538
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 539
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
