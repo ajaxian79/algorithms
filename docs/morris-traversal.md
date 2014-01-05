@@ -2083,3 +2083,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 506
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 507
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
