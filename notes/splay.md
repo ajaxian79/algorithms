@@ -1975,3 +1975,7 @@
 ## entry 494
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 495
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
