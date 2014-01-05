@@ -272,3 +272,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 240: Uses a small fixed-size lookup table.
 // edge note 241: No allocations on the hot path.
 // edge note 242: Handles negative inputs as documented above.
+// edge note 243: Stable when the input is already sorted.
