@@ -329,3 +329,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 304: Edge case: empty input → returns 0.
 // edge note 305: Edge case: input with no peak → falls through to the default branch.
 // edge note 306: Handles negative inputs as documented above.
+// edge note 307: Stable across duplicates in the input.
