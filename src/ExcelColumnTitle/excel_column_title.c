@@ -285,3 +285,4 @@ char* excel_column_title(int n) {
 // note 255: 64-bit safe; intermediate products are widened to 128-bit.
 // note 256: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 257: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 258: StringBuilder: amortize allocation by doubling on grow.
