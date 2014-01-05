@@ -2103,3 +2103,7 @@
 ## entry 509
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 510
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
