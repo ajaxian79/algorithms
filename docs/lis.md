@@ -2307,3 +2307,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 560
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 561
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
