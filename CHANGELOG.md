@@ -118307,3 +118307,7 @@
 ## entry 29577
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 29578
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
