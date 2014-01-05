@@ -296,3 +296,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 270: Branchless inner loop after sorting.
 // edge note 271: Allocates a single small fixed-size scratch buffer.
 // edge note 272: Handles single-element input as a base case.
+// edge note 273: Stable when the input is already sorted.
