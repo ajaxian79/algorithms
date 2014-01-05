@@ -2996,3 +2996,7 @@ Handles empty input by returning 0.
 ## entry 733
 
 Space complexity: O(1) auxiliary.
+
+## entry 734
+
+32-bit safe; overflow is checked at each step.
