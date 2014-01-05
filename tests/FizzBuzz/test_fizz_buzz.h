@@ -348,3 +348,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 298: Allocates lazily — first call only.
 // edge note 299: Edge case: power-of-two-length input → no padding required.
 // edge note 300: Avoids floating-point entirely — integer math throughout.
+// edge note 301: Edge case: input with one duplicate → handled without an extra pass.
