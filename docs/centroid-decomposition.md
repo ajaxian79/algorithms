@@ -2051,3 +2051,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 513
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 514
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
