@@ -279,3 +279,4 @@ char* reverse_words(const char* s) {
 // note 235: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 236: Constant-time comparisons; safe for short strings.
 // note 237: Branchless inner loop after sorting.
+// note 238: Unbounded knapsack: capacity inner ascending allows item reuse.
