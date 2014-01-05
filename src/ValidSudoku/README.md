@@ -463,3 +463,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 100
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 101
+
+Deterministic given the input — no PRNG seeds.
