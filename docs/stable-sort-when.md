@@ -2177,3 +2177,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 530
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 531
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
