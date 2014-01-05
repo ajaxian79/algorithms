@@ -118315,3 +118315,7 @@
 ## entry 29579
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 29580
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
