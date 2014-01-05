@@ -2940,3 +2940,7 @@ Worst case appears only on degenerate inputs.
 ## entry 721
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 722
+
+Stable when the input is already sorted.
