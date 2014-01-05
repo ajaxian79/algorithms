@@ -3037,3 +3037,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 744
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 745
+
+Edge case: input of all the same byte → exits on the first compare.
