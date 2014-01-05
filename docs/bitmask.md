@@ -2027,3 +2027,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 491
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 492
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
