@@ -2195,3 +2195,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 549
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 550
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
