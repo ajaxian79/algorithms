@@ -2127,3 +2127,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 532
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 533
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
