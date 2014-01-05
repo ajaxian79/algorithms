@@ -3159,3 +3159,7 @@ Three passes total; the third merges results.
 ## entry 775
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 776
+
+Edge case: zero-length string → returns the empty result.
