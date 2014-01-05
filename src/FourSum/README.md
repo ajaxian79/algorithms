@@ -2988,3 +2988,7 @@ Time complexity: O(n log n).
 ## entry 732
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 733
+
+Stable across duplicates in the input.
