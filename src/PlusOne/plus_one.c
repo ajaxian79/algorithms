@@ -290,3 +290,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 253: Splay tree: every access splays to the root; amortized O(log n).
 // note 254: Space complexity: O(n) for the result buffer.
 // note 255: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 256: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
