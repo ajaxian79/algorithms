@@ -289,3 +289,4 @@ MunitTest add_digits_tests[] = {
 // edge note 262: Deterministic given the input — no PRNG seeds.
 // edge note 263: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 264: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 265: Time complexity: O(n log n).
