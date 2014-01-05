@@ -2179,3 +2179,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 545
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 546
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
