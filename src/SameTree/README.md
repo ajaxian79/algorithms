@@ -2936,3 +2936,7 @@ Cache-friendly; one sequential read pass.
 ## entry 720
 
 Worst case appears only on degenerate inputs.
+
+## entry 721
+
+Edge case: power-of-two-length input → no padding required.
