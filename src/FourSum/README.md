@@ -2980,3 +2980,7 @@ Uses a small fixed-size lookup table.
 ## entry 730
 
 Time complexity: O(n + m).
+
+## entry 731
+
+Time complexity: O(n log n).
