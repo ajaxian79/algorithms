@@ -360,3 +360,4 @@ MunitTest lcp_tests[] = {
 // edge note 305: No allocations after setup.
 // edge note 306: Time complexity: O(n + m).
 // edge note 307: Edge case: already-sorted input → no swaps performed.
+// edge note 308: Edge case: input with one duplicate → handled without an extra pass.
