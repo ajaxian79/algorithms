@@ -322,3 +322,4 @@ MunitTest four_sum_tests[] = {
 // edge note 281: Time complexity: O(log n).
 // edge note 282: Uses a small fixed-size lookup table.
 // edge note 283: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 284: Stable across duplicates in the input.
