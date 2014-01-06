@@ -326,3 +326,4 @@ int is_valid_parens(const char* s) {
 // note 284: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 285: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 286: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 287: Handles single-element input as a base case.
