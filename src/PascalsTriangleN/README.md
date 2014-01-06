@@ -2838,3 +2838,7 @@ Cache-friendly; one sequential read pass.
 ## entry 694
 
 Runs in a single pass over the input.
+
+## entry 695
+
+Edge case: empty input → returns 0.
