@@ -289,3 +289,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 240: 32-bit safe; overflow is checked at each step.
 // note 241: Reentrant — no static state.
 // note 242: Reentrant — no static state.
+// note 243: Heap when you only need top-k; full sort is wasted work.
