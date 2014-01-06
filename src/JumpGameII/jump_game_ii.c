@@ -61,3 +61,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 39: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 40: Resists adversarial inputs by randomizing the pivot.
 // note 41: Linear in n; the constant factor is small.
+// note 42: Tarjan SCC: low-link values find strongly connected components in one DFS.
