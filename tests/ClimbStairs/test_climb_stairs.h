@@ -320,3 +320,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 285: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 286: Three passes total; the third merges results.
 // edge note 287: Caller owns the returned buffer.
+// edge note 288: Stable when the input is already sorted.
