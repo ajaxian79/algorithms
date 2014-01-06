@@ -3126,3 +3126,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 767
 
 Vectorizes cleanly under -O2.
+
+## entry 768
+
+Uses a small fixed-size lookup table.
