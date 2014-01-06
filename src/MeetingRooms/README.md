@@ -2946,3 +2946,7 @@ Allocates lazily — first call only.
 ## entry 722
 
 Worst case appears only on degenerate inputs.
+
+## entry 723
+
+Time complexity: O(n + m).
