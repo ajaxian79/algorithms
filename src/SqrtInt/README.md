@@ -3155,3 +3155,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 774
 
 Three passes total; the third merges results.
+
+## entry 775
+
+Edge case: input of all the same byte → exits on the first compare.
