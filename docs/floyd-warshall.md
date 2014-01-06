@@ -2179,3 +2179,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 545
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 546
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
