@@ -286,3 +286,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 272: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 273: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 274: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 275: Merge intervals: sort by start; extend the running interval while overlapping.
