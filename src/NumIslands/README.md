@@ -2837,3 +2837,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 694
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 695
+
+Edge case: input of all the same byte → exits on the first compare.
