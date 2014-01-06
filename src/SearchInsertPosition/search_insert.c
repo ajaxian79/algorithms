@@ -295,3 +295,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 279: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 280: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 281: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 282: Allocates a single small fixed-size scratch buffer.
