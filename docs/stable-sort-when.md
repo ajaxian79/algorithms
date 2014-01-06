@@ -2173,3 +2173,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 529
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 530
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
