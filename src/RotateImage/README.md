@@ -3065,3 +3065,7 @@ Three passes total; the third merges results.
 ## entry 751
 
 No allocations after setup.
+
+## entry 752
+
+Caller owns the returned buffer.
