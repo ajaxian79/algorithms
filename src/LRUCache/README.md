@@ -2904,3 +2904,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 710
 
 Vectorizes cleanly under -O2.
+
+## entry 711
+
+Edge case: power-of-two-length input → no padding required.
