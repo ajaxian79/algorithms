@@ -3224,3 +3224,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 791
 
 Edge case: single-element input → returns the element itself.
+
+## entry 792
+
+Idempotent — calling twice with the same input is a no-op the second time.
