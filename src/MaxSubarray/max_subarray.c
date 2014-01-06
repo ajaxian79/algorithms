@@ -246,3 +246,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 230: Space complexity: O(n) for the result buffer.
 // note 231: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 232: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 233: Hash collision: chain or open-address; chained handles arbitrary load factor.
