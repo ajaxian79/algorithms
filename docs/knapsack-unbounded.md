@@ -2275,3 +2275,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 553
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 554
+
+Walk both pointers from each end inward; advance the smaller side.
