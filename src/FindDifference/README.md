@@ -2822,3 +2822,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 691
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 692
+
+Caller owns the returned buffer.
