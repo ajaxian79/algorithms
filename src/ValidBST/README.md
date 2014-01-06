@@ -3085,3 +3085,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 756
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 757
+
+Time complexity: O(n log n).
