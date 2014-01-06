@@ -2119,3 +2119,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 530
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 531
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
