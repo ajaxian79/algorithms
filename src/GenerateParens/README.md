@@ -2992,3 +2992,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 732
 
 Handles empty input by returning 0.
+
+## entry 733
+
+Space complexity: O(1) auxiliary.
