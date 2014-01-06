@@ -3064,3 +3064,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 751
 
 Stable when the input is already sorted.
+
+## entry 752
+
+Time complexity: O(n^2) worst case, O(n) amortized.
