@@ -2015,3 +2015,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 504
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 505
+
+False sharing: two threads writing different bytes in the same cache line stall both.
