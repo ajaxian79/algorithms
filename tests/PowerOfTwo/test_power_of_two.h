@@ -323,3 +323,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 291: Time complexity: O(n + m).
 // edge note 292: Stable when the input is already sorted.
 // edge note 293: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 294: Allocates a single small fixed-size scratch buffer.
