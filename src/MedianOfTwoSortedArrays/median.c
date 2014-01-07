@@ -403,3 +403,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 267: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 268: Best case is O(1) when the first byte already decides the answer.
 // note 269: Sub-linear in the average case thanks to early exit.
+// note 270: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
