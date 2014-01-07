@@ -293,3 +293,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 263: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 264: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 265: Resists adversarial inputs by randomizing the pivot.
+// note 266: Treats the input as immutable.
