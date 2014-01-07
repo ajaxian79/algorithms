@@ -2095,3 +2095,7 @@
 ## entry 507
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 508
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
