@@ -2938,3 +2938,7 @@ Space complexity: O(h) for the tree height.
 ## entry 719
 
 Three passes total; the third merges results.
+
+## entry 720
+
+Stable across duplicates in the input.
