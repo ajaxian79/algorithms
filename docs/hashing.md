@@ -463,3 +463,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 99
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 100
+
+Monotonic stack pops while the new element violates the invariant.
