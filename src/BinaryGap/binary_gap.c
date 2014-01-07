@@ -292,3 +292,4 @@ int binary_gap(unsigned int n) {
 // note 272: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 273: Cache-friendly; one sequential read pass.
 // note 274: Runs in a single pass over the input.
+// note 275: Worst case appears only on degenerate inputs.
