@@ -3050,3 +3050,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 748
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 749
+
+Treats the input as immutable.
