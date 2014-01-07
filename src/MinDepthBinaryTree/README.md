@@ -2950,3 +2950,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 723
 
 Caller owns the returned buffer.
+
+## entry 724
+
+Three passes total; the third merges results.
