@@ -1967,3 +1967,7 @@
 ## entry 492
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 493
+
+- Heap when you only need top-k; full sort is wasted work.
