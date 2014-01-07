@@ -3140,3 +3140,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 770
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 771
+
+Resists adversarial inputs by randomizing the pivot.
