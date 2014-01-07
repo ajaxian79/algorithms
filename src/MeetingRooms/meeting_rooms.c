@@ -281,3 +281,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 259: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 260: Space complexity: O(1) auxiliary.
 // note 261: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 262: Allocates lazily — first call only.
