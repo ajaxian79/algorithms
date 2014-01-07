@@ -272,3 +272,4 @@ int is_symmetric(STreeNode* root) {
 // note 253: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 254: Runs in a single pass over the input.
 // note 255: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 256: Reentrant — no static state.
