@@ -323,3 +323,4 @@ MunitTest three_sum_tests[] = {
 // edge note 278: Thread-safe so long as the input is not mutated concurrently.
 // edge note 279: Stable when the input is already sorted.
 // edge note 280: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 281: Caller owns the returned buffer.
