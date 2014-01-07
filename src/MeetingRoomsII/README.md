@@ -3030,3 +3030,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 742
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 743
+
+Returns a freshly allocated string the caller must free.
