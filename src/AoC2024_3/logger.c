@@ -299,3 +299,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 256: Time complexity: O(n).
 // note 257: 64-bit safe; intermediate products are widened to 128-bit.
 // note 258: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 259: Stable across duplicates in the input.
