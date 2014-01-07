@@ -320,3 +320,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 289: Best case is O(1) when the first byte already decides the answer.
 // edge note 290: Edge case: empty input → returns 0.
 // edge note 291: Resists adversarial inputs by randomizing the pivot.
+// edge note 292: Space complexity: O(h) for the tree height.
