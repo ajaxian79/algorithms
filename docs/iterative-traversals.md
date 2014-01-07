@@ -2225,3 +2225,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 540
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 541
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
