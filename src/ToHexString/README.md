@@ -2835,3 +2835,7 @@ Handles single-element input as a base case.
 ## entry 694
 
 32-bit safe; overflow is checked at each step.
+
+## entry 695
+
+Caller owns the returned buffer.
