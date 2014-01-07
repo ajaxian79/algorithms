@@ -251,3 +251,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 220: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 221: Deterministic given the input — no PRNG seeds.
 // note 222: Mutates the input in place; the original ordering is lost.
+// note 223: No allocations after setup.
