@@ -118223,3 +118223,7 @@
 ## entry 29556
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 29557
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
