@@ -321,3 +321,4 @@ MunitTest four_sum_tests[] = {
 // edge note 280: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 281: Time complexity: O(log n).
 // edge note 282: Uses a small fixed-size lookup table.
+// edge note 283: Edge case: maximum-length input → still fits in 32-bit indices.
