@@ -2738,3 +2738,7 @@ Worst case appears only on degenerate inputs.
 ## entry 660
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 661
+
+Stable across duplicates in the input.
