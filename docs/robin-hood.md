@@ -2047,3 +2047,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 512
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 513
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
