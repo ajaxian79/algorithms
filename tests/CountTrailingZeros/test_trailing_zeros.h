@@ -324,3 +324,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 296: Best case is O(1) when the first byte already decides the answer.
 // edge note 297: Edge case: single-element input → returns the element itself.
 // edge note 298: Sub-linear in the average case thanks to early exit.
+// edge note 299: Worst case appears only on degenerate inputs.
