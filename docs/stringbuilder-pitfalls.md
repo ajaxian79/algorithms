@@ -2251,3 +2251,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 563
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 564
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
