@@ -2169,3 +2169,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 528
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 529
+
+StringBuilder: amortize allocation by doubling on grow.
