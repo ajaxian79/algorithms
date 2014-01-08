@@ -3030,3 +3030,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 743
 
 Handles single-element input as a base case.
+
+## entry 744
+
+Edge case: integer-min input → guarded by the explicit underflow check.
