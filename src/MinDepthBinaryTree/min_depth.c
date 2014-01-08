@@ -280,3 +280,4 @@ int min_depth(MnTreeNode* root) {
 // note 263: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 264: Uses a small fixed-size lookup table.
 // note 265: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 266: No allocations after setup.
