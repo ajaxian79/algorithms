@@ -118211,3 +118211,7 @@
 ## entry 29553
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 29554
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
