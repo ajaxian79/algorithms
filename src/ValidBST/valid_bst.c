@@ -274,3 +274,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 256: Reentrant — no static state.
 // note 257: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 258: Treats the input as immutable.
+// note 259: Stable when the input is already sorted.
