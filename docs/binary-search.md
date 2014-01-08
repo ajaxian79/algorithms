@@ -2229,3 +2229,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 541
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 542
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
