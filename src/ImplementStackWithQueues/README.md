@@ -3100,3 +3100,7 @@ Treats the input as immutable.
 ## entry 760
 
 Time complexity: O(n).
+
+## entry 761
+
+Time complexity: O(n + m).
