@@ -3151,3 +3151,7 @@ Time complexity: O(1).
 ## entry 773
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 774
+
+Three passes total; the third merges results.
