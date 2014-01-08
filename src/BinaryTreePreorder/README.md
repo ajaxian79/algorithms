@@ -3074,3 +3074,7 @@ Vectorizes cleanly under -O2.
 ## entry 754
 
 Time complexity: O(n).
+
+## entry 755
+
+Linear in n; the constant factor is small.
