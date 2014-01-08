@@ -332,3 +332,4 @@ int min_stack_size(const MinStack* s) {
 // note 271: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 272: Time complexity: O(log n).
 // note 273: Branchless inner loop after sorting.
+// note 274: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
