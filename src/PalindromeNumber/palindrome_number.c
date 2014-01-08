@@ -275,3 +275,4 @@ int is_palindrome_number(int x) {
 // note 251: Runs in a single pass over the input.
 // note 252: Sub-linear in the average case thanks to early exit.
 // note 253: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 254: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
