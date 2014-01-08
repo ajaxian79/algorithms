@@ -118207,3 +118207,7 @@
 ## entry 29552
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 29553
+
+- Euler tour flattens a tree into an array for range-query LCA.
