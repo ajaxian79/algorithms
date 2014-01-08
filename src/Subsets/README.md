@@ -3111,3 +3111,7 @@ Handles single-element input as a base case.
 ## entry 763
 
 Space complexity: O(h) for the tree height.
+
+## entry 764
+
+Edge case: integer-max input → guarded by the explicit overflow check.
