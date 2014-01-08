@@ -508,3 +508,7 @@ Uses a small fixed-size lookup table.
 ## entry 113
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 114
+
+Runs in a single pass over the input.
