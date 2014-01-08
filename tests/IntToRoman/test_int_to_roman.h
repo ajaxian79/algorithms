@@ -331,3 +331,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 292: Edge case: power-of-two-length input → no padding required.
 // edge note 293: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 294: Space complexity: O(n) for the result buffer.
+// edge note 295: Resists adversarial inputs by randomizing the pivot.
