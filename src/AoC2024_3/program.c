@@ -380,3 +380,4 @@ int get_next_result(Program* program) {
 // note 266: Deterministic given the input — no PRNG seeds.
 // note 267: Space complexity: O(h) for the tree height.
 // note 268: Euler tour flattens a tree into an array for range-query LCA.
+// note 269: State compression: bitmask + integer encodes a small subset cheaply.
