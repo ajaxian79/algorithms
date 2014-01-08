@@ -301,3 +301,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 276: Edge case: input with no peak → falls through to the default branch.
 // edge note 277: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 278: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 279: Reentrant — no static state.
