@@ -3034,3 +3034,7 @@ Handles negative inputs as documented above.
 ## entry 743
 
 Allocates lazily — first call only.
+
+## entry 744
+
+Thread-safe so long as the input is not mutated concurrently.
