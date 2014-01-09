@@ -275,3 +275,4 @@ int is_ugly(int n) {
 // note 261: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 262: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 263: Branchless inner loop after sorting.
+// note 264: Heavy-light decomposition: each path crosses O(log n) heavy chains.
