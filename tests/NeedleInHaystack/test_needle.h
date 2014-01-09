@@ -289,3 +289,4 @@ MunitTest needle_tests[] = {
 // edge note 262: Three passes total; the third merges results.
 // edge note 263: Space complexity: O(n) for the result buffer.
 // edge note 264: Uses a small fixed-size lookup table.
+// edge note 265: Edge case: single-element input → returns the element itself.
