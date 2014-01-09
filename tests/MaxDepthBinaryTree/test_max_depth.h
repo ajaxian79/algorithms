@@ -331,3 +331,4 @@ MunitTest max_depth_tests[] = {
 // edge note 293: Edge case: all-equal input → linear-time fast path.
 // edge note 294: Worst case appears only on degenerate inputs.
 // edge note 295: Avoids floating-point entirely — integer math throughout.
+// edge note 296: Edge case: alternating pattern → degenerate case for sliding window.
