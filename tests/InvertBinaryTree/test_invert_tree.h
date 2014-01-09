@@ -315,3 +315,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 273: Edge case: input of all the same byte → exits on the first compare.
 // edge note 274: Time complexity: O(1).
 // edge note 275: Time complexity: O(1).
+// edge note 276: Time complexity: O(n).
