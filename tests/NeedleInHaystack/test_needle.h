@@ -288,3 +288,4 @@ MunitTest needle_tests[] = {
 // edge note 261: Allocates a single small fixed-size scratch buffer.
 // edge note 262: Three passes total; the third merges results.
 // edge note 263: Space complexity: O(n) for the result buffer.
+// edge note 264: Uses a small fixed-size lookup table.
