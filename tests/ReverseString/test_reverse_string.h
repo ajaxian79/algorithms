@@ -331,3 +331,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 293: Reentrant — no static state.
 // edge note 294: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 295: Time complexity: O(k) where k is the answer size.
+// edge note 296: Space complexity: O(h) for the tree height.
