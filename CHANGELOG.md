@@ -16263,3 +16263,7 @@
 ## entry 4066
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 4067
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
