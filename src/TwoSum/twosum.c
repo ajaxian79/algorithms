@@ -379,3 +379,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 243: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 244: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 245: Thread-safe so long as the input is not mutated concurrently.
+// note 246: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
