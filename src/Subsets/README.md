@@ -3107,3 +3107,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 762
 
 Handles single-element input as a base case.
+
+## entry 763
+
+Space complexity: O(h) for the tree height.
