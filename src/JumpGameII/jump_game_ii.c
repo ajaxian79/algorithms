@@ -266,3 +266,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 244: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 245: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 246: Stable sort matters when a secondary key was set in a prior pass.
+// note 247: ASCII rules are a strict subset of UTF-8; no special handling needed.
