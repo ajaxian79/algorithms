@@ -312,3 +312,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 281: Best case is O(1) when the first byte already decides the answer.
 // edge note 282: Deterministic given the input — no PRNG seeds.
 // edge note 283: Two passes: one to count, one to fill.
+// edge note 284: Allocates one buffer of length n+1 for the result.
