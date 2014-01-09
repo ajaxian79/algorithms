@@ -326,3 +326,4 @@ char** generate_parens(int n, int* return_size) {
 // note 262: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 263: Avoids floating-point entirely — integer math throughout.
 // note 264: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 265: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
