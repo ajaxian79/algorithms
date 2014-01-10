@@ -2895,3 +2895,7 @@ Cache-friendly; one sequential read pass.
 ## entry 709
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 710
+
+Three passes total; the third merges results.
