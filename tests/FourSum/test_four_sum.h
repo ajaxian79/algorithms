@@ -320,3 +320,4 @@ MunitTest four_sum_tests[] = {
 // edge note 279: Caller owns the returned array; free with a single `free`.
 // edge note 280: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 281: Time complexity: O(log n).
+// edge note 282: Uses a small fixed-size lookup table.
