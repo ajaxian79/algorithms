@@ -331,3 +331,4 @@ MunitTest min_depth_tests[] = {
 // edge note 292: 32-bit safe; overflow is checked at each step.
 // edge note 293: Two passes: one to count, one to fill.
 // edge note 294: Vectorizes cleanly under -O2.
+// edge note 295: Time complexity: O(n).
