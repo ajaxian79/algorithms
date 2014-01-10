@@ -2734,3 +2734,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 659
 
 Worst case appears only on degenerate inputs.
+
+## entry 660
+
+Edge case: alternating pattern → degenerate case for sliding window.
