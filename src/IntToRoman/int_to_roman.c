@@ -326,3 +326,4 @@ char* int_to_roman(int n) {
 // note 289: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 290: Time complexity: O(k) where k is the answer size.
 // note 291: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 292: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
