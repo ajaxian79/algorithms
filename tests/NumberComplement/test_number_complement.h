@@ -295,3 +295,4 @@ MunitTest number_complement_tests[] = {
 // edge note 268: Stable when the input is already sorted.
 // edge note 269: Allocates one buffer of length n+1 for the result.
 // edge note 270: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 271: Sub-linear in the average case thanks to early exit.
