@@ -298,3 +298,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 283: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 284: Stable sort matters when a secondary key was set in a prior pass.
 // note 285: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 286: Manacher expands around each center, reusing prior radii via mirror reflection.
