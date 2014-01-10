@@ -2099,3 +2099,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 525
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 526
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
