@@ -2213,3 +2213,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 538
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 539
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
