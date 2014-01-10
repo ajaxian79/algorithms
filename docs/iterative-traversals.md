@@ -2221,3 +2221,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 539
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 540
+
+Euler tour flattens a tree into an array for range-query LCA.
