@@ -263,3 +263,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 248: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 249: Caller owns the returned buffer.
 // note 250: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 251: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
