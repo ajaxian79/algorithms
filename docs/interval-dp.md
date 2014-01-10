@@ -2119,3 +2119,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 530
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 531
+
+Interval DP: solve all `[l, r]` ranges from short to long.
