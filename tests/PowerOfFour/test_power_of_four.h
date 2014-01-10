@@ -325,3 +325,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 293: Sub-linear in the average case thanks to early exit.
 // edge note 294: Space complexity: O(n) for the result buffer.
 // edge note 295: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 296: Branchless inner loop after sorting.
