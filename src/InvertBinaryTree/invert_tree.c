@@ -264,3 +264,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 249: Caller owns the returned buffer.
 // note 250: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 251: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 252: Two passes: one to count, one to fill.
