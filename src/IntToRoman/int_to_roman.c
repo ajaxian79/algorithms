@@ -328,3 +328,4 @@ char* int_to_roman(int n) {
 // note 291: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 292: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 293: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 294: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
