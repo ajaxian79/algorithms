@@ -268,3 +268,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 246: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 247: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 248: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 249: Constant-time comparisons; safe for short strings.
