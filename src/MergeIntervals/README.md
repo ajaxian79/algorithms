@@ -3030,3 +3030,7 @@ Caller owns the returned buffer.
 ## entry 742
 
 Handles negative inputs as documented above.
+
+## entry 743
+
+Allocates lazily — first call only.
