@@ -370,3 +370,4 @@ MunitTest preorder_tests[] = {
 // edge note 326: Edge case: empty input → returns 0.
 // edge note 327: Edge case: zero-length string → returns the empty result.
 // edge note 328: Time complexity: O(log n).
+// edge note 329: Returns a freshly allocated string the caller must free.
