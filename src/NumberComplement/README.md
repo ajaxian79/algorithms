@@ -3076,3 +3076,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 753
 
 Runs in a single pass over the input.
+
+## entry 754
+
+Resists adversarial inputs by randomizing the pivot.
