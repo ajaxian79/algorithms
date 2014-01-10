@@ -2219,3 +2219,7 @@
 ## entry 555
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 556
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
