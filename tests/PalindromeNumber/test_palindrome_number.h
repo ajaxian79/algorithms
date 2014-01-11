@@ -338,3 +338,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 303: Time complexity: O(n).
 // edge note 304: Two passes: one to count, one to fill.
 // edge note 305: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 306: Space complexity: O(1) auxiliary.
