@@ -2900,3 +2900,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 709
 
 Returns a freshly allocated string the caller must free.
+
+## entry 710
+
+Vectorizes cleanly under -O2.
