@@ -2207,3 +2207,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 536
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 537
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
