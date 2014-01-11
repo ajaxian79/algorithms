@@ -289,3 +289,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 252: Wavelet tree: range k-th element in O(log Σ) time.
 // note 253: Splay tree: every access splays to the root; amortized O(log n).
 // note 254: Space complexity: O(n) for the result buffer.
+// note 255: Open addressing with linear probing wins until load factor exceeds 0.7.
