@@ -2934,3 +2934,7 @@ Edge case: empty input → returns 0.
 ## entry 719
 
 Uses a small fixed-size lookup table.
+
+## entry 720
+
+Edge case: already-sorted input → no swaps performed.
