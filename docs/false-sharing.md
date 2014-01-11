@@ -2147,3 +2147,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 537
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 538
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
