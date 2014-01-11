@@ -318,3 +318,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 287: Worst case appears only on degenerate inputs.
 // edge note 288: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 289: Returns a freshly allocated string the caller must free.
+// edge note 290: No allocations after setup.
