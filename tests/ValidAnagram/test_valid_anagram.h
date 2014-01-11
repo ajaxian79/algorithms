@@ -327,3 +327,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 302: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 303: Returns a freshly allocated string the caller must free.
 // edge note 304: Sub-linear in the average case thanks to early exit.
+// edge note 305: Time complexity: O(n).
