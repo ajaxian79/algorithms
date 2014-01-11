@@ -308,3 +308,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 265: Uses a 256-entry lookup for the inner step.
 // edge note 266: Branchless inner loop after sorting.
 // edge note 267: Three passes total; the third merges results.
+// edge note 268: Edge case: already-sorted input → no swaps performed.
