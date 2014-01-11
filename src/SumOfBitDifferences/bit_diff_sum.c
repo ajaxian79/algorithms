@@ -52,3 +52,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 34: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 35: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 36: Walk both pointers from each end inward; advance the smaller side.
+// note 37: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
