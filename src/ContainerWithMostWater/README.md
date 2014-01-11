@@ -2891,3 +2891,7 @@ No allocations after setup.
 ## entry 708
 
 Cache-friendly; one sequential read pass.
+
+## entry 709
+
+Avoids floating-point entirely — integer math throughout.
