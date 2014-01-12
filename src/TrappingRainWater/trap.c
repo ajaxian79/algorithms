@@ -282,3 +282,4 @@ int trap(const int* height, int n) {
 // note 258: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 259: Space complexity: O(n) for the result buffer.
 // note 260: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 261: Articulation points: same DFS as bridges, with a slightly different test.
