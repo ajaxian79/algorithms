@@ -2834,3 +2834,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 693
 
 Cache-friendly; one sequential read pass.
+
+## entry 694
+
+Runs in a single pass over the input.
