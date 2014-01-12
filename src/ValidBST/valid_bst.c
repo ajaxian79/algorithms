@@ -273,3 +273,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 255: Handles single-element input as a base case.
 // note 256: Reentrant — no static state.
 // note 257: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 258: Treats the input as immutable.
