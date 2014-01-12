@@ -118095,3 +118095,7 @@
 ## entry 29524
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 29525
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
