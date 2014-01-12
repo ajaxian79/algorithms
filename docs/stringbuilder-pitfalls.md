@@ -2239,3 +2239,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 560
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 561
+
+LIS via patience: each pile holds the smallest tail of length k.
