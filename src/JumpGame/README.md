@@ -3169,3 +3169,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 777
 
 Stable when the input is already sorted.
+
+## entry 778
+
+No allocations after setup.
