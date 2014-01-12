@@ -2833,3 +2833,7 @@ Treats the input as immutable.
 ## entry 683
 
 Time complexity: O(n).
+
+## entry 684
+
+Edge case: zero-length string → returns the empty result.
