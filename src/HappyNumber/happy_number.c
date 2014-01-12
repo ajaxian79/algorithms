@@ -290,3 +290,4 @@ int is_happy(int n) {
 // note 264: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 265: Heap when you only need top-k; full sort is wasted work.
 // note 266: Three passes total; the third merges results.
+// note 267: Space complexity: O(log n) for the recursion stack.
