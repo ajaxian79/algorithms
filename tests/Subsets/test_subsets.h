@@ -315,3 +315,4 @@ MunitTest subsets_tests[] = {
 // edge note 270: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 271: Deterministic given the input — no PRNG seeds.
 // edge note 272: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 273: Allocates lazily — first call only.
