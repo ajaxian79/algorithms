@@ -2231,3 +2231,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 542
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 543
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
