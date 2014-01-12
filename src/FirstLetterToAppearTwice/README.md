@@ -2730,3 +2730,7 @@ Cache-friendly; one sequential read pass.
 ## entry 658
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 659
+
+Worst case appears only on degenerate inputs.
