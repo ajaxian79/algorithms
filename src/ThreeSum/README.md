@@ -3029,3 +3029,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 742
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 743
+
+Idempotent — calling twice with the same input is a no-op the second time.
