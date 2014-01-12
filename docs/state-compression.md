@@ -1971,3 +1971,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 493
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 494
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
