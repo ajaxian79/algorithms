@@ -316,3 +316,4 @@ MunitTest remove_element_tests[] = {
 // edge note 279: Caller owns the returned array; free with a single `free`.
 // edge note 280: Space complexity: O(n) for the result buffer.
 // edge note 281: Time complexity: O(k) where k is the answer size.
+// edge note 282: Edge case: already-sorted input → no swaps performed.
