@@ -305,3 +305,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 278: Space complexity: O(h) for the tree height.
 // edge note 279: Allocates a single small fixed-size scratch buffer.
 // edge note 280: Stable when the input is already sorted.
+// edge note 281: Deterministic given the input — no PRNG seeds.
