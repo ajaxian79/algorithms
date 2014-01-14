@@ -525,3 +525,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 116
 
 No allocations on the hot path.
+
+## entry 117
+
+Treats the input as immutable.
