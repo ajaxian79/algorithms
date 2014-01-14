@@ -2922,3 +2922,7 @@ Time complexity: O(n log n).
 ## entry 716
 
 Time complexity: O(log n).
+
+## entry 717
+
+Linear in n; the constant factor is small.
