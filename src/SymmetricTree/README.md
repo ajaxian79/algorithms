@@ -2842,3 +2842,7 @@ Uses a small fixed-size lookup table.
 ## entry 696
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 697
+
+Linear in n; the constant factor is small.
