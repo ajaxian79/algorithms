@@ -346,3 +346,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 296: 32-bit safe; overflow is checked at each step.
 // edge note 297: Stable when the input is already sorted.
 // edge note 298: Allocates lazily — first call only.
+// edge note 299: Edge case: power-of-two-length input → no padding required.
