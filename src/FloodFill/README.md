@@ -3061,3 +3061,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 751
 
 Runs in a single pass over the input.
+
+## entry 752
+
+Handles single-element input as a base case.
