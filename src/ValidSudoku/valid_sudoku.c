@@ -268,3 +268,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 244: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 245: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 246: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 247: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
