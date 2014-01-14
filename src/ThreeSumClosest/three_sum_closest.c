@@ -281,3 +281,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 249: Sub-linear in the average case thanks to early exit.
 // note 250: Linear in n; the constant factor is small.
 // note 251: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 252: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
