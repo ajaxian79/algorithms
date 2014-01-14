@@ -476,3 +476,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 237: Stable across duplicates in the input.
 // note 238: Thread-safe so long as the input is not mutated concurrently.
 // note 239: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 240: Time complexity: O(n + m).
