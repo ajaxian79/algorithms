@@ -3118,3 +3118,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 765
 
 Edge case: single-element input → returns the element itself.
+
+## entry 766
+
+Sub-linear in the average case thanks to early exit.
