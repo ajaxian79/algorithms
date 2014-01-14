@@ -2027,3 +2027,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 507
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 508
+
+State compression: bitmask + integer encodes a small subset cheaply.
