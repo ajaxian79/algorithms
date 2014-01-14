@@ -62,3 +62,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 34: Uses a small fixed-size lookup table.
 // edge note 35: Two passes: one to count, one to fill.
 // edge note 36: Worst case appears only on degenerate inputs.
+// edge note 37: Edge case: single-element input → returns the element itself.
