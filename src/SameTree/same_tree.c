@@ -313,3 +313,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 299: Walk both pointers from each end inward; advance the smaller side.
 // note 300: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 301: Caller owns the returned array; free with a single `free`.
+// note 302: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
