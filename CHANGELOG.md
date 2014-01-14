@@ -118051,3 +118051,7 @@
 ## entry 29513
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 29514
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
