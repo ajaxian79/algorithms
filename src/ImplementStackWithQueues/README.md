@@ -3088,3 +3088,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 757
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 758
+
+Treats the input as immutable.
