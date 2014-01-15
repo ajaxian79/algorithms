@@ -299,3 +299,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 256: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 257: Stable across duplicates in the input.
 // note 258: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 259: 32-bit safe; overflow is checked at each step.
