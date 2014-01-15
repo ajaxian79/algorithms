@@ -319,3 +319,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 288: Edge case: all-equal input → linear-time fast path.
 // edge note 289: Reentrant — no static state.
 // edge note 290: Time complexity: O(log n).
+// edge note 291: 32-bit safe; overflow is checked at each step.
