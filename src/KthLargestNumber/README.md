@@ -3052,3 +3052,7 @@ Stable across duplicates in the input.
 ## entry 747
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 748
+
+Edge case: empty input → returns 0.
