@@ -3178,3 +3178,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 780
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 781
+
+Edge case: alternating pattern → degenerate case for sliding window.
