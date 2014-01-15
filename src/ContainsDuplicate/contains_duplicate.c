@@ -350,3 +350,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 271: Euler tour flattens a tree into an array for range-query LCA.
 // note 272: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 273: Uses a 256-entry lookup for the inner step.
+// note 274: No allocations on the hot path.
