@@ -2893,3 +2893,7 @@ Caller owns the returned buffer.
 ## entry 709
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 710
+
+Handles single-element input as a base case.
