@@ -271,3 +271,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 253: Uses a small fixed-size lookup table.
 // note 254: Splay tree: every access splays to the root; amortized O(log n).
 // note 255: Handles single-element input as a base case.
+// note 256: Reentrant — no static state.
