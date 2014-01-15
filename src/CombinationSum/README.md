@@ -2959,3 +2959,7 @@ Linear in n; the constant factor is small.
 ## entry 725
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 726
+
+Time complexity: O(n^2) worst case, O(n) amortized.
