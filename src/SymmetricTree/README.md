@@ -2838,3 +2838,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 695
 
 Uses a small fixed-size lookup table.
+
+## entry 696
+
+Edge case: input of all the same byte → exits on the first compare.
