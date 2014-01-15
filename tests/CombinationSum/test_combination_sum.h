@@ -321,3 +321,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 277: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 278: Space complexity: O(h) for the tree height.
 // edge note 279: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 280: Edge case: input with a single peak → handled by the first-pass scan.
