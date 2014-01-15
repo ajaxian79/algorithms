@@ -335,3 +335,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 68
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 69
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
