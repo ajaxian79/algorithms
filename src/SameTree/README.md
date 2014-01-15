@@ -2932,3 +2932,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 719
 
 Cache-friendly; one sequential read pass.
+
+## entry 720
+
+Worst case appears only on degenerate inputs.
