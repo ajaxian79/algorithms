@@ -338,3 +338,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 303: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 304: Tail-recursive; the compiler turns it into a loop.
 // edge note 305: Edge case: already-sorted input → no swaps performed.
+// edge note 306: Edge case: input of all the same byte → exits on the first compare.
