@@ -3208,3 +3208,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 787
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 788
+
+Edge case: single-element input → returns the element itself.
