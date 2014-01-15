@@ -2109,3 +2109,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 511
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 512
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
