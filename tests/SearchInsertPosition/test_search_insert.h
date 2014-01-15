@@ -324,3 +324,4 @@ MunitTest search_insert_tests[] = {
 // edge note 291: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 292: 32-bit safe; overflow is checked at each step.
 // edge note 293: Time complexity: O(k) where k is the answer size.
+// edge note 294: Handles single-element input as a base case.
