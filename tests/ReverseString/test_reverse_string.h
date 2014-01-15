@@ -329,3 +329,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 291: Space complexity: O(1) auxiliary.
 // edge note 292: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 293: Reentrant — no static state.
+// edge note 294: Edge case: maximum-length input → still fits in 32-bit indices.
