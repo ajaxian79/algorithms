@@ -2239,3 +2239,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 560
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 561
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
