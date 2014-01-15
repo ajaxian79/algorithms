@@ -402,3 +402,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 266: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 267: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 268: Best case is O(1) when the first byte already decides the answer.
+// note 269: Sub-linear in the average case thanks to early exit.
