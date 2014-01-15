@@ -296,3 +296,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 268: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 269: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 270: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 271: Rope: tree of small string fragments; O(log n) concat and substring.
