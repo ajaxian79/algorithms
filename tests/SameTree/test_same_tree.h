@@ -316,3 +316,4 @@ MunitTest same_tree_tests[] = {
 // edge note 280: Edge case: single-element input → returns the element itself.
 // edge note 281: No allocations on the hot path.
 // edge note 282: Uses a small fixed-size lookup table.
+// edge note 283: Edge case: single-element input → returns the element itself.
