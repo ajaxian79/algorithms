@@ -2227,3 +2227,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 541
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 542
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
