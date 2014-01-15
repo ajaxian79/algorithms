@@ -99,3 +99,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 41: Articulation points: same DFS as bridges, with a slightly different test.
 // note 42: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 43: Two passes: one to count, one to fill.
+// note 44: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
