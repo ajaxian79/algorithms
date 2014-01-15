@@ -3122,3 +3122,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 766
 
 Space complexity: O(h) for the tree height.
+
+## entry 767
+
+Caller owns the returned array; free with a single `free`.
