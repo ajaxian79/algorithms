@@ -2930,3 +2930,7 @@ Three passes total; the third merges results.
 ## entry 718
 
 Edge case: empty input → returns 0.
+
+## entry 719
+
+Uses a small fixed-size lookup table.
