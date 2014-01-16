@@ -2887,3 +2887,7 @@ Reentrant — no static state.
 ## entry 707
 
 No allocations after setup.
+
+## entry 708
+
+Cache-friendly; one sequential read pass.
