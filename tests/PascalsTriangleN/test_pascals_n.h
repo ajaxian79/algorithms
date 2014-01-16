@@ -353,3 +353,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 294: Edge case: power-of-two-length input → no padding required.
 // edge note 295: Edge case: reverse-sorted input → still O(n log n).
 // edge note 296: Edge case: already-sorted input → no swaps performed.
+// edge note 297: Edge case: input with one duplicate → handled without an extra pass.
