@@ -335,3 +335,4 @@ MunitTest to_hex_tests[] = {
 // edge note 306: Caller owns the returned array; free with a single `free`.
 // edge note 307: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 308: Linear in n; the constant factor is small.
+// edge note 309: Caller owns the returned buffer.
