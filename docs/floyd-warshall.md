@@ -2167,3 +2167,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 542
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 543
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
