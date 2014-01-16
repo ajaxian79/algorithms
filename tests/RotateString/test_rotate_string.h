@@ -293,3 +293,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 266: Reentrant — no static state.
 // edge note 267: Allocates one buffer of length n+1 for the result.
 // edge note 268: Caller owns the returned array; free with a single `free`.
+// edge note 269: Handles single-element input as a base case.
