@@ -2151,3 +2151,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 538
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 539
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
