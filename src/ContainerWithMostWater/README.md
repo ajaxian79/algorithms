@@ -2883,3 +2883,7 @@ Handles empty input by returning 0.
 ## entry 706
 
 Reentrant — no static state.
+
+## entry 707
+
+No allocations after setup.
