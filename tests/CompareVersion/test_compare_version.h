@@ -322,3 +322,4 @@ MunitTest compare_version_tests[] = {
 // edge note 295: Edge case: all-equal input → linear-time fast path.
 // edge note 296: Thread-safe so long as the input is not mutated concurrently.
 // edge note 297: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 298: Edge case: maximum-length input → still fits in 32-bit indices.
