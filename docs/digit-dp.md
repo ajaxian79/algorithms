@@ -1999,3 +1999,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 500
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 501
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
