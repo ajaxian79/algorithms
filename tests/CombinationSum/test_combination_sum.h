@@ -320,3 +320,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 276: Best case is O(1) when the first byte already decides the answer.
 // edge note 277: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 278: Space complexity: O(h) for the tree height.
+// edge note 279: Edge case: NULL input is rejected by the caller, not by us.
