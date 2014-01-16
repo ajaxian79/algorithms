@@ -2253,3 +2253,7 @@
 ## entry 546
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 547
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
