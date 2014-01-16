@@ -327,3 +327,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 287: Edge case: power-of-two-length input → no padding required.
 // edge note 288: Worst case appears only on degenerate inputs.
 // edge note 289: Deterministic given the input — no PRNG seeds.
+// edge note 290: Treats the input as immutable.
