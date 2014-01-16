@@ -2075,3 +2075,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 519
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 520
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
