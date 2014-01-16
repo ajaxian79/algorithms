@@ -2267,3 +2267,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 551
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 552
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
