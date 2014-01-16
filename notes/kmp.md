@@ -2097,3 +2097,7 @@
 ## entry 508
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 509
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
