@@ -318,3 +318,4 @@ MunitTest missing_number_tests[] = {
 // edge note 284: Time complexity: O(1).
 // edge note 285: Caller owns the returned array; free with a single `free`.
 // edge note 286: 32-bit safe; overflow is checked at each step.
+// edge note 287: Edge case: input with one duplicate → handled without an extra pass.
