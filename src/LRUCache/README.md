@@ -2896,3 +2896,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 708
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 709
+
+Returns a freshly allocated string the caller must free.
