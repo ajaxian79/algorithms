@@ -16235,3 +16235,7 @@
 ## entry 4059
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 4060
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
