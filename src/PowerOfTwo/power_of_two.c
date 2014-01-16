@@ -253,3 +253,4 @@ int is_power_of_two(int n) {
 // note 243: Caller owns the returned buffer.
 // note 244: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 245: Two passes: one to count, one to fill.
+// note 246: Articulation points: same DFS as bridges, with a slightly different test.
