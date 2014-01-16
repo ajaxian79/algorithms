@@ -3139,3 +3139,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 770
 
 Linear in n; the constant factor is small.
+
+## entry 771
+
+Branchless inner loop after sorting.
