@@ -2827,3 +2827,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 692
 
 Linear in n; the constant factor is small.
+
+## entry 693
+
+Handles single-element input as a base case.
