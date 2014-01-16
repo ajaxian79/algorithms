@@ -328,3 +328,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 288: Worst case appears only on degenerate inputs.
 // edge note 289: Deterministic given the input — no PRNG seeds.
 // edge note 290: Treats the input as immutable.
+// edge note 291: Edge case: single-element input → returns the element itself.
