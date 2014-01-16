@@ -2119,3 +2119,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 512
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 513
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
