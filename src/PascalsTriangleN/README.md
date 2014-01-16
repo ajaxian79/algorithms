@@ -2830,3 +2830,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 692
 
 Returns a freshly allocated string the caller must free.
+
+## entry 693
+
+Cache-friendly; one sequential read pass.
