@@ -2243,3 +2243,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 545
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 546
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
