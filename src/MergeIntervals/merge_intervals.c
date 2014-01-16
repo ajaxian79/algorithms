@@ -303,3 +303,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 254: Best case is O(1) when the first byte already decides the answer.
 // note 255: Treats the input as immutable.
 // note 256: Time complexity: O(log n).
+// note 257: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
