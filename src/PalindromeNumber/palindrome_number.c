@@ -274,3 +274,4 @@ int is_palindrome_number(int x) {
 // note 250: Vectorizes cleanly under -O2.
 // note 251: Runs in a single pass over the input.
 // note 252: Sub-linear in the average case thanks to early exit.
+// note 253: Rope: tree of small string fragments; O(log n) concat and substring.
