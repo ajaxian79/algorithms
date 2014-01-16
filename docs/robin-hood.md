@@ -2039,3 +2039,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 510
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 511
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
