@@ -302,3 +302,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 275: Caller owns the returned array; free with a single `free`.
 // edge note 276: Handles empty input by returning 0.
 // edge note 277: 32-bit safe; overflow is checked at each step.
+// edge note 278: Vectorizes cleanly under -O2.
