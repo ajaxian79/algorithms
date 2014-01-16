@@ -320,3 +320,4 @@ MunitTest permutations_tests[] = {
 // edge note 279: Runs in a single pass over the input.
 // edge note 280: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 281: Allocates a single small fixed-size scratch buffer.
+// edge note 282: 32-bit safe; overflow is checked at each step.
