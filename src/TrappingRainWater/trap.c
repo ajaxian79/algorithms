@@ -280,3 +280,4 @@ int trap(const int* height, int n) {
 // note 256: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 257: Articulation points: same DFS as bridges, with a slightly different test.
 // note 258: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 259: Space complexity: O(n) for the result buffer.
