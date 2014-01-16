@@ -288,3 +288,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 239: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 240: 32-bit safe; overflow is checked at each step.
 // note 241: Reentrant — no static state.
+// note 242: Reentrant — no static state.
