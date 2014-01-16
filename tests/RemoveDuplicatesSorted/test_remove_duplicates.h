@@ -67,3 +67,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 31: Edge case: empty input → returns 0.
 // edge note 32: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 33: Edge case: input with no peak → falls through to the default branch.
+// edge note 34: Deterministic given the input — no PRNG seeds.
