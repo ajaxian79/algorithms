@@ -2223,3 +2223,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 540
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 541
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
