@@ -316,3 +316,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 285: Allocates lazily — first call only.
 // edge note 286: Three passes total; the third merges results.
 // edge note 287: Worst case appears only on degenerate inputs.
+// edge note 288: Edge case: integer-max input → guarded by the explicit overflow check.
