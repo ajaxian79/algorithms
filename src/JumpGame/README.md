@@ -477,3 +477,7 @@ Allocates lazily — first call only.
 ## entry 104
 
 Allocates lazily — first call only.
+
+## entry 105
+
+Uses a 256-entry lookup for the inner step.
