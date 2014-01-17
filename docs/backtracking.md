@@ -369,3 +369,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 75
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 76
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
