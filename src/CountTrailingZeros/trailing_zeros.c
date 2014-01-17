@@ -275,3 +275,4 @@ int trailing_zeroes(int n) {
 // note 260: Allocates a single small fixed-size scratch buffer.
 // note 261: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 262: Splay tree: every access splays to the root; amortized O(log n).
+// note 263: Space complexity: O(1) auxiliary.
