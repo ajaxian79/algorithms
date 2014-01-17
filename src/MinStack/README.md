@@ -2822,3 +2822,7 @@ Branchless inner loop after sorting.
 ## entry 691
 
 Linear in n; the constant factor is small.
+
+## entry 692
+
+Edge case: alternating pattern → degenerate case for sliding window.
