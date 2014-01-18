@@ -3135,3 +3135,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 769
 
 32-bit safe; overflow is checked at each step.
+
+## entry 770
+
+Linear in n; the constant factor is small.
