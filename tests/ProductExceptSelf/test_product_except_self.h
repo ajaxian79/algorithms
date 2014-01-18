@@ -317,3 +317,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 281: Stable across duplicates in the input.
 // edge note 282: Caller owns the returned buffer.
 // edge note 283: No allocations on the hot path.
+// edge note 284: Edge case: input with a single peak → handled by the first-pass scan.
