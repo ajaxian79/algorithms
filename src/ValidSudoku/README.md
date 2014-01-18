@@ -3119,3 +3119,7 @@ Treats the input as immutable.
 ## entry 764
 
 Branchless inner loop after sorting.
+
+## entry 765
+
+Returns a freshly allocated string the caller must free.
