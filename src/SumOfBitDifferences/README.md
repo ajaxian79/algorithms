@@ -2984,3 +2984,7 @@ Handles negative inputs as documented above.
 ## entry 731
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 732
+
+Input is assumed non-NULL; behavior is undefined otherwise.
