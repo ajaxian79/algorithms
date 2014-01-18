@@ -285,3 +285,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 256: Edge case: reverse-sorted input → still O(n log n).
 // edge note 257: Space complexity: O(n) for the result buffer.
 // edge note 258: Constant-time comparisons; safe for short strings.
+// edge note 259: Space complexity: O(n) for the result buffer.
