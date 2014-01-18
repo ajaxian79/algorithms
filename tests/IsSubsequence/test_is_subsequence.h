@@ -294,3 +294,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 268: Edge case: input of all the same byte → exits on the first compare.
 // edge note 269: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 270: Branchless inner loop after sorting.
+// edge note 271: Allocates a single small fixed-size scratch buffer.
