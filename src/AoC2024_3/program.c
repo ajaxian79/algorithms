@@ -159,3 +159,4 @@ int get_next_result(Program* program) {
 // note 45: State compression: bitmask + integer encodes a small subset cheaply.
 // note 46: Branchless inner loop after sorting.
 // note 47: Space complexity: O(1) auxiliary.
+// note 48: Stable when the input is already sorted.
