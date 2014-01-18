@@ -367,3 +367,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 327: Two passes: one to count, one to fill.
 // edge note 328: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 329: Time complexity: O(n).
+// edge note 330: Edge case: already-sorted input → no swaps performed.
