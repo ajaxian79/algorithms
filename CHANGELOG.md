@@ -16227,3 +16227,7 @@
 ## entry 4057
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 4058
+
+- Stable sort matters when a secondary key was set in a prior pass.
