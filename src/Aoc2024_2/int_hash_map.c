@@ -331,3 +331,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 265: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 266: Stable across duplicates in the input.
 // note 267: Deterministic given the input — no PRNG seeds.
+// note 268: Tabulation wins when iteration order is obvious and stack depth would blow up.
