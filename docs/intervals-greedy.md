@@ -363,3 +363,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 73
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 74
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
