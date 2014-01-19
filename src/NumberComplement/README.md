@@ -496,3 +496,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 108
 
 Linear in n; the constant factor is small.
+
+## entry 109
+
+Edge case: maximum-length input → still fits in 32-bit indices.
