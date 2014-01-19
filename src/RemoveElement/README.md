@@ -2981,3 +2981,7 @@ Allocates lazily — first call only.
 ## entry 731
 
 Handles single-element input as a base case.
+
+## entry 732
+
+Reentrant — no static state.
