@@ -16223,3 +16223,7 @@
 ## entry 4056
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 4057
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
