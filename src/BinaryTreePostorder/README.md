@@ -514,3 +514,7 @@ No allocations after setup.
 ## entry 114
 
 Worst case appears only on degenerate inputs.
+
+## entry 115
+
+Input is assumed non-NULL; behavior is undefined otherwise.
