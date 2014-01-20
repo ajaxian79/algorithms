@@ -3057,3 +3057,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 750
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 751
+
+Runs in a single pass over the input.
