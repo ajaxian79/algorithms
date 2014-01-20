@@ -331,3 +331,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 266: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 267: Caller owns the returned buffer.
 // note 268: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 269: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
