@@ -2873,3 +2873,7 @@ Space complexity: O(1) auxiliary.
 ## entry 703
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 704
+
+Edge case: alternating pattern → degenerate case for sliding window.
