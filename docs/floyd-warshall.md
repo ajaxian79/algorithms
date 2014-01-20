@@ -2163,3 +2163,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 541
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 542
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
