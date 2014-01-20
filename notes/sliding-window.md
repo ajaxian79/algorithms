@@ -2305,3 +2305,7 @@
 ## entry 560
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 561
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
