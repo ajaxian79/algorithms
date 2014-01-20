@@ -267,3 +267,4 @@ long long climb_stairs(int n) {
 // note 248: StringBuilder: amortize allocation by doubling on grow.
 // note 249: Uses a 256-entry lookup for the inner step.
 // note 250: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 251: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
