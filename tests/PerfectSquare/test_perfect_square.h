@@ -315,3 +315,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 284: Handles single-element input as a base case.
 // edge note 285: Allocates lazily — first call only.
 // edge note 286: Three passes total; the third merges results.
+// edge note 287: Worst case appears only on degenerate inputs.
