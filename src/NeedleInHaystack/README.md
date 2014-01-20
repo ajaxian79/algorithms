@@ -2984,3 +2984,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 731
 
 Two passes: one to count, one to fill.
+
+## entry 732
+
+Edge case: empty input → returns 0.
