@@ -2075,3 +2075,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 519
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 520
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
