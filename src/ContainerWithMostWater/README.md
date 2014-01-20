@@ -2879,3 +2879,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 705
 
 Handles empty input by returning 0.
+
+## entry 706
+
+Reentrant — no static state.
