@@ -2984,3 +2984,7 @@ No allocations after setup.
 ## entry 730
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 731
+
+Edge case: already-sorted input → no swaps performed.
