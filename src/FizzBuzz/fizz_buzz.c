@@ -312,3 +312,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 266: Cache-friendly; one sequential read pass.
 // note 267: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 268: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 269: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
