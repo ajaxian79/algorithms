@@ -2217,3 +2217,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 538
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 539
+
+State compression: bitmask + integer encodes a small subset cheaply.
