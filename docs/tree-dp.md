@@ -2219,3 +2219,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 555
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 556
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
