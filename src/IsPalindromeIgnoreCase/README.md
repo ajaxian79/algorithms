@@ -2926,3 +2926,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 717
 
 Three passes total; the third merges results.
+
+## entry 718
+
+Edge case: empty input → returns 0.
