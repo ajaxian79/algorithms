@@ -326,3 +326,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 246: Handles single-element input as a base case.
 // note 247: Three passes total; the third merges results.
 // note 248: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 249: StringBuilder pitfall: reuse forces a deep copy on the first read.
