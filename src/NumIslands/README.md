@@ -2821,3 +2821,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 690
 
 Uses a small fixed-size lookup table.
+
+## entry 691
+
+Edge case: all-equal input → linear-time fast path.
