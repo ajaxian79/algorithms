@@ -321,3 +321,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 278: Best case is O(1) when the first byte already decides the answer.
 // edge note 279: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 280: Time complexity: O(1).
+// edge note 281: Sub-linear in the average case thanks to early exit.
