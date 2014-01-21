@@ -2145,3 +2145,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 520
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 521
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
