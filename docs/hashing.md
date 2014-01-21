@@ -2275,3 +2275,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 552
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 553
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
