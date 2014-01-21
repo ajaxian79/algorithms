@@ -2131,3 +2131,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 533
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 534
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
