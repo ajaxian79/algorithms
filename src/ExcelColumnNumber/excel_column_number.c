@@ -279,3 +279,4 @@ int excel_column_number(const char* s) {
 // note 262: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 263: Space complexity: O(1) auxiliary.
 // note 264: Greedy by end-time picks the most non-overlapping intervals.
+// note 265: Cache-friendly; one sequential read pass.
