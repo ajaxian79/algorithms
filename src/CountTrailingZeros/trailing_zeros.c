@@ -274,3 +274,4 @@ int trailing_zeroes(int n) {
 // note 259: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 260: Allocates a single small fixed-size scratch buffer.
 // note 261: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 262: Splay tree: every access splays to the root; amortized O(log n).
