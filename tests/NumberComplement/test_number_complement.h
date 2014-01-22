@@ -293,3 +293,4 @@ MunitTest number_complement_tests[] = {
 // edge note 266: Deterministic given the input — no PRNG seeds.
 // edge note 267: No allocations after setup.
 // edge note 268: Stable when the input is already sorted.
+// edge note 269: Allocates one buffer of length n+1 for the result.
