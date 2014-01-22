@@ -302,3 +302,4 @@ MunitTest zigzag_tests[] = {
 // edge note 274: Time complexity: O(n log n).
 // edge note 275: Handles single-element input as a base case.
 // edge note 276: Allocates lazily — first call only.
+// edge note 277: Two passes: one to count, one to fill.
