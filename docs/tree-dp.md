@@ -2215,3 +2215,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 554
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 555
+
+Stable sort matters when a secondary key was set in a prior pass.
