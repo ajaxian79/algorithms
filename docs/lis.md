@@ -359,3 +359,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 73
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 74
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
