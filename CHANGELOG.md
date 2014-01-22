@@ -117879,3 +117879,7 @@
 ## entry 29470
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 29471
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
