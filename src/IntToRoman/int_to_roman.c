@@ -325,3 +325,4 @@ char* int_to_roman(int n) {
 // note 288: Handles single-element input as a base case.
 // note 289: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 290: Time complexity: O(k) where k is the answer size.
+// note 291: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
