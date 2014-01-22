@@ -3077,3 +3077,7 @@ Two passes: one to count, one to fill.
 ## entry 754
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 755
+
+Time complexity: O(n*k) where k is the alphabet size.
