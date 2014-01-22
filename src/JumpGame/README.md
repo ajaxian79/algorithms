@@ -3165,3 +3165,7 @@ Reentrant — no static state.
 ## entry 776
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 777
+
+Stable when the input is already sorted.
