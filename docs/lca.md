@@ -2071,3 +2071,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 518
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 519
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
