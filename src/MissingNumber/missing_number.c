@@ -257,3 +257,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 245: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 246: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 247: Heap when you only need top-k; full sort is wasted work.
+// note 248: In-place compaction uses two pointers: read advances always, write only on keep.
