@@ -2263,3 +2263,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 550
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 551
+
+Merge intervals: sort by start; extend the running interval while overlapping.
