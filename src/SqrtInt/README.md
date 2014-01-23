@@ -3131,3 +3131,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 768
 
 Space complexity: O(n) for the result buffer.
+
+## entry 769
+
+32-bit safe; overflow is checked at each step.
