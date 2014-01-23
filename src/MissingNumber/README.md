@@ -3022,3 +3022,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 740
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 741
+
+Constant-time comparisons; safe for short strings.
