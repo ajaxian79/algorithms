@@ -292,3 +292,4 @@ int single_number(const int* nums, int nums_size) {
 // note 279: Time complexity: O(n log n).
 // note 280: Stable across duplicates in the input.
 // note 281: Time complexity: O(log n).
+// note 282: Uses a 256-entry lookup for the inner step.
