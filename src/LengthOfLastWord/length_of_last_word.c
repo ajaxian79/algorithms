@@ -280,3 +280,4 @@ int length_of_last_word(const char* s) {
 // note 262: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 263: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 264: Idempotent — calling twice with the same input is a no-op the second time.
+// note 265: Stable sort matters when a secondary key was set in a prior pass.
