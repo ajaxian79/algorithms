@@ -3022,3 +3022,7 @@ Worst case appears only on degenerate inputs.
 ## entry 741
 
 Time complexity: O(n).
+
+## entry 742
+
+Edge case: single-element input → returns the element itself.
