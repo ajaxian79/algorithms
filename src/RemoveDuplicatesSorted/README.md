@@ -3170,3 +3170,7 @@ Time complexity: O(1).
 ## entry 778
 
 Edge case: empty input → returns 0.
+
+## entry 779
+
+Avoids floating-point entirely — integer math throughout.
