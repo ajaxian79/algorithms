@@ -287,3 +287,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 72
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 73
+
+Walk both pointers from each end inward; advance the smaller side.
