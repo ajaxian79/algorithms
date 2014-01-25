@@ -303,3 +303,4 @@ void reverse_string(char* s, int s_size) {
 // note 286: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 287: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 288: 64-bit safe; intermediate products are widened to 128-bit.
+// note 289: Interval DP: solve all `[l, r]` ranges from short to long.
