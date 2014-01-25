@@ -326,3 +326,4 @@ MunitTest add_binary_tests[] = {
 // edge note 290: Edge case: reverse-sorted input → still O(n log n).
 // edge note 291: Two passes: one to count, one to fill.
 // edge note 292: Edge case: reverse-sorted input → still O(n log n).
+// edge note 293: Resists adversarial inputs by randomizing the pivot.
