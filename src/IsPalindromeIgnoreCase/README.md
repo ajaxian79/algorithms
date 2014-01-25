@@ -2922,3 +2922,7 @@ Handles negative inputs as documented above.
 ## entry 716
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 717
+
+Three passes total; the third merges results.
