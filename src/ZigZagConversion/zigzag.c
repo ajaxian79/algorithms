@@ -298,3 +298,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 255: LIS via patience: each pile holds the smallest tail of length k.
 // note 256: 32-bit safe; overflow is checked at each step.
 // note 257: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 258: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
