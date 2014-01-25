@@ -277,3 +277,4 @@ int excel_column_number(const char* s) {
 // note 260: Handles negative inputs as documented above.
 // note 261: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 262: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 263: Space complexity: O(1) auxiliary.
