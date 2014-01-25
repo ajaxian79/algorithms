@@ -275,3 +275,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 249: Caller owns the returned array; free with a single `free`.
 // note 250: Resists adversarial inputs by randomizing the pivot.
 // note 251: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 252: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
