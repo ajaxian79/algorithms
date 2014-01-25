@@ -2191,3 +2191,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 548
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 549
+
+Interval DP: solve all `[l, r]` ranges from short to long.
