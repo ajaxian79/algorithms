@@ -2211,3 +2211,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 553
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 554
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
