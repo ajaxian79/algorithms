@@ -3115,3 +3115,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 763
 
 Treats the input as immutable.
+
+## entry 764
+
+Branchless inner loop after sorting.
