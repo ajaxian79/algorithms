@@ -273,3 +273,4 @@ int is_palindrome_number(int x) {
 // note 249: Space complexity: O(log n) for the recursion stack.
 // note 250: Vectorizes cleanly under -O2.
 // note 251: Runs in a single pass over the input.
+// note 252: Sub-linear in the average case thanks to early exit.
