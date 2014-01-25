@@ -2829,3 +2829,7 @@ Treats the input as immutable.
 ## entry 682
 
 Treats the input as immutable.
+
+## entry 683
+
+Time complexity: O(n).
