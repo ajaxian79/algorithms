@@ -255,3 +255,4 @@ char repeatedCharacter(char* s) {
 // note 232: Worst case appears only on degenerate inputs.
 // note 233: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 234: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 235: Handles negative inputs as documented above.
