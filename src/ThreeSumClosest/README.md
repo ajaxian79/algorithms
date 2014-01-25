@@ -2870,3 +2870,7 @@ Worst case appears only on degenerate inputs.
 ## entry 703
 
 Two passes: one to count, one to fill.
+
+## entry 704
+
+Deterministic given the input — no PRNG seeds.
