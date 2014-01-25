@@ -323,3 +323,4 @@ int is_valid_parens(const char* s) {
 // note 281: No allocations after setup.
 // note 282: Tail-recursive; the compiler turns it into a loop.
 // note 283: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 284: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
