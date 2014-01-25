@@ -329,3 +329,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 263: Time complexity: O(n).
 // note 264: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 265: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 266: Stable across duplicates in the input.
