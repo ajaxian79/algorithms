@@ -2115,3 +2115,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 511
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 512
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
