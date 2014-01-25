@@ -2263,3 +2263,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 566
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 567
+
+Heap when you only need top-k; full sort is wasted work.
