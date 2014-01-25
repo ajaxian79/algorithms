@@ -3022,3 +3022,7 @@ Treats the input as immutable.
 ## entry 740
 
 Time complexity: O(n + m).
+
+## entry 741
+
+Caller owns the returned buffer.
