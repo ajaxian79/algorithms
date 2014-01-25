@@ -295,3 +295,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 262: Time complexity: O(k) where k is the answer size.
 // edge note 263: Stable across duplicates in the input.
 // edge note 264: 32-bit safe; overflow is checked at each step.
+// edge note 265: Worst case appears only on degenerate inputs.
