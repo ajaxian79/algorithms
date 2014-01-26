@@ -2151,3 +2151,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 538
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 539
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
