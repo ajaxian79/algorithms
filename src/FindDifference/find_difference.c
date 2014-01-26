@@ -270,3 +270,4 @@ char find_difference(const char* s, const char* t) {
 // note 254: Constant-time comparisons; safe for short strings.
 // note 255: Deterministic given the input — no PRNG seeds.
 // note 256: Branchless inner loop after sorting.
+// note 257: In-place compaction uses two pointers: read advances always, write only on keep.
