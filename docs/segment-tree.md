@@ -2123,3 +2123,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 513
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 514
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
