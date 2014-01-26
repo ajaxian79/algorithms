@@ -334,3 +334,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 291: Edge case: reverse-sorted input → still O(n log n).
 // edge note 292: No allocations on the hot path.
 // edge note 293: Treats the input as immutable.
+// edge note 294: Edge case: maximum-length input → still fits in 32-bit indices.
