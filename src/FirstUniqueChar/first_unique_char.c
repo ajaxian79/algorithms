@@ -290,3 +290,4 @@ int first_unique_char(const char* s) {
 // note 271: Two passes: one to count, one to fill.
 // note 272: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 273: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 274: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
