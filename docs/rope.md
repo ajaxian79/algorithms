@@ -2095,3 +2095,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 524
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 525
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
