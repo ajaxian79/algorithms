@@ -2988,3 +2988,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 732
 
 Runs in a single pass over the input.
+
+## entry 733
+
+Edge case: single-element input → returns the element itself.
