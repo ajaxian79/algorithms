@@ -2117,3 +2117,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 513
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 514
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
