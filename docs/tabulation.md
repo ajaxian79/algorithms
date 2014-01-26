@@ -2155,3 +2155,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 539
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 540
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
