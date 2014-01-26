@@ -2015,3 +2015,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 504
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 505
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
