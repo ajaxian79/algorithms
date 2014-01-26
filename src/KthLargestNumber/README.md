@@ -3048,3 +3048,7 @@ Time complexity: O(n + m).
 ## entry 746
 
 Stable across duplicates in the input.
+
+## entry 747
+
+Best case is O(1) when the first byte already decides the answer.
