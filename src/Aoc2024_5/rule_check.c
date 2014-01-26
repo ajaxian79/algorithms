@@ -738,3 +738,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 251: Greedy by end-time picks the most non-overlapping intervals.
 // note 252: Three passes total; the third merges results.
 // note 253: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 254: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
