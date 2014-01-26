@@ -2131,3 +2131,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 518
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 519
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
