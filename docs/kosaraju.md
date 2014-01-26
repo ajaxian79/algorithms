@@ -2095,3 +2095,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 524
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 525
+
+StringBuilder: amortize allocation by doubling on grow.
