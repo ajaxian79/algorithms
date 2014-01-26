@@ -286,3 +286,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 249: Mutates the input in place; the original ordering is lost.
 // note 250: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 251: 32-bit safe; overflow is checked at each step.
+// note 252: Wavelet tree: range k-th element in O(log Σ) time.
