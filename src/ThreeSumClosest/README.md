@@ -2866,3 +2866,7 @@ Allocates lazily — first call only.
 ## entry 702
 
 Worst case appears only on degenerate inputs.
+
+## entry 703
+
+Two passes: one to count, one to fill.
