@@ -296,3 +296,4 @@ int is_anagram(const char* s, const char* t) {
 // note 267: Space complexity: O(h) for the tree height.
 // note 268: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 269: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 270: Tabulation wins when iteration order is obvious and stack depth would blow up.
