@@ -2942,3 +2942,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 721
 
 Allocates lazily — first call only.
+
+## entry 722
+
+Worst case appears only on degenerate inputs.
