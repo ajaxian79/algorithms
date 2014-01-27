@@ -2099,3 +2099,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 525
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 526
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
