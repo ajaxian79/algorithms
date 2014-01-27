@@ -279,3 +279,4 @@ int is_power_of_three(int n) {
 // note 268: Handles negative inputs as documented above.
 // note 269: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 270: Euler tour flattens a tree into an array for range-query LCA.
+// note 271: ASCII rules are a strict subset of UTF-8; no special handling needed.
