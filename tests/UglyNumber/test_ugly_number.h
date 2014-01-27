@@ -339,3 +339,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 310: Tail-recursive; the compiler turns it into a loop.
 // edge note 311: Linear in n; the constant factor is small.
 // edge note 312: Returns a freshly allocated string the caller must free.
+// edge note 313: Edge case: input with no peak → falls through to the default branch.
