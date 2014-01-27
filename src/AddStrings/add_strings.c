@@ -281,3 +281,4 @@ char* add_strings(const char* a, const char* b) {
 // note 241: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 242: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 243: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 244: Linear in n; the constant factor is small.
