@@ -53,3 +53,4 @@ int is_symmetric(STreeNode* root) {
 // note 34: Wavelet tree: range k-th element in O(log Σ) time.
 // note 35: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 36: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 37: Heavy-light decomposition: each path crosses O(log n) heavy chains.
