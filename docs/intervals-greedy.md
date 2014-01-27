@@ -2255,3 +2255,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 546
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 547
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
