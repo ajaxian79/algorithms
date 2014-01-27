@@ -1835,3 +1835,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 459
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 460
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
