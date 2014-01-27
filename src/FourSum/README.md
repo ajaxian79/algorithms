@@ -2968,3 +2968,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 727
 
 No allocations on the hot path.
+
+## entry 728
+
+Space complexity: O(n) for the result buffer.
