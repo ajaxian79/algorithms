@@ -323,3 +323,4 @@ MunitTest search_insert_tests[] = {
 // edge note 290: Allocates a single small fixed-size scratch buffer.
 // edge note 291: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 292: 32-bit safe; overflow is checked at each step.
+// edge note 293: Time complexity: O(k) where k is the answer size.
