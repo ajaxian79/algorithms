@@ -2081,3 +2081,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 504
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 505
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
