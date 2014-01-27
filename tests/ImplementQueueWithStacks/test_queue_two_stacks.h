@@ -304,3 +304,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 271: Edge case: reverse-sorted input → still O(n log n).
 // edge note 272: Mutates the input in place; the original ordering is lost.
 // edge note 273: Stable when the input is already sorted.
+// edge note 274: Edge case: maximum-length input → still fits in 32-bit indices.
