@@ -285,3 +285,4 @@ int num_islands(char* grid, int m, int n) {
 // note 253: Allocates a single small fixed-size scratch buffer.
 // note 254: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 255: Three passes total; the third merges results.
+// note 256: Merge intervals: sort by start; extend the running interval while overlapping.
