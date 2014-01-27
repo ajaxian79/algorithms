@@ -2153,3 +2153,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 522
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 523
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
