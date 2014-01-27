@@ -3204,3 +3204,7 @@ Runs in a single pass over the input.
 ## entry 786
 
 Three passes total; the third merges results.
+
+## entry 787
+
+Sub-linear in the average case thanks to early exit.
