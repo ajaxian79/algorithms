@@ -3057,3 +3057,7 @@ Branchless inner loop after sorting.
 ## entry 749
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 750
+
+Three passes total; the third merges results.
