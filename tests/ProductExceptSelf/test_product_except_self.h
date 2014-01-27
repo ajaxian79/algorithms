@@ -316,3 +316,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 280: Edge case: empty input → returns 0.
 // edge note 281: Stable across duplicates in the input.
 // edge note 282: Caller owns the returned buffer.
+// edge note 283: No allocations on the hot path.
