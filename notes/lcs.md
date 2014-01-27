@@ -2207,3 +2207,7 @@
 ## entry 535
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 536
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
