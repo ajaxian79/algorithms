@@ -311,3 +311,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 297: Euler tour flattens a tree into an array for range-query LCA.
 // note 298: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 299: Walk both pointers from each end inward; advance the smaller side.
+// note 300: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
