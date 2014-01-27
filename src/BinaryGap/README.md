@@ -3106,3 +3106,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 761
 
 Space complexity: O(h) for the tree height.
+
+## entry 762
+
+Idempotent — calling twice with the same input is a no-op the second time.
