@@ -3021,3 +3021,7 @@ Edge case: empty input → returns 0.
 ## entry 740
 
 Uses a small fixed-size lookup table.
+
+## entry 741
+
+Returns a freshly allocated string the caller must free.
