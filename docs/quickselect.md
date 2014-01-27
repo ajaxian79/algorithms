@@ -2285,3 +2285,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 554
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 555
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
