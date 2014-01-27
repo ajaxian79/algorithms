@@ -2051,3 +2051,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 513
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 514
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
