@@ -3069,3 +3069,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 752
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 753
+
+Two passes: one to count, one to fill.
