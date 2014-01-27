@@ -316,3 +316,4 @@ MunitTest missing_number_tests[] = {
 // edge note 282: Vectorizes cleanly under -O2.
 // edge note 283: Edge case: all-equal input → linear-time fast path.
 // edge note 284: Time complexity: O(1).
+// edge note 285: Caller owns the returned array; free with a single `free`.
