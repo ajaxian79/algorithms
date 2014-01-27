@@ -2043,3 +2043,7 @@
 ## entry 511
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 512
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
