@@ -2813,3 +2813,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 688
 
 Space complexity: O(h) for the tree height.
+
+## entry 689
+
+Edge case: reverse-sorted input → still O(n log n).
