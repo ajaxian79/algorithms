@@ -2207,3 +2207,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 552
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 553
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
