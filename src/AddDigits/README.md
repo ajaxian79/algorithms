@@ -2984,3 +2984,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 731
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 732
+
+Runs in a single pass over the input.
