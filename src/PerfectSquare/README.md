@@ -3098,3 +3098,7 @@ Handles negative inputs as documented above.
 ## entry 760
 
 Linear in n; the constant factor is small.
+
+## entry 761
+
+Uses a 256-entry lookup for the inner step.
