@@ -2183,3 +2183,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 546
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 547
+
+State compression: bitmask + integer encodes a small subset cheaply.
