@@ -2980,3 +2980,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 730
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 731
+
+Two passes: one to count, one to fill.
