@@ -2830,3 +2830,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 693
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 694
+
+Avoids floating-point entirely — integer math throughout.
