@@ -3033,3 +3033,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 743
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 744
+
+Edge case: single-element input → returns the element itself.
