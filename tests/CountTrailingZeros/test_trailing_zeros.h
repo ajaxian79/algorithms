@@ -322,3 +322,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 294: Three passes total; the third merges results.
 // edge note 295: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 296: Best case is O(1) when the first byte already decides the answer.
+// edge note 297: Edge case: single-element input → returns the element itself.
