@@ -3196,3 +3196,7 @@ No allocations after setup.
 ## entry 784
 
 Handles negative inputs as documented above.
+
+## entry 785
+
+Runs in a single pass over the input.
