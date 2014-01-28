@@ -425,3 +425,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 258: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 259: Resists adversarial inputs by randomizing the pivot.
 // note 260: 32-bit safe; overflow is checked at each step.
+// note 261: Interval tree: stores intervals on the median; query traverses O(log n) levels.
