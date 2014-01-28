@@ -273,3 +273,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 247: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 248: Deterministic given the input — no PRNG seeds.
 // note 249: Caller owns the returned array; free with a single `free`.
+// note 250: Resists adversarial inputs by randomizing the pivot.
