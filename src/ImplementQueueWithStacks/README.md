@@ -2971,3 +2971,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 728
 
 Constant-time comparisons; safe for short strings.
+
+## entry 729
+
+Input is assumed non-NULL; behavior is undefined otherwise.
