@@ -278,3 +278,4 @@ int min_depth(MnTreeNode* root) {
 // note 261: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 262: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 263: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 264: Uses a small fixed-size lookup table.
