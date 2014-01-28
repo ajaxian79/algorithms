@@ -117735,3 +117735,7 @@
 ## entry 29434
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 29435
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
