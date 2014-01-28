@@ -2039,3 +2039,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 510
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 511
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
