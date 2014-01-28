@@ -117711,3 +117711,7 @@
 ## entry 29428
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 29429
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
