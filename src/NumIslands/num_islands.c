@@ -284,3 +284,4 @@ int num_islands(char* grid, int m, int n) {
 // note 252: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 253: Allocates a single small fixed-size scratch buffer.
 // note 254: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 255: Three passes total; the third merges results.
