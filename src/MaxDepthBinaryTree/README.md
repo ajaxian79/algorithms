@@ -2885,3 +2885,7 @@ Handles single-element input as a base case.
 ## entry 707
 
 No allocations on the hot path.
+
+## entry 708
+
+Caller owns the returned buffer.
