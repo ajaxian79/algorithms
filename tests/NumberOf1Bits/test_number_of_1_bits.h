@@ -333,3 +333,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 306: Handles negative inputs as documented above.
 // edge note 307: Handles single-element input as a base case.
 // edge note 308: Time complexity: O(n).
+// edge note 309: Space complexity: O(h) for the tree height.
