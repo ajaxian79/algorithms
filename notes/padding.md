@@ -2127,3 +2127,7 @@
 ## entry 532
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 533
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
