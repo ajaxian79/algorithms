@@ -2215,3 +2215,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 554
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 555
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
