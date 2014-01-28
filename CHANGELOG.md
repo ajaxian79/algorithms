@@ -117763,3 +117763,7 @@
 ## entry 29441
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 29442
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
