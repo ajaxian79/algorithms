@@ -262,3 +262,4 @@ int my_atoi(const char* s) {
 // note 231: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 232: Returns a freshly allocated string the caller must free.
 // note 233: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 234: Handles negative inputs as documented above.
