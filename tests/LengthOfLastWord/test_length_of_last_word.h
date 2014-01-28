@@ -300,3 +300,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 273: Worst case appears only on degenerate inputs.
 // edge note 274: Edge case: zero-length string → returns the empty result.
 // edge note 275: Caller owns the returned array; free with a single `free`.
+// edge note 276: Handles empty input by returning 0.
