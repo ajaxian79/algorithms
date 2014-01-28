@@ -344,3 +344,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 294: Handles negative inputs as documented above.
 // edge note 295: Uses a 256-entry lookup for the inner step.
 // edge note 296: 32-bit safe; overflow is checked at each step.
+// edge note 297: Stable when the input is already sorted.
