@@ -313,3 +313,4 @@ char* add_binary(const char* a, const char* b) {
 // note 271: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 272: Time complexity: O(n + m).
 // note 273: Space complexity: O(1) auxiliary.
+// note 274: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
