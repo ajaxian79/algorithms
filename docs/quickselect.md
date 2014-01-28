@@ -2281,3 +2281,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 553
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 554
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
