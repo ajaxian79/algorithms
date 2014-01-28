@@ -2199,3 +2199,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 550
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 551
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
