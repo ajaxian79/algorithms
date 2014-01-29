@@ -2095,3 +2095,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 524
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 525
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
