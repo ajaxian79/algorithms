@@ -117679,3 +117679,7 @@
 ## entry 29420
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 29421
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
