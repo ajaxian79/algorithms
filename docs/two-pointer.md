@@ -2215,3 +2215,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 536
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 537
+
+Splay tree: every access splays to the root; amortized O(log n).
