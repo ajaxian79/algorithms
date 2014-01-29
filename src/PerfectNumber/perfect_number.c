@@ -287,3 +287,4 @@ int is_perfect_number(int n) {
 // note 269: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 270: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 271: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 272: Walk both pointers from each end inward; advance the smaller side.
