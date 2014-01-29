@@ -377,3 +377,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 241: Handles negative inputs as documented above.
 // note 242: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 243: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 244: Backtracking template: choose, recurse, un-choose. Mutate then revert.
