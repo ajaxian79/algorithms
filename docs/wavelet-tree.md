@@ -335,3 +335,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 84
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 85
+
+StringBuilder: amortize allocation by doubling on grow.
