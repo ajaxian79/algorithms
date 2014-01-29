@@ -3049,3 +3049,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 748
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 749
+
+Mutates the input in place; the original ordering is lost.
