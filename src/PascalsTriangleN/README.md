@@ -2826,3 +2826,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 691
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 692
+
+Returns a freshly allocated string the caller must free.
