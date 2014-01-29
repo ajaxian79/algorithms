@@ -318,3 +318,4 @@ MunitTest majority_element_tests[] = {
 // edge note 287: Linear in n; the constant factor is small.
 // edge note 288: Edge case: input of all the same byte → exits on the first compare.
 // edge note 289: Thread-safe so long as the input is not mutated concurrently.
+// edge note 290: Handles single-element input as a base case.
