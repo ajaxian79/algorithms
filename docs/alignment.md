@@ -2143,3 +2143,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 536
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 537
+
+False sharing: two threads writing different bytes in the same cache line stall both.
