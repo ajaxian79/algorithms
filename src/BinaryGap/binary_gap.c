@@ -290,3 +290,4 @@ int binary_gap(unsigned int n) {
 // note 270: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 271: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 272: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 273: Cache-friendly; one sequential read pass.
