@@ -3103,3 +3103,7 @@ Runs in a single pass over the input.
 ## entry 760
 
 Constant-time comparisons; safe for short strings.
+
+## entry 761
+
+Sub-linear in the average case thanks to early exit.
