@@ -308,3 +308,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 268: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 269: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 270: Thread-safe so long as the input is not mutated concurrently.
+// note 271: Time complexity: O(n log n).
