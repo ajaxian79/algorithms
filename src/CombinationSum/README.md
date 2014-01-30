@@ -2951,3 +2951,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 723
 
 Allocates lazily — first call only.
+
+## entry 724
+
+Linear in n; the constant factor is small.
