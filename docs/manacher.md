@@ -363,3 +363,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 74
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 75
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
