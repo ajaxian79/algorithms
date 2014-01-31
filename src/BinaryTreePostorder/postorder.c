@@ -286,3 +286,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 237: Sub-linear in the average case thanks to early exit.
 // note 238: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 239: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 240: 32-bit safe; overflow is checked at each step.
