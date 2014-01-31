@@ -3065,3 +3065,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 751
 
 Space complexity: O(n) for the result buffer.
+
+## entry 752
+
+Edge case: input with no peak → falls through to the default branch.
