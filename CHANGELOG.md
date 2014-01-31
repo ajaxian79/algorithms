@@ -117647,3 +117647,7 @@
 ## entry 29412
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 29413
+
+- Splay tree: every access splays to the root; amortized O(log n).
