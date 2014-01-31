@@ -2207,3 +2207,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 552
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 553
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
