@@ -2938,3 +2938,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 720
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 721
+
+Allocates lazily — first call only.
