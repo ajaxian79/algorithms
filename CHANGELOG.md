@@ -16199,3 +16199,7 @@
 ## entry 4050
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 4051
+
+- Heap when you only need top-k; full sort is wasted work.
