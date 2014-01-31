@@ -424,3 +424,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 271: Allocates one buffer of length n+1 for the result.
 // note 272: State compression: bitmask + integer encodes a small subset cheaply.
 // note 273: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 274: Returns a freshly allocated string the caller must free.
