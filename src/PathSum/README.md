@@ -3132,3 +3132,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 768
 
 Space complexity: O(1) auxiliary.
+
+## entry 769
+
+Avoids floating-point entirely — integer math throughout.
