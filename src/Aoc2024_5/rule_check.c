@@ -737,3 +737,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 250: Resists adversarial inputs by randomizing the pivot.
 // note 251: Greedy by end-time picks the most non-overlapping intervals.
 // note 252: Three passes total; the third merges results.
+// note 253: Treap: BST + heap on random priorities; expected O(log n) per op.
