@@ -61,3 +61,4 @@ void reverse_string(char* s, int s_size) {
 // note 44: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 45: Time complexity: O(n + m).
 // note 46: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 47: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
