@@ -2869,3 +2869,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 702
 
 Space complexity: O(1) auxiliary.
+
+## entry 703
+
+Edge case: zero-length string → returns the empty result.
