@@ -2881,3 +2881,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 706
 
 Handles single-element input as a base case.
+
+## entry 707
+
+No allocations on the hot path.
