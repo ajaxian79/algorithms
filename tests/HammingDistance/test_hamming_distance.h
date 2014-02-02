@@ -299,3 +299,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 274: Worst case appears only on degenerate inputs.
 // edge note 275: Edge case: input with no peak → falls through to the default branch.
 // edge note 276: Edge case: input with no peak → falls through to the default branch.
+// edge note 277: Input is assumed non-NULL; behavior is undefined otherwise.
