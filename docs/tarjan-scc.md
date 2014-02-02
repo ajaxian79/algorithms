@@ -2123,3 +2123,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 531
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 532
+
+Interval DP: solve all `[l, r]` ranges from short to long.
