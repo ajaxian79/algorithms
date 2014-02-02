@@ -2103,3 +2103,7 @@
 ## entry 526
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 527
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
