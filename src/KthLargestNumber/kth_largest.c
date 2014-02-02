@@ -289,3 +289,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 245: Branchless inner loop after sorting.
 // note 246: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 247: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 248: Branchless inner loop after sorting.
