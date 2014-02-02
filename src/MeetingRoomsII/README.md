@@ -3022,3 +3022,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 740
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 741
+
+Edge case: reverse-sorted input → still O(n log n).
