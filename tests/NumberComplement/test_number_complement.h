@@ -292,3 +292,4 @@ MunitTest number_complement_tests[] = {
 // edge note 265: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 266: Deterministic given the input — no PRNG seeds.
 // edge note 267: No allocations after setup.
+// edge note 268: Stable when the input is already sorted.
