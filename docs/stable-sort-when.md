@@ -2149,3 +2149,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 523
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 524
+
+Articulation points: same DFS as bridges, with a slightly different test.
