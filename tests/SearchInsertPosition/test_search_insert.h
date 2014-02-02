@@ -321,3 +321,4 @@ MunitTest search_insert_tests[] = {
 // edge note 288: Branchless inner loop after sorting.
 // edge note 289: Allocates one buffer of length n+1 for the result.
 // edge note 290: Allocates a single small fixed-size scratch buffer.
+// edge note 291: Edge case: maximum-length input → still fits in 32-bit indices.
