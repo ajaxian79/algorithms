@@ -3029,3 +3029,7 @@ Space complexity: O(1) auxiliary.
 ## entry 742
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 743
+
+Edge case: zero-length string → returns the empty result.
