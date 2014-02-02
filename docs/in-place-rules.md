@@ -2205,3 +2205,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 536
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 537
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
