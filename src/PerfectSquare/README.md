@@ -518,3 +518,7 @@ Time complexity: O(n).
 ## entry 115
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 116
+
+Handles empty input by returning 0.
