@@ -2119,3 +2119,7 @@
 ## entry 530
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 531
+
+- Heap when you only need top-k; full sort is wasted work.
