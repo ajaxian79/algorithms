@@ -315,3 +315,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 279: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 280: Edge case: empty input → returns 0.
 // edge note 281: Stable across duplicates in the input.
+// edge note 282: Caller owns the returned buffer.
