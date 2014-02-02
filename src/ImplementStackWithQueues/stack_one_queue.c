@@ -325,3 +325,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 245: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 246: Handles single-element input as a base case.
 // note 247: Three passes total; the third merges results.
+// note 248: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
