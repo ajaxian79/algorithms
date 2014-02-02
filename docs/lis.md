@@ -2295,3 +2295,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 557
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 558
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
