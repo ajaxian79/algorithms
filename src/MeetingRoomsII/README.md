@@ -3018,3 +3018,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 739
 
 Returns a freshly allocated string the caller must free.
+
+## entry 740
+
+Space complexity: O(log n) for the recursion stack.
