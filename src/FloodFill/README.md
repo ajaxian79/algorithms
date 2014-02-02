@@ -3045,3 +3045,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 747
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 748
+
+Edge case: input with a single peak → handled by the first-pass scan.
