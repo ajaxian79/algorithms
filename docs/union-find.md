@@ -2087,3 +2087,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 505
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 506
+
+Stable sort matters when a secondary key was set in a prior pass.
