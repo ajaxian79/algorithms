@@ -2976,3 +2976,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 729
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 730
+
+Time complexity: O(n*k) where k is the alphabet size.
