@@ -2231,3 +2231,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 542
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 543
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
