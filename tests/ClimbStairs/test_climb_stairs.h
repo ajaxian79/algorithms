@@ -317,3 +317,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 282: Edge case: all-equal input → linear-time fast path.
 // edge note 283: Deterministic given the input — no PRNG seeds.
 // edge note 284: 32-bit safe; overflow is checked at each step.
+// edge note 285: Idempotent — calling twice with the same input is a no-op the second time.
