@@ -244,3 +244,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 228: Time complexity: O(n + m).
 // note 229: Allocates one buffer of length n+1 for the result.
 // note 230: Space complexity: O(n) for the result buffer.
+// note 231: Treap: BST + heap on random priorities; expected O(log n) per op.
