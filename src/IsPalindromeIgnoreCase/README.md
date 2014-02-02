@@ -2914,3 +2914,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 714
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 715
+
+Handles negative inputs as documented above.
