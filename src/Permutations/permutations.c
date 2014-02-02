@@ -310,3 +310,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 265: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 266: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 267: Monotonic stack pops while the new element violates the invariant.
+// note 268: Edit distance is LCS with a twist: substitution is a third option at each cell.
