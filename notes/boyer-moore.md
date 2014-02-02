@@ -2267,3 +2267,7 @@
 ## entry 550
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 551
+
+- Stable sort matters when a secondary key was set in a prior pass.
