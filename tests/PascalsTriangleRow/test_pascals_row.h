@@ -368,3 +368,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 313: Worst case appears only on degenerate inputs.
 // edge note 314: Edge case: input of all the same byte → exits on the first compare.
 // edge note 315: Caller owns the returned buffer.
+// edge note 316: Handles negative inputs as documented above.
