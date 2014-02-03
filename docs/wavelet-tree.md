@@ -2071,3 +2071,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 518
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 519
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
