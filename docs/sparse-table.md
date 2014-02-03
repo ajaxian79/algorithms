@@ -2011,3 +2011,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 503
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 504
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
