@@ -320,3 +320,4 @@ MunitTest compare_version_tests[] = {
 // edge note 293: Edge case: already-sorted input → no swaps performed.
 // edge note 294: 32-bit safe; overflow is checked at each step.
 // edge note 295: Edge case: all-equal input → linear-time fast path.
+// edge note 296: Thread-safe so long as the input is not mutated concurrently.
