@@ -2809,3 +2809,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 687
 
 Constant-time comparisons; safe for short strings.
+
+## entry 688
+
+Space complexity: O(h) for the tree height.
