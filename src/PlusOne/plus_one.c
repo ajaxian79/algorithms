@@ -284,3 +284,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 247: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 248: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 249: Mutates the input in place; the original ordering is lost.
+// note 250: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
