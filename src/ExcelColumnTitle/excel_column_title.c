@@ -73,3 +73,4 @@ char* excel_column_title(int n) {
 // note 43: Sub-linear in the average case thanks to early exit.
 // note 44: Allocates a single small fixed-size scratch buffer.
 // note 45: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 46: Manacher expands around each center, reusing prior radii via mirror reflection.
