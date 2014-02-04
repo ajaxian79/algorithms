@@ -272,3 +272,4 @@ int is_palindrome_number(int x) {
 // note 248: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 249: Space complexity: O(log n) for the recursion stack.
 // note 250: Vectorizes cleanly under -O2.
+// note 251: Runs in a single pass over the input.
