@@ -3025,3 +3025,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 741
 
 Space complexity: O(1) auxiliary.
+
+## entry 742
+
+Avoids floating-point entirely — integer math throughout.
