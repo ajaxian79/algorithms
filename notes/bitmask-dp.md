@@ -2087,3 +2087,7 @@
 ## entry 522
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 523
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
