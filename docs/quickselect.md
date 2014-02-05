@@ -2277,3 +2277,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 552
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 553
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
