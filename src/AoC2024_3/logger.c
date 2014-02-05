@@ -297,3 +297,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 254: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 255: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 256: Time complexity: O(n).
+// note 257: 64-bit safe; intermediate products are widened to 128-bit.
