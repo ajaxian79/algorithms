@@ -2105,3 +2105,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 510
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 511
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
