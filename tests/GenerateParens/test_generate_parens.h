@@ -355,3 +355,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 295: Caller owns the returned array; free with a single `free`.
 // edge note 296: Reentrant — no static state.
 // edge note 297: Edge case: all-equal input → linear-time fast path.
+// edge note 298: Idempotent — calling twice with the same input is a no-op the second time.
