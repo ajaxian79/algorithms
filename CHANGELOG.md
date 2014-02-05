@@ -117595,3 +117595,7 @@
 ## entry 29399
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 29400
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
