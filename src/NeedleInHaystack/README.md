@@ -2972,3 +2972,7 @@ Treats the input as immutable.
 ## entry 728
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 729
+
+Deterministic given the input — no PRNG seeds.
