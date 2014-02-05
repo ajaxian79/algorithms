@@ -2027,3 +2027,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 507
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 508
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
