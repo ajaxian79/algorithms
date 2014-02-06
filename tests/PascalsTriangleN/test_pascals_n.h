@@ -351,3 +351,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 292: Cache-friendly; one sequential read pass.
 // edge note 293: 32-bit safe; overflow is checked at each step.
 // edge note 294: Edge case: power-of-two-length input → no padding required.
+// edge note 295: Edge case: reverse-sorted input → still O(n log n).
