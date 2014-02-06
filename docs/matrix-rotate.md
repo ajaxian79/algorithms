@@ -2077,3 +2077,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 503
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 504
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
