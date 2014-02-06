@@ -2039,3 +2039,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 510
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 511
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
