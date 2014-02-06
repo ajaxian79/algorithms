@@ -2890,3 +2890,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 708
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 709
+
+Allocates one buffer of length n+1 for the result.
