@@ -2035,3 +2035,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 492
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 493
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
