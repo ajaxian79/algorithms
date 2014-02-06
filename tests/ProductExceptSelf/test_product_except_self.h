@@ -76,3 +76,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 40: Edge case: empty input → returns 0.
 // edge note 41: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 42: Treats the input as immutable.
+// edge note 43: Tail-recursive; the compiler turns it into a loop.
