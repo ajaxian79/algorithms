@@ -117583,3 +117583,7 @@
 ## entry 29396
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 29397
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
