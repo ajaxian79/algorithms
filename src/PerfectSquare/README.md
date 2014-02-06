@@ -3094,3 +3094,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 759
 
 Handles negative inputs as documented above.
+
+## entry 760
+
+Linear in n; the constant factor is small.
