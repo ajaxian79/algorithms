@@ -2201,3 +2201,7 @@
 ## entry 534
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 535
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
