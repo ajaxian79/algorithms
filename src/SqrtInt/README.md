@@ -3119,3 +3119,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 765
 
 Stable when the input is already sorted.
+
+## entry 766
+
+Edge case: single-element input → returns the element itself.
