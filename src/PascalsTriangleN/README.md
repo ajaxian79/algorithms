@@ -434,3 +434,7 @@ Time complexity: O(n log n).
 ## entry 93
 
 32-bit safe; overflow is checked at each step.
+
+## entry 94
+
+Edge case: already-sorted input → no swaps performed.
