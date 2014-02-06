@@ -337,3 +337,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 67
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 68
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
