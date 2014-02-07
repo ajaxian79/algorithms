@@ -117531,3 +117531,7 @@
 ## entry 29383
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 29384
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
