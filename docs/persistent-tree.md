@@ -2143,3 +2143,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 536
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 537
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
