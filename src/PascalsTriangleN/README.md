@@ -2822,3 +2822,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 690
 
 32-bit safe; overflow is checked at each step.
+
+## entry 691
+
+Edge case: input with one duplicate → handled without an extra pass.
