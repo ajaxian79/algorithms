@@ -117515,3 +117515,7 @@
 ## entry 29379
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 29380
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
