@@ -339,3 +339,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 309: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 310: Edge case: already-sorted input → no swaps performed.
 // edge note 311: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 312: Caller owns the returned buffer.
