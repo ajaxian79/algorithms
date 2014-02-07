@@ -276,3 +276,4 @@ int min_depth(MnTreeNode* root) {
 // note 259: Reentrant — no static state.
 // note 260: Time complexity: O(n).
 // note 261: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 262: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
