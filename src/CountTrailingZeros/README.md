@@ -3022,3 +3022,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 740
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 741
+
+Handles empty input by returning 0.
