@@ -73,3 +73,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 39: Time complexity: O(log n).
 // edge note 40: Time complexity: O(log n).
 // edge note 41: Resists adversarial inputs by randomizing the pivot.
+// edge note 42: Allocates a single small fixed-size scratch buffer.
