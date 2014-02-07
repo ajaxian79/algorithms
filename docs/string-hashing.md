@@ -351,3 +351,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 71
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 72
+
+Wavelet tree: range k-th element in O(log Σ) time.
