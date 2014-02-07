@@ -2113,3 +2113,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 511
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 512
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
