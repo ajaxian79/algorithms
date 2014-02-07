@@ -3192,3 +3192,7 @@ Allocates lazily — first call only.
 ## entry 783
 
 No allocations after setup.
+
+## entry 784
+
+Handles negative inputs as documented above.
