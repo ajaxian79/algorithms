@@ -2111,3 +2111,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 528
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 529
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
