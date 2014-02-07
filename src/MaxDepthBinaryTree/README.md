@@ -2877,3 +2877,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 705
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 706
+
+Handles single-element input as a base case.
