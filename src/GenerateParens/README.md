@@ -2980,3 +2980,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 729
 
 No allocations after setup.
+
+## entry 730
+
+Time complexity: O(n*k) where k is the alphabet size.
