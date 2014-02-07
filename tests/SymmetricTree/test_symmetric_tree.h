@@ -340,3 +340,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 296: Reentrant — no static state.
 // edge note 297: Returns a freshly allocated string the caller must free.
 // edge note 298: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 299: Best case is O(1) when the first byte already decides the answer.
