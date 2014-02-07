@@ -314,3 +314,4 @@ MunitTest same_tree_tests[] = {
 // edge note 278: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 279: Reentrant — no static state.
 // edge note 280: Edge case: single-element input → returns the element itself.
+// edge note 281: No allocations on the hot path.
