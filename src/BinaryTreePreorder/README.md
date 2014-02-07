@@ -3050,3 +3050,7 @@ Time complexity: O(n log n).
 ## entry 748
 
 Worst case appears only on degenerate inputs.
+
+## entry 749
+
+Best case is O(1) when the first byte already decides the answer.
