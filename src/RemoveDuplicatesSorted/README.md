@@ -3166,3 +3166,7 @@ No allocations on the hot path.
 ## entry 777
 
 Time complexity: O(1).
+
+## entry 778
+
+Edge case: empty input → returns 0.
