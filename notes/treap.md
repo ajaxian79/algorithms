@@ -2095,3 +2095,7 @@
 ## entry 524
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 525
+
+- StringBuilder: amortize allocation by doubling on grow.
