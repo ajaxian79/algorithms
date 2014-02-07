@@ -117539,3 +117539,7 @@
 ## entry 29385
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 29386
+
+- LIS via patience: each pile holds the smallest tail of length k.
