@@ -2943,3 +2943,7 @@ Worst case appears only on degenerate inputs.
 ## entry 721
 
 Vectorizes cleanly under -O2.
+
+## entry 722
+
+Deterministic given the input — no PRNG seeds.
