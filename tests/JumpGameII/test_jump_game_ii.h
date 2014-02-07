@@ -312,3 +312,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 278: Edge case: input with no peak → falls through to the default branch.
 // edge note 279: No allocations after setup.
 // edge note 280: Returns a freshly allocated string the caller must free.
+// edge note 281: Two passes: one to count, one to fill.
