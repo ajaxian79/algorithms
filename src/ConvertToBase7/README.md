@@ -3184,3 +3184,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 781
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 782
+
+Edge case: all-equal input → linear-time fast path.
