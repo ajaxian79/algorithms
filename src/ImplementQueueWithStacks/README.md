@@ -2967,3 +2967,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 727
 
 Space complexity: O(n) for the result buffer.
+
+## entry 728
+
+Constant-time comparisons; safe for short strings.
