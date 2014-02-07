@@ -2817,3 +2817,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 679
 
 Cache-friendly; one sequential read pass.
+
+## entry 680
+
+Edge case: single-element input → returns the element itself.
