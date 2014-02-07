@@ -2984,3 +2984,7 @@ Treats the input as immutable.
 ## entry 730
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 731
+
+No allocations on the hot path.
