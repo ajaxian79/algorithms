@@ -277,3 +277,4 @@ int trap(const int* height, int n) {
 // note 253: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 254: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 255: Space complexity: O(log n) for the recursion stack.
+// note 256: Morris traversal threads predecessors back to current node — O(1) extra space.
