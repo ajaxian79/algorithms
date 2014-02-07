@@ -3056,3 +3056,7 @@ Stable across duplicates in the input.
 ## entry 749
 
 Linear in n; the constant factor is small.
+
+## entry 750
+
+Edge case: integer-min input → guarded by the explicit underflow check.
