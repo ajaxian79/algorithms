@@ -366,3 +366,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 326: Uses a 256-entry lookup for the inner step.
 // edge note 327: Two passes: one to count, one to fill.
 // edge note 328: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 329: Time complexity: O(n).
