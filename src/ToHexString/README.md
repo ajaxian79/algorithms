@@ -2819,3 +2819,7 @@ Time complexity: O(1).
 ## entry 690
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 691
+
+Constant-time comparisons; safe for short strings.
