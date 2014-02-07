@@ -458,3 +458,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 100
 
 Time complexity: O(n).
+
+## entry 101
+
+Caller owns the returned array; free with a single `free`.
