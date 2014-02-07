@@ -325,3 +325,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 285: Stable across duplicates in the input.
 // edge note 286: Reentrant — no static state.
 // edge note 287: Edge case: power-of-two-length input → no padding required.
+// edge note 288: Worst case appears only on degenerate inputs.
