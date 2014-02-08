@@ -2075,3 +2075,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 503
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 504
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
