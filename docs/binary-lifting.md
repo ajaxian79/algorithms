@@ -315,3 +315,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 79
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 80
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
