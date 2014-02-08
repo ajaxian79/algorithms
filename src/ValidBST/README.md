@@ -465,3 +465,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 101
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 102
+
+Reentrant — no static state.
