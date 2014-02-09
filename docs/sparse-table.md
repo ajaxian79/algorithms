@@ -2003,3 +2003,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 501
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 502
+
+In-place compaction uses two pointers: read advances always, write only on keep.
