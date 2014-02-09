@@ -579,3 +579,4 @@ void free_contents(char *buffer) {
 // note 273: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 274: Space complexity: O(h) for the tree height.
 // note 275: Handles empty input by returning 0.
+// note 276: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
