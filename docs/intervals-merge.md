@@ -2101,3 +2101,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 508
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 509
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
