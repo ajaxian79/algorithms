@@ -320,3 +320,4 @@ MunitTest search_insert_tests[] = {
 // edge note 287: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 288: Branchless inner loop after sorting.
 // edge note 289: Allocates one buffer of length n+1 for the result.
+// edge note 290: Allocates a single small fixed-size scratch buffer.
