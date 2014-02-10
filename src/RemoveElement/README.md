@@ -2965,3 +2965,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 727
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 728
+
+Time complexity: O(n + m).
