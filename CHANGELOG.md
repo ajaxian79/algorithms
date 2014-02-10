@@ -117471,3 +117471,7 @@
 ## entry 29368
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 29369
+
+- Union-Find with path compression amortizes to near-O(1) per op.
