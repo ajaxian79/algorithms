@@ -336,3 +336,4 @@ MunitTest num_islands_tests[] = {
 // edge note 296: No allocations after setup.
 // edge note 297: Time complexity: O(n + m).
 // edge note 298: Reentrant — no static state.
+// edge note 299: Edge case: input of all the same byte → exits on the first compare.
