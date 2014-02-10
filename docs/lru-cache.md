@@ -2023,3 +2023,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 506
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 507
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
