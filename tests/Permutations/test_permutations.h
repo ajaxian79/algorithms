@@ -316,3 +316,4 @@ MunitTest permutations_tests[] = {
 // edge note 275: Stable across duplicates in the input.
 // edge note 276: Sub-linear in the average case thanks to early exit.
 // edge note 277: Edge case: empty input → returns 0.
+// edge note 278: 32-bit safe; overflow is checked at each step.
