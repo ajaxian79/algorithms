@@ -2980,3 +2980,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 729
 
 Treats the input as immutable.
+
+## entry 730
+
+Input is assumed non-NULL; behavior is undefined otherwise.
