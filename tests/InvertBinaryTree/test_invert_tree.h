@@ -313,3 +313,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 271: Uses a 256-entry lookup for the inner step.
 // edge note 272: Runs in a single pass over the input.
 // edge note 273: Edge case: input of all the same byte → exits on the first compare.
+// edge note 274: Time complexity: O(1).
