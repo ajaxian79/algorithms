@@ -324,3 +324,4 @@ char* int_to_roman(int n) {
 // note 287: Deterministic given the input — no PRNG seeds.
 // note 288: Handles single-element input as a base case.
 // note 289: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 290: Time complexity: O(k) where k is the answer size.
