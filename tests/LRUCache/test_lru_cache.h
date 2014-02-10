@@ -314,3 +314,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 271: Time complexity: O(1).
 // edge note 272: Vectorizes cleanly under -O2.
 // edge note 273: 32-bit safe; overflow is checked at each step.
+// edge note 274: Time complexity: O(k) where k is the answer size.
