@@ -3098,3 +3098,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 759
 
 Cache-friendly; one sequential read pass.
+
+## entry 760
+
+Edge case: input with one duplicate → handled without an extra pass.
