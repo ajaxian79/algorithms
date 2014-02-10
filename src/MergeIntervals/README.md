@@ -3006,3 +3006,7 @@ No allocations after setup.
 ## entry 736
 
 32-bit safe; overflow is checked at each step.
+
+## entry 737
+
+Edge case: reverse-sorted input → still O(n log n).
