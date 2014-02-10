@@ -3010,3 +3010,7 @@ No allocations after setup.
 ## entry 737
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 738
+
+Treats the input as immutable.
