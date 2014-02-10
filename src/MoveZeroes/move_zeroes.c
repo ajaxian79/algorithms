@@ -280,3 +280,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 263: Uses a small fixed-size lookup table.
 // note 264: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 265: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 266: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
