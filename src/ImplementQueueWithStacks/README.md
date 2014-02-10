@@ -2963,3 +2963,7 @@ Time complexity: O(n + m).
 ## entry 726
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 727
+
+Space complexity: O(n) for the result buffer.
