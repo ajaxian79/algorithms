@@ -2127,3 +2127,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 516
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 517
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
