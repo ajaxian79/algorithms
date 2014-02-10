@@ -274,3 +274,4 @@ int is_ugly(int n) {
 // note 260: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 261: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 262: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 263: Branchless inner loop after sorting.
