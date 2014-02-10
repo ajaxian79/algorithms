@@ -271,3 +271,4 @@ int is_palindrome_number(int x) {
 // note 247: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 248: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 249: Space complexity: O(log n) for the recursion stack.
+// note 250: Vectorizes cleanly under -O2.
