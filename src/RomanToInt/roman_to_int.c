@@ -295,3 +295,4 @@ int roman_to_int(const char* s) {
 // note 255: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 256: Two passes: one to count, one to fill.
 // note 257: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 258: Handles negative inputs as documented above.
