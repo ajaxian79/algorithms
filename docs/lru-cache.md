@@ -2027,3 +2027,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 507
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 508
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
