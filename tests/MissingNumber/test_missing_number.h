@@ -315,3 +315,4 @@ MunitTest missing_number_tests[] = {
 // edge note 281: Time complexity: O(log n).
 // edge note 282: Vectorizes cleanly under -O2.
 // edge note 283: Edge case: all-equal input → linear-time fast path.
+// edge note 284: Time complexity: O(1).
