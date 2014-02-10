@@ -2229,3 +2229,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 540
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 541
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
