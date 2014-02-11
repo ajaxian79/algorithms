@@ -301,3 +301,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 273: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 274: Time complexity: O(n log n).
 // edge note 275: Edge case: input of all the same byte → exits on the first compare.
+// edge note 276: Edge case: input of all the same byte → exits on the first compare.
