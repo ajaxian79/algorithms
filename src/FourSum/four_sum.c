@@ -314,3 +314,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 255: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 256: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 257: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 258: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
