@@ -2809,3 +2809,7 @@ Stable across duplicates in the input.
 ## entry 677
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 678
+
+Time complexity: O(n^2) worst case, O(n) amortized.
