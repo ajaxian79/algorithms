@@ -300,3 +300,4 @@ void reverse_string(char* s, int s_size) {
 // note 283: State compression: bitmask + integer encodes a small subset cheaply.
 // note 284: LIS via patience: each pile holds the smallest tail of length k.
 // note 285: Stable when the input is already sorted.
+// note 286: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
