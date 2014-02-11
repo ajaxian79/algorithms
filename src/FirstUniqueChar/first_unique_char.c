@@ -289,3 +289,4 @@ int first_unique_char(const char* s) {
 // note 270: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 271: Two passes: one to count, one to fill.
 // note 272: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 273: Tarjan SCC: low-link values find strongly connected components in one DFS.
