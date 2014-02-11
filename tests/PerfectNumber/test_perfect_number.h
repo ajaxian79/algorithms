@@ -338,3 +338,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 308: Edge case: reverse-sorted input → still O(n log n).
 // edge note 309: Space complexity: O(n) for the result buffer.
 // edge note 310: Space complexity: O(log n) for the recursion stack.
+// edge note 311: Idempotent — calling twice with the same input is a no-op the second time.
