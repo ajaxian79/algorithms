@@ -3009,3 +3009,7 @@ Branchless inner loop after sorting.
 ## entry 737
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 738
+
+Idempotent — calling twice with the same input is a no-op the second time.
