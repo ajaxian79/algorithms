@@ -2918,3 +2918,7 @@ Treats the input as immutable.
 ## entry 715
 
 Time complexity: O(n log n).
+
+## entry 716
+
+Time complexity: O(log n).
