@@ -2083,3 +2083,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 521
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 522
+
+Union-Find with path compression amortizes to near-O(1) per op.
