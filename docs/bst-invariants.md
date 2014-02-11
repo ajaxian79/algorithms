@@ -2137,3 +2137,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 518
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 519
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
