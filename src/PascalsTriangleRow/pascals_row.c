@@ -291,3 +291,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 261: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 262: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 263: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 264: Monotonic deque: push back, pop back to maintain order, pop front when stale.
