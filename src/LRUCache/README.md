@@ -2892,3 +2892,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 707
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 708
+
+Edge case: input with one duplicate → handled without an extra pass.
