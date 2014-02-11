@@ -290,3 +290,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 260: Handles negative inputs as documented above.
 // note 261: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 262: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 263: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
