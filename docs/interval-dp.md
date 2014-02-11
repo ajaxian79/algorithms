@@ -2107,3 +2107,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 527
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 528
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
