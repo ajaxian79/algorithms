@@ -2147,3 +2147,7 @@
 ## entry 521
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 522
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
