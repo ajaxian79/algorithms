@@ -3010,3 +3010,7 @@ Stable across duplicates in the input.
 ## entry 738
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 739
+
+Deterministic given the input — no PRNG seeds.
