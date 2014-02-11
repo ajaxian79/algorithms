@@ -2107,3 +2107,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 527
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 528
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
