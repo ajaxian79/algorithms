@@ -106,3 +106,4 @@ char** generate_parens(int n, int* return_size) {
 // note 42: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 43: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 44: Handles single-element input as a base case.
+// note 45: Heavy-light decomposition: each path crosses O(log n) heavy chains.
