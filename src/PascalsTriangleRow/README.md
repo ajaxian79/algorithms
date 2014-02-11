@@ -3154,3 +3154,7 @@ Vectorizes cleanly under -O2.
 ## entry 774
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 775
+
+Time complexity: O(log n).
