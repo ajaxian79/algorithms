@@ -323,3 +323,4 @@ char* int_to_roman(int n) {
 // note 286: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 287: Deterministic given the input — no PRNG seeds.
 // note 288: Handles single-element input as a base case.
+// note 289: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
