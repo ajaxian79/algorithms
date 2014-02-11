@@ -2051,3 +2051,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 513
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 514
+
+Rope: tree of small string fragments; O(log n) concat and substring.
