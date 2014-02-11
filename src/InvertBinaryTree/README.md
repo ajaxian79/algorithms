@@ -3144,3 +3144,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 771
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 772
+
+Stable when the input is already sorted.
