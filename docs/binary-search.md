@@ -2225,3 +2225,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 540
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 541
+
+Endianness matters when serializing multi-byte ints to a file or wire.
