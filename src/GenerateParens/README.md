@@ -2972,3 +2972,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 727
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 728
+
+Returns a freshly allocated string the caller must free.
