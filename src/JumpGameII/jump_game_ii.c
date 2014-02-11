@@ -264,3 +264,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 242: Returns a freshly allocated string the caller must free.
 // note 243: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 244: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 245: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
