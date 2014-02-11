@@ -2083,3 +2083,7 @@
 ## entry 504
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 505
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
