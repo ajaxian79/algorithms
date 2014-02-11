@@ -2961,3 +2961,7 @@ Time complexity: O(log n).
 ## entry 726
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 727
+
+Time complexity: O(n^2) worst case, O(n) amortized.
