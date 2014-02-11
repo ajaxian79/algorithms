@@ -2814,3 +2814,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 689
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 690
+
+Branchless inner loop after sorting.
