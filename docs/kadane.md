@@ -2051,3 +2051,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 497
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 498
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
