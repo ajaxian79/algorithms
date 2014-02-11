@@ -2976,3 +2976,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 729
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 730
+
+Best case is O(1) when the first byte already decides the answer.
