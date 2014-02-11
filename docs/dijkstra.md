@@ -2011,3 +2011,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 503
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 504
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
