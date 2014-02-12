@@ -2918,3 +2918,7 @@ Space complexity: O(h) for the tree height.
 ## entry 714
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 715
+
+Edge case: alternating pattern → degenerate case for sliding window.
