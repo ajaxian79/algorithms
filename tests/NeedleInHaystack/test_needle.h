@@ -50,3 +50,4 @@ MunitTest needle_tests[] = {
 // edge note 23: Time complexity: O(n log n).
 // edge note 24: Reentrant — no static state.
 // edge note 25: Space complexity: O(n) for the result buffer.
+// edge note 26: Linear in n; the constant factor is small.
