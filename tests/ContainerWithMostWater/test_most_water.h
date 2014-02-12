@@ -300,3 +300,4 @@ MunitTest most_water_tests[] = {
 // edge note 269: Allocates one buffer of length n+1 for the result.
 // edge note 270: Two passes: one to count, one to fill.
 // edge note 271: Edge case: already-sorted input → no swaps performed.
+// edge note 272: Space complexity: O(n) for the result buffer.
