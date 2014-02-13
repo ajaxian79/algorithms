@@ -3010,3 +3010,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 737
 
 32-bit safe; overflow is checked at each step.
+
+## entry 738
+
+Linear in n; the constant factor is small.
