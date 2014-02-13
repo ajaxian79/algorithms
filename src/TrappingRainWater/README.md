@@ -430,3 +430,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 92
 
 Space complexity: O(1) auxiliary.
+
+## entry 93
+
+Idempotent — calling twice with the same input is a no-op the second time.
