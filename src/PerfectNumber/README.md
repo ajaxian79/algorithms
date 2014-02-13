@@ -2861,3 +2861,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 700
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 701
+
+Mutates the input in place; the original ordering is lost.
