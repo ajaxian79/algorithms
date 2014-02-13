@@ -3110,3 +3110,7 @@ Worst case appears only on degenerate inputs.
 ## entry 763
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 764
+
+Linear in n; the constant factor is small.
