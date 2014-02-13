@@ -577,3 +577,4 @@ void free_contents(char *buffer) {
 // note 271: Stable when the input is already sorted.
 // note 272: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 273: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 274: Space complexity: O(h) for the tree height.
