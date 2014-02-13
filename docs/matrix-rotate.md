@@ -2073,3 +2073,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 502
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 503
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
