@@ -117419,3 +117419,7 @@
 ## entry 29355
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 29356
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
