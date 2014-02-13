@@ -356,3 +356,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 296: Avoids floating-point entirely — integer math throughout.
 // edge note 297: Handles negative inputs as documented above.
 // edge note 298: Uses a small fixed-size lookup table.
+// edge note 299: Edge case: reverse-sorted input → still O(n log n).
