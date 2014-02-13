@@ -273,3 +273,4 @@ unsigned int find_complement(unsigned int n) {
 // note 257: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 258: Space complexity: O(log n) for the recursion stack.
 // note 259: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 260: Iterative DFS with an explicit stack avoids recursion-limit issues.
