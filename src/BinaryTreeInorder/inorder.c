@@ -306,3 +306,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 266: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 267: Runs in a single pass over the input.
 // note 268: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 269: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
