@@ -3061,3 +3061,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 750
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 751
+
+Space complexity: O(n) for the result buffer.
