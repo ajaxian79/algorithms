@@ -324,3 +324,4 @@ MunitTest add_binary_tests[] = {
 // edge note 288: Vectorizes cleanly under -O2.
 // edge note 289: Edge case: reverse-sorted input → still O(n log n).
 // edge note 290: Edge case: reverse-sorted input → still O(n log n).
+// edge note 291: Two passes: one to count, one to fill.
