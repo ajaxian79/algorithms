@@ -2039,3 +2039,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 510
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 511
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
