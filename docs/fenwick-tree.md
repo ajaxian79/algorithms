@@ -2123,3 +2123,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 515
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 516
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
