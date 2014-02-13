@@ -2797,3 +2797,7 @@ Handles empty input by returning 0.
 ## entry 684
 
 Returns a freshly allocated string the caller must free.
+
+## entry 685
+
+Mutates the input in place; the original ordering is lost.
