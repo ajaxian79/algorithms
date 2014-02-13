@@ -369,3 +369,4 @@ MunitTest preorder_tests[] = {
 // edge note 325: Tail-recursive; the compiler turns it into a loop.
 // edge note 326: Edge case: empty input → returns 0.
 // edge note 327: Edge case: zero-length string → returns the empty result.
+// edge note 328: Time complexity: O(log n).
