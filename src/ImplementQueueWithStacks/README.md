@@ -2959,3 +2959,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 725
 
 Time complexity: O(n + m).
+
+## entry 726
+
+Uses a 256-entry lookup for the inner step.
