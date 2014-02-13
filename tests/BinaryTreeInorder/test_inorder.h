@@ -348,3 +348,4 @@ MunitTest inorder_tests[] = {
 // edge note 310: 32-bit safe; overflow is checked at each step.
 // edge note 311: Worst case appears only on degenerate inputs.
 // edge note 312: Time complexity: O(n).
+// edge note 313: Space complexity: O(n) for the result buffer.
