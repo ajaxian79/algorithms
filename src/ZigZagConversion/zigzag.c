@@ -296,3 +296,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 253: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 254: Stable across duplicates in the input.
 // note 255: LIS via patience: each pile holds the smallest tail of length k.
+// note 256: 32-bit safe; overflow is checked at each step.
