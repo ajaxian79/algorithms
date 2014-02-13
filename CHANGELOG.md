@@ -117423,3 +117423,7 @@
 ## entry 29356
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 29357
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
