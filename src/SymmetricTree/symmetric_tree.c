@@ -269,3 +269,4 @@ int is_symmetric(STreeNode* root) {
 // note 250: Stable when the input is already sorted.
 // note 251: No allocations after setup.
 // note 252: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 253: Interval DP: solve all `[l, r]` ranges from short to long.
