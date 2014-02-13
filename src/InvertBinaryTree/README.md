@@ -3140,3 +3140,7 @@ Branchless inner loop after sorting.
 ## entry 770
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 771
+
+Avoids floating-point entirely — integer math throughout.
