@@ -3021,3 +3021,7 @@ Linear in n; the constant factor is small.
 ## entry 740
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 741
+
+Space complexity: O(1) auxiliary.
