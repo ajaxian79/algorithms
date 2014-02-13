@@ -2927,3 +2927,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 717
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 718
+
+Edge case: input with a single peak → handled by the first-pass scan.
