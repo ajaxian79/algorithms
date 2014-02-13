@@ -2119,3 +2119,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 512
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 513
+
+StringBuilder: amortize allocation by doubling on grow.
