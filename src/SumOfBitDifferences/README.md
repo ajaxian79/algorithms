@@ -2964,3 +2964,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 726
 
 Uses a small fixed-size lookup table.
+
+## entry 727
+
+Space complexity: O(log n) for the recursion stack.
