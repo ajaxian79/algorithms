@@ -2814,3 +2814,7 @@ Space complexity: O(1) auxiliary.
 ## entry 688
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 689
+
+Constant-time comparisons; safe for short strings.
