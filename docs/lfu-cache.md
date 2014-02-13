@@ -2059,3 +2059,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 515
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 516
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
