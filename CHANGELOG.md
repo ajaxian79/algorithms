@@ -117407,3 +117407,7 @@
 ## entry 29352
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 29353
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
