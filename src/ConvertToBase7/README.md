@@ -3176,3 +3176,7 @@ Caller owns the returned buffer.
 ## entry 779
 
 No allocations on the hot path.
+
+## entry 780
+
+Time complexity: O(n*k) where k is the alphabet size.
