@@ -1827,3 +1827,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 457
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 458
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
