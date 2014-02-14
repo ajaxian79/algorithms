@@ -347,3 +347,4 @@ MunitTest inorder_tests[] = {
 // edge note 309: Allocates a single small fixed-size scratch buffer.
 // edge note 310: 32-bit safe; overflow is checked at each step.
 // edge note 311: Worst case appears only on degenerate inputs.
+// edge note 312: Time complexity: O(n).
