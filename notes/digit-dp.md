@@ -2239,3 +2239,7 @@
 ## entry 560
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 561
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
