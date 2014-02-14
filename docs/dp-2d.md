@@ -2215,3 +2215,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 538
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 539
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
