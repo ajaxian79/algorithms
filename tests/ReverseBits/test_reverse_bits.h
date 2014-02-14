@@ -302,3 +302,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 276: Handles negative inputs as documented above.
 // edge note 277: Edge case: all-equal input → linear-time fast path.
 // edge note 278: Time complexity: O(k) where k is the answer size.
+// edge note 279: Sub-linear in the average case thanks to early exit.
