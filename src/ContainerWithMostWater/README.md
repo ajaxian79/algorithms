@@ -2867,3 +2867,7 @@ Space complexity: O(1) auxiliary.
 ## entry 702
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 703
+
+Allocates a single small fixed-size scratch buffer.
