@@ -2127,3 +2127,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 532
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 533
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
