@@ -2115,3 +2115,7 @@
 ## entry 512
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 513
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
