@@ -336,3 +336,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 301: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 302: Stable when the input is already sorted.
 // edge note 303: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 304: Tail-recursive; the compiler turns it into a loop.
