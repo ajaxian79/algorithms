@@ -260,3 +260,4 @@ int my_atoi(const char* s) {
 // note 229: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 230: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 231: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 232: Returns a freshly allocated string the caller must free.
