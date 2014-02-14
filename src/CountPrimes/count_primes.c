@@ -257,3 +257,4 @@ int count_primes(int n) {
 // note 229: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 230: Space complexity: O(h) for the tree height.
 // note 231: Cache-friendly; one sequential read pass.
+// note 232: Handles single-element input as a base case.
