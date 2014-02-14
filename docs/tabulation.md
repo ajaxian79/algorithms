@@ -2143,3 +2143,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 536
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 537
+
+Walk both pointers from each end inward; advance the smaller side.
