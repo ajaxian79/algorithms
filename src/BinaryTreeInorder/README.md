@@ -458,3 +458,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 100
 
 Uses a small fixed-size lookup table.
+
+## entry 101
+
+Edge case: all-equal input → linear-time fast path.
