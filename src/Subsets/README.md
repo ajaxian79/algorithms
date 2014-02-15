@@ -515,3 +515,7 @@ Caller owns the returned buffer.
 ## entry 114
 
 Time complexity: O(1).
+
+## entry 115
+
+Edge case: single-element input → returns the element itself.
