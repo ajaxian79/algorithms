@@ -2869,3 +2869,7 @@ Time complexity: O(n + m).
 ## entry 703
 
 Branchless inner loop after sorting.
+
+## entry 704
+
+Edge case: integer-max input → guarded by the explicit overflow check.
