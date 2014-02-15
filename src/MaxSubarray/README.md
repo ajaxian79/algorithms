@@ -3106,3 +3106,7 @@ Worst case appears only on degenerate inputs.
 ## entry 762
 
 Worst case appears only on degenerate inputs.
+
+## entry 763
+
+Mutates the input in place; the original ordering is lost.
