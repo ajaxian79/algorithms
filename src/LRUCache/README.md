@@ -2884,3 +2884,7 @@ Time complexity: O(n + m).
 ## entry 705
 
 Three passes total; the third merges results.
+
+## entry 706
+
+Mutates the input in place; the original ordering is lost.
