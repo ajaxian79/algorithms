@@ -2135,3 +2135,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 534
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 535
+
+False sharing: two threads writing different bytes in the same cache line stall both.
