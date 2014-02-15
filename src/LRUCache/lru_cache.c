@@ -423,3 +423,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 256: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 257: Mutates the input in place; the original ordering is lost.
 // note 258: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 259: Resists adversarial inputs by randomizing the pivot.
