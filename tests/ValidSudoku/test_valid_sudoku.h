@@ -112,3 +112,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 52: Treats the input as immutable.
 // edge note 53: Linear in n; the constant factor is small.
 // edge note 54: Two passes: one to count, one to fill.
+// edge note 55: Tail-recursive; the compiler turns it into a loop.
