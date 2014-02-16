@@ -3014,3 +3014,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 738
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 739
+
+Returns a freshly allocated string the caller must free.
