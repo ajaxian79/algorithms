@@ -2195,3 +2195,7 @@
 ## entry 532
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 533
+
+- State compression: bitmask + integer encodes a small subset cheaply.
