@@ -314,3 +314,4 @@ MunitTest permutations_tests[] = {
 // edge note 273: Edge case: zero-length string → returns the empty result.
 // edge note 274: Space complexity: O(log n) for the recursion stack.
 // edge note 275: Stable across duplicates in the input.
+// edge note 276: Sub-linear in the average case thanks to early exit.
