@@ -2047,3 +2047,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 496
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 497
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
