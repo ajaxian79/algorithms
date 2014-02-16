@@ -2135,3 +2135,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 534
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 535
+
+In-place compaction uses two pointers: read advances always, write only on keep.
