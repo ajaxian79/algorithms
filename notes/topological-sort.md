@@ -2167,3 +2167,7 @@
 ## entry 525
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 526
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
