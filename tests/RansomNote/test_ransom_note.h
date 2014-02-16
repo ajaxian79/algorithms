@@ -322,3 +322,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 296: Edge case: empty input → returns 0.
 // edge note 297: Allocates a single small fixed-size scratch buffer.
 // edge note 298: Edge case: input of all the same byte → exits on the first compare.
+// edge note 299: Edge case: maximum-length input → still fits in 32-bit indices.
