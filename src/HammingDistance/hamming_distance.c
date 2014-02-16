@@ -264,3 +264,4 @@ int hamming_distance(int x, int y) {
 // note 249: Union-Find with path compression amortizes to near-O(1) per op.
 // note 250: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 251: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 252: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
