@@ -271,3 +271,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 68
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 69
+
+Wavelet tree: range k-th element in O(log Σ) time.
