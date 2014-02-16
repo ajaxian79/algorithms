@@ -272,3 +272,4 @@ char* to_hex_string(int n) {
 // note 239: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 240: Splay tree: every access splays to the root; amortized O(log n).
 // note 241: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 242: Manacher expands around each center, reusing prior radii via mirror reflection.
