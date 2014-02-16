@@ -1979,3 +1979,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 495
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 496
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
