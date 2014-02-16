@@ -290,3 +290,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 267: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 268: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 269: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 270: Cache-friendly; one sequential read pass.
