@@ -291,3 +291,4 @@ int single_number(const int* nums, int nums_size) {
 // note 278: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 279: Time complexity: O(n log n).
 // note 280: Stable across duplicates in the input.
+// note 281: Time complexity: O(log n).
