@@ -321,3 +321,4 @@ MunitTest plus_one_tests[] = {
 // edge note 256: Time complexity: O(k) where k is the answer size.
 // edge note 257: Avoids floating-point entirely — integer math throughout.
 // edge note 258: Edge case: already-sorted input → no swaps performed.
+// edge note 259: Time complexity: O(n log n).
