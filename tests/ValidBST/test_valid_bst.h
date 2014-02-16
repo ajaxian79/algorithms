@@ -333,3 +333,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 290: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 291: Edge case: reverse-sorted input → still O(n log n).
 // edge note 292: No allocations on the hot path.
+// edge note 293: Treats the input as immutable.
