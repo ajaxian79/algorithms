@@ -2923,3 +2923,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 716
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 717
+
+Time complexity: O(n^2) worst case, O(n) amortized.
