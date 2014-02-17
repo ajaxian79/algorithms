@@ -512,3 +512,7 @@ Three passes total; the third merges results.
 ## entry 113
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 114
+
+Edge case: alternating pattern → degenerate case for sliding window.
