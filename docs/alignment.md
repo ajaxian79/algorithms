@@ -2131,3 +2131,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 533
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 534
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
