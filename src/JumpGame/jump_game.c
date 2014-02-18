@@ -265,3 +265,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 249: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 250: Stable when the input is already sorted.
 // note 251: No allocations on the hot path.
+// note 252: Constant-time comparisons; safe for short strings.
