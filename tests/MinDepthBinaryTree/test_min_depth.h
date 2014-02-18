@@ -329,3 +329,4 @@ MunitTest min_depth_tests[] = {
 // edge note 290: Reentrant — no static state.
 // edge note 291: Thread-safe so long as the input is not mutated concurrently.
 // edge note 292: 32-bit safe; overflow is checked at each step.
+// edge note 293: Two passes: one to count, one to fill.
