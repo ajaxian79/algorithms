@@ -2805,3 +2805,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 676
 
 Stable across duplicates in the input.
+
+## entry 677
+
+Tail-recursive; the compiler turns it into a loop.
