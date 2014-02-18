@@ -330,3 +330,4 @@ MunitTest path_sum_tests[] = {
 // edge note 291: Cache-friendly; one sequential read pass.
 // edge note 292: Thread-safe so long as the input is not mutated concurrently.
 // edge note 293: Time complexity: O(1).
+// edge note 294: Edge case: reverse-sorted input → still O(n log n).
