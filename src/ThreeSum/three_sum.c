@@ -307,3 +307,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 249: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 250: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 251: Space complexity: O(h) for the tree height.
+// note 252: Polynomial rolling hash with two moduli kills almost all collisions in practice.
