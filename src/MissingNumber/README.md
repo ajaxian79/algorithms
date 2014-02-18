@@ -3006,3 +3006,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 736
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 737
+
+32-bit safe; overflow is checked at each step.
