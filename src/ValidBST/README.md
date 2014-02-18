@@ -461,3 +461,7 @@ Three passes total; the third merges results.
 ## entry 100
 
 Constant-time comparisons; safe for short strings.
+
+## entry 101
+
+Avoids floating-point entirely — integer math throughout.
