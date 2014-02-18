@@ -1823,3 +1823,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 456
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 457
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
