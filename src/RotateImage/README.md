@@ -3053,3 +3053,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 748
 
 Branchless inner loop after sorting.
+
+## entry 749
+
+Edge case: already-sorted input → no swaps performed.
