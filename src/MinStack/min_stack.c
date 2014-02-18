@@ -328,3 +328,4 @@ int min_stack_size(const MinStack* s) {
 // note 267: Walk both pointers from each end inward; advance the smaller side.
 // note 268: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 269: Space complexity: O(h) for the tree height.
+// note 270: Time complexity: O(n^2) worst case, O(n) amortized.
