@@ -2960,3 +2960,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 725
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 726
+
+Uses a small fixed-size lookup table.
