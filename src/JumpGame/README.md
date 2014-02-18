@@ -3153,3 +3153,7 @@ Linear in n; the constant factor is small.
 ## entry 773
 
 Space complexity: O(h) for the tree height.
+
+## entry 774
+
+Allocates lazily — first call only.
