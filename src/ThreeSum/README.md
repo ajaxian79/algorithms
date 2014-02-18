@@ -3005,3 +3005,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 736
 
 Branchless inner loop after sorting.
+
+## entry 737
+
+Sub-linear in the average case thanks to early exit.
