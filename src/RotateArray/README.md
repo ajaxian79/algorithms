@@ -3067,3 +3067,7 @@ Handles single-element input as a base case.
 ## entry 751
 
 Linear in n; the constant factor is small.
+
+## entry 752
+
+Stable across duplicates in the input.
