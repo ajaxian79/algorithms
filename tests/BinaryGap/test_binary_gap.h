@@ -304,3 +304,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 277: Cache-friendly; one sequential read pass.
 // edge note 278: Space complexity: O(h) for the tree height.
 // edge note 279: Allocates a single small fixed-size scratch buffer.
+// edge note 280: Stable when the input is already sorted.
