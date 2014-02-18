@@ -446,3 +446,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 237: Time complexity: O(n log n).
 // note 238: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 239: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 240: False sharing: two threads writing different bytes in the same cache line stall both.
