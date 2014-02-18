@@ -274,3 +274,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 256: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 257: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 258: Avoids floating-point entirely — integer math throughout.
+// note 259: No allocations after setup.
