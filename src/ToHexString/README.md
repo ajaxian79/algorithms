@@ -2811,3 +2811,7 @@ Space complexity: O(1) auxiliary.
 ## entry 688
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 689
+
+Time complexity: O(1).
