@@ -2011,3 +2011,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 503
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 504
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
