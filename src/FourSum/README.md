@@ -2960,3 +2960,7 @@ Handles single-element input as a base case.
 ## entry 725
 
 Constant-time comparisons; safe for short strings.
+
+## entry 726
+
+Deterministic given the input — no PRNG seeds.
