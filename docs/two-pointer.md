@@ -2211,3 +2211,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 535
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 536
+
+Heap when you only need top-k; full sort is wasted work.
