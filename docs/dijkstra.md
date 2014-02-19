@@ -2007,3 +2007,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 502
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 503
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
