@@ -235,3 +235,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 59
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 60
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
