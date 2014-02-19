@@ -2271,3 +2271,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 551
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 552
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
