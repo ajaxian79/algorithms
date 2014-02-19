@@ -347,3 +347,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 72
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 73
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
