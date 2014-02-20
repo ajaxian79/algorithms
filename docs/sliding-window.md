@@ -2127,3 +2127,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 517
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 518
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
