@@ -117299,3 +117299,7 @@
 ## entry 29325
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 29326
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
