@@ -293,3 +293,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 267: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 268: Edge case: input of all the same byte → exits on the first compare.
 // edge note 269: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 270: Branchless inner loop after sorting.
