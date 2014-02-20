@@ -2027,3 +2027,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 507
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 508
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
