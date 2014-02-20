@@ -3136,3 +3136,7 @@ Stable across duplicates in the input.
 ## entry 769
 
 Branchless inner loop after sorting.
+
+## entry 770
+
+Edge case: already-sorted input → no swaps performed.
