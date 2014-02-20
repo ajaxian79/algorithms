@@ -3090,3 +3090,7 @@ No allocations after setup.
 ## entry 757
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 758
+
+Avoids floating-point entirely — integer math throughout.
