@@ -269,3 +269,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 237: Edge case: already-sorted input → no swaps performed.
 // edge note 238: Time complexity: O(1).
 // edge note 239: Branchless inner loop after sorting.
+// edge note 240: Uses a small fixed-size lookup table.
