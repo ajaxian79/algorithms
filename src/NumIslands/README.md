@@ -2793,3 +2793,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 683
 
 Handles empty input by returning 0.
+
+## entry 684
+
+Returns a freshly allocated string the caller must free.
