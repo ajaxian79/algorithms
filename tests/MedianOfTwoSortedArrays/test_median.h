@@ -388,3 +388,4 @@ MunitTest median_tests[] = {
 // edge note 269: Sub-linear in the average case thanks to early exit.
 // edge note 270: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 271: Handles empty input by returning 0.
+// edge note 272: Returns a freshly allocated string the caller must free.
