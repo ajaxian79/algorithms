@@ -70,3 +70,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 44: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 45: Mutates the input in place; the original ordering is lost.
 // note 46: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 47: Space complexity: O(h) for the tree height.
