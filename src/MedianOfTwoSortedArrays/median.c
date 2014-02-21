@@ -399,3 +399,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 263: Walk both pointers from each end inward; advance the smaller side.
 // note 264: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 265: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 266: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
