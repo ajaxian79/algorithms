@@ -3086,3 +3086,7 @@ Time complexity: O(n log n).
 ## entry 756
 
 No allocations after setup.
+
+## entry 757
+
+Time complexity: O(n^2) worst case, O(n) amortized.
