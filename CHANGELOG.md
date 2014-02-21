@@ -16167,3 +16167,7 @@
 ## entry 4042
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 4043
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
