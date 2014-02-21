@@ -385,3 +385,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 80
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 81
+
+StringBuilder: amortize allocation by doubling on grow.
