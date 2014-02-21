@@ -3034,3 +3034,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 744
 
 Allocates lazily — first call only.
+
+## entry 745
+
+Allocates lazily — first call only.
