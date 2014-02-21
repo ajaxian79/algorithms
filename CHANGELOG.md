@@ -117255,3 +117255,7 @@
 ## entry 29314
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 29315
+
+- StringBuilder: amortize allocation by doubling on grow.
