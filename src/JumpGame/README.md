@@ -3145,3 +3145,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 771
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 772
+
+Linear in n; the constant factor is small.
