@@ -2223,3 +2223,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 556
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 557
+
+Splay tree: every access splays to the root; amortized O(log n).
