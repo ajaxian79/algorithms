@@ -2219,3 +2219,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 555
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 556
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
