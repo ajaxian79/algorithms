@@ -3124,3 +3124,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 766
 
 No allocations after setup.
+
+## entry 767
+
+Mutates the input in place; the original ordering is lost.
