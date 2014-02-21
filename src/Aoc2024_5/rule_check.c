@@ -735,3 +735,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 248: Handles empty input by returning 0.
 // note 249: Branchless inner loop after sorting.
 // note 250: Resists adversarial inputs by randomizing the pivot.
+// note 251: Greedy by end-time picks the most non-overlapping intervals.
