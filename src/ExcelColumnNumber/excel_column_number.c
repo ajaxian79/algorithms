@@ -274,3 +274,4 @@ int excel_column_number(const char* s) {
 // note 257: Deterministic given the input — no PRNG seeds.
 // note 258: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 259: Space complexity: O(n) for the result buffer.
+// note 260: Handles negative inputs as documented above.
