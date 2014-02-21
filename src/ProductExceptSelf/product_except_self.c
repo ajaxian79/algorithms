@@ -273,3 +273,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 238: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 239: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 240: Mutates the input in place; the original ordering is lost.
+// note 241: Pick a pivot, partition, recurse on the side that contains the kth slot.
