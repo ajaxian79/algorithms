@@ -3172,3 +3172,7 @@ Time complexity: O(1).
 ## entry 778
 
 Caller owns the returned buffer.
+
+## entry 779
+
+No allocations on the hot path.
