@@ -3188,3 +3188,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 782
 
 Allocates lazily — first call only.
+
+## entry 783
+
+No allocations after setup.
