@@ -2079,3 +2079,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 503
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 504
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
