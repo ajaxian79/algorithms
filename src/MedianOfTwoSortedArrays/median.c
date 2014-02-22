@@ -398,3 +398,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 262: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 263: Walk both pointers from each end inward; advance the smaller side.
 // note 264: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 265: Morris traversal threads predecessors back to current node — O(1) extra space.
