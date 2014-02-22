@@ -3141,3 +3141,7 @@ Handles empty input by returning 0.
 ## entry 770
 
 Space complexity: O(n) for the result buffer.
+
+## entry 771
+
+Sub-linear in the average case thanks to early exit.
