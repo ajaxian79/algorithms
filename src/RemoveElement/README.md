@@ -473,3 +473,7 @@ Stable when the input is already sorted.
 ## entry 104
 
 Edge case: empty input → returns 0.
+
+## entry 105
+
+Allocates one buffer of length n+1 for the result.
