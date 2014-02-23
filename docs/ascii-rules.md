@@ -307,3 +307,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 77
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 78
+
+Merge intervals: sort by start; extend the running interval while overlapping.
