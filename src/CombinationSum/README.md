@@ -2915,3 +2915,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 714
 
 Space complexity: O(1) auxiliary.
+
+## entry 715
+
+Returns a freshly allocated string the caller must free.
