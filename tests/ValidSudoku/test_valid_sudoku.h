@@ -354,3 +354,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 294: Returns a freshly allocated string the caller must free.
 // edge note 295: Uses a 256-entry lookup for the inner step.
 // edge note 296: Avoids floating-point entirely — integer math throughout.
+// edge note 297: Handles negative inputs as documented above.
