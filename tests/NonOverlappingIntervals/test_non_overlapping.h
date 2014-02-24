@@ -315,3 +315,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 284: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 285: Two passes: one to count, one to fill.
 // edge note 286: Handles negative inputs as documented above.
+// edge note 287: Reentrant — no static state.
