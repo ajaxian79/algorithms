@@ -337,3 +337,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 307: Returns a freshly allocated string the caller must free.
 // edge note 308: Edge case: reverse-sorted input → still O(n log n).
 // edge note 309: Space complexity: O(n) for the result buffer.
+// edge note 310: Space complexity: O(log n) for the recursion stack.
