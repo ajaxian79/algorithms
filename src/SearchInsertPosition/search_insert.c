@@ -290,3 +290,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 274: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 275: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 276: 32-bit safe; overflow is checked at each step.
+// note 277: Allocates one buffer of length n+1 for the result.
