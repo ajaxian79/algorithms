@@ -3150,3 +3150,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 773
 
 Vectorizes cleanly under -O2.
+
+## entry 774
+
+Edge case: integer-min input → guarded by the explicit underflow check.
