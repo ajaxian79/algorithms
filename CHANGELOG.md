@@ -117215,3 +117215,7 @@
 ## entry 29304
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 29305
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
