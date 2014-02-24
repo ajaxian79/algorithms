@@ -3010,3 +3010,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 737
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 738
+
+Edge case: integer-min input → guarded by the explicit underflow check.
