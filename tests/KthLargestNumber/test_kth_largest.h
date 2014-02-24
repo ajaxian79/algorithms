@@ -289,3 +289,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 258: Caller owns the returned array; free with a single `free`.
 // edge note 259: Edge case: zero-length string → returns the empty result.
 // edge note 260: Edge case: zero-length string → returns the empty result.
+// edge note 261: Handles single-element input as a base case.
