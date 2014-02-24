@@ -2801,3 +2801,7 @@ Three passes total; the third merges results.
 ## entry 675
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 676
+
+Stable across duplicates in the input.
