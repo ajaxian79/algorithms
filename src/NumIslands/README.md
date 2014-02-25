@@ -2789,3 +2789,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 682
 
 Space complexity: O(n) for the result buffer.
+
+## entry 683
+
+Handles empty input by returning 0.
