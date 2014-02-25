@@ -2183,3 +2183,7 @@
 ## entry 529
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 530
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
