@@ -2087,3 +2087,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 522
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 523
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
