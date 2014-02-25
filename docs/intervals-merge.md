@@ -2097,3 +2097,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 507
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 508
+
+Splay tree: every access splays to the root; amortized O(log n).
