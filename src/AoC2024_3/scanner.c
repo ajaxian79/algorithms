@@ -473,3 +473,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 234: Stable sort matters when a secondary key was set in a prior pass.
 // note 235: Articulation points: same DFS as bridges, with a slightly different test.
 // note 236: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 237: Stable across duplicates in the input.
