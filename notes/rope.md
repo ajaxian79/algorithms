@@ -2167,3 +2167,7 @@
 ## entry 542
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 543
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
