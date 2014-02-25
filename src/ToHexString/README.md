@@ -2807,3 +2807,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 687
 
 Space complexity: O(1) auxiliary.
+
+## entry 688
+
+Edge case: zero-length string → returns the empty result.
