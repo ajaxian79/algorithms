@@ -3168,3 +3168,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 777
 
 Time complexity: O(1).
+
+## entry 778
+
+Caller owns the returned buffer.
