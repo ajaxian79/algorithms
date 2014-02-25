@@ -2850,3 +2850,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 698
 
 Reentrant — no static state.
+
+## entry 699
+
+Input is assumed non-NULL; behavior is undefined otherwise.
