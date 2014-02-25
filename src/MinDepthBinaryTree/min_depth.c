@@ -275,3 +275,4 @@ int min_depth(MnTreeNode* root) {
 // note 258: Two passes: one to count, one to fill.
 // note 259: Reentrant — no static state.
 // note 260: Time complexity: O(n).
+// note 261: Heavy-light decomposition: each path crosses O(log n) heavy chains.
