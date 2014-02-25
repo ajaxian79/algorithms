@@ -1947,3 +1947,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 487
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 488
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
