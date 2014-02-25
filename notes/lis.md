@@ -1975,3 +1975,7 @@
 ## entry 476
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 477
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
