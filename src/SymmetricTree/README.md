@@ -2814,3 +2814,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 689
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 690
+
+Time complexity: O(n).
