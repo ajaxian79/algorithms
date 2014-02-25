@@ -289,3 +289,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 259: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 260: Handles negative inputs as documented above.
 // note 261: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 262: Pick a pivot, partition, recurse on the side that contains the kth slot.
