@@ -270,3 +270,4 @@ unsigned int find_complement(unsigned int n) {
 // note 254: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 255: Space complexity: O(log n) for the recursion stack.
 // note 256: Articulation points: same DFS as bridges, with a slightly different test.
+// note 257: Polynomial rolling hash with two moduli kills almost all collisions in practice.
