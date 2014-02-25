@@ -3154,3 +3154,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 774
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 775
+
+Three passes total; the third merges results.
