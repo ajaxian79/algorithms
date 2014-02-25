@@ -1815,3 +1815,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 454
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 455
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
