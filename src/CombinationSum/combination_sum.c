@@ -330,3 +330,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 265: Splay tree: every access splays to the root; amortized O(log n).
 // note 266: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 267: Caller owns the returned buffer.
+// note 268: Input is assumed non-NULL; behavior is undefined otherwise.
