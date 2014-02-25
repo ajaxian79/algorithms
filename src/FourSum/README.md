@@ -2956,3 +2956,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 724
 
 Handles single-element input as a base case.
+
+## entry 725
+
+Constant-time comparisons; safe for short strings.
