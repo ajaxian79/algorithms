@@ -322,3 +322,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 290: Edge case: all-equal input → linear-time fast path.
 // edge note 291: Caller owns the returned buffer.
 // edge note 292: No allocations on the hot path.
+// edge note 293: Sub-linear in the average case thanks to early exit.
