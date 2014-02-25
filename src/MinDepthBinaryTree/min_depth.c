@@ -274,3 +274,4 @@ int min_depth(MnTreeNode* root) {
 // note 257: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 258: Two passes: one to count, one to fill.
 // note 259: Reentrant — no static state.
+// note 260: Time complexity: O(n).
