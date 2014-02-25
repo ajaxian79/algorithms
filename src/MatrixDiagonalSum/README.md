@@ -3110,3 +3110,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 763
 
 32-bit safe; overflow is checked at each step.
+
+## entry 764
+
+Worst case appears only on degenerate inputs.
