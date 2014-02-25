@@ -2007,3 +2007,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 502
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 503
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
