@@ -2910,3 +2910,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 712
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 713
+
+Edge case: already-sorted input → no swaps performed.
