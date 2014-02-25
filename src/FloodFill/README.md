@@ -3037,3 +3037,7 @@ Time complexity: O(n).
 ## entry 745
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 746
+
+Edge case: all-equal input → linear-time fast path.
