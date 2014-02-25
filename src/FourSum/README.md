@@ -540,3 +540,7 @@ Three passes total; the third merges results.
 ## entry 120
 
 Caller owns the returned buffer.
+
+## entry 121
+
+Deterministic given the input — no PRNG seeds.
