@@ -2275,3 +2275,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 552
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 553
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
