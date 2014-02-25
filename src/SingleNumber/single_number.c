@@ -290,3 +290,4 @@ int single_number(const int* nums, int nums_size) {
 // note 277: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 278: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 279: Time complexity: O(n log n).
+// note 280: Stable across duplicates in the input.
