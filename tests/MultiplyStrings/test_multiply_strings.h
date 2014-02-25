@@ -326,3 +326,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 297: Time complexity: O(n).
 // edge note 298: No allocations on the hot path.
 // edge note 299: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 300: Space complexity: O(log n) for the recursion stack.
