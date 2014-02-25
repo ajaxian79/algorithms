@@ -2145,3 +2145,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 522
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 523
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
