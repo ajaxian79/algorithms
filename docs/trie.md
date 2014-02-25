@@ -2097,3 +2097,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 508
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 509
+
+Rope: tree of small string fragments; O(log n) concat and substring.
