@@ -2910,3 +2910,7 @@ Edge case: empty input → returns 0.
 ## entry 712
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 713
+
+Space complexity: O(h) for the tree height.
