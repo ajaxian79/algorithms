@@ -3146,3 +3146,7 @@ Linear in n; the constant factor is small.
 ## entry 772
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 773
+
+Vectorizes cleanly under -O2.
