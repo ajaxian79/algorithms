@@ -2227,3 +2227,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 541
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 542
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
