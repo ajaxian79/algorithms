@@ -2069,3 +2069,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 501
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 502
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
