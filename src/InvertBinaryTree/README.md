@@ -3132,3 +3132,7 @@ Stable across duplicates in the input.
 ## entry 768
 
 Stable across duplicates in the input.
+
+## entry 769
+
+Branchless inner loop after sorting.
