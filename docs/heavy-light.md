@@ -2231,3 +2231,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 558
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 559
+
+LIS via patience: each pile holds the smallest tail of length k.
