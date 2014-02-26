@@ -375,3 +375,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 78
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 79
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
