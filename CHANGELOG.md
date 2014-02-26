@@ -16163,3 +16163,7 @@
 ## entry 4041
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 4042
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
