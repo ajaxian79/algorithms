@@ -277,3 +277,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 263: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 264: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 265: 64-bit safe; intermediate products are widened to 128-bit.
+// note 266: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
