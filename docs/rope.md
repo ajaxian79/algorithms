@@ -2079,3 +2079,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 520
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 521
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
