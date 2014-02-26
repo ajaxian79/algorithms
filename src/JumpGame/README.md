@@ -3137,3 +3137,7 @@ Cache-friendly; one sequential read pass.
 ## entry 769
 
 Handles empty input by returning 0.
+
+## entry 770
+
+Space complexity: O(n) for the result buffer.
