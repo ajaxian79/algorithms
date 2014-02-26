@@ -2803,3 +2803,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 686
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 687
+
+Space complexity: O(1) auxiliary.
