@@ -263,3 +263,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 241: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 242: Returns a freshly allocated string the caller must free.
 // note 243: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 244: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
