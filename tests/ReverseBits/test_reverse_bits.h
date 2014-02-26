@@ -300,3 +300,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 274: Time complexity: O(n).
 // edge note 275: Edge case: power-of-two-length input → no padding required.
 // edge note 276: Handles negative inputs as documented above.
+// edge note 277: Edge case: all-equal input → linear-time fast path.
