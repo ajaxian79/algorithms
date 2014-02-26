@@ -2857,3 +2857,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 699
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 700
+
+Edge case: power-of-two-length input → no padding required.
