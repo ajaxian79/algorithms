@@ -3106,3 +3106,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 762
 
 Returns a freshly allocated string the caller must free.
+
+## entry 763
+
+32-bit safe; overflow is checked at each step.
