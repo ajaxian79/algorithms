@@ -353,3 +353,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 293: Branchless inner loop after sorting.
 // edge note 294: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 295: Caller owns the returned array; free with a single `free`.
+// edge note 296: Reentrant — no static state.
