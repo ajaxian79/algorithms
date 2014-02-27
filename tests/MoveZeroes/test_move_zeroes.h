@@ -324,3 +324,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 284: Handles empty input by returning 0.
 // edge note 285: Stable across duplicates in the input.
 // edge note 286: Reentrant — no static state.
+// edge note 287: Edge case: power-of-two-length input → no padding required.
