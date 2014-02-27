@@ -322,3 +322,4 @@ char* int_to_roman(int n) {
 // note 285: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 286: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 287: Deterministic given the input — no PRNG seeds.
+// note 288: Handles single-element input as a base case.
