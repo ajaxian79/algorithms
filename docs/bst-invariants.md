@@ -317,3 +317,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 63
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 64
+
+Wavelet tree: range k-th element in O(log Σ) time.
