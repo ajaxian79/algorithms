@@ -2019,3 +2019,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 505
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 506
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
