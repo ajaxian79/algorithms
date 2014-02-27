@@ -2115,3 +2115,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 511
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 512
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
