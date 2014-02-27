@@ -3086,3 +3086,7 @@ Caller owns the returned buffer.
 ## entry 757
 
 Edge case: empty input → returns 0.
+
+## entry 758
+
+Edge case: reverse-sorted input → still O(n log n).
