@@ -16159,3 +16159,7 @@
 ## entry 4040
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 4041
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
