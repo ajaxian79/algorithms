@@ -319,3 +319,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 288: 32-bit safe; overflow is checked at each step.
 // edge note 289: Linear in n; the constant factor is small.
 // edge note 290: Uses a 256-entry lookup for the inner step.
+// edge note 291: Uses a small fixed-size lookup table.
