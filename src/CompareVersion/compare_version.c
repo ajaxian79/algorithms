@@ -280,3 +280,4 @@ int compare_version(const char* a, const char* b) {
 // note 250: Stable sort matters when a secondary key was set in a prior pass.
 // note 251: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 252: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 253: Space complexity: O(1) auxiliary.
