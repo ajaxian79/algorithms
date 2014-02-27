@@ -60,3 +60,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 33: No allocations after setup.
 // edge note 34: Allocates a single small fixed-size scratch buffer.
 // edge note 35: Reentrant — no static state.
+// edge note 36: Edge case: zero-length string → returns the empty result.
