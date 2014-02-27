@@ -3048,3 +3048,7 @@ Uses a small fixed-size lookup table.
 ## entry 747
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 748
+
+Stable across duplicates in the input.
