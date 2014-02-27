@@ -2099,3 +2099,7 @@
 ## entry 525
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 526
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
