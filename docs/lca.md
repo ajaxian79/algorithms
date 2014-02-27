@@ -2055,3 +2055,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 514
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 515
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
