@@ -3001,3 +3001,7 @@ Two passes: one to count, one to fill.
 ## entry 735
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 736
+
+Branchless inner loop after sorting.
