@@ -3002,3 +3002,7 @@ Handles empty input by returning 0.
 ## entry 735
 
 No allocations after setup.
+
+## entry 736
+
+32-bit safe; overflow is checked at each step.
