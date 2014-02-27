@@ -3033,3 +3033,7 @@ Allocates lazily — first call only.
 ## entry 744
 
 Time complexity: O(n).
+
+## entry 745
+
+Deterministic given the input — no PRNG seeds.
