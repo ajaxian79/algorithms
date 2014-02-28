@@ -323,3 +323,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 81
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 82
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
