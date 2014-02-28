@@ -303,3 +303,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 76
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 77
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
