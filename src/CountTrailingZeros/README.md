@@ -3014,3 +3014,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 738
 
 Worst case appears only on degenerate inputs.
+
+## entry 739
+
+Edge case: power-of-two-length input → no padding required.
