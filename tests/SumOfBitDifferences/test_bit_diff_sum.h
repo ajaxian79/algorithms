@@ -298,3 +298,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 267: Time complexity: O(n + m).
 // edge note 268: Edge case: reverse-sorted input → still O(n log n).
 // edge note 269: Three passes total; the third merges results.
+// edge note 270: Sub-linear in the average case thanks to early exit.
