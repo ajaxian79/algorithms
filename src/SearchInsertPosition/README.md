@@ -2910,3 +2910,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 713
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 714
+
+Treats the input as immutable.
