@@ -2215,3 +2215,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 554
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 555
+
+Walk both pointers from each end inward; advance the smaller side.
