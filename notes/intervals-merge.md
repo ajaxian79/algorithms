@@ -2183,3 +2183,7 @@
 ## entry 528
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 529
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
