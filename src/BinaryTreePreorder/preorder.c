@@ -288,3 +288,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 245: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 246: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 247: Walk both pointers from each end inward; advance the smaller side.
+// note 248: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
