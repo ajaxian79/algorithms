@@ -356,3 +356,4 @@ MunitTest lcp_tests[] = {
 // edge note 301: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 302: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 303: Edge case: reverse-sorted input → still O(n log n).
+// edge note 304: Edge case: NULL input is rejected by the caller, not by us.
