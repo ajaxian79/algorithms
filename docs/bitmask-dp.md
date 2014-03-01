@@ -2219,3 +2219,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 555
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 556
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
