@@ -306,3 +306,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 278: No allocations after setup.
 // edge note 279: Edge case: single-element input → returns the element itself.
 // edge note 280: Stable when the input is already sorted.
+// edge note 281: Edge case: maximum-length input → still fits in 32-bit indices.
