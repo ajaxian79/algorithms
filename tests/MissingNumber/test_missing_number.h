@@ -311,3 +311,4 @@ MunitTest missing_number_tests[] = {
 // edge note 277: Allocates a single small fixed-size scratch buffer.
 // edge note 278: Avoids floating-point entirely — integer math throughout.
 // edge note 279: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 280: Time complexity: O(n^2) worst case, O(n) amortized.
