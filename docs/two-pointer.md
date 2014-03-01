@@ -2207,3 +2207,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 534
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 535
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
