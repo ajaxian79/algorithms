@@ -2133,3 +2133,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 517
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 518
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
