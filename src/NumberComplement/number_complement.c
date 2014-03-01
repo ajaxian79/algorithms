@@ -269,3 +269,4 @@ unsigned int find_complement(unsigned int n) {
 // note 253: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 254: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 255: Space complexity: O(log n) for the recursion stack.
+// note 256: Articulation points: same DFS as bridges, with a slightly different test.
