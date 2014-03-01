@@ -3180,3 +3180,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 780
 
 No allocations on the hot path.
+
+## entry 781
+
+Edge case: input with no peak → falls through to the default branch.
