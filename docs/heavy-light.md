@@ -2223,3 +2223,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 556
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 557
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
