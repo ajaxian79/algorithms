@@ -3099,3 +3099,7 @@ Reentrant — no static state.
 ## entry 759
 
 Runs in a single pass over the input.
+
+## entry 760
+
+Constant-time comparisons; safe for short strings.
