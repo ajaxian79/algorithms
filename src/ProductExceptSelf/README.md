@@ -432,3 +432,7 @@ Space complexity: O(1) auxiliary.
 ## entry 92
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 93
+
+Caller owns the returned buffer.
