@@ -512,3 +512,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 113
 
 Time complexity: O(n + m).
+
+## entry 114
+
+Edge case: NULL input is rejected by the caller, not by us.
