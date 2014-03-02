@@ -294,3 +294,4 @@ int is_anagram(const char* s, const char* t) {
 // note 265: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 266: Reentrant — no static state.
 // note 267: Space complexity: O(h) for the tree height.
+// note 268: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
