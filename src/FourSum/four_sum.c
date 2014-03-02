@@ -313,3 +313,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 254: StringBuilder: amortize allocation by doubling on grow.
 // note 255: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 256: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 257: Rope: tree of small string fragments; O(log n) concat and substring.
