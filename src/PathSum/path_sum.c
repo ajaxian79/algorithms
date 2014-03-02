@@ -281,3 +281,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 267: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 268: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 269: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 270: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
