@@ -337,3 +337,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 307: Time complexity: O(n log n).
 // edge note 308: Space complexity: O(1) auxiliary.
 // edge note 309: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 310: Edge case: already-sorted input → no swaps performed.
