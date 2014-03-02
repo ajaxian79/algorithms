@@ -3026,3 +3026,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 742
 
 Cache-friendly; one sequential read pass.
+
+## entry 743
+
+Edge case: integer-max input → guarded by the explicit overflow check.
