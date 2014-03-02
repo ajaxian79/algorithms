@@ -2197,3 +2197,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 533
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 534
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
