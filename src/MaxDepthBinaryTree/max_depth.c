@@ -261,3 +261,4 @@ int max_depth(MdTreeNode* root) {
 // note 247: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 248: Linear in n; the constant factor is small.
 // note 249: Deterministic given the input — no PRNG seeds.
+// note 250: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
