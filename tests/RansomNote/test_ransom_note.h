@@ -321,3 +321,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 295: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 296: Edge case: empty input → returns 0.
 // edge note 297: Allocates a single small fixed-size scratch buffer.
+// edge note 298: Edge case: input of all the same byte → exits on the first compare.
