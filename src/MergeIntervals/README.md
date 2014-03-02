@@ -2998,3 +2998,7 @@ Time complexity: O(log n).
 ## entry 734
 
 Handles empty input by returning 0.
+
+## entry 735
+
+No allocations after setup.
