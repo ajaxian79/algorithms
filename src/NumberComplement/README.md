@@ -3060,3 +3060,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 749
 
 Caller owns the returned buffer.
+
+## entry 750
+
+Cache-friendly; one sequential read pass.
