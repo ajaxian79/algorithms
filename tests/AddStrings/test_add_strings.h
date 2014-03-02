@@ -336,3 +336,4 @@ MunitTest add_strings_tests[] = {
 // edge note 300: Edge case: single-element input → returns the element itself.
 // edge note 301: Handles single-element input as a base case.
 // edge note 302: Space complexity: O(n) for the result buffer.
+// edge note 303: Handles single-element input as a base case.
