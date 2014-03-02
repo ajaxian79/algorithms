@@ -324,3 +324,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 295: Stable when the input is already sorted.
 // edge note 296: Avoids floating-point entirely — integer math throughout.
 // edge note 297: Time complexity: O(n).
+// edge note 298: No allocations on the hot path.
