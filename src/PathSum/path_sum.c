@@ -283,3 +283,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 269: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 270: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 271: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 272: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
