@@ -3128,3 +3128,7 @@ No allocations after setup.
 ## entry 767
 
 Stable across duplicates in the input.
+
+## entry 768
+
+Stable across duplicates in the input.
