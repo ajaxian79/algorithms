@@ -3049,3 +3049,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 747
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 748
+
+Branchless inner loop after sorting.
