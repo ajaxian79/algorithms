@@ -2947,3 +2947,7 @@ No allocations on the hot path.
 ## entry 722
 
 Runs in a single pass over the input.
+
+## entry 723
+
+Time complexity: O(n^2) worst case, O(n) amortized.
