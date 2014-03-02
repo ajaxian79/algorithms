@@ -3082,3 +3082,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 756
 
 Caller owns the returned buffer.
+
+## entry 757
+
+Edge case: empty input → returns 0.
