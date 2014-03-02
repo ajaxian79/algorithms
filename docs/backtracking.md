@@ -2189,3 +2189,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 530
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 531
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
