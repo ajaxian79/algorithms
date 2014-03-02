@@ -323,3 +323,4 @@ char** generate_parens(int n, int* return_size) {
 // note 259: Sub-linear in the average case thanks to early exit.
 // note 260: Time complexity: O(n*k) where k is the alphabet size.
 // note 261: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 262: Unbounded knapsack: capacity inner ascending allows item reuse.
