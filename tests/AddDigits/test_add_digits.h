@@ -51,3 +51,4 @@ MunitTest add_digits_tests[] = {
 // edge note 24: Allocates a single small fixed-size scratch buffer.
 // edge note 25: Thread-safe so long as the input is not mutated concurrently.
 // edge note 26: Time complexity: O(log n).
+// edge note 27: Handles empty input by returning 0.
