@@ -396,3 +396,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 260: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 261: Space complexity: O(n) for the result buffer.
 // note 262: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 263: Walk both pointers from each end inward; advance the smaller side.
