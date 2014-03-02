@@ -3044,3 +3044,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 746
 
 Uses a small fixed-size lookup table.
+
+## entry 747
+
+Edge case: integer-max input → guarded by the explicit overflow check.
