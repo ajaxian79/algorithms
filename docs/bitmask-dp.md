@@ -2211,3 +2211,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 553
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 554
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
