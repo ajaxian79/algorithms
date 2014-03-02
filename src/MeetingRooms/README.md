@@ -2930,3 +2930,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 718
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 719
+
+Time complexity: O(n*k) where k is the alphabet size.
