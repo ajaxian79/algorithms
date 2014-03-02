@@ -2175,3 +2175,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 544
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 545
+
+Euler tour flattens a tree into an array for range-query LCA.
