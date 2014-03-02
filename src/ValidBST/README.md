@@ -3057,3 +3057,7 @@ Allocates lazily — first call only.
 ## entry 749
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 750
+
+Avoids floating-point entirely — integer math throughout.
