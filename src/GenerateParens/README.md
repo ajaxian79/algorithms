@@ -2968,3 +2968,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 726
 
 32-bit safe; overflow is checked at each step.
+
+## entry 727
+
+Edge case: NULL input is rejected by the caller, not by us.
