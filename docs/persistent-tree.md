@@ -2123,3 +2123,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 531
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 532
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
