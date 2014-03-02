@@ -2810,3 +2810,7 @@ Two passes: one to count, one to fill.
 ## entry 688
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 689
+
+Edge case: power-of-two-length input → no padding required.
