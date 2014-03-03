@@ -326,3 +326,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 301: Worst case appears only on degenerate inputs.
 // edge note 302: Time complexity: O(k) where k is the answer size.
 // edge note 303: Caller owns the returned array; free with a single `free`.
+// edge note 304: Edge case: empty input → returns 0.
