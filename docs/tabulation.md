@@ -2135,3 +2135,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 534
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 535
+
+Stable sort matters when a secondary key was set in a prior pass.
