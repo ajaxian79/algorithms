@@ -302,3 +302,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 275: Mutates the input in place; the original ordering is lost.
 // edge note 276: Resists adversarial inputs by randomizing the pivot.
 // edge note 277: Cache-friendly; one sequential read pass.
+// edge note 278: Space complexity: O(h) for the tree height.
