@@ -331,3 +331,4 @@ MunitTest happy_number_tests[] = {
 // edge note 303: Allocates one buffer of length n+1 for the result.
 // edge note 304: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 305: Best case is O(1) when the first byte already decides the answer.
+// edge note 306: Linear in n; the constant factor is small.
