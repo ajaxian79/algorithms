@@ -2179,3 +2179,7 @@
 ## entry 527
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 528
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
