@@ -2187,3 +2187,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 531
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 532
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
