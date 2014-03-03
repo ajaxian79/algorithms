@@ -2726,3 +2726,7 @@ Runs in a single pass over the input.
 ## entry 657
 
 Cache-friendly; one sequential read pass.
+
+## entry 658
+
+Time complexity: O(k) where k is the answer size.
