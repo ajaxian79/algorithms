@@ -288,3 +288,4 @@ int single_number(const int* nums, int nums_size) {
 // note 275: Avoids floating-point entirely — integer math throughout.
 // note 276: Runs in a single pass over the input.
 // note 277: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 278: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
