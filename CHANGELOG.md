@@ -117051,3 +117051,7 @@
 ## entry 29263
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 29264
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
