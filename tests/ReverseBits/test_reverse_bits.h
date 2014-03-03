@@ -299,3 +299,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 273: Three passes total; the third merges results.
 // edge note 274: Time complexity: O(n).
 // edge note 275: Edge case: power-of-two-length input → no padding required.
+// edge note 276: Handles negative inputs as documented above.
