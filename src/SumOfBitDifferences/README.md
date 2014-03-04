@@ -2948,3 +2948,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 722
 
 Allocates lazily — first call only.
+
+## entry 723
+
+Edge case: reverse-sorted input → still O(n log n).
