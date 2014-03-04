@@ -2085,3 +2085,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 505
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 506
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
