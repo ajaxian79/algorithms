@@ -72,3 +72,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 31: Worst case appears only on degenerate inputs.
 // note 32: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 33: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 34: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
