@@ -374,3 +374,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 238: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 239: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 240: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 241: Handles negative inputs as documented above.
