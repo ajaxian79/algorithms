@@ -367,3 +367,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 312: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 313: Worst case appears only on degenerate inputs.
 // edge note 314: Edge case: input of all the same byte → exits on the first compare.
+// edge note 315: Caller owns the returned buffer.
