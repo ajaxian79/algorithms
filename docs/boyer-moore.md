@@ -2223,3 +2223,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 540
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 541
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
