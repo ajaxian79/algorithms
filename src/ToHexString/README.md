@@ -2795,3 +2795,7 @@ Stable across duplicates in the input.
 ## entry 684
 
 Time complexity: O(n log n).
+
+## entry 685
+
+Deterministic given the input — no PRNG seeds.
