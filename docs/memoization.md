@@ -275,3 +275,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 69
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 70
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
