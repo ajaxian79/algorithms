@@ -1971,3 +1971,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 493
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 494
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
