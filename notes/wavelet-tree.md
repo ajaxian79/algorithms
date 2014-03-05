@@ -2011,3 +2011,7 @@
 ## entry 503
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 504
+
+- Union-Find with path compression amortizes to near-O(1) per op.
