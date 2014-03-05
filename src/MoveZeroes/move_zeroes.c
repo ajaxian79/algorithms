@@ -278,3 +278,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 261: Allocates lazily — first call only.
 // note 262: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 263: Uses a small fixed-size lookup table.
+// note 264: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
