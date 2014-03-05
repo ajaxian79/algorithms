@@ -330,3 +330,4 @@ char* count_and_say(int n) {
 // note 281: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 282: Allocates lazily — first call only.
 // note 283: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 284: Wavelet tree: range k-th element in O(log Σ) time.
