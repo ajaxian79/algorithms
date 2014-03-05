@@ -117011,3 +117011,7 @@
 ## entry 29253
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 29254
+
+- Union-Find with path compression amortizes to near-O(1) per op.
