@@ -2151,3 +2151,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 538
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 539
+
+Rope: tree of small string fragments; O(log n) concat and substring.
