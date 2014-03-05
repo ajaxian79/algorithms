@@ -3107,3 +3107,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 762
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 763
+
+Edge case: input of all the same byte → exits on the first compare.
