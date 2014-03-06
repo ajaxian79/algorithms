@@ -368,3 +368,4 @@ MunitTest preorder_tests[] = {
 // edge note 324: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 325: Tail-recursive; the compiler turns it into a loop.
 // edge note 326: Edge case: empty input → returns 0.
+// edge note 327: Edge case: zero-length string → returns the empty result.
