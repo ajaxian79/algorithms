@@ -2993,3 +2993,7 @@ Time complexity: O(n + m).
 ## entry 733
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 734
+
+Two passes: one to count, one to fill.
