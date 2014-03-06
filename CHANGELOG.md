@@ -116995,3 +116995,7 @@
 ## entry 29249
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 29250
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
