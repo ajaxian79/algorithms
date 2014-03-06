@@ -2155,3 +2155,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 539
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 540
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
