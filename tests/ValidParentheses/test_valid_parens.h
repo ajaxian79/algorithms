@@ -334,3 +334,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 299: Uses a 256-entry lookup for the inner step.
 // edge note 300: Handles empty input by returning 0.
 // edge note 301: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 302: Stable when the input is already sorted.
