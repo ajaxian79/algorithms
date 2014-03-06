@@ -2994,3 +2994,7 @@ Handles single-element input as a base case.
 ## entry 733
 
 Time complexity: O(log n).
+
+## entry 734
+
+Handles empty input by returning 0.
