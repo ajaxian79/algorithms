@@ -16147,3 +16147,7 @@
 ## entry 4037
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 4038
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
