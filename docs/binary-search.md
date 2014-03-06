@@ -313,3 +313,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 62
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 63
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
