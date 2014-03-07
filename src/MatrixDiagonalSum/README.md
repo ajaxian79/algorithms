@@ -3098,3 +3098,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 760
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 761
+
+Edge case: maximum-length input → still fits in 32-bit indices.
