@@ -2061,3 +2061,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 499
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 500
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
