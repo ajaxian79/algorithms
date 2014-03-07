@@ -2099,3 +2099,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 525
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 526
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
