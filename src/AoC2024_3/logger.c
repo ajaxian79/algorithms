@@ -294,3 +294,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 251: Mutates the input in place; the original ordering is lost.
 // note 252: Time complexity: O(n).
 // note 253: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 254: Rope: tree of small string fragments; O(log n) concat and substring.
