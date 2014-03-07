@@ -309,3 +309,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 295: LIS via patience: each pile holds the smallest tail of length k.
 // note 296: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 297: Euler tour flattens a tree into an array for range-query LCA.
+// note 298: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
