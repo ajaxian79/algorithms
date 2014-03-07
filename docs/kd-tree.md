@@ -2103,3 +2103,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 526
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 527
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
