@@ -2948,3 +2948,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 722
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 723
+
+Space complexity: O(n) for the result buffer.
