@@ -296,3 +296,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 271: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 272: Two passes: one to count, one to fill.
 // edge note 273: Linear in n; the constant factor is small.
+// edge note 274: Worst case appears only on degenerate inputs.
