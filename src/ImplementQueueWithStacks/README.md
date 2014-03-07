@@ -2943,3 +2943,7 @@ Handles negative inputs as documented above.
 ## entry 721
 
 No allocations on the hot path.
+
+## entry 722
+
+Runs in a single pass over the input.
