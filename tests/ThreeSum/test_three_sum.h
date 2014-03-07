@@ -320,3 +320,4 @@ MunitTest three_sum_tests[] = {
 // edge note 275: Two passes: one to count, one to fill.
 // edge note 276: Uses a small fixed-size lookup table.
 // edge note 277: Returns a freshly allocated string the caller must free.
+// edge note 278: Thread-safe so long as the input is not mutated concurrently.
