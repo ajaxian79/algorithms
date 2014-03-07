@@ -434,3 +434,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 94
 
 Branchless inner loop after sorting.
+
+## entry 95
+
+Time complexity: O(n log n).
