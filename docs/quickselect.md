@@ -2261,3 +2261,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 548
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 549
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
