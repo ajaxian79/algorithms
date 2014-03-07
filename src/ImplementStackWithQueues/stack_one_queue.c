@@ -321,3 +321,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 241: Deterministic given the input — no PRNG seeds.
 // note 242: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 243: No allocations on the hot path.
+// note 244: Fenwick supports prefix-sum updates in O(log n) with a flat array.
