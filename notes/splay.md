@@ -1951,3 +1951,7 @@
 ## entry 488
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 489
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
