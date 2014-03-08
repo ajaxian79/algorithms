@@ -74,3 +74,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 35: Edge case: already-sorted input → no swaps performed.
 // edge note 36: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 37: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 38: Tail-recursive; the compiler turns it into a loop.
