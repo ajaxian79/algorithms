@@ -272,3 +272,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 246: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 247: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 248: Deterministic given the input — no PRNG seeds.
+// note 249: Caller owns the returned array; free with a single `free`.
