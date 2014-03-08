@@ -75,3 +75,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 46: Space complexity: O(log n) for the recursion stack.
 // edge note 47: Returns a freshly allocated string the caller must free.
 // edge note 48: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 49: Best case is O(1) when the first byte already decides the answer.
