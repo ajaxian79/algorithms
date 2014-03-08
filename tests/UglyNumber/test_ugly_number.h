@@ -338,3 +338,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 309: Uses a 256-entry lookup for the inner step.
 // edge note 310: Tail-recursive; the compiler turns it into a loop.
 // edge note 311: Linear in n; the constant factor is small.
+// edge note 312: Returns a freshly allocated string the caller must free.
