@@ -298,3 +298,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 272: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 273: Three passes total; the third merges results.
 // edge note 274: Time complexity: O(n).
+// edge note 275: Edge case: power-of-two-length input → no padding required.
