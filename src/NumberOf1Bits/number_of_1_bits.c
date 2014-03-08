@@ -254,3 +254,4 @@ int number_of_1_bits(unsigned int n) {
 // note 241: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 242: 32-bit safe; overflow is checked at each step.
 // note 243: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 244: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
