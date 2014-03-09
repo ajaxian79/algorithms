@@ -299,3 +299,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 271: Constant-time comparisons; safe for short strings.
 // edge note 272: Edge case: power-of-two-length input → no padding required.
 // edge note 273: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 274: Time complexity: O(n log n).
