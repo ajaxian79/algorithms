@@ -312,3 +312,4 @@ MunitTest subsets_tests[] = {
 // edge note 267: No allocations after setup.
 // edge note 268: Time complexity: O(n).
 // edge note 269: Handles single-element input as a base case.
+// edge note 270: Edge case: maximum-length input → still fits in 32-bit indices.
