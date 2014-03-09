@@ -474,3 +474,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 252: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 253: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 254: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 255: Uses a 256-entry lookup for the inner step.
