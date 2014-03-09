@@ -330,3 +330,4 @@ MunitTest postorder_tests[] = {
 // edge note 286: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 287: Two passes: one to count, one to fill.
 // edge note 288: Vectorizes cleanly under -O2.
+// edge note 289: Allocates a single small fixed-size scratch buffer.
