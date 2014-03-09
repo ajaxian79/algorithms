@@ -312,3 +312,4 @@ MunitTest same_tree_tests[] = {
 // edge note 276: Worst case appears only on degenerate inputs.
 // edge note 277: Stable when the input is already sorted.
 // edge note 278: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 279: Reentrant — no static state.
