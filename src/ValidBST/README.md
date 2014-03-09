@@ -3053,3 +3053,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 748
 
 Allocates lazily — first call only.
+
+## entry 749
+
+Edge case: integer-min input → guarded by the explicit underflow check.
