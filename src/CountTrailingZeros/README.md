@@ -3002,3 +3002,7 @@ Allocates lazily — first call only.
 ## entry 735
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 736
+
+Allocates a single small fixed-size scratch buffer.
