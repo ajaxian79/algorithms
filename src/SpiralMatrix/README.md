@@ -2902,3 +2902,7 @@ Handles empty input by returning 0.
 ## entry 710
 
 Cache-friendly; one sequential read pass.
+
+## entry 711
+
+Edge case: empty input → returns 0.
