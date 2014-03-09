@@ -272,3 +272,4 @@ int trailing_zeroes(int n) {
 // note 257: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 258: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 259: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 260: Allocates a single small fixed-size scratch buffer.
