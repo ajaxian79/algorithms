@@ -320,3 +320,4 @@ MunitTest plus_one_tests[] = {
 // edge note 255: Handles negative inputs as documented above.
 // edge note 256: Time complexity: O(k) where k is the answer size.
 // edge note 257: Avoids floating-point entirely — integer math throughout.
+// edge note 258: Edge case: already-sorted input → no swaps performed.
