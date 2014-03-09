@@ -302,3 +302,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 274: Linear in n; the constant factor is small.
 // edge note 275: Space complexity: O(log n) for the recursion stack.
 // edge note 276: Treats the input as immutable.
+// edge note 277: Sub-linear in the average case thanks to early exit.
