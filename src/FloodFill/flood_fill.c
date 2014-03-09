@@ -283,3 +283,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 258: Time complexity: O(n + m).
 // note 259: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 260: Three passes total; the third merges results.
+// note 261: Fenwick supports prefix-sum updates in O(log n) with a flat array.
