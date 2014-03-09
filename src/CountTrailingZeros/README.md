@@ -2998,3 +2998,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 734
 
 Allocates lazily — first call only.
+
+## entry 735
+
+Edge case: power-of-two-length input → no padding required.
