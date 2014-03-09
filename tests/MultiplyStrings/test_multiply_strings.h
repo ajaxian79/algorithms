@@ -322,3 +322,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 293: Edge case: zero-length string → returns the empty result.
 // edge note 294: Edge case: zero-length string → returns the empty result.
 // edge note 295: Stable when the input is already sorted.
+// edge note 296: Avoids floating-point entirely — integer math throughout.
