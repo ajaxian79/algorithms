@@ -2874,3 +2874,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 704
 
 Edge case: single-element input → returns the element itself.
+
+## entry 705
+
+64-bit safe; intermediate products are widened to 128-bit.
