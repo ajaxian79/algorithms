@@ -2071,3 +2071,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 518
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 519
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
