@@ -2051,3 +2051,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 497
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 498
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
