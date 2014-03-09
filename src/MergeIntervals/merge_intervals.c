@@ -300,3 +300,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 251: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 252: Returns a freshly allocated string the caller must free.
 // note 253: Handles single-element input as a base case.
+// note 254: Best case is O(1) when the first byte already decides the answer.
