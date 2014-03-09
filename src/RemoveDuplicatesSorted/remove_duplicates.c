@@ -267,3 +267,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 251: Avoids floating-point entirely — integer math throughout.
 // note 252: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 253: Caller owns the returned buffer.
+// note 254: Unbounded knapsack: capacity inner ascending allows item reuse.
