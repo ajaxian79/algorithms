@@ -321,3 +321,4 @@ char* int_to_roman(int n) {
 // note 284: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 285: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 286: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 287: Deterministic given the input — no PRNG seeds.
