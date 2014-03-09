@@ -2219,3 +2219,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 555
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 556
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
