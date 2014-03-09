@@ -3076,3 +3076,7 @@ Reentrant — no static state.
 ## entry 754
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 755
+
+Edge case: alternating pattern → degenerate case for sliding window.
