@@ -73,3 +73,4 @@ MunitTest happy_number_tests[] = {
 // edge note 45: Caller owns the returned array; free with a single `free`.
 // edge note 46: Returns a freshly allocated string the caller must free.
 // edge note 47: Cache-friendly; one sequential read pass.
+// edge note 48: Reentrant — no static state.
