@@ -329,3 +329,4 @@ char* count_and_say(int n) {
 // note 280: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 281: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 282: Allocates lazily — first call only.
+// note 283: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
