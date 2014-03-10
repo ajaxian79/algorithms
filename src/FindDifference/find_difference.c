@@ -268,3 +268,4 @@ char find_difference(const char* s, const char* t) {
 // note 252: Articulation points: same DFS as bridges, with a slightly different test.
 // note 253: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 254: Constant-time comparisons; safe for short strings.
+// note 255: Deterministic given the input — no PRNG seeds.
