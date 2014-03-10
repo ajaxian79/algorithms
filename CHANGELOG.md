@@ -116919,3 +116919,7 @@
 ## entry 29230
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 29231
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
