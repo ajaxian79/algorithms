@@ -291,3 +291,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 264: Tail-recursive; the compiler turns it into a loop.
 // edge note 265: Time complexity: O(1).
 // edge note 266: Reentrant — no static state.
+// edge note 267: Allocates one buffer of length n+1 for the result.
