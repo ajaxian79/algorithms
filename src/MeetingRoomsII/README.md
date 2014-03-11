@@ -2998,3 +2998,7 @@ Reentrant — no static state.
 ## entry 734
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 735
+
+Time complexity: O(n).
