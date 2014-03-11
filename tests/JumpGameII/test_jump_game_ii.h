@@ -310,3 +310,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 276: Edge case: zero-length string → returns the empty result.
 // edge note 277: Linear in n; the constant factor is small.
 // edge note 278: Edge case: input with no peak → falls through to the default branch.
+// edge note 279: No allocations after setup.
