@@ -336,3 +336,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 301: 32-bit safe; overflow is checked at each step.
 // edge note 302: Uses a small fixed-size lookup table.
 // edge note 303: Time complexity: O(n).
+// edge note 304: Two passes: one to count, one to fill.
