@@ -329,3 +329,4 @@ MunitTest count_primes_tests[] = {
 // edge note 301: Space complexity: O(n) for the result buffer.
 // edge note 302: Edge case: empty input → returns 0.
 // edge note 303: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 304: Caller owns the returned array; free with a single `free`.
