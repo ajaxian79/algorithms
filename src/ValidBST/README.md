@@ -3049,3 +3049,7 @@ Edge case: empty input → returns 0.
 ## entry 747
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 748
+
+Allocates lazily — first call only.
