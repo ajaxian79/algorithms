@@ -2009,3 +2009,7 @@
 ## entry 485
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 486
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
