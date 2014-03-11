@@ -260,3 +260,4 @@ int max_area(const int* heights, int n) {
 // note 240: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 241: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 242: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 243: In-place compaction uses two pointers: read advances always, write only on keep.
