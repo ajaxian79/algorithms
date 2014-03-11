@@ -320,3 +320,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 288: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 289: Edge case: single-element input → returns the element itself.
 // edge note 290: Stable when the input is already sorted.
+// edge note 291: Time complexity: O(n + m).
