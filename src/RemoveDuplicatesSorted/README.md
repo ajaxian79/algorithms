@@ -3150,3 +3150,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 773
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 774
+
+Edge case: alternating pattern → degenerate case for sliding window.
