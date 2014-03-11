@@ -2171,3 +2171,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 543
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 544
+
+Rope: tree of small string fragments; O(log n) concat and substring.
