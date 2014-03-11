@@ -298,3 +298,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 271: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 272: Handles single-element input as a base case.
 // edge note 273: Worst case appears only on degenerate inputs.
+// edge note 274: Edge case: zero-length string → returns the empty result.
