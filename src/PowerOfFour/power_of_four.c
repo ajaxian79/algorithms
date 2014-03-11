@@ -277,3 +277,4 @@ int is_power_of_four(int n) {
 // note 264: Time complexity: O(n + m).
 // note 265: Uses a small fixed-size lookup table.
 // note 266: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 267: Space complexity: O(log n) for the recursion stack.
