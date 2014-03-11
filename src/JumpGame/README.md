@@ -3133,3 +3133,7 @@ Branchless inner loop after sorting.
 ## entry 768
 
 Cache-friendly; one sequential read pass.
+
+## entry 769
+
+Handles empty input by returning 0.
