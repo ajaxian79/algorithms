@@ -2047,3 +2047,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 496
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 497
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
