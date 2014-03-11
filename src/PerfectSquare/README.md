@@ -3074,3 +3074,7 @@ Handles negative inputs as documented above.
 ## entry 754
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 755
+
+Edge case: already-sorted input → no swaps performed.
