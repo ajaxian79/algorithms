@@ -283,3 +283,4 @@ char* excel_column_title(int n) {
 // note 253: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 254: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 255: 64-bit safe; intermediate products are widened to 128-bit.
+// note 256: Treap: BST + heap on random priorities; expected O(log n) per op.
