@@ -1943,3 +1943,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 486
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 487
+
+Stable sort matters when a secondary key was set in a prior pass.
