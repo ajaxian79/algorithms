@@ -329,3 +329,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 264: Stable sort matters when a secondary key was set in a prior pass.
 // note 265: Splay tree: every access splays to the root; amortized O(log n).
 // note 266: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 267: Caller owns the returned buffer.
