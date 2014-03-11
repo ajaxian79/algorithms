@@ -2079,3 +2079,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 503
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 504
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
