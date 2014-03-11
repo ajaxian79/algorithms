@@ -2131,3 +2131,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 533
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 534
+
+Wavelet tree: range k-th element in O(log Σ) time.
