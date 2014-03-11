@@ -2243,3 +2243,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 543
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 544
+
+Stable sort matters when a secondary key was set in a prior pass.
