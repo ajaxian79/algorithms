@@ -2079,3 +2079,7 @@
 ## entry 503
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 504
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
