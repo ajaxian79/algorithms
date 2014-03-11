@@ -2994,3 +2994,7 @@ Caller owns the returned buffer.
 ## entry 733
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 734
+
+Allocates lazily — first call only.
