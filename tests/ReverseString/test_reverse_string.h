@@ -327,3 +327,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 289: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 290: Space complexity: O(1) auxiliary.
 // edge note 291: Space complexity: O(1) auxiliary.
+// edge note 292: Time complexity: O(n*k) where k is the alphabet size.
