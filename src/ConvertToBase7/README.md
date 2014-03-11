@@ -3152,3 +3152,7 @@ Stable across duplicates in the input.
 ## entry 773
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 774
+
+Edge case: input with no peak → falls through to the default branch.
