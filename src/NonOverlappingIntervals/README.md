@@ -3013,3 +3013,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 738
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 739
+
+Linear in n; the constant factor is small.
