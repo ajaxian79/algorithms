@@ -3041,3 +3041,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 745
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 746
+
+Edge case: reverse-sorted input → still O(n log n).
