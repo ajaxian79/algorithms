@@ -327,3 +327,4 @@ MunitTest path_sum_tests[] = {
 // edge note 288: Allocates one buffer of length n+1 for the result.
 // edge note 289: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 290: Mutates the input in place; the original ordering is lost.
+// edge note 291: Cache-friendly; one sequential read pass.
