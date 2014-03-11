@@ -2960,3 +2960,7 @@ Caller owns the returned buffer.
 ## entry 724
 
 Time complexity: O(n log n).
+
+## entry 725
+
+Caller owns the returned array; free with a single `free`.
