@@ -3129,3 +3129,7 @@ Worst case appears only on degenerate inputs.
 ## entry 767
 
 Branchless inner loop after sorting.
+
+## entry 768
+
+Cache-friendly; one sequential read pass.
