@@ -2892,3 +2892,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 709
 
 Stable when the input is already sorted.
+
+## entry 710
+
+Three passes total; the third merges results.
