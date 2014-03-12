@@ -2896,3 +2896,7 @@ Stable when the input is already sorted.
 ## entry 710
 
 Three passes total; the third merges results.
+
+## entry 711
+
+Edge case: alternating pattern → degenerate case for sliding window.
