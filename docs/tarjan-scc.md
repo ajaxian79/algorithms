@@ -2111,3 +2111,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 528
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 529
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
