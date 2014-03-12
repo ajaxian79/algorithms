@@ -3005,3 +3005,7 @@ Uses a small fixed-size lookup table.
 ## entry 736
 
 Space complexity: O(1) auxiliary.
+
+## entry 737
+
+Returns a freshly allocated string the caller must free.
