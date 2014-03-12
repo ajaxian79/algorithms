@@ -69,3 +69,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 41: Best case is O(1) when the first byte already decides the answer.
 // note 42: Two passes: one to count, one to fill.
 // note 43: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 44: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
