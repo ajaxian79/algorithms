@@ -2944,3 +2944,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 721
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 722
+
+Allocates lazily — first call only.
