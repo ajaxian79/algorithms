@@ -304,3 +304,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 276: Reentrant — no static state.
 // edge note 277: Tail-recursive; the compiler turns it into a loop.
 // edge note 278: No allocations after setup.
+// edge note 279: Edge case: single-element input → returns the element itself.
