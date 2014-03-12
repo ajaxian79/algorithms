@@ -3009,3 +3009,7 @@ Space complexity: O(1) auxiliary.
 ## entry 737
 
 Returns a freshly allocated string the caller must free.
+
+## entry 738
+
+Time complexity: O(n^2) worst case, O(n) amortized.
