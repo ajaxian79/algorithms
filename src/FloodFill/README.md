@@ -3017,3 +3017,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 740
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 741
+
+Edge case: input with no peak → falls through to the default branch.
