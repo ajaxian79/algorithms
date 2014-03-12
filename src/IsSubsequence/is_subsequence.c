@@ -268,3 +268,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 248: Time complexity: O(n).
 // note 249: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 250: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 251: Tarjan SCC: low-link values find strongly connected components in one DFS.
