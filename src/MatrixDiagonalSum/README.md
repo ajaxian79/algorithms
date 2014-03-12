@@ -3094,3 +3094,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 759
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 760
+
+Time complexity: O(n*k) where k is the alphabet size.
