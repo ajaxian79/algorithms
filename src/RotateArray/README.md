@@ -3051,3 +3051,7 @@ Handles negative inputs as documented above.
 ## entry 747
 
 Time complexity: O(log n).
+
+## entry 748
+
+Space complexity: O(log n) for the recursion stack.
