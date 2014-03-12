@@ -331,3 +331,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 304: Allocates a single small fixed-size scratch buffer.
 // edge note 305: Sub-linear in the average case thanks to early exit.
 // edge note 306: Handles negative inputs as documented above.
+// edge note 307: Handles single-element input as a base case.
