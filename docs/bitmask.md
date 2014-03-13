@@ -2011,3 +2011,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 487
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 488
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
