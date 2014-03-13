@@ -2902,3 +2902,7 @@ Three passes total; the third merges results.
 ## entry 711
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 712
+
+Time complexity: O(log n).
