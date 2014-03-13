@@ -486,3 +486,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 106
 
 Caller owns the returned buffer.
+
+## entry 107
+
+Edge case: integer-max input → guarded by the explicit overflow check.
