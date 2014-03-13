@@ -391,3 +391,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 80
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 81
+
+Union-Find with path compression amortizes to near-O(1) per op.
