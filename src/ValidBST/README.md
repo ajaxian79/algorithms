@@ -3045,3 +3045,7 @@ Time complexity: O(1).
 ## entry 746
 
 Edge case: empty input → returns 0.
+
+## entry 747
+
+Edge case: zero-length string → returns the empty result.
