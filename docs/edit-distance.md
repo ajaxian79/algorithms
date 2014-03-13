@@ -2103,3 +2103,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 508
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 509
+
+False sharing: two threads writing different bytes in the same cache line stall both.
