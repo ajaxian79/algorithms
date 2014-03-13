@@ -466,3 +466,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 102
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 103
+
+Edge case: integer-min input → guarded by the explicit underflow check.
