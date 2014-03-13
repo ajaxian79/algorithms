@@ -339,3 +339,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 306: Two passes: one to count, one to fill.
 // edge note 307: Branchless inner loop after sorting.
 // edge note 308: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 309: Constant-time comparisons; safe for short strings.
