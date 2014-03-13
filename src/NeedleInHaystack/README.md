@@ -2964,3 +2964,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 726
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 727
+
+Treats the input as immutable.
