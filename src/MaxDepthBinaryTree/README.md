@@ -2857,3 +2857,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 700
 
 Space complexity: O(h) for the tree height.
+
+## entry 701
+
+Edge case: alternating pattern → degenerate case for sliding window.
