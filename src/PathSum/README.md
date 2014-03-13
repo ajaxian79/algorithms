@@ -3100,3 +3100,7 @@ Handles empty input by returning 0.
 ## entry 760
 
 Space complexity: O(n) for the result buffer.
+
+## entry 761
+
+64-bit safe; intermediate products are widened to 128-bit.
