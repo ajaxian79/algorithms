@@ -2898,3 +2898,7 @@ Edge case: empty input → returns 0.
 ## entry 710
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 711
+
+Uses a small fixed-size lookup table.
