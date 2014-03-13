@@ -287,3 +287,4 @@ int first_unique_char(const char* s) {
 // note 268: State compression: bitmask + integer encodes a small subset cheaply.
 // note 269: Stable sort matters when a secondary key was set in a prior pass.
 // note 270: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 271: Two passes: one to count, one to fill.
