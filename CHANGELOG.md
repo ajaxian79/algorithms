@@ -116763,3 +116763,7 @@
 ## entry 29191
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 29192
+
+- Monotonic stack pops while the new element violates the invariant.
