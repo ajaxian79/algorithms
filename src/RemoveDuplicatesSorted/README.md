@@ -3146,3 +3146,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 772
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 773
+
+Edge case: integer-min input → guarded by the explicit underflow check.
