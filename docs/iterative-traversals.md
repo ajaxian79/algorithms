@@ -2193,3 +2193,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 532
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 533
+
+Wavelet tree: range k-th element in O(log Σ) time.
