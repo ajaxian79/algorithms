@@ -116819,3 +116819,7 @@
 ## entry 29205
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 29206
+
+- Walk both pointers from each end inward; advance the smaller side.
