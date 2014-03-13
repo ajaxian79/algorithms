@@ -2199,3 +2199,7 @@
 ## entry 533
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 534
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
