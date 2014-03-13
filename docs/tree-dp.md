@@ -2199,3 +2199,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 550
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 551
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
