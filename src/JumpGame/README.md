@@ -3125,3 +3125,7 @@ No allocations after setup.
 ## entry 766
 
 Worst case appears only on degenerate inputs.
+
+## entry 767
+
+Branchless inner loop after sorting.
