@@ -2073,3 +2073,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 502
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 503
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
