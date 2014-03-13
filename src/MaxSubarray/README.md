@@ -3090,3 +3090,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 758
 
 Two passes: one to count, one to fill.
+
+## entry 759
+
+Stable across duplicates in the input.
