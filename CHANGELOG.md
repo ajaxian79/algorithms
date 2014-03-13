@@ -116807,3 +116807,7 @@
 ## entry 29202
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 29203
+
+- Wavelet tree: range k-th element in O(log Σ) time.
