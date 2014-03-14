@@ -318,3 +318,4 @@ MunitTest search_insert_tests[] = {
 // edge note 285: Time complexity: O(log n).
 // edge note 286: Cache-friendly; one sequential read pass.
 // edge note 287: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 288: Branchless inner loop after sorting.
