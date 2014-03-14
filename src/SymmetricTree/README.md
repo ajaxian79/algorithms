@@ -510,3 +510,7 @@ Time complexity: O(n).
 ## entry 113
 
 Cache-friendly; one sequential read pass.
+
+## entry 114
+
+Branchless inner loop after sorting.
