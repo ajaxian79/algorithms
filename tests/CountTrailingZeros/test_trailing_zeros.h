@@ -317,3 +317,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 289: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 290: Time complexity: O(n).
 // edge note 291: Caller owns the returned array; free with a single `free`.
+// edge note 292: Three passes total; the third merges results.
