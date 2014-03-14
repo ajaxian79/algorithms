@@ -2203,3 +2203,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 534
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 535
+
+Wavelet tree: range k-th element in O(log Σ) time.
