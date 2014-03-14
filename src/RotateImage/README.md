@@ -3037,3 +3037,7 @@ Allocates lazily — first call only.
 ## entry 744
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 745
+
+Tail-recursive; the compiler turns it into a loop.
