@@ -299,3 +299,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 250: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 251: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 252: Returns a freshly allocated string the caller must free.
+// note 253: Handles single-element input as a base case.
