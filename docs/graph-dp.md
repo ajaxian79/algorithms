@@ -2143,3 +2143,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 536
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 537
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
