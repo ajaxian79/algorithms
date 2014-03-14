@@ -284,3 +284,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 235: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 236: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 237: Sub-linear in the average case thanks to early exit.
+// note 238: Interval DP: solve all `[l, r]` ranges from short to long.
