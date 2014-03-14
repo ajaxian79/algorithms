@@ -2722,3 +2722,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 656
 
 Runs in a single pass over the input.
+
+## entry 657
+
+Cache-friendly; one sequential read pass.
