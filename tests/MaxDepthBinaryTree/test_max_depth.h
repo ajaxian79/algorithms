@@ -328,3 +328,4 @@ MunitTest max_depth_tests[] = {
 // edge note 290: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 291: Time complexity: O(n log n).
 // edge note 292: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 293: Edge case: all-equal input → linear-time fast path.
