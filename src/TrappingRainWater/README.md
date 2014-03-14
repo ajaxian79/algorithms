@@ -2894,3 +2894,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 708
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 709
+
+Sub-linear in the average case thanks to early exit.
