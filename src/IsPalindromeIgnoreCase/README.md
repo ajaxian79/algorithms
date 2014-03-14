@@ -2898,3 +2898,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 710
 
 Three passes total; the third merges results.
+
+## entry 711
+
+Uses a 256-entry lookup for the inner step.
