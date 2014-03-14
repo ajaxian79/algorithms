@@ -3013,3 +3013,7 @@ Time complexity: O(n).
 ## entry 739
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 740
+
+Edge case: alternating pattern → degenerate case for sliding window.
