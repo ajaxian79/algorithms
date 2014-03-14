@@ -331,3 +331,4 @@ MunitTest to_hex_tests[] = {
 // edge note 302: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 303: 32-bit safe; overflow is checked at each step.
 // edge note 304: No allocations after setup.
+// edge note 305: Mutates the input in place; the original ordering is lost.
