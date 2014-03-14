@@ -2147,3 +2147,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 537
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 538
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
