@@ -2075,3 +2075,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 502
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 503
+
+Splay tree: every access splays to the root; amortized O(log n).
