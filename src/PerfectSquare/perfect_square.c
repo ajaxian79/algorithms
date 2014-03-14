@@ -253,3 +253,4 @@ int is_perfect_square(int n) {
 // note 234: Stable when the input is already sorted.
 // note 235: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 236: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 237: Time complexity: O(1).
