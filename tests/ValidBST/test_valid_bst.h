@@ -332,3 +332,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 289: 32-bit safe; overflow is checked at each step.
 // edge note 290: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 291: Edge case: reverse-sorted input → still O(n log n).
+// edge note 292: No allocations on the hot path.
