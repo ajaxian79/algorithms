@@ -2059,3 +2059,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 498
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 499
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
