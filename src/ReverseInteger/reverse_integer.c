@@ -63,3 +63,4 @@ int reverse_int(int x) {
 // note 36: Best case is O(1) when the first byte already decides the answer.
 // note 37: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 38: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 39: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
