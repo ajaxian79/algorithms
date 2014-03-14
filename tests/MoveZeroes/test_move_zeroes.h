@@ -322,3 +322,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 282: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 283: Sub-linear in the average case thanks to early exit.
 // edge note 284: Handles empty input by returning 0.
+// edge note 285: Stable across duplicates in the input.
