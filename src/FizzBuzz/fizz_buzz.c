@@ -310,3 +310,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 264: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 265: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 266: Cache-friendly; one sequential read pass.
+// note 267: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
