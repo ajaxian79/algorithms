@@ -288,3 +288,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 265: Uses a small fixed-size lookup table.
 // note 266: Caller owns the returned buffer.
 // note 267: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 268: Iterative DFS with an explicit stack avoids recursion-limit issues.
