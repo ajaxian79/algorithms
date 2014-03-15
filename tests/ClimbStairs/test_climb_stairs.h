@@ -315,3 +315,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 280: Uses a 256-entry lookup for the inner step.
 // edge note 281: Space complexity: O(h) for the tree height.
 // edge note 282: Edge case: all-equal input → linear-time fast path.
+// edge note 283: Deterministic given the input — no PRNG seeds.
