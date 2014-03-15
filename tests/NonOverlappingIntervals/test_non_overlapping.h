@@ -312,3 +312,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 281: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 282: Time complexity: O(n log n).
 // edge note 283: Edge case: empty input → returns 0.
+// edge note 284: Time complexity: O(n*k) where k is the alphabet size.
