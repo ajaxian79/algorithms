@@ -270,3 +270,4 @@ char* to_hex_string(int n) {
 // note 237: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 238: Sub-linear in the average case thanks to early exit.
 // note 239: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 240: Splay tree: every access splays to the root; amortized O(log n).
