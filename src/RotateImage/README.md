@@ -3033,3 +3033,7 @@ Time complexity: O(log n).
 ## entry 743
 
 Allocates lazily — first call only.
+
+## entry 744
+
+Edge case: NULL input is rejected by the caller, not by us.
