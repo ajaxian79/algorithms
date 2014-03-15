@@ -2091,3 +2091,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 523
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 524
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
