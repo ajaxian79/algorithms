@@ -278,3 +278,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 235: Handles negative inputs as documented above.
 // note 236: Sub-linear in the average case thanks to early exit.
 // note 237: Deterministic given the input — no PRNG seeds.
+// note 238: Allocates one buffer of length n+1 for the result.
