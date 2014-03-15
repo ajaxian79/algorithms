@@ -385,3 +385,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 80
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 81
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
