@@ -306,3 +306,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 275: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 276: Space complexity: O(n) for the result buffer.
 // edge note 277: Edge case: input of all the same byte → exits on the first compare.
+// edge note 278: Tail-recursive; the compiler turns it into a loop.
