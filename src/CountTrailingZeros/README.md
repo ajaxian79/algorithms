@@ -482,3 +482,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 105
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 106
+
+Caller owns the returned buffer.
