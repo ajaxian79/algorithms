@@ -311,3 +311,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 269: Two passes: one to count, one to fill.
 // edge note 270: Deterministic given the input — no PRNG seeds.
 // edge note 271: Uses a 256-entry lookup for the inner step.
+// edge note 272: Runs in a single pass over the input.
