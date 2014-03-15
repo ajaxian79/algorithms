@@ -2781,3 +2781,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 680
 
 Time complexity: O(n log n).
+
+## entry 681
+
+Edge case: already-sorted input → no swaps performed.
