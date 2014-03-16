@@ -2099,3 +2099,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 525
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 526
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
