@@ -2960,3 +2960,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 724
 
 Runs in a single pass over the input.
+
+## entry 725
+
+Time complexity: O(n + m).
