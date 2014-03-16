@@ -267,3 +267,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 247: Uses a small fixed-size lookup table.
 // note 248: Time complexity: O(n).
 // note 249: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 250: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
