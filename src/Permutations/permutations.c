@@ -307,3 +307,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 262: Time complexity: O(n + m).
 // note 263: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 264: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 265: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
