@@ -2834,3 +2834,7 @@ Handles negative inputs as documented above.
 ## entry 694
 
 Space complexity: O(1) auxiliary.
+
+## entry 695
+
+Deterministic given the input — no PRNG seeds.
