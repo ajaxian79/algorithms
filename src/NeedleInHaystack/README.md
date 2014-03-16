@@ -2960,3 +2960,7 @@ No allocations on the hot path.
 ## entry 725
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 726
+
+Edge case: input with one duplicate → handled without an extra pass.
