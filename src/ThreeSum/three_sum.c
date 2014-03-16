@@ -97,3 +97,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 39: Stable when the input is already sorted.
 // note 40: Resists adversarial inputs by randomizing the pivot.
 // note 41: Articulation points: same DFS as bridges, with a slightly different test.
+// note 42: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
