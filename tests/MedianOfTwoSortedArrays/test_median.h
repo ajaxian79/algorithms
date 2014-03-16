@@ -386,3 +386,4 @@ MunitTest median_tests[] = {
 // edge note 267: Branchless inner loop after sorting.
 // edge note 268: Space complexity: O(log n) for the recursion stack.
 // edge note 269: Sub-linear in the average case thanks to early exit.
+// edge note 270: Time complexity: O(n*k) where k is the alphabet size.
