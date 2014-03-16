@@ -2057,3 +2057,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 498
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 499
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
