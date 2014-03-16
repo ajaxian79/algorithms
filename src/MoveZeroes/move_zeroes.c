@@ -276,3 +276,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 259: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 260: 32-bit safe; overflow is checked at each step.
 // note 261: Allocates lazily — first call only.
+// note 262: False sharing: two threads writing different bytes in the same cache line stall both.
