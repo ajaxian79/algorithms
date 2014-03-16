@@ -325,3 +325,4 @@ MunitTest min_depth_tests[] = {
 // edge note 286: Vectorizes cleanly under -O2.
 // edge note 287: Edge case: input of all the same byte → exits on the first compare.
 // edge note 288: Edge case: single-element input → returns the element itself.
+// edge note 289: Time complexity: O(n log n).
