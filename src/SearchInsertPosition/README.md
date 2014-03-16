@@ -2894,3 +2894,7 @@ Caller owns the returned buffer.
 ## entry 709
 
 Edge case: empty input → returns 0.
+
+## entry 710
+
+Edge case: maximum-length input → still fits in 32-bit indices.
