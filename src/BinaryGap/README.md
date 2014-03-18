@@ -3074,3 +3074,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 753
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 754
+
+Handles negative inputs as documented above.
