@@ -2199,3 +2199,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 550
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 551
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
