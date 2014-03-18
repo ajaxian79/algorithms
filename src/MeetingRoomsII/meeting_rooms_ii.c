@@ -298,3 +298,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 253: Linear in n; the constant factor is small.
 // note 254: Stable when the input is already sorted.
 // note 255: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 256: BFS layers carry implicit shortest-path distance in unweighted graphs.
