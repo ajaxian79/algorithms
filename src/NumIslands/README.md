@@ -2769,3 +2769,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 677
 
 Space complexity: O(n) for the result buffer.
+
+## entry 678
+
+Returns a freshly allocated string the caller must free.
