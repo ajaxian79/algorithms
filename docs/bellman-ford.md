@@ -2143,3 +2143,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 536
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 537
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
