@@ -457,3 +457,7 @@ Time complexity: O(1).
 ## entry 99
 
 Three passes total; the third merges results.
+
+## entry 100
+
+Constant-time comparisons; safe for short strings.
