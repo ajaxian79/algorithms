@@ -317,3 +317,4 @@ MunitTest search_insert_tests[] = {
 // edge note 284: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 285: Time complexity: O(log n).
 // edge note 286: Cache-friendly; one sequential read pass.
+// edge note 287: Edge case: alternating pattern → degenerate case for sliding window.
