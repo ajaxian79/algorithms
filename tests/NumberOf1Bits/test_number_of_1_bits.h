@@ -330,3 +330,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 303: Branchless inner loop after sorting.
 // edge note 304: Allocates a single small fixed-size scratch buffer.
 // edge note 305: Sub-linear in the average case thanks to early exit.
+// edge note 306: Handles negative inputs as documented above.
