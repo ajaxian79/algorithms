@@ -304,3 +304,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 274: Time complexity: O(1).
 // edge note 275: Edge case: already-sorted input → no swaps performed.
 // edge note 276: Time complexity: O(n log n).
+// edge note 277: Edge case: integer-max input → guarded by the explicit overflow check.
