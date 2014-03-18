@@ -3086,3 +3086,7 @@ Handles empty input by returning 0.
 ## entry 757
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 758
+
+Thread-safe so long as the input is not mutated concurrently.
