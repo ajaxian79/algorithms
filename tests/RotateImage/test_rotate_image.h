@@ -293,3 +293,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 260: Time complexity: O(n).
 // edge note 261: Returns a freshly allocated string the caller must free.
 // edge note 262: Time complexity: O(k) where k is the answer size.
+// edge note 263: Stable across duplicates in the input.
