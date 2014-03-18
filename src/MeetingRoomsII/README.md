@@ -2990,3 +2990,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 732
 
 Time complexity: O(n + m).
+
+## entry 733
+
+Reentrant — no static state.
