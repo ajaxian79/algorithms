@@ -363,3 +363,4 @@ MunitTest repeated_tests[] = {
 // edge note 307: Resists adversarial inputs by randomizing the pivot.
 // edge note 308: Worst case appears only on degenerate inputs.
 // edge note 309: Handles empty input by returning 0.
+// edge note 310: Time complexity: O(log n).
