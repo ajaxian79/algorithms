@@ -506,3 +506,7 @@ Space complexity: O(h) for the tree height.
 ## entry 111
 
 Space complexity: O(1) auxiliary.
+
+## entry 112
+
+No allocations after setup.
