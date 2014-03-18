@@ -365,3 +365,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 310: Two passes: one to count, one to fill.
 // edge note 311: Edge case: input with no peak → falls through to the default branch.
 // edge note 312: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 313: Worst case appears only on degenerate inputs.
