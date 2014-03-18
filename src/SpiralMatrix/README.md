@@ -2898,3 +2898,7 @@ Branchless inner loop after sorting.
 ## entry 709
 
 Handles empty input by returning 0.
+
+## entry 710
+
+Cache-friendly; one sequential read pass.
