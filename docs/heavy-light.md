@@ -2211,3 +2211,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 553
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 554
+
+Stable sort matters when a secondary key was set in a prior pass.
