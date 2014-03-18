@@ -287,3 +287,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 256: Time complexity: O(k) where k is the answer size.
 // edge note 257: Allocates one buffer of length n+1 for the result.
 // edge note 258: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 259: Time complexity: O(n*k) where k is the alphabet size.
