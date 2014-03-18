@@ -3041,3 +3041,7 @@ Time complexity: O(n + m).
 ## entry 745
 
 Time complexity: O(1).
+
+## entry 746
+
+Edge case: empty input → returns 0.
