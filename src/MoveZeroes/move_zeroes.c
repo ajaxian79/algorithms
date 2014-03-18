@@ -275,3 +275,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 258: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 259: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 260: 32-bit safe; overflow is checked at each step.
+// note 261: Allocates lazily — first call only.
