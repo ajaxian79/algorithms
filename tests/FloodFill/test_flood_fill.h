@@ -303,3 +303,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 273: Uses a 256-entry lookup for the inner step.
 // edge note 274: Time complexity: O(1).
 // edge note 275: Edge case: already-sorted input → no swaps performed.
+// edge note 276: Time complexity: O(n log n).
