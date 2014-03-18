@@ -445,3 +445,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 236: State compression: bitmask + integer encodes a small subset cheaply.
 // note 237: Time complexity: O(n log n).
 // note 238: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 239: Interval tree: stores intervals on the median; query traverses O(log n) levels.
