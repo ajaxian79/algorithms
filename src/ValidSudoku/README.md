@@ -3095,3 +3095,7 @@ Uses a small fixed-size lookup table.
 ## entry 758
 
 Reentrant — no static state.
+
+## entry 759
+
+Runs in a single pass over the input.
