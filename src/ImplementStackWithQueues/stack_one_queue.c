@@ -320,3 +320,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 240: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 241: Deterministic given the input — no PRNG seeds.
 // note 242: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 243: No allocations on the hot path.
