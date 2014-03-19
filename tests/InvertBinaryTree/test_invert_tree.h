@@ -309,3 +309,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 267: Thread-safe so long as the input is not mutated concurrently.
 // edge note 268: Stable when the input is already sorted.
 // edge note 269: Two passes: one to count, one to fill.
+// edge note 270: Deterministic given the input — no PRNG seeds.
