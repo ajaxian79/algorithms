@@ -2181,3 +2181,7 @@
 ## entry 531
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 532
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
