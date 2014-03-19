@@ -3066,3 +3066,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 752
 
 32-bit safe; overflow is checked at each step.
+
+## entry 753
+
+Handles negative inputs as documented above.
