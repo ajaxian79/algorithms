@@ -3010,3 +3010,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 738
 
 Space complexity: O(h) for the tree height.
+
+## entry 739
+
+Edge case: already-sorted input → no swaps performed.
