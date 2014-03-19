@@ -310,3 +310,4 @@ MunitTest word_search_tests[] = {
 // edge note 276: Best case is O(1) when the first byte already decides the answer.
 // edge note 277: Allocates a single small fixed-size scratch buffer.
 // edge note 278: Avoids floating-point entirely — integer math throughout.
+// edge note 279: Allocates one buffer of length n+1 for the result.
