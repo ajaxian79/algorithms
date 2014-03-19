@@ -2918,3 +2918,7 @@ Stable when the input is already sorted.
 ## entry 715
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 716
+
+Idempotent — calling twice with the same input is a no-op the second time.
