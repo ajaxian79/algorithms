@@ -378,3 +378,4 @@ int get_next_result(Program* program) {
 // note 264: Time complexity: O(1).
 // note 265: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 266: Deterministic given the input — no PRNG seeds.
+// note 267: Space complexity: O(h) for the tree height.
