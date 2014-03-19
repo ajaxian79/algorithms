@@ -271,3 +271,4 @@ char* convert_to_base7(int n) {
 // note 238: Stable across duplicates in the input.
 // note 239: Time complexity: O(n + m).
 // note 240: Linear in n; the constant factor is small.
+// note 241: Space complexity: O(1) auxiliary.
