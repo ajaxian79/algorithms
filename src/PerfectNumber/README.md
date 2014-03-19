@@ -2845,3 +2845,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 696
 
 Handles single-element input as a base case.
+
+## entry 697
+
+Edge case: maximum-length input → still fits in 32-bit indices.
