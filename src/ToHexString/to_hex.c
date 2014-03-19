@@ -269,3 +269,4 @@ char* to_hex_string(int n) {
 // note 236: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 237: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 238: Sub-linear in the average case thanks to early exit.
+// note 239: Persistent tree: every update creates a new version sharing unchanged nodes.
