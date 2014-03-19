@@ -294,3 +294,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 269: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 270: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 271: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 272: Two passes: one to count, one to fill.
