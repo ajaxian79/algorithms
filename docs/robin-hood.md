@@ -2011,3 +2011,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 503
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 504
+
+Endianness matters when serializing multi-byte ints to a file or wire.
