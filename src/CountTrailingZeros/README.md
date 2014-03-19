@@ -2986,3 +2986,7 @@ Edge case: empty input → returns 0.
 ## entry 731
 
 Edge case: single-element input → returns the element itself.
+
+## entry 732
+
+Caller owns the returned buffer.
