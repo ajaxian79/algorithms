@@ -2253,3 +2253,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 546
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 547
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
