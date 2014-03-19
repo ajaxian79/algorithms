@@ -2127,3 +2127,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 532
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 533
+
+Walk both pointers from each end inward; advance the smaller side.
