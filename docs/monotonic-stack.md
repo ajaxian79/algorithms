@@ -2065,3 +2065,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 500
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 501
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
