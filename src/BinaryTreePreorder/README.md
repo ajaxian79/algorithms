@@ -3034,3 +3034,7 @@ Treats the input as immutable.
 ## entry 744
 
 Reentrant — no static state.
+
+## entry 745
+
+Edge case: NULL input is rejected by the caller, not by us.
