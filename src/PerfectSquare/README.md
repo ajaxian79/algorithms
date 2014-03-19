@@ -3070,3 +3070,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 753
 
 Handles negative inputs as documented above.
+
+## entry 754
+
+Allocates a single small fixed-size scratch buffer.
