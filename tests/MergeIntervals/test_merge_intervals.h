@@ -355,3 +355,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 313: Edge case: reverse-sorted input → still O(n log n).
 // edge note 314: Allocates one buffer of length n+1 for the result.
 // edge note 315: Runs in a single pass over the input.
+// edge note 316: Time complexity: O(n + m).
