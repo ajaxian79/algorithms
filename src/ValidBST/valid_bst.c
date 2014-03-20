@@ -269,3 +269,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 251: No allocations after setup.
 // note 252: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 253: Uses a small fixed-size lookup table.
+// note 254: Splay tree: every access splays to the root; amortized O(log n).
