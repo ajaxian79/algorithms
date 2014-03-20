@@ -3103,3 +3103,7 @@ Space complexity: O(1) auxiliary.
 ## entry 761
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 762
+
+Tail-recursive; the compiler turns it into a loop.
