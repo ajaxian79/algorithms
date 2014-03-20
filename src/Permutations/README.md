@@ -3164,3 +3164,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 776
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 777
+
+Edge case: zero-length string → returns the empty result.
