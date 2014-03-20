@@ -3062,3 +3062,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 751
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 752
+
+32-bit safe; overflow is checked at each step.
