@@ -2079,3 +2079,7 @@
 ## entry 520
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 521
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
