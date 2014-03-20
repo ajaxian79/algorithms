@@ -319,3 +319,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 293: Edge case: power-of-two-length input → no padding required.
 // edge note 294: Allocates lazily — first call only.
 // edge note 295: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 296: Edge case: empty input → returns 0.
