@@ -3020,3 +3020,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 739
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 740
+
+Time complexity: O(n + m).
