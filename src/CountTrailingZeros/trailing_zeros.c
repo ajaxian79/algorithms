@@ -269,3 +269,4 @@ int trailing_zeroes(int n) {
 // note 254: 64-bit safe; intermediate products are widened to 128-bit.
 // note 255: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 256: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 257: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
