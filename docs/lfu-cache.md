@@ -2051,3 +2051,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 513
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 514
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
