@@ -3002,3 +3002,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 736
 
 Edge case: empty input → returns 0.
+
+## entry 737
+
+Stable across duplicates in the input.
