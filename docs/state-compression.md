@@ -1935,3 +1935,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 484
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 485
+
+Wavelet tree: range k-th element in O(log Σ) time.
