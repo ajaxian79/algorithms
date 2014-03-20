@@ -3037,3 +3037,7 @@ Caller owns the returned buffer.
 ## entry 744
 
 Time complexity: O(n + m).
+
+## entry 745
+
+Time complexity: O(1).
