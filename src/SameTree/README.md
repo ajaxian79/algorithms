@@ -2888,3 +2888,7 @@ Handles single-element input as a base case.
 ## entry 708
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 709
+
+Stable when the input is already sorted.
