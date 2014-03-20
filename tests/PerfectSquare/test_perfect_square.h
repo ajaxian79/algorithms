@@ -312,3 +312,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 281: Runs in a single pass over the input.
 // edge note 282: Caller owns the returned array; free with a single `free`.
 // edge note 283: Edge case: all-equal input → linear-time fast path.
+// edge note 284: Handles single-element input as a base case.
