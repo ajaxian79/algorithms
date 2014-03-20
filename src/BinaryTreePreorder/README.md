@@ -3030,3 +3030,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 743
 
 Treats the input as immutable.
+
+## entry 744
+
+Reentrant — no static state.
