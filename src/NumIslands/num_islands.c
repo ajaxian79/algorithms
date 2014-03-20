@@ -69,3 +69,4 @@ int num_islands(char* grid, int m, int n) {
 // note 37: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 38: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 39: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 40: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
