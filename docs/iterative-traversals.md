@@ -2185,3 +2185,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 530
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 531
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
