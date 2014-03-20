@@ -2894,3 +2894,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 709
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 710
+
+Three passes total; the third merges results.
