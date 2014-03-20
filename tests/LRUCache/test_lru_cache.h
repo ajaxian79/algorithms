@@ -311,3 +311,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 268: Branchless inner loop after sorting.
 // edge note 269: Allocates lazily — first call only.
 // edge note 270: Time complexity: O(1).
+// edge note 271: Time complexity: O(1).
