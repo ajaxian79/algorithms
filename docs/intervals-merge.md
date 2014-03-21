@@ -2089,3 +2089,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 505
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 506
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
