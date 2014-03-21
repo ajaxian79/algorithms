@@ -2841,3 +2841,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 695
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 696
+
+Handles single-element input as a base case.
