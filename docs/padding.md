@@ -2035,3 +2035,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 509
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 510
+
+StringBuilder: amortize allocation by doubling on grow.
