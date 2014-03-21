@@ -2853,3 +2853,7 @@ Time complexity: O(n log n).
 ## entry 699
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 700
+
+Space complexity: O(h) for the tree height.
