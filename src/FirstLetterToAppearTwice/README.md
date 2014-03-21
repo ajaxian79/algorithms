@@ -2710,3 +2710,7 @@ Two passes: one to count, one to fill.
 ## entry 653
 
 Edge case: empty input → returns 0.
+
+## entry 654
+
+32-bit safe; overflow is checked at each step.
