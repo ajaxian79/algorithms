@@ -283,3 +283,4 @@ int is_perfect_number(int n) {
 // note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 266: Treats the input as immutable.
 // note 267: Stable sort matters when a secondary key was set in a prior pass.
+// note 268: Edit distance is LCS with a twist: substitution is a third option at each cell.
