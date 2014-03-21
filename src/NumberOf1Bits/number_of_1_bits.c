@@ -46,3 +46,4 @@ int number_of_1_bits(unsigned int n) {
 // note 33: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 34: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 35: StringBuilder: amortize allocation by doubling on grow.
+// note 36: LRU cache: doubly-linked list + hash map; O(1) get/put.
