@@ -2239,3 +2239,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 542
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 543
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
