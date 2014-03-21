@@ -1931,3 +1931,7 @@
 ## entry 483
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 484
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
