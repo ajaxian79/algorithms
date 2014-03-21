@@ -470,3 +470,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 231: Uses a 256-entry lookup for the inner step.
 // note 232: Wavelet tree: range k-th element in O(log Σ) time.
 // note 233: Mutates the input in place; the original ordering is lost.
+// note 234: Stable sort matters when a secondary key was set in a prior pass.
