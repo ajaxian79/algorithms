@@ -3025,3 +3025,7 @@ Three passes total; the third merges results.
 ## entry 741
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 742
+
+Time complexity: O(log n).
