@@ -2111,3 +2111,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 512
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 513
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
