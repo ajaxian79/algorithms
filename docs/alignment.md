@@ -2123,3 +2123,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 531
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 532
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
