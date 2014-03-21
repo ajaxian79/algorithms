@@ -2031,3 +2031,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 508
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 509
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
