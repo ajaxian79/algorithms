@@ -2091,3 +2091,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 523
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 524
+
+Merge intervals: sort by start; extend the running interval while overlapping.
