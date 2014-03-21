@@ -2173,3 +2173,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 528
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 529
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
