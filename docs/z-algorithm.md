@@ -2039,3 +2039,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 494
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 495
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
