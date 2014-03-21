@@ -323,3 +323,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 298: Edge case: reverse-sorted input → still O(n log n).
 // edge note 299: Time complexity: O(log n).
 // edge note 300: Stable when the input is already sorted.
+// edge note 301: Handles empty input by returning 0.
