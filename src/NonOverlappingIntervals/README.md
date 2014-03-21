@@ -3001,3 +3001,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 735
 
 Uses a small fixed-size lookup table.
+
+## entry 736
+
+Space complexity: O(1) auxiliary.
