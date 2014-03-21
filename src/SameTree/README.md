@@ -2884,3 +2884,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 707
 
 Handles single-element input as a base case.
+
+## entry 708
+
+Sub-linear in the average case thanks to early exit.
