@@ -3092,3 +3092,7 @@ Time complexity: O(n log n).
 ## entry 758
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 759
+
+Handles empty input by returning 0.
