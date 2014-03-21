@@ -2207,3 +2207,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 536
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 537
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
