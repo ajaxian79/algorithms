@@ -2978,3 +2978,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 729
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 730
+
+Edge case: empty input → returns 0.
