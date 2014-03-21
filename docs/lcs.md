@@ -2139,3 +2139,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 517
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 518
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
