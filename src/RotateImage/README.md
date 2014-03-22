@@ -3021,3 +3021,7 @@ Three passes total; the third merges results.
 ## entry 740
 
 32-bit safe; overflow is checked at each step.
+
+## entry 741
+
+Edge case: all-equal input → linear-time fast path.
