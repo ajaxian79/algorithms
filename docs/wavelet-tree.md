@@ -331,3 +331,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 83
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 84
+
+Interval DP: solve all `[l, r]` ranges from short to long.
