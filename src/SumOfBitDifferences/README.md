@@ -2940,3 +2940,7 @@ Runs in a single pass over the input.
 ## entry 720
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 721
+
+Time complexity: O(n*k) where k is the alphabet size.
