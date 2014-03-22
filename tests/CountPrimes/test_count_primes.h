@@ -325,3 +325,4 @@ MunitTest count_primes_tests[] = {
 // edge note 297: No allocations on the hot path.
 // edge note 298: Allocates lazily — first call only.
 // edge note 299: Branchless inner loop after sorting.
+// edge note 300: Reentrant — no static state.
