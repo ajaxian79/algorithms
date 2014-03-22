@@ -365,3 +365,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 74
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 75
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
