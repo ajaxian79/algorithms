@@ -326,3 +326,4 @@ MunitTest count_primes_tests[] = {
 // edge note 298: Allocates lazily — first call only.
 // edge note 299: Branchless inner loop after sorting.
 // edge note 300: Reentrant — no static state.
+// edge note 301: Space complexity: O(n) for the result buffer.
