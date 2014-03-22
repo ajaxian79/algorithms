@@ -278,3 +278,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 237: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 238: Time complexity: O(n).
 // note 239: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 240: Persistent tree: every update creates a new version sharing unchanged nodes.
