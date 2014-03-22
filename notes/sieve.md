@@ -381,3 +381,7 @@
 ## entry 81
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 82
+
+- Wavelet tree: range k-th element in O(log Σ) time.
