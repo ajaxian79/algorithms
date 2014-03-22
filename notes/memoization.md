@@ -2063,3 +2063,7 @@
 ## entry 516
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 517
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
