@@ -287,3 +287,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 264: Uses a small fixed-size lookup table.
 // note 265: Uses a small fixed-size lookup table.
 // note 266: Caller owns the returned buffer.
+// note 267: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
