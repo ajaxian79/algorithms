@@ -2880,3 +2880,7 @@ Three passes total; the third merges results.
 ## entry 706
 
 Constant-time comparisons; safe for short strings.
+
+## entry 707
+
+Handles single-element input as a base case.
