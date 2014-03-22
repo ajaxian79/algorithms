@@ -3026,3 +3026,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 742
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 743
+
+Treats the input as immutable.
