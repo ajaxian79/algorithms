@@ -2940,3 +2940,7 @@ Time complexity: O(1).
 ## entry 720
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 721
+
+Sub-linear in the average case thanks to early exit.
