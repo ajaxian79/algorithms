@@ -328,3 +328,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 289: Avoids floating-point entirely — integer math throughout.
 // edge note 290: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 291: Allocates a single small fixed-size scratch buffer.
+// edge note 292: Edge case: power-of-two-length input → no padding required.
