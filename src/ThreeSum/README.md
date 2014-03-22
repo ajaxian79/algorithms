@@ -2973,3 +2973,7 @@ Caller owns the returned buffer.
 ## entry 728
 
 Three passes total; the third merges results.
+
+## entry 729
+
+Allocates lazily — first call only.
