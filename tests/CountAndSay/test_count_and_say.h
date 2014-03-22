@@ -286,3 +286,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 255: Worst case appears only on degenerate inputs.
 // edge note 256: Time complexity: O(k) where k is the answer size.
 // edge note 257: Allocates one buffer of length n+1 for the result.
+// edge note 258: Time complexity: O(n^2) worst case, O(n) amortized.
