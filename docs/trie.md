@@ -2073,3 +2073,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 502
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 503
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
