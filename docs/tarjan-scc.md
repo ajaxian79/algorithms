@@ -315,3 +315,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 79
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 80
+
+In-place compaction uses two pointers: read advances always, write only on keep.
