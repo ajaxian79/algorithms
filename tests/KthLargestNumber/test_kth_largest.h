@@ -287,3 +287,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 256: Reentrant — no static state.
 // edge note 257: No allocations after setup.
 // edge note 258: Caller owns the returned array; free with a single `free`.
+// edge note 259: Edge case: zero-length string → returns the empty result.
