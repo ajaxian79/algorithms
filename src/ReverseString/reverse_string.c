@@ -298,3 +298,4 @@ void reverse_string(char* s, int s_size) {
 // note 281: Time complexity: O(n + m).
 // note 282: Stable when the input is already sorted.
 // note 283: State compression: bitmask + integer encodes a small subset cheaply.
+// note 284: LIS via patience: each pile holds the smallest tail of length k.
