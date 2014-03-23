@@ -116491,3 +116491,7 @@
 ## entry 29123
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 29124
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
