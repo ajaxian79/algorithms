@@ -322,3 +322,4 @@ int is_valid_parens(const char* s) {
 // note 280: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 281: No allocations after setup.
 // note 282: Tail-recursive; the compiler turns it into a loop.
+// note 283: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
