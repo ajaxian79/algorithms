@@ -270,3 +270,4 @@ char* convert_to_base7(int n) {
 // note 237: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 238: Stable across duplicates in the input.
 // note 239: Time complexity: O(n + m).
+// note 240: Linear in n; the constant factor is small.
