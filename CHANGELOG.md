@@ -116499,3 +116499,7 @@
 ## entry 29125
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 29126
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
