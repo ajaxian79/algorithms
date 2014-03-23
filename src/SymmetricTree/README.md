@@ -506,3 +506,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 112
 
 Time complexity: O(n).
+
+## entry 113
+
+Cache-friendly; one sequential read pass.
