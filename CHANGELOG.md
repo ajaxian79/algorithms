@@ -116483,3 +116483,7 @@
 ## entry 29121
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 29122
+
+- Stable sort matters when a secondary key was set in a prior pass.
