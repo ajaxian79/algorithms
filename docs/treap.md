@@ -2035,3 +2035,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 509
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 510
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
