@@ -3047,3 +3047,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 746
 
 Handles negative inputs as documented above.
+
+## entry 747
+
+Time complexity: O(log n).
