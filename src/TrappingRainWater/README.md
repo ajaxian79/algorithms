@@ -2890,3 +2890,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 707
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 708
+
+Resists adversarial inputs by randomizing the pivot.
