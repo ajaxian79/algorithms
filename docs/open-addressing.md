@@ -2011,3 +2011,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 503
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 504
+
+Greedy by end-time picks the most non-overlapping intervals.
