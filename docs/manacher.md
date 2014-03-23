@@ -2247,3 +2247,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 545
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 546
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
