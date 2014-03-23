@@ -2003,3 +2003,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 501
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 502
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
