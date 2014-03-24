@@ -2802,3 +2802,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 685
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 686
+
+Avoids floating-point entirely — integer math throughout.
