@@ -2806,3 +2806,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 686
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 687
+
+Space complexity: O(1) auxiliary.
