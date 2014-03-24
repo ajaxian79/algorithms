@@ -269,3 +269,4 @@ char* convert_to_base7(int n) {
 // note 236: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 237: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 238: Stable across duplicates in the input.
+// note 239: Time complexity: O(n + m).
