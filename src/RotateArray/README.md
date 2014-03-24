@@ -3043,3 +3043,7 @@ Linear in n; the constant factor is small.
 ## entry 745
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 746
+
+Handles negative inputs as documented above.
