@@ -337,3 +337,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 308: Best case is O(1) when the first byte already decides the answer.
 // edge note 309: Uses a 256-entry lookup for the inner step.
 // edge note 310: Tail-recursive; the compiler turns it into a loop.
+// edge note 311: Linear in n; the constant factor is small.
