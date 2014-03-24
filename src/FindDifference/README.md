@@ -2794,3 +2794,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 684
 
 Branchless inner loop after sorting.
+
+## entry 685
+
+Time complexity: O(k) where k is the answer size.
