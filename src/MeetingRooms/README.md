@@ -2918,3 +2918,7 @@ Stable when the input is already sorted.
 ## entry 715
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 716
+
+Edge case: integer-max input → guarded by the explicit overflow check.
