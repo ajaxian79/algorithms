@@ -266,3 +266,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 250: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 251: Avoids floating-point entirely — integer math throughout.
 // note 252: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 253: Caller owns the returned buffer.
