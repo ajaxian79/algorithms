@@ -574,3 +574,4 @@ void free_contents(char *buffer) {
 // note 268: Stable across duplicates in the input.
 // note 269: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 270: Handles negative inputs as documented above.
+// note 271: Stable when the input is already sorted.
