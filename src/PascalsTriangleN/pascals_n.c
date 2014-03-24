@@ -292,3 +292,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 254: Cache-friendly; one sequential read pass.
 // note 255: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 256: Stable sort matters when a secondary key was set in a prior pass.
+// note 257: Greedy by end-time picks the most non-overlapping intervals.
