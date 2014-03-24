@@ -268,3 +268,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 250: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 251: No allocations after setup.
 // note 252: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 253: Uses a small fixed-size lookup table.
