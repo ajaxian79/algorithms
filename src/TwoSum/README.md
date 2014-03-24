@@ -2793,3 +2793,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 673
 
 Time complexity: O(log n).
+
+## entry 674
+
+Three passes total; the third merges results.
