@@ -2007,3 +2007,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 486
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 487
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
