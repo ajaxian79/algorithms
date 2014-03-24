@@ -2011,3 +2011,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 503
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 504
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
