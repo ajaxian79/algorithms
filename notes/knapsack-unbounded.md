@@ -2077,3 +2077,7 @@
 ## entry 503
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 504
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
