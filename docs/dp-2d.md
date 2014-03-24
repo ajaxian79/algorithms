@@ -2203,3 +2203,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 535
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 536
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
