@@ -331,3 +331,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 292: Two passes: one to count, one to fill.
 // edge note 293: Tail-recursive; the compiler turns it into a loop.
 // edge note 294: Cache-friendly; one sequential read pass.
+// edge note 295: Time complexity: O(log n).
