@@ -384,3 +384,4 @@ MunitTest median_tests[] = {
 // edge note 265: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 266: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 267: Branchless inner loop after sorting.
+// edge note 268: Space complexity: O(log n) for the recursion stack.
