@@ -349,3 +349,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 290: Vectorizes cleanly under -O2.
 // edge note 291: Edge case: all-equal input → linear-time fast path.
 // edge note 292: Cache-friendly; one sequential read pass.
+// edge note 293: 32-bit safe; overflow is checked at each step.
