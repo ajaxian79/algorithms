@@ -2047,3 +2047,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 512
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 513
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
