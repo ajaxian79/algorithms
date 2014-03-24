@@ -2890,3 +2890,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 708
 
 Caller owns the returned buffer.
+
+## entry 709
+
+Edge case: empty input → returns 0.
