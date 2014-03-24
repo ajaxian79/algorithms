@@ -290,3 +290,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 264: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 265: Time complexity: O(log n).
 // edge note 266: Handles negative inputs as documented above.
+// edge note 267: 64-bit safe; intermediate products are widened to 128-bit.
