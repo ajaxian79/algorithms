@@ -2936,3 +2936,7 @@ Uses a small fixed-size lookup table.
 ## entry 719
 
 Time complexity: O(1).
+
+## entry 720
+
+64-bit safe; intermediate products are widened to 128-bit.
