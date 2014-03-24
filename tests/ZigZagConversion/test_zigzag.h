@@ -298,3 +298,4 @@ MunitTest zigzag_tests[] = {
 // edge note 270: Runs in a single pass over the input.
 // edge note 271: Vectorizes cleanly under -O2.
 // edge note 272: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 273: Time complexity: O(n + m).
