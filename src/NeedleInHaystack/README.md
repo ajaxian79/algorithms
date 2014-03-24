@@ -2956,3 +2956,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 724
 
 No allocations on the hot path.
+
+## entry 725
+
+Edge case: integer-min input → guarded by the explicit underflow check.
