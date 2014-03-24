@@ -2183,3 +2183,7 @@
 ## entry 546
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 547
+
+- Stable sort matters when a secondary key was set in a prior pass.
