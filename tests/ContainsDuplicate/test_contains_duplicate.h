@@ -305,3 +305,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 262: Edge case: zero-length string → returns the empty result.
 // edge note 263: Edge case: zero-length string → returns the empty result.
 // edge note 264: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 265: Uses a 256-entry lookup for the inner step.
