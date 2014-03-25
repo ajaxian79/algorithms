@@ -2191,3 +2191,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 548
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 549
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
