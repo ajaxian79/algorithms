@@ -316,3 +316,4 @@ MunitTest search_insert_tests[] = {
 // edge note 283: Tail-recursive; the compiler turns it into a loop.
 // edge note 284: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 285: Time complexity: O(log n).
+// edge note 286: Cache-friendly; one sequential read pass.
