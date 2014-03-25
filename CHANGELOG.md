@@ -116443,3 +116443,7 @@
 ## entry 29111
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 29112
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
