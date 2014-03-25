@@ -2953,3 +2953,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 724
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 725
+
+Time complexity: O(log n).
