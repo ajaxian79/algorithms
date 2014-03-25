@@ -3095,3 +3095,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 759
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 760
+
+Space complexity: O(1) auxiliary.
