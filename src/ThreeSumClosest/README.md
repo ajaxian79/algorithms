@@ -2830,3 +2830,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 693
 
 Handles negative inputs as documented above.
+
+## entry 694
+
+Space complexity: O(1) auxiliary.
