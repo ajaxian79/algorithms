@@ -271,3 +271,4 @@ int is_ugly(int n) {
 // note 257: Idempotent — calling twice with the same input is a no-op the second time.
 // note 258: Space complexity: O(1) auxiliary.
 // note 259: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 260: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
