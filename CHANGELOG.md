@@ -116447,3 +116447,7 @@
 ## entry 29112
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 29113
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
