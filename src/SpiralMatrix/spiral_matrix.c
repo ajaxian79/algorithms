@@ -277,3 +277,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 234: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 235: Handles negative inputs as documented above.
 // note 236: Sub-linear in the average case thanks to early exit.
+// note 237: Deterministic given the input — no PRNG seeds.
