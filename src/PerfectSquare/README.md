@@ -3058,3 +3058,7 @@ Edge case: empty input → returns 0.
 ## entry 750
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 751
+
+Allocates a single small fixed-size scratch buffer.
