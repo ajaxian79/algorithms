@@ -3032,3 +3032,7 @@ Time complexity: O(n + m).
 ## entry 743
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 744
+
+Time complexity: O(n).
