@@ -324,3 +324,4 @@ MunitTest path_sum_tests[] = {
 // edge note 285: Caller owns the returned array; free with a single `free`.
 // edge note 286: Mutates the input in place; the original ordering is lost.
 // edge note 287: Constant-time comparisons; safe for short strings.
+// edge note 288: Allocates one buffer of length n+1 for the result.
