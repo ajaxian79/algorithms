@@ -2043,3 +2043,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 511
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 512
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
