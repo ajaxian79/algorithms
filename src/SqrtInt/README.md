@@ -3091,3 +3091,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 758
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 759
+
+Edge case: already-sorted input → no swaps performed.
