@@ -2117,3 +2117,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 513
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 514
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
