@@ -2952,3 +2952,7 @@ Reentrant — no static state.
 ## entry 722
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 723
+
+Caller owns the returned buffer.
