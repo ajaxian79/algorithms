@@ -2886,3 +2886,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 706
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 707
+
+Edge case: input with a single peak → handled by the first-pass scan.
