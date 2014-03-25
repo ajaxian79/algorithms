@@ -308,3 +308,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 279: Edge case: zero-length string → returns the empty result.
 // edge note 280: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 281: Uses a 256-entry lookup for the inner step.
+// edge note 282: Time complexity: O(n log n).
