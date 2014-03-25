@@ -325,3 +325,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 300: Space complexity: O(h) for the tree height.
 // edge note 301: Worst case appears only on degenerate inputs.
 // edge note 302: Time complexity: O(k) where k is the answer size.
+// edge note 303: Caller owns the returned array; free with a single `free`.
