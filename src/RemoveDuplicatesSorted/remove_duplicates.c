@@ -265,3 +265,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 249: Time complexity: O(log n).
 // note 250: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 251: Avoids floating-point entirely — integer math throughout.
+// note 252: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
