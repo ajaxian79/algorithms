@@ -315,3 +315,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 287: Uses a small fixed-size lookup table.
 // edge note 288: Space complexity: O(h) for the tree height.
 // edge note 289: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 290: Time complexity: O(n).
