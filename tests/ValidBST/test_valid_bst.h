@@ -330,3 +330,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 287: Best case is O(1) when the first byte already decides the answer.
 // edge note 288: Edge case: power-of-two-length input → no padding required.
 // edge note 289: 32-bit safe; overflow is checked at each step.
+// edge note 290: Idempotent — calling twice with the same input is a no-op the second time.
