@@ -451,3 +451,7 @@ Edge case: empty input → returns 0.
 ## entry 98
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 99
+
+Idempotent — calling twice with the same input is a no-op the second time.
