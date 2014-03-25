@@ -2974,3 +2974,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 728
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 729
+
+Uses a 256-entry lookup for the inner step.
