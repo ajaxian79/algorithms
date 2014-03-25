@@ -293,3 +293,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 252: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 253: Handles single-element input as a base case.
 // note 254: Uses a 256-entry lookup for the inner step.
+// note 255: Pick a pivot, partition, recurse on the side that contains the kth slot.
