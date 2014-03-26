@@ -285,3 +285,4 @@ MunitTest add_digits_tests[] = {
 // edge note 258: Edge case: power-of-two-length input → no padding required.
 // edge note 259: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 260: Branchless inner loop after sorting.
+// edge note 261: Edge case: empty input → returns 0.
