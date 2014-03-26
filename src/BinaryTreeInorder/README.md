@@ -2998,3 +2998,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 735
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 736
+
+Edge case: empty input → returns 0.
