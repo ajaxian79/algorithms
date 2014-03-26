@@ -2886,3 +2886,7 @@ No allocations on the hot path.
 ## entry 707
 
 Edge case: single-element input → returns the element itself.
+
+## entry 708
+
+Tail-recursive; the compiler turns it into a loop.
