@@ -2798,3 +2798,7 @@ Branchless inner loop after sorting.
 ## entry 685
 
 Space complexity: O(h) for the tree height.
+
+## entry 686
+
+Treats the input as immutable.
