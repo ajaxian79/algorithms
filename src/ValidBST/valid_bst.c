@@ -55,3 +55,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 37: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 38: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 39: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 40: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
