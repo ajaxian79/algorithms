@@ -317,3 +317,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 283: Edge case: already-sorted input → no swaps performed.
 // edge note 284: Space complexity: O(h) for the tree height.
 // edge note 285: Edge case: input of all the same byte → exits on the first compare.
+// edge note 286: Caller owns the returned buffer.
