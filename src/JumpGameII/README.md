@@ -452,3 +452,7 @@ Worst case appears only on degenerate inputs.
 ## entry 98
 
 Time complexity: O(n log n).
+
+## entry 99
+
+Worst case appears only on degenerate inputs.
