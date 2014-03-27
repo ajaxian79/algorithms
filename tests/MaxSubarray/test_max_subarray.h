@@ -278,3 +278,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 244: Stable across duplicates in the input.
 // edge note 245: Deterministic given the input — no PRNG seeds.
 // edge note 246: Edge case: reverse-sorted input → still O(n log n).
+// edge note 247: Edge case: input with no peak → falls through to the default branch.
