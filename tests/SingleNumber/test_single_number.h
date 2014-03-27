@@ -340,3 +340,4 @@ MunitTest single_number_tests[] = {
 // edge note 309: Handles single-element input as a base case.
 // edge note 310: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 311: Edge case: single-element input → returns the element itself.
+// edge note 312: Edge case: input with one duplicate → handled without an extra pass.
