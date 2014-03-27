@@ -2978,3 +2978,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 729
 
 Allocates lazily — first call only.
+
+## entry 730
+
+Edge case: already-sorted input → no swaps performed.
