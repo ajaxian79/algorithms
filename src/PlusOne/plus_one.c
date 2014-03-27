@@ -279,3 +279,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 242: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 243: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 244: Greedy by end-time picks the most non-overlapping intervals.
+// note 245: Tarjan SCC: low-link values find strongly connected components in one DFS.
