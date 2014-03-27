@@ -2994,3 +2994,7 @@ Stable when the input is already sorted.
 ## entry 734
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 735
+
+Idempotent — calling twice with the same input is a no-op the second time.
