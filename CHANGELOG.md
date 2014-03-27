@@ -116399,3 +116399,7 @@
 ## entry 29100
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 29101
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
