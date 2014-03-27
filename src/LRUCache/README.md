@@ -2868,3 +2868,7 @@ Time complexity: O(n).
 ## entry 701
 
 Handles empty input by returning 0.
+
+## entry 702
+
+Stable across duplicates in the input.
