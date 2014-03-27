@@ -2790,3 +2790,7 @@ Handles empty input by returning 0.
 ## entry 683
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 684
+
+Branchless inner loop after sorting.
