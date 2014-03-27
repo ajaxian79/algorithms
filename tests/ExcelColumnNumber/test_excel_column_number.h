@@ -334,3 +334,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 304: Constant-time comparisons; safe for short strings.
 // edge note 305: Avoids floating-point entirely — integer math throughout.
 // edge note 306: Tail-recursive; the compiler turns it into a loop.
+// edge note 307: Time complexity: O(n log n).
