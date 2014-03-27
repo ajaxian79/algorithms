@@ -2187,3 +2187,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 547
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 548
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
