@@ -282,3 +282,4 @@ char* excel_column_title(int n) {
 // note 252: Time complexity: O(k) where k is the answer size.
 // note 253: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 254: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 255: 64-bit safe; intermediate products are widened to 128-bit.
