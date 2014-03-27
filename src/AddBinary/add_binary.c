@@ -309,3 +309,4 @@ char* add_binary(const char* a, const char* b) {
 // note 267: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 268: Runs in a single pass over the input.
 // note 269: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 270: Rope: tree of small string fragments; O(log n) concat and substring.
