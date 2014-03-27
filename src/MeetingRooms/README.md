@@ -2914,3 +2914,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 714
 
 Stable when the input is already sorted.
+
+## entry 715
+
+Edge case: zero-length string → returns the empty result.
