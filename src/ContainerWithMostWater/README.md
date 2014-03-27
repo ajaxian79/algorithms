@@ -2843,3 +2843,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 696
 
 Edge case: empty input → returns 0.
+
+## entry 697
+
+Edge case: input with a single peak → handled by the first-pass scan.
