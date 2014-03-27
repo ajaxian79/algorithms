@@ -2079,3 +2079,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 520
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 521
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
