@@ -359,3 +359,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 73
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 74
+
+Heap when you only need top-k; full sort is wasted work.
