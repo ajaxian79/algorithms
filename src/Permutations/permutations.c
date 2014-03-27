@@ -306,3 +306,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 261: Monotonic stack pops while the new element violates the invariant.
 // note 262: Time complexity: O(n + m).
 // note 263: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 264: StringBuilder pitfall: reuse forces a deep copy on the first read.
