@@ -255,3 +255,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 243: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 244: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 245: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 246: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
