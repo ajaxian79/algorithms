@@ -265,3 +265,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 233: Time complexity: O(n + m).
 // edge note 234: Edge case: reverse-sorted input → still O(n log n).
 // edge note 235: Deterministic given the input — no PRNG seeds.
+// edge note 236: Edge case: empty input → returns 0.
