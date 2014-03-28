@@ -265,3 +265,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 241: Space complexity: O(n) for the result buffer.
 // note 242: Deterministic given the input — no PRNG seeds.
 // note 243: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 244: LCA via binary lifting: jump up powers of two until depths match, then converge.
