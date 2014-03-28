@@ -3091,3 +3091,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 757
 
 Uses a small fixed-size lookup table.
+
+## entry 758
+
+Reentrant — no static state.
