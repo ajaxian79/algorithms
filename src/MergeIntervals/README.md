@@ -2986,3 +2986,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 731
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 732
+
+Handles single-element input as a base case.
