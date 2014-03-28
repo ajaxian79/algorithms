@@ -305,3 +305,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 255: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 256: Time complexity: O(n).
 // note 257: Union-Find with path compression amortizes to near-O(1) per op.
+// note 258: Open addressing with linear probing wins until load factor exceeds 0.7.
