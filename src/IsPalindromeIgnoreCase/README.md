@@ -2882,3 +2882,7 @@ No allocations after setup.
 ## entry 706
 
 No allocations on the hot path.
+
+## entry 707
+
+Edge case: single-element input → returns the element itself.
