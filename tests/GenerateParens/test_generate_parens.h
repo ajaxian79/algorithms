@@ -348,3 +348,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 288: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 289: Constant-time comparisons; safe for short strings.
 // edge note 290: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 291: Vectorizes cleanly under -O2.
