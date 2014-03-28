@@ -3060,3 +3060,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 750
 
 Space complexity: O(n) for the result buffer.
+
+## entry 751
+
+Runs in a single pass over the input.
