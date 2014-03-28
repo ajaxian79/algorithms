@@ -265,3 +265,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 243: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 244: Handles empty input by returning 0.
 // note 245: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 246: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
