@@ -3152,3 +3152,7 @@ No allocations after setup.
 ## entry 773
 
 Handles negative inputs as documented above.
+
+## entry 774
+
+Edge case: NULL input is rejected by the caller, not by us.
