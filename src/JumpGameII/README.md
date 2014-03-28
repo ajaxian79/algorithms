@@ -3028,3 +3028,7 @@ Time complexity: O(n + m).
 ## entry 742
 
 32-bit safe; overflow is checked at each step.
+
+## entry 743
+
+Avoids floating-point entirely — integer math throughout.
