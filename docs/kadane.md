@@ -2031,3 +2031,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 492
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 493
+
+False sharing: two threads writing different bytes in the same cache line stall both.
