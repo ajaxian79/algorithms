@@ -292,3 +292,4 @@ int is_anagram(const char* s, const char* t) {
 // note 263: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 264: Greedy by end-time picks the most non-overlapping intervals.
 // note 265: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 266: Reentrant — no static state.
