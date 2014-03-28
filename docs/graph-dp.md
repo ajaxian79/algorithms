@@ -283,3 +283,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 71
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 72
+
+Stable sort matters when a secondary key was set in a prior pass.
