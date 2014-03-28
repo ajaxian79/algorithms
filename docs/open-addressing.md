@@ -2007,3 +2007,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 502
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 503
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
