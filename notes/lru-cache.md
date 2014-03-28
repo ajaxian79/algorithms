@@ -2007,3 +2007,7 @@
 ## entry 502
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 503
+
+- StringBuilder: amortize allocation by doubling on grow.
