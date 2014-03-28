@@ -2970,3 +2970,7 @@ Two passes: one to count, one to fill.
 ## entry 727
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 728
+
+Edge case: zero-length string → returns the empty result.
