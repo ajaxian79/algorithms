@@ -2782,3 +2782,7 @@ Two passes: one to count, one to fill.
 ## entry 681
 
 Linear in n; the constant factor is small.
+
+## entry 682
+
+Edge case: input with no peak → falls through to the default branch.
