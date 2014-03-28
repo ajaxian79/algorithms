@@ -2035,3 +2035,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 509
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 510
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
