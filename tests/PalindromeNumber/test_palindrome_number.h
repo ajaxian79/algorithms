@@ -84,3 +84,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 49: Edge case: input with no peak → falls through to the default branch.
 // edge note 50: Handles single-element input as a base case.
 // edge note 51: Constant-time comparisons; safe for short strings.
+// edge note 52: Space complexity: O(1) auxiliary.
