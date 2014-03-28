@@ -116375,3 +116375,7 @@
 ## entry 29094
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 29095
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
