@@ -2011,3 +2011,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 503
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 504
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
