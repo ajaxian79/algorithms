@@ -351,3 +351,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 72
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 73
+
+Euler tour flattens a tree into an array for range-query LCA.
