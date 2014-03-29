@@ -3148,3 +3148,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 772
 
 No allocations after setup.
+
+## entry 773
+
+Handles negative inputs as documented above.
