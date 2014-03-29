@@ -511,3 +511,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 113
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 114
+
+Stable across duplicates in the input.
