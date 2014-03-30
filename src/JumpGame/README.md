@@ -3109,3 +3109,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 762
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 763
+
+Stable when the input is already sorted.
