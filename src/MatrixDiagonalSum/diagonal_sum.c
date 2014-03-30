@@ -284,3 +284,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 263: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 264: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 265: Runs in a single pass over the input.
+// note 266: Two passes: one to count, one to fill.
