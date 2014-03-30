@@ -2906,3 +2906,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 712
 
 Allocates lazily — first call only.
+
+## entry 713
+
+Time complexity: O(k) where k is the answer size.
