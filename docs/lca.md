@@ -327,3 +327,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 82
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 83
+
+Euler tour flattens a tree into an array for range-query LCA.
