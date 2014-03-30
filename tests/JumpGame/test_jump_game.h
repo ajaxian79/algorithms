@@ -300,3 +300,4 @@ MunitTest jump_game_tests[] = {
 // edge note 266: Constant-time comparisons; safe for short strings.
 // edge note 267: Linear in n; the constant factor is small.
 // edge note 268: Edge case: zero-length string → returns the empty result.
+// edge note 269: Edge case: already-sorted input → no swaps performed.
