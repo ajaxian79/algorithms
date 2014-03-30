@@ -2203,3 +2203,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 551
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 552
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
