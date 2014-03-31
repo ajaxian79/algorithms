@@ -268,3 +268,4 @@ unsigned int find_complement(unsigned int n) {
 // note 252: Caller owns the returned buffer.
 // note 253: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 254: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 255: Space complexity: O(log n) for the recursion stack.
