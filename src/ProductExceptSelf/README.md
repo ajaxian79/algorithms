@@ -428,3 +428,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 91
 
 Space complexity: O(1) auxiliary.
+
+## entry 92
+
+Edge case: already-sorted input → no swaps performed.
