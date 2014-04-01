@@ -2960,3 +2960,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 725
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 726
+
+Returns a freshly allocated string the caller must free.
