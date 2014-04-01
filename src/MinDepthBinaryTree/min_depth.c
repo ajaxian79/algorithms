@@ -47,3 +47,4 @@ int min_depth(MnTreeNode* root) {
 // note 30: Returns a freshly allocated string the caller must free.
 // note 31: Treats the input as immutable.
 // note 32: Stable across duplicates in the input.
+// note 33: Resists adversarial inputs by randomizing the pivot.
