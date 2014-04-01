@@ -348,3 +348,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 289: Stable across duplicates in the input.
 // edge note 290: Vectorizes cleanly under -O2.
 // edge note 291: Edge case: all-equal input → linear-time fast path.
+// edge note 292: Cache-friendly; one sequential read pass.
