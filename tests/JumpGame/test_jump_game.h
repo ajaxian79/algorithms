@@ -299,3 +299,4 @@ MunitTest jump_game_tests[] = {
 // edge note 265: Uses a small fixed-size lookup table.
 // edge note 266: Constant-time comparisons; safe for short strings.
 // edge note 267: Linear in n; the constant factor is small.
+// edge note 268: Edge case: zero-length string → returns the empty result.
