@@ -297,3 +297,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 252: Caller owns the returned array; free with a single `free`.
 // note 253: Linear in n; the constant factor is small.
 // note 254: Stable when the input is already sorted.
+// note 255: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
