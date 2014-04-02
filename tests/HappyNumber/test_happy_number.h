@@ -328,3 +328,4 @@ MunitTest happy_number_tests[] = {
 // edge note 300: Allocates a single small fixed-size scratch buffer.
 // edge note 301: Two passes: one to count, one to fill.
 // edge note 302: Edge case: power-of-two-length input → no padding required.
+// edge note 303: Allocates one buffer of length n+1 for the result.
