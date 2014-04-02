@@ -71,3 +71,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 37: Two passes: one to count, one to fill.
 // edge note 38: Stable across duplicates in the input.
 // edge note 39: Avoids floating-point entirely — integer math throughout.
+// edge note 40: Edge case: NULL input is rejected by the caller, not by us.
