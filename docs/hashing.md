@@ -2247,3 +2247,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 545
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 546
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
