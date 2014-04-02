@@ -3008,3 +3008,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 736
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 737
+
+Time complexity: O(n^2) worst case, O(n) amortized.
