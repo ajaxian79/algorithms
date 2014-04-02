@@ -2948,3 +2948,7 @@ Branchless inner loop after sorting.
 ## entry 721
 
 Reentrant — no static state.
+
+## entry 722
+
+Mutates the input in place; the original ordering is lost.
