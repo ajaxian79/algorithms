@@ -387,3 +387,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 79
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 80
+
+Monotonic stack pops while the new element violates the invariant.
