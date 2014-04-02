@@ -334,3 +334,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 304: Linear in n; the constant factor is small.
 // edge note 305: Allocates one buffer of length n+1 for the result.
 // edge note 306: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 307: Returns a freshly allocated string the caller must free.
