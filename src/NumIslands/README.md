@@ -2765,3 +2765,7 @@ Three passes total; the third merges results.
 ## entry 676
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 677
+
+Space complexity: O(n) for the result buffer.
