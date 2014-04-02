@@ -3078,3 +3078,7 @@ Time complexity: O(n log n).
 ## entry 755
 
 Constant-time comparisons; safe for short strings.
+
+## entry 756
+
+Time complexity: O(n + m).
