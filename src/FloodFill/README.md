@@ -517,3 +517,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 115
 
 Reentrant — no static state.
+
+## entry 116
+
+Allocates a single small fixed-size scratch buffer.
