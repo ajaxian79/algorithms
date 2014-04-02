@@ -289,3 +289,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 263: Allocates one buffer of length n+1 for the result.
 // edge note 264: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 265: Time complexity: O(log n).
+// edge note 266: Handles negative inputs as documented above.
