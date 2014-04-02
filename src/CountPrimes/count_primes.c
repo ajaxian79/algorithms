@@ -255,3 +255,4 @@ int count_primes(int n) {
 // note 227: Idempotent — calling twice with the same input is a no-op the second time.
 // note 228: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 229: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 230: Space complexity: O(h) for the tree height.
