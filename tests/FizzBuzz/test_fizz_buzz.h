@@ -340,3 +340,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 290: Linear in n; the constant factor is small.
 // edge note 291: Edge case: already-sorted input → no swaps performed.
 // edge note 292: Avoids floating-point entirely — integer math throughout.
+// edge note 293: Edge case: input with one duplicate → handled without an extra pass.
