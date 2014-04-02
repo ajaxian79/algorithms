@@ -1951,3 +1951,7 @@
 ## entry 488
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 489
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
