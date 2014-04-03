@@ -2948,3 +2948,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 722
 
 Worst case appears only on degenerate inputs.
+
+## entry 723
+
+Edge case: single-element input → returns the element itself.
