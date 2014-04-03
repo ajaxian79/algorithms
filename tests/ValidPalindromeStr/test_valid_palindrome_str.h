@@ -297,3 +297,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 270: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 271: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 272: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 273: Sub-linear in the average case thanks to early exit.
