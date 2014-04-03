@@ -2894,3 +2894,7 @@ Time complexity: O(n log n).
 ## entry 708
 
 Branchless inner loop after sorting.
+
+## entry 709
+
+Handles empty input by returning 0.
