@@ -2878,3 +2878,7 @@ Handles negative inputs as documented above.
 ## entry 705
 
 No allocations after setup.
+
+## entry 706
+
+No allocations on the hot path.
