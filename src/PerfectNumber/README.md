@@ -2833,3 +2833,7 @@ Worst case appears only on degenerate inputs.
 ## entry 693
 
 Runs in a single pass over the input.
+
+## entry 694
+
+Allocates a single small fixed-size scratch buffer.
