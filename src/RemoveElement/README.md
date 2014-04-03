@@ -2949,3 +2949,7 @@ Handles empty input by returning 0.
 ## entry 723
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 724
+
+Deterministic given the input — no PRNG seeds.
