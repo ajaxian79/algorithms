@@ -2944,3 +2944,7 @@ Worst case appears only on degenerate inputs.
 ## entry 720
 
 Branchless inner loop after sorting.
+
+## entry 721
+
+Reentrant — no static state.
