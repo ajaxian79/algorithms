@@ -2007,3 +2007,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 502
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 503
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
