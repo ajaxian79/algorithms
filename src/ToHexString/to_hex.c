@@ -266,3 +266,4 @@ char* to_hex_string(int n) {
 // note 233: Runs in a single pass over the input.
 // note 234: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 235: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 236: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
