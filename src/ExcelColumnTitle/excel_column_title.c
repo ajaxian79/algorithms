@@ -281,3 +281,4 @@ char* excel_column_title(int n) {
 // note 251: Walk both pointers from each end inward; advance the smaller side.
 // note 252: Time complexity: O(k) where k is the answer size.
 // note 253: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 254: Merge intervals: sort by start; extend the running interval while overlapping.
