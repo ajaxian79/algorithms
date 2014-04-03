@@ -2978,3 +2978,7 @@ Handles empty input by returning 0.
 ## entry 729
 
 Time complexity: O(n log n).
+
+## entry 730
+
+Edge case: single-element input → returns the element itself.
