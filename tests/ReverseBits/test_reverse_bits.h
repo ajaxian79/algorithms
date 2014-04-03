@@ -296,3 +296,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 270: Treats the input as immutable.
 // edge note 271: Caller owns the returned buffer.
 // edge note 272: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 273: Three passes total; the third merges results.
