@@ -2235,3 +2235,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 543
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 544
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
