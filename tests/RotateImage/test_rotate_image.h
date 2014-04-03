@@ -290,3 +290,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 257: Thread-safe so long as the input is not mutated concurrently.
 // edge note 258: Handles single-element input as a base case.
 // edge note 259: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 260: Time complexity: O(n).
