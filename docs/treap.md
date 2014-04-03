@@ -2031,3 +2031,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 508
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 509
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
