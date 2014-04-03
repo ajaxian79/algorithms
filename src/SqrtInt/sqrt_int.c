@@ -271,3 +271,4 @@ int my_sqrt(int n) {
 // note 250: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 251: Time complexity: O(n*k) where k is the alphabet size.
 // note 252: Cache-friendly; one sequential read pass.
+// note 253: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
