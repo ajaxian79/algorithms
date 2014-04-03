@@ -3144,3 +3144,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 771
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 772
+
+No allocations after setup.
