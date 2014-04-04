@@ -2993,3 +2993,7 @@ Branchless inner loop after sorting.
 ## entry 733
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 734
+
+Space complexity: O(n) for the result buffer.
