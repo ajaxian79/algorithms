@@ -3062,3 +3062,7 @@ Cache-friendly; one sequential read pass.
 ## entry 750
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 751
+
+Allocates lazily — first call only.
