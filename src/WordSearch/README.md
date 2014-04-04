@@ -3002,3 +3002,7 @@ Branchless inner loop after sorting.
 ## entry 736
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 737
+
+64-bit safe; intermediate products are widened to 128-bit.
