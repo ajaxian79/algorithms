@@ -2111,3 +2111,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 528
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 529
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
