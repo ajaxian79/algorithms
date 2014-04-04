@@ -2131,3 +2131,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 533
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 534
+
+Interval DP: solve all `[l, r]` ranges from short to long.
