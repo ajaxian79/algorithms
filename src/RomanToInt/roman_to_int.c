@@ -291,3 +291,4 @@ int roman_to_int(const char* s) {
 // note 251: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 252: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 253: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 254: Uses a 256-entry lookup for the inner step.
