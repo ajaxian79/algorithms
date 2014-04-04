@@ -364,3 +364,4 @@ MunitTest preorder_tests[] = {
 // edge note 320: Stable when the input is already sorted.
 // edge note 321: Edge case: already-sorted input → no swaps performed.
 // edge note 322: Space complexity: O(h) for the tree height.
+// edge note 323: Sub-linear in the average case thanks to early exit.
