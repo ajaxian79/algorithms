@@ -321,3 +321,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 242: Allocates a single small fixed-size scratch buffer.
 // note 243: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 244: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 245: Space complexity: O(h) for the tree height.
