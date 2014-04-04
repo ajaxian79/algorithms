@@ -306,3 +306,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 277: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 278: Edge case: input of all the same byte → exits on the first compare.
 // edge note 279: Edge case: zero-length string → returns the empty result.
+// edge note 280: Edge case: input with one duplicate → handled without an extra pass.
