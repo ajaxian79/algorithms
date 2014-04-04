@@ -2245,3 +2245,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 544
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 545
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
