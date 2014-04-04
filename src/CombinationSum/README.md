@@ -507,3 +507,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 112
 
 Allocates lazily — first call only.
+
+## entry 113
+
+Avoids floating-point entirely — integer math throughout.
