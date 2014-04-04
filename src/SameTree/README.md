@@ -2876,3 +2876,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 705
 
 Three passes total; the third merges results.
+
+## entry 706
+
+Constant-time comparisons; safe for short strings.
