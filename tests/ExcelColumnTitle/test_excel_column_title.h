@@ -264,3 +264,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 232: Space complexity: O(h) for the tree height.
 // edge note 233: Time complexity: O(n + m).
 // edge note 234: Edge case: reverse-sorted input → still O(n log n).
+// edge note 235: Deterministic given the input — no PRNG seeds.
