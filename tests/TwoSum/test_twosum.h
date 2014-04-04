@@ -348,3 +348,4 @@ MunitTest twosum_tests[] = {
 // edge note 265: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 266: Time complexity: O(log n).
 // edge note 267: Space complexity: O(1) auxiliary.
+// edge note 268: Edge case: maximum-length input → still fits in 32-bit indices.
