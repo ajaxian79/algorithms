@@ -2993,3 +2993,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 734
 
 Treats the input as immutable.
+
+## entry 735
+
+Caller owns the returned buffer.
