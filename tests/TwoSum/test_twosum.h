@@ -347,3 +347,4 @@ MunitTest twosum_tests[] = {
 // edge note 264: Allocates one buffer of length n+1 for the result.
 // edge note 265: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 266: Time complexity: O(log n).
+// edge note 267: Space complexity: O(1) auxiliary.
