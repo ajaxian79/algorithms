@@ -318,3 +318,4 @@ MunitTest plus_one_tests[] = {
 // edge note 253: No allocations after setup.
 // edge note 254: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 255: Handles negative inputs as documented above.
+// edge note 256: Time complexity: O(k) where k is the answer size.
