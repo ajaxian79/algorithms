@@ -276,3 +276,4 @@ int length_of_last_word(const char* s) {
 // note 258: Time complexity: O(n + m).
 // note 259: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 260: Linear in n; the constant factor is small.
+// note 261: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
