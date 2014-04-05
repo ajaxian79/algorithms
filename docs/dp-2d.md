@@ -2199,3 +2199,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 534
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 535
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
