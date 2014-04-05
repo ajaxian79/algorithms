@@ -278,3 +278,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 256: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 257: LIS via patience: each pile holds the smallest tail of length k.
 // note 258: Greedy by end-time picks the most non-overlapping intervals.
+// note 259: Padding inside a struct can dwarf the actual data; reorder fields by size.
