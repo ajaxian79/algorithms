@@ -2055,3 +2055,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 514
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 515
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
