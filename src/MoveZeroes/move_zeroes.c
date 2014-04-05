@@ -273,3 +273,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 256: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 257: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 258: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 259: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
