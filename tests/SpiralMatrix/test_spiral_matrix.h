@@ -318,3 +318,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 275: Linear in n; the constant factor is small.
 // edge note 276: Time complexity: O(n).
 // edge note 277: Stable when the input is already sorted.
+// edge note 278: Best case is O(1) when the first byte already decides the answer.
