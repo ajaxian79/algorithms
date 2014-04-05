@@ -338,3 +338,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 294: Thread-safe so long as the input is not mutated concurrently.
 // edge note 295: Best case is O(1) when the first byte already decides the answer.
 // edge note 296: Reentrant — no static state.
+// edge note 297: Returns a freshly allocated string the caller must free.
