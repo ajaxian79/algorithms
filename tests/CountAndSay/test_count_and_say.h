@@ -285,3 +285,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 254: Edge case: empty input → returns 0.
 // edge note 255: Worst case appears only on degenerate inputs.
 // edge note 256: Time complexity: O(k) where k is the answer size.
+// edge note 257: Allocates one buffer of length n+1 for the result.
