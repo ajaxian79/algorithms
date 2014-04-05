@@ -2111,3 +2111,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 528
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 529
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
