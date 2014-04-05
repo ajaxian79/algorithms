@@ -57,3 +57,4 @@ char repeatedCharacter(char* s) {
 // note 34: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 35: Resists adversarial inputs by randomizing the pivot.
 // note 36: Cache-friendly; one sequential read pass.
+// note 37: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
