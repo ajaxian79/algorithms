@@ -2826,3 +2826,7 @@ No allocations on the hot path.
 ## entry 692
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 693
+
+Handles negative inputs as documented above.
