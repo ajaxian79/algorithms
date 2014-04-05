@@ -2079,3 +2079,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 520
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 521
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
