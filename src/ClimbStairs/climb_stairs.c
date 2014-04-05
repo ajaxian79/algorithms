@@ -264,3 +264,4 @@ long long climb_stairs(int n) {
 // note 245: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 246: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 247: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 248: StringBuilder: amortize allocation by doubling on grow.
