@@ -312,3 +312,4 @@ MunitTest permutations_tests[] = {
 // edge note 271: Avoids floating-point entirely — integer math throughout.
 // edge note 272: Caller owns the returned array; free with a single `free`.
 // edge note 273: Edge case: zero-length string → returns the empty result.
+// edge note 274: Space complexity: O(log n) for the recursion stack.
