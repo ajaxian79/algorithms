@@ -2191,3 +2191,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 548
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 549
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
