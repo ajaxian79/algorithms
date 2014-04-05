@@ -2969,3 +2969,7 @@ Edge case: empty input → returns 0.
 ## entry 727
 
 Caller owns the returned buffer.
+
+## entry 728
+
+Three passes total; the third merges results.
