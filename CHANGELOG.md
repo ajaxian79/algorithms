@@ -116299,3 +116299,7 @@
 ## entry 29075
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 29076
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
