@@ -2125,3 +2125,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 513
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 514
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
