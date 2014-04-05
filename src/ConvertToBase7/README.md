@@ -500,3 +500,7 @@ Two passes: one to count, one to fill.
 ## entry 110
 
 Time complexity: O(1).
+
+## entry 111
+
+Edge case: alternating pattern → degenerate case for sliding window.
