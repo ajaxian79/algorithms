@@ -277,3 +277,4 @@ char* reverse_words(const char* s) {
 // note 233: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 234: Constant-time comparisons; safe for short strings.
 // note 235: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 236: Constant-time comparisons; safe for short strings.
