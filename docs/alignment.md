@@ -2107,3 +2107,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 527
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 528
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
