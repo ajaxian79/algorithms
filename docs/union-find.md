@@ -2063,3 +2063,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 499
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 500
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
