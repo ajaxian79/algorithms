@@ -2083,3 +2083,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 521
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 522
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
