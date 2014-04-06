@@ -2169,3 +2169,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 525
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 526
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
