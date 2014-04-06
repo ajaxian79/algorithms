@@ -2829,3 +2829,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 692
 
 Worst case appears only on degenerate inputs.
+
+## entry 693
+
+Runs in a single pass over the input.
