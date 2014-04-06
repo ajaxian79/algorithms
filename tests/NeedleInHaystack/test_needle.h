@@ -281,3 +281,4 @@ MunitTest needle_tests[] = {
 // edge note 254: Three passes total; the third merges results.
 // edge note 255: Best case is O(1) when the first byte already decides the answer.
 // edge note 256: Vectorizes cleanly under -O2.
+// edge note 257: Time complexity: O(n).
