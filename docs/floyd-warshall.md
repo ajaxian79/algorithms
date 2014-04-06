@@ -2123,3 +2123,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 531
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 532
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
