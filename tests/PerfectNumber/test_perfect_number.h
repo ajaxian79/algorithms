@@ -332,3 +332,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 302: Resists adversarial inputs by randomizing the pivot.
 // edge note 303: Constant-time comparisons; safe for short strings.
 // edge note 304: Linear in n; the constant factor is small.
+// edge note 305: Allocates one buffer of length n+1 for the result.
