@@ -2866,3 +2866,7 @@ Treats the input as immutable.
 ## entry 702
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 703
+
+Time complexity: O(n*k) where k is the alphabet size.
