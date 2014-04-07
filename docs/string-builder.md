@@ -2195,3 +2195,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 549
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 550
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
