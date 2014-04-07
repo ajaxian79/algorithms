@@ -1995,3 +1995,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 499
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 500
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
