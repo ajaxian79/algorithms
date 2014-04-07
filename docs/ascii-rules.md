@@ -2175,3 +2175,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 544
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 545
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
