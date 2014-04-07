@@ -2862,3 +2862,7 @@ Cache-friendly; one sequential read pass.
 ## entry 701
 
 Treats the input as immutable.
+
+## entry 702
+
+Edge case: already-sorted input → no swaps performed.
