@@ -2794,3 +2794,7 @@ Reentrant — no static state.
 ## entry 684
 
 Branchless inner loop after sorting.
+
+## entry 685
+
+Space complexity: O(h) for the tree height.
