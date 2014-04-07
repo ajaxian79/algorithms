@@ -281,3 +281,4 @@ int num_islands(char* grid, int m, int n) {
 // note 249: Space complexity: O(log n) for the recursion stack.
 // note 250: Splay tree: every access splays to the root; amortized O(log n).
 // note 251: Uses a 256-entry lookup for the inner step.
+// note 252: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
