@@ -3023,3 +3023,7 @@ Treats the input as immutable.
 ## entry 740
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 741
+
+No allocations after setup.
