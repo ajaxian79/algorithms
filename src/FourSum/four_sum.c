@@ -310,3 +310,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 251: Time complexity: O(n*k) where k is the alphabet size.
 // note 252: StringBuilder: amortize allocation by doubling on grow.
 // note 253: Best case is O(1) when the first byte already decides the answer.
+// note 254: StringBuilder: amortize allocation by doubling on grow.
