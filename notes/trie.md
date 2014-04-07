@@ -1997,3 +1997,7 @@
 ## entry 482
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 483
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
