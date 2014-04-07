@@ -494,3 +494,7 @@ Allocates lazily — first call only.
 ## entry 109
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 110
+
+Edge case: input with no peak → falls through to the default branch.
