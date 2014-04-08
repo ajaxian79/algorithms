@@ -361,3 +361,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 73
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 74
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
