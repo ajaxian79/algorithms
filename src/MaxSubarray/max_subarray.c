@@ -239,3 +239,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 223: Constant-time comparisons; safe for short strings.
 // note 224: Linear in n; the constant factor is small.
 // note 225: Deterministic given the input — no PRNG seeds.
+// note 226: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
