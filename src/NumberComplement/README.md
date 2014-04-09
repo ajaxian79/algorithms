@@ -3032,3 +3032,7 @@ Allocates lazily — first call only.
 ## entry 742
 
 Handles negative inputs as documented above.
+
+## entry 743
+
+Space complexity: O(h) for the tree height.
