@@ -271,3 +271,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 68
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 69
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
