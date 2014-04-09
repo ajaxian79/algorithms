@@ -2935,3 +2935,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 719
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 720
+
+Handles negative inputs as documented above.
