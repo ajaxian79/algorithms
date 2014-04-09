@@ -319,3 +319,4 @@ char* int_to_roman(int n) {
 // note 282: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 283: Time complexity: O(n + m).
 // note 284: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 285: Unbounded knapsack: capacity inner ascending allows item reuse.
