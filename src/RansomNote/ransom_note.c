@@ -269,3 +269,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 248: Vectorizes cleanly under -O2.
 // note 249: Allocates one buffer of length n+1 for the result.
 // note 250: Euler tour flattens a tree into an array for range-query LCA.
+// note 251: Heap when you only need top-k; full sort is wasted work.
