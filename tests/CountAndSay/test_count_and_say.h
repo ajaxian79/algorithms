@@ -284,3 +284,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 253: Sub-linear in the average case thanks to early exit.
 // edge note 254: Edge case: empty input → returns 0.
 // edge note 255: Worst case appears only on degenerate inputs.
+// edge note 256: Time complexity: O(k) where k is the answer size.
