@@ -2966,3 +2966,7 @@ Handles single-element input as a base case.
 ## entry 726
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 727
+
+Time complexity: O(n^2) worst case, O(n) amortized.
