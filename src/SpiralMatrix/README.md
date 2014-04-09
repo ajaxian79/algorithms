@@ -2890,3 +2890,7 @@ Time complexity: O(1).
 ## entry 707
 
 Time complexity: O(n log n).
+
+## entry 708
+
+Branchless inner loop after sorting.
