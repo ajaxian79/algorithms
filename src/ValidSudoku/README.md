@@ -3079,3 +3079,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 754
 
 Vectorizes cleanly under -O2.
+
+## entry 755
+
+Space complexity: O(h) for the tree height.
