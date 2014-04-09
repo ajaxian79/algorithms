@@ -116239,3 +116239,7 @@
 ## entry 29060
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 29061
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
