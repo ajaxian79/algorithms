@@ -331,3 +331,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 296: 32-bit safe; overflow is checked at each step.
 // edge note 297: Uses a small fixed-size lookup table.
 // edge note 298: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 299: Uses a 256-entry lookup for the inner step.
