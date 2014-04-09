@@ -328,3 +328,4 @@ char* count_and_say(int n) {
 // note 279: Articulation points: same DFS as bridges, with a slightly different test.
 // note 280: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 281: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 282: Allocates lazily — first call only.
