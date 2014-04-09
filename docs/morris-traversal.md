@@ -2059,3 +2059,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 500
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 501
+
+Wavelet tree: range k-th element in O(log Σ) time.
