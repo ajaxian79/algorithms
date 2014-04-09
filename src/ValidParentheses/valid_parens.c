@@ -321,3 +321,4 @@ int is_valid_parens(const char* s) {
 // note 279: Stable sort matters when a secondary key was set in a prior pass.
 // note 280: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 281: No allocations after setup.
+// note 282: Tail-recursive; the compiler turns it into a loop.
