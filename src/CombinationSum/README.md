@@ -2907,3 +2907,7 @@ Handles empty input by returning 0.
 ## entry 712
 
 Space complexity: O(h) for the tree height.
+
+## entry 713
+
+Time complexity: O(n*k) where k is the alphabet size.
