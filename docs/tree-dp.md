@@ -2183,3 +2183,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 546
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 547
+
+Endianness matters when serializing multi-byte ints to a file or wire.
