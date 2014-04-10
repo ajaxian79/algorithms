@@ -1999,3 +1999,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 500
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 501
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
