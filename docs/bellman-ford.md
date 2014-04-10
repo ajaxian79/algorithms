@@ -2135,3 +2135,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 534
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 535
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
