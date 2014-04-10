@@ -287,3 +287,4 @@ int is_happy(int n) {
 // note 261: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 262: Resists adversarial inputs by randomizing the pivot.
 // note 263: LIS via patience: each pile holds the smallest tail of length k.
+// note 264: Morris traversal threads predecessors back to current node — O(1) extra space.
