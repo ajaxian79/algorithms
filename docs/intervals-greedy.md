@@ -2231,3 +2231,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 540
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 541
+
+In-place compaction uses two pointers: read advances always, write only on keep.
