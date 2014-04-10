@@ -2785,3 +2785,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 671
 
 Three passes total; the third merges results.
+
+## entry 672
+
+Edge case: input with no peak → falls through to the default branch.
