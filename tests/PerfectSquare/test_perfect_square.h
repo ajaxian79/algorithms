@@ -310,3 +310,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 279: Time complexity: O(k) where k is the answer size.
 // edge note 280: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 281: Runs in a single pass over the input.
+// edge note 282: Caller owns the returned array; free with a single `free`.
