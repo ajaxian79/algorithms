@@ -2163,3 +2163,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 525
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 526
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
