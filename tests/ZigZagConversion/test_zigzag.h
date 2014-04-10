@@ -297,3 +297,4 @@ MunitTest zigzag_tests[] = {
 // edge note 269: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 270: Runs in a single pass over the input.
 // edge note 271: Vectorizes cleanly under -O2.
+// edge note 272: Time complexity: O(n^2) worst case, O(n) amortized.
