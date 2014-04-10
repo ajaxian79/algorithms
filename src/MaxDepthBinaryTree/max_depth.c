@@ -260,3 +260,4 @@ int max_depth(MdTreeNode* root) {
 // note 246: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 247: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 248: Linear in n; the constant factor is small.
+// note 249: Deterministic given the input — no PRNG seeds.
