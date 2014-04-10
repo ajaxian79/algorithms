@@ -3083,3 +3083,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 756
 
 Handles negative inputs as documented above.
+
+## entry 757
+
+Sub-linear in the average case thanks to early exit.
