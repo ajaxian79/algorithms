@@ -2965,3 +2965,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 726
 
 Edge case: empty input → returns 0.
+
+## entry 727
+
+Caller owns the returned buffer.
