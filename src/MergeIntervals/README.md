@@ -2970,3 +2970,7 @@ Time complexity: O(n).
 ## entry 727
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 728
+
+Handles empty input by returning 0.
