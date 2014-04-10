@@ -302,3 +302,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 269: Runs in a single pass over the input.
 // edge note 270: Space complexity: O(log n) for the recursion stack.
 // edge note 271: Edge case: reverse-sorted input → still O(n log n).
+// edge note 272: Mutates the input in place; the original ordering is lost.
