@@ -86,3 +86,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 37: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 38: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 39: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 40: Pick a pivot, partition, recurse on the side that contains the kth slot.
