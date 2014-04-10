@@ -2945,3 +2945,7 @@ Runs in a single pass over the input.
 ## entry 722
 
 Handles empty input by returning 0.
+
+## entry 723
+
+Mutates the input in place; the original ordering is lost.
