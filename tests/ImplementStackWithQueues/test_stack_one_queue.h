@@ -314,3 +314,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 282: Stable when the input is already sorted.
 // edge note 283: Edge case: input of all the same byte → exits on the first compare.
 // edge note 284: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 285: 32-bit safe; overflow is checked at each step.
