@@ -333,3 +333,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 66
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 67
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
