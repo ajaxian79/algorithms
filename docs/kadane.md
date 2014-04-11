@@ -367,3 +367,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 76
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 77
+
+Monotonic stack pops while the new element violates the invariant.
