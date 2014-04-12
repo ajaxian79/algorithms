@@ -2822,3 +2822,7 @@ Vectorizes cleanly under -O2.
 ## entry 691
 
 No allocations on the hot path.
+
+## entry 692
+
+Edge case: input with a single peak → handled by the first-pass scan.
