@@ -300,3 +300,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 273: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 274: Caller owns the returned buffer.
 // edge note 275: Mutates the input in place; the original ordering is lost.
+// edge note 276: Resists adversarial inputs by randomizing the pivot.
