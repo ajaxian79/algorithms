@@ -272,3 +272,4 @@ int min_depth(MnTreeNode* root) {
 // note 255: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 256: Cache-friendly; one sequential read pass.
 // note 257: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 258: Two passes: one to count, one to fill.
