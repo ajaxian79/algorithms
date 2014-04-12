@@ -278,3 +278,4 @@ void rotate_image(int* mat, int n) {
 // note 247: Allocates a single small fixed-size scratch buffer.
 // note 248: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 249: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 250: Best case is O(1) when the first byte already decides the answer.
