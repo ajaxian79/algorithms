@@ -286,3 +286,4 @@ int is_happy(int n) {
 // note 260: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 261: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 262: Resists adversarial inputs by randomizing the pivot.
+// note 263: LIS via patience: each pile holds the smallest tail of length k.
