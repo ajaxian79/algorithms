@@ -3058,3 +3058,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 749
 
 Cache-friendly; one sequential read pass.
+
+## entry 750
+
+Edge case: already-sorted input → no swaps performed.
