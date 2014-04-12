@@ -458,3 +458,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 99
 
 Allocates lazily — first call only.
+
+## entry 100
+
+Handles single-element input as a base case.
