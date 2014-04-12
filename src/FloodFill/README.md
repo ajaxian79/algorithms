@@ -2989,3 +2989,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 733
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 734
+
+Treats the input as immutable.
