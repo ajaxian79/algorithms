@@ -320,3 +320,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 295: Treats the input as immutable.
 // edge note 296: Treats the input as immutable.
 // edge note 297: Allocates a single small fixed-size scratch buffer.
+// edge note 298: Edge case: reverse-sorted input → still O(n log n).
