@@ -2007,3 +2007,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 502
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 503
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
