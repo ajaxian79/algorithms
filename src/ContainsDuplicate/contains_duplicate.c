@@ -347,3 +347,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 268: Greedy by end-time picks the most non-overlapping intervals.
 // note 269: No allocations on the hot path.
 // note 270: Resists adversarial inputs by randomizing the pivot.
+// note 271: Euler tour flattens a tree into an array for range-query LCA.
