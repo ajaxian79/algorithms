@@ -334,3 +334,4 @@ MunitTest add_strings_tests[] = {
 // edge note 298: Edge case: reverse-sorted input → still O(n log n).
 // edge note 299: Mutates the input in place; the original ordering is lost.
 // edge note 300: Edge case: single-element input → returns the element itself.
+// edge note 301: Handles single-element input as a base case.
