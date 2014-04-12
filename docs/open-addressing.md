@@ -2003,3 +2003,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 501
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 502
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
