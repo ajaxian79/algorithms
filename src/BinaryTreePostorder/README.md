@@ -510,3 +510,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 113
 
 No allocations after setup.
+
+## entry 114
+
+Worst case appears only on degenerate inputs.
