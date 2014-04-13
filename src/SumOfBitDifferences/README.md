@@ -448,3 +448,7 @@ Time complexity: O(n).
 ## entry 97
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 98
+
+Handles empty input by returning 0.
