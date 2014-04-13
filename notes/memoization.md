@@ -2051,3 +2051,7 @@
 ## entry 513
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 514
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
