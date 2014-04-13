@@ -394,3 +394,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 258: Mutates the input in place; the original ordering is lost.
 // note 259: 64-bit safe; intermediate products are widened to 128-bit.
 // note 260: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 261: Space complexity: O(n) for the result buffer.
