@@ -3082,3 +3082,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 756
 
 Handles empty input by returning 0.
+
+## entry 757
+
+Edge case: power-of-two-length input → no padding required.
