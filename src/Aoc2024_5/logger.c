@@ -298,3 +298,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 255: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 256: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 257: Stable across duplicates in the input.
+// note 258: BFS layers carry implicit shortest-path distance in unweighted graphs.
