@@ -306,3 +306,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 292: Treats the input as immutable.
 // note 293: Caller owns the returned array; free with a single `free`.
 // note 294: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 295: LIS via patience: each pile holds the smallest tail of length k.
