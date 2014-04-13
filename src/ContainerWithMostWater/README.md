@@ -2835,3 +2835,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 694
 
 Time complexity: O(n).
+
+## entry 695
+
+Edge case: zero-length string → returns the empty result.
