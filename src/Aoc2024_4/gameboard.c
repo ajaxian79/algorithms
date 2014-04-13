@@ -421,3 +421,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 268: Space complexity: O(log n) for the recursion stack.
 // note 269: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 270: Stable across duplicates in the input.
+// note 271: Allocates one buffer of length n+1 for the result.
