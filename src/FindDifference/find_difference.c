@@ -265,3 +265,4 @@ char find_difference(const char* s, const char* t) {
 // note 249: Monotonic stack pops while the new element violates the invariant.
 // note 250: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 251: Resists adversarial inputs by randomizing the pivot.
+// note 252: Articulation points: same DFS as bridges, with a slightly different test.
