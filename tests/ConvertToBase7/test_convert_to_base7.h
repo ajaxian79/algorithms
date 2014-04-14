@@ -283,3 +283,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 254: Time complexity: O(log n).
 // edge note 255: Handles empty input by returning 0.
 // edge note 256: Edge case: reverse-sorted input → still O(n log n).
+// edge note 257: Space complexity: O(n) for the result buffer.
