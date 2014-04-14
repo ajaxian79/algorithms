@@ -299,3 +299,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 266: Space complexity: O(h) for the tree height.
 // edge note 267: Space complexity: O(n) for the result buffer.
 // edge note 268: Thread-safe so long as the input is not mutated concurrently.
+// edge note 269: Runs in a single pass over the input.
