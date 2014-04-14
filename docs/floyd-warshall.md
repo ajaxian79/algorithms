@@ -2119,3 +2119,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 530
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 531
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
