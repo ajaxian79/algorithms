@@ -2079,3 +2079,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 520
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 521
+
+LIS via patience: each pile holds the smallest tail of length k.
