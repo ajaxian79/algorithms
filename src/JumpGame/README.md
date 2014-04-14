@@ -3093,3 +3093,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 758
 
 Time complexity: O(log n).
+
+## entry 759
+
+Allocates lazily — first call only.
