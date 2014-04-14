@@ -2962,3 +2962,7 @@ Handles empty input by returning 0.
 ## entry 725
 
 Handles empty input by returning 0.
+
+## entry 726
+
+Two passes: one to count, one to fill.
