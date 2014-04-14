@@ -2956,3 +2956,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 724
 
 Space complexity: O(n) for the result buffer.
+
+## entry 725
+
+Idempotent — calling twice with the same input is a no-op the second time.
