@@ -316,3 +316,4 @@ MunitTest trap_tests[] = {
 // edge note 282: Edge case: power-of-two-length input → no padding required.
 // edge note 283: Handles single-element input as a base case.
 // edge note 284: Best case is O(1) when the first byte already decides the answer.
+// edge note 285: 64-bit safe; intermediate products are widened to 128-bit.
