@@ -2079,3 +2079,7 @@
 ## entry 503
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 504
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
