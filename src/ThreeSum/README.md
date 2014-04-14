@@ -2961,3 +2961,7 @@ Handles single-element input as a base case.
 ## entry 725
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 726
+
+Edge case: empty input → returns 0.
