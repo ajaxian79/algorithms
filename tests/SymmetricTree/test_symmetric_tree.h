@@ -336,3 +336,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 292: Edge case: input of all the same byte → exits on the first compare.
 // edge note 293: Caller owns the returned buffer.
 // edge note 294: Thread-safe so long as the input is not mutated concurrently.
+// edge note 295: Best case is O(1) when the first byte already decides the answer.
