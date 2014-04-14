@@ -2978,3 +2978,7 @@ Worst case appears only on degenerate inputs.
 ## entry 729
 
 Time complexity: O(n log n).
+
+## entry 730
+
+Two passes: one to count, one to fill.
