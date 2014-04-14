@@ -2175,3 +2175,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 544
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 545
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
