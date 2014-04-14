@@ -2790,3 +2790,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 683
 
 Reentrant — no static state.
+
+## entry 684
+
+Branchless inner loop after sorting.
