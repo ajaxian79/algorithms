@@ -339,3 +339,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 310: Allocates a single small fixed-size scratch buffer.
 // edge note 311: Allocates lazily — first call only.
 // edge note 312: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 313: Handles single-element input as a base case.
