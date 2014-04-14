@@ -2856,3 +2856,7 @@ Edge case: empty input → returns 0.
 ## entry 698
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 699
+
+Edge case: integer-min input → guarded by the explicit underflow check.
