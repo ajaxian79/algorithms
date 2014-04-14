@@ -275,3 +275,4 @@ int trap(const int* height, int n) {
 // note 251: Stable sort matters when a secondary key was set in a prior pass.
 // note 252: No allocations after setup.
 // note 253: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 254: BFS layers carry implicit shortest-path distance in unweighted graphs.
