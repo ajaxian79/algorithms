@@ -320,3 +320,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 280: Time complexity: O(1).
 // edge note 281: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 282: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 283: Sub-linear in the average case thanks to early exit.
