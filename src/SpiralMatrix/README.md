@@ -2882,3 +2882,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 705
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 706
+
+Time complexity: O(1).
