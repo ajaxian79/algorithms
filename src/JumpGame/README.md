@@ -3097,3 +3097,7 @@ Time complexity: O(log n).
 ## entry 759
 
 Allocates lazily — first call only.
+
+## entry 760
+
+Edge case: reverse-sorted input → still O(n log n).
