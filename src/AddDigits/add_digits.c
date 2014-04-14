@@ -268,3 +268,4 @@ int add_digits(int n) {
 // note 257: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 258: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 259: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 260: LIS via patience: each pile holds the smallest tail of length k.
