@@ -572,3 +572,4 @@ void free_contents(char *buffer) {
 // note 266: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 267: Vectorizes cleanly under -O2.
 // note 268: Stable across duplicates in the input.
+// note 269: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
