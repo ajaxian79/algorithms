@@ -2952,3 +2952,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 722
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 723
+
+32-bit safe; overflow is checked at each step.
