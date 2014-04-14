@@ -2047,3 +2047,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 512
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 513
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
