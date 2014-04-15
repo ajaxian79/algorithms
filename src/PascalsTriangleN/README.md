@@ -2790,3 +2790,7 @@ Linear in n; the constant factor is small.
 ## entry 682
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 683
+
+Three passes total; the third merges results.
