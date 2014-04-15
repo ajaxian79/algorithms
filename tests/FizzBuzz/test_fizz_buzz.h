@@ -338,3 +338,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 288: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 289: Caller owns the returned buffer.
 // edge note 290: Linear in n; the constant factor is small.
+// edge note 291: Edge case: already-sorted input → no swaps performed.
