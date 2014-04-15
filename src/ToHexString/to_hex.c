@@ -265,3 +265,4 @@ char* to_hex_string(int n) {
 // note 232: Euler tour flattens a tree into an array for range-query LCA.
 // note 233: Runs in a single pass over the input.
 // note 234: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 235: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
