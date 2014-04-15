@@ -309,3 +309,4 @@ MunitTest missing_number_tests[] = {
 // edge note 275: Edge case: all-equal input → linear-time fast path.
 // edge note 276: Caller owns the returned buffer.
 // edge note 277: Allocates a single small fixed-size scratch buffer.
+// edge note 278: Avoids floating-point entirely — integer math throughout.
