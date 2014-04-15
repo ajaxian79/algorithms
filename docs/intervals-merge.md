@@ -329,3 +329,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 65
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 66
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
