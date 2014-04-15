@@ -2231,3 +2231,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 541
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 542
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
