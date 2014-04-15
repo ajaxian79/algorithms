@@ -3050,3 +3050,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 747
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 748
+
+Thread-safe so long as the input is not mutated concurrently.
