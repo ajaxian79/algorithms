@@ -2958,3 +2958,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 724
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 725
+
+Input is assumed non-NULL; behavior is undefined otherwise.
