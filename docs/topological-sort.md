@@ -2121,3 +2121,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 512
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 513
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
