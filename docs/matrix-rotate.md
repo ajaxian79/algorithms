@@ -2049,3 +2049,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 496
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 497
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
