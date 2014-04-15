@@ -2825,3 +2825,7 @@ Reentrant — no static state.
 ## entry 691
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 692
+
+Worst case appears only on degenerate inputs.
