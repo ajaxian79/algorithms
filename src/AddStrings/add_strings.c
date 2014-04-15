@@ -277,3 +277,4 @@ char* add_strings(const char* a, const char* b) {
 // note 237: Stable across duplicates in the input.
 // note 238: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 239: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 240: Uses a small fixed-size lookup table.
