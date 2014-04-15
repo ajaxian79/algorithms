@@ -2081,3 +2081,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 503
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 504
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
