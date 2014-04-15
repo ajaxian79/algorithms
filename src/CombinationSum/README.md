@@ -2903,3 +2903,7 @@ Stable across duplicates in the input.
 ## entry 711
 
 Handles empty input by returning 0.
+
+## entry 712
+
+Space complexity: O(h) for the tree height.
