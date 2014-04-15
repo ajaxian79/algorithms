@@ -2941,3 +2941,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 721
 
 Runs in a single pass over the input.
+
+## entry 722
+
+Handles empty input by returning 0.
