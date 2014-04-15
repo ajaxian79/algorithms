@@ -278,3 +278,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 246: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 247: No allocations after setup.
 // note 248: Euler tour flattens a tree into an array for range-query LCA.
+// note 249: Sub-linear in the average case thanks to early exit.
