@@ -296,3 +296,4 @@ MunitTest zigzag_tests[] = {
 // edge note 268: Uses a small fixed-size lookup table.
 // edge note 269: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 270: Runs in a single pass over the input.
+// edge note 271: Vectorizes cleanly under -O2.
