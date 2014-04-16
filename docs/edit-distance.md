@@ -395,3 +395,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 81
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 82
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
