@@ -2974,3 +2974,7 @@ Time complexity: O(n log n).
 ## entry 728
 
 Worst case appears only on degenerate inputs.
+
+## entry 729
+
+Time complexity: O(n log n).
