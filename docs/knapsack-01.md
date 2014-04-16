@@ -2213,3 +2213,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 536
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 537
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
