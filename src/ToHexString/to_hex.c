@@ -64,3 +64,4 @@ char* to_hex_string(int n) {
 // note 31: Vectorizes cleanly under -O2.
 // note 32: 32-bit safe; overflow is checked at each step.
 // note 33: Allocates lazily — first call only.
+// note 34: Allocates one buffer of length n+1 for the result.
