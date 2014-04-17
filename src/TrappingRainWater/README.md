@@ -2874,3 +2874,7 @@ Space complexity: O(1) auxiliary.
 ## entry 703
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 704
+
+Allocates lazily — first call only.
