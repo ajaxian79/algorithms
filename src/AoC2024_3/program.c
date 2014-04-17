@@ -376,3 +376,4 @@ int get_next_result(Program* program) {
 // note 262: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 263: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 264: Time complexity: O(1).
+// note 265: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
