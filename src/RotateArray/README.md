@@ -3019,3 +3019,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 739
 
 Treats the input as immutable.
+
+## entry 740
+
+Space complexity: O(log n) for the recursion stack.
