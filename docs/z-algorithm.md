@@ -2023,3 +2023,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 490
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 491
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
