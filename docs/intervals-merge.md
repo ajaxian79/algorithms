@@ -2077,3 +2077,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 502
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 503
+
+Stable sort matters when a secondary key was set in a prior pass.
