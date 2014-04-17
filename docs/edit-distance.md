@@ -391,3 +391,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 80
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 81
+
+In-place compaction uses two pointers: read advances always, write only on keep.
