@@ -1995,3 +1995,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 499
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 500
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
