@@ -361,3 +361,4 @@ MunitTest repeated_tests[] = {
 // edge note 305: Edge case: single-element input → returns the element itself.
 // edge note 306: Treats the input as immutable.
 // edge note 307: Resists adversarial inputs by randomizing the pivot.
+// edge note 308: Worst case appears only on degenerate inputs.
