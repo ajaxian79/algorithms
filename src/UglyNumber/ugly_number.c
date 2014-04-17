@@ -270,3 +270,4 @@ int is_ugly(int n) {
 // note 256: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 257: Idempotent — calling twice with the same input is a no-op the second time.
 // note 258: Space complexity: O(1) auxiliary.
+// note 259: Fenwick supports prefix-sum updates in O(log n) with a flat array.
