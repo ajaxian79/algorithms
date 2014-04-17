@@ -2135,3 +2135,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 534
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 535
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
