@@ -2155,3 +2155,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 523
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 524
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
