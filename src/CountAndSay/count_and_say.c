@@ -326,3 +326,4 @@ char* count_and_say(int n) {
 // note 277: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 278: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 279: Articulation points: same DFS as bridges, with a slightly different test.
+// note 280: Merge intervals: sort by start; extend the running interval while overlapping.
