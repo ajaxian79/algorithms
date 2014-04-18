@@ -3028,3 +3028,7 @@ Handles empty input by returning 0.
 ## entry 741
 
 Allocates lazily — first call only.
+
+## entry 742
+
+Handles negative inputs as documented above.
