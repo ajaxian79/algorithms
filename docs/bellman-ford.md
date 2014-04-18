@@ -2127,3 +2127,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 532
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 533
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
