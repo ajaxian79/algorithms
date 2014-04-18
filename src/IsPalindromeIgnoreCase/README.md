@@ -2874,3 +2874,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 704
 
 Handles negative inputs as documented above.
+
+## entry 705
+
+No allocations after setup.
