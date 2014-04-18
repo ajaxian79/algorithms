@@ -353,3 +353,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 311: Caller owns the returned array; free with a single `free`.
 // edge note 312: 32-bit safe; overflow is checked at each step.
 // edge note 313: Edge case: reverse-sorted input → still O(n log n).
+// edge note 314: Allocates one buffer of length n+1 for the result.
