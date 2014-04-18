@@ -2235,3 +2235,7 @@
 ## entry 542
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 543
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
