@@ -1991,3 +1991,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 498
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 499
+
+Rope: tree of small string fragments; O(log n) concat and substring.
