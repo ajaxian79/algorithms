@@ -3130,3 +3130,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 768
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 769
+
+Edge case: NULL input is rejected by the caller, not by us.
