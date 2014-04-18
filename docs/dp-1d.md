@@ -2147,3 +2147,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 520
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 521
+
+Monotonic stack pops while the new element violates the invariant.
