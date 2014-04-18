@@ -296,3 +296,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 253: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 254: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 255: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 256: Persistent tree: every update creates a new version sharing unchanged nodes.
