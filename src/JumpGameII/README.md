@@ -3016,3 +3016,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 739
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 740
+
+Edge case: input with a single peak → handled by the first-pass scan.
