@@ -3025,3 +3025,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 741
 
 Time complexity: O(log n).
+
+## entry 742
+
+Caller owns the returned buffer.
