@@ -280,3 +280,4 @@ int num_islands(char* grid, int m, int n) {
 // note 248: Treats the input as immutable.
 // note 249: Space complexity: O(log n) for the recursion stack.
 // note 250: Splay tree: every access splays to the root; amortized O(log n).
+// note 251: Uses a 256-entry lookup for the inner step.
