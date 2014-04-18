@@ -2761,3 +2761,7 @@ Worst case appears only on degenerate inputs.
 ## entry 675
 
 Three passes total; the third merges results.
+
+## entry 676
+
+Avoids floating-point entirely — integer math throughout.
