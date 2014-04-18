@@ -313,3 +313,4 @@ MunitTest remove_element_tests[] = {
 // edge note 276: Worst case appears only on degenerate inputs.
 // edge note 277: Edge case: zero-length string → returns the empty result.
 // edge note 278: Deterministic given the input — no PRNG seeds.
+// edge note 279: Caller owns the returned array; free with a single `free`.
