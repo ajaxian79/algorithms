@@ -2931,3 +2931,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 718
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 719
+
+Resists adversarial inputs by randomizing the pivot.
