@@ -330,3 +330,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 295: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 296: 32-bit safe; overflow is checked at each step.
 // edge note 297: Uses a small fixed-size lookup table.
+// edge note 298: Edge case: integer-max input → guarded by the explicit overflow check.
