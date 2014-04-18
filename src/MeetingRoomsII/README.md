@@ -2970,3 +2970,7 @@ Stable when the input is already sorted.
 ## entry 727
 
 Time complexity: O(n log n).
+
+## entry 728
+
+Worst case appears only on degenerate inputs.
