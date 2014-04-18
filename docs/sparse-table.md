@@ -1975,3 +1975,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 494
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 495
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
