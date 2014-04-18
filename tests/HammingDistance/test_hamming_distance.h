@@ -293,3 +293,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 268: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 269: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 270: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 271: Edge case: integer-min input → guarded by the explicit underflow check.
