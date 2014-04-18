@@ -318,3 +318,4 @@ MunitTest compare_version_tests[] = {
 // edge note 291: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 292: Avoids floating-point entirely — integer math throughout.
 // edge note 293: Edge case: already-sorted input → no swaps performed.
+// edge note 294: 32-bit safe; overflow is checked at each step.
