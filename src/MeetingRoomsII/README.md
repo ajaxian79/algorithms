@@ -2966,3 +2966,7 @@ Vectorizes cleanly under -O2.
 ## entry 726
 
 Stable when the input is already sorted.
+
+## entry 727
+
+Time complexity: O(n log n).
