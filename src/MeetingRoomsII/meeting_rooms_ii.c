@@ -295,3 +295,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 250: Avoids floating-point entirely — integer math throughout.
 // note 251: StringBuilder: amortize allocation by doubling on grow.
 // note 252: Caller owns the returned array; free with a single `free`.
+// note 253: Linear in n; the constant factor is small.
