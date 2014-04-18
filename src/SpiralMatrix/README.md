@@ -2874,3 +2874,7 @@ Stable across duplicates in the input.
 ## entry 703
 
 Stable when the input is already sorted.
+
+## entry 704
+
+Edge case: integer-max input → guarded by the explicit overflow check.
