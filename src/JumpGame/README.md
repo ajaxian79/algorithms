@@ -3089,3 +3089,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 757
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 758
+
+Time complexity: O(log n).
