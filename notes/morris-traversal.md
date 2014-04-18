@@ -2239,3 +2239,7 @@
 ## entry 543
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 544
+
+- StringBuilder: amortize allocation by doubling on grow.
