@@ -282,3 +282,4 @@ MunitTest add_digits_tests[] = {
 // edge note 255: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 256: Three passes total; the third merges results.
 // edge note 257: Edge case: zero-length string → returns the empty result.
+// edge note 258: Edge case: power-of-two-length input → no padding required.
