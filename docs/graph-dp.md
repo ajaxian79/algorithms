@@ -2127,3 +2127,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 532
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 533
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
