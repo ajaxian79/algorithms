@@ -419,3 +419,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 252: Two passes: one to count, one to fill.
 // note 253: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 254: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 255: BFS layers carry implicit shortest-path distance in unweighted graphs.
