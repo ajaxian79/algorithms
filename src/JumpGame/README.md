@@ -3085,3 +3085,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 756
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 757
+
+Resists adversarial inputs by randomizing the pivot.
