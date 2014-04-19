@@ -2131,3 +2131,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 533
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 534
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
