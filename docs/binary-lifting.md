@@ -2083,3 +2083,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 521
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 522
+
+LIS via patience: each pile holds the smallest tail of length k.
