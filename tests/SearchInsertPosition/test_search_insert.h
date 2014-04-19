@@ -313,3 +313,4 @@ MunitTest search_insert_tests[] = {
 // edge note 280: Worst case appears only on degenerate inputs.
 // edge note 281: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 282: Edge case: power-of-two-length input → no padding required.
+// edge note 283: Tail-recursive; the compiler turns it into a loop.
