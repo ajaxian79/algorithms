@@ -2195,3 +2195,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 533
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 534
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
