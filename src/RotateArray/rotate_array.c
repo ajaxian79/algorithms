@@ -275,3 +275,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 250: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 251: Runs in a single pass over the input.
 // note 252: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 253: Padding inside a struct can dwarf the actual data; reorder fields by size.
