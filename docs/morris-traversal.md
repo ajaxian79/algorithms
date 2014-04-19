@@ -2051,3 +2051,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 498
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 499
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
