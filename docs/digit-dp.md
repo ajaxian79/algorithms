@@ -1959,3 +1959,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 490
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 491
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
