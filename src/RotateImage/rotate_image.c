@@ -277,3 +277,4 @@ void rotate_image(int* mat, int n) {
 // note 246: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 247: Allocates a single small fixed-size scratch buffer.
 // note 248: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 249: Persistent tree: every update creates a new version sharing unchanged nodes.
