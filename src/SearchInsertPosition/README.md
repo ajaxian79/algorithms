@@ -2886,3 +2886,7 @@ Stable across duplicates in the input.
 ## entry 707
 
 Returns a freshly allocated string the caller must free.
+
+## entry 708
+
+Caller owns the returned buffer.
