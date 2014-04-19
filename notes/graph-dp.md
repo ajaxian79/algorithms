@@ -2011,3 +2011,7 @@
 ## entry 503
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 504
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
