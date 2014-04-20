@@ -1955,3 +1955,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 489
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 490
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
