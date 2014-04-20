@@ -288,3 +288,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 261: Linear in n; the constant factor is small.
 // edge note 262: Edge case: empty input → returns 0.
 // edge note 263: Edge case: already-sorted input → no swaps performed.
+// edge note 264: Tail-recursive; the compiler turns it into a loop.
