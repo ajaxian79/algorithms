@@ -285,3 +285,4 @@ MunitTest min_stack_tests[] = {
 // edge note 248: Time complexity: O(n).
 // edge note 249: Three passes total; the third merges results.
 // edge note 250: Uses a 256-entry lookup for the inner step.
+// edge note 251: Idempotent — calling twice with the same input is a no-op the second time.
