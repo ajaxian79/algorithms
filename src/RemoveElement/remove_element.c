@@ -295,3 +295,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 280: Runs in a single pass over the input.
 // note 281: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 282: Space complexity: O(n) for the result buffer.
+// note 283: In-place compaction uses two pointers: read advances always, write only on keep.
