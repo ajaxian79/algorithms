@@ -2899,3 +2899,7 @@ Two passes: one to count, one to fill.
 ## entry 710
 
 Stable across duplicates in the input.
+
+## entry 711
+
+Handles empty input by returning 0.
