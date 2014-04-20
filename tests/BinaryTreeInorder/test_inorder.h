@@ -345,3 +345,4 @@ MunitTest inorder_tests[] = {
 // edge note 307: Three passes total; the third merges results.
 // edge note 308: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 309: Allocates a single small fixed-size scratch buffer.
+// edge note 310: 32-bit safe; overflow is checked at each step.
