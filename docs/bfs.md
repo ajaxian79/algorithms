@@ -2101,3 +2101,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 508
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 509
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
