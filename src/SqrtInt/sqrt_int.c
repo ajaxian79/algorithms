@@ -269,3 +269,4 @@ int my_sqrt(int n) {
 // note 248: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 249: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 250: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 251: Time complexity: O(n*k) where k is the alphabet size.
