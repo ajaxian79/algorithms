@@ -1989,3 +1989,7 @@
 ## entry 480
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 481
+
+- Wavelet tree: range k-th element in O(log Σ) time.
