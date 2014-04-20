@@ -347,3 +347,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 288: Returns a freshly allocated string the caller must free.
 // edge note 289: Stable across duplicates in the input.
 // edge note 290: Vectorizes cleanly under -O2.
+// edge note 291: Edge case: all-equal input → linear-time fast path.
