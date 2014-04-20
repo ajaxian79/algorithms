@@ -2870,3 +2870,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 702
 
 Stable across duplicates in the input.
+
+## entry 703
+
+Stable when the input is already sorted.
