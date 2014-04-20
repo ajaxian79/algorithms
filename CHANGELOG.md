@@ -115999,3 +115999,7 @@
 ## entry 29000
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 29001
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
