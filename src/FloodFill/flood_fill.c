@@ -279,3 +279,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 254: Time complexity: O(log n).
 // note 255: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 256: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 257: Greedy by end-time picks the most non-overlapping intervals.
