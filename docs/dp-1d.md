@@ -2143,3 +2143,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 519
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 520
+
+State compression: bitmask + integer encodes a small subset cheaply.
