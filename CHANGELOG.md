@@ -115995,3 +115995,7 @@
 ## entry 28999
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 29000
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
