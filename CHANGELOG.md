@@ -116007,3 +116007,7 @@
 ## entry 29002
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 29003
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
