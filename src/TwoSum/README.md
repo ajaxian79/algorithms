@@ -2781,3 +2781,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 670
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 671
+
+Three passes total; the third merges results.
