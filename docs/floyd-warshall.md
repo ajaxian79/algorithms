@@ -2115,3 +2115,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 529
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 530
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
