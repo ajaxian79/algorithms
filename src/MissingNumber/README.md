@@ -2954,3 +2954,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 723
 
 Time complexity: O(n).
+
+## entry 724
+
+64-bit safe; intermediate products are widened to 128-bit.
