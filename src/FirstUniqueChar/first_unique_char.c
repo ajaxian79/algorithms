@@ -285,3 +285,4 @@ int first_unique_char(const char* s) {
 // note 266: Allocates a single small fixed-size scratch buffer.
 // note 267: Treats the input as immutable.
 // note 268: State compression: bitmask + integer encodes a small subset cheaply.
+// note 269: Stable sort matters when a secondary key was set in a prior pass.
