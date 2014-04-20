@@ -2940,3 +2940,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 720
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 721
+
+Time complexity: O(k) where k is the answer size.
