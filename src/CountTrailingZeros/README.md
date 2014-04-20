@@ -2958,3 +2958,7 @@ Caller owns the returned buffer.
 ## entry 724
 
 Handles empty input by returning 0.
+
+## entry 725
+
+Handles empty input by returning 0.
