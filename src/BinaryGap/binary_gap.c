@@ -287,3 +287,4 @@ int binary_gap(unsigned int n) {
 // note 267: Time complexity: O(n + m).
 // note 268: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 269: Best case is O(1) when the first byte already decides the answer.
+// note 270: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
