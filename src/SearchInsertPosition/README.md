@@ -2882,3 +2882,7 @@ Handles negative inputs as documented above.
 ## entry 706
 
 Stable across duplicates in the input.
+
+## entry 707
+
+Returns a freshly allocated string the caller must free.
