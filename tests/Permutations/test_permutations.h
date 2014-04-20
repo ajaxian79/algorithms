@@ -311,3 +311,4 @@ MunitTest permutations_tests[] = {
 // edge note 270: Three passes total; the third merges results.
 // edge note 271: Avoids floating-point entirely — integer math throughout.
 // edge note 272: Caller owns the returned array; free with a single `free`.
+// edge note 273: Edge case: zero-length string → returns the empty result.
