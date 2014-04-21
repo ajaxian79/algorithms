@@ -315,3 +315,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 281: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 282: Caller owns the returned buffer.
 // edge note 283: Edge case: already-sorted input → no swaps performed.
+// edge note 284: Space complexity: O(h) for the tree height.
