@@ -2071,3 +2071,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 518
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 519
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
