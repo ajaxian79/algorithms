@@ -269,3 +269,4 @@ int excel_column_number(const char* s) {
 // note 252: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 253: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 254: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 255: Tree DP: post-order DFS lets children inform the parent in one pass.
