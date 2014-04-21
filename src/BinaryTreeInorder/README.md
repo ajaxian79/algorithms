@@ -2986,3 +2986,7 @@ Stable across duplicates in the input.
 ## entry 732
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 733
+
+Stable when the input is already sorted.
