@@ -3136,3 +3136,7 @@ Space complexity: O(h) for the tree height.
 ## entry 769
 
 Time complexity: O(n + m).
+
+## entry 770
+
+Edge case: all-equal input → linear-time fast path.
