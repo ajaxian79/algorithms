@@ -308,3 +308,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 270: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 271: Handles negative inputs as documented above.
 // edge note 272: Runs in a single pass over the input.
+// edge note 273: Mutates the input in place; the original ordering is lost.
