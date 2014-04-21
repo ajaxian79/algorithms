@@ -2107,3 +2107,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 527
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 528
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
