@@ -271,3 +271,4 @@ int excel_column_number(const char* s) {
 // note 254: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 255: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 256: Time complexity: O(n*k) where k is the alphabet size.
+// note 257: Deterministic given the input — no PRNG seeds.
