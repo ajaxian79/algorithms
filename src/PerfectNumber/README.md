@@ -2821,3 +2821,7 @@ Edge case: empty input → returns 0.
 ## entry 690
 
 Reentrant — no static state.
+
+## entry 691
+
+Edge case: NULL input is rejected by the caller, not by us.
