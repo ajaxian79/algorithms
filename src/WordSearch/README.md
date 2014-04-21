@@ -2982,3 +2982,7 @@ Edge case: empty input → returns 0.
 ## entry 731
 
 Time complexity: O(n + m).
+
+## entry 732
+
+Reentrant — no static state.
