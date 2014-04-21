@@ -1951,3 +1951,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 488
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 489
+
+StringBuilder: amortize allocation by doubling on grow.
