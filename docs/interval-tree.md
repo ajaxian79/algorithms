@@ -2043,3 +2043,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 511
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 512
+
+Wavelet tree: range k-th element in O(log Σ) time.
