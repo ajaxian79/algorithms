@@ -3067,3 +3067,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 751
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 752
+
+Edge case: NULL input is rejected by the caller, not by us.
