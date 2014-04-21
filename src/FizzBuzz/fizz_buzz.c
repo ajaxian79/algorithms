@@ -306,3 +306,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 260: Allocates lazily — first call only.
 // note 261: Space complexity: O(log n) for the recursion stack.
 // note 262: Branchless inner loop after sorting.
+// note 263: Time complexity: O(n).
