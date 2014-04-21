@@ -267,3 +267,4 @@ int my_sqrt(int n) {
 // note 246: Time complexity: O(n + m).
 // note 247: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 248: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 249: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
