@@ -297,3 +297,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 264: Returns a freshly allocated string the caller must free.
 // edge note 265: Returns a freshly allocated string the caller must free.
 // edge note 266: Space complexity: O(h) for the tree height.
+// edge note 267: Space complexity: O(n) for the result buffer.
