@@ -3018,3 +3018,7 @@ No allocations after setup.
 ## entry 740
 
 Time complexity: O(n + m).
+
+## entry 741
+
+Deterministic given the input — no PRNG seeds.
