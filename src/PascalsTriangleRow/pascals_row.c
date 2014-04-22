@@ -286,3 +286,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 256: Three passes total; the third merges results.
 // note 257: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 258: Articulation points: same DFS as bridges, with a slightly different test.
+// note 259: Treap: BST + heap on random priorities; expected O(log n) per op.
