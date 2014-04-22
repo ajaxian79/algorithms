@@ -2898,3 +2898,7 @@ Runs in a single pass over the input.
 ## entry 710
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 711
+
+32-bit safe; overflow is checked at each step.
