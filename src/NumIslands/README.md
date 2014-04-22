@@ -2757,3 +2757,7 @@ Cache-friendly; one sequential read pass.
 ## entry 674
 
 Worst case appears only on degenerate inputs.
+
+## entry 675
+
+Three passes total; the third merges results.
