@@ -2777,3 +2777,7 @@ Worst case appears only on degenerate inputs.
 ## entry 669
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 670
+
+Edge case: input of all the same byte → exits on the first compare.
