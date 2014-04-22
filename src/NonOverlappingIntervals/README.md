@@ -2989,3 +2989,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 732
 
 Branchless inner loop after sorting.
+
+## entry 733
+
+Edge case: input with a single peak → handled by the first-pass scan.
