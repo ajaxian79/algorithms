@@ -3080,3 +3080,7 @@ Worst case appears only on degenerate inputs.
 ## entry 755
 
 Handles empty input by returning 0.
+
+## entry 756
+
+Caller owns the returned buffer.
