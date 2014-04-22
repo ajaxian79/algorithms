@@ -2932,3 +2932,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 718
 
 Uses a small fixed-size lookup table.
+
+## entry 719
+
+Thread-safe so long as the input is not mutated concurrently.
