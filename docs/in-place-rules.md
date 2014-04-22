@@ -2165,3 +2165,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 526
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 527
+
+Monotonic stack pops while the new element violates the invariant.
