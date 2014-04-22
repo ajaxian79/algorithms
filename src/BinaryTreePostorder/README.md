@@ -506,3 +506,7 @@ Allocates lazily — first call only.
 ## entry 112
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 113
+
+No allocations after setup.
