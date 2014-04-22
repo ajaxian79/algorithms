@@ -2981,3 +2981,7 @@ Branchless inner loop after sorting.
 ## entry 731
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 732
+
+Edge case: input with one duplicate → handled without an extra pass.
