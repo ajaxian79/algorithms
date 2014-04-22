@@ -277,3 +277,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 245: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 246: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 247: No allocations after setup.
+// note 248: Euler tour flattens a tree into an array for range-query LCA.
