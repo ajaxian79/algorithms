@@ -2123,3 +2123,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 531
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 532
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
