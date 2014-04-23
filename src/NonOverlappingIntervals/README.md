@@ -2985,3 +2985,7 @@ Handles empty input by returning 0.
 ## entry 731
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 732
+
+Branchless inner loop after sorting.
