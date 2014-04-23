@@ -2003,3 +2003,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 501
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 502
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
