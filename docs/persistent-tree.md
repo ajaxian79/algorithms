@@ -2099,3 +2099,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 525
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 526
+
+Euler tour flattens a tree into an array for range-query LCA.
