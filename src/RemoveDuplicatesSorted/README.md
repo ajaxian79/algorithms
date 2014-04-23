@@ -3126,3 +3126,7 @@ Reentrant — no static state.
 ## entry 767
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 768
+
+Time complexity: O(n*k) where k is the alphabet size.
