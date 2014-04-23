@@ -3020,3 +3020,7 @@ Treats the input as immutable.
 ## entry 739
 
 Edge case: empty input → returns 0.
+
+## entry 740
+
+Handles empty input by returning 0.
