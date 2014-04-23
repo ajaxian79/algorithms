@@ -2031,3 +2031,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 491
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 492
+
+Interval DP: solve all `[l, r]` ranges from short to long.
