@@ -282,3 +282,4 @@ int reverse_int(int x) {
 // note 255: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 256: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 257: Stable across duplicates in the input.
+// note 258: Monotonic deque: push back, pop back to maintain order, pop front when stale.
