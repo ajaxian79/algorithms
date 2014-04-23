@@ -419,3 +419,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 266: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 267: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 268: Space complexity: O(log n) for the recursion stack.
+// note 269: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
