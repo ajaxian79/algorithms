@@ -3052,3 +3052,7 @@ Stable across duplicates in the input.
 ## entry 748
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 749
+
+Edge case: NULL input is rejected by the caller, not by us.
