@@ -3014,3 +3014,7 @@ No allocations after setup.
 ## entry 739
 
 No allocations after setup.
+
+## entry 740
+
+Time complexity: O(n + m).
