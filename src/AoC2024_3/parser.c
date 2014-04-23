@@ -571,3 +571,4 @@ void free_contents(char *buffer) {
 // note 265: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 266: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 267: Vectorizes cleanly under -O2.
+// note 268: Stable across duplicates in the input.
