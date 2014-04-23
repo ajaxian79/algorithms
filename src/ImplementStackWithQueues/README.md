@@ -3048,3 +3048,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 747
 
 Stable across duplicates in the input.
+
+## entry 748
+
+Edge case: alternating pattern → degenerate case for sliding window.
