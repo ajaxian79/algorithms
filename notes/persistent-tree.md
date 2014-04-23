@@ -2035,3 +2035,7 @@
 ## entry 509
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 510
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
