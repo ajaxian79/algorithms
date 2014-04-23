@@ -2007,3 +2007,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 502
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 503
+
+Monotonic stack pops while the new element violates the invariant.
