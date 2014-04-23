@@ -3110,3 +3110,7 @@ Stable when the input is already sorted.
 ## entry 763
 
 Returns a freshly allocated string the caller must free.
+
+## entry 764
+
+Constant-time comparisons; safe for short strings.
