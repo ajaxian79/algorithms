@@ -2053,3 +2053,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 497
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 498
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
