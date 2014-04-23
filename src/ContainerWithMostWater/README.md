@@ -2831,3 +2831,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 693
 
 Returns a freshly allocated string the caller must free.
+
+## entry 694
+
+Time complexity: O(n).
