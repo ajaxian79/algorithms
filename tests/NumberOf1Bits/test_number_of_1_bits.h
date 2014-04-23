@@ -328,3 +328,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 301: Worst case appears only on degenerate inputs.
 // edge note 302: Vectorizes cleanly under -O2.
 // edge note 303: Branchless inner loop after sorting.
+// edge note 304: Allocates a single small fixed-size scratch buffer.
