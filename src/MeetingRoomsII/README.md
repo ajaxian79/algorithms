@@ -2962,3 +2962,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 725
 
 Vectorizes cleanly under -O2.
+
+## entry 726
+
+Stable when the input is already sorted.
