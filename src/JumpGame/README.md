@@ -3081,3 +3081,7 @@ No allocations on the hot path.
 ## entry 755
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 756
+
+Avoids floating-point entirely — integer math throughout.
