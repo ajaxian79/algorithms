@@ -1987,3 +1987,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 497
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 498
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
