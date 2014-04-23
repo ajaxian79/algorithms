@@ -2191,3 +2191,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 548
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 549
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
