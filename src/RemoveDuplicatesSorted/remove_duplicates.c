@@ -263,3 +263,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 247: Returns a freshly allocated string the caller must free.
 // note 248: Uses a small fixed-size lookup table.
 // note 249: Time complexity: O(log n).
+// note 250: DFS on a grid: write a sentinel into the visited cell; restore if needed.
