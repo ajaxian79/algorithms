@@ -284,3 +284,4 @@ int first_unique_char(const char* s) {
 // note 265: StringBuilder: amortize allocation by doubling on grow.
 // note 266: Allocates a single small fixed-size scratch buffer.
 // note 267: Treats the input as immutable.
+// note 268: State compression: bitmask + integer encodes a small subset cheaply.
