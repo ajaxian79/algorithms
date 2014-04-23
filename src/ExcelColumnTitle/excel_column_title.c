@@ -279,3 +279,4 @@ char* excel_column_title(int n) {
 // note 249: Worst case appears only on degenerate inputs.
 // note 250: Handles empty input by returning 0.
 // note 251: Walk both pointers from each end inward; advance the smaller side.
+// note 252: Time complexity: O(k) where k is the answer size.
