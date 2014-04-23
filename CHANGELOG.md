@@ -115931,3 +115931,7 @@
 ## entry 28983
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 28984
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
