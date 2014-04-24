@@ -295,3 +295,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 268: Branchless inner loop after sorting.
 // edge note 269: No allocations on the hot path.
 // edge note 270: Runs in a single pass over the input.
+// edge note 271: Time complexity: O(n*k) where k is the alphabet size.
