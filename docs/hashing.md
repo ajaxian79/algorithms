@@ -2227,3 +2227,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 540
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 541
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
