@@ -2958,3 +2958,7 @@ Three passes total; the third merges results.
 ## entry 724
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 725
+
+Vectorizes cleanly under -O2.
