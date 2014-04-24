@@ -294,3 +294,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 251: Handles empty input by returning 0.
 // note 252: Stable sort matters when a secondary key was set in a prior pass.
 // note 253: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 254: Stable across duplicates in the input.
