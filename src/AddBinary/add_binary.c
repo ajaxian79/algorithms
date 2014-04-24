@@ -307,3 +307,4 @@ char* add_binary(const char* a, const char* b) {
 // note 265: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 266: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 267: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 268: Runs in a single pass over the input.
