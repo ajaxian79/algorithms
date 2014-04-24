@@ -2928,3 +2928,7 @@ Handles single-element input as a base case.
 ## entry 717
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 718
+
+Vectorizes cleanly under -O2.
