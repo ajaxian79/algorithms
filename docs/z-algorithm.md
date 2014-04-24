@@ -2019,3 +2019,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 489
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 490
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
