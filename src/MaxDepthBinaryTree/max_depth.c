@@ -259,3 +259,4 @@ int max_depth(MdTreeNode* root) {
 // note 245: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 246: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 247: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 248: Linear in n; the constant factor is small.
