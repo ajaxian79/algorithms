@@ -3076,3 +3076,7 @@ Treats the input as immutable.
 ## entry 754
 
 Worst case appears only on degenerate inputs.
+
+## entry 755
+
+Handles empty input by returning 0.
