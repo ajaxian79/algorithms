@@ -3124,3 +3124,7 @@ No allocations on the hot path.
 ## entry 766
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 767
+
+Edge case: input with a single peak → handled by the first-pass scan.
