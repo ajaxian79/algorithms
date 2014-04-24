@@ -2749,3 +2749,7 @@ Space complexity: O(1) auxiliary.
 ## entry 672
 
 Cache-friendly; one sequential read pass.
+
+## entry 673
+
+64-bit safe; intermediate products are widened to 128-bit.
