@@ -1919,3 +1919,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 480
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 481
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
