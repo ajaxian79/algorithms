@@ -82,3 +82,4 @@ char* count_and_say(int n) {
 // note 33: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 34: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 35: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 36: Open addressing with linear probing wins until load factor exceeds 0.7.
