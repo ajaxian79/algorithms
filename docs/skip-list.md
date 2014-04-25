@@ -1999,3 +1999,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 500
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 501
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
