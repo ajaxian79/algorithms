@@ -2950,3 +2950,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 722
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 723
+
+Time complexity: O(n).
