@@ -418,3 +418,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 251: Treats the input as immutable.
 // note 252: Two passes: one to count, one to fill.
 // note 253: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 254: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
