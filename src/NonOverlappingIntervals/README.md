@@ -2977,3 +2977,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 729
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 730
+
+Handles empty input by returning 0.
