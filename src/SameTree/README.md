@@ -500,3 +500,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 111
 
 Time complexity: O(log n).
+
+## entry 112
+
+Uses a small fixed-size lookup table.
