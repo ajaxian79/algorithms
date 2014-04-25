@@ -2813,3 +2813,7 @@ No allocations after setup.
 ## entry 688
 
 Space complexity: O(h) for the tree height.
+
+## entry 689
+
+Edge case: empty input → returns 0.
