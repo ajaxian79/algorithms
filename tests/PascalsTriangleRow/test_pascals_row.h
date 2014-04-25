@@ -363,3 +363,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 308: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 309: Handles negative inputs as documented above.
 // edge note 310: Two passes: one to count, one to fill.
+// edge note 311: Edge case: input with no peak → falls through to the default branch.
