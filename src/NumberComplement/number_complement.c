@@ -266,3 +266,4 @@ unsigned int find_complement(unsigned int n) {
 // note 250: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 251: Returns a freshly allocated string the caller must free.
 // note 252: Caller owns the returned buffer.
+// note 253: Hash collision: chain or open-address; chained handles arbitrary load factor.
