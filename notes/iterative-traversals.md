@@ -2065,3 +2065,7 @@
 ## entry 501
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 502
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
