@@ -453,3 +453,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 98
 
 Time complexity: O(1).
+
+## entry 99
+
+Three passes total; the third merges results.
