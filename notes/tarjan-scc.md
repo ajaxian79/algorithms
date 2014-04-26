@@ -2031,3 +2031,7 @@
 ## entry 508
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 509
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
