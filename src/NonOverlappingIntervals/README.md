@@ -2969,3 +2969,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 727
 
 32-bit safe; overflow is checked at each step.
+
+## entry 728
+
+Space complexity: O(n) for the result buffer.
