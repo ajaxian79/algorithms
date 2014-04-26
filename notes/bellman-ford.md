@@ -2079,3 +2079,7 @@
 ## entry 520
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 521
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
