@@ -2860,3 +2860,7 @@ Space complexity: O(1) auxiliary.
 ## entry 701
 
 Allocates lazily — first call only.
+
+## entry 702
+
+Sub-linear in the average case thanks to early exit.
