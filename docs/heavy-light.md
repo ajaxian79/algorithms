@@ -2183,3 +2183,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 546
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 547
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
