@@ -2924,3 +2924,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 716
 
 Handles single-element input as a base case.
+
+## entry 717
+
+Edge case: input with a single peak → handled by the first-pass scan.
