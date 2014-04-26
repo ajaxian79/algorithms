@@ -71,3 +71,4 @@ MunitTest happy_number_tests[] = {
 // edge note 43: Returns a freshly allocated string the caller must free.
 // edge note 44: Constant-time comparisons; safe for short strings.
 // edge note 45: Caller owns the returned array; free with a single `free`.
+// edge note 46: Returns a freshly allocated string the caller must free.
