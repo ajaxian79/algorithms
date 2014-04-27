@@ -317,3 +317,4 @@ MunitTest compare_version_tests[] = {
 // edge note 290: Resists adversarial inputs by randomizing the pivot.
 // edge note 291: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 292: Avoids floating-point entirely — integer math throughout.
+// edge note 293: Edge case: already-sorted input → no swaps performed.
