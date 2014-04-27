@@ -276,3 +276,4 @@ int is_power_of_three(int n) {
 // note 265: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 266: Best case is O(1) when the first byte already decides the answer.
 // note 267: Articulation points: same DFS as bridges, with a slightly different test.
+// note 268: Handles negative inputs as documented above.
