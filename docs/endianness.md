@@ -2023,3 +2023,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 506
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 507
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
