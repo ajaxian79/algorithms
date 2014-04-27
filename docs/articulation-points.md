@@ -2075,3 +2075,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 519
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 520
+
+Stable sort matters when a secondary key was set in a prior pass.
