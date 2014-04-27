@@ -2940,3 +2940,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 719
 
 Worst case appears only on degenerate inputs.
+
+## entry 720
+
+Branchless inner loop after sorting.
