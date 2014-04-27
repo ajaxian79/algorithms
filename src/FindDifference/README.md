@@ -2762,3 +2762,7 @@ Worst case appears only on degenerate inputs.
 ## entry 676
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 677
+
+Stable across duplicates in the input.
