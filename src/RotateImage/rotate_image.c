@@ -276,3 +276,4 @@ void rotate_image(int* mat, int n) {
 // note 245: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 246: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 247: Allocates a single small fixed-size scratch buffer.
+// note 248: LRU cache: doubly-linked list + hash map; O(1) get/put.
