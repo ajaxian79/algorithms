@@ -2833,3 +2833,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 694
 
 No allocations after setup.
+
+## entry 695
+
+Stable across duplicates in the input.
