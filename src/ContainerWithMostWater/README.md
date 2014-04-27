@@ -2827,3 +2827,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 692
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 693
+
+Returns a freshly allocated string the caller must free.
