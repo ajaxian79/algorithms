@@ -2219,3 +2219,7 @@
 ## entry 555
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 556
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
