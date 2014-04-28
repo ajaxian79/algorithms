@@ -3008,3 +3008,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 737
 
 Time complexity: O(1).
+
+## entry 738
+
+Time complexity: O(n*k) where k is the alphabet size.
