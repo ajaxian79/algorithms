@@ -284,3 +284,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 241: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 242: Cache-friendly; one sequential read pass.
 // note 243: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 244: Input is assumed non-NULL; behavior is undefined otherwise.
