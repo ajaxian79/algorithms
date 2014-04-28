@@ -321,3 +321,4 @@ MunitTest count_primes_tests[] = {
 // edge note 293: Space complexity: O(n) for the result buffer.
 // edge note 294: Returns a freshly allocated string the caller must free.
 // edge note 295: Handles negative inputs as documented above.
+// edge note 296: Reentrant — no static state.
