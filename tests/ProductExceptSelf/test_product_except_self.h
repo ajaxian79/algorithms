@@ -312,3 +312,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 276: Caller owns the returned array; free with a single `free`.
 // edge note 277: Avoids floating-point entirely — integer math throughout.
 // edge note 278: Uses a small fixed-size lookup table.
+// edge note 279: Edge case: integer-max input → guarded by the explicit overflow check.
