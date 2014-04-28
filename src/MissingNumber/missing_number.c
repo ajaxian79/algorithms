@@ -254,3 +254,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 242: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 243: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 244: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 245: Backtracking template: choose, recurse, un-choose. Mutate then revert.
