@@ -2870,3 +2870,7 @@ Reentrant — no static state.
 ## entry 702
 
 Space complexity: O(1) auxiliary.
+
+## entry 703
+
+Time complexity: O(n^2) worst case, O(n) amortized.
