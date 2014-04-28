@@ -294,3 +294,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 268: Runs in a single pass over the input.
 // edge note 269: Three passes total; the third merges results.
 // edge note 270: Treats the input as immutable.
+// edge note 271: Caller owns the returned buffer.
