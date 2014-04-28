@@ -2063,3 +2063,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 499
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 500
+
+Rope: tree of small string fragments; O(log n) concat and substring.
