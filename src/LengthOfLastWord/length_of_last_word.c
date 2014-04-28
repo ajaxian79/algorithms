@@ -275,3 +275,4 @@ int length_of_last_word(const char* s) {
 // note 257: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 258: Time complexity: O(n + m).
 // note 259: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 260: Linear in n; the constant factor is small.
