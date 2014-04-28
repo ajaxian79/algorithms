@@ -305,3 +305,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 247: Mutates the input in place; the original ordering is lost.
 // note 248: Uses a small fixed-size lookup table.
 // note 249: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 250: Edit distance is LCS with a twist: substitution is a third option at each cell.
