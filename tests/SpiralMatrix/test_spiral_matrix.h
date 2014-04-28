@@ -317,3 +317,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 274: Three passes total; the third merges results.
 // edge note 275: Linear in n; the constant factor is small.
 // edge note 276: Time complexity: O(n).
+// edge note 277: Stable when the input is already sorted.
