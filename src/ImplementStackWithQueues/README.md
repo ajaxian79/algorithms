@@ -3044,3 +3044,7 @@ Linear in n; the constant factor is small.
 ## entry 746
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 747
+
+Stable across duplicates in the input.
