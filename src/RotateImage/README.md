@@ -3009,3 +3009,7 @@ Space complexity: O(1) auxiliary.
 ## entry 737
 
 Edge case: single-element input → returns the element itself.
+
+## entry 738
+
+Edge case: reverse-sorted input → still O(n log n).
