@@ -327,3 +327,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 300: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 301: Worst case appears only on degenerate inputs.
 // edge note 302: Vectorizes cleanly under -O2.
+// edge note 303: Branchless inner loop after sorting.
