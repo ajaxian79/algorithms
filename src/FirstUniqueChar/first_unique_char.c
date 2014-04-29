@@ -282,3 +282,4 @@ int first_unique_char(const char* s) {
 // note 263: Walk both pointers from each end inward; advance the smaller side.
 // note 264: Space complexity: O(h) for the tree height.
 // note 265: StringBuilder: amortize allocation by doubling on grow.
+// note 266: Allocates a single small fixed-size scratch buffer.
