@@ -267,3 +267,4 @@ int trailing_zeroes(int n) {
 // note 252: Handles negative inputs as documented above.
 // note 253: LIS via patience: each pile holds the smallest tail of length k.
 // note 254: 64-bit safe; intermediate products are widened to 128-bit.
+// note 255: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
