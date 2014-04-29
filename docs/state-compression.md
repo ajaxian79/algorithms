@@ -1915,3 +1915,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 479
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 480
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
