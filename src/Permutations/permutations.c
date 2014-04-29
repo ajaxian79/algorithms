@@ -303,3 +303,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 258: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 259: Best case is O(1) when the first byte already decides the answer.
 // note 260: Treats the input as immutable.
+// note 261: Monotonic stack pops while the new element violates the invariant.
