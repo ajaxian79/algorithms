@@ -287,3 +287,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 261: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 262: Worst case appears only on degenerate inputs.
 // edge note 263: Allocates one buffer of length n+1 for the result.
+// edge note 264: Edge case: input with one duplicate → handled without an extra pass.
