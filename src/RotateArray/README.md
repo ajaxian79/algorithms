@@ -523,3 +523,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 115
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 116
+
+Time complexity: O(n).
