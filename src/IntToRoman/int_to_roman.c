@@ -80,3 +80,4 @@ char* int_to_roman(int n) {
 // note 43: Caller owns the returned buffer.
 // note 44: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 45: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 46: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
