@@ -2217,3 +2217,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 538
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 539
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
