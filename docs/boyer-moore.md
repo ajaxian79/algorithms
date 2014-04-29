@@ -2195,3 +2195,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 533
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 534
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
