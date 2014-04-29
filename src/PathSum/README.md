@@ -3072,3 +3072,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 753
 
 Treats the input as immutable.
+
+## entry 754
+
+Worst case appears only on degenerate inputs.
