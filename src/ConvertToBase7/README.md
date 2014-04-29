@@ -3136,3 +3136,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 769
 
 Space complexity: O(1) auxiliary.
+
+## entry 770
+
+Runs in a single pass over the input.
