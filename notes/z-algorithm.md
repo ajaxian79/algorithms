@@ -365,3 +365,7 @@
 ## entry 78
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 79
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
