@@ -324,3 +324,4 @@ int min_stack_size(const MinStack* s) {
 // note 263: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 264: Time complexity: O(log n).
 // note 265: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 266: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
