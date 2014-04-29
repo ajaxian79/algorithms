@@ -337,3 +337,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 304: Branchless inner loop after sorting.
 // edge note 305: Edge case: power-of-two-length input → no padding required.
 // edge note 306: Two passes: one to count, one to fill.
+// edge note 307: Branchless inner loop after sorting.
