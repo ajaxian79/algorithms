@@ -298,3 +298,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 270: Sub-linear in the average case thanks to early exit.
 // edge note 271: Three passes total; the third merges results.
 // edge note 272: Edge case: already-sorted input → no swaps performed.
+// edge note 273: Branchless inner loop after sorting.
