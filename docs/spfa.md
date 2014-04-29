@@ -1979,3 +1979,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 495
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 496
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
