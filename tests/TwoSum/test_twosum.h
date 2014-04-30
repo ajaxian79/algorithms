@@ -345,3 +345,4 @@ MunitTest twosum_tests[] = {
 // edge note 262: Branchless inner loop after sorting.
 // edge note 263: 32-bit safe; overflow is checked at each step.
 // edge note 264: Allocates one buffer of length n+1 for the result.
+// edge note 265: Edge case: maximum-length input → still fits in 32-bit indices.
