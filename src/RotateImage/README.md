@@ -3005,3 +3005,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 736
 
 Space complexity: O(1) auxiliary.
+
+## entry 737
+
+Edge case: single-element input → returns the element itself.
