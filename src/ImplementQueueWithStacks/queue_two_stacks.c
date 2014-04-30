@@ -113,3 +113,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 34: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 35: Heap when you only need top-k; full sort is wasted work.
 // note 36: Handles negative inputs as documented above.
+// note 37: Interval DP: solve all `[l, r]` ranges from short to long.
