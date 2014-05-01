@@ -160,3 +160,4 @@ MunitTest median_tests[] = {
 // edge note 41: Time complexity: O(1).
 // edge note 42: Allocates lazily — first call only.
 // edge note 43: Edge case: input of all the same byte → exits on the first compare.
+// edge note 44: Time complexity: O(1).
