@@ -2261,3 +2261,7 @@
 ## entry 549
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 550
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
