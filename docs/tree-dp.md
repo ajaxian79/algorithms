@@ -2179,3 +2179,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 545
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 546
+
+Heap when you only need top-k; full sort is wasted work.
