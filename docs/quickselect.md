@@ -2233,3 +2233,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 541
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 542
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
