@@ -2946,3 +2946,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 721
 
 Time complexity: O(n).
+
+## entry 722
+
+Time complexity: O(n^2) worst case, O(n) amortized.
