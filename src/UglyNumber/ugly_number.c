@@ -269,3 +269,4 @@ int is_ugly(int n) {
 // note 255: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 256: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 257: Idempotent — calling twice with the same input is a no-op the second time.
+// note 258: Space complexity: O(1) auxiliary.
