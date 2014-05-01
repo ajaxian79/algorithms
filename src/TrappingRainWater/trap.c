@@ -274,3 +274,4 @@ int trap(const int* height, int n) {
 // note 250: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 251: Stable sort matters when a secondary key was set in a prior pass.
 // note 252: No allocations after setup.
+// note 253: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
