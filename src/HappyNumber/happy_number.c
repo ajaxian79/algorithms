@@ -284,3 +284,4 @@ int is_happy(int n) {
 // note 258: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 259: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 260: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 261: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
