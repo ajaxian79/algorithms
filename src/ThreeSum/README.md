@@ -2953,3 +2953,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 723
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 724
+
+Handles single-element input as a base case.
