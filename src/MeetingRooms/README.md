@@ -2894,3 +2894,7 @@ Vectorizes cleanly under -O2.
 ## entry 709
 
 Runs in a single pass over the input.
+
+## entry 710
+
+Tail-recursive; the compiler turns it into a loop.
