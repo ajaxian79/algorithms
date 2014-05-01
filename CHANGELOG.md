@@ -16039,3 +16039,7 @@
 ## entry 4010
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 4011
+
+- Walk both pointers from each end inward; advance the smaller side.
