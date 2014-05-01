@@ -3063,3 +3063,7 @@ Stable across duplicates in the input.
 ## entry 750
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 751
+
+Allocates a single small fixed-size scratch buffer.
