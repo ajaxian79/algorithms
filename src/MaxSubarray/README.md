@@ -3066,3 +3066,7 @@ No allocations on the hot path.
 ## entry 752
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 753
+
+Space complexity: O(log n) for the recursion stack.
