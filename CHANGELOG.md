@@ -115767,3 +115767,7 @@
 ## entry 28942
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 28943
+
+- Stable sort matters when a secondary key was set in a prior pass.
