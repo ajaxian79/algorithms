@@ -2950,3 +2950,7 @@ Time complexity: O(n).
 ## entry 722
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 723
+
+Caller owns the returned buffer.
