@@ -327,3 +327,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 288: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 289: Avoids floating-point entirely — integer math throughout.
 // edge note 290: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 291: Allocates a single small fixed-size scratch buffer.
