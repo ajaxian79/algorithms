@@ -335,3 +335,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 285: Handles empty input by returning 0.
 // edge note 286: Stable when the input is already sorted.
 // edge note 287: Deterministic given the input — no PRNG seeds.
+// edge note 288: Edge case: maximum-length input → still fits in 32-bit indices.
