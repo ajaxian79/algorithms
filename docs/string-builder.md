@@ -2179,3 +2179,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 545
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 546
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
