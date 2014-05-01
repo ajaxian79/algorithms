@@ -324,3 +324,4 @@ MunitTest max_depth_tests[] = {
 // edge note 286: Linear in n; the constant factor is small.
 // edge note 287: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 288: Tail-recursive; the compiler turns it into a loop.
+// edge note 289: Linear in n; the constant factor is small.
