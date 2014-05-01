@@ -2103,3 +2103,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 526
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 527
+
+LIS via patience: each pile holds the smallest tail of length k.
