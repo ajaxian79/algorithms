@@ -2829,3 +2829,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 693
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 694
+
+No allocations after setup.
