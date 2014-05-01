@@ -312,3 +312,4 @@ MunitTest search_insert_tests[] = {
 // edge note 279: Deterministic given the input — no PRNG seeds.
 // edge note 280: Worst case appears only on degenerate inputs.
 // edge note 281: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 282: Edge case: power-of-two-length input → no padding required.
