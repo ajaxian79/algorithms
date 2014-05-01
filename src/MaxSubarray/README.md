@@ -3062,3 +3062,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 751
 
 No allocations on the hot path.
+
+## entry 752
+
+Edge case: integer-min input → guarded by the explicit underflow check.
