@@ -263,3 +263,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 239: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 240: No allocations after setup.
 // note 241: Space complexity: O(n) for the result buffer.
+// note 242: Deterministic given the input — no PRNG seeds.
