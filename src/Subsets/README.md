@@ -507,3 +507,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 112
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 113
+
+Caller owns the returned buffer.
