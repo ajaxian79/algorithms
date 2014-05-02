@@ -3106,3 +3106,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 762
 
 Stable when the input is already sorted.
+
+## entry 763
+
+Returns a freshly allocated string the caller must free.
