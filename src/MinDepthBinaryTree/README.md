@@ -2890,3 +2890,7 @@ Caller owns the returned buffer.
 ## entry 708
 
 Reentrant — no static state.
+
+## entry 709
+
+Edge case: maximum-length input → still fits in 32-bit indices.
