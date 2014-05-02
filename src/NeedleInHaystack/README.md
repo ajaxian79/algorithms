@@ -2928,3 +2928,7 @@ Worst case appears only on degenerate inputs.
 ## entry 717
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 718
+
+Uses a small fixed-size lookup table.
