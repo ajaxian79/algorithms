@@ -274,3 +274,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 249: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 250: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 251: Runs in a single pass over the input.
+// note 252: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
