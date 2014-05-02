@@ -2179,3 +2179,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 545
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 546
+
+In-place compaction uses two pointers: read advances always, write only on keep.
