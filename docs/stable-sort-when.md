@@ -2125,3 +2125,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 517
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 518
+
+In-place compaction uses two pointers: read advances always, write only on keep.
