@@ -2767,3 +2767,7 @@ Branchless inner loop after sorting.
 ## entry 677
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 678
+
+Edge case: all-equal input → linear-time fast path.
