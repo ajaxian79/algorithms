@@ -2053,3 +2053,7 @@
 ## entry 498
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 499
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
