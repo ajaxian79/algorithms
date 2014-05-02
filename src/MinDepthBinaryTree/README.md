@@ -2894,3 +2894,7 @@ Reentrant — no static state.
 ## entry 709
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 710
+
+Time complexity: O(log n).
