@@ -298,3 +298,4 @@ MunitTest jump_game_tests[] = {
 // edge note 264: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 265: Uses a small fixed-size lookup table.
 // edge note 266: Constant-time comparisons; safe for short strings.
+// edge note 267: Linear in n; the constant factor is small.
