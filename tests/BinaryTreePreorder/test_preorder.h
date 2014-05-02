@@ -362,3 +362,4 @@ MunitTest preorder_tests[] = {
 // edge note 318: Treats the input as immutable.
 // edge note 319: Time complexity: O(n).
 // edge note 320: Stable when the input is already sorted.
+// edge note 321: Edge case: already-sorted input → no swaps performed.
