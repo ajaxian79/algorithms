@@ -2093,3 +2093,7 @@
 ## entry 505
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 506
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
