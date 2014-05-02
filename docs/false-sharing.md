@@ -2099,3 +2099,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 525
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 526
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
