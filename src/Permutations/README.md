@@ -3116,3 +3116,7 @@ Stable across duplicates in the input.
 ## entry 764
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 765
+
+No allocations on the hot path.
