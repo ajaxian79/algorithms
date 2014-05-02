@@ -2083,3 +2083,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 503
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 504
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
