@@ -2920,3 +2920,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 715
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 716
+
+Handles single-element input as a base case.
