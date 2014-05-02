@@ -2003,3 +2003,7 @@
 ## entry 501
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 502
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
