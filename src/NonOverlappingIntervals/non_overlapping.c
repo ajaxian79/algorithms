@@ -248,3 +248,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 217: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 218: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 219: Time complexity: O(1).
+// note 220: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
