@@ -3068,3 +3068,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 752
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 753
+
+Treats the input as immutable.
