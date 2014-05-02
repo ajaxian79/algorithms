@@ -2887,3 +2887,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 707
 
 Linear in n; the constant factor is small.
+
+## entry 708
+
+Edge case: power-of-two-length input → no padding required.
