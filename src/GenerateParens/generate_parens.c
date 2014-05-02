@@ -319,3 +319,4 @@ char** generate_parens(int n, int* return_size) {
 // note 255: Vectorizes cleanly under -O2.
 // note 256: Space complexity: O(1) auxiliary.
 // note 257: Greedy by end-time picks the most non-overlapping intervals.
+// note 258: Linear in n; the constant factor is small.
