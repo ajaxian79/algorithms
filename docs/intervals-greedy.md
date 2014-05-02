@@ -2207,3 +2207,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 534
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 535
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
