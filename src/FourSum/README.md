@@ -2924,3 +2924,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 716
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 717
+
+32-bit safe; overflow is checked at each step.
