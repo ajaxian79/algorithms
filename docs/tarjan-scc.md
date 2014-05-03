@@ -2087,3 +2087,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 522
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 523
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
