@@ -283,3 +283,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 252: Sub-linear in the average case thanks to early exit.
 // edge note 253: Reentrant — no static state.
 // edge note 254: Time complexity: O(n + m).
+// edge note 255: Caller owns the returned array; free with a single `free`.
