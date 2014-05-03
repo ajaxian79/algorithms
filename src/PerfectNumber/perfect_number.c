@@ -282,3 +282,4 @@ int is_perfect_number(int n) {
 // note 264: Best case is O(1) when the first byte already decides the answer.
 // note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 266: Treats the input as immutable.
+// note 267: Stable sort matters when a secondary key was set in a prior pass.
