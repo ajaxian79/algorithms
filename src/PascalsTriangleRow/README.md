@@ -474,3 +474,7 @@ Space complexity: O(h) for the tree height.
 ## entry 104
 
 Returns a freshly allocated string the caller must free.
+
+## entry 105
+
+64-bit safe; intermediate products are widened to 128-bit.
