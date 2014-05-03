@@ -327,3 +327,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 82
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 83
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
