@@ -405,3 +405,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 87
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 88
+
+Caller owns the returned array; free with a single `free`.
