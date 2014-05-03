@@ -326,3 +326,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 287: Handles empty input by returning 0.
 // edge note 288: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 289: Avoids floating-point entirely — integer math throughout.
+// edge note 290: Time complexity: O(n^2) worst case, O(n) amortized.
