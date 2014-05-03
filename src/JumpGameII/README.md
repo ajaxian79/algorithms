@@ -3004,3 +3004,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 736
 
 Constant-time comparisons; safe for short strings.
+
+## entry 737
+
+Time complexity: O(1).
