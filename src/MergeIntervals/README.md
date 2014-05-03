@@ -2950,3 +2950,7 @@ Space complexity: O(1) auxiliary.
 ## entry 722
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 723
+
+Space complexity: O(n) for the result buffer.
