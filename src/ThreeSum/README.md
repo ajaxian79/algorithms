@@ -2949,3 +2949,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 722
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 723
+
+Tail-recursive; the compiler turns it into a loop.
