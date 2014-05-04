@@ -2948,3 +2948,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 722
 
 Space complexity: O(1) auxiliary.
+
+## entry 723
+
+Constant-time comparisons; safe for short strings.
