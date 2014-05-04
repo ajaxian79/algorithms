@@ -2055,3 +2055,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 514
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 515
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
