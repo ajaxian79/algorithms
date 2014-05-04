@@ -1995,3 +1995,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 499
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 500
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
