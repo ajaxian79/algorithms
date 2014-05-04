@@ -3058,3 +3058,7 @@ Uses a small fixed-size lookup table.
 ## entry 750
 
 Space complexity: O(n) for the result buffer.
+
+## entry 751
+
+No allocations on the hot path.
