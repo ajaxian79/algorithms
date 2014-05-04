@@ -2886,3 +2886,7 @@ No allocations after setup.
 ## entry 707
 
 Caller owns the returned buffer.
+
+## entry 708
+
+Reentrant — no static state.
