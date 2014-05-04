@@ -68,3 +68,4 @@ int num_islands(char* grid, int m, int n) {
 // note 36: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 37: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 38: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 39: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
