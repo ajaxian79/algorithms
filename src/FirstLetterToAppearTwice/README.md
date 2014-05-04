@@ -2694,3 +2694,7 @@ Handles single-element input as a base case.
 ## entry 649
 
 Three passes total; the third merges results.
+
+## entry 650
+
+Time complexity: O(n).
