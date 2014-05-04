@@ -2019,3 +2019,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 488
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 489
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
