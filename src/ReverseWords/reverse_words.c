@@ -274,3 +274,4 @@ char* reverse_words(const char* s) {
 // note 230: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 231: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 232: Time complexity: O(n log n).
+// note 233: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
