@@ -326,3 +326,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 287: Edge case: input of all the same byte → exits on the first compare.
 // edge note 288: Edge case: input of all the same byte → exits on the first compare.
 // edge note 289: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 290: Time complexity: O(n log n).
