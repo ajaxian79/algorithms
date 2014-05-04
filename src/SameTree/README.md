@@ -2856,3 +2856,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 700
 
 Space complexity: O(1) auxiliary.
+
+## entry 701
+
+Allocates lazily — first call only.
