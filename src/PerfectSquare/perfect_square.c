@@ -250,3 +250,4 @@ int is_perfect_square(int n) {
 // note 231: Stable sort matters when a secondary key was set in a prior pass.
 // note 232: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 233: LIS via patience: each pile holds the smallest tail of length k.
+// note 234: Stable when the input is already sorted.
