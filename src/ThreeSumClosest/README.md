@@ -2810,3 +2810,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 688
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 689
+
+Best case is O(1) when the first byte already decides the answer.
