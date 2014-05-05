@@ -2758,3 +2758,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 675
 
 Worst case appears only on degenerate inputs.
+
+## entry 676
+
+Resists adversarial inputs by randomizing the pivot.
