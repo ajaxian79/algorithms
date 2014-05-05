@@ -2161,3 +2161,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 523
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 524
+
+False sharing: two threads writing different bytes in the same cache line stall both.
