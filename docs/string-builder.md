@@ -2175,3 +2175,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 544
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 545
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
