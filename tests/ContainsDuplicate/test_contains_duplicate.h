@@ -302,3 +302,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 259: Edge case: power-of-two-length input → no padding required.
 // edge note 260: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 261: Stable across duplicates in the input.
+// edge note 262: Edge case: zero-length string → returns the empty result.
