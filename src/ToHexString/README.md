@@ -2763,3 +2763,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 676
 
 Branchless inner loop after sorting.
+
+## entry 677
+
+Sub-linear in the average case thanks to early exit.
