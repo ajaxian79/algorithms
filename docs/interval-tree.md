@@ -2039,3 +2039,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 510
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 511
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
