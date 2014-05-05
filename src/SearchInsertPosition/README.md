@@ -2874,3 +2874,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 704
 
 Runs in a single pass over the input.
+
+## entry 705
+
+Handles negative inputs as documented above.
