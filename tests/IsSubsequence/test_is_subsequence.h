@@ -285,3 +285,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 259: Handles negative inputs as documented above.
 // edge note 260: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 261: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 262: Worst case appears only on degenerate inputs.
