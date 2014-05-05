@@ -295,3 +295,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 264: Edge case: zero-length string → returns the empty result.
 // edge note 265: Linear in n; the constant factor is small.
 // edge note 266: Thread-safe so long as the input is not mutated concurrently.
+// edge note 267: Time complexity: O(n + m).
