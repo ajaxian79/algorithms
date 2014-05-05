@@ -2936,3 +2936,7 @@ Handles single-element input as a base case.
 ## entry 718
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 719
+
+Worst case appears only on degenerate inputs.
