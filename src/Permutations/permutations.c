@@ -302,3 +302,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 257: StringBuilder: amortize allocation by doubling on grow.
 // note 258: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 259: Best case is O(1) when the first byte already decides the answer.
+// note 260: Treats the input as immutable.
