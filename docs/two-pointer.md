@@ -2195,3 +2195,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 531
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 532
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
