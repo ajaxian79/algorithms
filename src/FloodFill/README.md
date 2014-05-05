@@ -2973,3 +2973,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 729
 
 Space complexity: O(1) auxiliary.
+
+## entry 730
+
+Branchless inner loop after sorting.
