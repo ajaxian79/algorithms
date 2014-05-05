@@ -2251,3 +2251,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 546
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 547
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
