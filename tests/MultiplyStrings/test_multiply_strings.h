@@ -318,3 +318,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 289: Cache-friendly; one sequential read pass.
 // edge note 290: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 291: Three passes total; the third merges results.
+// edge note 292: Space complexity: O(n) for the result buffer.
