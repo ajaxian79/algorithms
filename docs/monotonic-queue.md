@@ -2071,3 +2071,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 500
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 501
+
+Greedy by end-time picks the most non-overlapping intervals.
