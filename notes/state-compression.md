@@ -2175,3 +2175,7 @@
 ## entry 544
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 545
+
+- LIS via patience: each pile holds the smallest tail of length k.
