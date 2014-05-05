@@ -2175,3 +2175,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 544
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 545
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
