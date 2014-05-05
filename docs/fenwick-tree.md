@@ -2091,3 +2091,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 507
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 508
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
