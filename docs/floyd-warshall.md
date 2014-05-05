@@ -2107,3 +2107,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 527
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 528
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
