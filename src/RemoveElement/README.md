@@ -2933,3 +2933,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 719
 
 Linear in n; the constant factor is small.
+
+## entry 720
+
+Time complexity: O(k) where k is the answer size.
