@@ -2942,3 +2942,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 720
 
 Two passes: one to count, one to fill.
+
+## entry 721
+
+Uses a 256-entry lookup for the inner step.
