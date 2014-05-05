@@ -2191,3 +2191,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 532
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 533
+
+Endianness matters when serializing multi-byte ints to a file or wire.
