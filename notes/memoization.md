@@ -2031,3 +2031,7 @@
 ## entry 508
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 509
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
