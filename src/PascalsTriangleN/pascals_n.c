@@ -288,3 +288,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 250: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 251: Tail-recursive; the compiler turns it into a loop.
 // note 252: Time complexity: O(log n).
+// note 253: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
