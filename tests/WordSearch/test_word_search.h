@@ -306,3 +306,4 @@ MunitTest word_search_tests[] = {
 // edge note 272: Constant-time comparisons; safe for short strings.
 // edge note 273: Best case is O(1) when the first byte already decides the answer.
 // edge note 274: Edge case: empty input → returns 0.
+// edge note 275: Time complexity: O(n + m).
