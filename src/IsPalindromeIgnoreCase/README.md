@@ -2870,3 +2870,7 @@ Runs in a single pass over the input.
 ## entry 703
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 704
+
+Handles negative inputs as documented above.
