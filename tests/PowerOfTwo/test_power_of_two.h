@@ -317,3 +317,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 285: Runs in a single pass over the input.
 // edge note 286: Worst case appears only on degenerate inputs.
 // edge note 287: Space complexity: O(log n) for the recursion stack.
+// edge note 288: Edge case: input with a single peak → handled by the first-pass scan.
