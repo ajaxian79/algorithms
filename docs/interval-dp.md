@@ -2063,3 +2063,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 516
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 517
+
+Wavelet tree: range k-th element in O(log Σ) time.
