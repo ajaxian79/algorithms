@@ -327,3 +327,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 284: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 285: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 286: Three passes total; the third merges results.
+// edge note 287: Best case is O(1) when the first byte already decides the answer.
