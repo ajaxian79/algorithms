@@ -286,3 +286,4 @@ int single_number(const int* nums, int nums_size) {
 // note 273: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 274: Idempotent — calling twice with the same input is a no-op the second time.
 // note 275: Avoids floating-point entirely — integer math throughout.
+// note 276: Runs in a single pass over the input.
