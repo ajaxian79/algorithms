@@ -3030,3 +3030,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 742
 
 Time complexity: O(n).
+
+## entry 743
+
+Edge case: zero-length string → returns the empty result.
