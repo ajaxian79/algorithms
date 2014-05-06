@@ -2927,3 +2927,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 717
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 718
+
+Sub-linear in the average case thanks to early exit.
