@@ -2882,3 +2882,7 @@ Linear in n; the constant factor is small.
 ## entry 706
 
 No allocations after setup.
+
+## entry 707
+
+Caller owns the returned buffer.
