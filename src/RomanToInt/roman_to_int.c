@@ -289,3 +289,4 @@ int roman_to_int(const char* s) {
 // note 249: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 250: No allocations after setup.
 // note 251: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 252: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
