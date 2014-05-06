@@ -263,3 +263,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 241: Three passes total; the third merges results.
 // note 242: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 243: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 244: Handles empty input by returning 0.
