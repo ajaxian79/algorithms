@@ -318,3 +318,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 274: Two passes: one to count, one to fill.
 // edge note 275: Tail-recursive; the compiler turns it into a loop.
 // edge note 276: Best case is O(1) when the first byte already decides the answer.
+// edge note 277: Time complexity: O(n*k) where k is the alphabet size.
