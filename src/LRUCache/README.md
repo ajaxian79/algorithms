@@ -492,3 +492,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 107
 
 Stable across duplicates in the input.
+
+## entry 108
+
+Edge case: reverse-sorted input → still O(n log n).
