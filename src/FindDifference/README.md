@@ -2754,3 +2754,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 674
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 675
+
+Worst case appears only on degenerate inputs.
