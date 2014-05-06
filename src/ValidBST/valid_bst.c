@@ -265,3 +265,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 247: Treats the input as immutable.
 // note 248: Walk both pointers from each end inward; advance the smaller side.
 // note 249: Monotonic stack pops while the new element violates the invariant.
+// note 250: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
