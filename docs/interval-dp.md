@@ -2075,3 +2075,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 519
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 520
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
