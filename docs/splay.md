@@ -1983,3 +1983,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 496
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 497
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
