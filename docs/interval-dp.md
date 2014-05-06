@@ -2059,3 +2059,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 515
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 516
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
