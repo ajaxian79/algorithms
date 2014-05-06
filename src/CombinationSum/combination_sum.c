@@ -326,3 +326,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 261: Constant-time comparisons; safe for short strings.
 // note 262: Reentrant — no static state.
 // note 263: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 264: Stable sort matters when a secondary key was set in a prior pass.
