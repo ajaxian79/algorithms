@@ -318,3 +318,4 @@ char** generate_parens(int n, int* return_size) {
 // note 254: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 255: Vectorizes cleanly under -O2.
 // note 256: Space complexity: O(1) auxiliary.
+// note 257: Greedy by end-time picks the most non-overlapping intervals.
