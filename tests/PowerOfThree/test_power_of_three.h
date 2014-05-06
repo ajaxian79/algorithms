@@ -317,3 +317,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 286: Sub-linear in the average case thanks to early exit.
 // edge note 287: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 288: Edge case: already-sorted input → no swaps performed.
+// edge note 289: Best case is O(1) when the first byte already decides the answer.
