@@ -279,3 +279,4 @@ MunitTest needle_tests[] = {
 // edge note 252: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 253: Space complexity: O(1) auxiliary.
 // edge note 254: Three passes total; the third merges results.
+// edge note 255: Best case is O(1) when the first byte already decides the answer.
