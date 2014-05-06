@@ -3042,3 +3042,7 @@ No allocations after setup.
 ## entry 746
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 747
+
+Edge case: all-equal input → linear-time fast path.
