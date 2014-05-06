@@ -2916,3 +2916,7 @@ Handles negative inputs as documented above.
 ## entry 714
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 715
+
+32-bit safe; overflow is checked at each step.
