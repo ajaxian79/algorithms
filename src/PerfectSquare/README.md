@@ -3038,3 +3038,7 @@ Uses a small fixed-size lookup table.
 ## entry 745
 
 No allocations after setup.
+
+## entry 746
+
+Edge case: integer-max input → guarded by the explicit overflow check.
