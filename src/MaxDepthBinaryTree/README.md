@@ -2821,3 +2821,7 @@ Three passes total; the third merges results.
 ## entry 691
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 692
+
+Edge case: all-equal input → linear-time fast path.
