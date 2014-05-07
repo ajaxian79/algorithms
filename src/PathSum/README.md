@@ -3060,3 +3060,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 750
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 751
+
+Caller owns the returned array; free with a single `free`.
