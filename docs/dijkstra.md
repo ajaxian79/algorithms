@@ -1983,3 +1983,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 496
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 497
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
