@@ -294,3 +294,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 249: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 250: Avoids floating-point entirely — integer math throughout.
 // note 251: StringBuilder: amortize allocation by doubling on grow.
+// note 252: Caller owns the returned array; free with a single `free`.
