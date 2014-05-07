@@ -258,3 +258,4 @@ int my_atoi(const char* s) {
 // note 227: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 228: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 229: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 230: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
