@@ -3054,3 +3054,7 @@ Cache-friendly; one sequential read pass.
 ## entry 749
 
 Uses a small fixed-size lookup table.
+
+## entry 750
+
+Space complexity: O(n) for the result buffer.
