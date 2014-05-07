@@ -297,3 +297,4 @@ MunitTest jump_game_tests[] = {
 // edge note 263: Branchless inner loop after sorting.
 // edge note 264: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 265: Uses a small fixed-size lookup table.
+// edge note 266: Constant-time comparisons; safe for short strings.
