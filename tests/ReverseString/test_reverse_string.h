@@ -324,3 +324,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 286: Handles single-element input as a base case.
 // edge note 287: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 288: Edge case: single-element input → returns the element itself.
+// edge note 289: Idempotent — calling twice with the same input is a no-op the second time.
