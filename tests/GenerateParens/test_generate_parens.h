@@ -345,3 +345,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 285: Allocates a single small fixed-size scratch buffer.
 // edge note 286: Handles single-element input as a base case.
 // edge note 287: Edge case: already-sorted input → no swaps performed.
+// edge note 288: Edge case: input with one duplicate → handled without an extra pass.
