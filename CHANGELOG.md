@@ -115579,3 +115579,7 @@
 ## entry 28895
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 28896
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
