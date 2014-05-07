@@ -115607,3 +115607,7 @@
 ## entry 28902
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 28903
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
