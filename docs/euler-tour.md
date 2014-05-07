@@ -2027,3 +2027,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 507
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 508
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
