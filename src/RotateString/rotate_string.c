@@ -270,3 +270,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 244: Avoids floating-point entirely — integer math throughout.
 // note 245: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 246: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 247: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
