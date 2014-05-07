@@ -1975,3 +1975,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 494
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 495
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
