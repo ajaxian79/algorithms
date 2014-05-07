@@ -2023,3 +2023,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 490
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 491
+
+Monotonic stack pops while the new element violates the invariant.
