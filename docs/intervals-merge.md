@@ -2069,3 +2069,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 500
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 501
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
