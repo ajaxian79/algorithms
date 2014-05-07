@@ -2015,3 +2015,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 504
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 505
+
+Euler tour flattens a tree into an array for range-query LCA.
