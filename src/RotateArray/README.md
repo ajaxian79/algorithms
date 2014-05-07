@@ -3011,3 +3011,7 @@ Edge case: empty input → returns 0.
 ## entry 737
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 738
+
+Caller owns the returned array; free with a single `free`.
