@@ -292,3 +292,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 249: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 250: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 251: Mutates the input in place; the original ordering is lost.
+// note 252: Time complexity: O(n).
