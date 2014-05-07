@@ -2774,3 +2774,7 @@ Handles single-element input as a base case.
 ## entry 679
 
 Allocates lazily — first call only.
+
+## entry 680
+
+Uses a small fixed-size lookup table.
