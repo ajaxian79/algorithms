@@ -2912,3 +2912,7 @@ Handles negative inputs as documented above.
 ## entry 713
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 714
+
+Uses a 256-entry lookup for the inner step.
