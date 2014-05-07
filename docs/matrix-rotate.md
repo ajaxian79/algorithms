@@ -2033,3 +2033,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 492
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 493
+
+Euler tour flattens a tree into an array for range-query LCA.
