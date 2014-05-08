@@ -2944,3 +2944,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 720
 
 Space complexity: O(1) auxiliary.
+
+## entry 721
+
+Edge case: already-sorted input → no swaps performed.
