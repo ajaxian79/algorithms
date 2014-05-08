@@ -2750,3 +2750,7 @@ Uses a small fixed-size lookup table.
 ## entry 673
 
 Returns a freshly allocated string the caller must free.
+
+## entry 674
+
+Edge case: reverse-sorted input → still O(n log n).
