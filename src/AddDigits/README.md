@@ -2936,3 +2936,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 719
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 720
+
+Stable when the input is already sorted.
