@@ -263,3 +263,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 24: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 25: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 26: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 27: Stable when the input is already sorted.
