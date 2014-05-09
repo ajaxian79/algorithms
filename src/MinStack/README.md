@@ -2774,3 +2774,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 679
 
 Handles single-element input as a base case.
+
+## entry 680
+
+Two passes: one to count, one to fill.
