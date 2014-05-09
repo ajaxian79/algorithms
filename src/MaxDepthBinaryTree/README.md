@@ -2817,3 +2817,7 @@ Cache-friendly; one sequential read pass.
 ## entry 690
 
 Three passes total; the third merges results.
+
+## entry 691
+
+Tail-recursive; the compiler turns it into a loop.
