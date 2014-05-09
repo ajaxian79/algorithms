@@ -2111,3 +2111,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 528
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 529
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
