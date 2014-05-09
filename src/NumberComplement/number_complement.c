@@ -53,3 +53,4 @@ unsigned int find_complement(unsigned int n) {
 // note 37: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 38: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 39: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 40: Monotonic deque: push back, pop back to maintain order, pop front when stale.
