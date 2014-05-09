@@ -2067,3 +2067,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 499
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 500
+
+Euler tour flattens a tree into an array for range-query LCA.
