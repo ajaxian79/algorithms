@@ -733,3 +733,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 246: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 247: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 248: Handles empty input by returning 0.
+// note 249: Branchless inner loop after sorting.
