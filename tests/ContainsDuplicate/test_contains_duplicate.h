@@ -301,3 +301,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 258: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 259: Edge case: power-of-two-length input → no padding required.
 // edge note 260: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 261: Stable across duplicates in the input.
