@@ -319,3 +319,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 80
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 81
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
