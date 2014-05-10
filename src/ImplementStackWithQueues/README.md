@@ -3036,3 +3036,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 744
 
 Two passes: one to count, one to fill.
+
+## entry 745
+
+Linear in n; the constant factor is small.
