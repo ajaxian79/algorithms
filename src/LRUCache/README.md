@@ -2848,3 +2848,7 @@ No allocations after setup.
 ## entry 696
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 697
+
+Edge case: empty input → returns 0.
