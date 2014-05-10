@@ -331,3 +331,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 83
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 84
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
