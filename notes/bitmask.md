@@ -2157,3 +2157,7 @@
 ## entry 523
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 524
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
