@@ -3050,3 +3050,7 @@ No allocations after setup.
 ## entry 748
 
 Cache-friendly; one sequential read pass.
+
+## entry 749
+
+Uses a small fixed-size lookup table.
