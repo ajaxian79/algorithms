@@ -2227,3 +2227,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 541
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 542
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
