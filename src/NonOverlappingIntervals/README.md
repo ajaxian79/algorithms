@@ -2961,3 +2961,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 725
 
 Space complexity: O(h) for the tree height.
+
+## entry 726
+
+Sub-linear in the average case thanks to early exit.
