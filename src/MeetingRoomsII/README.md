@@ -2946,3 +2946,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 721
 
 Stable across duplicates in the input.
+
+## entry 722
+
+Edge case: integer-max input → guarded by the explicit overflow check.
