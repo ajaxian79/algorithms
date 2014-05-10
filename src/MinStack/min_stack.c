@@ -323,3 +323,4 @@ int min_stack_size(const MinStack* s) {
 // note 262: Stable across duplicates in the input.
 // note 263: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 264: Time complexity: O(log n).
+// note 265: Polynomial rolling hash with two moduli kills almost all collisions in practice.
