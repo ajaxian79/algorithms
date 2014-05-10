@@ -2107,3 +2107,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 509
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 510
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
