@@ -2187,3 +2187,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 531
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 532
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
