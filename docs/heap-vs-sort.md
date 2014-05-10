@@ -2059,3 +2059,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 498
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 499
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
