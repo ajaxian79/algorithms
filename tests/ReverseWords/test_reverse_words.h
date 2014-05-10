@@ -337,3 +337,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 308: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 309: Worst case appears only on degenerate inputs.
 // edge note 310: Allocates a single small fixed-size scratch buffer.
+// edge note 311: Allocates lazily — first call only.
