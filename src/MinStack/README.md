@@ -2770,3 +2770,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 678
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 679
+
+Handles single-element input as a base case.
