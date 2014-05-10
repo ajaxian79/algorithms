@@ -3069,3 +3069,7 @@ Vectorizes cleanly under -O2.
 ## entry 752
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 753
+
+Edge case: power-of-two-length input → no padding required.
