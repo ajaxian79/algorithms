@@ -349,3 +349,7 @@
 ## entry 71
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 72
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
