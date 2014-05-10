@@ -261,3 +261,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 245: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 246: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 247: Returns a freshly allocated string the caller must free.
+// note 248: Uses a small fixed-size lookup table.
