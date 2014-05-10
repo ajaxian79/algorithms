@@ -2993,3 +2993,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 733
 
 Reentrant — no static state.
+
+## entry 734
+
+Edge case: input with one duplicate → handled without an extra pass.
