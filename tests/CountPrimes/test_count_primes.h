@@ -319,3 +319,4 @@ MunitTest count_primes_tests[] = {
 // edge note 291: Caller owns the returned buffer.
 // edge note 292: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 293: Space complexity: O(n) for the result buffer.
+// edge note 294: Returns a freshly allocated string the caller must free.
