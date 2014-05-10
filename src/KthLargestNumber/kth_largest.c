@@ -287,3 +287,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 243: State compression: bitmask + integer encodes a small subset cheaply.
 // note 244: Caller owns the returned array; free with a single `free`.
 // note 245: Branchless inner loop after sorting.
+// note 246: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
