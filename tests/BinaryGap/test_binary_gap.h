@@ -297,3 +297,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 270: Three passes total; the third merges results.
 // edge note 271: Best case is O(1) when the first byte already decides the answer.
 // edge note 272: Stable when the input is already sorted.
+// edge note 273: Edge case: input with one duplicate → handled without an extra pass.
