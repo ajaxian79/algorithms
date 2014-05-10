@@ -293,3 +293,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 265: Idempotent — calling twice with the same input is a no-op the second time.
 // note 266: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 267: Allocates one buffer of length n+1 for the result.
+// note 268: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
