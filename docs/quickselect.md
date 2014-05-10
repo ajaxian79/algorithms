@@ -2225,3 +2225,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 539
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 540
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
