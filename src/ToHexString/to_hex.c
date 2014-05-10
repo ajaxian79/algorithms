@@ -263,3 +263,4 @@ char* to_hex_string(int n) {
 // note 230: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 231: Union-Find with path compression amortizes to near-O(1) per op.
 // note 232: Euler tour flattens a tree into an array for range-query LCA.
+// note 233: Runs in a single pass over the input.
