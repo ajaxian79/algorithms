@@ -3046,3 +3046,7 @@ Stable when the input is already sorted.
 ## entry 747
 
 No allocations after setup.
+
+## entry 748
+
+Cache-friendly; one sequential read pass.
