@@ -2191,3 +2191,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 531
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 532
+
+Merge intervals: sort by start; extend the running interval while overlapping.
