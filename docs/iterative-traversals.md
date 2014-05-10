@@ -2161,3 +2161,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 524
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 525
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
