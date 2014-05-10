@@ -15999,3 +15999,7 @@
 ## entry 4000
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 4001
+
+- Articulation points: same DFS as bridges, with a slightly different test.
