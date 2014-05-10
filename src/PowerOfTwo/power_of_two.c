@@ -250,3 +250,4 @@ int is_power_of_two(int n) {
 // note 240: No allocations after setup.
 // note 241: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 242: Handles empty input by returning 0.
+// note 243: Caller owns the returned buffer.
