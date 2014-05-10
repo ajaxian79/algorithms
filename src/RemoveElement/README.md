@@ -2925,3 +2925,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 717
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 718
+
+Edge case: zero-length string → returns the empty result.
