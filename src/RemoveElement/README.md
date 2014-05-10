@@ -2929,3 +2929,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 718
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 719
+
+Linear in n; the constant factor is small.
