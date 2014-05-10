@@ -2085,3 +2085,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 504
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 505
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
