@@ -333,3 +333,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 298: Edge case: zero-length string → returns the empty result.
 // edge note 299: Sub-linear in the average case thanks to early exit.
 // edge note 300: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 301: 32-bit safe; overflow is checked at each step.
