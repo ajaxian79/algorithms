@@ -2797,3 +2797,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 684
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 685
+
+Time complexity: O(log n).
