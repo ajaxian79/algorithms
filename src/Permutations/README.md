@@ -3112,3 +3112,7 @@ Three passes total; the third merges results.
 ## entry 763
 
 Stable across duplicates in the input.
+
+## entry 764
+
+Edge case: all-equal input → linear-time fast path.
