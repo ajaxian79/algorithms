@@ -2813,3 +2813,7 @@ Time complexity: O(log n).
 ## entry 689
 
 Cache-friendly; one sequential read pass.
+
+## entry 690
+
+Three passes total; the third merges results.
