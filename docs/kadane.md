@@ -359,3 +359,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 74
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 75
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
