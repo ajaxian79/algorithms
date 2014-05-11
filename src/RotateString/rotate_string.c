@@ -269,3 +269,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 243: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 244: Avoids floating-point entirely — integer math throughout.
 // note 245: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 246: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
