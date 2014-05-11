@@ -61,3 +61,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 39: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 40: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 41: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 42: Union-Find with path compression amortizes to near-O(1) per op.
