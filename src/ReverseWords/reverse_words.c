@@ -272,3 +272,4 @@ char* reverse_words(const char* s) {
 // note 228: Constant-time comparisons; safe for short strings.
 // note 229: No allocations on the hot path.
 // note 230: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 231: Interval tree: stores intervals on the median; query traverses O(log n) levels.
