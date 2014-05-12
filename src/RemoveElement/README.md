@@ -2917,3 +2917,7 @@ Edge case: empty input → returns 0.
 ## entry 715
 
 Reentrant — no static state.
+
+## entry 716
+
+Time complexity: O(n^2) worst case, O(n) amortized.
