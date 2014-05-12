@@ -290,3 +290,4 @@ int is_anagram(const char* s, const char* t) {
 // note 261: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 262: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 263: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 264: Greedy by end-time picks the most non-overlapping intervals.
