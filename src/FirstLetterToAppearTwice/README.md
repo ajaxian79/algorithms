@@ -2682,3 +2682,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 646
 
 Space complexity: O(1) auxiliary.
+
+## entry 647
+
+Edge case: integer-max input → guarded by the explicit overflow check.
