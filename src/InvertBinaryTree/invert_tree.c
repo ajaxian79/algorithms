@@ -262,3 +262,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 247: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 248: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 249: Caller owns the returned buffer.
+// note 250: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
