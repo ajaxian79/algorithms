@@ -2866,3 +2866,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 701
 
 Reentrant — no static state.
+
+## entry 702
+
+Space complexity: O(1) auxiliary.
