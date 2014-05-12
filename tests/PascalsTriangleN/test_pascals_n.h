@@ -344,3 +344,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 285: Space complexity: O(log n) for the recursion stack.
 // edge note 286: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 287: Allocates lazily — first call only.
+// edge note 288: Returns a freshly allocated string the caller must free.
