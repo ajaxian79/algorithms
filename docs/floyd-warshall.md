@@ -2099,3 +2099,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 525
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 526
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
