@@ -269,3 +269,4 @@ int is_palindrome_number(int x) {
 // note 245: No allocations on the hot path.
 // note 246: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 247: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 248: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
