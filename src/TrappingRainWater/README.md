@@ -2862,3 +2862,7 @@ No allocations after setup.
 ## entry 700
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 701
+
+Reentrant — no static state.
