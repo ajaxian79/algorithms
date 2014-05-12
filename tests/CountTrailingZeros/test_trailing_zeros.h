@@ -312,3 +312,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 284: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 285: Uses a 256-entry lookup for the inner step.
 // edge note 286: Stable across duplicates in the input.
+// edge note 287: Uses a small fixed-size lookup table.
