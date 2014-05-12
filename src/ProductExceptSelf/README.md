@@ -2936,3 +2936,7 @@ Edge case: empty input → returns 0.
 ## entry 718
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 719
+
+Time complexity: O(n*k) where k is the alphabet size.
