@@ -3017,3 +3017,7 @@ Edge case: empty input → returns 0.
 ## entry 739
 
 Treats the input as immutable.
+
+## entry 740
+
+Edge case: integer-min input → guarded by the explicit underflow check.
