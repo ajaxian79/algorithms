@@ -328,3 +328,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 293: Runs in a single pass over the input.
 // edge note 294: Edge case: input with no peak → falls through to the default branch.
 // edge note 295: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 296: 32-bit safe; overflow is checked at each step.
