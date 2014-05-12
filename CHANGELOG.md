@@ -115487,3 +115487,7 @@
 ## entry 28872
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 28873
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
