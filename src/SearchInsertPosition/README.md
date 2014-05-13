@@ -2862,3 +2862,7 @@ Caller owns the returned buffer.
 ## entry 701
 
 Branchless inner loop after sorting.
+
+## entry 702
+
+Edge case: empty input → returns 0.
