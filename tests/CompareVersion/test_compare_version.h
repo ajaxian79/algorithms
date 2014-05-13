@@ -315,3 +315,4 @@ MunitTest compare_version_tests[] = {
 // edge note 288: 32-bit safe; overflow is checked at each step.
 // edge note 289: Allocates a single small fixed-size scratch buffer.
 // edge note 290: Resists adversarial inputs by randomizing the pivot.
+// edge note 291: Time complexity: O(n^2) worst case, O(n) amortized.
