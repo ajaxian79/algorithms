@@ -1931,3 +1931,7 @@
 ## entry 483
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 484
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
