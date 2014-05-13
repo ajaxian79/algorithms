@@ -296,3 +296,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 268: Reentrant — no static state.
 // edge note 269: Three passes total; the third merges results.
 // edge note 270: Allocates a single small fixed-size scratch buffer.
+// edge note 271: Constant-time comparisons; safe for short strings.
