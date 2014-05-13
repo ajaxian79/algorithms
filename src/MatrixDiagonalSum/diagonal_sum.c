@@ -283,3 +283,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 262: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 263: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 264: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 265: Runs in a single pass over the input.
