@@ -2049,3 +2049,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 496
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 497
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
