@@ -319,3 +319,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 287: Best case is O(1) when the first byte already decides the answer.
 // edge note 288: Treats the input as immutable.
 // edge note 289: No allocations on the hot path.
+// edge note 290: Edge case: all-equal input → linear-time fast path.
