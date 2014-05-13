@@ -2141,3 +2141,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 520
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 521
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
