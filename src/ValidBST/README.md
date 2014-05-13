@@ -3013,3 +3013,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 738
 
 Edge case: empty input → returns 0.
+
+## entry 739
+
+Treats the input as immutable.
