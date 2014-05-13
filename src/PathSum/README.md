@@ -3056,3 +3056,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 749
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 750
+
+Edge case: already-sorted input → no swaps performed.
