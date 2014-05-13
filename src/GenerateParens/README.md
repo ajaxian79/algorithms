@@ -2932,3 +2932,7 @@ Vectorizes cleanly under -O2.
 ## entry 717
 
 Handles single-element input as a base case.
+
+## entry 718
+
+Edge case: maximum-length input → still fits in 32-bit indices.
