@@ -2809,3 +2809,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 688
 
 Time complexity: O(log n).
+
+## entry 689
+
+Cache-friendly; one sequential read pass.
