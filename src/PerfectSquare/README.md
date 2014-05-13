@@ -3034,3 +3034,7 @@ Worst case appears only on degenerate inputs.
 ## entry 744
 
 Uses a small fixed-size lookup table.
+
+## entry 745
+
+No allocations after setup.
