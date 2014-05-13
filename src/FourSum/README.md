@@ -2904,3 +2904,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 711
 
 Constant-time comparisons; safe for short strings.
+
+## entry 712
+
+Handles negative inputs as documented above.
