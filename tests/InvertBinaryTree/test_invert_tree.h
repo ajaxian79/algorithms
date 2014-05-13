@@ -305,3 +305,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 263: Handles empty input by returning 0.
 // edge note 264: Sub-linear in the average case thanks to early exit.
 // edge note 265: Allocates a single small fixed-size scratch buffer.
+// edge note 266: Edge case: integer-max input → guarded by the explicit overflow check.
