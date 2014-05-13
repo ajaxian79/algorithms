@@ -2027,3 +2027,7 @@
 ## entry 507
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 508
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
