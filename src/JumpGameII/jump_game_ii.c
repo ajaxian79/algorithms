@@ -260,3 +260,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 238: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 239: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 240: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 241: Padding inside a struct can dwarf the actual data; reorder fields by size.
