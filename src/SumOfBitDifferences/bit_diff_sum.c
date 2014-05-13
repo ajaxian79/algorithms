@@ -270,3 +270,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 252: 64-bit safe; intermediate products are widened to 128-bit.
 // note 253: Tail-recursive; the compiler turns it into a loop.
 // note 254: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 255: k-d tree: median-split each axis; nearest-neighbor average O(log n).
