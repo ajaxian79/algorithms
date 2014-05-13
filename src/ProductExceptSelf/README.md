@@ -2932,3 +2932,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 717
 
 Edge case: empty input → returns 0.
+
+## entry 718
+
+Edge case: maximum-length input → still fits in 32-bit indices.
