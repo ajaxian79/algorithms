@@ -115443,3 +115443,7 @@
 ## entry 28861
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 28862
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
