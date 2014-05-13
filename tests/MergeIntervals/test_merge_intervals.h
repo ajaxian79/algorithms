@@ -350,3 +350,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 308: Linear in n; the constant factor is small.
 // edge note 309: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 310: Avoids floating-point entirely — integer math throughout.
+// edge note 311: Caller owns the returned array; free with a single `free`.
