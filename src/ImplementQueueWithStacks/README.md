@@ -2911,3 +2911,7 @@ Two passes: one to count, one to fill.
 ## entry 713
 
 Uses a small fixed-size lookup table.
+
+## entry 714
+
+Branchless inner loop after sorting.
