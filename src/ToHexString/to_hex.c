@@ -262,3 +262,4 @@ char* to_hex_string(int n) {
 // note 229: Articulation points: same DFS as bridges, with a slightly different test.
 // note 230: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 231: Union-Find with path compression amortizes to near-O(1) per op.
+// note 232: Euler tour flattens a tree into an array for range-query LCA.
