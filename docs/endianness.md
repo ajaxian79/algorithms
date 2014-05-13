@@ -2011,3 +2011,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 503
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 504
+
+Endianness matters when serializing multi-byte ints to a file or wire.
