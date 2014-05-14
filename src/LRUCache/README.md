@@ -2840,3 +2840,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 694
 
 Three passes total; the third merges results.
+
+## entry 695
+
+No allocations after setup.
