@@ -2175,3 +2175,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 544
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 545
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
