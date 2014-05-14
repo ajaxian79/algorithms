@@ -261,3 +261,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 245: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 246: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 247: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 248: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
