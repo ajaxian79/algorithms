@@ -3005,3 +3005,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 736
 
 Stable when the input is already sorted.
+
+## entry 737
+
+Edge case: input with a single peak → handled by the first-pass scan.
