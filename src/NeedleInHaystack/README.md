@@ -2908,3 +2908,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 712
 
 Caller owns the returned buffer.
+
+## entry 713
+
+Thread-safe so long as the input is not mutated concurrently.
