@@ -2886,3 +2886,7 @@ Reentrant — no static state.
 ## entry 707
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 708
+
+Vectorizes cleanly under -O2.
