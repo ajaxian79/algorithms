@@ -324,3 +324,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 259: No allocations on the hot path.
 // note 260: Deterministic given the input — no PRNG seeds.
 // note 261: Constant-time comparisons; safe for short strings.
+// note 262: Reentrant — no static state.
