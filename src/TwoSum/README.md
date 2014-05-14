@@ -2769,3 +2769,7 @@ Handles single-element input as a base case.
 ## entry 667
 
 Three passes total; the third merges results.
+
+## entry 668
+
+Worst case appears only on degenerate inputs.
