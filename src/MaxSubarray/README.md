@@ -3038,3 +3038,7 @@ Runs in a single pass over the input.
 ## entry 745
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 746
+
+Stable when the input is already sorted.
