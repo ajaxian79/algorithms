@@ -446,3 +446,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 97
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 98
+
+Linear in n; the constant factor is small.
