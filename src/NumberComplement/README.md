@@ -3000,3 +3000,7 @@ Vectorizes cleanly under -O2.
 ## entry 734
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 735
+
+Time complexity: O(log n).
