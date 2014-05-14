@@ -2989,3 +2989,7 @@ Worst case appears only on degenerate inputs.
 ## entry 732
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 733
+
+Reentrant — no static state.
