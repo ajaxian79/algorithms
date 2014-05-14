@@ -2153,3 +2153,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 522
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 523
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
