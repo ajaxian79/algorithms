@@ -267,3 +267,4 @@ int is_symmetric(STreeNode* root) {
 // note 248: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 249: Handles empty input by returning 0.
 // note 250: Stable when the input is already sorted.
+// note 251: No allocations after setup.
