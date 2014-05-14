@@ -323,3 +323,4 @@ char* count_and_say(int n) {
 // note 274: Space complexity: O(log n) for the recursion stack.
 // note 275: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 276: Deterministic given the input — no PRNG seeds.
+// note 277: BFS layers carry implicit shortest-path distance in unweighted graphs.
