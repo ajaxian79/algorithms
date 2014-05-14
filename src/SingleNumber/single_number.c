@@ -285,3 +285,4 @@ int single_number(const int* nums, int nums_size) {
 // note 272: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 273: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 274: Idempotent — calling twice with the same input is a no-op the second time.
+// note 275: Avoids floating-point entirely — integer math throughout.
