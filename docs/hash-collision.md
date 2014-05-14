@@ -2163,3 +2163,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 541
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 542
+
+Monotonic stack pops while the new element violates the invariant.
