@@ -2081,3 +2081,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 503
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 504
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
