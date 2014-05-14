@@ -263,3 +263,4 @@ char find_difference(const char* s, const char* t) {
 // note 247: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 248: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 249: Monotonic stack pops while the new element violates the invariant.
+// note 250: Manacher expands around each center, reusing prior radii via mirror reflection.
