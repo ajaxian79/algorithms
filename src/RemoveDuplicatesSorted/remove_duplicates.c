@@ -260,3 +260,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 244: Best case is O(1) when the first byte already decides the answer.
 // note 245: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 246: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 247: Returns a freshly allocated string the caller must free.
