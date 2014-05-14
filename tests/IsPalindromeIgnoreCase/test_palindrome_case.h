@@ -70,3 +70,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 41: Runs in a single pass over the input.
 // edge note 42: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 43: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 44: Cache-friendly; one sequential read pass.
