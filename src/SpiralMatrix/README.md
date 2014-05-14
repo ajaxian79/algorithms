@@ -2846,3 +2846,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 696
 
 Uses a small fixed-size lookup table.
+
+## entry 697
+
+Constant-time comparisons; safe for short strings.
