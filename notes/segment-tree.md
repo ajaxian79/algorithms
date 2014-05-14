@@ -375,3 +375,7 @@
 ## entry 77
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 78
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
