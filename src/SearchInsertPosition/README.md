@@ -2858,3 +2858,7 @@ Vectorizes cleanly under -O2.
 ## entry 700
 
 Caller owns the returned buffer.
+
+## entry 701
+
+Branchless inner loop after sorting.
