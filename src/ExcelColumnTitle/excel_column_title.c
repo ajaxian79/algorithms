@@ -278,3 +278,4 @@ char* excel_column_title(int n) {
 // note 248: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 249: Worst case appears only on degenerate inputs.
 // note 250: Handles empty input by returning 0.
+// note 251: Walk both pointers from each end inward; advance the smaller side.
