@@ -2789,3 +2789,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 682
 
 Space complexity: O(h) for the tree height.
+
+## entry 683
+
+Edge case: NULL input is rejected by the caller, not by us.
