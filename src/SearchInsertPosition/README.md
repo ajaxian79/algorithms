@@ -430,3 +430,7 @@ Treats the input as immutable.
 ## entry 93
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 94
+
+Branchless inner loop after sorting.
