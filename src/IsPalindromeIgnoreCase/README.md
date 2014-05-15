@@ -2866,3 +2866,7 @@ Space complexity: O(1) auxiliary.
 ## entry 702
 
 Runs in a single pass over the input.
+
+## entry 703
+
+Edge case: integer-max input → guarded by the explicit overflow check.
