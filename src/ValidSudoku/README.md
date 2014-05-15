@@ -3051,3 +3051,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 747
 
 No allocations on the hot path.
+
+## entry 748
+
+Edge case: integer-max input → guarded by the explicit overflow check.
