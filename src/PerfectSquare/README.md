@@ -3030,3 +3030,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 743
 
 Worst case appears only on degenerate inputs.
+
+## entry 744
+
+Uses a small fixed-size lookup table.
