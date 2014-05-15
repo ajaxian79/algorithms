@@ -3055,3 +3055,7 @@ No allocations on the hot path.
 ## entry 748
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 749
+
+Stable across duplicates in the input.
