@@ -3108,3 +3108,7 @@ Allocates lazily — first call only.
 ## entry 762
 
 Three passes total; the third merges results.
+
+## entry 763
+
+Stable across duplicates in the input.
