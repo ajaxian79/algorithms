@@ -362,3 +362,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 307: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 308: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 309: Handles negative inputs as documented above.
+// edge note 310: Two passes: one to count, one to fill.
