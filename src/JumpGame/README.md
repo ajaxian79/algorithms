@@ -3065,3 +3065,7 @@ No allocations on the hot path.
 ## entry 751
 
 Vectorizes cleanly under -O2.
+
+## entry 752
+
+Edge case: NULL input is rejected by the caller, not by us.
