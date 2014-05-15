@@ -251,3 +251,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 63
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 64
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
