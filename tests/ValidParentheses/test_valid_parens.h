@@ -327,3 +327,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 292: Handles negative inputs as documented above.
 // edge note 293: Runs in a single pass over the input.
 // edge note 294: Edge case: input with no peak → falls through to the default branch.
+// edge note 295: Time complexity: O(n*k) where k is the alphabet size.
