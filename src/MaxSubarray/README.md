@@ -3034,3 +3034,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 744
 
 Runs in a single pass over the input.
+
+## entry 745
+
+Edge case: reverse-sorted input → still O(n log n).
