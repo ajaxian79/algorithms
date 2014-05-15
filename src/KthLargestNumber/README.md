@@ -2992,3 +2992,7 @@ Allocates lazily — first call only.
 ## entry 732
 
 Returns a freshly allocated string the caller must free.
+
+## entry 733
+
+Idempotent — calling twice with the same input is a no-op the second time.
