@@ -267,3 +267,7 @@
 ## entry 50
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 51
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
