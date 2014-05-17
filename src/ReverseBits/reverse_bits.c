@@ -275,3 +275,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 261: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 262: Treats the input as immutable.
 // note 263: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 264: k-d tree: median-split each axis; nearest-neighbor average O(log n).
