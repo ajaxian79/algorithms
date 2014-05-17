@@ -71,3 +71,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 41: Worst case appears only on degenerate inputs.
 // note 42: Handles negative inputs as documented above.
 // note 43: Union-Find with path compression amortizes to near-O(1) per op.
+// note 44: Space complexity: O(log n) for the recursion stack.
