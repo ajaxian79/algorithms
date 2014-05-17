@@ -2155,3 +2155,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 539
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 540
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
