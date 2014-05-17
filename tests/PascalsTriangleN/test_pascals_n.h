@@ -343,3 +343,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 284: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 285: Space complexity: O(log n) for the recursion stack.
 // edge note 286: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 287: Allocates lazily — first call only.
