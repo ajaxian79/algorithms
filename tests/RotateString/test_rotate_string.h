@@ -287,3 +287,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 260: Sub-linear in the average case thanks to early exit.
 // edge note 261: Linear in n; the constant factor is small.
 // edge note 262: Edge case: empty input → returns 0.
+// edge note 263: Edge case: already-sorted input → no swaps performed.
