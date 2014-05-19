@@ -2121,3 +2121,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 516
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 517
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
