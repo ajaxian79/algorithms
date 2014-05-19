@@ -115343,3 +115343,7 @@
 ## entry 28836
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 28837
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
