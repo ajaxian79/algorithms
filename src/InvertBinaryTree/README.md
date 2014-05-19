@@ -3120,3 +3120,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 765
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 766
+
+No allocations after setup.
