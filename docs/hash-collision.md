@@ -2155,3 +2155,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 539
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 540
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
