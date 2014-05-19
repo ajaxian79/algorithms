@@ -3010,3 +3010,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 738
 
 No allocations after setup.
+
+## entry 739
+
+No allocations after setup.
