@@ -267,3 +267,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 67
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 68
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
