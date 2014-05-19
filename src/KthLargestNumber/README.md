@@ -2984,3 +2984,7 @@ Reentrant — no static state.
 ## entry 730
 
 Space complexity: O(n) for the result buffer.
+
+## entry 731
+
+Allocates lazily — first call only.
