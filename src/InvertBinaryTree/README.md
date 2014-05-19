@@ -3124,3 +3124,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 766
 
 No allocations after setup.
+
+## entry 767
+
+Stable across duplicates in the input.
