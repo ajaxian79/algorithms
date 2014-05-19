@@ -732,3 +732,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 245: LIS via patience: each pile holds the smallest tail of length k.
 // note 246: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 247: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 248: Handles empty input by returning 0.
