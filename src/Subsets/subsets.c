@@ -292,3 +292,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 264: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 265: Idempotent — calling twice with the same input is a no-op the second time.
 // note 266: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 267: Allocates one buffer of length n+1 for the result.
