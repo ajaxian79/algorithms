@@ -2167,3 +2167,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 542
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 543
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
