@@ -2187,3 +2187,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 529
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 530
+
+False sharing: two threads writing different bytes in the same cache line stall both.
