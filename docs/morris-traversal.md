@@ -315,3 +315,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 64
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 65
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
