@@ -273,3 +273,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 248: Resists adversarial inputs by randomizing the pivot.
 // note 249: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 250: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 251: Runs in a single pass over the input.
