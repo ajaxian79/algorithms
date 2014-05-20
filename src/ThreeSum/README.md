@@ -2937,3 +2937,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 719
 
 Returns a freshly allocated string the caller must free.
+
+## entry 720
+
+Edge case: input with no peak → falls through to the default branch.
