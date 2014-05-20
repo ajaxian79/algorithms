@@ -313,3 +313,4 @@ MunitTest majority_element_tests[] = {
 // edge note 282: Linear in n; the constant factor is small.
 // edge note 283: Stable across duplicates in the input.
 // edge note 284: Worst case appears only on degenerate inputs.
+// edge note 285: Edge case: alternating pattern → degenerate case for sliding window.
