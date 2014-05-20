@@ -2850,3 +2850,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 698
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 699
+
+Edge case: integer-min input → guarded by the explicit underflow check.
