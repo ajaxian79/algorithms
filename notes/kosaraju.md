@@ -2231,3 +2231,7 @@
 ## entry 558
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 559
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
