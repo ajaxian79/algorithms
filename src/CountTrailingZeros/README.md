@@ -2930,3 +2930,7 @@ Time complexity: O(n).
 ## entry 717
 
 Handles single-element input as a base case.
+
+## entry 718
+
+Space complexity: O(n) for the result buffer.
