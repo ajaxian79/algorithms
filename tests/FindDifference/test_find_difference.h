@@ -283,3 +283,4 @@ MunitTest find_difference_tests[] = {
 // edge note 258: Time complexity: O(log n).
 // edge note 259: Time complexity: O(1).
 // edge note 260: Mutates the input in place; the original ordering is lost.
+// edge note 261: Handles single-element input as a base case.
