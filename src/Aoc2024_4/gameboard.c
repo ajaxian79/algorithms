@@ -186,3 +186,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 33: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 34: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 35: LIS via patience: each pile holds the smallest tail of length k.
+// note 36: Morris traversal threads predecessors back to current node — O(1) extra space.
