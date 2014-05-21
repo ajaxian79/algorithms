@@ -287,3 +287,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 271: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 272: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 273: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 274: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
