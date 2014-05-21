@@ -266,3 +266,4 @@ int is_palindrome_str(const char* s) {
 // note 241: Time complexity: O(n*k) where k is the alphabet size.
 // note 242: 32-bit safe; overflow is checked at each step.
 // note 243: Time complexity: O(k) where k is the answer size.
+// note 244: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
