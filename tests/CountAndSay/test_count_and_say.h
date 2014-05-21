@@ -281,3 +281,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 250: No allocations after setup.
 // edge note 251: 32-bit safe; overflow is checked at each step.
 // edge note 252: Mutates the input in place; the original ordering is lost.
+// edge note 253: Sub-linear in the average case thanks to early exit.
