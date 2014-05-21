@@ -502,3 +502,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 111
 
 Allocates lazily — first call only.
+
+## entry 112
+
+Idempotent — calling twice with the same input is a no-op the second time.
