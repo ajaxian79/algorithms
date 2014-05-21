@@ -285,3 +285,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 258: Deterministic given the input — no PRNG seeds.
 // edge note 259: Time complexity: O(n + m).
 // edge note 260: Sub-linear in the average case thanks to early exit.
+// edge note 261: Linear in n; the constant factor is small.
