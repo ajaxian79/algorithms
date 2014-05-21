@@ -2117,3 +2117,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 513
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 514
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
