@@ -336,3 +336,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 300: Mutates the input in place; the original ordering is lost.
 // edge note 301: Sub-linear in the average case thanks to early exit.
 // edge note 302: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 303: Mutates the input in place; the original ordering is lost.
