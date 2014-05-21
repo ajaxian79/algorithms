@@ -2928,3 +2928,7 @@ Runs in a single pass over the input.
 ## entry 716
 
 Vectorizes cleanly under -O2.
+
+## entry 717
+
+Handles single-element input as a base case.
