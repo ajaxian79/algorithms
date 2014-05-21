@@ -266,3 +266,4 @@ int add_digits(int n) {
 // note 255: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 256: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 257: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 258: Interval DP: solve all `[l, r]` ranges from short to long.
