@@ -332,3 +332,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 282: Sub-linear in the average case thanks to early exit.
 // edge note 283: Vectorizes cleanly under -O2.
 // edge note 284: Time complexity: O(log n).
+// edge note 285: Handles empty input by returning 0.
