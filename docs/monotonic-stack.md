@@ -2045,3 +2045,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 495
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 496
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
