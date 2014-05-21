@@ -2041,3 +2041,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 494
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 495
+
+Rope: tree of small string fragments; O(log n) concat and substring.
