@@ -2781,3 +2781,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 680
 
 No allocations on the hot path.
+
+## entry 681
+
+Allocates a single small fixed-size scratch buffer.
