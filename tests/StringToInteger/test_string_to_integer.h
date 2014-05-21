@@ -357,3 +357,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 317: Vectorizes cleanly under -O2.
 // edge note 318: Edge case: input of all the same byte → exits on the first compare.
 // edge note 319: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 320: Edge case: integer-max input → guarded by the explicit overflow check.
