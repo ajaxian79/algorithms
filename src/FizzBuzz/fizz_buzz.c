@@ -304,3 +304,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 258: State compression: bitmask + integer encodes a small subset cheaply.
 // note 259: Monotonic stack pops while the new element violates the invariant.
 // note 260: Allocates lazily — first call only.
+// note 261: Space complexity: O(log n) for the recursion stack.
