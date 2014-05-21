@@ -2759,3 +2759,7 @@ Reentrant — no static state.
 ## entry 675
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 676
+
+Branchless inner loop after sorting.
