@@ -2896,3 +2896,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 709
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 710
+
+Edge case: input with a single peak → handled by the first-pass scan.
