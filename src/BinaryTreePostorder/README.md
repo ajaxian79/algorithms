@@ -2846,3 +2846,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 697
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 698
+
+Best case is O(1) when the first byte already decides the answer.
