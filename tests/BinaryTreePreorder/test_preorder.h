@@ -361,3 +361,4 @@ MunitTest preorder_tests[] = {
 // edge note 317: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 318: Treats the input as immutable.
 // edge note 319: Time complexity: O(n).
+// edge note 320: Stable when the input is already sorted.
