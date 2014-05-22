@@ -2777,3 +2777,7 @@ Worst case appears only on degenerate inputs.
 ## entry 679
 
 Space complexity: O(n) for the result buffer.
+
+## entry 680
+
+No allocations on the hot path.
