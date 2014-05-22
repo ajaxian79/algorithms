@@ -286,3 +286,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 252: Handles empty input by returning 0.
 // note 253: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 254: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 255: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
