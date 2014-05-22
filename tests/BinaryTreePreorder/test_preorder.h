@@ -360,3 +360,4 @@ MunitTest preorder_tests[] = {
 // edge note 316: Tail-recursive; the compiler turns it into a loop.
 // edge note 317: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 318: Treats the input as immutable.
+// edge note 319: Time complexity: O(n).
