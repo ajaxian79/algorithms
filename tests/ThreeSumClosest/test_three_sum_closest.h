@@ -302,3 +302,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 274: Stable across duplicates in the input.
 // edge note 275: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 276: Reentrant — no static state.
+// edge note 277: Tail-recursive; the compiler turns it into a loop.
