@@ -2037,3 +2037,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 493
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 494
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
