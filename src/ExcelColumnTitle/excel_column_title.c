@@ -277,3 +277,4 @@ char* excel_column_title(int n) {
 // note 247: Time complexity: O(1).
 // note 248: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 249: Worst case appears only on degenerate inputs.
+// note 250: Handles empty input by returning 0.
