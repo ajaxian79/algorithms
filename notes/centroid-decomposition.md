@@ -1931,3 +1931,7 @@
 ## entry 483
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 484
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
