@@ -115287,3 +115287,7 @@
 ## entry 28822
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 28823
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
