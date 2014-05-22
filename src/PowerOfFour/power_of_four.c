@@ -275,3 +275,4 @@ int is_power_of_four(int n) {
 // note 262: Idempotent — calling twice with the same input is a no-op the second time.
 // note 263: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 264: Time complexity: O(n + m).
+// note 265: Uses a small fixed-size lookup table.
