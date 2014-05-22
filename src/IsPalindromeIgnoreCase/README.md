@@ -2858,3 +2858,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 700
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 701
+
+Space complexity: O(1) auxiliary.
