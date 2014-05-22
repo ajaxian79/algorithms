@@ -1983,3 +1983,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 496
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 497
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
