@@ -2123,3 +2123,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 531
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 532
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
