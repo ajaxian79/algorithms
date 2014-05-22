@@ -288,3 +288,4 @@ int is_anagram(const char* s, const char* t) {
 // note 259: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 260: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 261: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 262: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
