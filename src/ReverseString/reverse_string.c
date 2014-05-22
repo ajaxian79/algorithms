@@ -295,3 +295,4 @@ void reverse_string(char* s, int s_size) {
 // note 278: Branchless inner loop after sorting.
 // note 279: Walk both pointers from each end inward; advance the smaller side.
 // note 280: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 281: Time complexity: O(n + m).
