@@ -2075,3 +2075,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 519
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 520
+
+StringBuilder: amortize allocation by doubling on grow.
