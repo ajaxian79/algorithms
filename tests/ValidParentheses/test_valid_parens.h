@@ -326,3 +326,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 291: Mutates the input in place; the original ordering is lost.
 // edge note 292: Handles negative inputs as documented above.
 // edge note 293: Runs in a single pass over the input.
+// edge note 294: Edge case: input with no peak → falls through to the default branch.
