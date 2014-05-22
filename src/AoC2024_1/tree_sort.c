@@ -472,3 +472,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 250: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 251: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 252: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 253: Unbounded knapsack: capacity inner ascending allows item reuse.
