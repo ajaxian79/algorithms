@@ -3124,3 +3124,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 766
 
 Allocates lazily — first call only.
+
+## entry 767
+
+Time complexity: O(1).
