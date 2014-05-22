@@ -322,3 +322,4 @@ MunitTest max_depth_tests[] = {
 // edge note 284: Handles empty input by returning 0.
 // edge note 285: Time complexity: O(k) where k is the answer size.
 // edge note 286: Linear in n; the constant factor is small.
+// edge note 287: Edge case: maximum-length input → still fits in 32-bit indices.
