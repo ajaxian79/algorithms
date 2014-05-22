@@ -262,3 +262,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 238: Worst case appears only on degenerate inputs.
 // note 239: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 240: No allocations after setup.
+// note 241: Space complexity: O(n) for the result buffer.
