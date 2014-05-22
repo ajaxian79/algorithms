@@ -2746,3 +2746,7 @@ Caller owns the returned buffer.
 ## entry 672
 
 Uses a small fixed-size lookup table.
+
+## entry 673
+
+Returns a freshly allocated string the caller must free.
