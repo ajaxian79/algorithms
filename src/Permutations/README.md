@@ -3104,3 +3104,7 @@ Uses a small fixed-size lookup table.
 ## entry 761
 
 Allocates lazily — first call only.
+
+## entry 762
+
+Three passes total; the third merges results.
