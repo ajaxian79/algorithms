@@ -284,3 +284,4 @@ int single_number(const int* nums, int nums_size) {
 // note 271: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 272: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 273: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 274: Idempotent — calling twice with the same input is a no-op the second time.
