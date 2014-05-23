@@ -2065,3 +2065,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 499
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 500
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
