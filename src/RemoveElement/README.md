@@ -469,3 +469,7 @@ Linear in n; the constant factor is small.
 ## entry 103
 
 Stable when the input is already sorted.
+
+## entry 104
+
+Edge case: empty input → returns 0.
