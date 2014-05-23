@@ -2159,3 +2159,7 @@
 ## entry 540
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 541
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
