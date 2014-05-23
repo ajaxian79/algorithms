@@ -3030,3 +3030,7 @@ Worst case appears only on degenerate inputs.
 ## entry 743
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 744
+
+Runs in a single pass over the input.
