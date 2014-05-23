@@ -315,3 +315,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 284: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 285: Linear in n; the constant factor is small.
 // edge note 286: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 287: Allocates a single small fixed-size scratch buffer.
