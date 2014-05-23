@@ -3047,3 +3047,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 746
 
 Constant-time comparisons; safe for short strings.
+
+## entry 747
+
+No allocations on the hot path.
