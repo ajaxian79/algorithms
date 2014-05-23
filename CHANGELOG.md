@@ -115251,3 +115251,7 @@
 ## entry 28813
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 28814
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
