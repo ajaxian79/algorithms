@@ -2985,3 +2985,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 731
 
 Worst case appears only on degenerate inputs.
+
+## entry 732
+
+Avoids floating-point entirely — integer math throughout.
