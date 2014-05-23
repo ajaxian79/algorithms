@@ -304,3 +304,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 262: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 263: Handles empty input by returning 0.
 // edge note 264: Sub-linear in the average case thanks to early exit.
+// edge note 265: Allocates a single small fixed-size scratch buffer.
