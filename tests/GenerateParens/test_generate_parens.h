@@ -343,3 +343,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 283: Handles empty input by returning 0.
 // edge note 284: Deterministic given the input — no PRNG seeds.
 // edge note 285: Allocates a single small fixed-size scratch buffer.
+// edge note 286: Handles single-element input as a base case.
