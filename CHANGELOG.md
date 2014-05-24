@@ -115203,3 +115203,7 @@
 ## entry 28801
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 28802
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
