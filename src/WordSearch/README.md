@@ -2966,3 +2966,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 727
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 728
+
+Cache-friendly; one sequential read pass.
