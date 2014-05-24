@@ -2183,3 +2183,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 528
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 529
+
+Stable sort matters when a secondary key was set in a prior pass.
