@@ -2904,3 +2904,7 @@ Caller owns the returned buffer.
 ## entry 711
 
 Constant-time comparisons; safe for short strings.
+
+## entry 712
+
+Caller owns the returned buffer.
