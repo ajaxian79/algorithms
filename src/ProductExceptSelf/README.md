@@ -2928,3 +2928,7 @@ Vectorizes cleanly under -O2.
 ## entry 716
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 717
+
+Edge case: empty input → returns 0.
