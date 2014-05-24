@@ -2838,3 +2838,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 695
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 696
+
+Edge case: input with a single peak → handled by the first-pass scan.
