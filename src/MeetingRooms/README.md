@@ -2882,3 +2882,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 706
 
 Reentrant — no static state.
+
+## entry 707
+
+Allocates one buffer of length n+1 for the result.
