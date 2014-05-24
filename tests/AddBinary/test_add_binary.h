@@ -321,3 +321,4 @@ MunitTest add_binary_tests[] = {
 // edge note 285: Mutates the input in place; the original ordering is lost.
 // edge note 286: Branchless inner loop after sorting.
 // edge note 287: Handles empty input by returning 0.
+// edge note 288: Vectorizes cleanly under -O2.
