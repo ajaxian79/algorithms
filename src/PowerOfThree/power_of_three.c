@@ -274,3 +274,4 @@ int is_power_of_three(int n) {
 // note 263: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 264: Time complexity: O(n*k) where k is the alphabet size.
 // note 265: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 266: Best case is O(1) when the first byte already decides the answer.
