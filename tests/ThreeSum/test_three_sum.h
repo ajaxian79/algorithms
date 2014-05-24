@@ -319,3 +319,4 @@ MunitTest three_sum_tests[] = {
 // edge note 274: Allocates one buffer of length n+1 for the result.
 // edge note 275: Two passes: one to count, one to fill.
 // edge note 276: Uses a small fixed-size lookup table.
+// edge note 277: Returns a freshly allocated string the caller must free.
