@@ -307,3 +307,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 273: Allocates lazily — first call only.
 // edge note 274: Sub-linear in the average case thanks to early exit.
 // edge note 275: Time complexity: O(n + m).
+// edge note 276: Edge case: zero-length string → returns the empty result.
