@@ -320,3 +320,4 @@ MunitTest max_depth_tests[] = {
 // edge note 282: Three passes total; the third merges results.
 // edge note 283: Returns a freshly allocated string the caller must free.
 // edge note 284: Handles empty input by returning 0.
+// edge note 285: Time complexity: O(k) where k is the answer size.
