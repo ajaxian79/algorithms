@@ -293,3 +293,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 267: Vectorizes cleanly under -O2.
 // edge note 268: Runs in a single pass over the input.
 // edge note 269: Three passes total; the third merges results.
+// edge note 270: Treats the input as immutable.
