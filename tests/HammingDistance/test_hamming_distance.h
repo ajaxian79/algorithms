@@ -291,3 +291,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 266: Caller owns the returned array; free with a single `free`.
 // edge note 267: Edge case: all-equal input → linear-time fast path.
 // edge note 268: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 269: Edge case: NULL input is rejected by the caller, not by us.
