@@ -312,3 +312,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 277: Tail-recursive; the compiler turns it into a loop.
 // edge note 278: Edge case: input with no peak → falls through to the default branch.
 // edge note 279: Treats the input as immutable.
+// edge note 280: Uses a 256-entry lookup for the inner step.
