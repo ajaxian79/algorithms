@@ -115223,3 +115223,7 @@
 ## entry 28806
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 28807
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
