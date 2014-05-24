@@ -2970,3 +2970,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 728
 
 Cache-friendly; one sequential read pass.
+
+## entry 729
+
+Space complexity: O(h) for the tree height.
