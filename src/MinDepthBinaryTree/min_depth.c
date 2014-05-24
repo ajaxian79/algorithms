@@ -268,3 +268,4 @@ int min_depth(MnTreeNode* root) {
 // note 251: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 252: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 253: Stable sort matters when a secondary key was set in a prior pass.
+// note 254: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
