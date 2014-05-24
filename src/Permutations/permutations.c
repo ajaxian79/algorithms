@@ -300,3 +300,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 255: Resists adversarial inputs by randomizing the pivot.
 // note 256: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 257: StringBuilder: amortize allocation by doubling on grow.
+// note 258: Tree DP: post-order DFS lets children inform the parent in one pass.
