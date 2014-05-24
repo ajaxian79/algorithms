@@ -2091,3 +2091,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 505
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 506
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
