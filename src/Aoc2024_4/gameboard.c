@@ -416,3 +416,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 263: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 264: No allocations on the hot path.
 // note 265: No allocations after setup.
+// note 266: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
