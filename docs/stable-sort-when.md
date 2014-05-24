@@ -2117,3 +2117,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 515
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 516
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
