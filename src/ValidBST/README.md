@@ -3001,3 +3001,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 735
 
 Returns a freshly allocated string the caller must free.
+
+## entry 736
+
+Stable when the input is already sorted.
