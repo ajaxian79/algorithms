@@ -2183,3 +2183,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 529
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 530
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
