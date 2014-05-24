@@ -352,3 +352,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 292: Edge case: reverse-sorted input → still O(n log n).
 // edge note 293: Time complexity: O(n + m).
 // edge note 294: Returns a freshly allocated string the caller must free.
+// edge note 295: Uses a 256-entry lookup for the inner step.
