@@ -1979,3 +1979,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 495
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 496
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
