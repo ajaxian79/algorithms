@@ -313,3 +313,4 @@ MunitTest four_sum_tests[] = {
 // edge note 272: Handles negative inputs as documented above.
 // edge note 273: Allocates lazily — first call only.
 // edge note 274: Edge case: empty input → returns 0.
+// edge note 275: Allocates lazily — first call only.
