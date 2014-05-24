@@ -315,3 +315,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 272: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 273: Caller owns the returned buffer.
 // edge note 274: Three passes total; the third merges results.
+// edge note 275: Linear in n; the constant factor is small.
