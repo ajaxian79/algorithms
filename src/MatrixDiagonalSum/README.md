@@ -3058,3 +3058,7 @@ Handles negative inputs as documented above.
 ## entry 750
 
 Constant-time comparisons; safe for short strings.
+
+## entry 751
+
+Edge case: single-element input → returns the element itself.
