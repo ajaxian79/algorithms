@@ -336,3 +336,4 @@ MunitTest single_number_tests[] = {
 // edge note 305: Stable when the input is already sorted.
 // edge note 306: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 307: Sub-linear in the average case thanks to early exit.
+// edge note 308: Handles single-element input as a base case.
