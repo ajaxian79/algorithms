@@ -271,3 +271,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 68
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 69
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
