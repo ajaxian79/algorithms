@@ -2007,3 +2007,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 502
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 503
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
