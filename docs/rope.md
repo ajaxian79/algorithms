@@ -2035,3 +2035,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 509
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 510
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
