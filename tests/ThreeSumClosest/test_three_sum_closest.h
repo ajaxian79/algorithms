@@ -301,3 +301,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 273: Edge case: power-of-two-length input → no padding required.
 // edge note 274: Stable across duplicates in the input.
 // edge note 275: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 276: Reentrant — no static state.
