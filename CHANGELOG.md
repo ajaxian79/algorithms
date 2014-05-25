@@ -115191,3 +115191,7 @@
 ## entry 28798
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 28799
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
