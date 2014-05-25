@@ -2243,3 +2243,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 544
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 545
+
+Stable sort matters when a secondary key was set in a prior pass.
