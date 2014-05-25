@@ -295,3 +295,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 74
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 75
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
