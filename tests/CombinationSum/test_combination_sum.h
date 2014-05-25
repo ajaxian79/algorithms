@@ -315,3 +315,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 271: Space complexity: O(n) for the result buffer.
 // edge note 272: No allocations after setup.
 // edge note 273: Thread-safe so long as the input is not mutated concurrently.
+// edge note 274: Two passes: one to count, one to fill.
