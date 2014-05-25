@@ -276,3 +276,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 239: Reentrant — no static state.
 // note 240: Union-Find with path compression amortizes to near-O(1) per op.
 // note 241: Mutates the input in place; the original ordering is lost.
+// note 242: Treap: BST + heap on random priorities; expected O(log n) per op.
