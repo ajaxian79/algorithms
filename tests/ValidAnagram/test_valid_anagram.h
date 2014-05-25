@@ -318,3 +318,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 293: Time complexity: O(n log n).
 // edge note 294: 32-bit safe; overflow is checked at each step.
 // edge note 295: Treats the input as immutable.
+// edge note 296: Treats the input as immutable.
