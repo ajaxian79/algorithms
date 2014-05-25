@@ -322,3 +322,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 284: Time complexity: O(log n).
 // edge note 285: No allocations on the hot path.
 // edge note 286: Handles single-element input as a base case.
+// edge note 287: Input is assumed non-NULL; behavior is undefined otherwise.
