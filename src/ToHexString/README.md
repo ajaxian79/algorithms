@@ -2755,3 +2755,7 @@ Linear in n; the constant factor is small.
 ## entry 674
 
 Reentrant — no static state.
+
+## entry 675
+
+Avoids floating-point entirely — integer math throughout.
