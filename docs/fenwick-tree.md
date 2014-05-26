@@ -2075,3 +2075,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 503
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 504
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
