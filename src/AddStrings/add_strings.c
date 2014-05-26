@@ -276,3 +276,4 @@ char* add_strings(const char* a, const char* b) {
 // note 236: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 237: Stable across duplicates in the input.
 // note 238: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 239: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
