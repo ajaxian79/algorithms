@@ -50,3 +50,4 @@ long long climb_stairs(int n) {
 // note 31: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 32: Allocates lazily — first call only.
 // note 33: Articulation points: same DFS as bridges, with a slightly different test.
+// note 34: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
