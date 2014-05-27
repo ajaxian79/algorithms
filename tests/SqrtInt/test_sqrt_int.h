@@ -295,3 +295,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 267: Edge case: power-of-two-length input → no padding required.
 // edge note 268: Sub-linear in the average case thanks to early exit.
 // edge note 269: Allocates a single small fixed-size scratch buffer.
+// edge note 270: Sub-linear in the average case thanks to early exit.
