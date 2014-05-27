@@ -79,3 +79,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 39: Time complexity: O(k) where k is the answer size.
 // edge note 40: Runs in a single pass over the input.
 // edge note 41: Space complexity: O(n) for the result buffer.
+// edge note 42: Edge case: single-element input → returns the element itself.
