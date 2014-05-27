@@ -3100,3 +3100,7 @@ Vectorizes cleanly under -O2.
 ## entry 760
 
 Uses a small fixed-size lookup table.
+
+## entry 761
+
+Allocates lazily — first call only.
