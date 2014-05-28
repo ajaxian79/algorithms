@@ -516,3 +516,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 114
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 115
+
+Mutates the input in place; the original ordering is lost.
