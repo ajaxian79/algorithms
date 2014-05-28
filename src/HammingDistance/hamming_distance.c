@@ -261,3 +261,4 @@ int hamming_distance(int x, int y) {
 // note 246: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 247: Sub-linear in the average case thanks to early exit.
 // note 248: Stable sort matters when a secondary key was set in a prior pass.
+// note 249: Union-Find with path compression amortizes to near-O(1) per op.
