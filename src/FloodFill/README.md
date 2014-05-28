@@ -513,3 +513,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 114
 
 32-bit safe; overflow is checked at each step.
+
+## entry 115
+
+Reentrant — no static state.
