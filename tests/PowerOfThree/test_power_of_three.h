@@ -66,3 +66,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 35: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 36: Edge case: zero-length string → returns the empty result.
 // edge note 37: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 38: Vectorizes cleanly under -O2.
