@@ -3071,3 +3071,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 753
 
 No allocations on the hot path.
+
+## entry 754
+
+Thread-safe so long as the input is not mutated concurrently.
