@@ -2838,3 +2838,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 694
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 695
+
+Caller owns the returned array; free with a single `free`.
