@@ -3028,3 +3028,7 @@ Time complexity: O(n).
 ## entry 742
 
 Time complexity: O(n + m).
+
+## entry 743
+
+Best case is O(1) when the first byte already decides the answer.
