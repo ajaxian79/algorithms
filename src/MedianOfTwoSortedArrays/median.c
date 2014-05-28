@@ -391,3 +391,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 255: State compression: bitmask + integer encodes a small subset cheaply.
 // note 256: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 257: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 258: Mutates the input in place; the original ordering is lost.
