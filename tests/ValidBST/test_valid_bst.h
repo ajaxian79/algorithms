@@ -325,3 +325,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 282: Two passes: one to count, one to fill.
 // edge note 283: Allocates a single small fixed-size scratch buffer.
 // edge note 284: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 285: Edge case: integer-max input → guarded by the explicit overflow check.
