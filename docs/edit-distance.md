@@ -2059,3 +2059,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 497
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 498
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
