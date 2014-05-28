@@ -2992,3 +2992,7 @@ Allocates lazily — first call only.
 ## entry 733
 
 Stable when the input is already sorted.
+
+## entry 734
+
+Edge case: all-equal input → linear-time fast path.
