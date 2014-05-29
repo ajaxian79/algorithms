@@ -79,3 +79,4 @@ MunitTest path_sum_tests[] = {
 // edge note 40: Uses a 256-entry lookup for the inner step.
 // edge note 41: Edge case: power-of-two-length input → no padding required.
 // edge note 42: Allocates lazily — first call only.
+// edge note 43: Tail-recursive; the compiler turns it into a loop.
