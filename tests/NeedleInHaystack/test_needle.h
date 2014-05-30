@@ -277,3 +277,4 @@ MunitTest needle_tests[] = {
 // edge note 250: Cache-friendly; one sequential read pass.
 // edge note 251: Edge case: already-sorted input → no swaps performed.
 // edge note 252: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 253: Space complexity: O(1) auxiliary.
