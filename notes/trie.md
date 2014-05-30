@@ -1973,3 +1973,7 @@
 ## entry 476
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 477
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
