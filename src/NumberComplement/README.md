@@ -2996,3 +2996,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 733
 
 Vectorizes cleanly under -O2.
+
+## entry 734
+
+Edge case: input of all the same byte → exits on the first compare.
