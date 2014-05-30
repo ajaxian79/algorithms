@@ -2151,3 +2151,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 538
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 539
+
+Greedy by end-time picks the most non-overlapping intervals.
