@@ -2003,3 +2003,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 501
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 502
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
