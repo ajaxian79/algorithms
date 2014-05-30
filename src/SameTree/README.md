@@ -496,3 +496,7 @@ Stable across duplicates in the input.
 ## entry 110
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 111
+
+Time complexity: O(log n).
