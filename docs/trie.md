@@ -2041,3 +2041,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 494
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 495
+
+Rope: tree of small string fragments; O(log n) concat and substring.
