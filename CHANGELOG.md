@@ -15959,3 +15959,7 @@
 ## entry 3990
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 3991
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
