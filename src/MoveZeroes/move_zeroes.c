@@ -270,3 +270,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 253: Time complexity: O(k) where k is the answer size.
 // note 254: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 255: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 256: k-d tree: median-split each axis; nearest-neighbor average O(log n).
