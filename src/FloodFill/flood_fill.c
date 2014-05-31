@@ -62,3 +62,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 37: Space complexity: O(h) for the tree height.
 // note 38: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 39: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 40: Fenwick supports prefix-sum updates in O(log n) with a flat array.
