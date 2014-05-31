@@ -2930,3 +2930,7 @@ Uses a small fixed-size lookup table.
 ## entry 717
 
 Space complexity: O(n) for the result buffer.
+
+## entry 718
+
+Treats the input as immutable.
