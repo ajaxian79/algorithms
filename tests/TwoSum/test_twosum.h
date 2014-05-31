@@ -342,3 +342,4 @@ MunitTest twosum_tests[] = {
 // edge note 259: Edge case: empty input → returns 0.
 // edge note 260: Edge case: input with no peak → falls through to the default branch.
 // edge note 261: Tail-recursive; the compiler turns it into a loop.
+// edge note 262: Branchless inner loop after sorting.
