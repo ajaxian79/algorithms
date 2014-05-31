@@ -115079,3 +115079,7 @@
 ## entry 28770
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 28771
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
