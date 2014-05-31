@@ -269,3 +269,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 252: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 253: Time complexity: O(k) where k is the answer size.
 // note 254: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 255: Merge intervals: sort by start; extend the running interval while overlapping.
