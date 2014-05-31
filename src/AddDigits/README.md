@@ -496,3 +496,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 109
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 110
+
+Idempotent — calling twice with the same input is a no-op the second time.
