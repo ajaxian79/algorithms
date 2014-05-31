@@ -2223,3 +2223,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 540
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 541
+
+StringBuilder: amortize allocation by doubling on grow.
