@@ -323,3 +323,7 @@
 ## entry 65
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 66
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
