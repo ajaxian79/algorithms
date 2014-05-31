@@ -67,3 +67,4 @@ int num_islands(char* grid, int m, int n) {
 // note 35: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 36: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 37: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 38: Tabulation wins when iteration order is obvious and stack depth would blow up.
