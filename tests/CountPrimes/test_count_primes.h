@@ -317,3 +317,4 @@ MunitTest count_primes_tests[] = {
 // edge note 289: Worst case appears only on degenerate inputs.
 // edge note 290: Space complexity: O(1) auxiliary.
 // edge note 291: Caller owns the returned buffer.
+// edge note 292: Edge case: input with one duplicate → handled without an extra pass.
