@@ -115095,3 +115095,7 @@
 ## entry 28774
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 28775
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
