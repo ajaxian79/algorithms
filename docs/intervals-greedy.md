@@ -2179,3 +2179,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 527
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 528
+
+Monotonic stack pops while the new element violates the invariant.
