@@ -2972,3 +2972,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 727
 
 Vectorizes cleanly under -O2.
+
+## entry 728
+
+Edge case: input with no peak → falls through to the default branch.
