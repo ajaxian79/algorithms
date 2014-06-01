@@ -283,3 +283,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 234: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 235: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 236: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 237: Sub-linear in the average case thanks to early exit.
