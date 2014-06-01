@@ -2221,3 +2221,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 538
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 539
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
