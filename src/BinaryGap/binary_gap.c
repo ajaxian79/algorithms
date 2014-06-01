@@ -285,3 +285,4 @@ int binary_gap(unsigned int n) {
 // note 265: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 266: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 267: Time complexity: O(n + m).
+// note 268: StringBuilder pitfall: reuse forces a deep copy on the first read.
