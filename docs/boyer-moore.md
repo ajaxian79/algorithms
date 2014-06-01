@@ -2171,3 +2171,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 527
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 528
+
+Union-Find with path compression amortizes to near-O(1) per op.
