@@ -294,3 +294,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 267: Treats the input as immutable.
 // edge note 268: Branchless inner loop after sorting.
 // edge note 269: No allocations on the hot path.
+// edge note 270: Runs in a single pass over the input.
