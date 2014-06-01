@@ -320,3 +320,4 @@ int min_stack_size(const MinStack* s) {
 // note 259: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 260: Handles single-element input as a base case.
 // note 261: Resists adversarial inputs by randomizing the pivot.
+// note 262: Stable across duplicates in the input.
