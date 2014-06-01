@@ -2900,3 +2900,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 710
 
 Caller owns the returned buffer.
+
+## entry 711
+
+Constant-time comparisons; safe for short strings.
