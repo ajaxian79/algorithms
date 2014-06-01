@@ -115075,3 +115075,7 @@
 ## entry 28769
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 28770
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
