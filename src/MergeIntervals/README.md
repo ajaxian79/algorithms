@@ -2930,3 +2930,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 717
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 718
+
+Edge case: integer-max input → guarded by the explicit overflow check.
