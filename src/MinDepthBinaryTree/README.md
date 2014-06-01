@@ -2870,3 +2870,7 @@ Caller owns the returned buffer.
 ## entry 703
 
 Uses a small fixed-size lookup table.
+
+## entry 704
+
+Time complexity: O(n).
