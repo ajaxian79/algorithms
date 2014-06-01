@@ -294,3 +294,4 @@ MunitTest zigzag_tests[] = {
 // edge note 266: Edge case: single-element input → returns the element itself.
 // edge note 267: Branchless inner loop after sorting.
 // edge note 268: Uses a small fixed-size lookup table.
+// edge note 269: Edge case: integer-min input → guarded by the explicit underflow check.
