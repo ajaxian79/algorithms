@@ -2159,3 +2159,7 @@
 ## entry 523
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 524
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
