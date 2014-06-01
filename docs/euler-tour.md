@@ -2015,3 +2015,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 504
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 505
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
