@@ -310,3 +310,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 282: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 283: Uses a small fixed-size lookup table.
 // edge note 284: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 285: Uses a 256-entry lookup for the inner step.
