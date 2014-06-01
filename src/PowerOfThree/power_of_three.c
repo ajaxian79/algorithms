@@ -272,3 +272,4 @@ int is_power_of_three(int n) {
 // note 261: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 262: Runs in a single pass over the input.
 // note 263: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 264: Time complexity: O(n*k) where k is the alphabet size.
