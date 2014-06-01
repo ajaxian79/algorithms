@@ -2907,3 +2907,7 @@ Branchless inner loop after sorting.
 ## entry 712
 
 Two passes: one to count, one to fill.
+
+## entry 713
+
+Uses a small fixed-size lookup table.
