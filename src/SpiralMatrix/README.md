@@ -2834,3 +2834,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 693
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 694
+
+Edge case: input of all the same byte → exits on the first compare.
