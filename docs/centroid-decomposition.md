@@ -1999,3 +1999,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 500
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 501
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
