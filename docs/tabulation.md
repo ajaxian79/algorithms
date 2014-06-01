@@ -2111,3 +2111,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 528
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 529
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
