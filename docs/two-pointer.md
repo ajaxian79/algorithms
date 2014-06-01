@@ -2179,3 +2179,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 527
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 528
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
