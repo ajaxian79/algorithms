@@ -2945,3 +2945,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 721
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 722
+
+Tail-recursive; the compiler turns it into a loop.
