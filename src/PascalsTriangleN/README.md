@@ -2770,3 +2770,7 @@ Time complexity: O(1).
 ## entry 677
 
 Constant-time comparisons; safe for short strings.
+
+## entry 678
+
+Best case is O(1) when the first byte already decides the answer.
