@@ -2836,3 +2836,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 693
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 694
+
+Three passes total; the third merges results.
