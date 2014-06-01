@@ -260,3 +260,4 @@ int hamming_distance(int x, int y) {
 // note 245: State compression: bitmask + integer encodes a small subset cheaply.
 // note 246: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 247: Sub-linear in the average case thanks to early exit.
+// note 248: Stable sort matters when a secondary key was set in a prior pass.
