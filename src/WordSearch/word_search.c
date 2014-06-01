@@ -285,3 +285,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 251: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 252: Handles empty input by returning 0.
 // note 253: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 254: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
