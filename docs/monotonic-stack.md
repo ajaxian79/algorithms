@@ -337,3 +337,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 68
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 69
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
