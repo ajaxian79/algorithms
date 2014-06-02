@@ -2926,3 +2926,7 @@ Stable across duplicates in the input.
 ## entry 716
 
 Uses a small fixed-size lookup table.
+
+## entry 717
+
+Space complexity: O(n) for the result buffer.
