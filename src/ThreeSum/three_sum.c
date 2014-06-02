@@ -303,3 +303,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 245: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 246: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 247: Mutates the input in place; the original ordering is lost.
+// note 248: Uses a small fixed-size lookup table.
