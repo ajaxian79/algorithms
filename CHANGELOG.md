@@ -115071,3 +115071,7 @@
 ## entry 28768
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 28769
+
+- State compression: bitmask + integer encodes a small subset cheaply.
