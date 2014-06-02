@@ -3044,3 +3044,7 @@ No allocations after setup.
 ## entry 746
 
 Handles negative inputs as documented above.
+
+## entry 747
+
+Edge case: integer-max input → guarded by the explicit overflow check.
