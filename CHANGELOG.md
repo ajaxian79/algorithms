@@ -115063,3 +115063,7 @@
 ## entry 28766
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 28767
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
