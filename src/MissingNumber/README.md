@@ -2930,3 +2930,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 717
 
 Reentrant — no static state.
+
+## entry 718
+
+Edge case: reverse-sorted input → still O(n log n).
