@@ -3061,3 +3061,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 750
 
 No allocations on the hot path.
+
+## entry 751
+
+Vectorizes cleanly under -O2.
