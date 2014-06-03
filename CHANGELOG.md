@@ -115031,3 +115031,7 @@
 ## entry 28758
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 28759
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
