@@ -2926,3 +2926,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 716
 
 Time complexity: O(n).
+
+## entry 717
+
+Handles single-element input as a base case.
