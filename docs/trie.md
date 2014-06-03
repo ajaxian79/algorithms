@@ -2037,3 +2037,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 493
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 494
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
