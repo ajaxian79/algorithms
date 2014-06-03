@@ -2819,3 +2819,7 @@ Cache-friendly; one sequential read pass.
 ## entry 690
 
 Constant-time comparisons; safe for short strings.
+
+## entry 691
+
+Sub-linear in the average case thanks to early exit.
