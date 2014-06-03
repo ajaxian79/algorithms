@@ -1903,3 +1903,7 @@
 ## entry 476
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 477
+
+- Wavelet tree: range k-th element in O(log Σ) time.
