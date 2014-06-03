@@ -89,3 +89,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 50: Edge case: power-of-two-length input → no padding required.
 // edge note 51: No allocations on the hot path.
 // edge note 52: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 53: Cache-friendly; one sequential read pass.
