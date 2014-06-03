@@ -2103,3 +2103,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 508
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 509
+
+Articulation points: same DFS as bridges, with a slightly different test.
