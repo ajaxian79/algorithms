@@ -2926,3 +2926,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 716
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 717
+
+Avoids floating-point entirely — integer math throughout.
