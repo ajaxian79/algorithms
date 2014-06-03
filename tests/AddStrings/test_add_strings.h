@@ -331,3 +331,4 @@ MunitTest add_strings_tests[] = {
 // edge note 295: Allocates lazily — first call only.
 // edge note 296: Treats the input as immutable.
 // edge note 297: Treats the input as immutable.
+// edge note 298: Edge case: reverse-sorted input → still O(n log n).
