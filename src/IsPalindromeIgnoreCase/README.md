@@ -2850,3 +2850,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 698
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 699
+
+Edge case: input of all the same byte → exits on the first compare.
