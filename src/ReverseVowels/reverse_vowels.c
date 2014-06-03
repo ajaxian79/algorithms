@@ -285,3 +285,4 @@ void reverse_vowels(char* s) {
 // note 252: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 253: Handles empty input by returning 0.
 // note 254: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 255: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
