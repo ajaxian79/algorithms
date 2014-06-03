@@ -115047,3 +115047,7 @@
 ## entry 28762
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 28763
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
