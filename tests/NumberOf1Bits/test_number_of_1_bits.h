@@ -326,3 +326,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 299: Edge case: zero-length string → returns the empty result.
 // edge note 300: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 301: Worst case appears only on degenerate inputs.
+// edge note 302: Vectorizes cleanly under -O2.
