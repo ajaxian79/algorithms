@@ -268,3 +268,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 233: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 234: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 235: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 236: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
