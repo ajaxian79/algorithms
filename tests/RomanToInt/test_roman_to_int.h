@@ -312,3 +312,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 278: Linear in n; the constant factor is small.
 // edge note 279: Handles single-element input as a base case.
 // edge note 280: Mutates the input in place; the original ordering is lost.
+// edge note 281: Idempotent — calling twice with the same input is a no-op the second time.
