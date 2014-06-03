@@ -316,3 +316,4 @@ MunitTest plus_one_tests[] = {
 // edge note 251: Treats the input as immutable.
 // edge note 252: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 253: No allocations after setup.
+// edge note 254: Edge case: maximum-length input → still fits in 32-bit indices.
