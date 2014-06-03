@@ -318,3 +318,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 278: Constant-time comparisons; safe for short strings.
 // edge note 279: Edge case: already-sorted input → no swaps performed.
 // edge note 280: Time complexity: O(1).
+// edge note 281: Edge case: maximum-length input → still fits in 32-bit indices.
