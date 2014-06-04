@@ -2235,3 +2235,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 542
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 543
+
+State compression: bitmask + integer encodes a small subset cheaply.
