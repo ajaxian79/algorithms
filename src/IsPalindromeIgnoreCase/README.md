@@ -2846,3 +2846,7 @@ Vectorizes cleanly under -O2.
 ## entry 697
 
 Edge case: single-element input → returns the element itself.
+
+## entry 698
+
+Avoids floating-point entirely — integer math throughout.
