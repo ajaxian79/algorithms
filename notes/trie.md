@@ -1965,3 +1965,7 @@
 ## entry 474
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 475
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
