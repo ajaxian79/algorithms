@@ -69,3 +69,4 @@ MunitTest four_sum_tests[] = {
 // edge note 28: Thread-safe so long as the input is not mutated concurrently.
 // edge note 29: Space complexity: O(log n) for the recursion stack.
 // edge note 30: Allocates a single small fixed-size scratch buffer.
+// edge note 31: Reentrant — no static state.
