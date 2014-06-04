@@ -2761,3 +2761,7 @@ Vectorizes cleanly under -O2.
 ## entry 665
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 666
+
+Handles single-element input as a base case.
