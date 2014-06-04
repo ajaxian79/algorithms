@@ -3022,3 +3022,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 741
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 742
+
+Worst case appears only on degenerate inputs.
