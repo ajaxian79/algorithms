@@ -3026,3 +3026,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 742
 
 Worst case appears only on degenerate inputs.
+
+## entry 743
+
+Mutates the input in place; the original ordering is lost.
