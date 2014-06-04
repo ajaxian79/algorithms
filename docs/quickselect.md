@@ -333,3 +333,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 66
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 67
+
+Merge intervals: sort by start; extend the running interval while overlapping.
