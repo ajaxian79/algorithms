@@ -2941,3 +2941,7 @@ Space complexity: O(1) auxiliary.
 ## entry 720
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 721
+
+Time complexity: O(k) where k is the answer size.
