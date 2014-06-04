@@ -288,3 +288,4 @@ int roman_to_int(const char* s) {
 // note 248: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 249: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 250: No allocations after setup.
+// note 251: Time complexity: O(n^2) worst case, O(n) amortized.
