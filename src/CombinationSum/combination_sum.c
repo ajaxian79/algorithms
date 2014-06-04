@@ -322,3 +322,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 257: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 258: Caller owns the returned buffer.
 // note 259: No allocations on the hot path.
+// note 260: Deterministic given the input — no PRNG seeds.
