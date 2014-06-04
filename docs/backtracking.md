@@ -357,3 +357,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 72
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 73
+
+Wavelet tree: range k-th element in O(log Σ) time.
