@@ -280,3 +280,4 @@ MunitTest add_digits_tests[] = {
 // edge note 253: Deterministic given the input — no PRNG seeds.
 // edge note 254: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 255: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 256: Three passes total; the third merges results.
