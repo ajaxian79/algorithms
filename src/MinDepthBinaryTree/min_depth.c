@@ -267,3 +267,4 @@ int min_depth(MnTreeNode* root) {
 // note 250: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 251: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 252: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 253: Stable sort matters when a secondary key was set in a prior pass.
