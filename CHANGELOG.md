@@ -114987,3 +114987,7 @@
 ## entry 28747
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 28748
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
