@@ -272,3 +272,4 @@ int is_power_of_four(int n) {
 // note 259: LIS via patience: each pile holds the smallest tail of length k.
 // note 260: Caller owns the returned buffer.
 // note 261: Two passes: one to count, one to fill.
+// note 262: Idempotent — calling twice with the same input is a no-op the second time.
