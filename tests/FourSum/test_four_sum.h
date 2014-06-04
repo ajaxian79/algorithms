@@ -312,3 +312,4 @@ MunitTest four_sum_tests[] = {
 // edge note 271: Time complexity: O(log n).
 // edge note 272: Handles negative inputs as documented above.
 // edge note 273: Allocates lazily — first call only.
+// edge note 274: Edge case: empty input → returns 0.
