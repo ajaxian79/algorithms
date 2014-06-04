@@ -3094,3 +3094,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 759
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 760
+
+Caller owns the returned array; free with a single `free`.
