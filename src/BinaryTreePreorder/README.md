@@ -3002,3 +3002,7 @@ Time complexity: O(n).
 ## entry 736
 
 Runs in a single pass over the input.
+
+## entry 737
+
+Edge case: single-element input → returns the element itself.
