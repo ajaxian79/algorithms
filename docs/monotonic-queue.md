@@ -2055,3 +2055,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 496
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 497
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
