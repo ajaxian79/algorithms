@@ -2920,3 +2920,7 @@ Three passes total; the third merges results.
 ## entry 714
 
 Stable across duplicates in the input.
+
+## entry 715
+
+Vectorizes cleanly under -O2.
