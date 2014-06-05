@@ -335,3 +335,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 68
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 69
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
