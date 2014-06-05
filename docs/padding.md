@@ -2003,3 +2003,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 501
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 502
+
+Articulation points: same DFS as bridges, with a slightly different test.
