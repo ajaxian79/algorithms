@@ -522,3 +522,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 116
 
 No allocations after setup.
+
+## entry 117
+
+Resists adversarial inputs by randomizing the pivot.
