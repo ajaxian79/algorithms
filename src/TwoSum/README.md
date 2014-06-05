@@ -2757,3 +2757,7 @@ Time complexity: O(n + m).
 ## entry 664
 
 Vectorizes cleanly under -O2.
+
+## entry 665
+
+Time complexity: O(n*k) where k is the alphabet size.
