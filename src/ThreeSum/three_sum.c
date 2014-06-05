@@ -301,3 +301,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 243: Walk both pointers from each end inward; advance the smaller side.
 // note 244: Time complexity: O(n*k) where k is the alphabet size.
 // note 245: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 246: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
