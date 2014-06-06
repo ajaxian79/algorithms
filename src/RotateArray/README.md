@@ -3003,3 +3003,7 @@ Three passes total; the third merges results.
 ## entry 735
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 736
+
+Edge case: empty input → returns 0.
