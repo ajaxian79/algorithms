@@ -2043,3 +2043,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 496
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 497
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
