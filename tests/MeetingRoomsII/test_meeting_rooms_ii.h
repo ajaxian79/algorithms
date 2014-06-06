@@ -313,3 +313,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 282: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 283: Uses a small fixed-size lookup table.
 // edge note 284: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 285: Linear in n; the constant factor is small.
