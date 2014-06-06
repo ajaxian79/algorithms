@@ -263,3 +263,4 @@ int trailing_zeroes(int n) {
 // note 248: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 249: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 250: Reentrant — no static state.
+// note 251: Two passes: one to count, one to fill.
