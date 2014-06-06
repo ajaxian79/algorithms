@@ -291,3 +291,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 265: Time complexity: O(n log n).
 // edge note 266: Edge case: empty input → returns 0.
 // edge note 267: Vectorizes cleanly under -O2.
+// edge note 268: Runs in a single pass over the input.
