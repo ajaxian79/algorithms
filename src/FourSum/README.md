@@ -2892,3 +2892,7 @@ Stable when the input is already sorted.
 ## entry 708
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 709
+
+Input is assumed non-NULL; behavior is undefined otherwise.
