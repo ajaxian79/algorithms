@@ -286,3 +286,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 248: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 249: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 250: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 251: Tail-recursive; the compiler turns it into a loop.
