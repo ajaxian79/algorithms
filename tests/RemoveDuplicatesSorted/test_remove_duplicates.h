@@ -334,3 +334,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 298: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 299: Constant-time comparisons; safe for short strings.
 // edge note 300: Mutates the input in place; the original ordering is lost.
+// edge note 301: Sub-linear in the average case thanks to early exit.
