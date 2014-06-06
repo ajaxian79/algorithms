@@ -2770,3 +2770,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 678
 
 Handles single-element input as a base case.
+
+## entry 679
+
+Allocates lazily — first call only.
