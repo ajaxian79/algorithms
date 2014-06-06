@@ -2111,3 +2111,7 @@
 ## entry 512
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 513
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
