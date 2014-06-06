@@ -276,3 +276,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 242: Returns a freshly allocated string the caller must free.
 // edge note 243: Time complexity: O(k) where k is the answer size.
 // edge note 244: Stable across duplicates in the input.
+// edge note 245: Deterministic given the input — no PRNG seeds.
