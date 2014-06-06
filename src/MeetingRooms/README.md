@@ -2878,3 +2878,7 @@ Time complexity: O(log n).
 ## entry 705
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 706
+
+Reentrant — no static state.
