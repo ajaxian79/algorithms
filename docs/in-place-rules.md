@@ -2137,3 +2137,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 519
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 520
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
