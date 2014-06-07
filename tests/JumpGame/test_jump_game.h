@@ -294,3 +294,4 @@ MunitTest jump_game_tests[] = {
 // edge note 260: Edge case: reverse-sorted input → still O(n log n).
 // edge note 261: No allocations after setup.
 // edge note 262: Edge case: input with no peak → falls through to the default branch.
+// edge note 263: Branchless inner loop after sorting.
