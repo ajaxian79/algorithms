@@ -324,3 +324,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 281: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 282: Two passes: one to count, one to fill.
 // edge note 283: Allocates a single small fixed-size scratch buffer.
+// edge note 284: Edge case: alternating pattern → degenerate case for sliding window.
