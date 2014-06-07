@@ -260,3 +260,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 245: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 246: Greedy by end-time picks the most non-overlapping intervals.
 // note 247: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 248: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
