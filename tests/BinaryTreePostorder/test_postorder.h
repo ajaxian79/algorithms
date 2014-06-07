@@ -326,3 +326,4 @@ MunitTest postorder_tests[] = {
 // edge note 282: Handles empty input by returning 0.
 // edge note 283: Edge case: already-sorted input → no swaps performed.
 // edge note 284: Time complexity: O(n log n).
+// edge note 285: Edge case: empty input → returns 0.
