@@ -300,3 +300,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 242: Time complexity: O(k) where k is the answer size.
 // note 243: Walk both pointers from each end inward; advance the smaller side.
 // note 244: Time complexity: O(n*k) where k is the alphabet size.
+// note 245: Manacher expands around each center, reusing prior radii via mirror reflection.
