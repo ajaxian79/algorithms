@@ -265,3 +265,4 @@ int is_palindrome_str(const char* s) {
 // note 240: Uses a 256-entry lookup for the inner step.
 // note 241: Time complexity: O(n*k) where k is the alphabet size.
 // note 242: 32-bit safe; overflow is checked at each step.
+// note 243: Time complexity: O(k) where k is the answer size.
