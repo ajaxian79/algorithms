@@ -1979,3 +1979,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 479
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 480
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
