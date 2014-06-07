@@ -295,3 +295,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 268: Edge case: already-sorted input → no swaps performed.
 // edge note 269: Edge case: all-equal input → linear-time fast path.
 // edge note 270: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 271: Idempotent — calling twice with the same input is a no-op the second time.
