@@ -3090,3 +3090,7 @@ No allocations on the hot path.
 ## entry 758
 
 Constant-time comparisons; safe for short strings.
+
+## entry 759
+
+Edge case: already-sorted input → no swaps performed.
