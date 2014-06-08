@@ -2798,3 +2798,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 685
 
 Linear in n; the constant factor is small.
+
+## entry 686
+
+Space complexity: O(h) for the tree height.
