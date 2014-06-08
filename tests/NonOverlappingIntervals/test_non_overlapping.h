@@ -310,3 +310,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 279: Handles single-element input as a base case.
 // edge note 280: Avoids floating-point entirely — integer math throughout.
 // edge note 281: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 282: Time complexity: O(n log n).
