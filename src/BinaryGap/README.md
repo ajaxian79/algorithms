@@ -3014,3 +3014,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 738
 
 Vectorizes cleanly under -O2.
+
+## entry 739
+
+Caller owns the returned buffer.
