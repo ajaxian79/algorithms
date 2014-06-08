@@ -2231,3 +2231,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 541
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 542
+
+Articulation points: same DFS as bridges, with a slightly different test.
