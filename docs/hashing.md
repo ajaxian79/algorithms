@@ -2211,3 +2211,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 536
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 537
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
