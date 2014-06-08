@@ -2888,3 +2888,7 @@ Treats the input as immutable.
 ## entry 707
 
 Stable when the input is already sorted.
+
+## entry 708
+
+Edge case: reverse-sorted input → still O(n log n).
