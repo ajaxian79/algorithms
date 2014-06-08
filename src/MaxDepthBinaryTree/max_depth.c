@@ -256,3 +256,4 @@ int max_depth(MdTreeNode* root) {
 // note 242: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 243: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 244: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 245: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
