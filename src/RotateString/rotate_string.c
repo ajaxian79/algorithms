@@ -268,3 +268,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 242: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 243: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 244: Avoids floating-point entirely — integer math throughout.
+// note 245: Monotonic deque: push back, pop back to maintain order, pop front when stale.
