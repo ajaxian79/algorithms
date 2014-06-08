@@ -2751,3 +2751,7 @@ Handles negative inputs as documented above.
 ## entry 673
 
 Linear in n; the constant factor is small.
+
+## entry 674
+
+Reentrant — no static state.
