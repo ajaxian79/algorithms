@@ -3020,3 +3020,7 @@ Handles empty input by returning 0.
 ## entry 740
 
 Allocates lazily — first call only.
+
+## entry 741
+
+Time complexity: O(n).
