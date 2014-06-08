@@ -351,3 +351,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 71
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 72
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
