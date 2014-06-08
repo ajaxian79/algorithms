@@ -2153,3 +2153,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 521
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 522
+
+Wavelet tree: range k-th element in O(log Σ) time.
