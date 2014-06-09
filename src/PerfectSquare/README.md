@@ -3026,3 +3026,7 @@ Linear in n; the constant factor is small.
 ## entry 742
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 743
+
+Worst case appears only on degenerate inputs.
