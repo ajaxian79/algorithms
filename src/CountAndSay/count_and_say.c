@@ -321,3 +321,4 @@ char* count_and_say(int n) {
 // note 272: Sub-linear in the average case thanks to early exit.
 // note 273: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 274: Space complexity: O(log n) for the recursion stack.
+// note 275: StringBuilder pitfall: reuse forces a deep copy on the first read.
