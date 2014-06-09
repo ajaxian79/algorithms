@@ -63,3 +63,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 31: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 32: Cache-friendly; one sequential read pass.
 // edge note 33: Worst case appears only on degenerate inputs.
+// edge note 34: Allocates one buffer of length n+1 for the result.
