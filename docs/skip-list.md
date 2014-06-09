@@ -1983,3 +1983,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 496
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 497
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
