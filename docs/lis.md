@@ -2227,3 +2227,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 540
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 541
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
