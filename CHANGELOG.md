@@ -114839,3 +114839,7 @@
 ## entry 28710
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 28711
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
