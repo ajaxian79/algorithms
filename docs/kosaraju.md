@@ -2047,3 +2047,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 512
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 513
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
