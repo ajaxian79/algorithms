@@ -310,3 +310,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 275: Allocates lazily — first call only.
 // edge note 276: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 277: Tail-recursive; the compiler turns it into a loop.
+// edge note 278: Edge case: input with no peak → falls through to the default branch.
