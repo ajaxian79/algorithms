@@ -2801,3 +2801,7 @@ Runs in a single pass over the input.
 ## entry 686
 
 Space complexity: O(1) auxiliary.
+
+## entry 687
+
+Edge case: input with a single peak → handled by the first-pass scan.
