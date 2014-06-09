@@ -2057,3 +2057,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 497
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 498
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
