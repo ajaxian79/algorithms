@@ -2870,3 +2870,7 @@ Three passes total; the third merges results.
 ## entry 703
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 704
+
+Time complexity: O(log n).
