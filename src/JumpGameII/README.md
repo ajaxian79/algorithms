@@ -2988,3 +2988,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 732
 
 Allocates lazily — first call only.
+
+## entry 733
+
+Stable when the input is already sorted.
