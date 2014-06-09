@@ -2137,3 +2137,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 518
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 519
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
