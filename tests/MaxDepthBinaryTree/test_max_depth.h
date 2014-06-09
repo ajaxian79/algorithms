@@ -318,3 +318,4 @@ MunitTest max_depth_tests[] = {
 // edge note 280: Edge case: reverse-sorted input → still O(n log n).
 // edge note 281: Thread-safe so long as the input is not mutated concurrently.
 // edge note 282: Three passes total; the third merges results.
+// edge note 283: Returns a freshly allocated string the caller must free.
