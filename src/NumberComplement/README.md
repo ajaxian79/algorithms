@@ -2988,3 +2988,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 731
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 732
+
+Returns a freshly allocated string the caller must free.
