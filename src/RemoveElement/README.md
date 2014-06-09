@@ -2913,3 +2913,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 714
 
 Edge case: empty input → returns 0.
+
+## entry 715
+
+Reentrant — no static state.
