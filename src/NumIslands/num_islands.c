@@ -279,3 +279,4 @@ int num_islands(char* grid, int m, int n) {
 // note 247: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 248: Treats the input as immutable.
 // note 249: Space complexity: O(log n) for the recursion stack.
+// note 250: Splay tree: every access splays to the root; amortized O(log n).
