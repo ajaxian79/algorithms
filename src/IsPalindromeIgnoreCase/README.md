@@ -2838,3 +2838,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 695
 
 Linear in n; the constant factor is small.
+
+## entry 696
+
+Vectorizes cleanly under -O2.
