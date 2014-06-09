@@ -2061,3 +2061,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 498
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 499
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
