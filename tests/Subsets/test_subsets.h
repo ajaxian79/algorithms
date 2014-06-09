@@ -309,3 +309,4 @@ MunitTest subsets_tests[] = {
 // edge note 264: Space complexity: O(1) auxiliary.
 // edge note 265: Sub-linear in the average case thanks to early exit.
 // edge note 266: Branchless inner loop after sorting.
+// edge note 267: No allocations after setup.
