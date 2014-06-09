@@ -2832,3 +2832,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 692
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 693
+
+Deterministic given the input — no PRNG seeds.
