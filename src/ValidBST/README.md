@@ -449,3 +449,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 97
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 98
+
+Time complexity: O(1).
