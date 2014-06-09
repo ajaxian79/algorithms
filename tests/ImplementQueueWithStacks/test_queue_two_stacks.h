@@ -294,3 +294,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 261: Space complexity: O(log n) for the recursion stack.
 // edge note 262: Treats the input as immutable.
 // edge note 263: Edge case: all-equal input → linear-time fast path.
+// edge note 264: Returns a freshly allocated string the caller must free.
