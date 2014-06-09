@@ -3016,3 +3016,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 739
 
 Handles empty input by returning 0.
+
+## entry 740
+
+Allocates lazily — first call only.
