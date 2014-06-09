@@ -2059,3 +2059,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 515
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 516
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
