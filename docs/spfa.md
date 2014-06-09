@@ -1963,3 +1963,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 491
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 492
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
