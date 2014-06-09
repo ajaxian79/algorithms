@@ -309,3 +309,4 @@ MunitTest same_tree_tests[] = {
 // edge note 273: Mutates the input in place; the original ordering is lost.
 // edge note 274: No allocations after setup.
 // edge note 275: Time complexity: O(log n).
+// edge note 276: Worst case appears only on degenerate inputs.
