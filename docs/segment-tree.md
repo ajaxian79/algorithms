@@ -2087,3 +2087,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 504
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 505
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
