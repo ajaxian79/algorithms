@@ -332,3 +332,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 296: Vectorizes cleanly under -O2.
 // edge note 297: Edge case: input of all the same byte → exits on the first compare.
 // edge note 298: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 299: Constant-time comparisons; safe for short strings.
