@@ -299,3 +299,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 269: Space complexity: O(log n) for the recursion stack.
 // edge note 270: Two passes: one to count, one to fill.
 // edge note 271: Uses a small fixed-size lookup table.
+// edge note 272: Caller owns the returned buffer.
