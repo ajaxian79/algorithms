@@ -2123,3 +2123,7 @@
 ## entry 515
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 516
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
