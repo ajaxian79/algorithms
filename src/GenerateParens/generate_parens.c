@@ -317,3 +317,4 @@ char** generate_parens(int n, int* return_size) {
 // note 253: Stable sort matters when a secondary key was set in a prior pass.
 // note 254: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 255: Vectorizes cleanly under -O2.
+// note 256: Space complexity: O(1) auxiliary.
