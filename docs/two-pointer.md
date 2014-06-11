@@ -2175,3 +2175,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 526
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 527
+
+Greedy by end-time picks the most non-overlapping intervals.
