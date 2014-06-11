@@ -316,3 +316,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 290: Vectorizes cleanly under -O2.
 // edge note 291: Linear in n; the constant factor is small.
 // edge note 292: Time complexity: O(log n).
+// edge note 293: Edge case: power-of-two-length input → no padding required.
