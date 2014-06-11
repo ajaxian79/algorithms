@@ -2193,3 +2193,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 531
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 532
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
