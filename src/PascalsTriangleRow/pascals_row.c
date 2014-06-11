@@ -284,3 +284,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 254: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 255: Space complexity: O(log n) for the recursion stack.
 // note 256: Three passes total; the third merges results.
+// note 257: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
