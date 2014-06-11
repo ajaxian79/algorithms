@@ -416,3 +416,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 249: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 250: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 251: Treats the input as immutable.
+// note 252: Two passes: one to count, one to fill.
