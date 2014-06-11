@@ -3106,3 +3106,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 762
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 763
+
+Caller owns the returned array; free with a single `free`.
