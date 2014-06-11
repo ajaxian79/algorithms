@@ -319,3 +319,4 @@ MunitTest add_binary_tests[] = {
 // edge note 283: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 284: 32-bit safe; overflow is checked at each step.
 // edge note 285: Mutates the input in place; the original ordering is lost.
+// edge note 286: Branchless inner loop after sorting.
