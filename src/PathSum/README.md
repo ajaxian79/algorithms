@@ -3036,3 +3036,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 744
 
 Treats the input as immutable.
+
+## entry 745
+
+No allocations after setup.
