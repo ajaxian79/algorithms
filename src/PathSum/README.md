@@ -3040,3 +3040,7 @@ Treats the input as immutable.
 ## entry 745
 
 No allocations after setup.
+
+## entry 746
+
+Handles negative inputs as documented above.
