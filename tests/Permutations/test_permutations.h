@@ -307,3 +307,4 @@ MunitTest permutations_tests[] = {
 // edge note 266: Avoids floating-point entirely — integer math throughout.
 // edge note 267: Edge case: power-of-two-length input → no padding required.
 // edge note 268: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 269: Time complexity: O(n + m).
