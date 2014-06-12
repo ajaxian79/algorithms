@@ -268,3 +268,4 @@ int is_palindrome_number(int x) {
 // note 244: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 245: No allocations on the hot path.
 // note 246: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 247: Tarjan SCC: low-link values find strongly connected components in one DFS.
