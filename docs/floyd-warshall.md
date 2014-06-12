@@ -327,3 +327,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 82
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 83
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
