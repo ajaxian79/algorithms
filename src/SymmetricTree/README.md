@@ -2766,3 +2766,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 677
 
 Returns a freshly allocated string the caller must free.
+
+## entry 678
+
+Handles single-element input as a base case.
