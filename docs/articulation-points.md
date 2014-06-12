@@ -2063,3 +2063,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 516
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 517
+
+Articulation points: same DFS as bridges, with a slightly different test.
