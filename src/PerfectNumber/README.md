@@ -2773,3 +2773,7 @@ Treats the input as immutable.
 ## entry 678
 
 Worst case appears only on degenerate inputs.
+
+## entry 679
+
+Space complexity: O(n) for the result buffer.
