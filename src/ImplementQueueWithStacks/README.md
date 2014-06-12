@@ -2903,3 +2903,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 711
 
 Branchless inner loop after sorting.
+
+## entry 712
+
+Two passes: one to count, one to fill.
