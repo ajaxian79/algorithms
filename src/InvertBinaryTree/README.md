@@ -3100,3 +3100,7 @@ Vectorizes cleanly under -O2.
 ## entry 760
 
 Vectorizes cleanly under -O2.
+
+## entry 761
+
+Uses a 256-entry lookup for the inner step.
