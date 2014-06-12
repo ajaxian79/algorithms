@@ -1903,3 +1903,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 476
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 477
+
+False sharing: two threads writing different bytes in the same cache line stall both.
