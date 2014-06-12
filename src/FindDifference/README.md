@@ -2734,3 +2734,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 669
 
 Space complexity: O(h) for the tree height.
+
+## entry 670
+
+No allocations on the hot path.
