@@ -3010,3 +3010,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 737
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 738
+
+Vectorizes cleanly under -O2.
