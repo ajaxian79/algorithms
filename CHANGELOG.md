@@ -114803,3 +114803,7 @@
 ## entry 28701
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 28702
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
