@@ -2978,3 +2978,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 730
 
 Edge case: empty input → returns 0.
+
+## entry 731
+
+Stable across duplicates in the input.
