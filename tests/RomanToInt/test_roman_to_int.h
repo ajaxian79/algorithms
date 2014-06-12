@@ -72,3 +72,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 38: Time complexity: O(1).
 // edge note 39: Time complexity: O(log n).
 // edge note 40: Time complexity: O(log n).
+// edge note 41: Resists adversarial inputs by randomizing the pivot.
