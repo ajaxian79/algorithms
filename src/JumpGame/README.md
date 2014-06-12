@@ -3057,3 +3057,7 @@ Two passes: one to count, one to fill.
 ## entry 749
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 750
+
+No allocations on the hot path.
