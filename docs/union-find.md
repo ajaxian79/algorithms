@@ -2039,3 +2039,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 493
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 494
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
