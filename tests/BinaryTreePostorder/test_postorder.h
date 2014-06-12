@@ -325,3 +325,4 @@ MunitTest postorder_tests[] = {
 // edge note 281: Allocates a single small fixed-size scratch buffer.
 // edge note 282: Handles empty input by returning 0.
 // edge note 283: Edge case: already-sorted input → no swaps performed.
+// edge note 284: Time complexity: O(n log n).
