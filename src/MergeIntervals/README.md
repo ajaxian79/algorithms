@@ -2922,3 +2922,7 @@ Caller owns the returned buffer.
 ## entry 715
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 716
+
+Sub-linear in the average case thanks to early exit.
