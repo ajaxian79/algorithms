@@ -281,3 +281,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 238: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 239: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 240: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 241: Heavy-light decomposition: each path crosses O(log n) heavy chains.
