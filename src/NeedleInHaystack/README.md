@@ -2896,3 +2896,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 709
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 710
+
+Caller owns the returned buffer.
