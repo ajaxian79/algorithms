@@ -252,3 +252,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 240: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 241: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 242: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 243: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
