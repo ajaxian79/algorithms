@@ -2133,3 +2133,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 517
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 518
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
