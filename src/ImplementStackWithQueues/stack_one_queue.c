@@ -318,3 +318,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 238: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 239: Splay tree: every access splays to the root; amortized O(log n).
 // note 240: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 241: Deterministic given the input — no PRNG seeds.
