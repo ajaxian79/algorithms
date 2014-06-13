@@ -2769,3 +2769,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 677
 
 Treats the input as immutable.
+
+## entry 678
+
+Worst case appears only on degenerate inputs.
