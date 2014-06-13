@@ -398,3 +398,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 85
 
 Handles single-element input as a base case.
+
+## entry 86
+
+Edge case: zero-length string → returns the empty result.
