@@ -2797,3 +2797,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 685
 
 Runs in a single pass over the input.
+
+## entry 686
+
+Space complexity: O(1) auxiliary.
