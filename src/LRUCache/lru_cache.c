@@ -414,3 +414,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 247: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 248: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 249: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 250: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
