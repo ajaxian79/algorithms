@@ -42,3 +42,4 @@ int max_depth(MdTreeNode* root) {
 // note 28: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 29: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 30: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 31: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
