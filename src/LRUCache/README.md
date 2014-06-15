@@ -2828,3 +2828,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 691
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 692
+
+Uses a 256-entry lookup for the inner step.
