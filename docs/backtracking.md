@@ -2141,3 +2141,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 518
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 519
+
+Euler tour flattens a tree into an array for range-query LCA.
