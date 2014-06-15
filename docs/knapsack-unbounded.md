@@ -2211,3 +2211,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 537
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 538
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
