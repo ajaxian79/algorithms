@@ -2055,3 +2055,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 514
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 515
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
