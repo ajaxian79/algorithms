@@ -3086,3 +3086,7 @@ Handles single-element input as a base case.
 ## entry 757
 
 No allocations on the hot path.
+
+## entry 758
+
+Constant-time comparisons; safe for short strings.
