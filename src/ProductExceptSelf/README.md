@@ -2916,3 +2916,7 @@ Time complexity: O(n log n).
 ## entry 713
 
 Three passes total; the third merges results.
+
+## entry 714
+
+Stable across duplicates in the input.
