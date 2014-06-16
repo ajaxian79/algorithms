@@ -2981,3 +2981,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 730
 
 Returns a freshly allocated string the caller must free.
+
+## entry 731
+
+Worst case appears only on degenerate inputs.
