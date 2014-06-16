@@ -2958,3 +2958,7 @@ Worst case appears only on degenerate inputs.
 ## entry 725
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 726
+
+Avoids floating-point entirely — integer math throughout.
