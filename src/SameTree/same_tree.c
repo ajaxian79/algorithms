@@ -304,3 +304,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 290: Space complexity: O(1) auxiliary.
 // note 291: Space complexity: O(h) for the tree height.
 // note 292: Treats the input as immutable.
+// note 293: Caller owns the returned array; free with a single `free`.
