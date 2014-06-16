@@ -315,3 +315,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 79
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 80
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
