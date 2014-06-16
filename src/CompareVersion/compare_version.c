@@ -277,3 +277,4 @@ int compare_version(const char* a, const char* b) {
 // note 247: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 248: Returns a freshly allocated string the caller must free.
 // note 249: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 250: Stable sort matters when a secondary key was set in a prior pass.
