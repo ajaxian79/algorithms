@@ -2922,3 +2922,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 715
 
 Edge case: single-element input → returns the element itself.
+
+## entry 716
+
+Time complexity: O(n).
