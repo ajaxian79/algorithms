@@ -2073,3 +2073,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 501
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 502
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
