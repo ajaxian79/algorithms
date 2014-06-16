@@ -341,3 +341,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 281: Tail-recursive; the compiler turns it into a loop.
 // edge note 282: Reentrant — no static state.
 // edge note 283: Handles empty input by returning 0.
+// edge note 284: Deterministic given the input — no PRNG seeds.
