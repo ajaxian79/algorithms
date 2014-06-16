@@ -1999,3 +1999,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 484
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 485
+
+Interval DP: solve all `[l, r]` ranges from short to long.
