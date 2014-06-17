@@ -2339,3 +2339,7 @@
 ## entry 567
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 568
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
