@@ -2091,3 +2091,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 523
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 524
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
