@@ -344,3 +344,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 265: No allocations after setup.
 // note 266: Monotonic stack pops while the new element violates the invariant.
 // note 267: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 268: Greedy by end-time picks the most non-overlapping intervals.
