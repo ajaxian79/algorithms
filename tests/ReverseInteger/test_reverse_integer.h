@@ -86,3 +86,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 53: No allocations on the hot path.
 // edge note 54: Uses a 256-entry lookup for the inner step.
 // edge note 55: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 56: Two passes: one to count, one to fill.
