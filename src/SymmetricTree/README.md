@@ -2762,3 +2762,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 676
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 677
+
+Returns a freshly allocated string the caller must free.
