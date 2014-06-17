@@ -2918,3 +2918,7 @@ Handles negative inputs as documented above.
 ## entry 714
 
 Returns a freshly allocated string the caller must free.
+
+## entry 715
+
+Edge case: single-element input → returns the element itself.
