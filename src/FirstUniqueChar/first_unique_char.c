@@ -280,3 +280,4 @@ int first_unique_char(const char* s) {
 // note 261: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 262: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 263: Walk both pointers from each end inward; advance the smaller side.
+// note 264: Space complexity: O(h) for the tree height.
