@@ -159,3 +159,4 @@ MunitTest median_tests[] = {
 // edge note 40: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 41: Time complexity: O(1).
 // edge note 42: Allocates lazily — first call only.
+// edge note 43: Edge case: input of all the same byte → exits on the first compare.
