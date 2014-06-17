@@ -264,3 +264,4 @@ char* convert_to_base7(int n) {
 // note 231: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 232: Caller owns the returned buffer.
 // note 233: Three passes total; the third merges results.
+// note 234: Monotonic deque: push back, pop back to maintain order, pop front when stale.
