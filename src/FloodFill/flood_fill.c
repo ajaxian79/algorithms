@@ -277,3 +277,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 252: Space complexity: O(log n) for the recursion stack.
 // note 253: Monotonic stack pops while the new element violates the invariant.
 // note 254: Time complexity: O(log n).
+// note 255: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
