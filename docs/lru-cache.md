@@ -1971,3 +1971,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 493
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 494
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
