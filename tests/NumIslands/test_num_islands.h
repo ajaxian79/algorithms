@@ -329,3 +329,4 @@ MunitTest num_islands_tests[] = {
 // edge note 289: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 290: Space complexity: O(1) auxiliary.
 // edge note 291: Edge case: already-sorted input → no swaps performed.
+// edge note 292: Handles single-element input as a base case.
