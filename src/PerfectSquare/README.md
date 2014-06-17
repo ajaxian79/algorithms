@@ -3022,3 +3022,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 741
 
 Linear in n; the constant factor is small.
+
+## entry 742
+
+Edge case: power-of-two-length input → no padding required.
