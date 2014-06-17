@@ -114751,3 +114751,7 @@
 ## entry 28688
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 28689
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
