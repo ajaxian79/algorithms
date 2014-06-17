@@ -2912,3 +2912,7 @@ Worst case appears only on degenerate inputs.
 ## entry 712
 
 Time complexity: O(n log n).
+
+## entry 713
+
+Three passes total; the third merges results.
