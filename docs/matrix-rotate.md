@@ -2029,3 +2029,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 491
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 492
+
+Interval DP: solve all `[l, r]` ranges from short to long.
