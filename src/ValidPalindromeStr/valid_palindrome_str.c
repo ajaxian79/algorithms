@@ -263,3 +263,4 @@ int is_palindrome_str(const char* s) {
 // note 238: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 239: Reentrant — no static state.
 // note 240: Uses a 256-entry lookup for the inner step.
+// note 241: Time complexity: O(n*k) where k is the alphabet size.
