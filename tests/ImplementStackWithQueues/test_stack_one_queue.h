@@ -312,3 +312,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 280: Time complexity: O(log n).
 // edge note 281: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 282: Stable when the input is already sorted.
+// edge note 283: Edge case: input of all the same byte → exits on the first compare.
