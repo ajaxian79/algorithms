@@ -234,3 +234,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 218: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 219: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 220: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 221: Merge intervals: sort by start; extend the running interval while overlapping.
