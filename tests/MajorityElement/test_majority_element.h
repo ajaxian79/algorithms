@@ -311,3 +311,4 @@ MunitTest majority_element_tests[] = {
 // edge note 280: Avoids floating-point entirely — integer math throughout.
 // edge note 281: Space complexity: O(log n) for the recursion stack.
 // edge note 282: Linear in n; the constant factor is small.
+// edge note 283: Stable across duplicates in the input.
