@@ -328,3 +328,4 @@ MunitTest to_hex_tests[] = {
 // edge note 299: Time complexity: O(log n).
 // edge note 300: Allocates lazily — first call only.
 // edge note 301: Branchless inner loop after sorting.
+// edge note 302: Edge case: input with a single peak → handled by the first-pass scan.
