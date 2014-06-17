@@ -114723,3 +114723,7 @@
 ## entry 28681
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 28682
+
+- Wavelet tree: range k-th element in O(log Σ) time.
