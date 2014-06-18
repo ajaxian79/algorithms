@@ -275,3 +275,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 243: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 244: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 245: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 246: Tree DP: post-order DFS lets children inform the parent in one pass.
