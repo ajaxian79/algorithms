@@ -3002,3 +3002,7 @@ Vectorizes cleanly under -O2.
 ## entry 735
 
 Time complexity: O(n).
+
+## entry 736
+
+Best case is O(1) when the first byte already decides the answer.
