@@ -2003,3 +2003,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 484
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 485
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
