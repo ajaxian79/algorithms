@@ -2871,3 +2871,7 @@ Edge case: empty input → returns 0.
 ## entry 703
 
 Space complexity: O(h) for the tree height.
+
+## entry 704
+
+No allocations on the hot path.
