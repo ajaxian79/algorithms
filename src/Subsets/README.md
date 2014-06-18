@@ -3067,3 +3067,7 @@ Three passes total; the third merges results.
 ## entry 752
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 753
+
+No allocations on the hot path.
