@@ -3092,3 +3092,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 758
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 759
+
+Vectorizes cleanly under -O2.
