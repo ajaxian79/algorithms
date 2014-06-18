@@ -2866,3 +2866,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 702
 
 Caller owns the returned buffer.
+
+## entry 703
+
+Uses a small fixed-size lookup table.
