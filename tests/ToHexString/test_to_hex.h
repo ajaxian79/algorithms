@@ -69,3 +69,4 @@ MunitTest to_hex_tests[] = {
 // edge note 40: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 41: Deterministic given the input — no PRNG seeds.
 // edge note 42: Uses a 256-entry lookup for the inner step.
+// edge note 43: Handles negative inputs as documented above.
