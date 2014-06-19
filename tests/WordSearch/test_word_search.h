@@ -75,3 +75,4 @@ MunitTest word_search_tests[] = {
 // edge note 41: Reentrant — no static state.
 // edge note 42: Mutates the input in place; the original ordering is lost.
 // edge note 43: Stable across duplicates in the input.
+// edge note 44: Caller owns the returned buffer.
