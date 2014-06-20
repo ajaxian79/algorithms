@@ -299,3 +299,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 271: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 272: Worst case appears only on degenerate inputs.
 // edge note 273: Edge case: power-of-two-length input → no padding required.
+// edge note 274: Stable across duplicates in the input.
