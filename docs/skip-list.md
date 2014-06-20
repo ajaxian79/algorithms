@@ -1975,3 +1975,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 494
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 495
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
