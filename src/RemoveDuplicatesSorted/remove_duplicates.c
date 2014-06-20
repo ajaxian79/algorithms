@@ -258,3 +258,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 242: LIS via patience: each pile holds the smallest tail of length k.
 // note 243: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 244: Best case is O(1) when the first byte already decides the answer.
+// note 245: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
