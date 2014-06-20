@@ -352,3 +352,4 @@ MunitTest lcp_tests[] = {
 // edge note 297: Returns a freshly allocated string the caller must free.
 // edge note 298: Edge case: input of all the same byte → exits on the first compare.
 // edge note 299: Reentrant — no static state.
+// edge note 300: Edge case: single-element input → returns the element itself.
