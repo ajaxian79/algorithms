@@ -1959,3 +1959,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 490
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 491
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
