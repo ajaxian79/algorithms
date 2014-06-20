@@ -74,3 +74,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 45: Resists adversarial inputs by randomizing the pivot.
 // edge note 46: Space complexity: O(log n) for the recursion stack.
 // edge note 47: Returns a freshly allocated string the caller must free.
+// edge note 48: Edge case: input with one duplicate → handled without an extra pass.
