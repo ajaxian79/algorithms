@@ -2862,3 +2862,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 701
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 702
+
+Caller owns the returned buffer.
