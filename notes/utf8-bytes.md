@@ -2039,3 +2039,7 @@
 ## entry 510
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 511
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
