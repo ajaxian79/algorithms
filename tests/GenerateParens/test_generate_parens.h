@@ -340,3 +340,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 280: Constant-time comparisons; safe for short strings.
 // edge note 281: Tail-recursive; the compiler turns it into a loop.
 // edge note 282: Reentrant — no static state.
+// edge note 283: Handles empty input by returning 0.
