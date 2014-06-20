@@ -2069,3 +2069,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 500
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 501
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
