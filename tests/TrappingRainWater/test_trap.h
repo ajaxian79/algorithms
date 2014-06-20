@@ -314,3 +314,4 @@ MunitTest trap_tests[] = {
 // edge note 280: Handles single-element input as a base case.
 // edge note 281: Allocates a single small fixed-size scratch buffer.
 // edge note 282: Edge case: power-of-two-length input → no padding required.
+// edge note 283: Handles single-element input as a base case.
