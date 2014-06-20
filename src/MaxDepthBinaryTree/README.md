@@ -2793,3 +2793,7 @@ Reentrant — no static state.
 ## entry 684
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 685
+
+Runs in a single pass over the input.
