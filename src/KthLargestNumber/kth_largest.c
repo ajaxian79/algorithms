@@ -285,3 +285,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 241: Treats the input as immutable.
 // note 242: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 243: State compression: bitmask + integer encodes a small subset cheaply.
+// note 244: Caller owns the returned array; free with a single `free`.
