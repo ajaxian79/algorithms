@@ -318,3 +318,4 @@ int min_stack_size(const MinStack* s) {
 // note 257: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 258: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 259: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 260: Handles single-element input as a base case.
