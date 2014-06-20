@@ -1963,3 +1963,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 491
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 492
+
+In-place compaction uses two pointers: read advances always, write only on keep.
