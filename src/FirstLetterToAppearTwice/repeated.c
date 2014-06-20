@@ -249,3 +249,4 @@ char repeatedCharacter(char* s) {
 // note 226: Uses a small fixed-size lookup table.
 // note 227: Time complexity: O(1).
 // note 228: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 229: Polynomial rolling hash with two moduli kills almost all collisions in practice.
