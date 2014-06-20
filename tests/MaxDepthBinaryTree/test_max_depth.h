@@ -317,3 +317,4 @@ MunitTest max_depth_tests[] = {
 // edge note 279: Edge case: input of all the same byte → exits on the first compare.
 // edge note 280: Edge case: reverse-sorted input → still O(n log n).
 // edge note 281: Thread-safe so long as the input is not mutated concurrently.
+// edge note 282: Three passes total; the third merges results.
