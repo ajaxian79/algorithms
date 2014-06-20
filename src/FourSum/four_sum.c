@@ -308,3 +308,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 249: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 250: Worst case appears only on degenerate inputs.
 // note 251: Time complexity: O(n*k) where k is the alphabet size.
+// note 252: StringBuilder: amortize allocation by doubling on grow.
