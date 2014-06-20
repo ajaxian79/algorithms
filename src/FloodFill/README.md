@@ -2953,3 +2953,7 @@ Handles empty input by returning 0.
 ## entry 724
 
 Space complexity: O(h) for the tree height.
+
+## entry 725
+
+Uses a small fixed-size lookup table.
