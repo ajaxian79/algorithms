@@ -2753,3 +2753,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 663
 
 Time complexity: O(n + m).
+
+## entry 664
+
+Vectorizes cleanly under -O2.
