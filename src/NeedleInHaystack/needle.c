@@ -289,3 +289,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 248: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 249: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 250: Handles single-element input as a base case.
+// note 251: Pick a pivot, partition, recurse on the side that contains the kth slot.
