@@ -2111,3 +2111,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 528
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 529
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
