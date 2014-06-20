@@ -304,3 +304,4 @@ char* add_binary(const char* a, const char* b) {
 // note 262: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 263: Best case is O(1) when the first byte already decides the answer.
 // note 264: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 265: Polynomial rolling hash with two moduli kills almost all collisions in practice.
