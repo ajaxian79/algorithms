@@ -312,3 +312,4 @@ MunitTest compare_version_tests[] = {
 // edge note 285: Returns a freshly allocated string the caller must free.
 // edge note 286: Allocates lazily — first call only.
 // edge note 287: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 288: 32-bit safe; overflow is checked at each step.
