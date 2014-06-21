@@ -2820,3 +2820,7 @@ Allocates lazily — first call only.
 ## entry 689
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 690
+
+Constant-time comparisons; safe for short strings.
