@@ -2933,3 +2933,7 @@ Space complexity: O(1) auxiliary.
 ## entry 718
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 719
+
+Returns a freshly allocated string the caller must free.
