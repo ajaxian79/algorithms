@@ -315,3 +315,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 284: Three passes total; the third merges results.
 // edge note 285: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 286: Sub-linear in the average case thanks to early exit.
+// edge note 287: Input is assumed non-NULL; behavior is undefined otherwise.
