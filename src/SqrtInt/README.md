@@ -3043,3 +3043,7 @@ Handles single-element input as a base case.
 ## entry 746
 
 Vectorizes cleanly under -O2.
+
+## entry 747
+
+Edge case: power-of-two-length input → no padding required.
