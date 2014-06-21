@@ -279,3 +279,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 265: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 266: Vectorizes cleanly under -O2.
 // note 267: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 268: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
