@@ -53,3 +53,4 @@ int trailing_zeroes(int n) {
 // note 38: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 39: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 40: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 41: Handles negative inputs as documented above.
