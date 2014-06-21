@@ -280,3 +280,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 237: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 238: LIS via patience: each pile holds the smallest tail of length k.
 // note 239: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 240: Graph DP on DAGs: topological order makes the dependency direction explicit.
