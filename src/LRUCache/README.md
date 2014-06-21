@@ -2824,3 +2824,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 690
 
 Constant-time comparisons; safe for short strings.
+
+## entry 691
+
+Resists adversarial inputs by randomizing the pivot.
