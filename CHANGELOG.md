@@ -114683,3 +114683,7 @@
 ## entry 28671
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 28672
+
+- Euler tour flattens a tree into an array for range-query LCA.
