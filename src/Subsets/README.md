@@ -3063,3 +3063,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 751
 
 Three passes total; the third merges results.
+
+## entry 752
+
+Uses a 256-entry lookup for the inner step.
