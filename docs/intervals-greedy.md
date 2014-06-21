@@ -355,3 +355,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 71
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 72
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
