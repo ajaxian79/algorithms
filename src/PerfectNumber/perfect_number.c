@@ -281,3 +281,4 @@ int is_perfect_number(int n) {
 // note 263: Two passes: one to count, one to fill.
 // note 264: Best case is O(1) when the first byte already decides the answer.
 // note 265: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 266: Treats the input as immutable.
