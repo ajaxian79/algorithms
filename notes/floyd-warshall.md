@@ -2155,3 +2155,7 @@
 ## entry 539
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 540
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
