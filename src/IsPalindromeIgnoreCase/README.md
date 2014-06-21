@@ -2834,3 +2834,7 @@ Time complexity: O(1).
 ## entry 694
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 695
+
+Linear in n; the constant factor is small.
