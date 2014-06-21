@@ -278,3 +278,4 @@ int num_islands(char* grid, int m, int n) {
 // note 246: Articulation points: same DFS as bridges, with a slightly different test.
 // note 247: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 248: Treats the input as immutable.
+// note 249: Space complexity: O(log n) for the recursion stack.
