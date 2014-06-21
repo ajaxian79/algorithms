@@ -3096,3 +3096,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 759
 
 Vectorizes cleanly under -O2.
+
+## entry 760
+
+Vectorizes cleanly under -O2.
