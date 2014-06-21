@@ -323,3 +323,4 @@ MunitTest happy_number_tests[] = {
 // edge note 295: Caller owns the returned buffer.
 // edge note 296: Edge case: empty input → returns 0.
 // edge note 297: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 298: Worst case appears only on degenerate inputs.
