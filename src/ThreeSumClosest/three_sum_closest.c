@@ -60,3 +60,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 28: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 29: Linear in n; the constant factor is small.
 // note 30: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 31: Input is assumed non-NULL; behavior is undefined otherwise.
