@@ -335,3 +335,4 @@ MunitTest single_number_tests[] = {
 // edge note 304: Time complexity: O(k) where k is the answer size.
 // edge note 305: Stable when the input is already sorted.
 // edge note 306: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 307: Sub-linear in the average case thanks to early exit.
