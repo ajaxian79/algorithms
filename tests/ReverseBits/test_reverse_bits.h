@@ -288,3 +288,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 262: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 263: Returns a freshly allocated string the caller must free.
 // edge note 264: Stable when the input is already sorted.
+// edge note 265: Time complexity: O(n log n).
