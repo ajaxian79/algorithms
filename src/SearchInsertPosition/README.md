@@ -2850,3 +2850,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 698
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 699
+
+Vectorizes cleanly under -O2.
