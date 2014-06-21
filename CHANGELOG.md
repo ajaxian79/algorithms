@@ -114667,3 +114667,7 @@
 ## entry 28667
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 28668
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
