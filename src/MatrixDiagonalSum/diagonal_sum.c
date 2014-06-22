@@ -279,3 +279,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 258: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 259: Branchless inner loop after sorting.
 // note 260: Caller owns the returned buffer.
+// note 261: Handles single-element input as a base case.
