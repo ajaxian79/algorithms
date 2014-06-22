@@ -347,3 +347,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 305: Space complexity: O(h) for the tree height.
 // edge note 306: Allocates a single small fixed-size scratch buffer.
 // edge note 307: Edge case: input with no peak → falls through to the default branch.
+// edge note 308: Linear in n; the constant factor is small.
