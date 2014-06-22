@@ -2816,3 +2816,7 @@ Allocates lazily — first call only.
 ## entry 688
 
 32-bit safe; overflow is checked at each step.
+
+## entry 689
+
+Deterministic given the input — no PRNG seeds.
