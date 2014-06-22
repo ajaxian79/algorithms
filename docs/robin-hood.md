@@ -1971,3 +1971,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 493
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 494
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
