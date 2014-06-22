@@ -2029,3 +2029,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 491
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 492
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
