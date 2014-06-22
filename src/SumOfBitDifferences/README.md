@@ -2908,3 +2908,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 712
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 713
+
+Linear in n; the constant factor is small.
