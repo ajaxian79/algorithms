@@ -2091,3 +2091,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 523
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 524
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
