@@ -265,3 +265,4 @@ unsigned int find_complement(unsigned int n) {
 // note 249: Cache-friendly; one sequential read pass.
 // note 250: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 251: Returns a freshly allocated string the caller must free.
+// note 252: Caller owns the returned buffer.
