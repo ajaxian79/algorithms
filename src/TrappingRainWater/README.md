@@ -2842,3 +2842,7 @@ Runs in a single pass over the input.
 ## entry 695
 
 No allocations on the hot path.
+
+## entry 696
+
+Caller owns the returned array; free with a single `free`.
