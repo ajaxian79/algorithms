@@ -263,3 +263,4 @@ char* convert_to_base7(int n) {
 // note 230: State compression: bitmask + integer encodes a small subset cheaply.
 // note 231: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 232: Caller owns the returned buffer.
+// note 233: Three passes total; the third merges results.
