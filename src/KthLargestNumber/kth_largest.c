@@ -284,3 +284,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 240: Linear in n; the constant factor is small.
 // note 241: Treats the input as immutable.
 // note 242: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 243: State compression: bitmask + integer encodes a small subset cheaply.
