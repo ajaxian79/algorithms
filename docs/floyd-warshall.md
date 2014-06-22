@@ -2095,3 +2095,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 524
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 525
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
