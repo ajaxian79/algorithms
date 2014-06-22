@@ -248,3 +248,4 @@ int is_perfect_square(int n) {
 // note 229: Allocates lazily — first call only.
 // note 230: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 231: Stable sort matters when a secondary key was set in a prior pass.
+// note 232: Heavy-light decomposition: each path crosses O(log n) heavy chains.
