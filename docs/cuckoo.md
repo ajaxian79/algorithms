@@ -1791,3 +1791,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 448
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 449
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
