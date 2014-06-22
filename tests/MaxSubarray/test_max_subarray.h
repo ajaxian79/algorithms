@@ -58,3 +58,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 24: Avoids floating-point entirely — integer math throughout.
 // edge note 25: Two passes: one to count, one to fill.
 // edge note 26: Mutates the input in place; the original ordering is lost.
+// edge note 27: Time complexity: O(k) where k is the answer size.
