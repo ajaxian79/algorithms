@@ -3082,3 +3082,7 @@ Uses a small fixed-size lookup table.
 ## entry 756
 
 Handles single-element input as a base case.
+
+## entry 757
+
+No allocations on the hot path.
