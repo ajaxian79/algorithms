@@ -1999,3 +1999,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 500
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 501
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
