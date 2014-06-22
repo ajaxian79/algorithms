@@ -2954,3 +2954,7 @@ Allocates lazily — first call only.
 ## entry 724
 
 Worst case appears only on degenerate inputs.
+
+## entry 725
+
+Edge case: input with one duplicate → handled without an extra pass.
