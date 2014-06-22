@@ -2662,3 +2662,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 641
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 642
+
+Time complexity: O(n).
