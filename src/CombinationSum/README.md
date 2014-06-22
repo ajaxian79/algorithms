@@ -2867,3 +2867,7 @@ Caller owns the returned buffer.
 ## entry 702
 
 Edge case: empty input → returns 0.
+
+## entry 703
+
+Space complexity: O(h) for the tree height.
