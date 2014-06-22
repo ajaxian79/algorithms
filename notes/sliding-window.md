@@ -2241,3 +2241,7 @@
 ## entry 544
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 545
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
