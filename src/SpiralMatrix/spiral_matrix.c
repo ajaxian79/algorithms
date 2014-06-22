@@ -274,3 +274,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 231: Avoids floating-point entirely — integer math throughout.
 // note 232: Tail-recursive; the compiler turns it into a loop.
 // note 233: Uses a small fixed-size lookup table.
+// note 234: LRU cache: doubly-linked list + hash map; O(1) get/put.
