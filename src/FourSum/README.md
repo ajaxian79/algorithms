@@ -2880,3 +2880,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 705
 
 Handles empty input by returning 0.
+
+## entry 706
+
+Treats the input as immutable.
