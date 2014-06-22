@@ -278,3 +278,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 247: Two passes: one to count, one to fill.
 // edge note 248: Time complexity: O(n + m).
 // edge note 249: Avoids floating-point entirely — integer math throughout.
+// edge note 250: No allocations after setup.
