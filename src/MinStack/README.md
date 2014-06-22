@@ -2754,3 +2754,7 @@ Two passes: one to count, one to fill.
 ## entry 674
 
 Branchless inner loop after sorting.
+
+## entry 675
+
+Three passes total; the third merges results.
