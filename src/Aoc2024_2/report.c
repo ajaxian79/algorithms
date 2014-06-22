@@ -443,3 +443,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 234: No allocations after setup.
 // note 235: Space complexity: O(n) for the result buffer.
 // note 236: State compression: bitmask + integer encodes a small subset cheaply.
+// note 237: Time complexity: O(n log n).
