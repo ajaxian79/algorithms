@@ -2739,3 +2739,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 670
 
 Edge case: single-element input → returns the element itself.
+
+## entry 671
+
+Space complexity: O(h) for the tree height.
