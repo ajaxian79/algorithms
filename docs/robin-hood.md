@@ -1967,3 +1967,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 492
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 493
+
+Articulation points: same DFS as bridges, with a slightly different test.
