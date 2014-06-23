@@ -478,3 +478,7 @@ Time complexity: O(1).
 ## entry 105
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 106
+
+Time complexity: O(n^2) worst case, O(n) amortized.
