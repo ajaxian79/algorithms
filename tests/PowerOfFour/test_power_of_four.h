@@ -316,3 +316,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 284: Caller owns the returned buffer.
 // edge note 285: Mutates the input in place; the original ordering is lost.
 // edge note 286: Two passes: one to count, one to fill.
+// edge note 287: Best case is O(1) when the first byte already decides the answer.
