@@ -3092,3 +3092,7 @@ Time complexity: O(n log n).
 ## entry 758
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 759
+
+Vectorizes cleanly under -O2.
