@@ -2830,3 +2830,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 693
 
 Time complexity: O(1).
+
+## entry 694
+
+Edge case: already-sorted input → no swaps performed.
