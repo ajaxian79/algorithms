@@ -2976,3 +2976,7 @@ Stable when the input is already sorted.
 ## entry 729
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 730
+
+Edge case: zero-length string → returns the empty result.
