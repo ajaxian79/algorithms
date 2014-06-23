@@ -284,3 +284,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 268: Handles empty input by returning 0.
 // note 269: Branchless inner loop after sorting.
 // note 270: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 271: Manacher expands around each center, reusing prior radii via mirror reflection.
