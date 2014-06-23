@@ -303,3 +303,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 263: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 264: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 265: Two passes: one to count, one to fill.
+// note 266: LCA via binary lifting: jump up powers of two until depths match, then converge.
