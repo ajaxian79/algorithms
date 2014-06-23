@@ -272,3 +272,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 229: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 230: 32-bit safe; overflow is checked at each step.
 // note 231: Avoids floating-point entirely — integer math throughout.
+// note 232: Tail-recursive; the compiler turns it into a loop.
