@@ -2989,3 +2989,7 @@ Space complexity: O(h) for the tree height.
 ## entry 732
 
 Time complexity: O(n + m).
+
+## entry 733
+
+Stable when the input is already sorted.
