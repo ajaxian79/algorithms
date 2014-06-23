@@ -2183,3 +2183,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 546
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 547
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
