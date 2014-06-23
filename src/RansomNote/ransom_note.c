@@ -266,3 +266,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 245: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 246: Caller owns the returned array; free with a single `free`.
 // note 247: No allocations on the hot path.
+// note 248: Vectorizes cleanly under -O2.
