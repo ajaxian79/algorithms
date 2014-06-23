@@ -2956,3 +2956,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 723
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 724
+
+Worst case appears only on degenerate inputs.
