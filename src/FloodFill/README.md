@@ -2949,3 +2949,7 @@ Worst case appears only on degenerate inputs.
 ## entry 723
 
 Handles empty input by returning 0.
+
+## entry 724
+
+Space complexity: O(h) for the tree height.
