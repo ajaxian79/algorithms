@@ -2888,3 +2888,7 @@ Treats the input as immutable.
 ## entry 707
 
 32-bit safe; overflow is checked at each step.
+
+## entry 708
+
+Space complexity: O(log n) for the recursion stack.
