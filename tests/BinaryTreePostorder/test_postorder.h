@@ -324,3 +324,4 @@ MunitTest postorder_tests[] = {
 // edge note 280: Runs in a single pass over the input.
 // edge note 281: Allocates a single small fixed-size scratch buffer.
 // edge note 282: Handles empty input by returning 0.
+// edge note 283: Edge case: already-sorted input → no swaps performed.
