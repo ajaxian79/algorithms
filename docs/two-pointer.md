@@ -2163,3 +2163,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 523
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 524
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
