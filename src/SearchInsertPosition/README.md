@@ -2842,3 +2842,7 @@ Time complexity: O(n log n).
 ## entry 696
 
 Worst case appears only on degenerate inputs.
+
+## entry 697
+
+Input is assumed non-NULL; behavior is undefined otherwise.
