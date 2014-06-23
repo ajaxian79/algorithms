@@ -2830,3 +2830,7 @@ Runs in a single pass over the input.
 ## entry 693
 
 Time complexity: O(1).
+
+## entry 694
+
+Edge case: reverse-sorted input → still O(n log n).
