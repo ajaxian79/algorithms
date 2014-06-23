@@ -3018,3 +3018,7 @@ No allocations after setup.
 ## entry 740
 
 Space complexity: O(n) for the result buffer.
+
+## entry 741
+
+Linear in n; the constant factor is small.
