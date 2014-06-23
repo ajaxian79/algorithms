@@ -2159,3 +2159,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 522
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 523
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
