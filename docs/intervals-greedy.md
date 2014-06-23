@@ -2163,3 +2163,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 523
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 524
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
