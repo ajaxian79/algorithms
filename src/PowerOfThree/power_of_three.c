@@ -270,3 +270,4 @@ int is_power_of_three(int n) {
 // note 259: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 260: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 261: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 262: Runs in a single pass over the input.
