@@ -269,3 +269,4 @@ char* reverse_words(const char* s) {
 // note 225: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 226: Wavelet tree: range k-th element in O(log Σ) time.
 // note 227: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 228: Constant-time comparisons; safe for short strings.
