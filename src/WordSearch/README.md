@@ -2950,3 +2950,7 @@ Stable when the input is already sorted.
 ## entry 723
 
 Allocates lazily — first call only.
+
+## entry 724
+
+Worst case appears only on degenerate inputs.
