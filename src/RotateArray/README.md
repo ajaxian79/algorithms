@@ -2995,3 +2995,7 @@ Treats the input as immutable.
 ## entry 733
 
 Two passes: one to count, one to fill.
+
+## entry 734
+
+Three passes total; the third merges results.
