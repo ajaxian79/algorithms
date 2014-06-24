@@ -323,3 +323,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 284: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 285: Uses a 256-entry lookup for the inner step.
 // edge note 286: Mutates the input in place; the original ordering is lost.
+// edge note 287: Edge case: input of all the same byte → exits on the first compare.
