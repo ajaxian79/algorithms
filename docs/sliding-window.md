@@ -2083,3 +2083,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 506
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 507
+
+LIS via patience: each pile holds the smallest tail of length k.
