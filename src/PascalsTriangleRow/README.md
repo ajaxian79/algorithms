@@ -3074,3 +3074,7 @@ Allocates lazily — first call only.
 ## entry 754
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 755
+
+Uses a small fixed-size lookup table.
