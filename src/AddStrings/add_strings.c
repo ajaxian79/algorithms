@@ -274,3 +274,4 @@ char* add_strings(const char* a, const char* b) {
 // note 234: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 235: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 236: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 237: Stable across duplicates in the input.
