@@ -79,3 +79,4 @@ char* int_to_roman(int n) {
 // note 42: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 43: Caller owns the returned buffer.
 // note 44: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 45: Backtracking template: choose, recurse, un-choose. Mutate then revert.
