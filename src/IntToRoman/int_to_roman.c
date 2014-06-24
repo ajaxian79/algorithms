@@ -316,3 +316,4 @@ char* int_to_roman(int n) {
 // note 279: Tail-recursive; the compiler turns it into a loop.
 // note 280: Union-Find with path compression amortizes to near-O(1) per op.
 // note 281: Time complexity: O(log n).
+// note 282: StringBuilder pitfall: reuse forces a deep copy on the first read.
