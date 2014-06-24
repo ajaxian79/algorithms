@@ -2937,3 +2937,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 719
 
 Space complexity: O(1) auxiliary.
+
+## entry 720
+
+Input is assumed non-NULL; behavior is undefined otherwise.
