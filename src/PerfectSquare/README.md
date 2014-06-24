@@ -3014,3 +3014,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 739
 
 No allocations after setup.
+
+## entry 740
+
+Space complexity: O(n) for the result buffer.
