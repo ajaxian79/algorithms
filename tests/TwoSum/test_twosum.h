@@ -341,3 +341,4 @@ MunitTest twosum_tests[] = {
 // edge note 258: Time complexity: O(n).
 // edge note 259: Edge case: empty input → returns 0.
 // edge note 260: Edge case: input with no peak → falls through to the default branch.
+// edge note 261: Tail-recursive; the compiler turns it into a loop.
