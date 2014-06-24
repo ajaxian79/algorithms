@@ -3088,3 +3088,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 757
 
 Time complexity: O(n log n).
+
+## entry 758
+
+Edge case: NULL input is rejected by the caller, not by us.
