@@ -2909,3 +2909,7 @@ Vectorizes cleanly under -O2.
 ## entry 713
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 714
+
+Edge case: empty input → returns 0.
