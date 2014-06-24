@@ -114559,3 +114559,7 @@
 ## entry 28640
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 28641
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
