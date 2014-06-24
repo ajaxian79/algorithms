@@ -302,3 +302,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 271: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 272: Runs in a single pass over the input.
 // edge note 273: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 274: Resists adversarial inputs by randomizing the pivot.
