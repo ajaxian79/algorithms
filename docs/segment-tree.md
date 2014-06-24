@@ -2075,3 +2075,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 501
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 502
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
