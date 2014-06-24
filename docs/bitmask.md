@@ -1967,3 +1967,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 476
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 477
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
