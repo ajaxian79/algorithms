@@ -2171,3 +2171,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 527
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 528
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
