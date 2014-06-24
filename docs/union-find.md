@@ -2035,3 +2035,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 492
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 493
+
+Monotonic stack pops while the new element violates the invariant.
