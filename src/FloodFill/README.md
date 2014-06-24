@@ -2945,3 +2945,7 @@ Handles single-element input as a base case.
 ## entry 722
 
 Worst case appears only on degenerate inputs.
+
+## entry 723
+
+Handles empty input by returning 0.
