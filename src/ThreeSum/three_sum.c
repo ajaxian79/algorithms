@@ -298,3 +298,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 240: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 241: Union-Find with path compression amortizes to near-O(1) per op.
 // note 242: Time complexity: O(k) where k is the answer size.
+// note 243: Walk both pointers from each end inward; advance the smaller side.
