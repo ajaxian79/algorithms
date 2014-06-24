@@ -2920,3 +2920,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 714
 
 Space complexity: O(h) for the tree height.
+
+## entry 715
+
+Runs in a single pass over the input.
