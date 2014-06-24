@@ -261,3 +261,4 @@ char find_difference(const char* s, const char* t) {
 // note 245: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 246: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 247: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 248: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
