@@ -2914,3 +2914,7 @@ Vectorizes cleanly under -O2.
 ## entry 713
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 714
+
+Caller owns the returned buffer.
