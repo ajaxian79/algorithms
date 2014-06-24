@@ -1999,3 +1999,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 500
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 501
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
