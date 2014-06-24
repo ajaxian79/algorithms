@@ -2750,3 +2750,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 673
 
 Two passes: one to count, one to fill.
+
+## entry 674
+
+Branchless inner loop after sorting.
