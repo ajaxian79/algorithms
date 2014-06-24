@@ -2866,3 +2866,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 702
 
 Three passes total; the third merges results.
+
+## entry 703
+
+Edge case: input with one duplicate → handled without an extra pass.
