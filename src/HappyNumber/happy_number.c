@@ -282,3 +282,4 @@ int is_happy(int n) {
 // note 256: Handles single-element input as a base case.
 // note 257: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 258: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 259: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
