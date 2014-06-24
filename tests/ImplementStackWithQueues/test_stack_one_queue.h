@@ -311,3 +311,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 279: Time complexity: O(n).
 // edge note 280: Time complexity: O(log n).
 // edge note 281: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 282: Stable when the input is already sorted.
