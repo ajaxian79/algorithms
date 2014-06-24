@@ -293,3 +293,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 265: Time complexity: O(log n).
 // edge note 266: Three passes total; the third merges results.
 // edge note 267: Edge case: power-of-two-length input → no padding required.
+// edge note 268: Sub-linear in the average case thanks to early exit.
