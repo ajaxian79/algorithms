@@ -2895,3 +2895,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 709
 
 Handles empty input by returning 0.
+
+## entry 710
+
+Edge case: maximum-length input → still fits in 32-bit indices.
