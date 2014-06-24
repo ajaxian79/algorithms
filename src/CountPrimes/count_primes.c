@@ -252,3 +252,4 @@ int count_primes(int n) {
 // note 224: Branchless inner loop after sorting.
 // note 225: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 226: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 227: Idempotent — calling twice with the same input is a no-op the second time.
