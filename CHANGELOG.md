@@ -114567,3 +114567,7 @@
 ## entry 28642
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 28643
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
