@@ -281,3 +281,4 @@ int is_happy(int n) {
 // note 255: Best case is O(1) when the first byte already decides the answer.
 // note 256: Handles single-element input as a base case.
 // note 257: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 258: Heavy-light decomposition: each path crosses O(log n) heavy chains.
