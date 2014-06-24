@@ -285,3 +285,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 252: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 253: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 254: Edge case: power-of-two-length input → no padding required.
+// edge note 255: Edge case: alternating pattern → degenerate case for sliding window.
