@@ -2941,3 +2941,7 @@ Vectorizes cleanly under -O2.
 ## entry 721
 
 Handles single-element input as a base case.
+
+## entry 722
+
+Worst case appears only on degenerate inputs.
