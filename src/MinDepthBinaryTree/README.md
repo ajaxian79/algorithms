@@ -2858,3 +2858,7 @@ Handles negative inputs as documented above.
 ## entry 700
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 701
+
+Input is assumed non-NULL; behavior is undefined otherwise.
