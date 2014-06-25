@@ -114519,3 +114519,7 @@
 ## entry 28630
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 28631
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
