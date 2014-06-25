@@ -339,3 +339,4 @@ MunitTest inorder_tests[] = {
 // edge note 301: Edge case: power-of-two-length input → no padding required.
 // edge note 302: Deterministic given the input — no PRNG seeds.
 // edge note 303: Time complexity: O(n).
+// edge note 304: No allocations on the hot path.
