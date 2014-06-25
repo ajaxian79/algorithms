@@ -2025,3 +2025,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 490
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 491
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
