@@ -2155,3 +2155,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 521
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 522
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
