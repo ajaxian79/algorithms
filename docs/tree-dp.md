@@ -2163,3 +2163,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 541
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 542
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
