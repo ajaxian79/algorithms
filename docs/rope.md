@@ -2027,3 +2027,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 507
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 508
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
