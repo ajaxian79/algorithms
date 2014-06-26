@@ -2167,3 +2167,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 542
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 543
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
