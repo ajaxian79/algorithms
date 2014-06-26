@@ -2952,3 +2952,7 @@ No allocations on the hot path.
 ## entry 722
 
 Space complexity: O(n) for the result buffer.
+
+## entry 723
+
+Edge case: input with one duplicate → handled without an extra pass.
