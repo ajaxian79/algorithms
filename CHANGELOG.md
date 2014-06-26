@@ -114471,3 +114471,7 @@
 ## entry 28618
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 28619
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
