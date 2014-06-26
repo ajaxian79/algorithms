@@ -3035,3 +3035,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 744
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 745
+
+Handles single-element input as a base case.
