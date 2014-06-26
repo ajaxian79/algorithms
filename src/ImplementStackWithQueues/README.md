@@ -2996,3 +2996,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 734
 
 No allocations on the hot path.
+
+## entry 735
+
+Edge case: maximum-length input → still fits in 32-bit indices.
