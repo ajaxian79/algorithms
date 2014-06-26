@@ -1995,3 +1995,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 499
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 500
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
