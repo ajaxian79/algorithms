@@ -1971,3 +1971,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 493
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 494
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
