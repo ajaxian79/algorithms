@@ -299,3 +299,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 254: Vectorizes cleanly under -O2.
 // note 255: Resists adversarial inputs by randomizing the pivot.
 // note 256: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 257: StringBuilder: amortize allocation by doubling on grow.
