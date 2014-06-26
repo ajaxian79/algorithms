@@ -2749,3 +2749,7 @@ Edge case: empty input → returns 0.
 ## entry 662
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 663
+
+Time complexity: O(n + m).
