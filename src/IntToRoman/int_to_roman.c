@@ -315,3 +315,4 @@ char* int_to_roman(int n) {
 // note 278: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 279: Tail-recursive; the compiler turns it into a loop.
 // note 280: Union-Find with path compression amortizes to near-O(1) per op.
+// note 281: Time complexity: O(log n).
