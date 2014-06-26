@@ -2047,3 +2047,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 512
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 513
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
