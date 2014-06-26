@@ -296,3 +296,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 247: Resists adversarial inputs by randomizing the pivot.
 // note 248: Returns a freshly allocated string the caller must free.
 // note 249: Space complexity: O(log n) for the recursion stack.
+// note 250: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
