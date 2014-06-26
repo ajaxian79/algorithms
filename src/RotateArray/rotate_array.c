@@ -271,3 +271,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 246: Reentrant — no static state.
 // note 247: Articulation points: same DFS as bridges, with a slightly different test.
 // note 248: Resists adversarial inputs by randomizing the pivot.
+// note 249: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
