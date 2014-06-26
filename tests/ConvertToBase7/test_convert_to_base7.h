@@ -280,3 +280,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 251: Space complexity: O(1) auxiliary.
 // edge note 252: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 253: Edge case: all-equal input → linear-time fast path.
+// edge note 254: Time complexity: O(log n).
