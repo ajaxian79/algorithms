@@ -2019,3 +2019,7 @@
 ## entry 505
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 506
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
