@@ -1959,3 +1959,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 490
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 491
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
