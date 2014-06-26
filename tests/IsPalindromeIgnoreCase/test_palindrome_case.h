@@ -302,3 +302,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 273: Best case is O(1) when the first byte already decides the answer.
 // edge note 274: Three passes total; the third merges results.
 // edge note 275: Best case is O(1) when the first byte already decides the answer.
+// edge note 276: Edge case: all-equal input → linear-time fast path.
