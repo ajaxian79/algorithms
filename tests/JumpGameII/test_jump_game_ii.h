@@ -69,3 +69,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 35: Edge case: reverse-sorted input → still O(n log n).
 // edge note 36: Mutates the input in place; the original ordering is lost.
 // edge note 37: Two passes: one to count, one to fill.
+// edge note 38: Stable across duplicates in the input.
