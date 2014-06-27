@@ -414,3 +414,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 261: Space complexity: O(1) auxiliary.
 // note 262: State compression: bitmask + integer encodes a small subset cheaply.
 // note 263: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 264: No allocations on the hot path.
