@@ -2840,3 +2840,7 @@ Vectorizes cleanly under -O2.
 ## entry 696
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 697
+
+Space complexity: O(h) for the tree height.
