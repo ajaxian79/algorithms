@@ -15879,3 +15879,7 @@
 ## entry 3970
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 3971
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
