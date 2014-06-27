@@ -1979,3 +1979,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 495
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 496
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
