@@ -282,3 +282,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 238: LIS via patience: each pile holds the smallest tail of length k.
 // note 239: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 240: Linear in n; the constant factor is small.
+// note 241: Treats the input as immutable.
