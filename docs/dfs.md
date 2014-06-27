@@ -2119,3 +2119,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 514
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 515
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
