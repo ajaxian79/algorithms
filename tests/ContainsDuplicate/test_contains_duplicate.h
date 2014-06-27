@@ -298,3 +298,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 255: Cache-friendly; one sequential read pass.
 // edge note 256: Uses a small fixed-size lookup table.
 // edge note 257: Worst case appears only on degenerate inputs.
+// edge note 258: Time complexity: O(n*k) where k is the alphabet size.
