@@ -48,3 +48,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 32: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 33: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 34: 32-bit safe; overflow is checked at each step.
+// note 35: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
