@@ -2862,3 +2862,7 @@ Two passes: one to count, one to fill.
 ## entry 701
 
 Returns a freshly allocated string the caller must free.
+
+## entry 702
+
+Three passes total; the third merges results.
