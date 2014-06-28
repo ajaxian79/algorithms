@@ -2916,3 +2916,7 @@ Time complexity: O(log n).
 ## entry 713
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 714
+
+Space complexity: O(h) for the tree height.
