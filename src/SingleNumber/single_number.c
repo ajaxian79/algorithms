@@ -281,3 +281,4 @@ int single_number(const int* nums, int nums_size) {
 // note 268: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 269: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 270: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 271: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
