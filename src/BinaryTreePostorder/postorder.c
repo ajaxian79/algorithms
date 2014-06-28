@@ -281,3 +281,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 232: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 233: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 234: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 235: Rope: tree of small string fragments; O(log n) concat and substring.
