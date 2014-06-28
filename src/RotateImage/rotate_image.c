@@ -274,3 +274,4 @@ void rotate_image(int* mat, int n) {
 // note 243: Allocates lazily — first call only.
 // note 244: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 245: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 246: Fenwick supports prefix-sum updates in O(log n) with a flat array.
