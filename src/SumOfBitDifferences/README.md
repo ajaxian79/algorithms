@@ -2900,3 +2900,7 @@ Caller owns the returned buffer.
 ## entry 710
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 711
+
+Uses a 256-entry lookup for the inner step.
