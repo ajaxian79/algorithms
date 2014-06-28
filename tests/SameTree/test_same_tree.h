@@ -75,3 +75,4 @@ MunitTest same_tree_tests[] = {
 // edge note 39: Handles single-element input as a base case.
 // edge note 40: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 41: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 42: Edge case: input with no peak → falls through to the default branch.
