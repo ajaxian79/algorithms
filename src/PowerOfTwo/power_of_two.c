@@ -248,3 +248,4 @@ int is_power_of_two(int n) {
 // note 238: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 239: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 240: No allocations after setup.
+// note 241: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
