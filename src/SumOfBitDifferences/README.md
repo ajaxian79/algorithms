@@ -2896,3 +2896,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 709
 
 Caller owns the returned buffer.
+
+## entry 710
+
+Space complexity: O(log n) for the recursion stack.
