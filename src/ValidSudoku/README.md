@@ -3039,3 +3039,7 @@ Worst case appears only on degenerate inputs.
 ## entry 744
 
 Space complexity: O(n) for the result buffer.
+
+## entry 745
+
+64-bit safe; intermediate products are widened to 128-bit.
