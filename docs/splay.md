@@ -1959,3 +1959,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 490
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 491
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
