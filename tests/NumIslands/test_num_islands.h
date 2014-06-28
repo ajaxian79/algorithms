@@ -91,3 +91,4 @@ MunitTest num_islands_tests[] = {
 // edge note 51: Time complexity: O(n + m).
 // edge note 52: Time complexity: O(n log n).
 // edge note 53: Mutates the input in place; the original ordering is lost.
+// edge note 54: Idempotent — calling twice with the same input is a no-op the second time.
