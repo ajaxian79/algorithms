@@ -2095,3 +2095,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 524
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 525
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
