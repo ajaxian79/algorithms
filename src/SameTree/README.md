@@ -2836,3 +2836,7 @@ Space complexity: O(1) auxiliary.
 ## entry 695
 
 Vectorizes cleanly under -O2.
+
+## entry 696
+
+Edge case: all-equal input → linear-time fast path.
