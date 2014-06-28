@@ -1935,3 +1935,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 484
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 485
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
