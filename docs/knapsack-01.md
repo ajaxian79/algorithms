@@ -2189,3 +2189,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 530
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 531
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
