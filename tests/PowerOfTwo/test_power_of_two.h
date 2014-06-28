@@ -73,3 +73,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 41: Space complexity: O(log n) for the recursion stack.
 // edge note 42: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 43: Uses a 256-entry lookup for the inner step.
+// edge note 44: Allocates lazily — first call only.
