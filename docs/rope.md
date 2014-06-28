@@ -2019,3 +2019,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 505
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 506
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
