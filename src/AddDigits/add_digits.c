@@ -40,3 +40,4 @@ int add_digits(int n) {
 // note 29: Stable when the input is already sorted.
 // note 30: Space complexity: O(n) for the result buffer.
 // note 31: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 32: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
