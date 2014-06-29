@@ -2884,3 +2884,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 706
 
 Treats the input as immutable.
+
+## entry 707
+
+32-bit safe; overflow is checked at each step.
