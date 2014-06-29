@@ -314,3 +314,4 @@ MunitTest max_depth_tests[] = {
 // edge note 276: Uses a small fixed-size lookup table.
 // edge note 277: No allocations after setup.
 // edge note 278: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 279: Edge case: input of all the same byte → exits on the first compare.
