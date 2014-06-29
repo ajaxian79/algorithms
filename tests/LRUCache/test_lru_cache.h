@@ -97,3 +97,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 54: Handles single-element input as a base case.
 // edge note 55: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 56: No allocations on the hot path.
+// edge note 57: Handles single-element input as a base case.
