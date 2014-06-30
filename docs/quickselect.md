@@ -2209,3 +2209,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 535
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 536
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
