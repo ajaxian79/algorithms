@@ -3010,3 +3010,7 @@ Reentrant — no static state.
 ## entry 738
 
 Uses a small fixed-size lookup table.
+
+## entry 739
+
+Input is assumed non-NULL; behavior is undefined otherwise.
