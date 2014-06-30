@@ -3010,3 +3010,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 738
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 739
+
+No allocations after setup.
