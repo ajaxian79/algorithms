@@ -330,3 +330,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 300: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 301: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 302: Resists adversarial inputs by randomizing the pivot.
+// edge note 303: Constant-time comparisons; safe for short strings.
