@@ -2139,3 +2139,7 @@
 ## entry 518
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 519
+
+- State compression: bitmask + integer encodes a small subset cheaply.
