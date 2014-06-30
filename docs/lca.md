@@ -2015,3 +2015,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 504
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 505
+
+LIS via patience: each pile holds the smallest tail of length k.
