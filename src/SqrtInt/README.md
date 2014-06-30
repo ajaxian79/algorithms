@@ -3031,3 +3031,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 743
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 744
+
+Allocates one buffer of length n+1 for the result.
