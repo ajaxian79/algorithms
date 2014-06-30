@@ -114399,3 +114399,7 @@
 ## entry 28600
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 28601
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
