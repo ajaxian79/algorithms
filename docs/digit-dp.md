@@ -1931,3 +1931,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 483
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 484
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
