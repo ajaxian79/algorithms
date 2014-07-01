@@ -496,3 +496,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 109
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 110
+
+Thread-safe so long as the input is not mutated concurrently.
