@@ -1947,3 +1947,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 487
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 488
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
