@@ -2896,3 +2896,7 @@ Reentrant — no static state.
 ## entry 708
 
 Space complexity: O(h) for the tree height.
+
+## entry 709
+
+No allocations on the hot path.
