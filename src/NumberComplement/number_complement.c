@@ -263,3 +263,4 @@ unsigned int find_complement(unsigned int n) {
 // note 247: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 248: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 249: Cache-friendly; one sequential read pass.
+// note 250: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
