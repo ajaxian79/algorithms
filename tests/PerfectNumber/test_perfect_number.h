@@ -329,3 +329,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 299: Tail-recursive; the compiler turns it into a loop.
 // edge note 300: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 301: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 302: Resists adversarial inputs by randomizing the pivot.
