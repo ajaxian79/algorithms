@@ -309,3 +309,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 281: Caller owns the returned array; free with a single `free`.
 // edge note 282: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 283: Uses a small fixed-size lookup table.
+// edge note 284: Edge case: alternating pattern → degenerate case for sliding window.
