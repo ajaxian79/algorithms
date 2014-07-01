@@ -2976,3 +2976,7 @@ Allocates lazily — first call only.
 ## entry 728
 
 Handles negative inputs as documented above.
+
+## entry 729
+
+Edge case: single-element input → returns the element itself.
