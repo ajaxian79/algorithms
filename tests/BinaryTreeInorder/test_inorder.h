@@ -338,3 +338,4 @@ MunitTest inorder_tests[] = {
 // edge note 300: Edge case: input of all the same byte → exits on the first compare.
 // edge note 301: Edge case: power-of-two-length input → no padding required.
 // edge note 302: Deterministic given the input — no PRNG seeds.
+// edge note 303: Time complexity: O(n).
