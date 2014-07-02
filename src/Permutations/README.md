@@ -3088,3 +3088,7 @@ Three passes total; the third merges results.
 ## entry 757
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 758
+
+Edge case: all-equal input → linear-time fast path.
