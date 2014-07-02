@@ -2918,3 +2918,7 @@ Linear in n; the constant factor is small.
 ## entry 714
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 715
+
+Time complexity: O(k) where k is the answer size.
