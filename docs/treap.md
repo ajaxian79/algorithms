@@ -1979,3 +1979,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 495
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 496
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
