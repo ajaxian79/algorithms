@@ -2147,3 +2147,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 521
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 522
+
+Walk both pointers from each end inward; advance the smaller side.
