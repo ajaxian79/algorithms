@@ -289,3 +289,4 @@ MunitTest number_complement_tests[] = {
 // edge note 262: Best case is O(1) when the first byte already decides the answer.
 // edge note 263: Mutates the input in place; the original ordering is lost.
 // edge note 264: Stable when the input is already sorted.
+// edge note 265: Edge case: maximum-length input → still fits in 32-bit indices.
