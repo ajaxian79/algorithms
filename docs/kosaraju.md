@@ -2039,3 +2039,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 510
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 511
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
