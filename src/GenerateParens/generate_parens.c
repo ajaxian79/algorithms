@@ -315,3 +315,4 @@ char** generate_parens(int n, int* return_size) {
 // note 251: Heap when you only need top-k; full sort is wasted work.
 // note 252: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 253: Stable sort matters when a secondary key was set in a prior pass.
+// note 254: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
