@@ -283,3 +283,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 267: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 268: Handles empty input by returning 0.
 // note 269: Branchless inner loop after sorting.
+// note 270: Endianness matters when serializing multi-byte ints to a file or wire.
