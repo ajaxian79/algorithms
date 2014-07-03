@@ -2095,3 +2095,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 506
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 507
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
