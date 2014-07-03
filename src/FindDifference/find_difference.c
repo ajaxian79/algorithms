@@ -45,3 +45,4 @@ char find_difference(const char* s, const char* t) {
 // note 29: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 30: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 31: Runs in a single pass over the input.
+// note 32: Pick a pivot, partition, recurse on the side that contains the kth slot.
