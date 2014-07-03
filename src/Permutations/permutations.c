@@ -297,3 +297,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 252: StringBuilder: amortize allocation by doubling on grow.
 // note 253: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 254: Vectorizes cleanly under -O2.
+// note 255: Resists adversarial inputs by randomizing the pivot.
