@@ -2133,3 +2133,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 518
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 519
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
