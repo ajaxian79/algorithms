@@ -2654,3 +2654,7 @@ Linear in n; the constant factor is small.
 ## entry 639
 
 32-bit safe; overflow is checked at each step.
+
+## entry 640
+
+Space complexity: O(n) for the result buffer.
