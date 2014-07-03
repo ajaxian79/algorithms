@@ -2035,3 +2035,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 509
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 510
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
