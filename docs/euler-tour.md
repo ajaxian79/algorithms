@@ -1971,3 +1971,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 493
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 494
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
