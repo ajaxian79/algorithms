@@ -2942,3 +2942,7 @@ Handles negative inputs as documented above.
 ## entry 721
 
 Stable when the input is already sorted.
+
+## entry 722
+
+32-bit safe; overflow is checked at each step.
