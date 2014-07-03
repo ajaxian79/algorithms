@@ -2910,3 +2910,7 @@ Handles single-element input as a base case.
 ## entry 712
 
 Vectorizes cleanly under -O2.
+
+## entry 713
+
+Edge case: input of all the same byte → exits on the first compare.
