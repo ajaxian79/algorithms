@@ -2155,3 +2155,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 539
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 540
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
