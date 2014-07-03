@@ -2007,3 +2007,7 @@
 ## entry 502
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 503
+
+- StringBuilder: amortize allocation by doubling on grow.
