@@ -2658,3 +2658,7 @@ Linear in n; the constant factor is small.
 ## entry 640
 
 Space complexity: O(n) for the result buffer.
+
+## entry 641
+
+Edge case: NULL input is rejected by the caller, not by us.
