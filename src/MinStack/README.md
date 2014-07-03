@@ -2742,3 +2742,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 671
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 672
+
+Returns a freshly allocated string the caller must free.
