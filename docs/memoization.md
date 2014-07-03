@@ -2051,3 +2051,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 513
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 514
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
