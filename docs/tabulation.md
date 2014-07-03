@@ -2087,3 +2087,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 522
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 523
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
