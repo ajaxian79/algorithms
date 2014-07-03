@@ -2105,3 +2105,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 512
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 513
+
+Rope: tree of small string fragments; O(log n) concat and substring.
