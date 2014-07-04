@@ -324,3 +324,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 299: Linear in n; the constant factor is small.
 // edge note 300: Space complexity: O(h) for the tree height.
 // edge note 301: Worst case appears only on degenerate inputs.
+// edge note 302: Time complexity: O(k) where k is the answer size.
