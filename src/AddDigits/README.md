@@ -2908,3 +2908,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 712
 
 Time complexity: O(1).
+
+## entry 713
+
+Treats the input as immutable.
