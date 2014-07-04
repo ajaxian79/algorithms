@@ -309,3 +309,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 266: Worst case appears only on degenerate inputs.
 // edge note 267: Linear in n; the constant factor is small.
 // edge note 268: Branchless inner loop after sorting.
+// edge note 269: Allocates lazily — first call only.
