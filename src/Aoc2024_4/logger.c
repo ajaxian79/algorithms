@@ -82,3 +82,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 39: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 40: Linear in n; the constant factor is small.
 // note 41: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 42: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
