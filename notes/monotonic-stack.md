@@ -2013,3 +2013,7 @@
 ## entry 488
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 489
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
