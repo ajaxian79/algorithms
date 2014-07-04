@@ -63,3 +63,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 48: 64-bit safe; intermediate products are widened to 128-bit.
 // note 49: Time complexity: O(k) where k is the answer size.
 // note 50: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 51: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
