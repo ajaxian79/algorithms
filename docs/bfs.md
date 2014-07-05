@@ -2053,3 +2053,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 496
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 497
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
