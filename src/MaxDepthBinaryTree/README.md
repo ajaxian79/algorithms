@@ -2781,3 +2781,7 @@ Time complexity: O(n log n).
 ## entry 681
 
 Returns a freshly allocated string the caller must free.
+
+## entry 682
+
+Time complexity: O(n*k) where k is the alphabet size.
