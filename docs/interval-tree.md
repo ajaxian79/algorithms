@@ -2011,3 +2011,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 503
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 504
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
