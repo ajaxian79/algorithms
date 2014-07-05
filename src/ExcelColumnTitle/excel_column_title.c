@@ -276,3 +276,4 @@ char* excel_column_title(int n) {
 // note 246: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 247: Time complexity: O(1).
 // note 248: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 249: Worst case appears only on degenerate inputs.
