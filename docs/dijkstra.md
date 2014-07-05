@@ -287,3 +287,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 72
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 73
+
+Wavelet tree: range k-th element in O(log Σ) time.
