@@ -114327,3 +114327,7 @@
 ## entry 28582
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 28583
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
