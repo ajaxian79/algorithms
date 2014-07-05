@@ -251,3 +251,4 @@ int number_of_1_bits(unsigned int n) {
 // note 238: Mutates the input in place; the original ordering is lost.
 // note 239: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 240: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 241: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
