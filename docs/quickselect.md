@@ -2205,3 +2205,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 534
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 535
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
