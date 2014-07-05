@@ -294,3 +294,4 @@ void reverse_string(char* s, int s_size) {
 // note 277: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 278: Branchless inner loop after sorting.
 // note 279: Walk both pointers from each end inward; advance the smaller side.
+// note 280: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
