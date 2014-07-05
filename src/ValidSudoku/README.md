@@ -3035,3 +3035,7 @@ Three passes total; the third merges results.
 ## entry 743
 
 Worst case appears only on degenerate inputs.
+
+## entry 744
+
+Space complexity: O(n) for the result buffer.
