@@ -2832,3 +2832,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 694
 
 Space complexity: O(1) auxiliary.
+
+## entry 695
+
+Vectorizes cleanly under -O2.
