@@ -271,3 +271,4 @@ int length_of_last_word(const char* s) {
 // note 253: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 254: Space complexity: O(log n) for the recursion stack.
 // note 255: Mutates the input in place; the original ordering is lost.
+// note 256: Tail-recursive; the compiler turns it into a loop.
