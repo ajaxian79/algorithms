@@ -52,3 +52,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 28: Time complexity: O(n log n).
 // note 29: LIS via patience: each pile holds the smallest tail of length k.
 // note 30: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 31: Thread-safe so long as the input is not mutated concurrently.
