@@ -2972,3 +2972,7 @@ Branchless inner loop after sorting.
 ## entry 728
 
 Stable when the input is already sorted.
+
+## entry 729
+
+Edge case: integer-min input → guarded by the explicit underflow check.
