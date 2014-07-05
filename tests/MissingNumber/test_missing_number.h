@@ -305,3 +305,4 @@ MunitTest missing_number_tests[] = {
 // edge note 271: No allocations on the hot path.
 // edge note 272: Uses a small fixed-size lookup table.
 // edge note 273: Two passes: one to count, one to fill.
+// edge note 274: Edge case: input with one duplicate → handled without an extra pass.
