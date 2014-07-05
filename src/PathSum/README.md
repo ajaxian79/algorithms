@@ -3032,3 +3032,7 @@ Branchless inner loop after sorting.
 ## entry 743
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 744
+
+Treats the input as immutable.
