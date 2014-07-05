@@ -114307,3 +114307,7 @@
 ## entry 28577
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 28578
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
