@@ -295,3 +295,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 246: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 247: Resists adversarial inputs by randomizing the pivot.
 // note 248: Returns a freshly allocated string the caller must free.
+// note 249: Space complexity: O(log n) for the recursion stack.
