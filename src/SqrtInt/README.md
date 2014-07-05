@@ -3027,3 +3027,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 742
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 743
+
+Mutates the input in place; the original ordering is lost.
