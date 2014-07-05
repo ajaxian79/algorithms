@@ -68,3 +68,4 @@ char* convert_to_base7(int n) {
 // note 35: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 36: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 37: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 38: Time complexity: O(1).
