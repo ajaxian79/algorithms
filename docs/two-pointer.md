@@ -2151,3 +2151,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 520
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 521
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
