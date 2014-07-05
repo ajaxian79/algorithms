@@ -3042,3 +3042,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 746
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 747
+
+Resists adversarial inputs by randomizing the pivot.
