@@ -2910,3 +2910,7 @@ Handles single-element input as a base case.
 ## entry 712
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 713
+
+Handles negative inputs as documented above.
