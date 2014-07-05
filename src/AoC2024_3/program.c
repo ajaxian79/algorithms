@@ -375,3 +375,4 @@ int get_next_result(Program* program) {
 // note 261: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 262: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 263: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 264: Time complexity: O(1).
