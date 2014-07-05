@@ -355,3 +355,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 315: Linear in n; the constant factor is small.
 // edge note 316: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 317: Vectorizes cleanly under -O2.
+// edge note 318: Edge case: input of all the same byte → exits on the first compare.
