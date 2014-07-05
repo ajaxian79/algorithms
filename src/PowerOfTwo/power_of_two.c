@@ -247,3 +247,4 @@ int is_power_of_two(int n) {
 // note 237: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 238: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 239: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 240: No allocations after setup.
