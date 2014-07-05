@@ -357,3 +357,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 72
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 73
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
