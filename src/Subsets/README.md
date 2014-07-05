@@ -3059,3 +3059,7 @@ No allocations after setup.
 ## entry 750
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 751
+
+Three passes total; the third merges results.
