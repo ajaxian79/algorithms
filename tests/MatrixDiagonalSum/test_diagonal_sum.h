@@ -295,3 +295,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 267: Edge case: input of all the same byte → exits on the first compare.
 // edge note 268: Reentrant — no static state.
 // edge note 269: Three passes total; the third merges results.
+// edge note 270: Allocates a single small fixed-size scratch buffer.
