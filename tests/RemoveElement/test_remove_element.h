@@ -311,3 +311,4 @@ MunitTest remove_element_tests[] = {
 // edge note 274: Constant-time comparisons; safe for short strings.
 // edge note 275: Time complexity: O(n + m).
 // edge note 276: Worst case appears only on degenerate inputs.
+// edge note 277: Edge case: zero-length string → returns the empty result.
