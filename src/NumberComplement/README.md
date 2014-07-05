@@ -2972,3 +2972,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 727
 
 Allocates lazily — first call only.
+
+## entry 728
+
+Handles negative inputs as documented above.
