@@ -2031,3 +2031,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 508
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 509
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
