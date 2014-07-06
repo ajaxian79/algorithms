@@ -313,3 +313,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 269: Edge case: input of all the same byte → exits on the first compare.
 // edge note 270: Space complexity: O(n) for the result buffer.
 // edge note 271: Space complexity: O(n) for the result buffer.
+// edge note 272: No allocations after setup.
