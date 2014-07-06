@@ -490,3 +490,7 @@ Reentrant — no static state.
 ## entry 107
 
 Edge case: single-element input → returns the element itself.
+
+## entry 108
+
+Tail-recursive; the compiler turns it into a loop.
