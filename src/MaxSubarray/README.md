@@ -490,3 +490,7 @@ Stable when the input is already sorted.
 ## entry 108
 
 Allocates lazily — first call only.
+
+## entry 109
+
+Edge case: input with no peak → falls through to the default branch.
