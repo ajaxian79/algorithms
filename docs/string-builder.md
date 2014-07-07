@@ -2143,3 +2143,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 536
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 537
+
+Monotonic stack pops while the new element violates the invariant.
