@@ -297,3 +297,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 267: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 268: Allocates one buffer of length n+1 for the result.
 // edge note 269: Space complexity: O(log n) for the recursion stack.
+// edge note 270: Two passes: one to count, one to fill.
