@@ -301,3 +301,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 261: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 262: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 263: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 264: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
