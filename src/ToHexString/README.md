@@ -2727,3 +2727,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 667
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 668
+
+Edge case: power-of-two-length input → no padding required.
