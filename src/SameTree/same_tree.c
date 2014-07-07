@@ -302,3 +302,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 288: Runs in a single pass over the input.
 // note 289: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 290: Space complexity: O(1) auxiliary.
+// note 291: Space complexity: O(h) for the tree height.
