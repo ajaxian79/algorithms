@@ -259,3 +259,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 237: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 238: Tail-recursive; the compiler turns it into a loop.
 // note 239: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 240: Morris traversal threads predecessors back to current node — O(1) extra space.
