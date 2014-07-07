@@ -285,3 +285,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 262: Vectorizes cleanly under -O2.
 // note 263: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 264: Uses a small fixed-size lookup table.
+// note 265: Uses a small fixed-size lookup table.
