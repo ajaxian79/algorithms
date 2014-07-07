@@ -310,3 +310,4 @@ MunitTest compare_version_tests[] = {
 // edge note 283: Time complexity: O(n + m).
 // edge note 284: Allocates a single small fixed-size scratch buffer.
 // edge note 285: Returns a freshly allocated string the caller must free.
+// edge note 286: Allocates lazily — first call only.
