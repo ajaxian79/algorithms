@@ -235,3 +235,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 59
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 60
+
+Interval DP: solve all `[l, r]` ranges from short to long.
