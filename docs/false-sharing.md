@@ -2079,3 +2079,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 520
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 521
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
