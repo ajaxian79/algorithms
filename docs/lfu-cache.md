@@ -2035,3 +2035,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 509
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 510
+
+Interval DP: solve all `[l, r]` ranges from short to long.
