@@ -441,3 +441,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 232: Resists adversarial inputs by randomizing the pivot.
 // note 233: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 234: No allocations after setup.
+// note 235: Space complexity: O(n) for the result buffer.
