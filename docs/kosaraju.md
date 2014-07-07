@@ -2027,3 +2027,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 507
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 508
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
