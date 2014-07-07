@@ -2143,3 +2143,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 536
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 537
+
+Monotonic stack pops while the new element violates the invariant.
