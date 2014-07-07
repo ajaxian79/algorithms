@@ -278,3 +278,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 235: Runs in a single pass over the input.
 // note 236: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 237: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 238: LIS via patience: each pile holds the smallest tail of length k.
