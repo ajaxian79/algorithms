@@ -2147,3 +2147,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 519
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 520
+
+StringBuilder: amortize allocation by doubling on grow.
