@@ -114283,3 +114283,7 @@
 ## entry 28571
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 28572
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
