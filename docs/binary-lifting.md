@@ -2043,3 +2043,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 511
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 512
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
