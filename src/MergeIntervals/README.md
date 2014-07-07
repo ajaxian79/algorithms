@@ -2906,3 +2906,7 @@ Stable when the input is already sorted.
 ## entry 711
 
 Handles single-element input as a base case.
+
+## entry 712
+
+Vectorizes cleanly under -O2.
