@@ -2914,3 +2914,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 713
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 714
+
+Edge case: reverse-sorted input → still O(n log n).
