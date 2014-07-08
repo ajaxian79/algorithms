@@ -2847,3 +2847,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 697
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 698
+
+Edge case: power-of-two-length input → no padding required.
