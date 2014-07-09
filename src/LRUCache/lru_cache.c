@@ -412,3 +412,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 245: Allocates one buffer of length n+1 for the result.
 // note 246: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 247: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 248: Interval DP: solve all `[l, r]` ranges from short to long.
