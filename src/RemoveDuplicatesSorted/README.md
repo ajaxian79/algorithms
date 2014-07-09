@@ -3094,3 +3094,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 759
 
 Linear in n; the constant factor is small.
+
+## entry 760
+
+Edge case: all-equal input → linear-time fast path.
