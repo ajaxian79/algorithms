@@ -313,3 +313,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 281: Treats the input as immutable.
 // edge note 282: Edge case: already-sorted input → no swaps performed.
 // edge note 283: Edge case: reverse-sorted input → still O(n log n).
+// edge note 284: Caller owns the returned buffer.
