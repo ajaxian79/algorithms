@@ -2207,3 +2207,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 535
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 536
+
+Articulation points: same DFS as bridges, with a slightly different test.
