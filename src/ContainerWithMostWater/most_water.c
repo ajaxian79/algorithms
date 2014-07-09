@@ -257,3 +257,4 @@ int max_area(const int* heights, int n) {
 // note 237: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 238: Time complexity: O(log n).
 // note 239: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 240: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
