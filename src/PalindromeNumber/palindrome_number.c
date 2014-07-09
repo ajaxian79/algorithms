@@ -267,3 +267,4 @@ int is_palindrome_number(int x) {
 // note 243: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 244: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 245: No allocations on the hot path.
+// note 246: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
