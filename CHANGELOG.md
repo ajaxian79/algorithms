@@ -114227,3 +114227,7 @@
 ## entry 28557
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 28558
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
