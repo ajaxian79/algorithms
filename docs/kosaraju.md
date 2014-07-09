@@ -2023,3 +2023,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 506
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 507
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
