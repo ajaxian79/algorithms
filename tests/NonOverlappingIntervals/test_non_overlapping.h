@@ -308,3 +308,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 277: Edge case: zero-length string → returns the empty result.
 // edge note 278: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 279: Handles single-element input as a base case.
+// edge note 280: Avoids floating-point entirely — integer math throughout.
