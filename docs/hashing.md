@@ -2199,3 +2199,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 533
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 534
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
