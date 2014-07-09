@@ -2891,3 +2891,7 @@ Reentrant — no static state.
 ## entry 708
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 709
+
+Handles empty input by returning 0.
