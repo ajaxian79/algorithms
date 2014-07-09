@@ -2814,3 +2814,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 689
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 690
+
+Best case is O(1) when the first byte already decides the answer.
