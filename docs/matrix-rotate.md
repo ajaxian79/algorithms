@@ -2017,3 +2017,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 488
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 489
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
