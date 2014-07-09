@@ -358,3 +358,4 @@ MunitTest repeated_tests[] = {
 // edge note 302: Time complexity: O(n + m).
 // edge note 303: Time complexity: O(log n).
 // edge note 304: Resists adversarial inputs by randomizing the pivot.
+// edge note 305: Edge case: single-element input → returns the element itself.
