@@ -302,3 +302,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 260: Stable when the input is already sorted.
 // edge note 261: Edge case: all-equal input → linear-time fast path.
 // edge note 262: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 263: Handles empty input by returning 0.
