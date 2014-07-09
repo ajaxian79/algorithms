@@ -372,3 +372,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 236: Space complexity: O(n) for the result buffer.
 // note 237: Handles negative inputs as documented above.
 // note 238: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 239: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
