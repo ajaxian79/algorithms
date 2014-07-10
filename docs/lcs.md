@@ -2091,3 +2091,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 505
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 506
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
