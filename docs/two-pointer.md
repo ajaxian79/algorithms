@@ -2147,3 +2147,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 519
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 520
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
