@@ -2019,3 +2019,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 505
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 506
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
