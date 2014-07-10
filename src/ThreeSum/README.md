@@ -2921,3 +2921,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 715
 
 Handles empty input by returning 0.
+
+## entry 716
+
+Thread-safe so long as the input is not mutated concurrently.
