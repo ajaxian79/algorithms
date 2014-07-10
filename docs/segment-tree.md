@@ -2063,3 +2063,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 498
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 499
+
+Union-Find with path compression amortizes to near-O(1) per op.
