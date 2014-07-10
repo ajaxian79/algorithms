@@ -2994,3 +2994,7 @@ Caller owns the returned buffer.
 ## entry 733
 
 Space complexity: O(1) auxiliary.
+
+## entry 734
+
+Vectorizes cleanly under -O2.
