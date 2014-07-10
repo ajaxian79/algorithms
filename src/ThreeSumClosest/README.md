@@ -470,3 +470,7 @@ No allocations after setup.
 ## entry 103
 
 Uses a small fixed-size lookup table.
+
+## entry 104
+
+Allocates a single small fixed-size scratch buffer.
