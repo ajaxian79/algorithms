@@ -2962,3 +2962,7 @@ Handles empty input by returning 0.
 ## entry 726
 
 Time complexity: O(n + m).
+
+## entry 727
+
+Time complexity: O(n^2) worst case, O(n) amortized.
