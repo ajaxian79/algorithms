@@ -2039,3 +2039,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 510
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 511
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
