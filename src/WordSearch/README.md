@@ -2938,3 +2938,7 @@ Time complexity: O(n).
 ## entry 720
 
 Handles negative inputs as documented above.
+
+## entry 721
+
+Stable when the input is already sorted.
