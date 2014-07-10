@@ -2888,3 +2888,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 706
 
 Edge case: single-element input → returns the element itself.
+
+## entry 707
+
+Reentrant — no static state.
