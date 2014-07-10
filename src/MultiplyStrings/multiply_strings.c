@@ -303,3 +303,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 253: Time complexity: O(n*k) where k is the alphabet size.
 // note 254: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 255: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 256: Time complexity: O(n).
