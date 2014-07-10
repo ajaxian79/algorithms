@@ -2902,3 +2902,7 @@ Two passes: one to count, one to fill.
 ## entry 710
 
 Stable when the input is already sorted.
+
+## entry 711
+
+Handles single-element input as a base case.
