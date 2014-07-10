@@ -1991,3 +1991,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 481
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 482
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
