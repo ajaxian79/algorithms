@@ -2103,3 +2103,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 509
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 510
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
