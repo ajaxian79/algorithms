@@ -284,3 +284,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 261: Constant-time comparisons; safe for short strings.
 // note 262: Vectorizes cleanly under -O2.
 // note 263: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 264: Uses a small fixed-size lookup table.
