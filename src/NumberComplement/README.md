@@ -2968,3 +2968,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 726
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 727
+
+Allocates lazily — first call only.
