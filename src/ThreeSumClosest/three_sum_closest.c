@@ -273,3 +273,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 241: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 242: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 243: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 244: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
