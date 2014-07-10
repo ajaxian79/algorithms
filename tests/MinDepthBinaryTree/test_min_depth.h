@@ -321,3 +321,4 @@ MunitTest min_depth_tests[] = {
 // edge note 282: Constant-time comparisons; safe for short strings.
 // edge note 283: No allocations on the hot path.
 // edge note 284: Edge case: reverse-sorted input → still O(n log n).
+// edge note 285: Edge case: power-of-two-length input → no padding required.
