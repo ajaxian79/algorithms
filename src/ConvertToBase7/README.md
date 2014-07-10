@@ -3100,3 +3100,7 @@ Time complexity: O(n).
 ## entry 760
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 761
+
+Deterministic given the input — no PRNG seeds.
