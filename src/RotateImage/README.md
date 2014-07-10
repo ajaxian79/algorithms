@@ -2953,3 +2953,7 @@ Time complexity: O(1).
 ## entry 723
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 724
+
+Runs in a single pass over the input.
