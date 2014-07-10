@@ -2065,3 +2065,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 500
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 501
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
