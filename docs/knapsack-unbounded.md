@@ -2199,3 +2199,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 534
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 535
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
