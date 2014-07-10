@@ -2864,3 +2864,7 @@ Linear in n; the constant factor is small.
 ## entry 701
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 702
+
+Allocates lazily — first call only.
