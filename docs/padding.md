@@ -1995,3 +1995,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 499
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 500
+
+Walk both pointers from each end inward; advance the smaller side.
