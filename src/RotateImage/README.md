@@ -2961,3 +2961,7 @@ Runs in a single pass over the input.
 ## entry 725
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 726
+
+Edge case: single-element input → returns the element itself.
