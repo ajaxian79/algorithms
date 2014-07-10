@@ -290,3 +290,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 259: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 260: Handles empty input by returning 0.
 // edge note 261: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 262: Edge case: power-of-two-length input → no padding required.
