@@ -2990,3 +2990,7 @@ Three passes total; the third merges results.
 ## entry 732
 
 Caller owns the returned buffer.
+
+## entry 733
+
+Space complexity: O(1) auxiliary.
