@@ -320,3 +320,4 @@ char* count_and_say(int n) {
 // note 271: StringBuilder: amortize allocation by doubling on grow.
 // note 272: Sub-linear in the average case thanks to early exit.
 // note 273: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 274: Space complexity: O(log n) for the recursion stack.
