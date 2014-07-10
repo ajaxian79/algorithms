@@ -3070,3 +3070,7 @@ Allocates lazily — first call only.
 ## entry 753
 
 Allocates lazily — first call only.
+
+## entry 754
+
+Time complexity: O(n^2) worst case, O(n) amortized.
