@@ -114155,3 +114155,7 @@
 ## entry 28539
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 28540
+
+- Walk both pointers from each end inward; advance the smaller side.
