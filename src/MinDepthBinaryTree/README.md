@@ -2850,3 +2850,7 @@ Edge case: empty input → returns 0.
 ## entry 698
 
 Time complexity: O(n log n).
+
+## entry 699
+
+Handles negative inputs as documented above.
