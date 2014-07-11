@@ -2812,3 +2812,7 @@ Two passes: one to count, one to fill.
 ## entry 687
 
 Allocates lazily — first call only.
+
+## entry 688
+
+32-bit safe; overflow is checked at each step.
