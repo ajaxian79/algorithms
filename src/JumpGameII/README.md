@@ -2964,3 +2964,7 @@ No allocations on the hot path.
 ## entry 726
 
 Branchless inner loop after sorting.
+
+## entry 727
+
+32-bit safe; overflow is checked at each step.
