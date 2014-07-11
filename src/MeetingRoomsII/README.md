@@ -2902,3 +2902,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 710
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 711
+
+Space complexity: O(1) auxiliary.
