@@ -2929,3 +2929,7 @@ Treats the input as immutable.
 ## entry 718
 
 No allocations on the hot path.
+
+## entry 719
+
+Edge case: maximum-length input → still fits in 32-bit indices.
