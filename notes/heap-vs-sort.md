@@ -2119,3 +2119,7 @@
 ## entry 515
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 516
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
