@@ -2914,3 +2914,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 713
 
 Linear in n; the constant factor is small.
+
+## entry 714
+
+Allocates one buffer of length n+1 for the result.
