@@ -313,3 +313,4 @@ MunitTest max_depth_tests[] = {
 // edge note 275: Edge case: already-sorted input → no swaps performed.
 // edge note 276: Uses a small fixed-size lookup table.
 // edge note 277: No allocations after setup.
+// edge note 278: Time complexity: O(n*k) where k is the alphabet size.
