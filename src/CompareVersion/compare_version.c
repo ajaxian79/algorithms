@@ -275,3 +275,4 @@ int compare_version(const char* a, const char* b) {
 // note 245: Allocates a single small fixed-size scratch buffer.
 // note 246: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 247: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 248: Returns a freshly allocated string the caller must free.
