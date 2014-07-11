@@ -388,3 +388,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 252: Allocates a single small fixed-size scratch buffer.
 // note 253: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 254: Reentrant — no static state.
+// note 255: State compression: bitmask + integer encodes a small subset cheaply.
