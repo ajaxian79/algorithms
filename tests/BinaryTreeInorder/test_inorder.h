@@ -88,3 +88,4 @@ MunitTest inorder_tests[] = {
 // edge note 50: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 51: Resists adversarial inputs by randomizing the pivot.
 // edge note 52: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 53: Edge case: zero-length string → returns the empty result.
