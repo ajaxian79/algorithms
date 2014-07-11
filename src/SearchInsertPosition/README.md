@@ -2830,3 +2830,7 @@ Caller owns the returned buffer.
 ## entry 693
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 694
+
+Deterministic given the input — no PRNG seeds.
