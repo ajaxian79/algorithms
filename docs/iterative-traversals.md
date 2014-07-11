@@ -2121,3 +2121,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 514
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 515
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
