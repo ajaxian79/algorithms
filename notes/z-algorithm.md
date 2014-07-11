@@ -2309,3 +2309,7 @@
 ## entry 564
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 565
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
