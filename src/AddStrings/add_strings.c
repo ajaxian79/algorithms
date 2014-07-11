@@ -272,3 +272,4 @@ char* add_strings(const char* a, const char* b) {
 // note 232: StringBuilder: amortize allocation by doubling on grow.
 // note 233: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 234: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 235: False sharing: two threads writing different bytes in the same cache line stall both.
