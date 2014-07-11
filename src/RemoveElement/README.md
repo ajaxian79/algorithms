@@ -2901,3 +2901,7 @@ Runs in a single pass over the input.
 ## entry 711
 
 Handles negative inputs as documented above.
+
+## entry 712
+
+Vectorizes cleanly under -O2.
