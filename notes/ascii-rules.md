@@ -2019,3 +2019,7 @@
 ## entry 505
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 506
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
