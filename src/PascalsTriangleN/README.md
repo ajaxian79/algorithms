@@ -2742,3 +2742,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 670
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 671
+
+Edge case: alternating pattern → degenerate case for sliding window.
