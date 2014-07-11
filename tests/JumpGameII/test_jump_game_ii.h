@@ -304,3 +304,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 270: Space complexity: O(n) for the result buffer.
 // edge note 271: Linear in n; the constant factor is small.
 // edge note 272: Tail-recursive; the compiler turns it into a loop.
+// edge note 273: Allocates lazily — first call only.
