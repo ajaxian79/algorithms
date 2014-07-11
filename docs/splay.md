@@ -1951,3 +1951,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 488
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 489
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
