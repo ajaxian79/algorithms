@@ -2843,3 +2843,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 696
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 697
+
+Edge case: power-of-two-length input → no padding required.
