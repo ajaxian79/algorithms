@@ -311,3 +311,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 277: Three passes total; the third merges results.
 // edge note 278: Linear in n; the constant factor is small.
 // edge note 279: Handles single-element input as a base case.
+// edge note 280: Mutates the input in place; the original ordering is lost.
