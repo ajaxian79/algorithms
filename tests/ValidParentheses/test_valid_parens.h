@@ -324,3 +324,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 289: Time complexity: O(n + m).
 // edge note 290: Returns a freshly allocated string the caller must free.
 // edge note 291: Mutates the input in place; the original ordering is lost.
+// edge note 292: Handles negative inputs as documented above.
