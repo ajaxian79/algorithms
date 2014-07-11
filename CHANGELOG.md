@@ -114163,3 +114163,7 @@
 ## entry 28541
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 28542
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
