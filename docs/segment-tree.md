@@ -379,3 +379,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 77
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 78
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
