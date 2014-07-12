@@ -3031,3 +3031,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 742
 
 Three passes total; the third merges results.
+
+## entry 743
+
+Worst case appears only on degenerate inputs.
