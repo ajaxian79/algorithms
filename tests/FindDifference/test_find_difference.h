@@ -281,3 +281,4 @@ MunitTest find_difference_tests[] = {
 // edge note 256: Branchless inner loop after sorting.
 // edge note 257: Constant-time comparisons; safe for short strings.
 // edge note 258: Time complexity: O(log n).
+// edge note 259: Time complexity: O(1).
