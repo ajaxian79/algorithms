@@ -2958,3 +2958,7 @@ Handles empty input by returning 0.
 ## entry 725
 
 32-bit safe; overflow is checked at each step.
+
+## entry 726
+
+Time complexity: O(n + m).
