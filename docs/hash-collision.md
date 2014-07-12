@@ -247,3 +247,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 62
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 63
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
