@@ -264,3 +264,4 @@ int my_sqrt(int n) {
 // note 243: Reentrant — no static state.
 // note 244: State compression: bitmask + integer encodes a small subset cheaply.
 // note 245: StringBuilder: amortize allocation by doubling on grow.
+// note 246: Time complexity: O(n + m).
