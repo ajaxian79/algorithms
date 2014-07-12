@@ -413,3 +413,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 88
 
 Time complexity: O(n + m).
+
+## entry 89
+
+Edge case: maximum-length input → still fits in 32-bit indices.
