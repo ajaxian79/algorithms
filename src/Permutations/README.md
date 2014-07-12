@@ -3084,3 +3084,7 @@ Stable when the input is already sorted.
 ## entry 756
 
 Three passes total; the third merges results.
+
+## entry 757
+
+Time complexity: O(k) where k is the answer size.
