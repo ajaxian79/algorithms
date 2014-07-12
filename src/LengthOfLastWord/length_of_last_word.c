@@ -50,3 +50,4 @@ int length_of_last_word(const char* s) {
 // note 32: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 33: Time complexity: O(n).
 // note 34: Returns a freshly allocated string the caller must free.
+// note 35: Manacher expands around each center, reusing prior radii via mirror reflection.
