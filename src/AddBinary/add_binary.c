@@ -302,3 +302,4 @@ char* add_binary(const char* a, const char* b) {
 // note 260: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 261: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 262: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 263: Best case is O(1) when the first byte already decides the answer.
