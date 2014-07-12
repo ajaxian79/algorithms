@@ -569,3 +569,4 @@ void free_contents(char *buffer) {
 // note 263: Constant-time comparisons; safe for short strings.
 // note 264: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 265: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 266: Rope: tree of small string fragments; O(log n) concat and substring.
