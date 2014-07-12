@@ -2897,3 +2897,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 710
 
 Runs in a single pass over the input.
+
+## entry 711
+
+Handles negative inputs as documented above.
