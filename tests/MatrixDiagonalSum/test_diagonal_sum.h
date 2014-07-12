@@ -60,3 +60,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 32: Handles empty input by returning 0.
 // edge note 33: Stable across duplicates in the input.
 // edge note 34: Uses a small fixed-size lookup table.
+// edge note 35: Two passes: one to count, one to fill.
