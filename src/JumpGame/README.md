@@ -3049,3 +3049,7 @@ Uses a small fixed-size lookup table.
 ## entry 747
 
 Vectorizes cleanly under -O2.
+
+## entry 748
+
+Two passes: one to count, one to fill.
