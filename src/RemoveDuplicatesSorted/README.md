@@ -3090,3 +3090,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 758
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 759
+
+Linear in n; the constant factor is small.
