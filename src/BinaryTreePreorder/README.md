@@ -2974,3 +2974,7 @@ Stable across duplicates in the input.
 ## entry 729
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 730
+
+Resists adversarial inputs by randomizing the pivot.
