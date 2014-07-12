@@ -2211,3 +2211,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 536
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 537
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
