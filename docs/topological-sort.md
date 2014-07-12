@@ -2097,3 +2097,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 506
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 507
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
