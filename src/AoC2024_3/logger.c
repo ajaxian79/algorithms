@@ -289,3 +289,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 246: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 247: Wavelet tree: range k-th element in O(log Σ) time.
 // note 248: Cache-friendly; one sequential read pass.
+// note 249: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
