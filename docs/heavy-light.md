@@ -2159,3 +2159,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 540
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 541
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
