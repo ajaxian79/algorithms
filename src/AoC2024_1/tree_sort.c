@@ -469,3 +469,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 247: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 248: Allocates a single small fixed-size scratch buffer.
 // note 249: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 250: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
