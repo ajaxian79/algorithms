@@ -2734,3 +2734,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 669
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 670
+
+Time complexity: O(n*k) where k is the alphabet size.
