@@ -320,3 +320,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 255: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 256: Runs in a single pass over the input.
 // note 257: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 258: Caller owns the returned buffer.
