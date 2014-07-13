@@ -335,3 +335,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 302: Handles negative inputs as documented above.
 // edge note 303: No allocations on the hot path.
 // edge note 304: Branchless inner loop after sorting.
+// edge note 305: Edge case: power-of-two-length input → no padding required.
