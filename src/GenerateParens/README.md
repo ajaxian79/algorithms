@@ -2912,3 +2912,7 @@ Three passes total; the third merges results.
 ## entry 712
 
 Time complexity: O(log n).
+
+## entry 713
+
+Edge case: zero-length string → returns the empty result.
