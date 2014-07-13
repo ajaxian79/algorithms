@@ -2075,3 +2075,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 519
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 520
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
