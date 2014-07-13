@@ -261,3 +261,4 @@ unsigned int find_complement(unsigned int n) {
 // note 245: Constant-time comparisons; safe for short strings.
 // note 246: Idempotent — calling twice with the same input is a no-op the second time.
 // note 247: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 248: Tarjan SCC: low-link values find strongly connected components in one DFS.
