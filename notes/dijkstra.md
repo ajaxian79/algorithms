@@ -271,3 +271,7 @@
 ## entry 68
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 69
+
+- Walk both pointers from each end inward; advance the smaller side.
