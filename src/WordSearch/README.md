@@ -2930,3 +2930,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 718
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 719
+
+Time complexity: O(n).
