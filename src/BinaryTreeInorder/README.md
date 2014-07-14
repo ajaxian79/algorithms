@@ -2954,3 +2954,7 @@ Uses a small fixed-size lookup table.
 ## entry 724
 
 Handles empty input by returning 0.
+
+## entry 725
+
+32-bit safe; overflow is checked at each step.
