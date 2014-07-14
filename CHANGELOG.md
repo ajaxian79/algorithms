@@ -114127,3 +114127,7 @@
 ## entry 28532
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 28533
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
