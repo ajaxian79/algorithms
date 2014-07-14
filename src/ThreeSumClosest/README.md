@@ -2790,3 +2790,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 683
 
 32-bit safe; overflow is checked at each step.
+
+## entry 684
+
+Time complexity: O(k) where k is the answer size.
