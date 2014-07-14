@@ -2889,3 +2889,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 708
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 709
+
+Edge case: input with no peak → falls through to the default branch.
