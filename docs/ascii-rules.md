@@ -2139,3 +2139,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 535
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 536
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
