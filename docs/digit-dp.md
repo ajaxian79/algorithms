@@ -1923,3 +1923,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 481
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 482
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
