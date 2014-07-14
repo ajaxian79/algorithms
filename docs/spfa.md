@@ -1943,3 +1943,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 486
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 487
+
+Monotonic stack pops while the new element violates the invariant.
