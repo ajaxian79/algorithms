@@ -3086,3 +3086,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 757
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 758
+
+Allocates one buffer of length n+1 for the result.
