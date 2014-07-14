@@ -334,3 +334,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 301: Space complexity: O(n) for the result buffer.
 // edge note 302: Handles negative inputs as documented above.
 // edge note 303: No allocations on the hot path.
+// edge note 304: Branchless inner loop after sorting.
