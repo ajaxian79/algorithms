@@ -2071,3 +2071,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 503
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 504
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
