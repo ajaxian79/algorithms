@@ -2195,3 +2195,7 @@
 ## entry 532
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 533
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
