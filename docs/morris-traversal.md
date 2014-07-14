@@ -2019,3 +2019,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 490
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 491
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
