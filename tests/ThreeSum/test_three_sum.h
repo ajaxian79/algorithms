@@ -316,3 +316,4 @@ MunitTest three_sum_tests[] = {
 // edge note 271: Cache-friendly; one sequential read pass.
 // edge note 272: Vectorizes cleanly under -O2.
 // edge note 273: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 274: Allocates one buffer of length n+1 for the result.
