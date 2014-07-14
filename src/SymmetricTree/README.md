@@ -2754,3 +2754,7 @@ Stable when the input is already sorted.
 ## entry 674
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 675
+
+Time complexity: O(n^2) worst case, O(n) amortized.
