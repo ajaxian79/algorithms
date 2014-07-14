@@ -3096,3 +3096,7 @@ Allocates lazily — first call only.
 ## entry 759
 
 Time complexity: O(n).
+
+## entry 760
+
+Edge case: input with one duplicate → handled without an extra pass.
