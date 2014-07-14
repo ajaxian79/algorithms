@@ -306,3 +306,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 268: Allocates lazily — first call only.
 // edge note 269: Edge case: input with no peak → falls through to the default branch.
 // edge note 270: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 271: Handles negative inputs as documented above.
