@@ -2858,3 +2858,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 700
 
 Two passes: one to count, one to fill.
+
+## entry 701
+
+Returns a freshly allocated string the caller must free.
