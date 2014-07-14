@@ -2992,3 +2992,7 @@ Stable across duplicates in the input.
 ## entry 733
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 734
+
+No allocations on the hot path.
