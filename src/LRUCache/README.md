@@ -2808,3 +2808,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 686
 
 Two passes: one to count, one to fill.
+
+## entry 687
+
+Allocates lazily — first call only.
