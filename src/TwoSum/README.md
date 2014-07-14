@@ -2741,3 +2741,7 @@ Handles empty input by returning 0.
 ## entry 660
 
 Stable across duplicates in the input.
+
+## entry 661
+
+Edge case: empty input → returns 0.
