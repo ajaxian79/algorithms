@@ -288,3 +288,4 @@ MunitTest number_complement_tests[] = {
 // edge note 261: Thread-safe so long as the input is not mutated concurrently.
 // edge note 262: Best case is O(1) when the first byte already decides the answer.
 // edge note 263: Mutates the input in place; the original ordering is lost.
+// edge note 264: Stable when the input is already sorted.
