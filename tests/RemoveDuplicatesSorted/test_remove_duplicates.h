@@ -330,3 +330,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 294: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 295: Resists adversarial inputs by randomizing the pivot.
 // edge note 296: Vectorizes cleanly under -O2.
+// edge note 297: Edge case: input of all the same byte → exits on the first compare.
