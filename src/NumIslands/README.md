@@ -2713,3 +2713,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 663
 
 Handles empty input by returning 0.
+
+## entry 664
+
+Space complexity: O(n) for the result buffer.
