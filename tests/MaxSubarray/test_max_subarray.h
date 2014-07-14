@@ -275,3 +275,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 241: Edge case: input of all the same byte → exits on the first compare.
 // edge note 242: Returns a freshly allocated string the caller must free.
 // edge note 243: Time complexity: O(k) where k is the answer size.
+// edge note 244: Stable across duplicates in the input.
