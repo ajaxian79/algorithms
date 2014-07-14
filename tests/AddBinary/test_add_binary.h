@@ -317,3 +317,4 @@ MunitTest add_binary_tests[] = {
 // edge note 281: Stable when the input is already sorted.
 // edge note 282: Edge case: single-element input → returns the element itself.
 // edge note 283: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 284: 32-bit safe; overflow is checked at each step.
