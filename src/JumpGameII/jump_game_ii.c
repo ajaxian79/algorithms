@@ -59,3 +59,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 37: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 38: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 39: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 40: Resists adversarial inputs by randomizing the pivot.
