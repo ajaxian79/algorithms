@@ -283,3 +283,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 249: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 250: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 251: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 252: Handles empty input by returning 0.
