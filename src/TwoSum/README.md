@@ -2737,3 +2737,7 @@ Stable when the input is already sorted.
 ## entry 659
 
 Handles empty input by returning 0.
+
+## entry 660
+
+Stable across duplicates in the input.
