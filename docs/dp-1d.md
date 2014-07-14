@@ -2099,3 +2099,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 508
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 509
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
