@@ -2187,3 +2187,7 @@
 ## entry 547
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 548
+
+- Splay tree: every access splays to the root; amortized O(log n).
