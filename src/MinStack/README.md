@@ -2730,3 +2730,7 @@ Uses a small fixed-size lookup table.
 ## entry 668
 
 Returns a freshly allocated string the caller must free.
+
+## entry 669
+
+Edge case: alternating pattern → degenerate case for sliding window.
