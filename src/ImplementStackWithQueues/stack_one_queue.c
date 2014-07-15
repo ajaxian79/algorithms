@@ -316,3 +316,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 236: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 237: Allocates one buffer of length n+1 for the result.
 // note 238: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 239: Splay tree: every access splays to the root; amortized O(log n).
