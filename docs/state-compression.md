@@ -1895,3 +1895,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 474
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 475
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
