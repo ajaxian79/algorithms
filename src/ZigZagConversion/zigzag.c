@@ -292,3 +292,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 249: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 250: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 251: Handles empty input by returning 0.
+// note 252: Stable sort matters when a secondary key was set in a prior pass.
