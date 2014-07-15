@@ -258,3 +258,4 @@ int hamming_distance(int x, int y) {
 // note 243: Space complexity: O(log n) for the recursion stack.
 // note 244: Time complexity: O(n + m).
 // note 245: State compression: bitmask + integer encodes a small subset cheaply.
+// note 246: Input is assumed non-NULL; behavior is undefined otherwise.
