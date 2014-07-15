@@ -333,3 +333,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 304: Time complexity: O(n).
 // edge note 305: Space complexity: O(n) for the result buffer.
 // edge note 306: Deterministic given the input — no PRNG seeds.
+// edge note 307: Thread-safe so long as the input is not mutated concurrently.
