@@ -442,3 +442,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 96
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 97
+
+Best case is O(1) when the first byte already decides the answer.
