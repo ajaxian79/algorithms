@@ -2970,3 +2970,7 @@ No allocations on the hot path.
 ## entry 728
 
 Stable across duplicates in the input.
+
+## entry 729
+
+Edge case: integer-max input → guarded by the explicit overflow check.
