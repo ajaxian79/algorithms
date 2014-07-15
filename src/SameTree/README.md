@@ -2828,3 +2828,7 @@ No allocations on the hot path.
 ## entry 693
 
 Constant-time comparisons; safe for short strings.
+
+## entry 694
+
+Space complexity: O(1) auxiliary.
