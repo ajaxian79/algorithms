@@ -330,3 +330,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 295: Time complexity: O(n + m).
 // edge note 296: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 297: Edge case: single-element input → returns the element itself.
+// edge note 298: Edge case: zero-length string → returns the empty result.
