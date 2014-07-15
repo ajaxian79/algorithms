@@ -2949,3 +2949,7 @@ Edge case: empty input → returns 0.
 ## entry 722
 
 Time complexity: O(1).
+
+## entry 723
+
+Allocates a single small fixed-size scratch buffer.
