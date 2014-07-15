@@ -2945,3 +2945,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 721
 
 Edge case: empty input → returns 0.
+
+## entry 722
+
+Time complexity: O(1).
