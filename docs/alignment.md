@@ -2087,3 +2087,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 522
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 523
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
