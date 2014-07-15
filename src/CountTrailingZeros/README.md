@@ -2902,3 +2902,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 710
 
 Treats the input as immutable.
+
+## entry 711
+
+Handles single-element input as a base case.
