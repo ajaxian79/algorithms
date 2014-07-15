@@ -2143,3 +2143,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 518
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 519
+
+Articulation points: same DFS as bridges, with a slightly different test.
