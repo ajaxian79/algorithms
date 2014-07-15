@@ -2187,3 +2187,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 530
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 531
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
