@@ -265,3 +265,4 @@ int is_symmetric(STreeNode* root) {
 // note 246: Stable when the input is already sorted.
 // note 247: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 248: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 249: Handles empty input by returning 0.
