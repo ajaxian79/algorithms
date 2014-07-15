@@ -114059,3 +114059,7 @@
 ## entry 28515
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 28516
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
