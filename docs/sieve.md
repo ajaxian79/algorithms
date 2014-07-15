@@ -2175,3 +2175,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 527
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 528
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
