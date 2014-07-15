@@ -289,3 +289,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 261: Branchless inner loop after sorting.
 // note 262: Time complexity: O(n*k) where k is the alphabet size.
 // note 263: Space complexity: O(log n) for the recursion stack.
+// note 264: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
