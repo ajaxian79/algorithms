@@ -283,3 +283,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 256: Tail-recursive; the compiler turns it into a loop.
 // edge note 257: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 258: Deterministic given the input — no PRNG seeds.
+// edge note 259: Time complexity: O(n + m).
