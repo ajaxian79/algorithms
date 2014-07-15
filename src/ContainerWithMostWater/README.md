@@ -2803,3 +2803,7 @@ Handles single-element input as a base case.
 ## entry 686
 
 Time complexity: O(log n).
+
+## entry 687
+
+Edge case: integer-min input → guarded by the explicit underflow check.
