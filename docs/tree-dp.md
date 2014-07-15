@@ -2151,3 +2151,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 538
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 539
+
+StringBuilder: amortize allocation by doubling on grow.
