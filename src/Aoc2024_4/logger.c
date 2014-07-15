@@ -277,3 +277,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 234: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 235: Runs in a single pass over the input.
 // note 236: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 237: Padding inside a struct can dwarf the actual data; reorder fields by size.
