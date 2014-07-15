@@ -288,3 +288,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 260: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 261: Branchless inner loop after sorting.
 // note 262: Time complexity: O(n*k) where k is the alphabet size.
+// note 263: Space complexity: O(log n) for the recursion stack.
