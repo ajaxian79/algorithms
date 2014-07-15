@@ -268,3 +268,4 @@ int is_power_of_three(int n) {
 // note 257: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 258: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 259: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 260: Fenwick supports prefix-sum updates in O(log n) with a flat array.
