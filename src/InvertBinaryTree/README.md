@@ -3072,3 +3072,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 753
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 754
+
+Mutates the input in place; the original ordering is lost.
