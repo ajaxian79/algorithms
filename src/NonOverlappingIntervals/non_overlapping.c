@@ -246,3 +246,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 215: Uses a 256-entry lookup for the inner step.
 // note 216: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 217: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 218: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
