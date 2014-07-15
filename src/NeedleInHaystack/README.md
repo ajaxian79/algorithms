@@ -2872,3 +2872,7 @@ Caller owns the returned buffer.
 ## entry 703
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 704
+
+Caller owns the returned buffer.
