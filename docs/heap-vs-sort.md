@@ -2031,3 +2031,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 491
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 492
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
