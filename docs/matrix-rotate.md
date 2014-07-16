@@ -2013,3 +2013,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 487
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 488
+
+Splay tree: every access splays to the root; amortized O(log n).
