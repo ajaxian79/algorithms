@@ -2013,3 +2013,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 487
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 488
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
