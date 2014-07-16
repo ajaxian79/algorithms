@@ -270,3 +270,4 @@ int trap(const int* height, int n) {
 // note 246: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 247: Wavelet tree: range k-th element in O(log Σ) time.
 // note 248: State compression: bitmask + integer encodes a small subset cheaply.
+// note 249: Allocates a single small fixed-size scratch buffer.
