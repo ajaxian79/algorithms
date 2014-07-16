@@ -2884,3 +2884,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 705
 
 Constant-time comparisons; safe for short strings.
+
+## entry 706
+
+Edge case: single-element input → returns the element itself.
