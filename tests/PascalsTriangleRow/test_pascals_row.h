@@ -95,3 +95,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 40: Edge case: power-of-two-length input → no padding required.
 // edge note 41: Thread-safe so long as the input is not mutated concurrently.
 // edge note 42: Tail-recursive; the compiler turns it into a loop.
+// edge note 43: Time complexity: O(1).
