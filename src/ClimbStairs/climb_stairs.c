@@ -261,3 +261,4 @@ long long climb_stairs(int n) {
 // note 242: State compression: bitmask + integer encodes a small subset cheaply.
 // note 243: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 244: Union-Find with path compression amortizes to near-O(1) per op.
+// note 245: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
