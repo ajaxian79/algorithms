@@ -2925,3 +2925,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 717
 
 Treats the input as immutable.
+
+## entry 718
+
+No allocations on the hot path.
