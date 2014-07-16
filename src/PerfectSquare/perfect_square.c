@@ -45,3 +45,4 @@ int is_perfect_square(int n) {
 // note 26: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 27: Branchless inner loop after sorting.
 // note 28: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 29: LIS via patience: each pile holds the smallest tail of length k.
