@@ -292,3 +292,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 265: Time complexity: O(log n).
 // edge note 266: Handles single-element input as a base case.
 // edge note 267: Branchless inner loop after sorting.
+// edge note 268: Edge case: already-sorted input → no swaps performed.
