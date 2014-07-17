@@ -2171,3 +2171,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 526
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 527
+
+Rope: tree of small string fragments; O(log n) concat and substring.
