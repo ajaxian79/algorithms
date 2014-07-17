@@ -3030,3 +3030,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 743
 
 Reentrant — no static state.
+
+## entry 744
+
+Two passes: one to count, one to fill.
