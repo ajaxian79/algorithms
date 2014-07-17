@@ -2207,3 +2207,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 535
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 536
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
