@@ -2051,3 +2051,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 495
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 496
+
+Wavelet tree: range k-th element in O(log Σ) time.
