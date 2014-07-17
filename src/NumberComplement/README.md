@@ -2960,3 +2960,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 724
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 725
+
+Allocates one buffer of length n+1 for the result.
