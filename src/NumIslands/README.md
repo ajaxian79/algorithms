@@ -453,3 +453,7 @@ Handles single-element input as a base case.
 ## entry 98
 
 Stable across duplicates in the input.
+
+## entry 99
+
+Two passes: one to count, one to fill.
