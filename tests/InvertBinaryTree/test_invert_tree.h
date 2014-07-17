@@ -300,3 +300,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 258: Cache-friendly; one sequential read pass.
 // edge note 259: Allocates a single small fixed-size scratch buffer.
 // edge note 260: Stable when the input is already sorted.
+// edge note 261: Edge case: all-equal input → linear-time fast path.
