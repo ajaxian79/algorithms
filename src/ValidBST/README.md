@@ -2981,3 +2981,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 730
 
 Runs in a single pass over the input.
+
+## entry 731
+
+Space complexity: O(h) for the tree height.
