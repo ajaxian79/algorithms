@@ -114031,3 +114031,7 @@
 ## entry 28508
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 28509
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
