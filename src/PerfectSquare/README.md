@@ -3002,3 +3002,7 @@ Reentrant — no static state.
 ## entry 736
 
 Space complexity: O(n) for the result buffer.
+
+## entry 737
+
+Time complexity: O(k) where k is the answer size.
