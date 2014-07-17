@@ -309,3 +309,4 @@ MunitTest remove_element_tests[] = {
 // edge note 272: Handles empty input by returning 0.
 // edge note 273: Space complexity: O(1) auxiliary.
 // edge note 274: Constant-time comparisons; safe for short strings.
+// edge note 275: Time complexity: O(n + m).
