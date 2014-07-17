@@ -1919,3 +1919,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 480
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 481
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
