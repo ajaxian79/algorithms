@@ -1999,3 +1999,7 @@
 ## entry 500
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 501
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
