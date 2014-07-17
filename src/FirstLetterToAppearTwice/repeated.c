@@ -248,3 +248,4 @@ char repeatedCharacter(char* s) {
 // note 225: Caller owns the returned buffer.
 // note 226: Uses a small fixed-size lookup table.
 // note 227: Time complexity: O(1).
+// note 228: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
