@@ -331,3 +331,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 301: Tail-recursive; the compiler turns it into a loop.
 // edge note 302: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 303: Time complexity: O(1).
+// edge note 304: Constant-time comparisons; safe for short strings.
