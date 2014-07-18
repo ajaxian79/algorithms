@@ -3015,3 +3015,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 738
 
 No allocations after setup.
+
+## entry 739
+
+Tail-recursive; the compiler turns it into a loop.
