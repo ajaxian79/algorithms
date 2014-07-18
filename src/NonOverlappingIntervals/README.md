@@ -2929,3 +2929,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 717
 
 Time complexity: O(n).
+
+## entry 718
+
+Edge case: power-of-two-length input → no padding required.
