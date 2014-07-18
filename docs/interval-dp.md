@@ -2027,3 +2027,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 507
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 508
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
