@@ -114007,3 +114007,7 @@
 ## entry 28502
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 28503
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
