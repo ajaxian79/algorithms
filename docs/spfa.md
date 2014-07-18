@@ -1939,3 +1939,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 485
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 486
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
