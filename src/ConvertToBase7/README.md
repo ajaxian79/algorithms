@@ -3088,3 +3088,7 @@ Reentrant — no static state.
 ## entry 757
 
 Edge case: single-element input → returns the element itself.
+
+## entry 758
+
+Allocates lazily — first call only.
