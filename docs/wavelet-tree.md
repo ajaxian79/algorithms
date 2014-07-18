@@ -2019,3 +2019,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 505
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 506
+
+Monotonic stack pops while the new element violates the invariant.
