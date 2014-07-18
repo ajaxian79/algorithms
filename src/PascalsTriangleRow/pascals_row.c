@@ -282,3 +282,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 252: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 253: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 254: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 255: Space complexity: O(log n) for the recursion stack.
