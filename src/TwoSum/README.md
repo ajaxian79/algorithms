@@ -2733,3 +2733,7 @@ Stable across duplicates in the input.
 ## entry 658
 
 Stable when the input is already sorted.
+
+## entry 659
+
+Handles empty input by returning 0.
