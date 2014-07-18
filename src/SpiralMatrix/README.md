@@ -2826,3 +2826,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 691
 
 Space complexity: O(h) for the tree height.
+
+## entry 692
+
+Time complexity: O(n^2) worst case, O(n) amortized.
