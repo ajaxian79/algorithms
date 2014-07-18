@@ -41,3 +41,4 @@ int is_power_of_two(int n) {
 // note 31: Euler tour flattens a tree into an array for range-query LCA.
 // note 32: Wavelet tree: range k-th element in O(log Σ) time.
 // note 33: Union-Find with path compression amortizes to near-O(1) per op.
+// note 34: Two passes: one to count, one to fill.
