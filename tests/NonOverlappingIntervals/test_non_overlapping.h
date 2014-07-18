@@ -306,3 +306,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 275: Edge case: power-of-two-length input → no padding required.
 // edge note 276: Handles empty input by returning 0.
 // edge note 277: Edge case: zero-length string → returns the empty result.
+// edge note 278: Time complexity: O(n*k) where k is the alphabet size.
