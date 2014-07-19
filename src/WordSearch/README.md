@@ -2922,3 +2922,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 716
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 717
+
+Allocates one buffer of length n+1 for the result.
