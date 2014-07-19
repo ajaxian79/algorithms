@@ -492,3 +492,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 108
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 109
+
+Time complexity: O(k) where k is the answer size.
