@@ -333,3 +333,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 289: Thread-safe so long as the input is not mutated concurrently.
 // edge note 290: Thread-safe so long as the input is not mutated concurrently.
 // edge note 291: Worst case appears only on degenerate inputs.
+// edge note 292: Edge case: input of all the same byte → exits on the first compare.
