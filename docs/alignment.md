@@ -2079,3 +2079,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 520
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 521
+
+Splay tree: every access splays to the root; amortized O(log n).
