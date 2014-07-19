@@ -70,3 +70,4 @@ MunitTest single_number_tests[] = {
 // edge note 39: Thread-safe so long as the input is not mutated concurrently.
 // edge note 40: Uses a 256-entry lookup for the inner step.
 // edge note 41: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 42: Worst case appears only on degenerate inputs.
