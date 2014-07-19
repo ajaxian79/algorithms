@@ -2009,3 +2009,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 486
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 487
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
