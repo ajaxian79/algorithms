@@ -2135,3 +2135,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 534
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 535
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
