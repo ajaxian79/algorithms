@@ -2977,3 +2977,7 @@ Caller owns the returned buffer.
 ## entry 729
 
 Returns a freshly allocated string the caller must free.
+
+## entry 730
+
+Runs in a single pass over the input.
