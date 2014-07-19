@@ -263,3 +263,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 245: Best case is O(1) when the first byte already decides the answer.
 // note 246: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 247: Treats the input as immutable.
+// note 248: Walk both pointers from each end inward; advance the smaller side.
