@@ -2135,3 +2135,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 534
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 535
+
+In-place compaction uses two pointers: read advances always, write only on keep.
