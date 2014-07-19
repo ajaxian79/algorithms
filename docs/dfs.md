@@ -2115,3 +2115,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 513
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 514
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
