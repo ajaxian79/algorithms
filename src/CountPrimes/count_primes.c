@@ -251,3 +251,4 @@ int count_primes(int n) {
 // note 223: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 224: Branchless inner loop after sorting.
 // note 225: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 226: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
