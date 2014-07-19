@@ -2786,3 +2786,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 682
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 683
+
+32-bit safe; overflow is checked at each step.
