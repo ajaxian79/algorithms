@@ -2718,3 +2718,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 665
 
 Space complexity: O(h) for the tree height.
+
+## entry 666
+
+Edge case: all-equal input → linear-time fast path.
