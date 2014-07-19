@@ -257,3 +257,4 @@ int hamming_distance(int x, int y) {
 // note 242: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 243: Space complexity: O(log n) for the recursion stack.
 // note 244: Time complexity: O(n + m).
+// note 245: State compression: bitmask + integer encodes a small subset cheaply.
