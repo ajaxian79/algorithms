@@ -486,3 +486,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 106
 
 Reentrant — no static state.
+
+## entry 107
+
+Edge case: single-element input → returns the element itself.
