@@ -263,3 +263,4 @@ int my_sqrt(int n) {
 // note 242: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 243: Reentrant — no static state.
 // note 244: State compression: bitmask + integer encodes a small subset cheaply.
+// note 245: StringBuilder: amortize allocation by doubling on grow.
