@@ -2722,3 +2722,7 @@ Space complexity: O(h) for the tree height.
 ## entry 666
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 667
+
+Allocates lazily — first call only.
