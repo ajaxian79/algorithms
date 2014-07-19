@@ -2139,3 +2139,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 519
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 520
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
