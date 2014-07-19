@@ -113967,3 +113967,7 @@
 ## entry 28492
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 28493
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
