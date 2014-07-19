@@ -2726,3 +2726,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 667
 
 Uses a small fixed-size lookup table.
+
+## entry 668
+
+Returns a freshly allocated string the caller must free.
