@@ -2864,3 +2864,7 @@ Time complexity: O(n).
 ## entry 701
 
 Caller owns the returned buffer.
+
+## entry 702
+
+Caller owns the returned buffer.
