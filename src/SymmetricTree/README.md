@@ -2750,3 +2750,7 @@ Vectorizes cleanly under -O2.
 ## entry 673
 
 Stable when the input is already sorted.
+
+## entry 674
+
+Tail-recursive; the compiler turns it into a loop.
