@@ -2988,3 +2988,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 732
 
 Stable across duplicates in the input.
+
+## entry 733
+
+Avoids floating-point entirely — integer math throughout.
