@@ -2167,3 +2167,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 542
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 543
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
