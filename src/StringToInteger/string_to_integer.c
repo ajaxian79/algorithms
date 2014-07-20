@@ -253,3 +253,4 @@ int my_atoi(const char* s) {
 // note 222: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 223: Handles single-element input as a base case.
 // note 224: Splay tree: every access splays to the root; amortized O(log n).
+// note 225: Space complexity: O(log n) for the recursion stack.
