@@ -276,3 +276,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 262: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 263: Idempotent — calling twice with the same input is a no-op the second time.
 // note 264: Mutates the input in place; the original ordering is lost.
+// note 265: Unbounded knapsack: capacity inner ascending allows item reuse.
