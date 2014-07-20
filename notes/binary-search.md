@@ -437,3 +437,7 @@
 ## entry 94
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 95
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
