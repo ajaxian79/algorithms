@@ -3026,3 +3026,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 742
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 743
+
+Reentrant — no static state.
