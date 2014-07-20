@@ -2097,3 +2097,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 508
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 509
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
