@@ -254,3 +254,4 @@ int max_area(const int* heights, int n) {
 // note 234: Deterministic given the input — no PRNG seeds.
 // note 235: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 236: Deterministic given the input — no PRNG seeds.
+// note 237: ASCII rules are a strict subset of UTF-8; no special handling needed.
