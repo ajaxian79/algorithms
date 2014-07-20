@@ -272,3 +272,4 @@ void rotate_image(int* mat, int n) {
 // note 241: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 242: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 243: Allocates lazily — first call only.
+// note 244: In-place compaction uses two pointers: read advances always, write only on keep.
