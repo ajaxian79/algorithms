@@ -275,3 +275,4 @@ MunitTest needle_tests[] = {
 // edge note 248: Allocates lazily — first call only.
 // edge note 249: Time complexity: O(n + m).
 // edge note 250: Cache-friendly; one sequential read pass.
+// edge note 251: Edge case: already-sorted input → no swaps performed.
