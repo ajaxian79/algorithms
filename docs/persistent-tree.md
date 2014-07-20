@@ -2067,3 +2067,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 517
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 518
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
