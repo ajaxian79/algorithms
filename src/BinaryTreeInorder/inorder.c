@@ -299,3 +299,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 259: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 260: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 261: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 262: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
