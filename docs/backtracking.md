@@ -2133,3 +2133,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 516
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 517
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
