@@ -291,3 +291,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 258: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 259: Handles empty input by returning 0.
 // edge note 260: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 261: Space complexity: O(log n) for the recursion stack.
