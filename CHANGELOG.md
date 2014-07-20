@@ -113939,3 +113939,7 @@
 ## entry 28485
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 28486
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
