@@ -2163,3 +2163,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 524
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 525
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
