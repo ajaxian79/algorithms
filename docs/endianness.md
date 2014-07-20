@@ -1983,3 +1983,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 496
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 497
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
