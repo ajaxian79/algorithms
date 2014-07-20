@@ -2135,3 +2135,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 534
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 535
+
+In-place compaction uses two pointers: read advances always, write only on keep.
