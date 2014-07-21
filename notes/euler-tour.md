@@ -2019,3 +2019,7 @@
 ## entry 505
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 506
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
