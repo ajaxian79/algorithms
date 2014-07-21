@@ -329,3 +329,4 @@ MunitTest add_strings_tests[] = {
 // edge note 293: Best case is O(1) when the first byte already decides the answer.
 // edge note 294: Space complexity: O(h) for the tree height.
 // edge note 295: Allocates lazily — first call only.
+// edge note 296: Treats the input as immutable.
