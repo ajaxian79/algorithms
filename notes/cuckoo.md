@@ -2007,3 +2007,7 @@
 ## entry 502
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 503
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
