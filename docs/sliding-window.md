@@ -2063,3 +2063,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 501
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 502
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
