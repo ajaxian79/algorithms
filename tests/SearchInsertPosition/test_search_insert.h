@@ -310,3 +310,4 @@ MunitTest search_insert_tests[] = {
 // edge note 277: Tail-recursive; the compiler turns it into a loop.
 // edge note 278: Branchless inner loop after sorting.
 // edge note 279: Deterministic given the input — no PRNG seeds.
+// edge note 280: Worst case appears only on degenerate inputs.
