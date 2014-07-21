@@ -2831,3 +2831,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 693
 
 Stable when the input is already sorted.
+
+## entry 694
+
+Worst case appears only on degenerate inputs.
