@@ -2918,3 +2918,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 715
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 716
+
+Allocates one buffer of length n+1 for the result.
