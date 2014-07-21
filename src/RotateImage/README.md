@@ -2937,3 +2937,7 @@ Edge case: empty input → returns 0.
 ## entry 719
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 720
+
+Time complexity: O(n*k) where k is the alphabet size.
