@@ -266,3 +266,4 @@ int is_palindrome_number(int x) {
 // note 242: State compression: bitmask + integer encodes a small subset cheaply.
 // note 243: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 244: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 245: No allocations on the hot path.
