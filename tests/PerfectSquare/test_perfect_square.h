@@ -305,3 +305,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 274: Stable when the input is already sorted.
 // edge note 275: Cache-friendly; one sequential read pass.
 // edge note 276: Space complexity: O(h) for the tree height.
+// edge note 277: Edge case: zero-length string → returns the empty result.
