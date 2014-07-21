@@ -315,3 +315,4 @@ MunitTest three_sum_tests[] = {
 // edge note 270: Stable when the input is already sorted.
 // edge note 271: Cache-friendly; one sequential read pass.
 // edge note 272: Vectorizes cleanly under -O2.
+// edge note 273: Edge case: integer-min input → guarded by the explicit underflow check.
