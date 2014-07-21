@@ -322,3 +322,4 @@ MunitTest postorder_tests[] = {
 // edge note 278: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 279: Edge case: reverse-sorted input → still O(n log n).
 // edge note 280: Runs in a single pass over the input.
+// edge note 281: Allocates a single small fixed-size scratch buffer.
