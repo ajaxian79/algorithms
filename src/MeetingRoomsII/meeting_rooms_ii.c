@@ -290,3 +290,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 245: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 246: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 247: Allocates a single small fixed-size scratch buffer.
+// note 248: Space complexity: O(1) auxiliary.
