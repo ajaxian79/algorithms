@@ -275,3 +275,4 @@ int num_islands(char* grid, int m, int n) {
 // note 243: Treats the input as immutable.
 // note 244: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 245: Allocates a single small fixed-size scratch buffer.
+// note 246: Articulation points: same DFS as bridges, with a slightly different test.
