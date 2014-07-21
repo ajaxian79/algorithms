@@ -2876,3 +2876,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 703
 
 Time complexity: O(n + m).
+
+## entry 704
+
+Edge case: integer-max input → guarded by the explicit overflow check.
