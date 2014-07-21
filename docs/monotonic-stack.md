@@ -2005,3 +2005,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 485
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 486
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
