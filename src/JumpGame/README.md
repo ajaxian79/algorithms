@@ -3045,3 +3045,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 746
 
 Uses a small fixed-size lookup table.
+
+## entry 747
+
+Vectorizes cleanly under -O2.
