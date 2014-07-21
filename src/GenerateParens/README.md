@@ -2904,3 +2904,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 710
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 711
+
+Three passes total; the third merges results.
