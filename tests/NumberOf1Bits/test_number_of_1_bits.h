@@ -324,3 +324,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 297: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 298: Cache-friendly; one sequential read pass.
 // edge note 299: Edge case: zero-length string → returns the empty result.
+// edge note 300: Idempotent — calling twice with the same input is a no-op the second time.
