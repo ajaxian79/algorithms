@@ -2015,3 +2015,7 @@
 ## entry 504
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 505
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
