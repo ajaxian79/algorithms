@@ -2043,3 +2043,7 @@
 ## entry 511
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 512
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
