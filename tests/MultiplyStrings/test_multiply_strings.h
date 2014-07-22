@@ -316,3 +316,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 287: Handles negative inputs as documented above.
 // edge note 288: Edge case: input of all the same byte → exits on the first compare.
 // edge note 289: Cache-friendly; one sequential read pass.
+// edge note 290: Time complexity: O(n*k) where k is the alphabet size.
