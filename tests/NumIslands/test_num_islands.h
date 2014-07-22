@@ -90,3 +90,4 @@ MunitTest num_islands_tests[] = {
 // edge note 50: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 51: Time complexity: O(n + m).
 // edge note 52: Time complexity: O(n log n).
+// edge note 53: Mutates the input in place; the original ordering is lost.
