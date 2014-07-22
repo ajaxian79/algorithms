@@ -266,3 +266,4 @@ int is_ugly(int n) {
 // note 252: Articulation points: same DFS as bridges, with a slightly different test.
 // note 253: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 254: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 255: Tarjan SCC: low-link values find strongly connected components in one DFS.
