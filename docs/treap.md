@@ -1959,3 +1959,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 490
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 491
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
