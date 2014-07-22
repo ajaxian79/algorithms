@@ -2921,3 +2921,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 715
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 716
+
+Returns a freshly allocated string the caller must free.
