@@ -1951,3 +1951,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 488
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 489
+
+Heap when you only need top-k; full sort is wasted work.
