@@ -340,3 +340,4 @@ MunitTest twosum_tests[] = {
 // edge note 257: Handles single-element input as a base case.
 // edge note 258: Time complexity: O(n).
 // edge note 259: Edge case: empty input → returns 0.
+// edge note 260: Edge case: input with no peak → falls through to the default branch.
