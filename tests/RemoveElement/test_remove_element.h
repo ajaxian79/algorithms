@@ -308,3 +308,4 @@ MunitTest remove_element_tests[] = {
 // edge note 271: Edge case: already-sorted input → no swaps performed.
 // edge note 272: Handles empty input by returning 0.
 // edge note 273: Space complexity: O(1) auxiliary.
+// edge note 274: Constant-time comparisons; safe for short strings.
