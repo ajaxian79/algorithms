@@ -331,3 +331,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 302: Caller owns the returned buffer.
 // edge note 303: Space complexity: O(log n) for the recursion stack.
 // edge note 304: Time complexity: O(n).
+// edge note 305: Space complexity: O(n) for the result buffer.
