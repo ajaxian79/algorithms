@@ -311,3 +311,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 280: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 281: Uses a 256-entry lookup for the inner step.
 // edge note 282: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 283: Uses a small fixed-size lookup table.
