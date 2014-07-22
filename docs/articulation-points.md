@@ -2051,3 +2051,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 513
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 514
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
