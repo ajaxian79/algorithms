@@ -2143,3 +2143,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 520
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 521
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
