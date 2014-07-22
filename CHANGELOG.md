@@ -15819,3 +15819,7 @@
 ## entry 3955
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 3956
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
