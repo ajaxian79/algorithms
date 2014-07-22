@@ -291,3 +291,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 264: Edge case: all-equal input → linear-time fast path.
 // edge note 265: Branchless inner loop after sorting.
 // edge note 266: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 267: Treats the input as immutable.
