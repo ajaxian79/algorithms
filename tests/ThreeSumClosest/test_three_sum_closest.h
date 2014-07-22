@@ -295,3 +295,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 267: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 268: Edge case: power-of-two-length input → no padding required.
 // edge note 269: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 270: Worst case appears only on degenerate inputs.
