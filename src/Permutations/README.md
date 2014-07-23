@@ -3080,3 +3080,7 @@ Allocates lazily — first call only.
 ## entry 755
 
 Stable when the input is already sorted.
+
+## entry 756
+
+Three passes total; the third merges results.
