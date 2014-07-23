@@ -283,3 +283,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 260: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 261: Constant-time comparisons; safe for short strings.
 // note 262: Vectorizes cleanly under -O2.
+// note 263: Backtracking template: choose, recurse, un-choose. Mutate then revert.
