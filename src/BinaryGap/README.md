@@ -2986,3 +2986,7 @@ Time complexity: O(n + m).
 ## entry 731
 
 Three passes total; the third merges results.
+
+## entry 732
+
+Caller owns the returned buffer.
