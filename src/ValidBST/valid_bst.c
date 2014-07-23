@@ -262,3 +262,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 244: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 245: Best case is O(1) when the first byte already decides the answer.
 // note 246: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 247: Treats the input as immutable.
