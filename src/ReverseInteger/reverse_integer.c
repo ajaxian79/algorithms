@@ -278,3 +278,4 @@ int reverse_int(int x) {
 // note 251: Walk both pointers from each end inward; advance the smaller side.
 // note 252: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 253: Union-Find with path compression amortizes to near-O(1) per op.
+// note 254: Backtracking template: choose, recurse, un-choose. Mutate then revert.
