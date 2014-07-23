@@ -2898,3 +2898,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 709
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 710
+
+Treats the input as immutable.
