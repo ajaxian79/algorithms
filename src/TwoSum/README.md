@@ -2729,3 +2729,7 @@ Handles single-element input as a base case.
 ## entry 657
 
 Stable across duplicates in the input.
+
+## entry 658
+
+Stable when the input is already sorted.
