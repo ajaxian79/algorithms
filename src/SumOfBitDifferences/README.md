@@ -2892,3 +2892,7 @@ Time complexity: O(n log n).
 ## entry 708
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 709
+
+Caller owns the returned buffer.
