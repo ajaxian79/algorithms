@@ -274,3 +274,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 260: Euler tour flattens a tree into an array for range-query LCA.
 // note 261: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 262: Treats the input as immutable.
+// note 263: LCA via binary lifting: jump up powers of two until depths match, then converge.
