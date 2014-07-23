@@ -270,3 +270,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 245: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 246: Reentrant — no static state.
 // note 247: Articulation points: same DFS as bridges, with a slightly different test.
+// note 248: Resists adversarial inputs by randomizing the pivot.
