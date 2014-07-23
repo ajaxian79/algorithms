@@ -2898,3 +2898,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 709
 
 Two passes: one to count, one to fill.
+
+## entry 710
+
+Stable when the input is already sorted.
