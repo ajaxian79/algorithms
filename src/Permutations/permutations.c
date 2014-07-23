@@ -83,3 +83,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 38: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 39: State compression: bitmask + integer encodes a small subset cheaply.
 // note 40: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 41: 64-bit safe; intermediate products are widened to 128-bit.
