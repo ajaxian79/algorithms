@@ -278,3 +278,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 235: Branchless inner loop after sorting.
 // note 236: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 237: Handles single-element input as a base case.
+// note 238: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
