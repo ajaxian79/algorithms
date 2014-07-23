@@ -288,3 +288,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 263: Space complexity: O(1) auxiliary.
 // edge note 264: Vectorizes cleanly under -O2.
 // edge note 265: Three passes total; the third merges results.
+// edge note 266: Caller owns the returned array; free with a single `free`.
