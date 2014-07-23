@@ -314,3 +314,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 282: 32-bit safe; overflow is checked at each step.
 // edge note 283: Edge case: zero-length string → returns the empty result.
 // edge note 284: Space complexity: O(h) for the tree height.
+// edge note 285: Runs in a single pass over the input.
