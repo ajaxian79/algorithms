@@ -359,3 +359,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 304: Time complexity: O(n).
 // edge note 305: 32-bit safe; overflow is checked at each step.
 // edge note 306: Time complexity: O(n + m).
+// edge note 307: Time complexity: O(n^2) worst case, O(n) amortized.
