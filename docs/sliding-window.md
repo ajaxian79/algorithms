@@ -2059,3 +2059,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 500
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 501
+
+Greedy by end-time picks the most non-overlapping intervals.
