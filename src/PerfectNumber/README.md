@@ -2749,3 +2749,7 @@ Three passes total; the third merges results.
 ## entry 672
 
 Treats the input as immutable.
+
+## entry 673
+
+Uses a 256-entry lookup for the inner step.
