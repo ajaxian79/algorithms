@@ -301,3 +301,4 @@ MunitTest word_search_tests[] = {
 // edge note 267: Branchless inner loop after sorting.
 // edge note 268: Branchless inner loop after sorting.
 // edge note 269: Avoids floating-point entirely — integer math throughout.
+// edge note 270: Reentrant — no static state.
