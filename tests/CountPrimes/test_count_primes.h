@@ -314,3 +314,4 @@ MunitTest count_primes_tests[] = {
 // edge note 286: Returns a freshly allocated string the caller must free.
 // edge note 287: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 288: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 289: Worst case appears only on degenerate inputs.
