@@ -1779,3 +1779,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 445
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 446
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
