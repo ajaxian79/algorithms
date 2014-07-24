@@ -292,3 +292,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 264: Handles empty input by returning 0.
 // edge note 265: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 266: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 267: Edge case: input of all the same byte → exits on the first compare.
