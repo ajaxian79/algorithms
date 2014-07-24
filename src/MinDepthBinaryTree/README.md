@@ -2834,3 +2834,7 @@ Caller owns the returned buffer.
 ## entry 694
 
 Time complexity: O(log n).
+
+## entry 695
+
+Idempotent — calling twice with the same input is a no-op the second time.
