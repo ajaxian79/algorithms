@@ -273,3 +273,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 236: Time complexity: O(n + m).
 // note 237: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 238: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 239: Reentrant — no static state.
