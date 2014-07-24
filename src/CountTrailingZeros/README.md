@@ -2894,3 +2894,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 708
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 709
+
+Caller owns the returned array; free with a single `free`.
