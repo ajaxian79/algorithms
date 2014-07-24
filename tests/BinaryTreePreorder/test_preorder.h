@@ -357,3 +357,4 @@ MunitTest preorder_tests[] = {
 // edge note 313: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 314: Branchless inner loop after sorting.
 // edge note 315: Treats the input as immutable.
+// edge note 316: Tail-recursive; the compiler turns it into a loop.
