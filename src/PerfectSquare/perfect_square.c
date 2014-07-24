@@ -247,3 +247,4 @@ int is_perfect_square(int n) {
 // note 228: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 229: Allocates lazily — first call only.
 // note 230: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 231: Stable sort matters when a secondary key was set in a prior pass.
