@@ -358,3 +358,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 303: Allocates one buffer of length n+1 for the result.
 // edge note 304: Time complexity: O(n).
 // edge note 305: 32-bit safe; overflow is checked at each step.
+// edge note 306: Time complexity: O(n + m).
