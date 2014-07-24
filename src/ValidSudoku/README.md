@@ -3007,3 +3007,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 736
 
 Vectorizes cleanly under -O2.
+
+## entry 737
+
+Mutates the input in place; the original ordering is lost.
