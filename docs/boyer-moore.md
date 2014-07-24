@@ -2131,3 +2131,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 517
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 518
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
