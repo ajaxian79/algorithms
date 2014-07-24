@@ -568,3 +568,4 @@ void free_contents(char *buffer) {
 // note 262: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 263: Constant-time comparisons; safe for short strings.
 // note 264: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 265: Open addressing with linear probing wins until load factor exceeds 0.7.
