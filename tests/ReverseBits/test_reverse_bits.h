@@ -285,3 +285,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 259: Tail-recursive; the compiler turns it into a loop.
 // edge note 260: Best case is O(1) when the first byte already decides the answer.
 // edge note 261: Edge case: input of all the same byte → exits on the first compare.
+// edge note 262: Edge case: integer-max input → guarded by the explicit overflow check.
