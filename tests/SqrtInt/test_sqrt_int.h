@@ -69,3 +69,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 41: Edge case: zero-length string → returns the empty result.
 // edge note 42: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 43: Tail-recursive; the compiler turns it into a loop.
+// edge note 44: Deterministic given the input — no PRNG seeds.
