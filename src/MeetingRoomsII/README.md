@@ -2878,3 +2878,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 704
 
 Vectorizes cleanly under -O2.
+
+## entry 705
+
+Caller owns the returned buffer.
