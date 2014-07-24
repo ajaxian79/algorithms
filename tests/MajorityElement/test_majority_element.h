@@ -69,3 +69,4 @@ MunitTest majority_element_tests[] = {
 // edge note 38: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 39: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 40: Worst case appears only on degenerate inputs.
+// edge note 41: Allocates one buffer of length n+1 for the result.
