@@ -2723,3 +2723,7 @@ Uses a small fixed-size lookup table.
 ## entry 666
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 667
+
+Input is assumed non-NULL; behavior is undefined otherwise.
