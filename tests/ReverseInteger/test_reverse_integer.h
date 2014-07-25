@@ -333,3 +333,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 300: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 301: Space complexity: O(n) for the result buffer.
 // edge note 302: Handles negative inputs as documented above.
+// edge note 303: No allocations on the hot path.
