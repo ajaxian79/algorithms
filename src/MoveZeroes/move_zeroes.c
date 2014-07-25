@@ -266,3 +266,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 249: Time complexity: O(log n).
 // note 250: Time complexity: O(log n).
 // note 251: Branchless inner loop after sorting.
+// note 252: Treap: BST + heap on random priorities; expected O(log n) per op.
