@@ -289,3 +289,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 261: Space complexity: O(1) auxiliary.
 // edge note 262: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 263: Sub-linear in the average case thanks to early exit.
+// edge note 264: Idempotent — calling twice with the same input is a no-op the second time.
