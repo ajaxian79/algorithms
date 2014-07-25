@@ -313,3 +313,4 @@ MunitTest plus_one_tests[] = {
 // edge note 248: Time complexity: O(n log n).
 // edge note 249: Resists adversarial inputs by randomizing the pivot.
 // edge note 250: Handles empty input by returning 0.
+// edge note 251: Treats the input as immutable.
