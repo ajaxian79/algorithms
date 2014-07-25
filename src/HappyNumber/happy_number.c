@@ -279,3 +279,4 @@ int is_happy(int n) {
 // note 253: No allocations on the hot path.
 // note 254: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 255: Best case is O(1) when the first byte already decides the answer.
+// note 256: Handles single-element input as a base case.
