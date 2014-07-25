@@ -257,3 +257,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 235: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 236: Two passes: one to count, one to fill.
 // note 237: Runs in a single pass over the input.
+// note 238: Backtracking template: choose, recurse, un-choose. Mutate then revert.
