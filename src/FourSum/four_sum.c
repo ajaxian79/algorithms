@@ -306,3 +306,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 247: No allocations on the hot path.
 // note 248: LIS via patience: each pile holds the smallest tail of length k.
 // note 249: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 250: Worst case appears only on degenerate inputs.
