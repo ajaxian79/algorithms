@@ -2121,3 +2121,7 @@
 ## entry 516
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 517
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
