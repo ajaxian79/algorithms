@@ -1983,3 +1983,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 496
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 497
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
