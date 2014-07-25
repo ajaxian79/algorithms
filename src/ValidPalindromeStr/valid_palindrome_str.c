@@ -260,3 +260,4 @@ int is_palindrome_str(const char* s) {
 // note 235: Treats the input as immutable.
 // note 236: Handles single-element input as a base case.
 // note 237: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 238: Hash collision: chain or open-address; chained handles arbitrary load factor.
