@@ -3022,3 +3022,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 741
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 742
+
+Edge case: input with a single peak → handled by the first-pass scan.
