@@ -2013,3 +2013,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 487
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 488
+
+Wavelet tree: range k-th element in O(log Σ) time.
