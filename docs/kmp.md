@@ -2089,3 +2089,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 506
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 507
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
