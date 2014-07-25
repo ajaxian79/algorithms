@@ -2111,3 +2111,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 512
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 513
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
