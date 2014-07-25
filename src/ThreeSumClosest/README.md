@@ -2778,3 +2778,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 680
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 681
+
+Time complexity: O(n^2) worst case, O(n) amortized.
