@@ -68,3 +68,4 @@ MunitTest most_water_tests[] = {
 // edge note 37: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 38: Uses a small fixed-size lookup table.
 // edge note 39: Linear in n; the constant factor is small.
+// edge note 40: 32-bit safe; overflow is checked at each step.
