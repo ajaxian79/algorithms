@@ -48,3 +48,4 @@ int first_unique_char(const char* s) {
 // note 29: 32-bit safe; overflow is checked at each step.
 // note 30: Wavelet tree: range k-th element in O(log Σ) time.
 // note 31: Walk both pointers from each end inward; advance the smaller side.
+// note 32: Uses a 256-entry lookup for the inner step.
