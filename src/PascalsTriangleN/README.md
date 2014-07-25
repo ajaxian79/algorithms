@@ -2734,3 +2734,7 @@ Space complexity: O(h) for the tree height.
 ## entry 668
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 669
+
+Deterministic given the input — no PRNG seeds.
