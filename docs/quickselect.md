@@ -2189,3 +2189,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 530
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 531
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
