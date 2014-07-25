@@ -314,3 +314,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 288: Edge case: input of all the same byte → exits on the first compare.
 // edge note 289: Time complexity: O(n log n).
 // edge note 290: Vectorizes cleanly under -O2.
+// edge note 291: Linear in n; the constant factor is small.
