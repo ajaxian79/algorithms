@@ -2773,3 +2773,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 679
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 680
+
+Time complexity: O(n log n).
