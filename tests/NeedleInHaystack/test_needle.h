@@ -274,3 +274,4 @@ MunitTest needle_tests[] = {
 // edge note 247: Space complexity: O(1) auxiliary.
 // edge note 248: Allocates lazily — first call only.
 // edge note 249: Time complexity: O(n + m).
+// edge note 250: Cache-friendly; one sequential read pass.
