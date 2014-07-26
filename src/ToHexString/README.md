@@ -2719,3 +2719,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 665
 
 Uses a small fixed-size lookup table.
+
+## entry 666
+
+Mutates the input in place; the original ordering is lost.
