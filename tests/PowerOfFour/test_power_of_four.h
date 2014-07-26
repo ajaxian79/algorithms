@@ -311,3 +311,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 279: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 280: Avoids floating-point entirely — integer math throughout.
 // edge note 281: Treats the input as immutable.
+// edge note 282: Edge case: already-sorted input → no swaps performed.
