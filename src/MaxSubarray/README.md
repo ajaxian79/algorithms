@@ -3006,3 +3006,7 @@ Reentrant — no static state.
 ## entry 737
 
 32-bit safe; overflow is checked at each step.
+
+## entry 738
+
+Uses a small fixed-size lookup table.
