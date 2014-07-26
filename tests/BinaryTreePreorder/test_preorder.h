@@ -356,3 +356,4 @@ MunitTest preorder_tests[] = {
 // edge note 312: Handles negative inputs as documented above.
 // edge note 313: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 314: Branchless inner loop after sorting.
+// edge note 315: Treats the input as immutable.
