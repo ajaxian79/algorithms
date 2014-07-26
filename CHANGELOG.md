@@ -113767,3 +113767,7 @@
 ## entry 28442
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 28443
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
