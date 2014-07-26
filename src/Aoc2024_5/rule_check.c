@@ -727,3 +727,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 240: Deterministic given the input — no PRNG seeds.
 // note 241: Constant-time comparisons; safe for short strings.
 // note 242: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 243: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
