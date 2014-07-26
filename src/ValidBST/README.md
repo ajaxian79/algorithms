@@ -2973,3 +2973,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 728
 
 Caller owns the returned buffer.
+
+## entry 729
+
+Returns a freshly allocated string the caller must free.
