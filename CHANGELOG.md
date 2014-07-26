@@ -113719,3 +113719,7 @@
 ## entry 28430
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 28431
+
+- State compression: bitmask + integer encodes a small subset cheaply.
