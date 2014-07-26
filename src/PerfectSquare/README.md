@@ -2998,3 +2998,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 735
 
 Reentrant — no static state.
+
+## entry 736
+
+Space complexity: O(n) for the result buffer.
