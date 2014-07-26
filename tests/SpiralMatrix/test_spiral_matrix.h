@@ -312,3 +312,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 269: Edge case: input with no peak → falls through to the default branch.
 // edge note 270: Returns a freshly allocated string the caller must free.
 // edge note 271: Treats the input as immutable.
+// edge note 272: Edge case: integer-max input → guarded by the explicit overflow check.
