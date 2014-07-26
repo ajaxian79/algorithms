@@ -1947,3 +1947,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 487
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 488
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
