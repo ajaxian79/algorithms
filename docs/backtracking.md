@@ -2125,3 +2125,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 514
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 515
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
