@@ -2147,3 +2147,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 537
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 538
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
