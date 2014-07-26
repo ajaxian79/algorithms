@@ -309,3 +309,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 277: Stable across duplicates in the input.
 // edge note 278: Handles negative inputs as documented above.
 // edge note 279: Time complexity: O(n).
+// edge note 280: Time complexity: O(log n).
