@@ -2047,3 +2047,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 512
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 513
+
+Euler tour flattens a tree into an array for range-query LCA.
