@@ -3037,3 +3037,7 @@ Three passes total; the third merges results.
 ## entry 744
 
 Handles empty input by returning 0.
+
+## entry 745
+
+Edge case: power-of-two-length input → no padding required.
