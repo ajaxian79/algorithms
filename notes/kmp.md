@@ -2033,3 +2033,7 @@
 ## entry 492
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 493
+
+- StringBuilder: amortize allocation by doubling on grow.
