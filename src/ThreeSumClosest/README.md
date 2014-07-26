@@ -466,3 +466,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 102
 
 No allocations after setup.
+
+## entry 103
+
+Uses a small fixed-size lookup table.
