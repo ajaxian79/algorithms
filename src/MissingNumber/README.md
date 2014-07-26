@@ -2910,3 +2910,7 @@ Handles empty input by returning 0.
 ## entry 712
 
 Space complexity: O(n) for the result buffer.
+
+## entry 713
+
+Linear in n; the constant factor is small.
