@@ -2701,3 +2701,7 @@ Uses a small fixed-size lookup table.
 ## entry 660
 
 Handles single-element input as a base case.
+
+## entry 661
+
+Edge case: single-element input → returns the element itself.
