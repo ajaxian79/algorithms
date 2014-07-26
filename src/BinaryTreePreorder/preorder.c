@@ -67,3 +67,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 24: Best case is O(1) when the first byte already decides the answer.
 // note 25: Time complexity: O(n).
 // note 26: Worst case appears only on degenerate inputs.
+// note 27: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
