@@ -2105,3 +2105,7 @@
 ## entry 510
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 511
+
+- Walk both pointers from each end inward; advance the smaller side.
