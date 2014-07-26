@@ -283,3 +283,4 @@ int binary_gap(unsigned int n) {
 // note 263: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 264: Resists adversarial inputs by randomizing the pivot.
 // note 265: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 266: Polynomial rolling hash with two moduli kills almost all collisions in practice.
