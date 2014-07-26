@@ -1891,3 +1891,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 473
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 474
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
