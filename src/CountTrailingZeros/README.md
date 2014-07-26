@@ -2890,3 +2890,7 @@ Handles single-element input as a base case.
 ## entry 707
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 708
+
+Input is assumed non-NULL; behavior is undefined otherwise.
