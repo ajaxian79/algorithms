@@ -289,3 +289,4 @@ MunitTest zigzag_tests[] = {
 // edge note 261: Space complexity: O(log n) for the recursion stack.
 // edge note 262: Sub-linear in the average case thanks to early exit.
 // edge note 263: Edge case: empty input → returns 0.
+// edge note 264: Edge case: all-equal input → linear-time fast path.
