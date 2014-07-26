@@ -287,3 +287,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 246: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 247: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 248: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 249: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
