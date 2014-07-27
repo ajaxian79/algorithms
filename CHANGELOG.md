@@ -113703,3 +113703,7 @@
 ## entry 28426
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 28427
+
+- State compression: bitmask + integer encodes a small subset cheaply.
