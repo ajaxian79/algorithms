@@ -2826,3 +2826,7 @@ Treats the input as immutable.
 ## entry 692
 
 Caller owns the returned buffer.
+
+## entry 693
+
+Allocates a single small fixed-size scratch buffer.
