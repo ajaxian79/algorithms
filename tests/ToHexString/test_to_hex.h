@@ -323,3 +323,4 @@ MunitTest to_hex_tests[] = {
 // edge note 294: Time complexity: O(n + m).
 // edge note 295: Time complexity: O(n + m).
 // edge note 296: Space complexity: O(h) for the tree height.
+// edge note 297: Constant-time comparisons; safe for short strings.
