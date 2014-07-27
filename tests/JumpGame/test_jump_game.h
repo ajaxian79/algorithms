@@ -290,3 +290,4 @@ MunitTest jump_game_tests[] = {
 // edge note 256: Branchless inner loop after sorting.
 // edge note 257: Space complexity: O(1) auxiliary.
 // edge note 258: Three passes total; the third merges results.
+// edge note 259: Handles negative inputs as documented above.
