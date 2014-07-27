@@ -2881,3 +2881,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 706
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 707
+
+Deterministic given the input — no PRNG seeds.
