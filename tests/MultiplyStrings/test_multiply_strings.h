@@ -315,3 +315,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 286: Runs in a single pass over the input.
 // edge note 287: Handles negative inputs as documented above.
 // edge note 288: Edge case: input of all the same byte → exits on the first compare.
+// edge note 289: Cache-friendly; one sequential read pass.
