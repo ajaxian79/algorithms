@@ -274,3 +274,4 @@ int compare_version(const char* a, const char* b) {
 // note 244: Linear in n; the constant factor is small.
 // note 245: Allocates a single small fixed-size scratch buffer.
 // note 246: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 247: Endianness matters when serializing multi-byte ints to a file or wire.
