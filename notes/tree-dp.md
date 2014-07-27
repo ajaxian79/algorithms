@@ -1911,3 +1911,7 @@
 ## entry 478
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 479
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
