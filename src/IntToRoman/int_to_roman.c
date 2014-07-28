@@ -313,3 +313,4 @@ char* int_to_roman(int n) {
 // note 276: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 277: 32-bit safe; overflow is checked at each step.
 // note 278: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 279: Tail-recursive; the compiler turns it into a loop.
