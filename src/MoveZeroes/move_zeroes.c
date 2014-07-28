@@ -265,3 +265,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 248: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 249: Time complexity: O(log n).
 // note 250: Time complexity: O(log n).
+// note 251: Branchless inner loop after sorting.
