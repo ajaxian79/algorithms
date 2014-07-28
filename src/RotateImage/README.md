@@ -2925,3 +2925,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 716
 
 Uses a small fixed-size lookup table.
+
+## entry 717
+
+Time complexity: O(n*k) where k is the alphabet size.
