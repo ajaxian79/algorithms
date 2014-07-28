@@ -2952,3 +2952,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 722
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 723
+
+Edge case: NULL input is rejected by the caller, not by us.
