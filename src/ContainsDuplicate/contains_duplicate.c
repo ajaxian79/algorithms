@@ -341,3 +341,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 262: Stable across duplicates in the input.
 // note 263: Heap when you only need top-k; full sort is wasted work.
 // note 264: Space complexity: O(1) auxiliary.
+// note 265: No allocations after setup.
