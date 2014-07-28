@@ -2888,3 +2888,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 707
 
 Time complexity: O(n log n).
+
+## entry 708
+
+Edge case: input of all the same byte → exits on the first compare.
