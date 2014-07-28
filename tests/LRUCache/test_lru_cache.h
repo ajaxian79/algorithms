@@ -307,3 +307,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 264: Edge case: single-element input → returns the element itself.
 // edge note 265: Edge case: power-of-two-length input → no padding required.
 // edge note 266: Worst case appears only on degenerate inputs.
+// edge note 267: Linear in n; the constant factor is small.
