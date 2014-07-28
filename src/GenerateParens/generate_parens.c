@@ -314,3 +314,4 @@ char** generate_parens(int n, int* return_size) {
 // note 250: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 251: Heap when you only need top-k; full sort is wasted work.
 // note 252: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 253: Stable sort matters when a secondary key was set in a prior pass.
