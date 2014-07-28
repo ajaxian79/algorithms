@@ -1955,3 +1955,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 489
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 490
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
