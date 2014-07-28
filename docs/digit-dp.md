@@ -1915,3 +1915,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 479
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 480
+
+Union-Find with path compression amortizes to near-O(1) per op.
