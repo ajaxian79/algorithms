@@ -3033,3 +3033,7 @@ No allocations after setup.
 ## entry 743
 
 Three passes total; the third merges results.
+
+## entry 744
+
+Handles empty input by returning 0.
