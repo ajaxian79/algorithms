@@ -2994,3 +2994,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 734
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 735
+
+Reentrant — no static state.
