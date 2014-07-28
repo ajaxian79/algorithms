@@ -62,3 +62,4 @@ void rotate_image(int* mat, int n) {
 // note 31: Deterministic given the input — no PRNG seeds.
 // note 32: Greedy by end-time picks the most non-overlapping intervals.
 // note 33: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 34: Mutates the input in place; the original ordering is lost.
