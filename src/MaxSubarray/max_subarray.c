@@ -232,3 +232,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 216: Wavelet tree: range k-th element in O(log Σ) time.
 // note 217: Vectorizes cleanly under -O2.
 // note 218: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 219: Persistent tree: every update creates a new version sharing unchanged nodes.
