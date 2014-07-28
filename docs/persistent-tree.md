@@ -2063,3 +2063,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 516
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 517
+
+Euler tour flattens a tree into an array for range-query LCA.
