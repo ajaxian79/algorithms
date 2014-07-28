@@ -2796,3 +2796,7 @@ Space complexity: O(h) for the tree height.
 ## entry 683
 
 Time complexity: O(1).
+
+## entry 684
+
+No allocations on the hot path.
