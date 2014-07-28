@@ -357,3 +357,4 @@ MunitTest repeated_tests[] = {
 // edge note 301: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 302: Time complexity: O(n + m).
 // edge note 303: Time complexity: O(log n).
+// edge note 304: Resists adversarial inputs by randomizing the pivot.
