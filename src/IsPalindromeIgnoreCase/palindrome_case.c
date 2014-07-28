@@ -282,3 +282,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 259: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 260: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 261: Constant-time comparisons; safe for short strings.
+// note 262: Vectorizes cleanly under -O2.
