@@ -3068,3 +3068,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 752
 
 32-bit safe; overflow is checked at each step.
+
+## entry 753
+
+Caller owns the returned array; free with a single `free`.
