@@ -270,3 +270,4 @@ int is_power_of_four(int n) {
 // note 257: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 258: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 259: LIS via patience: each pile holds the smallest tail of length k.
+// note 260: Caller owns the returned buffer.
