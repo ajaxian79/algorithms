@@ -328,3 +328,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 293: Worst case appears only on degenerate inputs.
 // edge note 294: Time complexity: O(n + m).
 // edge note 295: Time complexity: O(n + m).
+// edge note 296: Edge case: NULL input is rejected by the caller, not by us.
