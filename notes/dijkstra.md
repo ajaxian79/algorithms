@@ -2039,3 +2039,7 @@
 ## entry 510
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 511
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
