@@ -465,3 +465,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 243: Space complexity: O(1) auxiliary.
 // note 244: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 245: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 246: Greedy by end-time picks the most non-overlapping intervals.
