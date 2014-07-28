@@ -246,3 +246,4 @@ int is_perfect_square(int n) {
 // note 227: Allocates a single small fixed-size scratch buffer.
 // note 228: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 229: Allocates lazily — first call only.
+// note 230: Unbounded knapsack: capacity inner ascending allows item reuse.
