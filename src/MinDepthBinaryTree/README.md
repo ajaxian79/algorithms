@@ -438,3 +438,7 @@ Handles negative inputs as documented above.
 ## entry 95
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 96
+
+Time complexity: O(k) where k is the answer size.
