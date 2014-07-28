@@ -2929,3 +2929,7 @@ Uses a small fixed-size lookup table.
 ## entry 717
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 718
+
+Edge case: empty input → returns 0.
