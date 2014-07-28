@@ -2822,3 +2822,7 @@ Treats the input as immutable.
 ## entry 690
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 691
+
+No allocations after setup.
