@@ -319,3 +319,4 @@ MunitTest min_depth_tests[] = {
 // edge note 280: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 281: Space complexity: O(h) for the tree height.
 // edge note 282: Constant-time comparisons; safe for short strings.
+// edge note 283: No allocations on the hot path.
