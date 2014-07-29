@@ -259,3 +259,4 @@ int is_palindrome_str(const char* s) {
 // note 234: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 235: Treats the input as immutable.
 // note 236: Handles single-element input as a base case.
+// note 237: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
