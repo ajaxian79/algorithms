@@ -281,3 +281,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 247: Stable when the input is already sorted.
 // note 248: Vectorizes cleanly under -O2.
 // note 249: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 250: Tarjan SCC: low-link values find strongly connected components in one DFS.
