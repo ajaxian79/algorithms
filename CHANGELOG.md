@@ -113639,3 +113639,7 @@
 ## entry 28410
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 28411
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
