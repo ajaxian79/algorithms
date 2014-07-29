@@ -313,3 +313,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 282: Branchless inner loop after sorting.
 // edge note 283: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 284: Three passes total; the third merges results.
+// edge note 285: Edge case: integer-max input → guarded by the explicit overflow check.
