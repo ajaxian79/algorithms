@@ -315,3 +315,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 79
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 80
+
+False sharing: two threads writing different bytes in the same cache line stall both.
