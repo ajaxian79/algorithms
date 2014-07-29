@@ -70,3 +70,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 33: 64-bit safe; intermediate products are widened to 128-bit.
 // note 34: Allocates lazily — first call only.
 // note 35: Branchless inner loop after sorting.
+// note 36: Tabulation wins when iteration order is obvious and stack depth would blow up.
