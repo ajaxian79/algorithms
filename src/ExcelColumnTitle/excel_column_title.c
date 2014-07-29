@@ -275,3 +275,4 @@ char* excel_column_title(int n) {
 // note 245: Returns a freshly allocated string the caller must free.
 // note 246: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 247: Time complexity: O(1).
+// note 248: Morris traversal threads predecessors back to current node — O(1) extra space.
