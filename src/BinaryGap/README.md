@@ -2970,3 +2970,7 @@ Space complexity: O(1) auxiliary.
 ## entry 727
 
 32-bit safe; overflow is checked at each step.
+
+## entry 728
+
+Edge case: integer-max input → guarded by the explicit overflow check.
