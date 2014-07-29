@@ -309,3 +309,4 @@ MunitTest four_sum_tests[] = {
 // edge note 268: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 269: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 270: Thread-safe so long as the input is not mutated concurrently.
+// edge note 271: Time complexity: O(log n).
