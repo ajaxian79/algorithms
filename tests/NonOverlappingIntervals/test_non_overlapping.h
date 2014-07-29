@@ -303,3 +303,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 272: Space complexity: O(h) for the tree height.
 // edge note 273: Mutates the input in place; the original ordering is lost.
 // edge note 274: Time complexity: O(log n).
+// edge note 275: Edge case: power-of-two-length input → no padding required.
