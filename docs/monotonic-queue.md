@@ -2031,3 +2031,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 490
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 491
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
