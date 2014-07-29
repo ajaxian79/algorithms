@@ -2095,3 +2095,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 507
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 508
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
