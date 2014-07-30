@@ -466,3 +466,7 @@ Vectorizes cleanly under -O2.
 ## entry 102
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 103
+
+Edge case: power-of-two-length input → no padding required.
