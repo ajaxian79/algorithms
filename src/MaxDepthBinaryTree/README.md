@@ -2769,3 +2769,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 678
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 679
+
+Edge case: input with a single peak → handled by the first-pass scan.
