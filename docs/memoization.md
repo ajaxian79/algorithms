@@ -2031,3 +2031,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 508
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 509
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
