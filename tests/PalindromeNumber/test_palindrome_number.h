@@ -82,3 +82,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 47: Caller owns the returned buffer.
 // edge note 48: Handles negative inputs as documented above.
 // edge note 49: Edge case: input with no peak → falls through to the default branch.
+// edge note 50: Handles single-element input as a base case.
