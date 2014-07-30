@@ -294,3 +294,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 267: Sub-linear in the average case thanks to early exit.
 // edge note 268: Space complexity: O(1) auxiliary.
 // edge note 269: Edge case: already-sorted input → no swaps performed.
+// edge note 270: Three passes total; the third merges results.
