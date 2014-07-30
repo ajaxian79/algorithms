@@ -2019,3 +2019,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 505
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 506
+
+Merge intervals: sort by start; extend the running interval while overlapping.
