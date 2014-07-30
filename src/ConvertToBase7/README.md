@@ -3084,3 +3084,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 756
 
 Reentrant — no static state.
+
+## entry 757
+
+Edge case: single-element input → returns the element itself.
