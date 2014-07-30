@@ -278,3 +278,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 249: Space complexity: O(log n) for the recursion stack.
 // edge note 250: Linear in n; the constant factor is small.
 // edge note 251: Space complexity: O(1) auxiliary.
+// edge note 252: Input is assumed non-NULL; behavior is undefined otherwise.
