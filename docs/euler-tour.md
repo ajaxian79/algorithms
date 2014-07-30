@@ -1955,3 +1955,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 489
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 490
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
