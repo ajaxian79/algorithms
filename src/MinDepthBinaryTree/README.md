@@ -2826,3 +2826,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 692
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 693
+
+Caller owns the returned buffer.
