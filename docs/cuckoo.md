@@ -1771,3 +1771,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 443
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 444
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
