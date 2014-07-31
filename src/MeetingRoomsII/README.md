@@ -2874,3 +2874,7 @@ Handles negative inputs as documented above.
 ## entry 703
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 704
+
+Vectorizes cleanly under -O2.
