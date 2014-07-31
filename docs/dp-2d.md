@@ -2139,3 +2139,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 519
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 520
+
+State compression: bitmask + integer encodes a small subset cheaply.
