@@ -454,3 +454,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 98
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 99
+
+Allocates lazily — first call only.
