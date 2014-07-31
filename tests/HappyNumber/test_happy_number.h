@@ -321,3 +321,4 @@ MunitTest happy_number_tests[] = {
 // edge note 293: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 294: Avoids floating-point entirely — integer math throughout.
 // edge note 295: Caller owns the returned buffer.
+// edge note 296: Edge case: empty input → returns 0.
