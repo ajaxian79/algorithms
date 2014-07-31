@@ -452,3 +452,7 @@ Handles empty input by returning 0.
 ## entry 98
 
 Treats the input as immutable.
+
+## entry 99
+
+64-bit safe; intermediate products are widened to 128-bit.
