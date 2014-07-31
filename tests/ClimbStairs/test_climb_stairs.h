@@ -307,3 +307,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 272: Runs in a single pass over the input.
 // edge note 273: Space complexity: O(h) for the tree height.
 // edge note 274: Reentrant — no static state.
+// edge note 275: Allocates lazily — first call only.
