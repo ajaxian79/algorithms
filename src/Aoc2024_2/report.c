@@ -438,3 +438,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 229: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 230: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 231: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 232: Resists adversarial inputs by randomizing the pivot.
