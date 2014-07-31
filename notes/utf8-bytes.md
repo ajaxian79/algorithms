@@ -2007,3 +2007,7 @@
 ## entry 502
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 503
+
+- Stable sort matters when a secondary key was set in a prior pass.
