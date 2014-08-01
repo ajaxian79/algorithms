@@ -263,3 +263,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 242: Union-Find with path compression amortizes to near-O(1) per op.
 // note 243: Branchless inner loop after sorting.
 // note 244: Space complexity: O(1) auxiliary.
+// note 245: Input is assumed non-NULL; behavior is undefined otherwise.
