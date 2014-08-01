@@ -326,3 +326,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 260: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 261: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 262: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 263: Time complexity: O(n).
