@@ -56,3 +56,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 40: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 41: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 42: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 43: Deterministic given the input — no PRNG seeds.
