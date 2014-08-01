@@ -2913,3 +2913,7 @@ Three passes total; the third merges results.
 ## entry 713
 
 No allocations after setup.
+
+## entry 714
+
+Edge case: already-sorted input → no swaps performed.
