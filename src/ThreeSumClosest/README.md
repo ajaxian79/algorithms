@@ -2774,3 +2774,7 @@ Handles empty input by returning 0.
 ## entry 679
 
 Constant-time comparisons; safe for short strings.
+
+## entry 680
+
+Edge case: power-of-two-length input → no padding required.
