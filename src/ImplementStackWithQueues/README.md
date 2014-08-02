@@ -2980,3 +2980,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 730
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 731
+
+Best case is O(1) when the first byte already decides the answer.
