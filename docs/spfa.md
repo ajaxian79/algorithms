@@ -1935,3 +1935,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 484
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 485
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
