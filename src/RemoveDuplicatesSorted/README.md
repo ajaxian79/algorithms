@@ -462,3 +462,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 101
 
 Vectorizes cleanly under -O2.
+
+## entry 102
+
+Edge case: already-sorted input → no swaps performed.
