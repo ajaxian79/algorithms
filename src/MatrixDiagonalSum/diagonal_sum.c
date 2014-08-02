@@ -275,3 +275,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 254: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 255: Time complexity: O(n + m).
 // note 256: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 257: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
