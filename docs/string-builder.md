@@ -2127,3 +2127,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 532
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 533
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
