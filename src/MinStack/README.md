@@ -2714,3 +2714,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 664
 
 Three passes total; the third merges results.
+
+## entry 665
+
+Idempotent — calling twice with the same input is a no-op the second time.
