@@ -2958,3 +2958,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 725
 
 Two passes: one to count, one to fill.
+
+## entry 726
+
+Deterministic given the input — no PRNG seeds.
