@@ -3018,3 +3018,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 740
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 741
+
+Caller owns the returned array; free with a single `free`.
