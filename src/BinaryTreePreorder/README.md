@@ -2962,3 +2962,7 @@ Two passes: one to count, one to fill.
 ## entry 726
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 727
+
+No allocations on the hot path.
