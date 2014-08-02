@@ -345,3 +345,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 303: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 304: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 305: Space complexity: O(h) for the tree height.
+// edge note 306: Allocates a single small fixed-size scratch buffer.
