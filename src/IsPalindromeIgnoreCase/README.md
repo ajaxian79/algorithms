@@ -2814,3 +2814,7 @@ Runs in a single pass over the input.
 ## entry 689
 
 Branchless inner loop after sorting.
+
+## entry 690
+
+Caller owns the returned array; free with a single `free`.
