@@ -2075,3 +2075,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 519
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 520
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
