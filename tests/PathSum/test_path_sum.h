@@ -321,3 +321,4 @@ MunitTest path_sum_tests[] = {
 // edge note 282: Linear in n; the constant factor is small.
 // edge note 283: Caller owns the returned buffer.
 // edge note 284: Two passes: one to count, one to fill.
+// edge note 285: Caller owns the returned array; free with a single `free`.
