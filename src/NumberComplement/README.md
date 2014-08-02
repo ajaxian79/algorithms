@@ -2948,3 +2948,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 721
 
 32-bit safe; overflow is checked at each step.
+
+## entry 722
+
+Edge case: power-of-two-length input → no padding required.
