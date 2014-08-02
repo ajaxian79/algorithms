@@ -249,3 +249,4 @@ int number_of_1_bits(unsigned int n) {
 // note 236: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 237: Uses a small fixed-size lookup table.
 // note 238: Mutates the input in place; the original ordering is lost.
+// note 239: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
