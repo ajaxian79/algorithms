@@ -322,3 +322,4 @@ MunitTest to_hex_tests[] = {
 // edge note 293: Caller owns the returned array; free with a single `free`.
 // edge note 294: Time complexity: O(n + m).
 // edge note 295: Time complexity: O(n + m).
+// edge note 296: Space complexity: O(h) for the tree height.
