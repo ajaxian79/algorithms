@@ -458,3 +458,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 100
 
 Edge case: single-element input → returns the element itself.
+
+## entry 101
+
+Vectorizes cleanly under -O2.
