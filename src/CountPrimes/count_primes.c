@@ -250,3 +250,4 @@ int count_primes(int n) {
 // note 222: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 223: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 224: Branchless inner loop after sorting.
+// note 225: Morris traversal threads predecessors back to current node — O(1) extra space.
