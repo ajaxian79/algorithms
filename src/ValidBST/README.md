@@ -2969,3 +2969,7 @@ Time complexity: O(n log n).
 ## entry 727
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 728
+
+Caller owns the returned buffer.
