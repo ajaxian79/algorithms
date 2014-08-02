@@ -2123,3 +2123,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 531
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 532
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
