@@ -2921,3 +2921,7 @@ Caller owns the returned buffer.
 ## entry 716
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 717
+
+Treats the input as immutable.
