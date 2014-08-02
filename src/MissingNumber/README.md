@@ -2906,3 +2906,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 711
 
 Handles empty input by returning 0.
+
+## entry 712
+
+Space complexity: O(n) for the result buffer.
