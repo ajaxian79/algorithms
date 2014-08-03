@@ -2037,3 +2037,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 492
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 493
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
