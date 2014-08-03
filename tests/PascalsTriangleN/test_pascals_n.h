@@ -340,3 +340,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 281: Runs in a single pass over the input.
 // edge note 282: Caller owns the returned array; free with a single `free`.
 // edge note 283: 32-bit safe; overflow is checked at each step.
+// edge note 284: Edge case: maximum-length input → still fits in 32-bit indices.
