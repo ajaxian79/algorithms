@@ -2846,3 +2846,7 @@ Time complexity: O(n + m).
 ## entry 697
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 698
+
+No allocations on the hot path.
