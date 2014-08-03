@@ -2822,3 +2822,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 691
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 692
+
+Space complexity: O(log n) for the recursion stack.
