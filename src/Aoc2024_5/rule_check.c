@@ -726,3 +726,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 239: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 240: Deterministic given the input — no PRNG seeds.
 // note 241: Constant-time comparisons; safe for short strings.
+// note 242: Tarjan SCC: low-link values find strongly connected components in one DFS.
