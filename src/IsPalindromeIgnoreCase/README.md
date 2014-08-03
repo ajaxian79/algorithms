@@ -2810,3 +2810,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 688
 
 Runs in a single pass over the input.
+
+## entry 689
+
+Branchless inner loop after sorting.
