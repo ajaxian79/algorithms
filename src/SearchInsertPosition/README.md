@@ -2822,3 +2822,7 @@ Handles empty input by returning 0.
 ## entry 691
 
 Treats the input as immutable.
+
+## entry 692
+
+Caller owns the returned buffer.
