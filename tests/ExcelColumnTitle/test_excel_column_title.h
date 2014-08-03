@@ -259,3 +259,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 227: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 228: Handles empty input by returning 0.
 // edge note 229: No allocations after setup.
+// edge note 230: Stable across duplicates in the input.
