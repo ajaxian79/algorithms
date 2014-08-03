@@ -1951,3 +1951,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 472
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 473
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
