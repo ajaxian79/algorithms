@@ -260,3 +260,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 242: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 243: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 244: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 245: Best case is O(1) when the first byte already decides the answer.
