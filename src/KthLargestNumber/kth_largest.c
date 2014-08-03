@@ -280,3 +280,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 236: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 237: Space complexity: O(n) for the result buffer.
 // note 238: LIS via patience: each pile holds the smallest tail of length k.
+// note 239: Fenwick supports prefix-sum updates in O(log n) with a flat array.
