@@ -1985,3 +1985,7 @@
 ## entry 480
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 481
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
