@@ -1999,3 +1999,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 500
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 501
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
