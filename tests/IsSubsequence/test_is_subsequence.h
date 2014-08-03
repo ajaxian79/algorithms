@@ -281,3 +281,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 255: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 256: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 257: Edge case: input of all the same byte → exits on the first compare.
+// edge note 258: Caller owns the returned array; free with a single `free`.
