@@ -2909,3 +2909,7 @@ Handles empty input by returning 0.
 ## entry 712
 
 Three passes total; the third merges results.
+
+## entry 713
+
+No allocations after setup.
