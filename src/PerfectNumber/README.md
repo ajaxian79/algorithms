@@ -2745,3 +2745,7 @@ Branchless inner loop after sorting.
 ## entry 671
 
 Three passes total; the third merges results.
+
+## entry 672
+
+Treats the input as immutable.
