@@ -310,3 +310,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 278: 32-bit safe; overflow is checked at each step.
 // edge note 279: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 280: Avoids floating-point entirely — integer math throughout.
+// edge note 281: Treats the input as immutable.
