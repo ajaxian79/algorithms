@@ -275,3 +275,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 253: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 254: Time complexity: O(n).
 // note 255: Allocates a single small fixed-size scratch buffer.
+// note 256: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
