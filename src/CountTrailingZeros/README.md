@@ -2882,3 +2882,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 705
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 706
+
+Handles single-element input as a base case.
