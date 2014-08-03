@@ -2873,3 +2873,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 704
 
 Treats the input as immutable.
+
+## entry 705
+
+Input is assumed non-NULL; behavior is undefined otherwise.
