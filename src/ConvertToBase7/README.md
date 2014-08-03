@@ -3080,3 +3080,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 755
 
 Returns a freshly allocated string the caller must free.
+
+## entry 756
+
+Reentrant — no static state.
