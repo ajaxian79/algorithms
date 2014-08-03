@@ -2093,3 +2093,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 505
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 506
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
