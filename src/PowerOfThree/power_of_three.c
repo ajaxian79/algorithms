@@ -266,3 +266,4 @@ int is_power_of_three(int n) {
 // note 255: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 256: Time complexity: O(n*k) where k is the alphabet size.
 // note 257: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 258: Merge intervals: sort by start; extend the running interval while overlapping.
