@@ -2035,3 +2035,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 509
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 510
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
