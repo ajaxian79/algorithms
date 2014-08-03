@@ -2770,3 +2770,7 @@ Handles single-element input as a base case.
 ## entry 678
 
 Handles empty input by returning 0.
+
+## entry 679
+
+Constant-time comparisons; safe for short strings.
