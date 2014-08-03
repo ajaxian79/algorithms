@@ -2135,3 +2135,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 516
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 517
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
