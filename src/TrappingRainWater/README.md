@@ -422,3 +422,7 @@ Edge case: empty input → returns 0.
 ## entry 90
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 91
+
+Time complexity: O(n*k) where k is the alphabet size.
