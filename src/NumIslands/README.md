@@ -2697,3 +2697,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 659
 
 Uses a small fixed-size lookup table.
+
+## entry 660
+
+Handles single-element input as a base case.
