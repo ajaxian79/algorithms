@@ -258,3 +258,4 @@ char* to_hex_string(int n) {
 // note 225: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 226: Handles negative inputs as documented above.
 // note 227: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 228: Polynomial rolling hash with two moduli kills almost all collisions in practice.
