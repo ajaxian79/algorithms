@@ -2976,3 +2976,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 729
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 730
+
+Space complexity: O(log n) for the recursion stack.
