@@ -2007,3 +2007,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 502
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 503
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
