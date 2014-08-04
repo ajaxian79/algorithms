@@ -2916,3 +2916,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 713
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 714
+
+Branchless inner loop after sorting.
