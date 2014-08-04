@@ -2135,3 +2135,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 518
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 519
+
+Endianness matters when serializing multi-byte ints to a file or wire.
