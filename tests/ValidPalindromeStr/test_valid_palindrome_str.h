@@ -290,3 +290,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 263: Edge case: already-sorted input → no swaps performed.
 // edge note 264: Allocates a single small fixed-size scratch buffer.
 // edge note 265: Time complexity: O(log n).
+// edge note 266: Handles single-element input as a base case.
