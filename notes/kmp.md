@@ -2021,3 +2021,7 @@
 ## entry 489
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 490
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
