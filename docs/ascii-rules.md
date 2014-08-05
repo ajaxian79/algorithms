@@ -2119,3 +2119,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 530
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 531
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
