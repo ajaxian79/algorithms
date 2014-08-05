@@ -2814,3 +2814,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 689
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 690
+
+Handles empty input by returning 0.
