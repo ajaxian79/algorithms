@@ -275,3 +275,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 234: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 235: Best case is O(1) when the first byte already decides the answer.
 // note 236: Allocates lazily — first call only.
+// note 237: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
