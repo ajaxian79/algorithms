@@ -2650,3 +2650,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 638
 
 Linear in n; the constant factor is small.
+
+## entry 639
+
+32-bit safe; overflow is checked at each step.
