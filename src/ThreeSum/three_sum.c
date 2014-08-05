@@ -294,3 +294,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 236: Mutates the input in place; the original ordering is lost.
 // note 237: Space complexity: O(log n) for the recursion stack.
 // note 238: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 239: Space complexity: O(log n) for the recursion stack.
