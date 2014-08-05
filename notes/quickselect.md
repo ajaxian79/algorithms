@@ -2123,3 +2123,7 @@
 ## entry 514
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 515
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
