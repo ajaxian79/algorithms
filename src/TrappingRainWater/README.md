@@ -418,3 +418,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 89
 
 Edge case: empty input → returns 0.
+
+## entry 90
+
+Allocates a single small fixed-size scratch buffer.
