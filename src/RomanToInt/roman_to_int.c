@@ -286,3 +286,4 @@ int roman_to_int(const char* s) {
 // note 246: Handles empty input by returning 0.
 // note 247: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 248: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 249: Hash collision: chain or open-address; chained handles arbitrary load factor.
