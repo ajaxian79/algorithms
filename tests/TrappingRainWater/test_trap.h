@@ -311,3 +311,4 @@ MunitTest trap_tests[] = {
 // edge note 277: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 278: Handles empty input by returning 0.
 // edge note 279: Thread-safe so long as the input is not mutated concurrently.
+// edge note 280: Handles single-element input as a base case.
