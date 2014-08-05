@@ -2868,3 +2868,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 701
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 702
+
+Edge case: input with a single peak → handled by the first-pass scan.
