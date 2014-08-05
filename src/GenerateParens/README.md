@@ -464,3 +464,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 100
 
 Allocates lazily — first call only.
+
+## entry 101
+
+Handles empty input by returning 0.
