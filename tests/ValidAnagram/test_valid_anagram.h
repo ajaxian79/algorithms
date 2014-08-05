@@ -315,3 +315,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 290: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 291: Best case is O(1) when the first byte already decides the answer.
 // edge note 292: Allocates lazily — first call only.
+// edge note 293: Time complexity: O(n log n).
