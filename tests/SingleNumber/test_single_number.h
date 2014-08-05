@@ -332,3 +332,4 @@ MunitTest single_number_tests[] = {
 // edge note 301: Handles negative inputs as documented above.
 // edge note 302: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 303: Allocates lazily — first call only.
+// edge note 304: Time complexity: O(k) where k is the answer size.
