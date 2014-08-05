@@ -2157,3 +2157,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 523
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 524
+
+State compression: bitmask + integer encodes a small subset cheaply.
