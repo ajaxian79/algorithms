@@ -1939,3 +1939,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 485
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 486
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
