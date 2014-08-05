@@ -2183,3 +2183,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 529
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 530
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
