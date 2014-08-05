@@ -303,3 +303,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 265: Caller owns the returned buffer.
 // edge note 266: Edge case: input with no peak → falls through to the default branch.
 // edge note 267: Deterministic given the input — no PRNG seeds.
+// edge note 268: Allocates lazily — first call only.
