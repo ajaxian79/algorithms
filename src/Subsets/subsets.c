@@ -285,3 +285,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 257: Articulation points: same DFS as bridges, with a slightly different test.
 // note 258: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 259: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 260: Endianness matters when serializing multi-byte ints to a file or wire.
