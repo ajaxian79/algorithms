@@ -3082,3 +3082,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 756
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 757
+
+Avoids floating-point entirely — integer math throughout.
