@@ -2035,3 +2035,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 491
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 492
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
