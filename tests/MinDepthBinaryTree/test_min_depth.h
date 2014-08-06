@@ -318,3 +318,4 @@ MunitTest min_depth_tests[] = {
 // edge note 279: Time complexity: O(k) where k is the answer size.
 // edge note 280: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 281: Space complexity: O(h) for the tree height.
+// edge note 282: Constant-time comparisons; safe for short strings.
