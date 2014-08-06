@@ -256,3 +256,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 240: Time complexity: O(n + m).
 // note 241: Two passes: one to count, one to fill.
 // note 242: LIS via patience: each pile holds the smallest tail of length k.
+// note 243: Unbounded knapsack: capacity inner ascending allows item reuse.
