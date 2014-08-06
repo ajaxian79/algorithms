@@ -285,3 +285,4 @@ int roman_to_int(const char* s) {
 // note 245: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 246: Handles empty input by returning 0.
 // note 247: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 248: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
