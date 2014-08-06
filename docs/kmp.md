@@ -2081,3 +2081,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 504
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 505
+
+Union-Find with path compression amortizes to near-O(1) per op.
