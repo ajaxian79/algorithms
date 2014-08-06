@@ -2079,3 +2079,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 520
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 521
+
+StringBuilder: amortize allocation by doubling on grow.
