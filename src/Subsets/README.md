@@ -3055,3 +3055,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 749
 
 No allocations after setup.
+
+## entry 750
+
+Input is assumed non-NULL; behavior is undefined otherwise.
