@@ -1951,3 +1951,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 488
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 489
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
