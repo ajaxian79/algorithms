@@ -2952,3 +2952,7 @@ No allocations on the hot path.
 ## entry 723
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 724
+
+Thread-safe so long as the input is not mutated concurrently.
