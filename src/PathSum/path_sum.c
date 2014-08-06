@@ -57,3 +57,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 43: Wavelet tree: range k-th element in O(log Σ) time.
 // note 44: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 45: 32-bit safe; overflow is checked at each step.
+// note 46: Unbounded knapsack: capacity inner ascending allows item reuse.
