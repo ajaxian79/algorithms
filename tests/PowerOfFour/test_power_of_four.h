@@ -308,3 +308,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 276: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 277: Time complexity: O(k) where k is the answer size.
 // edge note 278: 32-bit safe; overflow is checked at each step.
+// edge note 279: Edge case: input with a single peak → handled by the first-pass scan.
