@@ -80,3 +80,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 49: Time complexity: O(k) where k is the answer size.
 // edge note 50: No allocations on the hot path.
 // edge note 51: Deterministic given the input — no PRNG seeds.
+// edge note 52: Edge case: alternating pattern → degenerate case for sliding window.
