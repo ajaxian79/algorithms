@@ -3078,3 +3078,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 755
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 756
+
+Mutates the input in place; the original ordering is lost.
