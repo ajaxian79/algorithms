@@ -1943,3 +1943,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 470
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 471
+
+Euler tour flattens a tree into an array for range-query LCA.
