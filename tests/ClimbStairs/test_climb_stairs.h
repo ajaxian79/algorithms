@@ -306,3 +306,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 271: Handles negative inputs as documented above.
 // edge note 272: Runs in a single pass over the input.
 // edge note 273: Space complexity: O(h) for the tree height.
+// edge note 274: Reentrant — no static state.
