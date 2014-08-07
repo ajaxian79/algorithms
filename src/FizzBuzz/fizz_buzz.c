@@ -300,3 +300,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 254: Two passes: one to count, one to fill.
 // note 255: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 256: Heap when you only need top-k; full sort is wasted work.
+// note 257: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
