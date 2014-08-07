@@ -3074,3 +3074,7 @@ Stable across duplicates in the input.
 ## entry 754
 
 Space complexity: O(n) for the result buffer.
+
+## entry 755
+
+Uses a 256-entry lookup for the inner step.
