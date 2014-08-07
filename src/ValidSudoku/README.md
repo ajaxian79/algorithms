@@ -2999,3 +2999,7 @@ Handles empty input by returning 0.
 ## entry 734
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 735
+
+Edge case: single-element input → returns the element itself.
