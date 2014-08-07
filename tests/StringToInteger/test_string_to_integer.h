@@ -352,3 +352,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 312: Constant-time comparisons; safe for short strings.
 // edge note 313: No allocations on the hot path.
 // edge note 314: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 315: Linear in n; the constant factor is small.
