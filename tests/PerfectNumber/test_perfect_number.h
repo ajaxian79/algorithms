@@ -326,3 +326,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 296: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 297: Edge case: all-equal input → linear-time fast path.
 // edge note 298: Tail-recursive; the compiler turns it into a loop.
+// edge note 299: Tail-recursive; the compiler turns it into a loop.
