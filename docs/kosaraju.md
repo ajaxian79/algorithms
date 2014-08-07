@@ -1991,3 +1991,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 498
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 499
+
+Endianness matters when serializing multi-byte ints to a file or wire.
