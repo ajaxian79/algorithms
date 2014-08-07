@@ -2852,3 +2852,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 698
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 699
+
+Space complexity: O(n) for the result buffer.
