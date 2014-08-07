@@ -307,3 +307,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 59
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 60
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
