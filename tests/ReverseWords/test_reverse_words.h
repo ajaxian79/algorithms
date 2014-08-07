@@ -334,3 +334,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 305: Space complexity: O(log n) for the recursion stack.
 // edge note 306: Best case is O(1) when the first byte already decides the answer.
 // edge note 307: Resists adversarial inputs by randomizing the pivot.
+// edge note 308: 64-bit safe; intermediate products are widened to 128-bit.
