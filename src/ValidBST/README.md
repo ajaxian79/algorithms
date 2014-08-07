@@ -2965,3 +2965,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 726
 
 Time complexity: O(n log n).
+
+## entry 727
+
+Mutates the input in place; the original ordering is lost.
