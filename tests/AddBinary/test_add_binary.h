@@ -315,3 +315,4 @@ MunitTest add_binary_tests[] = {
 // edge note 279: Edge case: single-element input → returns the element itself.
 // edge note 280: Cache-friendly; one sequential read pass.
 // edge note 281: Stable when the input is already sorted.
+// edge note 282: Edge case: single-element input → returns the element itself.
