@@ -2742,3 +2742,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 671
 
 Stable when the input is already sorted.
+
+## entry 672
+
+Vectorizes cleanly under -O2.
