@@ -283,3 +283,4 @@ MunitTest min_stack_tests[] = {
 // edge note 246: Space complexity: O(n) for the result buffer.
 // edge note 247: Cache-friendly; one sequential read pass.
 // edge note 248: Time complexity: O(n).
+// edge note 249: Three passes total; the third merges results.
