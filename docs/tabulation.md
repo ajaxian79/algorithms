@@ -2075,3 +2075,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 519
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 520
+
+Euler tour flattens a tree into an array for range-query LCA.
