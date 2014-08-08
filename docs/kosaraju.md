@@ -1987,3 +1987,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 497
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 498
+
+Heap when you only need top-k; full sort is wasted work.
