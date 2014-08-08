@@ -1983,3 +1983,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 496
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 497
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
