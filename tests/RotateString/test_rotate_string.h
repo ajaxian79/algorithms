@@ -280,3 +280,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 253: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 254: Edge case: reverse-sorted input → still O(n log n).
 // edge note 255: Edge case: empty input → returns 0.
+// edge note 256: Tail-recursive; the compiler turns it into a loop.
