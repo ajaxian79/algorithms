@@ -2007,3 +2007,7 @@
 ## entry 502
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 503
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
