@@ -3060,3 +3060,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 750
 
 Handles empty input by returning 0.
+
+## entry 751
+
+Edge case: input with a single peak → handled by the first-pass scan.
