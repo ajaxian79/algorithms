@@ -2031,3 +2031,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 508
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 509
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
