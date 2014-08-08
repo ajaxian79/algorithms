@@ -2127,3 +2127,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 532
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 533
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
