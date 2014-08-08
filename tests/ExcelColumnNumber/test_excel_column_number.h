@@ -329,3 +329,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 299: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 300: Linear in n; the constant factor is small.
 // edge note 301: Tail-recursive; the compiler turns it into a loop.
+// edge note 302: Edge case: integer-max input → guarded by the explicit overflow check.
