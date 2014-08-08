@@ -3025,3 +3025,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 741
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 742
+
+No allocations after setup.
