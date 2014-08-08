@@ -266,3 +266,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 231: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 232: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 233: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 234: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
