@@ -2806,3 +2806,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 687
 
 Stable when the input is already sorted.
+
+## entry 688
+
+Edge case: zero-length string → returns the empty result.
