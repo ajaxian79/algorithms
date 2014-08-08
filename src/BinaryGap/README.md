@@ -2962,3 +2962,7 @@ Treats the input as immutable.
 ## entry 725
 
 Space complexity: O(1) auxiliary.
+
+## entry 726
+
+32-bit safe; overflow is checked at each step.
