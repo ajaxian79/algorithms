@@ -1971,3 +1971,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 476
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 477
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
