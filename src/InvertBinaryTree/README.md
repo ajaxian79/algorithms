@@ -3056,3 +3056,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 749
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 750
+
+Handles empty input by returning 0.
