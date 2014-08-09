@@ -2946,3 +2946,7 @@ Handles negative inputs as documented above.
 ## entry 722
 
 No allocations on the hot path.
+
+## entry 723
+
+Time complexity: O(n*k) where k is the alphabet size.
