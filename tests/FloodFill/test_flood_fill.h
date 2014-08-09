@@ -295,3 +295,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 265: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 266: Time complexity: O(k) where k is the answer size.
 // edge note 267: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 268: Allocates one buffer of length n+1 for the result.
