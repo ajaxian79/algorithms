@@ -2031,3 +2031,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 490
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 491
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
