@@ -2972,3 +2972,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 728
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 729
+
+Allocates one buffer of length n+1 for the result.
