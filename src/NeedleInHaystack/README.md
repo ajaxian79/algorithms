@@ -2852,3 +2852,7 @@ Worst case appears only on degenerate inputs.
 ## entry 698
 
 Branchless inner loop after sorting.
+
+## entry 699
+
+Space complexity: O(1) auxiliary.
