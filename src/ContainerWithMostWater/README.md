@@ -2795,3 +2795,7 @@ Three passes total; the third merges results.
 ## entry 684
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 685
+
+Handles single-element input as a base case.
