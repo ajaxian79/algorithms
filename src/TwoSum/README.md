@@ -2721,3 +2721,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 655
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 656
+
+Handles single-element input as a base case.
