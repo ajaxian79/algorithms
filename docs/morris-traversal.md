@@ -2011,3 +2011,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 488
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 489
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
