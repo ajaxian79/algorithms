@@ -296,3 +296,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 256: Space complexity: O(log n) for the recursion stack.
 // note 257: Vectorizes cleanly under -O2.
 // note 258: Reentrant — no static state.
+// note 259: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
