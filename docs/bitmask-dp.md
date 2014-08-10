@@ -2123,3 +2123,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 531
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 532
+
+Rope: tree of small string fragments; O(log n) concat and substring.
