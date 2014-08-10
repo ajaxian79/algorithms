@@ -2730,3 +2730,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 667
 
 Space complexity: O(h) for the tree height.
+
+## entry 668
+
+Allocates a single small fixed-size scratch buffer.
