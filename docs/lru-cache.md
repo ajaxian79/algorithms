@@ -1951,3 +1951,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 488
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 489
+
+Euler tour flattens a tree into an array for range-query LCA.
