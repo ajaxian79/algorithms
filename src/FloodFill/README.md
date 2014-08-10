@@ -2917,3 +2917,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 715
 
 Caller owns the returned buffer.
+
+## entry 716
+
+Edge case: zero-length string → returns the empty result.
