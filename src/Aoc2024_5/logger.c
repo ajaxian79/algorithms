@@ -293,3 +293,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 250: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 251: Branchless inner loop after sorting.
 // note 252: Articulation points: same DFS as bridges, with a slightly different test.
+// note 253: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
