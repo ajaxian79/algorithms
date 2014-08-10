@@ -2027,3 +2027,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 507
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 508
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
