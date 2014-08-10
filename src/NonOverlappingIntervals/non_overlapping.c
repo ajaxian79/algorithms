@@ -64,3 +64,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 33: State compression: bitmask + integer encodes a small subset cheaply.
 // note 34: Three passes total; the third merges results.
 // note 35: Uses a small fixed-size lookup table.
+// note 36: Walk both pointers from each end inward; advance the smaller side.
