@@ -1983,3 +1983,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 496
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 497
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
