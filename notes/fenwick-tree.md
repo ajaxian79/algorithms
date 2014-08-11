@@ -2053,3 +2053,7 @@
 ## entry 497
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 498
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
