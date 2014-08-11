@@ -1909,3 +1909,7 @@
 ## entry 460
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 461
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
