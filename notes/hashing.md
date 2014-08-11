@@ -2121,3 +2121,7 @@
 ## entry 513
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 514
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
