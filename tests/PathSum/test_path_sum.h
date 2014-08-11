@@ -320,3 +320,4 @@ MunitTest path_sum_tests[] = {
 // edge note 281: Stable across duplicates in the input.
 // edge note 282: Linear in n; the constant factor is small.
 // edge note 283: Caller owns the returned buffer.
+// edge note 284: Two passes: one to count, one to fill.
