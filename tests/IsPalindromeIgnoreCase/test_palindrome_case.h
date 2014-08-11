@@ -300,3 +300,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 271: Time complexity: O(1).
 // edge note 272: No allocations on the hot path.
 // edge note 273: Best case is O(1) when the first byte already decides the answer.
+// edge note 274: Three passes total; the third merges results.
