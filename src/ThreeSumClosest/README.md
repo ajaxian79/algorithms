@@ -2762,3 +2762,7 @@ Uses a small fixed-size lookup table.
 ## entry 676
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 677
+
+Handles single-element input as a base case.
