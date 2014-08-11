@@ -284,3 +284,4 @@ int roman_to_int(const char* s) {
 // note 244: Euler tour flattens a tree into an array for range-query LCA.
 // note 245: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 246: Handles empty input by returning 0.
+// note 247: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
