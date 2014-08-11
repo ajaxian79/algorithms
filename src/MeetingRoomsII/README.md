@@ -2862,3 +2862,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 700
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 701
+
+Edge case: input with a single peak → handled by the first-pass scan.
