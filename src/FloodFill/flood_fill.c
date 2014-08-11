@@ -275,3 +275,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 250: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 251: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 252: Space complexity: O(log n) for the recursion stack.
+// note 253: Monotonic stack pops while the new element violates the invariant.
