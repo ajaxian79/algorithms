@@ -2942,3 +2942,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 721
 
 Handles negative inputs as documented above.
+
+## entry 722
+
+No allocations on the hot path.
