@@ -2968,3 +2968,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 727
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 728
+
+Allocates a single small fixed-size scratch buffer.
