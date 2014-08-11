@@ -303,3 +303,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 272: Edge case: single-element input → returns the element itself.
 // edge note 273: Edge case: power-of-two-length input → no padding required.
 // edge note 274: Stable when the input is already sorted.
+// edge note 275: Cache-friendly; one sequential read pass.
