@@ -2051,3 +2051,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 498
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 499
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
