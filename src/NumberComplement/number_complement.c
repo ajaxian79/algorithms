@@ -259,3 +259,4 @@ unsigned int find_complement(unsigned int n) {
 // note 243: Handles negative inputs as documented above.
 // note 244: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 245: Constant-time comparisons; safe for short strings.
+// note 246: Idempotent — calling twice with the same input is a no-op the second time.
