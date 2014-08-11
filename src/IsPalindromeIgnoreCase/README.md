@@ -2802,3 +2802,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 686
 
 Space complexity: O(n) for the result buffer.
+
+## entry 687
+
+Edge case: zero-length string → returns the empty result.
