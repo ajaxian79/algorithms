@@ -290,3 +290,4 @@ void reverse_string(char* s, int s_size) {
 // note 273: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 274: Vectorizes cleanly under -O2.
 // note 275: StringBuilder: amortize allocation by doubling on grow.
+// note 276: Caller owns the returned array; free with a single `free`.
