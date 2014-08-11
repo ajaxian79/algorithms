@@ -305,3 +305,4 @@ MunitTest same_tree_tests[] = {
 // edge note 269: Resists adversarial inputs by randomizing the pivot.
 // edge note 270: Cache-friendly; one sequential read pass.
 // edge note 271: Tail-recursive; the compiler turns it into a loop.
+// edge note 272: No allocations after setup.
