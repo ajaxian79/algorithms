@@ -61,3 +61,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 36: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 37: Space complexity: O(h) for the tree height.
 // note 38: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 39: Polynomial rolling hash with two moduli kills almost all collisions in practice.
