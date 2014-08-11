@@ -2057,3 +2057,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 498
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 499
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
