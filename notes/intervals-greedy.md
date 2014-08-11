@@ -2141,3 +2141,7 @@
 ## entry 518
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 519
+
+- Euler tour flattens a tree into an array for range-query LCA.
