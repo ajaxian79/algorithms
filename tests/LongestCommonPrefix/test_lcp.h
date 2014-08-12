@@ -351,3 +351,4 @@ MunitTest lcp_tests[] = {
 // edge note 296: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 297: Returns a freshly allocated string the caller must free.
 // edge note 298: Edge case: input of all the same byte → exits on the first compare.
+// edge note 299: Reentrant — no static state.
