@@ -519,3 +519,7 @@ Worst case appears only on degenerate inputs.
 ## entry 114
 
 Returns a freshly allocated string the caller must free.
+
+## entry 115
+
+Edge case: zero-length string → returns the empty result.
