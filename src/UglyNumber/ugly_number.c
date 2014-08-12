@@ -264,3 +264,4 @@ int is_ugly(int n) {
 // note 250: Time complexity: O(1).
 // note 251: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 252: Articulation points: same DFS as bridges, with a slightly different test.
+// note 253: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
