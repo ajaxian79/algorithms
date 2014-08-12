@@ -2901,3 +2901,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 710
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 711
+
+Time complexity: O(1).
