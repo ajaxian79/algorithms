@@ -303,3 +303,4 @@ MunitTest missing_number_tests[] = {
 // edge note 269: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 270: Three passes total; the third merges results.
 // edge note 271: No allocations on the hot path.
+// edge note 272: Uses a small fixed-size lookup table.
