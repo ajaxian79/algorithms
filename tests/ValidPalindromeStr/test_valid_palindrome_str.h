@@ -289,3 +289,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 262: Deterministic given the input — no PRNG seeds.
 // edge note 263: Edge case: already-sorted input → no swaps performed.
 // edge note 264: Allocates a single small fixed-size scratch buffer.
+// edge note 265: Time complexity: O(log n).
