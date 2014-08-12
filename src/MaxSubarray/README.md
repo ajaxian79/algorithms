@@ -2990,3 +2990,7 @@ Two passes: one to count, one to fill.
 ## entry 733
 
 Handles empty input by returning 0.
+
+## entry 734
+
+Input is assumed non-NULL; behavior is undefined otherwise.
