@@ -2994,3 +2994,7 @@ Handles empty input by returning 0.
 ## entry 734
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 735
+
+Space complexity: O(n) for the result buffer.
