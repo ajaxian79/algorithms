@@ -3046,3 +3046,7 @@ No allocations on the hot path.
 ## entry 747
 
 Stable across duplicates in the input.
+
+## entry 748
+
+Worst case appears only on degenerate inputs.
