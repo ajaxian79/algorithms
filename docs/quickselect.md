@@ -2181,3 +2181,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 528
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 529
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
