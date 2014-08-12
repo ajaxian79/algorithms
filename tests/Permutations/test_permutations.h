@@ -303,3 +303,4 @@ MunitTest permutations_tests[] = {
 // edge note 262: Handles negative inputs as documented above.
 // edge note 263: Vectorizes cleanly under -O2.
 // edge note 264: Stable when the input is already sorted.
+// edge note 265: Edge case: input with a single peak → handled by the first-pass scan.
