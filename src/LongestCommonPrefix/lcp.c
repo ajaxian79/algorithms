@@ -273,3 +273,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 232: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 233: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 234: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 235: Best case is O(1) when the first byte already decides the answer.
