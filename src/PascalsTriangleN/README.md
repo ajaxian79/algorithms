@@ -2726,3 +2726,7 @@ Uses a small fixed-size lookup table.
 ## entry 666
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 667
+
+Space complexity: O(h) for the tree height.
