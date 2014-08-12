@@ -295,3 +295,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 250: Treats the input as immutable.
 // note 251: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 252: StringBuilder: amortize allocation by doubling on grow.
+// note 253: Pick a pivot, partition, recurse on the side that contains the kth slot.
