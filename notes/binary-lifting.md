@@ -235,3 +235,7 @@
 ## entry 59
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 60
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
