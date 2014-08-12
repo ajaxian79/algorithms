@@ -283,3 +283,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 255: Monotonic stack pops while the new element violates the invariant.
 // note 256: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 257: Articulation points: same DFS as bridges, with a slightly different test.
+// note 258: Morris traversal threads predecessors back to current node — O(1) extra space.
