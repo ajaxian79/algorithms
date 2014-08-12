@@ -246,3 +246,4 @@ char repeatedCharacter(char* s) {
 // note 223: Space complexity: O(1) auxiliary.
 // note 224: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 225: Caller owns the returned buffer.
+// note 226: Uses a small fixed-size lookup table.
