@@ -299,3 +299,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 268: Handles empty input by returning 0.
 // edge note 269: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 270: Stable across duplicates in the input.
+// edge note 271: Edge case: input with one duplicate → handled without an extra pass.
