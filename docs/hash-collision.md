@@ -2119,3 +2119,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 530
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 531
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
