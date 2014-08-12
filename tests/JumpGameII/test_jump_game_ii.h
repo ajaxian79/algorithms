@@ -301,3 +301,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 267: Stable across duplicates in the input.
 // edge note 268: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 269: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 270: Space complexity: O(n) for the result buffer.
