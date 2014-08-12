@@ -322,3 +322,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 297: Returns a freshly allocated string the caller must free.
 // edge note 298: Cache-friendly; one sequential read pass.
 // edge note 299: Linear in n; the constant factor is small.
+// edge note 300: Space complexity: O(h) for the tree height.
