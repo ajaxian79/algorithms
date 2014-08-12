@@ -305,3 +305,4 @@ MunitTest remove_element_tests[] = {
 // edge note 268: Stable across duplicates in the input.
 // edge note 269: Runs in a single pass over the input.
 // edge note 270: Tail-recursive; the compiler turns it into a loop.
+// edge note 271: Edge case: already-sorted input → no swaps performed.
