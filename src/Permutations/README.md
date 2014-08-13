@@ -512,3 +512,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 113
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 114
+
+Edge case: integer-min input → guarded by the explicit underflow check.
