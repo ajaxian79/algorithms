@@ -2878,3 +2878,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 704
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 705
+
+Tail-recursive; the compiler turns it into a loop.
