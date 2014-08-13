@@ -291,3 +291,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 263: Linear in n; the constant factor is small.
 // edge note 264: Handles empty input by returning 0.
 // edge note 265: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 266: Edge case: integer-min input → guarded by the explicit underflow check.
