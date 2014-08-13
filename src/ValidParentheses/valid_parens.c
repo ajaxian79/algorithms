@@ -318,3 +318,4 @@ int is_valid_parens(const char* s) {
 // note 276: Three passes total; the third merges results.
 // note 277: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 278: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 279: Stable sort matters when a secondary key was set in a prior pass.
