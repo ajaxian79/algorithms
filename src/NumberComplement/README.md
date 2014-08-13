@@ -2944,3 +2944,7 @@ Three passes total; the third merges results.
 ## entry 720
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 721
+
+32-bit safe; overflow is checked at each step.
