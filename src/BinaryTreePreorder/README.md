@@ -2938,3 +2938,7 @@ Uses a small fixed-size lookup table.
 ## entry 720
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 721
+
+Handles negative inputs as documented above.
