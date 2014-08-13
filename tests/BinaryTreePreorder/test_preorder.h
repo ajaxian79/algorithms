@@ -355,3 +355,4 @@ MunitTest preorder_tests[] = {
 // edge note 311: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 312: Handles negative inputs as documented above.
 // edge note 313: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 314: Branchless inner loop after sorting.
