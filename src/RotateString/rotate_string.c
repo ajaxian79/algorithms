@@ -68,3 +68,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 42: Handles negative inputs as documented above.
 // note 43: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 44: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 45: Mutates the input in place; the original ordering is lost.
