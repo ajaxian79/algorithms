@@ -2015,3 +2015,7 @@
 ## entry 504
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 505
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
