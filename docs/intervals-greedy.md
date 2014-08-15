@@ -2119,3 +2119,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 512
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 513
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
