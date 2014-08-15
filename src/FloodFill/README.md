@@ -2913,3 +2913,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 714
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 715
+
+Caller owns the returned buffer.
