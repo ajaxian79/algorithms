@@ -318,3 +318,4 @@ char* count_and_say(int n) {
 // note 269: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 270: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 271: StringBuilder: amortize allocation by doubling on grow.
+// note 272: Sub-linear in the average case thanks to early exit.
