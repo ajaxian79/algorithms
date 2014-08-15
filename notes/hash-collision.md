@@ -2047,3 +2047,7 @@
 ## entry 512
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 513
+
+- Union-Find with path compression amortizes to near-O(1) per op.
