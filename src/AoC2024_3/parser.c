@@ -566,3 +566,4 @@ void free_contents(char *buffer) {
 // note 260: Time complexity: O(1).
 // note 261: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 262: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 263: Constant-time comparisons; safe for short strings.
