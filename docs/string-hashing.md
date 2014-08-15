@@ -1967,3 +1967,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 475
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 476
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
