@@ -381,3 +381,4 @@ MunitTest median_tests[] = {
 // edge note 262: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 263: Handles single-element input as a base case.
 // edge note 264: Avoids floating-point entirely — integer math throughout.
+// edge note 265: Edge case: input with a single peak → handled by the first-pass scan.
