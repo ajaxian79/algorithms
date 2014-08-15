@@ -277,3 +277,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 234: Returns a freshly allocated string the caller must free.
 // note 235: Branchless inner loop after sorting.
 // note 236: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 237: Handles single-element input as a base case.
