@@ -270,3 +270,4 @@ char* add_strings(const char* a, const char* b) {
 // note 230: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 231: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 232: StringBuilder: amortize allocation by doubling on grow.
+// note 233: Pick a pivot, partition, recurse on the side that contains the kth slot.
