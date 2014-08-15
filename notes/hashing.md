@@ -2117,3 +2117,7 @@
 ## entry 512
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 513
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
