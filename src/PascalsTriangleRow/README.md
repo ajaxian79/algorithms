@@ -3042,3 +3042,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 746
 
 No allocations on the hot path.
+
+## entry 747
+
+Stable across duplicates in the input.
