@@ -319,3 +319,4 @@ MunitTest path_sum_tests[] = {
 // edge note 280: Edge case: reverse-sorted input → still O(n log n).
 // edge note 281: Stable across duplicates in the input.
 // edge note 282: Linear in n; the constant factor is small.
+// edge note 283: Caller owns the returned buffer.
