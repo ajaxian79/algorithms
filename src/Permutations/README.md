@@ -3076,3 +3076,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 754
 
 Allocates lazily — first call only.
+
+## entry 755
+
+Stable when the input is already sorted.
