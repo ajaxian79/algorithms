@@ -2011,3 +2011,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 486
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 487
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
