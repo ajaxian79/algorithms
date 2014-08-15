@@ -2055,3 +2055,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 514
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 515
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
