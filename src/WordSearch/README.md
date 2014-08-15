@@ -2914,3 +2914,7 @@ Treats the input as immutable.
 ## entry 714
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 715
+
+Edge case: input with one duplicate → handled without an extra pass.
