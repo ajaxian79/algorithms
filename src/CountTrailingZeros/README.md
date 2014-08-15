@@ -474,3 +474,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 103
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 104
+
+Sub-linear in the average case thanks to early exit.
