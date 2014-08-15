@@ -333,3 +333,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 304: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 305: Space complexity: O(log n) for the recursion stack.
 // edge note 306: Best case is O(1) when the first byte already decides the answer.
+// edge note 307: Resists adversarial inputs by randomizing the pivot.
