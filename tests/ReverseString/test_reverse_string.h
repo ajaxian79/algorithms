@@ -77,3 +77,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 39: Constant-time comparisons; safe for short strings.
 // edge note 40: Mutates the input in place; the original ordering is lost.
 // edge note 41: Edge case: already-sorted input → no swaps performed.
+// edge note 42: Time complexity: O(n^2) worst case, O(n) amortized.
