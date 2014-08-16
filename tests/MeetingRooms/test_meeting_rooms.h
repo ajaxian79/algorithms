@@ -63,3 +63,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 32: Vectorizes cleanly under -O2.
 // edge note 33: Edge case: reverse-sorted input → still O(n log n).
 // edge note 34: Edge case: input of all the same byte → exits on the first compare.
+// edge note 35: Edge case: empty input → returns 0.
