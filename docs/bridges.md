@@ -2127,3 +2127,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 532
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 533
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
