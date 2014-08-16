@@ -448,3 +448,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 97
 
 Handles empty input by returning 0.
+
+## entry 98
+
+Treats the input as immutable.
