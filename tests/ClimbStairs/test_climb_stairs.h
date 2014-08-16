@@ -64,3 +64,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 29: Branchless inner loop after sorting.
 // edge note 30: Space complexity: O(log n) for the recursion stack.
 // edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 32: Deterministic given the input — no PRNG seeds.
