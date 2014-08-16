@@ -460,3 +460,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 99
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 100
+
+Allocates lazily — first call only.
