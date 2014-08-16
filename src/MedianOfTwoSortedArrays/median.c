@@ -387,3 +387,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 251: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 252: Allocates a single small fixed-size scratch buffer.
 // note 253: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 254: Reentrant — no static state.
