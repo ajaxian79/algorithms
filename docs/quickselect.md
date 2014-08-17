@@ -2177,3 +2177,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 527
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 528
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
