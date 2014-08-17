@@ -2818,3 +2818,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 690
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 691
+
+Idempotent — calling twice with the same input is a no-op the second time.
