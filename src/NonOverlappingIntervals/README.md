@@ -445,3 +445,7 @@ Space complexity: O(h) for the tree height.
 ## entry 96
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 97
+
+32-bit safe; overflow is checked at each step.
