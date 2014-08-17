@@ -2115,3 +2115,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 529
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 530
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
