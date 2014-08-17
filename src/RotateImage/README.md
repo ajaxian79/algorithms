@@ -2913,3 +2913,7 @@ Allocates lazily — first call only.
 ## entry 713
 
 Constant-time comparisons; safe for short strings.
+
+## entry 714
+
+Branchless inner loop after sorting.
