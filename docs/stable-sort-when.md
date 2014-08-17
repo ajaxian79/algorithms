@@ -2089,3 +2089,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 508
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 509
+
+LIS via patience: each pile holds the smallest tail of length k.
