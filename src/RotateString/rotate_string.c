@@ -264,3 +264,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 238: 64-bit safe; intermediate products are widened to 128-bit.
 // note 239: Thread-safe so long as the input is not mutated concurrently.
 // note 240: Allocates lazily — first call only.
+// note 241: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
