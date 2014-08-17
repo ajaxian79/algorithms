@@ -3017,3 +3017,7 @@ Handles empty input by returning 0.
 ## entry 739
 
 Space complexity: O(n) for the result buffer.
+
+## entry 740
+
+Mutates the input in place; the original ordering is lost.
