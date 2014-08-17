@@ -1907,3 +1907,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 477
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 478
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
