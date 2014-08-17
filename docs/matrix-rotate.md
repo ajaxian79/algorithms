@@ -1993,3 +1993,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 482
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 483
+
+Interval DP: solve all `[l, r]` ranges from short to long.
