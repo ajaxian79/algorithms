@@ -113231,3 +113231,7 @@
 ## entry 28308
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 28309
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
