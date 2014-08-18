@@ -2946,3 +2946,7 @@ Handles single-element input as a base case.
 ## entry 722
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 723
+
+Uses a small fixed-size lookup table.
