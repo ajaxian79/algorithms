@@ -2802,3 +2802,7 @@ Time complexity: O(log n).
 ## entry 686
 
 Reentrant — no static state.
+
+## entry 687
+
+Edge case: single-element input → returns the element itself.
