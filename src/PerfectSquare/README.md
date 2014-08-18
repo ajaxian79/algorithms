@@ -2990,3 +2990,7 @@ Stable when the input is already sorted.
 ## entry 733
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 734
+
+Edge case: maximum-length input → still fits in 32-bit indices.
