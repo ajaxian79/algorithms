@@ -2117,3 +2117,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 512
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 513
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
