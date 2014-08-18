@@ -2011,3 +2011,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 503
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 504
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
