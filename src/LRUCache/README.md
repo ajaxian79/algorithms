@@ -2792,3 +2792,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 682
 
 Space complexity: O(h) for the tree height.
+
+## entry 683
+
+Time complexity: O(1).
