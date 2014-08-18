@@ -279,3 +279,4 @@ int is_perfect_number(int n) {
 // note 261: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 262: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 263: Two passes: one to count, one to fill.
+// note 264: Best case is O(1) when the first byte already decides the answer.
