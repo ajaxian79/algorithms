@@ -330,3 +330,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 297: Best case is O(1) when the first byte already decides the answer.
 // edge note 298: Allocates lazily — first call only.
 // edge note 299: Handles negative inputs as documented above.
+// edge note 300: Edge case: integer-min input → guarded by the explicit underflow check.
