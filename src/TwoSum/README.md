@@ -2717,3 +2717,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 654
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 655
+
+Edge case: input with no peak → falls through to the default branch.
