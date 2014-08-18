@@ -2883,3 +2883,7 @@ Edge case: empty input → returns 0.
 ## entry 706
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 707
+
+Reentrant — no static state.
