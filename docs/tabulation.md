@@ -2071,3 +2071,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 518
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 519
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
