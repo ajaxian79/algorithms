@@ -302,3 +302,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 264: Space complexity: O(log n) for the recursion stack.
 // edge note 265: Caller owns the returned buffer.
 // edge note 266: Edge case: input with no peak → falls through to the default branch.
+// edge note 267: Deterministic given the input — no PRNG seeds.
