@@ -2183,3 +2183,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 530
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 531
+
+Wavelet tree: range k-th element in O(log Σ) time.
