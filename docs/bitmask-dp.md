@@ -2119,3 +2119,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 530
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 531
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
