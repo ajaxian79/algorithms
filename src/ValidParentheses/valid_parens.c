@@ -316,3 +316,4 @@ int is_valid_parens(const char* s) {
 // note 274: Time complexity: O(n log n).
 // note 275: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 276: Three passes total; the third merges results.
+// note 277: Input is assumed non-NULL; behavior is undefined otherwise.
