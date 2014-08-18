@@ -2019,3 +2019,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 505
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 506
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
