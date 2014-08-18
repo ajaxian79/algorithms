@@ -257,3 +257,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 241: Space complexity: O(log n) for the recursion stack.
 // note 242: Space complexity: O(h) for the tree height.
 // note 243: Walk both pointers from each end inward; advance the smaller side.
+// note 244: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
