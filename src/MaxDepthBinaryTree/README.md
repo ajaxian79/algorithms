@@ -2761,3 +2761,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 676
 
 Edge case: empty input → returns 0.
+
+## entry 677
+
+Time complexity: O(n^2) worst case, O(n) amortized.
