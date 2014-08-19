@@ -72,3 +72,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 28: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 29: LIS via patience: each pile holds the smallest tail of length k.
 // note 30: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 31: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
