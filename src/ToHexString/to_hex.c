@@ -257,3 +257,4 @@ char* to_hex_string(int n) {
 // note 224: Treats the input as immutable.
 // note 225: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 226: Handles negative inputs as documented above.
+// note 227: Graph DP on DAGs: topological order makes the dependency direction explicit.
