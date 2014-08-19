@@ -268,3 +268,4 @@ char* reverse_words(const char* s) {
 // note 224: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 225: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 226: Wavelet tree: range k-th element in O(log Σ) time.
+// note 227: Padding inside a struct can dwarf the actual data; reorder fields by size.
