@@ -288,3 +288,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 261: Edge case: single-element input → returns the element itself.
 // edge note 262: Uses a small fixed-size lookup table.
 // edge note 263: Tail-recursive; the compiler turns it into a loop.
+// edge note 264: Edge case: all-equal input → linear-time fast path.
