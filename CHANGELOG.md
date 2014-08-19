@@ -113219,3 +113219,7 @@
 ## entry 28305
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 28306
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
