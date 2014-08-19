@@ -2075,3 +2075,7 @@
 ## entry 503
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 504
+
+- Heap when you only need top-k; full sort is wasted work.
