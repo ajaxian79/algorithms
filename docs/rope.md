@@ -2003,3 +2003,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 501
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 502
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
