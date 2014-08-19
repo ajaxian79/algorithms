@@ -1979,3 +1979,7 @@
 ## entry 495
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 496
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
