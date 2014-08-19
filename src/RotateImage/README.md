@@ -2905,3 +2905,7 @@ Branchless inner loop after sorting.
 ## entry 711
 
 Reentrant — no static state.
+
+## entry 712
+
+Allocates lazily — first call only.
