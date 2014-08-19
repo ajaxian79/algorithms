@@ -264,3 +264,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 244: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 245: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 246: Caller owns the returned array; free with a single `free`.
+// note 247: Uses a small fixed-size lookup table.
