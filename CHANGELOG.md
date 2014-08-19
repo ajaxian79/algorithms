@@ -113203,3 +113203,7 @@
 ## entry 28301
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 28302
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
