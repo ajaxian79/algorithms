@@ -1975,3 +1975,7 @@
 ## entry 494
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 495
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
