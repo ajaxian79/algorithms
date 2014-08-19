@@ -2814,3 +2814,7 @@ Two passes: one to count, one to fill.
 ## entry 688
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 689
+
+Avoids floating-point entirely — integer math throughout.
