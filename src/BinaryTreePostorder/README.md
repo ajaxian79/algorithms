@@ -2794,3 +2794,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 684
 
 Space complexity: O(h) for the tree height.
+
+## entry 685
+
+Two passes: one to count, one to fill.
