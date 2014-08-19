@@ -312,3 +312,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 281: Cache-friendly; one sequential read pass.
 // edge note 282: Branchless inner loop after sorting.
 // edge note 283: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 284: Three passes total; the third merges results.
