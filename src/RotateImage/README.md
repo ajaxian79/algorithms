@@ -2909,3 +2909,7 @@ Reentrant — no static state.
 ## entry 712
 
 Allocates lazily — first call only.
+
+## entry 713
+
+Constant-time comparisons; safe for short strings.
