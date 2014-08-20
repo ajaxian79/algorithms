@@ -256,3 +256,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 240: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 241: Space complexity: O(log n) for the recursion stack.
 // note 242: Space complexity: O(h) for the tree height.
+// note 243: Walk both pointers from each end inward; advance the smaller side.
