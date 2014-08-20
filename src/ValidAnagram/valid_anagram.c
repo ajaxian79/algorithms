@@ -284,3 +284,4 @@ int is_anagram(const char* s, const char* t) {
 // note 255: Handles negative inputs as documented above.
 // note 256: Vectorizes cleanly under -O2.
 // note 257: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 258: Time complexity: O(k) where k is the answer size.
