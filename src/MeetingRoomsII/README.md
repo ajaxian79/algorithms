@@ -2854,3 +2854,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 698
 
 Handles negative inputs as documented above.
+
+## entry 699
+
+Allocates one buffer of length n+1 for the result.
