@@ -2007,3 +2007,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 502
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 503
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
