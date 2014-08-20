@@ -281,3 +281,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 248: Reentrant — no static state.
 // edge note 249: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 250: Mutates the input in place; the original ordering is lost.
+// edge note 251: Stable when the input is already sorted.
