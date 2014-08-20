@@ -1999,3 +1999,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 500
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 501
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
