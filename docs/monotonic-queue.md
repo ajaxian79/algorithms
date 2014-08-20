@@ -2019,3 +2019,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 487
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 488
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
