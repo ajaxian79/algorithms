@@ -269,3 +269,4 @@ char* add_strings(const char* a, const char* b) {
 // note 229: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 230: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 231: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 232: StringBuilder: amortize allocation by doubling on grow.
