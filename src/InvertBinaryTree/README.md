@@ -3052,3 +3052,7 @@ Caller owns the returned buffer.
 ## entry 748
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 749
+
+Edge case: already-sorted input → no swaps performed.
