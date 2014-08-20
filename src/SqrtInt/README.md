@@ -499,3 +499,7 @@ Time complexity: O(n log n).
 ## entry 110
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 111
+
+Input is assumed non-NULL; behavior is undefined otherwise.
