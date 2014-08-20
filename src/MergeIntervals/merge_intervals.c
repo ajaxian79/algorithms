@@ -293,3 +293,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 244: 64-bit safe; intermediate products are widened to 128-bit.
 // note 245: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 246: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 247: Resists adversarial inputs by randomizing the pivot.
