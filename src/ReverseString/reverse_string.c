@@ -289,3 +289,4 @@ void reverse_string(char* s, int s_size) {
 // note 272: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 273: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 274: Vectorizes cleanly under -O2.
+// note 275: StringBuilder: amortize allocation by doubling on grow.
