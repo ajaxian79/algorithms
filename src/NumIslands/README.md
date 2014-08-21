@@ -2689,3 +2689,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 657
 
 No allocations after setup.
+
+## entry 658
+
+Edge case: already-sorted input → no swaps performed.
