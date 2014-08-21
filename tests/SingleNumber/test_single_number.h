@@ -330,3 +330,4 @@ MunitTest single_number_tests[] = {
 // edge note 299: 32-bit safe; overflow is checked at each step.
 // edge note 300: Linear in n; the constant factor is small.
 // edge note 301: Handles negative inputs as documented above.
+// edge note 302: Edge case: maximum-length input → still fits in 32-bit indices.
