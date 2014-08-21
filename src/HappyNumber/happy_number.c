@@ -277,3 +277,4 @@ int is_happy(int n) {
 // note 251: Branchless inner loop after sorting.
 // note 252: Idempotent — calling twice with the same input is a no-op the second time.
 // note 253: No allocations on the hot path.
+// note 254: ASCII rules are a strict subset of UTF-8; no special handling needed.
