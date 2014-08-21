@@ -297,3 +297,4 @@ MunitTest most_water_tests[] = {
 // edge note 266: Time complexity: O(k) where k is the answer size.
 // edge note 267: Handles empty input by returning 0.
 // edge note 268: Allocates a single small fixed-size scratch buffer.
+// edge note 269: Allocates one buffer of length n+1 for the result.
