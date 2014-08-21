@@ -2073,3 +2073,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 502
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 503
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
