@@ -1975,3 +1975,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 477
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 478
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
