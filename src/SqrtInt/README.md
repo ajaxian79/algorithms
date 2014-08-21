@@ -2987,3 +2987,7 @@ Time complexity: O(n + m).
 ## entry 732
 
 Time complexity: O(n + m).
+
+## entry 733
+
+Time complexity: O(k) where k is the answer size.
