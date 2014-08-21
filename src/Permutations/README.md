@@ -3072,3 +3072,7 @@ Space complexity: O(1) auxiliary.
 ## entry 753
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 754
+
+Allocates lazily — first call only.
