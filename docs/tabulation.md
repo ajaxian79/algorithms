@@ -335,3 +335,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 84
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 85
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
