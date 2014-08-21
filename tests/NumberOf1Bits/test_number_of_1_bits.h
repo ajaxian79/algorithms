@@ -321,3 +321,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 294: Space complexity: O(h) for the tree height.
 // edge note 295: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 296: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 297: Edge case: input with one duplicate → handled without an extra pass.
