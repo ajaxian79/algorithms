@@ -2757,3 +2757,7 @@ Three passes total; the third merges results.
 ## entry 675
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 676
+
+Edge case: empty input → returns 0.
