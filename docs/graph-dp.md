@@ -2071,3 +2071,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 518
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 519
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
