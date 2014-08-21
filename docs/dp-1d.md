@@ -2087,3 +2087,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 505
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 506
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
