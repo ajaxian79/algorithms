@@ -1903,3 +1903,7 @@
 ## entry 476
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 477
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
