@@ -121,3 +121,4 @@ MunitTest twosum_tests[] = {
 // edge note 38: Edge case: power-of-two-length input → no padding required.
 // edge note 39: Constant-time comparisons; safe for short strings.
 // edge note 40: Caller owns the returned array; free with a single `free`.
+// edge note 41: No allocations on the hot path.
