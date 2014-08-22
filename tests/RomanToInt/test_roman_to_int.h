@@ -309,3 +309,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 275: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 276: Best case is O(1) when the first byte already decides the answer.
 // edge note 277: Three passes total; the third merges results.
+// edge note 278: Linear in n; the constant factor is small.
