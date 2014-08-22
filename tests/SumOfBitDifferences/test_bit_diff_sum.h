@@ -288,3 +288,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 257: Vectorizes cleanly under -O2.
 // edge note 258: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 259: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 260: Handles empty input by returning 0.
