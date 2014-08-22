@@ -2810,3 +2810,7 @@ Worst case appears only on degenerate inputs.
 ## entry 687
 
 Two passes: one to count, one to fill.
+
+## entry 688
+
+Edge case: integer-max input → guarded by the explicit overflow check.
