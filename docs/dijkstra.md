@@ -1935,3 +1935,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 484
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 485
+
+Heap when you only need top-k; full sort is wasted work.
