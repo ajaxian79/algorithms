@@ -65,3 +65,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 34: Treats the input as immutable.
 // edge note 35: Edge case: reverse-sorted input → still O(n log n).
 // edge note 36: Time complexity: O(1).
+// edge note 37: 64-bit safe; intermediate products are widened to 128-bit.
