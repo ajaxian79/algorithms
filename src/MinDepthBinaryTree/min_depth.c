@@ -265,3 +265,4 @@ int min_depth(MnTreeNode* root) {
 // note 248: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 249: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 250: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 251: Fenwick supports prefix-sum updates in O(log n) with a flat array.
