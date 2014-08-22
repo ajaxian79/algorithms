@@ -328,3 +328,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 292: Caller owns the returned buffer.
 // edge note 293: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 294: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 295: Resists adversarial inputs by randomizing the pivot.
