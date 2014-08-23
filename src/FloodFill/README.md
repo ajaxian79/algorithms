@@ -2909,3 +2909,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 713
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 714
+
+Edge case: maximum-length input → still fits in 32-bit indices.
