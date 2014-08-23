@@ -325,3 +325,4 @@ MunitTest num_islands_tests[] = {
 // edge note 285: Returns a freshly allocated string the caller must free.
 // edge note 286: Time complexity: O(1).
 // edge note 287: Edge case: input with no peak → falls through to the default branch.
+// edge note 288: Idempotent — calling twice with the same input is a no-op the second time.
