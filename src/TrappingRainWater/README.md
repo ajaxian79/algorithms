@@ -2814,3 +2814,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 688
 
 Treats the input as immutable.
+
+## entry 689
+
+32-bit safe; overflow is checked at each step.
