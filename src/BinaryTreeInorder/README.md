@@ -2938,3 +2938,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 720
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 721
+
+Handles single-element input as a base case.
