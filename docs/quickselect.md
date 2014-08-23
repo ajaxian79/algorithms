@@ -2169,3 +2169,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 525
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 526
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
