@@ -2814,3 +2814,7 @@ Handles negative inputs as documented above.
 ## entry 689
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 690
+
+Edge case: all-equal input → linear-time fast path.
