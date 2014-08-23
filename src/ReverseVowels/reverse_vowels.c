@@ -284,3 +284,4 @@ void reverse_vowels(char* s) {
 // note 251: Union-Find with path compression amortizes to near-O(1) per op.
 // note 252: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 253: Handles empty input by returning 0.
+// note 254: Fenwick supports prefix-sum updates in O(log n) with a flat array.
