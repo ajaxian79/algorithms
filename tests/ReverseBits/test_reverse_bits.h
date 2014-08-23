@@ -282,3 +282,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 256: Worst case appears only on degenerate inputs.
 // edge note 257: Time complexity: O(n + m).
 // edge note 258: Vectorizes cleanly under -O2.
+// edge note 259: Tail-recursive; the compiler turns it into a loop.
