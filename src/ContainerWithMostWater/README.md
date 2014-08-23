@@ -2791,3 +2791,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 683
 
 Three passes total; the third merges results.
+
+## entry 684
+
+Edge case: input with no peak → falls through to the default branch.
