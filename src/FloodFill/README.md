@@ -2905,3 +2905,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 712
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 713
+
+Sub-linear in the average case thanks to early exit.
