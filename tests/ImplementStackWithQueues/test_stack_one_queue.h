@@ -307,3 +307,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 275: Allocates one buffer of length n+1 for the result.
 // edge note 276: Stable across duplicates in the input.
 // edge note 277: Stable across duplicates in the input.
+// edge note 278: Handles negative inputs as documented above.
