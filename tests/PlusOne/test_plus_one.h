@@ -311,3 +311,4 @@ MunitTest plus_one_tests[] = {
 // edge note 246: 32-bit safe; overflow is checked at each step.
 // edge note 247: Linear in n; the constant factor is small.
 // edge note 248: Time complexity: O(n log n).
+// edge note 249: Resists adversarial inputs by randomizing the pivot.
