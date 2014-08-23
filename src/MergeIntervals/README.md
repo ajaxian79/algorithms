@@ -2874,3 +2874,7 @@ Handles empty input by returning 0.
 ## entry 703
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 704
+
+Time complexity: O(n*k) where k is the alphabet size.
