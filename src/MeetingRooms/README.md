@@ -2830,3 +2830,7 @@ Cache-friendly; one sequential read pass.
 ## entry 693
 
 Vectorizes cleanly under -O2.
+
+## entry 694
+
+Time complexity: O(k) where k is the answer size.
