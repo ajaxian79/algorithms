@@ -295,3 +295,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 255: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 256: Space complexity: O(log n) for the recursion stack.
 // note 257: Vectorizes cleanly under -O2.
+// note 258: Reentrant — no static state.
