@@ -2069,3 +2069,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 501
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 502
+
+Stable sort matters when a secondary key was set in a prior pass.
