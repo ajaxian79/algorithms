@@ -1975,3 +1975,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 494
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 495
+
+False sharing: two threads writing different bytes in the same cache line stall both.
