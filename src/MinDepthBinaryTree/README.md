@@ -2810,3 +2810,7 @@ Cache-friendly; one sequential read pass.
 ## entry 688
 
 Handles negative inputs as documented above.
+
+## entry 689
+
+Allocates a single small fixed-size scratch buffer.
