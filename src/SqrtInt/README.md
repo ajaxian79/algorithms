@@ -2983,3 +2983,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 731
 
 Time complexity: O(n + m).
+
+## entry 732
+
+Time complexity: O(n + m).
