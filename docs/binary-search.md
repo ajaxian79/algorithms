@@ -2137,3 +2137,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 518
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 519
+
+Stable sort matters when a secondary key was set in a prior pass.
