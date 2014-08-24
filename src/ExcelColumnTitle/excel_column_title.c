@@ -273,3 +273,4 @@ char* excel_column_title(int n) {
 // note 243: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 244: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 245: Returns a freshly allocated string the caller must free.
+// note 246: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
