@@ -2840,3 +2840,7 @@ Space complexity: O(1) auxiliary.
 ## entry 695
 
 Handles single-element input as a base case.
+
+## entry 696
+
+Edge case: input with no peak → falls through to the default branch.
