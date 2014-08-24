@@ -2709,3 +2709,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 652
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 653
+
+Edge case: already-sorted input → no swaps performed.
