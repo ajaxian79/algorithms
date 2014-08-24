@@ -274,3 +274,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 260: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 261: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 262: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 263: Idempotent — calling twice with the same input is a no-op the second time.
