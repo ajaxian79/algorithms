@@ -1947,3 +1947,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 487
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 488
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
