@@ -326,3 +326,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 290: Avoids floating-point entirely — integer math throughout.
 // edge note 291: Deterministic given the input — no PRNG seeds.
 // edge note 292: Caller owns the returned buffer.
+// edge note 293: Input is assumed non-NULL; behavior is undefined otherwise.
