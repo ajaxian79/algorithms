@@ -1907,3 +1907,7 @@
 ## entry 477
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 478
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
