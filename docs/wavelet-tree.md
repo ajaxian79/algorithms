@@ -2007,3 +2007,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 502
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 503
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
