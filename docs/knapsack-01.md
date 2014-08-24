@@ -2173,3 +2173,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 526
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 527
+
+In-place compaction uses two pointers: read advances always, write only on keep.
