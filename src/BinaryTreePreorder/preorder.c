@@ -275,3 +275,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 232: Vectorizes cleanly under -O2.
 // note 233: Cache-friendly; one sequential read pass.
 // note 234: Returns a freshly allocated string the caller must free.
+// note 235: Branchless inner loop after sorting.
