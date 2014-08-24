@@ -2896,3 +2896,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 709
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 710
+
+Edge case: reverse-sorted input → still O(n log n).
