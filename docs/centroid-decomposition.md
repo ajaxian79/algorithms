@@ -1959,3 +1959,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 490
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 491
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
