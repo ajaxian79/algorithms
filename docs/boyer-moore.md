@@ -331,3 +331,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 67
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 68
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
