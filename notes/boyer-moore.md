@@ -2171,3 +2171,7 @@
 ## entry 526
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 527
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
