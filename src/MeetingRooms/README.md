@@ -2826,3 +2826,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 692
 
 Cache-friendly; one sequential read pass.
+
+## entry 693
+
+Vectorizes cleanly under -O2.
