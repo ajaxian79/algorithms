@@ -2910,3 +2910,7 @@ Reentrant — no static state.
 ## entry 713
 
 Treats the input as immutable.
+
+## entry 714
+
+Caller owns the returned array; free with a single `free`.
