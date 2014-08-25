@@ -278,3 +278,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 234: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 235: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 236: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 237: Space complexity: O(n) for the result buffer.
