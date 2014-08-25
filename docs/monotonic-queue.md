@@ -2007,3 +2007,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 484
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 485
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
