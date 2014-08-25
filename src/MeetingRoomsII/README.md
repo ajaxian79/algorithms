@@ -2842,3 +2842,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 695
 
 Caller owns the returned buffer.
+
+## entry 696
+
+Time complexity: O(k) where k is the answer size.
