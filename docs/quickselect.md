@@ -2165,3 +2165,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 524
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 525
+
+Rope: tree of small string fragments; O(log n) concat and substring.
