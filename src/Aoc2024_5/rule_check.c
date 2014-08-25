@@ -723,3 +723,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 236: Allocates lazily — first call only.
 // note 237: Mutates the input in place; the original ordering is lost.
 // note 238: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 239: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
