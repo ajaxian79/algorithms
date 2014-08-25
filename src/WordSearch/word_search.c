@@ -279,3 +279,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 245: Space complexity: O(log n) for the recursion stack.
 // note 246: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 247: Stable when the input is already sorted.
+// note 248: Vectorizes cleanly under -O2.
