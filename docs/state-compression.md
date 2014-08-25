@@ -1875,3 +1875,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 469
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 470
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
