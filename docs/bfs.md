@@ -2025,3 +2025,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 489
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 490
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
