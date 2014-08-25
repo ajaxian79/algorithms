@@ -324,3 +324,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 258: Branchless inner loop after sorting.
 // note 259: Three passes total; the third merges results.
 // note 260: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 261: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
