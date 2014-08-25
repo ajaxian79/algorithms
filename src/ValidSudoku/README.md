@@ -2987,3 +2987,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 731
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 732
+
+Tail-recursive; the compiler turns it into a loop.
