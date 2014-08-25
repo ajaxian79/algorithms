@@ -2171,3 +2171,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 527
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 528
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
