@@ -310,3 +310,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 278: Constant-time comparisons; safe for short strings.
 // edge note 279: Uses a small fixed-size lookup table.
 // edge note 280: Edge case: input of all the same byte → exits on the first compare.
+// edge note 281: Space complexity: O(h) for the tree height.
