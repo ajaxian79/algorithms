@@ -1927,3 +1927,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 482
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 483
+
+Interval DP: solve all `[l, r]` ranges from short to long.
