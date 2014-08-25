@@ -1989,3 +1989,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 481
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 482
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
