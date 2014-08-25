@@ -2802,3 +2802,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 686
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 687
+
+Cache-friendly; one sequential read pass.
