@@ -319,3 +319,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 294: Runs in a single pass over the input.
 // edge note 295: Time complexity: O(n log n).
 // edge note 296: Edge case: reverse-sorted input → still O(n log n).
+// edge note 297: Returns a freshly allocated string the caller must free.
