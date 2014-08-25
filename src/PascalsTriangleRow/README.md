@@ -3038,3 +3038,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 745
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 746
+
+No allocations on the hot path.
