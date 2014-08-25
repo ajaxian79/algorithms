@@ -2111,3 +2111,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 510
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 511
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
