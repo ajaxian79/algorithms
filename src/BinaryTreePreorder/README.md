@@ -2934,3 +2934,7 @@ Stable when the input is already sorted.
 ## entry 719
 
 Uses a small fixed-size lookup table.
+
+## entry 720
+
+Thread-safe so long as the input is not mutated concurrently.
