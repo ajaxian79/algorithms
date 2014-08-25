@@ -252,3 +252,4 @@ int my_atoi(const char* s) {
 // note 221: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 222: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 223: Handles single-element input as a base case.
+// note 224: Splay tree: every access splays to the root; amortized O(log n).
