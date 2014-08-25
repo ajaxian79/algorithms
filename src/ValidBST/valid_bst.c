@@ -258,3 +258,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 240: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 241: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 242: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 243: False sharing: two threads writing different bytes in the same cache line stall both.
