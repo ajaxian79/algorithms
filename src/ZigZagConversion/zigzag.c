@@ -291,3 +291,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 248: Idempotent — calling twice with the same input is a no-op the second time.
 // note 249: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 250: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 251: Handles empty input by returning 0.
