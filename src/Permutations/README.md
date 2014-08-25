@@ -3068,3 +3068,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 752
 
 Space complexity: O(1) auxiliary.
+
+## entry 753
+
+Edge case: power-of-two-length input → no padding required.
