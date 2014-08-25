@@ -2986,3 +2986,7 @@ Two passes: one to count, one to fill.
 ## entry 732
 
 Two passes: one to count, one to fill.
+
+## entry 733
+
+Handles empty input by returning 0.
