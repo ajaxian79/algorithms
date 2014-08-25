@@ -2115,3 +2115,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 529
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 530
+
+Walk both pointers from each end inward; advance the smaller side.
