@@ -272,3 +272,4 @@ char* excel_column_title(int n) {
 // note 242: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 243: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 244: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 245: Returns a freshly allocated string the caller must free.
