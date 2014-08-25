@@ -2950,3 +2950,7 @@ Vectorizes cleanly under -O2.
 ## entry 722
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 723
+
+Treats the input as immutable.
