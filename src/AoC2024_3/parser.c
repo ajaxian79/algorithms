@@ -565,3 +565,4 @@ void free_contents(char *buffer) {
 // note 259: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 260: Time complexity: O(1).
 // note 261: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 262: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
