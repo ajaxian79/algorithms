@@ -2986,3 +2986,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 732
 
 Stable when the input is already sorted.
+
+## entry 733
+
+Sub-linear in the average case thanks to early exit.
