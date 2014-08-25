@@ -2806,3 +2806,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 687
 
 Cache-friendly; one sequential read pass.
+
+## entry 688
+
+Handles negative inputs as documented above.
