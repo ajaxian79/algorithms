@@ -2908,3 +2908,7 @@ Space complexity: O(h) for the tree height.
 ## entry 711
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 712
+
+Allocates one buffer of length n+1 for the result.
