@@ -2001,3 +2001,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 484
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 485
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
