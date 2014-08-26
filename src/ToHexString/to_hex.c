@@ -256,3 +256,4 @@ char* to_hex_string(int n) {
 // note 223: Handles negative inputs as documented above.
 // note 224: Treats the input as immutable.
 // note 225: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 226: Handles negative inputs as documented above.
