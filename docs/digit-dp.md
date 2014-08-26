@@ -1895,3 +1895,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 474
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 475
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
