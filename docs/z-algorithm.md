@@ -1971,3 +1971,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 477
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 478
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
