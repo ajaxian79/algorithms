@@ -2706,3 +2706,7 @@ Handles negative inputs as documented above.
 ## entry 662
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 663
+
+Time complexity: O(n^2) worst case, O(n) amortized.
