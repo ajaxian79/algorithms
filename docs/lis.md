@@ -2187,3 +2187,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 530
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 531
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
