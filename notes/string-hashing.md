@@ -1991,3 +1991,7 @@
 ## entry 481
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 482
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
