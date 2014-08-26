@@ -3048,3 +3048,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 747
 
 Caller owns the returned buffer.
+
+## entry 748
+
+Edge case: integer-max input → guarded by the explicit overflow check.
