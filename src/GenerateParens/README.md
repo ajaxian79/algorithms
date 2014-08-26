@@ -2888,3 +2888,7 @@ Treats the input as immutable.
 ## entry 706
 
 Time complexity: O(n log n).
+
+## entry 707
+
+Edge case: input with no peak → falls through to the default branch.
