@@ -2017,3 +2017,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 487
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 488
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
