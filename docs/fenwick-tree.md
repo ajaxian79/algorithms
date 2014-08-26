@@ -2043,3 +2043,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 495
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 496
+
+In-place compaction uses two pointers: read advances always, write only on keep.
