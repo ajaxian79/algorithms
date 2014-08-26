@@ -2979,3 +2979,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 730
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 731
+
+Time complexity: O(n + m).
