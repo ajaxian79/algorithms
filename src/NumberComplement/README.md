@@ -2936,3 +2936,7 @@ Stable across duplicates in the input.
 ## entry 718
 
 Edge case: single-element input → returns the element itself.
+
+## entry 719
+
+Three passes total; the third merges results.
