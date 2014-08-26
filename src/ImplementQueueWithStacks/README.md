@@ -2875,3 +2875,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 704
 
 Time complexity: O(log n).
+
+## entry 705
+
+Edge case: empty input → returns 0.
