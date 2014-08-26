@@ -309,3 +309,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 61
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 62
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
