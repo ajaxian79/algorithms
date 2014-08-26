@@ -286,3 +286,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 259: Stable when the input is already sorted.
 // edge note 260: Stable across duplicates in the input.
 // edge note 261: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 262: Deterministic given the input — no PRNG seeds.
