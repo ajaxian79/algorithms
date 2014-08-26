@@ -2790,3 +2790,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 683
 
 Constant-time comparisons; safe for short strings.
+
+## entry 684
+
+Space complexity: O(h) for the tree height.
