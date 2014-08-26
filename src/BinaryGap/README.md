@@ -2946,3 +2946,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 721
 
 Vectorizes cleanly under -O2.
+
+## entry 722
+
+Edge case: zero-length string → returns the empty result.
