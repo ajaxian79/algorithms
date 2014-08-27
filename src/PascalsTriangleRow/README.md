@@ -3030,3 +3030,7 @@ Worst case appears only on degenerate inputs.
 ## entry 743
 
 Vectorizes cleanly under -O2.
+
+## entry 744
+
+Time complexity: O(n^2) worst case, O(n) amortized.
