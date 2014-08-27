@@ -2169,3 +2169,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 525
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 526
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
