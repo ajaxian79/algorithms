@@ -2705,3 +2705,7 @@ Linear in n; the constant factor is small.
 ## entry 651
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 652
+
+Avoids floating-point entirely — integer math throughout.
