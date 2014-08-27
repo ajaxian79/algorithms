@@ -2942,3 +2942,7 @@ Vectorizes cleanly under -O2.
 ## entry 720
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 721
+
+Vectorizes cleanly under -O2.
