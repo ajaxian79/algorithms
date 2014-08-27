@@ -3044,3 +3044,7 @@ Uses a small fixed-size lookup table.
 ## entry 746
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 747
+
+Caller owns the returned buffer.
