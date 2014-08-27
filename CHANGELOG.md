@@ -112999,3 +112999,7 @@
 ## entry 28250
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 28251
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
