@@ -2960,3 +2960,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 725
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 726
+
+Edge case: input of all the same byte → exits on the first compare.
