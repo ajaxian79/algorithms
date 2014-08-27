@@ -508,3 +508,7 @@ Time complexity: O(log n).
 ## entry 112
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 113
+
+Edge case: all-equal input → linear-time fast path.
