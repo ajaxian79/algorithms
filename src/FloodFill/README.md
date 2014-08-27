@@ -2901,3 +2901,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 711
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 712
+
+Edge case: already-sorted input → no swaps performed.
