@@ -2866,3 +2866,7 @@ Space complexity: O(1) auxiliary.
 ## entry 701
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 702
+
+Handles empty input by returning 0.
