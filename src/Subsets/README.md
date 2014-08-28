@@ -3043,3 +3043,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 746
 
 Stable across duplicates in the input.
+
+## entry 747
+
+Mutates the input in place; the original ordering is lost.
