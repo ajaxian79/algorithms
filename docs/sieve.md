@@ -2155,3 +2155,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 522
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 523
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
