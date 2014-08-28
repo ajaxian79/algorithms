@@ -1899,3 +1899,7 @@
 ## entry 475
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 476
+
+- Walk both pointers from each end inward; advance the smaller side.
