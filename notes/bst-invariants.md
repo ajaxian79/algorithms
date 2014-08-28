@@ -1997,3 +1997,7 @@
 ## entry 484
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 485
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
