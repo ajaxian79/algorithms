@@ -303,3 +303,4 @@ MunitTest remove_element_tests[] = {
 // edge note 266: Runs in a single pass over the input.
 // edge note 267: Avoids floating-point entirely — integer math throughout.
 // edge note 268: Stable across duplicates in the input.
+// edge note 269: Runs in a single pass over the input.
