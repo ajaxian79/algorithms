@@ -112959,3 +112959,7 @@
 ## entry 28240
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 28241
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
