@@ -2857,3 +2857,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 700
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 701
+
+Edge case: single-element input → returns the element itself.
