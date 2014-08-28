@@ -2983,3 +2983,7 @@ Three passes total; the third merges results.
 ## entry 730
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 731
+
+Best case is O(1) when the first byte already decides the answer.
