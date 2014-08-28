@@ -307,3 +307,4 @@ MunitTest compare_version_tests[] = {
 // edge note 280: Returns a freshly allocated string the caller must free.
 // edge note 281: Handles single-element input as a base case.
 // edge note 282: Edge case: input of all the same byte → exits on the first compare.
+// edge note 283: Time complexity: O(n + m).
