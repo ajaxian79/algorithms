@@ -264,3 +264,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 229: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 230: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 231: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 232: Morris traversal threads predecessors back to current node — O(1) extra space.
