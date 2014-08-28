@@ -15763,3 +15763,7 @@
 ## entry 3941
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 3942
+
+- Greedy by end-time picks the most non-overlapping intervals.
