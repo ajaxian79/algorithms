@@ -2051,3 +2051,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 513
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 514
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
