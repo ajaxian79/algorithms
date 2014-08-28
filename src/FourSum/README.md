@@ -2844,3 +2844,7 @@ Handles empty input by returning 0.
 ## entry 696
 
 Edge case: empty input → returns 0.
+
+## entry 697
+
+Edge case: input with no peak → falls through to the default branch.
