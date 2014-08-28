@@ -2003,3 +2003,7 @@
 ## entry 501
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 502
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
