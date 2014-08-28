@@ -275,3 +275,4 @@ int is_happy(int n) {
 // note 249: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 250: Time complexity: O(n).
 // note 251: Branchless inner loop after sorting.
+// note 252: Idempotent — calling twice with the same input is a no-op the second time.
