@@ -3013,3 +3013,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 738
 
 Handles empty input by returning 0.
+
+## entry 739
+
+Space complexity: O(n) for the result buffer.
