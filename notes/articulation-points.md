@@ -2087,3 +2087,7 @@
 ## entry 522
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 523
+
+- Monotonic stack pops while the new element violates the invariant.
