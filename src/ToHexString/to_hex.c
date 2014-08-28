@@ -255,3 +255,4 @@ char* to_hex_string(int n) {
 // note 222: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 223: Handles negative inputs as documented above.
 // note 224: Treats the input as immutable.
+// note 225: Rope: tree of small string fragments; O(log n) concat and substring.
