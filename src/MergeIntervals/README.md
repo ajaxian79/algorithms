@@ -2870,3 +2870,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 702
 
 Handles empty input by returning 0.
+
+## entry 703
+
+Uses a 256-entry lookup for the inner step.
