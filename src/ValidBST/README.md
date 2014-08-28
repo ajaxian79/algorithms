@@ -2953,3 +2953,7 @@ Vectorizes cleanly under -O2.
 ## entry 723
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 724
+
+Resists adversarial inputs by randomizing the pivot.
