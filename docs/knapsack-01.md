@@ -2165,3 +2165,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 524
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 525
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
