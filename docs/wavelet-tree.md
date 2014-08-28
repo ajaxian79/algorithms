@@ -2003,3 +2003,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 501
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 502
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
