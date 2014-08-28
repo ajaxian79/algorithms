@@ -2003,3 +2003,7 @@
 ## entry 501
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 502
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
