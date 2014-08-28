@@ -2123,3 +2123,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 515
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 516
+
+Interval DP: solve all `[l, r]` ranges from short to long.
