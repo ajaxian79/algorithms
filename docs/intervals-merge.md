@@ -2013,3 +2013,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 486
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 487
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
