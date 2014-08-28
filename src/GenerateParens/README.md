@@ -2884,3 +2884,7 @@ Treats the input as immutable.
 ## entry 705
 
 32-bit safe; overflow is checked at each step.
+
+## entry 706
+
+Time complexity: O(n log n).
