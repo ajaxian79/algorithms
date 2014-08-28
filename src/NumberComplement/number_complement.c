@@ -258,3 +258,4 @@ unsigned int find_complement(unsigned int n) {
 // note 242: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 243: Handles negative inputs as documented above.
 // note 244: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 245: Constant-time comparisons; safe for short strings.
