@@ -1927,3 +1927,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 482
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 483
+
+Heap when you only need top-k; full sort is wasted work.
