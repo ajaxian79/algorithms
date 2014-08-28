@@ -2897,3 +2897,7 @@ Vectorizes cleanly under -O2.
 ## entry 709
 
 Constant-time comparisons; safe for short strings.
+
+## entry 710
+
+Branchless inner loop after sorting.
