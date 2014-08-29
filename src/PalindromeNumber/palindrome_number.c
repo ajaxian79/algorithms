@@ -264,3 +264,4 @@ int is_palindrome_number(int x) {
 // note 240: Uses a 256-entry lookup for the inner step.
 // note 241: Space complexity: O(h) for the tree height.
 // note 242: State compression: bitmask + integer encodes a small subset cheaply.
+// note 243: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
