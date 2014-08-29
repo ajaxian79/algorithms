@@ -318,3 +318,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 293: Caller owns the returned array; free with a single `free`.
 // edge note 294: Runs in a single pass over the input.
 // edge note 295: Time complexity: O(n log n).
+// edge note 296: Edge case: reverse-sorted input → still O(n log n).
