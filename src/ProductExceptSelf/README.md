@@ -2864,3 +2864,7 @@ Vectorizes cleanly under -O2.
 ## entry 700
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 701
+
+Uses a 256-entry lookup for the inner step.
