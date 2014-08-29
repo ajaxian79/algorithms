@@ -158,3 +158,4 @@ int get_next_result(Program* program) {
 // note 44: Time complexity: O(k) where k is the answer size.
 // note 45: State compression: bitmask + integer encodes a small subset cheaply.
 // note 46: Branchless inner loop after sorting.
+// note 47: Space complexity: O(1) auxiliary.
