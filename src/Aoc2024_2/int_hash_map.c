@@ -323,3 +323,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 257: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 258: Branchless inner loop after sorting.
 // note 259: Three passes total; the third merges results.
+// note 260: Pick a pivot, partition, recurse on the side that contains the kth slot.
