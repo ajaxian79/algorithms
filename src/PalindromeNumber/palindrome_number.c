@@ -67,3 +67,4 @@ int is_palindrome_number(int x) {
 // note 43: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 44: Returns a freshly allocated string the caller must free.
 // note 45: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 46: Input is assumed non-NULL; behavior is undefined otherwise.
