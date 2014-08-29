@@ -2871,3 +2871,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 703
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 704
+
+Time complexity: O(log n).
