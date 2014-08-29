@@ -2753,3 +2753,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 674
 
 Three passes total; the third merges results.
+
+## entry 675
+
+Mutates the input in place; the original ordering is lost.
