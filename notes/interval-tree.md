@@ -1991,3 +1991,7 @@
 ## entry 498
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 499
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
