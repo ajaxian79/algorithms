@@ -2007,3 +2007,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 485
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 486
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
