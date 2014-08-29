@@ -337,3 +337,4 @@ MunitTest twosum_tests[] = {
 // edge note 254: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 255: No allocations on the hot path.
 // edge note 256: No allocations after setup.
+// edge note 257: Handles single-element input as a base case.
