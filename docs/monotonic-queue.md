@@ -2003,3 +2003,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 483
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 484
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
