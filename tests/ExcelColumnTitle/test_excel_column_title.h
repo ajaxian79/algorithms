@@ -255,3 +255,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 223: Branchless inner loop after sorting.
 // edge note 224: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 225: Cache-friendly; one sequential read pass.
+// edge note 226: Edge case: integer-min input → guarded by the explicit underflow check.
