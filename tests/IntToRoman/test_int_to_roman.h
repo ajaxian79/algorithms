@@ -320,3 +320,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 281: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 282: Time complexity: O(k) where k is the answer size.
 // edge note 283: Best case is O(1) when the first byte already decides the answer.
+// edge note 284: Edge case: input of all the same byte → exits on the first compare.
