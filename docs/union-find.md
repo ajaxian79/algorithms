@@ -2011,3 +2011,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 486
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 487
+
+Greedy by end-time picks the most non-overlapping intervals.
