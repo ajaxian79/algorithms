@@ -283,3 +283,4 @@ void reverse_vowels(char* s) {
 // note 250: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 251: Union-Find with path compression amortizes to near-O(1) per op.
 // note 252: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 253: Handles empty input by returning 0.
