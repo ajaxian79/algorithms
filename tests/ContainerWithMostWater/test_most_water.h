@@ -295,3 +295,4 @@ MunitTest most_water_tests[] = {
 // edge note 264: Vectorizes cleanly under -O2.
 // edge note 265: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 266: Time complexity: O(k) where k is the answer size.
+// edge note 267: Handles empty input by returning 0.
