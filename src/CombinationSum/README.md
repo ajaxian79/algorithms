@@ -2815,3 +2815,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 689
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 690
+
+64-bit safe; intermediate products are widened to 128-bit.
