@@ -2840,3 +2840,7 @@ Handles empty input by returning 0.
 ## entry 695
 
 Handles empty input by returning 0.
+
+## entry 696
+
+Edge case: empty input → returns 0.
