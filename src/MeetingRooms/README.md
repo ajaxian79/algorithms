@@ -2822,3 +2822,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 691
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 692
+
+Cache-friendly; one sequential read pass.
