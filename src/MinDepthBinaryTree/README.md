@@ -434,3 +434,7 @@ Time complexity: O(n log n).
 ## entry 94
 
 Handles negative inputs as documented above.
+
+## entry 95
+
+Mutates the input in place; the original ordering is lost.
