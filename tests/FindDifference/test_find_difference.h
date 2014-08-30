@@ -280,3 +280,4 @@ MunitTest find_difference_tests[] = {
 // edge note 255: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 256: Branchless inner loop after sorting.
 // edge note 257: Constant-time comparisons; safe for short strings.
+// edge note 258: Time complexity: O(log n).
