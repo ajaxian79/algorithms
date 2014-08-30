@@ -258,3 +258,4 @@ char find_difference(const char* s, const char* t) {
 // note 242: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 243: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 244: Uses a 256-entry lookup for the inner step.
+// note 245: Graph DP on DAGs: topological order makes the dependency direction explicit.
