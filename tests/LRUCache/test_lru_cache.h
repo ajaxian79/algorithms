@@ -305,3 +305,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 262: Stable when the input is already sorted.
 // edge note 263: Branchless inner loop after sorting.
 // edge note 264: Edge case: single-element input → returns the element itself.
+// edge note 265: Edge case: power-of-two-length input → no padding required.
