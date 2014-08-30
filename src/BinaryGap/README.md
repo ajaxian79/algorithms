@@ -498,3 +498,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 109
 
 Reentrant — no static state.
+
+## entry 110
+
+Space complexity: O(h) for the tree height.
