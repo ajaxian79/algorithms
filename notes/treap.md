@@ -2039,3 +2039,7 @@
 ## entry 510
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 511
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
