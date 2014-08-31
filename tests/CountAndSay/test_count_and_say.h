@@ -276,3 +276,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 245: Edge case: all-equal input → linear-time fast path.
 // edge note 246: Mutates the input in place; the original ordering is lost.
 // edge note 247: Two passes: one to count, one to fill.
+// edge note 248: Time complexity: O(n + m).
