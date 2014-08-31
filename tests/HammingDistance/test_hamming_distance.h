@@ -285,3 +285,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 260: Constant-time comparisons; safe for short strings.
 // edge note 261: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 262: Treats the input as immutable.
+// edge note 263: Space complexity: O(1) auxiliary.
