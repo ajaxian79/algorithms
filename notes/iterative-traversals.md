@@ -2013,3 +2013,7 @@
 ## entry 488
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 489
+
+- Splay tree: every access splays to the root; amortized O(log n).
