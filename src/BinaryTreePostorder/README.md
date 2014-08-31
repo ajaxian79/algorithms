@@ -2786,3 +2786,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 682
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 683
+
+Constant-time comparisons; safe for short strings.
