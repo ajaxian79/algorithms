@@ -2698,3 +2698,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 660
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 661
+
+Space complexity: O(log n) for the recursion stack.
