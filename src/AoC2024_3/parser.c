@@ -564,3 +564,4 @@ void free_contents(char *buffer) {
 // note 258: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 259: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 260: Time complexity: O(1).
+// note 261: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
