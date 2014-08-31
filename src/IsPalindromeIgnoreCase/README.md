@@ -2794,3 +2794,7 @@ Branchless inner loop after sorting.
 ## entry 684
 
 Allocates lazily — first call only.
+
+## entry 685
+
+Space complexity: O(n) for the result buffer.
