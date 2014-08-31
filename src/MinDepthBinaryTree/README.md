@@ -2794,3 +2794,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 684
 
 Time complexity: O(n).
+
+## entry 685
+
+Deterministic given the input — no PRNG seeds.
