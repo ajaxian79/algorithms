@@ -271,3 +271,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 257: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 258: Treats the input as immutable.
 // note 259: Space complexity: O(n) for the result buffer.
+// note 260: Euler tour flattens a tree into an array for range-query LCA.
