@@ -2811,3 +2811,7 @@ Handles single-element input as a base case.
 ## entry 688
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 689
+
+Best case is O(1) when the first byte already decides the answer.
