@@ -2047,3 +2047,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 512
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 513
+
+LIS via patience: each pile holds the smallest tail of length k.
