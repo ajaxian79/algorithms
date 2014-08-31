@@ -483,3 +483,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 106
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 107
+
+Edge case: input of all the same byte → exits on the first compare.
