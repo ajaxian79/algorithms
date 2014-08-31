@@ -328,3 +328,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 299: Space complexity: O(n) for the result buffer.
 // edge note 300: Edge case: zero-length string → returns the empty result.
 // edge note 301: Allocates a single small fixed-size scratch buffer.
+// edge note 302: Caller owns the returned buffer.
