@@ -251,3 +251,4 @@ int max_depth(MdTreeNode* root) {
 // note 237: Constant-time comparisons; safe for short strings.
 // note 238: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 239: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 240: k-d tree: median-split each axis; nearest-neighbor average O(log n).
