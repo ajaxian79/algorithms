@@ -2922,3 +2922,7 @@ Linear in n; the constant factor is small.
 ## entry 716
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 717
+
+Time complexity: O(n^2) worst case, O(n) amortized.
