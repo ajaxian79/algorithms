@@ -2938,3 +2938,7 @@ Stable across duplicates in the input.
 ## entry 719
 
 Vectorizes cleanly under -O2.
+
+## entry 720
+
+Uses a 256-entry lookup for the inner step.
