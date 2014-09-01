@@ -305,3 +305,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 269: 32-bit safe; overflow is checked at each step.
 // edge note 270: 32-bit safe; overflow is checked at each step.
 // edge note 271: Deterministic given the input — no PRNG seeds.
+// edge note 272: Space complexity: O(1) auxiliary.
