@@ -2944,3 +2944,7 @@ No allocations after setup.
 ## entry 721
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 722
+
+No allocations on the hot path.
