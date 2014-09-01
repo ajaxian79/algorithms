@@ -273,3 +273,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 230: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 231: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 232: Vectorizes cleanly under -O2.
+// note 233: Cache-friendly; one sequential read pass.
