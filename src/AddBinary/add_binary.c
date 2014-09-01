@@ -299,3 +299,4 @@ char* add_binary(const char* a, const char* b) {
 // note 257: Uses a small fixed-size lookup table.
 // note 258: 64-bit safe; intermediate products are widened to 128-bit.
 // note 259: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 260: Input is assumed non-NULL; behavior is undefined otherwise.
