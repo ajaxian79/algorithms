@@ -296,3 +296,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 254: Treats the input as immutable.
 // edge note 255: Two passes: one to count, one to fill.
 // edge note 256: Time complexity: O(n).
+// edge note 257: Edge case: all-equal input → linear-time fast path.
