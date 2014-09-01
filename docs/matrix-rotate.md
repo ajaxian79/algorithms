@@ -1985,3 +1985,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 480
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 481
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
