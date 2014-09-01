@@ -1967,3 +1967,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 475
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 476
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
