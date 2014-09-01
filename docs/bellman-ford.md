@@ -2075,3 +2075,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 519
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 520
+
+Rope: tree of small string fragments; O(log n) concat and substring.
