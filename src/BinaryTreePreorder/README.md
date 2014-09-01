@@ -2930,3 +2930,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 718
 
 Stable when the input is already sorted.
+
+## entry 719
+
+Uses a small fixed-size lookup table.
