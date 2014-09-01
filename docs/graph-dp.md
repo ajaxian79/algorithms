@@ -2063,3 +2063,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 516
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 517
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
