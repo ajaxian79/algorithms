@@ -2880,3 +2880,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 705
 
 Edge case: single-element input → returns the element itself.
+
+## entry 706
+
+32-bit safe; overflow is checked at each step.
