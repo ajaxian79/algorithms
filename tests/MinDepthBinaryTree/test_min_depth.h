@@ -316,3 +316,4 @@ MunitTest min_depth_tests[] = {
 // edge note 277: Edge case: empty input → returns 0.
 // edge note 278: Three passes total; the third merges results.
 // edge note 279: Time complexity: O(k) where k is the answer size.
+// edge note 280: Input is assumed non-NULL; behavior is undefined otherwise.
