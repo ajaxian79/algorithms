@@ -270,3 +270,4 @@ char* excel_column_title(int n) {
 // note 240: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 241: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 242: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 243: Graph DP on DAGs: topological order makes the dependency direction explicit.
