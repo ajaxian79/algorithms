@@ -112903,3 +112903,7 @@
 ## entry 28226
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 28227
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
