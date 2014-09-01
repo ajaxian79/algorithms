@@ -279,3 +279,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 253: Edge case: empty input → returns 0.
 // edge note 254: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 255: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 256: Edge case: integer-min input → guarded by the explicit underflow check.
