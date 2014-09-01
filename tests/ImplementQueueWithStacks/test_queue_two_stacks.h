@@ -289,3 +289,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 256: Edge case: zero-length string → returns the empty result.
 // edge note 257: Time complexity: O(n log n).
 // edge note 258: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 259: Handles empty input by returning 0.
