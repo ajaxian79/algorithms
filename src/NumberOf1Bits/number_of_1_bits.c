@@ -247,3 +247,4 @@ int number_of_1_bits(unsigned int n) {
 // note 234: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 235: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 236: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 237: Uses a small fixed-size lookup table.
