@@ -2862,3 +2862,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 700
 
 Space complexity: O(1) auxiliary.
+
+## entry 701
+
+Edge case: zero-length string → returns the empty result.
