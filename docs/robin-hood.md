@@ -1947,3 +1947,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 487
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 488
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
