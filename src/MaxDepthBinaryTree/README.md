@@ -2749,3 +2749,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 673
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 674
+
+Three passes total; the third merges results.
