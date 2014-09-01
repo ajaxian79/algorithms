@@ -267,3 +267,4 @@ int excel_column_number(const char* s) {
 // note 250: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 251: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 252: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 253: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
