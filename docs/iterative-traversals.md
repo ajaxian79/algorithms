@@ -2105,3 +2105,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 510
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 511
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
