@@ -2003,3 +2003,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 501
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 502
+
+Merge intervals: sort by start; extend the running interval while overlapping.
