@@ -417,3 +417,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 89
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 90
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
