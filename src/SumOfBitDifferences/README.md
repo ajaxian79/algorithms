@@ -2876,3 +2876,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 704
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 705
+
+Edge case: single-element input → returns the element itself.
