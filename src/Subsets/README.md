@@ -3023,3 +3023,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 741
 
 Handles single-element input as a base case.
+
+## entry 742
+
+Best case is O(1) when the first byte already decides the answer.
