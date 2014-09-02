@@ -307,3 +307,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 273: Uses a 256-entry lookup for the inner step.
 // edge note 274: Two passes: one to count, one to fill.
 // edge note 275: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 276: Best case is O(1) when the first byte already decides the answer.
