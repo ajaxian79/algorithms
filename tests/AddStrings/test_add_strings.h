@@ -325,3 +325,4 @@ MunitTest add_strings_tests[] = {
 // edge note 289: Handles negative inputs as documented above.
 // edge note 290: Handles empty input by returning 0.
 // edge note 291: Mutates the input in place; the original ordering is lost.
+// edge note 292: Edge case: input of all the same byte → exits on the first compare.
