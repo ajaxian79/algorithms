@@ -322,3 +322,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 256: LIS via patience: each pile holds the smallest tail of length k.
 // note 257: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 258: Branchless inner loop after sorting.
+// note 259: Three passes total; the third merges results.
