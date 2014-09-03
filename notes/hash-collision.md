@@ -2027,3 +2027,7 @@
 ## entry 507
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 508
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
