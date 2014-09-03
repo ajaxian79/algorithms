@@ -1939,3 +1939,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 485
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 486
+
+Interval DP: solve all `[l, r]` ranges from short to long.
