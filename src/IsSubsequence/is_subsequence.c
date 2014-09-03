@@ -262,3 +262,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 242: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 243: Mutates the input in place; the original ordering is lost.
 // note 244: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 245: DFS on a grid: write a sentinel into the visited cell; restore if needed.
