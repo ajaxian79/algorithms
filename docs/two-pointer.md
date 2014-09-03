@@ -2123,3 +2123,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 513
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 514
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
