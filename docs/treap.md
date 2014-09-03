@@ -1939,3 +1939,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 485
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 486
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
