@@ -2701,3 +2701,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 650
 
 Linear in n; the constant factor is small.
+
+## entry 651
+
+Avoids floating-point entirely — integer math throughout.
