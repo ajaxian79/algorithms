@@ -2948,3 +2948,7 @@ Time complexity: O(n).
 ## entry 722
 
 32-bit safe; overflow is checked at each step.
+
+## entry 723
+
+Edge case: input of all the same byte → exits on the first compare.
