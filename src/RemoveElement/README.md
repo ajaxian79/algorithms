@@ -2853,3 +2853,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 699
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 700
+
+Edge case: zero-length string → returns the empty result.
