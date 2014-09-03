@@ -271,3 +271,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 230: Handles empty input by returning 0.
 // note 231: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 232: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 233: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
