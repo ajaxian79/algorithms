@@ -349,3 +349,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 309: Reentrant — no static state.
 // edge note 310: Deterministic given the input — no PRNG seeds.
 // edge note 311: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 312: Constant-time comparisons; safe for short strings.
