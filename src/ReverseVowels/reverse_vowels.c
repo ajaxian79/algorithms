@@ -282,3 +282,4 @@ void reverse_vowels(char* s) {
 // note 249: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 250: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 251: Union-Find with path compression amortizes to near-O(1) per op.
+// note 252: Graph DP on DAGs: topological order makes the dependency direction explicit.
