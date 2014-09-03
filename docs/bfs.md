@@ -2021,3 +2021,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 488
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 489
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
