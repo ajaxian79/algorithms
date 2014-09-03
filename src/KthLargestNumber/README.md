@@ -2900,3 +2900,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 709
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 710
+
+Space complexity: O(h) for the tree height.
