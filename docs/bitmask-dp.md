@@ -2111,3 +2111,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 528
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 529
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
