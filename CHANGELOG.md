@@ -112847,3 +112847,7 @@
 ## entry 28212
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 28213
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
