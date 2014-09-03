@@ -273,3 +273,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 239: Caller owns the returned buffer.
 // edge note 240: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 241: Edge case: input of all the same byte → exits on the first compare.
+// edge note 242: Returns a freshly allocated string the caller must free.
