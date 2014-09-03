@@ -2119,3 +2119,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 512
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 513
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
