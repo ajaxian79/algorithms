@@ -3066,3 +3066,7 @@ Time complexity: O(n).
 ## entry 752
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 753
+
+Stable across duplicates in the input.
