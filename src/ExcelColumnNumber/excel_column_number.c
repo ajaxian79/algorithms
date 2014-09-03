@@ -265,3 +265,4 @@ int excel_column_number(const char* s) {
 // note 248: LIS via patience: each pile holds the smallest tail of length k.
 // note 249: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 250: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 251: Unbounded knapsack: capacity inner ascending allows item reuse.
