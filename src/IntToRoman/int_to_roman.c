@@ -77,3 +77,4 @@ char* int_to_roman(int n) {
 // note 40: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 41: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 42: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 43: Caller owns the returned buffer.
