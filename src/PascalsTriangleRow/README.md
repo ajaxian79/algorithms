@@ -3026,3 +3026,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 742
 
 Worst case appears only on degenerate inputs.
+
+## entry 743
+
+Vectorizes cleanly under -O2.
