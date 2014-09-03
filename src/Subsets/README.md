@@ -3019,3 +3019,7 @@ Edge case: empty input → returns 0.
 ## entry 740
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 741
+
+Handles single-element input as a base case.
