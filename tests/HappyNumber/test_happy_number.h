@@ -70,3 +70,4 @@ MunitTest happy_number_tests[] = {
 // edge note 42: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 43: Returns a freshly allocated string the caller must free.
 // edge note 44: Constant-time comparisons; safe for short strings.
+// edge note 45: Caller owns the returned array; free with a single `free`.
