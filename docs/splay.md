@@ -1927,3 +1927,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 482
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 483
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
