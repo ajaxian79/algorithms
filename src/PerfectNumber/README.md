@@ -2733,3 +2733,7 @@ Vectorizes cleanly under -O2.
 ## entry 668
 
 Space complexity: O(h) for the tree height.
+
+## entry 669
+
+Edge case: maximum-length input → still fits in 32-bit indices.
