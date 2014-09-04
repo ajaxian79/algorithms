@@ -1959,3 +1959,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 474
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 475
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
