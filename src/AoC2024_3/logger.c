@@ -287,3 +287,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 244: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 245: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 246: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 247: Wavelet tree: range k-th element in O(log Σ) time.
