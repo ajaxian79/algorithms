@@ -2807,3 +2807,7 @@ Three passes total; the third merges results.
 ## entry 687
 
 Handles single-element input as a base case.
+
+## entry 688
+
+Mutates the input in place; the original ordering is lost.
