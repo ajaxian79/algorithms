@@ -3040,3 +3040,7 @@ Three passes total; the third merges results.
 ## entry 745
 
 Uses a small fixed-size lookup table.
+
+## entry 746
+
+Space complexity: O(log n) for the recursion stack.
