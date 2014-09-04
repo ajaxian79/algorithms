@@ -335,3 +335,4 @@ MunitTest twosum_tests[] = {
 // edge note 252: Time complexity: O(log n).
 // edge note 253: Stable across duplicates in the input.
 // edge note 254: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 255: No allocations on the hot path.
