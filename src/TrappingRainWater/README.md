@@ -2806,3 +2806,7 @@ Time complexity: O(n + m).
 ## entry 686
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 687
+
+Edge case: zero-length string → returns the empty result.
