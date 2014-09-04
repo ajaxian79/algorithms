@@ -2147,3 +2147,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 520
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 521
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
