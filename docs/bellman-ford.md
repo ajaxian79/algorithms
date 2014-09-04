@@ -2071,3 +2071,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 518
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 519
+
+Wavelet tree: range k-th element in O(log Σ) time.
