@@ -2157,3 +2157,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 522
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 523
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
