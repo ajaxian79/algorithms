@@ -112839,3 +112839,7 @@
 ## entry 28210
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 28211
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
