@@ -2940,3 +2940,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 720
 
 No allocations after setup.
+
+## entry 721
+
+Caller owns the returned array; free with a single `free`.
