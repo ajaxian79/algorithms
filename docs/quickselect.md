@@ -2161,3 +2161,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 523
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 524
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
