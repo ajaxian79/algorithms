@@ -2928,3 +2928,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 716
 
 Uses a small fixed-size lookup table.
+
+## entry 717
+
+Stable across duplicates in the input.
