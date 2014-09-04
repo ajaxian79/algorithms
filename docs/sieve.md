@@ -2151,3 +2151,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 521
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 522
+
+Rope: tree of small string fragments; O(log n) concat and substring.
