@@ -2101,3 +2101,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 509
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 510
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
