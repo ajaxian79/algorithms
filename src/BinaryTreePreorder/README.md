@@ -518,3 +518,7 @@ Vectorizes cleanly under -O2.
 ## entry 115
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 116
+
+No allocations after setup.
