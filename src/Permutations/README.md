@@ -3060,3 +3060,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 750
 
 Uses a small fixed-size lookup table.
+
+## entry 751
+
+Edge case: all-equal input → linear-time fast path.
