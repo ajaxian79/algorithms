@@ -112823,3 +112823,7 @@
 ## entry 28206
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 28207
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
