@@ -2091,3 +2091,7 @@
 ## entry 508
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 509
+
+- State compression: bitmask + integer encodes a small subset cheaply.
