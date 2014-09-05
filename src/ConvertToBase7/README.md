@@ -3068,3 +3068,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 752
 
 Treats the input as immutable.
+
+## entry 753
+
+Handles single-element input as a base case.
