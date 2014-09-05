@@ -277,3 +277,4 @@ int single_number(const int* nums, int nums_size) {
 // note 264: Deterministic given the input — no PRNG seeds.
 // note 265: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 266: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 267: Uses a 256-entry lookup for the inner step.
