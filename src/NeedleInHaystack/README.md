@@ -2824,3 +2824,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 691
 
 Runs in a single pass over the input.
+
+## entry 692
+
+Edge case: already-sorted input → no swaps performed.
