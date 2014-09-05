@@ -293,3 +293,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 266: Thread-safe so long as the input is not mutated concurrently.
 // edge note 267: Sub-linear in the average case thanks to early exit.
 // edge note 268: Space complexity: O(1) auxiliary.
+// edge note 269: Edge case: already-sorted input → no swaps performed.
