@@ -2945,3 +2945,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 721
 
 Time complexity: O(n log n).
+
+## entry 722
+
+Vectorizes cleanly under -O2.
