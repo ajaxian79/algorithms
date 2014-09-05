@@ -314,3 +314,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 274: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 275: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 276: Edge case: already-sorted input → no swaps performed.
+// edge note 277: Resists adversarial inputs by randomizing the pivot.
