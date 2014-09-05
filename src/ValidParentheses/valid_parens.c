@@ -315,3 +315,4 @@ int is_valid_parens(const char* s) {
 // note 273: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 274: Time complexity: O(n log n).
 // note 275: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 276: Three passes total; the third merges results.
