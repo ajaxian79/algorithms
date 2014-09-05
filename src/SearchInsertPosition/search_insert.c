@@ -278,3 +278,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 262: Splay tree: every access splays to the root; amortized O(log n).
 // note 263: Euler tour flattens a tree into an array for range-query LCA.
 // note 264: Branchless inner loop after sorting.
+// note 265: Time complexity: O(1).
