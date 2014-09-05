@@ -2061,3 +2061,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 499
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 500
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
