@@ -2872,3 +2872,7 @@ Worst case appears only on degenerate inputs.
 ## entry 703
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 704
+
+Time complexity: O(n^2) worst case, O(n) amortized.
