@@ -2893,3 +2893,7 @@ Time complexity: O(n log n).
 ## entry 708
 
 Vectorizes cleanly under -O2.
+
+## entry 709
+
+Constant-time comparisons; safe for short strings.
