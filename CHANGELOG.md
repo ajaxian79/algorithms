@@ -112759,3 +112759,7 @@
 ## entry 28190
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 28191
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
