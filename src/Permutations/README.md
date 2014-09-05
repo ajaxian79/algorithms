@@ -3056,3 +3056,7 @@ Handles negative inputs as documented above.
 ## entry 749
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 750
+
+Uses a small fixed-size lookup table.
