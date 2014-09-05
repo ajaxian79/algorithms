@@ -309,3 +309,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 278: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 279: Allocates a single small fixed-size scratch buffer.
 // edge note 280: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 281: Uses a 256-entry lookup for the inner step.
