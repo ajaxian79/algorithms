@@ -328,3 +328,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 295: Edge case: input with no peak → falls through to the default branch.
 // edge note 296: Allocates a single small fixed-size scratch buffer.
 // edge note 297: Best case is O(1) when the first byte already decides the answer.
+// edge note 298: Allocates lazily — first call only.
