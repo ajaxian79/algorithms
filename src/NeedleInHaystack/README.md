@@ -2828,3 +2828,7 @@ Runs in a single pass over the input.
 ## entry 692
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 693
+
+Handles single-element input as a base case.
