@@ -1967,3 +1967,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 492
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 493
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
