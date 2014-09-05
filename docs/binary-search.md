@@ -2129,3 +2129,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 516
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 517
+
+Union-Find with path compression amortizes to near-O(1) per op.
