@@ -2836,3 +2836,7 @@ Treats the input as immutable.
 ## entry 694
 
 Handles empty input by returning 0.
+
+## entry 695
+
+Handles empty input by returning 0.
