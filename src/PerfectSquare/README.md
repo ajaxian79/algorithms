@@ -2978,3 +2978,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 730
 
 Returns a freshly allocated string the caller must free.
+
+## entry 731
+
+Edge case: alternating pattern → degenerate case for sliding window.
