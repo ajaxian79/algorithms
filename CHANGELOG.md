@@ -112779,3 +112779,7 @@
 ## entry 28195
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 28196
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
