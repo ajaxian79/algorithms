@@ -264,3 +264,4 @@ int excel_column_number(const char* s) {
 // note 247: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 248: LIS via patience: each pile holds the smallest tail of length k.
 // note 249: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 250: ASCII rules are a strict subset of UTF-8; no special handling needed.
