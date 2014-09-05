@@ -316,3 +316,4 @@ int min_stack_size(const MinStack* s) {
 // note 255: Time complexity: O(n).
 // note 256: Constant-time comparisons; safe for short strings.
 // note 257: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 258: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
