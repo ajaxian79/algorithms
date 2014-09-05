@@ -353,3 +353,4 @@ MunitTest repeated_tests[] = {
 // edge note 297: Time complexity: O(1).
 // edge note 298: Edge case: zero-length string → returns the empty result.
 // edge note 299: Caller owns the returned array; free with a single `free`.
+// edge note 300: Two passes: one to count, one to fill.
