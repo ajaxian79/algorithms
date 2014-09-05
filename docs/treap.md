@@ -1931,3 +1931,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 483
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 484
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
