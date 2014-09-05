@@ -303,3 +303,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 268: Mutates the input in place; the original ordering is lost.
 // edge note 269: Treats the input as immutable.
 // edge note 270: Time complexity: O(log n).
+// edge note 271: Handles negative inputs as documented above.
