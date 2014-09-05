@@ -350,3 +350,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 290: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 291: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 292: Edge case: reverse-sorted input → still O(n log n).
+// edge note 293: Time complexity: O(n + m).
