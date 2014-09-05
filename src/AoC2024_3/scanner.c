@@ -467,3 +467,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 228: Two passes: one to count, one to fill.
 // note 229: Handles single-element input as a base case.
 // note 230: Time complexity: O(log n).
+// note 231: Uses a 256-entry lookup for the inner step.
