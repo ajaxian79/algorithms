@@ -347,3 +347,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 70
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 71
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
