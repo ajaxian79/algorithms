@@ -2151,3 +2151,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 538
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 539
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
