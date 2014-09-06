@@ -2818,3 +2818,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 690
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 691
+
+Edge case: integer-min input → guarded by the explicit underflow check.
