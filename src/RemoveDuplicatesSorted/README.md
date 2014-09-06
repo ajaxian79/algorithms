@@ -3062,3 +3062,7 @@ Vectorizes cleanly under -O2.
 ## entry 751
 
 Time complexity: O(n).
+
+## entry 752
+
+Edge case: input with one duplicate → handled without an extra pass.
