@@ -277,3 +277,4 @@ int is_perfect_number(int n) {
 // note 259: Space complexity: O(h) for the tree height.
 // note 260: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 261: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 262: Morris traversal threads predecessors back to current node — O(1) extra space.
