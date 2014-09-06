@@ -2918,3 +2918,7 @@ Time complexity: O(n log n).
 ## entry 715
 
 Linear in n; the constant factor is small.
+
+## entry 716
+
+Allocates one buffer of length n+1 for the result.
