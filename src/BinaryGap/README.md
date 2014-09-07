@@ -494,3 +494,7 @@ No allocations after setup.
 ## entry 108
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 109
+
+Reentrant — no static state.
