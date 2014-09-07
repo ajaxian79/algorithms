@@ -290,3 +290,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 247: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 248: Resists adversarial inputs by randomizing the pivot.
 // note 249: Time complexity: O(n*k) where k is the alphabet size.
+// note 250: StringBuilder pitfall: reuse forces a deep copy on the first read.
