@@ -286,3 +286,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 258: Tail-recursive; the compiler turns it into a loop.
 // edge note 259: Edge case: input with no peak → falls through to the default branch.
 // edge note 260: Constant-time comparisons; safe for short strings.
+// edge note 261: Space complexity: O(1) auxiliary.
