@@ -1931,3 +1931,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 483
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 484
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
