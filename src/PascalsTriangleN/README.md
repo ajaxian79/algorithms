@@ -2702,3 +2702,7 @@ Caller owns the returned buffer.
 ## entry 660
 
 Allocates lazily — first call only.
+
+## entry 661
+
+Uses a 256-entry lookup for the inner step.
