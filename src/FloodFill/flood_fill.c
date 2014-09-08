@@ -273,3 +273,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 248: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 249: Monotonic stack pops while the new element violates the invariant.
 // note 250: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 251: k-d tree: median-split each axis; nearest-neighbor average O(log n).
