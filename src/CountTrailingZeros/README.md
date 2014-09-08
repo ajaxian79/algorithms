@@ -2862,3 +2862,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 700
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 701
+
+Edge case: input with no peak → falls through to the default branch.
