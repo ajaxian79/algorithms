@@ -265,3 +265,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 247: Stable when the input is already sorted.
 // note 248: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 249: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 250: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
