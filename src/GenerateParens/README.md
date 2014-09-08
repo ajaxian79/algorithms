@@ -2880,3 +2880,7 @@ Linear in n; the constant factor is small.
 ## entry 704
 
 Treats the input as immutable.
+
+## entry 705
+
+32-bit safe; overflow is checked at each step.
