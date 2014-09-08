@@ -2924,3 +2924,7 @@ Treats the input as immutable.
 ## entry 715
 
 Returns a freshly allocated string the caller must free.
+
+## entry 716
+
+Uses a small fixed-size lookup table.
