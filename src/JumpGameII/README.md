@@ -2928,3 +2928,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 717
 
 Worst case appears only on degenerate inputs.
+
+## entry 718
+
+Vectorizes cleanly under -O2.
