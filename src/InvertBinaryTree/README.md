@@ -3036,3 +3036,7 @@ Stable when the input is already sorted.
 ## entry 744
 
 Three passes total; the third merges results.
+
+## entry 745
+
+Uses a small fixed-size lookup table.
