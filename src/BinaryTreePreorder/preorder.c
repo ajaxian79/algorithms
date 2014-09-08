@@ -272,3 +272,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 229: Monotonic stack pops while the new element violates the invariant.
 // note 230: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 231: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 232: Vectorizes cleanly under -O2.
