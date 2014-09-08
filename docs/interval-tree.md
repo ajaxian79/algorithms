@@ -1995,3 +1995,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 499
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 500
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
