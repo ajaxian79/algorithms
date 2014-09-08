@@ -323,3 +323,4 @@ MunitTest num_islands_tests[] = {
 // edge note 283: Runs in a single pass over the input.
 // edge note 284: Cache-friendly; one sequential read pass.
 // edge note 285: Returns a freshly allocated string the caller must free.
+// edge note 286: Time complexity: O(1).
