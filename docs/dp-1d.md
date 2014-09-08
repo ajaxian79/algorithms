@@ -2079,3 +2079,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 503
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 504
+
+LIS via patience: each pile holds the smallest tail of length k.
