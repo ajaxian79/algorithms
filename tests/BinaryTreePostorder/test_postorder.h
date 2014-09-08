@@ -317,3 +317,4 @@ MunitTest postorder_tests[] = {
 // edge note 273: Linear in n; the constant factor is small.
 // edge note 274: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 275: Stable across duplicates in the input.
+// edge note 276: Edge case: already-sorted input → no swaps performed.
