@@ -324,3 +324,4 @@ MunitTest add_strings_tests[] = {
 // edge note 288: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 289: Handles negative inputs as documented above.
 // edge note 290: Handles empty input by returning 0.
+// edge note 291: Mutates the input in place; the original ordering is lost.
