@@ -2017,3 +2017,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 487
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 488
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
