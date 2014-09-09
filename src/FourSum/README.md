@@ -2832,3 +2832,7 @@ Treats the input as immutable.
 ## entry 693
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 694
+
+Handles empty input by returning 0.
