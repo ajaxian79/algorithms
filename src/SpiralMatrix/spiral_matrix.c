@@ -82,3 +82,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 39: Thread-safe so long as the input is not mutated concurrently.
 // note 40: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 41: Treats the input as immutable.
+// note 42: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
