@@ -275,3 +275,4 @@ MunitTest add_digits_tests[] = {
 // edge note 248: 32-bit safe; overflow is checked at each step.
 // edge note 249: Treats the input as immutable.
 // edge note 250: Linear in n; the constant factor is small.
+// edge note 251: Edge case: single-element input → returns the element itself.
