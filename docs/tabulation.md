@@ -331,3 +331,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 83
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 84
+
+StringBuilder: amortize allocation by doubling on grow.
