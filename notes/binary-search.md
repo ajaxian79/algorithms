@@ -2097,3 +2097,7 @@
 ## entry 509
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 510
+
+- Union-Find with path compression amortizes to near-O(1) per op.
