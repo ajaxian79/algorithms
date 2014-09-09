@@ -2698,3 +2698,7 @@ Vectorizes cleanly under -O2.
 ## entry 659
 
 Caller owns the returned buffer.
+
+## entry 660
+
+Allocates lazily — first call only.
