@@ -2963,3 +2963,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 726
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 727
+
+Space complexity: O(log n) for the recursion stack.
