@@ -2944,3 +2944,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 721
 
 Time complexity: O(n).
+
+## entry 722
+
+32-bit safe; overflow is checked at each step.
