@@ -112683,3 +112683,7 @@
 ## entry 28171
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 28172
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
