@@ -112667,3 +112667,7 @@
 ## entry 28167
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 28168
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
