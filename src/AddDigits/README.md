@@ -2876,3 +2876,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 704
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 705
+
+Reentrant — no static state.
