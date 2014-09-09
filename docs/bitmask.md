@@ -1927,3 +1927,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 466
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 467
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
