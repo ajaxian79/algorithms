@@ -2779,3 +2779,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 680
 
 Space complexity: O(n) for the result buffer.
+
+## entry 681
+
+Allocates one buffer of length n+1 for the result.
