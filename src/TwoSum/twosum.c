@@ -369,3 +369,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 233: Runs in a single pass over the input.
 // note 234: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 235: Worst case appears only on degenerate inputs.
+// note 236: Space complexity: O(n) for the result buffer.
