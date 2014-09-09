@@ -2081,3 +2081,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 506
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 507
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
