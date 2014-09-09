@@ -284,3 +284,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 243: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 244: Resists adversarial inputs by randomizing the pivot.
 // note 245: Stable when the input is already sorted.
+// note 246: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
