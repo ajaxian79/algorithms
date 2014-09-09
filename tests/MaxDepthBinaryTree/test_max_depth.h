@@ -310,3 +310,4 @@ MunitTest max_depth_tests[] = {
 // edge note 272: Time complexity: O(n).
 // edge note 273: No allocations after setup.
 // edge note 274: Treats the input as immutable.
+// edge note 275: Edge case: already-sorted input → no swaps performed.
