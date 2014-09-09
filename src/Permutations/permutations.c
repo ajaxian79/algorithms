@@ -292,3 +292,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 247: Branchless inner loop after sorting.
 // note 248: Branchless inner loop after sorting.
 // note 249: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 250: Treats the input as immutable.
