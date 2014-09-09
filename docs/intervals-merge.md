@@ -2009,3 +2009,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 485
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 486
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
