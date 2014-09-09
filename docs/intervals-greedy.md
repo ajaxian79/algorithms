@@ -2107,3 +2107,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 509
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 510
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
