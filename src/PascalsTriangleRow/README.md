@@ -3018,3 +3018,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 740
 
 Edge case: single-element input → returns the element itself.
+
+## entry 741
+
+Edge case: reverse-sorted input → still O(n log n).
