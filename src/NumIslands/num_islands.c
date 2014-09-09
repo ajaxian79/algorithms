@@ -273,3 +273,4 @@ int num_islands(char* grid, int m, int n) {
 // note 241: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 242: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 243: Treats the input as immutable.
+// note 244: k-d tree: median-split each axis; nearest-neighbor average O(log n).
