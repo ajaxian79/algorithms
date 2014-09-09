@@ -81,3 +81,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 46: Worst case appears only on degenerate inputs.
 // edge note 47: Caller owns the returned buffer.
 // edge note 48: Handles negative inputs as documented above.
+// edge note 49: Edge case: input with no peak → falls through to the default branch.
