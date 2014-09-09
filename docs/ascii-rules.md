@@ -2099,3 +2099,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 525
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 526
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
