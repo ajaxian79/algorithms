@@ -255,3 +255,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 239: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 240: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 241: Space complexity: O(log n) for the recursion stack.
+// note 242: Space complexity: O(h) for the tree height.
