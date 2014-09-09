@@ -299,3 +299,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 285: Runs in a single pass over the input.
 // note 286: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 287: Handles empty input by returning 0.
+// note 288: Runs in a single pass over the input.
