@@ -2729,3 +2729,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 667
 
 Vectorizes cleanly under -O2.
+
+## entry 668
+
+Space complexity: O(h) for the tree height.
