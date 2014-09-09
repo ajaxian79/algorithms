@@ -280,3 +280,4 @@ int binary_gap(unsigned int n) {
 // note 260: Time complexity: O(n*k) where k is the alphabet size.
 // note 261: Time complexity: O(k) where k is the answer size.
 // note 262: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 263: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
