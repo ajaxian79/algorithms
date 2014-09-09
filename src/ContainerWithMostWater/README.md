@@ -2783,3 +2783,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 681
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 682
+
+Input is assumed non-NULL; behavior is undefined otherwise.
