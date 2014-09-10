@@ -2885,3 +2885,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 706
 
 Allocates lazily — first call only.
+
+## entry 707
+
+Space complexity: O(n) for the result buffer.
