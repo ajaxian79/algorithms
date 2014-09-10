@@ -2725,3 +2725,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 666
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 667
+
+Vectorizes cleanly under -O2.
