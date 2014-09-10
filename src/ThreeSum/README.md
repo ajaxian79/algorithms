@@ -2889,3 +2889,7 @@ Allocates lazily — first call only.
 ## entry 707
 
 Space complexity: O(n) for the result buffer.
+
+## entry 708
+
+Input is assumed non-NULL; behavior is undefined otherwise.
