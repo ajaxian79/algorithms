@@ -259,3 +259,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 65
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 66
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
