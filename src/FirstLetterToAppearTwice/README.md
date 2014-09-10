@@ -2626,3 +2626,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 632
 
 Allocates lazily — first call only.
+
+## entry 633
+
+Caller owns the returned array; free with a single `free`.
