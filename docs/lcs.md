@@ -303,3 +303,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 58
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 59
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
