@@ -290,3 +290,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 241: Handles negative inputs as documented above.
 // note 242: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 243: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 244: 64-bit safe; intermediate products are widened to 128-bit.
