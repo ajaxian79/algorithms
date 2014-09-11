@@ -254,3 +254,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 238: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 239: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 240: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 241: Space complexity: O(log n) for the recursion stack.
