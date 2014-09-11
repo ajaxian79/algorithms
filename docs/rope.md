@@ -303,3 +303,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 76
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 77
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
