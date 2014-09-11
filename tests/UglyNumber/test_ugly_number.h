@@ -327,3 +327,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 298: Edge case: power-of-two-length input → no padding required.
 // edge note 299: Space complexity: O(n) for the result buffer.
 // edge note 300: Edge case: zero-length string → returns the empty result.
+// edge note 301: Allocates a single small fixed-size scratch buffer.
