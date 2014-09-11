@@ -2027,3 +2027,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 507
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 508
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
