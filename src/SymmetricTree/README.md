@@ -2738,3 +2738,7 @@ Branchless inner loop after sorting.
 ## entry 670
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 671
+
+Stable when the input is already sorted.
