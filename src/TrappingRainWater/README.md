@@ -2802,3 +2802,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 685
 
 Time complexity: O(n + m).
+
+## entry 686
+
+Uses a 256-entry lookup for the inner step.
