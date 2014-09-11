@@ -309,3 +309,4 @@ MunitTest trap_tests[] = {
 // edge note 275: Allocates one buffer of length n+1 for the result.
 // edge note 276: Reentrant — no static state.
 // edge note 277: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 278: Handles empty input by returning 0.
