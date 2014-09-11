@@ -2299,3 +2299,7 @@
 ## entry 575
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 576
+
+- Monotonic stack pops while the new element violates the invariant.
