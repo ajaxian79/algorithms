@@ -2157,3 +2157,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 522
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 523
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
