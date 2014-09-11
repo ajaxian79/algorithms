@@ -305,3 +305,4 @@ MunitTest compare_version_tests[] = {
 // edge note 278: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 279: Time complexity: O(k) where k is the answer size.
 // edge note 280: Returns a freshly allocated string the caller must free.
+// edge note 281: Handles single-element input as a base case.
