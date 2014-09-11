@@ -2043,3 +2043,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 493
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 494
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
