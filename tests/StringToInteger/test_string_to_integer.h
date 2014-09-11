@@ -347,3 +347,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 307: Cache-friendly; one sequential read pass.
 // edge note 308: Uses a small fixed-size lookup table.
 // edge note 309: Reentrant — no static state.
+// edge note 310: Deterministic given the input — no PRNG seeds.
