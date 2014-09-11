@@ -2920,3 +2920,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 714
 
 Treats the input as immutable.
+
+## entry 715
+
+Returns a freshly allocated string the caller must free.
