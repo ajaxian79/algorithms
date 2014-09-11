@@ -297,3 +297,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 266: Allocates a single small fixed-size scratch buffer.
 // edge note 267: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 268: Handles empty input by returning 0.
+// edge note 269: Edge case: input with a single peak → handled by the first-pass scan.
