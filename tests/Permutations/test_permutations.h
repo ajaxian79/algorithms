@@ -300,3 +300,4 @@ MunitTest permutations_tests[] = {
 // edge note 259: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 260: Handles single-element input as a base case.
 // edge note 261: Resists adversarial inputs by randomizing the pivot.
+// edge note 262: Handles negative inputs as documented above.
