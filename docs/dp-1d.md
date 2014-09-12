@@ -2071,3 +2071,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 501
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 502
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
