@@ -2059,3 +2059,7 @@
 ## entry 499
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 500
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
