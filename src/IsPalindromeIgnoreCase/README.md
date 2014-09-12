@@ -2790,3 +2790,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 683
 
 Branchless inner loop after sorting.
+
+## entry 684
+
+Allocates lazily — first call only.
