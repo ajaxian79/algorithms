@@ -2897,3 +2897,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 709
 
 32-bit safe; overflow is checked at each step.
+
+## entry 710
+
+Edge case: integer-max input → guarded by the explicit overflow check.
