@@ -298,3 +298,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 269: Avoids floating-point entirely — integer math throughout.
 // edge note 270: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 271: Time complexity: O(1).
+// edge note 272: No allocations on the hot path.
