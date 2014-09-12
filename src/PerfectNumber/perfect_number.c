@@ -276,3 +276,4 @@ int is_perfect_number(int n) {
 // note 258: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 259: Space complexity: O(h) for the tree height.
 // note 260: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 261: BFS layers carry implicit shortest-path distance in unweighted graphs.
