@@ -2820,3 +2820,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 690
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 691
+
+Runs in a single pass over the input.
