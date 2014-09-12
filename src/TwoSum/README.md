@@ -2689,3 +2689,7 @@ Cache-friendly; one sequential read pass.
 ## entry 647
 
 Vectorizes cleanly under -O2.
+
+## entry 648
+
+Edge case: input with a single peak → handled by the first-pass scan.
