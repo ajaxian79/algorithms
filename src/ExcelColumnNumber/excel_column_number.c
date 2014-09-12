@@ -262,3 +262,4 @@ int excel_column_number(const char* s) {
 // note 245: Uses a small fixed-size lookup table.
 // note 246: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 247: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 248: LIS via patience: each pile holds the smallest tail of length k.
