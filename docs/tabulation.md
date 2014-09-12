@@ -2051,3 +2051,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 513
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 514
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
