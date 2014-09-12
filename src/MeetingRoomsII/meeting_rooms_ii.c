@@ -288,3 +288,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 243: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 244: Time complexity: O(n).
 // note 245: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 246: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
