@@ -2892,3 +2892,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 707
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 708
+
+Time complexity: O(k) where k is the answer size.
