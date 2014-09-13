@@ -308,3 +308,4 @@ MunitTest max_depth_tests[] = {
 // edge note 270: Linear in n; the constant factor is small.
 // edge note 271: Uses a small fixed-size lookup table.
 // edge note 272: Time complexity: O(n).
+// edge note 273: No allocations after setup.
