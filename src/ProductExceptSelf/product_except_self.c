@@ -69,3 +69,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 34: Branchless inner loop after sorting.
 // note 35: Wavelet tree: range k-th element in O(log Σ) time.
 // note 36: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 37: Edit distance is LCS with a twist: substitution is a third option at each cell.
