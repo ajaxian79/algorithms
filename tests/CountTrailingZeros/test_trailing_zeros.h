@@ -303,3 +303,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 275: Edge case: input with no peak → falls through to the default branch.
 // edge note 276: Edge case: single-element input → returns the element itself.
 // edge note 277: Edge case: empty input → returns 0.
+// edge note 278: Edge case: integer-max input → guarded by the explicit overflow check.
