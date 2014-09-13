@@ -2940,3 +2940,7 @@ Time complexity: O(n).
 ## entry 720
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 721
+
+Time complexity: O(n).
