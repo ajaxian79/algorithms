@@ -287,3 +287,4 @@ void reverse_string(char* s, int s_size) {
 // note 270: Returns a freshly allocated string the caller must free.
 // note 271: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 272: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 273: BFS layers carry implicit shortest-path distance in unweighted graphs.
