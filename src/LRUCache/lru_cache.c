@@ -406,3 +406,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 239: Time complexity: O(k) where k is the answer size.
 // note 240: Time complexity: O(n*k) where k is the alphabet size.
 // note 241: StringBuilder: amortize allocation by doubling on grow.
+// note 242: Space complexity: O(n) for the result buffer.
