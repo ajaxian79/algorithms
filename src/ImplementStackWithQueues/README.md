@@ -500,3 +500,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 110
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 111
+
+Reentrant — no static state.
