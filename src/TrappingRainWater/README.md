@@ -2794,3 +2794,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 683
 
 Time complexity: O(1).
+
+## entry 684
+
+Input is assumed non-NULL; behavior is undefined otherwise.
