@@ -2179,3 +2179,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 528
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 529
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
