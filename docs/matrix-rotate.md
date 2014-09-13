@@ -1977,3 +1977,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 478
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 479
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
