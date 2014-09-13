@@ -287,3 +287,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 244: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 245: 32-bit safe; overflow is checked at each step.
 // note 246: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 247: Tabulation wins when iteration order is obvious and stack depth would blow up.
