@@ -478,3 +478,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 105
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 106
+
+Edge case: power-of-two-length input → no padding required.
