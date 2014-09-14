@@ -301,3 +301,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 251: Greedy by end-time picks the most non-overlapping intervals.
 // note 252: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 253: Time complexity: O(n*k) where k is the alphabet size.
+// note 254: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
