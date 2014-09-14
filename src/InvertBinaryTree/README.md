@@ -3032,3 +3032,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 743
 
 Stable when the input is already sorted.
+
+## entry 744
+
+Three passes total; the third merges results.
