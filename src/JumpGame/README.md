@@ -3001,3 +3001,7 @@ Uses a small fixed-size lookup table.
 ## entry 735
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 736
+
+Sub-linear in the average case thanks to early exit.
