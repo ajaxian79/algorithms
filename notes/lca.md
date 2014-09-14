@@ -2079,3 +2079,7 @@
 ## entry 520
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 521
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
