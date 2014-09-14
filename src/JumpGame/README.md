@@ -2997,3 +2997,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 734
 
 Uses a small fixed-size lookup table.
+
+## entry 735
+
+Edge case: zero-length string → returns the empty result.
