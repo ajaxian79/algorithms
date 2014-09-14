@@ -111,3 +111,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 32: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 33: Time complexity: O(n).
 // note 34: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 35: Heap when you only need top-k; full sort is wasted work.
