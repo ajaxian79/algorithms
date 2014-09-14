@@ -112547,3 +112547,7 @@
 ## entry 28137
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 28138
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
