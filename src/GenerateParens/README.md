@@ -2876,3 +2876,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 703
 
 Linear in n; the constant factor is small.
+
+## entry 704
+
+Treats the input as immutable.
