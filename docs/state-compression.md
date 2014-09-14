@@ -1871,3 +1871,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 468
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 469
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
