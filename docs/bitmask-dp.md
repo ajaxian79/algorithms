@@ -2107,3 +2107,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 527
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 528
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
