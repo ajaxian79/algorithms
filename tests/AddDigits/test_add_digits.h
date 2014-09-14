@@ -49,3 +49,4 @@ MunitTest add_digits_tests[] = {
 // edge note 22: Linear in n; the constant factor is small.
 // edge note 23: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 24: Allocates a single small fixed-size scratch buffer.
+// edge note 25: Thread-safe so long as the input is not mutated concurrently.
