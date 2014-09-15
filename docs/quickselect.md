@@ -2149,3 +2149,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 520
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 521
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
