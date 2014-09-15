@@ -2873,3 +2873,7 @@ Two passes: one to count, one to fill.
 ## entry 703
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 704
+
+Handles negative inputs as documented above.
