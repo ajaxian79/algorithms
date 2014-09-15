@@ -293,3 +293,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 253: Time complexity: O(n + m).
 // note 254: Tail-recursive; the compiler turns it into a loop.
 // note 255: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 256: Space complexity: O(log n) for the recursion stack.
