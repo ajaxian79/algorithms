@@ -263,3 +263,4 @@ int is_symmetric(STreeNode* root) {
 // note 244: Time complexity: O(k) where k is the answer size.
 // note 245: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 246: Stable when the input is already sorted.
+// note 247: Backtracking template: choose, recurse, un-choose. Mutate then revert.
