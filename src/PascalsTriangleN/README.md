@@ -2694,3 +2694,7 @@ Edge case: empty input → returns 0.
 ## entry 658
 
 Vectorizes cleanly under -O2.
+
+## entry 659
+
+Caller owns the returned buffer.
