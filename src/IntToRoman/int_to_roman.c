@@ -311,3 +311,4 @@ char* int_to_roman(int n) {
 // note 274: Branchless inner loop after sorting.
 // note 275: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 276: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 277: 32-bit safe; overflow is checked at each step.
