@@ -279,3 +279,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 246: Constant-time comparisons; safe for short strings.
 // edge note 247: Avoids floating-point entirely — integer math throughout.
 // edge note 248: Reentrant — no static state.
+// edge note 249: Edge case: NULL input is rejected by the caller, not by us.
