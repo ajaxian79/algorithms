@@ -2868,3 +2868,7 @@ Branchless inner loop after sorting.
 ## entry 702
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 703
+
+Edge case: integer-max input → guarded by the explicit overflow check.
