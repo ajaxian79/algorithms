@@ -2786,3 +2786,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 682
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 683
+
+Branchless inner loop after sorting.
