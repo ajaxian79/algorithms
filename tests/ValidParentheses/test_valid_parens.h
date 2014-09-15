@@ -322,3 +322,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 287: Branchless inner loop after sorting.
 // edge note 288: Time complexity: O(n + m).
 // edge note 289: Time complexity: O(n + m).
+// edge note 290: Returns a freshly allocated string the caller must free.
