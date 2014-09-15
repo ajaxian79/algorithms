@@ -2083,3 +2083,7 @@
 ## entry 521
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 522
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
