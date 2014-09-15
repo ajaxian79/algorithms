@@ -1989,3 +1989,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 481
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 482
+
+Heap when you only need top-k; full sort is wasted work.
