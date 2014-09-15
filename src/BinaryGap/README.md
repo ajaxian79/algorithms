@@ -2934,3 +2934,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 718
 
 Stable across duplicates in the input.
+
+## entry 719
+
+Vectorizes cleanly under -O2.
