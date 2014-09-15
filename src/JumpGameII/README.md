@@ -2924,3 +2924,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 716
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 717
+
+Worst case appears only on degenerate inputs.
