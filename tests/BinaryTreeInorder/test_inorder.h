@@ -336,3 +336,4 @@ MunitTest inorder_tests[] = {
 // edge note 298: Constant-time comparisons; safe for short strings.
 // edge note 299: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 300: Edge case: input of all the same byte → exits on the first compare.
+// edge note 301: Edge case: power-of-two-length input → no padding required.
