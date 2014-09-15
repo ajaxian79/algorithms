@@ -2799,3 +2799,7 @@ Edge case: empty input → returns 0.
 ## entry 685
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 686
+
+Three passes total; the third merges results.
