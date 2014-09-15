@@ -2936,3 +2936,7 @@ Vectorizes cleanly under -O2.
 ## entry 719
 
 Time complexity: O(n).
+
+## entry 720
+
+Resists adversarial inputs by randomizing the pivot.
