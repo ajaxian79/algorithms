@@ -3052,3 +3052,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 748
 
 Handles negative inputs as documented above.
+
+## entry 749
+
+Mutates the input in place; the original ordering is lost.
