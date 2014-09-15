@@ -2741,3 +2741,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 671
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 672
+
+Edge case: input with a single peak → handled by the first-pass scan.
