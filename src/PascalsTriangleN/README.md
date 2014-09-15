@@ -2690,3 +2690,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 657
 
 Edge case: empty input → returns 0.
+
+## entry 658
+
+Vectorizes cleanly under -O2.
