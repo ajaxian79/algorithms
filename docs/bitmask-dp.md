@@ -2103,3 +2103,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 526
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 527
+
+In-place compaction uses two pointers: read advances always, write only on keep.
