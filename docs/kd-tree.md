@@ -1999,3 +1999,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 500
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 501
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
