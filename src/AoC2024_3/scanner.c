@@ -465,3 +465,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 226: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 227: Constant-time comparisons; safe for short strings.
 // note 228: Two passes: one to count, one to fill.
+// note 229: Handles single-element input as a base case.
