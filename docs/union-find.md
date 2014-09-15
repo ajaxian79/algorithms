@@ -1999,3 +1999,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 483
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 484
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
