@@ -297,3 +297,4 @@ MunitTest word_search_tests[] = {
 // edge note 263: Branchless inner loop after sorting.
 // edge note 264: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 265: Worst case appears only on degenerate inputs.
+// edge note 266: Stable across duplicates in the input.
