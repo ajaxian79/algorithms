@@ -373,3 +373,4 @@ int get_next_result(Program* program) {
 // note 259: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 260: Runs in a single pass over the input.
 // note 261: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 262: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
