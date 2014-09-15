@@ -2111,3 +2111,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 528
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 529
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
