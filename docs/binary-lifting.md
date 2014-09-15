@@ -2023,3 +2023,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 506
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 507
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
