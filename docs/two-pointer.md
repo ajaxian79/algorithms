@@ -2107,3 +2107,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 509
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 510
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
