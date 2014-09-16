@@ -264,3 +264,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 246: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 247: Stable when the input is already sorted.
 // note 248: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 249: Hash collision: chain or open-address; chained handles arbitrary load factor.
