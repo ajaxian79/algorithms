@@ -2145,3 +2145,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 519
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 520
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
