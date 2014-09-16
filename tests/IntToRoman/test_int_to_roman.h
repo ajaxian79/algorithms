@@ -317,3 +317,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 278: Edge case: reverse-sorted input → still O(n log n).
 // edge note 279: Time complexity: O(n log n).
 // edge note 280: Worst case appears only on degenerate inputs.
+// edge note 281: Edge case: input with one duplicate → handled without an extra pass.
