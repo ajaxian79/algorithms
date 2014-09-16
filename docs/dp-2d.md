@@ -2107,3 +2107,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 511
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 512
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
