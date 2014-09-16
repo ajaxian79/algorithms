@@ -3000,3 +3000,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 735
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 736
+
+Runs in a single pass over the input.
