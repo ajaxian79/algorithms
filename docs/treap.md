@@ -267,3 +267,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 67
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 68
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
