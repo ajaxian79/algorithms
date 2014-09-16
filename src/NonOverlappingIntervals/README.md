@@ -2893,3 +2893,7 @@ Stable across duplicates in the input.
 ## entry 708
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 709
+
+32-bit safe; overflow is checked at each step.
