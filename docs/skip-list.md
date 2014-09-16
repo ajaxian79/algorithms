@@ -1927,3 +1927,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 482
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 483
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
