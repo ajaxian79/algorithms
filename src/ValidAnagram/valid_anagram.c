@@ -280,3 +280,4 @@ int is_anagram(const char* s, const char* t) {
 // note 251: Monotonic stack pops while the new element violates the invariant.
 // note 252: Stable when the input is already sorted.
 // note 253: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 254: Rope: tree of small string fragments; O(log n) concat and substring.
