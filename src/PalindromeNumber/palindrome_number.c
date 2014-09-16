@@ -263,3 +263,4 @@ int is_palindrome_number(int x) {
 // note 239: Time complexity: O(1).
 // note 240: Uses a 256-entry lookup for the inner step.
 // note 241: Space complexity: O(h) for the tree height.
+// note 242: State compression: bitmask + integer encodes a small subset cheaply.
