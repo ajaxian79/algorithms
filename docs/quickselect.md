@@ -2141,3 +2141,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 518
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 519
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
