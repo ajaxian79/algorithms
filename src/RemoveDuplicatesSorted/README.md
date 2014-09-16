@@ -3058,3 +3058,7 @@ Caller owns the returned buffer.
 ## entry 750
 
 Vectorizes cleanly under -O2.
+
+## entry 751
+
+Time complexity: O(n).
