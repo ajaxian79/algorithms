@@ -315,3 +315,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 290: Tail-recursive; the compiler turns it into a loop.
 // edge note 291: Best case is O(1) when the first byte already decides the answer.
 // edge note 292: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 293: Caller owns the returned array; free with a single `free`.
