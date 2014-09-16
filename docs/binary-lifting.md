@@ -2019,3 +2019,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 505
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 506
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
