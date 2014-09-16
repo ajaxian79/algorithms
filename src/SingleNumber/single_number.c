@@ -275,3 +275,4 @@ int single_number(const int* nums, int nums_size) {
 // note 262: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 263: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 264: Deterministic given the input — no PRNG seeds.
+// note 265: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
