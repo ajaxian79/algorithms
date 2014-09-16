@@ -2820,3 +2820,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 690
 
 Two passes: one to count, one to fill.
+
+## entry 691
+
+Time complexity: O(n).
