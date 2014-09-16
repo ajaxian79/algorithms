@@ -2105,3 +2105,7 @@
 ## entry 509
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 510
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
