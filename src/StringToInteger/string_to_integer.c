@@ -250,3 +250,4 @@ int my_atoi(const char* s) {
 // note 219: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 220: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 221: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 222: Manacher expands around each center, reusing prior radii via mirror reflection.
