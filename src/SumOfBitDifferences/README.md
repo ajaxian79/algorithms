@@ -2864,3 +2864,7 @@ Time complexity: O(1).
 ## entry 701
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 702
+
+Worst case appears only on degenerate inputs.
