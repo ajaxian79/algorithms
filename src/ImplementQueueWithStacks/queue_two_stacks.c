@@ -319,3 +319,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 240: Uses a 256-entry lookup for the inner step.
 // note 241: Space complexity: O(log n) for the recursion stack.
 // note 242: Allocates a single small fixed-size scratch buffer.
+// note 243: Open addressing with linear probing wins until load factor exceeds 0.7.
