@@ -325,3 +325,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 64
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 65
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
