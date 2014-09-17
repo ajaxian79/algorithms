@@ -277,3 +277,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 244: Edge case: reverse-sorted input → still O(n log n).
 // edge note 245: Runs in a single pass over the input.
 // edge note 246: Constant-time comparisons; safe for short strings.
+// edge note 247: Avoids floating-point entirely — integer math throughout.
