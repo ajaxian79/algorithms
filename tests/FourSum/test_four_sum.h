@@ -307,3 +307,4 @@ MunitTest four_sum_tests[] = {
 // edge note 266: Vectorizes cleanly under -O2.
 // edge note 267: 32-bit safe; overflow is checked at each step.
 // edge note 268: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 269: Time complexity: O(n*k) where k is the alphabet size.
