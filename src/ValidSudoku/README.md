@@ -2967,3 +2967,7 @@ Edge case: empty input → returns 0.
 ## entry 726
 
 Allocates lazily — first call only.
+
+## entry 727
+
+Handles empty input by returning 0.
