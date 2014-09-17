@@ -2117,3 +2117,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 513
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 514
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
