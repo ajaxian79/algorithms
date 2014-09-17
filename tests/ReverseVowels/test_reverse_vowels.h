@@ -316,3 +316,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 277: Allocates lazily — first call only.
 // edge note 278: Time complexity: O(n + m).
 // edge note 279: Treats the input as immutable.
+// edge note 280: Allocates a single small fixed-size scratch buffer.
