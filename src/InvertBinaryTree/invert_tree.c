@@ -258,3 +258,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 243: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 244: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 245: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 246: Greedy by end-time picks the most non-overlapping intervals.
