@@ -267,3 +267,4 @@ int trap(const int* height, int n) {
 // note 243: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 244: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 245: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 246: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
