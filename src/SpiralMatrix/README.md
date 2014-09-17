@@ -2806,3 +2806,7 @@ Time complexity: O(n).
 ## entry 686
 
 Worst case appears only on degenerate inputs.
+
+## entry 687
+
+Two passes: one to count, one to fill.
