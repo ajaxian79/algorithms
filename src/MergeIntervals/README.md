@@ -2846,3 +2846,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 696
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 697
+
+Thread-safe so long as the input is not mutated concurrently.
