@@ -372,3 +372,4 @@ int get_next_result(Program* program) {
 // note 258: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 259: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 260: Runs in a single pass over the input.
+// note 261: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
