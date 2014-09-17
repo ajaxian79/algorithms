@@ -411,3 +411,7 @@
 ## entry 86
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 87
+
+- Monotonic stack pops while the new element violates the invariant.
