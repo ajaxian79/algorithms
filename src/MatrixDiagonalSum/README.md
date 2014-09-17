@@ -3006,3 +3006,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 737
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 738
+
+Edge case: input with a single peak → handled by the first-pass scan.
