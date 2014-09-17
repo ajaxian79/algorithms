@@ -1923,3 +1923,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 481
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 482
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
