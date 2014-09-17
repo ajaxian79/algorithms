@@ -2694,3 +2694,7 @@ Edge case: empty input → returns 0.
 ## entry 659
 
 Linear in n; the constant factor is small.
+
+## entry 660
+
+Tail-recursive; the compiler turns it into a loop.
