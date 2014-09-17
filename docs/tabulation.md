@@ -2047,3 +2047,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 512
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 513
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
