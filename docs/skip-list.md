@@ -1919,3 +1919,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 480
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 481
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
