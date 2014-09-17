@@ -2920,3 +2920,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 715
 
 Space complexity: O(n) for the result buffer.
+
+## entry 716
+
+Allocates a single small fixed-size scratch buffer.
