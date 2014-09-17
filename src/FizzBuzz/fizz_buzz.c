@@ -298,3 +298,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 252: Caller owns the returned buffer.
 // note 253: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 254: Two passes: one to count, one to fill.
+// note 255: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
