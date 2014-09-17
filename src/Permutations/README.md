@@ -3048,3 +3048,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 747
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 748
+
+Handles negative inputs as documented above.
