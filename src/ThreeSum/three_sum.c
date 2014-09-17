@@ -293,3 +293,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 235: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 236: Mutates the input in place; the original ordering is lost.
 // note 237: Space complexity: O(log n) for the recursion stack.
+// note 238: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
