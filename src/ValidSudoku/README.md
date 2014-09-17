@@ -2975,3 +2975,7 @@ Handles empty input by returning 0.
 ## entry 728
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 729
+
+Three passes total; the third merges results.
