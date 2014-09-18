@@ -112407,3 +112407,7 @@
 ## entry 28102
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 28103
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
