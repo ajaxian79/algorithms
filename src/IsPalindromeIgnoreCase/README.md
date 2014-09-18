@@ -2782,3 +2782,7 @@ Edge case: empty input → returns 0.
 ## entry 681
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 682
+
+Time complexity: O(k) where k is the answer size.
