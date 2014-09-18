@@ -2786,3 +2786,7 @@ No allocations after setup.
 ## entry 682
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 683
+
+Edge case: already-sorted input → no swaps performed.
