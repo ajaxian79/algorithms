@@ -112371,3 +112371,7 @@
 ## entry 28093
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 28094
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
