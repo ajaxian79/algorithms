@@ -2790,3 +2790,7 @@ Stable across duplicates in the input.
 ## entry 682
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 683
+
+Time complexity: O(1).
