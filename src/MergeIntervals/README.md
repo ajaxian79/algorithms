@@ -2838,3 +2838,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 694
 
 Treats the input as immutable.
+
+## entry 695
+
+Allocates one buffer of length n+1 for the result.
