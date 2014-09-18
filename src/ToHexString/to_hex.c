@@ -252,3 +252,4 @@ char* to_hex_string(int n) {
 // note 219: Handles empty input by returning 0.
 // note 220: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 221: Stable across duplicates in the input.
+// note 222: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
