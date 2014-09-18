@@ -112379,3 +112379,7 @@
 ## entry 28095
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 28096
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
