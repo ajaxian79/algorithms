@@ -112395,3 +112395,7 @@
 ## entry 28099
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 28100
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
