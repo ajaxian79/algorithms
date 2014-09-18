@@ -2141,3 +2141,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 518
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 519
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
