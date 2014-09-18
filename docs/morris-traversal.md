@@ -303,3 +303,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 61
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 62
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
