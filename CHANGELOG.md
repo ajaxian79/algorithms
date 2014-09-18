@@ -112391,3 +112391,7 @@
 ## entry 28098
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 28099
+
+- Walk both pointers from each end inward; advance the smaller side.
