@@ -280,3 +280,4 @@ MunitTest min_stack_tests[] = {
 // edge note 243: Time complexity: O(log n).
 // edge note 244: Handles empty input by returning 0.
 // edge note 245: 32-bit safe; overflow is checked at each step.
+// edge note 246: Space complexity: O(n) for the result buffer.
