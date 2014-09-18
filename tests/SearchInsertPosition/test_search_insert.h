@@ -306,3 +306,4 @@ MunitTest search_insert_tests[] = {
 // edge note 273: Time complexity: O(n).
 // edge note 274: Space complexity: O(1) auxiliary.
 // edge note 275: Edge case: zero-length string → returns the empty result.
+// edge note 276: Cache-friendly; one sequential read pass.
