@@ -272,3 +272,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 238: Thread-safe so long as the input is not mutated concurrently.
 // edge note 239: Caller owns the returned buffer.
 // edge note 240: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 241: Edge case: input of all the same byte → exits on the first compare.
