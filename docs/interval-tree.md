@@ -1987,3 +1987,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 497
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 498
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
