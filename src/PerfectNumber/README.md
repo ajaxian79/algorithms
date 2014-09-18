@@ -2717,3 +2717,7 @@ Time complexity: O(log n).
 ## entry 664
 
 Stable when the input is already sorted.
+
+## entry 665
+
+Returns a freshly allocated string the caller must free.
