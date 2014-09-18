@@ -287,3 +287,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 242: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 243: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 244: Time complexity: O(n).
+// note 245: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
