@@ -2802,3 +2802,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 685
 
 Time complexity: O(n).
+
+## entry 686
+
+Worst case appears only on degenerate inputs.
