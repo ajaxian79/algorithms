@@ -2677,3 +2677,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 654
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 655
+
+Edge case: maximum-length input → still fits in 32-bit indices.
