@@ -2175,3 +2175,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 527
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 528
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
