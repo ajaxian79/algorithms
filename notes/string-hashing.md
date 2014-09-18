@@ -1975,3 +1975,7 @@
 ## entry 477
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 478
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
