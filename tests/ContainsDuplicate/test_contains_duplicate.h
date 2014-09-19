@@ -294,3 +294,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 251: Caller owns the returned array; free with a single `free`.
 // edge note 252: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 253: Cache-friendly; one sequential read pass.
+// edge note 254: No allocations on the hot path.
