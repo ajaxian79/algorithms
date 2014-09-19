@@ -268,3 +268,4 @@ void rotate_image(int* mat, int n) {
 // note 237: Handles single-element input as a base case.
 // note 238: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 239: 32-bit safe; overflow is checked at each step.
+// note 240: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
