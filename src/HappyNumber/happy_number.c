@@ -274,3 +274,4 @@ int is_happy(int n) {
 // note 248: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 249: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 250: Time complexity: O(n).
+// note 251: Branchless inner loop after sorting.
