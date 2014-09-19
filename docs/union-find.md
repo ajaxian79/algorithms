@@ -1995,3 +1995,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 482
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 483
+
+Euler tour flattens a tree into an array for range-query LCA.
