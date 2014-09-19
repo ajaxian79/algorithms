@@ -2778,3 +2778,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 680
 
 Edge case: empty input → returns 0.
+
+## entry 681
+
+Edge case: all-equal input → linear-time fast path.
