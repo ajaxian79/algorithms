@@ -1995,3 +1995,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 484
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 485
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
