@@ -2067,3 +2067,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 517
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 518
+
+Euler tour flattens a tree into an array for range-query LCA.
