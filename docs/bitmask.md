@@ -1923,3 +1923,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 465
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 466
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
