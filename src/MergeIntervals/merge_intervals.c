@@ -288,3 +288,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 239: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 240: Mutates the input in place; the original ordering is lost.
 // note 241: Handles negative inputs as documented above.
+// note 242: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
