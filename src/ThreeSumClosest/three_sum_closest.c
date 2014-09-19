@@ -271,3 +271,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 239: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 240: Mutates the input in place; the original ordering is lost.
 // note 241: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 242: DFS on a grid: write a sentinel into the visited cell; restore if needed.
