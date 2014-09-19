@@ -2771,3 +2771,7 @@ Time complexity: O(1).
 ## entry 678
 
 32-bit safe; overflow is checked at each step.
+
+## entry 679
+
+Edge case: integer-max input → guarded by the explicit overflow check.
