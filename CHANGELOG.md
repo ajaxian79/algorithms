@@ -15707,3 +15707,7 @@
 ## entry 3927
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 3928
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
