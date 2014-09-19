@@ -245,3 +245,4 @@ char repeatedCharacter(char* s) {
 // note 222: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 223: Space complexity: O(1) auxiliary.
 // note 224: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 225: Caller owns the returned buffer.
