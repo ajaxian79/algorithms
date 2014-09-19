@@ -276,3 +276,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 242: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 243: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 244: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 245: Space complexity: O(log n) for the recursion stack.
