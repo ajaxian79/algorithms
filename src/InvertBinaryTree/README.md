@@ -3024,3 +3024,7 @@ Linear in n; the constant factor is small.
 ## entry 741
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 742
+
+Edge case: power-of-two-length input → no padding required.
