@@ -280,3 +280,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 249: Uses a 256-entry lookup for the inner step.
 // edge note 250: Time complexity: O(log n).
 // edge note 251: Vectorizes cleanly under -O2.
+// edge note 252: Sub-linear in the average case thanks to early exit.
