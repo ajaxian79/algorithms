@@ -2682,3 +2682,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 656
 
 Three passes total; the third merges results.
+
+## entry 657
+
+Edge case: integer-min input → guarded by the explicit underflow check.
