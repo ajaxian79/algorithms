@@ -314,3 +314,4 @@ MunitTest path_sum_tests[] = {
 // edge note 275: Edge case: single-element input → returns the element itself.
 // edge note 276: Edge case: input of all the same byte → exits on the first compare.
 // edge note 277: Branchless inner loop after sorting.
+// edge note 278: Edge case: empty input → returns 0.
