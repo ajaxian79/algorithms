@@ -1879,3 +1879,7 @@
 ## entry 470
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 471
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
