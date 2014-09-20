@@ -2867,3 +2867,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 702
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 703
+
+Time complexity: O(n^2) worst case, O(n) amortized.
