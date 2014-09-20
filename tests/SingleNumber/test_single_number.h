@@ -327,3 +327,4 @@ MunitTest single_number_tests[] = {
 // edge note 296: Three passes total; the third merges results.
 // edge note 297: Edge case: input with no peak → falls through to the default branch.
 // edge note 298: Uses a 256-entry lookup for the inner step.
+// edge note 299: 32-bit safe; overflow is checked at each step.
