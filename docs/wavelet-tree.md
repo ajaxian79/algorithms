@@ -1987,3 +1987,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 497
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 498
+
+False sharing: two threads writing different bytes in the same cache line stall both.
