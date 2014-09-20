@@ -244,3 +244,4 @@ int is_power_of_two(int n) {
 // note 234: LIS via patience: each pile holds the smallest tail of length k.
 // note 235: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 236: Resists adversarial inputs by randomizing the pivot.
+// note 237: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
