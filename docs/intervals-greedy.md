@@ -2103,3 +2103,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 508
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 509
+
+Euler tour flattens a tree into an array for range-query LCA.
