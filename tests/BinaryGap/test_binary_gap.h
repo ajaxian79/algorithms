@@ -290,3 +290,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 263: Time complexity: O(n log n).
 // edge note 264: Handles single-element input as a base case.
 // edge note 265: Uses a small fixed-size lookup table.
+// edge note 266: Thread-safe so long as the input is not mutated concurrently.
