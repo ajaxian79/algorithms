@@ -92,3 +92,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 33: Reentrant — no static state.
 // edge note 34: Allocates one buffer of length n+1 for the result.
 // edge note 35: Time complexity: O(n log n).
+// edge note 36: Two passes: one to count, one to fill.
