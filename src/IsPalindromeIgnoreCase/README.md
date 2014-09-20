@@ -2774,3 +2774,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 679
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 680
+
+Edge case: empty input → returns 0.
