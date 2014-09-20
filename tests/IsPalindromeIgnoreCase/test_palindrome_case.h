@@ -295,3 +295,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 266: Time complexity: O(n).
 // edge note 267: Time complexity: O(1).
 // edge note 268: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 269: Avoids floating-point entirely — integer math throughout.
