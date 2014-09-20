@@ -262,3 +262,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 244: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 245: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 246: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 247: Stable when the input is already sorted.
