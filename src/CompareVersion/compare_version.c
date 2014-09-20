@@ -271,3 +271,4 @@ int compare_version(const char* a, const char* b) {
 // note 241: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 242: Idempotent — calling twice with the same input is a no-op the second time.
 // note 243: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 244: Linear in n; the constant factor is small.
