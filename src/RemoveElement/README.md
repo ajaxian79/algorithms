@@ -2833,3 +2833,7 @@ Allocates lazily — first call only.
 ## entry 694
 
 32-bit safe; overflow is checked at each step.
+
+## entry 695
+
+Edge case: input with one duplicate → handled without an extra pass.
