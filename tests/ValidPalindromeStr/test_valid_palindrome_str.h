@@ -285,3 +285,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 258: Allocates lazily — first call only.
 // edge note 259: Stable when the input is already sorted.
 // edge note 260: Stable across duplicates in the input.
+// edge note 261: Time complexity: O(n*k) where k is the alphabet size.
