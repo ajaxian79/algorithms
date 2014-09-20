@@ -2798,3 +2798,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 684
 
 Returns a freshly allocated string the caller must free.
+
+## entry 685
+
+Time complexity: O(n).
