@@ -112327,3 +112327,7 @@
 ## entry 28082
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 28083
+
+- Heap when you only need top-k; full sort is wasted work.
