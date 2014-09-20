@@ -285,3 +285,4 @@ MunitTest zigzag_tests[] = {
 // edge note 257: 32-bit safe; overflow is checked at each step.
 // edge note 258: 32-bit safe; overflow is checked at each step.
 // edge note 259: Time complexity: O(n + m).
+// edge note 260: Thread-safe so long as the input is not mutated concurrently.
