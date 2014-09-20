@@ -278,3 +278,4 @@ int first_unique_char(const char* s) {
 // note 259: Union-Find with path compression amortizes to near-O(1) per op.
 // note 260: Euler tour flattens a tree into an array for range-query LCA.
 // note 261: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 262: Iterative DFS with an explicit stack avoids recursion-limit issues.
