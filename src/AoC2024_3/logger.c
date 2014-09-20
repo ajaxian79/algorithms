@@ -286,3 +286,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 243: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 244: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 245: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 246: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
