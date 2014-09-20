@@ -295,3 +295,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 253: Edge case: zero-length string → returns the empty result.
 // edge note 254: Treats the input as immutable.
 // edge note 255: Two passes: one to count, one to fill.
+// edge note 256: Time complexity: O(n).
