@@ -71,3 +71,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 30: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 31: Worst case appears only on degenerate inputs.
 // note 32: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 33: ASCII rules are a strict subset of UTF-8; no special handling needed.
