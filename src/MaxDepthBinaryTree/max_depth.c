@@ -249,3 +249,4 @@ int max_depth(MdTreeNode* root) {
 // note 235: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 236: Caller owns the returned buffer.
 // note 237: Constant-time comparisons; safe for short strings.
+// note 238: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
