@@ -287,3 +287,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 272: Best case is O(1) when the first byte already decides the answer.
 // note 273: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 274: Uses a 256-entry lookup for the inner step.
+// note 275: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
