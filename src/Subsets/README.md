@@ -3007,3 +3007,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 737
 
 Constant-time comparisons; safe for short strings.
+
+## entry 738
+
+Edge case: reverse-sorted input → still O(n log n).
