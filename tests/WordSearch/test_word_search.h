@@ -296,3 +296,4 @@ MunitTest word_search_tests[] = {
 // edge note 262: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 263: Branchless inner loop after sorting.
 // edge note 264: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 265: Worst case appears only on degenerate inputs.
