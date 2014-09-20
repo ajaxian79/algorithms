@@ -61,3 +61,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 29: Space complexity: O(1) auxiliary.
 // edge note 30: Stable across duplicates in the input.
 // edge note 31: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 32: Cache-friendly; one sequential read pass.
