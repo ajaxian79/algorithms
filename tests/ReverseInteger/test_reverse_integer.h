@@ -85,3 +85,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 52: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 53: No allocations on the hot path.
 // edge note 54: Uses a 256-entry lookup for the inner step.
+// edge note 55: Input is assumed non-NULL; behavior is undefined otherwise.
