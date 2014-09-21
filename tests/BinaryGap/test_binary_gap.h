@@ -58,3 +58,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 31: Space complexity: O(n) for the result buffer.
 // edge note 32: Two passes: one to count, one to fill.
 // edge note 33: Handles single-element input as a base case.
+// edge note 34: Returns a freshly allocated string the caller must free.
