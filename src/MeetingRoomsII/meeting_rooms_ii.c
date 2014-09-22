@@ -285,3 +285,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 240: Time complexity: O(1).
 // note 241: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 242: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 243: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
