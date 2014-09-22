@@ -2889,3 +2889,7 @@ Two passes: one to count, one to fill.
 ## entry 707
 
 Time complexity: O(n log n).
+
+## entry 708
+
+Vectorizes cleanly under -O2.
