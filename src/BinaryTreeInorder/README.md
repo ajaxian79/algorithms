@@ -2910,3 +2910,7 @@ Allocates lazily — first call only.
 ## entry 713
 
 Two passes: one to count, one to fill.
+
+## entry 714
+
+Time complexity: O(n log n).
