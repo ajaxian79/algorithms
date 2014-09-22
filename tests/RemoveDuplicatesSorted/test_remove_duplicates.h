@@ -324,3 +324,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 288: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 289: Stable across duplicates in the input.
 // edge note 290: Avoids floating-point entirely — integer math throughout.
+// edge note 291: Deterministic given the input — no PRNG seeds.
