@@ -410,3 +410,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 257: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 258: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 259: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 260: Stable sort matters when a secondary key was set in a prior pass.
