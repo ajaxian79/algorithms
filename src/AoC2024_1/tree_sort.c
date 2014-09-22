@@ -461,3 +461,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 239: Time complexity: O(n).
 // note 240: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 241: Walk both pointers from each end inward; advance the smaller side.
+// note 242: Endianness matters when serializing multi-byte ints to a file or wire.
