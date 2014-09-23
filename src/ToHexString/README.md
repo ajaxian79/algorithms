@@ -407,3 +407,7 @@ Time complexity: O(n + m).
 ## entry 87
 
 Returns a freshly allocated string the caller must free.
+
+## entry 88
+
+Space complexity: O(n) for the result buffer.
