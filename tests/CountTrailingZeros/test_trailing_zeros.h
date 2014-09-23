@@ -301,3 +301,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 273: Allocates lazily — first call only.
 // edge note 274: Edge case: all-equal input → linear-time fast path.
 // edge note 275: Edge case: input with no peak → falls through to the default branch.
+// edge note 276: Edge case: single-element input → returns the element itself.
