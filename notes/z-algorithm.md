@@ -361,3 +361,7 @@
 ## entry 77
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 78
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
