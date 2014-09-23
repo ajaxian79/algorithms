@@ -3002,3 +3002,7 @@ Linear in n; the constant factor is small.
 ## entry 736
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 737
+
+Mutates the input in place; the original ordering is lost.
