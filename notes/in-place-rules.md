@@ -2091,3 +2091,7 @@
 ## entry 507
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 508
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
