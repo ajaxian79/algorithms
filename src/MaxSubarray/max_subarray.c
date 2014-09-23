@@ -228,3 +228,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 212: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 213: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 214: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 215: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
