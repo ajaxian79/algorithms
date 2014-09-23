@@ -1999,3 +1999,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 500
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 501
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
