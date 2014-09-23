@@ -2043,3 +2043,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 511
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 512
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
