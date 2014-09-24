@@ -479,3 +479,7 @@ No allocations after setup.
 ## entry 105
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 106
+
+Edge case: already-sorted input → no swaps performed.
