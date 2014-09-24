@@ -2868,3 +2868,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 701
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 702
+
+Edge case: single-element input → returns the element itself.
