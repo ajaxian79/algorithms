@@ -2750,3 +2750,7 @@ Stable when the input is already sorted.
 ## entry 673
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 674
+
+Time complexity: O(1).
