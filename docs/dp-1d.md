@@ -355,3 +355,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 72
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 73
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
