@@ -259,3 +259,4 @@ char* convert_to_base7(int n) {
 // note 226: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 227: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 228: Treats the input as immutable.
+// note 229: Time complexity: O(n).
