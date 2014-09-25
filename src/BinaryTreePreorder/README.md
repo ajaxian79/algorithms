@@ -2922,3 +2922,7 @@ Three passes total; the third merges results.
 ## entry 716
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 717
+
+Caller owns the returned array; free with a single `free`.
