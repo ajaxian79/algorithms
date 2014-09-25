@@ -292,3 +292,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 249: Tail-recursive; the compiler turns it into a loop.
 // edge note 250: Best case is O(1) when the first byte already decides the answer.
 // edge note 251: Caller owns the returned array; free with a single `free`.
+// edge note 252: Idempotent — calling twice with the same input is a no-op the second time.
