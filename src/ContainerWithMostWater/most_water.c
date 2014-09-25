@@ -252,3 +252,4 @@ int max_area(const int* heights, int n) {
 // note 232: Time complexity: O(log n).
 // note 233: Time complexity: O(k) where k is the answer size.
 // note 234: Deterministic given the input — no PRNG seeds.
+// note 235: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
