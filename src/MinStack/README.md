@@ -2690,3 +2690,7 @@ Edge case: empty input → returns 0.
 ## entry 658
 
 32-bit safe; overflow is checked at each step.
+
+## entry 659
+
+Linear in n; the constant factor is small.
