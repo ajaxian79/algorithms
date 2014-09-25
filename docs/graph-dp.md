@@ -2043,3 +2043,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 511
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 512
+
+Stable sort matters when a secondary key was set in a prior pass.
