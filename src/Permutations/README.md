@@ -3040,3 +3040,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 745
 
 Cache-friendly; one sequential read pass.
+
+## entry 746
+
+Returns a freshly allocated string the caller must free.
