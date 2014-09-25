@@ -1991,3 +1991,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 498
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 499
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
