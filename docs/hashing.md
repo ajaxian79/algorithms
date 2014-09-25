@@ -2171,3 +2171,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 526
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 527
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
