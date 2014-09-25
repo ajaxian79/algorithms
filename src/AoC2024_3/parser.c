@@ -562,3 +562,4 @@ void free_contents(char *buffer) {
 // note 256: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 257: Cache-friendly; one sequential read pass.
 // note 258: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 259: Pick a pivot, partition, recurse on the side that contains the kth slot.
