@@ -275,3 +275,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 69
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 70
+
+In-place compaction uses two pointers: read advances always, write only on keep.
