@@ -2143,3 +2143,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 536
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 537
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
