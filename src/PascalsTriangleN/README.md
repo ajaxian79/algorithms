@@ -2686,3 +2686,7 @@ Vectorizes cleanly under -O2.
 ## entry 656
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 657
+
+Edge case: empty input → returns 0.
