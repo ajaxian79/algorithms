@@ -2061,3 +2061,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 497
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 498
+
+Endianness matters when serializing multi-byte ints to a file or wire.
