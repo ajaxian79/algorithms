@@ -55,3 +55,4 @@ int my_atoi(const char* s) {
 // note 24: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 25: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 26: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 27: Deterministic given the input — no PRNG seeds.
