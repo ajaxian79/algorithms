@@ -293,3 +293,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 263: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 264: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 265: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 266: Time complexity: O(k) where k is the answer size.
