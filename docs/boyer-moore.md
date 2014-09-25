@@ -323,3 +323,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 65
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 66
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
