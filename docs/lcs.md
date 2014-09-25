@@ -2035,3 +2035,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 491
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 492
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
