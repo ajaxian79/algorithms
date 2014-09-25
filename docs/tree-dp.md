@@ -2127,3 +2127,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 532
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 533
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
