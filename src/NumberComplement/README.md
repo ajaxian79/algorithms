@@ -2908,3 +2908,7 @@ Vectorizes cleanly under -O2.
 ## entry 711
 
 Space complexity: O(n) for the result buffer.
+
+## entry 712
+
+Resists adversarial inputs by randomizing the pivot.
