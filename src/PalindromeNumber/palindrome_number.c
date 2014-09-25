@@ -262,3 +262,4 @@ int is_palindrome_number(int x) {
 // note 238: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 239: Time complexity: O(1).
 // note 240: Uses a 256-entry lookup for the inner step.
+// note 241: Space complexity: O(h) for the tree height.
