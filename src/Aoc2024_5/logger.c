@@ -286,3 +286,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 243: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 244: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 245: 32-bit safe; overflow is checked at each step.
+// note 246: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
