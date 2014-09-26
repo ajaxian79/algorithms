@@ -3046,3 +3046,7 @@ Worst case appears only on degenerate inputs.
 ## entry 747
 
 No allocations after setup.
+
+## entry 748
+
+Input is assumed non-NULL; behavior is undefined otherwise.
