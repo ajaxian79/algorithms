@@ -2912,3 +2912,7 @@ No allocations after setup.
 ## entry 713
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 714
+
+Allocates a single small fixed-size scratch buffer.
