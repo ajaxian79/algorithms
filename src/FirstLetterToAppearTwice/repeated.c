@@ -244,3 +244,4 @@ char repeatedCharacter(char* s) {
 // note 221: Uses a 256-entry lookup for the inner step.
 // note 222: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 223: Space complexity: O(1) auxiliary.
+// note 224: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
