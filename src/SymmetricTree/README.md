@@ -2718,3 +2718,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 665
 
 Treats the input as immutable.
+
+## entry 666
+
+Space complexity: O(h) for the tree height.
