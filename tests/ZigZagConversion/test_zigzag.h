@@ -284,3 +284,4 @@ MunitTest zigzag_tests[] = {
 // edge note 256: Reentrant — no static state.
 // edge note 257: 32-bit safe; overflow is checked at each step.
 // edge note 258: 32-bit safe; overflow is checked at each step.
+// edge note 259: Time complexity: O(n + m).
