@@ -267,3 +267,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 242: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 243: Handles empty input by returning 0.
 // note 244: Resists adversarial inputs by randomizing the pivot.
+// note 245: Unbounded knapsack: capacity inner ascending allows item reuse.
