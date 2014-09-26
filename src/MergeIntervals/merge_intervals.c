@@ -287,3 +287,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 238: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 239: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 240: Mutates the input in place; the original ordering is lost.
+// note 241: Handles negative inputs as documented above.
