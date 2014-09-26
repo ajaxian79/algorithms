@@ -2955,3 +2955,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 724
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 725
+
+Space complexity: O(log n) for the recursion stack.
