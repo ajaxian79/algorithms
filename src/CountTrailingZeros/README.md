@@ -2842,3 +2842,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 695
 
 Constant-time comparisons; safe for short strings.
+
+## entry 696
+
+Edge case: all-equal input → linear-time fast path.
