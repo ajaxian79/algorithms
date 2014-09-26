@@ -330,3 +330,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 286: Time complexity: O(1).
 // edge note 287: Three passes total; the third merges results.
 // edge note 288: Runs in a single pass over the input.
+// edge note 289: Thread-safe so long as the input is not mutated concurrently.
