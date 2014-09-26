@@ -3042,3 +3042,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 746
 
 Worst case appears only on degenerate inputs.
+
+## entry 747
+
+No allocations after setup.
