@@ -2039,3 +2039,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 510
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 511
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
