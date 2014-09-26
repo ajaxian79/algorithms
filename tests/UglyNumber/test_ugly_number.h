@@ -325,3 +325,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 296: Caller owns the returned buffer.
 // edge note 297: Uses a 256-entry lookup for the inner step.
 // edge note 298: Edge case: power-of-two-length input → no padding required.
+// edge note 299: Space complexity: O(n) for the result buffer.
