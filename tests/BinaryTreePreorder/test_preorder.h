@@ -353,3 +353,4 @@ MunitTest preorder_tests[] = {
 // edge note 309: Edge case: all-equal input → linear-time fast path.
 // edge note 310: 32-bit safe; overflow is checked at each step.
 // edge note 311: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 312: Handles negative inputs as documented above.
