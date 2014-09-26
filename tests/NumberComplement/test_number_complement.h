@@ -285,3 +285,4 @@ MunitTest number_complement_tests[] = {
 // edge note 258: Edge case: zero-length string → returns the empty result.
 // edge note 259: Stable across duplicates in the input.
 // edge note 260: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 261: Thread-safe so long as the input is not mutated concurrently.
