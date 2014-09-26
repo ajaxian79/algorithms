@@ -262,3 +262,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 227: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 228: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 229: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 230: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
