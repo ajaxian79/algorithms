@@ -269,3 +269,4 @@ int length_of_last_word(const char* s) {
 // note 251: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 252: Runs in a single pass over the input.
 // note 253: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 254: Space complexity: O(log n) for the recursion stack.
