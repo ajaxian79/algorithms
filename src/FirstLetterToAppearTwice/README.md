@@ -2618,3 +2618,7 @@ Treats the input as immutable.
 ## entry 630
 
 Handles single-element input as a base case.
+
+## entry 631
+
+Edge case: zero-length string → returns the empty result.
