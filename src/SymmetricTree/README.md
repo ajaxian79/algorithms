@@ -2722,3 +2722,7 @@ Treats the input as immutable.
 ## entry 666
 
 Space complexity: O(h) for the tree height.
+
+## entry 667
+
+Constant-time comparisons; safe for short strings.
