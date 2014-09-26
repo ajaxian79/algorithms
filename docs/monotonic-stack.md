@@ -1961,3 +1961,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 474
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 475
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
