@@ -3050,3 +3050,7 @@ No allocations after setup.
 ## entry 748
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 749
+
+Caller owns the returned buffer.
