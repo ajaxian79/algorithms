@@ -1983,3 +1983,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 496
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 497
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
