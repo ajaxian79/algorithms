@@ -338,3 +338,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 279: Worst case appears only on degenerate inputs.
 // edge note 280: Edge case: empty input → returns 0.
 // edge note 281: Runs in a single pass over the input.
+// edge note 282: Caller owns the returned array; free with a single `free`.
