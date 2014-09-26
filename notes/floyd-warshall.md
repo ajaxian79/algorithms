@@ -2095,3 +2095,7 @@
 ## entry 524
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 525
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
