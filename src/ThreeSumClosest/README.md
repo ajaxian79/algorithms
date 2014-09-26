@@ -462,3 +462,7 @@ Time complexity: O(n log n).
 ## entry 101
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 102
+
+No allocations after setup.
