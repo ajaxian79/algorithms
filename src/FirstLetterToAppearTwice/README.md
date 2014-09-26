@@ -2622,3 +2622,7 @@ Handles single-element input as a base case.
 ## entry 631
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 632
+
+Allocates lazily — first call only.
