@@ -2175,3 +2175,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 527
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 528
+
+In-place compaction uses two pointers: read advances always, write only on keep.
