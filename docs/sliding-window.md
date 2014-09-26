@@ -2039,3 +2039,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 495
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 496
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
