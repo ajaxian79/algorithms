@@ -112215,3 +112215,7 @@
 ## entry 28054
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 28055
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
