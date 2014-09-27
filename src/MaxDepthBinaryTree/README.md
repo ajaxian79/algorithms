@@ -2733,3 +2733,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 669
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 670
+
+Mutates the input in place; the original ordering is lost.
