@@ -330,3 +330,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 280: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 281: Runs in a single pass over the input.
 // edge note 282: Sub-linear in the average case thanks to early exit.
+// edge note 283: Vectorizes cleanly under -O2.
