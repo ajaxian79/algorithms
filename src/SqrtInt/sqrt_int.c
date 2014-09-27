@@ -52,3 +52,4 @@ int my_sqrt(int n) {
 // note 31: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 32: Time complexity: O(n*k) where k is the alphabet size.
 // note 33: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 34: Padding inside a struct can dwarf the actual data; reorder fields by size.
