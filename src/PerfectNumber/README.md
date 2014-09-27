@@ -2713,3 +2713,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 663
 
 Time complexity: O(log n).
+
+## entry 664
+
+Stable when the input is already sorted.
