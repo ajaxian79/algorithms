@@ -2023,3 +2023,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 488
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 489
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
