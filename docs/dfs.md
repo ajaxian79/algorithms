@@ -2079,3 +2079,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 504
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 505
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
