@@ -112207,3 +112207,7 @@
 ## entry 28052
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 28053
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
