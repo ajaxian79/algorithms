@@ -1915,3 +1915,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 479
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 480
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
