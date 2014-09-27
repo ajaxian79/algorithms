@@ -112211,3 +112211,7 @@
 ## entry 28053
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 28054
+
+- Heap when you only need top-k; full sort is wasted work.
