@@ -112219,3 +112219,7 @@
 ## entry 28055
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 28056
+
+- Union-Find with path compression amortizes to near-O(1) per op.
