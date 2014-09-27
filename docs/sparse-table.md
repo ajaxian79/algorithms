@@ -1939,3 +1939,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 485
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 486
+
+Articulation points: same DFS as bridges, with a slightly different test.
