@@ -2908,3 +2908,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 712
 
 No allocations after setup.
+
+## entry 713
+
+Best case is O(1) when the first byte already decides the answer.
