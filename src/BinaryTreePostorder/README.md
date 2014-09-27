@@ -2782,3 +2782,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 681
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 682
+
+Input is assumed non-NULL; behavior is undefined otherwise.
