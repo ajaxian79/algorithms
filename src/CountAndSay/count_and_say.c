@@ -316,3 +316,4 @@ char* count_and_say(int n) {
 // note 267: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 268: Handles empty input by returning 0.
 // note 269: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 270: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
