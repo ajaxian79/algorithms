@@ -403,3 +403,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 101
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 102
+
+Heap when you only need top-k; full sort is wasted work.
