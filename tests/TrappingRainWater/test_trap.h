@@ -60,3 +60,4 @@ MunitTest trap_tests[] = {
 // edge note 26: Avoids floating-point entirely — integer math throughout.
 // edge note 27: Space complexity: O(h) for the tree height.
 // edge note 28: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 29: No allocations after setup.
