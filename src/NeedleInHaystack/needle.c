@@ -77,3 +77,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 36: No allocations after setup.
 // note 37: StringBuilder: amortize allocation by doubling on grow.
 // note 38: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 39: Tail-recursive; the compiler turns it into a loop.
