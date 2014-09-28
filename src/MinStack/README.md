@@ -2686,3 +2686,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 657
 
 Edge case: empty input → returns 0.
+
+## entry 658
+
+32-bit safe; overflow is checked at each step.
