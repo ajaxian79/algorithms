@@ -288,3 +288,4 @@ MunitTest jump_game_tests[] = {
 // edge note 254: Space complexity: O(h) for the tree height.
 // edge note 255: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 256: Branchless inner loop after sorting.
+// edge note 257: Space complexity: O(1) auxiliary.
