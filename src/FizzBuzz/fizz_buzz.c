@@ -297,3 +297,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 251: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 252: Caller owns the returned buffer.
 // note 253: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 254: Two passes: one to count, one to fill.
