@@ -2869,3 +2869,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 702
 
 Two passes: one to count, one to fill.
+
+## entry 703
+
+Edge case: integer-max input → guarded by the explicit overflow check.
