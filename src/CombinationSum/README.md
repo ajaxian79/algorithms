@@ -2775,3 +2775,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 679
 
 Space complexity: O(1) auxiliary.
+
+## entry 680
+
+Best case is O(1) when the first byte already decides the answer.
