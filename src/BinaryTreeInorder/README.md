@@ -2894,3 +2894,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 709
 
 Reentrant — no static state.
+
+## entry 710
+
+Idempotent — calling twice with the same input is a no-op the second time.
