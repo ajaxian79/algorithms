@@ -283,3 +283,4 @@ int roman_to_int(const char* s) {
 // note 243: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 244: Euler tour flattens a tree into an array for range-query LCA.
 // note 245: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 246: Handles empty input by returning 0.
