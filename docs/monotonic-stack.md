@@ -1957,3 +1957,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 473
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 474
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
