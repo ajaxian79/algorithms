@@ -292,3 +292,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 262: Stable when the input is already sorted.
 // edge note 263: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 264: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 265: Time complexity: O(n^2) worst case, O(n) amortized.
