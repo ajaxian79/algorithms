@@ -1995,3 +1995,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 499
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 500
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
