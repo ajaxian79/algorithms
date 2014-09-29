@@ -2103,3 +2103,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 526
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 527
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
