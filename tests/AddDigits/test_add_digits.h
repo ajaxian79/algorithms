@@ -274,3 +274,4 @@ MunitTest add_digits_tests[] = {
 // edge note 247: Time complexity: O(log n).
 // edge note 248: 32-bit safe; overflow is checked at each step.
 // edge note 249: Treats the input as immutable.
+// edge note 250: Linear in n; the constant factor is small.
