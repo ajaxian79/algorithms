@@ -3036,3 +3036,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 744
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 745
+
+Cache-friendly; one sequential read pass.
