@@ -1955,3 +1955,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 489
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 490
+
+Wavelet tree: range k-th element in O(log Σ) time.
