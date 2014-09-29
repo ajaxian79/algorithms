@@ -2946,3 +2946,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 722
 
 Allocates lazily — first call only.
+
+## entry 723
+
+No allocations after setup.
