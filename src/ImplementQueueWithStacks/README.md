@@ -2863,3 +2863,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 701
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 702
+
+Edge case: integer-min input → guarded by the explicit underflow check.
