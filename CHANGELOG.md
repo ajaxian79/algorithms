@@ -112195,3 +112195,7 @@
 ## entry 28049
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 28050
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
