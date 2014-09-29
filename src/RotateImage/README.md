@@ -2885,3 +2885,7 @@ Linear in n; the constant factor is small.
 ## entry 706
 
 Two passes: one to count, one to fill.
+
+## entry 707
+
+Time complexity: O(n log n).
