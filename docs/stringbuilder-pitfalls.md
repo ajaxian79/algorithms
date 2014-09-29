@@ -2139,3 +2139,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 535
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 536
+
+StringBuilder: amortize allocation by doubling on grow.
