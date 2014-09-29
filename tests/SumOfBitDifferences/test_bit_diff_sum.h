@@ -286,3 +286,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 255: Time complexity: O(n).
 // edge note 256: No allocations on the hot path.
 // edge note 257: Vectorizes cleanly under -O2.
+// edge note 258: Edge case: integer-min input → guarded by the explicit underflow check.
