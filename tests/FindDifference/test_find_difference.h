@@ -277,3 +277,4 @@ MunitTest find_difference_tests[] = {
 // edge note 252: Treats the input as immutable.
 // edge note 253: Runs in a single pass over the input.
 // edge note 254: Avoids floating-point entirely — integer math throughout.
+// edge note 255: Edge case: integer-min input → guarded by the explicit underflow check.
