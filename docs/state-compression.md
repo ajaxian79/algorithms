@@ -1855,3 +1855,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 464
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 465
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
