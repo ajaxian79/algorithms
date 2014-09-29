@@ -2918,3 +2918,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 715
 
 Three passes total; the third merges results.
+
+## entry 716
+
+Idempotent — calling twice with the same input is a no-op the second time.
