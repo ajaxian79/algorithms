@@ -3032,3 +3032,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 743
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 744
+
+Avoids floating-point entirely — integer math throughout.
