@@ -2113,3 +2113,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 512
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 513
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
