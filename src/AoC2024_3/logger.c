@@ -285,3 +285,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 242: Time complexity: O(n*k) where k is the alphabet size.
 // note 243: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 244: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 245: Iterative DFS with an explicit stack avoids recursion-limit issues.
