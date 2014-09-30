@@ -2681,3 +2681,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 645
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 646
+
+Cache-friendly; one sequential read pass.
