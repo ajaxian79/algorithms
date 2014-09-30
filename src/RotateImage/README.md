@@ -2881,3 +2881,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 705
 
 Linear in n; the constant factor is small.
+
+## entry 706
+
+Two passes: one to count, one to fill.
