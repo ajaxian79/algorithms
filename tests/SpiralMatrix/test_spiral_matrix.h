@@ -307,3 +307,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 264: Resists adversarial inputs by randomizing the pivot.
 // edge note 265: Vectorizes cleanly under -O2.
 // edge note 266: Uses a small fixed-size lookup table.
+// edge note 267: Edge case: reverse-sorted input → still O(n log n).
