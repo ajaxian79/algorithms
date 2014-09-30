@@ -2742,3 +2742,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 671
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 672
+
+Stable when the input is already sorted.
