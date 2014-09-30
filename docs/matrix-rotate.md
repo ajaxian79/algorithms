@@ -1965,3 +1965,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 475
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 476
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
