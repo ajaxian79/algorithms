@@ -3038,3 +3038,7 @@ Reentrant — no static state.
 ## entry 745
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 746
+
+Worst case appears only on degenerate inputs.
