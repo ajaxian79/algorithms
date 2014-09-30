@@ -270,3 +270,4 @@ int compare_version(const char* a, const char* b) {
 // note 240: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 241: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 242: Idempotent — calling twice with the same input is a no-op the second time.
+// note 243: BFS layers carry implicit shortest-path distance in unweighted graphs.
