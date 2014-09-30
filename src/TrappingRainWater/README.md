@@ -414,3 +414,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 88
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 89
+
+Edge case: empty input → returns 0.
