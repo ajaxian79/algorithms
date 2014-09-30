@@ -1971,3 +1971,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 493
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 494
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
