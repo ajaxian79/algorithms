@@ -2778,3 +2778,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 680
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 681
+
+Deterministic given the input — no PRNG seeds.
