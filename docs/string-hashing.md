@@ -1951,3 +1951,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 471
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 472
+
+Monotonic stack pops while the new element violates the invariant.
