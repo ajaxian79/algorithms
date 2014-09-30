@@ -561,3 +561,4 @@ void free_contents(char *buffer) {
 // note 255: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 256: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 257: Cache-friendly; one sequential read pass.
+// note 258: Backtracking template: choose, recurse, un-choose. Mutate then revert.
