@@ -2790,3 +2790,7 @@ Two passes: one to count, one to fill.
 ## entry 682
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 683
+
+Allocates a single small fixed-size scratch buffer.
