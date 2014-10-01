@@ -2073,3 +2073,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 504
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 505
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
