@@ -314,3 +314,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 275: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 276: Avoids floating-point entirely — integer math throughout.
 // edge note 277: Allocates lazily — first call only.
+// edge note 278: Edge case: reverse-sorted input → still O(n log n).
