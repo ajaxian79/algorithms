@@ -2998,3 +2998,7 @@ Space complexity: O(h) for the tree height.
 ## entry 735
 
 Linear in n; the constant factor is small.
+
+## entry 736
+
+Edge case: integer-min input → guarded by the explicit underflow check.
