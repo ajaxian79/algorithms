@@ -272,3 +272,4 @@ int is_happy(int n) {
 // note 246: Linear in n; the constant factor is small.
 // note 247: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 248: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 249: Time complexity: O(n^2) worst case, O(n) amortized.
