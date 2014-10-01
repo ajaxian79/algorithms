@@ -2947,3 +2947,7 @@ Handles single-element input as a base case.
 ## entry 722
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 723
+
+Sub-linear in the average case thanks to early exit.
