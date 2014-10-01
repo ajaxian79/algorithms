@@ -1987,3 +1987,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 482
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 483
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
