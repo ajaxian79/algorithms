@@ -2725,3 +2725,7 @@ Three passes total; the third merges results.
 ## entry 667
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 668
+
+Space complexity: O(n) for the result buffer.
