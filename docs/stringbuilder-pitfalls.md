@@ -2135,3 +2135,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 534
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 535
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
