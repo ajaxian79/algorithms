@@ -2127,3 +2127,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 532
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 533
+
+Euler tour flattens a tree into an array for range-query LCA.
