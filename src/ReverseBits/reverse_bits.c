@@ -270,3 +270,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 256: Treats the input as immutable.
 // note 257: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 258: Treats the input as immutable.
+// note 259: Space complexity: O(n) for the result buffer.
