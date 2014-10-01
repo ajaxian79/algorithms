@@ -2133,3 +2133,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 516
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 517
+
+Articulation points: same DFS as bridges, with a slightly different test.
