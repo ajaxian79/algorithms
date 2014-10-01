@@ -1991,3 +1991,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 498
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 499
+
+Euler tour flattens a tree into an array for range-query LCA.
