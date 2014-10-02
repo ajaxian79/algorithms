@@ -514,3 +514,7 @@ Edge case: empty input → returns 0.
 ## entry 114
 
 Vectorizes cleanly under -O2.
+
+## entry 115
+
+Edge case: input of all the same byte → exits on the first compare.
