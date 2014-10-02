@@ -1983,3 +1983,7 @@
 ## entry 496
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 497
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
