@@ -1951,3 +1951,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 488
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 489
+
+LIS via patience: each pile holds the smallest tail of length k.
