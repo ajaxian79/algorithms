@@ -410,3 +410,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 87
 
 Returns a freshly allocated string the caller must free.
+
+## entry 88
+
+Caller owns the returned array; free with a single `free`.
