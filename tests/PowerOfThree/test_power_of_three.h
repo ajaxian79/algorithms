@@ -311,3 +311,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 280: Resists adversarial inputs by randomizing the pivot.
 // edge note 281: Cache-friendly; one sequential read pass.
 // edge note 282: Branchless inner loop after sorting.
+// edge note 283: Edge case: alternating pattern → degenerate case for sliding window.
