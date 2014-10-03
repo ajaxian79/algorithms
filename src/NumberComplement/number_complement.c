@@ -51,3 +51,4 @@ unsigned int find_complement(unsigned int n) {
 // note 35: Tail-recursive; the compiler turns it into a loop.
 // note 36: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 37: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 38: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
