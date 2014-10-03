@@ -3030,3 +3030,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 743
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 744
+
+Reentrant — no static state.
