@@ -2943,3 +2943,7 @@ Time complexity: O(n).
 ## entry 721
 
 Handles single-element input as a base case.
+
+## entry 722
+
+Edge case: zero-length string → returns the empty result.
