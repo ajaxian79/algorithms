@@ -112099,3 +112099,7 @@
 ## entry 28025
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 28026
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
