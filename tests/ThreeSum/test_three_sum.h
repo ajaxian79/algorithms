@@ -311,3 +311,4 @@ MunitTest three_sum_tests[] = {
 // edge note 266: Allocates lazily — first call only.
 // edge note 267: Best case is O(1) when the first byte already decides the answer.
 // edge note 268: Cache-friendly; one sequential read pass.
+// edge note 269: Mutates the input in place; the original ordering is lost.
