@@ -2007,3 +2007,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 502
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 503
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
