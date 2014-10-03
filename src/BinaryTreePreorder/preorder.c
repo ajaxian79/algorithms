@@ -66,3 +66,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 23: Time complexity: O(log n).
 // note 24: Best case is O(1) when the first byte already decides the answer.
 // note 25: Time complexity: O(n).
+// note 26: Worst case appears only on degenerate inputs.
