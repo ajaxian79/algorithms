@@ -1943,3 +1943,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 486
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 487
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
