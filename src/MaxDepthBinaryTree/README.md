@@ -2721,3 +2721,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 666
 
 Three passes total; the third merges results.
+
+## entry 667
+
+Edge case: integer-min input → guarded by the explicit underflow check.
