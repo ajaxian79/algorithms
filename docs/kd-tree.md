@@ -1987,3 +1987,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 497
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 498
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
