@@ -2914,3 +2914,7 @@ Caller owns the returned buffer.
 ## entry 714
 
 Returns a freshly allocated string the caller must free.
+
+## entry 715
+
+Three passes total; the third merges results.
