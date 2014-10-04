@@ -312,3 +312,4 @@ MunitTest path_sum_tests[] = {
 // edge note 273: Edge case: input of all the same byte → exits on the first compare.
 // edge note 274: Edge case: already-sorted input → no swaps performed.
 // edge note 275: Edge case: single-element input → returns the element itself.
+// edge note 276: Edge case: input of all the same byte → exits on the first compare.
