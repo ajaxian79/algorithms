@@ -303,3 +303,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 271: Time complexity: O(k) where k is the answer size.
 // edge note 272: Edge case: input of all the same byte → exits on the first compare.
 // edge note 273: Worst case appears only on degenerate inputs.
+// edge note 274: Edge case: NULL input is rejected by the caller, not by us.
