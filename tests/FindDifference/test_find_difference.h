@@ -276,3 +276,4 @@ MunitTest find_difference_tests[] = {
 // edge note 251: Edge case: power-of-two-length input → no padding required.
 // edge note 252: Treats the input as immutable.
 // edge note 253: Runs in a single pass over the input.
+// edge note 254: Avoids floating-point entirely — integer math throughout.
