@@ -2678,3 +2678,7 @@ No allocations after setup.
 ## entry 654
 
 Caller owns the returned buffer.
+
+## entry 655
+
+Vectorizes cleanly under -O2.
