@@ -1967,3 +1967,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 492
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 493
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
