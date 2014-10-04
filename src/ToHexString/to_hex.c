@@ -250,3 +250,4 @@ char* to_hex_string(int n) {
 // note 217: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 218: Allocates a single small fixed-size scratch buffer.
 // note 219: Handles empty input by returning 0.
+// note 220: Hash collision: chain or open-address; chained handles arbitrary load factor.
