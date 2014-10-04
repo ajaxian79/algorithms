@@ -276,3 +276,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 260: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 261: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 262: Splay tree: every access splays to the root; amortized O(log n).
+// note 263: Euler tour flattens a tree into an array for range-query LCA.
