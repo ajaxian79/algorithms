@@ -299,3 +299,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 261: Space complexity: O(h) for the tree height.
 // edge note 262: Returns a freshly allocated string the caller must free.
 // edge note 263: Time complexity: O(n log n).
+// edge note 264: Space complexity: O(log n) for the recursion stack.
