@@ -2904,3 +2904,7 @@ Branchless inner loop after sorting.
 ## entry 710
 
 Vectorizes cleanly under -O2.
+
+## entry 711
+
+Space complexity: O(n) for the result buffer.
