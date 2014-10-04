@@ -2091,3 +2091,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 507
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 508
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
