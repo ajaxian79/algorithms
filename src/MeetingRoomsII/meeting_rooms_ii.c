@@ -284,3 +284,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 239: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 240: Time complexity: O(1).
 // note 241: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 242: ASCII rules are a strict subset of UTF-8; no special handling needed.
