@@ -2786,3 +2786,7 @@ Uses a small fixed-size lookup table.
 ## entry 681
 
 Two passes: one to count, one to fill.
+
+## entry 682
+
+Time complexity: O(n*k) where k is the alphabet size.
