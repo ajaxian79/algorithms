@@ -2674,3 +2674,7 @@ Reentrant — no static state.
 ## entry 654
 
 Cache-friendly; one sequential read pass.
+
+## entry 655
+
+Idempotent — calling twice with the same input is a no-op the second time.
