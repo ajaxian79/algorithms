@@ -367,3 +367,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 231: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 232: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 233: Runs in a single pass over the input.
+// note 234: Hash collision: chain or open-address; chained handles arbitrary load factor.
