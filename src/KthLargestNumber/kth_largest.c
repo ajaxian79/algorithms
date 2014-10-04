@@ -275,3 +275,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 231: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 232: Resists adversarial inputs by randomizing the pivot.
 // note 233: Constant-time comparisons; safe for short strings.
+// note 234: LCA via binary lifting: jump up powers of two until depths match, then converge.
