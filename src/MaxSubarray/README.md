@@ -2934,3 +2934,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 719
 
 Stable when the input is already sorted.
+
+## entry 720
+
+Edge case: NULL input is rejected by the caller, not by us.
