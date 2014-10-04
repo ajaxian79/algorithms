@@ -112079,3 +112079,7 @@
 ## entry 28020
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 28021
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
