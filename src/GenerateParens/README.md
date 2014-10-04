@@ -2864,3 +2864,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 700
 
 Space complexity: O(n) for the result buffer.
+
+## entry 701
+
+Caller owns the returned array; free with a single `free`.
